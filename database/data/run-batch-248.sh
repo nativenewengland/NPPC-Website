@@ -60,7 +60,7 @@ foreach ($payload["entries"] as $entry) {
         "prisoner.era" => "required|in:1960s",
         "prisoner.in_custody" => "required|boolean|declined",
         "prisoner.released" => "required|boolean|accepted",
-        "prisoner.website" => "required|url",
+        "prisoner.website" => "prohibited",
         "prisoner.cases" => "required|array|size:1",
         "prisoner.cases.*.charges" => "required|string",
         "prisoner.cases.*.convicted" => "required|string",

@@ -1,0 +1,105 @@
+{
+  "batch": 249,
+  "expected_count": 4,
+  "subject": "1965 national-monuments defendants: portraits, verified dates, and removal of case-source website links",
+  "research_date": "2026-09-07",
+  "prerequisite": "Batch 248 and all earlier pending batches",
+  "website_policy": "Website is for a verified personal or support website. No such site was verified for the three batch-248 additions. Clear only the exact research URLs mistakenly inserted by that batch; preserve any different replacement. The original batch-248 payload also omits these links on replay.",
+  "sources": [
+    {
+      "id": "portraits",
+      "title": "Associated Press wirephoto, Charged With Bomb Plot On National Shrines, Big Spring Daily Herald, February 17, 1965, page 1",
+      "url": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/589f0ba8-6568-4119-8843-9078ee515de6/content",
+      "supports": "The printed caption identifies Michelle Duclos, Khaleel S. Sayyed, Walter A. Bowe and Robert Steele Collier in that order from left to right. Three portraits were extracted and visually checked; Collier's existing portrait is preserved.",
+      "credits_file": "database/data/photos/CREDITS-monuments-1965.md"
+    },
+    {
+      "id": "duclos-obituary",
+      "title": "DUCLOS MICHELLE, Le Soleil death notice, December 30, 2017 listing",
+      "url": "https://necrologie.cn2i.ca/?page=3451",
+      "supports": "The indexed notice lists 1938-2017 and states death at Hopital du Saint-Sacrement on December 18, 2017, aged 79. No birth month or day is given. The listing was verified through indexed search text; a stable individual-notice URL was not recovered."
+    },
+    {
+      "id": "duclos-identity",
+      "title": "Michelle Duclos, Wikipedia biography",
+      "url": "https://en.wikipedia.org/wiki/Michelle_Duclos",
+      "supports": "Connects the 1938 birth year and December 18, 2017 death date to the Quebec independence activist arrested in the 1965 monuments case. Used for identity corroboration with the published death notice."
+    },
+    {
+      "id": "collier-remembrance",
+      "title": "C. Hannibal Smith, Remembrance: Bob Collier, 73, February 25, 2010",
+      "url": "https://channibalsmith.com/2010/02/25/remembrance-bob-collier-73/",
+      "supports": "His godson's remembrance reports Collier's death at age 73 and identifies his Black Panther and Panther 21 history. The publication date is not the date of death. Its linked Poughkeepsie Journal article was not recovered, so no exact death date is entered."
+    },
+    {
+      "id": "bowe-sayyed-2024",
+      "title": "Black News & Views, Two allege authorities arrested them to stop them from protecting Malcolm X, February 2024",
+      "url": "https://blacknewsandviews.com/two-allege-authorities-arrested-them-to-stop-them-from-protecting-malcolm-x/",
+      "supports": "Documents Bowe and Sayyed alive in February 2024. This is dated evidence, not proof of their present status or exact birth dates."
+    }
+  ],
+  "research_limits": [
+    "Duclos's birth year is stored with year precision through setPartialDate. Her death date has day precision.",
+    "Bowe and Sayyed have no verified full birth dates or death dates in the reviewed sources. Ages in historical and recent coverage are insufficient or inconsistent; no guessed dates are inserted.",
+    "Collier's remembrance is recorded in his biography without converting its publication date into a death date or calculating a birth date from age 73. His existing photo and any existing date fields remain untouched.",
+    "These are nonfree archival AP photographs. Credit and extraction details accompany the assets; no open license or public-domain claim is made.",
+    "No case facts, custody dates, coordinates, or other existing profile details are replaced. Unknown personal/support websites remain blank."
+  ],
+  "entries": [
+    {
+      "name": "Michelle Duclos",
+      "slug": "michelle-duclos",
+      "source_ids": [
+        "portraits",
+        "duclos-obituary",
+        "duclos-identity"
+      ],
+      "clear_website_if_equals": "https://dai.mun.ca/PDFs/dailynews/DailyNews19650921.pdf#page=1",
+      "dates": {
+        "birthdate": {
+          "year": 1938
+        },
+        "death_date": {
+          "year": 2017,
+          "month": 12,
+          "day": 18
+        }
+      },
+      "photo": {
+        "sha256": "0de4fa0a1cf013139daea7ed653436bb3b9c5f1f5cc1efcb7c8cc65896b6bce9"
+      }
+    },
+    {
+      "name": "Khaleel Sultarn Sayyed",
+      "slug": "khaleel-sultarn-sayyed",
+      "source_ids": [
+        "portraits",
+        "bowe-sayyed-2024"
+      ],
+      "clear_website_if_equals": "https://law.justia.com/cases/federal/appellate-courts/F2/360/1/390905/",
+      "photo": {
+        "sha256": "a4b81f6c84d7b59d3b12c9e9bf19b83833d2038d16b79291cf50ccc149d19117"
+      }
+    },
+    {
+      "name": "Walter Augustus Bowe",
+      "slug": "walter-augustus-bowe",
+      "source_ids": [
+        "portraits",
+        "bowe-sayyed-2024"
+      ],
+      "clear_website_if_equals": "https://law.justia.com/cases/federal/appellate-courts/F2/360/1/390905/",
+      "photo": {
+        "sha256": "9dc67aee1f04b58a5d3554a6ea6ff3ec4492bdbecc5a39c754751b5d713848e4"
+      }
+    },
+    {
+      "name": "Robert Collier",
+      "slug": "robert-collier",
+      "source_ids": [
+        "collier-remembrance"
+      ],
+      "append_description": "A remembrance published by his godson C. Hannibal Smith on February 25, 2010, reported Collier's death at age 73. His exact date of death and full birth date remain unverified in the sources reviewed here."
+    }
+  ]
+}
