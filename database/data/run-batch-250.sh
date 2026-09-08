@@ -14,10 +14,21 @@ elif [[ $# -ne 0 ]]; then
     echo "Usage: bash database/data/run-batch-250.sh [--dry-run]" >&2
     exit 2
 fi
+
+# Service accounts may have an unwritable home (www-data uses /var/www).
+# Keep PsySH configuration and runtime files in application-owned storage.
+nppc_psysh_dir="$(pwd)/storage/framework/psysh"
+if ! (umask 077; mkdir -p "$nppc_psysh_dir/config" "$nppc_psysh_dir/data" "$nppc_psysh_dir/runtime"); then
+    echo "Cannot prepare PsySH storage; run this batch as the application owner." >&2
+    exit 1
+fi
 run() {
     local label="$1" sentinel="$2" code="$3" out status=0
     echo "--- ${label}"
-    out=$(php artisan tinker --execute="$code" 2>&1) || status=$?
+    out=$(XDG_CONFIG_HOME="$nppc_psysh_dir/config" \
+        XDG_DATA_HOME="$nppc_psysh_dir/data" \
+        XDG_RUNTIME_DIR="$nppc_psysh_dir/runtime" \
+        php artisan tinker --execute="$code" 2>&1) || status=$?
     printf '%s\n' "$out"
     if [[ $status -ne 0 ]] || ! grep -Fxq "$sentinel" <<<"$out"; then
         echo "FAILED: ${label}" >&2
