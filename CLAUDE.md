@@ -109,6 +109,7 @@ php artisan prisoner:add '{"name":"Full Name","first_name":"First","last_name":"
 Key rules:
 - Research the prisoner thoroughly and fill in as many fields as possible
 - Leave fields out of the JSON entirely if the information is unknown (do not set them to null)
+- A prisoner's `website` must be their verified personal or support website. Keep news, court decisions, obituaries, and other research citations in batch source notes; omit `website` when no appropriate site is verified.
 - Always include `name`, `first_name`, `last_name`, and `description`
 - The `cases` array can contain multiple cases, each with its own institution
 - Institutions are auto-created or matched by name
