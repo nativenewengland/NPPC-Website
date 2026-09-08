@@ -1,12 +1,15 @@
 {
   "batch": 251,
   "name": "Omali Yeshitela: 1966 City Hall mural custody",
-  "prisoner": {"slug": "omali-yeshitela", "name": "Omali Yeshitela"},
+  "prisoner": {
+    "slug": "omali-yeshitela",
+    "name": "Omali Yeshitela"
+  },
   "case": {
     "charges": "1966 St. Petersburg City Hall mural removal: destruction of city property and disorderly breach of the peace (municipal); grand larceny (state).",
     "arrest_date": "1966-12-29",
-    "convicted": "Municipal convictions; subsequent state grand-larceny conviction vacated by the U.S. Supreme Court on April 6, 1970 (Waller v. Florida).",
-    "sentence": "Sentenced to 180 days in county jail on the municipal charges, then six months to five years on the state charge, with 170 days credited. At the November 13, 1969 Supreme Court argument, his lawyer reported 16 months already spent in jail and about 18 months out on bond. In a June 2016 press conference, Yeshitela recalled two and a half years in prison for the mural. These accounts do not establish a reconciled final custody total or exact release date. The Supreme Court vacated the state conviction on double-jeopardy grounds on April 6, 1970; that decision date is not a verified release date."
+    "convicted": "Municipal convictions; state conviction vacated in 1970, followed by reconviction upheld in 1972. Further U.S. Supreme Court review denied October 15, 1973.",
+    "sentence": "Municipal sentence: 180 days in county jail. Initial state sentence: six months to five years, with 170 days credited. Anita Richway Cutting's 2000 USF thesis dates his initial release on $2,500 bond to March 29, 1968. After a separate Gainesville arrest and revocation of both bonds, he obtained release on May 29, 1968. At the November 13, 1969 Supreme Court argument, his lawyer reported 16 months in jail. The 1970 vacatur did not end the prosecution: Florida reconvicted him, and the conviction was upheld in 1972. APSP history reports renewed imprisonment on the mural charge in May 1973 and release within two months; the exact day of that release is unverified. Cutting reports that on October 29, 1973, Judge David Seth Walker reduced the sentence to 18 months already served. This is the sentence-reduction date, not a verified prison-departure date. Yeshitela later recalled two and a half years in prison for the mural. No continuous custody interval or reconciled final duration is established."
   },
   "sources": [
     {
@@ -32,14 +35,33 @@
     },
     {
       "url": "https://digitalcommons.usf.edu/honorstheses/76/",
-      "title": "Anita Richway Cutting, From Joe Waller to Omali Yeshitela (2000), repository abstract",
-      "supports": "Identifies Joseph Waller Jr. and dates the mural protest to December 29, 1966. Only the abstract was accessible; no custody claim is attributed to the unavailable thesis PDF."
+      "accessible_copy": "https://drive.google.com/file/d/1zio7H0Tcp_YlZOm6OsbS26Xh2CFKaK8A/view",
+      "copy_linked_from": "https://rbgcommuniversity.blog/2024/03/20/understanding-the-state_-chairman-omali-yeshitela-a-multimedia-course-of-study/",
+      "title": "Anita Richway Cutting, From Joe Waller to Omali Yeshitela: How a Controversial Mural Changed a Man (2000)",
+      "pages": "Printed pp. 52-53 and 59-60 (PDF pp. 56-57 and 63-64)",
+      "supports": "Initial bond release March 29, 1968; subsequent May 29, 1968 release after the Gainesville arrest and revocation of both bonds; October 29, 1973 sentence reduction to eighteen months already served. Pages visually verified in the publicly mirrored full thesis. The university download remained inaccessible.",
+      "qualification": "The cited newspaper issues were not independently retrieved. Footnote 19 includes dates that require checking against originals; March 29 is the date stated in the thesis narrative. Footnote 20 cites Waller Free after Posting 2 Bail Bonds, St. Petersburg Times, May 30, 1968, B2. Footnote 31 cites Dean Boyer, Judge Lifts Waller's Remaining Prison Term, St. Petersburg Times, October 30, 1973, B1, and a November 27, 2000 interview with Judge Walker."
+    },
+    {
+      "url": "https://apspuhuru.org/about/apsp-history/",
+      "title": "African People's Socialist Party history",
+      "supports": "Movement account of reimprisonment on the 1966 mural charge in May 1973 and release within two months. Does not specify a release day."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/USREPORTS-414/pdf/USREPORTS-414-BackMatter-4.pdf",
+      "title": "Waller v. Florida, 414 U.S. 945 (October 15, 1973)",
+      "supports": "Denial of further review and vacatur of the June 18, 1973 stay. Dissent recounts the renewed state conviction and 1972 affirmance. Confirms that the 1970 ruling did not end this prosecution."
+    },
+    {
+      "url": "https://www.supremecourt.gov/pdfs/journals/scannedjournals/1972_journal.pdf",
+      "title": "U.S. Supreme Court Journal, June 18, 1973, p. 663, No. A-1186",
+      "supports": "Stay of execution and enforcement of the Pinellas County conviction. This order date alone does not prove the date he physically left custody."
     }
   ],
   "editorial_notes": [
-    "Adds one historical case to the existing profile, covering both prosecutions of the same mural incident; does not edit any biography, website, photo, profile status, or existing case.",
-    "Do not store 16 or 30 in imprisoned_for_months: the schema treats that field as an unqualified final total. Sixteen months is reported as of the 1969 argument; thirty months is a later recollection. Preserve both with attribution in the case sentence instead.",
-    "Leave incarceration_date, release_date, sentenced_date and numeric custody counters unset. Arrest does not establish the start of a continuous custody interval, and neither an inferred bond date nor the Supreme Court decision is a verified release date.",
+    "Adds one historical case summarizing the mural prosecutions and interrupted custody; does not edit any biography, website, photo, profile status, or existing modern case.",
+    "Keep numeric custody totals unset. The sources give an interim 16 months, 18 months recognized at sentence reduction, and a later two-and-a-half-year recollection. These may refer to different accounting of interrupted custody; do not force a reconciliation.",
+    "Keep the consolidated case's release_date and incarceration_date unset: March 29 and May 29, 1968 are intermediate bond releases, later custody occurred in 1973, and October 29, 1973 is sentence reduction rather than a verified prison-departure date. The dated events are preserved visibly in sentence text. Do not count 1966-1973 as continuous incarceration.",
     "Do not add the municipal sentence to the state sentence or add the 170-day credit to time served; the prosecutions overlap.",
     "No institution assignment or coordinates: county confinement is established, but a specific historical facility has not been verified."
   ]
