@@ -1,0 +1,46 @@
+{
+  "batch": 251,
+  "name": "Omali Yeshitela: 1966 City Hall mural custody",
+  "prisoner": {"slug": "omali-yeshitela", "name": "Omali Yeshitela"},
+  "case": {
+    "charges": "1966 St. Petersburg City Hall mural removal: destruction of city property and disorderly breach of the peace (municipal); grand larceny (state).",
+    "arrest_date": "1966-12-29",
+    "convicted": "Municipal convictions; subsequent state grand-larceny conviction vacated by the U.S. Supreme Court on April 6, 1970 (Waller v. Florida).",
+    "sentence": "Sentenced to 180 days in county jail on the municipal charges, then six months to five years on the state charge, with 170 days credited. At the November 13, 1969 Supreme Court argument, his lawyer reported 16 months already spent in jail and about 18 months out on bond. In a June 2016 press conference, Yeshitela recalled two and a half years in prison for the mural. These accounts do not establish a reconciled final custody total or exact release date. The Supreme Court vacated the state conviction on double-jeopardy grounds on April 6, 1970; that decision date is not a verified release date."
+  },
+  "sources": [
+    {
+      "url": "https://www.supremecourt.gov/pdfs/transcripts/1969/69-24_11-13-1969.pdf",
+      "title": "Waller v. Florida oral argument, November 13, 1969",
+      "pages": "Printed pages 16-17 (PDF pages 18-19); earlier statement of facts describes immediate apprehension",
+      "supports": "Counsel reported sixteen months in jail and about eighteen months out on bond, described county confinement and uncertainty over allocation of municipal/state custody credit. Establishes actual custody, but not a final lifetime total for this incident. Scan visually checked."
+    },
+    {
+      "url": "https://www.law.cornell.edu/supremecourt/text/397/387",
+      "title": "Waller v. Florida, 397 U.S. 387 (1970)",
+      "supports": "Municipal charges and 180-day county-jail sentence; state grand-larceny sentence of six months to five years with 170 days credited; April 6, 1970 vacatur of the state conviction and remand on double-jeopardy grounds. The municipal convictions were not vacated by this ruling."
+    },
+    {
+      "url": "https://theweeklychallenger.com/yeshitela-the-original-art-critic/",
+      "title": "Yeshitela: The original art critic, July 7, 2016",
+      "supports": "December 29, 1966 incident; reports Yeshitela's first-person recollection at a June 30 press conference of two and a half years in prison for the mural. This retrospective account differs from the custody reported at the 1969 hearing."
+    },
+    {
+      "url": "https://theweeklychallenger.com/yeshitela-vs-the-mural/",
+      "title": "Yeshitela vs. the mural, January 5, 2017",
+      "supports": "December 29, 1966 incident followed by arrest; retrospective report of two and a half years served."
+    },
+    {
+      "url": "https://digitalcommons.usf.edu/honorstheses/76/",
+      "title": "Anita Richway Cutting, From Joe Waller to Omali Yeshitela (2000), repository abstract",
+      "supports": "Identifies Joseph Waller Jr. and dates the mural protest to December 29, 1966. Only the abstract was accessible; no custody claim is attributed to the unavailable thesis PDF."
+    }
+  ],
+  "editorial_notes": [
+    "Adds one historical case to the existing profile, covering both prosecutions of the same mural incident; does not edit any biography, website, photo, profile status, or existing case.",
+    "Do not store 16 or 30 in imprisoned_for_months: the schema treats that field as an unqualified final total. Sixteen months is reported as of the 1969 argument; thirty months is a later recollection. Preserve both with attribution in the case sentence instead.",
+    "Leave incarceration_date, release_date, sentenced_date and numeric custody counters unset. Arrest does not establish the start of a continuous custody interval, and neither an inferred bond date nor the Supreme Court decision is a verified release date.",
+    "Do not add the municipal sentence to the state sentence or add the 170-day credit to time served; the prosecutions overlap.",
+    "No institution assignment or coordinates: county confinement is established, but a specific historical facility has not been verified."
+  ]
+}
