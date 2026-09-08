@@ -1,0 +1,239 @@
+{
+  "batch": 255,
+  "audited_at": "2026-09-08",
+  "expected_count": 6,
+  "expected_field_count": 17,
+  "entries": [
+    {
+      "id": "914e44f4-dedb-4afa-b90b-9cedc9dbb2d5",
+      "slug": "kent-ford",
+      "name": "Kent Ford",
+      "case_id": "b29a6617-82e0-4911-b4ae-08277d05836d",
+      "match_charges": "Inciting a riot (Portland, 1969)",
+      "fields": {},
+      "dates": {
+        "arrest_date": {
+          "year": 1969,
+          "month": 6
+        },
+        "incarceration_date": {
+          "year": 1969,
+          "month": 6
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.oregonencyclopedia.org/articles/black_panthers_in_portland/",
+          "title": "Oregon Encyclopedia: Black Panther Party in Portland",
+          "supports": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "locator": "June 1969 arrest and jailing preceding the Portland chapter."
+        },
+        {
+          "url": "https://www.reed.edu/reed-magazine/articles/2009/black-panthers-clinics.html",
+          "title": "Martha Gies, Radical Treatment, Reed Magazine, December 2009",
+          "supports": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "locator": "Account of Ford at Rocky Butte Jail and subsequent bail release."
+        },
+        {
+          "url": "https://www.themilitant.com/1969/3327/MIL3327.pdf",
+          "title": "The Militant, July 4, 1969",
+          "supports": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "locator": "Portland report distinguishes June 14 initial arrest and June 18 rearrest."
+        }
+      ],
+      "notes": "Month precision accommodates the initial arrest and rearrest; no exact release date or calculated custody duration is asserted. Existing sentence and biography are preserved."
+    },
+    {
+      "id": "016cf3b3-81c7-42a0-84df-1aab6abc1250",
+      "slug": "larry-gossett",
+      "name": "Larry Gossett",
+      "case_id": "994da33b-25ed-480d-90ee-0a5aadd8c04b",
+      "match_charges": "Unlawful assembly",
+      "fields": {
+        "judge": "James J. Dore",
+        "prosecutor": "Neal L. Shulman"
+      },
+      "dates": {
+        "sentenced_date": {
+          "year": 1968,
+          "month": 7,
+          "day": 1
+        }
+      },
+      "sources": [
+        {
+          "url": "https://depts.washington.edu/civilr/BSU_FranklinHS.shtml",
+          "title": "Tikia Gilbert, The Franklin High School Sit-in, University of Washington",
+          "supports": [
+            "judge",
+            "prosecutor",
+            "sentenced_date"
+          ],
+          "locator": "The Hearing, The Trial, and Sentencing sections; contemporary newspaper citations in footnotes 18, 23-25."
+        }
+      ],
+      "notes": "The existing March 29 arrest date is preserved despite the source placing arrest on April 4. Separate April and July custody episodes are not combined into an invented continuous interval."
+    },
+    {
+      "id": "20322083-f47b-4aea-89ed-46092c76f562",
+      "slug": "larry-little",
+      "name": "Larry Little",
+      "case_id": "e3b14848-dce2-48a9-acf0-633e71c58f63",
+      "match_charges": "Accessory after the fact (the January 1971 Winston-Salem \"meat-truck\" frame-up of the NCCF)",
+      "fields": {
+        "indicted": "Yes",
+        "convicted": "Yes — no-contest plea to misdemeanor larceny",
+        "plead": "No contest (nolo contendere)",
+        "judge": "J. William Copeland",
+        "sentence": "Six months in jail, suspended for two years, following a no-contest plea to misdemeanor larceny."
+      },
+      "dates": {
+        "arrest_date": {
+          "year": 1971,
+          "month": 1,
+          "day": 19
+        },
+        "sentenced_date": {
+          "year": 1973,
+          "month": 3,
+          "day": 19
+        }
+      },
+      "sources": [
+        {
+          "url": "https://dokumen.pub/comrades-a-local-history-of-the-black-panther-party-0253349281-9780253349286.html",
+          "title": "Benjamin R. Friedman, Picking Up Where Robert F. Williams Left Off, in Comrades (2007)",
+          "supports": [
+            "arrest_date",
+            "convicted",
+            "plead",
+            "sentence"
+          ],
+          "locator": "Printed pages 69 and 73: January 19, 1971 arrest, later misdemeanor disposition and suspended sentence."
+        },
+        {
+          "url": "https://vault.fbi.gov/Black%20Panther%20Party%20/Black%20Panther%20Party%20Part%2034%20%28Final%29",
+          "title": "FBI Vault, Black Panther Party Part 34",
+          "supports": [
+            "sentenced_date",
+            "judge",
+            "plead",
+            "convicted",
+            "sentence"
+          ],
+          "locator": "PDF pages 47 (printed 6) and 60 (printed 4), visually checked: March 19, 1973 plea disposition, Copeland, six months suspended for two years."
+        },
+        {
+          "url": "https://law.justia.com/cases/north-carolina/supreme-court/1972/9-1-5.html",
+          "title": "State v. Cornell, 281 N.C. 20, 187 S.E.2d 768 (April 12, 1972)",
+          "supports": [
+            "indicted"
+          ],
+          "locator": "Appeal concerning the bills of indictment against Cornell and Little."
+        }
+      ],
+      "notes": "The original felony charge is preserved; the newly filled disposition describes the reduced misdemeanor. A suspended sentence is not six months actually served. No duration or release date is added. Fuller’s 12 pretrial days and 90-day sentence do not belong to Little. Little’s separate 1970 disorderly-conduct case is outside this existing-case update."
+    },
+    {
+      "id": "0b82d26b-2ce8-407a-9aa8-c0b03454b3e2",
+      "slug": "scott-camil",
+      "name": "Scott Camil",
+      "case_id": "190a8596-e013-43c5-a5a9-820c8e6742be",
+      "match_charges": "Conspiracy to incite a riot at the 1972 Republican National Convention",
+      "fields": {
+        "indicted": "Yes",
+        "judge": "Winston Arnow",
+        "prosecutor": "Jack Carrouth"
+      },
+      "dates": {},
+      "sources": [
+        {
+          "url": "https://issues.texasobserver.org/pdf/ustxtxb_obs_1973_09_21_issue.pdf",
+          "title": "The Texas Observer, The VVAW is not on trial, September 21, 1973",
+          "supports": [
+            "indicted",
+            "judge",
+            "prosecutor"
+          ],
+          "locator": "Printed/PDF page 5, visually checked: grand-jury proceedings, trial judge, and prosecutor in the Gainesville Eight case."
+        }
+      ],
+      "notes": "Existing arrest date, acquittal, sentence text and court institution remain unchanged. An acquittal date alone does not establish a release from physical custody."
+    },
+    {
+      "id": "755b1af7-0193-491d-b6d1-4d0843c111fe",
+      "slug": "connie-matthews",
+      "name": "Connie Matthews",
+      "case_id": "ee92367e-5317-41b5-9c06-64fe9c3fbef2",
+      "match_charges": "No personal criminal charges — fled the U.S. as a political fugitive",
+      "fields": {},
+      "dates": {
+        "in_exile_since": {
+          "year": 1971,
+          "month": 2
+        }
+      },
+      "sources": [
+        {
+          "url": "https://time.com/archive/6638872/radicals-the-divided-panthers/",
+          "title": "TIME, Radicals: The Divided Panthers, February 22, 1971",
+          "supports": [
+            "in_exile_since"
+          ],
+          "locator": "Contemporary report of Matthews disappearing with Tabor and Moore during February; later historical accounts establish their arrival in Algeria."
+        },
+        {
+          "url": "https://www.cambridge.org/core/journals/historical-journal/article/black-panther-partys-publishing-strategies-and-the-financial-underpinnings-of-activism-19681975/441702BF3381BFADB7EEEC0CB355D6E6",
+          "title": "The Black Panther Party’s Publishing Strategies and the Financial Underpinnings of Activism, 1968–1975, The Historical Journal",
+          "supports": [
+            "in_exile_since"
+          ],
+          "locator": "Matthews, Tabor and Moore disappeared and resurfaced in Algeria weeks later; March 1971 expulsion announcement."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Connie_Matthews",
+          "title": "Connie Matthews biography (secondary corroboration)",
+          "supports": [
+            "in_exile_since"
+          ],
+          "locator": "Departure in February 1971 and subsequent appearance in Algeria."
+        }
+      ],
+      "notes": "Month precision, corroborating the departure already described in her unchanged biography. Exile is not imprisonment. Tabor’s Panther 21 charges and trial personnel are not assigned to Matthews."
+    },
+    {
+      "id": "4ddfe80b-5e19-4de1-8987-d7ac0bafb4ed",
+      "slug": "mabel-williams",
+      "name": "Mabel Williams",
+      "case_id": "c4103d25-72fd-46ff-8932-d70ee6e15c19",
+      "match_charges": "Fled the United States with Robert F.",
+      "fields": {},
+      "dates": {
+        "end_of_exile": {
+          "year": 1969,
+          "month": 9
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.facingsouth.org/2014/04/remembering-southern-black-freedom-fighter-mabel-w.html",
+          "title": "Sue Sturgis, Remembering Southern Black freedom fighter Mabel Williams, Facing South, April 2014",
+          "supports": [
+            "end_of_exile"
+          ],
+          "locator": "Mabel returned to the United States in September 1969; Robert followed and was arrested."
+        }
+      ],
+      "notes": "Month precision only. Existing exile start, charges and sentence are preserved. Robert’s arrest on return is not attributed to Mabel; no custody dates are added."
+    }
+  ]
+}
