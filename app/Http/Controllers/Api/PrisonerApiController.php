@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Cache;
 
 class PrisonerApiController extends Controller
 {
-    private const CACHE_KEY = 'api.prisoners.index.v1';
+    private const CACHE_KEY = 'api.prisoners.index.v2';
 
     private const CACHE_TTL = 600; // 10 minutes
 
@@ -102,7 +102,7 @@ class PrisonerApiController extends Controller
                 $exileStart = ExileDuration::startFor($prisoner->cases);
 
                 // Non-null only where every case contributing time documents
-                // it in months, so the figure can be printed as stated.
+                // it in months, so the display retains month-level precision.
                 $servedMonths = ImprisonmentDuration::documentedMonths($prisoner->cases);
 
                 $data[] = [
@@ -145,7 +145,7 @@ class PrisonerApiController extends Controller
                     'cases' => $cases,
                     'imprisonedFor' => $daysImprisoned,
                     // Non-null only where a source documented the time served
-                    // in months; consumers should print these rather than
+                    // in months; consumers should format years/months rather than
                     // deriving a day-level span from imprisonedFor.
                     'imprisonedForMonths' => $servedMonths,
                     'inExileFor' => $daysInExile,
@@ -175,10 +175,8 @@ class PrisonerApiController extends Controller
 
         if ($daysImprisoned > 0) {
             if ($servedMonths > 0) {
-                // The source stated the time served in months; say so instead
-                // of splitting it into a year/month/day span the dates do not
-                // support. See ImprisonmentDuration::documentedMonths().
-                $result .= "Imprisoned For {$servedMonths} months";
+                // Share the profile formatter without inventing day precision.
+                $result .= 'Imprisoned For '.strtolower(ImprisonmentDuration::phrase($imprisonStart, $daysImprisoned, $servedMonths));
             } else {
                 ['years' => $years, 'months' => $months, 'days' => $days] = ImprisonmentDuration::breakdown($imprisonStart, $daysImprisoned);
                 $result .= "Imprisoned For {$years} years {$months} months {$days} days";

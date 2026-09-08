@@ -60,7 +60,7 @@ class CasesRelationManager extends RelationManager
                 Forms\Components\TextInput::make('imprisoned_for_months')
                     ->label('Documented months served')
                     ->numeric()
-                    ->helperText('Only when a source states the time served in months and the dates cannot support a day-level span. Overrides the calculation above, and the public counter reads e.g. "38 Months".'),
+                    ->helperText('Only when a source states the time served in months and the dates cannot support a day-level span. Overrides the calculation above. The public counter converts whole years: 24 months reads "2 Years"; 38 reads "3 Years 2 Months".'),
                 Forms\Components\TextInput::make('in_exile_for_days')
                     ->numeric(),
             ]);

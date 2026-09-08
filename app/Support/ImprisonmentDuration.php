@@ -66,16 +66,26 @@ final class ImprisonmentDuration
     }
 
     /**
-     * "38 Months", or "3 Years 2 Months 5 Days" — the phrase a counter prints.
+     * "3 Years 2 Months", or "3 Years 2 Months 5 Days" — the counter phrase.
      *
      * $months is a duration a source stated in whole months; when it is given,
-     * the span is reported in the unit it is actually known to, instead of a
-     * day-level figure derived from endpoints that cannot support one.
+     * convert each twelve months into a year, retaining month-level precision
+     * instead of deriving days from endpoints that cannot support them.
      */
     public static function phrase($start, int $days, ?int $months = null): string
     {
         if ($months !== null && $months > 0) {
-            return $months.' '.($months === 1 ? 'Month' : 'Months');
+            $years = intdiv($months, 12);
+            $remainingMonths = $months % 12;
+            $parts = [];
+            if ($years > 0) {
+                $parts[] = $years.' '.($years === 1 ? 'Year' : 'Years');
+            }
+            if ($remainingMonths > 0) {
+                $parts[] = $remainingMonths.' '.($remainingMonths === 1 ? 'Month' : 'Months');
+            }
+
+            return implode(' ', $parts);
         }
 
         ['years' => $y, 'months' => $m, 'days' => $d] = self::breakdown($start, $days);
