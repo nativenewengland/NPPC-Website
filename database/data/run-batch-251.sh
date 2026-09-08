@@ -49,12 +49,13 @@ if (($payload["batch"] ?? null) !== 251 || ($payload["prisoner"] ?? []) !== ["sl
     throw new \RuntimeException("Unexpected batch identity.");
 }
 $fields = $payload["case"] ?? [];
-if (count($fields) !== 4 || array_diff(array_keys($fields), ["charges", "arrest_date", "convicted", "sentence"])) {
+if (count($fields) !== 5 || array_diff(array_keys($fields), ["charges", "arrest_date", "release_date", "convicted", "sentence"])) {
     throw new \RuntimeException("Unsupported case fields.");
 }
 Validator::make($fields, [
     "charges" => "required|string|max:255",
     "arrest_date" => "required|date_format:Y-m-d|in:1966-12-29",
+    "release_date" => "required|date_format:Y-m-d|in:1973-10-29",
     "convicted" => "required|string|max:255",
     "sentence" => "required|string",
 ])->validate();
@@ -75,7 +76,7 @@ $changed = DB::transaction(function () use ($payload, $fields, $dryRun) {
     if ($matches->isNotEmpty()) {
         $existing = $matches->first();
         foreach ($fields as $field => $value) {
-            $actual = $field === "arrest_date" ? $existing->partialDateIso($field) : $existing->{$field};
+            $actual = in_array($field, ["arrest_date", "release_date"], true) ? $existing->partialDateIso($field) : $existing->{$field};
             if ($actual !== $value) {
                 throw new \RuntimeException("Existing historical case differs; preserved for review: ".$existing->id);
             }
@@ -85,8 +86,8 @@ $changed = DB::transaction(function () use ($payload, $fields, $dryRun) {
     }
     echo ($dryRun ? "Would add: " : "Adding: "), $prisoner->name, " / ", $fields["charges"], "\n";
     if ($dryRun) { return false; }
-    $case = $prisoner->cases()->create(array_merge($fields, ["date_precision" => ["arrest_date" => "day"]]));
-    if ($case->imprisoned_for_days !== null || $case->imprisoned_for_months !== null || $case->incarceration_date !== null || $case->release_date !== null) {
+    $case = $prisoner->cases()->create(array_merge($fields, ["date_precision" => ["arrest_date" => "day", "release_date" => "day"]]));
+    if ($case->imprisoned_for_days !== null || $case->imprisoned_for_months !== null || $case->incarceration_date !== null || $case->partialDateIso("release_date") !== "1973-10-29") {
         throw new \RuntimeException("Unexpected inferred custody dates or duration; rolling back.");
     }
     return true;

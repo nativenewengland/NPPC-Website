@@ -8,7 +8,7 @@ Researched September 7, 2026. Existing profile: `omali-yeshitela`, formerly Jose
 - [Yeshitela's June 2016 press conference, reported by The Weekly Challenger](https://theweeklychallenger.com/yeshitela-the-original-art-critic/), gives his later recollection of **two and a half years in prison** for the mural. Its [2017 anniversary report](https://theweeklychallenger.com/yeshitela-vs-the-mural/) repeats that duration and describes the arrest following the December 29 protest.
 - [Waller v. Florida, 397 U.S. 387 (1970)](https://www.law.cornell.edu/supremecourt/text/397/387) supplies the municipal and state sentencing history and the April 6, 1970 decision vacating the state conviction. It does not give an exact release date or settle final time served.
 
-The case's sentence text attributes the duration accounts and dated events described below. Numeric duration and the consolidated incarceration/release fields remain unfilled. In this application `imprisoned_for_months` means a final duration; choosing one of the differing accounts would erase a material limitation in the evidence. A continuous arrest-to-decision interval would misrepresent the interrupted custody. No biography, support website, coordinates, institutional attribution or modern custody status is changed.
+The case's sentence text attributes the duration accounts and dated events described below. At the user's explicit instruction, the release field is set to October 29, 1973 as an editorial assumption based on the sentence reduction. This assumption is disclosed in the visible case text. Numeric duration and incarceration date remain unfilled: a continuous arrest-to-decision interval would misrepresent the interrupted custody. No biography, support website, coordinates, institutional attribution or modern custody status is changed.
 
 ## Validation
 
@@ -27,13 +27,13 @@ Footnote 20 cites *St. Petersburg Times*, May 30, 1968, B2, “Waller Free after
 
 The [APSP's history](https://apspuhuru.org/about/apsp-history/) reports another imprisonment on the mural charge in May 1973 and release within two months. The [June 18, 1973 Supreme Court journal entry](https://www.supremecourt.gov/pdfs/journals/scannedjournals/1972_journal.pdf), p. 663, records a stay of enforcement, but does not establish the physical release day. The [October 15, 1973 order and dissent](https://www.govinfo.gov/content/pkg/USREPORTS-414/pdf/USREPORTS-414-BackMatter-4.pdf), 414 U.S. 945, confirm the intervening state reconviction, 1972 affirmance, and denial of further Supreme Court review.
 
-The updated payload records this later outcome and the attributed bond-release dates in case text. It does not label October 29 as a physical release or treat 1966–1973 as uninterrupted custody. The exact departure day for the 1973 imprisonment remains unverified. The 18 months recognized at sentence reduction is added with attribution; it is not silently substituted for the other duration accounts.
+The updated payload records this later outcome and the attributed bond-release dates in case text. The user subsequently instructed: “Assume 29 October is his release date and set it to that.” The release field therefore stores `1973-10-29` at day precision, with the assumption explicitly identified in case text. The actual prison-departure day remains unverified. The 18 months recognized at sentence reduction is attributed; numeric counters remain unset, and 1966–1973 is not represented as uninterrupted custody.
 
 ### Checks
 
 - Bash syntax, PHP syntax and JSON validation passed. No apostrophes occur within the single-quoted tinker block.
 - The actual script wrapper ran successfully as `www-data` against the live application in forced dry-run mode with the payload supplied inline. No production data was written. The application-owned PsySH directories avoid the earlier unwritable-home failure.
-- Mutation tests used the server's Laravel models and SQLite schema, with all production database connections removed from configuration and replaced by an isolated `:memory:` database. Tests confirmed one added case, unchanged prisoner and existing case attributes, accurate arrest precision, unset uncertain endpoints/duration, cache invalidation and idempotent replay.
+- Mutation tests used the server's Laravel models and SQLite schema, with all production database connections removed from configuration and replaced by an isolated `:memory:` database. Tests confirmed one added case, unchanged prisoner and existing case attributes, accurate arrest precision, the requested assumed release date and its visible qualification, unset incarceration date/duration, cache invalidation and idempotent replay.
 - An independently entered mural case and a mismatched prisoner identity each prevented writes. A historical case with no verified incarceration interval did not start counting custody through today, even with modern custody flags enabled in the isolated test.
 
 ## Deploy after merge
