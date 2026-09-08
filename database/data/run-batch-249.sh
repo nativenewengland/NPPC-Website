@@ -17,10 +17,20 @@ elif [[ $# -ne 0 ]]; then
     exit 2
 fi
 
+# Service accounts may have an unwritable home (www-data uses /var/www).
+# Keep PsySH configuration and runtime files in application-owned storage.
+nppc_psysh_dir="$(pwd)/storage/framework/psysh"
+if ! (umask 077; mkdir -p "$nppc_psysh_dir/config" "$nppc_psysh_dir/data" "$nppc_psysh_dir/runtime"); then
+    echo "Cannot prepare PsySH storage; run this batch as the application owner." >&2
+    exit 1
+fi
 run() {
     local label="$1" sentinel="$2" code="$3" out status=0
     echo "--- ${label}"
-    out=$(php artisan tinker --execute="$code" 2>&1) || status=$?
+    out=$(XDG_CONFIG_HOME="$nppc_psysh_dir/config" \
+        XDG_DATA_HOME="$nppc_psysh_dir/data" \
+        XDG_RUNTIME_DIR="$nppc_psysh_dir/runtime" \
+        php artisan tinker --execute="$code" 2>&1) || status=$?
     printf '%s\n' "$out"
     if [[ $status -ne 0 ]] || ! grep -Fxq "$sentinel" <<<"$out"; then
         echo "FAILED: ${label}" >&2
@@ -50,7 +60,7 @@ foreach ($payload["entries"] as $entry) {
         "slug" => "required|string|regex:/^[a-z0-9-]+$/",
         "name" => "required|string",
         "clear_website_if_equals" => "sometimes|required|url",
-        "append_description" => "sometimes|required|string",
+        "append_description" => "prohibited",
         "dates" => "sometimes|required|array:birthdate,death_date",
         "dates.*.year" => "required|integer|between:1800,2026",
         "dates.*.month" => "sometimes|required|integer|between:1,12",
@@ -115,9 +125,6 @@ $changed = DB::transaction(function () use ($payload, $dryRun, $disk, $assets) {
             } else {
                 echo "Preserved existing photo: ", $record->name, "\n";
             }
-        }
-        if (isset($entry["append_description"]) && ! str_contains((string) $record->description, $entry["append_description"])) {
-            $record->description = trim((string) $record->description)."\n\n".$entry["append_description"];
         }
         if ($record->isDirty()) {
             echo ($dryRun ? "Would update: " : "Updating: "), $record->name, " [", implode(", ", array_keys($record->getDirty())), "]\n";
