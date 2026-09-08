@@ -1,0 +1,143 @@
+{
+  "batch": 248,
+  "expected_count": 3,
+  "subject": "Missing defendants in the February 1965 national-monuments prosecution",
+  "requested_article": "https://www.nytimes.com/1965/02/17/archives/4-held-in-plot-to-blast-statue-of-liberty-liberty-bell-and.html",
+  "research_date": "2026-09-07",
+  "already_present": {
+    "name": "Robert Collier",
+    "full_name": "Robert Steele Collier",
+    "slug": "robert-collier",
+    "observed_id": "9ce5574a-2e41-4fd6-b71e-2537b8662222",
+    "note": "Live read-only inspection found his profile and biography covering the 1965 prosecution and later Panther 21 case. Preserve this record; the requested additions are only people who are absent."
+  },
+  "sources": [
+    {
+      "id": "appeal",
+      "title": "United States v. Bowe, 360 F.2d 1 (2d Cir. 1966)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/360/1/390905/",
+      "date": "1966-04-28",
+      "supports": "Full names; February 16 arrests; March 2 indictment; June 14 jury verdicts; June 17 judgments; charges; contested entrapment defense and affirmance. Footnote 1 distinguishes Duclos's guilty plea from the men's jury trial and identifies Michelle Saunier as a separate defendant outside the four initially arrested."
+    },
+    {
+      "id": "nps",
+      "title": "Rebecca M. Joseph et al., The Black Statue of Liberty Rumor (September 2000), printed pp. 91-92",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-I29-PURL-gpo255690/pdf/GOVPUB-I29-PURL-gpo255690.pdf#page=98",
+      "supports": "Bowe and Sayyed's Black Liberation Front membership; Duclos's Quebec separatist connection; arrests; ten-year sentences later reduced to five for the men; Duclos's deportation after suspension. Footnote 221 records Sayyed's father's identification of the family as Arab."
+    },
+    {
+      "id": "plea",
+      "title": "Canadian Press report, The Daily News (St. John's), May 14, 1965, front page",
+      "url": "https://dai.mun.ca/PDFs/dailynews/DailyNews19650514.pdf#page=1",
+      "supports": "Duclos's May 13 guilty plea, continued custody pending sentence, broadcaster and freelance-writer background, and Judge William B. Herlands's full name."
+    },
+    {
+      "id": "probation",
+      "title": "Associated Press, Blonde Wins Leniency For Role In Bomb Plot, The Daily News (St. John's), September 21, 1965, front page",
+      "url": "https://dai.mun.ca/PDFs/dailynews/DailyNews19650921.pdf#page=1",
+      "supports": "Duclos's June 17 conditional five-year sentence and September 20 suspension with five years of probation and permanent exclusion from the United States; cooperation as a government witness. The men's ten-year sentences were still awaiting review at that point."
+    }
+  ],
+  "research_limits": [
+    "The requested NYT archive page could not be read directly. Facts were corroborated with the appellate opinion, contemporary wire reports and the NPS-sponsored historical report; the NYT URL is retained as the user's research lead.",
+    "The men disputed the undercover officer's account; the appellate court upheld their convictions. No finding of proven entrapment or connection to Malcolm X's assassination is asserted.",
+    "The NPS report supplies the later five-year sentences but not reduction dates or actual custody endpoints. Sentence length is not entered as time served.",
+    "No verified custodial institution or facility coordinates were found. Omit institution, address, lat and lng; the monuments and courthouse are not substituted for prisons. These profiles will not acquire invented map pins.",
+    "Birth and death dates, incarceration endpoints and time-served totals are omitted where unverified. Historical custody flags describe these completed 1965 proceedings, not an assertion about every later episode in each person's life.",
+    "Sayyed's race is omitted because period reports and his family's reported identification differ. His full name follows the appellate caption, including Sultarn.",
+    "New York identifies the state of arrest and federal prosecution, including for Canadian resident Duclos. Her return to Canada is described in prose; no political-exile duration is inferred.",
+    "Michelle Saunier and undercover officer Raymond Wood are not among the four people whose February 16 arrests prompted this request. They are not added by this batch."
+  ],
+  "entries": [
+    {
+      "match_names": ["Walter Augustus Bowe", "Walter Bowe", "Walter A. Bowe"],
+      "source_ids": ["appeal", "nps"],
+      "prisoner": {
+        "name": "Walter Augustus Bowe",
+        "first_name": "Walter",
+        "middle_name": "Augustus",
+        "last_name": "Bowe",
+        "aka": "Walter Bowe; Walter A. Bowe",
+        "description": "Walter Augustus Bowe was a member of the Black Liberation Front arrested in New York on February 16, 1965, with Robert Steele Collier, Khaleel Sultarn Sayyed and Michelle Duclos in the national-monuments prosecution. The government alleged a conspiracy targeting the Statue of Liberty, Liberty Bell and Washington Monument.\n\nBowe and Sayyed testified that undercover NYPD officer Raymond Wood had initiated the proposals for violence. A jury convicted Bowe, Collier and Sayyed on June 14, 1965; the Second Circuit rejected their appellate claims and affirmed on April 28, 1966. The National Park Service-sponsored historical report records an initial ten-year sentence for each man, later reduced to five. Bowe's exact prison placement and time actually served have not been established by the sources used here.",
+        "state": "New York",
+        "race": "Black",
+        "gender": "Male",
+        "era": "1960s",
+        "affiliation": ["Black Liberation Front"],
+        "in_custody": false,
+        "released": true,
+        "website": "https://law.justia.com/cases/federal/appellate-courts/F2/360/1/390905/",
+        "cases": [
+          {
+            "charges": "Conspiracy to destroy federal property and smuggle explosives (18 U.S.C. sections 371, 545 and 1361), and a substantive smuggling count (section 545), in the 1965 national-monuments case.",
+            "arrest_date": "1965-02-16",
+            "indicted": "March 2, 1965, Southern District of New York.",
+            "convicted": "Guilty on both counts by jury, June 14, 1965; affirmed April 28, 1966, United States v. Bowe, 360 F.2d 1.",
+            "sentenced_date": "1965-06-17",
+            "judge": "William B. Herlands",
+            "sentence": "Ten years initially; later reduced to five years, according to the NPS-sponsored historical report. Reduction date and actual time served are unverified."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": ["Khaleel Sultarn Sayyed", "Khaleel Sayyed", "Khaleel S. Sayyed", "Khaleel Sultan Sayyed", "Khaleel Sultran Sayyed", "Khalil Sayyed", "Khaleel Sayyid"],
+      "source_ids": ["appeal", "nps"],
+      "prisoner": {
+        "name": "Khaleel Sultarn Sayyed",
+        "first_name": "Khaleel",
+        "middle_name": "Sultarn",
+        "last_name": "Sayyed",
+        "aka": "Khaleel Sayyed; Khaleel S. Sayyed; Khaleel Sultan Sayyed",
+        "description": "Khaleel Sultarn Sayyed was a Black Liberation Front member arrested in New York on February 16, 1965, in the prosecution alleging plans to destroy national monuments. His co-defendants included Walter Augustus Bowe, Robert Steele Collier and Michelle Duclos.\n\nAt trial Sayyed denied intending to participate in violence and testified that he favored nonviolent demonstration. The jury convicted him and the other two men on June 14, 1965. Their entrapment and other appellate challenges failed, and the Second Circuit affirmed the convictions on April 28, 1966. A National Park Service-sponsored history reports that the men's initial ten-year sentences were later reduced to five years. Sayyed's exact custody endpoints and prison placement remain unverified.",
+        "state": "New York",
+        "gender": "Male",
+        "era": "1960s",
+        "affiliation": ["Black Liberation Front"],
+        "in_custody": false,
+        "released": true,
+        "website": "https://law.justia.com/cases/federal/appellate-courts/F2/360/1/390905/",
+        "cases": [
+          {
+            "charges": "Conspiracy to destroy federal property and smuggle explosives (18 U.S.C. sections 371, 545 and 1361), and a substantive smuggling count (section 545), in the 1965 national-monuments case.",
+            "arrest_date": "1965-02-16",
+            "indicted": "March 2, 1965, Southern District of New York.",
+            "convicted": "Guilty on both counts by jury, June 14, 1965; affirmed April 28, 1966, United States v. Bowe, 360 F.2d 1.",
+            "sentenced_date": "1965-06-17",
+            "judge": "William B. Herlands",
+            "sentence": "Ten years initially; later reduced to five years, according to the NPS-sponsored historical report. Reduction date and actual time served are unverified."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": ["Michelle Duclos", "Michele Duclos", "Michèle Duclos", "Michelle Du Clos", "Michele Du Clos"],
+      "source_ids": ["appeal", "nps", "plea", "probation"],
+      "prisoner": {
+        "name": "Michelle Duclos",
+        "first_name": "Michelle",
+        "last_name": "Duclos",
+        "aka": "Michele Duclos; Michèle Duclos",
+        "description": "Michelle Duclos was a Montreal broadcaster and freelance writer associated with the Quebec independence movement. Arrested in New York on February 16, 1965, she was one of four people held in the national-monuments case involving Robert Steele Collier, Walter Augustus Bowe and Khaleel Sultarn Sayyed.\n\nDuclos pleaded guilty to smuggling on May 13, 1965, before the men's trial, and cooperated as a prosecution witness. Judge William B. Herlands imposed a conditional five-year sentence on June 17. On September 20, he suspended that sentence and placed her on five years of probation, with permanent exclusion from the United States. The NPS-sponsored history records her subsequent deportation. The precise dates of her release from detention and departure for Canada have not been verified.",
+        "state": "New York",
+        "gender": "Female",
+        "era": "1960s",
+        "ideologies": ["Quebec Independence"],
+        "in_custody": false,
+        "released": true,
+        "website": "https://dai.mun.ca/PDFs/dailynews/DailyNews19650921.pdf#page=1",
+        "cases": [
+          {
+            "charges": "Smuggling explosives into the United States, 18 U.S.C. section 545, in the 1965 national-monuments prosecution.",
+            "arrest_date": "1965-02-16",
+            "plead": "Guilty to smuggling on May 13, 1965; subsequently cooperated as a prosecution witness.",
+            "convicted": "Yes, by guilty plea; not part of the June 14 jury verdict against the three male defendants.",
+            "sentenced_date": "1965-06-17",
+            "judge": "William B. Herlands",
+            "sentence": "Conditional five-year sentence imposed June 17, 1965; suspended September 20, 1965, with five years of probation and permanent exclusion from the United States. Subsequently deported to Canada; exact release and departure dates unverified."
+          }
+        ]
+      }
+    }
+  ]
+}
