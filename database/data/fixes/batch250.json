@@ -1,0 +1,574 @@
+{
+  "batch": 250,
+  "expected_count": 19,
+  "research_date": "2026-09-07",
+  "subject": "First missing-fields audit: verified dates and one missing portrait; no biography edits",
+  "sources": [
+    {
+      "id": "nps-brown",
+      "title": "National Park Service: John Brown",
+      "url": "https://home.nps.gov/people/john-brown.htm",
+      "supports": "Birth May 9, 1800; death December 2, 1859."
+    },
+    {
+      "id": "nps-raiders",
+      "title": "National Park Service: I had rather die than be a slave",
+      "url": "https://www.nps.gov/articles/john-browns-raiders.htm",
+      "supports": "Birth and death dates for Cook, Copeland, Coppoc, Green, Hazlett and Stevens. Green birth is explicitly circa 1836."
+    },
+    {
+      "id": "otis-stevens",
+      "title": "Otis Library: Aaron Dwight Stevens",
+      "url": "https://otislibrarynorwich.org/2024/02/02/aaaron-dwight-stevens/",
+      "supports": "March 15, 1831 birth; March 16, 1860 death."
+    },
+    {
+      "id": "nps-brown-sentence",
+      "title": "National Park Service: John Brown's Raid",
+      "url": "https://www.nps.gov/articles/john-browns-raid.htm",
+      "supports": "Brown sentenced to death November 2, 1859."
+    },
+    {
+      "id": "haymarket",
+      "title": "Chicago History Museum: Haymarket Affair chronology",
+      "url": "https://www.chicagohistoryresources.org/hadc/chronology.html",
+      "supports": "October 9, 1886 final judicial sentencing follows the jury verdict and October 7-9 speeches. Parsons, Spies, Engel and Fischer executed November 11, 1887."
+    },
+    {
+      "id": "haymarket-court",
+      "title": "Illinois v. Spies et al., trial transcript volume 1, pp. 25-106",
+      "url": "https://chicagohistoryresources.org/hadc/transcript/volume1/000-050/1025-106.htm",
+      "supports": "Court record corroborates October 7-9 proceedings before final sentencing. Jury penalty decision is distinguished from judicial sentencing."
+    },
+    {
+      "id": "dorr-life",
+      "title": "Rhode Island Heritage Hall of Fame: Thomas Wilson Dorr",
+      "url": "https://riheritagehalloffame.com/thomas-dorr/",
+      "supports": "Birth November 5, 1805; death December 27, 1854."
+    },
+    {
+      "id": "dorr-sentence",
+      "title": "Library of Congress: Dorr Rebellion chronology",
+      "url": "https://guides.loc.gov/chronicling-america-dorr-rebellion",
+      "supports": "June 25, 1844 sentence. Indexed chronology verified; direct fetch rate limited."
+    },
+    {
+      "id": "gregory-birth",
+      "title": "National Archives: Dick Gregory, Civil Rights Activist and Comedic Legend",
+      "url": "https://rediscovering-black-history.blogs.archives.gov/2017/08/21/dick-gregory-civil-rights-activist-and-comedic-legend/",
+      "supports": "Birth October 12, 1932."
+    },
+    {
+      "id": "gregory-death",
+      "title": "Santa Fe New Mexican / Legacy: Dick Gregory obituary",
+      "url": "https://www.legacy.com/us/obituaries/santafenewmexican/name/dick-gregory-obituary?id=60248188",
+      "supports": "Reports death August 19, 2017 with family statement; also gives full birth date."
+    },
+    {
+      "id": "iva-fbi",
+      "title": "FBI: Iva Toguri D'Aquino and Tokyo Rose",
+      "url": "https://www.fbi.gov/history/cases-and-criminals/iva-toguri-daquino-and-tokyo-rose",
+      "supports": "Birth July 4, 1916; FBI arrest on US arrival September 25, 1948; sentencing October 6, 1949. Earlier Japanese detention is a separate episode."
+    },
+    {
+      "id": "iva-densho",
+      "title": "Densho Encyclopedia: Iva Toguri D'Aquino",
+      "url": "https://encyclopedia.densho.org/Iva%20Toguri%20D%27Aquino/",
+      "supports": "Full birth and death dates (July 4, 1916; September 26, 2006) and corroboration of the US prosecution dates."
+    },
+    {
+      "id": "vivian-photo",
+      "title": "Ken Shipp / US Department of Energy: C. T. Vivian portrait",
+      "url": "https://commons.wikimedia.org/wiki/File:Photo_by_Ken_Shipp-DOE_Photo_(6853349205)_(Ausschnitt).jpg",
+      "supports": "Public-domain DOE group photograph; caption identifies Vivian second from left. Existing Commons portrait extract visually matched to the original. API metadata verified when web rendering failed."
+    }
+  ],
+  "research_limits": [
+    "Only empty fields are filled. Existing full or partial dates, photographs, Website fields, biographies, case prose, and custody flags are preserved.",
+    "A blank field is a research lead, not proof of error. Death and release dates may be inapplicable. No dates are calculated by subtracting a sentence or age.",
+    "Case dates identify specific events: judicial sentencing is not jury verdict, arrest is not automatically prison admission, and pardon is not automatically release.",
+    "Green birth circa 1836 retains circa precision. Stevens full birth date is corroborated by Otis Library; no day is invented from the NPS year-only entry.",
+    "Haymarket existing arrest and release dates, Brown and Hazlett existing arrest dates, and Dorr existing incarceration date need separate review. They are not overwritten by this fill-only batch.",
+    "Iva Toguri already has a year-only 1956 release date. Although sources establish January 28, it is preserved because this batch fills blanks only.",
+    "Eloquent guarded field updates avoid saving hooks that could overwrite an existing release date or derive unrelated exile dates. No incarceration or release endpoints are added in this first batch, so custody-duration columns are unchanged."
+  ],
+  "entries": [
+    {
+      "name": "John Brown",
+      "slug": "john-brown",
+      "source_ids": [
+        "nps-brown"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1800,
+          "month": 5,
+          "day": 9
+        },
+        "death_date": {
+          "year": 1859,
+          "month": 12,
+          "day": 2
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Treason against the Commonwealth of Virginia; murder; conspiring with enslaved people to rebel",
+          "match_incarceration_date": "1859-10-17",
+          "source_ids": [
+            "nps-brown-sentence"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1859,
+              "month": 11,
+              "day": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aaron Stevens",
+      "slug": "aaron-stevens",
+      "source_ids": [
+        "otis-stevens",
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1831,
+          "month": 3,
+          "day": 15
+        },
+        "death_date": {
+          "year": 1860,
+          "month": 3,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "John E. Cook",
+      "slug": "john-e-cook",
+      "source_ids": [
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1829,
+          "month": 5,
+          "day": 12
+        },
+        "death_date": {
+          "year": 1859,
+          "month": 12,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "John Anthony Copeland Jr.",
+      "slug": "john-anthony-copeland-jr",
+      "source_ids": [
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1834,
+          "month": 8,
+          "day": 15
+        },
+        "death_date": {
+          "year": 1859,
+          "month": 12,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "Edwin Coppoc",
+      "slug": "edwin-coppoc",
+      "source_ids": [
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1835,
+          "month": 6,
+          "day": 30
+        },
+        "death_date": {
+          "year": 1859,
+          "month": 12,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "Shields Green",
+      "slug": "shields-green",
+      "source_ids": [
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1836,
+          "approximate": true
+        },
+        "death_date": {
+          "year": 1859,
+          "month": 12,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "Albert Hazlett",
+      "slug": "albert-hazlett",
+      "source_ids": [
+        "nps-raiders"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1837,
+          "month": 9,
+          "day": 21
+        },
+        "death_date": {
+          "year": 1860,
+          "month": 3,
+          "day": 16
+        }
+      }
+    },
+    {
+      "name": "August Spies",
+      "slug": "august-spies",
+      "source_ids": [
+        "haymarket"
+      ],
+      "dates": {
+        "death_date": {
+          "year": 1887,
+          "month": 11,
+          "day": 11
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Albert Parsons",
+      "slug": "albert-parsons",
+      "source_ids": [
+        "haymarket"
+      ],
+      "dates": {
+        "death_date": {
+          "year": 1887,
+          "month": 11,
+          "day": 11
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adolph Fischer",
+      "slug": "adolph-fischer",
+      "source_ids": [
+        "haymarket"
+      ],
+      "dates": {
+        "death_date": {
+          "year": 1887,
+          "month": 11,
+          "day": 11
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "George Engel",
+      "slug": "george-engel",
+      "source_ids": [
+        "haymarket"
+      ],
+      "dates": {
+        "death_date": {
+          "year": 1887,
+          "month": 11,
+          "day": 11
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Samuel Fielden",
+      "slug": "samuel-fielden",
+      "source_ids": [
+        "haymarket"
+      ],
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Michael Schwab",
+      "slug": "michael-schwab",
+      "source_ids": [
+        "haymarket"
+      ],
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Oscar Neebe",
+      "slug": "oscar-neebe",
+      "source_ids": [
+        "haymarket"
+      ],
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Louis Lingg",
+      "slug": "louis-lingg",
+      "source_ids": [
+        "haymarket"
+      ],
+      "cases": [
+        {
+          "match_charges": "Conspiracy to commit murder (Haymarket bombing prosecution)",
+          "match_incarceration_date": "1886-05-04",
+          "source_ids": [
+            "haymarket",
+            "haymarket-court"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1886,
+              "month": 10,
+              "day": 9
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thomas Wilson Dorr",
+      "slug": "thomas-wilson-dorr",
+      "source_ids": [
+        "dorr-life"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1805,
+          "month": 11,
+          "day": 5
+        },
+        "death_date": {
+          "year": 1854,
+          "month": 12,
+          "day": 27
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Treason against the State of Rhode Island.",
+          "match_incarceration_date": "1844-06-25",
+          "source_ids": [
+            "dorr-sentence"
+          ],
+          "dates": {
+            "sentenced_date": {
+              "year": 1844,
+              "month": 6,
+              "day": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dick Gregory",
+      "slug": "dick-gregory",
+      "source_ids": [
+        "gregory-birth",
+        "gregory-death"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1932,
+          "month": 10,
+          "day": 12
+        },
+        "death_date": {
+          "year": 2017,
+          "month": 8,
+          "day": 19
+        }
+      }
+    },
+    {
+      "name": "Iva Toguri D'Aquino",
+      "slug": "iva-toguri-daquino",
+      "source_ids": [
+        "iva-fbi",
+        "iva-densho"
+      ],
+      "dates": {
+        "birthdate": {
+          "year": 1916,
+          "month": 7,
+          "day": 4
+        },
+        "death_date": {
+          "year": 2006,
+          "month": 9,
+          "day": 26
+        }
+      },
+      "cases": [
+        {
+          "match_charges": "Treason",
+          "match_incarceration_date": "1949-01-01",
+          "source_ids": [
+            "iva-fbi",
+            "iva-densho"
+          ],
+          "dates": {
+            "arrest_date": {
+              "year": 1948,
+              "month": 9,
+              "day": 25
+            },
+            "sentenced_date": {
+              "year": 1949,
+              "month": 10,
+              "day": 6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "C. T. Vivian",
+      "slug": "c-t-vivian",
+      "source_ids": [
+        "vivian-photo"
+      ],
+      "photo": {
+        "file": "c-t-vivian-doe.jpg",
+        "sha256": "f76cb91a928810a45b216e2a3ebfa1296d9ad9a4b1714443540b8a32f04bf11b"
+      }
+    }
+  ]
+}
