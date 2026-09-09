@@ -1,0 +1,316 @@
+{
+  "sources": {
+    "uw-intro": {
+      "label": "University of Washington · History and geography",
+      "url": "https://depts.washington.edu/moves/BPP_intro.shtml"
+    },
+    "uw-cities": {
+      "label": "Arianne Hermida / University of Washington · Key cities",
+      "url": "https://depts.washington.edu/moves/BPP_map-cities.shtml"
+    },
+    "uw-events": {
+      "label": "University of Washington · Events research, 1967–1979",
+      "url": "https://depts.washington.edu/moves/BPP_map-events.shtml"
+    },
+    "smithsonian": {
+      "label": "Smithsonian NMAAHC · Community programs and social change",
+      "url": "https://nmaahc.si.edu/explore/stories/black-panther-party-challenging-police-and-promoting-social-change"
+    },
+    "platform": {
+      "label": "Black Panther Party · 1966 Ten-Point Program (transcription)",
+      "url": "https://www.marxists.org/history/usa/workers/black-panthers/1966/10/15.htm"
+    },
+    "hampton": {
+      "label": "National Archives · Fred Hampton",
+      "url": "https://www.archives.gov/research/african-americans/individuals/fred-hampton"
+    },
+    "nara": {
+      "label": "National Archives · Black Panther Party records",
+      "url": "https://www.archives.gov/research/african-americans/black-power/black-panthers"
+    },
+    "huggins": {
+      "label": "UC Berkeley · Ericka Huggins oral history",
+      "url": "https://revolution.berkeley.edu/oral-history-ericka-huggins/"
+    },
+    "loc-huggins": {
+      "label": "Library of Congress · Ericka Huggins oral history, 2016",
+      "url": "https://www.loc.gov/item/2016655435/"
+    },
+    "photo": {
+      "label": "Washington State Archives / CIR Online · Olympia photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:Black_Panther_demonstration.jpg"
+    },
+    "seattle": {
+      "label": "Kurt Schaefer / University of Washington · Seattle Panthers",
+      "url": "https://depts.washington.edu/civilr/Panther2_schaefer.shtml"
+    }
+  },
+  "cities": [
+    {
+      "id": "oakland",
+      "name": "Oakland & the Bay Area",
+      "state": "California",
+      "lat": 37.8044,
+      "lng": -122.2712,
+      "heading": "Where the Party began",
+      "body": "Huey P. Newton and Bobby Seale founded the Party here in October 1966. Oakland became its national center.",
+      "profiles": [
+        "huey-p-newton",
+        "bobby-seale",
+        "ericka-huggins",
+        "kathleen-cleaver"
+      ],
+      "source": "uw-intro"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "state": "California",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "heading": "Organizing under pressure",
+      "body": "Breakfast and medical programs developed alongside organizing repeatedly disrupted by police raids and conflict.",
+      "profiles": [
+        "elmer-geronimo-pratt"
+      ],
+      "source": "uw-cities"
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "state": "Illinois",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "heading": "Coalitions across communities",
+      "body": "The Illinois Panthers built multiracial alliances through the Rainbow Coalition and organized food and health programs.",
+      "profiles": [
+        "fred-hampton"
+      ],
+      "source": "uw-cities"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "state": "New York",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "heading": "Neighborhoods and defense campaigns",
+      "body": "Harlem anchored a network of neighborhood offices. Defense of the Panther 21 became a major organizing focus.",
+      "profiles": [
+        "afeni-shakur"
+      ],
+      "source": "uw-cities"
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "state": "Washington",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "heading": "A lasting community presence",
+      "body": "The Seattle chapter combined police accountability work with health care, meals and youth education.",
+      "profiles": [
+        "aaron-dixon"
+      ],
+      "source": "seattle"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "heading": "Political education in practice",
+      "body": "The local organization provided food, clothing, a clinic, political classes and a library of Black authors.",
+      "profiles": [
+        "mumia-abu-jamal"
+      ],
+      "source": "uw-cities"
+    }
+  ],
+  "events": [
+    {
+      "id": "founding",
+      "date": "October 1966",
+      "year": 1966,
+      "city": "oakland",
+      "kind": "organizing",
+      "title": "The Party is founded",
+      "body": "Huey P. Newton and Bobby Seale establish the Black Panther Party for Self Defense in Oakland.",
+      "source": "uw-intro"
+    },
+    {
+      "id": "sacramento",
+      "date": "May 1967",
+      "year": 1967,
+      "city": "oakland",
+      "kind": "organizing",
+      "title": "A protest reaches Sacramento",
+      "body": "Bobby Seale leads Panthers to the California State Capitol to oppose proposed restrictions on carrying loaded firearms.",
+      "source": "uw-intro"
+    },
+    {
+      "id": "la-growth",
+      "date": "1968",
+      "year": 1968,
+      "city": "los-angeles",
+      "kind": "organizing",
+      "title": "A growing Los Angeles organization",
+      "body": "The Los Angeles organization gains hundreds of recruits under new leadership.",
+      "source": "uw-cities"
+    },
+    {
+      "id": "philadelphia",
+      "date": "1968",
+      "year": 1968,
+      "city": "philadelphia",
+      "kind": "organizing",
+      "title": "A chapter takes shape in Philadelphia",
+      "body": "The Philadelphia chapter forms and soon adds a second office.",
+      "source": "uw-cities"
+    },
+    {
+      "id": "hampton-joins",
+      "date": "November 1968",
+      "year": 1968,
+      "city": "chicago",
+      "kind": "organizing",
+      "title": "Fred Hampton joins the Illinois Panthers",
+      "body": "Hampton brings experience in youth organizing and soon becomes deputy chairman of the Illinois chapter.",
+      "source": "hampton"
+    },
+    {
+      "id": "olympia",
+      "date": "28 February 1969",
+      "year": 1969,
+      "city": "seattle",
+      "kind": "organizing",
+      "title": "Seattle Panthers demonstrate in Olympia",
+      "body": "Members appear at the Washington State Capitol during a dispute over firearms restrictions—the moment pictured above.",
+      "source": "photo"
+    },
+    {
+      "id": "panther-21",
+      "date": "1969",
+      "year": 1969,
+      "city": "new-york",
+      "kind": "repression",
+      "title": "The Panther 21 prosecution",
+      "body": "An alleged bombing conspiracy prosecution makes prisoner defense a focus of New York organizing.",
+      "source": "uw-cities"
+    },
+    {
+      "id": "chicago-raid",
+      "date": "4 December 1969",
+      "year": 1969,
+      "city": "chicago",
+      "kind": "repression",
+      "title": "Fred Hampton and Mark Clark are killed",
+      "body": "Police kill Hampton and Clark in a raid. National Archives records document FBI infiltration and the subsequent civil-rights case.",
+      "source": "hampton"
+    },
+    {
+      "id": "seattle-clinic",
+      "date": "By 1970",
+      "year": 1970,
+      "city": "seattle",
+      "kind": "community",
+      "title": "Seattle expands community services",
+      "body": "Seattle Panthers operate a community medical clinic alongside food and youth programs.",
+      "source": "seattle"
+    },
+    {
+      "id": "school",
+      "date": "1971",
+      "year": 1971,
+      "city": "oakland",
+      "kind": "community",
+      "title": "The Intercommunal Youth Institute opens",
+      "body": "The educational project that later becomes the Oakland Community School opens, connecting learning, child care and community life.",
+      "source": "huggins"
+    },
+    {
+      "id": "east-coast",
+      "date": "1971",
+      "year": 1971,
+      "city": "new-york",
+      "kind": "organizing",
+      "title": "An East Coast split",
+      "body": "New York breaks with Oakland and begins publishing Right On.",
+      "source": "uw-cities"
+    },
+    {
+      "id": "huggins-school",
+      "date": "1973–1981",
+      "year": 1973,
+      "city": "oakland",
+      "kind": "community",
+      "title": "Ericka Huggins directs the Oakland Community School",
+      "body": "Huggins leads the school through years of teaching, care and community-centered education.",
+      "source": "loc-huggins"
+    },
+    {
+      "id": "seattle-legacy",
+      "date": "Late 1970s",
+      "year": 1977,
+      "city": "seattle",
+      "kind": "community",
+      "title": "Programs outlast the chapter",
+      "body": "Seattle’s community programs continue beyond the chapter.",
+      "source": "uw-cities"
+    }
+  ],
+  "platform": [
+    {
+      "title": "Community self-determination",
+      "body": "Black communities should control their own political future."
+    },
+    {
+      "title": "Work and income",
+      "body": "Employment or guaranteed income should make a decent livelihood possible."
+    },
+    {
+      "title": "An end to exploitation",
+      "body": "The platform challenges capitalist extraction and demands restitution for historical theft."
+    },
+    {
+      "title": "Housing with dignity",
+      "body": "Safe housing should meet human needs, with cooperative ownership proposed as a remedy."
+    },
+    {
+      "title": "Education and history",
+      "body": "Education should teach Black history and equip people to understand their position in society."
+    },
+    {
+      "title": "Opposition to conscription",
+      "body": "Black men should not be compelled to fight for a government that denies their rights."
+    },
+    {
+      "title": "Safety from police violence",
+      "body": "Communities should be protected from police brutality and killings."
+    },
+    {
+      "title": "Freedom for imprisoned Black people",
+      "body": "The Party demands release, arguing that Black prisoners have been denied fair trials."
+    },
+    {
+      "title": "Juries from the community",
+      "body": "Defendants should be judged by peers who understand their communities and circumstances."
+    },
+    {
+      "title": "The material conditions of freedom",
+      "body": "Basic necessities, justice and peace belong together in the Party’s vision of liberation."
+    }
+  ],
+  "profile_order": [
+    "huey-p-newton",
+    "bobby-seale",
+    "fred-hampton",
+    "ericka-huggins",
+    "afeni-shakur",
+    "kathleen-cleaver",
+    "aaron-dixon",
+    "elmer-geronimo-pratt",
+    "mumia-abu-jamal"
+  ]
+}

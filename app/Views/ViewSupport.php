@@ -33,6 +33,7 @@ abstract class ViewSupport {
             }
 
             if ($page->slug === 'learn-more') {
+                $children[] = new MenuItemDTO(title: 'Black Panther Party', href: '/black-panther-party');
                 $children[] = new MenuItemDTO(title: 'Archive', href: '/archive');
                 $children[] = new MenuItemDTO(title: 'Dashboard', href: '/dashboard');
             }

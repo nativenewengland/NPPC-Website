@@ -337,6 +337,10 @@
             @elseif($displayTopic)
                 <div class="tpx-detail-eyebrow">{{ strtoupper($displayTopic->title) }}</div>
 
+                @if($displayTopic->slug === 'black-panther-party')
+                    <p style="margin-bottom: 22px;"><a href="/black-panther-party" style="color: #4338ca; font-weight: 700;">Explore the Black Panther Party: places, programs &amp; people &rarr;</a></p>
+                @endif
+
                 @if($showHero)
                     <img class="tpx-detail-hero" src="{{ $heroImage }}" alt="{{ $displayTopic->title }}">
                 @endif

@@ -6,6 +6,9 @@ use App\Http\Controllers\FormSubmissionController;
 use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/black-panther-party', \App\Http\Controllers\BlackPantherHistoryController::class)
+    ->name('black-panther-party');
+
 Route::controller(DonateController::class)
     ->group(function () {
         Route::get('/donate-callback', 'callback');
