@@ -1,0 +1,1222 @@
+{
+  "coverage": "Historical chapters, branches, Party offices, prison organizations and affiliated organizing centers, including local National Committee to Combat Fascism (NCCF) groups. Includes every city/locality in the cited 1971 directory, supplemented by Party newspapers and chapter histories. Neighborhood entries share their city marker.",
+  "coordinate_source": {
+    "label": "U.S. Census Bureau · 2025 place Gazetteer internal points",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
+    "note": "Modern approximate place coordinates, not historical street addresses. San Quentin and Algiers use GeoNames locality coordinates."
+  },
+  "sources": {
+    "directory-1971": {
+      "label": "1971 affiliate directory · printed pages 88–89",
+      "url": "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther18.pdf#page=100",
+      "note": "House Committee on Internal Security, Gun-Barrel Politics (1971). A partial historical directory combining police reports and Party newspaper lists; classifications changed over time."
+    },
+    "directory-1970": {
+      "label": "The Black Panther · June 27, 1970, printed page 22",
+      "url": "https://washingtonareaspark.com/wp-content/uploads/2020/06/1970-06-27-black-panther-vol-4-no-30.pdf#page=21",
+      "note": "The Party newspaper lists recognized chapters, branches, NCCFs and community centers."
+    },
+    "howard": {
+      "label": "Elbert “Big Man” Howard · Remembering the Party’s expansion",
+      "url": "https://sfbayview.com/2016/10/revolutionary-50-years-of-the-black-panther-party/",
+      "note": "A founding member names additional chapter and branch communities."
+    },
+    "washington": {
+      "label": "Seattle Black Panther Party Interpretive Center · Chapter history",
+      "url": "https://www.seattleblackpantherpartyinterpretivecenter.org/",
+      "note": "Identifies branches in Tacoma and Eugene and a prison chapter in Walla Walla."
+    },
+    "illinois": {
+      "label": "Illinois Chapter Historical Preservation Society · Operational sites",
+      "url": "https://ilbpp.org/major-operational-sites",
+      "note": "Documents Carbondale’s NCCF office and other Illinois locations."
+    },
+    "north-carolina": {
+      "label": "State Library of North Carolina · Black Panther Party",
+      "url": "https://www.ncpedia.org/black-panther-party",
+      "note": "Documents Winston-Salem and its High Point community information center; distinguishes unrecognized Charlotte organizing."
+    },
+    "algiers": {
+      "label": "UC Berkeley · International Section archive, Algiers",
+      "url": "https://digicoll.lib.berkeley.edu/record/286335",
+      "note": "Archival photographs identify members of the Party’s International Section in Algiers."
+    }
+  },
+  "locations": [
+    {
+      "id": "albany",
+      "name": "Albany",
+      "state": "New York",
+      "country": "United States",
+      "lat": 42.665745,
+      "lng": -73.798353,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3601000"
+    },
+    {
+      "id": "algiers",
+      "name": "Algiers",
+      "state": "Algeria",
+      "country": "Algeria",
+      "lat": 36.73225,
+      "lng": 3.08746,
+      "kind": "international",
+      "label": "International Section",
+      "note": "The Party’s International Section operated in Algiers. This is part of the original Party’s organization.",
+      "neighborhoods": [],
+      "evidence": [
+        "algiers"
+      ],
+      "coordinate_source": "https://www.geonames.org/2507480/algiers.html"
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "state": "Georgia",
+      "country": "United States",
+      "lat": 33.762909,
+      "lng": -84.422675,
+      "kind": "chapter-branch",
+      "label": "Chapter / branch",
+      "note": "Founding member Elbert “Big Man” Howard names this community in his account of the Party’s expansion.",
+      "neighborhoods": [],
+      "evidence": [
+        "howard"
+      ],
+      "geoid": "1304000"
+    },
+    {
+      "id": "atlantic-city",
+      "name": "Atlantic City",
+      "state": "New Jersey",
+      "country": "United States",
+      "lat": 39.377337,
+      "lng": -74.45107,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3402080"
+    },
+    {
+      "id": "bakersfield",
+      "name": "Bakersfield",
+      "state": "California",
+      "country": "United States",
+      "lat": 35.353171,
+      "lng": -119.037919,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0603526"
+    },
+    {
+      "id": "baltimore",
+      "name": "Baltimore",
+      "state": "Maryland",
+      "country": "United States",
+      "lat": 39.300032,
+      "lng": -76.610476,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "2404000"
+    },
+    {
+      "id": "berkeley",
+      "name": "Berkeley",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.865673,
+      "lng": -122.298725,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0606000"
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "state": "Massachusetts",
+      "country": "United States",
+      "lat": 42.338551,
+      "lng": -71.018253,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "2507000"
+    },
+    {
+      "id": "bridgeport",
+      "name": "Bridgeport",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.187393,
+      "lng": -73.195757,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0908000"
+    },
+    {
+      "id": "buffalo",
+      "name": "Buffalo",
+      "state": "New York",
+      "country": "United States",
+      "lat": 42.892492,
+      "lng": -78.859686,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3611000"
+    },
+    {
+      "id": "cambridge",
+      "name": "Cambridge",
+      "state": "Massachusetts",
+      "country": "United States",
+      "lat": 42.376043,
+      "lng": -71.11868,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "2511000"
+    },
+    {
+      "id": "carbondale",
+      "name": "Carbondale",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 37.722062,
+      "lng": -89.223664,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "The Illinois chapter’s historical preservation society documents a National Committee to Combat Fascism office in Carbondale.",
+      "neighborhoods": [],
+      "evidence": [
+        "illinois"
+      ],
+      "geoid": "1711163"
+    },
+    {
+      "id": "chattanooga",
+      "name": "Chattanooga",
+      "state": "Tennessee",
+      "country": "United States",
+      "lat": 35.065958,
+      "lng": -85.248386,
+      "kind": "chapter-branch",
+      "label": "Chapter / branch",
+      "note": "Founding member Elbert “Big Man” Howard names this community in his account of the Party’s expansion.",
+      "neighborhoods": [],
+      "evidence": [
+        "howard"
+      ],
+      "geoid": "4714000"
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 41.837045,
+      "lng": -87.684939,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "1714000"
+    },
+    {
+      "id": "cincinnati",
+      "name": "Cincinnati",
+      "state": "Ohio",
+      "country": "United States",
+      "lat": 39.140183,
+      "lng": -84.505829,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3915000"
+    },
+    {
+      "id": "cleveland-ms",
+      "name": "Cleveland",
+      "state": "Mississippi",
+      "country": "United States",
+      "lat": 33.744008,
+      "lng": -90.728476,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2814260"
+    },
+    {
+      "id": "cleveland-oh",
+      "name": "Cleveland",
+      "state": "Ohio",
+      "country": "United States",
+      "lat": 41.478462,
+      "lng": -81.679435,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3916000"
+    },
+    {
+      "id": "columbus",
+      "name": "Columbus",
+      "state": "Ohio",
+      "country": "United States",
+      "lat": 39.985531,
+      "lng": -82.985594,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3918000"
+    },
+    {
+      "id": "compton",
+      "name": "Compton",
+      "state": "California",
+      "country": "United States",
+      "lat": 33.894047,
+      "lng": -118.227469,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0615044"
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "state": "Texas",
+      "country": "United States",
+      "lat": 32.793333,
+      "lng": -96.766513,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4819000"
+    },
+    {
+      "id": "dayton",
+      "name": "Dayton",
+      "state": "Ohio",
+      "country": "United States",
+      "lat": 39.784743,
+      "lng": -84.199632,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3921000"
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "state": "Colorado",
+      "country": "United States",
+      "lat": 39.76185,
+      "lng": -104.881105,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0820000"
+    },
+    {
+      "id": "des-moines",
+      "name": "Des Moines",
+      "state": "Iowa",
+      "country": "United States",
+      "lat": 41.57259,
+      "lng": -93.610243,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "1921000"
+    },
+    {
+      "id": "detroit",
+      "name": "Detroit",
+      "state": "Michigan",
+      "country": "United States",
+      "lat": 42.383037,
+      "lng": -83.102237,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "2622000"
+    },
+    {
+      "id": "dover",
+      "name": "Dover",
+      "state": "Delaware",
+      "country": "United States",
+      "lat": 39.160602,
+      "lng": -75.521659,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "1021200"
+    },
+    {
+      "id": "eugene",
+      "name": "Eugene",
+      "state": "Oregon",
+      "country": "United States",
+      "lat": 44.056848,
+      "lng": -123.119019,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "The Seattle chapter’s interpretive center identifies this location in its account of the regional organization.",
+      "neighborhoods": [],
+      "evidence": [
+        "washington"
+      ],
+      "geoid": "4123850"
+    },
+    {
+      "id": "flint",
+      "name": "Flint",
+      "state": "Michigan",
+      "country": "United States",
+      "lat": 43.02442,
+      "lng": -83.691971,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2629000"
+    },
+    {
+      "id": "fresno",
+      "name": "Fresno",
+      "state": "California",
+      "country": "United States",
+      "lat": 36.782684,
+      "lng": -119.793359,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0627000"
+    },
+    {
+      "id": "harrisburg",
+      "name": "Harrisburg",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "lat": 40.275891,
+      "lng": -76.88502,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4232800"
+    },
+    {
+      "id": "hartford",
+      "name": "Hartford",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.765933,
+      "lng": -72.681579,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0937000"
+    },
+    {
+      "id": "high-point",
+      "name": "High Point",
+      "state": "North Carolina",
+      "country": "United States",
+      "lat": 35.990803,
+      "lng": -79.992713,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "The Winston-Salem organization established a satellite community information center in High Point.",
+      "neighborhoods": [],
+      "evidence": [
+        "north-carolina"
+      ],
+      "geoid": "3731400"
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "state": "Texas",
+      "country": "United States",
+      "lat": 29.785743,
+      "lng": -95.388806,
+      "kind": "office",
+      "label": "Party office",
+      "note": "Houston appears in the Party’s March 1969 office list; the directory notes that it was absent from the 1970 lists.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4835000"
+    },
+    {
+      "id": "indianapolis",
+      "name": "Indianapolis",
+      "state": "Indiana",
+      "country": "United States",
+      "lat": 39.776664,
+      "lng": -86.145935,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "1836003"
+    },
+    {
+      "id": "jersey-city",
+      "name": "Jersey City",
+      "state": "New Jersey",
+      "country": "United States",
+      "lat": 40.711417,
+      "lng": -74.06476,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3436000"
+    },
+    {
+      "id": "kansas-city",
+      "name": "Kansas City",
+      "state": "Missouri",
+      "country": "United States",
+      "lat": 39.125155,
+      "lng": -94.550313,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2938000"
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "lat": 34.019394,
+      "lng": -118.410825,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [
+        "Watts"
+      ],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0644000"
+    },
+    {
+      "id": "marin-city",
+      "name": "Marin City",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.871156,
+      "lng": -122.513736,
+      "kind": "chapter-branch",
+      "label": "Chapter / branch",
+      "note": "Founding member Elbert “Big Man” Howard names this community in his account of the Party’s expansion.",
+      "neighborhoods": [],
+      "evidence": [
+        "howard"
+      ],
+      "geoid": "0645820"
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "state": "Tennessee",
+      "country": "United States",
+      "lat": 35.109164,
+      "lng": -89.968511,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4748000"
+    },
+    {
+      "id": "milwaukee",
+      "name": "Milwaukee",
+      "state": "Wisconsin",
+      "country": "United States",
+      "lat": 43.063348,
+      "lng": -87.966695,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "5553000"
+    },
+    {
+      "id": "minneapolis",
+      "name": "Minneapolis",
+      "state": "Minnesota",
+      "country": "United States",
+      "lat": 44.963324,
+      "lng": -93.26832,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2743000"
+    },
+    {
+      "id": "mount-vernon",
+      "name": "Mount Vernon",
+      "state": "New York",
+      "country": "United States",
+      "lat": 40.913105,
+      "lng": -73.829317,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3649121"
+    },
+    {
+      "id": "nashville",
+      "name": "Nashville",
+      "state": "Tennessee",
+      "country": "United States",
+      "lat": 36.1718,
+      "lng": -86.785002,
+      "kind": "chapter-branch",
+      "label": "Chapter / branch",
+      "note": "Founding member Elbert “Big Man” Howard names this community in his account of the Party’s expansion.",
+      "neighborhoods": [],
+      "evidence": [
+        "howard"
+      ],
+      "geoid": "4752006"
+    },
+    {
+      "id": "new-bedford",
+      "name": "New Bedford",
+      "state": "Massachusetts",
+      "country": "United States",
+      "lat": 41.661303,
+      "lng": -70.937913,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2545000"
+    },
+    {
+      "id": "new-brunswick",
+      "name": "New Brunswick",
+      "state": "New Jersey",
+      "country": "United States",
+      "lat": 40.486677,
+      "lng": -74.444414,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3451210"
+    },
+    {
+      "id": "new-haven",
+      "name": "New Haven",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.310809,
+      "lng": -72.924953,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0952000"
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "state": "Louisiana",
+      "country": "United States",
+      "lat": 30.05342,
+      "lng": -89.934502,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "2255000"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "state": "New York",
+      "country": "United States",
+      "lat": 40.662712,
+      "lng": -73.938677,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records the New York chapter and organizing in the Bronx, Brooklyn, Corona, Harlem, Jamaica and Washington Heights.",
+      "neighborhoods": [
+        "Bronx",
+        "Brooklyn",
+        "Corona",
+        "Harlem",
+        "Jamaica",
+        "Washington Heights"
+      ],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3651000"
+    },
+    {
+      "id": "newark",
+      "name": "Newark",
+      "state": "New Jersey",
+      "country": "United States",
+      "lat": 40.72422,
+      "lng": -74.172574,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3451000"
+    },
+    {
+      "id": "oakland",
+      "name": "Oakland",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.769846,
+      "lng": -122.22569,
+      "kind": "headquarters",
+      "label": "National headquarters",
+      "note": "Oakland was the Party’s founding city and national headquarters.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0653000"
+    },
+    {
+      "id": "omaha",
+      "name": "Omaha",
+      "state": "Nebraska",
+      "country": "United States",
+      "lat": 41.262705,
+      "lng": -96.053475,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3137000"
+    },
+    {
+      "id": "peekskill",
+      "name": "Peekskill",
+      "state": "New York",
+      "country": "United States",
+      "lat": 41.287396,
+      "lng": -73.923597,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3656979"
+    },
+    {
+      "id": "peoria",
+      "name": "Peoria",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 40.751641,
+      "lng": -89.617198,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "1759000"
+    },
+    {
+      "id": "philadelphia",
+      "name": "Philadelphia",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "lat": 40.009376,
+      "lng": -75.133346,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "4260000"
+    },
+    {
+      "id": "pittsburgh",
+      "name": "Pittsburgh",
+      "state": "Pennsylvania",
+      "country": "United States",
+      "lat": 40.439936,
+      "lng": -79.975676,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4261000"
+    },
+    {
+      "id": "portland",
+      "name": "Portland",
+      "state": "Oregon",
+      "country": "United States",
+      "lat": 45.536951,
+      "lng": -122.649971,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "4159000"
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.952278,
+      "lng": -122.360609,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0660620"
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "state": "California",
+      "country": "United States",
+      "lat": 33.938143,
+      "lng": -117.393168,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0662000"
+    },
+    {
+      "id": "rockford",
+      "name": "Rockford",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 42.2593,
+      "lng": -89.063478,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The 1971 directory lists a chapter; the Illinois historical society also documents a branch headquarters.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "1765000"
+    },
+    {
+      "id": "sacramento",
+      "name": "Sacramento",
+      "state": "California",
+      "country": "United States",
+      "lat": 38.567694,
+      "lng": -121.468161,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0664000"
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "state": "California",
+      "country": "United States",
+      "lat": 32.830391,
+      "lng": -117.120923,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0666000"
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.727239,
+      "lng": -123.032229,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "A local branch is documented in the cited historical source.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "0667000"
+    },
+    {
+      "id": "san-quentin",
+      "name": "San Quentin",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.94126,
+      "lng": -122.4848,
+      "kind": "prison",
+      "label": "Prison chapter / branch",
+      "note": "An organization inside the prison is documented here. This marker locates the community, not the prison building.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": null,
+      "coordinate_source": "https://www.geonames.org/search.html?q=San+Quentin&country=US"
+    },
+    {
+      "id": "santa-ana",
+      "name": "Santa Ana",
+      "state": "California",
+      "country": "United States",
+      "lat": 33.736332,
+      "lng": -117.8829,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0669000"
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "state": "Washington",
+      "country": "United States",
+      "lat": 47.619335,
+      "lng": -122.351538,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "5363000"
+    },
+    {
+      "id": "tacoma",
+      "name": "Tacoma",
+      "state": "Washington",
+      "country": "United States",
+      "lat": 47.252199,
+      "lng": -122.459832,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "The Seattle chapter’s interpretive center identifies this location in its account of the regional organization.",
+      "neighborhoods": [],
+      "evidence": [
+        "washington"
+      ],
+      "geoid": "5370000"
+    },
+    {
+      "id": "toledo",
+      "name": "Toledo",
+      "state": "Ohio",
+      "country": "United States",
+      "lat": 41.664071,
+      "lng": -83.581861,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "3977000"
+    },
+    {
+      "id": "tulsa",
+      "name": "Tulsa",
+      "state": "Oklahoma",
+      "country": "United States",
+      "lat": 36.127949,
+      "lng": -95.902316,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "4075000"
+    },
+    {
+      "id": "vallejo",
+      "name": "Vallejo",
+      "state": "California",
+      "country": "United States",
+      "lat": 38.106909,
+      "lng": -122.262339,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "A chapter is recorded in the historical affiliate directory.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971"
+      ],
+      "geoid": "0681666"
+    },
+    {
+      "id": "walla-walla",
+      "name": "Walla Walla",
+      "state": "Washington",
+      "country": "United States",
+      "lat": 46.067006,
+      "lng": -118.337033,
+      "kind": "prison",
+      "label": "Prison chapter / branch",
+      "note": "The Seattle chapter’s interpretive center identifies this location in its account of the regional organization.",
+      "neighborhoods": [],
+      "evidence": [
+        "washington"
+      ],
+      "geoid": "5375775"
+    },
+    {
+      "id": "washington-dc",
+      "name": "Washington, D.C.",
+      "state": "District of Columbia",
+      "country": "United States",
+      "lat": 38.904243,
+      "lng": -77.016524,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "The directory records both chapter and NCCF activity here at different times. The label describes a historical presence, not uninterrupted chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "1150000"
+    },
+    {
+      "id": "winston-salem",
+      "name": "Winston-Salem",
+      "state": "North Carolina",
+      "country": "United States",
+      "lat": 36.102863,
+      "lng": -80.260829,
+      "kind": "affiliate",
+      "label": "Affiliated organizing center",
+      "note": "An NCCF or community information center is documented here. These affiliated groups did not always have formal chapter status.",
+      "neighborhoods": [],
+      "evidence": [
+        "directory-1971",
+        "directory-1970"
+      ],
+      "geoid": "3775000"
+    }
+  ]
+}

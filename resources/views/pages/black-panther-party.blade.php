@@ -14,6 +14,8 @@
 @php
     $sources = $history['sources'];
     $cityNames = collect($history['cities'])->pluck('name', 'id');
+    $cityStories = collect($history['cities'])->keyBy('id');
+    $locations = $atlas['locations'];
     $kinds = ['organizing' => 'Organizing', 'community' => 'Community programs', 'repression' => 'State repression'];
 @endphp
 <article class="bpp" id="bpp-history">
@@ -36,17 +38,26 @@
         <div class="bpp-prose"><p>Founded in Oakland in October 1966 by Huey P. Newton and Bobby Seale, the Black Panther Party organized against police brutality and for Black self-determination. Its politics connected struggles in the United States with liberation movements abroad. <a class="bpp-cite" href="{{ $sources['uw-intro']['url'] }}">[UW]</a></p><p>Members built programs for food, health care, education and legal support. Women sustained much of this daily organizing and held leadership positions, while also confronting inequality within the Party. <a class="bpp-cite" href="{{ $sources['smithsonian']['url'] }}">[Smithsonian]</a></p><p>This NPPC history connects places, organizing and repression with the lives recorded in our prisoner database. Explore the sources alongside the stories.</p></div>
     </section>
     <section id="places" class="bpp-section">
-        <div class="bpp-section-heading"><div><p class="bpp-eyebrow">02 / Across the country</p><h2>A national movement.<br>Local histories.</h2></div><p>Start with six centers of organizing. These are selected city histories, not a complete list of Party chapters.</p></div>
+        <div class="bpp-section-heading"><div><p class="bpp-eyebrow">02 / Across the country & beyond</p><h2>A national movement.<br>Local histories.</h2></div><p>Explore {{ count($locations) }} documented locations: chapters, branches and affiliated organizing centers, plus the International Section in Algiers.</p></div>
+        <div class="bpp-city-picker" hidden><label for="bpp-city">Find a city or locality</label><select id="bpp-city"><option value="all">All cities · {{ count($locations) }} locations</option>@foreach($locations as $location)<option value="{{ $location['id'] }}">{{ $location['name'] }} — {{ $location['state'] }}</option>@endforeach</select><p>Choose any location below, or zoom in and select its marker.</p></div>
         <div class="bpp-city-buttons" aria-label="Choose a city" hidden><button type="button" data-city="all" aria-pressed="true">All cities</button>@foreach($history['cities'] as $city)<button type="button" data-city="{{ $city['id'] }}" aria-pressed="false">{{ $city['name'] }}</button>@endforeach</div>
         <div class="bpp-atlas">
-            <div class="bpp-map-wrap" hidden><div id="bpp-map" aria-label="Map of six selected Black Panther Party organizing cities"></div><p class="bpp-map-note">Markers locate cities, not individual offices or incident sites. Use the city buttons for keyboard navigation.</p></div>
+            <div class="bpp-map-wrap" hidden><div id="bpp-map" aria-label="Map of {{ count($locations) }} documented Black Panther Party chapter and organizing locations"></div><p class="bpp-map-note">One marker per city or locality. Zoom in to separate nearby markers. Points locate communities, not historical office or prison addresses. The city selector provides keyboard access to every location.</p></div>
             <div class="bpp-city-stories">
-                <div class="bpp-atlas-intro" hidden><p class="bpp-eyebrow">Six cities. Many histories.</p><h3>Choose a place<br>to begin.</h3><p>Explore local organizing, then follow the selected milestones below.</p><span class="bpp-atlas-number" aria-hidden="true">06</span></div>
-                @foreach($history['cities'] as $city)
-                <section class="bpp-city-story" data-story="{{ $city['id'] }}"><p class="bpp-eyebrow">{{ $city['state'] }}</p><h3>{{ $city['name'] }}</h3><h4>{{ $city['heading'] }}</h4><p>{{ $city['body'] }}</p><a class="bpp-cite" href="{{ $sources[$city['source']]['url'] }}">Read the city history ↗</a><div class="bpp-city-people">@foreach($city['profiles'] as $slug)@if($profiles->has($slug))<a href="{{ $profiles[$slug]->url }}">{{ $profiles[$slug]->name }} <span aria-hidden="true">↗</span></a>@endif @endforeach</div></section>
+                <div class="bpp-atlas-intro" hidden><div><p class="bpp-eyebrow">Many cities. Connected histories.</p><h3>Choose a place to begin.</h3><p>Every marker opens a documented local presence and its sources. The six city shortcuts also include longer histories and selected milestones.</p></div><div class="bpp-atlas-total"><span class="bpp-atlas-number" aria-hidden="true">{{ count($locations) }}</span><span>documented locations</span></div></div>
+                @foreach($locations as $location)
+                @php $city = $cityStories->get($location['id']); @endphp
+                <section class="bpp-city-story" id="place-{{ $location['id'] }}" data-story="{{ $location['id'] }}" tabindex="-1">
+                    <p class="bpp-eyebrow">{{ $location['state'] }} · {{ $location['label'] }}</p><h3>{{ $location['name'] }}</h3>
+                    @if($city)<h4>{{ $city['heading'] }}</h4><p>{{ $city['body'] }}</p><a class="bpp-cite" href="{{ $sources[$city['source']]['url'] }}">Read the city history ↗</a>@endif
+                    <div class="bpp-location-evidence"><p>{{ $location['note'] }}</p><ul>@foreach($location['evidence'] as $reference)<li><a class="bpp-cite" href="{{ $atlas['sources'][$reference]['url'] }}">{{ $atlas['sources'][$reference]['label'] }} ↗</a></li>@endforeach</ul></div>
+                    @if($city)<div class="bpp-city-people">@foreach($city['profiles'] as $slug)@if($profiles->has($slug))<a href="{{ $profiles[$slug]->url }}">{{ $profiles[$slug]->name }} <span aria-hidden="true">↗</span></a>@endif @endforeach</div>@endif
+                </section>
                 @endforeach
             </div>
         </div>
+        <details class="bpp-city-directory"><summary>Browse all {{ count($locations) }} locations</summary><ul>@foreach($locations as $location)<li><a href="?city={{ $location['id'] }}#place-{{ $location['id'] }}" data-place="{{ $location['id'] }}"><strong>{{ $location['name'] }}</strong><span>{{ $location['state'] }} · {{ $location['label'] }}</span></a></li>@endforeach</ul></details>
+        <details class="bpp-map-method"><summary>What the map includes & how to read it</summary><p>{{ $atlas['coverage'] }}</p><p>These locations span different years; they were not necessarily active at the same time. A marker does not always mean a formally chartered chapter. Each location identifies the organization described by its source. The historical directory is partial, so this is a documented map that can grow as further locations are verified.</p><p>The 1971 government directory combines Party newspaper lists with police reports. We use its location table, alongside participant and chapter histories, to identify places; its political characterizations are not adopted here.</p><ul>@foreach($atlas['sources'] as $source)<li><a href="{{ $source['url'] }}">{{ $source['label'] }} ↗</a></li>@endforeach</ul><p>{{ $atlas['coordinate_source']['note'] }} Coordinates: <a href="{{ $atlas['coordinate_source']['url'] }}">U.S. Census Bureau</a> and <a href="https://www.geonames.org/">GeoNames</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>).</p></details>
         <div class="bpp-timeline-heading"><h3>Follow the turning points</h3><p>Selected milestones, 1966–1981. Dates retain the precision of the cited sources.</p></div>
         <form class="bpp-filters" role="search" aria-label="Filter historical milestones" hidden>
             <label>Search this history<input id="bpp-search" type="search" placeholder="Try education, Hampton, New York…" maxlength="160"></label>
@@ -62,7 +73,7 @@
             </article>
             @endforeach
         </div>
-        <div class="bpp-empty" hidden><h4>No milestones match those filters.</h4><p>Try another search or select all cities and years.</p><button type="button" class="bpp-button" data-reset>Show all milestones</button></div>
+        <div class="bpp-empty" hidden><h4>No selected milestones match those filters.</h4><p>The timeline covers selected events, not every mapped location. Read this location’s sources above, or select all cities and years.</p><button type="button" class="bpp-button" data-reset>Show all milestones</button></div>
         <p class="bpp-method-note">This is a curated introduction. For a larger newspaper-based event dataset, explore the <a href="{{ $sources['uw-events']['url'] }}">University of Washington’s research ↗</a>. Its authors explain that news coverage favors dramatic incidents and can underrepresent everyday organizing.</p>
     </section>
     <section id="programs" class="bpp-section bpp-program-section">
@@ -87,10 +98,10 @@
         <a class="bpp-button bpp-database-button" href="/database/affiliation/black-panther-party">Browse Panther records <span aria-hidden="true">→</span></a>
     </section>
     <section id="sources" class="bpp-section bpp-sources">
-        <div><p class="bpp-eyebrow">07 / Read further</p><h2>History you can trace.</h2><p>Inspired by the University of Washington’s Mapping American Social Movements project. This page uses original NPPC summaries and selected city markers; the linked archives provide the underlying research and firsthand accounts.</p></div>
+        <div><p class="bpp-eyebrow">07 / Read further</p><h2>History you can trace.</h2><p>Inspired by the University of Washington’s Mapping American Social Movements project. This page uses original NPPC summaries and a sourced location directory; the linked archives provide the underlying research and firsthand accounts.</p></div>
         <ol>@foreach($sources as $key => $source)@if($key !== 'photo')<li><a href="{{ $source['url'] }}">{{ $source['label'] }} <span aria-hidden="true">↗</span></a></li>@endif @endforeach</ol>
         <p id="image-credit" class="bpp-image-credit">Header photograph: Seattle Panthers at the Washington State Capitol, 28 February 1969. Washington State Archives, State Governors’ Negative Collection; shared by CIR Online. <a href="{{ $sources['photo']['url'] }}">Source</a> · <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>. Photograph cropped for display.</p>
     </section>
-    <script type="application/json" id="bpp-map-data">{!! json_encode($history['cities'], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) !!}</script>
+    <script type="application/json" id="bpp-map-data">{!! json_encode($locations, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) !!}</script>
 </article>
 @endsection
