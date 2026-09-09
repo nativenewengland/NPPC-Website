@@ -9,8 +9,8 @@ use Carbon\CarbonInterface;
  * Total exile time for a single prisoner, as the union of their cases'
  * exile intervals.
  *
- * Imprisonment can be summed across case rows because custody stints are
- * disjoint by nature — you cannot be in two prisons at once. Exile cannot.
+ * Case rows can describe overlapping periods of exile or imprisonment.
+ * ImprisonmentDuration handles custody overlaps separately.
  * An open-ended exile row counts through to *today*, so two rows describing
  * the same ongoing exile each contribute the whole span from their own start
  * to the present, and the overlap is added twice.
