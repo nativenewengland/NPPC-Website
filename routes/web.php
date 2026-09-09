@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/black-panther-party', \App\Http\Controllers\BlackPantherHistoryController::class)
     ->name('black-panther-party');
+Route::get('/iww', \App\Http\Controllers\IwwHistoryController::class)->name('iww');
 
 Route::controller(DonateController::class)
     ->group(function () {

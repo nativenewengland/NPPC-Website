@@ -340,6 +340,9 @@
                 @if($displayTopic->slug === 'black-panther-party')
                     <p style="margin-bottom: 22px;"><a href="/black-panther-party" style="color: #4338ca; font-weight: 700;">Explore the Black Panther Party: places, programs &amp; people &rarr;</a></p>
                 @endif
+                @if($displayTopic->slug === 'industrial-workers-of-the-world')
+                    <p style="margin-bottom: 22px;"><a href="/iww" style="color: #4338ca; font-weight: 700;">Explore the IWW: organizing, free speech &amp; prisoner histories &rarr;</a></p>
+                @endif
 
                 @if($showHero)
                     <img class="tpx-detail-hero" src="{{ $heroImage }}" alt="{{ $displayTopic->title }}">
