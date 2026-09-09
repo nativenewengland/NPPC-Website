@@ -22,7 +22,7 @@ final class AddMobileAppPressRelease extends Command {
         // second "Press Release" category alongside the seeded "Press
         // Releases", and both then showed up as tabs on /news.
         $category = Category::firstOrCreate(['slug' => 'press-releases'], ['title' => 'Press Releases']);
-        $author   = Author::firstOrCreate(['name' => 'NPPC Communications']);
+        $author   = Author::firstOrCreate(['slug' => 'national-political-prisoner-coalition'], ['name' => 'National Political Prisoner Coalition']);
 
         $slug = 'nppc-announces-mobile-app';
         $title = 'NPPC Announces a Mobile App to Put the Political-Prisoner Database in Every Pocket';
