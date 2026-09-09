@@ -379,11 +379,20 @@ const onPopState = () => {
       </div>
       <div class="results-row">
         <div class="results-count" v-if="filteredRecords.length">{{ filteredRecords.length }} results</div>
-        <label class="include-minor">
-          <input type="checkbox" v-model="includeMinor" @change="onIncludeMinorToggled" />
-          <span>Include minor cases</span>
-          <span v-if="minorAutoEnabled" class="include-minor-auto">on for name search</span>
-        </label>
+        <div class="results-actions">
+          <a class="portrait-gallery-link" href="/icons" aria-label="Browse the portrait gallery" title="Portrait gallery">
+            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <rect x="2.5" y="2" width="19" height="24" rx="2" />
+              <circle cx="12" cy="10" r="3.5" />
+              <path d="M6 21v-1a6 6 0 0 1 12 0v1H6Z" />
+            </svg>
+          </a>
+          <label class="include-minor">
+            <input type="checkbox" v-model="includeMinor" @change="onIncludeMinorToggled" />
+            <span>Include minor cases</span>
+            <span v-if="minorAutoEnabled" class="include-minor-auto">on for name search</span>
+          </label>
+        </div>
       </div>
       <template v-for="record in visibleRecords" >
         <CardComponent v-if="!record['Status Under Review']" :record="record" :key="record.id" />
@@ -439,11 +448,39 @@ const onPopState = () => {
   font-size: 14px;
   color: rgba(255,255,255,0.4);
 }
-.include-minor {
+.results-actions {
   grid-column: 3;
   justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+.portrait-gallery-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  color: rgba(255,255,255,0.7);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.portrait-gallery-link:hover,
+.portrait-gallery-link:focus-visible {
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+}
+.portrait-gallery-link:focus-visible {
+  outline: 2px solid var(--accent, #4f46e5);
+  outline-offset: 2px;
+}
+.include-minor {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
   font-size: 14px;
   color: rgba(255,255,255,0.6);
@@ -464,9 +501,9 @@ const onPopState = () => {
   white-space: nowrap;
 }
 @media (max-width: 600px) {
-  .results-row { grid-template-columns: 1fr auto; }
+  .results-row { grid-template-columns: auto minmax(0, 1fr); }
   .results-count { grid-column: 1; text-align: left; }
-  .include-minor { grid-column: 2; }
+  .results-actions { grid-column: 2; }
 }
 .load-more-indicator {
   display: flex;
@@ -493,4 +530,3 @@ const onPopState = () => {
   .load-more-spinner { animation-duration: 2.4s; }
 }
 </style>
-
