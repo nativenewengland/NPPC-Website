@@ -137,21 +137,11 @@ Confirmed sources from the historical photo-research file that could not be down
 |---|---|---|
 | Dennis Batt | en.wikipedia.org | no photograph (source describes a caricature/likeness) |
 | Evan Thomas | firstamendment.mtsu.edu | source is the Roger Baldwin article; og image is not reliably Evan Thomas |
-| Alexander Cournos | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
 | Charles Ashleigh | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
-| Edward F. Doree | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
-| G. J. Bourg | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
-| George O'Connell | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
-| Jack Law | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | James P. Thompson | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
-| Joe Graber | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | John M. Foss | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | Joseph Ettor | loc.gov | LOC image is a crowd/arrest scene, subject not isolable |
-| Pietro Nigra | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
-| Robert Connellan | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
 | Sam Scarlett | catalog.archives.gov | NARA catalog is a JS SPA; inmate mugshot not directly downloadable |
-| W. H. Lewis | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
-| Walter T. Nef | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | Walter T. Neff | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | William Weyh | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | Adolph Ersson | depts.washington.edu | not present in the UW IWW booking-portrait page (only 19 of the Everett defendants are digitized there) |
@@ -184,6 +174,9 @@ Confirmed sources from the historical photo-research file that could not be down
 | John J. McNamara | latimes.com | source resolved to the 1910 bombing scene, not a portrait |
 | John R. Lawson | history.denverlibrary.org | history.denverlibrary.org — not auto-fetchable |
 | David Eichel | www1.swarthmore.edu | archival family/collection page; no single labeled portrait exposed |
-| John Walsh | weneverforget.org | appears only in the 1921 Messenger group photograph — not individually croppable |
 | Julius Eichel | www1.swarthmore.edu | archival family/collection page; no single labeled portrait exposed |
 | Maurice Becker | si.edu | SOVA collection description carries no exposed image |
+
+## Resolved by batch 262
+
+11 earlier retrieval failures are covered by the [100-photo batch 262](CREDITS-batch262.md). Attachments take effect when that batch is deployed.
