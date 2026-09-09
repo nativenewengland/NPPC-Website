@@ -1,9 +1,9 @@
 {
-  "coverage": "Historical chapters, branches, Party offices, prison organizations and affiliated organizing centers, including local National Committee to Combat Fascism (NCCF) groups. Includes every city/locality in the cited 1971 directory, supplemented by Party newspapers and chapter histories. Neighborhood entries share their city marker.",
+  "coverage": "Historical chapters, branches, Party offices, prison organizations and affiliated organizing centers, including local National Committee to Combat Fascism (NCCF) groups. Includes every city/locality in the cited 1971 directory, supplemented by Party newspapers, participant accounts and local archives. Some later records concern the Eastern wing after the 1971 split. Neighborhood entries share their city marker; a branch active in several municipalities can have several location markers.",
   "coordinate_source": {
     "label": "U.S. Census Bureau · 2025 place Gazetteer internal points",
     "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
-    "note": "Modern approximate place coordinates, not historical street addresses. San Quentin and Algiers use GeoNames locality coordinates."
+    "note": "Modern approximate place coordinates, not historical street addresses. San Quentin, Algiers and Angola use GeoNames locality coordinates (Angola via Mapcarta)."
   },
   "sources": {
     "directory-1971": {
@@ -29,7 +29,7 @@
     "illinois": {
       "label": "Illinois Chapter Historical Preservation Society · Operational sites",
       "url": "https://ilbpp.org/major-operational-sites",
-      "note": "Documents Carbondale’s NCCF office and other Illinois locations."
+      "note": "Documents Illinois branch headquarters, West Suburban Branch localities and Carbondale’s NCCF office."
     },
     "north-carolina": {
       "label": "State Library of North Carolina · Black Panther Party",
@@ -40,6 +40,66 @@
       "label": "UC Berkeley · International Section archive, Algiers",
       "url": "https://digicoll.lib.berkeley.edu/record/286335",
       "note": "Archival photographs identify members of the Party’s International Section in Algiers."
+    },
+    "san-jose-1969": {
+      "label": "The Black Panther · August 9, 1969, printed page 19",
+      "url": "/pdfs/bpp-newspaper/the-black-panther-vol-03-no-16-1969-08-09.pdf#page=18",
+      "note": "San Jose Liberation School, signed by San Jose Branch members Gregg Wheadon and Judy Graham. The original newspaper is preserved in the NPPC archive."
+    },
+    "east-palo-alto": {
+      "label": "East Palo Alto Community Archive · A Structure for Survival, 1972",
+      "url": "https://catalog.epacommunityarchive.org/newspaper/1n79h444s",
+      "note": "Cataloged Party newspaper article documenting the East Palo Alto branch opening in September 1972."
+    },
+    "connecticut-thornton": {
+      "label": "Steve Thornton · Remembering Butch Lewis",
+      "url": "https://shoeleatherhistoryproject.com/2015/09/29/remembering-butch-lewis-2/",
+      "note": "Local history drawing on Thornton’s interview with Hartford Panther Butch Lewis; names Connecticut chapters established by 1969."
+    },
+    "connecticut-humanities": {
+      "label": "Connecticut Humanities · The Rise of the Black Panther Party in Connecticut",
+      "url": "https://connecticuthistory.org/the-rise-of-the-black-panther-party-in-connecticut/",
+      "note": "Steve Thornton’s account includes the Waterbury chapter."
+    },
+    "right-on-norfolk": {
+      "label": "Right On! · November–December 1972, printed page 4",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC513_scans/BPP_Paper/513.BPP.ICN.RightON.V2.N6.1972.pdf#page=5",
+      "note": "The Eastern wing’s newspaper after the 1971 Party split; identifies Virginia State Chapter leadership organizing in Norfolk."
+    },
+    "right-on-louisville": {
+      "label": "Right On! · November–December 1972, printed page 11",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC513_scans/BPP_Paper/513.BPP.ICN.RightON.V2.N6.1972.pdf#page=16",
+      "note": "Louisville Express reports Kentucky State Chapter organizing. This is the Eastern wing’s newspaper after the 1971 Party split."
+    },
+    "richmond-vcu": {
+      "label": "VCU Libraries · Richmond Panther information center, 1970",
+      "url": "https://scholarscompass.vcu.edu/rpd_films/105/",
+      "note": "November 25, 1970 film and archival context identifying a community information center at 8 East Baker Street."
+    },
+    "tampa-1970": {
+      "label": "FBI memorandum · Tampa NCCF, December 1, 1970",
+      "url": "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther11.pdf#page=13",
+      "note": "Contemporary report of an operating Tampa NCCF headquarters. Used only as evidence of location and organizational designation."
+    },
+    "charleston-1970": {
+      "label": "FBI memorandum · Charleston NCCF, November 27, 1970",
+      "url": "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther11.pdf#page=32",
+      "note": "The Columbia field office reports an NCCF in Charleston, South Carolina. The field office’s city is not the organizing location."
+    },
+    "angola-wallace": {
+      "label": "Herman Wallace · The Angola prison chapter",
+      "url": "https://libcom.org/article/rise-and-fall-angola-prison-chapter-black-panther-party-herman-wallace",
+      "note": "Participant account of requesting and receiving permission from the Oakland Central Committee to organize a prison chapter."
+    },
+    "houston-frost": {
+      "label": "TCU Civil Rights in Black and Brown · Claude Frost oral history",
+      "url": "https://crbb.tcu.edu/clips/6195/the-people-s-party-ii-becomes-part-of-black-panther-party",
+      "note": "The People’s Party II Becomes Part of Black Panther Party, interview recorded June 11, 2016."
+    },
+    "southern-history": {
+      "label": "University of Washington · Adam Nolan, Southern Injustice and Radical Discontent",
+      "url": "https://digital.lib.washington.edu/researchworks/bitstreams/28f0465b-5885-4d57-ba1c-d714ee8f8e88/download",
+      "note": "2014 history thesis: Louisville’s successful 1972 organization, page 18; Houston’s successive organizations, pages 40–46."
     }
   },
   "locations": [
@@ -74,6 +134,22 @@
         "algiers"
       ],
       "coordinate_source": "https://www.geonames.org/2507480/algiers.html"
+    },
+    {
+      "id": "angola",
+      "name": "Angola",
+      "state": "Louisiana",
+      "country": "United States",
+      "lat": 30.95023,
+      "lng": -91.56973,
+      "kind": "prison",
+      "label": "Prison chapter",
+      "note": "Herman Wallace describes the Angola prison chapter and the Oakland Central Committee’s approval of its formation. Its organizing addressed prison conditions and political education.",
+      "neighborhoods": [],
+      "evidence": [
+        "angola-wallace"
+      ],
+      "coordinate_source": "https://mapcarta.com/20975354"
     },
     {
       "id": "atlanta",
@@ -240,6 +316,22 @@
         "illinois"
       ],
       "geoid": "1711163"
+    },
+    {
+      "id": "charleston-sc",
+      "name": "Charleston",
+      "state": "South Carolina",
+      "country": "United States",
+      "lat": 32.828017,
+      "lng": -79.972896,
+      "kind": "affiliate",
+      "label": "NCCF organizing center",
+      "note": "A November 1970 memorandum documents a local National Committee to Combat Fascism in Charleston. This marker identifies the affiliated center, not a separately verified chapter charter.",
+      "neighborhoods": [],
+      "evidence": [
+        "charleston-1970"
+      ],
+      "geoid": "4513330"
     },
     {
       "id": "chattanooga",
@@ -455,6 +547,38 @@
       "geoid": "1021200"
     },
     {
+      "id": "east-palo-alto",
+      "name": "East Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.46778,
+      "lng": -122.13255,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "The East Palo Alto Community Archive preserves a Party newspaper report of the branch’s opening with a Community Survival Day on September 9, 1972.",
+      "neighborhoods": [],
+      "evidence": [
+        "east-palo-alto"
+      ],
+      "geoid": "0620956"
+    },
+    {
+      "id": "east-st-louis",
+      "name": "East St. Louis",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 38.616361,
+      "lng": -90.130528,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "The Illinois Chapter Historical Preservation Society identifies an East St. Louis branch headquarters.",
+      "neighborhoods": [],
+      "evidence": [
+        "illinois"
+      ],
+      "geoid": "1722255"
+    },
+    {
       "id": "eugene",
       "name": "Eugene",
       "state": "Oregon",
@@ -536,6 +660,22 @@
       "geoid": "0937000"
     },
     {
+      "id": "harvey",
+      "name": "Harvey",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 41.607583,
+      "lng": -87.65199,
+      "kind": "branch",
+      "label": "West Suburban Branch locality",
+      "note": "Harvey is one of the West Suburban Branch’s documented organizing localities, not a separately claimed chapter.",
+      "neighborhoods": [],
+      "evidence": [
+        "illinois"
+      ],
+      "geoid": "1733383"
+    },
+    {
       "id": "high-point",
       "name": "High Point",
       "state": "North Carolina",
@@ -558,12 +698,14 @@
       "country": "United States",
       "lat": 29.785743,
       "lng": -95.388806,
-      "kind": "office",
-      "label": "Party office",
-      "note": "Houston appears in the Party’s March 1969 office list; the directory notes that it was absent from the 1970 lists.",
+      "kind": "chapter",
+      "label": "Chapter / earlier Party office",
+      "note": "The 1971 directory preserves a Houston Party office listed in 1969. Claude Frost’s oral history also documents the later incorporation of People’s Party II into the Black Panther Party; these were successive phases of local organizing.",
       "neighborhoods": [],
       "evidence": [
-        "directory-1971"
+        "directory-1971",
+        "houston-frost",
+        "southern-history"
       ],
       "geoid": "4835000"
     },
@@ -637,6 +779,23 @@
       "geoid": "0644000"
     },
     {
+      "id": "louisville",
+      "name": "Louisville",
+      "state": "Kentucky",
+      "country": "United States",
+      "lat": 38.224728,
+      "lng": -85.740614,
+      "kind": "chapter",
+      "label": "Kentucky State Chapter",
+      "note": "Right On! reports Kentucky State Chapter work in Louisville in late 1972. Historical research distinguishes this organization from an unsuccessful 1969 attempt.",
+      "neighborhoods": [],
+      "evidence": [
+        "right-on-louisville",
+        "southern-history"
+      ],
+      "geoid": "2148000"
+    },
+    {
       "id": "marin-city",
       "name": "Marin City",
       "state": "California",
@@ -651,6 +810,22 @@
         "howard"
       ],
       "geoid": "0645820"
+    },
+    {
+      "id": "maywood",
+      "name": "Maywood",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 41.879777,
+      "lng": -87.844184,
+      "kind": "branch",
+      "label": "West Suburban Branch locality",
+      "note": "Maywood is a documented locality of the Illinois West Suburban Branch.",
+      "neighborhoods": [],
+      "evidence": [
+        "illinois"
+      ],
+      "geoid": "1747774"
     },
     {
       "id": "memphis",
@@ -840,6 +1015,38 @@
       "geoid": "3451000"
     },
     {
+      "id": "norfolk",
+      "name": "Norfolk",
+      "state": "Virginia",
+      "country": "United States",
+      "lat": 36.923015,
+      "lng": -76.244641,
+      "kind": "chapter-branch",
+      "label": "State chapter organizing",
+      "note": "Right On! identifies Virginia State Chapter officer Earl Harrell organizing with workers in Norfolk in 1972. This documents state chapter activity here without establishing a separate Norfolk charter.",
+      "neighborhoods": [],
+      "evidence": [
+        "right-on-norfolk"
+      ],
+      "geoid": "5157000"
+    },
+    {
+      "id": "norwalk",
+      "name": "Norwalk",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.092739,
+      "lng": -73.419796,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "Steve Thornton’s history of Connecticut Panther organizing names a Norwalk chapter among those established by 1969.",
+      "neighborhoods": [],
+      "evidence": [
+        "connecticut-thornton"
+      ],
+      "geoid": "0955990"
+    },
+    {
       "id": "oakland",
       "name": "Oakland",
       "state": "California",
@@ -973,6 +1180,22 @@
       "geoid": "0660620"
     },
     {
+      "id": "richmond-va",
+      "name": "Richmond",
+      "state": "Virginia",
+      "country": "United States",
+      "lat": 37.531399,
+      "lng": -77.476009,
+      "kind": "affiliate",
+      "label": "Community information center",
+      "note": "VCU’s November 1970 film archive documents the Richmond Panther information center at 8 East Baker Street. This is Richmond, Virginia, separate from the California branch.",
+      "neighborhoods": [],
+      "evidence": [
+        "richmond-vcu"
+      ],
+      "geoid": "5167000"
+    },
+    {
       "id": "riverside",
       "name": "Riverside",
       "state": "California",
@@ -1055,6 +1278,22 @@
       "geoid": "0667000"
     },
     {
+      "id": "san-jose",
+      "name": "San Jose",
+      "state": "California",
+      "country": "United States",
+      "lat": 37.296011,
+      "lng": -121.814552,
+      "kind": "branch",
+      "label": "Branch",
+      "note": "The August 9, 1969 Party newspaper describes the San Jose Branch’s Liberation School, including its move to Our Lady of Guadalupe Church.",
+      "neighborhoods": [],
+      "evidence": [
+        "san-jose-1969"
+      ],
+      "geoid": "0668000"
+    },
+    {
       "id": "san-quentin",
       "name": "San Quentin",
       "state": "California",
@@ -1105,6 +1344,40 @@
       "geoid": "5363000"
     },
     {
+      "id": "stamford",
+      "name": "Stamford",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.079611,
+      "lng": -73.54608,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "Steve Thornton’s history of Connecticut Panther organizing names a Stamford chapter among those established by 1969.",
+      "neighborhoods": [],
+      "evidence": [
+        "connecticut-thornton"
+      ],
+      "geoid": "0973000"
+    },
+    {
+      "id": "summit",
+      "name": "Summit",
+      "state": "Illinois",
+      "country": "United States",
+      "lat": 41.788452,
+      "lng": -87.813921,
+      "kind": "branch",
+      "label": "West Suburban Branch locality",
+      "note": "The Illinois chapter archive lists Summit and Argo among West Suburban Branch localities. Argo is grouped under Summit on this city-level map.",
+      "neighborhoods": [
+        "Argo"
+      ],
+      "evidence": [
+        "illinois"
+      ],
+      "geoid": "1773638"
+    },
+    {
       "id": "tacoma",
       "name": "Tacoma",
       "state": "Washington",
@@ -1119,6 +1392,22 @@
         "washington"
       ],
       "geoid": "5370000"
+    },
+    {
+      "id": "tampa",
+      "name": "Tampa",
+      "state": "Florida",
+      "country": "United States",
+      "lat": 27.970086,
+      "lng": -82.479673,
+      "kind": "affiliate",
+      "label": "NCCF organizing center",
+      "note": "A December 1970 memorandum records the Tampa NCCF’s recently opened headquarters at 2918–29th Street. Its organizing center is distinguished from a formal chapter.",
+      "neighborhoods": [],
+      "evidence": [
+        "tampa-1970"
+      ],
+      "geoid": "1271000"
     },
     {
       "id": "toledo",
@@ -1200,6 +1489,23 @@
         "directory-1970"
       ],
       "geoid": "1150000"
+    },
+    {
+      "id": "waterbury",
+      "name": "Waterbury",
+      "state": "Connecticut",
+      "country": "United States",
+      "lat": 41.5585,
+      "lng": -73.036685,
+      "kind": "chapter",
+      "label": "Chapter",
+      "note": "Connecticut Humanities and Steve Thornton’s local history both identify the Waterbury chapter.",
+      "neighborhoods": [],
+      "evidence": [
+        "connecticut-humanities",
+        "connecticut-thornton"
+      ],
+      "geoid": "0980000"
     },
     {
       "id": "winston-salem",
