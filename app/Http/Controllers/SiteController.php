@@ -1132,6 +1132,10 @@ final class SiteController extends Controller {
     }
 
     public function author(string $slug) {
+        if ($slug === 'nppc-communications') {
+            return redirect('/author/national-political-prisoner-coalition', 301);
+        }
+
         $author = Author::where('slug', $slug)->firstOrFail();
 
         $articles = $author->articles()

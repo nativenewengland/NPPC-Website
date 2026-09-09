@@ -20,7 +20,7 @@ final class AddStorePressRelease extends Command {
     public function handle(): int {
         // Keyed on the SLUG, not the title — see AddMobileAppPressRelease.
         $category = Category::firstOrCreate(['slug' => 'press-releases'], ['title' => 'Press Releases']);
-        $author   = Author::firstOrCreate(['name' => 'NPPC Communications']);
+        $author   = Author::firstOrCreate(['slug' => 'national-political-prisoner-coalition'], ['name' => 'National Political Prisoner Coalition']);
 
         $slug = 'nppc-launches-online-store';
         $title = 'NPPC Launches Online Store to Fund Political-Prisoner Support';
