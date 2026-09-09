@@ -381,7 +381,7 @@ const onPopState = () => {
         <div class="results-count" v-if="filteredRecords.length">{{ filteredRecords.length }} results</div>
         <div class="results-actions">
           <a class="portrait-gallery-link" href="/icons" aria-label="Browse the portrait gallery" title="Portrait gallery">
-            <svg width="24" height="28" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <svg width="16" height="19" viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
               <rect x="2.5" y="2" width="19" height="24" rx="2" />
               <circle cx="12" cy="10" r="3.5" />
               <path d="M6 21v-1a6 6 0 0 1 12 0v1H6Z" />
