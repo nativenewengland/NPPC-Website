@@ -12,12 +12,15 @@
   const kind = root.querySelector('#bpp-kind');
   const period = root.querySelector('#bpp-period');
   const intro = root.querySelector('.bpp-atlas-intro');
+  const citySelect = root.querySelector('#bpp-city');
   let selectedCity = 'all';
   let map;
+  let mappedCity;
   const markers = new Map();
   root.classList.add('bpp-enhanced');
   form.hidden = false;
   root.querySelector('.bpp-city-buttons').hidden = false;
+  root.querySelector('.bpp-city-picker').hidden = false;
 
   function readLocation() {
     const params = new URL(window.location.href).searchParams;
@@ -34,7 +37,8 @@
     }
     if (url.href !== window.location.href) history[replace ? 'replaceState' : 'pushState']({}, '', url);
   }
-  function render() {
+  function render(refit = false) {
+    citySelect.value = selectedCity;
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.city === selectedCity)));
     stories.forEach(story => { story.hidden = story.dataset.story !== selectedCity; });
     intro.hidden = selectedCity !== 'all';
@@ -51,18 +55,26 @@
     root.querySelector('.bpp-results').textContent = `${count} of ${events.length} milestones${cityName ? ' · ' + cityName : ''}`;
     root.querySelector('.bpp-empty').hidden = count !== 0;
     markers.forEach((marker, id) => marker.getElement()?.classList.toggle('is-selected', id === selectedCity));
-    if (map) {
+    if (map && (refit || mappedCity !== selectedCity)) {
       const city = cities.find(item => item.id === selectedCity);
-      if (city) map.setView([city.lat, city.lng], 6, { animate: false });
+      if (city) map.setView([city.lat, city.lng], 9, { animate: false });
       else map.fitBounds(cities.map(item => [item.lat, item.lng]), { padding: [30, 30], animate: false });
+      mappedCity = selectedCity;
     }
   }
-  function chooseCity(id) { selectedCity = id; saveLocation(); render(); }
+  function chooseCity(id) { selectedCity = cityIds.has(id) ? id : 'all'; saveLocation(); render(true); }
   buttons.forEach(button => button.addEventListener('click', () => chooseCity(button.dataset.city)));
+  citySelect.addEventListener('change', () => chooseCity(citySelect.value));
+  root.querySelectorAll('[data-place]').forEach(link => link.addEventListener('click', event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    chooseCity(link.dataset.place);
+    stories.find(story => story.dataset.story === selectedCity)?.focus();
+  }));
   form.addEventListener('submit', event => event.preventDefault());
   search.addEventListener('input', () => { saveLocation(true); render(); });
   [kind, period].forEach(control => control.addEventListener('change', () => { saveLocation(); render(); }));
-  function reset() { selectedCity = 'all'; search.value = ''; kind.value = 'all'; period.value = 'all'; saveLocation(); render(); }
+  function reset() { selectedCity = 'all'; search.value = ''; kind.value = 'all'; period.value = 'all'; saveLocation(); render(true); }
   form.addEventListener('reset', event => { event.preventDefault(); reset(); });
   root.querySelector('[data-reset]').addEventListener('click', reset);
   window.addEventListener('popstate', () => { readLocation(); render(); });
@@ -70,13 +82,15 @@
   if (window.L) {
     root.querySelector('.bpp-map-wrap').hidden = false;
     map = L.map('bpp-map', { scrollWheelZoom: false });
+    map.on('resize', () => render(true));
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(map);
     cities.forEach(city => {
-      const marker = L.marker([city.lat, city.lng], { icon: L.divIcon({ className: 'bpp-map-dot', iconSize: [14, 14], iconAnchor: [7, 7] }), title: city.name, alt: `Select ${city.name}`, keyboard: true }).addTo(map);
-      marker.bindTooltip(city.name, { direction: 'top' });
+      const name = `${city.name}, ${city.state} · ${city.label}`;
+      const marker = L.marker([city.lat, city.lng], { icon: L.divIcon({ className: 'bpp-map-dot', iconSize: [14, 14], iconAnchor: [7, 7] }), title: name, alt: `Select ${name}`, keyboard: true }).addTo(map);
+      marker.bindTooltip(name, { direction: 'top' });
       marker.on('click', () => chooseCity(city.id));
       markers.set(city.id, marker);
     });
