@@ -25,7 +25,7 @@ class PrisonerDashboard extends Page {
         $awaitingTrial = $prisoners->where('awaiting_trial', true)->count();
         $imprisonedOrExiled = $prisoners->where('imprisoned_or_exiled', true)->count();
 
-        $accumulatedDaysImprisoned = $cases->sum('imprisoned_for_days');
+        $accumulatedDaysImprisoned = \App\Support\ImprisonmentDuration::totalDaysAcrossPrisoners($cases);
         $accumulatedDaysInExile = $cases->sum('in_exile_for_days');
 
         // Gender breakdown

@@ -195,7 +195,7 @@
                     <div class="about-impact-desc">Political prisoners documented in our comprehensive database spanning decades of U.S. history</div>
                 </div>
                 <div class="about-impact-stat">
-                    <div class="about-impact-num">{{ number_format(\App\Models\PrisonerCase::sum('imprisoned_for_days')) }}</div>
+                    <div class="about-impact-num">{{ number_format(\App\Support\ImprisonmentDuration::totalDaysAcrossPrisoners(\App\Models\PrisonerCase::cursor())) }}</div>
                     <div class="about-impact-desc">Collective days of imprisonment endured by documented political prisoners</div>
                 </div>
                 <div class="about-impact-stat">

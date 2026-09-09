@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Cache;
 
 class PrisonerApiController extends Controller
 {
-    private const CACHE_KEY = 'api.prisoners.index.v2';
+    private const CACHE_KEY = 'api.prisoners.index.v3';
 
     private const CACHE_TTL = 600; // 10 minutes
 
@@ -61,16 +61,13 @@ class PrisonerApiController extends Controller
             ->orderBy('sort_order')
             ->lazy()
             ->each(function (Prisoner $prisoner) use (&$data) {
-                $daysImprisoned = 0;
+                $imprisonment = ImprisonmentDuration::summarize($prisoner->cases);
+                $daysImprisoned = $imprisonment['days'];
 
-                // Custody stints are disjoint, so they sum as they are met;
-                // exile spans can overlap and are unioned once the whole set
-                // is in hand. See ExileDuration.
+                // Cases may describe overlapping custody or exile periods.
                 $daysInExile = ExileDuration::totalDays($prisoner->cases);
 
-                $cases = $prisoner->cases->map(function ($case) use (&$daysImprisoned) {
-                    $daysImprisoned += $case->imprisoned_for_days ?? 0;
-
+                $cases = $prisoner->cases->map(function ($case) {
                     return [
                         'Indicted' => $case->indicted,
                         'Convicted' => $case->convicted,
@@ -94,16 +91,12 @@ class PrisonerApiController extends Controller
 
                 // Anchor the duration breakdown to the real start date so the
                 // calendar diff (below, in calculatePunishment) is accurate.
-                $imprisonStart = $prisoner->cases
-                    ->map(fn ($c) => $c->incarceration_date ?: $c->arrest_date)
-                    ->filter()
-                    ->sort()
-                    ->first();
+                $imprisonStart = $imprisonment['start'];
                 $exileStart = ExileDuration::startFor($prisoner->cases);
 
                 // Non-null only where every case contributing time documents
                 // it in months, so the display retains month-level precision.
-                $servedMonths = ImprisonmentDuration::documentedMonths($prisoner->cases);
+                $servedMonths = $imprisonment['months'];
 
                 $data[] = [
                     'id' => $prisoner->id,

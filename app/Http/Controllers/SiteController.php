@@ -621,7 +621,7 @@ final class SiteController extends Controller {
         // current year so the rolling 50-year window still refreshes annually.
         // Run `php artisan cache:clear` to force an immediate refresh.
         $payload = Cache::remember(
-            'tracker:payload:v1:'.date('Y'),
+            'tracker:payload:v2:'.date('Y'),
             now()->addHours(6),
             fn () => $this->computeTrackerPayload(),
         );
@@ -667,7 +667,7 @@ final class SiteController extends Controller {
         // incarceration adjustment factor.
         // ─────────────────────────────────────────────────────────────
 
-        $totalDaysImprisoned = (int) $cases->sum('imprisoned_for_days');
+        $totalDaysImprisoned = \App\Support\ImprisonmentDuration::totalDaysAcrossPrisoners($cases);
         // Unioned per prisoner before summing across them: two open-ended
         // exile rows on one record both run to today, so summing the column
         // straight across the table counts the same days twice. See
