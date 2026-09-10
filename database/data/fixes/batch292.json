@@ -1,0 +1,77 @@
+{
+  "batch": 292,
+  "expected_count": 1,
+  "expected_case_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "One missing Philadelphia Panther with verified multi-day custody and an identified portrait; further unresolved chapter research documented in the audit.",
+  "sources": {
+    "hawkins_interview": {
+      "label": "Stephanie Farr, The Philadelphia Inquirer, July 1, 2020. Interview with Herbert Hawkins; individual custody and outcome reported; named portrait by Yong Kim.",
+      "url": "https://www.inquirer.com/news/herbert-hawkins-philadelphia-black-panther-frank-rizzo-raid-20200701.html"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "herbert-hawkins-philadelphia",
+      "match_names": [
+        "Herbert Hawkins",
+        "Herb Hawkins"
+      ],
+      "prisoner": {
+        "name": "Herbert Hawkins",
+        "first_name": "Herbert",
+        "last_name": "Hawkins",
+        "gender": "Male",
+        "race": "Black",
+        "state": "Pennsylvania",
+        "era": "1970s",
+        "affiliation": [
+          "Black Panther Party",
+          "Black United Liberation Front"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 39.95,
+        "lng": -75.16,
+        "description": "Herbert Hawkins was a Philadelphia Black Panther and Vietnam veteran. Police arrested him at the Party’s Mantua office during the August 31, 1970 raids. In a 2020 interview, he recalled being publicly strip-searched and beaten at police headquarters. The report confirms two weeks in custody and the eventual dismissal of his charges. He later helped form the Black United Liberation Front and worked as a master plumber.",
+        "cases": [
+          {
+            "charges": "Charges arising from the August 31, 1970 Panther-office raid; individual counts unverified",
+            "sentence": "Two weeks in pretrial custody, followed by release; charges later dismissed. Exact custody endpoints and dismissal date remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1970,
+            "month": 8,
+            "day": 31
+          }
+        }
+      ],
+      "source_ids": [
+        "hawkins_interview"
+      ],
+      "custody_evidence": "The named participant interview explicitly reports two weeks in custody.",
+      "case_research": [
+        {
+          "source_ids": [
+            "hawkins_interview"
+          ],
+          "custody_evidence": "Individual duration and release established in the interview report."
+        }
+      ],
+      "status_research": "Historical release verified; birth and death dates are unverified. No current-custody claim.",
+      "photo": {
+        "source_file": "database/data/photos/herbert-hawkins-yong-kim-crop.png",
+        "storage_path": "prisoners/herbert-hawkins-yong-kim-crop.png",
+        "sha256": "e5084a89ae2fa859901aadffc45cd6410f0abc7fc7cc31d4bb3f90ab552dacf3",
+        "source_id": "hawkins_interview"
+      }
+    }
+  ],
+  "research_notes": "Preserve all existing identities and fields. Record duration in prose because exact endpoints are unverified and the existing model cannot retain a stand-alone documented week/day duration. Do not turn an approximate two-week recollection into an exact release date. Approximate Philadelphia coordinates. No source link in the personal-support website field; no DOB inferred from reported age."
+}
