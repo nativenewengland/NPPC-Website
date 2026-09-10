@@ -1,0 +1,331 @@
+{
+  "batch": 293,
+  "expected_count": 3,
+  "expected_case_count": 4,
+  "reviewed_at": "2026-09-10",
+  "scope": "Three missing Weatherman activists discovered during Panther-support research, with four distinct custody cases; no claim of formal Black Panther membership.",
+  "sources": {
+    "release1969": {
+      "label": "Jeff Magalif, The Harvard Crimson, October 30, 1969: Mann, Weathermen Released After Arrests for Disruptions. Detailed arrest, overnight release, recommitment and four-day jail chronology.",
+      "url": "https://www.thecrimson.com/article/1969/10/30/mann-weathermen-released-after-arrests-for/"
+    },
+    "english_verdict": {
+      "label": "Jeff Magalif, The Harvard Crimson, November 8, 1969: Judge Convicts Mann On Charge of Assault. November 7 misdemeanor verdicts, concurrent sentences, appeal and release on bond.",
+      "url": "https://www.thecrimson.com/article/1969/11/8/judge-convicts-mann-on-charge-of/"
+    },
+    "cfia_sentence": {
+      "label": "Jeff Magalif, The Harvard Crimson, January 26, 1970: Mann Gets Another Year For Role in CFIA Attack. Friday January 23 sentence and immediate commencement of imprisonment.",
+      "url": "https://www.thecrimson.com/article/1970/1/26/mann-gets-another-year-for-role/"
+    },
+    "cfia_custody": {
+      "label": "Jeremy S. Bluhm, The Harvard Crimson, March 26, 1970: Police Make a New Arrest In CFIA Disruption Case. Mann still imprisoned; anti-imperialist political context of the violent raid.",
+      "url": "https://www.thecrimson.com/article/1970/3/26/police-make-a-new-arrest-in/"
+    },
+    "mann_appeal": {
+      "label": "Eric M. Mann v. Commonwealth, 359 Mass. 661, decided June 15, 1971. Judicial opinion upholding sentence after de novo Superior Court trial.",
+      "url": "https://law.justia.com/cases/massachusetts/supreme-court/volumes/359/359mass661.html"
+    },
+    "mann_memoir": {
+      "label": "Eric Mann, Comrade George (1972), printed pages 1 and 5, PDF pages 3 and 5. First-person account of a year and a half in prison and the final nine months at Concord; opening scene places him free in Berkeley after George Jackson’s death in August 1971.",
+      "url": "https://99books.freedomarchives.org/wp-content/uploads/2021/08/513.GeorgeJackson.ComradeGeorgeAnInvestigatonOfficialStory.pdf"
+    },
+    "mann_birth": {
+      "label": "Eric Mann, Palestine Will Win, CounterPunch, September 3, 2014. First-person statement that he was born in Brooklyn in 1942; no month or day provided.",
+      "url": "https://www.counterpunch.org/2014/09/03/palestine-will-win/"
+    },
+    "usc_profile": {
+      "label": "Manuel Pastor and Michele Prichard, L.A. Rising (USC, 2012), printed page 78 / PDF page 79. Eric Mann interview profile and explicitly identified embedded portrait.",
+      "url": "https://dornsife.usc.edu/eri/wp-content/uploads/sites/41/2023/01/2012_LArising_full_report.pdf#page=79"
+    },
+    "school_context": {
+      "label": "Kirkpatrick Sale, SDS (1973), printed page 420 / PDF page 422. Places Boston English High School in the Weatherman school confrontation/recruitment campaign before the Chicago National Action. Historical synthesis, used only for campaign context.",
+      "url": "https://www.sds-1960s.org/books/sds.pdf#page=422"
+    },
+    "boston_map": {
+      "label": "U.S. Department of Transportation ITS Deployment Evaluation: Boston city coordinates. Used only for an approximate historical case-city marker.",
+      "url": "https://www.itskrs.its.dot.gov/node/193165"
+    }
+  },
+  "institutions": {
+    "da9d7982-8efe-464a-9748-a305cf979c22": "Charles Street Jail"
+  },
+  "entries": [
+    {
+      "key": "eric-m-mann",
+      "match_names": [
+        "Eric M. Mann",
+        "Eric Mann"
+      ],
+      "prisoner": {
+        "name": "Eric M. Mann",
+        "first_name": "Eric",
+        "middle_name": "M.",
+        "last_name": "Mann",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1960s",
+        "affiliation": [
+          "Students for a Democratic Society",
+          "Weathermen",
+          "Congress of Racial Equality"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Eric M. Mann, born in Brooklyn in 1942, was a civil-rights and antiwar organizer associated with CORE, SDS and the Weathermen. His Boston English High School case involved four days of pretrial custody and an appealed misdemeanor conviction. In a separate case, he was imprisoned for assault and battery during the September 1969 attack on Harvard’s Center for International Affairs, a target of anti-imperialist protest. He later described serving a year and a half, including nine months at Concord. After prison, he wrote about George Jackson and continued organizing; he helped establish the Labor/Community Strategy Center in Los Angeles.",
+        "cases": [
+          {
+            "charges": "Boston English High School: assault and battery; earlier dangerous-weapon allegation did not proceed",
+            "convicted": "November 7, 1969: misdemeanor assault and battery; appealed",
+            "sentence": "Four days in pretrial custody. Later sentenced to three months, with concurrent terms where applicable; released on bond pending appeal. Service of that sentence is unverified.",
+            "institution_id": "da9d7982-8efe-464a-9748-a305cf979c22"
+          },
+          {
+            "charges": "Harvard Center for International Affairs: three counts of assault and battery; disturbing the peace",
+            "convicted": "Assault and battery convictions upheld after de novo trial; further appeal rejected June 15, 1971",
+            "sentence": "Two-year custodial sentence after the January 23, 1970 trial; additional assault sentences suspended with three years of probation following custody. Mann described a year and a half actually served, including the final nine months at Concord State Prison. Exact release day and month are unverified.",
+            "imprisoned_for_months": 18
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1942
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 25
+          },
+          "release_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 29
+          },
+          "sentenced_date": {
+            "year": 1969,
+            "month": 11,
+            "day": 7
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 1970,
+            "month": 1,
+            "day": 23
+          },
+          "sentenced_date": {
+            "year": 1970,
+            "month": 1,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1971
+          }
+        }
+      ],
+      "source_ids": [
+        "release1969",
+        "english_verdict",
+        "school_context",
+        "boston_map",
+        "cfia_sentence",
+        "cfia_custody",
+        "mann_appeal",
+        "mann_memoir",
+        "mann_birth",
+        "usc_profile"
+      ],
+      "custody_evidence": "October 30 contemporary report names this individual among the three who spent four days in Charles Street Jail.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release1969",
+            "english_verdict"
+          ],
+          "custody_evidence": "October 25–29 pretrial stay. October 24 arrest ended with a brief release that night, so the incarceration start is the following morning, not the arrest day."
+        },
+        {
+          "source_ids": [
+            "cfia_sentence",
+            "cfia_custody",
+            "mann_appeal",
+            "mann_memoir"
+          ],
+          "custody_evidence": "Immediate prison entry reported January 26, 1970; continued custody reported March 26. The author’s 1972 account supplies the month-level duration and places him free in 1971. The 18 months is a source-stated recollection, not day-exact arithmetic or the imposed two-year sentence."
+        }
+      ],
+      "status_research": "Released in 1971. Birth year is self-reported; exact birth day/month and any death date remain unverified.",
+      "photo": {
+        "source_file": "database/data/photos/eric-mann-usc-la-rising-2012.jpg",
+        "storage_path": "prisoners/eric-mann-usc-la-rising-2012.jpg",
+        "sha256": "89b097e12c50bf36bb43a6e4953e0f71f039eea903ce8d1f7837e790f725a040",
+        "source_id": "usc_profile"
+      }
+    },
+    {
+      "key": "henry-a-olson",
+      "match_names": [
+        "Henry A. Olson",
+        "Henry Olson"
+      ],
+      "prisoner": {
+        "name": "Henry A. Olson",
+        "first_name": "Henry",
+        "middle_name": "A.",
+        "last_name": "Olson",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1960s",
+        "affiliation": [
+          "Weathermen"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Henry A. Olson was a Weatherman activist involved in the 1969 Boston English High School confrontation during the group’s school organizing campaign. He spent four days in Charles Street Jail before trial. The resulting misdemeanor assault-and-battery conviction was appealed; the eventual appeal outcome remains unverified.",
+        "cases": [
+          {
+            "charges": "Boston English High School: assault and battery; earlier dangerous-weapon allegation did not proceed",
+            "convicted": "November 7, 1969: misdemeanor assault and battery; appealed",
+            "sentence": "Four days in pretrial custody. Later sentenced to three months, with concurrent terms where applicable; released on bond pending appeal. Service of that sentence is unverified.",
+            "institution_id": "da9d7982-8efe-464a-9748-a305cf979c22"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 25
+          },
+          "release_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 29
+          },
+          "sentenced_date": {
+            "year": 1969,
+            "month": 11,
+            "day": 7
+          }
+        }
+      ],
+      "source_ids": [
+        "release1969",
+        "english_verdict",
+        "school_context",
+        "boston_map"
+      ],
+      "custody_evidence": "October 30 contemporary report names this individual among the three who spent four days in Charles Street Jail.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release1969",
+            "english_verdict"
+          ],
+          "custody_evidence": "October 25–29 pretrial stay. October 24 arrest ended with a brief release that night, so the incarceration start is the following morning, not the arrest day."
+        }
+      ],
+      "status_research": "Historical release confirmed. No current custody or death inferred; subsequent life history remains unverified."
+    },
+    {
+      "key": "philip-c-nies",
+      "match_names": [
+        "Philip C. Nies",
+        "Philip Nies",
+        "Phil Nies"
+      ],
+      "prisoner": {
+        "name": "Philip C. Nies",
+        "first_name": "Philip",
+        "middle_name": "C.",
+        "last_name": "Nies",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1960s",
+        "affiliation": [
+          "Weathermen"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Philip C. Nies was a Weatherman activist involved in the 1969 Boston English High School confrontation during the group’s school organizing campaign. He spent four days in Charles Street Jail before trial. The resulting misdemeanor assault-and-battery conviction was appealed; the eventual appeal outcome remains unverified.",
+        "cases": [
+          {
+            "charges": "Boston English High School: assault and battery; earlier dangerous-weapon allegation did not proceed",
+            "convicted": "November 7, 1969: misdemeanor assault and battery; appealed",
+            "sentence": "Four days in pretrial custody. Later sentenced to three months, with concurrent terms where applicable; released on bond pending appeal. Service of that sentence is unverified.",
+            "institution_id": "da9d7982-8efe-464a-9748-a305cf979c22"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 25
+          },
+          "release_date": {
+            "year": 1969,
+            "month": 10,
+            "day": 29
+          },
+          "sentenced_date": {
+            "year": 1969,
+            "month": 11,
+            "day": 7
+          }
+        }
+      ],
+      "source_ids": [
+        "release1969",
+        "english_verdict",
+        "school_context",
+        "boston_map"
+      ],
+      "custody_evidence": "October 30 contemporary report names this individual among the three who spent four days in Charles Street Jail.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release1969",
+            "english_verdict"
+          ],
+          "custody_evidence": "October 25–29 pretrial stay. October 24 arrest ended with a brief release that night, so the incarceration start is the following morning, not the arrest day."
+        }
+      ],
+      "status_research": "Historical release confirmed. No current custody or death inferred; subsequent life history remains unverified."
+    }
+  ],
+  "research_notes": "Preserve every existing identity and all populated fields. Boston coordinates are approximate historical case-city markers. Only year precision is known for Mann’s birth and prison release. Imposed three-month and two-year terms are not substituted for actual custody. No news source in personal support website fields. The existing Middlesex County jail record is in Virginia and must not be linked to the Massachusetts case; no matching Concord prison record exists."
+}
