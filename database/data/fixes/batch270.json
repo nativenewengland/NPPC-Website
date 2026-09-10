@@ -1,0 +1,313 @@
+{
+  "batch": 270,
+  "expected_count": 5,
+  "reviewed_at": "2026-09-10",
+  "scope": "Missing Catonsville and Clamshell activists with documented multi-day US detention; add new identities only.",
+  "sources": {
+    "darst-custody": {
+      "label": "Francine du Plessix Gray, Acts of Witness, The New Yorker, March 14, 1970 (May 17–24 custody)",
+      "url": "https://www.newyorker.com/magazine/1970/03/14/acts-of-witness-priests-and-vietnam-war-protesters"
+    },
+    "darst-vitals": {
+      "label": "Darst Center: memorial homily and birth/death dates",
+      "url": "https://darstcenter.org/remembering-brother-david-darst/"
+    },
+    "catonsville-appeal": {
+      "label": "United States v. Moylan, 417 F.2d 1002 (4th Cir. 1969); James Darst named defendant",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/417/1002/190492/"
+    },
+    "catonsville-verdict": {
+      "label": "Digital Maryland, Catonsville Nine File: verdict and unserved sentence",
+      "url": "https://c9.digitalmaryland.org/page.php?ID=25"
+    },
+    "alpert-custody": {
+      "label": "Arnie Alpert, first-person Clamshell Memories, AFSC Peace Works",
+      "url": "https://peaceworks.afsc.org/arnie-alpert/story/441"
+    },
+    "alpert-afsc": {
+      "label": "AFSC interview with Arnie Alpert: Winning justice with nonviolent campaigns",
+      "url": "https://afsc.org/news/winning-justice-nonviolent-campaigns"
+    },
+    "marcuse-custody": {
+      "label": "Harold Marcuse, first-person Seabrook occupation account and timeline",
+      "url": "https://www.marcuse.org/harold/pages/seabrook.htm"
+    },
+    "marcuse-bio": {
+      "label": "Harold Marcuse, personal biography",
+      "url": "https://www.marcuse.org/harold/"
+    },
+    "paneth-custody": {
+      "label": "CODEPINK Iraq Tribunal: Thea Paneth testimony biography",
+      "url": "https://www.iraqtribunal.org/thea_paneth"
+    },
+    "dorsey-custody": {
+      "label": "Court Dorsey, Clam Magic, Clamshell Alliance",
+      "url": "https://clamshellalliance.com/2023/06/14/clam-magic/"
+    },
+    "dorsey-appeal": {
+      "label": "State v. Dorsey, 118 N.H. 844 (1978)",
+      "url": "https://law.justia.com/cases/new-hampshire/supreme-court/1978/78-154-0.html"
+    },
+    "seabrook-location": {
+      "label": "Seabrook Station coordinates; rounded approximate protest-site marker only",
+      "url": "https://en.wikipedia.org/wiki/Seabrook_Station_Nuclear_Power_Plant"
+    },
+    "catonsville-location": {
+      "label": "Catonsville geographic coordinates; approximate locality marker only",
+      "url": "https://en.wikipedia.org/wiki/Catonsville,_Maryland"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "david-darst",
+      "match_names": [
+        "David Darst",
+        "James Darst",
+        "Brother David Darst"
+      ],
+      "prisoner": {
+        "name": "David Darst",
+        "first_name": "David",
+        "last_name": "Darst",
+        "description": "David Darst, born James Darst, was a Christian Brother and member of the Catonsville Nine. He joined the May 17, 1968 destruction of draft records in Maryland to oppose the Vietnam War. His later two-year sentence was never served: he died in a car crash in 1969.",
+        "state": "Maryland",
+        "era": "1960s",
+        "affiliation": [
+          "Catonsville 9"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 39.27,
+        "lng": -76.74,
+        "cases": [
+          {
+            "charges": "Destruction of government property and records; interference with Selective Service (18 USC 1361, 2071; 50 USC App. 462)",
+            "convicted": "Conviction affirmed in United States v. Moylan (1969)",
+            "sentence": "Held in Baltimore County Jail May 17–24, 1968, then released on bail. Later sentenced to two years; died before serving that term."
+          }
+        ],
+        "aka": "James Darst; Brother David Darst"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1941,
+          "month": 12,
+          "day": 6
+        },
+        "death_date": {
+          "year": 1969,
+          "month": 10,
+          "day": 30
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1968,
+          "month": 5,
+          "day": 17
+        },
+        "incarceration_date": {
+          "year": 1968,
+          "month": 5,
+          "day": 17
+        },
+        "release_date": {
+          "year": 1968,
+          "month": 5,
+          "day": 24
+        }
+      },
+      "source_ids": [
+        "darst-custody",
+        "darst-vitals",
+        "catonsville-appeal",
+        "catonsville-verdict",
+        "catonsville-location"
+      ],
+      "custody_evidence": "Gray describes continuous county-jail detention from the action until bail on May 24.",
+      "research_notes": "The memorial gives exact vital dates but miscalculates age as 28; no age is copied. Sentencing day is not entered. This is the Christian Brother, not financier David Martin Darst."
+    },
+    {
+      "key": "arnie-alpert",
+      "match_names": [
+        "Arnie Alpert"
+      ],
+      "prisoner": {
+        "name": "Arnie Alpert",
+        "first_name": "Arnie",
+        "last_name": "Alpert",
+        "description": "Arnie Alpert participated in the Clamshell Alliance occupation of the Seabrook nuclear construction site in 1977. He was detained in the Concord National Guard Armory and later became an American Friends Service Committee organizer in New Hampshire.",
+        "state": "New Hampshire",
+        "era": "1970s",
+        "affiliation": [
+          "Clamshell Alliance",
+          "American Friends Service Committee"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.899,
+        "lng": -70.851,
+        "cases": [
+          {
+            "charges": "Trespass during the 1977 Seabrook nuclear-site occupation",
+            "sentence": "Detained after the May 1, 1977 arrests. Released on personal recognizance through the May 13 court agreement, with an automatic appeal from the district-court finding."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1977,
+          "month": 5,
+          "day": 1
+        },
+        "incarceration_date": {
+          "year": 1977,
+          "month": 5,
+          "day": 1
+        },
+        "release_date": {
+          "year": 1977,
+          "month": 5,
+          "day": 13
+        }
+      },
+      "source_ids": [
+        "alpert-custody",
+        "alpert-afsc",
+        "seabrook-location"
+      ],
+      "custody_evidence": "Alpert describes his armory detention and personal release under the May 13 agreement.",
+      "research_notes": "Birth date is unverified; age 22 in a retrospective is not converted to an exact birth year. AFSC affiliation reflects later organizing, not organizational sponsorship of the arrest."
+    },
+    {
+      "key": "harold-marcuse",
+      "match_names": [
+        "Harold Marcuse"
+      ],
+      "prisoner": {
+        "name": "Harold Marcuse",
+        "first_name": "Harold",
+        "last_name": "Marcuse",
+        "description": "Harold Marcuse participated in the 1977 Clamshell Alliance occupation at Seabrook while a Wesleyan student. He was held in a National Guard armory before trial, pleaded guilty to criminal trespass and received a suspended sentence. He later became a historian.",
+        "state": "New Hampshire",
+        "era": "1970s",
+        "affiliation": [
+          "Clamshell Alliance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.899,
+        "lng": -70.851,
+        "cases": [
+          {
+            "charges": "Criminal trespass at the Seabrook nuclear construction site",
+            "convicted": "Guilty plea in 1977",
+            "sentence": "Multi-day pretrial armory detention; a later suspended term. His accounts describe roughly 10–12 days held, but do not establish his individual release date."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1957
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1977,
+          "month": 5,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "marcuse-custody",
+        "marcuse-bio",
+        "seabrook-location"
+      ],
+      "custody_evidence": "His account says 12 days; the interview reproduced below it says about 10 days before trial.",
+      "research_notes": "Opening paragraph mislabels the occupation date/day; the page timeline identifies May 1 arrests. The armory is called Somerset, so no uncertain institution is linked. General May 13 release is not assigned as his individual date."
+    },
+    {
+      "key": "thea-paneth",
+      "match_names": [
+        "Thea Paneth"
+      ],
+      "prisoner": {
+        "name": "Thea Paneth",
+        "first_name": "Thea",
+        "last_name": "Paneth",
+        "description": "Thea Paneth was a Clamshell Alliance participant detained for twelve days after the 1977 Seabrook occupation in New Hampshire. Her later activism included peace organizing, writing and nonviolence training.",
+        "state": "New Hampshire",
+        "era": "1970s",
+        "affiliation": [
+          "Clamshell Alliance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.899,
+        "lng": -70.851,
+        "cases": [
+          {
+            "charges": "Seabrook nuclear-site occupation (individual charging record not located)",
+            "sentence": "Twelve days of detention confirmed by her testimony biography. Individual sentencing and release dates remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1977
+        }
+      },
+      "source_ids": [
+        "paneth-custody",
+        "seabrook-location"
+      ],
+      "custody_evidence": "Her CODEPINK tribunal biography explicitly identifies twelve days detained after the 1977 occupation.",
+      "research_notes": "No date is calculated from the stated duration; the case uses year precision. A criminal conviction is not inferred from detention."
+    },
+    {
+      "key": "court-dorsey",
+      "match_names": [
+        "Court Dorsey"
+      ],
+      "prisoner": {
+        "name": "Court Dorsey",
+        "first_name": "Court",
+        "last_name": "Dorsey",
+        "description": "Court Dorsey joined the Clamshell Alliance occupation at Seabrook with the Crumbs of Bliss affinity group in 1977. His account describes two weeks detained in the Somersworth National Guard Armory. He later challenged the exclusion of a necessity defense at his criminal-trespass trial.",
+        "state": "New Hampshire",
+        "era": "1970s",
+        "affiliation": [
+          "Clamshell Alliance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.899,
+        "lng": -70.851,
+        "cases": [
+          {
+            "charges": "Criminal trespass (New Hampshire RSA 635:2)",
+            "convicted": "Jury conviction; competing-harms appeal rejected in State v. Dorsey (1978)",
+            "sentence": "Approximately two weeks of armory detention after the 1977 occupation. The individual sentence length and actual release day are not verified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1977,
+          "month": 5
+        }
+      },
+      "source_ids": [
+        "dorsey-custody",
+        "dorsey-appeal",
+        "seabrook-location"
+      ],
+      "custody_evidence": "Dorsey personally describes spending the next two weeks in the armory after arraignment.",
+      "research_notes": "May precision avoids inferring a booking day from the occupation start. Do not equate the 1978 appeal date with sentencing or a new prison admission."
+    }
+  ]
+}
