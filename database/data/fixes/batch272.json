@@ -1,0 +1,254 @@
+{
+  "batch": 272,
+  "expected_count": 4,
+  "reviewed_at": "2026-09-10",
+  "scope": "Four missing FOR/AFSC and related Peace Action Center activists with documented multiday US custody; preserve existing identities.",
+  "sources": {
+    "hassler-diary": {
+      "label": "Alfred Hassler, Diary of a Self-Made Convict excerpts, in Peter Brock, These Strange Criminals, pp.322–335 (PDF335–348)",
+      "url": "https://web.english.upenn.edu/~cavitch/pdf-library/Brock_These_Strange_Criminals.pdf"
+    },
+    "hassler-bio": {
+      "label": "Boston University, Martin Luther King Jr. Papers inventory, Box88, Alfred Hassler biographical note",
+      "url": "https://www.bu.edu/library/files/2022/05/King-Martin-Luther-Jr-inventory-1965-2013.pdf"
+    },
+    "hassler-for": {
+      "label": "Stanford King Papers, To Glenn E. Smiley, July5 1956, editorial note identifying Alfred Hassler",
+      "url": "https://kinginstitute.stanford.edu/king-papers/documents/glenn-e-smiley-0"
+    },
+    "scott-archive": {
+      "label": "Swarthmore College Peace Collection, Lawrence Scott Papers DG090, biographical history",
+      "url": "https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.090"
+    },
+    "vigil-report": {
+      "label": "Mildred B. Young, Vigil at the White House, Friends Journal July1 1962 p.281, original scan inspected",
+      "url": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1962/HC12-50290.pdf"
+    },
+    "scott-appeal": {
+      "label": "Scott v. District of Columbia, 184 A.2d849, October26 1962, full judicial opinion",
+      "url": "https://law.justia.com/cases/district-of-columbia/court-of-appeals/1962/3097-2.html"
+    },
+    "ewald-death": {
+      "label": "Friends Journal June1988 p.4, Pearl C. Ewald letter and editorial death notice, original scan inspected",
+      "url": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1988/HC12-50828.pdf"
+    },
+    "carpenter-friend": {
+      "label": "Lake Erie Association Bulletin December1962 p.6, Lorena Blackburn letter identifying Florence Carpenter",
+      "url": "https://leym.org/wp-content/uploads/2014/09/2-2-dec-1962.pdf"
+    },
+    "dc-location": {
+      "label": "Washington DC approximate protest-locality marker; not a jail address",
+      "url": "https://en.wikipedia.org/wiki/Washington,_D.C."
+    }
+  },
+  "institutions": {
+    "df689c4b-2900-4bb4-bb53-55fd5fd1abd7": "United States Penitentiary, Lewisburg"
+  },
+  "entries": [
+    {
+      "key": "alfred-hassler",
+      "match_names": [
+        "Alfred Hassler",
+        "Al Hassler"
+      ],
+      "prisoner": {
+        "name": "Alfred Hassler",
+        "first_name": "Alfred",
+        "last_name": "Hassler",
+        "description": "Alfred Hassler was an editor and leader of the Fellowship of Reconciliation. His opposition to wartime conscription led to federal imprisonment in 1944–1945. He later published a prison diary and worked against the Vietnam War.",
+        "state": "Pennsylvania",
+        "era": "1940s",
+        "affiliation": [
+          "Fellowship of Reconciliation"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Refusal to comply with wartime conscription as a conscientious objector",
+            "sentence": "Imprisoned in 1944; paroled in March 1945. His diary documents detention in New York followed by Lewisburg. The full sentence and exact initial admission date are unresolved.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ],
+        "aka": "Al Hassler"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1910
+        },
+        "death_date": {
+          "year": 1991,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944
+        },
+        "release_date": {
+          "year": 1945,
+          "month": 3
+        }
+      },
+      "source_ids": [
+        "hassler-diary",
+        "hassler-bio",
+        "hassler-for"
+      ],
+      "custody_evidence": "His diary contains prison entries spanning June through later months of 1944, followed by the documented March1945 parole.",
+      "research_notes": "July6 is the Lewisburg arrival, not initial custody. Incarceration_date stays blank to avoid calculating an exact duration from partial endpoints. Coordinates reuse the verified existing penitentiary record; no camp identity substituted."
+    },
+    {
+      "key": "lawrence-scott",
+      "match_names": [
+        "Lawrence Scott"
+      ],
+      "prisoner": {
+        "name": "Lawrence Scott",
+        "first_name": "Lawrence",
+        "last_name": "Scott",
+        "description": "Lawrence Scott was a Quaker organizer and former American Friends Service Committee peace-education director. He led the Washington Peace Action Center and was jailed for a White House peace vigil. He later helped establish A Quaker Action Group.",
+        "state": "District of Columbia",
+        "era": "1960s",
+        "affiliation": [
+          "American Friends Service Committee",
+          "Peace Action Center",
+          "Religious Society of Friends",
+          "Peacemakers"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 38.9,
+        "lng": -77.04,
+        "cases": [
+          {
+            "charges": "White House peace-vigil prosecution; exact charge for the documented thirty-day term is unresolved",
+            "sentence": "His archival biography records a thirty-day jail term served during the Peace Action Center years, 1961–1963. This is not assigned the dates of the separate 1962 twenty-day sentence from which he was bailed pending appeal."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1908
+        },
+        "death_date": {
+          "year": 1986,
+          "month": 8,
+          "day": 7
+        }
+      },
+      "case_dates": {},
+      "source_ids": [
+        "scott-archive",
+        "vigil-report",
+        "dc-location"
+      ],
+      "custody_evidence": "The institutional finding aid explicitly distinguishes a sentence actually served: thirty days in jail.",
+      "research_notes": "Several White House prosecutions appear in the sources. No unsupported date, extra case, or numerical aggregate is inferred. The undated thirty-day episode is retained separately from research leads about shorter sentences."
+    },
+    {
+      "key": "florence-y-carpenter",
+      "match_names": [
+        "Florence Y. Carpenter",
+        "Florence Carpenter"
+      ],
+      "prisoner": {
+        "name": "Florence Y. Carpenter",
+        "first_name": "Florence",
+        "last_name": "Carpenter",
+        "description": "Florence Y. Carpenter was an Ohio Friend and Peace Action Center worker. She joined the 1962 White House vigil against nuclear tests and served twenty days in jail.",
+        "state": "District of Columbia",
+        "era": "1960s",
+        "affiliation": [
+          "Peace Action Center",
+          "Religious Society of Friends"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 38.9,
+        "lng": -77.04,
+        "cases": [
+          {
+            "charges": "Disorderly conduct: congregating and refusing a police order to move; DC Code1961 section22-1121(2)",
+            "sentence": "Served twenty days in 1962. The convictions were affirmed October26,1962. Exact admission and release dates remain unverified."
+          }
+        ],
+        "middle_name": "Y.",
+        "aka": "Florence Carpenter"
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1962
+        },
+        "sentenced_date": {
+          "year": 1962
+        }
+      },
+      "source_ids": [
+        "vigil-report",
+        "scott-appeal",
+        "dc-location",
+        "carpenter-friend"
+      ],
+      "custody_evidence": "Young explicitly reports completion of the twenty-day term.",
+      "research_notes": "Actual duration is retained in sentence text: the existing model has no durable source-only day counter. No invented endpoints or rounded month substitutes. AFSC or FOR membership is not inferred from association."
+    },
+    {
+      "key": "pearl-c-ewald",
+      "match_names": [
+        "Pearl C. Ewald",
+        "Pearl Ewald"
+      ],
+      "prisoner": {
+        "name": "Pearl C. Ewald",
+        "first_name": "Pearl",
+        "last_name": "Ewald",
+        "description": "Pearl C. Ewald was a Quaker peace activist and Peace Action Center worker. She was imprisoned after the 1962 White House nuclear-test vigil and later advocated war-tax resistance.",
+        "state": "District of Columbia",
+        "era": "1960s",
+        "affiliation": [
+          "Peace Action Center",
+          "Religious Society of Friends"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 38.9,
+        "lng": -77.04,
+        "cases": [
+          {
+            "charges": "Disorderly conduct: congregating and refusing a police order to move; DC Code1961 section22-1121(2)",
+            "sentence": "Served twenty days in 1962. The convictions were affirmed October26,1962. Exact admission and release dates remain unverified."
+          }
+        ],
+        "middle_name": "C.",
+        "aka": "Pearl Ewald"
+      },
+      "dates": {
+        "death_date": {
+          "year": 1988,
+          "month": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1962
+        },
+        "sentenced_date": {
+          "year": 1962
+        }
+      },
+      "source_ids": [
+        "vigil-report",
+        "scott-appeal",
+        "dc-location",
+        "ewald-death"
+      ],
+      "custody_evidence": "Young explicitly reports completion of the twenty-day term.",
+      "research_notes": "Actual duration is retained in sentence text: the existing model has no durable source-only day counter. No invented endpoints or rounded month substitutes. AFSC or FOR membership is not inferred from association."
+    }
+  ]
+}
