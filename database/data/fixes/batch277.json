@@ -1,0 +1,91 @@
+{
+  "batch": 277,
+  "expected_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "First American Indian Movement affiliation pass: add one missing activist with confirmed multiday US custody; preserve existing records.",
+  "sources": {
+    "butler-testimony": {
+      "label": "Nilak Butler testimony, Minnesota Citizens Review Commission on the FBI; MPR broadcast March 2, 1977",
+      "url": "https://archive.mpr.org/stories/1977/03/02/highlights-of-the-minnesota-citizens-review-commission-on-the-fbi-hearings-part-2-norman"
+    },
+    "butler-memorial": {
+      "label": "Winona LaDuke and Indigenous Environmental Network memorials for Nilak Butler, December 2002; portrait credited to Jenny Vander Wall",
+      "url": "https://www.freepeltier.org/nilak_in_memory.htm"
+    },
+    "jail-identity": {
+      "label": "Los Angeles County Jail Plan, July 5, 2013, section 1.10: Sybil Brand Institute",
+      "url": "https://file.lacounty.gov/SDSInter/bos/bc/197361_LosAngelesCountyJailPlanIndependentReviewandComprehensiveReport.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "nilak-butler",
+      "match_names": [
+        "Nilak Butler",
+        "Kelly Jean McCormick",
+        "Kelly McCormick"
+      ],
+      "prisoner": {
+        "name": "Nilak Butler",
+        "first_name": "Nilak",
+        "last_name": "Butler",
+        "aka": "Kelly Jean McCormick",
+        "description": "Nilak Butler was an Inuit activist who joined the American Indian Movement in 1974 and later helped found the Indigenous Environmental Network and Indigenous Women's Network. She worked for Native rights, political prisoners and environmental justice.",
+        "state": "California",
+        "era": "1970s",
+        "affiliation": [
+          "American Indian Movement",
+          "Indigenous Environmental Network",
+          "Indigenous Women's Network"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 34.05,
+        "lng": -118.24,
+        "cases": [
+          {
+            "charges": "Alleged possession of unregistered grenades under federal firearms law",
+            "convicted": "Acquitted; reported in her 1977 testimony",
+            "sentence": "Butler testified that her September 12, 1975 Los Angeles arrest led to weekend detention at Sybil Brand Institute and continued custody until supporters posted bail. She reported acquittal after a one-day trial. Exact release and trial dates are unverified."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1953,
+          "month": 9,
+          "day": 3
+        },
+        "death_date": {
+          "year": 2002,
+          "month": 12,
+          "day": 26
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1975,
+          "month": 9,
+          "day": 12
+        }
+      },
+      "source_ids": [
+        "butler-testimony",
+        "butler-memorial",
+        "jail-identity"
+      ],
+      "custody_evidence": "Recorded personal testimony establishes detention beyond initial processing, through a weekend and subsequent bail proceedings.",
+      "research_notes": "The earlier Rosebud questioning and later travel restrictions are excluded from the custody period. No numeric duration is inferred. Jail name is normalized from the transcript using the county report; no matching institution exists. Coordinates approximate Los Angeles, not a specific building. Vital dates are explicitly stated in the LaDuke memorial. Existing identities are preserved.",
+      "photo": {
+        "source_file": "database/data/photos/nilak-butler-jenny-vander-wall.png",
+        "storage_path": "prisoners/nilak-butler-jenny-vander-wall.png",
+        "sha256": "9eb1317f345ca5bb6c1480d3faf3adec75df35d6c57668a88b2853a9def11b98",
+        "source_url": "https://images.staticjw.com/fre/4747/nilak_butler.gif",
+        "credit": "Jenny Vander Wall",
+        "rights": "No open license stated; credited historical reference portrait. Retains original embedded credit.",
+        "processing": "Original 247 x 229 GIF converted losslessly to RGB PNG; no crop, retouching or generated pixels."
+      }
+    }
+  ]
+}

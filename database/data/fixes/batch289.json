@@ -1,0 +1,266 @@
+{
+  "batch": 289,
+  "expected_count": 3,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-10",
+  "scope": "First Black Lives Matter Movement custody pass: three missing people, three pretrial-custody cases, two identified photographs.",
+  "sources": {
+    "kpbs_bail": {
+      "label": "Claire Trageser, KPBS, September 9, 2020. Draughnâ€™s ongoing jail custody and bail hearing; named pool photograph via News 8.",
+      "url": "https://www.kpbs.org/news/public-safety/2020/09/09/judge-lowers-high-bail-san-diego-protestor"
+    },
+    "da": {
+      "label": "San Diego County District Attorney, September 9, 2020 charging statement. Arrest August 28, not-guilty plea, thirteen filed counts and bail reduction. Prosecution allegations, not a verdict.",
+      "url": "https://danewscenter.com/?p=2172"
+    },
+    "kpbs_verdict": {
+      "label": "KPBS, December 10, 2021, Trageser and Bowler. Reports Draughn free and acquitted of all charges; includes his response.",
+      "url": "https://www.kpbs.org/news/local/2021/12/10/prosecutors-throw-book-san-diego-protester-activists-say-message"
+    },
+    "pbs": {
+      "label": "KPBS Evening Edition, December 9, 2021 broadcast. Reports jury acquittal that day.",
+      "url": "https://www.pbs.org/video/thursday-december-9-2021-xjnub3/"
+    },
+    "oul": {
+      "label": "Olivia Smucker, One United Lancaster, September 17, 2020. Names Enterline and Patterson among people arrested early Monday and released Thursday; reports advocatesâ€™ objections to bail.",
+      "url": "https://oneunitedlancaster.com/coronavirus-awareness-lancaster/activists-seek-fair-trial-justice-for-protesters/"
+    },
+    "enterline_court": {
+      "label": "Commonwealth v. Taylor Breann Enterline, 715 MDA 2023, Pennsylvania Superior Court, May 31, 2024. Full memorandum, verdict, sentence and appeal outcome.",
+      "url": "https://law.justia.com/cases/pennsylvania/superior-court/2024/715-mda-2023.html"
+    },
+    "patterson": {
+      "label": "Associated Press, April 2, 2023, FOX29: Patterson guilty plea, misdemeanor counts, felony withdrawal and eighteen monthsâ€™ probation.",
+      "url": "https://www.fox29.com/news/woman-gets-probation-in-charges-related-to-lancaster-protest-disorder.amp"
+    },
+    "vice": {
+      "label": "Taylor Enterline interview, VICE, January 20, 2021. Used only for her racial identity.",
+      "url": "https://www.vice.com/en/article/her-bail-was-set-at-dollar1-million-for-protesting-she-says-capitol-rioters-got-a-free-pass/"
+    },
+    "enterline_da": {
+      "label": "Lancaster County District Attorney, January 20, 2023, updated April 4. Named Taylor Enterline photograph and trial outcome.",
+      "url": "https://crimewatch.net/us/pa/lancaster/da/11617/post/two-convicted-rioting-outside-city-police-station-2020"
+    }
+  },
+  "institutions": {
+    "ad08ad96-7cec-4d39-8b2f-05b542568a4d": "San Diego County Jail"
+  },
+  "entries": [
+    {
+      "key": "denzel-draughn",
+      "match_names": [
+        "Denzel Draughn"
+      ],
+      "prisoner": {
+        "name": "Denzel Draughn",
+        "first_name": "Denzel",
+        "last_name": "Draughn",
+        "description": "Denzel Draughn was arrested during a Black Lives Matter protest in San Diego on August 28, 2020. Police accused him of pepper-spraying officers; his defense said he acted to protect a protester. He remained jailed into September while supporters challenged his high bail. A jury acquitted him on December 9, 2021. His precise jail-release date is unverified.",
+        "state": "California",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "gender": "Male",
+        "race": "Black",
+        "in_custody": false,
+        "released": true,
+        "lat": 32.72,
+        "lng": -117.16,
+        "cases": [
+          {
+            "charges": "Unlawful use of tear gas against peace officers and resisting/use of force against officers",
+            "convicted": "Acquitted of all charges by jury on December 9, 2021",
+            "sentence": "No sentence: acquitted. Detained following the August 28, 2020 arrest and still jailed at the September 9 bail hearing. Bail was reduced from $750,000 to $150,000. The later acquittal report confirms he was free, but does not establish the precise day he left jail. Earlier reports list differing charge totals as proceedings developed; no dismissed count is presented as a conviction.",
+            "institution_id": "ad08ad96-7cec-4d39-8b2f-05b542568a4d"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 8,
+            "day": 28
+          }
+        }
+      ],
+      "source_ids": [
+        "kpbs_bail",
+        "da",
+        "kpbs_verdict",
+        "pbs"
+      ],
+      "custody_evidence": "Named September 9 report confirms actual jail confinement following August 28 arrest, independently of any proposed sentence.",
+      "case_research": [
+        {
+          "source_ids": [
+            "kpbs_bail",
+            "da",
+            "kpbs_verdict",
+            "pbs"
+          ],
+          "custody_evidence": "Actual pretrial confinement beyond the initial arrest; later acquittal and freedom verified. Acquittal is not used as the jail-release date."
+        }
+      ],
+      "photo": {
+        "source_file": "database/data/photos/denzel-draughn-news8-crop.png",
+        "storage_path": "prisoners/denzel-draughn-news8-crop.png",
+        "sha256": "f477a200d01948763674a6a26063ea36d142c0f33183d1569979dbcc4050a4bf",
+        "source_id": "kpbs_bail"
+      },
+      "status_research": "Released from this historical custody; not marked currently imprisoned. No birth/death date or unsupported personal support website."
+    },
+    {
+      "key": "taylor-breann-enterline",
+      "match_names": [
+        "Taylor Enterline",
+        "Taylor Breann Enterline"
+      ],
+      "prisoner": {
+        "name": "Taylor Breann Enterline",
+        "first_name": "Taylor",
+        "middle_name": "Breann",
+        "last_name": "Enterline",
+        "aka": "Taylor Enterline",
+        "description": "Taylor Breann Enterline is a racial-justice protester arrested in Lancaster, Pennsylvania, in September 2020 after the police killing of Ricardo MuÃ±oz. She spent three days in pretrial custody. A jury later convicted her of riot and four related offenses but acquitted her of conspiracy. She received probation in 2023, and the judgment was affirmed in 2024. She maintained that her protest was peaceful.",
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "gender": "Female",
+        "race": "Black",
+        "in_custody": false,
+        "released": true,
+        "lat": 40.04,
+        "lng": -76.31,
+        "cases": [
+          {
+            "charges": "Riot; failure to disperse; obstruction of highways; disorderly conduct; defiant trespass",
+            "convicted": "Jury conviction January 19, 2023; acquitted of conspiracy to commit riot",
+            "sentence": "Three years of probation imposed April 4, 2023, with restitution and community service; affirmed May 31, 2024. The qualifying imprisonment was September 2020 pretrial detention, not the probation term. The appellate court rejected her sufficiency and weight challenges; it did not require proof that she personally threw or broke objects."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 17
+          },
+          "sentenced_date": {
+            "year": 2023,
+            "month": 4,
+            "day": 4
+          }
+        }
+      ],
+      "source_ids": [
+        "oul",
+        "enterline_court",
+        "vice",
+        "enterline_da"
+      ],
+      "custody_evidence": "Contemporaneous named account establishes Monday arrest and Thursday release, September 14â€“17, 2020.",
+      "case_research": [
+        {
+          "source_ids": [
+            "oul",
+            "enterline_court"
+          ],
+          "custody_evidence": "Three-day pretrial jail interval. Later three-year probation is not counted as imprisonment."
+        }
+      ],
+      "photo": {
+        "source_file": "database/data/photos/taylor-enterline-lancaster-da.jpg",
+        "storage_path": "prisoners/taylor-enterline-lancaster-da.jpg",
+        "sha256": "9edcf57fdb34731873a4fd5fd9b154c41f67248abbb05f8aa5316d76ccec7656",
+        "source_id": "enterline_da"
+      },
+      "status_research": "Released from this historical custody; not marked currently imprisoned. No birth/death date or unsupported personal support website."
+    },
+    {
+      "key": "kathryn-patterson-lancaster",
+      "match_names": [
+        "Kathryn Patterson"
+      ],
+      "prisoner": {
+        "name": "Kathryn Patterson",
+        "first_name": "Kathryn",
+        "last_name": "Patterson",
+        "description": "Kathryn Patterson was a Franklin & Marshall College student arrested at Lancasterâ€™s September 2020 protest following the police killing of Ricardo MuÃ±oz. After three days in custody she was released on unsecured bail. In March 2023 she pleaded guilty to four misdemeanor offenses and received eighteen months of probation. Prosecutors withdrew the felony charges and acknowledged that she had not thrown objects at officers.",
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "gender": "Female",
+        "in_custody": false,
+        "released": true,
+        "lat": 40.04,
+        "lng": -76.31,
+        "cases": [
+          {
+            "charges": "Failure to disperse; obstructing highways; disorderly conduct; trespassing",
+            "convicted": "Guilty plea to four misdemeanors in March 2023; felony charges withdrawn",
+            "sentence": "Eighteen months of probation, a fine and 100 hours of community service. The prison database records her September 2020 pretrial detention, not probation as jail time. The exact sentencing day is not entered."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 17
+          },
+          "sentenced_date": {
+            "year": 2023,
+            "month": 3
+          }
+        }
+      ],
+      "source_ids": [
+        "oul",
+        "patterson"
+      ],
+      "custody_evidence": "Named contemporaneous report establishes detention from early Monday until Thursday release.",
+      "case_research": [
+        {
+          "source_ids": [
+            "oul",
+            "patterson"
+          ],
+          "custody_evidence": "Three-day pretrial custody independently established; the later noncustodial sentence is kept separate."
+        }
+      ],
+      "status_research": "Released from this historical custody; not marked currently imprisoned. No birth/death date or unsupported personal support website."
+    }
+  ],
+  "research_notes": "All existing identities and fields preserved, including aliases and hidden profiles. No unverified vital dates. Source websites are not personal support websites. Approximate city coordinates. No matched Lancaster County Prison institution found: do not substitute the Lancaster court. Draughn release date unknown; acquittal does not supply it. Lancaster pretrial detention has verified endpoints; later probation is not incarceration. Patterson race unverified and omitted. Photograph is an exact crop, no retouching."
+}
