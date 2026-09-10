@@ -1,0 +1,1730 @@
+{
+  "batch": 268,
+  "expected_new_profiles": 26,
+  "expected_new_existing_cases": 9,
+  "expected_case_updates": 3,
+  "name": "CNVA prisoners: Polaris, Albany, Hartford, Boston and missing Omaha cases",
+  "sources": {
+    "appeal": {
+      "label": "United States v. Aarons and Swann, 310 F.2d 341 (2d Cir. October 30, 1962)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/310/341/427595/"
+    },
+    "indictment": {
+      "label": "United States v. Richman, 190 F. Supp. 889 (D. Conn. February 1, 1961), indictment caption",
+      "url": "https://www.leagle.com/decision/19611079190fsupp8891898"
+    },
+    "november-custody": {
+      "label": "AP, Trio of Pacifists Snubs Opportunity to Ease Jail Life, News-Review, November 26, 1960, p. 1",
+      "url": "https://oregonnews.uoregon.edu/lccn/2003260229/1960-11-26/ed-1/seq-1/"
+    },
+    "henry-sentence": {
+      "label": "AP, Pacifist Gets Prison Term, Eugene Register-Guard, February 26, 1961, p. 6B",
+      "url": "https://oregonnews.uoregon.edu/lccn/sn85042472/1961-02-26/ed-1/seq-16/"
+    },
+    "cnva-boat": {
+      "label": "Mary Christiansen, Home Comes the World Citizen, CNVA Direct Action 58, May 17, 1965, p. 2",
+      "url": "https://www.crmvet.org/docs/nor/650517_cnva_news.pdf"
+    },
+    "doj": {
+      "label": "United States Attorneys Bulletin, June 30, 1961, pp. 414-415, U.S. v. Victor Richman et al.",
+      "url": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0913.pdf"
+    },
+    "june-sentences": {
+      "label": "AP, 8 Pacifists Get Prison Terms, Manchester Evening Herald, June 19, 1961; indexed archive text",
+      "url": "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1961-06-19.pdf"
+    },
+    "martin-ashland": {
+      "label": "Bertrand Russell Seeks Release of U.S. Pacifist, The Militant, September 17, 1962, p. 4",
+      "url": "https://www.marxists.org/history/etol/newspape/themilitant/1962/v26n33-sep-17-1962-mil.pdf"
+    },
+    "youth-act": {
+      "label": "Ogg v. Klein, 572 F.2d 1379 (9th Cir. 1978), quoting 18 U.S.C. 5017(c)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/572/1379/451817/"
+    },
+    "swann-memoir": {
+      "label": "Robert Swann, Peace, Civil Rights, and the Search for Community: An Autobiography, chapter 11, 1998",
+      "url": "https://centerforneweconomics.org/publications/peace-civil-rights-and-the-search-for-community-an-autobiography/"
+    },
+    "richman-danbury": {
+      "label": "Freedom, August 19, 1961, vol. 22 no. 27, p. 1: Second Pacifist Drugged for Fingerprinting",
+      "url": "https://thesparrowsnest.org.uk/collections/public_archive/17370.pdf"
+    },
+    "november-commitment": {
+      "label": "Two Polaris Foes Jailed, The Militant, November 26, 1962, p. 8",
+      "url": "https://www.marxists.org/history/etol/newspape/themilitant/1962/v26n43-nov-26-1962-mil.pdf"
+    },
+    "aarons-probation": {
+      "label": "AP, Pacifist Freed, Manchester Evening Herald, November 20, 1962; indexed archive text",
+      "url": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1962-11-20.pdf"
+    },
+    "albany-roster": {
+      "label": "CNVA, Walk Arrested in GA, January 13, 1964, pp. 1-2 (archive filename begins 6312)",
+      "url": "https://www.crmvet.org/docs/6312_cnva_albany1.pdf"
+    },
+    "albany-release": {
+      "label": "CNVA, Flash from Albany, January 1964, p. 3; release groups not individually identified",
+      "url": "https://www.crmvet.org/docs/6312_cnva_albany2.pdf"
+    },
+    "hartford": {
+      "label": "Citti Allsup and Josh Kricker, Direct Action 79, June 19, 1967, pp. 1-2",
+      "url": "https://www.crmvet.org/docs/nor/670619_cnva_news-xxxnor.pdf"
+    },
+    "boston": {
+      "label": "Harvard Crimson, Pacifist Released from Jail Sets Draft Card Afire, April 20, 1966",
+      "url": "https://www.thecrimson.com/article/1966/4/20/pacifist-released-from-jail-sets-draft/"
+    },
+    "meyer-omaha": {
+      "label": "Karl Meyer, Ban the Bomb, July 2020, firsthand account of Omaha imprisonment",
+      "url": "https://www.endwarlistentoearth.com/banbomb.html"
+    },
+    "harvey-omaha": {
+      "label": "War Resisters League, Arthur Harvey: June 8, 1932 – January 17, 2026",
+      "url": "https://www.warresisters.org/arthur-harvey-june-8-1932-january-17-2026/"
+    },
+    "hennacy-letter": {
+      "label": "Dorothy Day, Letter to an Imprisoned Editor, January 1960",
+      "url": "https://catholicworker.org/760-html/"
+    },
+    "everyman-docket": {
+      "label": "Civil Liberties Docket, VIII no. 1, section 252.53, U.S. v. Stallings, Lazar, Yoes",
+      "url": "https://digicoll.lib.berkeley.edu/record/222214/files/meik-08_1.pdf"
+    },
+    "everyman-arrest": {
+      "label": "AP, Lazar arraignment, Big Spring Herald, May 28, 1962, p. 8",
+      "url": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/179f7acf-9d35-4700-94e1-94244e3c597c/content"
+    }
+  },
+  "institutions": {
+    "59ad64ff-b3aa-4ec7-9bce-13c592b0a1c5": "Federal Correctional Institution, Danbury",
+    "5cfa35c7-fcc3-4572-a724-86efcdf5e9dd": "New Haven County Jail"
+  },
+  "entries": [
+    {
+      "key": "roger-aarons",
+      "match_names": [
+        "Roger Aarons"
+      ],
+      "prisoner": {
+        "name": "Roger Aarons",
+        "first_name": "Roger",
+        "last_name": "Aarons",
+        "description": "Roger Aarons was a New York pacifist associated with the Committee for Nonviolent Action. He participated in its protest against the Polaris submarine program and was prosecuted after the World Citizen entered the restricted launch area in November 1960.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.306065,
+        "lng": -72.925772
+      },
+      "case": {
+        "charges": "Knowingly violating a Coast Guard restricted-zone order at the Ethan Allen launching; 50 U.S.C. 192.",
+        "judge": "Robert P. Anderson",
+        "prosecutor": "John P. Diuguid; Hadley W. Austin",
+        "sentence": "One year, suspended after 90 days, followed by five years of probation. His conviction was affirmed on October 30, 1962. Contemporary reporting confirms detention at New Haven from the November 22 arrest through at least November 26, 1960. The full time actually served and custody endpoints remain unverified.",
+        "convicted": "Yes; affirmed October 30, 1962.",
+        "institution_id": "5cfa35c7-fcc3-4572-a724-86efcdf5e9dd"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1960,
+          "month": 11,
+          "day": 22
+        },
+        "sentenced_date": {
+          "year": 1961,
+          "month": 6,
+          "day": 19
+        }
+      },
+      "source_ids": [
+        "appeal",
+        "november-custody",
+        "doj"
+      ],
+      "coordinate_note": "Uses the coordinates already held for the documented custody institution; no home address is inferred.",
+      "limits": "No verified date of birth, date of death, portrait, personal support website, exact admission/release endpoints or actual total custody duration located. Age in a newspaper is not converted into a birthdate."
+    },
+    {
+      "key": "victor-richman",
+      "match_names": [
+        "Victor Richman",
+        "Victor Richmond"
+      ],
+      "prisoner": {
+        "name": "Victor Richman",
+        "first_name": "Victor",
+        "last_name": "Richman",
+        "description": "Victor Richman was a Columbia University student and anti-nuclear activist prosecuted with other Committee for Nonviolent Action participants after the November 1960 Ethan Allen protest. Contemporary reports document his imprisonment at New Haven and subsequently at Danbury.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.393712,
+        "lng": -73.451483
+      },
+      "case": {
+        "charges": "Knowingly violating a Coast Guard restricted-zone order at the Ethan Allen launching; 50 U.S.C. 192.",
+        "judge": "Robert P. Anderson",
+        "prosecutor": "John P. Diuguid; Hadley W. Austin",
+        "sentence": "One year, with 90 days to serve and the balance suspended. He remained in New Haven custody several days after the November 22, 1960 arrest. An August 1961 report describes his confinement at Danbury, including four days in solitary before a fast. His complete custody span and final release date are unverified.",
+        "convicted": "Yes",
+        "institution_id": "59ad64ff-b3aa-4ec7-9bce-13c592b0a1c5"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1960,
+          "month": 11,
+          "day": 22
+        },
+        "sentenced_date": {
+          "year": 1961,
+          "month": 6,
+          "day": 19
+        }
+      },
+      "source_ids": [
+        "indictment",
+        "november-custody",
+        "june-sentences",
+        "doj",
+        "richman-danbury"
+      ],
+      "coordinate_note": "Uses the coordinates already held for the documented custody institution; no home address is inferred.",
+      "limits": "No verified date of birth, date of death, portrait, personal support website, exact admission/release endpoints or actual total custody duration located. Age in a newspaper is not converted into a birthdate."
+    },
+    {
+      "key": "carl-arnold",
+      "match_names": [
+        "Carl Arnold"
+      ],
+      "prisoner": {
+        "name": "Carl Arnold",
+        "first_name": "Carl",
+        "last_name": "Arnold",
+        "description": "Carl Arnold participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "tony-brown",
+      "match_names": [
+        "Tony Brown",
+        "Anthony Brown"
+      ],
+      "prisoner": {
+        "name": "Tony Brown",
+        "first_name": "Tony",
+        "last_name": "Brown",
+        "description": "Tony Brown participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "michele-gloor",
+      "match_names": [
+        "Michele Gloor"
+      ],
+      "prisoner": {
+        "name": "Michele Gloor",
+        "first_name": "Michele",
+        "last_name": "Gloor",
+        "description": "Michele Gloor participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "peter-gregonis",
+      "match_names": [
+        "Peter Gregonis"
+      ],
+      "prisoner": {
+        "name": "Peter Gregonis",
+        "first_name": "Peter",
+        "last_name": "Gregonis",
+        "description": "Peter Gregonis participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "kit-havice",
+      "match_names": [
+        "Kit Havice",
+        "Katherine Havice",
+        "Katharine Havice"
+      ],
+      "prisoner": {
+        "name": "Kit Havice",
+        "first_name": "Kit",
+        "last_name": "Havice",
+        "description": "Kit Havice participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "yvonne-klein",
+      "match_names": [
+        "Yvonne Klein"
+      ],
+      "prisoner": {
+        "name": "Yvonne Klein",
+        "first_name": "Yvonne",
+        "last_name": "Klein",
+        "description": "Yvonne Klein participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "tyrone-jackson",
+      "match_names": [
+        "Tyrone Jackson"
+      ],
+      "prisoner": {
+        "name": "Tyrone Jackson",
+        "first_name": "Tyrone",
+        "last_name": "Jackson",
+        "description": "Tyrone Jackson participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "alan-nyysola",
+      "match_names": [
+        "Alan Nyysola"
+      ],
+      "prisoner": {
+        "name": "Alan Nyysola",
+        "first_name": "Alan",
+        "last_name": "Nyysola",
+        "description": "Alan Nyysola participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "eric-robinson",
+      "match_names": [
+        "Eric Robinson"
+      ],
+      "prisoner": {
+        "name": "Eric Robinson",
+        "first_name": "Eric",
+        "last_name": "Robinson",
+        "description": "Eric Robinson participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "ray-robinson-jr",
+      "match_names": [
+        "Ray Robinson Jr.",
+        "Ray Robinson",
+        "Raymond Robinson"
+      ],
+      "prisoner": {
+        "name": "Ray Robinson Jr.",
+        "first_name": "Ray",
+        "last_name": "Robinson",
+        "description": "Ray Robinson Jr. participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "edith-snyder",
+      "match_names": [
+        "Edith Snyder"
+      ],
+      "prisoner": {
+        "name": "Edith Snyder",
+        "first_name": "Edith",
+        "last_name": "Snyder",
+        "description": "Edith Snyder participated in the integrated CNVA peace walk and was jailed in Albany, Georgia, in December 1963.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "bob-barber",
+      "match_names": [
+        "Bob Barber",
+        "Robert Barber"
+      ],
+      "prisoner": {
+        "name": "Bob Barber",
+        "first_name": "Bob",
+        "last_name": "Barber",
+        "description": "Bob Barber was a CNVA peace-walk supporter jailed at Albany during the January 1964 solidarity vigil.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+        "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        },
+        "incarceration_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "albany-roster"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "al-uhrie",
+      "match_names": [
+        "Al Uhrie",
+        "Albert Uhrie"
+      ],
+      "prisoner": {
+        "name": "Al Uhrie",
+        "first_name": "Al",
+        "last_name": "Uhrie",
+        "description": "Al Uhrie was a CNVA peace-walk supporter jailed at Albany during the January 1964 solidarity vigil.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+        "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        },
+        "incarceration_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "albany-roster"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "fred-moore",
+      "match_names": [
+        "Fred Moore",
+        "Frederick Moore"
+      ],
+      "prisoner": {
+        "name": "Fred Moore",
+        "first_name": "Fred",
+        "last_name": "Moore",
+        "description": "Fred Moore visited the CNVA peace walkers and was jailed for two days after asking Albany police about their detention.",
+        "state": "Georgia",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 31.5785,
+        "lng": -84.1557
+      },
+      "case": {
+        "charges": "Arrest while inquiring at Albany police station about imprisoned peace walkers.",
+        "sentence": "Held for two days and released on Christmas morning, December 25, 1963."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "release_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 25
+        }
+      },
+      "source_ids": [
+        "albany-roster"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "josh-kricker",
+      "match_names": [
+        "Josh Kricker",
+        "Joshua Kricker"
+      ],
+      "prisoner": {
+        "name": "Josh Kricker",
+        "first_name": "Josh",
+        "last_name": "Kricker",
+        "description": "Josh Kricker was a New England CNVA participant jailed during the June 1967 Hartford vigil for John Stephens.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Arrest during the Hartford jail vigil supporting draft resister John Stephens; precise statutory charge not established.",
+        "sentence": "Held over the weekend, June 3–5, 1967. The prosecutor dropped the charges before trial.",
+        "convicted": "No; charges dropped"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "citti-allsup",
+      "match_names": [
+        "Citti Allsup",
+        "Catherine Allsup",
+        "Catherine Alsop"
+      ],
+      "prisoner": {
+        "name": "Citti Allsup",
+        "first_name": "Citti",
+        "last_name": "Allsup",
+        "description": "Citti Allsup was a New England CNVA participant jailed during the June 1967 Hartford vigil for John Stephens.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Arrest during the Hartford jail vigil supporting draft resister John Stephens; precise statutory charge not established.",
+        "sentence": "Held over the weekend, June 3–5, 1967. The prosecutor dropped the charges before trial.",
+        "convicted": "No; charges dropped"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "chris-gifford",
+      "match_names": [
+        "Chris Gifford",
+        "Christopher Gifford"
+      ],
+      "prisoner": {
+        "name": "Chris Gifford",
+        "first_name": "Chris",
+        "last_name": "Gifford",
+        "description": "Chris Gifford was a New England CNVA participant jailed during the June 1967 Hartford vigil for John Stephens.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Arrest during the Hartford jail vigil supporting draft resister John Stephens; precise statutory charge not established.",
+        "sentence": "Held over the weekend, June 3–5, 1967. The prosecutor dropped the charges before trial.",
+        "convicted": "No; charges dropped"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "chuck-matthei",
+      "match_names": [
+        "Chuck Matthei",
+        "Charles Matthei"
+      ],
+      "prisoner": {
+        "name": "Chuck Matthei",
+        "first_name": "Chuck",
+        "last_name": "Matthei",
+        "description": "Chuck Matthei was a New England CNVA participant jailed during the June 1967 Hartford vigil for John Stephens.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Arrest during the Hartford jail vigil supporting draft resister John Stephens; precise statutory charge not established.",
+        "sentence": "Held over the weekend, June 3–5, 1967. The prosecutor dropped the charges before trial.",
+        "convicted": "No; charges dropped"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "candy-stephens",
+      "match_names": [
+        "Candy Stephens",
+        "Candy Kricker"
+      ],
+      "prisoner": {
+        "name": "Candy Stephens",
+        "first_name": "Candy",
+        "last_name": "Stephens",
+        "description": "Candy Stephens, also known as Candy Kricker, participated in CNVA peace actions and was jailed at Albany and Hartford.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Arrest during the Hartford jail vigil supporting draft resister John Stephens; precise statutory charge not established.",
+        "sentence": "Held over the weekend, June 3–5, 1967. The prosecutor dropped the charges before trial.",
+        "convicted": "No; charges dropped"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 3
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 5
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs.",
+      "extra_cases": [
+        {
+          "case": {
+            "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+            "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+          },
+          "case_dates": {
+            "arrest_date": {
+              "year": 1964,
+              "month": 1,
+              "day": 1
+            },
+            "incarceration_date": {
+              "year": 1964,
+              "month": 1,
+              "day": 1
+            }
+          },
+          "source_ids": [
+            "albany-roster"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "jonathan-stephens",
+      "match_names": [
+        "Jonathan Stephens",
+        "John Stephens",
+        "John-i-thin Stephens"
+      ],
+      "prisoner": {
+        "name": "Jonathan Stephens",
+        "first_name": "Jonathan",
+        "last_name": "Stephens",
+        "description": "Jonathan Stephens, known as John-i-thin, was a CNVA peace walker and draft resister jailed in Georgia and during his 1967 draft proceedings.",
+        "state": "Connecticut",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 41.7658,
+        "lng": -72.6734
+      },
+      "case": {
+        "charges": "Draft refusal; arrested at the New England CNVA farm in Voluntown, Connecticut.",
+        "sentence": "Taken into custody May 31, 1967; held in Connecticut and transferred to California. Released on personal recognizance in San Francisco on June 15, 1967. Later trial outcome remains unresolved."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1967,
+          "month": 5,
+          "day": 31
+        },
+        "incarceration_date": {
+          "year": 1967,
+          "month": 5,
+          "day": 31
+        },
+        "release_date": {
+          "year": 1967,
+          "month": 6,
+          "day": 15
+        }
+      },
+      "source_ids": [
+        "hartford"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs.",
+      "extra_cases": [
+        {
+          "case": {
+            "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+            "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+          },
+          "case_dates": {
+            "arrest_date": {
+              "year": 1964,
+              "month": 1,
+              "day": 1
+            },
+            "incarceration_date": {
+              "year": 1964,
+              "month": 1,
+              "day": 1
+            }
+          },
+          "source_ids": [
+            "albany-roster"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gary-c-hicks",
+      "match_names": [
+        "Gary C. Hicks",
+        "Gary Hicks"
+      ],
+      "prisoner": {
+        "name": "Gary C. Hicks",
+        "first_name": "Gary",
+        "last_name": "Hicks",
+        "description": "Gary C. Hicks was a CNVA antiwar demonstrator jailed following the March 1966 Boston Army Base protest.",
+        "state": "Massachusetts",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "case": {
+        "charges": "Loitering and conduct likely to cause a breach of the peace during the Boston Army Base sit-in.",
+        "sentence": "Served 20 days after refusing a $20 fine; released April 19, 1966. Exact admission date is not independently established.",
+        "convicted": "Yes"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1966,
+          "month": 3,
+          "day": 25
+        },
+        "release_date": {
+          "year": 1966,
+          "month": 4,
+          "day": 19
+        }
+      },
+      "source_ids": [
+        "boston"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "david-a-reed",
+      "match_names": [
+        "David A. Reed",
+        "David Reed"
+      ],
+      "prisoner": {
+        "name": "David A. Reed",
+        "first_name": "David",
+        "last_name": "Reed",
+        "description": "David A. Reed was a Harvard student who served a jail term after the March 1966 CNVA protest at Boston Army Base.",
+        "state": "Massachusetts",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "case": {
+        "charges": "Loitering and conduct likely to cause a breach of the peace during the Boston Army Base sit-in.",
+        "sentence": "Served 20 days after refusing a $20 fine; released April 19, 1966. Exact admission date is not independently established.",
+        "convicted": "Yes"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1966,
+          "month": 3,
+          "day": 25
+        },
+        "release_date": {
+          "year": 1966,
+          "month": 4,
+          "day": 19
+        }
+      },
+      "source_ids": [
+        "boston"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "harold-stallings",
+      "match_names": [
+        "Harold Stallings",
+        "Hal Stallings"
+      ],
+      "prisoner": {
+        "name": "Harold Stallings",
+        "first_name": "Harold",
+        "last_name": "Stallings",
+        "description": "Harold Stallings was an Everyman I crew member jailed after the CNVA voyage opposing Pacific nuclear weapons tests in 1962.",
+        "state": "California",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "case": {
+        "charges": "Contempt of court for the Everyman I voyage toward the Pacific nuclear-testing area.",
+        "sentence": "Sentenced June 7, 1962 to 30 days for contempt. Swann, who helped organize the voyage, confirms the three sailors spent an extended period in jail. The complete custody total and release date remain unresolved.",
+        "convicted": "Yes"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1962,
+          "month": 5,
+          "day": 26
+        },
+        "sentenced_date": {
+          "year": 1962,
+          "month": 6,
+          "day": 7
+        }
+      },
+      "source_ids": [
+        "everyman-docket",
+        "swann-memoir",
+        "everyman-arrest"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    },
+    {
+      "key": "evan-yoes",
+      "match_names": [
+        "Evan Yoes",
+        "Dick Yoes"
+      ],
+      "prisoner": {
+        "name": "Evan Yoes",
+        "first_name": "Evan",
+        "last_name": "Yoes",
+        "description": "Evan Yoes was an Everyman I crew member jailed after the CNVA voyage opposing Pacific nuclear weapons tests in 1962.",
+        "state": "California",
+        "era": "1960s",
+        "affiliation": [
+          "Committee for Nonviolent Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "case": {
+        "charges": "Contempt of court for the Everyman I voyage toward the Pacific nuclear-testing area.",
+        "sentence": "Sentenced June 7, 1962 to 30 days for contempt. Swann, who helped organize the voyage, confirms the three sailors spent an extended period in jail. The complete custody total and release date remain unresolved.",
+        "convicted": "Yes"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1962,
+          "month": 5,
+          "day": 26
+        },
+        "sentenced_date": {
+          "year": 1962,
+          "month": 6,
+          "day": 7
+        }
+      },
+      "source_ids": [
+        "everyman-docket",
+        "swann-memoir",
+        "everyman-arrest"
+      ],
+      "coordinate_note": "Approximate documented custody city; not an exact jail or residential address.",
+      "limits": "Dates of birth/death and portraits are not inferred from age, namesakes or unidentified group photographs."
+    }
+  ],
+  "new_cases": [
+    {
+      "key": "robert-swann-polaris",
+      "case_id": "6a72824d-bfe2-480b-9a11-826d8ec9adbf",
+      "prisoner_id": "8695c4e8-01f8-45f3-977c-7b83195ba9f8",
+      "slug": "robert-swann",
+      "name": "Robert Swann",
+      "case": {
+        "charges": "Knowingly violating a Coast Guard restricted-zone order at the Ethan Allen launching; 50 U.S.C. 192.",
+        "judge": "Robert P. Anderson",
+        "prosecutor": "John P. Diuguid; Hadley W. Austin",
+        "institution_id": "59ad64ff-b3aa-4ec7-9bce-13c592b0a1c5",
+        "convicted": "Yes; affirmed October 30, 1962.",
+        "sentence": "One year, suspended after 90 days, followed by five years of probation. Swann helped launch a protest canoe from shore; he was not one of the men who boarded the submarine. His autobiography confirms imprisonment at Danbury for this action. The exact custody endpoints and actual total served have not been established."
+      },
+      "case_dates": {
+        "sentenced_date": {
+          "year": 1961,
+          "month": 6,
+          "day": 19
+        }
+      },
+      "source_ids": [
+        "appeal",
+        "doj",
+        "swann-memoir"
+      ],
+      "limits": "A court appearance for commitment was scheduled for November 19, 1962 after appeal; this is not proof of the actual prison admission date. The existing WWII case and its 24 documented months remain untouched.",
+      "match_pattern": "polaris|ethan allen|coast guard|restricted.zone"
+    },
+    {
+      "key": "albany-dec1963-Erica Enzer",
+      "case_id": "ac062d69-d301-53a9-a230-128e6e059f2a",
+      "prisoner_id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
+      "slug": "erica-enzer",
+      "name": "Erica Enzer",
+      "match_pattern": "albany",
+      "case": {
+        "charges": "Refusing police directions during the integrated Quebec–Washington–Guantanamo Peace Walk, Albany, Georgia.",
+        "sentence": "Held beyond the initial arrest. On January 8, 1964, the court imposed a $102 fine or 25 days, with pretrial custody credited. The individual release date is unresolved; group release dates are not assigned to every person.",
+        "convicted": "Yes",
+        "judge": "A. N. Durden"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "incarceration_date": {
+          "year": 1963,
+          "month": 12,
+          "day": 23
+        },
+        "sentenced_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 8
+        }
+      },
+      "source_ids": [
+        "albany-roster",
+        "albany-release"
+      ]
+    },
+    {
+      "key": "albany-jan1964-Ross Anderson",
+      "case_id": "dfd0a1d9-938b-5e32-a128-66eeefb1b459",
+      "prisoner_id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
+      "slug": "ross-anderson",
+      "name": "Ross Anderson",
+      "match_pattern": "albany",
+      "case": {
+        "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+        "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        },
+        "incarceration_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "albany-roster"
+      ]
+    },
+    {
+      "key": "albany-jan1964-David Dellinger",
+      "case_id": "ff1fd03b-0414-5617-a8b4-9c5e58fa5ef3",
+      "prisoner_id": "1cc1e66c-f5d4-472b-afd4-72cb6ae8816c",
+      "slug": "david-dellinger",
+      "name": "David Dellinger",
+      "match_pattern": "albany",
+      "case": {
+        "charges": "Failure to obey an officer during a vigil supporting jailed peace walkers in Albany, Georgia.",
+        "sentence": "Arrested during the January 1, 1964 support vigil; declined bail and remained jailed pending trial. Individual release date and full custody total are unresolved."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        },
+        "incarceration_date": {
+          "year": 1964,
+          "month": 1,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "albany-roster"
+      ]
+    },
+    {
+      "key": "swann-cia-1961",
+      "case_id": "ebe5dfa5-c666-5ef5-8202-d3e17d4f3f39",
+      "prisoner_id": "8695c4e8-01f8-45f3-977c-7b83195ba9f8",
+      "slug": "robert-swann",
+      "name": "Robert Swann",
+      "match_pattern": "central intelligence|cia vigil|bay of pigs",
+      "case": {
+        "charges": "Arrest during the CNVA vigil outside the Central Intelligence Agency following the Bay of Pigs invasion.",
+        "sentence": "Swann recalls spending several weeks in a Washington, D.C. jail following this vigil. Exact admission and release dates are not established."
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1961
+        }
+      },
+      "source_ids": [
+        "swann-memoir"
+      ]
+    },
+    {
+      "key": "meyer-omaha-1959",
+      "case_id": "17aba31d-89e1-571f-97c4-c4c81ac76c0c",
+      "prisoner_id": "7ca2f12c-07e1-4410-84a7-7f4ec8f45e4d",
+      "slug": "karl-meyer",
+      "name": "Karl Meyer",
+      "match_pattern": "omaha|mead",
+      "case": {
+        "charges": "Trespass and violation of probation during Omaha Action against the Mead, Nebraska missile base.",
+        "sentence": "Served a six-month term at federal prison camps in Springfield, Missouri, and Allenwood, Pennsylvania. A $500 fine was separate from custody; exact admission and release endpoints remain unverified.",
+        "convicted": "Yes",
+        "imprisoned_for_months": 6
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1959,
+          "month": 7,
+          "day": 1
+        }
+      },
+      "source_ids": [
+        "meyer-omaha"
+      ]
+    },
+    {
+      "key": "arthur-harvey-omaha1959",
+      "case_id": "bde0301d-99a4-56fe-b2a7-cc0ae876f72d",
+      "prisoner_id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+      "slug": "arthur-harvey",
+      "name": "Arthur Harvey",
+      "match_pattern": "omaha|mead|sandstone",
+      "case": {
+        "charges": "Trespass during Omaha Action against the Mead, Nebraska missile base.",
+        "sentence": "Served a six-month sentence at Sandstone Federal Prison for the 1959 anti-nuclear protest. Exact custody endpoints are not entered.",
+        "convicted": "Yes",
+        "imprisoned_for_months": 6
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1959
+        }
+      },
+      "source_ids": [
+        "harvey-omaha"
+      ]
+    },
+    {
+      "key": "ammon-hennacy-omaha1959",
+      "case_id": "de275616-d185-5f73-993c-d80e8f76d908",
+      "prisoner_id": "1c45f8ce-206b-4f38-9540-65ceae2978ae",
+      "slug": "ammon-hennacy",
+      "name": "Ammon Hennacy",
+      "match_pattern": "omaha|mead|sandstone",
+      "case": {
+        "charges": "Trespass during Omaha Action against the Mead, Nebraska missile base.",
+        "sentence": "Served a six-month sentence at Sandstone Federal Prison for the 1959 anti-nuclear protest. Exact custody endpoints are not entered.",
+        "convicted": "Yes",
+        "imprisoned_for_months": 6
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1959
+        }
+      },
+      "source_ids": [
+        "harvey-omaha",
+        "hennacy-letter"
+      ]
+    },
+    {
+      "key": "lazar-everyman1962",
+      "case_id": "d6607b71-7b5f-5030-9d9b-f43f4f4bcc47",
+      "prisoner_id": "03830610-dc00-4058-88a6-27aa907e9fa5",
+      "slug": "ed-lazar",
+      "name": "Ed Lazar",
+      "match_pattern": "everyman",
+      "case": {
+        "charges": "Contempt of court for the Everyman I voyage toward the Pacific nuclear-testing area.",
+        "sentence": "Sentenced June 7, 1962 to 30 days for contempt. Swann, who helped organize the voyage, confirms the three sailors spent an extended period in jail. The complete custody total and release date remain unresolved.",
+        "convicted": "Yes"
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1962,
+          "month": 5,
+          "day": 26
+        },
+        "sentenced_date": {
+          "year": 1962,
+          "month": 6,
+          "day": 7
+        }
+      },
+      "source_ids": [
+        "everyman-docket",
+        "swann-memoir",
+        "everyman-arrest"
+      ]
+    }
+  ],
+  "case_updates": [
+    {
+      "prisoner_id": "cb5e4b95-1cc3-4ad6-85b4-b025e5f89845",
+      "slug": "bill-henry",
+      "name": "Bill Henry",
+      "case_id": "535ee418-b3ef-4e8b-93be-b290fc99028a",
+      "expected_charges": "Trespassing — boarding the Polaris submarine Ethan Allen in protest",
+      "expected_sentence": "One year. He is documented as having served a year at the federal prison in Danbury, Connecticut; his exact admission and release dates are not located, so no custody span is entered.",
+      "fill": {
+        "plead": "Guilty",
+        "judge": "Robert P. Anderson"
+      },
+      "fill_dates": {
+        "sentenced_date": {
+          "year": 1961,
+          "month": 2,
+          "day": 24
+        }
+      },
+      "append_sentence": "On February 24, 1961, Judge Robert P. Anderson offered release if Henry gave a written pledge against further such actions; Henry refused. CNVA later connected his year at Danbury with both the November 22, 1960 Ethan Allen boarding and the January 28, 1961 George Washington boarding, when the World Citizen was seized. An August 1961 report describes two one-year terms served concurrently, not consecutively.",
+      "source_ids": [
+        "henry-sentence",
+        "cnva-boat",
+        "richman-danbury"
+      ]
+    },
+    {
+      "prisoner_id": "0be07374-94c6-44e8-9e85-42ee106f8aa8",
+      "slug": "donald-martin",
+      "name": "Donald Martin",
+      "case_id": "696bb57f-cefe-434c-90c6-811a22b9b1f4",
+      "expected_charges": "Trespassing — boarding the Polaris submarine Ethan Allen in protest",
+      "expected_sentence": "An indefinite youth-offender sentence that could have held him for as long as four years. He refused bail and was held at Danbury awaiting trial by February 1961. His exact release date is unresolved, so no release is entered.",
+      "fill": {
+        "judge": "Robert P. Anderson",
+        "prosecutor": "John P. Diuguid; Hadley W. Austin"
+      },
+      "fill_dates": {
+        "sentenced_date": {
+          "year": 1961,
+          "month": 6,
+          "day": 19
+        }
+      },
+      "append_sentence": "Martin was sentenced as a youth offender on June 19, 1961. By September 1962, reporting placed him in the federal prison at Ashland, Kentucky, after more than a year in custody, and described refusal of parole. The Youth Corrections Act distinguished a four-year limit before conditional release from six years before unconditional discharge; neither limit proves the time Martin actually served. He was also seized during the January 28, 1961 World Citizen action. His final release date remains unverified.",
+      "source_ids": [
+        "doj",
+        "june-sentences",
+        "martin-ashland",
+        "youth-act",
+        "cnva-boat"
+      ]
+    },
+    {
+      "prisoner_id": "902afe84-2f5e-44c9-9c11-dfe97daf813c",
+      "slug": "richard-zink",
+      "name": "Richard Zink",
+      "case_id": "343f07fb-8843-47f8-8df2-d1dce5230ea0",
+      "expected_charges": "Interfering with naval vessels — antinuclear Polaris-submarine protest",
+      "expected_sentence": "A federal judge ordered him in June 1961 to serve thirty days of a six-month term — a definite custodial sentence, but no jail register, admission date or release notice proving his exact custody dates has been located, so none is entered.",
+      "fill": {
+        "judge": "Robert P. Anderson",
+        "prosecutor": "John P. Diuguid; Hadley W. Austin"
+      },
+      "fill_dates": {
+        "sentenced_date": {
+          "year": 1961,
+          "month": 6,
+          "day": 19
+        }
+      },
+      "append_sentence": "The sentencing date was June 19, 1961. Zink was named in the federal indictment arising from the November 22, 1960 Ethan Allen restricted-zone protest. An individual admission or release record has not been located.",
+      "source_ids": [
+        "indictment",
+        "doj",
+        "june-sentences"
+      ]
+    }
+  ]
+}
