@@ -1,6 +1,6 @@
 # Affiliation research — batch 291
 
-Prepared September 10, 2026. Two missing people, three custody cases, one identified portrait and two vital years. Local preparation only; not yet published or deployed.
+Prepared September 10, 2026. Two missing people, three custody cases, one identified portrait and two vital years. Deployment is manual after merge.
 
 | Person | Evidence and scope | Remaining uncertainty |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ sudo -u www-data bash database/data/run-batch-291.sh --dry-run
 sudo -u www-data bash database/data/run-batch-291.sh
 ```
 
-The batch links the photo and clears prisoner API, museum and tracker caches. Public GitHub publication remains pending the separate approval required by automatic approval review; this batch has not been pushed.
+The batch links the photo and clears prisoner API, museum and tracker caches. A GitHub merge alone does not apply the database changes.
 
 ## Next research
 
