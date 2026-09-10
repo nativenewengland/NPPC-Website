@@ -1,0 +1,89 @@
+{
+  "batch": 274,
+  "expected_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "Complete the eight-person Justice 8 identity roster with its one missing member; preserve seven existing profiles.",
+  "sources": {
+    "arrest": {
+      "label": "San Bernardino County Sheriff release, December 14, 2023, reproduced by Crime Voice",
+      "url": "https://www.crimevoice.com/2023/12/15/multi-agency-operation-results-in-arrest-of-assault-suspects-linked-to-protests-in-san-bernardino-and-los-angeles-counties/"
+    },
+    "continued-custody": {
+      "label": "Anthony Victoria, KVCR, December 26, 2023, courthouse report identifying Acevedo among eight still held",
+      "url": "https://www.kvcrnews.org/2023-12-26/street-vendor-activists-facing-felony-charges-await-thursday-bail-hearing"
+    },
+    "bail": {
+      "label": "Anthony Victoria, KVCR, December 28, 2023, bail hearing and interviews with lawyer and wife",
+      "url": "https://www.kvcrnews.org/2023-12-28/seven-of-eight-arrested-street-vendor-activists-to-remain-in-jail-without-bail"
+    },
+    "reduction": {
+      "label": "Anthony Victoria, KVCR, January 10, 2024, preliminary hearing outcome",
+      "url": "https://www.kvcrnews.org/2024-01-10/judge-rules-testimony-and-evidence-enough-to-hold-street-vendor-activists-for-felony-charges"
+    },
+    "release": {
+      "label": "Janette Villafana, LA TACO, courthouse reporting and photograph confirming Acevedo out on bail in January 2024",
+      "url": "https://lataco.com/activists-victorville-no-bail"
+    },
+    "later-report": {
+      "label": "Anthony Victoria, KVCR, June 12, 2024, identifies six other defendants who accepted plea agreements",
+      "url": "https://www.kvcrnews.org/local-news/2024-06-12/most-of-justice-8-street-vendor-activists-plead-guilty-to-assault-charges"
+    },
+    "last-outcome": {
+      "label": "Anthony Victoria, KVCR, December 15, 2024, distinguishes dismissed felonies from expected misdemeanor dismissal",
+      "url": "https://www.kvcrnews.org/2024-12-15/most-of-justice-8-defendants-sentenced-but-edin-enamorado-continues-to-plead-his-case"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "gullit-eder-acevedo",
+      "match_names": [
+        "Gullit Eder Acevedo",
+        "Gullit Acevedo",
+        "Gullit Jaguar Acevedo"
+      ],
+      "prisoner": {
+        "name": "Gullit Eder Acevedo",
+        "first_name": "Gullit",
+        "middle_name": "Eder",
+        "last_name": "Acevedo",
+        "aka": "Jaguar",
+        "description": "Gullit Eder Acevedo, known as Jaguar, is an educator and street-vendor advocate associated with the Justice 8. He was arrested in December 2023 over alleged conduct at protests and detained before obtaining bail. In January 2024, a judge dismissed most charges and reduced the remaining assault charge to a misdemeanor.",
+        "state": "California",
+        "era": "2020s",
+        "affiliation": [
+          "#Justice8"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 34.54,
+        "lng": -117.29,
+        "cases": [
+          {
+            "charges": "Protest-related assault and related felony allegations; felony charges dismissed, with misdemeanor assault remaining in January 2024",
+            "sentence": "Pretrial detention beginning December 14, 2023, continuing through at least December 26. Later released on conditional bail; exact release date is unresolved. December 2024 reporting anticipated dismissal of the remaining misdemeanor, but final disposition has not been verified. No custodial sentence is established."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 2023,
+          "month": 12,
+          "day": 14
+        }
+      },
+      "source_ids": [
+        "arrest",
+        "continued-custody",
+        "bail",
+        "reduction",
+        "release",
+        "later-report",
+        "last-outcome"
+      ],
+      "custody_evidence": "The sheriff release establishes December 14 booking; KVCR courthouse reporting on December 26 explicitly identifies Acevedo among the eight still in custody, followed by the December 28 bail hearing.",
+      "research_notes": "No DOB is inferred from age 30. The late-December bail order and later January release report do not establish an exact release day. The bail order is not treated as proof of same-day release. The six codefendant plea agreements are not assigned to Acevedo. High Desert Detention Center is named in the source but no matching institution exists in the live lookup, so no institution is invented. Coordinates are approximate Victorville locality, not a home or jail address. Source-only day totals and unresolved disposition stay in case text."
+    }
+  ]
+}
