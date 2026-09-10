@@ -1,0 +1,202 @@
+{
+  "batch": 285,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-10",
+  "scope": "Black Liberation Army affiliation research and associated New Afrikan organizing: two missing people with verified extended custody.",
+  "sources": {
+    "obafemi_1991": {
+      "label": "New Afrikan Institute, Ahmed Obafemi biographical brochure, November 20, 1991, pp.1–2. Identified portrait, DOB, organizations and actual July 1972–October 1976 imprisonment. Political framing claims are the institute’s account.",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC510_scans/New_Afrikan_Prisoners/510.new.afrikan.institute.ahmed.obafeni.pdf"
+    },
+    "obafemi_sentence": {
+      "label": "Ahmed Obafemi speaker biography, undated. Reports a ten-year sentence and actual July 1972–October 1976 confinement; corroborates the dated institute brochure.",
+      "url": "https://0l.b5z.net/i/u/6075908/f/Ahmed_Obafemi-at.pdf"
+    },
+    "obafemi_columbia": {
+      "label": "Columbia University, Africana Criminal Justice Project conference participant biography. DNC political work and gun charge. Its ten-years-served claim conflicts with the dated primary brochure and is not used as actual time served.",
+      "url": "https://www.columbia.edu/cu/ccbh/acjp/initiatives/acjpconf_panel.html"
+    },
+    "obafemi_alias": {
+      "label": "United States v. Shakur, 723 F. Supp. 925 (S.D.N.Y. July 29, 1988), pp.927–929. Defense witness Ahmed Obafemi is identified as formerly Jesse Dixon. This is not his Florida prosecution.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/723/925/1630440/"
+    },
+    "obafemi_arrest": {
+      "label": "The New Afrikan, December 1983, p.5, Fulani is Free. Contemporary movement newspaper explicitly dates Obafemi and Sonnebeyatta’s DNC arrest to July 1972.",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC513_scans/NAPO/513_NAPO_NewAfrikanDec1983.pdf"
+    },
+    "obafemi_memorial": {
+      "label": "Re-Build Collective, Respect Our Grind: Five Years of Re-Build!, June 15, 2023. Index identifies a Spring 2022 memorial issue. Establishes death before that issue, not the exact death date or necessarily its calendar year.",
+      "url": "https://www.rebuildcollective.org/post/respect-our-grind-five-years-of-re-build"
+    },
+    "white_detention": {
+      "label": "Jarrod Shanahan, Escape from New York, May 16, 2022, excerpt from Captives. Documents White’s attempted-murder detention, bail and an eleven-day period before escape. Footnote 1 cites October 24, 1972 reporting; original article not accessed.",
+      "url": "https://illwill.com/escape-from-new-york"
+    },
+    "white_bukhari": {
+      "label": "Safiya Bukhari, Lest We Forget, printed pp.20–21 (PDF pp.26–27). Firsthand movement memorial identifies Anthony White as Kimu Olugbala, detention, escape, death and portrait. Gives January 22, 1973; day conflicts with contemporary newspaper.",
+      "url": "https://black-ink.info/wp-content/uploads/2022/08/bukhari.pdf"
+    },
+    "white_guardian": {
+      "label": "Liberated Guardian, February 1973, B.L.A. column, PDF p.13. Identifies White and his Tombs escape, and reports January 23 death. Escape month November conflicts with the history’s October reporting. Both conflicts retained.",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC510_scans/Attica/510.liberated.guardian.February1973.pdf"
+    }
+  },
+  "institutions": {
+    "ebc8e7b9-f09c-4346-9602-588fb50c62db": "Florida State Prison (Raiford)",
+    "74315670-1a2b-4953-90e6-441fa9cf85bb": "Manhattan House of Detention (the Tombs)"
+  },
+  "entries": [
+    {
+      "key": "ahmed-obafemi",
+      "match_names": [
+        "Ahmed Obafemi",
+        "Jesse Dixon",
+        "Baba Ahmed Obafemi"
+      ],
+      "prisoner": {
+        "name": "Ahmed Obafemi",
+        "first_name": "Ahmed",
+        "last_name": "Obafemi",
+        "aka": "Jesse Dixon; Baba Ahmed Obafemi",
+        "description": "Ahmed Obafemi, formerly Jesse Dixon, was a New Afrikan organizer associated with the Republic of New Afrika, the New Afrikan People’s Organization and the Malcolm X Grassroots Movement. Born September 25, 1938, he worked on community and political-prisoner campaigns. His 1991 institute biography records imprisonment in Florida from July 1972 to October 1976 and subsequent organizing in Harlem. A Spring 2022 Re-Build memorial issue commemorated him; his precise death date remains unverified.",
+        "state": "Florida",
+        "era": "1970s",
+        "affiliation": [
+          "Republic of New Afrika",
+          "New Afrikan People’s Organization",
+          "Malcolm X Grassroots Movement"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 25.79,
+        "lng": -80.13,
+        "cases": [
+          {
+            "charges": "Gun charge arising during political work at the 1972 Democratic National Convention",
+            "sentence": "His speaker biography reports a ten-year sentence. The dated New Afrikan Institute brochure places actual Florida imprisonment between July 1972 and October 1976, including prolonged isolation. A later Columbia biography describes the prosecution as a COINTELPRO frame-up; this is attributed to that biography, not presented as a court finding. The ten-year penalty is not entered as time served.",
+            "institution_id": "ebc8e7b9-f09c-4346-9602-588fb50c62db"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1972,
+            "month": 7
+          },
+          "release_date": {
+            "year": 1976,
+            "month": 10
+          }
+        }
+      ],
+      "verified_vitals_pending_safe_display": {
+        "birthdate": {
+          "year": 1938,
+          "month": 9,
+          "day": 25
+        },
+        "source_id": "obafemi_1991",
+        "reason": "Death is established but its year is unverified. A structured DOB alone makes the current model display a living age. Preserve the DOB in the new biography and research metadata until a supported death date or unknown-death-status representation is available."
+      },
+      "source_ids": [
+        "obafemi_1991",
+        "obafemi_sentence",
+        "obafemi_columbia",
+        "obafemi_alias",
+        "obafemi_arrest",
+        "obafemi_memorial"
+      ],
+      "custody_evidence": "Dated institutional biography explicitly records more than four years of actual imprisonment, followed by post-release community work.",
+      "case_research": [
+        {
+          "source_ids": [
+            "obafemi_1991",
+            "obafemi_sentence",
+            "obafemi_columbia",
+            "obafemi_arrest"
+          ],
+          "custody_evidence": "Actual July 1972–October 1976 imprisonment. Only month-precision arrest and release fields are populated. The narrative preserves the custody interval without making the model calculate an exact day total from default first-of-month dates."
+        }
+      ],
+      "photo": {
+        "source_file": "database/data/photos/ahmed-obafemi-institute-1991-crop.png",
+        "storage_path": "prisoners/ahmed-obafemi-institute-1991-crop.png",
+        "sha256": "2ca6cd39285ddeb635a026a04f78411ff4af87d0d667d3c75b4dedc5fcc73d1c",
+        "source_id": "obafemi_1991"
+      }
+    },
+    {
+      "key": "anthony-kimu-white",
+      "match_names": [
+        "Anthony White",
+        "Anthony Kimu White",
+        "Anthony Kimu Olugbala White",
+        "Kimu Olugbala",
+        "Anthony “Kimu” White"
+      ],
+      "prisoner": {
+        "name": "Anthony “Kimu” White",
+        "first_name": "Anthony",
+        "middle_name": "Kimu",
+        "last_name": "White",
+        "aka": "Anthony White; Kimu Olugbala; Anthony Kimu Olugbala White",
+        "description": "Anthony “Kimu” White, also known as Kimu Olugbala, was associated with the Black Liberation Army. He was detained at Manhattan’s Tombs on attempted-murder charges and escaped in 1972. Historian Jarrod Shanahan documents his pretrial custody and the period preceding the escape. Safiya Bukhari’s memorial identifies him and recalls his death in a New York police shootout in January 1973. Contemporary accounts disagree on the precise day.",
+        "state": "New York",
+        "era": "1970s",
+        "affiliation": [
+          "Black Liberation Army"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 40.72,
+        "lng": -74.006,
+        "cases": [
+          {
+            "charges": "Attempted murder; pretrial detention at the Tombs",
+            "sentence": "Held on $250,000 bail, according to Shanahan’s documented history. Its account describes an eleven-day period before the 1972 escape, establishing detention beyond an initial arrest. This was pretrial custody; no conviction or prison sentence is inferred. The escape ended this detention, not through acquittal or an authorized release. Conflicting escape months and unverified custody endpoints prevent a precise duration calculation.",
+            "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb"
+          }
+        ]
+      },
+      "dates": {
+        "death_date": {
+          "year": 1973,
+          "month": 1
+        }
+      },
+      "case_dates": [
+        {
+          "release_date": {
+            "year": 1972
+          }
+        }
+      ],
+      "source_ids": [
+        "white_detention",
+        "white_bukhari",
+        "white_guardian"
+      ],
+      "custody_evidence": "History records detention and an eleven-day pre-escape period; movement accounts independently confirm Tombs imprisonment and escape.",
+      "case_research": [
+        {
+          "source_ids": [
+            "white_detention",
+            "white_bukhari",
+            "white_guardian"
+          ],
+          "custody_evidence": "Actual extended pretrial detention, not merely an arrest or association. Year-only custody exit records escape under the model’s existing release-date convention. January 1973 death occurred after escape and is not a death-in-custody field."
+        }
+      ],
+      "photo": {
+        "source_file": "database/data/photos/anthony-kimu-white-bukhari-crop.png",
+        "storage_path": "prisoners/anthony-kimu-white-bukhari-crop.png",
+        "sha256": "b0244b99777ccc3ce6a9e05ef424a8ff63165cd31f603389e9aa31591a2f1277",
+        "source_id": "white_bukhari"
+      }
+    }
+  ],
+  "research_notes": "Skip every existing identity in full, including hidden aliases. Never modify existing fields, biographies, cases or images. Website fields blank: sources are not personal support sites. Coordinates approximate the documented action/custody communities, not exact premises. Partial custody exits and White death month do not fabricate exact days. Numeric imprisonment and structured incarceration starts withheld to avoid exact counters from uncertain endpoints. Obafemi DOB retained in biography and metadata pending death-date resolution, because the current model otherwise calculates a false living age. White release status denotes escape, not legal exoneration. No death-in-custody date is assigned. Remaining named leads are carried into the next research pass."
+}
