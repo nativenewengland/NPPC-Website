@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name 104.238.162.40 nationalpoliticalprisonercoalition.org *.nationalpoliticalprisonercoalition.org;
+    server_name 104.238.162.40 politicalprisonercoalition.org *.politicalprisonercoalition.org nationalpoliticalprisonercoalition.org *.nationalpoliticalprisonercoalition.org;
     client_max_body_size 64M;
 
     root /var/www/NPPC-Website/public;
