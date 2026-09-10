@@ -33,7 +33,7 @@ Proceed to **Black Panther Party** while retaining these leads and the Phoenix/I
 
 **202 assertions passed** using actual application models solely in isolated SQLite memory, after purging production connections. Files, storage and cache were simulated. Checks cover preservation, hidden aliases, replay, partial dates, three-day counters, unresolved status, evidence and photo validation, storage failure/collision, and cache invalidation. Query-only live preview: **four missing identities, zero existing matches**, B290-OK. Shell syntax and whitespace checks passed. No production writes.
 
-This batch is prepared locally. Publication remains subject to the pending public-data approval; no pull request is claimed. Only after publication, merge and earlier pending batches in order:
+Deployment is manual. After merging this batch and applying earlier pending batches in order:
 
 ```bash
 cd /var/www/NPPC-Website
