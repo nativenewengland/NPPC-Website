@@ -1,0 +1,76 @@
+{
+  "batch": 276,
+  "expected_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "Initial Latin King & Queen Nation affiliation pass: missing activist with documented custody after unlawful stop at peaceful assembly; preserve existing entries.",
+  "sources": {
+    "court": {
+      "label": "United States v. Fernandez, 943 F. Supp. 295 (S.D.N.Y. August 23, 1996), judicial opinion",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/943/295/2376078/"
+    },
+    "morales": {
+      "label": "Ed Morales, King of New York, Village Voice, December 10, 1996, pp.40–42; release on p.42",
+      "url": "https://edmorales.net/wp-content/uploads/2022/04/morales-king-of-new-york.pdf"
+    },
+    "activism": {
+      "label": "Lynda Edwards, Once and Future Kings, Miami New Times, August 28, 1997",
+      "url": "https://www.miaminewtimes.com/news/once-and-future-kings-6360574/"
+    }
+  },
+  "institutions": {
+    "1b84c078-2ee3-4856-b40f-1a2049f0f067": "Rikers Island"
+  },
+  "entries": [
+    {
+      "key": "antonio-fernandez-king-tone",
+      "match_names": [
+        "Antonio Fernandez",
+        "Antonio Fernández",
+        "King Tone"
+      ],
+      "prisoner": {
+        "name": "Antonio Fernandez",
+        "first_name": "Antonio",
+        "last_name": "Fernandez",
+        "aka": "King Tone",
+        "description": "Antonio Fernandez, known as King Tone, led the New York Almighty Latin King and Queen Nation and promoted community organizing. He spent eight months in jail following a 1995 arrest connected to a peaceful gathering. A federal judge later suppressed the evidence obtained through the unlawful stop.",
+        "state": "New York",
+        "era": "1990s",
+        "affiliation": [
+          "Almighty Latin King & Queen Nation"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 40.85,
+        "lng": -73.9,
+        "cases": [
+          {
+            "charges": "State weapon and marijuana possession allegations; later federal felon-in-possession charge under 18 U.S.C. § 922(g)(1)",
+            "sentence": "Eight months in jail after initial bail release and a parole violation triggered by the May 12, 1995 arrest. State charges were dismissed February 22, 1996. Contemporary reporting dates release to March 1996. The federal court suppressed the physical evidence and alleged statement on August 23, 1996. No conviction or custodial sentence is established for this episode.",
+            "imprisoned_for_months": 8,
+            "institution_id": "1b84c078-2ee3-4856-b40f-1a2049f0f067"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1995,
+          "month": 5,
+          "day": 12
+        },
+        "release_date": {
+          "year": 1996,
+          "month": 3
+        }
+      },
+      "source_ids": [
+        "court",
+        "morales",
+        "activism"
+      ],
+      "custody_evidence": "The judicial opinion expressly records eight months actually jailed after bail and a resulting parole violation. The contemporaneous Village Voice report identifies Rikers and release in March 1996.",
+      "research_notes": "The court characterizes the gathering as protected peaceful assembly and finds the stop unlawful. It questions the gun evidence but does not make a definitive planted-gun finding or decide political motive. Preserve that distinction. The arrest preceded an initial bail release: do not treat arrest-to-release as one continuous custody interval. No exact incarceration start or release day is inferred; the eight-month total comes directly from the court. Map coordinates approximate the Bronx locality, not a facility entrance. The separate 1998–1999 drug prosecution and domestic-abuse allegation are not added as activism cases. Vital dates and portrait remain unverified."
+    }
+  ]
+}
