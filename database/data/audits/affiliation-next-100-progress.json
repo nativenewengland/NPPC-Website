@@ -1,0 +1,23 @@
+{
+  "policy_updated": "2026-09-10",
+  "target_new_people_per_pr": 100,
+  "accumulation_branch": "codex/affiliation-prisoners-batch-297",
+  "first_unpublished_batch": 297,
+  "new_pr_opened": false,
+  "validated_new_people": 8,
+  "remaining_to_pr_threshold": 92,
+  "batches": [
+    {
+      "batch": 297,
+      "status": "validated_local",
+      "new_people": 8,
+      "cases": 8,
+      "photos": 0,
+      "payload": "database/data/fixes/batch297.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch297.md"
+    }
+  ],
+  "excluded_already_submitted_batches": [294, 295, 296],
+  "next_affiliation": "Camden 28",
+  "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR."
+}
