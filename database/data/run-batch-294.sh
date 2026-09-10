@@ -1,0 +1,170 @@
+#!/usr/bin/env bash
+# Batch 294: Eamon McGuire: verified US custody linked to the Boston Three case.
+# After merging, pull main and apply earlier pending batches in order.
+# sudo -u www-data bash database/data/run-batch-294.sh --dry-run
+# sudo -u www-data bash database/data/run-batch-294.sh
+# Existing profile fields and biographies are never modified.
+set -uo pipefail
+cd "$(dirname "$0")/../.." || exit 1
+export NPPC_BATCH_DRY_RUN=0
+if [[ $# -eq 1 && "$1" == "--dry-run" ]]; then
+    export NPPC_BATCH_DRY_RUN=1
+elif [[ $# -ne 0 ]]; then
+    echo "Usage: bash database/data/run-batch-294.sh [--dry-run]" >&2
+    exit 2
+fi
+nppc_psysh_dir="$(pwd)/storage/framework/psysh"
+if ! (umask 077; mkdir -p "$nppc_psysh_dir/config" "$nppc_psysh_dir/data" "$nppc_psysh_dir/runtime"); then
+    echo "Cannot prepare PsySH storage; run this batch as the application owner." >&2
+    exit 1
+fi
+run() {
+    local label="$1" sentinel="$2" code="$3" out status=0
+    echo "--- ${label}"
+    out=$(XDG_CONFIG_HOME="$nppc_psysh_dir/config" \
+        XDG_DATA_HOME="$nppc_psysh_dir/data" \
+        XDG_RUNTIME_DIR="$nppc_psysh_dir/runtime" \
+        php artisan tinker --execute="$code" 2>&1) || status=$?
+    printf '%s\n' "$out"
+    if [[ $status -ne 0 ]] || ! grep -Fxq "$sentinel" <<<"$out"; then
+        echo "FAILED: ${label}" >&2
+        return 1
+    fi
+}
+ADD_CODE='
+use App\Models\Prisoner;
+use App\Models\PrisonerCase;
+use App\Http\Controllers\Api\PrisonerApiController;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+use App\Models\Institution;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
+
+$payload = json_decode(File::get(base_path("database/data/fixes/batch294.json")), true, 512, JSON_THROW_ON_ERROR);
+if (($payload["batch"] ?? null) !== 294 || ($payload["expected_count"] ?? null) !== 1 || count($payload["entries"] ?? []) !== 1) {
+    throw new \RuntimeException("Unexpected batch identity or entry count.");
+}
+$dryRun = getenv("NPPC_BATCH_DRY_RUN") === "1";
+$normalize = fn ($v) => trim(preg_replace("/[^a-z0-9]+/", " ", strtolower(Str::ascii((string) $v))));
+$checkDates = function ($dates, $allowed) {
+    foreach ($dates as $field => $parts) {
+        if (! in_array($field, $allowed, true) || ! is_array($parts) || array_diff(array_keys($parts), ["year", "month", "day"])) { throw new \RuntimeException("Unsupported date field or precision."); }
+        Validator::make($parts, ["year" => "required|integer|between:1800,2026", "month" => "sometimes|integer|between:1,12", "day" => "sometimes|integer|between:1,31"])->validate();
+        if ((isset($parts["day"]) && ! isset($parts["month"])) || ! checkdate($parts["month"] ?? 1, $parts["day"] ?? 1, $parts["year"])) { throw new \RuntimeException("Invalid partial date."); }
+    }
+};
+$checkSources = function ($ids) use ($payload) {
+    if (! is_array($ids) || count($ids) === 0) { throw new \RuntimeException("Missing source references."); }
+    foreach ($ids as $id) {
+        if (! isset($payload["sources"][$id]["label"], $payload["sources"][$id]["url"]) || ! filter_var($payload["sources"][$id]["url"], FILTER_VALIDATE_URL) || ! preg_match("~^https?://~", $payload["sources"][$id]["url"])) { throw new \RuntimeException("Invalid source reference."); }
+    }
+};
+$checkCase = function ($case) {
+    if (array_diff(array_keys($case), ["charges", "sentence", "convicted", "institution_id"])) { throw new \RuntimeException("Unexpected case field."); }
+    Validator::make($case, ["charges" => "required|string|max:255", "sentence" => "required|string", "convicted" => "sometimes|string|max:255", "institution_id" => "sometimes|string"])->validate();
+};
+foreach ($payload["institutions"] ?? [] as $id => $name) { if (Institution::whereKey($id)->value("name") !== $name) { throw new \RuntimeException("Institution identity mismatch."); } }
+$seen = [];
+$seenNames = [];
+foreach ($payload["entries"] as $entry) {
+    Validator::make($entry, ["key" => "required|string", "match_names" => "required|array|min:1", "match_names.*" => "required|string", "prisoner.name" => "required|string|max:255", "prisoner.first_name" => "required|string|max:255", "prisoner.last_name" => "required|string|max:255", "prisoner.description" => "required|string", "prisoner.state" => "required|string", "prisoner.era" => "required|in:1990s", "prisoner.in_custody" => "required|boolean|declined", "prisoner.released" => "required|boolean", "prisoner.lat" => "required|numeric|between:-90,90", "prisoner.lng" => "required|numeric|between:-180,180", "prisoner.cases" => "required|array|min:1|max:3", "dates" => "present|array", "case_dates" => "present|array"])->validate();
+    if (array_diff(array_keys($entry["prisoner"]), ["name", "first_name", "middle_name", "last_name", "description", "state", "era", "affiliation", "in_custody", "released", "lat", "lng", "cases", "aka", "website", "gender", "race", "inmate_number"])) { throw new \RuntimeException("Unexpected profile field."); }
+    if (isset($seen[$entry["key"]])) { throw new \RuntimeException("Duplicate batch key."); }
+    $seen[$entry["key"]] = true;
+    $names = array_unique(array_map($normalize, $entry["match_names"]));
+    if (! in_array($normalize($entry["prisoner"]["name"]), $names, true)) { throw new \RuntimeException("Missing canonical match name."); }
+    foreach ($names as $name) {
+        if (count(explode(" ", $name)) < 2) { throw new \RuntimeException("Unsafe one-word identity key."); }
+        $tokens = explode(" ", $name);
+        sort($tokens);
+        $identityKey = implode(" ", $tokens);
+        if (isset($seenNames[$identityKey]) && $seenNames[$identityKey] !== $entry["key"]) { throw new \RuntimeException("Overlapping batch identities."); }
+        $seenNames[$identityKey] = $entry["key"];
+    }
+    $checkDates($entry["dates"], ["birthdate", "death_date"]);
+
+    if (isset($entry["dates"]["birthdate"], $entry["dates"]["death_date"]) && $entry["dates"]["birthdate"]["year"] > $entry["dates"]["death_date"]["year"]) { throw new \RuntimeException("Death precedes birth."); }
+    if (count($entry["case_dates"]) !== count($entry["prisoner"]["cases"]) || count($entry["case_research"] ?? []) !== count($entry["case_dates"])) { throw new \RuntimeException("Case evidence/date count mismatch."); }
+    foreach ($entry["prisoner"]["cases"] as $index => $case) {
+        $checkCase($case);
+        $checkDates($entry["case_dates"][$index], ["arrest_date", "incarceration_date", "release_date", "sentenced_date", "death_in_custody_date"]);
+        $checkSources($entry["case_research"][$index]["source_ids"] ?? []);
+        if (empty($entry["case_research"][$index]["custody_evidence"])) { throw new \RuntimeException("Missing episode custody evidence."); }
+        if (! empty($case["institution_id"]) && ! isset($payload["institutions"][$case["institution_id"]])) { throw new \RuntimeException("Unverified institution."); }
+    }
+    $checkSources($entry["source_ids"] ?? []);
+    if (empty($entry["custody_evidence"])) { throw new \RuntimeException("Missing actual custody evidence."); }
+    $expected = ["peter-eamon-maguire" => ["name" => "Peter Eamon Maguire", "first_name" => "Peter", "middle_name" => "Eamon", "last_name" => "Maguire", "aka" => "Eamon McGuire; Peter Eamon McGuire; Eamonn Maguire", "affiliation" => ["Irish Republican Army"], "state" => "Massachusetts", "era" => "1990s", "lat" => 42.36, "lng" => -71.06, "in_custody" => false, "released" => true, "website" => null, "gender" => "Male", "race" => "White", "inmate_number" => "19986-038"]];
+    if (! isset($expected[$entry["key"]])) { throw new \RuntimeException("Unexpected reviewed identity."); }
+    foreach ($expected[$entry["key"]] as $field => $value) { if (($entry["prisoner"][$field] ?? null) !== $value) { throw new \RuntimeException("Unexpected reviewed profile field."); } }
+    $reviewedDates = ["peter-eamon-maguire" => [["sentenced_date" => ["year" => 1994, "month" => 6, "day" => 15], "release_date" => ["year" => 1997, "month" => 9, "day" => 29]]]];
+    $reviewedVitals = ["peter-eamon-maguire" => ["birthdate" => ["year" => 1936]]];
+    $reviewedCases = ["peter-eamon-maguire" => [["charges" => "Conspiracy to violate the Arms Export Control Act; conspiracy to destroy British military helicopters; possession of property in aid of foreign insurgents", "convicted" => "Guilty plea to three charges, April 1994; sentenced June 15, 1994", "sentence" => "70-month federal sentence with credit for earlier detention. US custody began upon extradition in February 1994, exact day unverified, and included FCI Cumberland. BOP records federal release September 29, 1997; he was transferred to Ireland to complete his sentence and was freed there before Christmas 1997. The 70 months is the imposed sentence, not US time served.", "institution_id" => "ca8b0519-2e6b-4772-8efc-99f7442d3c0e"]]];
+    if ($entry["case_dates"] !== $reviewedDates[$entry["key"]] || $entry["dates"] !== $reviewedVitals[$entry["key"]] || $entry["prisoner"]["cases"] !== $reviewedCases[$entry["key"]]) { throw new \RuntimeException("Unreviewed case or date."); }
+    if (isset($entry["photo"])) { throw new \RuntimeException("No portrait verified for this batch."); }
+
+
+}
+if (($payload["expected_case_count"] ?? null) !== 1 || array_sum(array_map(fn ($e) => count($e["prisoner"]["cases"]), $payload["entries"])) !== 1) { throw new \RuntimeException("Unexpected total case count."); }
+$result = DB::transaction(function () use ($payload, $normalize, $dryRun) {
+    $records = Prisoner::withoutGlobalScopes()->get();
+    $missing = [];
+    $preserved = 0;
+    foreach ($payload["entries"] as $entry) {
+        $names = array_unique(array_map($normalize, $entry["match_names"]));
+        $matches = $records->filter(function ($record) use ($names, $normalize) {
+            $haystack = " ".$normalize(implode(" ", [$record->name, $record->aka, $record->first_name, $record->middle_name, $record->last_name, $record->slug]))." ";
+            foreach ($names as $name) {
+                $found = true;
+                foreach (explode(" ", $name) as $token) { if (! str_contains($haystack, " ".$token." ")) { $found = false; break; } }
+                if ($found) { return true; }
+            }
+            return false;
+        });
+        if ($matches->count() > 1) { throw new \RuntimeException("Ambiguous identity: ".$entry["prisoner"]["name"]); }
+        if ($matches->isNotEmpty()) {
+            echo "Preserved existing: ", $entry["prisoner"]["name"], "\n";
+            $preserved++;
+        } else { $missing[] = $entry; }
+    }
+    $nextOrder = (int) $records->max("sort_order") + 1;
+    foreach ($missing as $entry) {
+        echo ($dryRun ? "Would add: " : "Adding: "), $entry["prisoner"]["name"], "\n";
+        if ($dryRun) { continue; }
+        $fields = $entry["prisoner"];
+        $cases = $fields["cases"];
+        unset($fields["cases"]);
+        if (isset($entry["photo"])) {
+            $photo = $entry["photo"];
+            $disk = Storage::disk("public");
+            if ($disk->exists($photo["storage_path"])) {
+                if (hash("sha256", $disk->get($photo["storage_path"])) !== $photo["sha256"]) { throw new \RuntimeException("Refusing to overwrite different portrait bytes."); }
+            } elseif (! $disk->put($photo["storage_path"], File::get(base_path($photo["source_file"])))) { throw new \RuntimeException("Could not store portrait."); }
+            $fields["photo"] = $photo["storage_path"];
+        }
+        $record = new Prisoner($fields);
+        $record->sort_order = $nextOrder++;
+        foreach ($entry["dates"] as $field => $parts) { $record->setPartialDate($field, $parts["year"], $parts["month"] ?? null, $parts["day"] ?? null); }
+        $record->save();
+        foreach ($cases as $index => $caseFields) {
+            $case = new PrisonerCase($caseFields);
+            $case->prisoner_id = $record->id;
+            foreach ($entry["case_dates"][$index] as $field => $parts) { $case->setPartialDate($field, $parts["year"], $parts["month"] ?? null, $parts["day"] ?? null); }
+            $case->save();
+        }
+    }
+    return [count($missing), $preserved];
+});
+if (! $dryRun) {
+    Cache::forget(PrisonerApiController::cacheKey());
+    Cache::forget("museum:payload:v2");
+    Cache::forget("tracker:payload:v2:".date("Y"));
+}
+echo ($dryRun ? "Would add profiles: " : "Added profiles: "), $result[0], "; existing profiles preserved: ", $result[1], "\n";
+echo "B294-OK\n";
+'
+run "add-affiliation-prisoners" "B294-OK" "$ADD_CODE" || exit 1
+echo "Batch 294 complete (dry run: ${NPPC_BATCH_DRY_RUN})."
