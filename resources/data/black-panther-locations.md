@@ -6,7 +6,7 @@ and 13 milestones in `black-panther-history.json`.
 
 ## Coverage
 
-86 distinct cities/localities: 85 in the United States (31 states and the
+88 distinct cities/localities: 87 in the United States (31 states and the
 District of Columbia), plus the International Section in Algiers. This replaces
 the original six-marker selection with a marker for every documented location
 in this catalog. It is not a claim that all mapped organizations existed
@@ -25,10 +25,11 @@ histories: Marin City, Chattanooga, Nashville, Atlanta, Tacoma, Walla Walla,
 Eugene, Carbondale and High Point. Algiers is the original Party's International
 Section, not a separate organization inspired by the Panthers.
 
-The September 9 follow-up adds 15 locations beyond that first 71-place inventory.
-The display classifications are 35 chapter locations, 32 affiliated organizing
-centers, five chapter/branch organizing locations, nine branch locations,
-three prison organizations, national headquarters, and the International
+The first September 9 follow-up added 15 locations beyond that 71-place inventory.
+A second review adds Soledad and Paterson; see the [research findings](black-panther-location-followup-2026-09-09.md).
+The display classifications are 35 chapter locations, 33 affiliated/local organizing
+locations, five chapter/branch organizing locations, nine branch locations,
+four prison organizations, national headquarters, and the International
 Section. These are **place counts, not counts of independent chapters**: the
 West Suburban Branch, for example, appears in several municipalities.
 Labels describe the cited historical evidence; they are
@@ -101,30 +102,20 @@ These are selected checks, not a page-by-page review of every newspaper issue.
 The underlying Illinois archive itself describes its list as non-exhaustive;
 no surviving directory establishes a final nationwide total.
 
-### Leads held out pending stronger evidence
+### Results of the unresolved-lead review
 
-- **Las Vegas:** the [UNLV Ron Current oral-history catalog](https://special.library.unlv.edu/ark%3A/62930/d1xp6vg3g)
-  leaves the founding period unclear, while [2001 reporting](https://www.deseret.com/2001/3/25/19576946/rash-of-gang-shootings-plagues-las-vegas-neighborhood/)
-  identifies him with the **New** Black Panther Party. This does not establish an
-  original-party chapter.
-- **Ithaca:** the [December 4, 1970 memorandum, PDF p. 15](https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther11.pdf#page=15)
-  describes a proposed organization, not a confirmed operating unit.
-- **Paterson:** the [museum timeline](https://patersonmuseum.com/african-american-history-timeline/)
-  records recruitment and a benefit. Those alone do not establish a chapter.
-- **Charlotte:** the State Library account distinguishes organizing from formal
-  recognition. No charter is inferred from that effort.
-- **St. Petersburg:** the Tampa memorandum discusses JOMO separately. It is not
-  automatically counted as a Panther branch.
-- **Soledad and Folsom:** prison activism and individual Party membership do not
-  by themselves establish a local Panther organization. Further direct evidence
-  is needed before adding prison-chapter markers.
-
-These decisions concern the evidence checked, not proof that a location never
-had Panther organizing. Preserve them as research leads for a future audit.
+The [full follow-up research](black-panther-location-followup-2026-09-09.md)
+records the sources, decisions and remaining evidence needed for all seven leads.
+Soledad is now included as an underground prison chapter. Paterson is included
+as a local Panther organizing group, with formal chapter status left unverified.
+Charlotte's AAUO and St. Petersburg's JOMO are distinct organizations in the
+reviewed accounts. Las Vegas, Ithaca and Folsom remain unconfirmed as operating
+original-party units. These are findings about the available evidence, not
+claims that organizing never occurred in those places.
 
 ## Coordinates and maintenance
 
-83 U.S. locations use the internal points in the
+85 U.S. locations use the internal points in the
 [2025 Census place Gazetteer](https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip).
 Each retains its Census GEOID. Indianapolis and Nashville use the Census
 balance-place names; Louisville uses its city point. San Quentin and Angola are
@@ -189,6 +180,20 @@ error outside this feature; map interactions passed independently.
   initial failure was corrected before the visual check.
 - No production deployment or database writes were performed. The full PHPUnit
   suite was not run; this change updates the location catalog and methodology.
+
+## Validation of the 88-location research follow-up
+
+- All 88 IDs and city/state pairs are unique, all source references resolve,
+  and all 85 Census points exactly match their retained GEOIDs.
+- All 86 earlier location records are preserved. The six editorial histories
+  and 13 milestones remain byte-for-byte unchanged.
+- The updated Blade page rendered in memory with SQLite `query_only` enabled.
+  PHP syntax and Git whitespace checks passed.
+- Browser checks confirmed 88 map markers and 89 selector options including
+  All cities. Selecting Soledad and Paterson displayed their correct labels,
+  notes and source links, hid the previous panel and updated the shared URL.
+- No production deployment or database writes were performed. The full PHPUnit
+  suite was not run; this change adds catalog entries and research documentation.
 
 Deployment is the normal merge and pull of `main`. The controller reads this
 JSON from the repository; no data batch, migration, database cache operation,
