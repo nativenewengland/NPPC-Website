@@ -1,0 +1,337 @@
+{
+  "batch": 290,
+  "expected_count": 4,
+  "expected_case_count": 4,
+  "reviewed_at": "2026-09-10",
+  "scope": "Four missing Lancaster protest defendants with independently verified multi-day pretrial custody; one identified photograph.",
+  "sources": {
+    "release": {
+      "label": "Olivia Smucker, One United Lancaster, September 17, 2020. Named releases and continuing detention.",
+      "url": "https://oneunitedlancaster.com/coronavirus-awareness-lancaster/activists-seek-fair-trial-justice-for-protesters/"
+    },
+    "arrests": {
+      "label": "Lancaster City Bureau of Police, September 14, 2020, updated September 21. Individual arrests and booking context; allegations are not convictions.",
+      "url": "https://lancaster.crimewatchpa.com/lbop/19659/post/arrests-made-related-arsonriot-lancaster-bureau-police-station-9142020"
+    },
+    "verdict": {
+      "label": "Lancaster County District Attorney, January 20, 2023, updated April 4. Wise verdict and named photograph.",
+      "url": "https://crimewatch.net/us/pa/lancaster/da/11617/post/two-convicted-rioting-outside-city-police-station-2020"
+    },
+    "outcomes": {
+      "label": "Lancaster County District Attorney, April 1, 2023, updated April 4. Individual final dispositions for Davis, Jones and Fry.",
+      "url": "https://crimewatch.net/us/pa/lancaster/da/11617/post/last-defendant-2020-lancaster-city-riots-pleads-guilty"
+    },
+    "sentence": {
+      "label": "Lancaster County District Attorney, April 2023. Identifies Alexa Wise and her probation sentence.",
+      "url": "https://crimewatch.net/us/pa/lancaster/da/11617/post/defendant-2020-lancaster-city-riots-sentenced-13-30-months-prison-two-additional"
+    },
+    "local_sentence": {
+      "label": "Tim Stuhldreher, One United Lancaster, April 5, 2023. Reports April 4 sentencing and supporters’ position.",
+      "url": "https://oneunitedlancaster.com/government/jessica-lopez-sentenced-to-state-prison-for-role-in-2020-protests-her-supporters-speak-out/"
+    },
+    "hearings": {
+      "label": "Lancaster County District Attorney, October 5, 2020, updated October 20. Name initials and interim charge changes; not used to infer continued imprisonment.",
+      "url": "https://crimewatch.net/us/pa/lancaster/da/11617/post/riot-charges-against-7-people-held-court-after-preliminary-hearings-waivers"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "alexa-wise",
+      "match_names": [
+        "Alexa Wise",
+        "Lee Wise",
+        "Lee Alexander Wise",
+        "Lee A Wise"
+      ],
+      "prisoner": {
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "in_custody": false,
+        "lat": 40.04,
+        "lng": -76.31,
+        "name": "Alexa Wise",
+        "first_name": "Alexa",
+        "last_name": "Wise",
+        "aka": "Lee Alexander Wise; Lee Wise",
+        "gender": "Female",
+        "released": true,
+        "description": "Alexa Wise participated in Lancaster’s September 2020 racial-justice protest following the police killing of Ricardo Muñoz. She was jailed from September 14 to September 17. A jury convicted her of riot and four related offenses in January 2023, while acquitting her of conspiracy. She received three years of probation in April 2023. Official case reports also use the name Lee Wise.",
+        "cases": [
+          {
+            "charges": "Riot; failure to disperse; obstruction of highways; disorderly conduct; defiant trespass",
+            "convicted": "Jury conviction January 19, 2023; acquitted of conspiracy to commit riot",
+            "sentence": "Three years of probation and 125 hours of community service, imposed April 4, 2023. Only the documented September 2020 jail interval is counted as imprisonment; subsequent house arrest and probation are excluded."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "sentenced_date": {
+            "year": 2023,
+            "month": 4,
+            "day": 4
+          },
+          "incarceration_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 17
+          }
+        }
+      ],
+      "source_ids": [
+        "release",
+        "arrests",
+        "verdict",
+        "sentence",
+        "local_sentence"
+      ],
+      "custody_evidence": "Named September 17 report confirms release after September 14 arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release",
+            "arrests",
+            "verdict",
+            "sentence",
+            "local_sentence"
+          ],
+          "custody_evidence": "Physical jail interval has both endpoints; later noncustodial sanctions are separate."
+        }
+      ],
+      "status_research": "Historical release verified. Not marked currently incarcerated. Female identity and Alexa name follow current local and official reporting, rather than the initial booking classification.",
+      "photo": {
+        "source_file": "database/data/photos/alexa-wise-lancaster-da.jpg",
+        "storage_path": "prisoners/alexa-wise-lancaster-da.jpg",
+        "sha256": "d62c6ad7e1b6955b4a778d2781ae2b1480534a3a4a946eddb62637f533101d02",
+        "source_id": "verdict"
+      }
+    },
+    {
+      "key": "dylan-davis-lancaster",
+      "match_names": [
+        "Dylan Davis",
+        "Dylan S Davis"
+      ],
+      "prisoner": {
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "in_custody": false,
+        "lat": 40.04,
+        "lng": -76.31,
+        "name": "Dylan Davis",
+        "first_name": "Dylan",
+        "last_name": "Davis",
+        "aka": "Dylan S. Davis",
+        "gender": "Male",
+        "released": true,
+        "description": "Dylan Davis was arrested in connection with Lancaster’s September 2020 racial-justice protest and spent September 14–17 in jail before release to house arrest. A November 2022 bench trial resulted in six convictions, including riot and conspiracy. He was sentenced to probation in February 2023.",
+        "cases": [
+          {
+            "charges": "Riot; criminal conspiracy; failure to disperse; obstruction of highways; disorderly conduct; dangerous burning",
+            "convicted": "Bench-trial conviction November 7, 2022",
+            "sentence": "Three years of probation imposed February 3, 2023. The recorded jail interval ends at release on September 17, 2020; house arrest and probation are not added to the imprisonment counter."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "sentenced_date": {
+            "year": 2023,
+            "month": 2,
+            "day": 3
+          },
+          "incarceration_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 17
+          }
+        }
+      ],
+      "source_ids": [
+        "release",
+        "arrests",
+        "outcomes",
+        "hearings"
+      ],
+      "custody_evidence": "Named contemporary account confirms September 17 release to house arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release",
+            "arrests",
+            "outcomes"
+          ],
+          "custody_evidence": "Actual jail custody precedes the later probation sentence."
+        }
+      ],
+      "status_research": "Historical jail release verified. No current custody inferred from the later prosecution."
+    },
+    {
+      "key": "barry-jones-iii-lancaster",
+      "match_names": [
+        "Barry Jones",
+        "Barry Jones III",
+        "Barry M Jones III"
+      ],
+      "prisoner": {
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "in_custody": false,
+        "lat": 40.04,
+        "lng": -76.31,
+        "name": "Barry Jones III",
+        "first_name": "Barry",
+        "last_name": "Jones",
+        "aka": "Barry Jones; Barry M. Jones III",
+        "gender": "Male",
+        "released": true,
+        "description": "Barry Jones III was detained after Lancaster’s September 2020 protest following Ricardo Muñoz’s death. He left jail on September 17 for house arrest. In July 2022 he was convicted of failure to disperse and received a time-served-to-twelve-month sentence. The twelve-month maximum is not a finding that he served that entire period.",
+        "cases": [
+          {
+            "charges": "Failure to disperse",
+            "convicted": "Convicted of failure to disperse; sentenced July 19, 2022",
+            "sentence": "Time served to twelve months, plus 25 hours of community service, imposed July 19, 2022. The individually verified physical jail interval is September 14–17, 2020. No additional post-sentence jail stay or maximum term served is inferred."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "sentenced_date": {
+            "year": 2022,
+            "month": 7,
+            "day": 19
+          },
+          "incarceration_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 17
+          }
+        }
+      ],
+      "source_ids": [
+        "release",
+        "arrests",
+        "outcomes",
+        "hearings"
+      ],
+      "custody_evidence": "September 17 report names Jones among those released from jail to house arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release",
+            "arrests",
+            "outcomes"
+          ],
+          "custody_evidence": "The pretrial interval is verified separately from the sentence range."
+        }
+      ],
+      "status_research": "Release from the documented pretrial jail episode is verified; no claim about later unrelated custody."
+    },
+    {
+      "key": "t-jay-fry",
+      "match_names": [
+        "T-Jay Fry",
+        "T Jay Fry"
+      ],
+      "prisoner": {
+        "state": "Pennsylvania",
+        "era": "2020s",
+        "affiliation": [
+          "Black Lives Matter Movement"
+        ],
+        "in_custody": false,
+        "lat": 40.04,
+        "lng": -76.31,
+        "name": "T-Jay Fry",
+        "first_name": "T-Jay",
+        "last_name": "Fry",
+        "gender": "Male",
+        "released": false,
+        "description": "T-Jay Fry was arrested in connection with Lancaster’s September 2020 racial-justice protest. A September 17 report confirmed that he remained in county jail after his September 14 arrest. In September 2022 he pleaded guilty to failure to disperse and defiant trespass and was ordered to pay fines and costs. His precise jail-release date and later custody status remain unverified.",
+        "cases": [
+          {
+            "charges": "Failure to disperse; defiant trespass",
+            "convicted": "Guilty plea September 8, 2022",
+            "sentence": "Fines and court costs ordered September 8, 2022. This record concerns verified multi-day pretrial jail custody, not a custodial sentence. No precise release date, total days served or continuing imprisonment is asserted."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2020,
+            "month": 9,
+            "day": 14
+          },
+          "sentenced_date": {
+            "year": 2022,
+            "month": 9,
+            "day": 8
+          }
+        }
+      ],
+      "source_ids": [
+        "release",
+        "arrests",
+        "outcomes"
+      ],
+      "custody_evidence": "Fry remained listed as detained on September 17, after the September 14 arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "release",
+            "arrests",
+            "outcomes"
+          ],
+          "custody_evidence": "Actual confinement beyond the initial arrest period; release endpoint unknown."
+        }
+      ],
+      "status_research": "Both in_custody and released are false: the existing Other category, with later status explicitly unresolved. Do not interpret the false released flag as current imprisonment."
+    }
+  ],
+  "research_notes": "Preserve all existing profiles and fields. Exact three-day physical jail intervals for Wise, Davis and Jones; no house-arrest or probation duration added. Fry has verified multi-day detention but unknown release endpoint. No vital dates, race, prisoner number or personal support websites inferred. Coordinates approximate Lancaster. No matching Lancaster County Prison institution found; do not substitute courthouse. Initial allegations are not final convictions."
+}
