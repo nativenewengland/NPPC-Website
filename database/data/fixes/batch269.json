@@ -1,0 +1,5448 @@
+{
+  "batch": 269,
+  "expected_count": 81,
+  "reviewed_at": "2026-09-10",
+  "scope": "First affiliation-roster pass: missing Heart Mountain draft resisters; preserve every existing profile and case.",
+  "sources": {
+    "heart-roster": {
+      "label": "Heart Mountain Wyoming Foundation: draft-resister roster and archive project",
+      "url": "https://www.heartmountain.org/collections-archives/draft-resisters/"
+    },
+    "heart-location": {
+      "label": "Yale University, Out of the Desert: Heart Mountain location",
+      "url": "https://outofthedesert.yale.edu/gallery/heart-mountain/"
+    },
+    "mcneil-release-list": {
+      "label": "National Archives 342713854: December 1946 lists of prisoners scheduled for conditional release, images 1–6",
+      "url": "https://catalog.archives.gov/id/342713854"
+    },
+    "sako-file": {
+      "label": "National Archives 342713926: James Satoru Sako admission summary, August 7, 1944; images 1 and 7",
+      "url": "https://catalog.archives.gov/id/342713926"
+    },
+    "uyemura-file": {
+      "label": "National Archives 342714112: Torao Uyemura admission summary, August 7, 1944; images 1 and 7",
+      "url": "https://catalog.archives.gov/id/342714112"
+    },
+    "iriye-file": {
+      "label": "National Archives 342714054: Fred Homi Iriye admission summary, August 7, 1944; image 1",
+      "url": "https://catalog.archives.gov/id/342714054"
+    },
+    "fujii-appeal": {
+      "label": "Shigeru Fujii v. United States, 148 F.2d 298 (10th Cir. 1945)",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/148/298/1503825/"
+    },
+    "hm-eto-yukio": {
+      "label": "Heart Mountain Wyoming Foundation: Yukio Eto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/eto-yukio/"
+    },
+    "hm-fuji-jiro": {
+      "label": "Heart Mountain Wyoming Foundation: Jiro John Fujii biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/fuji-jiro/"
+    },
+    "hm-fujii-shigeru": {
+      "label": "Heart Mountain Wyoming Foundation: Shigeru Fujii biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/fujii-shigeru/"
+    },
+    "hm-higuchi-mutsuo": {
+      "label": "Heart Mountain Wyoming Foundation: Mutsuo Higuchi biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/higuchi-mutsuo/"
+    },
+    "hm-hirayama-harold-susumu": {
+      "label": "Heart Mountain Wyoming Foundation: Harold Susumu Hirayama biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hirayama-harold-susumu/"
+    },
+    "hm-hirose-kazuki": {
+      "label": "Heart Mountain Wyoming Foundation: Kazuki Hirose biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hirose-kazuki/"
+    },
+    "hm-hirose-kazuto": {
+      "label": "Heart Mountain Wyoming Foundation: Kazuto Hirose biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hirose-kazuto/"
+    },
+    "hm-hiroshige-akira": {
+      "label": "Heart Mountain Wyoming Foundation: Akira Hiroshige biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hiroshige-akira/"
+    },
+    "hm-hori-takeshi": {
+      "label": "Heart Mountain Wyoming Foundation: Takeshi Hori biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hori-takeshi/"
+    },
+    "hm-horino-george-minoru": {
+      "label": "Heart Mountain Wyoming Foundation: George Minoru Horino biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/horino-george-minoru/"
+    },
+    "hm-hoshizaki-takashi": {
+      "label": "Heart Mountain Wyoming Foundation: Takashi Hoshizaki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/hoshizaki-takashi/"
+    },
+    "hm-ide-grant-takao": {
+      "label": "Heart Mountain Wyoming Foundation: Grant Takao Ide biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ide-grant-takao/"
+    },
+    "hm-ikemoto-harry-yoshiaki": {
+      "label": "Heart Mountain Wyoming Foundation: Harry Yoshiaki Ikemoto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ikemoto-harry-yoshiaki/"
+    },
+    "hm-imai-masafumi": {
+      "label": "Heart Mountain Wyoming Foundation: Masafumi Imai biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/imai-masafumi/"
+    },
+    "hm-ino-toru": {
+      "label": "Heart Mountain Wyoming Foundation: Toru Ino biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ino-toru/"
+    },
+    "hm-iriye-fred-homi": {
+      "label": "Heart Mountain Wyoming Foundation: Fred Homi Iriye biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/iriye-fred-homi/"
+    },
+    "hm-ishikawa-george": {
+      "label": "Heart Mountain Wyoming Foundation: George Ishikawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishikawa-george/"
+    },
+    "hm-ishikawa-jack-suetsugu": {
+      "label": "Heart Mountain Wyoming Foundation: Jack Suetsugu Ishikawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishikawa-jack-suetsugu/"
+    },
+    "hm-ishikawa-kiyoshi": {
+      "label": "Heart Mountain Wyoming Foundation: Kiyoshi Ishikawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishikawa-kiyoshi/"
+    },
+    "hm-ishikawa-takeo": {
+      "label": "Heart Mountain Wyoming Foundation: Takeo Ishikawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishikawa-takeo/"
+    },
+    "hm-ishimaru-ernest-yutaka": {
+      "label": "Heart Mountain Wyoming Foundation: Ernest Yutaka Ishimaru biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishimaru-ernest-yutaka/"
+    },
+    "hm-ishimaru-jay-jyunichi": {
+      "label": "Heart Mountain Wyoming Foundation: Jay Jyunichi Ishimaru biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishimaru-jay-jyunichi/"
+    },
+    "hm-ishizaki-sam-isamu": {
+      "label": "Heart Mountain Wyoming Foundation: Sam Isamu Ishizaki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/ishizaki-sam-isamu/"
+    },
+    "hm-kado-james-yoshio": {
+      "label": "Heart Mountain Wyoming Foundation: James Yoshio Kado biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kado-james-yoshio/"
+    },
+    "hm-kawahara-thomas-katsuyoshi": {
+      "label": "Heart Mountain Wyoming Foundation: Thomas Katsuyoshi Kawahara biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kawahara-thomas-katsuyoshi/"
+    },
+    "hm-kawamoto-dave-tetsutaro": {
+      "label": "Heart Mountain Wyoming Foundation: Dave Tetsutaro Kawamoto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kawamoto-dave-tetsutaro/"
+    },
+    "hm-kawasaki-kiyoto": {
+      "label": "Heart Mountain Wyoming Foundation: Kiyoto Kawasaki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kawasaki-kiyoto/"
+    },
+    "hm-kenmotsu-shigeo": {
+      "label": "Heart Mountain Wyoming Foundation: Shigeo Kenmotsu biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kenmotsu-shigeo/"
+    },
+    "hm-kimura-jim-tatsuya": {
+      "label": "Heart Mountain Wyoming Foundation: Jim Tatsuya Kimura biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kimura-jim-tatsuya/"
+    },
+    "hm-koshiyama-mitsuru": {
+      "label": "Heart Mountain Wyoming Foundation: Mitsuru Koshiyama biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/koshiyama-mitsuru/"
+    },
+    "hm-kubo-tom-tomeo": {
+      "label": "Heart Mountain Wyoming Foundation: Tom Tomeo Kubo biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kubo-tom-tomeo/"
+    },
+    "hm-kurasaki-george-noboru": {
+      "label": "Heart Mountain Wyoming Foundation: George Noboru Kurasaki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kurasaki-george-noboru/"
+    },
+    "hm-kuromiya-yoshito": {
+      "label": "Heart Mountain Wyoming Foundation: Yoshito Kuromiya biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kuromiya-yoshito/"
+    },
+    "hm-kuwada-james-makoto": {
+      "label": "Heart Mountain Wyoming Foundation: James Makoto Kuwada biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kuwada-james-makoto/"
+    },
+    "hm-kuwada-kazuo": {
+      "label": "Heart Mountain Wyoming Foundation: Kazuo Kuwada biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/kuwada-kazuo/"
+    },
+    "hm-matsuba-george-kazuo": {
+      "label": "Heart Mountain Wyoming Foundation: George Kazuo Matsuba biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/matsuba-george-kazuo/"
+    },
+    "hm-matsumoto-akira": {
+      "label": "Heart Mountain Wyoming Foundation: Akira Matsumoto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/matsumoto-akira/"
+    },
+    "hm-matsumoto-teruo": {
+      "label": "Heart Mountain Wyoming Foundation: Teruo Matsumoto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/matsumoto-teruo/"
+    },
+    "hm-matsushita-kikuji": {
+      "label": "Heart Mountain Wyoming Foundation: Kikuji Matsushita biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/matsushita-kikuji/"
+    },
+    "hm-matsuura-frank-morikazu": {
+      "label": "Heart Mountain Wyoming Foundation: Frank Morikazu Matsuura biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/matsuura-frank-morikazu/"
+    },
+    "hm-mayekawa-mike-masao": {
+      "label": "Heart Mountain Wyoming Foundation: Mike Masao Mayekawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/mayekawa-mike-masao/"
+    },
+    "hm-minatani-james-masaichi": {
+      "label": "Heart Mountain Wyoming Foundation: James Masaichi Minatani biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/minatani-james-masaichi/"
+    },
+    "hm-minoura-halley": {
+      "label": "Heart Mountain Wyoming Foundation: Halley Minoura biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/minoura-halley/"
+    },
+    "hm-miyahara-tomio": {
+      "label": "Heart Mountain Wyoming Foundation: Tomio Miyahara biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/miyahara-tomio/"
+    },
+    "hm-morita-ichiro": {
+      "label": "Heart Mountain Wyoming Foundation: Ichiro Morita biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/morita-ichiro/"
+    },
+    "hm-motonaga-ray-yoshio": {
+      "label": "Heart Mountain Wyoming Foundation: Ray Yoshio Motonaga biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/motonaga-ray-yoshio/"
+    },
+    "hm-nagahara-bobby-masao": {
+      "label": "Heart Mountain Wyoming Foundation: Bobby Masao Nagahara biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/nagahara-bobby-masao/"
+    },
+    "hm-nakada-carl-kaoru": {
+      "label": "Heart Mountain Wyoming Foundation: Carl Kaoru Nakada biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/nakada-carl-kaoru/"
+    },
+    "hm-nozawa-george-goro": {
+      "label": "Heart Mountain Wyoming Foundation: George Goro Nozawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/nozawa-george-goro/"
+    },
+    "hm-okawa-lloyd-ichiro": {
+      "label": "Heart Mountain Wyoming Foundation: Lloyd Ichiro Okawa biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/okawa-lloyd-ichiro/"
+    },
+    "hm-oki-tadashi": {
+      "label": "Heart Mountain Wyoming Foundation: Tadashi Oki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/oki-tadashi/"
+    },
+    "hm-oki-tom-yoshio": {
+      "label": "Heart Mountain Wyoming Foundation: Tom Yoshio Oki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/oki-tom-yoshio/"
+    },
+    "hm-okuma-fred-toru": {
+      "label": "Heart Mountain Wyoming Foundation: Fred Toru Okuma biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/okuma-fred-toru/"
+    },
+    "hm-sako-tom-tamotsu": {
+      "label": "Heart Mountain Wyoming Foundation: Tom Tamotsu Sako biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/sako-tom-tamotsu/"
+    },
+    "hm-shimane-fred-katsumi": {
+      "label": "Heart Mountain Wyoming Foundation: Fred Katsumi Shimane biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/shimane-fred-katsumi/"
+    },
+    "hm-shimane-george-fujio": {
+      "label": "Heart Mountain Wyoming Foundation: George Fujio Shimane biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/shimane-george-fujio/"
+    },
+    "hm-shimane-jun-johnson": {
+      "label": "Heart Mountain Wyoming Foundation: Jun Johnson Shimane biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/shimane-jun-johnson/"
+    },
+    "hm-shimane-sam-isamu": {
+      "label": "Heart Mountain Wyoming Foundation: Sam Isamu Shimane biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/shimane-sam-isamu/"
+    },
+    "hm-shinta-ken-kengi": {
+      "label": "Heart Mountain Wyoming Foundation: Ken Kengi Shinta biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/shinta-ken-kengi/"
+    },
+    "hm-sugita-toyoji": {
+      "label": "Heart Mountain Wyoming Foundation: Toyoji Sugita biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/sugita-toyoji/"
+    },
+    "hm-sumi-bill-sachio": {
+      "label": "Heart Mountain Wyoming Foundation: Bill Sachio Sumi biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/sumi-bill-sachio/"
+    },
+    "hm-sumi-noboru": {
+      "label": "Heart Mountain Wyoming Foundation: Noboru Sumi biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/sumi-noboru/"
+    },
+    "hm-sumida-ken-kenroku": {
+      "label": "Heart Mountain Wyoming Foundation: Ken Kenroku Sumida biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/sumida-ken-kenroku/"
+    },
+    "hm-suzuki-atsushi": {
+      "label": "Heart Mountain Wyoming Foundation: Atsushi Suzuki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/suzuki-atsushi/"
+    },
+    "hm-suzuki-masayo": {
+      "label": "Heart Mountain Wyoming Foundation: Masayo Suzuki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/suzuki-masayo/"
+    },
+    "hm-suzuki-shizumi": {
+      "label": "Heart Mountain Wyoming Foundation: Shizumi Suzuki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/suzuki-shizumi/"
+    },
+    "hm-tainaka-ken-kenichi": {
+      "label": "Heart Mountain Wyoming Foundation: Ken Kenichi Tainaka biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/tainaka-ken-kenichi/"
+    },
+    "hm-tanabe-george-naoichi": {
+      "label": "Heart Mountain Wyoming Foundation: George Naoichi Tanabe biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/tanabe-george-naoichi/"
+    },
+    "hm-tono-jack-kiyoto": {
+      "label": "Heart Mountain Wyoming Foundation: Jack Kiyoto Tono biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/tono-jack-kiyoto/"
+    },
+    "hm-tsuyuki-sumio": {
+      "label": "Heart Mountain Wyoming Foundation: Sumio Tsuyuki biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/tsuyuki-sumio/"
+    },
+    "hm-uyeda-george-susumu": {
+      "label": "Heart Mountain Wyoming Foundation: George Susumu Uyeda biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/uyeda-george-susumu/"
+    },
+    "hm-uyeda-james-tsutomu": {
+      "label": "Heart Mountain Wyoming Foundation: James Tsutomu Uyeda biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/uyeda-james-tsutomu/"
+    },
+    "hm-uyeda-roy-masao": {
+      "label": "Heart Mountain Wyoming Foundation: Roy Masao Uyeda biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/uyeda-roy-masao/"
+    },
+    "hm-uyeno-shigeru": {
+      "label": "Heart Mountain Wyoming Foundation: Shigeru Uyeno biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/uyeno-shigeru/"
+    },
+    "hm-watanabe-hiromu": {
+      "label": "Heart Mountain Wyoming Foundation: Hiromu Watanabe biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/watanabe-hiromu/"
+    },
+    "hm-yamamoto-george-hitoshi": {
+      "label": "Heart Mountain Wyoming Foundation: George Hitoshi Yamamoto biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/yamamoto-george-hitoshi/"
+    },
+    "hm-yanagisako-edward-hiromu": {
+      "label": "Heart Mountain Wyoming Foundation: Edward Hiromu Yanagisako biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/yanagisako-edward-hiromu/"
+    },
+    "hm-yoshida-george-masao-2": {
+      "label": "Heart Mountain Wyoming Foundation: George Masao Yoshida biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/yoshida-george-masao-2/"
+    },
+    "hm-yoshida-kei": {
+      "label": "Heart Mountain Wyoming Foundation: Kei Yoshida biography and linked WRA files",
+      "url": "https://heartmountain.org/draft-resisters-hub/yoshida-kei/"
+    }
+  },
+  "institutions": {
+    "2046afc9-8ed7-4879-8f7a-b703237476a8": "McNeil Island Federal Penitentiary",
+    "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469": "United States Penitentiary, Leavenworth"
+  },
+  "entries": [
+    {
+      "key": "eto-yukio",
+      "research_index": 1,
+      "match_names": [
+        "Yukio Eto"
+      ],
+      "prisoner": {
+        "name": "Yukio Eto",
+        "first_name": "Yukio",
+        "last_name": "Eto",
+        "description": "Yukio Eto was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 9,
+          "day": 12
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 10,
+          "day": 5
+        }
+      },
+      "case_dates": {
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-eto-yukio",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "fuji-jiro",
+      "research_index": 2,
+      "match_names": [
+        "Jiro John Fujii",
+        "Jiro Fujii",
+        "John Jiro Fujii"
+      ],
+      "prisoner": {
+        "name": "Jiro John Fujii",
+        "first_name": "Jiro",
+        "last_name": "Fujii",
+        "description": "Jiro John Fujii was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "John",
+        "aka": "John Jiro Fujii"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1916,
+          "month": 1,
+          "day": 4
+        },
+        "death_date": {
+          "year": 1997,
+          "month": 3,
+          "day": 27
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-fuji-jiro",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "fujii-shigeru",
+      "research_index": 3,
+      "match_names": [
+        "Shigeru Fujii",
+        "Shig Fujii"
+      ],
+      "prisoner": {
+        "name": "Shigeru Fujii",
+        "first_name": "Shigeru",
+        "last_name": "Fujii",
+        "description": "Shigeru Fujii was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "aka": "Shig Fujii"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1918,
+          "month": 6,
+          "day": 3
+        },
+        "death_date": {
+          "year": 1999,
+          "month": 4,
+          "day": 13
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-fujii-shigeru"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "higuchi-mutsuo",
+      "research_index": 4,
+      "match_names": [
+        "Mutsuo Higuchi"
+      ],
+      "prisoner": {
+        "name": "Mutsuo Higuchi",
+        "first_name": "Mutsuo",
+        "last_name": "Higuchi",
+        "description": "Mutsuo Higuchi was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 6,
+          "day": 7
+        },
+        "death_date": {
+          "year": 2013,
+          "month": 9,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8,
+          "day": 9
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-higuchi-mutsuo",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [
+        "Exact imposed term not entered: not independently established or conflicting source details.",
+        "Museum individual biography says three years; the second-trial cohort is described as receiving two. Term left unresolved."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hirayama-harold-susumu",
+      "research_index": 5,
+      "match_names": [
+        "Harold Susumu Hirayama",
+        "Harold Hirayama",
+        "Susumu Hirayama",
+        "Susumu Harold Hirayama"
+      ],
+      "prisoner": {
+        "name": "Harold Susumu Hirayama",
+        "first_name": "Harold",
+        "last_name": "Hirayama",
+        "description": "Harold Susumu Hirayama was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Susumu",
+        "aka": "Susumu Harold Hirayama"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1907,
+          "month": 2,
+          "day": 25
+        },
+        "death_date": {
+          "year": 1969,
+          "month": 6,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-hirayama-harold-susumu"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hirose-kazuki",
+      "research_index": 6,
+      "match_names": [
+        "Kazuki Hirose"
+      ],
+      "prisoner": {
+        "name": "Kazuki Hirose",
+        "first_name": "Kazuki",
+        "last_name": "Hirose",
+        "description": "Kazuki Hirose was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 11,
+          "day": 15
+        },
+        "death_date": {
+          "year": 2020,
+          "month": 2,
+          "day": 26
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8,
+          "day": 9
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-hirose-kazuki",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hirose-kazuto",
+      "research_index": 7,
+      "match_names": [
+        "Kazuto Hirose"
+      ],
+      "prisoner": {
+        "name": "Kazuto Hirose",
+        "first_name": "Kazuto",
+        "last_name": "Hirose",
+        "description": "Kazuto Hirose was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 12,
+          "day": 12
+        },
+        "death_date": {
+          "year": 1977,
+          "month": 8,
+          "day": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-hirose-kazuto"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hiroshige-akira",
+      "research_index": 8,
+      "match_names": [
+        "Akira Hiroshige"
+      ],
+      "prisoner": {
+        "name": "Akira Hiroshige",
+        "first_name": "Akira",
+        "last_name": "Hiroshige",
+        "description": "Akira Hiroshige was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 3,
+          "day": 13
+        },
+        "death_date": {
+          "year": 1985,
+          "month": 8,
+          "day": 21
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-hiroshige-akira"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hori-takeshi",
+      "research_index": 9,
+      "match_names": [
+        "Takeshi Hori",
+        "Tak Hori"
+      ],
+      "prisoner": {
+        "name": "Takeshi Hori",
+        "first_name": "Takeshi",
+        "last_name": "Hori",
+        "description": "Takeshi Hori was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "aka": "Tak Hori"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1912,
+          "month": 10,
+          "day": 2
+        },
+        "death_date": {
+          "year": 1988,
+          "month": 8,
+          "day": 21
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 25
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-hori-takeshi"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "horino-george-minoru",
+      "research_index": 10,
+      "match_names": [
+        "George Minoru Horino",
+        "George Horino",
+        "Minoru Horino",
+        "Minoru George Horino"
+      ],
+      "prisoner": {
+        "name": "George Minoru Horino",
+        "first_name": "George",
+        "last_name": "Horino",
+        "description": "George Minoru Horino was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Minoru",
+        "aka": "Minoru George Horino"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 8,
+          "day": 26
+        },
+        "death_date": {
+          "year": 1980,
+          "month": 8,
+          "day": 31
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 12,
+          "day": 1
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-horino-george-minoru",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "hoshizaki-takashi",
+      "research_index": 12,
+      "match_names": [
+        "Takashi Hoshizaki",
+        "Tak Hoshizaki"
+      ],
+      "prisoner": {
+        "name": "Takashi Hoshizaki",
+        "first_name": "Takashi",
+        "last_name": "Hoshizaki",
+        "description": "Takashi Hoshizaki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in June 14, 1946."
+          }
+        ],
+        "aka": "Tak Hoshizaki"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 10,
+          "day": 3
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 26
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 6,
+          "day": 14
+        }
+      },
+      "source_ids": [
+        "hm-hoshizaki-takashi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in June 14, 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ide-grant-takao",
+      "research_index": 13,
+      "match_names": [
+        "Grant Takao Ide",
+        "Grant Ide",
+        "Takao Ide"
+      ],
+      "prisoner": {
+        "name": "Grant Takao Ide",
+        "first_name": "Grant",
+        "last_name": "Ide",
+        "description": "Grant Takao Ide was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Takao"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 8,
+          "day": 23
+        },
+        "death_date": {
+          "year": 1993,
+          "month": 11,
+          "day": 10
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ide-grant-takao"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ikemoto-harry-yoshiaki",
+      "research_index": 14,
+      "match_names": [
+        "Harry Yoshiaki Ikemoto",
+        "Harry Ikemoto",
+        "Yoshiaki Ikemoto"
+      ],
+      "prisoner": {
+        "name": "Harry Yoshiaki Ikemoto",
+        "first_name": "Harry",
+        "last_name": "Ikemoto",
+        "description": "Harry Yoshiaki Ikemoto was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Yoshiaki"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1914,
+          "month": 9,
+          "day": 11
+        },
+        "death_date": {
+          "year": 1972,
+          "month": 4,
+          "day": 21
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-ikemoto-harry-yoshiaki"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "imai-masafumi",
+      "research_index": 15,
+      "match_names": [
+        "Masafumi Imai",
+        "Mas Imai"
+      ],
+      "prisoner": {
+        "name": "Masafumi Imai",
+        "first_name": "Masafumi",
+        "last_name": "Imai",
+        "description": "Masafumi Imai was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "aka": "Mas Imai"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 2,
+          "day": 20
+        },
+        "death_date": {
+          "year": 1973,
+          "month": 2,
+          "day": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-imai-masafumi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ino-toru",
+      "research_index": 16,
+      "match_names": [
+        "Toru Ino",
+        "Tom Ino"
+      ],
+      "prisoner": {
+        "name": "Toru Ino",
+        "first_name": "Toru",
+        "last_name": "Ino",
+        "description": "Toru Ino was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Released in July 1946."
+          }
+        ],
+        "aka": "Tom Ino"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1917,
+          "month": 7,
+          "day": 29
+        },
+        "death_date": {
+          "year": 2007,
+          "month": 4,
+          "day": 11
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-ino-toru"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "iriye-fred-homi",
+      "research_index": 17,
+      "match_names": [
+        "Fred Homi Iriye",
+        "Fred Iriye",
+        "Homi Iriye"
+      ],
+      "prisoner": {
+        "name": "Fred Homi Iriye",
+        "first_name": "Fred",
+        "last_name": "Iriye",
+        "description": "Fred Homi Iriye was a Japanese American draft resister confined at Heart Mountain and later imprisoned at McNeil Island. He refused conscription while his community was deprived of its civil rights. In 1946 he was electrocuted while working in the prison power plant, shortly before his planned release.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Three years imposed. Imprisoned at McNeil Island, where he worked in the power plant. He died by electrocution in custody in 1946, shortly before a planned release. The precise date of death has not been established."
+          }
+        ],
+        "middle_name": "Homi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 8,
+          "day": 1
+        },
+        "death_date": {
+          "year": 1946
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "death_in_custody_date": {
+          "year": 1946
+        }
+      },
+      "source_ids": [
+        "hm-iriye-fred-homi",
+        "iriye-file"
+      ],
+      "custody_evidence": "Original 1944 prison admission plus museum account of death while working in prison in 1946.",
+      "research_notes": [
+        "Arrest day conflicts: museum April 7, prison summary April 6. Retain April 1944 precision. Do not equate planned release with death date."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishikawa-george",
+      "research_index": 18,
+      "match_names": [
+        "George Ishikawa"
+      ],
+      "prisoner": {
+        "name": "George Ishikawa",
+        "first_name": "George",
+        "last_name": "Ishikawa",
+        "description": "George Ishikawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1915,
+          "month": 7,
+          "day": 25
+        },
+        "death_date": {
+          "year": 2014,
+          "month": 10,
+          "day": 18
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishikawa-george",
+        "hm-ishikawa-jack-suetsugu"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishikawa-jack-suetsugu",
+      "research_index": 19,
+      "match_names": [
+        "Jack Suetsugu Ishikawa",
+        "Jack Ishikawa",
+        "Suetsugu Ishikawa"
+      ],
+      "prisoner": {
+        "name": "Jack Suetsugu Ishikawa",
+        "first_name": "Jack",
+        "last_name": "Ishikawa",
+        "description": "Jack Suetsugu Ishikawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Suetsugu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1907,
+          "month": 11,
+          "day": 24
+        },
+        "death_date": {
+          "year": 2005,
+          "month": 5,
+          "day": 4
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishikawa-jack-suetsugu"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishikawa-kiyoshi",
+      "research_index": 20,
+      "match_names": [
+        "Kiyoshi Ishikawa",
+        "Kay Ishikawa"
+      ],
+      "prisoner": {
+        "name": "Kiyoshi Ishikawa",
+        "first_name": "Kiyoshi",
+        "last_name": "Ishikawa",
+        "description": "Kiyoshi Ishikawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "aka": "Kay Ishikawa"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1911,
+          "month": 6,
+          "day": 12
+        },
+        "death_date": {
+          "year": 1995,
+          "month": 7,
+          "day": 13
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishikawa-kiyoshi"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishikawa-takeo",
+      "research_index": 21,
+      "match_names": [
+        "Takeo Ishikawa",
+        "Tak Ishikawa"
+      ],
+      "prisoner": {
+        "name": "Takeo Ishikawa",
+        "first_name": "Takeo",
+        "last_name": "Ishikawa",
+        "description": "Takeo Ishikawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "aka": "Tak Ishikawa"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 4,
+          "day": 12
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishikawa-takeo"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishimaru-ernest-yutaka",
+      "research_index": 22,
+      "match_names": [
+        "Ernest Yutaka Ishimaru",
+        "Ernest Ishimaru",
+        "Yutaka Ishimaru",
+        "Ernie Ishimaru"
+      ],
+      "prisoner": {
+        "name": "Ernest Yutaka Ishimaru",
+        "first_name": "Ernest",
+        "last_name": "Ishimaru",
+        "description": "Ernest Yutaka Ishimaru was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Yutaka",
+        "aka": "Ernie Ishimaru"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1910,
+          "month": 10,
+          "day": 10
+        },
+        "death_date": {
+          "year": 2000,
+          "month": 9,
+          "day": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 29
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishimaru-ernest-yutaka"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishimaru-jay-jyunichi",
+      "research_index": 23,
+      "match_names": [
+        "Jay Jyunichi Ishimaru",
+        "Jay Ishimaru",
+        "Jyunichi Ishimaru"
+      ],
+      "prisoner": {
+        "name": "Jay Jyunichi Ishimaru",
+        "first_name": "Jay",
+        "last_name": "Ishimaru",
+        "description": "Jay Jyunichi Ishimaru was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Jyunichi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 3,
+          "day": 31
+        },
+        "death_date": {
+          "year": 1996,
+          "month": 1,
+          "day": 14
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-ishimaru-jay-jyunichi"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "ishizaki-sam-isamu",
+      "research_index": 24,
+      "match_names": [
+        "Sam Isamu Ishizaki",
+        "Sam Ishizaki",
+        "Isamu Ishizaki",
+        "Isamu Sam Ishizaki"
+      ],
+      "prisoner": {
+        "name": "Sam Isamu Ishizaki",
+        "first_name": "Sam",
+        "last_name": "Ishizaki",
+        "description": "Sam Isamu Ishizaki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Isamu",
+        "aka": "Isamu Sam Ishizaki"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 12,
+          "day": 1
+        },
+        "death_date": {
+          "year": 2001,
+          "month": 1,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-ishizaki-sam-isamu"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kado-james-yoshio",
+      "research_index": 25,
+      "match_names": [
+        "James Yoshio Kado",
+        "James Kado",
+        "Yoshio Kado"
+      ],
+      "prisoner": {
+        "name": "James Yoshio Kado",
+        "first_name": "James",
+        "last_name": "Kado",
+        "description": "James Yoshio Kado was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Released in July 1946."
+          }
+        ],
+        "middle_name": "Yoshio"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1911,
+          "month": 3,
+          "day": 6
+        },
+        "death_date": {
+          "year": 2002,
+          "month": 7,
+          "day": 18
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kado-james-yoshio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kawahara-thomas-katsuyoshi",
+      "research_index": 26,
+      "match_names": [
+        "Thomas Katsuyoshi Kawahara",
+        "Thomas Kawahara",
+        "Katsuyoshi Kawahara",
+        "Tom Kawahara"
+      ],
+      "prisoner": {
+        "name": "Thomas Katsuyoshi Kawahara",
+        "first_name": "Thomas",
+        "last_name": "Kawahara",
+        "description": "Thomas Katsuyoshi Kawahara was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Katsuyoshi",
+        "aka": "Tom Kawahara"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1926,
+          "month": 1,
+          "day": 15
+        },
+        "death_date": {
+          "year": 2017,
+          "month": 6,
+          "day": 27
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8,
+          "day": 9
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kawahara-thomas-katsuyoshi",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kawamoto-dave-tetsutaro",
+      "research_index": 28,
+      "match_names": [
+        "Dave Tetsutaro Kawamoto",
+        "Dave Kawamoto",
+        "Tetsutaro Kawamoto"
+      ],
+      "prisoner": {
+        "name": "Dave Tetsutaro Kawamoto",
+        "first_name": "Dave",
+        "last_name": "Kawamoto",
+        "description": "Dave Tetsutaro Kawamoto was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Released in July 1946."
+          }
+        ],
+        "middle_name": "Tetsutaro"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1917,
+          "month": 12,
+          "day": 6
+        },
+        "death_date": {
+          "year": 1993,
+          "month": 12,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kawamoto-dave-tetsutaro"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kawasaki-kiyoto",
+      "research_index": 29,
+      "match_names": [
+        "Kiyoto Kawasaki"
+      ],
+      "prisoner": {
+        "name": "Kiyoto Kawasaki",
+        "first_name": "Kiyoto",
+        "last_name": "Kawasaki",
+        "description": "Kiyoto Kawasaki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1915,
+          "month": 2,
+          "day": 25
+        },
+        "death_date": {
+          "year": 2009,
+          "month": 3,
+          "day": 29
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-kawasaki-kiyoto"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kenmotsu-shigeo",
+      "research_index": 30,
+      "match_names": [
+        "Shigeo Kenmotsu"
+      ],
+      "prisoner": {
+        "name": "Shigeo Kenmotsu",
+        "first_name": "Shigeo",
+        "last_name": "Kenmotsu",
+        "description": "Shigeo Kenmotsu was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 3,
+          "day": 16
+        },
+        "death_date": {
+          "year": 2012,
+          "month": 4,
+          "day": 12
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kenmotsu-shigeo"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kimura-jim-tatsuya",
+      "research_index": 31,
+      "match_names": [
+        "Jim Tatsuya Kimura",
+        "Jim Kimura",
+        "Tatsuya Kimura"
+      ],
+      "prisoner": {
+        "name": "Jim Tatsuya Kimura",
+        "first_name": "Jim",
+        "last_name": "Kimura",
+        "description": "Jim Tatsuya Kimura was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Tatsuya"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 7,
+          "day": 8
+        },
+        "death_date": {
+          "year": 1986,
+          "month": 5,
+          "day": 7
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kimura-jim-tatsuya"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "koshiyama-mitsuru",
+      "research_index": 32,
+      "match_names": [
+        "Mitsuru Koshiyama",
+        "Mits Koshiyama"
+      ],
+      "prisoner": {
+        "name": "Mitsuru Koshiyama",
+        "first_name": "Mitsuru",
+        "last_name": "Koshiyama",
+        "description": "Mitsuru Koshiyama was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington. He later recalled that he did not attend Fair Play Committee meetings.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "aka": "Mits Koshiyama"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 8,
+          "day": 7
+        },
+        "death_date": {
+          "year": 2009,
+          "month": 2,
+          "day": 6
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-koshiyama-mitsuru"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kubo-tom-tomeo",
+      "research_index": 33,
+      "match_names": [
+        "Tom Tomeo Kubo",
+        "Tom Kubo",
+        "Tomeo Kubo"
+      ],
+      "prisoner": {
+        "name": "Tom Tomeo Kubo",
+        "first_name": "Tom",
+        "last_name": "Kubo",
+        "description": "Tom Tomeo Kubo was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Released in July 1946."
+          }
+        ],
+        "middle_name": "Tomeo"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1909,
+          "month": 12,
+          "day": 4
+        },
+        "death_date": {
+          "year": 1993,
+          "month": 5,
+          "day": 7
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kubo-tom-tomeo"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kurasaki-george-noboru",
+      "research_index": 35,
+      "match_names": [
+        "George Noboru Kurasaki",
+        "George Kurasaki",
+        "Noboru Kurasaki"
+      ],
+      "prisoner": {
+        "name": "George Noboru Kurasaki",
+        "first_name": "George",
+        "last_name": "Kurasaki",
+        "description": "George Noboru Kurasaki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Noboru"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 6,
+          "day": 21
+        },
+        "death_date": {
+          "year": 2005,
+          "month": 1,
+          "day": 3
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-kurasaki-george-noboru"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kuromiya-yoshito",
+      "research_index": 36,
+      "match_names": [
+        "Yoshito Kuromiya",
+        "Yosh Kuromiya"
+      ],
+      "prisoner": {
+        "name": "Yoshito Kuromiya",
+        "first_name": "Yoshito",
+        "last_name": "Kuromiya",
+        "description": "Yoshito Kuromiya was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington. After prison he worked in gardening and landscape architecture.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "aka": "Yosh Kuromiya"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 4,
+          "day": 23
+        },
+        "death_date": {
+          "year": 2018,
+          "month": 7,
+          "day": 24
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-kuromiya-yoshito"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kuwada-james-makoto",
+      "research_index": 37,
+      "match_names": [
+        "James Makoto Kuwada",
+        "James Kuwada",
+        "Makoto Kuwada",
+        "Jim Kuwada"
+      ],
+      "prisoner": {
+        "name": "James Makoto Kuwada",
+        "first_name": "James",
+        "last_name": "Kuwada",
+        "description": "James Makoto Kuwada was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Makoto",
+        "aka": "Jim Kuwada"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 8,
+          "day": 17
+        },
+        "death_date": {
+          "year": 1986,
+          "month": 4,
+          "day": 17
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-kuwada-james-makoto"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "kuwada-kazuo",
+      "research_index": 38,
+      "match_names": [
+        "Kazuo Kuwada"
+      ],
+      "prisoner": {
+        "name": "Kazuo Kuwada",
+        "first_name": "Kazuo",
+        "last_name": "Kuwada",
+        "description": "Kazuo Kuwada was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 11,
+          "day": 7
+        },
+        "death_date": {
+          "year": 2006,
+          "month": 4,
+          "day": 2
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-kuwada-kazuo"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "matsuba-george-kazuo",
+      "research_index": 39,
+      "match_names": [
+        "George Kazuo Matsuba",
+        "George Matsuba",
+        "Kazuo Matsuba"
+      ],
+      "prisoner": {
+        "name": "George Kazuo Matsuba",
+        "first_name": "George",
+        "last_name": "Matsuba",
+        "description": "George Kazuo Matsuba was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kazuo"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 5,
+          "day": 1
+        },
+        "death_date": {
+          "year": 2016,
+          "month": 4,
+          "day": 12
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-matsuba-george-kazuo"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "matsumoto-akira",
+      "research_index": 40,
+      "match_names": [
+        "Akira Matsumoto"
+      ],
+      "prisoner": {
+        "name": "Akira Matsumoto",
+        "first_name": "Akira",
+        "last_name": "Matsumoto",
+        "description": "Akira Matsumoto was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 8,
+          "day": 3
+        },
+        "death_date": {
+          "year": 2009,
+          "month": 8,
+          "day": 9
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-matsumoto-akira"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "matsumoto-teruo",
+      "research_index": 41,
+      "match_names": [
+        "Teruo Matsumoto"
+      ],
+      "prisoner": {
+        "name": "Teruo Matsumoto",
+        "first_name": "Teruo",
+        "last_name": "Matsumoto",
+        "description": "Teruo Matsumoto was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1926,
+          "month": 1,
+          "day": 15
+        },
+        "death_date": {
+          "year": 2008,
+          "month": 5,
+          "day": 10
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8,
+          "day": 31
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-matsumoto-teruo",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "matsushita-kikuji",
+      "research_index": 42,
+      "match_names": [
+        "Kikuji Matsushita",
+        "Kik Matsushita"
+      ],
+      "prisoner": {
+        "name": "Kikuji Matsushita",
+        "first_name": "Kikuji",
+        "last_name": "Matsushita",
+        "description": "Kikuji Matsushita was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "aka": "Kik Matsushita"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 7,
+          "day": 9
+        },
+        "death_date": {
+          "year": 1964,
+          "month": 5,
+          "day": 5
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 11,
+          "day": 21
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-matsushita-kikuji",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "matsuura-frank-morikazu",
+      "research_index": 43,
+      "match_names": [
+        "Frank Morikazu Matsuura",
+        "Frank Matsuura",
+        "Morikazu Matsuura"
+      ],
+      "prisoner": {
+        "name": "Frank Morikazu Matsuura",
+        "first_name": "Frank",
+        "last_name": "Matsuura",
+        "description": "Frank Morikazu Matsuura was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas. His widow recalled his refusal as a protest against the denial of civil liberties and due process.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Morikazu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1908,
+          "month": 11,
+          "day": 3
+        },
+        "death_date": {
+          "year": 1967,
+          "month": 10,
+          "day": 9
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-matsuura-frank-morikazu"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "mayekawa-mike-masao",
+      "research_index": 44,
+      "match_names": [
+        "Mike Masao Mayekawa",
+        "Mike Mayekawa",
+        "Masao Mayekawa"
+      ],
+      "prisoner": {
+        "name": "Mike Masao Mayekawa",
+        "first_name": "Mike",
+        "last_name": "Mayekawa",
+        "description": "Mike Masao Mayekawa was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Released in July 1946."
+          }
+        ],
+        "middle_name": "Masao",
+        "aka": "Masao Mayekawa"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 11,
+          "day": 25
+        },
+        "death_date": {
+          "year": 2003,
+          "month": 2,
+          "day": 8
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-mayekawa-mike-masao"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "minatani-james-masaichi",
+      "research_index": 45,
+      "match_names": [
+        "James Masaichi Minatani",
+        "James Minatani",
+        "Masaichi Minatani"
+      ],
+      "prisoner": {
+        "name": "James Masaichi Minatani",
+        "first_name": "James",
+        "last_name": "Minatani",
+        "description": "James Masaichi Minatani was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Masaichi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1910,
+          "month": 2,
+          "day": 15
+        },
+        "death_date": {
+          "year": 1981,
+          "month": 5,
+          "day": 10
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-minatani-james-masaichi"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "minoura-halley",
+      "research_index": 46,
+      "match_names": [
+        "Halley Minoura"
+      ],
+      "prisoner": {
+        "name": "Halley Minoura",
+        "first_name": "Halley",
+        "last_name": "Minoura",
+        "description": "Halley Minoura was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 3,
+          "day": 19
+        },
+        "death_date": {
+          "year": 2014
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-minoura-halley"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "miyahara-tomio",
+      "research_index": 47,
+      "match_names": [
+        "Tomio Miyahara"
+      ],
+      "prisoner": {
+        "name": "Tomio Miyahara",
+        "first_name": "Tomio",
+        "last_name": "Miyahara",
+        "description": "Tomio Miyahara was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 5,
+          "day": 28
+        },
+        "death_date": {
+          "year": 2000,
+          "month": 7,
+          "day": 13
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946
+        }
+      },
+      "source_ids": [
+        "hm-miyahara-tomio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "morita-ichiro",
+      "research_index": 49,
+      "match_names": [
+        "Ichiro Morita"
+      ],
+      "prisoner": {
+        "name": "Ichiro Morita",
+        "first_name": "Ichiro",
+        "last_name": "Morita",
+        "description": "Ichiro Morita was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 9,
+          "day": 11
+        },
+        "death_date": {
+          "year": 2022,
+          "month": 5,
+          "day": 7
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-morita-ichiro"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "motonaga-ray-yoshio",
+      "research_index": 50,
+      "match_names": [
+        "Ray Yoshio Motonaga",
+        "Ray Motonaga",
+        "Yoshio Motonaga"
+      ],
+      "prisoner": {
+        "name": "Ray Yoshio Motonaga",
+        "first_name": "Ray",
+        "last_name": "Motonaga",
+        "description": "Ray Yoshio Motonaga was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Served time at McNeil Island in Washington. Released in 1946."
+          }
+        ],
+        "middle_name": "Yoshio"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 1,
+          "day": 5
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 6,
+          "day": 17
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946
+        }
+      },
+      "source_ids": [
+        "hm-motonaga-ray-yoshio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in 1946.",
+      "research_notes": [
+        "Exact imposed term not entered: not independently established or conflicting source details."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "nagahara-bobby-masao",
+      "research_index": 51,
+      "match_names": [
+        "Bobby Masao Nagahara",
+        "Bobby Nagahara",
+        "Masao Nagahara"
+      ],
+      "prisoner": {
+        "name": "Bobby Masao Nagahara",
+        "first_name": "Bobby",
+        "last_name": "Nagahara",
+        "description": "Bobby Masao Nagahara was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Masao"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 6,
+          "day": 5
+        },
+        "death_date": {
+          "year": 2022,
+          "month": 5,
+          "day": 10
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-nagahara-bobby-masao"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "nakada-carl-kaoru",
+      "research_index": 52,
+      "match_names": [
+        "Carl Kaoru Nakada",
+        "Carl Nakada",
+        "Kaoru Nakada"
+      ],
+      "prisoner": {
+        "name": "Carl Kaoru Nakada",
+        "first_name": "Carl",
+        "last_name": "Nakada",
+        "description": "Carl Kaoru Nakada was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington. The museum documents his involvement with the Fair Play Committee.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kaoru"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 2,
+          "day": 2
+        },
+        "death_date": {
+          "year": 1998,
+          "month": 9,
+          "day": 14
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-nakada-carl-kaoru"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "nozawa-george-goro",
+      "research_index": 54,
+      "match_names": [
+        "George Goro Nozawa",
+        "George Nozawa",
+        "Goro Nozawa"
+      ],
+      "prisoner": {
+        "name": "George Goro Nozawa",
+        "first_name": "George",
+        "last_name": "Nozawa",
+        "description": "George Goro Nozawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Released in 1946."
+          }
+        ],
+        "middle_name": "Goro"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 5,
+          "day": 9
+        },
+        "death_date": {
+          "year": 2008,
+          "month": 4,
+          "day": 21
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 11,
+          "day": 30
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        },
+        "release_date": {
+          "year": 1946
+        }
+      },
+      "source_ids": [
+        "hm-nozawa-george-goro",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "okawa-lloyd-ichiro",
+      "research_index": 56,
+      "match_names": [
+        "Lloyd Ichiro Okawa",
+        "Lloyd Okawa",
+        "Ichiro Okawa",
+        "Lloyd Ichiro Okama"
+      ],
+      "prisoner": {
+        "name": "Lloyd Ichiro Okawa",
+        "first_name": "Lloyd",
+        "last_name": "Okawa",
+        "description": "Lloyd Ichiro Okawa was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Ichiro",
+        "aka": "Lloyd Ichiro Okama"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 11,
+          "day": 13
+        },
+        "death_date": {
+          "year": 2003,
+          "month": 3,
+          "day": 31
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 29
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-okawa-lloyd-ichiro"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "oki-tadashi",
+      "research_index": 57,
+      "match_names": [
+        "Tadashi Oki"
+      ],
+      "prisoner": {
+        "name": "Tadashi Oki",
+        "first_name": "Tadashi",
+        "last_name": "Oki",
+        "description": "Tadashi Oki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 4,
+          "day": 13
+        },
+        "death_date": {
+          "year": 2020,
+          "month": 5,
+          "day": 6
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-oki-tadashi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "oki-tom-yoshio",
+      "research_index": 58,
+      "match_names": [
+        "Tom Yoshio Oki",
+        "Tom Oki",
+        "Yoshio Oki"
+      ],
+      "prisoner": {
+        "name": "Tom Yoshio Oki",
+        "first_name": "Tom",
+        "last_name": "Oki",
+        "description": "Tom Yoshio Oki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Yoshio"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 10,
+          "day": 28
+        },
+        "death_date": {
+          "year": 2024,
+          "month": 4,
+          "day": 25
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 11,
+          "day": 21
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-oki-tom-yoshio",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "okuma-fred-toru",
+      "research_index": 59,
+      "match_names": [
+        "Fred Toru Okuma",
+        "Fred Okuma",
+        "Toru Okuma"
+      ],
+      "prisoner": {
+        "name": "Fred Toru Okuma",
+        "first_name": "Fred",
+        "last_name": "Okuma",
+        "description": "Fred Toru Okuma was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Imprisoned at McNeil Island for Heart Mountain draft resistance. The December 1946 prison list schedules conditional release; the actual release date and the conflicting trial chronology remain unresolved."
+          }
+        ],
+        "middle_name": "Toru"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1913,
+          "month": 10,
+          "day": 11
+        },
+        "death_date": {
+          "year": 1977,
+          "month": 4,
+          "day": 26
+        }
+      },
+      "case_dates": {},
+      "source_ids": [
+        "hm-okuma-fred-toru",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [
+        "Exact imposed term not entered: not independently established or conflicting source details.",
+        "Museum says June 1944 trial and July 1946 release; archive lists Toru Fred Okuma, 1845-MC, for December 19, 1946 conditional release. Do not publish either disputed chronology as settled."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sako-james-satoru",
+      "research_index": 60,
+      "match_names": [
+        "James Satoru Sako",
+        "James Sako",
+        "Satoru Sako"
+      ],
+      "prisoner": {
+        "name": "James Satoru Sako",
+        "first_name": "James",
+        "last_name": "Sako",
+        "description": "James Satoru Sako resisted conscription while confined at Heart Mountain, arguing that his citizenship rights had not been clarified. He pleaded not guilty to failing to report for a pre-induction physical, was convicted, and was imprisoned at McNeil Island in 1944.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Three years imposed; the prison admission summary records commitment to McNeil Island on July 10, 1944 and continued custody in August 1944. Its projected conditional-release date is not evidence of actual release."
+          }
+        ],
+        "middle_name": "Satoru"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 1,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "incarceration_date": {
+          "year": 1944,
+          "month": 7,
+          "day": 10
+        }
+      },
+      "source_ids": [
+        "sako-file"
+      ],
+      "custody_evidence": "Original prison admission summary: committed July 10, 1944; still in custody August 7, 1944.",
+      "research_notes": [
+        "Arrest day conflicts: brother’s museum biography April 7, prison summary April 4. Retain April 1944 precision."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sako-tom-tamotsu",
+      "research_index": 61,
+      "match_names": [
+        "Tom Tamotsu Sako",
+        "Tom Sako",
+        "Tamotsu Sako"
+      ],
+      "prisoner": {
+        "name": "Tom Tamotsu Sako",
+        "first_name": "Tom",
+        "last_name": "Sako",
+        "description": "Tom Tamotsu Sako was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Tamotsu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1922,
+          "month": 4,
+          "day": 30
+        },
+        "death_date": {
+          "year": 2022,
+          "month": 1,
+          "day": 7
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 9,
+          "day": 5
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-sako-tom-tamotsu",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "shimane-fred-katsumi",
+      "research_index": 63,
+      "match_names": [
+        "Fred Katsumi Shimane",
+        "Fred Shimane",
+        "Katsumi Shimane"
+      ],
+      "prisoner": {
+        "name": "Fred Katsumi Shimane",
+        "first_name": "Fred",
+        "last_name": "Shimane",
+        "description": "Fred Katsumi Shimane was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Katsumi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1915,
+          "month": 11,
+          "day": 3
+        },
+        "death_date": {
+          "year": 1986,
+          "month": 2,
+          "day": 26
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-shimane-fred-katsumi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "shimane-george-fujio",
+      "research_index": 64,
+      "match_names": [
+        "George Fujio Shimane",
+        "George Shimane",
+        "Fujio Shimane"
+      ],
+      "prisoner": {
+        "name": "George Fujio Shimane",
+        "first_name": "George",
+        "last_name": "Shimane",
+        "description": "George Fujio Shimane was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Fujio"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 8,
+          "day": 7
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 8,
+          "day": 9
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-shimane-george-fujio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "shimane-jun-johnson",
+      "research_index": 65,
+      "match_names": [
+        "Jun Johnson Shimane",
+        "Jun Shimane",
+        "Johnson Shimane"
+      ],
+      "prisoner": {
+        "name": "Jun Johnson Shimane",
+        "first_name": "Jun",
+        "last_name": "Shimane",
+        "description": "Jun Johnson Shimane was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Johnson"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1923,
+          "month": 6,
+          "day": 27
+        },
+        "death_date": {
+          "year": 2019,
+          "month": 5,
+          "day": 12
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 9,
+          "day": 5
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-shimane-jun-johnson",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "shimane-sam-isamu",
+      "research_index": 66,
+      "match_names": [
+        "Sam Isamu Shimane",
+        "Sam Shimane",
+        "Isamu Shimane"
+      ],
+      "prisoner": {
+        "name": "Sam Isamu Shimane",
+        "first_name": "Sam",
+        "last_name": "Shimane",
+        "description": "Sam Isamu Shimane was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Released in July 1946."
+          }
+        ],
+        "middle_name": "Isamu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 6,
+          "day": 12
+        },
+        "death_date": {
+          "year": 2012,
+          "month": 12,
+          "day": 12
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 29
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-shimane-sam-isamu"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "shinta-ken-kengi",
+      "research_index": 67,
+      "match_names": [
+        "Ken Kengi Shinta",
+        "Ken Shinta",
+        "Kengi Shinta"
+      ],
+      "prisoner": {
+        "name": "Ken Kengi Shinta",
+        "first_name": "Ken",
+        "last_name": "Shinta",
+        "description": "Ken Kengi Shinta was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kengi",
+        "aka": "Kengi Shinta"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 9,
+          "day": 9
+        },
+        "death_date": {
+          "year": 1960,
+          "month": 12,
+          "day": 26
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-shinta-ken-kengi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sugita-toyoji",
+      "research_index": 68,
+      "match_names": [
+        "Toyoji Sugita"
+      ],
+      "prisoner": {
+        "name": "Toyoji Sugita",
+        "first_name": "Toyoji",
+        "last_name": "Sugita",
+        "description": "Toyoji Sugita was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 4,
+          "day": 12
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 6,
+          "day": 27
+        }
+      },
+      "case_dates": {
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-sugita-toyoji",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sumi-bill-sachio",
+      "research_index": 69,
+      "match_names": [
+        "Bill Sachio Sumi",
+        "Bill Sumi",
+        "Sachio Sumi",
+        "Sachio Bill Sumi"
+      ],
+      "prisoner": {
+        "name": "Bill Sachio Sumi",
+        "first_name": "Bill",
+        "last_name": "Sumi",
+        "description": "Bill Sachio Sumi was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Released in July 1946."
+          }
+        ],
+        "middle_name": "Sachio",
+        "aka": "Sachio Bill Sumi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 3,
+          "day": 26
+        },
+        "death_date": {
+          "year": 1982,
+          "month": 1,
+          "day": 30
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-sumi-bill-sachio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sumi-noboru",
+      "research_index": 70,
+      "match_names": [
+        "Noboru Sumi"
+      ],
+      "prisoner": {
+        "name": "Noboru Sumi",
+        "first_name": "Noboru",
+        "last_name": "Sumi",
+        "description": "Noboru Sumi was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 8,
+          "day": 23
+        },
+        "death_date": {
+          "year": 2020,
+          "month": 5,
+          "day": 27
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-sumi-noboru"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "sumida-ken-kenroku",
+      "research_index": 71,
+      "match_names": [
+        "Ken Kenroku Sumida",
+        "Ken Sumida",
+        "Kenroku Sumida"
+      ],
+      "prisoner": {
+        "name": "Ken Kenroku Sumida",
+        "first_name": "Ken",
+        "last_name": "Sumida",
+        "description": "Ken Kenroku Sumida was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kenroku",
+        "aka": "Kenroku Sumida"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1912,
+          "month": 8,
+          "day": 1
+        },
+        "death_date": {
+          "year": 1990,
+          "month": 5,
+          "day": 9
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-sumida-ken-kenroku"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "suzuki-atsushi",
+      "research_index": 72,
+      "match_names": [
+        "Atsushi Suzuki"
+      ],
+      "prisoner": {
+        "name": "Atsushi Suzuki",
+        "first_name": "Atsushi",
+        "last_name": "Suzuki",
+        "description": "Atsushi Suzuki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 5,
+          "day": 8
+        },
+        "death_date": {
+          "year": 1990,
+          "month": 1,
+          "day": 4
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-suzuki-atsushi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "suzuki-masayo",
+      "research_index": 73,
+      "match_names": [
+        "Masayo Suzuki"
+      ],
+      "prisoner": {
+        "name": "Masayo Suzuki",
+        "first_name": "Masayo",
+        "last_name": "Suzuki",
+        "description": "Masayo Suzuki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 1,
+          "day": 2
+        },
+        "death_date": {
+          "year": 2009,
+          "month": 10,
+          "day": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 9,
+          "day": 22
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-suzuki-masayo",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "suzuki-shizumi",
+      "research_index": 74,
+      "match_names": [
+        "Shizumi Suzuki"
+      ],
+      "prisoner": {
+        "name": "Shizumi Suzuki",
+        "first_name": "Shizumi",
+        "last_name": "Suzuki",
+        "description": "Shizumi Suzuki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1918,
+          "month": 2,
+          "day": 5
+        },
+        "death_date": {
+          "year": 1989,
+          "month": 9,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 11,
+          "day": 27
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-suzuki-shizumi",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "tainaka-ken-kenichi",
+      "research_index": 75,
+      "match_names": [
+        "Ken Kenichi Tainaka",
+        "Ken Tainaka",
+        "Kenichi Tainaka"
+      ],
+      "prisoner": {
+        "name": "Ken Kenichi Tainaka",
+        "first_name": "Ken",
+        "last_name": "Tainaka",
+        "description": "Ken Kenichi Tainaka was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kenichi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 6,
+          "day": 26
+        },
+        "death_date": {
+          "year": 2009,
+          "month": 10,
+          "day": 8
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-tainaka-ken-kenichi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "tanabe-george-naoichi",
+      "research_index": 77,
+      "match_names": [
+        "George Naoichi Tanabe",
+        "George Tanabe",
+        "Naoichi Tanabe"
+      ],
+      "prisoner": {
+        "name": "George Naoichi Tanabe",
+        "first_name": "George",
+        "last_name": "Tanabe",
+        "description": "George Naoichi Tanabe was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at the United States Penitentiary at Leavenworth, Kansas.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+            "sentence": "3 years imposed. Served time at the United States Penitentiary at Leavenworth, Kansas. Released in July 1946."
+          }
+        ],
+        "middle_name": "Naoichi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1912,
+          "month": 2,
+          "day": 21
+        },
+        "death_date": {
+          "year": 1996,
+          "month": 1,
+          "day": 16
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-tanabe-george-naoichi"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "tono-jack-kiyoto",
+      "research_index": 79,
+      "match_names": [
+        "Jack Kiyoto Tono",
+        "Jack Tono",
+        "Kiyoto Tono"
+      ],
+      "prisoner": {
+        "name": "Jack Kiyoto Tono",
+        "first_name": "Jack",
+        "last_name": "Tono",
+        "description": "Jack Kiyoto Tono was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Kiyoto"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1920,
+          "month": 11,
+          "day": 16
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 11,
+          "day": 1
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-tono-jack-kiyoto"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "tsuyuki-sumio",
+      "research_index": 80,
+      "match_names": [
+        "Sumio Tsuyuki"
+      ],
+      "prisoner": {
+        "name": "Sumio Tsuyuki",
+        "first_name": "Sumio",
+        "last_name": "Tsuyuki",
+        "description": "Sumio Tsuyuki was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington. His mother and father had died, and he said he needed to care for his younger sisters.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1917,
+          "month": 10,
+          "day": 21
+        },
+        "death_date": {
+          "year": 2007,
+          "month": 11,
+          "day": 27
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 3,
+          "day": 29
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-tsuyuki-sumio"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "uyeda-george-susumu",
+      "research_index": 82,
+      "match_names": [
+        "George Susumu Uyeda",
+        "George Uyeda",
+        "Susumu Uyeda"
+      ],
+      "prisoner": {
+        "name": "George Susumu Uyeda",
+        "first_name": "George",
+        "last_name": "Uyeda",
+        "description": "George Susumu Uyeda was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ],
+        "middle_name": "Susumu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1919,
+          "month": 2,
+          "day": 25
+        },
+        "death_date": {
+          "year": 1993,
+          "month": 7,
+          "day": 7
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-uyeda-george-susumu"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "uyeda-james-tsutomu",
+      "research_index": 83,
+      "match_names": [
+        "James Tsutomu Uyeda",
+        "James Uyeda",
+        "Tsutomu Uyeda"
+      ],
+      "prisoner": {
+        "name": "James Tsutomu Uyeda",
+        "first_name": "James",
+        "last_name": "Uyeda",
+        "description": "James Tsutomu Uyeda was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Tsutomu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1918,
+          "month": 9,
+          "day": 26
+        },
+        "death_date": {
+          "year": 2010,
+          "month": 8,
+          "day": 10
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 11,
+          "day": 22
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-uyeda-james-tsutomu",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "uyeda-roy-masao",
+      "research_index": 84,
+      "match_names": [
+        "Roy Masao Uyeda",
+        "Roy Uyeda",
+        "Masao Uyeda"
+      ],
+      "prisoner": {
+        "name": "Roy Masao Uyeda",
+        "first_name": "Roy",
+        "last_name": "Uyeda",
+        "description": "Roy Masao Uyeda was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Masao"
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 9,
+          "day": 5
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-uyeda-roy-masao",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [
+        "Museum flags birth-year conflict: April 13, 1923 or 1924. Birthdate left blank."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "uyemura-torao",
+      "research_index": 85,
+      "match_names": [
+        "Torao Uyemura",
+        "Torao Uemura"
+      ],
+      "prisoner": {
+        "name": "Torao Uyemura",
+        "first_name": "Torao",
+        "last_name": "Uyemura",
+        "description": "Torao Uyemura resisted conscription while confined at Heart Mountain, arguing that his citizenship rights had not been clarified. He pleaded not guilty to failing to report for a pre-induction physical, was convicted, and was imprisoned at McNeil Island in 1944.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "Three years imposed; the prison admission summary records commitment to McNeil Island on July 10, 1944 and continued custody in August 1944. Its projected conditional-release date is not evidence of actual release."
+          }
+        ],
+        "aka": "Torao Uemura"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1925,
+          "month": 11,
+          "day": 22
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 5,
+          "day": 13
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "incarceration_date": {
+          "year": 1944,
+          "month": 7,
+          "day": 10
+        }
+      },
+      "source_ids": [
+        "uyemura-file"
+      ],
+      "custody_evidence": "Original prison admission summary: committed July 10, 1944; still in custody August 7, 1944.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "uyeno-shigeru",
+      "research_index": 86,
+      "match_names": [
+        "Shigeru Uyeno"
+      ],
+      "prisoner": {
+        "name": "Shigeru Uyeno",
+        "first_name": "Shigeru",
+        "last_name": "Uyeno",
+        "description": "Shigeru Uyeno was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "3 years imposed. Served time at McNeil Island in Washington. Released in July 1946."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1921,
+          "month": 9,
+          "day": 19
+        },
+        "death_date": {
+          "year": 2007,
+          "month": 1,
+          "day": 15
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1946,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-uyeno-shigeru"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1946.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "watanabe-hiromu",
+      "research_index": 88,
+      "match_names": [
+        "Hiromu Watanabe"
+      ],
+      "prisoner": {
+        "name": "Hiromu Watanabe",
+        "first_name": "Hiromu",
+        "last_name": "Watanabe",
+        "description": "Hiromu Watanabe was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1916,
+          "month": 3,
+          "day": 3
+        },
+        "death_date": {
+          "year": 2011,
+          "month": 11,
+          "day": 23
+        }
+      },
+      "case_dates": {
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-watanabe-hiromu",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "yamamoto-george-hitoshi",
+      "research_index": 89,
+      "match_names": [
+        "George Hitoshi Yamamoto",
+        "George Yamamoto",
+        "Hitoshi Yamamoto"
+      ],
+      "prisoner": {
+        "name": "George Hitoshi Yamamoto",
+        "first_name": "George",
+        "last_name": "Yamamoto",
+        "description": "George Hitoshi Yamamoto was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Hitoshi"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1926,
+          "month": 8,
+          "day": 31
+        },
+        "death_date": {
+          "year": 1947,
+          "month": 5,
+          "day": 2
+        }
+      },
+      "case_dates": {
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-yamamoto-george-hitoshi",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "yanagisako-edward-hiromu",
+      "research_index": 90,
+      "match_names": [
+        "Edward Hiromu Yanagisako",
+        "Edward Yanagisako",
+        "Hiromu Yanagisako"
+      ],
+      "prisoner": {
+        "name": "Edward Hiromu Yanagisako",
+        "first_name": "Edward",
+        "last_name": "Yanagisako",
+        "description": "Edward Hiromu Yanagisako was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "Served time in federal prison. Actual release date has not been established."
+          }
+        ],
+        "middle_name": "Hiromu"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1910,
+          "month": 8,
+          "day": 16
+        },
+        "death_date": {
+          "year": 2002,
+          "month": 9,
+          "day": 14
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        }
+      },
+      "source_ids": [
+        "hm-yanagisako-edward-hiromu"
+      ],
+      "custody_evidence": "Individual archival biography documents a served federal prison term, prison activity, parole planning, or return after imprisonment; precise release unresolved.",
+      "research_notes": [
+        "Exact imposed term not entered: not independently established or conflicting source details."
+      ],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "yoshida-george-masao-2",
+      "research_index": 91,
+      "match_names": [
+        "George Masao Yoshida",
+        "George Yoshida",
+        "Masao Yoshida"
+      ],
+      "prisoner": {
+        "name": "George Masao Yoshida",
+        "first_name": "George",
+        "last_name": "Yoshida",
+        "description": "George Masao Yoshida was a Japanese American participant in the Heart Mountain draft-resistance movement. He was confined at Heart Mountain during World War II and subsequently imprisoned for refusing military conscription.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "sentence": "3 years imposed. Served time in federal prison. Released in July 1945."
+          }
+        ],
+        "middle_name": "Masao"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1912,
+          "month": 6,
+          "day": 12
+        },
+        "death_date": {
+          "year": 1994,
+          "month": 8,
+          "day": 14
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 4,
+          "day": 7
+        },
+        "sentenced_date": {
+          "year": 1944,
+          "month": 6
+        },
+        "release_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-yoshida-george-masao-2"
+      ],
+      "custody_evidence": "Individual museum biography documents imprisonment after the 1944 prosecution and release in July 1945.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    },
+    {
+      "key": "yoshida-kei",
+      "research_index": 92,
+      "match_names": [
+        "Kei Yoshida"
+      ],
+      "prisoner": {
+        "name": "Kei Yoshida",
+        "first_name": "Kei",
+        "last_name": "Yoshida",
+        "description": "Kei Yoshida was a Japanese American participant in the Heart Mountain draft-resistance movement. After being confined at Heart Mountain during World War II, he was prosecuted for refusing military conscription and imprisoned at McNeil Island in Washington.",
+        "state": "Wyoming",
+        "era": "1940s",
+        "affiliation": [
+          "Heart Mountain draft resistance"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 44.67,
+        "lng": -108.95,
+        "cases": [
+          {
+            "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+            "convicted": "Yes",
+            "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+            "sentence": "2 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1924,
+          "month": 10,
+          "day": 25
+        },
+        "death_date": {
+          "year": 2011,
+          "month": 8,
+          "day": 2
+        }
+      },
+      "case_dates": {
+        "arrest_date": {
+          "year": 1944,
+          "month": 8,
+          "day": 9
+        },
+        "sentenced_date": {
+          "year": 1945,
+          "month": 7
+        }
+      },
+      "source_ids": [
+        "hm-yoshida-kei",
+        "mcneil-release-list"
+      ],
+      "custody_evidence": "1944/1945 draft prosecution; identified on McNeil Island December 1946 prisoner-release planning list. Scheduled dates not entered as actual releases.",
+      "research_notes": [],
+      "map_note": "Approximate Heart Mountain protest/camp location (Yale); not a current address. Prison linked separately when established."
+    }
+  ]
+}
