@@ -1,0 +1,266 @@
+{
+  "batch": 280,
+  "expected_count": 3,
+  "expected_case_count": 4,
+  "reviewed_at": "2026-09-10",
+  "scope": "Anonymous affiliation audit and CWA cross-lead: three missing people with actual US prison service; four distinct custody episodes.",
+  "sources": {
+    "cowden_sentence": {
+      "label": "US Attorney, Eastern District of Missouri, Local Man Sentenced On Computer Hacking Charges, March 27, 2014",
+      "url": "https://www.justice.gov/usao-edmo/pr/local-man-sentenced-computer-hacking-charges"
+    },
+    "cowden_support": {
+      "label": "FreeAnons appeal republished by Samidoun, January 25, 2016; actual original custody and separate return to prison",
+      "url": "https://samidoun.net/2016/01/anonymous-activist-jon-cowden-remains-in-prison-for-his-role-in-oppalestine/"
+    },
+    "bop": {
+      "label": "Federal Bureau of Prisons public inmate locator, queried September 10, 2026; exact register-number matches and actual release fields recorded in accompanying audit CSV",
+      "url": "https://www.bop.gov/inmateloc/"
+    },
+    "liverman_sentence": {
+      "label": "US Attorney, Eastern District of Virginia, Man Sentenced to 5 Years for Hacking Conspiracy that Targeted Senior U.S. Government Officials, September 8, 2017",
+      "url": "https://www.justice.gov/usao-edva/pr/man-sentenced-5-years-hacking-conspiracy-targeted-senior-us-government-officials"
+    },
+    "liverman_counsel": {
+      "label": "Marina Medvin, defense counsel account of Liverman plea and sentencing",
+      "url": "https://medvinlaw.com/wikileaks-source-hacking-conspiracy-targeting-senior-u-s-officials-unauthorized-access-to-government-computer-systems-online-accounts-sentenced-to-5-years/"
+    },
+    "liverman_service": {
+      "label": "Jeetbot team biography, Justin D3f4ult Trades Liverman; first-party confirmation of served federal imprisonment and post-release career",
+      "url": "https://docs.jeetbot.ai/about-jeetbot/team"
+    },
+    "cwa_court": {
+      "label": "R v Kane Gamble, sentencing remarks, April 20, 2018, paragraph 7; named CWA members and political motivation",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2018/04/r-v-gamble-sentencing.pdf"
+    },
+    "cwa_arrest": {
+      "label": "WECT, 2 NC men accused of hacking US government computers, September 8, 2016",
+      "url": "https://www.wect.com/story/33049483/2-nc-men-accused-of-hacking-us-government-computers/"
+    },
+    "french_sentence": {
+      "label": "US Attorney, Northern District of Illinois, NullCrew sentencing announcement, November 1, 2016",
+      "url": "https://www.justice.gov/usao-ndil/pr/member-computer-hacking-group-nullcrew-sentenced-nearly-four-years-launching-cyber"
+    },
+    "french_plea": {
+      "label": "United States v Timothy Justen French, 14 CR 318, plea declaration, count three and factual basis",
+      "url": "https://www.justice.gov/usao-ndil/file/797921/dl?inline="
+    },
+    "french_letter": {
+      "label": "Letter from former NullCrew member 0rbit/rootcrysis, November 19, 2017; first-person prison and halfway-house account",
+      "url": "https://pastebin.com/A4yQG46t"
+    },
+    "french_context": {
+      "label": "Judith Bessant, Democracy denied, youth participation and criminalizing digital dissent, Journal of Youth Studies, 2016; NullCrew and political protest discussion",
+      "url": "https://www.dhi.ac.uk/san/waysofbeing/data/citizenship-robson-bessant-2016a.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "jonathan-cowden",
+      "match_names": [
+        "Jonathan Cowden",
+        "Jon Cowden"
+      ],
+      "prisoner": {
+        "name": "Jonathan Cowden",
+        "first_name": "Jonathan",
+        "last_name": "Cowden",
+        "aka": "Jon Cowden; _AnonymousSTL_",
+        "description": "Jonathan Cowden participated in Anonymous online actions supporting Palestinians. He served federal prison time after a computer-fraud conviction and was later returned to custody for alleged violations of his supervision conditions.",
+        "state": "Missouri",
+        "era": "2010s",
+        "affiliation": [
+          "Anonymous"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 38.63,
+        "lng": -90.2,
+        "cases": [
+          {
+            "charges": "Computer fraud, 18 U.S.C. 1030",
+            "sentence": "Fifteen months imposed March 27, 2014. Supporters confirm that he served approximately a year before release. Exact initial custody endpoints remain unverified."
+          },
+          {
+            "charges": "Alleged violations of supervision conditions following computer-fraud conviction",
+            "sentence": "Returned to custody in 2015 and held at FCI Victorville Medium I. The Bureau of Prisons records actual release July 5, 2016. The exact start remains unresolved."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "sentenced_date": {
+            "year": 2014,
+            "month": 3,
+            "day": 27
+          }
+        },
+        {
+          "release_date": {
+            "year": 2016,
+            "month": 7,
+            "day": 5
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "cowden_sentence",
+            "cowden_support"
+          ],
+          "custody_evidence": "The contemporary FreeAnons appeal describes an already completed substantial prison stay and a later separate return to custody. The imposed fifteen months is not used as an exact served-duration counter."
+        },
+        {
+          "source_ids": [
+            "cowden_support",
+            "bop"
+          ],
+          "custody_evidence": "January 2016 supporter reporting describes continuing imprisonment after a 2015 return. BOP register 37215-298 confirms release July 5, 2016. Conflicting supporter chronology is not converted into a start date."
+        }
+      ],
+      "source_ids": [
+        "cowden_sentence",
+        "cowden_support",
+        "bop"
+      ],
+      "custody_evidence": " The contemporary FreeAnons appeal describes an already completed substantial prison stay and a later separate return to custody. The imposed fifteen months is not used as an exact served-duration counter. January 2016 supporter reporting describes continuing imprisonment after a 2015 return. BOP register 37215-298 confirms release July 5, 2016. Conflicting supporter chronology is not converted into a start date."
+    },
+    {
+      "key": "justin-gray-liverman",
+      "match_names": [
+        "Justin Gray Liverman",
+        "Justin G. Liverman",
+        "Justin Liverman"
+      ],
+      "prisoner": {
+        "name": "Justin Gray Liverman",
+        "first_name": "Justin",
+        "last_name": "Liverman",
+        "aka": "D3F4ULT",
+        "description": "Justin Gray Liverman, known online as D3F4ULT, participated in Crackas With Attitude, a politically motivated hacking collective. He pleaded guilty to a conspiracy involving computer intrusions, identity theft and telephone harassment and served federal prison time.",
+        "state": "North Carolina",
+        "era": "2010s",
+        "affiliation": [
+          "Crackas With Attitude"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 34.72,
+        "lng": -76.73,
+        "cases": [
+          {
+            "charges": "Conspiracy involving unauthorized computer intrusions, identity theft and telephone harassment",
+            "sentence": "Five-year prison sentence imposed September 8, 2017, after a January 6 guilty plea. Actual prison service is confirmed by his later first-party biography. BOP records release from federal custody November 22, 2021, with Raleigh residential reentry management as the final location."
+          }
+        ],
+        "middle_name": "Gray"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2016,
+            "month": 9,
+            "day": 8
+          },
+          "sentenced_date": {
+            "year": 2017,
+            "month": 9,
+            "day": 8
+          },
+          "release_date": {
+            "year": 2021,
+            "month": 11,
+            "day": 22
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "liverman_sentence",
+            "liverman_counsel",
+            "liverman_service",
+            "cwa_court",
+            "cwa_arrest",
+            "bop"
+          ],
+          "custody_evidence": "First-party post-release biography confirms years in prison. BOP register 62701-056 supplies the actual federal-custody release date; it does not identify when he left a prison for reentry placement. No continuous incarceration from the 2016 arrest is inferred."
+        }
+      ],
+      "source_ids": [
+        "liverman_sentence",
+        "liverman_counsel",
+        "liverman_service",
+        "cwa_court",
+        "cwa_arrest",
+        "bop"
+      ],
+      "custody_evidence": " First-party post-release biography confirms years in prison. BOP register 62701-056 supplies the actual federal-custody release date; it does not identify when he left a prison for reentry placement. No continuous incarceration from the 2016 arrest is inferred."
+    },
+    {
+      "key": "timothy-justen-french",
+      "match_names": [
+        "Timothy Justen French",
+        "Timothy Justin French",
+        "Timothy French"
+      ],
+      "prisoner": {
+        "name": "Timothy Justen French",
+        "first_name": "Timothy",
+        "last_name": "French",
+        "aka": "Orbit; 0rbit; rootcrysis; crysis; c0rps3",
+        "description": "Timothy Justen French participated in NullCrew and Anonymous. He was imprisoned following a federal computer-damage conviction arising from NullCrew activity. His account describes about two years in prison before transfer to a halfway house in November 2017.",
+        "state": "Tennessee",
+        "era": "2010s",
+        "affiliation": [
+          "Anonymous",
+          "NullCrew"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 36.21,
+        "lng": -83.29,
+        "cases": [
+          {
+            "charges": "Intentionally damaging a protected computer without authorization, 18 U.S.C. 1030(a)(5)(A)",
+            "sentence": "Forty-five months imposed November 1, 2016. In a November 19, 2017 account, French described about two years actually spent in prison and a recent transfer to a halfway house in Manchester, Kentucky. Exact prison endpoints are not established."
+          }
+        ],
+        "middle_name": "Justen"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "sentenced_date": {
+            "year": 2016,
+            "month": 11,
+            "day": 1
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "french_sentence",
+            "french_plea",
+            "french_letter",
+            "french_context"
+          ],
+          "custody_evidence": "His first-person account directly establishes substantial US prison service and distinguishes prison from subsequent halfway-house placement. Later supporter notices and a 2023 BOP release refer to additional custody requiring separate research, not an uninterrupted extension of this episode."
+        }
+      ],
+      "source_ids": [
+        "french_sentence",
+        "french_plea",
+        "french_letter",
+        "french_context"
+      ],
+      "custody_evidence": " His first-person account directly establishes substantial US prison service and distinguishes prison from subsequent halfway-house placement. Later supporter notices and a 2023 BOP release refer to additional custody requiring separate research, not an uninterrupted extension of this episode."
+    }
+  ],
+  "research_notes": "Preserve all existing people, aliases, bios, cases, photos, vital dates and support websites. Do not classify every cybercrime or every foreign prisoner as eligible. Cowden support chronology has errors; use DOJ for conviction and BOP for actual final release. Liverman case includes harassment and identity theft, not merely publication or authorized security research. French final BOP release April 14, 2023 is not assigned to the earlier NullCrew case; his own 2017 prison-to-halfway-house transition prevents continuous arithmetic. Unknown birth/death dates and photos remain unset. Approximate city coordinates only. Existing USP Victorville is not FCI Victorville Medium I, so do not attach the wrong institution. BOP reentry location is not presumed to be the prison where the term was served. Month/day birthday without year cannot be stored accurately in this schema. No precise duration counters are invented."
+}

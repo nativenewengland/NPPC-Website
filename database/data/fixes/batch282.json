@@ -1,0 +1,76 @@
+{
+  "batch": 282,
+  "expected_count": 1,
+  "expected_case_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "Attica Brothers first custody pass: add missing defendant Anthony (Tony) Williams and his documented two-month pretrial jail episode.",
+  "sources": {
+    "custody": {
+      "label": "Attica News, vol. 1 no. 1, March 1973, printed page 5: Charges Dropped Against Tony Williams. Contemporary defense newsletter; two months actually spent in Erie County Jail, dismissal announced February 26.",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC510_scans/Attica/510.Prisons.AtticaNewsVol1No1.pdf#page=5"
+    },
+    "identity_death_notice": {
+      "label": "Akil (Herbie Scott Deane), The Death of Tony Williams, Attica News, vol. 2 no. 26, June 26, 1975, PDF page 4. Identifies Anthony Williams; death learned of June 19, not an established death date.",
+      "url": "https://freedomarchives.org/Documents/Finder/DOC510_scans/Attica/510.Prisons.AtticaNewsVol2No26.pdf#page=4"
+    },
+    "catalog": {
+      "label": "Freedom Archives collection catalog: publication dates for the March 1973 and June 26, 1975 Attica News issues.",
+      "url": "https://freedomarchives.net/search/search.php?collection_id=144&media=PDF&no_digital=1&subject%5B%5D=Prison"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "anthony-williams-attica",
+      "match_names": [
+        "Anthony Williams",
+        "Tony Williams"
+      ],
+      "prisoner": {
+        "name": "Anthony Williams",
+        "first_name": "Anthony",
+        "last_name": "Williams",
+        "aka": "Tony Williams",
+        "description": "Anthony \"Tony\" Williams was an Attica prisoner prosecuted after the September 1971 uprising. Attica News documented two months in Erie County Jail on the resulting indictment before its dismissal was announced in February 1973. A later notice by fellow prisoner Akil identified Williams by his full name and reported that he had died at Great Meadow Correctional Facility in Comstock, New York. The notice said the writers learned of his death on June 19, 1975; his actual death date remains unverified.",
+        "state": "New York",
+        "era": "1970s",
+        "affiliation": [
+          "Attica Brothers"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 42.8864,
+        "lng": -78.8784,
+        "cases": [
+          {
+            "charges": "Kidnapping, unlawful imprisonment and coercion in the Attica uprising prosecution",
+            "indicted": "December 1972, according to the June 1975 Attica News notice",
+            "convicted": "Charges dropped; dismissal announced February 26, 1973",
+            "sentence": "Spent two months in Erie County Jail because of the Attica indictment, according to the March 1973 defense newsletter. Prosecutor Brian Malone announced the charges had been dropped on February 26, citing a possible identification error. This was pretrial detention, not a prison sentence. Exact jail admission and departure dates are unverified; the dismissal is not recorded as a physical release.",
+            "imprisoned_for_months": 2
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "custody",
+            "identity_death_notice"
+          ],
+          "custody_evidence": "The March 1973 newsletter expressly attributes two months in Erie County Jail to this indictment. The later notice establishes the full-name match and indictment month. No jail endpoint is established."
+        }
+      ],
+      "source_ids": [
+        "custody",
+        "identity_death_notice",
+        "catalog"
+      ],
+      "custody_evidence": "Documented two-month pretrial jail stay tied to the Attica prosecution; distinct from his earlier sentence. Known deceased, with actual death date unverified."
+    }
+  ],
+  "research_notes": "Preserve every existing profile and case. No verified portrait, DOB or exact DOD. June 19, 1975 is the date his fellow prisoners learned of his death, not a death-date value. His earlier ordinary sentence and reported protective segregation are not converted into a continuous political-custody total. Both current-custody and released flags are false because he died imprisoned. No dates are invented to make a counter; the documented two months use the existing months field. Buffalo city coordinates mark the jail community approximately. The historical Erie County Jail is named in prose without assuming a modern institution match. The audit retains other Attica leads."
+}
