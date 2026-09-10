@@ -1,0 +1,133 @@
+{
+  "batch": 281,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-10",
+  "scope": "Anti-Rent War affiliation audit: two missing men with individual evidence of multi-day detention in the August 1845 crackdown.",
+  "sources": {
+    "vroman_custody": {
+      "label": "Albert Champlin Mayham, The Anti-Rent War on Blenheim Hill (1906), printed pages 56, 63, 69-70, 80-82; named prisoner and retrospective interview with William Vroman. PDF pages 73, 82, 90-91, 105-107.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_anti-rent_war_on_Blenheim_Hill_-_an_episode_of_the_40%27s_-_a_history_of_the_struggle_between_landlord_and_tenant_growing_out_of_the_patroon_system_in_the_eastern_part_of_New_York_%28IA_cu31924030043131%29.pdf#page=82"
+    },
+    "warner_daughter": {
+      "label": "Mayham (1906), printed pages 83-84, letter from Mrs. N. K. Hoagland identifying her father as John J. Warner and describing church confinement followed by a week at Schoharie. PDF pages 108-109.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_anti-rent_war_on_Blenheim_Hill_-_an_episode_of_the_40%27s_-_a_history_of_the_struggle_between_landlord_and_tenant_growing_out_of_the_patroon_system_in_the_eastern_part_of_New_York_%28IA_cu31924030043131%29.pdf#page=108"
+    },
+    "book_context": {
+      "label": "Mayham (1906), chapters XVII, XIX and XXIII; custody and release accounts, explicitly differing recollections of the raid chronology.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_anti-rent_war_on_Blenheim_Hill_-_an_episode_of_the_40%27s_-_a_history_of_the_struggle_between_landlord_and_tenant_growing_out_of_the_patroon_system_in_the_eastern_part_of_New_York_%28IA_cu31924030043131%29.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "william-vroman",
+      "match_names": [
+        "William Vroman",
+        "Wm. Vroman",
+        "Bill Vroman",
+        "William Vrooman"
+      ],
+      "prisoner": {
+        "name": "William Vroman",
+        "first_name": "William",
+        "last_name": "Vroman",
+        "aka": "Wm. Vroman; Bill Vroman",
+        "description": "William Vroman belonged to the anti-rent community on Blenheim Hill, New York, where tenant farmers resisted the manorial rent system. He was detained during the August 1845 crackdown and held under guard in Gilboa. His recollections of the movement and his imprisonment were recorded by historian Albert Champlin Mayham in 1906.",
+        "state": "New York",
+        "era": "1840s",
+        "affiliation": [
+          "Anti-Rent War"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.47,
+        "lng": -74.44,
+        "cases": [
+          {
+            "charges": "Detention during the 1845 Anti-Rent War crackdown; formal charge not established",
+            "sentence": "Held for several days in August 1845. Mayham names Vroman among the prisoners taken to Ira B. Rose's tavern at Gilboa and describes him still in custody on the following Sunday. Vroman later disputed an account that the prisoners had been paroled over the weekend. The account describes lawyer Thomas Smith obtaining the remaining prisoners' release. Exact admission and release dates and any formal sentence are not established."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1845,
+            "month": 8
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vroman_custody",
+            "book_context"
+          ],
+          "custody_evidence": "Named among the prisoners at Gilboa near the end of the week (printed p63), still explicitly a prisoner on Sunday (p69), and interviewed as a former prisoner who denied a weekend parole (p81). This establishes actual multi-day detention; conflicting recollections prevent assigning exact endpoints or a precise total."
+        }
+      ],
+      "source_ids": [
+        "vroman_custody",
+        "book_context"
+      ],
+      "custody_evidence": "Named among the prisoners at Gilboa near the end of the week (printed p63), still explicitly a prisoner on Sunday (p69), and interviewed as a former prisoner who denied a weekend parole (p81). This establishes actual multi-day detention; conflicting recollections prevent assigning exact endpoints or a precise total."
+    },
+    {
+      "key": "john-j-warner",
+      "match_names": [
+        "John J. Warner",
+        "John J Warner",
+        "John Warner"
+      ],
+      "prisoner": {
+        "name": "John J. Warner",
+        "first_name": "John",
+        "last_name": "Warner",
+        "aka": "John Warner",
+        "description": "John J. Warner was a tenant farmer in the anti-rent community on Blenheim Hill, New York. During the 1845 crackdown he was confined in the Brimstone church and then taken to Schoharie. His daughter later described his imprisonment and the family's opposition to the rents demanded by the landlords.",
+        "state": "New York",
+        "era": "1840s",
+        "affiliation": [
+          "Anti-Rent War"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.47,
+        "lng": -74.44,
+        "cases": [
+          {
+            "charges": "Detention during the 1845 Anti-Rent War crackdown; formal charge not established",
+            "sentence": "Confined in the Brimstone church during the August 1845 crackdown, then held at Schoharie for a week, according to his daughter's recollection published in 1906. The week refers to the Schoharie confinement, not the total including the church. Exact arrest and release days, the formal charge and any imposed sentence remain unverified."
+          }
+        ],
+        "middle_name": "J."
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1845,
+            "month": 8
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "warner_daughter",
+            "book_context"
+          ],
+          "custody_evidence": "Mrs. N. K. Hoagland identifies her father as John J. Warner (printed p83) and states that he was held in the church and then kept a prisoner at Schoharie for a week (p84). She separately describes her brother John being taken home from the church by their mother. The father and son must not be conflated."
+        }
+      ],
+      "source_ids": [
+        "warner_daughter",
+        "book_context"
+      ],
+      "custody_evidence": "Mrs. N. K. Hoagland identifies her father as John J. Warner (printed p83) and states that he was held in the church and then kept a prisoner at Schoharie for a week (p84). She separately describes her brother John being taken home from the church by their mother. The father and son must not be conflated."
+    }
+  ],
+  "research_notes": "Retrospective eyewitness evidence is identified as such. All populated fields on existing profiles are preserved, including bios, dates, photos, cases and support websites. August 1845 arrest precision only; no exact day, incarceration start, release date or numeric total is invented. Warner spent a week at Schoharie after church custody; do not turn the week into the total. William Vroman is not his father Thomas or an unverified cemetery namesake. John J. Warner is not his son John. No verified portrait, DOB or DOD was found. Approximate North Blenheim coordinates locate the home community, not a precisely geocoded jail. Historical church/tavern detention is not linked to a modern institution by name. Other named prisoners remain in the audit until their individual duration is verified."
+}
