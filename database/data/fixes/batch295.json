@@ -1,0 +1,431 @@
+{
+  "batch": 295,
+  "expected_count": 6,
+  "expected_case_count": 6,
+  "reviewed_at": "2026-09-10",
+  "scope": "Six missing defendants actually jailed in Boston after the attempted rescue of Anthony Burns; existing records preserved.",
+  "sources": {
+    "burns1854": {
+      "label": "Boston Slave Riot, and Trial of Anthony Burns (Boston: Fetridge, 1854), printed pages 10, 16–17, 34–37. Contemporary arrest roster, murder complaint, jail commitment and continued detention. OCR compared with scanned pages. Allegations are not treated as findings of guilt.",
+      "url": "https://archive.org/details/bostonslaveriot00conggoog"
+    },
+    "herald": {
+      "label": "New York Herald, June 7, 1854, page 1, The Boston Fugitive Slave Rioters. Reports Bishop, Stowell, Jackson and Morrison committed without bail; Brown, Wesley and Phenix held on riot bail; Cluer, Howe and Hopewell discharged; Thompson and Roberts awaiting further examination. OCR dateline is damaged; report date is not substituted for release date.",
+      "url": "https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_laceflower_ver01/data/sn83030313/00271743099/1854060701/1285.pdf"
+    },
+    "parker1855": {
+      "label": "Theodore Parker, The Trial of Theodore Parker (1855), introduction xvii–xix. Names the later federal defendants, including Cluer, Morrison and Bishop, and records termination of the prosecution. This is not proof of continuous imprisonment until April 1855.",
+      "url": "https://www.gutenberg.org/ebooks/31298"
+    },
+    "harvard_class": {
+      "label": "Report of the Harvard Class of 1853, 1849–1913, pages 46–51. Browne born February 14, 1835; May 26, 1854 arrest and actual Suffolk jail confinement; admitted to bail June 7, charge reduced to riot, grand jury found no indictment. Bail authorization is not an independently verified physical-release date.",
+      "url": "https://archive.org/details/reportofharvardc00harvrich"
+    },
+    "cemetery": {
+      "label": "Harmony Grove Cemetery official burial record for Albert Gallatin Jr Browne: birth February 14, 1835; death June 24, 1891; burial June 27, 1891. Burial date is not death date.",
+      "url": "https://harmonygrovesalem.discovereverafter.com/profile/34271121"
+    },
+    "portrait": {
+      "label": "Harmony Grove Cemetery, Notable Residents, portrait explicitly labeled Albert Gallatin Browne Jr., with embedded Schlesinger Library, Radcliffe Institute, Harvard University credit. Distinct from the adjacent father’s portrait.",
+      "url": "https://www.harmonygrovesalem.org/about/notable-residents"
+    },
+    "harvard_archive": {
+      "label": "Schlesinger Library, Papers of the Albert Gallatin Browne family, MC 298. Identifies the son, his 1854 imprisonment, university and later career; distinguishes his father (1805–1885).",
+      "url": "https://hollisarchives.lib.harvard.edu/catalog/sch00161"
+    },
+    "cluer_speech": {
+      "label": "The Liberator, July 7, 1854, report of the July Fourth antislavery meeting. Cluer personally described his recent Boston imprisonment over the Burns rescue and reaffirmed his abolitionist commitment.",
+      "url": "https://fair-use.org/the-liberator/1854/07/07/the-liberator-24-27.pdf"
+    },
+    "boston_map": {
+      "label": "US Department of Transportation ITS Deployment Evaluation, Boston city reference; approximate historical prosecution marker, not a residence.",
+      "url": "https://www.itskrs.its.dot.gov/node/193165"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "albert-gallatin-browne-jr",
+      "match_names": [
+        "Albert Gallatin Browne Jr.",
+        "Albert Gallatin Browne",
+        "Albert G. Browne Jr.",
+        "Albert G. Brown Jr.",
+        "Albert J. Brown Jr."
+      ],
+      "prisoner": {
+        "name": "Albert Gallatin Browne Jr.",
+        "first_name": "Albert",
+        "last_name": "Browne",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Albert Gallatin Browne Jr. was a Salem-born abolitionist and Harvard law student arrested in Boston on May 26, 1854, during the effort to prevent Anthony Burns from being returned to slavery. He was held in Suffolk jail on a murder complaint arising from the death of courthouse guard James Batchelder. The complaint was reduced to riot, and his Harvard class report records admission to bail on June 7; the grand jury found no indictment. His exact physical-release date remains unverified. He later worked as a journalist and as Governor John A. Andrew’s military secretary. He was born February 14, 1835, and died June 24, 1891.",
+        "cases": [
+          {
+            "charges": "Murder complaint arising from the attempted rescue of Anthony Burns; reduced to riot",
+            "convicted": "No conviction; Harvard class report records that the grand jury found no indictment",
+            "sentence": "Actual pretrial confinement in Suffolk jail following the May 26, 1854 arrest. The June 7 newspaper reports riot bail, and the Harvard class report dates admission to bail to June 7. The exact physical-release day and complete duration are unverified; no prison sentence is recorded."
+          }
+        ],
+        "middle_name": "Gallatin",
+        "aka": "Albert Gallatin Browne; Albert G. Browne Jr.; Albert G. Brown Jr.; Albert J. Brown Jr."
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1835,
+          "month": 2,
+          "day": 14
+        },
+        "death_date": {
+          "year": 1891,
+          "month": 6,
+          "day": 24
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 26
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "harvard_class",
+        "cemetery",
+        "harvard_archive",
+        "portrait",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald",
+            "harvard_class"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members.",
+      "photo": {
+        "source_file": "database/data/photos/albert-gallatin-browne-jr-harvard.webp",
+        "storage_path": "prisoners/albert-gallatin-browne-jr-harvard.webp",
+        "sha256": "c6561398cb8c9fa147da199a65829c2281d274df344e1e50d4882190fae74921",
+        "source_id": "portrait"
+      }
+    },
+    {
+      "key": "john-c-cluer",
+      "match_names": [
+        "John C. Cluer",
+        "John Cluer"
+      ],
+      "prisoner": {
+        "name": "John C. Cluer",
+        "first_name": "John",
+        "last_name": "Cluer",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "John C. Cluer was an abolitionist speaker jailed in Boston during the prosecution of people accused of attempting to rescue Anthony Burns from rendition under the Fugitive Slave Act. Arrested on May 27, 1854, he was committed to jail on allegations that included involvement in the death of James Batchelder. A June 7 newspaper report listed him as discharged. His later federal prosecution with other abolitionists ended in 1855; that proceeding does not establish uninterrupted jail time until then. At an antislavery meeting in July 1854, Cluer spoke publicly about his imprisonment and reaffirmed his commitment to abolition.",
+        "cases": [
+          {
+            "charges": "Murder complaint and alleged riot in the Anthony Burns rescue; later federal obstruction prosecution",
+            "convicted": "Discharged from initial proceeding by the June 7, 1854 report; later federal prosecution ended in 1855",
+            "sentence": "Jailed after arrest May 27, 1854; brought up again and committed during the ensuing proceedings. Reported discharged by June 7. Only release year 1854 is stored; the month and day of physical release are unverified. The later federal indictment is not treated as a continuous jail term or a separate proven custody episode."
+          }
+        ],
+        "middle_name": "C.",
+        "aka": "John Cluer"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 27
+          },
+          "release_date": {
+            "year": 1854
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "parker1855",
+        "cluer_speech",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald",
+            "parker1855",
+            "cluer_speech"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members."
+    },
+    {
+      "key": "john-morrison-burns-rescue",
+      "match_names": [
+        "John Morrison"
+      ],
+      "prisoner": {
+        "name": "John Morrison",
+        "first_name": "John",
+        "last_name": "Morrison",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "John Morrison was jailed in Boston in the aftermath of the May 1854 attempt to rescue Anthony Burns from being returned to slavery. Contemporary reporting identifies his arrest and commitment on a murder complaint connected with the death of courthouse guard James Batchelder. The June 7 report still listed Morrison among those held without bail. He was also named in the later federal prosecution of the rescue’s alleged participants, which ended in 1855. These records establish multi-day pretrial custody, but not the exact date of his eventual release or a continuous term extending to the later proceedings.",
+        "cases": [
+          {
+            "charges": "Murder complaint connected with the attempted rescue of Anthony Burns; later federal obstruction prosecution",
+            "convicted": "Held without bail in the June 7, 1854 report; later federal prosecution ended in 1855; no conviction verified",
+            "sentence": "Actual jail custody after arrest reported with the May 27, 1854 events; still held without bail in the June 7 report. Exact release and total duration remain unverified. The end of the later federal prosecution is not used as a jail-release date."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 27
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "parker1855",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald",
+            "parker1855"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members."
+    },
+    {
+      "key": "walter-bishop-burns-rescue",
+      "match_names": [
+        "Walter Bishop",
+        "Wesley Bishop"
+      ],
+      "prisoner": {
+        "name": "Walter Bishop",
+        "first_name": "Walter",
+        "last_name": "Bishop",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Walter Bishop, also recorded as Wesley Bishop, was a Black defendant jailed during Boston’s 1854 prosecution of people accused of participating in the attempted rescue of Anthony Burns. He was arrested on May 26 and committed to jail with the other defendants after the next day’s hearing on a collective murder complaint. The June 7 report listed Bishop among those held without bail. He was named among the defendants represented in the later federal proceedings. His exact release date, total time confined and later life remain unverified; the allegations are not recorded as a conviction.",
+        "cases": [
+          {
+            "charges": "Murder complaint arising from the attempted rescue of Anthony Burns; later federal obstruction prosecution",
+            "convicted": "Held without bail in the June 7, 1854 report; no conviction verified",
+            "sentence": "Taken into custody May 26, 1854 and committed to jail after the May 27 hearing. The June 7 newspaper reports continued confinement without bail. Exact release and total duration are unverified; no sentence is substituted for actual custody."
+          }
+        ],
+        "aka": "Wesley Bishop",
+        "race": "Black"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 26
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "parker1855",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald",
+            "parker1855"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members."
+    },
+    {
+      "key": "john-j-roberts-burns-rescue",
+      "match_names": [
+        "John J. Roberts",
+        "John Roberts"
+      ],
+      "prisoner": {
+        "name": "John J. Roberts",
+        "first_name": "John",
+        "last_name": "Roberts",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "John J. Roberts was arrested in Boston on May 26, 1854, during the attempted rescue of Anthony Burns from rendition to slavery. Contemporary reporting initially accused him of breaking a gas lamp in Court Square. He was then included in the collective murder complaint arising from James Batchelder’s death and committed to jail after the May 27 hearing. The June 7 newspaper report listed Roberts as still awaiting further examination. His eventual disposition, exact release date and total time in custody have not been verified.",
+        "cases": [
+          {
+            "charges": "Collective murder complaint after the Anthony Burns rescue attempt; initial allegation of breaking a gas lamp",
+            "convicted": "Awaiting further examination in the June 7, 1854 report; final disposition unverified",
+            "sentence": "Actual custody from the May 26 arrest, followed by jail commitment on May 27 and continued proceedings reported June 7. No verified sentence, release date or complete duration. A newspaper prediction of discharge is not treated as an actual discharge."
+          }
+        ],
+        "middle_name": "J.",
+        "aka": "John Roberts"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 26
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members."
+    },
+    {
+      "key": "walter-phoenix-burns-rescue",
+      "match_names": [
+        "Walter Phoenix",
+        "Walter Phenix",
+        "Walter Phinney"
+      ],
+      "prisoner": {
+        "name": "Walter Phoenix",
+        "first_name": "Walter",
+        "last_name": "Phoenix",
+        "gender": "Male",
+        "state": "Massachusetts",
+        "era": "1850s",
+        "affiliation": [
+          "Abolitionist movement"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 42.36,
+        "lng": -71.06,
+        "description": "Walter Phoenix, whose name also appears as Phenix and Phinney in contemporary reporting, was a Black defendant jailed after the May 26, 1854 attempt to rescue Anthony Burns in Boston. Initially accused of riotous conduct, he was included in a collective murder complaint and committed to jail after the May 27 hearing. The June 7 report placed him among the defendants held on $3,000 bail for riot. The available records establish multi-day pretrial detention; they do not establish when bail was posted, his exact release date or the final disposition.",
+        "cases": [
+          {
+            "charges": "Collective murder complaint after the Anthony Burns rescue attempt; later held on riot bail",
+            "convicted": "Held on $3,000 riot bail in the June 7, 1854 report; final disposition unverified",
+            "sentence": "Actual custody after arrest May 26, 1854 and jail commitment May 27. The June 7 report records $3,000 bail for riot. Bail being set is not proof that it was posted; exact release and total duration remain unverified."
+          }
+        ],
+        "aka": "Walter Phenix; Walter Phinney",
+        "race": "Black"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1854,
+            "month": 5,
+            "day": 26
+          }
+        }
+      ],
+      "source_ids": [
+        "burns1854",
+        "herald",
+        "boston_map"
+      ],
+      "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served.",
+      "case_research": [
+        {
+          "source_ids": [
+            "burns1854",
+            "herald"
+          ],
+          "custody_evidence": "The contemporary May arrest and jail-commitment account, followed by the June 7 report of continued proceedings, establishes actual multi-day detention. No imposed term or unverified release day is substituted for time served."
+        }
+      ],
+      "status_research": "Historical case only; no current custody. An unknown release date remains unknown. Membership in the Boston Vigilance Committee is not inferred from prosecution alongside its members."
+    }
+  ],
+  "research_notes": "The source custody accounts distinguish accusations, commitment, bail, discharge and later prosecution. Unknown endpoints and exact totals are not invented. Boston marks the historical case city. No formal Boston Vigilance Committee membership is inferred. No personal support website verified."
+}
