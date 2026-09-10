@@ -100,6 +100,21 @@
       "label": "University of Washington · Adam Nolan, Southern Injustice and Radical Discontent",
       "url": "https://digital.lib.washington.edu/researchworks/bitstreams/28f0465b-5885-4d57-ba1c-d714ee8f8e88/download",
       "note": "2014 history thesis: Louisville’s successful 1972 organization, page 18; Houston’s successive organizations, pages 40–46."
+    },
+    "soledad-colley": {
+      "label": "Zoe Colley · War without Terms (2016), PDF pages 22–23",
+      "url": "https://discovery.dundee.ac.uk/ws/portalfiles/portal/11996627/War_Without_Terms_Main_Document.pdf#page=22",
+      "note": "Peer-reviewed author manuscript, History 101(345), 265–286, DOI 10.1111/1468-229X.12228. Explicitly identifies an underground chapter formed by George Jackson and W. L. Nolen at Soledad in late 1969."
+    },
+    "paterson-boesel": {
+      "label": "Boesel, Goldberg and Marx · Rebellion in Plainfield (1971), printed page 83",
+      "url": "https://www.mit.edu/~gtmarx/rebellion_in_plainfield.pdf#page=17",
+      "note": "Original study in Cities Under Siege, scan hosted by coauthor Gary T. Marx. Describes Panthers from Paterson organizing in Plainfield in summer 1968; it does not specify a chapter charter."
+    },
+    "paterson-museum": {
+      "label": "Paterson Museum · African American history timeline, 1968",
+      "url": "https://patersonmuseum.com/african-american-history-timeline/",
+      "note": "Records the New Jersey Party fundraiser at Integrity Masonic Temple and John David Hall III recruiting for a Paterson chapter."
     }
   },
   "locations": [
@@ -1081,6 +1096,23 @@
       "geoid": "3137000"
     },
     {
+      "id": "paterson",
+      "name": "Paterson",
+      "state": "New Jersey",
+      "country": "United States",
+      "lat": 40.914766,
+      "lng": -74.162829,
+      "kind": "affiliate",
+      "label": "Local Panther organizing group",
+      "note": "A 1971 study describes Panthers from Paterson helping organize in Plainfield in summer 1968. The Paterson Museum also records a local Party fundraiser and chapter recruitment that year. These sources support an active organizing presence; a formal chapter charter and its date remain unverified.",
+      "neighborhoods": [],
+      "evidence": [
+        "paterson-boesel",
+        "paterson-museum"
+      ],
+      "geoid": "3457000"
+    },
+    {
       "id": "peekskill",
       "name": "Peekskill",
       "state": "New York",
@@ -1342,6 +1374,22 @@
         "directory-1970"
       ],
       "geoid": "5363000"
+    },
+    {
+      "id": "soledad",
+      "name": "Soledad",
+      "state": "California",
+      "country": "United States",
+      "lat": 36.434522,
+      "lng": -121.317759,
+      "kind": "prison",
+      "label": "Underground prison chapter",
+      "note": "Historian Zoe Colley identifies an underground Panther chapter formed at Soledad by George Jackson and W. L. Nolen in late 1969. This marker locates the community, not the prison building; the source does not supply an exact founding date.",
+      "neighborhoods": [],
+      "evidence": [
+        "soledad-colley"
+      ],
+      "geoid": "0672520"
     },
     {
       "id": "stamford",
