@@ -1,0 +1,101 @@
+{
+  "batch": 288,
+  "expected_count": 1,
+  "expected_case_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "Black Liberation Movement prison-organizer research: one missing identity and documented prolonged administrative confinement.",
+  "sources": {
+    "ccr": {
+      "label": "Kijana Tashiri Askari, Center for Constitutional Rights, September 22, 2017: first-person account of twenty-one years in solitary and transfer to general population. CCR identifies him as an Ashker class member.",
+      "url": "https://ccrjustice.org/home/blog/2017/09/22/peaks-and-valleys-being-released-general-population-after-21-years-solitary"
+    },
+    "court": {
+      "label": "Harrison v. Institutional Gang of Investigations, C07-3824 SI, February 22, 2010, pp.2,4–5,9–14. Federal order documents indefinite SHU placement and political-mail restrictions; denies defendants summary judgment, not a final trial judgment.",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_07-cv-03824/pdf/USCOURTS-cand-3_07-cv-03824-6.pdf"
+    },
+    "manual": {
+      "label": "Askari, A Survivor’s Manual for Solitary Confinement, 2011, Prisoner Hunger Strike Solidarity. First-person account distinguishes earlier crimes and personal political development from later organizing.",
+      "url": "https://prisonerhungerstrikesolidarity.wordpress.com/voices-from-inside/a-survivors-manual-for-solitary-confinement-self-destruction-to-the-reconstruction-of-self/"
+    },
+    "watch": {
+      "label": "Solitary Watch, May 1, 2012, Prisoners in Solitary Confinement in California Respond to Prison Policy Reforms. Editor identifies Askari as Marcus Harrison, H54077, in SHU since 1994.",
+      "url": "https://solitarywatch.org/2012/05/01/inmates-in-solitary-confinement-in-california-respond-to-prison-policy-reforms/"
+    },
+    "nolen": {
+      "label": "Askari, Long live the spirit of Comrade W.L. Nolen, November 28, 2016. Byline identifies his leadership of the W.L. Nolen Mentorship Program.",
+      "url": "https://sfbayview.com/2016/11/long-live-the-spirit-of-comrade-w-l-nolen/"
+    },
+    "fund": {
+      "label": "Coco Thompson for Charlotte Rosen, Support Brotha Kijana Tashiri Askari’s Legal Fund, August 17, 2021. Supporters report continuing imprisonment and a pending parole hearing; not proof of present-day status.",
+      "url": "https://www.gofundme.com/f/support-brotha-kijana-tashiri-askari"
+    }
+  },
+  "institutions": {
+    "4d17ee62-74b8-4c04-9e72-a9d58580d5a8": "Pelican Bay State Prison"
+  },
+  "entries": [
+    {
+      "key": "kijana-tashiri-askari",
+      "match_names": [
+        "Kijana Tashiri Askari",
+        "Kijana Askari",
+        "Marcus Harrison",
+        "Marcus L Harrison",
+        "Kijani Tashiri Askari"
+      ],
+      "prisoner": {
+        "name": "Kijana Tashiri Askari",
+        "first_name": "Kijana",
+        "middle_name": "Tashiri",
+        "last_name": "Askari",
+        "aka": "Marcus Harrison; Marcus L. Harrison; Kijani Tashiri Askari",
+        "inmate_number": "H54077",
+        "description": "Kijana Tashiri Askari, also known as Marcus L. Harrison, is a New Afrikan prison organizer and writer who chaired the W.L. Nolen Mentorship Program. He challenged censorship of Black August and other political correspondence at Pelican Bay. He attributes his prolonged solitary confinement to political commemoration; prison officials relied on gang validation. He later joined the Ashker class action and reported transfer to general population in 2015. Supporters still sought parole assistance in 2021. His present custody status and vital dates remain unverified.",
+        "state": "California",
+        "era": "1990s",
+        "affiliation": [
+          "Black Liberation Movement"
+        ],
+        "gender": "Male",
+        "race": "Black",
+        "in_custody": false,
+        "released": false,
+        "lat": 41.76,
+        "lng": -124.2,
+        "cases": [
+          {
+            "charges": "Indefinite security-housing placement and restrictions on Black August political correspondence",
+            "sentence": "Administrative confinement, not a new criminal sentence. Askari dates his solitary confinement from August 12, 1994 to November 4, 2015, when he entered Kern Valley general population. He connects it to Black August observance. The 2010 federal order confirms indefinite Pelican Bay SHU placement following gang validation and use of political correspondence as gang evidence. It denied officials summary judgment on censorship claims; it did not invalidate his entire confinement. Transfer from solitary was not release from prison. Original criminal convictions are outside this activism case.",
+            "institution_id": "4d17ee62-74b8-4c04-9e72-a9d58580d5a8"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "ccr",
+        "court",
+        "manual",
+        "watch",
+        "nolen",
+        "fund"
+      ],
+      "custody_evidence": "Court-established indefinite SHU confinement, independently corroborated by a 2012 report. First-person account supplies exact segregation endpoints, kept in attributed prose because the end was an internal prison transfer.",
+      "case_research": [
+        {
+          "source_ids": [
+            "ccr",
+            "court",
+            "watch",
+            "manual"
+          ],
+          "custody_evidence": "Actual multi-year administrative confinement. Political-retaliation explanation attributed; officials’ gang-validation rationale distinguished. Earlier convictions and 1991–1992 weapons discipline are not entered as activism cases."
+        }
+      ],
+      "status_research": "2021 supporters described custody, but no present-day custody or release verified. Both status flags false retain Other. No structured release date or ongoing counter; the 2015 event ended solitary only."
+    }
+  ],
+  "research_notes": "Preserve all existing identities and fields. Support website left blank; neither news nor an old fundraiser is substituted for a verified personal support site. Exact segregation dates remain in attributed case prose, not prisoner release/counter fields. No unverified birth/death date, current custody, actual prison release or portrait. Crescent City coordinates approximate community, not exact prison premises. New Afrikan organizing supports broader movement label; no formal BGF membership is inferred from administrative validation."
+}
