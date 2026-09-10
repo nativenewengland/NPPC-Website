@@ -1,0 +1,346 @@
+{
+  "batch": 279,
+  "expected_count": 4,
+  "expected_case_count": 7,
+  "reviewed_at": "2026-09-10",
+  "scope": "Animal Liberation Front / Animal Liberation Movement affiliation audit: four missing grand-jury resisters, seven distinct custody episodes.",
+  "sources": {
+    "caff": {
+      "label": "Western Wildlife Unit, Memories of Freedom, chapters 6–7; participant account identifying CAFF volunteers",
+      "url": "https://theanarchistlibrary.org/library/western-wildlife-unit-of-the-animal-liberation-front-memories-of-freedom"
+    },
+    "trimiew_bail": {
+      "label": "In re Grand Jury Proceedings (Trimiew), 9 F.3d 1388, October 20, 1993",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F3/9/1388/540924/"
+    },
+    "trimiew_appeal": {
+      "label": "In re Grand Jury Proceedings (Trimiew), 9 F.3d 1389, November 12, 1993",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F3/9/1389/541029/"
+    },
+    "trimiew_custody": {
+      "label": "The Physiologist, December 1993, p.240, Third Witness Jailed, Two Freed in WSU Break-in (PDF p.34)",
+      "url": "https://www.physiology.org/docs/default-source/archive_tphys/the-physiologist-newsletter-1993-december.pdf?sfvrsn=52445d8c_2"
+    },
+    "stout_trimiew_appeal": {
+      "label": "In re Grand Jury Proceedings (Stout and Trimiew), 21 F.3d 1113, March 28, 1994",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F3/21/1113/623084/"
+    },
+    "stout_trimiew_custody": {
+      "label": "Animal People, June 1994 Court Calendar, Activism: continued confinement from February 18",
+      "url": "https://newspaper.animalpeopleforum.org/1994/06/01/court-calendar-52/"
+    },
+    "lynn_1999": {
+      "label": "Gina Lynn, Gina Lynn, the Grand Jury and Jail, Earth First!, Samhain 1999, p.12 (PDF p.13); first-person custody account and captioned portrait",
+      "url": "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_20_1_1.pdf"
+    },
+    "lynn_arrest": {
+      "label": "San Francisco Chronicle/SFGate, Animal Rights Activist Starts Hunger Strike, September 13, 1999",
+      "url": "https://www.sfgate.com/bayarea/article/ALAMEDA-COUNTY-Animal-Rights-Activist-Starts-2908869.php"
+    },
+    "lynn_2004": {
+      "label": "Earth First!, November–December 2004, p.13 (PDF p.16), Grand Jury Resister Released from Custody",
+      "url": "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_25_1_3.pdf"
+    },
+    "lynn_release": {
+      "label": "Paul Shukovsky, Seattle Post-Intelligencer, Animal rights activist released; archive header September 17, 2004",
+      "url": "https://www.seattlepi.com/seattlenews/article/animal-rights-activist-released-1154498.php"
+    },
+    "berardi_custody": {
+      "label": "Paul Shukovsky, Seattle Post-Intelligencer, Animal rights activist rebuffs federal grand jury, August 25, 2004",
+      "url": "https://www.seattlepi.com/seattlenews/article/animal-rights-activist-rebuffs-federal-grand-jury-1152552.php"
+    }
+  },
+  "institutions": {
+    "4a4b11de-9d1f-4563-b105-418cf3dfc8ad": "SeaTac Federal Detention Center"
+  },
+  "entries": [
+    {
+      "key": "kimberly-jeannine-trimiew",
+      "match_names": [
+        "Kimberly Jeannine Trimiew",
+        "Kimberly Trimiew",
+        "Kim Trimiew",
+        "Kim Trimview"
+      ],
+      "prisoner": {
+        "name": "Kimberly Jeannine Trimiew",
+        "first_name": "Kimberly",
+        "last_name": "Trimiew",
+        "description": "Kimberly Jeannine Trimiew volunteered with the Coalition Against Fur Farms. Her refusal to answer federal grand-jury questions led to separate periods of civil-contempt confinement in 1993 and 1994.",
+        "state": "Washington",
+        "era": "1990s",
+        "affiliation": [
+          "Animal Liberation Movement",
+          "Coalition Against Fur Farms"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 47.66,
+        "lng": -117.43,
+        "cases": [
+          {
+            "charges": "Civil contempt for refusing grand-jury testimony",
+            "sentence": "About two weeks in custody in October 1993; released on bail October 20. The contempt order was subsequently affirmed November 12, 1993."
+          },
+          {
+            "charges": "Civil contempt for refusing grand-jury testimony after immunity",
+            "sentence": "Confined beginning February 18, 1994, and still jailed in June reporting. The Ninth Circuit affirmed the contempt order March 28. Exact release date unverified."
+          }
+        ],
+        "middle_name": "Jeannine"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "release_date": {
+            "year": 1993,
+            "month": 10,
+            "day": 20
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 1994,
+            "month": 2,
+            "day": 18
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "trimiew_bail",
+            "trimiew_appeal",
+            "trimiew_custody"
+          ],
+          "custody_evidence": "The December 1993 Physiologist reports two weeks actually confined and release on October 20. The exact confinement start is not established."
+        },
+        {
+          "source_ids": [
+            "stout_trimiew_appeal",
+            "stout_trimiew_custody"
+          ],
+          "custody_evidence": "Contemporary June 1994 reporting identifies continuing confinement from February 18, independently of the earlier 1993 episode."
+        }
+      ],
+      "source_ids": [
+        "caff",
+        "trimiew_bail",
+        "trimiew_appeal",
+        "trimiew_custody",
+        "stout_trimiew_appeal",
+        "stout_trimiew_custody"
+      ],
+      "custody_evidence": " The December 1993 Physiologist reports two weeks actually confined and release on October 20. The exact confinement start is not established. Contemporary June 1994 reporting identifies continuing confinement from February 18, independently of the earlier 1993 episode."
+    },
+    {
+      "key": "deborah-stout",
+      "match_names": [
+        "Deborah Stout"
+      ],
+      "prisoner": {
+        "name": "Deborah Stout",
+        "first_name": "Deborah",
+        "last_name": "Stout",
+        "description": "Deborah Stout volunteered with the Coalition Against Fur Farms. In 1994 she was confined for civil contempt after refusing immunized testimony before a federal grand jury investigating animal-rights activity.",
+        "state": "Washington",
+        "era": "1990s",
+        "affiliation": [
+          "Animal Liberation Movement",
+          "Coalition Against Fur Farms"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 47.66,
+        "lng": -117.43,
+        "cases": [
+          {
+            "charges": "Civil contempt for refusing grand-jury testimony after immunity",
+            "sentence": "Jailed February 18, 1994; continued confinement was reported in June. Her contempt order was affirmed March 28. The reviewed sources do not establish her release date."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1994,
+            "month": 2,
+            "day": 18
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "stout_trimiew_appeal",
+            "stout_trimiew_custody"
+          ],
+          "custody_evidence": "June 1994 reporting documents several months of actual confinement, not merely a potential contempt term."
+        }
+      ],
+      "source_ids": [
+        "caff",
+        "stout_trimiew_appeal",
+        "stout_trimiew_custody"
+      ],
+      "custody_evidence": " June 1994 reporting documents several months of actual confinement, not merely a potential contempt term."
+    },
+    {
+      "key": "gina-lynn",
+      "match_names": [
+        "Gina Lynn"
+      ],
+      "prisoner": {
+        "name": "Gina Lynn",
+        "first_name": "Gina",
+        "last_name": "Lynn",
+        "description": "Gina Lynn organized with the Animal Rights Direct Action Coalition and volunteered for No Compromise. Her resistance to federal grand juries led to separate jail stays in California and Missouri in 1999 and at SeaTac in 2004.",
+        "state": "California",
+        "era": "1990s",
+        "affiliation": [
+          "Animal Liberation Movement",
+          "Animal Rights Direct Action Coalition"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 37.13,
+        "lng": -122.12,
+        "cases": [
+          {
+            "charges": "Contempt warrant for declining a federal grand-jury appearance",
+            "sentence": "Held in an Oakland jail over the weekend, September 10–13, 1999; released on a promise to attend proceedings in Missouri."
+          },
+          {
+            "charges": "Contempt for refusing to cooperate with a federal grand jury",
+            "sentence": "Taken into custody October 5, 1999, in Missouri; her account was published while she was held at St. Louis County Jail in Clayton. Release date unverified."
+          },
+          {
+            "charges": "Civil contempt for refusing federal grand-jury testimony",
+            "sentence": "Confined at SeaTac beginning August 26, 2004. Released in September after about three weeks when the judge concluded that continued confinement would not compel testimony.",
+            "institution_id": "4a4b11de-9d1f-4563-b105-418cf3dfc8ad"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1999,
+            "month": 9,
+            "day": 10
+          },
+          "incarceration_date": {
+            "year": 1999,
+            "month": 9,
+            "day": 10
+          },
+          "release_date": {
+            "year": 1999,
+            "month": 9,
+            "day": 13
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 1999,
+            "month": 10,
+            "day": 5
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 2004,
+            "month": 8,
+            "day": 26
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "lynn_1999",
+            "lynn_arrest"
+          ],
+          "custody_evidence": "Her first-person account dates the arrest September 10 and release the following Monday, September 13. Contemporary September 13 reporting corroborates the weekend custody."
+        },
+        {
+          "source_ids": [
+            "lynn_1999"
+          ],
+          "custody_evidence": "Her published account describes renewed confinement on October 5 and subsequent jail visits and support activity. This episode starts after her September release."
+        },
+        {
+          "source_ids": [
+            "lynn_2004",
+            "lynn_release"
+          ],
+          "custody_evidence": "Earth First! dates actual confinement August 26 and reports release at a hearing on the 23rd day. The newspaper corroborates about three weeks at SeaTac; exact release-day wording conflicts."
+        }
+      ],
+      "source_ids": [
+        "lynn_1999",
+        "lynn_arrest",
+        "lynn_2004",
+        "lynn_release"
+      ],
+      "custody_evidence": " Her first-person account dates the arrest September 10 and release the following Monday, September 13. Contemporary September 13 reporting corroborates the weekend custody. Her published account describes renewed confinement on October 5 and subsequent jail visits and support activity. This episode starts after her September release. Earth First! dates actual confinement August 26 and reports release at a hearing on the 23rd day. The newspaper corroborates about three weeks at SeaTac; exact release-day wording conflicts.",
+      "photo": {
+        "source_file": "database/data/photos/gina-lynn-lexxie-earth-first.png",
+        "storage_path": "prisoners/gina-lynn-lexxie-earth-first.png",
+        "sha256": "e5e1df8f36d722b586c4d3bc96c8a2a31a4693e555ca28dba4c744f01e5c987a",
+        "source_id": "lynn_1999"
+      }
+    },
+    {
+      "key": "kim-berardi",
+      "match_names": [
+        "Kim Berardi"
+      ],
+      "prisoner": {
+        "name": "Kim Berardi",
+        "first_name": "Kim",
+        "last_name": "Berardi",
+        "description": "Kim Berardi is an animal-rights activist who spent several days in federal custody at SeaTac in July 2004 for refusing grand-jury testimony.",
+        "state": "Washington",
+        "era": "2000s",
+        "affiliation": [
+          "Animal Liberation Movement"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 47.44,
+        "lng": -122.28,
+        "cases": [
+          {
+            "charges": "Civil contempt for refusing federal grand-jury testimony",
+            "sentence": "Several days in custody at SeaTac in July 2004; exact custody dates remain unverified.",
+            "institution_id": "4a4b11de-9d1f-4563-b105-418cf3dfc8ad"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 2004,
+            "month": 7
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "berardi_custody"
+          ],
+          "custody_evidence": "Contemporary August reporting explicitly describes a few days in SeaTac during the preceding month."
+        }
+      ],
+      "source_ids": [
+        "berardi_custody"
+      ],
+      "custody_evidence": " Contemporary August reporting explicitly describes a few days in SeaTac during the preceding month."
+    }
+  ],
+  "research_notes": "Preserve all existing identities and records. No ALF membership, arson conviction, or involvement in investigated acts is inferred from refusing testimony. Formal CAFF and ARDAC connections are separately sourced. Unknown vital dates, endpoints and three portraits stay unset. Approximate city coordinates: Spokane, Boulder Creek and SeaTac. Do not confuse Gina Lynn with the adult performer, Deborah Stout with a Virginia murder defendant, or Clayton, Missouri jail with the St. Louis County Jail in Duluth, Minnesota. Only the independently identified SeaTac institution is linked. Unknown ends on released profiles must not count to the present. The September 1999 weekend and October Missouri confinement are separate. No speculative exact day counter is created from the 1993 two-week or 2004 three-week descriptions."
+}
