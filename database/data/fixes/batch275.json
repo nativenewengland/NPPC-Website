@@ -1,0 +1,68 @@
+{
+  "batch": 275,
+  "expected_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "First ACT UP affiliation pass: add a missing activist with confirmed multiday US peace-protest custody; preserve existing records.",
+  "sources": {
+    "bauer-custody": {
+      "label": "Jamie Bauer, ACT UP Oral History Project interview, March 7, 2004, pp.18–20",
+      "url": "https://www.actuporalhistory.org/s/048-Jamie-Bauer.pdf"
+    },
+    "waterloo-statement": {
+      "label": "Statement of the Waterloo 54, The Witness, December 1983, pp.13–14",
+      "url": "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1983_Watermarked/Witness_19831201.pdf"
+    },
+    "bauer-identity": {
+      "label": "NYC Trans Oral History Project, Jamie Bauer interview description, June 5, 2017",
+      "url": "https://nyctransoralhistory.org/interview/jamie-bauer/"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "jamie-bauer",
+      "match_names": [
+        "Jamie Bauer",
+        "Jamie R. Bauer",
+        "Amy Bauer"
+      ],
+      "prisoner": {
+        "name": "Jamie Bauer",
+        "first_name": "Jamie",
+        "last_name": "Bauer",
+        "description": "Jamie Bauer is a New York activist and direct-action trainer involved in Women's Pentagon Action and ACT UP. They were among the Waterloo 54 arrested during a 1983 peace walk to the Seneca encampment and spent several days confined in a school cafeteria before release.",
+        "state": "New York",
+        "era": "1980s",
+        "affiliation": [
+          "ACT UP",
+          "Women's Pentagon Action"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 42.9,
+        "lng": -76.86,
+        "cases": [
+          {
+            "charges": "Arrest during the Waterloo peace walk; exact filed charge unverified",
+            "sentence": "Held for several days after the July 30, 1983 peace walk. Bauer recalled approximately four or five days before release on recognizance as a Jane Doe. Confinement was in a junior high school cafeteria. Exact release date and any judicial sentence remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": {
+        "arrest_date": {
+          "year": 1983,
+          "month": 7,
+          "day": 30
+        }
+      },
+      "source_ids": [
+        "bauer-custody",
+        "waterloo-statement",
+        "bauer-identity"
+      ],
+      "custody_evidence": "Bauer personally describes several days of confinement, followed by recognizance release, in the recorded 2004 interview.",
+      "research_notes": "The contemporary collective statement establishes July 30. Its threatened incitement charge is not treated as the filed charge. No release date or exact duration is calculated. Birthdate remains unknown; archival coverage dates and ages are not birthdate evidence. Coordinates approximate Waterloo, the arrest locality, not a detention facility. Historical name is a duplicate-check key only; display name and pronouns follow the later interview."
+    }
+  ]
+}
