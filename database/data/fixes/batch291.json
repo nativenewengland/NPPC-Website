@@ -1,0 +1,171 @@
+{
+  "batch": 291,
+  "expected_count": 2,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-10",
+  "scope": "Two missing New York Black Panther members with verified multi-day pretrial custody; three distinct cases, one identified portrait and two year-precision vital dates.",
+  "sources": {
+    "airport": {
+      "label": "Al Rosenthal, The Militant, February 7, 1969, page 5. Contemporary report naming both defendants and confirming continued jail custody.",
+      "url": "https://www.themilitant.com/1969/3306/MIL3306.pdf#page=5"
+    },
+    "ford_account": {
+      "label": "Joudon M. Ford, CCNY – A Brief Reminiscence, The Paper Reflections, PDF page 8, updated June 2023. First-person custody and return-to-college account.",
+      "url": "https://www.ccny.cuny.edu/sites/default/files/2023-06/Paper_reflection_update_June2023.pdf#page=8"
+    },
+    "obituary": {
+      "label": "City College Alumni Association, The Alumnus, Winter 2025, page 35 (PDF page 19). Joudon M. Ford obituary, 1950–2024.",
+      "url": "https://s3.us-east-1.amazonaws.com/magazinesccnyalumni.org/magazines/CCNY_Alumnus_Winter_2025_digital.pdf#page=19"
+    },
+    "portrait": {
+      "label": "Naomi Fry, The New Yorker, September 28, 2018. Named 1968 Joudon Ford portrait by Bev Grant, courtesy Osmos.",
+      "url": "https://www.newyorker.com/culture/photo-booth/a-photographers-life-changing-encounter-with-political-struggle"
+    }
+  },
+  "institutions": {
+    "1b84c078-2ee3-4856-b40f-1a2049f0f067": "Rikers Island"
+  },
+  "entries": [
+    {
+      "key": "joudon-ford",
+      "match_names": [
+        "Joudon Ford",
+        "Joudon M Ford",
+        "Joudon Major Ford"
+      ],
+      "prisoner": {
+        "state": "New York",
+        "era": "1960s",
+        "affiliation": [
+          "Black Panther Party"
+        ],
+        "in_custody": false,
+        "lat": 40.71,
+        "lng": -74.01,
+        "name": "Joudon M. Ford",
+        "first_name": "Joudon",
+        "middle_name": "M.",
+        "last_name": "Ford",
+        "aka": "Joudon Ford",
+        "gender": "Male",
+        "race": "Black",
+        "released": true,
+        "description": "Joudon M. Ford was a New York Black Panther leader and later a City College student newspaper editor, banker and teacher. He described two separate periods of pretrial detention in 1969 and regarded the prosecution as political. He returned to college that fall. His alumni obituary records his lifespan as 1950–2024; exact birth and death dates remain unverified.",
+        "cases": [
+          {
+            "charges": "Attempting to carry a concealed weapon onto an airplane",
+            "sentence": "Pretrial detention; disposition unverified. Ford recalled one month in federal detention at West Street after the January 24, 1969 airport arrest. He acknowledged possessing guns but denied intending a hijacking.",
+            "imprisoned_for_months": 1
+          },
+          {
+            "charges": "Attempted murder, according to Ford’s retrospective account",
+            "sentence": "Ford recalled four months of pretrial detention at Rikers Island in 1969. He maintained his innocence. No verdict, sentence or exact release date has been verified.",
+            "imprisoned_for_months": 4,
+            "institution_id": "1b84c078-2ee3-4856-b40f-1a2049f0f067"
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1950
+        },
+        "death_date": {
+          "year": 2024
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 1,
+            "day": 24
+          }
+        },
+        {}
+      ],
+      "source_ids": [
+        "airport",
+        "ford_account",
+        "obituary",
+        "portrait"
+      ],
+      "custody_evidence": "Separate one-month and four-month stays in the participant’s account, with contemporary corroboration of the airport detention.",
+      "case_research": [
+        {
+          "source_ids": [
+            "airport",
+            "ford_account"
+          ],
+          "custody_evidence": "Actual federal confinement documented; month count follows Ford, not the bail amount."
+        },
+        {
+          "source_ids": [
+            "ford_account"
+          ],
+          "custody_evidence": "Separate Rikers stay explicitly described as four months."
+        }
+      ],
+      "status_research": "Return to college confirms historical release; death is recorded separately. No death in custody asserted.",
+      "photo": {
+        "source_file": "database/data/photos/joudon-ford-bev-grant.jpg",
+        "storage_path": "prisoners/joudon-ford-bev-grant.jpg",
+        "sha256": "5b5be2f6b970fcfcd617bc349e8076662c68e04615488db0385608c960a374ae",
+        "source_id": "portrait"
+      }
+    },
+    {
+      "key": "tyronne-smith-new-york-panther",
+      "match_names": [
+        "Tyronne Smith",
+        "Tyrone Smith"
+      ],
+      "prisoner": {
+        "state": "New York",
+        "era": "1960s",
+        "affiliation": [
+          "Black Panther Party"
+        ],
+        "in_custody": false,
+        "lat": 40.71,
+        "lng": -74.01,
+        "name": "Tyronne Smith",
+        "first_name": "Tyronne",
+        "last_name": "Smith",
+        "aka": "Tyrone Smith",
+        "released": false,
+        "description": "Tyronne Smith was a New York Black Panther member arrested with Joudon Ford at Kennedy Airport on January 24, 1969, while traveling to the Los Angeles funeral of Bunchy Carter and John Huggins. The Militant’s February 7 issue reported that both remained jailed because they could not raise bail. Their lawyers and the Party challenged the bail as political harassment. Smith’s release date and later outcome remain unverified.",
+        "cases": [
+          {
+            "charges": "Attempting to carry a concealed weapon onto an airplane",
+            "sentence": "Pretrial custody continued after bail was reduced from $50,000 to $10,000. No conviction, sentence, total time served or exact release date has been established."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1969,
+            "month": 1,
+            "day": 24
+          }
+        }
+      ],
+      "source_ids": [
+        "airport",
+        "ford_account"
+      ],
+      "custody_evidence": "The contemporary report confirms ongoing detention beyond the initial arrest period.",
+      "case_research": [
+        {
+          "source_ids": [
+            "airport"
+          ],
+          "custody_evidence": "Named individually among the two defendants still jailed."
+        }
+      ],
+      "status_research": "Both status flags are false (Other): later custody status unresolved. Ford’s one-month duration and West Street location are not assigned to Smith."
+    }
+  ],
+  "research_notes": "Preserve existing identities and fields. Neither person is classified as currently detained. Arrest date is distinct from the undocumented precise custody endpoints. Ford’s source-stated months are recorded without invented release dates or ongoing chart intervals. Approximate New York City coordinates, not residential or prison points. West Street has no matching institution; do not substitute the later Metropolitan Correctional Center. Source links are not personal support websites."
+}
