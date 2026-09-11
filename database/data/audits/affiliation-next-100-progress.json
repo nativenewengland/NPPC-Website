@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-297",
   "first_unpublished_batch": 297,
   "new_pr_opened": false,
-  "validated_new_people": 14,
-  "remaining_to_pr_threshold": 86,
+  "validated_new_people": 17,
+  "remaining_to_pr_threshold": 83,
   "batches": [
     {
       "batch": 297,
@@ -24,6 +24,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch298.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch298.md"
+    },
+    {
+      "batch": 299,
+      "status": "validated_local",
+      "new_people": 3,
+      "cases": 3,
+      "photos": 0,
+      "payload": "database/data/fixes/batch299.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch299.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -31,6 +40,6 @@
     295,
     296
   ],
-  "next_affiliation": "Catholic Left",
+  "next_affiliation": "Catholic Worker (continue primary jail accounts)",
   "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR."
 }

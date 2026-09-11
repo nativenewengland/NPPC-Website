@@ -1,0 +1,222 @@
+{
+  "batch": 299,
+  "expected_count": 3,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-10",
+  "scope": "Catholic Worker archival custody research; local accumulation toward 100 new people.",
+  "sources": {
+    "cw_june": {
+      "label": "Dorothy Day, On Pilgrimage, Catholic Worker June 1966 p.2: individual pretrial custody; original scan checked visually.",
+      "url": "https://catholicworker.org/840-html/"
+    },
+    "cw_june_scan": {
+      "label": "Catholic Worker June 1966, pp.2-3; Phil Maloney, Chrystie Street, confirms Nicole returned after five days. Original pages visually checked.",
+      "url": "https://merton.bellarmine.edu/files/original/d0a3ea4bd7744227be53198e6f906925eefae04b.pdf"
+    },
+    "feeley_identity": {
+      "label": "Dianne Feeley, autobiographical account of antiwar activism and later political organizing, March/April 2022.",
+      "url": "https://againstthecurrent.org/atc217/the-movement-the-plants-the-party/"
+    },
+    "feeley_cw": {
+      "label": "Dianne Feeley, author note: Catholic Worker involvement from 1960.",
+      "url": "https://againstthecurrent.org/atc213/a-life-of-struggle-grace-carlson/"
+    },
+    "rusk": {
+      "label": "Patricia Rusk, Five Days In Jail, Catholic Worker September 1965 p.5; corroborated pp.4,7. Original p.5 visually checked.",
+      "url": "https://merton.bellarmine.edu/files/original/c8f3c0d9b3b48fbd2dd23e69d23b8d0ef5d1084b.pdf"
+    },
+    "dc_map": {
+      "label": "Washington municipal reference point, 38.90472,-77.01639; approximate city marker, not a jail footprint.",
+      "url": "https://en.wikipedia.org/wiki/Washington,_D.C."
+    },
+    "ny_map": {
+      "label": "Historical Greenwich Village detention site; relation uses the specifically named existing institution. Stored map point is approximate New York City center.",
+      "url": "https://www.nyclgbtsites.org/wp-content/uploads/2023/06/USE-THIS-NPCA_NY_Tour_Map_Edits_060923_REFERENCE.pdf"
+    }
+  },
+  "institutions": {
+    "c9293221-454b-4f1c-a39b-c946957f5a41": "Womens House of Detention (Greenwich Village)"
+  },
+  "entries": [
+    {
+      "key": "nicole-d-entremont",
+      "match_names": [
+        "Nicole d’Entremont",
+        "Nicole d'Entremont",
+        "Nicole Dentremont",
+        "Nicole D Entremont"
+      ],
+      "prisoner": {
+        "name": "Nicole d’Entremont",
+        "first_name": "Nicole",
+        "last_name": "d’Entremont",
+        "description": "Nicole d’Entremont was a Catholic Worker editor jailed after an antiwar sit-down at New York’s Armed Forces Day parade in 1966.",
+        "affiliation": [
+          "Catholic Worker"
+        ],
+        "state": "New York",
+        "era": "1960s",
+        "lat": 40.712749,
+        "lng": -74.005994,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Antiwar sit-down; individual statutory charge not verified",
+            "sentence": "Five-day jail sentence; three additional days of pretrial custody after refusing bail. A separate contemporary report confirms her return from the five-day term. Exact custody endpoints remain unverified.",
+            "institution_id": "c9293221-454b-4f1c-a39b-c946957f5a41"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1966
+          },
+          "incarceration_date": {
+            "year": 1966
+          }
+        }
+      ],
+      "source_ids": [
+        "cw_june",
+        "cw_june_scan",
+        "ny_map"
+      ],
+      "custody_evidence": "June 1966 p.2 names her three days already served; p.3 confirms return from the five-day term.",
+      "case_research": [
+        {
+          "source_ids": [
+            "cw_june",
+            "cw_june_scan",
+            "ny_map"
+          ],
+          "custody_evidence": "June 1966 p.2 names her three days already served; p.3 confirms return from the five-day term."
+        }
+      ],
+      "status_research": "Historical completed detention; exact release date not inferred. No verified vital dates or support website. Portrait research remains open."
+    },
+    {
+      "key": "dianne-feeley",
+      "match_names": [
+        "Dianne Feeley",
+        "Diane Feeley"
+      ],
+      "prisoner": {
+        "name": "Dianne Feeley",
+        "first_name": "Dianne",
+        "last_name": "Feeley",
+        "description": "Dianne Feeley participated in Catholic Worker antiwar actions before joining the Young Socialist Alliance in 1967. She later became a labor and feminist organizer.",
+        "affiliation": [
+          "Catholic Worker"
+        ],
+        "state": "New York",
+        "era": "1960s",
+        "lat": 40.712749,
+        "lng": -74.005994,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Antiwar sit-down; individual statutory charge not verified",
+            "sentence": "Three days of pretrial custody after refusing bail; subsequently reported in jail serving a five-day sentence. Completion of that additional term and exact release date remain unverified.",
+            "institution_id": "c9293221-454b-4f1c-a39b-c946957f5a41"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1966
+          },
+          "incarceration_date": {
+            "year": 1966
+          }
+        }
+      ],
+      "source_ids": [
+        "cw_june",
+        "feeley_identity",
+        "feeley_cw",
+        "ny_map"
+      ],
+      "custody_evidence": "Day explicitly reports three pretrial days already served, independently qualifying her without assuming completion of the five-day sentence.",
+      "case_research": [
+        {
+          "source_ids": [
+            "cw_june",
+            "feeley_identity",
+            "feeley_cw",
+            "ny_map"
+          ],
+          "custody_evidence": "Day explicitly reports three pretrial days already served, independently qualifying her without assuming completion of the five-day sentence."
+        }
+      ],
+      "status_research": "Historical completed detention; exact release date not inferred. No verified vital dates or support website. Portrait research remains open."
+    },
+    {
+      "key": "patricia-rusk",
+      "match_names": [
+        "Patricia Rusk",
+        "Pat Rusk"
+      ],
+      "prisoner": {
+        "name": "Patricia Rusk",
+        "first_name": "Patricia",
+        "last_name": "Rusk",
+        "description": "Patricia Rusk participated in the Assembly of Unrepresented People’s antiwar sit-down in Washington, D.C. She described her imprisonment in the Catholic Worker.",
+        "affiliation": [
+          "Catholic Worker"
+        ],
+        "state": "District of Columbia",
+        "era": "1960s",
+        "lat": 38.90472,
+        "lng": -77.01639,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Antiwar sit-down; individual statutory charge not verified",
+            "sentence": "Served five days in D.C. Jail following the August 9, 1965 antiwar sit-down. Exact release date and individual charge wording remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 9
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 9
+          }
+        }
+      ],
+      "source_ids": [
+        "rusk",
+        "dc_map"
+      ],
+      "custody_evidence": "First-person five-day jail account describes arrest, overnight transfer and subsequent days; two other columns corroborate completed custody.",
+      "case_research": [
+        {
+          "source_ids": [
+            "rusk",
+            "dc_map"
+          ],
+          "custody_evidence": "First-person five-day jail account describes arrest, overnight transfer and subsequent days; two other columns corroborate completed custody."
+        }
+      ],
+      "status_research": "Historical completed detention; exact release date not inferred. No verified vital dates or support website. Portrait research remains open."
+    }
+  ],
+  "research_notes": "Unverified exact endpoints are omitted. Source-stated days retained in sentence prose because the model computes numeric days from endpoints. Existing institution coordinates are approximate municipal markers. Rusk historical D.C. Jail not conflated with its modern replacement. Terry Becker and Raona Millikin remain leads pending elapsed multi-day custody corroboration beyond an in-progress five-day sentence report. No current custody is claimed."
+}
