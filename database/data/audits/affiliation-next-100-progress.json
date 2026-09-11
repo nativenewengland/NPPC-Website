@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-297",
   "first_unpublished_batch": 297,
   "new_pr_opened": false,
-  "validated_new_people": 77,
-  "remaining_to_pr_threshold": 23,
+  "validated_new_people": 94,
+  "remaining_to_pr_threshold": 6,
   "batches": [
     {
       "batch": 297,
@@ -80,6 +80,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch304.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch304.md"
+    },
+    {
+      "batch": 305,
+      "status": "validated_local",
+      "new_people": 17,
+      "cases": 17,
+      "photos": 0,
+      "payload": "database/data/fixes/batch305.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch305.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -87,7 +96,7 @@
     295,
     296
   ],
-  "next_affiliation": "Congress of Industrial Organizations; retain CPUSA/CWP open leads in batch304 audit",
+  "next_affiliation": "Congress of Racial Equality (CORE); retain CIO/WPA held leads in batch305 audit",
   "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR.",
   "last_research_update": "2026-09-11"
 }
