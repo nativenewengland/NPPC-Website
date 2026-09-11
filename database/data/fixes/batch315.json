@@ -1,0 +1,105 @@
+{
+  "batch": 315,
+  "expected_count": 1,
+  "expected_case_count": 1,
+  "reviewed_at": "2026-09-11",
+  "scope": "One missing legal-support detainee from the Elaine Massacre, with a caption-identified historical portrait.",
+  "sources": {
+    "jones-petition": {
+      "label": "Scipio Jones,1921 habeas petition, University of Arkansas Libraries / Civil Rights Digital Library transcription: October1 arrest and October31 release, murder accusation replaced by barratry indictment.",
+      "url": "https://crdl.usg.edu/record/aru_unequal_1670"
+    },
+    "chronology": {
+      "label": "Blood in Their Eyes chronology, University of Arkansas Press, PDFpages2,4,5: Ocier’s legal-support activity, October1 arrest, failed release efforts throughOctober30 and guarded departure.",
+      "url": "https://cpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/3/246/files/2016/05/bite-chronology.pdf"
+    },
+    "identity": {
+      "label": "Encyclopedia of Arkansas, Robert Lee Hill: Ocier S. Bratton, month in jail, legal support for sharecroppers.",
+      "url": "https://encyclopediaofarkansas.net/entries/robert-lee-hill-3026/"
+    },
+    "family-photo": {
+      "label": "Richard (Sharp) Martin, My Father’s House: An Abridgment,2023, printed55 / PDF63:1913 family photograph and explicit left-to-right identification; Ocier is fourth person from left, seated in light jacket.",
+      "url": "https://americanfamilyhistory.com/wp-content/uploads/2023/05/17e-MFH-Complete-Abridgment-May-11-2023-Internet-copy.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "ocier-s-bratton",
+      "match_names": [
+        "Ocier S. Bratton",
+        "Ocier Bratton",
+        "O. S. Bratton"
+      ],
+      "prisoner": {
+        "name": "Ocier S. Bratton",
+        "first_name": "Ocier",
+        "last_name": "Bratton",
+        "description": "Ocier S. Bratton helped arrange legal representation for Black sharecroppers seeking fair payment for their cotton in Phillips County, Arkansas. The son and agent of attorney Ulysses S. Bratton, he was arrested during the Elaine Massacre and spent a month in jail. His release required a guarded departure because of threats of lynching.",
+        "affiliation": [
+          "Elaine Massacre"
+        ],
+        "state": "Arkansas",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Murder accusation followed by a barratry indictment — no conviction established",
+            "sentence": "Arrested October 1, 1919 while obtaining legal-retainer agreements from sharecroppers near Elaine. Held in Phillips County Jail in Helena until October 31, 1919. Scipio Jones’s court petition states that a barratry indictment replaced the murder accusation on the release day and describes the judge assisting his secret departure to avoid a lynch mob. This records pretrial detention; no prison sentence or adjudicated guilt is inferred. The later disposition of the barratry indictment remains unverified."
+          }
+        ],
+        "middle_name": "S.",
+        "aka": "Ocier Bratton; O. S. Bratton"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1919,
+            "month": 10,
+            "day": 1
+          },
+          "incarceration_date": {
+            "year": 1919,
+            "month": 10,
+            "day": 1
+          },
+          "release_date": {
+            "year": 1919,
+            "month": 10,
+            "day": 31
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "jones-petition",
+            "chronology",
+            "identity"
+          ],
+          "custody_evidence": "Court petition supplies both actual custody endpoints and describes continuous county-jail confinement; scholarly chronology and historical entry corroborate the month-long detention."
+        }
+      ],
+      "source_ids": [
+        "jones-petition",
+        "chronology",
+        "identity"
+      ],
+      "custody_evidence": "Court petition supplies both actual custody endpoints and describes continuous county-jail confinement; scholarly chronology and historical entry corroborate the month-long detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Legal representative/agent, not assumed to be a formal union member or a member of the Elaine Twelve. FamilySearch’s sibling listing suggests expansion Simpson and1888–1951, but underlying vital records were not reviewed; dates and expanded middle name held. Neither his father’s vital dates nor his brother’s are assigned.",
+      "photo": {
+        "source_file": "database/data/photos/ocier-bratton-family-1913-crop.png",
+        "storage_path": "prisoners/ocier-bratton-family-1913-crop.png",
+        "sha256": "58699605ad971be7216a2962b186225ba3e64a982bbd58cc0683fa650bd8786e",
+        "source_ids": [
+          "family-photo"
+        ],
+        "identity_evidence": "Explicit eight-person left-to-right caption on printed55 / PDF63; fourth person is Ocier, seated in a light jacket. Source page and extracted image visually reviewed.",
+        "credit": "Bratton family photograph,1913; reproduced in Richard (Sharp) Martin, My Father’s House: An Abridgment (2023), p.55. Photographer unidentified; rights status unverified.",
+        "changes": "Exact rectangular crop of the embedded674x483 PNG: left254,top94,right365,bottom314; output111x220. Retained pixels unchanged; no enhancement or redraw."
+      }
+    }
+  ]
+}
