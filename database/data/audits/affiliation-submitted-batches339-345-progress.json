@@ -1,0 +1,104 @@
+{
+  "policy_updated": "2026-09-11",
+  "target_new_people_per_pr": 100,
+  "accumulation_branch": "codex/affiliation-prisoners-batch-326",
+  "first_unpublished_batch": 339,
+  "new_pr_opened": false,
+  "validated_new_people": 36,
+  "remaining_to_pr_threshold": 64,
+  "batches": [
+    {
+      "batch": 339,
+      "status": "prepared_for_requested_pr",
+      "new_people": 7,
+      "cases": 7,
+      "photos": 0,
+      "birth_dates": 0,
+      "death_dates": 0,
+      "payload": "database/data/fixes/batch339.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch339.md"
+    },
+    {
+      "batch": 340,
+      "status": "prepared_for_requested_pr",
+      "new_people": 2,
+      "cases": 4,
+      "photos": 0,
+      "birth_dates": 2,
+      "death_dates": 0,
+      "payload": "database/data/fixes/batch340.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch340.md"
+    },
+    {
+      "batch": 341,
+      "status": "prepared_for_requested_pr",
+      "new_people": 2,
+      "cases": 3,
+      "photos": 2,
+      "birth_dates": 2,
+      "death_dates": 1,
+      "payload": "database/data/fixes/batch341.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch341.md"
+    },
+    {
+      "batch": 342,
+      "status": "prepared_for_requested_pr",
+      "new_people": 2,
+      "cases": 2,
+      "photos": 0,
+      "birth_dates": 1,
+      "death_dates": 1,
+      "payload": "database/data/fixes/batch342.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch342.md"
+    },
+    {
+      "batch": 343,
+      "status": "prepared_for_requested_pr",
+      "new_people": 5,
+      "cases": 5,
+      "photos": 3,
+      "birth_dates": 3,
+      "death_dates": 2,
+      "payload": "database/data/fixes/batch343.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch343.md"
+    },
+    {
+      "batch": 344,
+      "status": "prepared_for_requested_pr",
+      "new_people": 3,
+      "cases": 6,
+      "photos": 1,
+      "birth_dates": 3,
+      "death_dates": 2,
+      "payload": "database/data/fixes/batch344.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch344.md"
+    },
+    {
+      "batch": 345,
+      "status": "prepared_for_requested_pr",
+      "new_people": 15,
+      "cases": 15,
+      "photos": 0,
+      "birth_dates": 1,
+      "death_dates": 1,
+      "payload": "database/data/fixes/batch345.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch345.md"
+    }
+  ],
+  "previous_submission": {
+    "pull_request": "https://github.com/pucakisses-star/NPPC-Website/pull/2495",
+    "batches": "326-338",
+    "new_people": 100,
+    "cases": 114,
+    "photos": 14,
+    "birth_dates": 5,
+    "death_dates": 7,
+    "archive": "database/data/audits/affiliation-submitted-batches326-338-progress.json"
+  },
+  "next_affiliation": "104 Molly Maguires:19 existing roster in tmp/affiliations342/next-group-inventory.jsonl; Peter McManus and non-executed prisoners need research. MFDP held leads including possible existing Joe Watts Jr match in audit345. Next346.",
+  "notes": "Completed339–345:36 new identities,42 custody records,6 portraits,12 birth dates,7 death dates. Published early at user request; research paused. Prior326–338 already in merged PR2495. Deployment remains manual.",
+  "last_research_update": "2026-09-11",
+  "research_status": "paused_by_user",
+  "submission_authorization": "User requested publication of all completed work now, overriding the100-person threshold for this PR.",
+  "submission_branch": "codex/affiliation-batches339-345"
+}

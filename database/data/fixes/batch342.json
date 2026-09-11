@@ -1,0 +1,140 @@
+{
+  "batch": 342,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-11",
+  "scope": "Two missing civil-rights prisoners with explicitly documented multi-day US custody; one verified birth date and one death date.",
+  "sources": {
+    "rankin-archive": {
+      "label": "Mississippi Department of Archives and History, Annie Rankin Papers T/026: identity, exact birth/death dates, June1965 arrest and five days actually jailed during the1968 Poor People’s Campaign.",
+      "url": "https://finding.mdah.ms.gov/manuscripts/t026"
+    },
+    "wood-newsletter": {
+      "label": "Canadian Friends of SNCC, Freedom Now,July6,1965,pp.1–2: Wood released June24 after ten days; his first-person account describes Mississippi fairgrounds detention.",
+      "url": "https://www.crmvet.org/docs/nor/650706_fos_news_canada.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "annie-james-rankin",
+      "match_names": [
+        "Annie James Rankin",
+        "Annie Rankin",
+        "Annie James Mims"
+      ],
+      "prisoner": {
+        "name": "Annie James Rankin",
+        "first_name": "Annie",
+        "last_name": "Rankin",
+        "description": "Annie James Rankin was a Mississippi voting-rights and anti-poverty organizer. She participated in the 1968 Poor People’s Campaign and was jailed for five days in Washington, D.C.",
+        "affiliation": [
+          "Mississippi Freedom Democratic Party",
+          "Poor People’s Campaign"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arrest during Poor People’s Campaign activism; exact charge unverified",
+            "sentence": "Five days actually jailed in Washington, D.C. during the 1968 campaign. Exact custody dates and any formal sentence are unverified."
+          }
+        ],
+        "middle_name": "James",
+        "aka": "Annie Rankin; Annie James Mims"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1933,
+          "month": 3,
+          "day": 1
+        },
+        "death_date": {
+          "year": 1998,
+          "month": 3,
+          "day": 5
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1968
+          },
+          "release_date": {
+            "year": 1968
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "rankin-archive"
+          ],
+          "custody_evidence": "The state archive expressly states that Rankin spent five days jailed for her Washington activism."
+        }
+      ],
+      "source_ids": [
+        "rankin-archive"
+      ],
+      "custody_evidence": "The state archive expressly states that Rankin spent five days jailed for her Washington activism.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. June14,1965 Jackson arrest is a separate lead; its custody duration is unresolved and no second case is created. May1968 dates the campaign journey, not necessarily jail entry. No June24 raid date is inferred. Death in1998 was later, outside custody. No verified portrait found."
+    },
+    {
+      "key": "robertson-wood",
+      "match_names": [
+        "Robertson Wood",
+        "Bob Wood"
+      ],
+      "prisoner": {
+        "name": "Robertson Wood",
+        "first_name": "Robertson",
+        "last_name": "Wood",
+        "description": "Robertson Wood was a Canadian SNCC worker detained in Jackson, Mississippi during 1965 voting-rights protests. He described the conditions at the state fairgrounds detention compound in a contemporary first-person account.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "Mississippi Freedom Democratic Party protests"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Detained during Mississippi Freedom Democratic Party voting-rights demonstrations; individual charge unverified",
+            "sentence": "Ten days actually detained at the Mississippi state fairgrounds in Jackson; released June 24, 1965. Formal sentence unverified."
+          }
+        ],
+        "aka": "Bob Wood"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1965,
+            "month": 6
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 6,
+            "day": 24
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "wood-newsletter"
+          ],
+          "custody_evidence": "The July6 newsletter explicitly names Wood and reports his release after ten days; his signed narrative establishes actual US custody."
+        }
+      ],
+      "source_ids": [
+        "wood-newsletter"
+      ],
+      "custody_evidence": "The July6 newsletter explicitly names Wood and reports his release after ten days; his signed narrative establishes actual US custody.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The first-page introduction mistakenly says arrests began July14; the same page’s signed account says June14–24. Release June24 is explicit. Entry remains June1965 month precision, not an arithmetic exact date. Age29 is not converted to a birth year. No verified death date or portrait. Do not conflate with the Canadian minister William Robertson Wood or unconnected obituaries."
+    }
+  ]
+}

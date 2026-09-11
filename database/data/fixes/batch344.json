@@ -1,0 +1,328 @@
+{
+  "batch": 344,
+  "expected_count": 3,
+  "expected_case_count": 6,
+  "reviewed_at": "2026-09-11",
+  "scope": "Three missing Mississippi organizers,six distinct custody records,one portrait,three birth dates,two death dates.",
+  "sources": {
+    "lane": {
+      "label": "SNCC Legacy Project/Duke, Mary Lane: December16,1939–February15,2015;48days actually spent at Parchman in1963.",
+      "url": "https://snccdigital.org/people/mary-lane/"
+    },
+    "greene": {
+      "label": "SNCC Legacy Project/Duke, George Greene: October8,1943–October24,2018; SNCC and NAACP youth organizing.",
+      "url": "https://snccdigital.org/people/george-greene/"
+    },
+    "cotton": {
+      "label": "SNCC Legacy Project/Duke, MacArthur Cotton:39days on death row following Freedom Ride arrest, distinct from later Greenwood imprisonment.",
+      "url": "https://snccdigital.org/people/macarthur-cotton/"
+    },
+    "cotton-oral": {
+      "label": "Veterans of the Mississippi Civil Rights Movement,2006 oral-history introduction:1961 Freedom Ride and actual Parchman confinement.",
+      "url": "https://www.crmvet.org/nars/cottonm.htm"
+    },
+    "cotton-affidavit": {
+      "label": "Douglas MacArthur Cotton sworn affidavit,Mississippi Black Paper1965: June25,1963 arrest/conviction,55days at Parchman, and separate30-hour detention with Greene in lateFebruary1964.",
+      "url": "https://www.crmvet.org/nars/aff/mbp_mc.htm"
+    },
+    "cotton-interview": {
+      "label": "Christopher Young,Mississippi Link,in-person interview August28,2024: identified Chris Young photograph and release shortly before1963 March on Washington.",
+      "url": "https://themississippilink.com/news/douglas-macarthur-cotton-walked-the-walk-kosciusko-native-on-the-front-lines-challenging-voter-suppression-well-before-freedom-summer/"
+    },
+    "cotton-birth": {
+      "label": "Anna McCollum,Freedom Fighters: Stories from Freedom Summer1964,2016 University of Mississippi honors thesis,p.45,original interview:April23,1942 birth. Repository metadata verified; PDF returns403, text read in matching public mirror.",
+      "url": "https://egrove.olemiss.edu/hon_thesis/80/"
+    },
+    "cotton-birth-mirror": {
+      "label": "Public text mirror of McCollum2016 thesis,p.45: explicitly gives Cotton birthday; not a namesake obituary or age calculation.",
+      "url": "https://paperzz.com/doc/8307602/--university-of-mississippi"
+    },
+    "payne": {
+      "label": "Charles M.Payne,I’ve Got the Light of Freedom,2007 edition,printedpp.221–222 (PDF157–158): Greene’s six-month sentence and67days actually served; interview-based history.",
+      "url": "https://southinblackandwhite.wordpress.com/wp-content/uploads/2019/12/ive_got_the_light_of_freedom_the_organizing_tradition.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "mary-lane",
+      "match_names": [
+        "Mary Lane"
+      ],
+      "prisoner": {
+        "name": "Mary Lane",
+        "first_name": "Mary",
+        "last_name": "Lane",
+        "description": "Mary Lane organized voter registration in Greenwood and served as a SNCC project director. She spent 48 days imprisoned at Parchman in 1963 and later represented the Mississippi Freedom Democratic Party at the 1964 Democratic National Convention.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "Mississippi Freedom Democratic Party"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Imprisonment following Greenwood civil-rights organizing; individual statutory charge unverified",
+            "sentence": "Forty-eight days actually spent at Parchman in 1963. Exact custody endpoints and imposed sentence remain unverified."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1939,
+          "month": 12,
+          "day": 16
+        },
+        "death_date": {
+          "year": 2015,
+          "month": 2,
+          "day": 15
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1963
+          },
+          "release_date": {
+            "year": 1963
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "lane"
+          ],
+          "custody_evidence": "Her individual SNCC/Duke biography explicitly reports48days of imprisonment, not only an arrest or proposed term."
+        }
+      ],
+      "source_ids": [
+        "lane"
+      ],
+      "custody_evidence": "Her individual SNCC/Duke biography explicitly reports48days of imprisonment, not only an arrest or proposed term.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No June25 arrest inferred from Cotton’s account. The delegate group photograph is not cropped because her precise position is unverified. Unrelated artist,writer and obituary namesakes excluded."
+    },
+    {
+      "key": "douglas-macarthur-cotton",
+      "match_names": [
+        "Douglas MacArthur Cotton",
+        "MacArthur Cotton",
+        "Mac Cotton"
+      ],
+      "prisoner": {
+        "name": "Douglas MacArthur Cotton",
+        "first_name": "Douglas",
+        "last_name": "Cotton",
+        "description": "Douglas MacArthur Cotton was a Mississippi Freedom Rider and SNCC voter-registration organizer. His imprisonment included a Freedom Ride case and a later Greenwood prosecution that sent him to the county farm and Parchman. His sworn account also documents a separate 1964 detention in Natchez.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "Congress of Racial Equality",
+          "Freedom Riders"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Freedom Ride arrest after attempting to buy a ticket at the segregated bus station",
+            "sentence": "Thirty-nine days on death row are documented. Arrest and imprisonment began in 1961; exact endpoints and sentence unverified. Placement on death row does not imply a death sentence."
+          },
+          {
+            "charges": "Disturbing the peace during Greenwood voter registration",
+            "sentence": "Convicted June 25, 1963; four months hard labor and $200 fine. His affidavit records 55 days at Parchman after county-farm confinement. Released on bond in August 1963; exact day unverified."
+          },
+          {
+            "charges": "Initially held for auto-theft investigation; subsequently charged with vagrancy",
+            "sentence": "Thirty hours detained with George Greene during voter-registration work in Natchez in late February 1964. Exact days and disposition unverified."
+          }
+        ],
+        "middle_name": "MacArthur",
+        "aka": "MacArthur Cotton; Mac Cotton"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1942,
+          "month": 4,
+          "day": 23
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1961
+          },
+          "incarceration_date": {
+            "year": 1961
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1963,
+            "month": 6,
+            "day": 25
+          },
+          "incarceration_date": {
+            "year": 1963,
+            "month": 6,
+            "day": 25
+          },
+          "sentenced_date": {
+            "year": 1963,
+            "month": 6,
+            "day": 25
+          },
+          "release_date": {
+            "year": 1963,
+            "month": 8
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1964,
+            "month": 2
+          },
+          "incarceration_date": {
+            "year": 1964,
+            "month": 2
+          },
+          "release_date": {
+            "year": 1964
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "cotton",
+            "cotton-oral"
+          ],
+          "custody_evidence": "The oral-history archive identifies the1961 imprisonment; SNCC/Duke documents39days actually confined."
+        },
+        {
+          "source_ids": [
+            "cotton-affidavit",
+            "cotton-interview"
+          ],
+          "custody_evidence": "Sworn account establishes actual sustained custody; later first-person interview places release before the1963 March on Washington.55days is the Parchman portion, not total custody."
+        },
+        {
+          "source_ids": [
+            "cotton-affidavit"
+          ],
+          "custody_evidence": "Cotton expressly distinguishes this30-hour detention from shorter repeated stops; it exceeded one day."
+        }
+      ],
+      "source_ids": [
+        "cotton",
+        "cotton-oral",
+        "cotton-affidavit",
+        "cotton-interview",
+        "cotton-birth",
+        "cotton-birth-mirror"
+      ],
+      "custody_evidence": "The oral-history archive identifies the1961 imprisonment; SNCC/Duke documents39days actually confined. Sworn account establishes actual sustained custody; later first-person interview places release before the1963 March on Washington.55days is the Parchman portion, not total custody. Cotton expressly distinguishes this30-hour detention from shorter repeated stops; it exceeded one day.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Full name is signed on the affidavit. Birthdate follows the original interview thesis as read in its public text mirror; original repository PDF unavailable. No death date. Thirty-hour1964 detention qualifies beyond the initial day; later two-hour stops are not added. No release year inferred for the1961 case from the arrest year. Three-hour punishment in the sworn1963 affidavit is not converted to three days from later retellings. No55day total stored.",
+      "photo": {
+        "source_file": "database/data/photos/douglas-macarthur-cotton-chris-young-b344.png",
+        "storage_path": "prisoners/douglas-macarthur-cotton-chris-young-b344.png",
+        "sha256": "f514b5c8712c504f7980336a644e1e77ce88e8071e6c27e977611f00bb38e50c",
+        "source_id": "cotton-interview",
+        "identity_evidence": "Individually captioned Douglas Macarthur Mac Cotton by the interviewer/photographer Chris Young. Exact original-pixel crop; see CREDITS-batch344.md."
+      }
+    },
+    {
+      "key": "george-greene",
+      "match_names": [
+        "George Greene"
+      ],
+      "prisoner": {
+        "name": "George Greene",
+        "first_name": "George",
+        "last_name": "Greene",
+        "description": "George Greene was a Greenwood civil-rights organizer who worked with SNCC and the NAACP youth movement. His 1963 imprisonment included the Leflore County Penal Farm and Parchman. He continued voter-registration work after release.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "NAACP"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arrest during a Greenwood demonstration; exact statutory charge unverified",
+            "sentence": "Six-month hard-labor sentence and $500 fine; the interview-based history reports 67 days actually served before his father obtained release. Custody included county farm and Parchman; exact endpoints unverified."
+          },
+          {
+            "charges": "Initially held for auto-theft investigation; subsequently charged with speeding",
+            "sentence": "Thirty hours detained with MacArthur Cotton during voter-registration work in Natchez in late February 1964. Exact days and disposition unverified."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1943,
+          "month": 10,
+          "day": 8
+        },
+        "death_date": {
+          "year": 2018,
+          "month": 10,
+          "day": 24
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1963
+          },
+          "release_date": {
+            "year": 1963
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1964,
+            "month": 2
+          },
+          "incarceration_date": {
+            "year": 1964,
+            "month": 2
+          },
+          "release_date": {
+            "year": 1964
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "payne",
+            "lane",
+            "cotton"
+          ],
+          "custody_evidence": "Payne distinguishes Greene’s actual67days from his imposed six-month sentence; SNCC biographies corroborate the1963 Parchman episode."
+        },
+        {
+          "source_ids": [
+            "cotton-affidavit"
+          ],
+          "custody_evidence": "The co-detainee’s sworn account names Greene and reports the shared30-hour confinement and different charges."
+        }
+      ],
+      "source_ids": [
+        "payne",
+        "lane",
+        "cotton",
+        "cotton-affidavit",
+        "greene"
+      ],
+      "custody_evidence": "Payne distinguishes Greene’s actual67days from his imposed six-month sentence; SNCC biographies corroborate the1963 Parchman episode. The co-detainee’s sworn account names Greene and reports the shared30-hour confinement and different charges.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. March1964 Ruleville incident in Congressional Record testimony lasted11–12hours and is excluded from the multi-day case list. Do not confuse with the separate February Natchez detention. June25 date and55day Parchman duration belong to Cotton and are not copied. Photograph lead at No Easy Victories could not be retrieved securely; no portrait assigned."
+    }
+  ]
+}

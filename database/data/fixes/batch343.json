@@ -1,0 +1,375 @@
+{
+  "batch": 343,
+  "expected_count": 5,
+  "expected_case_count": 5,
+  "reviewed_at": "2026-09-11",
+  "scope": "Five missing Mississippi civil-rights prisoners, five custody records, three portraits, three birth dates and two death dates. Conflicting or unknown endpoints retained as partial dates.",
+  "sources": {
+    "sncc-may1963": {
+      "label": "SNCC Newsletter,May21,1963,p.2: named May8 arrests and May13 release; Turnbow collective-release statement conflicts with his individual testimony.",
+      "url": "https://www.crmvet.org/docs/sv/630521_sncc_newsletter.pdf"
+    },
+    "turnbow-testimony": {
+      "label": "Congressional Record,June16,1964,pp.14008–14009 (PDF61–62): sworn Turnbow account expressly says two days jailed and bonded out; later charges dropped.",
+      "url": "https://www.congress.gov/88/crecb/1964/06/16/GPO-CRECB-1964-pt10-11-2.pdf"
+    },
+    "turnbow": {
+      "label": "SNCC Legacy Project/Duke, Hartman Turnbow: March20,1905–August15,1988; MFDP organizing and identified photograph credited to crmvet.org.",
+      "url": "https://snccdigital.org/people/hartman-turnbow/"
+    },
+    "simpson-oral": {
+      "label": "Euvester Simpson oral history,March12,2013,Library of Congress/Smithsonian,pp.19–24: first-person multi-night Winona custody and release; approximate weekday recollection.",
+      "url": "https://www.crmvet.org/nars/simpson_e.pdf"
+    },
+    "simpson": {
+      "label": "SNCC Legacy Project/Duke, Euvester Simpson: December12,1945 birth, SNCC/MFDP work and individually captioned1963 Danny Lyon portrait.",
+      "url": "https://snccdigital.org/people/euvester-simpson/"
+    },
+    "simpson-marker": {
+      "label": "Mississippi Today,June10,2022,reporting marker dedication with Simpson: June9,1963 arrest and jail context.",
+      "url": "https://mississippitoday.org/2022/06/10/new-historical-marker-in-winona-honors-fannie-lou-hamer/"
+    },
+    "blackwell-congress": {
+      "label": "Congressional Record,June23,1992,p.15765 (PDF25),reprinted contemporary profile: eleven days actually jailed in Jackson for civil-rights work; individual year not supplied.",
+      "url": "https://www.congress.gov/102/crecb/1992/06/23/GPO-CRECB-1992-pt11-8-2.pdf"
+    },
+    "blackwell": {
+      "label": "SNCC Legacy Project/Duke, Unita Blackwell: March18,1933–May13,2019; SNCC/MFDP roles, named1967 Jim Peppler photograph from Alabama Department of Archives and History.",
+      "url": "https://snccdigital.org/people/unita-blackwell/"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "hartman-turnbow",
+      "match_names": [
+        "Hartman Turnbow"
+      ],
+      "prisoner": {
+        "name": "Hartman Turnbow",
+        "first_name": "Hartman",
+        "last_name": "Turnbow",
+        "description": "Hartman Turnbow was a Holmes County farmer and voting-rights organizer. After attackers firebombed his home, authorities accused him of arson and jailed him. In sworn testimony he described spending two days in custody before being bonded out.",
+        "affiliation": [
+          "Mississippi Freedom Democratic Party",
+          "Civil rights movement"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arson allegation after the firebombing of his own home",
+            "sentence": "Arrested May 8, 1963. Sworn testimony describes two days jailed before bond and later dismissal. A newsletter reports a collective May 13 release; his individual release day remains unresolved."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1905,
+          "month": 3,
+          "day": 20
+        },
+        "death_date": {
+          "year": 1988,
+          "month": 8,
+          "day": 15
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "incarceration_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "release_date": {
+            "year": 1963,
+            "month": 5
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "turnbow-testimony",
+            "sncc-may1963"
+          ],
+          "custody_evidence": "His sworn individual account explicitly establishes two days in jail. No exact release day is calculated or borrowed from the co-defendants."
+        }
+      ],
+      "source_ids": [
+        "turnbow-testimony",
+        "sncc-may1963",
+        "turnbow"
+      ],
+      "custody_evidence": "His sworn individual account explicitly establishes two days in jail. No exact release day is calculated or borrowed from the co-defendants.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The two-day sworn account controls the descriptive duration; exact release is left at month precision because the newsletter collectively says May13. No five-day duration or final arson conviction inferred. Later death is not death in custody.",
+      "photo": {
+        "source_file": "database/data/photos/hartman-turnbow-crmvet-b343.jpg",
+        "storage_path": "prisoners/hartman-turnbow-crmvet-b343.jpg",
+        "sha256": "4d1117323a28cea8132f9163eefd411418be041b94f31771f74e394e5d663c44",
+        "source_id": "turnbow",
+        "identity_evidence": "Identified by the source caption and visually reviewed. Exact original pixels retained; see CREDITS-batch343.md."
+      }
+    },
+    {
+      "key": "euvester-simpson",
+      "match_names": [
+        "Euvester Simpson"
+      ],
+      "prisoner": {
+        "name": "Euvester Simpson",
+        "first_name": "Euvester",
+        "last_name": "Simpson",
+        "description": "Euvester Simpson was a Mississippi SNCC organizer jailed with Fannie Lou Hamer and other civil-rights workers in Winona in June 1963. Her oral history describes several nights in custody and caring for Hamer after the jail beatings.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "Mississippi Freedom Democratic Party"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arrest following use of the segregated Winona bus terminal; exact individual charge unverified",
+            "sentence": "Arrested June 9, 1963 and held for several nights. Her oral history places release later that week, around Wednesday; exact release day is not asserted."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1945,
+          "month": 12,
+          "day": 12
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1963,
+            "month": 6,
+            "day": 9
+          },
+          "incarceration_date": {
+            "year": 1963,
+            "month": 6,
+            "day": 9
+          },
+          "release_date": {
+            "year": 1963,
+            "month": 6
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "simpson-oral",
+            "simpson-marker"
+          ],
+          "custody_evidence": "First-person account describes multiple nights of actual custody, subsequent release and continued organizing."
+        }
+      ],
+      "source_ids": [
+        "simpson-oral",
+        "simpson-marker",
+        "simpson"
+      ],
+      "custody_evidence": "First-person account describes multiple nights of actual custody, subsequent release and continued organizing.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Birthdate follows the detailed SNCC Legacy Project/Duke biography. Smithsonian search-index metadata instead says born1946; discrepancy is retained in the audit, not silently merged. No death date verified. No extra case for poll-watching arrest without duration evidence. Oxford attendance as a trial witness is not jail time.",
+      "photo": {
+        "source_file": "database/data/photos/euvester-simpson-danny-lyon-b343-crop.png",
+        "storage_path": "prisoners/euvester-simpson-danny-lyon-b343-crop.png",
+        "sha256": "f1a60c82f239ace453fc4ae9685a0c4c74752e68dfb8704e462cd0f11d0b8148",
+        "source_id": "simpson",
+        "identity_evidence": "Identified by the source caption and visually reviewed. Exact original pixels retained; see CREDITS-batch343.md."
+      }
+    },
+    {
+      "key": "unita-blackwell",
+      "match_names": [
+        "Unita Blackwell"
+      ],
+      "prisoner": {
+        "name": "Unita Blackwell",
+        "first_name": "Unita",
+        "last_name": "Blackwell",
+        "description": "Unita Blackwell was a Mississippi voting-rights organizer and MFDP delegate who later became mayor of Mayersville. A contemporary profile records eleven days jailed in Jackson for her civil-rights work.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee",
+          "Mississippi Freedom Democratic Party"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Detention for civil-rights activism in Jackson; exact charge unverified",
+            "sentence": "Eleven days actually jailed in Jackson, Mississippi. Individual custody dates and any formal sentence remain unverified."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1933,
+          "month": 3,
+          "day": 18
+        },
+        "death_date": {
+          "year": 2019,
+          "month": 5,
+          "day": 13
+        }
+      },
+      "case_dates": [
+        {}
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "blackwell-congress"
+          ],
+          "custody_evidence": "The1992 profile reproduced in the Congressional Record expressly describes an eleven-day period already served, not merely a proposed sentence."
+        }
+      ],
+      "source_ids": [
+        "blackwell-congress",
+        "blackwell"
+      ],
+      "custody_evidence": "The1992 profile reproduced in the Congressional Record expressly describes an eleven-day period already served, not merely a proposed sentence.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No1965 arrest or release date inferred from other demonstrators. Era describes movement context, not exact custody endpoints. School-desegregation civil litigation is not a criminal case. Later2019 death is not death in custody.",
+      "photo": {
+        "source_file": "database/data/photos/unita-blackwell-jim-peppler-b343-crop.png",
+        "storage_path": "prisoners/unita-blackwell-jim-peppler-b343-crop.png",
+        "sha256": "2a06250997cf58e4680cdf49ab114eec8e0ee163ead8e97f1d8da4a122af3ab6",
+        "source_id": "blackwell",
+        "identity_evidence": "Identified by the source caption and visually reviewed. Exact original pixels retained; see CREDITS-batch343.md."
+      }
+    },
+    {
+      "key": "john-ball",
+      "match_names": [
+        "John Ball"
+      ],
+      "prisoner": {
+        "name": "John Ball",
+        "first_name": "John",
+        "last_name": "Ball",
+        "description": "John Ball was a SNCC worker jailed in Holmes County, Mississippi in May 1963 following the firebombing of voting-rights organizer Hartman Turnbow’s home. A contemporary SNCC newsletter names the detainees and reports their release after the arson charges were dropped.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arson allegation in the Hartman Turnbow home-fire investigation",
+            "sentence": "Held May 8–13, 1963 in Lexington, Mississippi. The contemporary SNCC newsletter reports release after arson charges were dropped."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "incarceration_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "release_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 13
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc-may1963"
+          ],
+          "custody_evidence": "The contemporary newsletter individually names the arrested SNCC workers and expressly reports release five days later."
+        }
+      ],
+      "source_ids": [
+        "sncc-may1963"
+      ],
+      "custody_evidence": "The contemporary newsletter individually names the arrested SNCC workers and expressly reports release five days later.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No verified birth/death dates or identified portrait. No unrelated namesake vital dates imported. Interfering-with-investigation charge was separately against Bob Moses, not assigned to this person."
+    },
+    {
+      "key": "lavone-hampton",
+      "match_names": [
+        "Lavone Hampton"
+      ],
+      "prisoner": {
+        "name": "Lavone Hampton",
+        "first_name": "Lavone",
+        "last_name": "Hampton",
+        "description": "Lavone Hampton was a SNCC worker jailed in Holmes County, Mississippi in May 1963 following the firebombing of voting-rights organizer Hartman Turnbow’s home. A contemporary SNCC newsletter names the detainees and reports their release after the arson charges were dropped.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee"
+        ],
+        "state": "Mississippi",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Arson allegation in the Hartman Turnbow home-fire investigation",
+            "sentence": "Held May 8–13, 1963 in Lexington, Mississippi. The contemporary SNCC newsletter reports release after arson charges were dropped."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "incarceration_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 8
+          },
+          "release_date": {
+            "year": 1963,
+            "month": 5,
+            "day": 13
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc-may1963"
+          ],
+          "custody_evidence": "The contemporary newsletter individually names the arrested SNCC workers and expressly reports release five days later."
+        }
+      ],
+      "source_ids": [
+        "sncc-may1963"
+      ],
+      "custody_evidence": "The contemporary newsletter individually names the arrested SNCC workers and expressly reports release five days later.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No verified birth/death dates or identified portrait. No unrelated namesake vital dates imported. Interfering-with-investigation charge was separately against Bob Moses, not assigned to this person."
+    }
+  ]
+}

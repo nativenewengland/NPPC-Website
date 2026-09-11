@@ -1,0 +1,206 @@
+{
+  "batch": 341,
+  "expected_count": 2,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-11",
+  "scope": "Two missing anti-Springbok prisoners; three custody records, two portraits, two birthdates and one death date. Individual statutory convictions distinguished.",
+  "sources": {
+    "appeal": {
+      "label": "People v.Blunk,Patten,Pelletier,Rosahn,90 A.D.2d834,November22,1982; actual judgment text: individual convictions and July8 sentencing.",
+      "url": "https://www.casemine.com/judgement/us/59149091add7b04934578f61"
+    },
+    "memoir": {
+      "label": "Mary Patten, Revolution as an Eternal Dream, in Love Letters to Our Friends,Hate Mail to Our Frenemies,printed pp.31–33 (PDF36–38). First-person custody account.",
+      "url": "https://heathschultz.com/wp-content/uploads/2014/03/exuberant_reader_digital.pdf"
+    },
+    "oral": {
+      "label": "Columbia College Chicago,2009 Mary Patten oral history:1951 birth and Rikers imprisonment. The biography incorrectly calls rugby soccer; not adopted.",
+      "url": "https://digitalcommons.colum.edu/cadc_caam_oralhistories/22/"
+    },
+    "arts": {
+      "label": "Greene County Council on the Arts,Arts Alive106,September/October2015,p.9: Pelletier imprisoned at Rikers in1982.",
+      "url": "https://createcouncil.org/wp-content/uploads/2016/03/ArtsAlive-106-WEB-2.pdf"
+    },
+    "memorial": {
+      "label": "NYWIFT,Thirsty memorial screening: Pelletier November23,1951–November27,2016; identified participant-supplied photograph.",
+      "url": "https://www.nywift.org/event/member-screening-series-thirsty-2/"
+    },
+    "mary-photo": {
+      "label": "A Blade of Grass,conversation with Mary Patten: named1989 arrest photograph. Original clipping credits Don Casper,Chicago Tribune; webpage says Dan.",
+      "url": "https://www.abladeofgrass.pub/contributions/ashley-hunt-mary-patten"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "mary-patten",
+      "match_names": [
+        "Mary Patten"
+      ],
+      "prisoner": {
+        "name": "Mary Patten",
+        "first_name": "Mary",
+        "last_name": "Patten",
+        "description": "Mary Patten is an artist and activist associated with the Madame Binh Graphics Collective. She was imprisoned following the 1981 anti-apartheid demonstration at Kennedy Airport.",
+        "affiliation": [
+          "Madame Binh Graphics Collective",
+          "Anti-apartheid movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Initial pretrial detention following anti-Springbok demonstration",
+            "sentence": "The first-person account records one week of initial detention followed by a later return to custody. Exact first release day is unresolved; do not join the intervals."
+          },
+          {
+            "charges": "Resisting arrest (§205.30) and third-degree criminal trespass (§140.10)",
+            "sentence": "Jury convictions; sentenced July 8, 1982. Sentence affirmed November 22, 1982. Her account establishes later Rikers confinement after the initial release. Exact re-entry, release and individual sentence length remain unresolved."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1951
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1981,
+            "month": 9,
+            "day": 26
+          },
+          "incarceration_date": {
+            "year": 1981,
+            "month": 9,
+            "day": 26
+          },
+          "release_date": {
+            "year": 1981
+          }
+        },
+        {
+          "sentenced_date": {
+            "year": 1982,
+            "month": 7,
+            "day": 8
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "appeal",
+            "memoir"
+          ],
+          "custody_evidence": "Named arrest action and first-person account establish a week of actual custody, beyond the initial arrest period."
+        },
+        {
+          "source_ids": [
+            "appeal",
+            "memoir",
+            "oral"
+          ],
+          "custody_evidence": "The participant describes extended Rikers confinement and prison artwork; the oral-history archive independently confirms imprisonment. This is a later interval of the same prosecution, not a second sentence."
+        }
+      ],
+      "source_ids": [
+        "appeal",
+        "memoir",
+        "oral",
+        "mary-photo"
+      ],
+      "custody_evidence": "Named arrest action and first-person account establish a week of actual custody, beyond the initial arrest period. The participant describes extended Rikers confinement and prison artwork; the oral-history archive independently confirms imprisonment. This is a later interval of the same prosecution, not a second sentence.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The archive summary describes a year but does not reliably distinguish the imposed term from time served; no numerical aggregate is stored. The collective-wide1981–1983 span is not assigned as her individual custody endpoints. Birth year only, no inferred day/month. A photograph of her separate November1989 arrest is used solely as an identified portrait; its detention length is unverified and that incident is not added as a custody case.",
+      "photo": {
+        "source_file": "database/data/photos/mary-patten-don-casper-b341.png",
+        "storage_path": "prisoners/mary-patten-don-casper-b341.png",
+        "sha256": "585401fc8d9e16f9429b1047b702dcb3b48771e95c98814b34578e1dc38a62ee",
+        "source_id": "mary-photo",
+        "identity_evidence": "Individually identified by the source caption and visually reviewed. Original pixels preserved; processing described in CREDITS-batch341.md."
+      }
+    },
+    {
+      "key": "margo-pelletier",
+      "match_names": [
+        "Margo Pelletier",
+        "Margot Pelletier"
+      ],
+      "prisoner": {
+        "name": "Margo Pelletier",
+        "first_name": "Margo",
+        "last_name": "Pelletier",
+        "description": "Margo Pelletier was an artist and filmmaker imprisoned at Rikers Island following the Kennedy Airport anti-apartheid protest. Her later work included the documentary Freeing Silvia Baraldini.",
+        "affiliation": [
+          "Madame Binh Graphics Collective",
+          "Anti-apartheid movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Resisting arrest (§205.30) and second-degree riot (§240.05)",
+            "sentence": "Pleaded guilty; sentenced July 8, 1982. Sentence affirmed November 22, 1982. The arts council records Rikers imprisonment in 1982. Exact custody endpoints and individual term remain unresolved."
+          }
+        ],
+        "aka": "Margot Pelletier"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1951,
+          "month": 11,
+          "day": 23
+        },
+        "death_date": {
+          "year": 2016,
+          "month": 11,
+          "day": 27
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1981,
+            "month": 9,
+            "day": 26
+          },
+          "sentenced_date": {
+            "year": 1982,
+            "month": 7,
+            "day": 8
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "appeal",
+            "arts",
+            "memoir"
+          ],
+          "custody_evidence": "The artist exhibition identifies actual Rikers imprisonment in1982, corroborating the co-defendant account of prolonged collective confinement. No sentence-to-served calculation is made."
+        }
+      ],
+      "source_ids": [
+        "appeal",
+        "arts",
+        "memoir",
+        "memorial"
+      ],
+      "custody_evidence": "The artist exhibition identifies actual Rikers imprisonment in1982, corroborating the co-defendant account of prolonged collective confinement. No sentence-to-served calculation is made.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Court spelling Margot is retained as an alias. The court roster, collective history, exhibition and film memorial connect the same artist. No individual release year is inferred from the collective history. Later artistic career establishes release; death in2016 is not death in custody. Distinct from Margo(Pelletier)Bard, who died in2022.",
+      "photo": {
+        "source_file": "database/data/photos/margo-pelletier-nywift-b341.jpg",
+        "storage_path": "prisoners/margo-pelletier-nywift-b341.jpg",
+        "sha256": "6ec1ac21669dc4c7a05f957451eec2362bca9f90baa79677bc55025779a5d91c",
+        "source_id": "memorial",
+        "identity_evidence": "Individually identified by the source caption and visually reviewed. Original pixels preserved; processing described in CREDITS-batch341.md."
+      }
+    }
+  ]
+}
