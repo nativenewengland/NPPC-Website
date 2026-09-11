@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-307",
   "first_unpublished_batch": 307,
   "new_pr_opened": false,
-  "validated_new_people": 70,
-  "remaining_to_pr_threshold": 30,
+  "validated_new_people": 72,
+  "remaining_to_pr_threshold": 28,
   "batches": [
     {
       "batch": 307,
@@ -69,6 +69,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch313.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch313.md"
+    },
+    {
+      "batch": 314,
+      "status": "validated_local",
+      "new_people": 2,
+      "cases": 2,
+      "photos": 0,
+      "payload": "database/data/fixes/batch314.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch314.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -92,7 +101,7 @@
     "cases": 112,
     "existing_case_updates": 7
   },
-  "next_affiliation": "Earth Liberation Front",
-  "notes": "70 local new identities, 77 cases and 4 portraits across 307\u2013313. No production changes or new PR. RAMPS held names and custody leads retained in audits312\u2013313.",
+  "next_affiliation": "Elaine Massacre",
+  "notes": "72 local new identities,79cases and4portraits across307\u2013314. No production changes or new PR. Expanded ELF identity matching excluded two apparent gaps.",
   "last_research_update": "2026-09-11"
 }
