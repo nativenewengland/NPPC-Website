@@ -1,0 +1,389 @@
+{
+  "batch": 317,
+  "expected_count": 5,
+  "expected_case_count": 5,
+  "reviewed_at": "2026-09-11",
+  "scope": "Five missing Bay Area political detainees identified through Free Speech Movement affiliation research, with one identified portrait; preserve existing profiles.",
+  "sources": {
+    "dawson-bio": {
+      "label": "Kipp Dawson personal archive, biographical page: 1945 birth year, San Francisco State organizing and 29 days actually served in 1966 for civil-rights sit-ins.",
+      "url": "https://kippdawson.com/dawsons-bio/"
+    },
+    "dawson-interview": {
+      "label": "Catherine A. Evans and Jessie B. Ramey, A Conversation with Activist Kipp Dawson, February 12, 2024: participant interview confirms 29 days in jail in 1966.",
+      "url": "https://abusablepast.org/challenging-and-documenting-state-violence-a-conversation-with-activist-kipp-dawson/"
+    },
+    "dawson-photo": {
+      "label": "Kipp Dawson personal archive: explicitly identified school photograph of young Kipp Dawson in a turtleneck. Original image visually reviewed.",
+      "url": "https://kippdawson.com/dawsons-bio/"
+    },
+    "rossman-jail": {
+      "label": "Michael Rossman, Notes from the County Jail, New York Review of Books, February 15, 1968: first-person account identifies nine weeks at Santa Rita in the previous summer, 1967.",
+      "url": "https://www.nybooks.com/articles/1968/02/15/notes-from-the-county-jail/"
+    },
+    "rossman-vitals": {
+      "label": "Margalit Fox, New York Times obituary, May 19, 2008, reproduced by Berkeley Citizen: Michael Dale Rossman, December 15, 1939 birth and May 12, 2008 death; nine weeks jailed in 1967.",
+      "url": "https://berkeleycitizen.org/memoriam/memoriam8.htm"
+    },
+    "rossman-memorial": {
+      "label": "Lincoln Cushing, Docs Populi, May 17, 2008: colleague memorial confirms May 12 death and poster-archive work.",
+      "url": "https://www.docspopuli.org/articles/Rossman_gone.htm"
+    },
+    "iiyama-history": {
+      "label": "A New Insurgency: The Port Huron Statement and Its Times, Asian American activist chapter: participant-based account identifies 1945 birth in New York, FSM executive membership, 1965 conviction and actual experience of a thirty-day Santa Rita term. Indexed chapter text reviewed; direct download unavailable.",
+      "url": "https://quod.lib.umich.edu/m/maize/13545967.0001.001/1%3A8.7/--new-insurgency-the-port-huron-statement-and-its-times?rgn=div2%3Bview%3Dfulltext"
+    },
+    "goines-vitals": {
+      "label": "David Lance Goines personal biography: May 29, 1945 birth, February 19, 2023 death, printer and FSM participation.",
+      "url": "https://www.goines.net/biography.html"
+    },
+    "goines-jail": {
+      "label": "Sam Whiting, San Francisco Chronicle, March 3, 2023 obituary: December 3, 1964 arrest; reports a thirty-day Santa Rita sentence and repeated Sunday visits by Alice Waters and his mother.",
+      "url": "https://www.sfchronicle.com/bayarea/article/david-lance-goines-berkeley-obituary-17807018.php"
+    },
+    "goines-year": {
+      "label": "Free Speech Movement Archives, narrative bibliography: description of Goines memoir explicitly places his jail term in 1967. Full book not retrieved in this pass.",
+      "url": "https://fsm-a.org/stacks/covers/narratives_cvr.html"
+    },
+    "marcus-oral": {
+      "label": "US District Court of Oregon Historical Society, Michael Marcus oral history, April 22 and 28, 2010, printed pp.8–15, 22–23: thirty days actually served for Atomic Energy Commission sit-in; later FSM detention described as brief. Introduction conflates the AEC and submarine actions, so custody year is not entered.",
+      "url": "https://usdchs.org/wp-content/uploads/2017/08/michael-marcus-usdchs-oral-history.pdf"
+    },
+    "marcus-vitals": {
+      "label": "Family obituary, The Oregonian / Legacy: Judge Michael Henry Marcus, April 11, 1943–July 22, 2017.",
+      "url": "https://www.legacy.com/us/obituaries/oregon/name/michael-marcus-obituary?id=19907414"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "david-lance-goines",
+      "match_names": [
+        "David Lance Goines",
+        "David Goines",
+        "David L. Goines"
+      ],
+      "prisoner": {
+        "name": "David Lance Goines",
+        "first_name": "David",
+        "last_name": "Goines",
+        "description": "David Lance Goines was a Berkeley printer, artist and Free Speech Movement participant. He printed movement literature and was jailed following the Sproul Hall sit-in. He later founded Saint Hieronymus Press.",
+        "affiliation": [
+          "Free Speech Movement"
+        ],
+        "state": "California",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Sproul Hall sit-in prosecution — individual statutory counts not verified",
+            "sentence": "Arrested December 3, 1964. Subsequent confinement at Santa Rita is confirmed by accounts of repeated family visits. The FSM Archives dates his jail term to 1967. The Chronicle reports a thirty-day sentence; the full judgment and exact custody endpoints remain unverified."
+          }
+        ],
+        "middle_name": "Lance",
+        "aka": "David Goines; David L. Goines",
+        "website": "https://www.goines.net/"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1945,
+          "month": 5,
+          "day": 29
+        },
+        "death_date": {
+          "year": 2023,
+          "month": 2,
+          "day": 19
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1964,
+            "month": 12,
+            "day": 3
+          },
+          "incarceration_date": {
+            "year": 1967
+          },
+          "release_date": {
+            "year": 1967
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "goines-jail",
+            "goines-year"
+          ],
+          "custody_evidence": "Repeated visits during actual confinement establish more than an initial arrest; the FSM Archives places the completed term in 1967."
+        }
+      ],
+      "source_ids": [
+        "goines-vitals",
+        "goines-jail",
+        "goines-year"
+      ],
+      "custody_evidence": "Repeated visits during actual confinement establish more than an initial arrest; the FSM Archives places the completed term in 1967.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. A 1992 Los Angeles Times profile reports two months; this is not reconciled with the thirty-day Chronicle account, so no numerical duration is entered. His retrospective introduction to a July 1965 interview mentions an anticipated partial sentence; it is not used as evidence of actual entry. The full memoir was not retrieved."
+    },
+    {
+      "key": "kipp-dawson",
+      "match_names": [
+        "Kipp Dawson",
+        "Kipp M. Dawson"
+      ],
+      "prisoner": {
+        "name": "Kipp Dawson",
+        "first_name": "Kipp",
+        "last_name": "Dawson",
+        "description": "Kipp Dawson organized civil-rights sit-ins against discriminatory hiring in San Francisco and helped organize the Free Speech Movement at San Francisco State. She served 29 days in jail in 1966 and later worked in antiwar and labor organizing.",
+        "affiliation": [
+          "Ad Hoc Committee to End Discrimination",
+          "Free Speech Movement",
+          "Vietnam Day Committee"
+        ],
+        "state": "California",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Civil-rights sit-in prosecution — exact individual statutory counts unverified",
+            "sentence": "Served 29 days in jail in 1966 following sit-ins against discriminatory employment practices in San Francisco. Individual arrest, sentencing and release days and the precise jail remain unverified. This is not entered as the December 1964 UC Berkeley Sproul Hall case."
+          }
+        ],
+        "aka": "Kipp M. Dawson",
+        "website": "https://kippdawson.com/"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1945
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1966
+          },
+          "release_date": {
+            "year": 1966
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "dawson-bio",
+            "dawson-interview"
+          ],
+          "custody_evidence": "Both the personal archive and participant interview explicitly report 29 days actually served in 1966."
+        }
+      ],
+      "source_ids": [
+        "dawson-bio",
+        "dawson-interview",
+        "dawson-photo"
+      ],
+      "custody_evidence": "Both the personal archive and participant interview explicitly report 29 days actually served in 1966.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred.",
+      "photo": {
+        "source_file": "database/data/photos/kipp-dawson-school-portrait.png",
+        "storage_path": "prisoners/kipp-dawson-school-portrait.png",
+        "sha256": "e2412f5a46dfe379e20c5a2b73885aae4408c25cae8e5e76c86fc19bc4d22c2f",
+        "source_ids": [
+          "dawson-photo"
+        ],
+        "identity_evidence": "The personal archive identifies this image as a school photograph of young Kipp Dawson in a turtleneck; visually inspected.",
+        "credit": "Courtesy of the Kipp Dawson personal archive; photographer unidentified. No public-domain or Creative Commons license asserted.",
+        "changes": "Original downloaded PNG retained unchanged; no cropping, enhancement or redraw."
+      }
+    },
+    {
+      "key": "michael-dale-rossman",
+      "match_names": [
+        "Michael Dale Rossman",
+        "Michael Rossman",
+        "Mike Rossman"
+      ],
+      "prisoner": {
+        "name": "Michael Dale Rossman",
+        "first_name": "Michael",
+        "last_name": "Rossman",
+        "description": "Michael Rossman was a Berkeley Free Speech Movement organizer, writer and later collector of political posters. He spent nine weeks at Santa Rita in 1967 following the movement prosecution and wrote about prison life.",
+        "affiliation": [
+          "Free Speech Movement",
+          "SLATE"
+        ],
+        "state": "California",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Free Speech Movement sit-in prosecution — exact individual statutory counts unverified",
+            "sentence": "His February 1968 first-person account records nine weeks at Santa Rita during the previous summer, after the Supreme Court declined review of the movement case. The custody year is 1967; exact entry and release days remain unverified."
+          }
+        ],
+        "middle_name": "Dale",
+        "aka": "Michael Rossman; Mike Rossman"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1939,
+          "month": 12,
+          "day": 15
+        },
+        "death_date": {
+          "year": 2008,
+          "month": 5,
+          "day": 12
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1967
+          },
+          "release_date": {
+            "year": 1967
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "rossman-jail"
+          ],
+          "custody_evidence": "Contemporaneous first-person writing explicitly describes nine weeks inside Santa Rita in summer 1967."
+        }
+      ],
+      "source_ids": [
+        "rossman-vitals",
+        "rossman-memorial",
+        "rossman-jail"
+      ],
+      "custody_evidence": "Contemporaneous first-person writing explicitly describes nine weeks inside Santa Rita in summer 1967.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. His essay introduction dates the mass arrest December 2, while the roundup began December 3; no individual arrest-day field is populated from that discrepancy. Do not confuse with the crystallographer Michael Rossmann or physician Michael Glenn Rossman."
+    },
+    {
+      "key": "patricia-iiyama",
+      "match_names": [
+        "Patricia Iiyama",
+        "Patti Iiyama",
+        "Pat Iiyama"
+      ],
+      "prisoner": {
+        "name": "Patricia Iiyama",
+        "first_name": "Patricia",
+        "last_name": "Iiyama",
+        "description": "Patricia “Patti” Iiyama was a civil-rights activist and member of the Berkeley Free Speech Movement executive committee. Following the Sproul Hall sit-in, she refused probation and experienced a thirty-day term at Santa Rita.",
+        "affiliation": [
+          "Free Speech Movement",
+          "SLATE",
+          "Women for Peace"
+        ],
+        "state": "California",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Trespassing and resisting arrest in the Sproul Hall sit-in prosecution",
+            "sentence": "Convicted in summer 1965 after the December 1964 sit-in. She refused probation and received a thirty-day Santa Rita term; her later account describes the confinement. The exact dates she entered and left jail remain unresolved and are not equated with her conviction date."
+          }
+        ],
+        "aka": "Patti Iiyama; Pat Iiyama"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1945
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1964,
+            "month": 12
+          },
+          "sentenced_date": {
+            "year": 1965
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "iiyama-history"
+          ],
+          "custody_evidence": "The participant-based scholarly history describes her experience of regimentation and lost freedom during the thirty-day term, not merely a prospective sentence."
+        }
+      ],
+      "source_ids": [
+        "iiyama-history"
+      ],
+      "custody_evidence": "The participant-based scholarly history describes her experience of regimentation and lost freedom during the thirty-day term, not merely a prospective sentence.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Birth year 1945 in New York is explicit, not inferred from age. No precise birthday or death date found. Early initial release on bail is distinct from subsequent sentenced custody; sentencing year is not assumed to be service year."
+    },
+    {
+      "key": "michael-henry-marcus",
+      "match_names": [
+        "Michael Henry Marcus",
+        "Michael Marcus",
+        "Michael H. Marcus"
+      ],
+      "prisoner": {
+        "name": "Michael Henry Marcus",
+        "first_name": "Michael",
+        "last_name": "Marcus",
+        "description": "Michael Henry Marcus was an anti-nuclear protester and Berkeley Free Speech Movement participant who later became an Oregon judge. He recalled serving thirty days at Santa Rita following an Atomic Energy Commission sit-in.",
+        "affiliation": [
+          "Free Speech Movement"
+        ],
+        "state": "California",
+        "era": "1960s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Obstructing an exit in violation of the fire code and disturbing the peace — oral-history description",
+            "sentence": "Marcus recalled convictions on two counts after an anti-nuclear Atomic Energy Commission sit-in; unlawful assembly was dismissed. He served thirty days at Santa Rita. The introductory summary conflates this protest with a separate submarine-launch action, so the custody year and exact endpoints are left blank."
+          }
+        ],
+        "middle_name": "Henry",
+        "aka": "Michael Marcus; Michael H. Marcus"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1943,
+          "month": 4,
+          "day": 11
+        },
+        "death_date": {
+          "year": 2017,
+          "month": 7,
+          "day": 22
+        }
+      },
+      "case_dates": [
+        {}
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "marcus-oral"
+          ],
+          "custody_evidence": "His first-person testimony repeatedly confirms thirty days actually served and distinguishes this confinement from brief later FSM detention."
+        }
+      ],
+      "source_ids": [
+        "marcus-vitals",
+        "marcus-oral"
+      ],
+      "custody_evidence": "His first-person testimony repeatedly confirms thirty days actually served and distinguishes this confinement from brief later FSM detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The later December 1964 FSM arrest was followed by prompt release and, in his recollection, no additional jail term; no second qualifying case added. Introductory 1961 chronology and age references conflict. Not the trader, musician or Indonesian politician with the same name."
+    }
+  ]
+}
