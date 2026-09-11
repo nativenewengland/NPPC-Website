@@ -1,0 +1,943 @@
+{
+  "batch": 321,
+  "expected_count": 15,
+  "expected_case_count": 17,
+  "reviewed_at": "2026-09-11",
+  "scope": "Fifteen missing IWW prisoners and seventeen qualifying custody episodes from contemporary named rosters. Preserve existing profiles and unresolved dates.",
+  "sources": {
+    "omaha-roster": {
+      "label": "E. W. Latchem, Omaha List of 1917, letter April 12, 1920, One Big Union Monthly May 1920, printed p.51 / scan pp.55 and 59: November 13, 1917 convention arrests and individual bail-release dates; page image reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n05-may-1920_One%20Big%20Union.pdf"
+    },
+    "march-register": {
+      "label": "One Big Union Monthly March 1920, printed pp.7,9,11,20: Henry Biddiscomb and Roy Decker conspiracy indictments; Neal Guiney later Portland custody and earlier conflicting release year; Nick Verbeck earlier entry corrected in May. Pages 7 and 9 images reviewed; remaining entries extracted and reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf"
+    },
+    "vecellio-roster": {
+      "label": "A. L. Vecellio, letter April 11, 1920 and named custody roster, One Big Union Monthly May 1920, printed p.52 / scan p.60: individual arrests, shared transfers, November 29 release with explicit Verbeck exception, California/Pennsylvania episodes and John Levo custody; full page image reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n05-may-1920_One%20Big%20Union.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "henry-biddiscomb",
+      "match_names": [
+        "Henry Biddiscomb",
+        "H. Biddiscomb"
+      ],
+      "prisoner": {
+        "name": "Henry Biddiscomb",
+        "first_name": "Henry",
+        "last_name": "Biddiscomb",
+        "description": "Henry Biddiscomb was an Industrial Workers of the World member detained following the November 1917 union convention raid in Omaha, Nebraska. Union prisoner records identify a federal conspiracy indictment and his eventual release on bail in December 1918.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Nebraska",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Federal conspiracy prosecution of IWW convention participants",
+            "sentence": "Arrested November 13, 1917. Indicted September 21, 1918; released on $1,000 bond December 6, 1918 according to the later named custody roster. The March register reports $10,000 bail, which is distinguished from the bond on which release occurred. No conviction, prison sentence or final prosecution outcome inferred."
+          }
+        ],
+        "aka": "H. Biddiscomb"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 13
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 13
+          },
+          "release_date": {
+            "year": 1918,
+            "month": 12,
+            "day": 6
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "omaha-roster",
+            "march-register"
+          ],
+          "custody_evidence": "Named roster explicitly connects convention arrest in 1917 with individual December 1918 bail release, establishing prolonged pretrial detention."
+        }
+      ],
+      "source_ids": [
+        "omaha-roster",
+        "march-register"
+      ],
+      "custody_evidence": "Named roster explicitly connects convention arrest in 1917 with individual December 1918 bail release, establishing prolonged pretrial detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Earlier bail amount and later release bond retained distinctly. No same-name genealogy record attached without an independent identity match."
+    },
+    {
+      "key": "roy-decker",
+      "match_names": [
+        "Roy Decker"
+      ],
+      "prisoner": {
+        "name": "Roy Decker",
+        "first_name": "Roy",
+        "last_name": "Decker",
+        "description": "Roy Decker was an Industrial Workers of the World member detained following the November 1917 union convention raid in Omaha, Nebraska. Union prisoner records identify a federal conspiracy indictment and his eventual release on bail in December 1918.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Nebraska",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Federal conspiracy prosecution of IWW convention participants",
+            "sentence": "Arrested November 13, 1917. Indicted September 21, 1918; released on $1,000 bond December 6, 1918 according to the later named custody roster. The March register reports $10,000 bail, which is distinguished from the bond on which release occurred. No conviction, prison sentence or final prosecution outcome inferred."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 13
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 13
+          },
+          "release_date": {
+            "year": 1918,
+            "month": 12,
+            "day": 6
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "omaha-roster",
+            "march-register"
+          ],
+          "custody_evidence": "Named roster explicitly connects convention arrest in 1917 with individual December 1918 bail release, establishing prolonged pretrial detention."
+        }
+      ],
+      "source_ids": [
+        "omaha-roster",
+        "march-register"
+      ],
+      "custody_evidence": "Named roster explicitly connects convention arrest in 1917 with individual December 1918 bail release, establishing prolonged pretrial detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Earlier bail amount and later release bond retained distinctly. No same-name genealogy record attached without an independent identity match."
+    },
+    {
+      "key": "t-venier",
+      "match_names": [
+        "T. Venier"
+      ],
+      "prisoner": {
+        "name": "T. Venier",
+        "first_name": "T.",
+        "last_name": "Venier",
+        "description": "T. Venier was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 20
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 20
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "ed-shanon",
+      "match_names": [
+        "Ed Shanon"
+      ],
+      "prisoner": {
+        "name": "Ed Shanon",
+        "first_name": "Ed",
+        "last_name": "Shanon",
+        "description": "Ed Shanon was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 20
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 20
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "nick-verbeck",
+      "match_names": [
+        "Nick Verbeck",
+        "Nick Verbok"
+      ],
+      "prisoner": {
+        "name": "Nick Verbeck",
+        "first_name": "Nick",
+        "last_name": "Verbeck",
+        "description": "Nick Verbeck was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. Unlike the other listed detainees, he remained in federal custody and later received a six-year military sentence.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": false,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing; subsequent military prosecution, precise charge unresolved",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Explicitly excluded from the November 29 group release: taken into federal custody, transferred to Fort Wright and sentenced by court martial in July 1918 to six years at McNeil Island. The May correction supersedes the March register statement that he was released in 1918. Exact military charge, prison admission and eventual release remain unverified; six years is a sentence, not asserted time served."
+          }
+        ],
+        "aka": "Nick Verbok"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "sentenced_date": {
+            "year": 1918,
+            "month": 7
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster",
+            "march-register"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster",
+        "march-register"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees. No current incarceration or later release asserted. Military term and earlier detention remain one continuous episode because the source explicitly denies release between them."
+    },
+    {
+      "key": "matt-antella",
+      "match_names": [
+        "Matt Antella"
+      ],
+      "prisoner": {
+        "name": "Matt Antella",
+        "first_name": "Matt",
+        "last_name": "Antella",
+        "description": "Matt Antella was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "j-antella",
+      "match_names": [
+        "J. Antella"
+      ],
+      "prisoner": {
+        "name": "J. Antella",
+        "first_name": "J.",
+        "last_name": "Antella",
+        "description": "J. Antella was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "p-davison",
+      "match_names": [
+        "P. Davison"
+      ],
+      "prisoner": {
+        "name": "P. Davison",
+        "first_name": "P.",
+        "last_name": "Davison",
+        "description": "P. Davison was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "n-mccloud",
+      "match_names": [
+        "N. McCloud"
+      ],
+      "prisoner": {
+        "name": "N. McCloud",
+        "first_name": "N.",
+        "last_name": "McCloud",
+        "description": "N. McCloud was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "s-hourve",
+      "match_names": [
+        "S. Hourve"
+      ],
+      "prisoner": {
+        "name": "S. Hourve",
+        "first_name": "S.",
+        "last_name": "Hourve",
+        "description": "S. Hourve was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees."
+    },
+    {
+      "key": "a-l-vecellio",
+      "match_names": [
+        "A. L. Vecellio"
+      ],
+      "prisoner": {
+        "name": "A. L. Vecellio",
+        "first_name": "A.",
+        "last_name": "Vecellio",
+        "description": "A. L. Vecellio was an Industrial Workers of the World member detained in Idaho during the 1917 crackdown on labor organizing. A union custody roster records his July arrest and confinement at St. Maries and Moscow. It records his release on November 29, 1917. He later supplied the published roster and documented his own 1919 detention in Pennsylvania.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal syndicalism allegations during Idaho IWW organizing",
+            "sentence": "Arrested in July 1917 on criminal-syndicalism allegations. The named roster records transfer to Moscow on August 2 and back to St. Maries on September 17. Released November 29, 1917. No individual conviction or sentence asserted from the detention record."
+          },
+          {
+            "charges": "Federal investigation following detention of IWW activist",
+            "sentence": "Arrested at Van Voorhis, Pennsylvania June 29, 1919 and released July 3, 1919, according to his published custody report. Precise statutory charge and final legal disposition remain unspecified."
+          }
+        ],
+        "middle_name": "L."
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 23
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 11,
+            "day": 29
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1919,
+            "month": 6,
+            "day": 29
+          },
+          "incarceration_date": {
+            "year": 1919,
+            "month": 6,
+            "day": 29
+          },
+          "release_date": {
+            "year": 1919,
+            "month": 7,
+            "day": 3
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted."
+        },
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named June 29 entry and July 3 release establish four days in custody in a distinct episode."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named July arrests, August and September detention transfers, and subsequent disposition establish months of actual confinement. The November 29 release applies to the listed group with Verbeck explicitly excepted. Named June 29 entry and July 3 release establish four days in custody in a distinct episode.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials and source spellings retained without guessed expansions or birthdays. Group transfer/release statements are applied only to the immediately preceding named roster, not unnamed detainees. Separate California entry names L. Vecellio; it is held pending confirmation that this is A. L. Vecellio, and is not automatically added."
+    },
+    {
+      "key": "neal-guiney",
+      "match_names": [
+        "Neal Guiney",
+        "Neil Guiney"
+      ],
+      "prisoner": {
+        "name": "Neal Guiney",
+        "first_name": "Neal",
+        "last_name": "Guiney",
+        "description": "Neal Guiney, also recorded as Neil Guiney, was an Industrial Workers of the World member imprisoned in Idaho during the 1917 labor-organizing prosecutions. A later union register also identifies prolonged confinement in Portland, Oregon after another arrest in early 1919.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Idaho",
+        "era": "1910s",
+        "in_custody": false,
+        "released": false,
+        "cases": [
+          {
+            "charges": "Idaho prosecution during IWW organizing; criminal-syndicalism allegations in the named group roster",
+            "sentence": "The May roster dates his St. Maries arrest July 18, 1917 and describes months of detention through transfers to Moscow and back. It includes him in the November 29, 1917 release statement; the March register instead reports release in 1918. This unresolved conflict is disclosed and no release date is entered."
+          },
+          {
+            "charges": "Oregon state prosecution of IWW activist; precise charge unverified",
+            "sentence": "The March 1920 union register states that Guiney was rearrested in Portland early in 1919 and was still held in Portland jail, mentioning trial and appeal proceedings without clearly distinguishing them. Record year of entry only; no precise sentence, release date or present-day custody asserted."
+          }
+        ],
+        "aka": "Neil Guiney"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 18
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 7,
+            "day": 18
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 1919
+          },
+          "incarceration_date": {
+            "year": 1919
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster",
+            "march-register"
+          ],
+          "custody_evidence": "Named July arrest followed by August and September custody transfers proves multi-day confinement regardless of the unresolved release-year conflict."
+        },
+        {
+          "source_ids": [
+            "march-register"
+          ],
+          "custody_evidence": "Register published in March 1920 describes continued jail custody after an early-1919 arrest, establishing sustained detention."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster",
+        "march-register"
+      ],
+      "custody_evidence": "Named July arrest followed by August and September custody transfers proves multi-day confinement regardless of the unresolved release-year conflict. Register published in March 1920 describes continued jail custody after an early-1919 arrest, establishing sustained detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Both historical episodes retained. Latest release unverified; neither ongoing present-day imprisonment nor completed release asserted. Neil/Neal identity linked by the same St. Maries proceeding."
+    },
+    {
+      "key": "e-pavini",
+      "match_names": [
+        "E. Pavini"
+      ],
+      "prisoner": {
+        "name": "E. Pavini",
+        "first_name": "E.",
+        "last_name": "Pavini",
+        "description": "E. Pavini was an Industrial Workers of the World member detained in Eureka, California in 1918. A union custody report describes release from an initial vagrancy case followed immediately by renewed federal detention lasting until May.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "California",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Federal investigation after initial vagrancy detention",
+            "sentence": "Initial vagrancy arrest January 26, 1918; released the next day and rearrested before leaving the courthouse for federal investigation. The qualifying renewed detention began January 27 and ended May 2, 1918. The initial one-night arrest is not counted as a separate qualifying case. Exact federal statutory charge and final disposition unspecified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1918,
+            "month": 1,
+            "day": 27
+          },
+          "incarceration_date": {
+            "year": 1918,
+            "month": 1,
+            "day": 27
+          },
+          "release_date": {
+            "year": 1918,
+            "month": 5,
+            "day": 2
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "The individual report explicitly describes January 27 rearrest and continued detention until May 2."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "The individual report explicitly describes January 27 rearrest and continued detention until May 2.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred."
+    },
+    {
+      "key": "g-bertini",
+      "match_names": [
+        "G. Bertini"
+      ],
+      "prisoner": {
+        "name": "G. Bertini",
+        "first_name": "G.",
+        "last_name": "Bertini",
+        "description": "G. Bertini was an Industrial Workers of the World member jailed at Fort Bragg, California in 1918. A union custody roster records forty-one days of confinement following a state arrest.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "California",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "State prosecution during IWW repression; precise charge unspecified",
+            "sentence": "Arrested at Fort Bragg February 7, 1918 and released forty-one days later, according to the named union custody report. The reported duration is retained in prose; no exact release day calculated and no formal sentence inferred."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1918,
+            "month": 2,
+            "day": 7
+          },
+          "incarceration_date": {
+            "year": 1918,
+            "month": 2,
+            "day": 7
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "The roster explicitly reports release after forty-one days, establishing custody beyond an initial arrest."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "The roster explicitly reports release after forty-one days, establishing custody beyond an initial arrest.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred."
+    },
+    {
+      "key": "john-levo",
+      "match_names": [
+        "John Levo"
+      ],
+      "prisoner": {
+        "name": "John Levo",
+        "first_name": "John",
+        "last_name": "Levo",
+        "description": "John Levo was an Industrial Workers of the World member held in deportation proceedings after arrest in Seattle in January 1918. He was confined in Washington and later transferred to Ellis Island, where the union custody roster records his release in March 1919.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Washington",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention in deportation proceedings involving IWW members",
+            "sentence": "Arrested Seattle January 16, 1918; transferred to jail in Everett and later taken to Ellis Island with the Red Special detainees. Released from Ellis Island March 17, 1919 according to the named report. Release does not establish deportation or the final immigration disposition. No criminal conviction asserted."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1918,
+            "month": 1,
+            "day": 16
+          },
+          "incarceration_date": {
+            "year": 1918,
+            "month": 1,
+            "day": 16
+          },
+          "release_date": {
+            "year": 1919,
+            "month": 3,
+            "day": 17
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "vecellio-roster"
+          ],
+          "custody_evidence": "Named arrest, successive Washington and Ellis Island confinement, and subsequent release establish prolonged actual US detention."
+        }
+      ],
+      "source_ids": [
+        "vecellio-roster"
+      ],
+      "custody_evidence": "Named arrest, successive Washington and Ellis Island confinement, and subsequent release establish prolonged actual US detention.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred."
+    }
+  ]
+}

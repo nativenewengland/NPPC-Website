@@ -1,0 +1,207 @@
+{
+  "batch": 320,
+  "expected_count": 3,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-11",
+  "scope": "Three missing Spokane free-speech prisoners, with contemporary custody evidence and sourced death dates. Preserve every existing profile.",
+  "sources": {
+    "chinn-obituary": {
+      "label": "Industrial Worker, March 26, 1910, page 1: S. O. Chinn obituary and dated local resolution; page image reviewed. Conflicting 35/45-day figures not treated as an exact total.",
+      "url": "https://www.marxists.org/history/usa/pubs/industrialworker/iw/v2n01-w53-mar-26-1910-IW.pdf"
+    },
+    "chinn-funeral": {
+      "label": "Industrial Worker, April 2, 1910, page 1: funeral, identity and preceding autumn arrival for free-speech fight; indexed text reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/industrialworker/iw/v2n02-w54-apr-02-1910-IW.pdf"
+    },
+    "bordet-custody": {
+      "label": "Industrial Worker, January 26, 1911, page 3: A Worthy Appeal, thirty days on bread and water in Spokane and subsequent hospital treatment; page image reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/industrialworker/iw/v2n45-w97-jan-26-1911-IW.pdf"
+    },
+    "bordet-death": {
+      "label": "Industrial Worker, February 23, 1911, page 3: Local 437 resolution explicitly dates Henry Bordet death February 7, 1911; page image reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/industrialworker/iw/v2n49-w101-feb-23-1911-IW.pdf"
+    },
+    "ferry-custody": {
+      "label": "Industrial Worker, April 16, 1910, page 1: F. J. Ferry, Local 222, thirty-four days confinement at Franklin School; page image reviewed. Article gives April 5 death, conflicting with the earlier Spokane Press report.",
+      "url": "https://www.marxists.org/history/usa/pubs/industrialworker/iw/v2n04-w56-apr-16-1910-IW.pdf"
+    },
+    "ferry-death": {
+      "label": "Spokane Press, April 8, 1910, page 1: F. Ferry died last night after prior release; thirty-four days in Franklin School and arrest the preceding autumn. Library of Congress page text reviewed.",
+      "url": "https://chroniclingamerica.loc.gov/lccn/sn88085947/1910-04-08/ed-1/seq-1/"
+    },
+    "uw-identities": {
+      "label": "University of Washington IWW History Project memorial list: Samuel O. Chinn full name and March 18, 1910; F. J. Ferry April 7, 1910. Bordet February 1 discrepancy resolved using contemporary Local 437 resolution.",
+      "url": "https://depts.washington.edu/iww/map_killed.shtml"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "samuel-o-chinn",
+      "match_names": [
+        "Samuel O. Chinn",
+        "S. O. Chinn"
+      ],
+      "prisoner": {
+        "name": "Samuel O. Chinn",
+        "first_name": "Samuel",
+        "last_name": "Chinn",
+        "description": "Samuel O. Chinn was an Industrial Workers of the World member and Spokane union officer jailed during the 1909–1910 free-speech campaign. Contemporary accounts describe prolonged confinement on bread and water. He died in Spokane on March 18, 1910, after leaving jail; the union attributed his deteriorating health to his treatment in custody.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Washington",
+        "era": "1900s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Spokane free-speech campaign detention; precise individual charge unverified",
+            "sentence": "Confined for more than a month during the 1909–1910 free-speech fight. The March 26 obituary gives inconsistent 35- and 45-day bread-and-water periods, and another report gives thirty days. These establish sustained custody but are not used as an exact sentence or calculated imprisonment duration. Released before his later hospital death; entry and release dates remain unverified."
+          }
+        ],
+        "middle_name": "O.",
+        "aka": "S. O. Chinn"
+      },
+      "dates": {
+        "death_date": {
+          "year": 1910,
+          "month": 3,
+          "day": 18
+        }
+      },
+      "case_dates": [
+        {}
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "chinn-obituary",
+            "chinn-funeral",
+            "uw-identities"
+          ],
+          "custody_evidence": "Contemporary obituary describes more than a month in jail and illness after release. March 18 death independently appears in the local union resolution."
+        }
+      ],
+      "source_ids": [
+        "chinn-obituary",
+        "chinn-funeral",
+        "uw-identities"
+      ],
+      "custody_evidence": "Contemporary obituary describes more than a month in jail and illness after release. March 18 death independently appears in the local union resolution.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Initials S. O. expanded only through the UW identification. His arrival in autumn 1909 is not treated as an exact arrest or jail-entry date. No medical causation asserted as independently proven."
+    },
+    {
+      "key": "henry-bordet",
+      "match_names": [
+        "Henry Bordet"
+      ],
+      "prisoner": {
+        "name": "Henry Bordet",
+        "first_name": "Henry",
+        "last_name": "Bordet",
+        "description": "Henry Bordet was an Industrial Workers of the World member jailed during the Spokane free-speech fight. His union reported thirty days on bread and water and severe mistreatment in custody. After release he received hospital care in Portland and assistance from Local 437 in Holtville, California. That local recorded his death on February 7, 1911.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Washington",
+        "era": "1900s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Spokane free-speech campaign detention; precise individual charge unverified",
+            "sentence": "The January 26, 1911 appeal reports thirty days on bread and water in Spokane custody during the earlier free-speech fight. This is a documented period of actual confinement, not a verified court-imposed sentence or necessarily the full detention. The same account establishes later release and hospital treatment. Exact arrest, entry and release dates remain unresolved."
+          }
+        ]
+      },
+      "dates": {
+        "death_date": {
+          "year": 1911,
+          "month": 2,
+          "day": 7
+        }
+      },
+      "case_dates": [
+        {}
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "bordet-custody",
+            "bordet-death"
+          ],
+          "custody_evidence": "Local 437 contemporary appeal explicitly reports thirty days in custody and his subsequent life outside jail."
+        }
+      ],
+      "source_ids": [
+        "bordet-custody",
+        "bordet-death"
+      ],
+      "custody_evidence": "Local 437 contemporary appeal explicitly reports thirty days in custody and his subsequent life outside jail.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Death February 7, 1911 comes from the signed contemporary local resolution, taking precedence over UW February 1. No exact custody year inferred from the January 1911 phrase a year ago; the campaign spanned 1909–1910."
+    },
+    {
+      "key": "f-j-ferry",
+      "match_names": [
+        "F. J. Ferry",
+        "F. Ferry"
+      ],
+      "prisoner": {
+        "name": "F. J. Ferry",
+        "first_name": "F.",
+        "last_name": "Ferry",
+        "description": "F. J. Ferry was a Spokane member of Industrial Workers of the World Local 222 and a participant in the free-speech campaign. Arrested in autumn 1909, he was held for thirty-four days at the Franklin School detention site. Contemporary reports describe ill health after release and his subsequent death in a Spokane hospital.",
+        "affiliation": [
+          "Industrial Workers of the World (IWW)"
+        ],
+        "state": "Washington",
+        "era": "1900s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Spokane free-speech campaign detention; precise individual charge unverified",
+            "sentence": "Thirty-four days confined at Franklin School during the free-speech fight, with arrest in autumn 1909. Contemporary reporting confirms he left prison before his final illness and death. Exact custody endpoints and the formal sentence remain unverified; the reported confinement is not rounded to one month."
+          }
+        ],
+        "middle_name": "J.",
+        "aka": "F. Ferry"
+      },
+      "dates": {
+        "death_date": {
+          "year": 1910,
+          "month": 4,
+          "day": 7
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1909
+          },
+          "incarceration_date": {
+            "year": 1909
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "ferry-custody",
+            "ferry-death",
+            "uw-identities"
+          ],
+          "custody_evidence": "Both contemporary newspapers describe thirty-four days in confinement and subsequent release. Spokane Press dates the arrest to the preceding autumn."
+        }
+      ],
+      "source_ids": [
+        "ferry-custody",
+        "ferry-death",
+        "uw-identities"
+      ],
+      "custody_evidence": "Both contemporary newspapers describe thirty-four days in confinement and subsequent release. Spokane Press dates the arrest to the preceding autumn.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. April 7 death is derived from the April 8 Spokane Press report saying last night, and corroborated by UW. Industrial Worker April 16 gives April 5; this conflict is documented. Reported age 62 is not converted to a birth year; initials not expanded. Death followed release, so no death-in-custody endpoint entered."
+    }
+  ]
+}
