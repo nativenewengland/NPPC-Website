@@ -27,3 +27,11 @@ Deusdedit Marrero, Cesar Andreu Iglesias, Jane Speed de Andreu, Consuelo Lee de 
 ## Next pass
 
 Continue CPUSA and unemployed-worker organizing. Andrew and Hattie Brazier's August 1931 anti-eviction arrests are held: copies of the August 15 *Southern Worker* differ between bail being requested and obtained, and no multi-day detention is established. Ned Goodwin may match existing Nat Goodwin; compare the individual case before creating a profile. Otis DeBardeleben's fine is not evidence of multi-day imprisonment. Wider CPUSA rosters remain open.
+
+### Additional CPUSA screening
+
+A scoped live read confirms Nat Goodwin (697d080e-dfa5-485e-b39d-cb36f107296a) already has the Jane Speed mixed-meeting episode, labeled early 1934. Kelley's *Hammer and Hoe*, pp.102 and 245 note 63, instead identifies Ned Goodwin in the May 1933 episode. This is a likely identity/date conflict, not a verified new person. Preserve the existing record pending primary-source reconciliation. Follow Jane Speed's January 12, 1937 testimony, *La Follette Committee Hearings* 3:961–962; *Southern Worker*, June 10, 1933; and the May 19–26, 1933 *Montgomery Advertiser* reports cited by Kelley.
+
+Pete Turney and Israel Berlin also match existing profiles. Missing-name leads John Beidel, Fred Keith and Addie Adkins appear in Kelley's p.73 account of literature arrests. Seek individual detention and release records; the account alone does not establish multiple days. Do not confuse Fred Keith with modern Birmingham namesakes. No additional person counted from these leads.
+
+Discovery source: [Hammer and Hoe PDF](https://files.libcom.org/files/Hammer%20and%20hoe%20Alabama%20Communists%20during%20the%20Great%20Depression.pdf), relevant passages screened, not a claimed full-book review. Conflicting Brazier editions: [Marxists Internet Archive scan](https://www.marxists.org/history/usa/pubs/southernworker/v1n52-aug-15-1931-sw.pdf) and [NYU Tamiment scan](https://mc.dlib.nyu.edu/files/books/tamwag_swkr000045/tamwag_swkr000045_lo.pdf). Verify scan images before relying on either OCR reading.
