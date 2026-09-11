@@ -71,18 +71,18 @@ $before = $snapshot();
 foreach ($cacheKeys as $key) {
     Cache::put($key, 'unchanged');
 }
-$check(str_contains($run(true), 'Would add profiles: 4'), 'Dry-run count is incorrect.');
+$check(str_contains($run(true), 'Would add profiles: 8'), 'Dry-run count is incorrect.');
 $check($snapshot() === $before, 'Dry run changed database rows.');
 foreach ($cacheKeys as $key) {
     $check(Cache::get($key) === 'unchanged', 'Dry run changed a cache.');
 }
 
 $run();
-$check(Prisoner::count() === 5 && PrisonerCase::count() === 5, 'Expected four new profiles and four cases.');
+$check(Prisoner::count() === 9 && PrisonerCase::count() === 9, 'Expected eight new profiles and eight cases.');
 $check($control->fresh()->description === 'Preserve biography', 'Existing biography changed.');
 $check($control->fresh()->sort_order === 99, 'Existing curated position changed.');
 $check($control->cases()->sole()->charges === 'Preserve case', 'Existing case changed.');
-foreach (['Tom Forcade', 'Carlos Calderon', 'Jerome Friedman', 'Colin Neiburger'] as $name) {
+foreach (['Tom Forcade', 'Carlos Calderon', 'Jerome Friedman', 'Colin Neiburger', 'Frank Gormlie', 'Ron Ridenour', 'J. D. Arnold', 'Steven Abbott'] as $name) {
     $person = Prisoner::where('name', $name)->sole();
     $case = $person->cases()->sole();
     $check(! $person->in_custody && ! $person->awaiting_trial && ! $person->imprisoned_or_exiled && $person->released, 'Historical detainee marked currently detained.');
@@ -93,7 +93,7 @@ foreach (['Tom Forcade', 'Carlos Calderon', 'Jerome Friedman', 'Colin Neiburger'
     foreach (['arrest_date', 'incarceration_date', 'release_date', 'sentenced_date', 'imprisoned_for_days', 'imprisoned_for_months', 'institution_id'] as $field) {
         $check($case->$field === null, 'Invented custody endpoint, duration or institution: '.$field);
     }
-    if ($name !== 'Tom Forcade') {
+    if (in_array($name, ['Carlos Calderon', 'Jerome Friedman', 'Colin Neiburger', 'Steven Abbott'], true)) {
         $check($case->convicted === null, 'Assigned an unresolved criminal disposition.');
     }
 }
@@ -102,6 +102,10 @@ $check(Prisoner::where('name', 'Colin Neiburger')->sole()->affiliation === null,
 foreach ($cacheKeys as $key) {
     $check(! Cache::has($key), 'Application cache was not invalidated.');
 }
+$check(str_contains(Prisoner::where('name', 'Ron Ridenour')->sole()->cases()->sole()->sentence, 'nights and weekends'), 'Intermittent custody was flattened to continuous custody.');
+$check(str_contains(Prisoner::where('name', 'J. D. Arnold')->sole()->cases()->sole()->sentence, 'one weekend'), 'Arnold sentence was substituted for time served.');
+$check(str_contains(Prisoner::where('name', 'Frank Gormlie')->sole()->cases()->sole()->sentence, 'May–December 1972'), 'Gormlie custody period omitted.');
+
 $applied = $snapshot();
 $check(str_contains($run(), 'Added profiles: 0'), 'Replay added duplicates.');
 $check($snapshot() === $applied, 'Replay changed records or timestamps.');
@@ -111,10 +115,27 @@ $reset();
 $hidden = Prisoner::create(['name' => 'Already Reviewed Person', 'aka' => 'Kenneth Gary Goodson', 'under_review' => true, 'description' => 'Keep hidden profile']);
 $hidden->cases()->create(['charges' => 'Keep hidden case']);
 $accented = Prisoner::create(['name' => 'Calderón, Carlos', 'description' => 'Keep accented profile']);
-$check(str_contains($run(), 'Added profiles: 2'), 'Alias/accent match was not preserved.');
-$check(Prisoner::withoutGlobalScopes()->count() === 4, 'Duplicate identities created.');
+$check(str_contains($run(), 'Added profiles: 6'), 'Alias/accent match was not preserved.');
+$check(Prisoner::withoutGlobalScopes()->count() === 8, 'Duplicate identities created.');
 $check($hidden->fresh()->description === 'Keep hidden profile' && $hidden->cases()->count() === 1, 'Hidden record overwritten.');
 $check($accented->fresh()->description === 'Keep accented profile', 'Accent match overwritten.');
+
+// Preserve the four profiles from the already-merged first import.
+$reset();
+foreach (['Tom Forcade', 'Carlos Calderon', 'Jerome Friedman', 'Colin Neiburger'] as $name) {
+    $existing = Prisoner::create(['name' => $name, 'description' => 'Previously imported biography', 'released' => true, 'sort_order' => 50]);
+    $existing->cases()->create(['charges' => 'Previously imported case']);
+}
+$originalRows = DB::table('prisoners')->orderBy('id')->get()->toArray();
+$originalCases = DB::table('prisoner_cases')->orderBy('id')->get()->toArray();
+$check(str_contains($run(), 'Added profiles: 4'), 'Follow-up did not add exactly four profiles.');
+$check(Prisoner::count() === 8 && PrisonerCase::count() === 8, 'Follow-up profile/case totals are incorrect.');
+foreach ($originalRows as $row) {
+    $check((array) DB::table('prisoners')->where('id', $row->id)->first() === (array) $row, 'Follow-up changed an original profile.');
+}
+foreach ($originalCases as $row) {
+    $check((array) DB::table('prisoner_cases')->where('id', $row->id)->first() === (array) $row, 'Follow-up changed an original case.');
+}
 
 // An ambiguous identity must fail before any new person is written.
 $reset();

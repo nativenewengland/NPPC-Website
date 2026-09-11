@@ -1,6 +1,30 @@
 {
   "reviewed": "2026-09-11",
   "sources": {
+    "gormlie_rag": {
+      "title": "OB Rag, Free Frank! More History of OB and the Rag (December 15, 2009), including the contemporary Door report",
+      "url": "https://obrag.org/2009/12/free-frank-more-history-of-ob-and-the-rag/"
+    },
+    "gormlie_bio": {
+      "title": "OB Rag staff biography",
+      "url": "https://obrag.org/about/the-ob-rag-staff-box/"
+    },
+    "ridenour_strike": {
+      "title": "The Militant, November 23, 1973, page 2: Journalist jailed for strike support",
+      "url": "https://themilitant.com/1973/3743/MIL3743.pdf"
+    },
+    "ridenour_1972": {
+      "title": "The Militant, 1972: Radical journalist is victimized by police",
+      "url": "https://www.themilitant.com/1972/3633/MIL3633.pdf"
+    },
+    "arnold_jail": {
+      "title": "J. D. Arnold, The Dallas Jail, Texas Observer, July 7, 1972, page 6",
+      "url": "https://issues.texasobserver.org/pdf/ustxtxb_obs_1972_07_07_issue.pdf"
+    },
+    "arnold_opinion": {
+      "title": "Ex parte Arnold / Ex parte Brent Stein, Texas Court of Criminal Appeals (January 9, 1974)",
+      "url": "https://www.casemine.com/judgement/us/5914c6c1add7b049347dd855"
+    },
     "forcade_profile": {
       "title": "Albert Goldman profile reprinted in High Times Greatest Hits (1994)",
       "url": "https://dokumen.pub/high-times-greatest-hits-twenty-years-of-smoke-in-your-face-0312111347-9780312111342.html"
@@ -129,6 +153,131 @@
           {
             "charges": "Inciting to riot and disorderly conduct — Columbus, May 1972",
             "sentence": "Pretrial detention under excessive bail; bond reduced May 19, 1972. No individual sentence, release date, or confinement duration has been verified."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": [
+        "Frank Gormlie"
+      ],
+      "source_ids": [
+        "gormlie_rag",
+        "gormlie_bio",
+        "san_diego_reader"
+      ],
+      "research_note": "The contemporary Door report establishes custody following conviction; OB Rag's editorial note gives May–December 1972. The Reader records Gormlie's recollection of about seven and one-half months. The defense account is attributed, and the successful appeal of newspaper-related probation restrictions is not described as reversal of the convictions. No day-level endpoints or numeric duration are inferred.",
+      "prisoner": {
+        "name": "Frank Gormlie",
+        "first_name": "Frank",
+        "last_name": "Gormlie",
+        "description": "Frank Gormlie founded the Ocean Beach People's Rag and organized in San Diego's Ocean Beach community. Following the 1971 Collier Park demonstration, he was convicted of failure to disperse and assault with a deadly weapon upon a police officer. His defense maintained that he used a shovel to protect a boy from police blows. OB Rag reports that he served from May to December 1972 and successfully appealed probation restrictions on association with the newspaper and its staff.",
+        "state": "California",
+        "era": "1970s",
+        "affiliation": [
+          "Ocean Beach People's Rag"
+        ],
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Failure to disperse from an unlawful assembly; assault with a deadly weapon upon a police officer — Collier Park demonstration",
+            "convicted": "Yes — jury verdict May 5, 1972",
+            "sentence": "Served May–December 1972; later recalled approximately seven and one-half months in jail. Newspaper-related probation restrictions were overturned on appeal. Exact custody endpoints and the sentence imposed remain unverified."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": [
+        "Ron Ridenour"
+      ],
+      "source_ids": [
+        "ridenour_strike",
+        "ridenour_1972"
+      ],
+      "research_note": "Contemporary reporting establishes a resisting-arrest conviction arising from November 1970 garment-strike support, three days jailed during an appeal-stay lapse in 1972, and service of a six-month sentence on nights and weekends in 1973. Do not convert the intermittent sentence into six continuous months or add the three days without knowing custody credit. This entry covers the strike case; the separate May 1972 photography prosecution is not conflated with it.",
+      "prisoner": {
+        "name": "Ron Ridenour",
+        "first_name": "Ron",
+        "last_name": "Ridenour",
+        "description": "Ron Ridenour was a Los Angeles Free Press journalist and supporter of striking Chicana garment workers. He was arrested at a picket line in November 1970 and convicted of resisting arrest. The Militant reported in November 1973 that he was serving a six-month jail sentence on nights and weekends while allowed to work weekdays. The newspaper characterized the prosecution as a frame-up. This strike-support case was distinct from his later prosecution for photographing police at an antiwar protest.",
+        "state": "California",
+        "era": "1970s",
+        "affiliation": [
+          "Los Angeles Free Press"
+        ],
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Resisting arrest — November 1970 garment-strike picketing",
+            "convicted": "Yes — strike-support case; subsequent federal appeal outcome unverified",
+            "sentence": "Six-month jail sentence, reported being served on nights and weekends in November 1973, with weekday work permitted. A separate three-day confinement during an appeal-stay lapse was reported in 1972. Exact endpoints and total days actually confined are unknown."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": [
+        "J. D. Arnold",
+        "JD Arnold",
+        "John D. Arnold"
+      ],
+      "source_ids": [
+        "arnold_jail",
+        "arnold_opinion"
+      ],
+      "research_note": "The Texas Observer's author note establishes an actual weekend in jail. The court opinion confirms the John D. Arnold name and dismissal of the contempt charges on January 9, 1974. The six-month sentence is not time served; the appellate decision is not a release date. Subsequent Sunday jail visits described in his article were reporting visits.",
+      "prisoner": {
+        "name": "J. D. Arnold",
+        "first_name": "John",
+        "middle_name": "D.",
+        "last_name": "Arnold",
+        "aka": "John D. Arnold",
+        "description": "J. D. Arnold, identified in court records as John D. Arnold, was news editor of the Dallas Iconoclast. The Texas Observer reported in July 1972 that he had recently spent a weekend in Dallas jail on contempt charges. The case arose from photographing an undercover officer outside a courtroom. The Texas Court of Criminal Appeals dismissed the contempt charges on January 9, 1974; the six-month sentence imposed is not evidence of six months actually served.",
+        "state": "Texas",
+        "era": "1970s",
+        "affiliation": [
+          "Dallas Iconoclast"
+        ],
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Contempt of court — photographing an undercover officer outside a courtroom in April 1972",
+            "convicted": "Contempt adjudication; charges dismissed on appeal January 9, 1974",
+            "sentence": "Six months and a $500 fine imposed after a hearing; charges later dismissed. Actual custody documented: one weekend in 1972. Exact jail-entry and release dates are unknown."
+          }
+        ]
+      }
+    },
+    {
+      "match_names": [
+        "Steven Abbott",
+        "Steve Abbott"
+      ],
+      "source_ids": [
+        "abbott_opinion"
+      ],
+      "research_note": "Abbott v. City of Columbus explicitly identifies the Columbus Free Press writer and states he was jailed in default of bail. The court reduced $20,000 bail to $3,000; conditional discharge does not show when he posted bond. Final disposition and duration are unknown. Do not merge this writer with the similarly named San Francisco poet.",
+      "prisoner": {
+        "name": "Steven Abbott",
+        "first_name": "Steven",
+        "last_name": "Abbott",
+        "aka": "Steve Abbott",
+        "description": "Steven Abbott was a Columbus Free Press writer jailed in 1972 on riot-related misdemeanor charges. In Abbott v. City of Columbus, the reviewing court found no justification for his $20,000 bail and reduced it to $3,000. The state's adverse character evidence consisted of an article attributed to him, while the original bail decision had treated his charges as a felony. The opinion establishes actual detention but not its length or the final criminal outcome.",
+        "state": "Ohio",
+        "era": "1970s",
+        "affiliation": [
+          "Columbus Free Press"
+        ],
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Second-degree riot, disorderly conduct, and malicious destruction of property — Columbus, 1972",
+            "sentence": "Pretrial detention under excessive bail. Bond reduced May 19, 1972 from $20,000 to $3,000. Exact release date, total confinement, and final criminal disposition are unverified."
           }
         ]
       }
