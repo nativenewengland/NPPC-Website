@@ -1,5 +1,7 @@
 # Catholic Worker books — missing-prisoner review
 
+**Later update, September 10:** the user supplied four full books. The [full-book review](full-books-review-2026-09-10.md) supersedes the access limitations below for *Doing Time*, *Crossing the Line*, the supplied 1987 *Swords into Plowshares*, and the 1980-2003 chronology. These are not exactly the same editions/titles as the preview queue below; *Voices from the Catholic Worker* remains unsupplied. The full-book review records 15 proposed missing people, 21 case findings, and 12 caption-identified photo leads. These findings have not yet been imported or counted toward the 100-person PR threshold.
+
 September 10, 2026. **Work in progress.** Reviewed the accessible previews, contents and archival finding aids for all four requested books, then followed named leads into independent custody records. Full-text access is incomplete; a table of contents or interview listing is never treated as proof of incarceration.
 
 | Book | Material actually accessible and reviewed | Result / remaining work |
