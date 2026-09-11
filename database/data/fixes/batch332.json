@@ -1,0 +1,367 @@
+{
+  "batch": 332,
+  "expected_count": 5,
+  "expected_case_count": 6,
+  "reviewed_at": "2026-09-11",
+  "scope": "Five missing Irish republican-related defendants with verified multi-day US custody; distinguish acquittal, bail, transfer and separate detention periods.",
+  "sources": {
+    "saoirse": {
+      "label": "Saoirse, December 1992, page 2, Four Irishmen held in USA despite bail grant. Original PDF and page image reviewed; identifies all four at Otisville after the November 17 bail order.",
+      "url": "https://republicanarchive.com/wp-content/uploads/2026/05/Saoirse-December-1992.pdf"
+    },
+    "arrest-ap": {
+      "label": "Associated Press in Midland Reporter-Telegram, November 12, 1992, page 10A, FBI arrest four with explosives, ties to the IRA. Wednesday arrest is November 11; full names in original scan.",
+      "url": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/f16b821d-1b44-4eee-92bd-46fe00598dae/content"
+    },
+    "acquittal": {
+      "label": "Patrick Cooper, IrishCentral, January 14, 2011, Judge Roll presided in major IRA trial of Tucson Six. Confirms all six acquitted in 1994; erroneous James for Gerard Brannigan is not used as his canonical name.",
+      "url": "https://www.irishcentral.com/news/judge-roll-presided-in-major-ira-trial-of-tucson-six-113580269-237365141"
+    },
+    "visits": {
+      "label": "Tucson Weekly, The Mayor of Fourth Avenue, 2012. Interview with Egan, who visited the six in federal custody with Mike Haggerty; some later bailed and all acquitted in April 1994.",
+      "url": "https://www.tucsonweekly.com/newsopinion/the-mayor-of-fourth-avenue-3273638/"
+    },
+    "dfa": {
+      "label": "Irish Department of Foreign Affairs, September 3, 1996, NAI/DFA/2021/50/303, scan pages 4-5 and 8. Michael Martin custody, mistaken release, recommittal and actual transfer chronology; page 8 visually reviewed.",
+      "url": "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf"
+    },
+    "martin-transfer": {
+      "label": "Irish Times, January 30, 1996, US agrees to transfer of Irish prisoner to Dublin to serve rest of sentence. Contemporary context; proposed transfer date superseded by official confirmation.",
+      "url": "https://www.irishtimes.com/news/us-agrees-to-transfer-of-irish-prisoner-to-dublin-to-serve-rest-of-sentence-1.26458"
+    },
+    "martin-interview": {
+      "label": "Roisin De Rosa interview with Gerry McGeough, An Phoblacht, December 16, 1999, A Volunteer at an outpost. Firsthand recollection of Mixey Martin in Louisiana immigration detention.",
+      "url": "https://www.anphoblacht.com/contents/5708"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "michael-martin",
+      "match_names": [
+        "Michael Martin",
+        "Mixey Martin",
+        "Mixie Martin",
+        "Michael Mixey Martin",
+        "Michael Mixie Martin"
+      ],
+      "prisoner": {
+        "name": "Michael Martin",
+        "first_name": "Michael",
+        "last_name": "Martin",
+        "description": "Michael Martin, known as Mixey or Mixie, was an Irish republican from County Down imprisoned in the United States in the Tucson arms case. His US custody ended with transfer to a prison in Ireland.",
+        "affiliation": [
+          "Irish Republican Army"
+        ],
+        "state": "Arizona",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to buy a Stinger missile for the IRA; recommittal following mistaken early release",
+            "sentence": "Returned to US custody in September 1995. Transferred to Portlaoise Prison on January 31, 1996; this endpoint records the end of US custody, not freedom. His later February 18 release in Ireland is excluded from US time served."
+          },
+          {
+            "charges": "Conspiracy to buy a Stinger missile for the IRA",
+            "sentence": "Extradited from London in December 1994; sentenced in June 1995 to sixteen months after a guilty plea. Mistakenly released during 1995 before September recommittal. The imposed sentence is not entered as actual months served."
+          }
+        ],
+        "aka": "Mixey Martin; Mixie Martin; Michael Mixey Martin; Michael Mixie Martin"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1995,
+            "month": 9
+          },
+          "release_date": {
+            "year": 1996,
+            "month": 1,
+            "day": 31
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 1994,
+            "month": 12
+          },
+          "sentenced_date": {
+            "year": 1995,
+            "month": 6
+          },
+          "release_date": {
+            "year": 1995
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "dfa",
+            "martin-transfer",
+            "martin-interview"
+          ],
+          "custody_evidence": "Official chronology and a fellow prisoner establish continued custody before transfer."
+        },
+        {
+          "source_ids": [
+            "dfa"
+          ],
+          "custody_evidence": "The diplomatic record distinguishes the initial term from later recommittal."
+        }
+      ],
+      "source_ids": [
+        "dfa",
+        "martin-transfer",
+        "martin-interview"
+      ],
+      "custody_evidence": "Official chronology and a fellow prisoner establish continued custody before transfer. The diplomatic record distinguishes the initial term from later recommittal.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Two US segments prevent counting time outside custody. Exact initial entry and mistaken release dates remain unresolved. No British or Irish imprisonment is counted. Formal statutory count, birth/death dates and identifiable reusable portrait remain unverified."
+    },
+    {
+      "key": "denis-leyne",
+      "match_names": [
+        "Denis Leyne"
+      ],
+      "prisoner": {
+        "name": "Denis Leyne",
+        "first_name": "Denis",
+        "last_name": "Leyne",
+        "description": "Denis Leyne was one of the Tucson Six, defendants prosecuted over alleged arms supplies to the IRA. He was held in US federal custody before the six were acquitted in April 1994.",
+        "affiliation": [
+          "Tucson Six"
+        ],
+        "state": "New York",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alleged conspiracy to supply arms to the IRA; acquitted",
+            "sentence": "Pretrial detention at Otisville continued after bail was granted on November 17, 1992. Acquitted in April 1994; no sentence imposed in this prosecution. The actual bail-release date is unresolved."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          },
+          "incarceration_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "arrest-ap",
+            "saoirse",
+            "acquittal",
+            "visits"
+          ],
+          "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days."
+        }
+      ],
+      "source_ids": [
+        "arrest-ap",
+        "saoirse",
+        "acquittal",
+        "visits"
+      ],
+      "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Contemporary source identifies his origin as Cork. Tucson Six is a case grouping; formal IRA membership is not asserted. Allegations are not treated as proven. Bail permission and acquittal dates are not custody endpoints. No continuous November 1992 to April 1994 imprisonment is invented. Exact birthday, death date and portrait remain unverified. Birth March 31, 1937 and death February 5, 1995 appear in derivative biographies; original obituary or cited book needed before setting those fields. A February 11, 1995 Denver newspaper death-index entry is an obituary-publication date, not proof of that death date."
+    },
+    {
+      "key": "thomas-oliver-maguire",
+      "match_names": [
+        "Thomas Oliver Maguire",
+        "Thomas Maguire"
+      ],
+      "prisoner": {
+        "name": "Thomas Oliver Maguire",
+        "first_name": "Thomas",
+        "last_name": "Maguire",
+        "description": "Thomas Oliver Maguire was one of the Tucson Six, defendants prosecuted over alleged arms supplies to the IRA. He was held in US federal custody before the six were acquitted in April 1994.",
+        "affiliation": [
+          "Tucson Six"
+        ],
+        "state": "New York",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alleged conspiracy to supply arms to the IRA; acquitted",
+            "sentence": "Pretrial detention at Otisville continued after bail was granted on November 17, 1992. Acquitted in April 1994; no sentence imposed in this prosecution. The actual bail-release date is unresolved."
+          }
+        ],
+        "middle_name": "Oliver",
+        "aka": "Thomas Maguire"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          },
+          "incarceration_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "arrest-ap",
+            "saoirse",
+            "acquittal",
+            "visits"
+          ],
+          "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days."
+        }
+      ],
+      "source_ids": [
+        "arrest-ap",
+        "saoirse",
+        "acquittal",
+        "visits"
+      ],
+      "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Contemporary source identifies his origin as Fermanagh. Tucson Six is a case grouping; formal IRA membership is not asserted. Allegations are not treated as proven. Bail permission and acquittal dates are not custody endpoints. No continuous November 1992 to April 1994 imprisonment is invented. Exact birthday, death date and portrait remain unverified."
+    },
+    {
+      "key": "gerard-anthony-brannigan",
+      "match_names": [
+        "Gerard Anthony Brannigan",
+        "Gerard Brannigan",
+        "Tony Brannigan"
+      ],
+      "prisoner": {
+        "name": "Gerard Anthony Brannigan",
+        "first_name": "Gerard",
+        "last_name": "Brannigan",
+        "description": "Gerard Anthony Brannigan was one of the Tucson Six, defendants prosecuted over alleged arms supplies to the IRA. He was held in US federal custody before the six were acquitted in April 1994.",
+        "affiliation": [
+          "Tucson Six"
+        ],
+        "state": "New York",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alleged conspiracy to supply arms to the IRA; acquitted",
+            "sentence": "Pretrial detention at Otisville continued after bail was granted on November 17, 1992. Acquitted in April 1994; no sentence imposed in this prosecution. The actual bail-release date is unresolved."
+          }
+        ],
+        "middle_name": "Anthony",
+        "aka": "Gerard Brannigan; Tony Brannigan"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          },
+          "incarceration_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "arrest-ap",
+            "saoirse",
+            "acquittal",
+            "visits"
+          ],
+          "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days."
+        }
+      ],
+      "source_ids": [
+        "arrest-ap",
+        "saoirse",
+        "acquittal",
+        "visits"
+      ],
+      "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Contemporary source identifies his origin as Armagh. Tucson Six is a case grouping; formal IRA membership is not asserted. Allegations are not treated as proven. Bail permission and acquittal dates are not custody endpoints. No continuous November 1992 to April 1994 imprisonment is invented. Exact birthday, death date and portrait remain unverified. Gerard Anthony is the contemporary full name; later James Brannigan wording is an apparent reporting error. Tony variant appears in the University of Arkansas report archived by OJP (214217, pp.329-330); retained for duplicate screening, not as proof of guilt."
+    },
+    {
+      "key": "patrick-moley",
+      "match_names": [
+        "Patrick Moley"
+      ],
+      "prisoner": {
+        "name": "Patrick Moley",
+        "first_name": "Patrick",
+        "last_name": "Moley",
+        "description": "Patrick Moley was one of the Tucson Six, defendants prosecuted over alleged arms supplies to the IRA. He was held in US federal custody before the six were acquitted in April 1994.",
+        "affiliation": [
+          "Tucson Six"
+        ],
+        "state": "New York",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alleged conspiracy to supply arms to the IRA; acquitted",
+            "sentence": "Pretrial detention at Otisville continued after bail was granted on November 17, 1992. Acquitted in April 1994; no sentence imposed in this prosecution. The actual bail-release date is unresolved."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          },
+          "incarceration_date": {
+            "year": 1992,
+            "month": 11,
+            "day": 11
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "arrest-ap",
+            "saoirse",
+            "acquittal",
+            "visits"
+          ],
+          "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days."
+        }
+      ],
+      "source_ids": [
+        "arrest-ap",
+        "saoirse",
+        "acquittal",
+        "visits"
+      ],
+      "custody_evidence": "Arrest report and later Otisville account establish detention across multiple days.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Contemporary source identifies his origin as Armagh. Tucson Six is a case grouping; formal IRA membership is not asserted. Allegations are not treated as proven. Bail permission and acquittal dates are not custody endpoints. No continuous November 1992 to April 1994 imprisonment is invented. Exact birthday, death date and portrait remain unverified."
+    }
+  ]
+}
