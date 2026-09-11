@@ -1,0 +1,806 @@
+{
+  "batch": 319,
+  "expected_count": 11,
+  "expected_case_count": 11,
+  "reviewed_at": "2026-09-11",
+  "scope": "Eleven missing Vandenberg protest defendants with confirmed multi-day US custody; nine activists and two journalists. Preserve all existing profiles.",
+  "sources": {
+    "roster-july": {
+      "label": "Associated Press report reproduced in Berkeley Daily Planet July 20, 2001 issue: names and nationalities supplied by Greenpeace spokeswoman Carol Gregory. Indexed text reviewed; direct download failed.",
+      "url": "https://www.berkeleydailyplanet.com/issue/2001-07-20/full_text"
+    },
+    "roster-january": {
+      "label": "Erica Werner/AP, January 8, 2002, Berkeley Daily Planet January 10 issue: named defendants including Guy Levecher and Stuart Lennox; negotiation report, not final sentencing order.",
+      "url": "https://www.berkeleydailyplanet.com/issue/2002-01-10/full_text"
+    },
+    "gp-jail": {
+      "label": "Greenpeace e.V., July 19, 2001: foreign defendants still jailed after July 14 arrest, in Bakersfield. Full indexed press-release text reviewed; original now returns 410.",
+      "url": "https://www.presseportal.de/pm/6343/267112"
+    },
+    "gp-bail": {
+      "label": "Greenpeace e.V., July 20, 2001: bail authorized for nine foreign defendants; Indian defendant still held over passport issue. Authorization is not treated as actual release date.",
+      "url": "https://www.presseportal.de/pm/6343/267583"
+    },
+    "british-custody": {
+      "label": "Steve Boggan, Independent, July 17, 2001: Morgan, Nandris and Wills held after July 14 protest and awaiting release.",
+      "url": "https://www.the-independent.com/news/uk/this-britain/britons-charged-over-star-wars-protest-9215779.html"
+    },
+    "australian-custody": {
+      "label": "Tanya Nolan, ABC The World Today, July 23, 2001: Nick Clyde and Stuart Lennox spent about a week in US jail and were released before interview.",
+      "url": "https://www.abc.net.au/worldtoday/archive/articles/2001/07/23/s334012.htm"
+    },
+    "journalists-custody": {
+      "label": "Reporters Committee for Freedom of the Press, February 7, 2002: Stephen Morgan eight days and Jorge Torres about four days in jail; all seventeen accepted misdemeanor conspiracy-to-trespass plea.",
+      "url": "https://www.rcfp.org/journalists-covering-greenpeace-face-april-sentencing-date/"
+    },
+    "journalists-release": {
+      "label": "Reporters Without Borders annual report 2002, United States: July 14 arrest; Torres bail release July 17 and Morgan five days later. Reporting roles distinguished from activists.",
+      "url": "https://www.refworld.org/reference/annualreport/rsf/2002/en/58492"
+    },
+    "eriksson-release": {
+      "label": "Sveriges Radio P4 Sormland, July 22, 2001: Patrik Eriksson released yesterday on bail after a week in custody. Only Eriksson assigned that exact day.",
+      "url": "https://www.sverigesradio.se/artikel/9447"
+    },
+    "eriksson-jail": {
+      "label": "Magnus Sundholm, Aftonbladet, July 19, 2001: Patrik Eriksson still held in Lerdo, Bakersfield; delayed bail. Reported ages conflict elsewhere and are not used for birth year.",
+      "url": "https://www.aftonbladet.se/nyheter/a/yv7ByA/gripne-svensken-halls-kvar-i-haktet-i-usa"
+    },
+    "nazareth-release": {
+      "label": "Aunohita Mazumdar, Times of India, November 2, 2001: confirms Samir Nazareth released following consular assistance; exact day unspecified.",
+      "url": "https://timesofindia.indiatimes.com/india/indians-in-fbi-probe-left-to-their-fate/articleshow/1715461055.cms"
+    },
+    "bail-status": {
+      "label": "Duncan Campbell, Guardian, August 15, 2001: confirms all defendants on bail by this report. Used only to establish release year, not precise day.",
+      "url": "https://www.theguardian.com/world/2001/aug/15/usa.duncancampbell"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "nic-clyde",
+      "match_names": [
+        "Nic Clyde",
+        "Nick Clyde"
+      ],
+      "prisoner": {
+        "name": "Nic Clyde",
+        "first_name": "Nic",
+        "last_name": "Clyde",
+        "description": "Nic Clyde was a Australian Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "About a week in jail; bail release confirmed by July 23 interview. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ],
+        "aka": "Nick Clyde"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001,
+            "month": 7
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "australian-custody"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "australian-custody"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "stuart-lennox",
+      "match_names": [
+        "Stuart Lennox"
+      ],
+      "prisoner": {
+        "name": "Stuart Lennox",
+        "first_name": "Stuart",
+        "last_name": "Lennox",
+        "description": "Stuart Lennox was a Australian Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "About a week in jail; he spoke after bail release. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001,
+            "month": 7
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "australian-custody"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "australian-custody"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "bill-nandris",
+      "match_names": [
+        "Bill Nandris"
+      ],
+      "prisoner": {
+        "name": "Bill Nandris",
+        "first_name": "Bill",
+        "last_name": "Nandris",
+        "description": "Bill Nandris was a British Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Still held several days after arrest; later released on bail. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "british-custody"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "british-custody"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "john-wills",
+      "match_names": [
+        "John Wills"
+      ],
+      "prisoner": {
+        "name": "John Wills",
+        "first_name": "John",
+        "last_name": "Wills",
+        "description": "John Wills was a British Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Still held several days after arrest; later released on bail. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "british-custody"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "british-custody"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "tom-knappe",
+      "match_names": [
+        "Tom Knappe"
+      ],
+      "prisoner": {
+        "name": "Tom Knappe",
+        "first_name": "Tom",
+        "last_name": "Knappe",
+        "description": "Tom Knappe was a German Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Sustained pretrial jail custody confirmed; subsequent travel restrictions excluded. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "gp-bail"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "gp-bail"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "mathias-pendzialek",
+      "match_names": [
+        "Mathias Pendzialek",
+        "Matthias Pendzialek"
+      ],
+      "prisoner": {
+        "name": "Mathias Pendzialek",
+        "first_name": "Mathias",
+        "last_name": "Pendzialek",
+        "description": "Mathias Pendzialek was a German Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Sustained pretrial jail custody confirmed; subsequent travel restrictions excluded. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ],
+        "aka": "Matthias Pendzialek"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "gp-bail"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "gp-bail"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members. Mathias appears in AP roster; Matthias in later German campaign reporting."
+    },
+    {
+      "key": "samir-nazareth",
+      "match_names": [
+        "Samir Nazareth"
+      ],
+      "prisoner": {
+        "name": "Samir Nazareth",
+        "first_name": "Samir",
+        "last_name": "Nazareth",
+        "description": "Samir Nazareth was a Indian Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Held beyond the initial arrest, including a passport-related delay in bail release. Exact release day unresolved. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "gp-bail",
+            "nazareth-release"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "gp-bail",
+        "nazareth-release"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "patrik-eriksson",
+      "match_names": [
+        "Patrik Eriksson",
+        "Patrick Eriksson"
+      ],
+      "prisoner": {
+        "name": "Patrik Eriksson",
+        "first_name": "Patrik",
+        "last_name": "Eriksson",
+        "description": "Patrik Eriksson was a Swedish Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Released on bail July 21, 2001 after a week in custody. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ],
+        "aka": "Patrick Eriksson"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 21
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "eriksson-jail",
+            "eriksson-release"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "eriksson-jail",
+        "eriksson-release"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "guy-levecher",
+      "match_names": [
+        "Guy Levecher"
+      ],
+      "prisoner": {
+        "name": "Guy Levecher",
+        "first_name": "Guy",
+        "last_name": "Levecher",
+        "description": "Guy Levecher was a Canadian Greenpeace participant jailed in California following the 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Greenpeace"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Named Canadian defendant; the contemporaneous foreign-defendant custody report establishes sustained detention. Exact release day unresolved. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "gp-bail"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "gp-bail"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members. Guy Levecher spelling retained from two contemporary AP rosters; no speculative Levacher or Leveque alias. Individual custody inferred by combining the named Canadian identity with the explicit foreign-defendant detention account."
+    },
+    {
+      "key": "stephen-morgan",
+      "match_names": [
+        "Stephen Morgan",
+        "Steve Morgan"
+      ],
+      "prisoner": {
+        "name": "Stephen Morgan",
+        "first_name": "Stephen",
+        "last_name": "Morgan",
+        "description": "Stephen Morgan was a British freelance photographer jailed while documenting Greenpeace’s 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Independent journalism"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Photographer held eight days; released July 22, 2001 on bail. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ],
+        "aka": "Steve Morgan"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 22
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "journalists-release"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "journalists-release"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    },
+    {
+      "key": "jorge-torres",
+      "match_names": [
+        "Jorge Torres"
+      ],
+      "prisoner": {
+        "name": "Jorge Torres",
+        "first_name": "Jorge",
+        "last_name": "Torres",
+        "description": "Jorge Torres was a Spanish freelance videographer jailed while documenting Greenpeace’s 2001 Vandenberg anti-missile protest.",
+        "affiliation": [
+          "Independent journalism"
+        ],
+        "state": "California",
+        "era": "2000s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Conspiracy to trespass — misdemeanor plea following Vandenberg missile-test protest",
+            "sentence": "Videographer held about four days; released July 17, 2001 on bail. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 14
+          },
+          "release_date": {
+            "year": 2001,
+            "month": 7,
+            "day": 17
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "roster-july",
+            "roster-january",
+            "gp-jail",
+            "journalists-custody",
+            "bail-status",
+            "journalists-release"
+          ],
+          "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release."
+        }
+      ],
+      "source_ids": [
+        "roster-july",
+        "roster-january",
+        "gp-jail",
+        "journalists-custody",
+        "bail-status",
+        "journalists-release"
+      ],
+      "custody_evidence": "Dated reporting establishes continued detention beyond initial arrest and subsequent bail release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No birthday inferred from age; no unverified portrait or website attached. No maximum possible sentence represented as time served. Bail authorization and actual release distinguished. Journalists are not described as Greenpeace members."
+    }
+  ]
+}

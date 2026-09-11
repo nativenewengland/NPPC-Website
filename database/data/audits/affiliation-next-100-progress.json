@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-307",
   "first_unpublished_batch": 307,
   "new_pr_opened": false,
-  "validated_new_people": 89,
-  "remaining_to_pr_threshold": 11,
+  "validated_new_people": 100,
+  "remaining_to_pr_threshold": 0,
   "batches": [
     {
       "batch": 307,
@@ -114,6 +114,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch318.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch318.md"
+    },
+    {
+      "batch": 319,
+      "status": "validated_local",
+      "new_people": 11,
+      "cases": 11,
+      "photos": 0,
+      "payload": "database/data/fixes/batch319.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch319.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -137,7 +146,7 @@
     "cases": 112,
     "existing_case_updates": 7
   },
-  "next_affiliation": "Continue Greenpeace and Rainforest Action Network custody leads; Fries Rebellion and FSM held leads remain open.",
-  "notes": "89 local new identities, 96 cases and 6 portraits across 307\u2013318. No production changes or new PR. Rushmore fifth identity and precise custody chronology held; see batch318 audit.",
+  "next_affiliation": "Package 100-person PR; then resume Greenpeace/Vandenberg held leads, Fries Rebellion and next affiliation.",
+  "notes": "100 local new identities, 107 cases and 6 portraits across 307\u2013319. Final combined review and PR pending. No production changes.",
   "last_research_update": "2026-09-11"
 }
