@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-307",
   "first_unpublished_batch": 307,
   "new_pr_opened": false,
-  "validated_new_people": 31,
-  "remaining_to_pr_threshold": 69,
+  "validated_new_people": 40,
+  "remaining_to_pr_threshold": 60,
   "batches": [
     {
       "batch": 307,
@@ -24,6 +24,15 @@
       "photos": 3,
       "payload": "database/data/fixes/batch308.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch308.md"
+    },
+    {
+      "batch": 309,
+      "status": "validated_local",
+      "new_people": 9,
+      "cases": 9,
+      "photos": 0,
+      "payload": "database/data/fixes/batch309.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch309.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -47,7 +56,7 @@
     "cases": 112,
     "existing_case_updates": 7
   },
-  "next_affiliation": "DC Nine; then De Mau Mau and December 12th Movement",
-  "notes": "31 local identities accumulated; no production writes or new PR. Batch308 includes partial-date counter protection. Continue named rosters and retain unresolved archive leads.",
+  "next_affiliation": "Defend the Atlanta Forest; then Direct Action Everywhere",
+  "notes": "40 local new identities/cases across307\u2013309; three portraits. No production changes or new PR. Existing rosters and uncertain case leads retained in audits.",
   "last_research_update": "2026-09-11"
 }
