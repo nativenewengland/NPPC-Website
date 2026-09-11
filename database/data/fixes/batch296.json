@@ -1,0 +1,85 @@
+{
+  "batch": 296,
+  "expected_count": 1,
+  "expected_case_count": 1,
+  "reviewed_at": "2026-09-10",
+  "scope": "Brookwood Labor College first custody pass: Josephine Kaczor, Nazareth hosiery organizer; existing records preserved.",
+  "sources": {
+    "newleader1930": {
+      "label": "The New Leader, March 15, 1930, page 3, Nazareth, Pa. Strikers Keep Fight Strong. Names Josephine Kaczor, Brookwood graduate, among eleven acquitted riot defendants assessed costs ($150 for Kaczor). Reports their refusal to pay, jail, immediate hunger strike and release four days later. Original column visually checked; publication date is not a custody endpoint.",
+      "url": "https://www.marxists.org/history/usa/pubs/new-leader/1930/v10n06-mar-15-1930-NL.pdf"
+    },
+    "portrait": {
+      "label": "Labor Age, February 1930, printed page 25 (PDF page 32), Return to the Picket Line. Original caption explicitly identifies Josephine Kaczor as fourth from the right. Describes an overnight Northampton County detention, not the separate four-day hunger-strike episode. Photographer uncredited. Exact pixel crop from the embedded scan.",
+      "url": "https://www.marxists.org/history/usa/pubs/laborage/v19n02-Feb-1930-Labor-Age.pdf"
+    },
+    "brookwood_archive": {
+      "label": "Walter P. Reuther Library, Guide to the Brookwood Labor College Photographs, LAV000567_BLC. Catalog identifies Josephine Kaczor in a student group photograph. Archive lead corroborating Brookwood association; that different photograph is not the assigned portrait.",
+      "url": "https://reuther.wayne.edu/files/LAV000567_BLC.pdf"
+    },
+    "nazareth_map": {
+      "label": "Nazareth, Pennsylvania geographic reference, 40.739993, -75.311214; rounded to an approximate historical strike-location marker. Not the jail or a residence.",
+      "url": "https://en.wikipedia.org/wiki/Nazareth,_Pennsylvania"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "josephine-kaczor",
+      "match_names": [
+        "Josephine Kaczor"
+      ],
+      "prisoner": {
+        "name": "Josephine Kaczor",
+        "first_name": "Josephine",
+        "last_name": "Kaczor",
+        "gender": "Female",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Brookwood Labor College",
+          "Labor movement"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 40.74,
+        "lng": -75.31,
+        "description": "Josephine Kaczor was a labor organizer and Brookwood Labor College graduate involved in the 1929–1930 hosiery strike in Nazareth, Pennsylvania, against contracts barring union membership. A March 1930 report named her among eleven defendants acquitted of rioting but still assessed court costs; her share was $150. The strikers refused payment, were jailed, and won release after four days on hunger strike. Contemporary coverage also records repeated strike arrests. The dates of her four-day confinement and her birth and death dates remain unverified.",
+        "cases": [
+          {
+            "charges": "Rioting allegation during the Nazareth hosiery strike; detention for refusing court costs after acquittal",
+            "convicted": "Acquitted of rioting; assessed $150 in court costs despite the acquittal",
+            "sentence": "Four days of actual jail confinement after refusing court costs, followed by release after a hunger strike, as reported March 15, 1930. This was not a four-day sentence for a riot conviction. Exact custody dates and the specific facility for this episode remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "newleader1930",
+        "portrait",
+        "brookwood_archive",
+        "nazareth_map"
+      ],
+      "custody_evidence": "The March 15, 1930 New Leader names Kaczor among eleven acquitted riot defendants charged court costs, then reports that the strikers were jailed after refusing payment and released after four days on hunger strike. Actual multi-day confinement is explicit; it is not inferred from a sentence. Dates of commitment and physical release are unverified.",
+      "case_research": [
+        {
+          "source_ids": [
+            "newleader1930"
+          ],
+          "custody_evidence": "The March 15, 1930 New Leader names Kaczor among eleven acquitted riot defendants charged court costs, then reports that the strikers were jailed after refusing payment and released after four days on hunger strike. Actual multi-day confinement is explicit; it is not inferred from a sentence. Dates of commitment and physical release are unverified."
+        }
+      ],
+      "status_research": "Historical released prisoner. The overnight detention captioned in February 1930 is not merged into this four-day episode or added as a separately qualifying case. No invented release year, month or day. Publication date is not used as arrest date. The counter remains unset because this model derives days from dates; the verified four days are stated in the case text.",
+      "photo": {
+        "source_file": "database/data/photos/josephine-kaczor-labor-age-crop.png",
+        "storage_path": "prisoners/josephine-kaczor-labor-age-crop.png",
+        "sha256": "c1907f040c7496330a7c3279860b140ed61947903685a7cfa51e52c5c2a33d07",
+        "source_id": "portrait"
+      }
+    }
+  ],
+  "research_notes": "Four days recorded in case narrative only; no fabricated date endpoints or unrelated same-name vital dates. One exact archival crop. Historical Nazareth strike marker, not a current home or jail location. Further Brookwood and named strike-roster research remains open."
+}
