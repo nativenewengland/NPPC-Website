@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-297",
   "first_unpublished_batch": 297,
   "new_pr_opened": false,
-  "validated_new_people": 50,
-  "remaining_to_pr_threshold": 50,
+  "validated_new_people": 52,
+  "remaining_to_pr_threshold": 48,
   "batches": [
     {
       "batch": 297,
@@ -62,6 +62,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch302.json",
       "audit": "database/data/audits/full-books-batches301-302-2026-09-10.md"
+    },
+    {
+      "batch": 303,
+      "status": "validated_local",
+      "new_people": 2,
+      "cases": 2,
+      "photos": 0,
+      "payload": "database/data/fixes/batch303.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch303.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -69,7 +78,7 @@
     295,
     296
   ],
-  "next_affiliation": "Communist Party of Puerto Rico; retained ELF/Chamberlain/Harrison and broader CRC leads in affiliation-followup-after-books-2026-09-10.md",
+  "next_affiliation": "Communist Party USA; retain Philippines/Puerto Rico held rosters in batch303 audit",
   "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR.",
   "last_research_update": "2026-09-10"
 }

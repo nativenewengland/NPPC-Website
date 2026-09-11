@@ -1,0 +1,136 @@
+{
+  "batch": 303,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-10",
+  "scope": "Two missing labor organizers imprisoned under U.S. colonial administration in the Philippines. Adds absent identities only.",
+  "sources": {
+    "capadocia_court": {
+      "label": "Philippine Supreme Court, People v. Capadocia et al., G.R. 36276, October 26, 1932, 57 Phil. 364. Named speakers and section 8 of Act 292 prosecution.",
+      "url": "https://chanrobles.com/cralaw/1932octoberdecisions.php?id=97"
+    },
+    "feleo_court": {
+      "label": "Philippine Supreme Court, People v. Feleo, G.R. 39227, October 14, 1933, 58 Phil. 573. September 29, 1932 speech and affirmed sentence.",
+      "url": "https://chanrobles.com/cralaw/1933octoberdecisions.php?id=123"
+    },
+    "daily_jan": {
+      "label": "Daily Worker, January 23, 1934, p.6, Troops Called, As Philippine Masses Protest U.S. Terror. December 21 execution-of-sentence roster. Page visually reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/dailyworker/1934/v11-n020-jan-23-1934-DW-LOC.pdf"
+    },
+    "new_masses": {
+      "label": "B. Schor, Justice in the Philippines, New Masses, March 6, 1934, printed p.21 / PDF p.31. Letter names Capadocia (printed Capacudia) as currently imprisoned. Page visually reviewed.",
+      "url": "https://www.marxists.org/history/usa/pubs/new-masses/1934/v10n10-mar-06-1934-NM.pdf"
+    },
+    "inprecor": {
+      "label": "Pedro G., The Philippine Masses in Counter-Attack, International Press Correspondence 14(17), March 16, 1934, p.433 / PDF p.5. Actual prison admissions distinguished from banishment; Feleo sentence total conflicts with court. Page visually reviewed.",
+      "url": "https://www.marxists.org/history/international/comintern/inprecor/1934/v14n17-mar-16-1934-inprecor.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "guillermo-capadocia",
+      "match_names": [
+        "Guillermo Capadocia",
+        "Guillermo Capacodia",
+        "Guillermo Capacudia"
+      ],
+      "prisoner": {
+        "name": "Guillermo Capadocia",
+        "first_name": "Guillermo",
+        "last_name": "Capadocia",
+        "description": "Guillermo Capadocia was a Filipino labor organizer and Communist Party leader prosecuted for political speeches under the U.S. colonial government. Contemporary reports identify him among the organizers imprisoned at Bilibid in 1933–1934.",
+        "affiliation": [
+          "Communist Party of the Philippines"
+        ],
+        "era": "1930s",
+        "in_custody": false,
+        "released": true,
+        "gender": "Male",
+        "cases": [
+          {
+            "charges": "Sedition: section 8 of Act No. 292",
+            "sentence": "Imprisoned at Bilibid following the colonial sedition proceedings. An additional internal-banishment order was separate from imprisonment. Exact custody endpoints and total time served remain unverified."
+          }
+        ],
+        "aka": "Guillermo Capacodia; Guillermo Capacudia"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1933
+          }
+        }
+      ],
+      "source_ids": [
+        "capadocia_court",
+        "daily_jan",
+        "new_masses",
+        "inprecor"
+      ],
+      "custody_evidence": "Named on the December 21, 1933 execution-of-sentence roster; Schor still identifies him as imprisoned in the March 6, 1934 letter. These establish custody extending beyond initial arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "capadocia_court",
+            "daily_jan",
+            "new_masses",
+            "inprecor"
+          ],
+          "custody_evidence": "Named on the December 21, 1933 execution-of-sentence roster; Schor still identifies him as imprisoned in the March 6, 1934 letter. These establish custody extending beyond initial arrest."
+        }
+      ],
+      "status_research": "Earlier Pasig detention is a separate lead. No Japanese-occupation imprisonment imported as U.S. custody. No precise release or vital dates verified in this pass; birth circa 1909 and September 1951 death remain follow-up leads."
+    },
+    {
+      "key": "juan-feleo",
+      "match_names": [
+        "Juan Feleo"
+      ],
+      "prisoner": {
+        "name": "Juan Feleo",
+        "first_name": "Juan",
+        "last_name": "Feleo",
+        "description": "Juan Feleo was a Filipino peasant organizer and Communist activist imprisoned under the U.S. colonial government. He was prosecuted for a speech at a farmers’ grievance meeting in San Miguel, Bulacan, and contemporary reporting describes his imprisonment in 1933–1934.",
+        "affiliation": [
+          "Communist Party of the Philippines"
+        ],
+        "era": "1930s",
+        "in_custody": false,
+        "released": true,
+        "gender": "Male",
+        "cases": [
+          {
+            "charges": "Inciting sedition: article 142 of the Revised Penal Code",
+            "sentence": "Four years, nine months and eleven days plus a 500-peso fine, affirmed October 14, 1933 for the September 29, 1932 speech. Contemporary reporting confirms prison entry in 1933 and a subsequent release campaign. Exact release and actual duration remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1933
+          }
+        }
+      ],
+      "source_ids": [
+        "feleo_court",
+        "inprecor"
+      ],
+      "custody_evidence": "Inprecor p.433 reports Feleo entering prison December 31 in its account of late 1933 and early 1934, with subsequent demands for prisoners release. This describes an executed prison term, beyond initial arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "feleo_court",
+            "inprecor"
+          ],
+          "custody_evidence": "Inprecor p.433 reports Feleo entering prison December 31 in its account of late 1933 and early 1934, with subsequent demands for prisoners release. This describes an executed prison term, beyond initial arrest."
+        }
+      ],
+      "status_research": "The court gives 4 years 9 months 11 days for this case; Inprecor gives eight years without specifying aggregation. Do not import eight years as this sentence or time served. October appellate judgment is not initial sentencing. Retain year-only incarceration pending reconciliation; earlier sedition cases remain separate leads. No exact vital dates verified in this pass."
+    }
+  ],
+  "research_notes": "Actual prison custody distinguished from internal exile. Source totals are not assumed to be time served. No existing records modified; no inferred exact releases, birthdays, portraits, support websites, coordinates or institutional links."
+}
