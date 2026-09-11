@@ -15,7 +15,7 @@ final class AddUndergroundPressPrisoners extends Command
 {
     protected $signature = 'prisoners:add-underground-press {--dry-run : Check identities without writing records}';
 
-    protected $description = 'Add four researched underground-press and Columbus antiwar detainees';
+    protected $description = 'Add eight researched underground-press and Columbus antiwar detainees';
 
     public function handle(): int
     {
