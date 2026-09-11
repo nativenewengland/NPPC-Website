@@ -31,4 +31,3 @@ Crop: `[3660, 3670, 3900, 3990]`; output size: 240 × 320.
 SHA-256: `cb4c73a62ec323e591480ec53e9523d8d196ec36942de41534196e9279d2ba0a`
 
 Identity: Vanda Kaleto is the adult woman in the individually named photograph; the baby is excluded from this crop.
-
