@@ -164,6 +164,13 @@ final class PrisonerCase extends Model
             return null;
         }
 
+        // Partial dates use placeholder days for storage. Those placeholders
+        // cannot establish an exact duration; a documented term above can.
+        if ($this->datePrecisionFor('incarceration_date') !== 'day'
+            || ($this->release_date && $this->datePrecisionFor('release_date') !== 'day')) {
+            return null;
+        }
+
         if ($this->release_date) {
             $start = Carbon::parse($this->incarceration_date);
             $end = Carbon::parse($this->release_date);

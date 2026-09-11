@@ -1,0 +1,176 @@
+{
+  "batch": 307,
+  "expected_count": 3,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-11",
+  "scope": "Three missing Montana Coxeyite prisoners; first batch of the next 100-person accumulation.",
+  "sources": {
+    "missoula": {
+      "label": "Historical Museum at Fort Missoula, Organized labor and the railroads, online exhibit. Identifies William Hogan and distinguishes a six-month sentence from three months actually served.",
+      "url": "https://scalar.usc.edu/works/weve-been-working-on-the-railroad/organized-labor-and-the-railroads-1"
+    },
+    "sentence": {
+      "label": "Chase County Courant, May 17, 1894, PDF page 8 (scan printed 9), Sentenced. Helena May 15 dispatch says Judge Knowles sentenced Hogan yesterday to six months in county jail. Article image visually reviewed.",
+      "url": "https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/20739/Chase_County_Courant_1894_05_17.pdf?isAllowed=y&sequence=3"
+    },
+    "interview": {
+      "label": "Anaconda Standard, May 9, 1894, p.5, Liscum Gets a Scoring. Helena May 8 dispatch describes the previous afternoon visit and interviews with John Helme and P. McMahon, identified as fellow prisoners. Their account describes four days of withheld donated bread during confinement. Archival extracted text reviewed; scan retrieval unavailable.",
+      "url": "https://tile.loc.gov/storage-services/service/ndnp/mthi/batch_mthi_darter_ver01/data/sn84036012/00294550355/1894050901/1048.pdf"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "william-hogan",
+      "match_names": [
+        "William Hogan"
+      ],
+      "prisoner": {
+        "name": "William Hogan",
+        "first_name": "William",
+        "last_name": "Hogan",
+        "description": "William Hogan, a Butte teamster, led a Montana contingent of Coxey's Army in the 1894 movement demanding federal relief for unemployment. His contingent seized a Northern Pacific train for its eastward journey and was captured by federal troops.",
+        "affiliation": [
+          "Coxey's Army"
+        ],
+        "state": "Montana",
+        "era": "1890s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Contempt of federal court — interference with a railroad under court injunction",
+            "sentence": "Sentenced on May 14, 1894 to six months in county jail. The Historical Museum at Fort Missoula reports that he served three months. Exact prison-entry and release dates remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1894,
+            "month": 4
+          },
+          "incarceration_date": {
+            "year": 1894
+          },
+          "sentenced_date": {
+            "year": 1894,
+            "month": 5,
+            "day": 14
+          }
+        }
+      ],
+      "source_ids": [
+        "missoula",
+        "sentence"
+      ],
+      "custody_evidence": "Museum history explicitly reports three months served; contemporary sentencing dispatch confirms six months imposed. Custody extended beyond initial arrest.",
+      "case_research": [
+        {
+          "source_ids": [
+            "missoula",
+            "sentence"
+          ],
+          "custody_evidence": "Museum history explicitly reports three months served; contemporary sentencing dispatch confirms six months imposed. Custody extended beyond initial arrest."
+        }
+      ],
+      "status_research": "April 24 was train seizure, not a verified arrest date. Prior bail prevents treating April capture through sentence completion as one continuous interval. Preserve the museum attribution without assigning a duration counter or calculated release. No vital dates verified."
+    },
+    {
+      "key": "john-helme",
+      "match_names": [
+        "John Helme",
+        "John Helm"
+      ],
+      "prisoner": {
+        "name": "John Helme",
+        "first_name": "John",
+        "last_name": "Helme",
+        "description": "John Helme was a member of the Montana contingent of Coxey's Army, the 1894 unemployment protest movement. A contemporary jail interview identified him as helping conduct the contingent's affairs while William Hogan was absent.",
+        "affiliation": [
+          "Coxey's Army"
+        ],
+        "state": "Montana",
+        "era": "1890s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Detention following the Montana Coxeyite train seizure; individual charge unverified",
+            "sentence": "Held at the Helena fairgrounds detention camp in May 1894. A newspaper interview describes confinement extending over several days. Individual sentence and exact release remain unverified."
+          }
+        ],
+        "aka": "John Helm"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1894
+          }
+        }
+      ],
+      "source_ids": [
+        "interview"
+      ],
+      "custody_evidence": "The May 8 dispatch identifies Helme and McMahon as prisoners interviewed during the previous afternoon visit. Both discuss four days of confinement during which donated bread was withheld. This establishes sustained custody, rather than an arrest alone.",
+      "case_research": [
+        {
+          "source_ids": [
+            "interview"
+          ],
+          "custody_evidence": "The May 8 dispatch identifies Helme and McMahon as prisoners interviewed during the previous afternoon visit. Both discuss four days of confinement during which donated bread was withheld. This establishes sustained custody, rather than an arrest alone."
+        }
+      ],
+      "status_research": "The May 7 interview is not the prison-entry date. Do not infer an individual sentence from the outcomes for unnamed captains or the general group. Retain year-only incarceration precision. Historical detention is closed without asserting a release endpoint. Initial P. is not expanded."
+    },
+    {
+      "key": "p-mcmahon",
+      "match_names": [
+        "P. McMahon"
+      ],
+      "prisoner": {
+        "name": "P. McMahon",
+        "first_name": "P.",
+        "last_name": "McMahon",
+        "description": "P. McMahon was a member of the Montana contingent of Coxey's Army, the 1894 unemployment protest movement. A contemporary jail interview identified him as helping conduct the contingent's affairs while William Hogan was absent.",
+        "affiliation": [
+          "Coxey's Army"
+        ],
+        "state": "Montana",
+        "era": "1890s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Detention following the Montana Coxeyite train seizure; individual charge unverified",
+            "sentence": "Held at the Helena fairgrounds detention camp in May 1894. A newspaper interview describes confinement extending over several days. Individual sentence and exact release remain unverified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1894
+          }
+        }
+      ],
+      "source_ids": [
+        "interview"
+      ],
+      "custody_evidence": "The May 8 dispatch identifies Helme and McMahon as prisoners interviewed during the previous afternoon visit. Both discuss four days of confinement during which donated bread was withheld. This establishes sustained custody, rather than an arrest alone.",
+      "case_research": [
+        {
+          "source_ids": [
+            "interview"
+          ],
+          "custody_evidence": "The May 8 dispatch identifies Helme and McMahon as prisoners interviewed during the previous afternoon visit. Both discuss four days of confinement during which donated bread was withheld. This establishes sustained custody, rather than an arrest alone."
+        }
+      ],
+      "status_research": "The May 7 interview is not the prison-entry date. Do not infer an individual sentence from the outcomes for unnamed captains or the general group. Retain year-only incarceration precision. Historical detention is closed without asserting a release endpoint. Initial P. is not expanded."
+    }
+  ],
+  "research_notes": "No existing records modified. Unverified vital dates, release endpoints, portraits, coordinates and institution relations remain unset."
+}

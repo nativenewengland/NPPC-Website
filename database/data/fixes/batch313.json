@@ -1,0 +1,457 @@
+{
+  "batch": 313,
+  "expected_count": 5,
+  "expected_case_count": 8,
+  "reviewed_at": "2026-09-11",
+  "scope": "Five missing RAMPS and Tar Sands Blockade prisoners with eight distinct custody episodes.",
+  "sources": {
+    "kxl-report": {
+      "label": "David Mildenberg/Bloomberg, December 20, 2012, syndicated by The Independent: three named defendants remained jailed after December3 arrest.",
+      "url": "https://www.the-independent.com/news/world/americas/keystone-protesters-pay-a-high-price-for-dangling-in-texas-trees-8426627.html"
+    },
+    "kxl-interview": {
+      "label": "Carol Linnitt, DeSmog, February6,2013: interview with Isabel Brooks and report of24days served by Brooks, Almonte and Collins.",
+      "url": "https://www.desmog.com/2013/02/06/transcanada-laying-defective-keystone-xl-pipeline-texas/"
+    },
+    "kxl-ramps": {
+      "label": "RAMPS, December2012 archive: December12 named update from Smith County Jail and later all-released update.",
+      "url": "https://rampscampaign.org/2012/12/"
+    },
+    "collins-sentence": {
+      "label": "RAMPS, April24,2013: Collins actually in jail after plea; subsequent update confirms continuing custody, with conditional future May7 release.",
+      "url": "https://rampscampaign.org/ramps-campaigner-glen-collins-sentenced-to-60-days-for-kxl-action/"
+    },
+    "kxl-aliases": {
+      "label": "Sauk River Review, December3,2012, quoting local KLTV reporting: Isabel Indigo Brooks and Matt Almonte name variants.",
+      "url": "https://oldsaukriver.blogspot.com/2012/12/"
+    },
+    "alpha-action": {
+      "label": "RAMPS, June20,2014: Camilo Pereira named as a blockader at Alpha headquarters.",
+      "url": "https://rampscampaign.org/no-buisness-as-usual-at-alpha-headquarters/"
+    },
+    "alpha-custody": {
+      "label": "RAMPS, June23,2014: all eight remained jailed through the weekend and awaited bond hearings; participant Camilo statement.",
+      "url": "https://rampscampaign.org/8-in-jail-after-alpha-headquarters-blockade-and-banner-hang/"
+    },
+    "alpha-ap": {
+      "label": "Associated Press, June23,2014: arrest action and reported group charges.",
+      "url": "https://www.manufacturing.net/home/news/13147131/8-arrested-at-coal-company-headquarters"
+    },
+    "alpha-release": {
+      "label": "RAMPS, July6,2014: all eight released, last prisoner after two weeks; individual release dates not named.",
+      "url": "https://rampscampaign.org/2014/07/"
+    },
+    "macdougal-feb": {
+      "label": "RAMPS, February2012 archive: February9 entry, February11 visit, February14 jail statement and February18 retrospective completed-week release.",
+      "url": "https://rampscampaign.org/2012/02/"
+    },
+    "macdougal-ran": {
+      "label": "Rainforest Action Network, February14,2012: full name and Southern Regional Jail placement.",
+      "url": "https://www.ran.org/the-understory/coal_river_tree_sitter_sentenced_to_7_days_in_jail/"
+    },
+    "macdougal-nov": {
+      "label": "RAMPS, November2012 archive: November5 return for18remaining days; explicit2days initial May custody; November20 still jailed; November26 actual-release notice and personal letter.",
+      "url": "https://rampscampaign.org/2012/11/"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "glen-collins",
+      "match_names": [
+        "Glen Collins"
+      ],
+      "prisoner": {
+        "name": "Glen Collins",
+        "first_name": "Glen",
+        "last_name": "Collins",
+        "description": "Glen Collins participated in the December 2012 Keystone XL pipeline protest near Winona, Texas. The protest led to several weeks in Smith County Jail before release.",
+        "affiliation": [
+          "Tar Sands Blockade",
+          "Radical Action for Mountains’ and People’s Survival (RAMPS)"
+        ],
+        "state": "Texas",
+        "era": "2010s",
+        "in_custody": false,
+        "released": false,
+        "cases": [
+          {
+            "charges": "Criminal trespass, resisting arrest and illegal dumping reported after Keystone XL blockade",
+            "sentence": "Arrested December 3, 2012 and held in Smith County Jail on a reported $65, 000 bond. The February 2013 interview reports twenty-four days served by the three defendants; the campaign also confirms release. The exact release day is unverified. This records the initial pretrial detention, not a sentence of twenty-four days."
+          },
+          {
+            "charges": "Criminal trespass and illegal dumping — Keystone XL blockade plea",
+            "sentence": "Returned to Smith County Jail April 24, 2013 after pleading guilty and receiving a sixty-day sentence. The campaign initially had not resolved how the earlier pretrial custody would be credited. A later update gives a conditional future May 7 release dependent on court-cost payment; no actual release date or full sixty days served is asserted."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 12
+          }
+        },
+        {
+          "sentenced_date": {
+            "year": 2013,
+            "month": 4,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 2013,
+            "month": 4,
+            "day": 24
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "kxl-report",
+            "kxl-interview",
+            "kxl-ramps"
+          ],
+          "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release."
+        },
+        {
+          "source_ids": [
+            "collins-sentence"
+          ],
+          "custody_evidence": "Actual entry and subsequent reports of jail calls, illness and delayed books establish multi-day post-sentence custody."
+        }
+      ],
+      "source_ids": [
+        "kxl-report",
+        "kxl-interview",
+        "kxl-ramps",
+        "collins-sentence"
+      ],
+      "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release. Actual entry and subsequent reports of jail calls, illness and delayed books establish multi-day post-sentence custody.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The first and second custody periods are separate; no continuous December2012–April2013 imprisonment. Latest historical release outcome remains unresolved, with both current-custody and released flags false. No vital dates adopted from athletes, a Wisconsin deceased inmate or an Arkansas murder defendant named Glen Collins."
+    },
+    {
+      "key": "matthew-almonte",
+      "match_names": [
+        "Matthew Almonte",
+        "Matt Almonte",
+        "Mathew Almonte"
+      ],
+      "prisoner": {
+        "name": "Matthew Almonte",
+        "first_name": "Matthew",
+        "last_name": "Almonte",
+        "description": "Matthew Almonte participated in the December 2012 Keystone XL pipeline protest near Winona, Texas. The protest led to several weeks in Smith County Jail before release.",
+        "affiliation": [
+          "Tar Sands Blockade"
+        ],
+        "state": "Texas",
+        "era": "2010s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal trespass, resisting arrest and illegal dumping reported after Keystone XL blockade",
+            "sentence": "Arrested December 3, 2012 and held in Smith County Jail on a reported $65, 000 bond. The February 2013 interview reports twenty-four days served by the three defendants; the campaign also confirms release. The exact release day is unverified. This records the initial pretrial detention, not a sentence of twenty-four days."
+          }
+        ],
+        "aka": "Matt Almonte; Mathew Almonte"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 12
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "kxl-report",
+            "kxl-interview",
+            "kxl-ramps",
+            "kxl-aliases"
+          ],
+          "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release."
+        }
+      ],
+      "source_ids": [
+        "kxl-report",
+        "kxl-interview",
+        "kxl-ramps",
+        "kxl-aliases"
+      ],
+      "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Individual later plea, sentence and disposition remain unverified; Collins’s sixty-day sentence is not assigned to a co-defendant. No exact release calculated by adding24days."
+    },
+    {
+      "key": "isabel-indigo-brooks",
+      "match_names": [
+        "Isabel Indigo Brooks",
+        "Isabel Brooks",
+        "Isabelle Brooks"
+      ],
+      "prisoner": {
+        "name": "Isabel Indigo Brooks",
+        "first_name": "Isabel",
+        "last_name": "Brooks",
+        "description": "Isabel Indigo Brooks participated in the December 2012 Keystone XL pipeline protest near Winona, Texas. The protest led to several weeks in Smith County Jail before release. Brooks documented the action from inside the pipe and later discussed the experience in an interview.",
+        "affiliation": [
+          "Tar Sands Blockade"
+        ],
+        "state": "Texas",
+        "era": "2010s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Criminal trespass, resisting arrest and illegal dumping reported after Keystone XL blockade",
+            "sentence": "Arrested December 3, 2012 and held in Smith County Jail on a reported $65, 000 bond. The February 2013 interview reports twenty-four days served by the three defendants; the campaign also confirms release. The exact release day is unverified. This records the initial pretrial detention, not a sentence of twenty-four days."
+          }
+        ],
+        "middle_name": "Indigo",
+        "aka": "Isabel Brooks; Isabelle Brooks"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 12,
+            "day": 3
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 12
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "kxl-report",
+            "kxl-interview",
+            "kxl-ramps",
+            "kxl-aliases"
+          ],
+          "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release."
+        }
+      ],
+      "source_ids": [
+        "kxl-report",
+        "kxl-interview",
+        "kxl-ramps",
+        "kxl-aliases"
+      ],
+      "custody_evidence": "Contemporary December12 and December20 reports establish continued detention; later participant interview confirms twenty-four days actually served and release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Individual later plea, sentence and disposition remain unverified; Collins’s sixty-day sentence is not assigned to a co-defendant. No exact release calculated by adding24days."
+    },
+    {
+      "key": "camilo-pereira",
+      "match_names": [
+        "Camilo Pereira"
+      ],
+      "prisoner": {
+        "name": "Camilo Pereira",
+        "first_name": "Camilo",
+        "last_name": "Pereira",
+        "description": "Camilo Pereira participated in the June 2014 blockade of Alpha Natural Resources headquarters in Bristol, Virginia. Pereira was among eight activists who spent multiple days in jail while awaiting bond hearings.",
+        "affiliation": [
+          "Radical Action for Mountains’ and People’s Survival (RAMPS)",
+          "Mountain Justice"
+        ],
+        "state": "Virginia",
+        "era": "2010s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alpha headquarters protest — individual counts unverified; group reports list trespass, obstructing passage, disorderly conduct and fire-code violations",
+            "sentence": "Arrested June 20, 2014 and still jailed with the group at the June 23 arraignment. A July 6 campaign update confirms everyone had been released. The individual release day and final charges or disposition remain unverified; no sentence is inferred from the pretrial detention."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 2014,
+            "month": 6,
+            "day": 20
+          },
+          "incarceration_date": {
+            "year": 2014,
+            "month": 6,
+            "day": 20
+          },
+          "release_date": {
+            "year": 2014
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "alpha-action",
+            "alpha-custody",
+            "alpha-ap",
+            "alpha-release"
+          ],
+          "custody_evidence": "Named blockade participant tied to the following custody report; all eight remained imprisoned through the weekend and were later released."
+        }
+      ],
+      "source_ids": [
+        "alpha-action",
+        "alpha-custody",
+        "alpha-ap",
+        "alpha-release"
+      ],
+      "custody_evidence": "Named blockade participant tied to the following custody report; all eight remained imprisoned through the weekend and were later released.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. The release could fall in June or early July, so only2014is stored. First-name-only references to other participants are not expanded using unrelated search results."
+    },
+    {
+      "key": "catherine-ann-macdougal",
+      "match_names": [
+        "Catherine Ann MacDougal",
+        "Catherine-Ann MacDougal",
+        "Catherine Anne MacDougal"
+      ],
+      "prisoner": {
+        "name": "Catherine Ann MacDougal",
+        "first_name": "Catherine",
+        "last_name": "MacDougal",
+        "description": "Catherine Ann MacDougal, known as Squirrel, participated in the Coal River Mountain tree sit and a coal-barge blockade in West Virginia. MacDougal wrote about jail conditions and the environmental campaign after custody in 2012.",
+        "affiliation": [
+          "Radical Action for Mountains’ and People’s Survival (RAMPS)"
+        ],
+        "state": "West Virginia",
+        "era": "2010s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Trespassing following Coal River Mountain tree sit — no-contest plea; conspiracy dropped",
+            "sentence": "Entered Southern Regional Jail February 9, 2012 for seven days. The campaign recorded a jail visit and a statement during the term; the February 18 first-person update confirms that the week had been served and release had occurred. Exact release day remains unverified."
+          },
+          {
+            "charges": "Coal-barge protest at Chelyan — initial detention, individual statutory count unverified",
+            "sentence": "Spent two days in South Central Regional Jail immediately after the May 24, 2012 action. The November sentencing report expressly credits these two days against the later twenty-day sentence. The exact release day is unverified."
+          },
+          {
+            "charges": "Coal-barge protest plea — remaining custody after credit; individual count unverified",
+            "sentence": "Returned to South Central Regional Jail November 5, 2012 to serve eighteen remaining days of a twenty-day sentence, with two earlier days credited. MacDougal rejected a proposed probation arrangement; the final agreement imposed no probation. November 20 reporting confirms continued custody, and the November 26 update confirms release. The projected Thanksgiving release is not recorded as an independently verified exact day."
+          }
+        ],
+        "middle_name": "Ann",
+        "aka": "Catherine-Ann MacDougal; Catherine Anne MacDougal; Squirrel"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "sentenced_date": {
+            "year": 2012,
+            "month": 2,
+            "day": 9
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 2,
+            "day": 9
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 2
+          }
+        },
+        {
+          "arrest_date": {
+            "year": 2012,
+            "month": 5,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 5,
+            "day": 24
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 5
+          }
+        },
+        {
+          "sentenced_date": {
+            "year": 2012,
+            "month": 11,
+            "day": 5
+          },
+          "incarceration_date": {
+            "year": 2012,
+            "month": 11,
+            "day": 5
+          },
+          "release_date": {
+            "year": 2012,
+            "month": 11
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "macdougal-feb",
+            "macdougal-ran"
+          ],
+          "custody_evidence": "Actual commitment, jail visit and post-release statement jointly verify the seven-day term."
+        },
+        {
+          "source_ids": [
+            "macdougal-nov"
+          ],
+          "custody_evidence": "The November report and first-person recollection explicitly establish two days of initial custody."
+        },
+        {
+          "source_ids": [
+            "macdougal-nov"
+          ],
+          "custody_evidence": "Dated entry, continued-custody update and later personal jail letter plus release notice establish sustained November custody."
+        }
+      ],
+      "source_ids": [
+        "macdougal-feb",
+        "macdougal-ran",
+        "macdougal-nov"
+      ],
+      "custody_evidence": "Actual commitment, jail visit and post-release statement jointly verify the seven-day term. The November report and first-person recollection explicitly establish two days of initial custody. Dated entry, continued-custody update and later personal jail letter plus release notice establish sustained November custody.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Squirrel is retained as a documented nickname but is not used as a one-word automated identity key. The May2days and November18days are portions of one20-day sentence, not additional20-day terms. No release calculated from a sentence. Further2011 initial arrest and2009/2014 actions remain follow-up leads."
+    }
+  ]
+}
