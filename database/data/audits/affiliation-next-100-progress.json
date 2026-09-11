@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-307",
   "first_unpublished_batch": 307,
   "new_pr_opened": false,
-  "validated_new_people": 3,
-  "remaining_to_pr_threshold": 97,
+  "validated_new_people": 31,
+  "remaining_to_pr_threshold": 69,
   "batches": [
     {
       "batch": 307,
@@ -15,6 +15,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch307.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch307.md"
+    },
+    {
+      "batch": 308,
+      "status": "validated_local",
+      "new_people": 28,
+      "cases": 28,
+      "photos": 3,
+      "payload": "database/data/fixes/batch308.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch308.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -38,7 +47,7 @@
     "cases": 112,
     "existing_case_updates": 7
   },
-  "next_affiliation": "Daily Worker; then DC Nine",
-  "notes": "Prior PR unchanged. Three local Coxeyite additions validated; no production writes. Cuban Five roster already represented. Continue sequential research and keep held Coxeyite leads in the batch307 audit.",
+  "next_affiliation": "DC Nine; then De Mau Mau and December 12th Movement",
+  "notes": "31 local identities accumulated; no production writes or new PR. Batch308 includes partial-date counter protection. Continue named rosters and retain unresolved archive leads.",
   "last_research_update": "2026-09-11"
 }
