@@ -3,13 +3,13 @@
   "target_new_people_per_pr": 100,
   "accumulation_branch": "codex/affiliation-prisoners-batch-297",
   "first_unpublished_batch": 297,
-  "new_pr_opened": false,
+  "new_pr_opened": true,
   "validated_new_people": 100,
   "remaining_to_pr_threshold": 0,
   "batches": [
     {
       "batch": 297,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 8,
       "cases": 8,
       "photos": 0,
@@ -18,7 +18,7 @@
     },
     {
       "batch": 298,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 6,
       "cases": 6,
       "photos": 0,
@@ -27,7 +27,7 @@
     },
     {
       "batch": 299,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 3,
       "cases": 3,
       "photos": 0,
@@ -36,7 +36,7 @@
     },
     {
       "batch": 300,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 18,
       "cases": 20,
       "photos": 0,
@@ -45,7 +45,7 @@
     },
     {
       "batch": 301,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 15,
       "cases": 19,
       "case_updates": 0,
@@ -55,7 +55,7 @@
     },
     {
       "batch": 302,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 0,
       "cases": 5,
       "case_updates": 7,
@@ -65,7 +65,7 @@
     },
     {
       "batch": 303,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 2,
       "cases": 2,
       "photos": 0,
@@ -74,7 +74,7 @@
     },
     {
       "batch": 304,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 25,
       "cases": 26,
       "photos": 0,
@@ -83,7 +83,7 @@
     },
     {
       "batch": 305,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 17,
       "cases": 17,
       "photos": 0,
@@ -92,7 +92,7 @@
     },
     {
       "batch": 306,
-      "status": "validated_local",
+      "status": "submitted_pr_2489",
       "new_people": 6,
       "cases": 6,
       "photos": 0,
@@ -106,7 +106,7 @@
     296
   ],
   "next_affiliation": "Coxey's Army; retain CORE and CIO held leads in batch305/306 audits",
-  "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR.",
+  "notes": "Batches297-306 submitted together in PR2489: 100 new people, 112 new cases and seven existing-case updates. Not deployed. Begin the next accumulation at307; do not recount these people. Continue with Coxey Army and retained CORE/CIO/book leads. Preserve unpublished work when creating the next branch.",
   "last_research_update": "2026-09-11",
   "final_identity_check": {
     "reviewed_at": "2026-09-11",
@@ -114,5 +114,7 @@
     "pending_new_people": 100,
     "cross_batch_conflicts": 0,
     "live_identity_matches": 0
-  }
+  },
+  "pull_request_url": "https://github.com/pucakisses-star/NPPC-Website/pull/2489",
+  "next_accumulation_start_batch": 307
 }
