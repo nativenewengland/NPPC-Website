@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-297",
   "first_unpublished_batch": 297,
   "new_pr_opened": false,
-  "validated_new_people": 35,
-  "remaining_to_pr_threshold": 65,
+  "validated_new_people": 50,
+  "remaining_to_pr_threshold": 50,
   "batches": [
     {
       "batch": 297,
@@ -42,6 +42,26 @@
       "photos": 0,
       "payload": "database/data/fixes/batch300.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch300.md"
+    },
+    {
+      "batch": 301,
+      "status": "validated_local",
+      "new_people": 15,
+      "cases": 19,
+      "case_updates": 0,
+      "photos": 0,
+      "payload": "database/data/fixes/batch301.json",
+      "audit": "database/data/audits/full-books-batches301-302-2026-09-10.md"
+    },
+    {
+      "batch": 302,
+      "status": "validated_local",
+      "new_people": 0,
+      "cases": 5,
+      "case_updates": 7,
+      "photos": 0,
+      "payload": "database/data/fixes/batch302.json",
+      "audit": "database/data/audits/full-books-batches301-302-2026-09-10.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -49,6 +69,7 @@
     295,
     296
   ],
-  "next_affiliation": "Catholic Worker book review: Wollheim, Woolford, remaining interview leads",
-  "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR."
+  "next_affiliation": "Communist Party of Puerto Rico; retained ELF/Chamberlain/Harrison and broader CRC leads in affiliation-followup-after-books-2026-09-10.md",
+  "notes": "Refresh live identity checks before the combined PR. Remove newly duplicated people from the count. Keep each numbered batch idempotent and all source audits. Do not open smaller per-group PRs. Do not deploy. If the queue ends below 100, report the remainder without opening a smaller PR.",
+  "last_research_update": "2026-09-10"
 }
