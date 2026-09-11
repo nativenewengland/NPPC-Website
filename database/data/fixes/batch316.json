@@ -1,0 +1,182 @@
+{
+  "batch": 316,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-11",
+  "scope": "Two missing historical detainees identified through FLPA and Puerto Rican grand-jury affiliation research; preserve all existing data.",
+  "sources": {
+    "hickey-account": {
+      "label": "Thomas A. Hickey, The Rebel, June 2, 1917, front page: first-person account of May 17 arrest, two days incommunicado and Saturday bail release. Portal to Texas History OCR reviewed.",
+      "url": "https://texashistory.unt.edu/ark:/67531/metapth394758/m1/1/"
+    },
+    "hickey-history": {
+      "label": "Refusing to Forget, The Kidnapping of Thomas Hickey: May 17, 1917 arrest; two days in federal custody; bail and no subsequent prosecution.",
+      "url": "https://refusingtoforget.org/the-kidnapping-of-thomas-hickey/"
+    },
+    "hickey-vitals": {
+      "label": "William R. Hunt, Texas State Historical Association, Thomas Aloysius Hickey: January 14, 1869 birth; May 7, 1925 death; socialist and labor-organizing biography.",
+      "url": "https://www.tshaonline.org/handbook/entries/hickey-thomas-aloysius"
+    },
+    "soto-thesis": {
+      "label": "Luis Rogelio Torres Maldonado, El Debate entre el Independentismo Puertorriqueno en torno a como Enfrentar el Gran Jurado Federal: 1979–1984, doctoral thesis, May 2022, printed pp.175–178 / PDF186–189. Includes March 7, 2022 participant interview; p.177 reports September 25, 1983 release citing Claridad October 7–13, 1983 p.4. Relevant PDF page visually reviewed.",
+      "url": "https://infoaldesnudo.com/wp-content/uploads/2022/07/Luis-Rogelio-Torres-Tesis-doctoral-Copia-Institucional-pdf.pdf"
+    },
+    "soto-contemporary": {
+      "label": "Perspectiva Mundial, April 4, 1983, printed p.13 / PDF13: names Raymond Soto Davila of CUCRE as currently held in the Metropolitan Correctional Center, New York.",
+      "url": "https://www.themilitant.com/PM/pm_pdfs/1983/pm0707.pdf"
+    },
+    "soto-un": {
+      "label": "UN Special Committee meeting record A/AC.109/PV.1233, August 24, 1983: petitioners identify Raymond Soto among people then held in United States jails. This is testimony in a UN record, not a UN factual finding.",
+      "url": "https://digitallibrary.un.org/record/48878/files/A_AC.109_PV.1233-EN.pdf"
+    },
+    "soto-identity": {
+      "label": "Wilkins Roman Samot, El Post Antillano, November 2, 2019, review of Raymond Soto Davila’s LSP history: Brooklyn birth in 1948, historian and participant in the organization.",
+      "url": "https://elpostantillano.net/index.php?Itemid=1021&catid=311&id=23980%3A2019-11-02-17-00-49&option=com_content&view=article"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "thomas-aloysius-hickey",
+      "match_names": [
+        "Thomas Aloysius Hickey",
+        "Thomas A. Hickey",
+        "T. A. Hickey",
+        "Tom Hickey",
+        "Red Tom Hickey"
+      ],
+      "prisoner": {
+        "name": "Thomas Aloysius Hickey",
+        "first_name": "Thomas",
+        "last_name": "Hickey",
+        "description": "Thomas Aloysius Hickey, known as Red Tom, was an Irish-born socialist journalist and labor organizer who edited The Rebel in Texas. Authorities detained him during the 1917 anti-conscription crackdown. He spent two days in federal custody before release on bail.",
+        "affiliation": [
+          "Socialist Party of America",
+          "Knights of Labor",
+          "Western Federation of Miners"
+        ],
+        "state": "Texas",
+        "era": "1910s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Alleged conspiracy against the government in the anti-conscription crackdown — no prosecution established",
+            "sentence": "Arrested without a warrant at Brandenburg, Stonewall County, on Thursday, May 17, 1917. His account describes two days held incommunicado in a shared cell before a Saturday hearing and release on $1,000 bail, corresponding to May 19. The hearing was at Abilene. No custodial sentence or conviction is inferred; historical research reports that he was not prosecuted."
+          }
+        ],
+        "middle_name": "Aloysius",
+        "aka": "Thomas A. Hickey; T. A. Hickey; Tom Hickey; Red Tom Hickey"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1869,
+          "month": 1,
+          "day": 14
+        },
+        "death_date": {
+          "year": 1925,
+          "month": 5,
+          "day": 7
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1917,
+            "month": 5,
+            "day": 17
+          },
+          "incarceration_date": {
+            "year": 1917,
+            "month": 5,
+            "day": 17
+          },
+          "release_date": {
+            "year": 1917,
+            "month": 5,
+            "day": 19
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "hickey-account",
+            "hickey-history"
+          ],
+          "custody_evidence": "His first-person account explicitly describes two days in a locked cell and Saturday bail release, independently corroborated by historical research."
+        }
+      ],
+      "source_ids": [
+        "hickey-vitals",
+        "hickey-account",
+        "hickey-history"
+      ],
+      "custody_evidence": "His first-person account explicitly describes two days in a locked cell and Saturday bail release, independently corroborated by historical research.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. May 19 is resolved from the explicitly dated Thursday arrest and subsequent Saturday release, not calculated from a prospective sentence. Do not infer FLPA membership from arrest in its crackdown. Do not use the unrelated Newfoundland man who died in 2005. No exact institution building or modern coordinates established."
+    },
+    {
+      "key": "raymond-soto-davila",
+      "match_names": [
+        "Raymond Soto Dávila",
+        "Raymond Soto Davila",
+        "Raymond Soto",
+        "Raymond Soto-Davila"
+      ],
+      "prisoner": {
+        "name": "Raymond Soto Dávila",
+        "first_name": "Raymond",
+        "last_name": "Soto Dávila",
+        "description": "Raymond Soto Dávila is a Puerto Rican independence activist and historian associated with CUCRE and the Liga Socialista Puertorriqueña. He was confined for civil contempt after refusing to comply with a federal grand jury investigation, including months at the Metropolitan Correctional Center in New York.",
+        "affiliation": [
+          "Comité Unitario Contra la Represión (CUCRE)",
+          "Liga Socialista Puertorriqueña"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Civil contempt for noncompliance with a federal grand jury — not a criminal conviction for the acts being investigated",
+            "sentence": "The proceedings followed December 1982 subpoenas seeking identification exemplars and participation in a lineup. Contemporary April 1983 reporting places him in New York’s Metropolitan Correctional Center; August testimony again identifies him as imprisoned. Torres Maldonado’s source-cited history records almost ten months of confinement and release on September 25, 1983, when the grand jury period was not renewed. The exact arrest and custody-entry dates remain unverified; subpoena and opinion dates are not entered as arrest dates."
+          }
+        ],
+        "aka": "Raymond Soto Davila; Raymond Soto; Raymond Soto-Davila"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1948
+        }
+      },
+      "case_dates": [
+        {
+          "release_date": {
+            "year": 1983,
+            "month": 9,
+            "day": 25
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "soto-thesis",
+            "soto-contemporary",
+            "soto-un"
+          ],
+          "custody_evidence": "Contemporary reports months apart and the history’s explicit account establish sustained federal custody; the historian cites a post-release Claridad report for the release date."
+        }
+      ],
+      "source_ids": [
+        "soto-identity",
+        "soto-thesis",
+        "soto-contemporary",
+        "soto-un"
+      ],
+      "custody_evidence": "Contemporary reports months apart and the history’s explicit account establish sustained federal custody; the historian cites a post-release Claridad report for the release date.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Birth year only, not January 1. No FALN or Macheteros membership, robbery guilt, death date or namesake portrait inferred. December 17 subpoena appearance and December/January court opinion dates are not proven custody endpoints. Exact release relies on the scholarly history citing Claridad; the underlying Claridad page has not been directly examined."
+    }
+  ]
+}
