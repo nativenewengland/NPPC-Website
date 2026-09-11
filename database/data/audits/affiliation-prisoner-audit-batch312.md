@@ -1,0 +1,59 @@
+# Batch 312: RAMPS and Mountain Justice custody records
+
+Twelve new people and twelve cases, accumulating locally toward the next 100-person PR. Existing records, biographies, portraits and cases are preserved. No production writes or deployment.
+
+## Included people
+
+| Person | Custody |
+|---|---|
+| Sophia Morgan | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| Dorian Williams | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. Williams separately reported ten days actually served. The Justice also gives a conflicting July31 hearing/release date, inconsistent with its ten-day account and the contemporary RAMPS custody updates; that day is not entered. |
+| Clark Santee | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| George Vest | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| Van Pham | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| Matthew K. Smith | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| Kevin Kuenster | Held after the July 28, 2012 protest. RAMPS reports that nineteen defendants accepted trespass pleas, a $500 fine and one year of probation at hearings on August 2 or August 7; all were out by August 7. The individual hearing and release day are not established, so August is recorded at month precision. Probation is not counted as incarceration. |
+| Dustin Steele | Arrested July 28, 2012 and released on bond August 1. Unlike the other nineteen defendants, Steele had not accepted the collective plea deal in the August2 report. No later conviction or completed probation term is inferred. |
+| Junior Walk | Pleaded guilty to blocking a roadway; obstruction of justice was dropped. The agreement imposed ninety days with eighty suspended, with the ten unsuspended days reducible to five for good behavior. Actual July custody and release are documented. The initial post and update conflict on whether the plea and commitment occurred July24 or July25, so those dates retain month precision. The July30 update confirms release of the remaining prisoners following the July29 forecast. Suspended days are not recorded as time served. |
+| Jocelyn Sawyer | Pleaded guilty to blocking a roadway; obstruction of justice was dropped. The agreement imposed ninety days with eighty suspended, with the ten unsuspended days reducible to five for good behavior. Actual July custody and release are documented. The initial post and update conflict on whether the plea and commitment occurred July24 or July25, so those dates retain month precision. The July29 update confirms release that morning, with credit for one earlier day after arrest. That initial short detention is not treated as a separate multi-day episode. |
+| Emily Gillespie | Pleaded guilty to blocking a roadway; obstruction of justice was dropped. The agreement imposed ninety days with eighty suspended, with the ten unsuspended days reducible to five for good behavior. Actual July custody and release are documented. The initial post and update conflict on whether the plea and commitment occurred July24 or July25, so those dates retain month precision. The July30 update confirms release of the remaining prisoners following the July29 forecast. Suspended days are not recorded as time served. |
+| Nathan Walker Joseph | Pleaded guilty and entered South Central Regional Jail August 30, 2012 on a five-day sentence. The September6 first-person account confirms release on Monday September3 after just over 96 hours in custody. The sentence and actual elapsed custody are distinguished. |
+
+## Identity and date decisions
+
+- **Hobet roster:** seven named people from the support list plus Dustin Steele qualify. The support list was edited as people left jail; the original July 30 timestamp is not the timestamp of every revision. August 1 reporting confirms that everyone except Steele was still detained. The August 7 update confirms that all had been released. The two plea-hearing groups are not individually enumerated, so the seven individual hearing/release fields retain August-only precision.
+- **Dorian Williams:** ten days served is supported by the interview and retrospective. The Justice also gives July 31 for hearing/release, which conflicts with its own duration and the contemporary continuing-custody reports. That specific day is not entered. This is the Brandeis activist, not the football player.
+- **Steele:** released August 1 on bond; the later report explicitly says Steele had not taken the other nineteen defendants’ plea. Their convictions/probation are not assigned to Steele. A birthday celebration is insufficient to establish an exact DOB.
+- **Alpha blockade:** the RAMPS original includes actual July 29 release for Jocelyn Sawyer and July 30 release for the others, superseding the erroneous August 29 forecast in the repost. July 24/25 plea-entry wording remains inconsistent, so those fields retain month precision. The ninety-day sentence had eighty suspended days; good behavior reduced the ten unsuspended days to five. Suspended time is not actual incarceration.
+- **Joseph:** August 30 entry, September 1 call from jail, September 3 release update, and September 6 first-person account establish the interval. The account explicitly says Monday release after just over 96 hours. Keep the five-day sentence separate from elapsed time. Full legal name Nathan Walker Joseph is explicitly supplied by the support notice. Existing Nathan Joseph Waller is a different person; manually screened aliases Nathan Joseph and Ducky remain in the profile but are excluded from automatic broad matching.
+- No age-derived DOBs, unrelated obituaries, current imprisonment, coordinates or personal support websites inferred. Sources remain citations.
+
+## Held or excluded
+
+- **Kathryn Dolby:** the Hobet list marks this spelling as a jail-system misspelling. Correct identity unresolved; do not conflate with the Australian artist.
+- **Andy / Ande:** Alpha blockader lacks a verified surname. Hold until full identity established.
+- **David Eli Baghdadi:** already exists; preserve without creating a second profile.
+- Unnamed Hobet defendants remain open. Do not use the group count to invent a roster.
+- **Rebecca Loeb, Squirrel and the other barge defendants:** this source describes postponed proceedings or suspended sentences; it does not independently establish their multi-day custody.
+- **Nathan Joseph portrait:** the identified nathan-mug1.jpg URL currently serves an 81-byte one-pixel PNG placeholder. No unusable image added. Group photos lack a reliable individual face key. No photographs assigned in this batch.
+- Search results for same-name financial advisers, artists, doctors and athletes are not identity evidence for these prisoners.
+
+## Sources
+
+- **hobet-roster**: [RAMPS, Support the Hobet 20, July 30, 2012, subsequently updated: named prisoners held at Western Regional Jail. Public HTML retrieved.](https://rampscampaign.org/support-the-hobet-20-write-to-them/)
+- **hobet-arrest**: [Sue Sturgis, Facing South, July 30, 2012: July 28 mine protest, twenty arrests and initial charges.](https://www.facingsouth.org/2012/07/anti-mining-protests-heat-up-in-west-virginia-as-evidence-of-damage-builds.html)
+- **hobet-release**: [RAMPS, August 2 post updated August 7, 2012: nine accepted plea deal August 2; remaining ten released August 7. No individual roster for the two hearing groups.](https://rampscampaign.org/breaking-update-half-the-hobet-20-offered-plea-deals-nine-accept/)
+- **dustin-release**: [RAMPS, August 1, 2012: Dustin Steele released moments earlier; the other nineteen remained imprisoned.](https://rampscampaign.org/breaking-news-dustin-steele-released-on-bond-19-others-remain-behind-bars/)
+- **dustin-independent**: [Facing South, August 2, 2012: Steele released August 1 from Western Regional Jail.](https://www.facingsouth.org/2012/08/video-documents-miner-state-police-harassment-of-mountaintop-removal-protesters-in-west-virg)
+- **dorian-interview**: [The Justice, August 27, 2012: interview with Brandeis activist Dorian Williams, ten days jailed and $500 fine.](https://www.thejustice.org/article/2012/08/student-arrested-in-west-virginia)
+- **dorian-retrospective**: [Utne, November 2015: Dorian Williams retrospective of ten days in jail after July 2012 Hobet protest.](https://www.utne.com/environment/keystone-xl-pipeline-ze0z1511zdeh/)
+- **alpha-original**: [RAMPS, July 25, 2013, updated July 29 and 30: named prisoners, actual releases, plea and good-behavior provision. Internal today/yesterday wording conflicts on commitment day; retain month precision.](https://rampscampaign.org/4-who-blocked-alphamassey-hq-sentenced-to-jail/)
+- **alpha-repost**: [Earth First! Newswire repost at Paperblog, July 26, 2013: actual entry and names. Erroneous projected August 29 release superseded by original RAMPS release updates.](https://en.paperblog.com/five-alpha-bridge-blockaders-sentenced-four-in-jail-now-601145/)
+- **ducky-custody**: [RAMPS, August 30, 2012, updated September 1 and 3: Nathan Walker Joseph entered South Central Regional Jail, still held September 1 and then released.](https://rampscampaign.org/ducky-takes-plea-deal-5-days-in-jail/)
+- **ducky-account**: [Nathan Joseph, RAMPS, September 6, 2012: first-person retrospective confirms Monday September 3 release and just over 96 hours served.](https://rampscampaign.org/cant-nobody-take-my-pride-cant-nobody-hold-me-down/)
+
+## Validation
+
+400 isolated SQLite-memory assertions passed: replay/idempotence, preservation of existing and hidden-alias records, all twelve cases, exact versus partial date precision, no invented duration or later status, cache behavior and invalid-payload rollback. Shell syntax and zero-apostrophe tinker guard passed. Read-only live preview found 12 missing identities and 0 existing matches. Names were also screened against the identity snapshot and pending batches 297–311. Test writes used only memory after every production connection was purged.
+
+Accumulation: 65 new people, 69 cases and 4 portraits across batches 307–312. No new PR until 100 new people; no deployment.
