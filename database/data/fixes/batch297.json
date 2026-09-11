@@ -1,0 +1,484 @@
+{
+  "batch": 297,
+  "expected_count": 8,
+  "expected_case_count": 8,
+  "reviewed_at": "2026-09-10",
+  "scope": "Cadets of the Republic and related Nationalist federal prisoner roster; first local contribution toward the next 100-person PR.",
+  "sources": {
+    "roster1939": {
+      "label": "Comité Cubano Pro Libertad de Patriotas Puertorriqueños, Por la independencia de Puerto Rico / Por la libertad de sus patriotas (Havana, December 1939), printed pp.17–18, PDF pp.15–16. Contemporary named prison roster; scan visually verified. Biblioteca del Congreso Nacional de Chile.",
+      "url": "https://www.bcn.cl/obtieneimagen?id=documentos%2F10221.1%2F54115%2F1%2F205923.pdf"
+    },
+    "eo7731": {
+      "label": "Executive Order 7731, October 22, 1937, Federal Register October 26, 1937, p.2631. Primary docket identity roster for United States v. Julio Pinto Gandia et al., No.4456 Cr.; substitutes Judge Martin Travieso because Robert A. Cooper is a government witness. This order alone is not proof of conviction or custody.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-1937-10-26/pdf/FR-1937-10-26.pdf"
+    },
+    "davila2020": {
+      "label": "José Manuel Dávila Marichal, Organizando la revolución: el Ejército Libertador del Partido Nacionalista de Puerto Rico y la insurrección nacionalista de 1950, doctoral thesis, Universidad Autónoma de Madrid (2020), pp.202,322–325,491,639. Includes attributed first-person testimony and references to original Claridad interviews. Distinguish its generalized Atlanta statement from the contemporary institution roster.",
+      "url": "https://repositorio.uam.es/bitstream/10486/693879/4/davila_marichal_jose_manuel.pdf"
+    },
+    "jaca1967": {
+      "label": "Juan Jaca Hernandez v. Delgado, 375 F.2d 584 (1st Cir., April 5, 1967). Primary decision expressly describes the petitioner as serving life imprisonment.",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/375/584/130752/"
+    },
+    "jaca1954": {
+      "label": "People v. Jaca Hernández, 77 P.R.437 (November 30, 1954), Nos.15601–10. Primary opinion: four murder and six assault convictions; Jaca judgment affirmed. Three co-defendants were acquitted on appeal and must not be described as having affirmed murder convictions.",
+      "url": "https://app.midpage.ai/document/people-v-jaca-hern-ndez-8536838"
+    },
+    "jaca_archive": {
+      "label": "Mario A. Rodríguez León, O.P., Claridad, March 5, 2019. Personal archival account based on Jaca letters and police file; imprisonment and pardon. Header portrait is Barbosa, not Jaca; rejected.",
+      "url": "https://claridadpuertorico.com/la-reunion-en-el-viejo-san-juan-en-1918-entre-el-dr-jose-celso-barbosa-y-pedro-albizu-campos-en-cartas-de-juan-jaca-hernandez/"
+    },
+    "raimundo_death": {
+      "label": "Raimundo Díaz Pacheco biographical reference, death October 30, 1950 during the La Fortaleza attack; corroborates the thesis account. Not a death in custody.",
+      "url": "https://en.wikipedia.org/wiki/Raimundo_D%C3%ADaz_Pacheco"
+    },
+    "arecibo_map": {
+      "label": "Arecibo municipality coordinates, 18.375,-66.625. Approximate historical district marker, not a home or exact arrest site.",
+      "url": "https://en.wikipedia.org/wiki/Arecibo,_Puerto_Rico"
+    }
+  },
+  "institutions": {
+    "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469": "United States Penitentiary, Leavenworth",
+    "df689c4b-2900-4bb4-bb53-55fd5fd1abd7": "United States Penitentiary, Lewisburg"
+  },
+  "entries": [
+    {
+      "key": "juan-jaca-hernandez",
+      "match_names": [
+        "Juan Jaca Hernández",
+        "Juan Jaca"
+      ],
+      "prisoner": {
+        "name": "Juan Jaca Hernández",
+        "first_name": "Juan",
+        "last_name": "Jaca Hernández",
+        "description": "Juan Jaca Hernández was an Arecibo commander of the Cadets of the Republic. Imprisoned after the 1950 Nationalist uprising, he remained in custody in 1967. His imprisonment lasted about eighteen years, including confinement at La Princesa and Oso Blanco. He was pardoned in December 1968.",
+        "state": "Puerto Rico",
+        "era": "1950s",
+        "affiliation": [
+          "Cadets of the Republic",
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 18.375,
+        "lng": -66.625,
+        "cases": [
+          {
+            "charges": "Four counts of first-degree murder and six counts of assault with intent to commit murder, arising from the 1950 Arecibo uprising",
+            "convicted": "Convicted in April 1951; judgments affirmed November 30, 1954",
+            "sentence": "Four life terms and six terms of six to fourteen years. The 1967 federal habeas decision confirms actual continuing imprisonment. Pardoned December 27, 1968; exact physical release day remains unverified. A separate Law 53 sentence was imposed September 18, 1952 during the same confinement and is not counted as another imprisonment episode."
+          }
+        ],
+        "gender": "Male"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1909
+        },
+        "death_date": {
+          "year": 1994
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1950
+          },
+          "sentenced_date": {
+            "year": 1951,
+            "month": 4
+          },
+          "release_date": {
+            "year": 1968
+          }
+        }
+      ],
+      "source_ids": [
+        "jaca1967",
+        "jaca1954",
+        "jaca_archive",
+        "davila2020",
+        "arecibo_map"
+      ],
+      "custody_evidence": "Actual imprisonment is explicit in jaca1967, not inferred from the sentence; jaca_archive documents prison letters and subsequent release.",
+      "case_research": [
+        {
+          "source_ids": [
+            "jaca1967",
+            "jaca1954",
+            "jaca_archive",
+            "davila2020"
+          ],
+          "custody_evidence": "Actual imprisonment is explicit in jaca1967, not inferred from the sentence; jaca_archive documents prison letters and subsequent release."
+        }
+      ],
+      "status_research": "Birthday conflict: April 14 in davila2020 p.325 (citing the November 1994 memorial) versus September 14 in jaca_archive. Store year only. Alive in summer 1994 and memorialized that November: death year only, no exact day. No incarceration start or arithmetic duration invented. Pardon day is not a physical-release timestamp."
+    },
+    {
+      "key": "raimundo-diaz-pacheco",
+      "match_names": [
+        "Raimundo Díaz Pacheco",
+        "Raimundo Dias Pacheco",
+        "Ramón Díaz Pacheco"
+      ],
+      "prisoner": {
+        "name": "Raimundo Díaz Pacheco",
+        "first_name": "Raimundo",
+        "last_name": "Díaz Pacheco",
+        "description": "Raimundo Díaz Pacheco commanded the Cadets of the Republic. The 1937 Cooper prosecution led to confinement at La Princesa and Leavenworth. He later returned to Puerto Rico and was killed during the October 30, 1950 attack on La Fortaleza.",
+        "state": "Kansas",
+        "era": "1930s",
+        "affiliation": [
+          "Cadets of the Republic",
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": true,
+        "lat": 39.319056,
+        "lng": -94.913971,
+        "cases": [
+          {
+            "charges": "Conspiracy to murder federal judge Robert A. Cooper",
+            "convicted": "Convicted in the federal Cooper prosecution",
+            "sentence": "Five-year prison sentence. First-person testimony records seven months in La Princesa before federal imprisonment; a 1939 roster locates him at Leavenworth. His term expired January 9, 1943, but no exact physical release date is entered.",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469"
+          }
+        ],
+        "gender": "Male",
+        "inmate_number": "52500"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1906,
+          "month": 12,
+          "day": 27
+        },
+        "death_date": {
+          "year": 1950,
+          "month": 10,
+          "day": 30
+        }
+      },
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "eo7731",
+        "roster1939",
+        "davila2020",
+        "raimundo_death"
+      ],
+      "custody_evidence": "See roster1939 p.17 for individual placement and davila2020 p.324 for the named first-person account of months already spent confined.",
+      "case_research": [
+        {
+          "source_ids": [
+            "eo7731",
+            "roster1939",
+            "davila2020",
+            "raimundo_death"
+          ],
+          "custody_evidence": "See roster1939 p.17 for individual placement and davila2020 p.324 for the named first-person account of months already spent confined."
+        }
+      ],
+      "status_research": "Birth sourced to attributed family testimony in davila2020 p.322. Historical Leavenworth number from p.324. No exact arrest date chosen from conflicting June chronologies. Sentence expiration is not stored as release date. Later combat death is not a death in custody. Ramón is a defensive match variant, not asserted as a verified alias."
+    },
+    {
+      "key": "manuel-avila",
+      "match_names": [
+        "Manuel Ávila"
+      ],
+      "prisoner": {
+        "name": "Manuel Ávila",
+        "first_name": "Manuel",
+        "last_name": "Ávila",
+        "description": "Manuel Ávila was a Puerto Rican independence supporter imprisoned at Lewisburg. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    },
+    {
+      "key": "juan-bautista-colon-rivera",
+      "match_names": [
+        "Juan Bautista Colón Rivera",
+        "Juan Bautista Colón"
+      ],
+      "prisoner": {
+        "name": "Juan Bautista Colón Rivera",
+        "first_name": "Juan Bautista",
+        "last_name": "Colón Rivera",
+        "description": "Juan Bautista Colón Rivera was a Puerto Rican independence supporter imprisoned at Lewisburg. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    },
+    {
+      "key": "dionisio-velez-aviles",
+      "match_names": [
+        "Dionisio Vélez Avilés"
+      ],
+      "prisoner": {
+        "name": "Dionisio Vélez Avilés",
+        "first_name": "Dionisio",
+        "last_name": "Vélez Avilés",
+        "description": "Dionisio Vélez Avilés was a Puerto Rican independence supporter imprisoned at Lewisburg. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    },
+    {
+      "key": "santiago-nieves-marzan",
+      "match_names": [
+        "Santiago Nieves Marzán",
+        "Santiago Nieves Malsán",
+        "Santiago Nieves Malsan"
+      ],
+      "prisoner": {
+        "name": "Santiago Nieves Marzán",
+        "first_name": "Santiago",
+        "last_name": "Nieves Marzán",
+        "description": "Santiago Nieves Marzán was a Puerto Rican independence supporter imprisoned at Lewisburg. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731",
+        "davila2020"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731",
+            "davila2020"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    },
+    {
+      "key": "julio-monge-hernandez",
+      "match_names": [
+        "Julio Monge Hernández",
+        "Julio Mange Hernandez"
+      ],
+      "prisoner": {
+        "name": "Julio Monge Hernández",
+        "first_name": "Julio",
+        "last_name": "Monge Hernández",
+        "description": "Julio Monge Hernández was a Puerto Rican independence supporter imprisoned at Lewisburg. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Pennsylvania",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 40.964421,
+        "lng": -76.884795,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    },
+    {
+      "key": "juan-alamo-diaz",
+      "match_names": [
+        "Juan Álamo Díaz",
+        "Juan Alamo"
+      ],
+      "prisoner": {
+        "name": "Juan Álamo Díaz",
+        "first_name": "Juan",
+        "last_name": "Álamo Díaz",
+        "description": "Juan Álamo Díaz was a Puerto Rican independence supporter imprisoned at Leavenworth. Executive Order 7731 identifies him in the 1937 federal prosecution of Julio Pinto Gandía and others. The 1939 solidarity committee roster confirms his actual imprisonment.",
+        "state": "Kansas",
+        "era": "1930s",
+        "affiliation": [
+          "Puerto Rican Nationalist Party"
+        ],
+        "in_custody": false,
+        "released": false,
+        "lat": 39.319056,
+        "lng": -94.913971,
+        "cases": [
+          {
+            "charges": "Federal political prosecution in United States v. Julio Pinto Gandia et al., No.4456 Cr.; exact conviction statute unverified",
+            "convicted": "Named as a sentenced political prisoner in the contemporary 1939 roster",
+            "sentence": "Actual federal penitentiary confinement is documented. Individual commitment and physical release dates, exact time served, and the final judgment text remain unverified.",
+            "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469"
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {}
+      ],
+      "source_ids": [
+        "roster1939",
+        "eo7731"
+      ],
+      "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof.",
+      "case_research": [
+        {
+          "source_ids": [
+            "roster1939",
+            "eo7731"
+          ],
+          "custody_evidence": "The individually named penitentiary placement in roster1939 pp.17–18 establishes prison confinement beyond an initial arrest. eo7731 independently identifies the defendant; it is not used as custody proof."
+        }
+      ],
+      "status_research": "Historical imprisonment, not a claim of current detention. Release status and vital dates unverified; no death, release endpoint, or five-year served total assumed. Cadets membership is not inferred merely from a shared prosecution. Map marker uses the verified institution inventory coordinates."
+    }
+  ],
+  "research_notes": "Eight missing identities; existing records untouched. No portraits assigned: the Jaca article header is Barbosa and the Raimundo link is a crossword. Institutional and municipal markers are historical approximations. Further 1938 and 1950 prisoners remain research leads."
+}

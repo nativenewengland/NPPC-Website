@@ -1,0 +1,320 @@
+{
+  "batch": 302,
+  "scope": "Five Trident II date corrections, two missing-field fills, five distinct missing cases. No existing biographies or sentence text changed.",
+  "sources": {
+    "swords": {
+      "label": "Arthur J. Laffin and Anne Montgomery, Swords into Plowshares, 1987 first edition, printed pp.38-39 (PDF pp.66-67). User-supplied full PDF visually checked; chronology states individual 1986 release months.",
+      "url": "https://search.worldcat.org/search?q=bn%3A0060649119"
+    },
+    "chronology": {
+      "label": "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed pp.22,72-77 (PDF pp.34,84-89). Full user-supplied PDF. Later support-site chronology is a derivative, not independent corroboration.",
+      "url": "https://kingsbayplowshares7.org/plowshares-history/"
+    },
+    "post": {
+      "label": "Conscience and the Criminal, Washington Post, August 5, 1986: independently corroborates Jean Holladay parole in April 1986 after six months.",
+      "url": "https://www.washingtonpost.com/archive/lifestyle/1986/08/05/conscience-and-the-criminal/7510f097-230e-40d4-8f1c-0b70d869251e/"
+    },
+    "doing": {
+      "label": "Rosalie G. Riegle, Doing Time for Peace, pp.159-165, especially pp.159,161: Scott Schaeffer-Duffy actually served three months in 2003. Full supplied EPUB.",
+      "url": "https://www.bibliovault.org/BV.book.epl?ISBN=9780826518729"
+    },
+    "crossing": {
+      "label": "Rosalie G. Riegle, Crossing the Line, chapter 8, Father Larry Morlan interview: 1983 Pentagon action; February 17, 1984 six-month sentence and actual custody in DC and Virginia. Full supplied EPUB; related oral-history collection linked.",
+      "url": "https://www.marquette.edu/library/archives/Mss/ppoh/ppoh-series1.php"
+    }
+  },
+  "updates": [
+    {
+      "key": "jean-holladay",
+      "prisoner_id": "b297918f-2cfb-42e5-a74e-1eb7ec2d5e89",
+      "name": "Jean Holladay",
+      "case_id": "d4e3ba25-4e42-4277-9289-1ef004453cdc",
+      "expected_charges": "Malicious damage to property (Trident II Plowshares action at Electric Boat Quonset Point)",
+      "before": {
+        "arrest_date": "1984-09-30",
+        "incarceration_date": "1984-09-30",
+        "release_date": "1985-09-30",
+        "sentenced_date": null,
+        "imprisoned_for_months": null
+      },
+      "after": {
+        "arrest_date": "1984-10-01",
+        "incarceration_date": null,
+        "release_date": "1986-04",
+        "sentenced_date": "1985-10-18",
+        "imprisoned_for_months": 6
+      },
+      "source_ids": [
+        "swords",
+        "chronology",
+        "post"
+      ],
+      "evidence": "1987 chronology pp.38-39 resolves the 1985/1986 conflict. Release month only; exact day unverified. Wrong continuous incarceration start is cleared: neither arrest nor sentencing establishes uninterrupted custody from 1984. Sentence and charges text are preserved. Jean has six actual months; no full-year actual duration inferred for the others. Frank release includes the additional contempt term."
+    },
+    {
+      "key": "frank-panopoulos",
+      "prisoner_id": "7c59b309-ba49-4609-a950-7a5486b79035",
+      "name": "Frank Panopoulos",
+      "case_id": "93f123d9-b1a5-4d68-952b-b7242f7e3bcb",
+      "expected_charges": "Malicious damage to property (Trident II Plowshares action at Electric Boat Quonset Point)",
+      "before": {
+        "arrest_date": "1984-09-30",
+        "incarceration_date": "1984-09-30",
+        "release_date": "1985-09-30",
+        "sentenced_date": null
+      },
+      "after": {
+        "arrest_date": "1984-10-01",
+        "incarceration_date": null,
+        "release_date": "1986-10",
+        "sentenced_date": "1985-10-18"
+      },
+      "source_ids": [
+        "swords",
+        "chronology"
+      ],
+      "evidence": "1987 chronology pp.38-39 resolves the 1985/1986 conflict. Release month only; exact day unverified. Wrong continuous incarceration start is cleared: neither arrest nor sentencing establishes uninterrupted custody from 1984. Sentence and charges text are preserved. Jean has six actual months; no full-year actual duration inferred for the others. Frank release includes the additional contempt term."
+    },
+    {
+      "key": "william-boston",
+      "prisoner_id": "54493559-f7a1-4bc2-a902-5551a91ce3c7",
+      "name": "William Boston",
+      "case_id": "06d9f401-ee48-4edc-9df2-7cac36f7ce3f",
+      "expected_charges": "Malicious damage to property (Trident II Plowshares action at Electric Boat Quonset Point)",
+      "before": {
+        "arrest_date": "1984-09-30",
+        "incarceration_date": "1984-09-30",
+        "release_date": "1985-09-30",
+        "sentenced_date": null
+      },
+      "after": {
+        "arrest_date": "1984-10-01",
+        "incarceration_date": null,
+        "release_date": "1986-08",
+        "sentenced_date": "1985-10-18"
+      },
+      "source_ids": [
+        "swords",
+        "chronology"
+      ],
+      "evidence": "1987 chronology pp.38-39 resolves the 1985/1986 conflict. Release month only; exact day unverified. Wrong continuous incarceration start is cleared: neither arrest nor sentencing establishes uninterrupted custody from 1984. Sentence and charges text are preserved. Jean has six actual months; no full-year actual duration inferred for the others. Frank release includes the additional contempt term."
+    },
+    {
+      "key": "leo-schiff",
+      "prisoner_id": "45b1b498-c827-4d69-8033-c0d9ca4867b0",
+      "name": "Leo Schiff",
+      "case_id": "a9c29274-8baf-4613-a996-ebd18eaad1d6",
+      "expected_charges": "Malicious damage to property (Trident II Plowshares action at Electric Boat Quonset Point)",
+      "before": {
+        "arrest_date": "1984-09-30",
+        "incarceration_date": "1984-09-30",
+        "release_date": "1985-09-30",
+        "sentenced_date": null
+      },
+      "after": {
+        "arrest_date": "1984-10-01",
+        "incarceration_date": null,
+        "release_date": "1986-08",
+        "sentenced_date": "1985-10-18"
+      },
+      "source_ids": [
+        "swords",
+        "chronology"
+      ],
+      "evidence": "1987 chronology pp.38-39 resolves the 1985/1986 conflict. Release month only; exact day unverified. Wrong continuous incarceration start is cleared: neither arrest nor sentencing establishes uninterrupted custody from 1984. Sentence and charges text are preserved. Jean has six actual months; no full-year actual duration inferred for the others. Frank release includes the additional contempt term."
+    },
+    {
+      "key": "john-pendleton",
+      "prisoner_id": "8571ae92-a545-41ba-80dc-c1c2bb44b74e",
+      "name": "John Pendleton",
+      "case_id": "111ee8bb-cc41-4ac0-b208-51bbb2a441e9",
+      "expected_charges": "Malicious damage to property (Trident II Plowshares action at Electric Boat Quonset Point)",
+      "before": {
+        "arrest_date": "1984-09-30",
+        "incarceration_date": "1984-09-30",
+        "release_date": "1985-09-30",
+        "sentenced_date": null
+      },
+      "after": {
+        "arrest_date": "1984-10-01",
+        "incarceration_date": null,
+        "release_date": "1986-08",
+        "sentenced_date": "1985-10-18"
+      },
+      "source_ids": [
+        "swords",
+        "chronology"
+      ],
+      "evidence": "1987 chronology pp.38-39 resolves the 1985/1986 conflict. Release month only; exact day unverified. Wrong continuous incarceration start is cleared: neither arrest nor sentencing establishes uninterrupted custody from 1984. Sentence and charges text are preserved. Jean has six actual months; no full-year actual duration inferred for the others. Frank release includes the additional contempt term."
+    },
+    {
+      "key": "steve-kelly-sj",
+      "prisoner_id": "8ad042c0-4965-4633-95e4-8dc1b0828629",
+      "name": "Steve Kelly SJ",
+      "case_id": "7d7d3fe7-f64f-4c22-8524-a5201dd2491e",
+      "expected_charges": "Malicious destruction of property",
+      "before": {
+        "incarceration_date": null
+      },
+      "after": {
+        "incarceration_date": "1999-12-19"
+      },
+      "source_ids": [
+        "chronology"
+      ],
+      "evidence": "Chronology pp.72-73 says the four were arrested and then jailed pending trial following the December 19, 1999 action. August 2001 was a transfer into federal custody, not freedom; no release endpoint inferred."
+    },
+    {
+      "key": "scott-schaeffer-duffy",
+      "prisoner_id": "f56133f0-46af-4ae5-b442-a6559c83f29e",
+      "name": "Scott Schaeffer-Duffy",
+      "case_id": "95e06766-9ba9-4c66-80c7-7d1b726b7b36",
+      "expected_charges": "Trespass at U.S. Army School of the Americas, Fort Benning",
+      "before": {
+        "imprisoned_for_months": null
+      },
+      "after": {
+        "imprisoned_for_months": 3
+      },
+      "source_ids": [
+        "doing"
+      ],
+      "evidence": "Doing Time pp.159,161: Claire explicitly describes Scott serving three months in 2003. Fill actual-month duration; do not assign his custody to Claire or infer an exact start date. Existing arrest/incarceration endpoints remain a separately documented review lead."
+    }
+  ],
+  "additions": [
+    {
+      "key": "sacred-earth-and-space-2000-anne-montgomery",
+      "prisoner_id": "c9676ed2-dc39-4d64-9de5-d72c8dca68ae",
+      "name": "Anne Montgomery",
+      "expected_existing_case_ids": [
+        "423370c8-8647-4a24-a0fe-39ebf4a99e1e"
+      ],
+      "duplicate_terms": [
+        "sacred earth",
+        "peterson",
+        "petersen"
+      ],
+      "fields": {
+        "charges": "Criminal mischief, obstructing government operations and two conspiracy counts — Sacred Earth and Space Plowshares 2000",
+        "sentence": "Held in El Paso County Jail, Colorado, September 9–16, 2000 following the Peterson Air Force Base action. Released and charges dropped. This is the 2000 action, distinct from the 2002 Sacred Earth and Space Plowshares II prosecution."
+      },
+      "dates": {
+        "arrest_date": "2000-09-09",
+        "incarceration_date": "2000-09-09",
+        "release_date": "2000-09-16"
+      },
+      "source_ids": [
+        "chronology"
+      ],
+      "evidence": "Chronology pp.76-77 names all five participants, arrest and jail custody, September 16 release and charges dropped. The existing named 1980, 1998 or 2002 cases are different proceedings. Existing erroneous 1998–2005 intervals are held for separate correction; no dates imported from those rows."
+    },
+    {
+      "key": "sacred-earth-and-space-2000-carol-gilbert",
+      "prisoner_id": "1d9708d8-3f18-4da9-b682-4463d3f59086",
+      "name": "Carol Gilbert",
+      "expected_existing_case_ids": [
+        "0d415634-f924-4f47-a748-5fa1ac3b824b",
+        "80b9dddc-a11e-4129-a747-d1158b8a6813"
+      ],
+      "duplicate_terms": [
+        "sacred earth",
+        "peterson",
+        "petersen"
+      ],
+      "fields": {
+        "charges": "Criminal mischief, obstructing government operations and two conspiracy counts — Sacred Earth and Space Plowshares 2000",
+        "sentence": "Held in El Paso County Jail, Colorado, September 9–16, 2000 following the Peterson Air Force Base action. Released and charges dropped. This is the 2000 action, distinct from the 2002 Sacred Earth and Space Plowshares II prosecution."
+      },
+      "dates": {
+        "arrest_date": "2000-09-09",
+        "incarceration_date": "2000-09-09",
+        "release_date": "2000-09-16"
+      },
+      "source_ids": [
+        "chronology"
+      ],
+      "evidence": "Chronology pp.76-77 names all five participants, arrest and jail custody, September 16 release and charges dropped. The existing named 1980, 1998 or 2002 cases are different proceedings. Existing erroneous 1998–2005 intervals are held for separate correction; no dates imported from those rows."
+    },
+    {
+      "key": "sacred-earth-and-space-2000-ardeth-platte",
+      "prisoner_id": "15e11460-f80b-44ed-b8a4-d9cc5ceb3415",
+      "name": "Ardeth Platte",
+      "expected_existing_case_ids": [
+        "0c52ea5d-69c2-489e-a83c-26e5143fbc6d",
+        "71796e57-d256-47da-b8c4-bb1fda989003"
+      ],
+      "duplicate_terms": [
+        "sacred earth",
+        "peterson",
+        "petersen"
+      ],
+      "fields": {
+        "charges": "Criminal mischief, obstructing government operations and two conspiracy counts — Sacred Earth and Space Plowshares 2000",
+        "sentence": "Held in El Paso County Jail, Colorado, September 9–16, 2000 following the Peterson Air Force Base action. Released and charges dropped. This is the 2000 action, distinct from the 2002 Sacred Earth and Space Plowshares II prosecution."
+      },
+      "dates": {
+        "arrest_date": "2000-09-09",
+        "incarceration_date": "2000-09-09",
+        "release_date": "2000-09-16"
+      },
+      "source_ids": [
+        "chronology"
+      ],
+      "evidence": "Chronology pp.76-77 names all five participants, arrest and jail custody, September 16 release and charges dropped. The existing named 1980, 1998 or 2002 cases are different proceedings. Existing erroneous 1998–2005 intervals are held for separate correction; no dates imported from those rows."
+    },
+    {
+      "key": "sacred-earth-and-space-2000-jackie-hudson",
+      "prisoner_id": "923d068b-200a-45b9-8219-81abcd1d728c",
+      "name": "Jackie Hudson",
+      "expected_existing_case_ids": [
+        "feb30878-8784-47bd-819e-9dbb082c0d8a"
+      ],
+      "duplicate_terms": [
+        "sacred earth",
+        "peterson",
+        "petersen"
+      ],
+      "fields": {
+        "charges": "Criminal mischief, obstructing government operations and two conspiracy counts — Sacred Earth and Space Plowshares 2000",
+        "sentence": "Held in El Paso County Jail, Colorado, September 9–16, 2000 following the Peterson Air Force Base action. Released and charges dropped. This is the 2000 action, distinct from the 2002 Sacred Earth and Space Plowshares II prosecution."
+      },
+      "dates": {
+        "arrest_date": "2000-09-09",
+        "incarceration_date": "2000-09-09",
+        "release_date": "2000-09-16"
+      },
+      "source_ids": [
+        "chronology"
+      ],
+      "evidence": "Chronology pp.76-77 names all five participants, arrest and jail custody, September 16 release and charges dropped. The existing named 1980, 1998 or 2002 cases are different proceedings. Existing erroneous 1998–2005 intervals are held for separate correction; no dates imported from those rows."
+    },
+    {
+      "key": "holy-innocents-pentagon-1983-larry-morlan",
+      "prisoner_id": "5c9bd7ae-9dc2-418e-939d-3269795652c7",
+      "name": "Larry Morlan",
+      "expected_existing_case_ids": [
+        "71275a2b-0b8c-4d2b-a8b2-ee3e00976f81",
+        "b6588d0a-239e-4303-83ea-a67bb6424d82"
+      ],
+      "duplicate_terms": [
+        "holy innocents",
+        "pentagon"
+      ],
+      "fields": {
+        "charges": "Pentagon Holy Innocents protest; exact statutory charge unverified",
+        "sentence": "Six-month sentence imposed February 17, 1984 for the 1983 Pentagon protest. Actual imprisonment in the District of Columbia jail and transfer to Virginia are documented. Exact release date and full time served remain unverified."
+      },
+      "dates": {
+        "arrest_date": "1983",
+        "sentenced_date": "1984-02-17",
+        "incarceration_date": "1984"
+      },
+      "source_ids": [
+        "crossing"
+      ],
+      "evidence": "Crossing the Line, chapter 8, Father Larry Morlan interview. Different action from his 1986 Silo Plowshares and 1998 Gods of Metal cases."
+    }
+  ],
+  "held": "Elizabeth Walters has a generic undated Plowshares row that could overlap the 2000 action. Her row is preserved pending identification. Michael Sprong, Berrigan, Crane, Kelly and other conflated older intervals remain in the full-books review. Trident release days remain unverified; legal-index PDF retrieval returned no readable file."
+}

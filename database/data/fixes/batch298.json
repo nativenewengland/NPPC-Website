@@ -1,0 +1,466 @@
+{
+  "batch": 298,
+  "expected_count": 6,
+  "expected_case_count": 6,
+  "reviewed_at": "2026-09-10",
+  "scope": "Catholic Interracial Council research led to six missing Fort Deposit/Hayneville detainees. Local accumulation toward the next 100-person PR.",
+  "sources": {
+    "sncc1965": {
+      "label": "SNCC, August 20-21, 1965 incident reports, especially detailed report on PDF page 5 (visually verified). Names six people released after the August 14 arrests. Early reports contain corrected shooting details; no birth year is inferred from reported ages.",
+      "url": "https://www.crmvet.org/docs/650820_sncc_daniels.pdf"
+    },
+    "morrisroe": {
+      "label": "Richard Morrisroe, autobiographical Civil Rights Movement Veterans profile (2017): CIC membership, August 14 arrest and almost a week in jail.",
+      "url": "https://www.crmvet.org/vet/morrisro.htm"
+    },
+    "daniels_archive": {
+      "label": "Archives of the Episcopal Church: Jonathan Daniels, ESCRU member; explicitly six days in Hayneville jail.",
+      "url": "https://exhibits.episcopalarchives.org/s/church-awakens/page/jonathan-daniels"
+    },
+    "daniels_vitals": {
+      "label": "Encyclopedia of Alabama, Jonathan Myrick Daniels, by Rebecca Woodham: March 20, 1939 birth and August 20, 1965 death after release.",
+      "url": "https://encyclopediaofalabama.org/article/jonathan-myrick-daniels/"
+    },
+    "ruby": {
+      "label": "SNCC Digital Gateway, Ruby Sales: July 8, 1948 birthday and SNCC organizing work; incorporates her Library of Congress oral history.",
+      "url": "https://snccdigital.org/people/ruby-sales/"
+    },
+    "court1965": {
+      "label": "McMeans v. Mayor's Court, 247 F.Supp.606, September 30, 1965. Primary finding that the demonstration was peaceful and the permit ordinance unconstitutional as applied; dismissal. Full petitioner roster not printed, so no individual disposition inferred for these six.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/247/606/1956495/"
+    },
+    "nps": {
+      "label": "National Park Service, Jonathan Daniels Murder Site: August 20 release followed by shooting; death occurred after custody.",
+      "url": "https://www.nps.gov/places/jonathan-daniels-murder-site-cash-s-store.htm"
+    },
+    "map": {
+      "label": "Hayneville municipality coordinates, 32.18222,-86.57861. Approximate town marker only, not exact historical jail footprint.",
+      "url": "https://en.wikipedia.org/wiki/Hayneville,_Alabama"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "richard-morrisroe",
+      "match_names": [
+        "Richard Morrisroe",
+        "Richard F. Morrisroe",
+        "Dick Morrisroe",
+        "Richard Morrisrew",
+        "Richard Morriscoe"
+      ],
+      "prisoner": {
+        "name": "Richard Morrisroe",
+        "first_name": "Richard",
+        "last_name": "Morrisroe",
+        "description": "Richard Morrisroe was a Chicago priest and Catholic Interracial Council member. He survived a shooting shortly after his six-day Hayneville detention.",
+        "affiliation": [
+          "Catholic Interracial Council",
+          "Student Nonviolent Coordinating Committee"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Male",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "morrisroe",
+        "nps",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965",
+            "morrisroe",
+            "nps"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    },
+    {
+      "key": "jonathan-myrick-daniels",
+      "match_names": [
+        "Jonathan Myrick Daniels",
+        "Jonathan Daniels",
+        "Jonathan M. Daniels",
+        "Jon Daniels",
+        "John Daniels"
+      ],
+      "prisoner": {
+        "name": "Jonathan Myrick Daniels",
+        "first_name": "Jonathan",
+        "last_name": "Daniels",
+        "description": "Jonathan Myrick Daniels was an Episcopal seminarian and civil rights worker. After six days in jail, he was killed protecting Ruby Sales.",
+        "affiliation": [
+          "Episcopal Society for Cultural and Racial Unity"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Male",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ],
+        "middle_name": "Myrick"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1939,
+          "month": 3,
+          "day": 20
+        },
+        "death_date": {
+          "year": 1965,
+          "month": 8,
+          "day": 20
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "daniels_archive",
+        "daniels_vitals",
+        "nps",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965",
+            "daniels_archive",
+            "daniels_vitals",
+            "nps"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    },
+    {
+      "key": "ruby-sales",
+      "match_names": [
+        "Ruby Sales",
+        "Ruby Nell Sales"
+      ],
+      "prisoner": {
+        "name": "Ruby Sales",
+        "first_name": "Ruby",
+        "last_name": "Sales",
+        "description": "Ruby Sales organized with SNCC in Alabama. Her 1965 imprisonment preceded the attack in which Jonathan Daniels saved her life.",
+        "affiliation": [
+          "Student Nonviolent Coordinating Committee"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1948,
+          "month": 7,
+          "day": 8
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "ruby",
+        "nps",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965",
+            "ruby",
+            "nps"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    },
+    {
+      "key": "joyce-bailey",
+      "match_names": [
+        "Joyce Bailey"
+      ],
+      "prisoner": {
+        "name": "Joyce Bailey",
+        "first_name": "Joyce",
+        "last_name": "Bailey",
+        "description": "Joyce Bailey was a Fort Deposit civil rights protester detained at Hayneville. She survived the attack following the group's release.",
+        "affiliation": [
+          "Civil Rights Movement"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    },
+    {
+      "key": "gloria-larry",
+      "match_names": [
+        "Gloria Larry"
+      ],
+      "prisoner": {
+        "name": "Gloria Larry",
+        "first_name": "Gloria",
+        "last_name": "Larry",
+        "description": "Gloria Larry came from California and joined the Fort Deposit protests. She was among the six named released detainees in SNCC's report.",
+        "affiliation": [
+          "Civil Rights Movement"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Female",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    },
+    {
+      "key": "willie-vaughn",
+      "match_names": [
+        "Willie Vaughn",
+        "Willie Vaugh"
+      ],
+      "prisoner": {
+        "name": "Willie Vaughn",
+        "first_name": "Willie",
+        "last_name": "Vaughn",
+        "description": "Willie Vaughn participated in the Fort Deposit protests and was jailed at Hayneville. He escaped the shooting after his release.",
+        "affiliation": [
+          "Civil Rights Movement"
+        ],
+        "state": "Alabama",
+        "era": "1960s",
+        "lat": 32.18222,
+        "lng": -86.57861,
+        "in_custody": false,
+        "released": true,
+        "gender": "Male",
+        "cases": [
+          {
+            "charges": "Disturbing the peace and parading without a permit (contemporary SNCC report)",
+            "sentence": "Pretrial detention at Lowndes County Jail, Hayneville; released August 20, 1965. No individual sentencing judgment verified."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "incarceration_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 14
+          },
+          "release_date": {
+            "year": 1965,
+            "month": 8,
+            "day": 20
+          }
+        }
+      ],
+      "source_ids": [
+        "sncc1965",
+        "court1965",
+        "map"
+      ],
+      "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965.",
+      "case_research": [
+        {
+          "source_ids": [
+            "sncc1965"
+          ],
+          "custody_evidence": "Named in the six-person release group; custody from August 14 to August 20, 1965."
+        }
+      ],
+      "status_research": "No conviction inferred from arrest. No September court date substituted for release. Death after release is not death in custody. No support website or portrait verified in this local batch."
+    }
+  ],
+  "research_notes": "No matching historical Lowndes/Hayneville institution found in live inventory; municipal map markers only. W. J. Vaughn is an existing 1918 Espionage Act defendant, not this 1965 activist. Formal CIC membership only claimed for Morrisroe. Morrisroe 1938 birth lead remains unverified; no age arithmetic. Portrait leads remain open."
+}

@@ -1,0 +1,120 @@
+{
+  "policy_updated": "2026-09-10",
+  "target_new_people_per_pr": 100,
+  "accumulation_branch": "codex/affiliation-prisoners-batch-297",
+  "first_unpublished_batch": 297,
+  "new_pr_opened": true,
+  "validated_new_people": 100,
+  "remaining_to_pr_threshold": 0,
+  "batches": [
+    {
+      "batch": 297,
+      "status": "submitted_pr_2489",
+      "new_people": 8,
+      "cases": 8,
+      "photos": 0,
+      "payload": "database/data/fixes/batch297.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch297.md"
+    },
+    {
+      "batch": 298,
+      "status": "submitted_pr_2489",
+      "new_people": 6,
+      "cases": 6,
+      "photos": 0,
+      "payload": "database/data/fixes/batch298.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch298.md"
+    },
+    {
+      "batch": 299,
+      "status": "submitted_pr_2489",
+      "new_people": 3,
+      "cases": 3,
+      "photos": 0,
+      "payload": "database/data/fixes/batch299.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch299.md"
+    },
+    {
+      "batch": 300,
+      "status": "submitted_pr_2489",
+      "new_people": 18,
+      "cases": 20,
+      "photos": 0,
+      "payload": "database/data/fixes/batch300.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch300.md"
+    },
+    {
+      "batch": 301,
+      "status": "submitted_pr_2489",
+      "new_people": 15,
+      "cases": 19,
+      "case_updates": 0,
+      "photos": 0,
+      "payload": "database/data/fixes/batch301.json",
+      "audit": "database/data/audits/full-books-batches301-302-2026-09-10.md"
+    },
+    {
+      "batch": 302,
+      "status": "submitted_pr_2489",
+      "new_people": 0,
+      "cases": 5,
+      "case_updates": 7,
+      "photos": 0,
+      "payload": "database/data/fixes/batch302.json",
+      "audit": "database/data/audits/full-books-batches301-302-2026-09-10.md"
+    },
+    {
+      "batch": 303,
+      "status": "submitted_pr_2489",
+      "new_people": 2,
+      "cases": 2,
+      "photos": 0,
+      "payload": "database/data/fixes/batch303.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch303.md"
+    },
+    {
+      "batch": 304,
+      "status": "submitted_pr_2489",
+      "new_people": 25,
+      "cases": 26,
+      "photos": 0,
+      "payload": "database/data/fixes/batch304.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch304.md"
+    },
+    {
+      "batch": 305,
+      "status": "submitted_pr_2489",
+      "new_people": 17,
+      "cases": 17,
+      "photos": 0,
+      "payload": "database/data/fixes/batch305.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch305.md"
+    },
+    {
+      "batch": 306,
+      "status": "submitted_pr_2489",
+      "new_people": 6,
+      "cases": 6,
+      "photos": 0,
+      "payload": "database/data/fixes/batch306.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch306.md"
+    }
+  ],
+  "excluded_already_submitted_batches": [
+    294,
+    295,
+    296
+  ],
+  "next_affiliation": "Coxey's Army; retain CORE and CIO held leads in batch305/306 audits",
+  "notes": "Batches297-306 submitted together in PR2489: 100 new people, 112 new cases and seven existing-case updates. Not deployed. Begin the next accumulation at307; do not recount these people. Continue with Coxey Army and retained CORE/CIO/book leads. Preserve unpublished work when creating the next branch.",
+  "last_research_update": "2026-09-11",
+  "final_identity_check": {
+    "reviewed_at": "2026-09-11",
+    "inventory_rows": 8853,
+    "pending_new_people": 100,
+    "cross_batch_conflicts": 0,
+    "live_identity_matches": 0
+  },
+  "pull_request_url": "https://github.com/pucakisses-star/NPPC-Website/pull/2489",
+  "next_accumulation_start_batch": 307
+}
