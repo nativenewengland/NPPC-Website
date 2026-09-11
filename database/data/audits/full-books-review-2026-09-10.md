@@ -73,3 +73,7 @@ The books themselves contain discrepancies. The 1987 chronology dates Trident Ne
 The [photo leads CSV](full-books-photo-leads-2026-09-10.csv) records **12 caption-identified images** of missing candidates, with EPUB image references and printed credits. These include Wollheim, Woolford, Mickey Allen, Kim Wahl, Hall, Miles, Nestel, McCoy, Karlin, Murray, Harris and Fewless. Some are family/group scenes and need visual identification and exact rectangular crops. No image has been extracted for publication or attached to a record in this review; captions alone do not establish reuse terms or crop boundaries.
 
 Next work is to verify the unresolved dates and aliases, prepare source-backed idempotent additions, and reconcile conflicting existing cases separately. Recheck every import against current names/cases and pending fixes; fill only genuinely blank fields and preserve all biographies. Research findings are **not** counted as validated additions toward the PR threshold: batches 297-300 still contain **35 prepared people**. No new PR until **100 new people** are validated in total.
+
+## Implementation follow-up
+
+The verified findings are now prepared in local batches **301–302**: 15 new people with 19 cases, seven existing-case updates including the five Trident II date corrections, and five new cases on existing profiles. Not deployed. See [the implementation and conflict-resolution report](full-books-batches301-302-2026-09-10.md). Other held findings and photo leads remain open.
