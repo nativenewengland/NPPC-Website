@@ -1,0 +1,203 @@
+{
+  "batch": 335,
+  "expected_count": 2,
+  "expected_case_count": 2,
+  "reviewed_at": "2026-09-11",
+  "scope": "Two missing Philippine anticolonial leaders imprisoned under US colonial authority; death-in-custody endpoints, two historical portraits, one birth date and two death dates.",
+  "sources": {
+    "isio-marker": {
+      "label": "National Historical Institute, Dionisio Magbuelas marker, November 6, 2009: surrender, bandolerismo sentence, commutation and death in Bilibid.",
+      "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/dionisio-magbuelas-papa-isio/"
+    },
+    "isio-photo": {
+      "label": "Harry H. Bandholtz Papers, 1907 Bacolod prison portrait, Commons extracted image by Kguirnela; linked to University of Michigan Bentley Historical Library HS4544.",
+      "url": "https://commons.wikimedia.org/wiki/File:Papa_Isio.jpg"
+    },
+    "isio-aliases": {
+      "label": "Papa Isio historical overview: alternative names Dionisio Seguela and Dionisio Papa y Barlucia, used as duplicate-search aliases. Unsupported birthday is not used.",
+      "url": "https://en.wikipedia.org/wiki/Papa_Isio"
+    },
+    "salvador-marker": {
+      "label": "NHCP, Felipe Salvador historical marker, May 26, 2021: birth, movement, capture and execution. February 27, 1912 is the Supreme Court affirmation, not the original sentencing day.",
+      "url": "https://philhistoricsites.nhcp.gov.ph/registry_database/felipe-salvador/"
+    },
+    "salvador-court": {
+      "label": "United States v. Felipe Salvador (alias Apong Ipi), G.R. L-6705, February 27, 1912. Primary judgment reviewed: July 24, 1910 recapture, bandolerismo conviction and death sentence affirmed en consulta.",
+      "url": "https://lawphil.net/judjuris/juri1912/feb1912/gr_l-6705_1912.html"
+    },
+    "salvador-photo": {
+      "label": "Commons, Felipe Apo Ipe Salvador portrait, anonymous photographer; source credited to Alex D. R. Castro reproduction from El Renacimiento Filipino. Commons exact 1894 capture date is not independently established.",
+      "url": "https://commons.wikimedia.org/wiki/File:Felipe_%22Apo_Ipe%22_Salvador.png"
+    },
+    "salvador-collector": {
+      "label": "Alex D. R. Castro, Views from the Pampang, July 5, 2011. Identifies the portrait and original publication El Renacimiento Filipino; no exact issue or photographer supplied.",
+      "url": "https://viewsfromthepampang.blogspot.com/2011/07/257-felipe-salvador-rebel-messiah-comes.html"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "dionisio-magbuelas",
+      "match_names": [
+        "Dionisio Magbuelas",
+        "Papa Isio",
+        "Dionisio Seguela",
+        "Dionisio Papa y Barlucia"
+      ],
+      "prisoner": {
+        "name": "Dionisio Magbuelas",
+        "first_name": "Dionisio",
+        "last_name": "Magbuelas",
+        "description": "Dionisio Magbuelas, known as Papa Isio, led religious and anticolonial resistance in Negros against Spanish and later US rule. After surrendering in 1907, he was imprisoned under the American colonial government and died in Bilibid Prison in Manila in 1911.",
+        "affiliation": [
+          "Babaylanes",
+          "Philippine independence movement"
+        ],
+        "state": "Philippines",
+        "era": "1900s",
+        "in_custody": false,
+        "released": false,
+        "cases": [
+          {
+            "charges": "Bandolerismo (brigandage) under US colonial rule",
+            "sentence": "After surrender on August 6, 1907, sentenced to death; punishment commuted to life imprisonment in 1907. Died in Bilibid in 1911. The exact death day and institutional transfer dates remain unverified."
+          }
+        ],
+        "aka": "Papa Isio; Dionisio Seguela; Dionisio Papa y Barlucia"
+      },
+      "dates": {
+        "death_date": {
+          "year": 1911
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1907,
+            "month": 8,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1907,
+            "month": 8,
+            "day": 6
+          },
+          "sentenced_date": {
+            "year": 1907
+          },
+          "death_in_custody_date": {
+            "year": 1911
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "isio-marker",
+            "isio-photo"
+          ],
+          "custody_evidence": "Official historical marker and identified 1907 prison photograph establish confinement followed by death in prison in 1911."
+        }
+      ],
+      "source_ids": [
+        "isio-marker",
+        "isio-photo",
+        "isio-aliases"
+      ],
+      "custody_evidence": "Official historical marker and identified 1907 prison photograph establish confinement followed by death in prison in 1911.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Death year only; no exact served total inferred. Online birthdates conflict and are not supported by the official marker, so birthday remains empty. Alternative surnames are identity-search aliases from historical summaries, not a verified civil-registration name. Released remains false because he died in custody. US colonial Philippines imprisonment qualifies; no claim of mainland US custody or formal Katipunan membership.",
+      "photo": {
+        "source_file": "database/data/photos/dionisio-magbuelas-bandholtz-b335.jpg",
+        "storage_path": "prisoners/dionisio-magbuelas-bandholtz-b335.jpg",
+        "sha256": "af9c63be3fb5e81a2db6e7d34eb992c823068d972b9bcbb4cc48d1a2d41c3b37",
+        "source_id": "isio-photo",
+        "identity_evidence": "Individually identified archival portrait; Commons existing extraction visually reviewed."
+      }
+    },
+    {
+      "key": "felipe-salvador",
+      "match_names": [
+        "Felipe Salvador",
+        "Apo Ipe",
+        "Apong Ipi",
+        "Apung Ipe Salvador"
+      ],
+      "prisoner": {
+        "name": "Felipe Salvador",
+        "first_name": "Felipe",
+        "last_name": "Salvador",
+        "description": "Felipe Salvador, known as Apo Ipe, led Santa Iglesia, a religious and independence movement in Central Luzon. His resistance to US colonial rule led to capture and a bandolerismo conviction. The colonial court held him responsible for armed raids and killings; he was executed at Bilibid in 1912.",
+        "affiliation": [
+          "Santa Iglesia",
+          "Philippine independence movement"
+        ],
+        "state": "Philippines",
+        "era": "1910s",
+        "in_custody": false,
+        "released": false,
+        "cases": [
+          {
+            "charges": "Bandolerismo (brigandage), including responsibility for killings during armed raids",
+            "sentence": "Captured July 24, 1910. The Supreme Court affirmed his death sentence on February 27, 1912; this was judicial review, not the original sentencing date. Executed by hanging at Bilibid, Manila, April 15, 1912. Earlier sedition imprisonment and escape are separate and are not merged into this period."
+          }
+        ],
+        "aka": "Apo Ipe; Apong Ipi; Apung Ipe Salvador"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1870,
+          "month": 5,
+          "day": 26
+        },
+        "death_date": {
+          "year": 1912,
+          "month": 4,
+          "day": 15
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1910,
+            "month": 7,
+            "day": 24
+          },
+          "incarceration_date": {
+            "year": 1910,
+            "month": 7,
+            "day": 24
+          },
+          "death_in_custody_date": {
+            "year": 1912,
+            "month": 4,
+            "day": 15
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "salvador-marker",
+            "salvador-court"
+          ],
+          "custody_evidence": "The primary judgment dates recapture and reviews an already imposed death sentence; the official marker identifies subsequent execution at Bilibid."
+        }
+      ],
+      "source_ids": [
+        "salvador-marker",
+        "salvador-court",
+        "salvador-photo",
+        "salvador-collector"
+      ],
+      "custody_evidence": "The primary judgment dates recapture and reviews an already imposed death sentence; the official marker identifies subsequent execution at Bilibid.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Earlier imprisonment and escape in 1902 or 1903 have unresolved individual custody endpoints; retained as a research lead, not an invented continuous 1900-1912 case. No exact trial sentencing day entered. Death is not a release to freedom. Katipunan membership is disputed between accounts and is not assigned. Exact portrait date on Commons is unsupported by its cited reproduction and is not adopted.",
+      "photo": {
+        "source_file": "database/data/photos/felipe-salvador-renacimiento-b335.png",
+        "storage_path": "prisoners/felipe-salvador-renacimiento-b335.png",
+        "sha256": "78df9a86997b70ad5e7b6e3947940dbc0854e382817f9cf5808ac66ec86b4e01",
+        "source_id": "salvador-photo",
+        "identity_evidence": "Captioned reproduction identifies Felipe Apo Ipe Salvador. Exact rectangular crop removes caption strip; retained pixels verified unchanged."
+      }
+    }
+  ]
+}

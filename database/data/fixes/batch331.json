@@ -1,0 +1,197 @@
+{
+  "batch": 331,
+  "expected_count": 2,
+  "expected_case_count": 3,
+  "reviewed_at": "2026-09-11",
+  "scope": "Two missing Irish republican profiles with three US custody episodes; distinguish bail, transfer and unresolved dates.",
+  "sources": {
+    "orourke1982": {
+      "label": "O'Rourke v. Warden, 539 F.Supp.1131 (SDNY May24,1982), full judicial opinion: prolonged civil immigration detention, October30,1979 arrest in sworn account, visa-overstay determination and denied bail.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/539/1131/2151540/"
+    },
+    "orourke1988": {
+      "label": "O'Rourke v. US Department of Justice, 684 F.Supp.716 (DDC April25,1988), full judicial opinion: nearly four years already detained in July1983 and subsequent June1984 deportation.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/684/716/1896713/"
+    },
+    "senate1984": {
+      "label": "Congressional Record, February28,1984, printed pp3594-3595: Senator Specter correspondence independently gives October30,1979 Philadelphia arrest and continued New York detention.",
+      "url": "https://www.congress.gov/98/crecb/1984/02/28/GPO-CRECB-1984-pt3-4-2.pdf"
+    },
+    "orourke-transfer": {
+      "label": "UPI, June20,1984, Dublin arrival report: O'Rourke deported from US custody and arrested in Ireland. Distinguish transfer from freedom.",
+      "url": "https://www.upi.com/Archives/1984/06/20/An-IRA-bomb-expert-who-was-deported-from-the/3817456552000/"
+    },
+    "durkan": {
+      "label": "NYU Frank Durkan Papers, SeriesIV Legal Cases: archival index identifies Michael O'Rourke as Patrick Mannion. Finding aid reviewed; underlying legal files not inspected.",
+      "url": "https://findingaids.library.nyu.edu/tamwag/aia_008/contents/aspace_ref12/"
+    },
+    "mcgeough-court": {
+      "label": "Queen v. Terence Gerard McGeough, [2013] NICA22, May7,2013, paragraphs12-13: US weapons plea, May28,1992 extradition and March1996 return. Two-year sentence wording conflicts with contemporary three-year accounts.",
+      "url": "https://www.judiciaryni.uk/files/judiciaryni/decisions/Queen%20v%20Terence%20Gerard%20McGeough.pdf"
+    },
+    "nai1996": {
+      "label": "Irish Department of Foreign Affairs, September3,1996, NAI/DFA/2021/50/303, scan pp8-9: sentence/transfer chronology; scheduled February23 release and March deportation are not conflated. Birth1959 conflicts with other accounts.",
+      "url": "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf"
+    },
+    "wilson": {
+      "label": "Andrew J.Wilson, The Congressional Friends of Ireland and the Anglo-Irish Agreement,1981-1985, footnote15: June1993 sentence and actual spring1994 prison entry, separating the bail interval.",
+      "url": "https://www.cain.ulst.ac.uk/events/aia/wilson95.htm"
+    },
+    "mcgeough-interview": {
+      "label": "An Phoblacht, A century of struggle, December16,1999: interview describing McGeough serving the US term and prison transfers.",
+      "url": "https://www.anphoblacht.com/contents/5708"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "michael-o-rourke",
+      "match_names": [
+        "Michael O'Rourke",
+        "Michael ORourke",
+        "Patrick Mannion"
+      ],
+      "prisoner": {
+        "name": "Michael O'Rourke",
+        "first_name": "Michael",
+        "last_name": "O'Rourke",
+        "description": "Michael O'Rourke was an Irish republican who sought to remain in the United States after escaping from imprisonment in Ireland. US authorities held him for years in civil immigration detention while he contested deportation. In June 1984 he was returned to Ireland and taken into Irish custody.",
+        "affiliation": [
+          "Irish Republican Army"
+        ],
+        "state": "New York",
+        "era": "1970s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Civil immigration detention pending deportation for overstaying a visa; no US criminal conviction in this proceeding",
+            "sentence": "Held without bail from 1979 until deportation in June 1984. His IRA history and escape from Irish prison figured in the bail litigation. The endpoint records departure from US detention into Irish custody, not release to freedom. The Irish criminal sentence is not a US sentence."
+          }
+        ],
+        "aka": "Michael ORourke; Patrick Mannion"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1979,
+            "month": 10,
+            "day": 30
+          },
+          "incarceration_date": {
+            "year": 1979,
+            "month": 10,
+            "day": 30
+          },
+          "release_date": {
+            "year": 1984,
+            "month": 6
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "orourke1982",
+            "orourke1988",
+            "senate1984",
+            "orourke-transfer",
+            "durkan"
+          ],
+          "custody_evidence": "The habeas opinion records actual multi-year confinement, and the contemporary arrival report confirms transfer from US to Irish custody."
+        }
+      ],
+      "source_ids": [
+        "orourke1982",
+        "orourke1988",
+        "senate1984",
+        "orourke-transfer",
+        "durkan"
+      ],
+      "custody_evidence": "The habeas opinion records actual multi-year confinement, and the contemporary arrival report confirms transfer from US to Irish custody.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Arrest day is supported by the sworn account in the 1982 opinion and independent Senate correspondence; the opinion also loosely describes INS arrest as early November. No unsupported exact deportation flight/handover day is entered. Released means this historical US custody period ended; the narrative expressly records continued Irish imprisonment. No US criminal sentencing date or convicted flag is invented. Patrick Mannion alias checked across existing and pending identities. DOB/DOD and an individually verified reusable portrait remain unresolved."
+    },
+    {
+      "key": "gerry-mcgeough",
+      "match_names": [
+        "Gerry McGeough",
+        "Terence Gerard McGeough",
+        "Gerard McGeough",
+        "Terence McGeough"
+      ],
+      "prisoner": {
+        "name": "Gerry McGeough",
+        "first_name": "Gerry",
+        "last_name": "McGeough",
+        "description": "Gerry McGeough is an Irish republican who was extradited from Germany to the United States to face weapons charges connected to the IRA. He pleaded guilty and served a US prison term before returning to Ireland in 1996. His German and later Northern Irish imprisonment are separate from this US case.",
+        "affiliation": [
+          "Irish Republican Army"
+        ],
+        "state": "Pennsylvania",
+        "era": "1990s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Unlicensed interstate movement of weapons in an IRA arms-procurement prosecution",
+            "sentence": "A three-year term is reported in contemporary accounts; a later appellate history describes a two-year sentence. Research places commencement of the prison term in spring 1994 and return to Ireland in 1996. Earlier bail time is excluded. The exact sentencing day, release day and actual total served remain unresolved."
+          },
+          {
+            "charges": "US detention on extradition for the pending IRA weapons prosecution",
+            "sentence": "After extradition on May 28, 1992, McGeough was held at the Manhattan Correction Centre before obtaining bail. His later interview describes ten days there. This pretrial episode is separate from his later prison term and excludes German custody and the interval on bail."
+          }
+        ],
+        "aka": "Terence Gerard McGeough; Gerard McGeough; Terence McGeough"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1994,
+            "month": 4
+          },
+          "release_date": {
+            "year": 1996
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 1992,
+            "month": 5,
+            "day": 28
+          },
+          "release_date": {
+            "year": 1992
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "mcgeough-court",
+            "nai1996",
+            "wilson",
+            "mcgeough-interview"
+          ],
+          "custody_evidence": "His prison interview and judicial history establish actual US imprisonment. The historical account distinguishes spring 1994 prison entry from the 1992 extradition and intervening bail."
+        },
+        {
+          "source_ids": [
+            "mcgeough-court",
+            "mcgeough-interview"
+          ],
+          "custody_evidence": "The court supplies the extradition date; his interview describes US arrival, Manhattan detention for ten days and subsequent bail."
+        }
+      ],
+      "source_ids": [
+        "mcgeough-court",
+        "nai1996",
+        "wilson",
+        "mcgeough-interview"
+      ],
+      "custody_evidence": "His prison interview and judicial history establish actual US imprisonment. The historical account distinguishes spring 1994 prison entry from the 1992 extradition and intervening bail. The court supplies the extradition date; his interview describes US arrival, Manhattan detention for ten days and subsequent bail.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Two separate US episodes are recorded. The first ends at year precision: ten days in Manhattan does not establish an exact release day across extradition and transit. His interview places him in Schuylkill on Easter Monday 1994; April precision is supported without asserting a specific entry day. Wilson gives June 1993 sentencing while the diplomatic summary labels April 1994 as sentencing, so the structured sentencing date is withheld. The February 23,1996 date is an adjusted scheduled release, while the later court history associates release with March return: retain year precision. No 24/36-month actual-duration field is inferred from sentence or credited German custody. Birth 1958 versus 1959 unresolved; exact September 2 date not independently verified. Photo identification/reuse not established. Pennsylvania is the documented location at commencement of the later prison term. Subsequent prison transfers are not separate sentences; no guessed institution relation or coordinates."
+    }
+  ]
+}

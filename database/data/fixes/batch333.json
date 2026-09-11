@@ -1,0 +1,395 @@
+{
+  "batch": 333,
+  "expected_count": 5,
+  "expected_case_count": 6,
+  "reviewed_at": "2026-09-11",
+  "scope": "Five missing Irish republican-related people: grand-jury resistance and US immigration custody. One original archival portrait, one birthdate and one death date.",
+  "sources": {
+    "olive1980": {
+      "label": "Gerry Foley, Hundreds protest jailing of Irish activist, The Militant, May 23, 1980, p.22. Interview with daughter at May 10 demonstration; March imprisonment and release after May 8 medical crisis.",
+      "url": "https://www.themilitant.com/1980/4419/MIL4419.pdf"
+    },
+    "wives1985": {
+      "label": "Dympna G., From the Womens Side: The Prisoners Wives Speak Out, The Irish People, June 1, 1985, p.16. Original scan visually read: Olive portrait, ten-week contempt term, Barney prison entry September 21, 1984 and Oxford imprisonment.",
+      "url": "https://republicanarchive.com/wp-content/uploads/2025/12/the-irish-people-01-june-1985.pdf"
+    },
+    "barney-obit": {
+      "label": "Frank Durkan, Bernard (Barney) J. McKeon obituary, An Phoblacht, July 16, 1998. Contempt custody, March 17, 1980 release, later term and June 30, 1998 death.",
+      "url": "https://www.anphoblacht.com/contents/3738"
+    },
+    "mckeon-court": {
+      "label": "United States v. Bernard McKeon, 738 F.2d 26 (Second Circuit, 1984). Conspiracy conviction affirmed after earlier mistrials; statutory count and procedural history.",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/F2/738/26/135199/"
+    },
+    "ellis-court": {
+      "label": "Ellis v. Ferro, 549 F.Supp.428, October 27, 1982. February 6 custody, indictment and continuing detention despite bail being set.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/549/428/1770375/"
+    },
+    "ellis-letter": {
+      "label": "Desmond Ellis letter enclosed in January 3, 1990 official correspondence, NAI/TSCH/2020/17/11, scan p.3. First-person February 6, 1982 arrest and March 3, 1983 deportation/Irish re-arrest.",
+      "url": "https://cain.ulster.ac.uk/nai/1990/nai_TSCH-2020-17-11_1990-01-03.pdf"
+    },
+    "ellis-return": {
+      "label": "UPI, March 29, 1983, Three St Catharines residents sentenced; Ellis pleaded guilty to illegal entry and was deported. Its February 16 collective arrest wording conflicts with the court date and is not used.",
+      "url": "https://www.upi.com/amp/Archives/1983/03/29/Three-St-Catharines-Ont-residents-have-been-sentenced-to/9487417762000/"
+    },
+    "irish1982": {
+      "label": "Irish official briefing, Current and Recent US Court Cases, NAI/TSCH/2012/90/639, 1982, scan p.2. January 21 arrest and January 29 deportation of Carron/Morrison; their separate criminal proceedings remained pending.",
+      "url": "https://cain.ulster.ac.uk/nai/1982/nai_TSCH-2012-90-639_1982-nd_f.pdf"
+    },
+    "carron-upi": {
+      "label": "UPI, January 23, 1982, IRA supporters held on immigration charges. Named defendants remained jailed after January 21 arrests.",
+      "url": "https://www.upi.com/Archives/1982/01/23/IRA-supporters-held-on-immigration-charges/4266380610000/"
+    },
+    "danny-bio": {
+      "label": "Danny Morrison personal biography. January 9, 1953 birth, Sinn Fein role, Buffalo custody and subsequent probation; no foreign imprisonment counted.",
+      "url": "https://www.dannymorrison.com/about/"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "olive-mckeon",
+      "match_names": [
+        "Olive McKeon",
+        "Olive McCabe"
+      ],
+      "prisoner": {
+        "name": "Olive McKeon",
+        "first_name": "Olive",
+        "last_name": "McKeon",
+        "description": "Olive McKeon was an Irish-American activist jailed for refusing a federal grand jury demand during an investigation of arms supplies to the IRA. She also campaigned for her husband Bernard during his later imprisonment.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Contempt of court for refusing grand-jury demands for handwriting samples and fingerprints",
+            "sentence": "Imprisoned in March 1980. Released in May after a medical crisis; a later interview describes ten weeks served. No exact release day is inferred from the May 8 crisis or the ten-week duration."
+          }
+        ],
+        "aka": "Olive McCabe",
+        "gender": "Female"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1980,
+            "month": 3
+          },
+          "release_date": {
+            "year": 1980,
+            "month": 5
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "olive1980",
+            "wives1985"
+          ],
+          "custody_evidence": "Contemporary interview and later first-person account establish actual multi-week confinement."
+        }
+      ],
+      "source_ids": [
+        "olive1980",
+        "wives1985",
+        "barney-obit"
+      ],
+      "custody_evidence": "Contemporary interview and later first-person account establish actual multi-week confinement.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Maiden name from the family obituary. No exact birthday or death date established; do not use swimming champion Olive McKean or unrelated namesakes. Grand-jury contempt is distinct from her husbands subsequent conspiracy conviction.",
+      "photo": {
+        "source_file": "database/data/photos/olive-mckeon-irish-people-1985-b333.png",
+        "storage_path": "prisoners/olive-mckeon-irish-people-1985-b333.png",
+        "sha256": "7472f2497df1da8ec1f7cf965f5da202c67621f8763d2cde84b4c78e341c1822",
+        "source_id": "wives1985",
+        "identity_evidence": "Portrait individually captioned Olive McKeon on page16. Exact rectangular crop from embedded scan image; original retained pixels verified."
+      }
+    },
+    {
+      "key": "bernard-j-mckeon",
+      "match_names": [
+        "Bernard J. McKeon",
+        "Bernard McKeon",
+        "Barney McKeon",
+        "Barney J. McKeon"
+      ],
+      "prisoner": {
+        "name": "Bernard J. McKeon",
+        "first_name": "Bernard",
+        "last_name": "McKeon",
+        "description": "Bernard McKeon, known as Barney, was a Leitrim-born building contractor and Irish-American activist. He was jailed for resisting a grand jury and later served a separate federal term following an arms-export conspiracy conviction.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Civil contempt for refusing to cooperate with a federal grand jury investigating arms supplies to Ireland",
+            "sentence": "Jailed after a November 1979 subpoena; released March 17, 1980 when the grand jury expired. The obituary describes five months, but no precise entry day or documented-month total is inferred from that rounded recollection."
+          },
+          {
+            "charges": "Conspiracy to export firearms, 18 USC 371",
+            "sentence": "After two mistrials, convicted on the third trial in 1983. Began a three-year prison sentence September 21, 1984. A June 1985 interview places him in federal prison at Oxford, Wisconsin; the obituary also describes Danbury and confirms completed imprisonment. Exact release day remains unresolved."
+          }
+        ],
+        "middle_name": "J.",
+        "aka": "Bernard McKeon; Barney McKeon; Barney J. McKeon"
+      },
+      "dates": {
+        "death_date": {
+          "year": 1998,
+          "month": 6,
+          "day": 30
+        }
+      },
+      "case_dates": [
+        {
+          "incarceration_date": {
+            "year": 1979,
+            "month": 11
+          },
+          "release_date": {
+            "year": 1980,
+            "month": 3,
+            "day": 17
+          }
+        },
+        {
+          "incarceration_date": {
+            "year": 1984,
+            "month": 9,
+            "day": 21
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "barney-obit"
+          ],
+          "custody_evidence": "Named contemporary attorney and family friend records the completed contempt confinement."
+        },
+        {
+          "source_ids": [
+            "mckeon-court",
+            "wives1985",
+            "barney-obit"
+          ],
+          "custody_evidence": "His wife describes actual prison entry and continuing visits; the later obituary confirms the term ended."
+        }
+      ],
+      "source_ids": [
+        "barney-obit",
+        "mckeon-court",
+        "wives1985"
+      ],
+      "custody_evidence": "Named contemporary attorney and family friend records the completed contempt confinement. His wife describes actual prison entry and continuing visits; the later obituary confirms the term ended.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Two separate periods, no imprisonment during the intervening years inferred. Oxford and Danbury may reflect transfers; no single institutional relation or transfer date is guessed. June 30, 1998 death follows the obituarys explicit June 29 funeral and next-day death at Sligo Hospital. Birthdate unverified. No death-in-custody flag. A different Bernard McKeon born in Ware in 1930 and deceased in 2009 is excluded."
+    },
+    {
+      "key": "desmond-ellis",
+      "match_names": [
+        "Desmond Ellis",
+        "Dessie Ellis"
+      ],
+      "prisoner": {
+        "name": "Desmond Ellis",
+        "first_name": "Desmond",
+        "last_name": "Ellis",
+        "description": "Desmond Ellis, also known as Dessie Ellis, was detained by US authorities after attempting to enter from Canada. He challenged his exclusion and sought political asylum while facing immigration-related criminal charges.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention and prosecution for false passport, false statements and conspiracy to bring aliens into the US; later illegal-entry plea",
+            "sentence": "Held from February 6, 1982 through his deportation in March 1983. A US court confirms continuing confinement in October 1982. His later letter dates his deportation and Irish re-arrest to March 3; month precision is used for the US endpoint because the handover time is unresolved. Later Irish imprisonment is excluded."
+          }
+        ],
+        "aka": "Dessie Ellis"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "release_date": {
+            "year": 1983,
+            "month": 3
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "ellis-court",
+            "ellis-letter",
+            "ellis-return"
+          ],
+          "custody_evidence": "Court record and personal letter establish sustained US detention followed by deportation."
+        }
+      ],
+      "source_ids": [
+        "ellis-court",
+        "ellis-letter",
+        "ellis-return"
+      ],
+      "custody_evidence": "Court record and personal letter establish sustained US detention followed by deportation.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. February 6 in the court record and personal account controls over February 8 in one diplomatic summary and February 16 in a later wire report. Bail being set is not release. No US sentence length or foreign sentence counted. Michael Gilmore and Michael Weir occur as alleged false identities in the indictment reproduced in the Ontario labour case; screen them as leads before any future alias update. Exact birthdate and portrait remain unresolved."
+    },
+    {
+      "key": "owen-carron",
+      "match_names": [
+        "Owen Carron",
+        "Owen Gerard Carron"
+      ],
+      "prisoner": {
+        "name": "Owen Carron",
+        "first_name": "Owen",
+        "last_name": "Carron",
+        "description": "Owen Carron was the Fermanagh and South Tyrone MP who succeeded Bobby Sands. He was jailed in Buffalo after attempting to enter the United States from Canada with Danny Morrison.",
+        "affiliation": [
+          "Sinn Fein"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Illegal-entry and false-statement proceedings at the US-Canada border",
+            "sentence": "Arrested January 21, 1982 and still held January 23. Bail and expulsion followed during January; the official briefing dates deportation to January 29. Month precision preserves the unresolved interval between bail release and removal. Subsequent probation is not counted as imprisonment."
+          }
+        ],
+        "aka": "Owen Gerard Carron"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 1,
+            "day": 21
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 1,
+            "day": 21
+          },
+          "release_date": {
+            "year": 1982,
+            "month": 1
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "irish1982",
+            "carron-upi",
+            "danny-bio"
+          ],
+          "custody_evidence": "Contemporary wire report establishes multi-day custody; official chronology and participant biography confirm subsequent release."
+        }
+      ],
+      "source_ids": [
+        "irish1982",
+        "carron-upi",
+        "danny-bio"
+      ],
+      "custody_evidence": "Contemporary wire report establishes multi-day custody; official chronology and participant biography confirm subsequent release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No continuous custody through the later trial; no foreign incarceration included. Morrison recalls return for trial in October 1983 while contemporary verdict reporting is dated November; exact sentencing date withheld pending original judgment. Formal IRA membership is not inferred from Sinn Fein activity. Exact birthdate and reusable portrait not independently verified in this pass."
+    },
+    {
+      "key": "danny-morrison",
+      "match_names": [
+        "Danny Morrison",
+        "Daniel Morrison"
+      ],
+      "prisoner": {
+        "name": "Danny Morrison",
+        "first_name": "Danny",
+        "last_name": "Morrison",
+        "description": "Danny Morrison was a Sinn Fein publicist and later a writer. He was jailed in Buffalo with Owen Carron after attempting to enter the United States from Canada.",
+        "affiliation": [
+          "Sinn Fein"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Illegal-entry and false-statement proceedings at the US-Canada border",
+            "sentence": "Arrested January 21, 1982 and still held January 23. Bail and expulsion followed during January; the official briefing dates deportation to January 29. Month precision preserves the unresolved interval between bail release and removal. Subsequent probation is not counted as imprisonment."
+          }
+        ],
+        "aka": "Daniel Morrison"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1953,
+          "month": 1,
+          "day": 9
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 1,
+            "day": 21
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 1,
+            "day": 21
+          },
+          "release_date": {
+            "year": 1982,
+            "month": 1
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "irish1982",
+            "carron-upi",
+            "danny-bio"
+          ],
+          "custody_evidence": "Contemporary wire report establishes multi-day custody; official chronology and participant biography confirm subsequent release."
+        }
+      ],
+      "source_ids": [
+        "irish1982",
+        "carron-upi",
+        "danny-bio"
+      ],
+      "custody_evidence": "Contemporary wire report establishes multi-day custody; official chronology and participant biography confirm subsequent release.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. No continuous custody through the later trial; no foreign incarceration included. Morrison recalls return for trial in October 1983 while contemporary verdict reporting is dated November; exact sentencing date withheld pending original judgment. Formal IRA membership is not inferred from Sinn Fein activity. Birthdate is explicitly stated on his own biography. The biography URL is a source; no personal-support campaign URL is inferred."
+    }
+  ]
+}

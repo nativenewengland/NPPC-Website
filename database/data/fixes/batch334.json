@@ -1,0 +1,340 @@
+{
+  "batch": 334,
+  "expected_count": 4,
+  "expected_case_count": 4,
+  "reviewed_at": "2026-09-11",
+  "scope": "Four missing Buffalo political-exclusion detainees; one identified portrait, two birthdates and one death date. No foreign custody or unsupported exact release day.",
+  "sources": {
+    "court": {
+      "label": "Gilroy v. Ferro, 534 F.Supp.321 (W.D.N.Y., February 19, 1982). Actual February 6 detention and continued custody despite criminal bail; political-exclusion allegations.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/534/321/1443784/"
+    },
+    "supplement": {
+      "label": "Gilroy v. Ferro, 534 F.Supp.326 (W.D.N.Y., February 19, 1982). Supplement records end of respondent INS custody; not conclusive evidence of physical release from all US custody.",
+      "url": "https://law.justia.com/cases/federal/district-courts/FSupp/534/326/1443585/"
+    },
+    "labour": {
+      "label": "Electrical Power Systems Construction Council and IBEW Local 1788 v. Ontario Hydro, 1983 OLRB mini 12, paragraphs 13-14 and reproduced indictment. Employment memo, birth date, bail reporting and Canadian imprisonment distinction.",
+      "url": "https://www.minicounsel.ca/olrb/1983/m12"
+    },
+    "outcome": {
+      "label": "UPI, March 29, 1983, Three St Catharines residents sentenced. March 28 time-served dispositions; wire arrest-date error not used.",
+      "url": "https://www.upi.com/amp/Archives/1983/03/29/Three-St-Catharines-Ont-residents-have-been-sentenced-to/9487417762000/"
+    },
+    "howell-obit": {
+      "label": "Irish Times, January 18, 2025, Ted Howell obituary. Individually identified portrait credited to ONeills Funeral Directors Belfast/Facebook; explicit May 20, 1947 birth and January 3, 2025 death; 1982 case identity.",
+      "url": "https://www.irishtimes.com/obituaries/2025/01/18/ted-howell-obituary-republican-figure-whose-influence-was-far-greater-than-his-profile/"
+    },
+    "howell-birth": {
+      "label": "Deaglan De Breadun, Irish Independent, January 19, 2025, Ted Howell obituary. Independently gives May 20, 1947 birth.",
+      "url": "https://www.independent.ie/irish-news/obituary-ted-howell-republican-who-helped-to-guide-sinn-fein-through-the-peace-process-negotiations/a1981664997.html"
+    },
+    "howell-death": {
+      "label": "ONeills Funeral Directors notice for Ted Howell, Funeral Times. January 3, 2025 death explicitly distinguished from January 7 funeral.",
+      "url": "https://www.funeraltimes.com/tedhowell341857564"
+    }
+  },
+  "institutions": {},
+  "entries": [
+    {
+      "key": "edward-howell",
+      "match_names": [
+        "Edward Howell",
+        "Ted Howell"
+      ],
+      "prisoner": {
+        "name": "Edward Howell",
+        "first_name": "Edward",
+        "last_name": "Howell",
+        "description": "Edward (Ted) Howell was an Irish republican organizer and later a Sinn Fein negotiator. His 1982 US detention arose from an attempt to enter from Canada with Desmond Ellis.",
+        "affiliation": [
+          "Sinn Fein",
+          "Irish Republican Army"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention; unlawful-entry and conspiracy proceedings",
+            "sentence": "Held beginning February 6, 1982. Subsequently returned to Canada during 1982. Exact physical release day and final US criminal disposition remain unresolved; Canadian detention is excluded."
+          }
+        ],
+        "aka": "Ted Howell"
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1947,
+          "month": 5,
+          "day": 20
+        },
+        "death_date": {
+          "year": 2025,
+          "month": 1,
+          "day": 3
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "release_date": {
+            "year": 1982
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "court",
+            "supplement",
+            "labour",
+            "outcome"
+          ],
+          "custody_evidence": "Federal habeas record establishes detention lasting into a second week."
+        }
+      ],
+      "source_ids": [
+        "court",
+        "supplement",
+        "labour",
+        "outcome",
+        "howell-obit",
+        "howell-birth",
+        "howell-death"
+      ],
+      "custody_evidence": "Federal habeas record establishes detention lasting into a second week.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Two detailed obituaries agree on May 20, 1947; early funeral reports say age78 instead of77 and contemporary arrest ages also differ. Explicit independently corroborated birth date used, not an age calculation. Death date is supported by the funeral-director notice. William McKee is an alleged passport identity in the indictment, not an asserted legal name. British, Irish and Canadian incarceration excluded.",
+      "photo": {
+        "source_file": "database/data/photos/ted-howell-oneills-b334.jpg",
+        "storage_path": "prisoners/ted-howell-oneills-b334.jpg",
+        "sha256": "091b8ec57e3467f8c8d1a09f92bc3fd0ab785ddc70c524f1088281c5f374fa08",
+        "source_id": "howell-obit",
+        "identity_evidence": "Individually named obituary photograph; visually reviewed. Publisher-delivered image bytes preserved without further processing."
+      }
+    },
+    {
+      "key": "william-gilroy",
+      "match_names": [
+        "William Gilroy"
+      ],
+      "prisoner": {
+        "name": "William Gilroy",
+        "first_name": "William",
+        "last_name": "Gilroy",
+        "description": "William Gilroy was a Canadian resident detained in the United States in proceedings involving assistance to Irish nationalists crossing the border.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention and conspiracy to bring aliens unlawfully into the United States",
+            "sentence": "Returned to Canada on bail in February 1982. Sentenced March 28, 1983 to time already served, with permanent exclusion. No continuous detention through sentencing is asserted."
+          }
+        ]
+      },
+      "dates": {
+        "birthdate": {
+          "year": 1945,
+          "month": 2,
+          "day": 27
+        }
+      },
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "release_date": {
+            "year": 1982,
+            "month": 2
+          },
+          "sentenced_date": {
+            "year": 1983,
+            "month": 3,
+            "day": 28
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "court",
+            "supplement",
+            "labour",
+            "outcome"
+          ],
+          "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported."
+        }
+      ],
+      "source_ids": [
+        "court",
+        "supplement",
+        "labour",
+        "outcome"
+      ],
+      "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Movement association records the political case context, not verified formal IRA membership. February 19 INS exclusion does not establish the day criminal bail was completed. No numerical served-time estimate or exact release date invented. Birth date appears explicitly in the February 25, 1982 Ontario Hydro memorandum reproduced in the labour decision. Canadian Mimico incarceration in 1975-1976 is excluded. Distinct from existing Jack Gilroy. No other personal identifiers from the employment exhibit are copied."
+    },
+    {
+      "key": "william-o-neill",
+      "match_names": [
+        "William O’Neill",
+        "William O'Neill",
+        "William O'Neil",
+        "William O’Neil"
+      ],
+      "prisoner": {
+        "name": "William O’Neill",
+        "first_name": "William",
+        "last_name": "O’Neill",
+        "description": "William O’Neill was a Canadian resident detained in the United States in proceedings involving assistance to Irish nationalists crossing the border.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention and conspiracy to bring aliens unlawfully into the United States",
+            "sentence": "Returned to Canada on bail in February 1982. Sentenced March 28, 1983 to time already served, with permanent exclusion. No continuous detention through sentencing is asserted."
+          }
+        ],
+        "aka": "William O'Neill; William O'Neil; William O’Neil"
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "release_date": {
+            "year": 1982,
+            "month": 2
+          },
+          "sentenced_date": {
+            "year": 1983,
+            "month": 3,
+            "day": 28
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "court",
+            "supplement",
+            "labour",
+            "outcome"
+          ],
+          "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported."
+        }
+      ],
+      "source_ids": [
+        "court",
+        "supplement",
+        "labour",
+        "outcome"
+      ],
+      "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Movement association records the political case context, not verified formal IRA membership. February 19 INS exclusion does not establish the day criminal bail was completed. No numerical served-time estimate or exact release date invented."
+    },
+    {
+      "key": "james-kelly",
+      "match_names": [
+        "James Kelly"
+      ],
+      "prisoner": {
+        "name": "James Kelly",
+        "first_name": "James",
+        "last_name": "Kelly",
+        "description": "James Kelly was a Canadian resident detained in the United States in proceedings involving assistance to Irish nationalists crossing the border.",
+        "affiliation": [
+          "Irish republican movement"
+        ],
+        "state": "New York",
+        "era": "1980s",
+        "in_custody": false,
+        "released": true,
+        "cases": [
+          {
+            "charges": "Immigration detention and conspiracy to bring aliens unlawfully into the United States",
+            "sentence": "Returned to Canada on bail in February 1982. Sentenced March 28, 1983 to time already served, with permanent exclusion. No continuous detention through sentencing is asserted."
+          }
+        ]
+      },
+      "dates": {},
+      "case_dates": [
+        {
+          "arrest_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "incarceration_date": {
+            "year": 1982,
+            "month": 2,
+            "day": 6
+          },
+          "release_date": {
+            "year": 1982,
+            "month": 2
+          },
+          "sentenced_date": {
+            "year": 1983,
+            "month": 3,
+            "day": 28
+          }
+        }
+      ],
+      "case_research": [
+        {
+          "source_ids": [
+            "court",
+            "supplement",
+            "labour",
+            "outcome"
+          ],
+          "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported."
+        }
+      ],
+      "source_ids": [
+        "court",
+        "supplement",
+        "labour",
+        "outcome"
+      ],
+      "custody_evidence": "Court documents continuing confinement after the initial arrest period; subsequent bail return is reported.",
+      "status_research": "Historical custody verified. Existing profiles, cases and photos are preserved. No unsupported vital dates, coordinates, current incarceration, institutional relation or personal support website inferred. Movement association records the political case context, not verified formal IRA membership. February 19 INS exclusion does not establish the day criminal bail was completed. No numerical served-time estimate or exact release date invented. Distinct from William Kelly of the Tucson Six. No inferred Jim alias or dates derived from age42."
+    }
+  ]
+}
