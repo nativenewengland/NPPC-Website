@@ -4,8 +4,8 @@
   "accumulation_branch": "codex/affiliation-prisoners-batch-307",
   "first_unpublished_batch": 307,
   "new_pr_opened": false,
-  "validated_new_people": 65,
-  "remaining_to_pr_threshold": 35,
+  "validated_new_people": 70,
+  "remaining_to_pr_threshold": 30,
   "batches": [
     {
       "batch": 307,
@@ -60,6 +60,15 @@
       "photos": 0,
       "payload": "database/data/fixes/batch312.json",
       "audit": "database/data/audits/affiliation-prisoner-audit-batch312.md"
+    },
+    {
+      "batch": 313,
+      "status": "validated_local",
+      "new_people": 5,
+      "cases": 8,
+      "photos": 0,
+      "payload": "database/data/fixes/batch313.json",
+      "audit": "database/data/audits/affiliation-prisoner-audit-batch313.md"
     }
   ],
   "excluded_already_submitted_batches": [
@@ -83,7 +92,7 @@
     "cases": 112,
     "existing_case_updates": 7
   },
-  "next_affiliation": "RAMPS remaining custody archive, then Earth Liberation Front",
-  "notes": "65 local new identities, 69 cases and 4 portraits across 307\u2013312. No production changes or new PR. Unresolved names and dates documented in batch312 audit.",
+  "next_affiliation": "Earth Liberation Front",
+  "notes": "70 local new identities, 77 cases and 4 portraits across 307\u2013313. No production changes or new PR. RAMPS held names and custody leads retained in audits312\u2013313.",
   "last_research_update": "2026-09-11"
 }
