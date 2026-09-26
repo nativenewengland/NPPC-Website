@@ -26,4 +26,17 @@ $rows = Prisoner::withoutGlobalScopes()->whereIn('name', $names)->with('cases')-
     ])->values(),
 ])->sortBy('name')->values();
 
+$wilson = $rows->firstWhere('name', 'Edwin P. Wilson');
+$shirosaki = $rows->firstWhere('name', 'Tsutomu Shirosaki');
+$ok = $wilson['in_exile']
+    && ! $wilson['currently_in_exile']
+    && ! $shirosaki['in_exile']
+    && ! $shirosaki['currently_in_exile']
+    && $shirosaki['cases']->first()['in_exile_since'] === null
+    && $shirosaki['cases']->first()['end_of_exile'] === null
+    && $shirosaki['cases']->first()['sentenced_date'] === '1998-02-20';
+if (! $ok) {
+    throw new RuntimeException('Exile-scope verification failed');
+}
+
 echo json_encode($rows, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE).PHP_EOL;

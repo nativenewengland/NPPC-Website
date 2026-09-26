@@ -53,7 +53,7 @@ if (! $apply) {
         'profiles_to_update' => array_keys($expected),
         'corrections' => [
             'Edwin P. Wilson' => 'Add April 23, 1980–June 15, 1982 Libya fugitive-exile span and case outcome.',
-            'Tsutomu Shirosaki' => 'Add October 3, 1977–September 21, 1996 Algeria/Lebanon exile span and repair arrest, sentence and release dates.',
+            'Tsutomu Shirosaki' => 'Repair arrest, sentence and release dates without classifying his post-Japanese-custody residence as U.S. exile.',
         ],
     ], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES).PHP_EOL;
     exit(0);
@@ -88,24 +88,13 @@ DB::transaction(function () use ($profiles) {
     $wilsonCase->save();
 
     $shirosaki = $profiles['Tsutomu Shirosaki'];
-    $shirosaki->aka = 'Hirofumi Ishida; Shunsuke Kikuchi';
-    $shirosaki->in_exile = true;
+    $shirosaki->in_exile = false;
     $shirosaki->currently_in_exile = false;
-    $shirosaki->description = 'Tsutomu Shirosaki was imprisoned in Japan in the 1970s for robberies intended to finance radical groups. In 1977, Japanese Red Army members hijacked Japan Airlines Flight 472 and demanded the release of prisoners including Shirosaki. After Japan agreed, the hijackers and released prisoners ended the episode in Algiers on October 3. Algeria accepted them only after Japan agreed not to seek their prosecution, deportation or extradition. Shirosaki later lived with the Japanese Red Army network in Lebanon. The United States charged him with the May 14, 1986 rocket attack on its embassy compound in Jakarta, in which no one was injured; Shirosaki denied responsibility. On September 21, 1996, authorities turned him over to the FBI, ending almost nineteen years abroad. A federal jury convicted him on November 14, 1997, and he received a thirty-year sentence on February 20, 1998. He was released from federal prison on January 16, 2015, deported to Japan the next month and arrested on arrival. Shirosaki died in Fuchū Prison on July 20, 2024 while serving a later Japanese sentence.';
-    $shirosaki->body = ExileSources([
-        ['CIA review documenting the October 3, 1977 arrival in Algiers and Algeria’s conditions', 'https://www.cia.gov/readingroom/document/cia-rdp79t00912a002300010008-6'],
-        ['U.S. Justice Department release listing the Jakarta charges and September 23, 1996 arrival in the United States', 'https://www.justice.gov/archive/opa/pr/1996/Sept96/465crm.htm'],
-        ['Congressional testimony recording the September 21, 1996 transfer to the FBI', 'https://www.globalsecurity.org.globalsecurity.org/intell/library/congress/1997_hr/h970212b.htm'],
-        ['FBI terrorism report giving the November 14, 1997 conviction and February 20, 1998 sentence', 'https://www.fbi.gov/stats-services/publications/terror_98.pdf'],
-        ['Kyodo report on Shirosaki’s U.S. imprisonment, 2015 release and July 20, 2024 death', 'https://www.marketscreener.com/quote/stock/JAPAN-AIRLINES-CO-LTD-11551593/news/Ex-Japanese-Red-Army-member-imprisoned-over-Jakarta-attack-dies-at-76-47429554/'],
-    ]);
     $shirosaki->save();
 
     $shirosakiCase = $shirosaki->cases->firstWhere('id', 'b6cc81f8-75c8-45d2-aa5b-386d7e0a1df5');
     $shirosakiCase->charges = 'Attempted murder and assault of U.S. embassy personnel, attempted damage to a U.S. embassy and a violent attack on internationally protected personnel for the May 14, 1986 Jakarta rocket attack.';
     $shirosakiCase->sentence = 'Thirty years in federal prison, imposed February 20, 1998 after a November 14, 1997 conviction. Shirosaki denied responsibility. Released January 16, 2015 and deported to Japan the following month.';
-    $shirosakiCase->setPartialDate('in_exile_since', 1977, 10, 3);
-    $shirosakiCase->setPartialDate('end_of_exile', 1996, 9, 21);
     $shirosakiCase->setPartialDate('arrest_date', 1996, 9, 21);
     $shirosakiCase->setPartialDate('incarceration_date', 1996, 9, 21);
     $shirosakiCase->setPartialDate('sentenced_date', 1998, 2, 20);
@@ -119,11 +108,15 @@ $verify = Prisoner::withoutGlobalScopes()->whereIn('name', array_keys($expected)
 $wilsonCase = $verify['Edwin P. Wilson']->cases->firstWhere('id', $expected['Edwin P. Wilson']['case_id']);
 $shirosakiCase = $verify['Tsutomu Shirosaki']->cases->firstWhere('id', $expected['Tsutomu Shirosaki']['case_id']);
 $ok = $verify->count() === 2
-    && $verify->every(fn ($profile) => $profile->in_exile && ! $profile->currently_in_exile && ! $profile->under_review)
+    && $verify['Edwin P. Wilson']->in_exile
+    && ! $verify['Edwin P. Wilson']->currently_in_exile
+    && ! $verify['Tsutomu Shirosaki']->in_exile
+    && ! $verify['Tsutomu Shirosaki']->currently_in_exile
+    && $verify->every(fn ($profile) => ! $profile->under_review)
     && $wilsonCase->partialDateIso('in_exile_since') === '1980-04-23'
     && $wilsonCase->partialDateIso('end_of_exile') === '1982-06-15'
-    && $shirosakiCase->partialDateIso('in_exile_since') === '1977-10-03'
-    && $shirosakiCase->partialDateIso('end_of_exile') === '1996-09-21'
+    && $shirosakiCase->partialDateIso('in_exile_since') === null
+    && $shirosakiCase->partialDateIso('end_of_exile') === null
     && $shirosakiCase->partialDateIso('sentenced_date') === '1998-02-20';
 if (! $ok) {
     throw new RuntimeException('Post-publication verification failed');

@@ -2,10 +2,13 @@
 
 Published September 26, 2026. This pass screened additional U.S.-connected prisoner and fugitive networks associated with Algeria and Libya after the earlier Black Panther International Section review.
 
-## Records expanded
+## Exile record expanded
 
 - **Edwin P. Wilson** — added his documented fugitive residence near Tripoli from the April 23, 1980 federal indictment through his June 15, 1982 arrest after agents lured him out of Libya. The case now distinguishes the conviction vacated for prosecutorial use of a false CIA affidavit from the other convictions that remained in force.
-- **Tsutomu Shirosaki** — added the October 3, 1977 arrival in Algiers, later residence with the Japanese Red Army network in Lebanon and the end of the exile span when he was turned over to the FBI on September 21, 1996. The profile’s impossible September 1996 sentencing date was corrected to February 20, 1998, and the federal release date was corrected to January 16, 2015.
+
+## Chronology corrected without U.S. exile classification
+
+- **Tsutomu Shirosaki** — the profile’s impossible September 1996 sentencing date was corrected to February 20, 1998, and the federal release date was corrected to January 16, 2015. An initially published exile classification was removed because his 1977 release and departure arose from Japanese custody rather than U.S. custody or prosecution. At the user’s direction, his pre-pass biography was restored unchanged.
 
 ## Screened but not asserted
 
