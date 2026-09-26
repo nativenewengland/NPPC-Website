@@ -19,14 +19,15 @@ $groups = [
     'France and Algeria' => [
         'Eldridge Cleaver', 'Kathleen Cleaver', 'Donald Cox', 'Donald L. Cox',
         'Melvin McNair', 'Jean McNair', 'George Brown', 'Joyce Tillerson',
-        'George Edward Wright', 'Roger Holder', 'Cathy Kerkow',
+        'George Edward Wright', 'George Wright', 'Willie Roger Holder', 'Roger Holder',
+        'Catherine Marie Kerkow', 'Catherine Kerkow', 'Cathy Kerkow',
     ],
     'Cuba' => [
         'Assata Shakur', 'Joanne Chesimard', 'Charlie Hill', 'Nehanda Abiodun',
         'William Morales',
     ],
     'Sweden' => [
-        'Terry Whitmore', 'Bruce Proctor', 'Jerry Condon', 'David Smith',
+        'Terry Whitmore', 'Bruce Stevens Proctor', 'Bruce Proctor', 'Gerry Condon', 'Jerry Condon', 'David Smith',
         'Robert Argento', 'Steve Kinneman', 'William Males', 'Herbert Washington',
     ],
     'Tanzania and Africa' => [

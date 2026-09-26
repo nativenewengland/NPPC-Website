@@ -14,6 +14,7 @@ $names = [
     'LaRance Sullivan', 'Richard Tenneson', 'James Veneris', 'Harold Webb', 'William White',
     'Morris Wills', 'Aaron Wilson', 'Terry Marvell Whitmore', 'Larry Allen Abshier',
     'James Joseph Dresnok', 'Jerry Wayne Parrish', 'Charles Robert Jenkins',
+    'Bruce Stevens Proctor', 'Gerry Condon',
 ];
 
 $profiles = Prisoner::withoutGlobalScopes()->whereIn('name', $names)->with('cases')->get();
@@ -32,12 +33,13 @@ $rows = $profiles->map(fn ($profile) => [
 ])->sortBy('name')->values();
 
 $updated = Prisoner::withoutGlobalScopes()
-    ->whereIn('name', ['Don Cox', 'Kathleen Cleaver', 'Eldridge Cleaver'])
+    ->whereIn('name', ['Don Cox', 'Kathleen Cleaver', 'Eldridge Cleaver', 'Willie Roger Holder', 'Catherine Kerkow'])
     ->with('cases')
     ->get()
     ->map(fn ($profile) => [
         'name' => $profile->name,
         'has_sources' => str_contains((string) $profile->body, '<h2>Sources</h2>'),
+        'currently_in_exile' => $profile->currently_in_exile,
         'case_dates' => $profile->cases->map(fn ($case) => [
             'in_exile_since' => optional($case->in_exile_since)->format('Y-m-d'),
             'end_of_exile' => optional($case->end_of_exile)->format('Y-m-d'),

@@ -1,5 +1,5 @@
 {
-    "new_profile_count": 26,
+    "new_profile_count": 28,
     "new_profiles": [
         {
             "name": "Aaron Wilson",
@@ -74,6 +74,24 @@
             ]
         },
         {
+            "name": "Bruce Stevens Proctor",
+            "slug": "bruce-stevens-proctor",
+            "in_exile": true,
+            "currently_in_exile": false,
+            "under_review": false,
+            "cases": [
+                {
+                    "in_exile_since": "1968-01-01",
+                    "end_of_exile": "2011-01-01",
+                    "date_precision": {
+                        "in_exile_since": "year",
+                        "end_of_exile": "year"
+                    },
+                    "documented_imprisoned_for_days": null
+                }
+            ]
+        },
+        {
             "name": "Charles Robert Jenkins",
             "slug": "charles-robert-jenkins",
             "in_exile": true,
@@ -104,6 +122,24 @@
                     "end_of_exile": null,
                     "date_precision": {
                         "in_exile_since": "day"
+                    },
+                    "documented_imprisoned_for_days": null
+                }
+            ]
+        },
+        {
+            "name": "Gerry Condon",
+            "slug": "gerry-condon",
+            "in_exile": true,
+            "currently_in_exile": false,
+            "under_review": false,
+            "cases": [
+                {
+                    "in_exile_since": "1969-01-01",
+                    "end_of_exile": "1975-01-01",
+                    "date_precision": {
+                        "in_exile_since": "year",
+                        "end_of_exile": "year"
                     },
                     "documented_imprisoned_for_days": null
                 }
@@ -471,8 +507,33 @@
     ],
     "updated_profiles": [
         {
+            "name": "Catherine Kerkow",
+            "has_sources": true,
+            "currently_in_exile": false,
+            "case_dates": [
+                {
+                    "in_exile_since": "1972-06-02",
+                    "end_of_exile": null,
+                    "date_precision": {
+                        "in_exile_since": "day"
+                    }
+                },
+                {
+                    "in_exile_since": null,
+                    "end_of_exile": null,
+                    "date_precision": {
+                        "arrest_date": "day",
+                        "incarceration_date": "day",
+                        "sentenced_date": "day",
+                        "release_date": "day"
+                    }
+                }
+            ]
+        },
+        {
             "name": "Don Cox",
             "has_sources": true,
+            "currently_in_exile": false,
             "case_dates": [
                 {
                     "in_exile_since": "1970-04-16",
@@ -484,6 +545,7 @@
         {
             "name": "Eldridge Cleaver",
             "has_sources": true,
+            "currently_in_exile": false,
             "case_dates": [
                 {
                     "in_exile_since": "1968-11-24",
@@ -495,6 +557,7 @@
         {
             "name": "Kathleen Cleaver",
             "has_sources": true,
+            "currently_in_exile": false,
             "case_dates": [
                 {
                     "in_exile_since": "1969-01-01",
@@ -502,6 +565,50 @@
                     "date_precision": {
                         "in_exile_since": "year",
                         "end_of_exile": "year"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Willie Roger Holder",
+            "has_sources": true,
+            "currently_in_exile": false,
+            "case_dates": [
+                {
+                    "in_exile_since": "1972-06-03",
+                    "end_of_exile": "1986-07-26",
+                    "date_precision": {
+                        "arrest_date": "day",
+                        "incarceration_date": "day",
+                        "release_date": "month",
+                        "in_exile_since": "day",
+                        "end_of_exile": "day"
+                    }
+                },
+                {
+                    "in_exile_since": null,
+                    "end_of_exile": null,
+                    "date_precision": {
+                        "arrest_date": "day",
+                        "incarceration_date": "day",
+                        "sentenced_date": "day",
+                        "release_date": "day"
+                    }
+                },
+                {
+                    "in_exile_since": null,
+                    "end_of_exile": null,
+                    "date_precision": {
+                        "sentenced_date": "year"
+                    }
+                },
+                {
+                    "in_exile_since": null,
+                    "end_of_exile": null,
+                    "date_precision": {
+                        "arrest_date": "day",
+                        "incarceration_date": "day",
+                        "release_date": "day"
                     }
                 }
             ]

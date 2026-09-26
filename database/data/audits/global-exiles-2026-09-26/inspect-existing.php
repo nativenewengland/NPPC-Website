@@ -7,7 +7,7 @@ $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
 use App\Models\Prisoner;
 
-$names = ['Don Cox', 'Eldridge Cleaver', 'Kathleen Cleaver'];
+$names = ['Don Cox', 'Eldridge Cleaver', 'Kathleen Cleaver', 'Catherine Kerkow', 'Willie Roger Holder'];
 $rows = Prisoner::withoutGlobalScopes()
     ->whereIn('name', $names)
     ->with('cases')

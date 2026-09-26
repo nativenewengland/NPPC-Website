@@ -1,6 +1,6 @@
 # Global exile expansion — China, Sweden, North Korea, France and Algeria
 
-Published September 26, 2026. This pass expanded the archive beyond the Soviet Union and post-Soviet Russia. It created 26 profiles and improved three existing profiles. Every new profile has a dated exile case, source links, an individual biographical summary and a recorded outcome. All 29 public pages returned HTTP 200 after publication.
+Published September 26, 2026. This pass expanded the archive beyond the Soviet Union and post-Soviet Russia. It created 28 profiles and improved five existing profiles. Every new profile has a dated exile case, source links, an individual biographical summary and a recorded outcome. All public pages checked after publication returned HTTP 200.
 
 ## China: all 21 Korean War non-repatriates
 
@@ -36,6 +36,10 @@ The group was not politically uniform. Clarence Adams explicitly cited U.S. raci
 
 **Terry Marvell Whitmore** was added with his March 6, 1947 birth date, July 11, 2007 death date and a May 27, 1968 exile start. Whitmore was a wounded and decorated Black Marine who refused orders returning him to Vietnam, traveled from Japan to Sweden through an anti-war assistance network and publicly linked his desertion to the war, atrocities he witnessed and racism. His permanent return to Memphis in 2001 ends the recorded exile span at year precision.
 
+**Bruce Stevens Proctor** was added from National Archives and memoir documentation. After Defense Intelligence Agency work led him to conclude that official statements concealed the bombing of civilian villages, he left the activated Air National Guard in 1968, sought refuge in Sweden and moved to Canada in 1972. He remained in Winnipeg until his death in 2011.
+
+**Gerry Condon** was added with his refusal of Vietnam deployment, in-absentia court-martial sentence, Swedish humanitarian asylum and 1975 public return to campaign for amnesty. His original ten-year sentence was reduced to two years and a bad-conduct discharge; he served no prison time.
+
 The database already contained the four sailors commonly known as the Intrepid Four. Other names associated with Sweden were screened but not included in this publication without stronger individual evidence separating anti-war desertion, asylum, return and identity from common-name false matches.
 
 ## North Korea
@@ -53,6 +57,8 @@ These profiles do not presume that the crossings began as political asylum claim
 
 A preflight identity check found that Donald Lee Cox already existed as **Don Cox**, so the live record was updated instead of duplicated. Sources were added and the existing exile and case chronology was retained. The pass also added sources to **Eldridge Cleaver** and **Kathleen Cleaver** and supplied Kathleen Cleaver’s previously missing 1969–1975 exile span at year precision.
 
+The follow-up check found **Catherine Kerkow** and **Willie Roger Holder** under alternate names. Both were updated with FBI and French reporting instead of duplicated. Kerkow’s active-exile flag was removed because her whereabouts and present legal status are unknown; the FBI warrant supports that she remains wanted, but it does not establish a continuously countable exile to the present. Three zero-day “exile” spans that had been auto-derived from releases from ordinary custody were also removed from the Kerkow and Holder cases.
+
 The archive already contained Melvin McNair, Jean McNair, George Brown and Joyce Tillerson from the 1972 Algeria-to-France group, as well as Eldridge and Kathleen Cleaver. Pete and Charlotte O’Neal were also already present for Tanzania.
 
 ## Cuba cross-check
@@ -64,5 +70,6 @@ The principal named U.S. political exiles screened for Cuba were already present
 - `inspect.php` performs exact-name and alias screening against the live database.
 - `inspect-existing.php` records the existing Cox and Cleaver data used to plan safe updates.
 - `publish-initial.php` contains guarded preflight and publication paths, creates a SQLite backup before writing, and performs post-write checks.
+- `publish-followup.php` adds the two remaining well-supported Swedish war resisters and safely updates the alternate-name France records.
 - `verify.php` produces a compact live-data verification record.
 - `live-verification.json` records the final stored flags, exile dates and partial-date precision.
