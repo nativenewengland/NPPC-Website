@@ -7,6 +7,7 @@ use App\Models\ArchiveRecord;
 use App\Models\Article;
 use App\Models\Author;
 use App\Models\CalendarEntry;
+use App\Models\DashboardLink;
 use App\Models\Event;
 use App\Models\Faq;
 use App\Models\HistoryEra;
@@ -1172,6 +1173,12 @@ final class SiteController extends Controller {
             ->filter(fn ($i) => $i->cases_count > 0)
             ->values();
 
+        $dashboardEntries = DashboardLink::published()
+            ->inState($variants)
+            ->orderByDesc('published_at')
+            ->limit(8)
+            ->get(['id', 'title', 'url', 'source', 'location_label', 'category', 'published_at']);
+
         $shapes = json_decode((string) file_get_contents(database_path('data/state-shapes.json')), true) ?: [];
 
         // prev / next state for footer navigation
@@ -1187,6 +1194,7 @@ final class SiteController extends Controller {
             'prisoners' => $prisoners,
             'eras' => $eras,
             'institutions' => $institutions,
+            'dashboardEntries' => $dashboardEntries,
             'shape' => $shapes[$name] ?? null,
             'prevState' => ['slug' => $prev, 'name' => self::STATES[$prev][0]],
             'nextState' => ['slug' => $next, 'name' => self::STATES[$next][0]],

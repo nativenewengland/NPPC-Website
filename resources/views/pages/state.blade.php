@@ -28,6 +28,22 @@
 .stp-h2 { font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 900; color: var(--fg); margin: 0 0 8px; }
 .stp-sub { font-size: 14px; color: rgba(var(--fg-rgb),.55); margin: 0 0 30px; }
 
+/* recent dashboard entries */
+.stp-news { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.stp-news-card { border: 1px solid rgba(var(--fg-rgb),.12); border-radius: 9px; padding: 19px 20px; background: rgba(var(--fg-rgb),.02); color: var(--fg); transition: border-color .2s, transform .2s; }
+.stp-news-card:hover { border-color: rgba(86,96,254,.5); transform: translateY(-2px); }
+.stp-news-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.stp-news-cat { font-size: 10px; line-height: 1; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; padding: 5px 8px; border-radius: 3px; background: rgba(86,96,254,.14); color: var(--acc2); }
+.stp-news-cat.cat-arrest { background: rgba(239,68,68,.14); color: #ef4444; }
+.stp-news-cat.cat-prosecution { background: rgba(163,113,247,.14); color: #a371f7; }
+.stp-news-cat.cat-protest { background: rgba(25,195,125,.14); color: #19c37d; }
+.stp-news-date { color: rgba(var(--fg-rgb),.48); font-size: 11.5px; white-space: nowrap; }
+.stp-news-title { margin: 0; color: var(--fg); font-size: 15px; font-weight: 820; line-height: 1.4; }
+.stp-news-meta { margin-top: 12px; color: rgba(var(--fg-rgb),.5); font-size: 11.5px; line-height: 1.45; }
+.stp-news-more { display: inline-flex; margin-top: 22px; color: var(--acc2); font-size: 13px; font-weight: 800; }
+.stp-news-more:hover { text-decoration: underline; }
+@media (max-width: 760px) { .stp-news { grid-template-columns: 1fr; } }
+
 /* era chips */
 .stp-eras { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 10px; }
 .stp-era { font-size: 13px; font-weight: 700; color: rgba(var(--fg-rgb),.8); border: 1px solid rgba(var(--fg-rgb),.16); border-radius: 999px; padding: 7px 16px; }
@@ -114,6 +130,26 @@
                     <span class="stp-era">{{ $era->era }} <b>{{ $era->n }}</b></span>
                 @endforeach
             </div>
+        </div>
+    @endif
+
+    @if ($dashboardEntries->isNotEmpty())
+        <div class="stp-section">
+            <h2 class="stp-h2">Recent dashboard entries from {{ $name }}</h2>
+            <p class="stp-sub">The newest published events and reporting located in {{ $name }}, updated automatically from the live dashboard.</p>
+            <div class="stp-news">
+                @foreach ($dashboardEntries as $entry)
+                    <a class="stp-news-card" href="{{ $entry->url }}" @if(str_starts_with($entry->url, 'http')) target="_blank" rel="noopener" @endif>
+                        <div class="stp-news-top">
+                            <span class="stp-news-cat cat-{{ $entry->category ?: 'other' }}">{{ \App\Models\DashboardLink::CATEGORIES[$entry->category] ?? 'Other' }}</span>
+                            <time class="stp-news-date" datetime="{{ $entry->published_at->toDateString() }}">{{ $entry->published_at->format('M j, Y') }}</time>
+                        </div>
+                        <h3 class="stp-news-title">{{ $entry->title }}</h3>
+                        <div class="stp-news-meta">{{ collect([$entry->location_label, $entry->source])->filter()->join(' · ') }}</div>
+                    </a>
+                @endforeach
+            </div>
+            <a class="stp-news-more" href="/dashboard">Open the live dashboard &rarr;</a>
         </div>
     @endif
 

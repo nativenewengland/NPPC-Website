@@ -39,4 +39,22 @@ final class DashboardLink extends Model {
     public function scopeOnMap(Builder $query): Builder {
         return $query->published()->whereNotNull('lat')->whereNotNull('lng');
     }
+
+    /** Match dashboard entries whose stored location belongs to a state. */
+    public function scopeInState(Builder $query, array $variants): Builder {
+        return $query->where(function (Builder $where) use ($variants) {
+            foreach ($variants as $variant) {
+                $variant = trim((string) $variant);
+                if ($variant === '') continue;
+
+                if (strlen($variant) === 2) {
+                    $where->orWhere('location_label', $variant)
+                        ->orWhere('location_label', 'like', '%, '.$variant)
+                        ->orWhere('location_label', 'like', '%, '.$variant.',%');
+                } else {
+                    $where->orWhere('location_label', 'like', '%'.$variant.'%');
+                }
+            }
+        });
+    }
 }
