@@ -234,6 +234,104 @@ final class SiteController extends Controller {
         ));
     }
 
+    public function magazines(Request $request) {
+        $q = trim((string) $request->query('q', ''));
+        $collection = trim((string) $request->query('collection', ''));
+        $year = $request->query('year');
+        $sort = (string) $request->query('sort', 'newest');
+        $availableOnly = filter_var($request->query('available_only'), FILTER_VALIDATE_BOOLEAN);
+
+        $periodicalWhere = "LOWER(record_type) IN ('magazine','newsletter','newspaper','zine','journal') OR LOWER(source_format) IN ('magazine','newsletter','newspaper','periodical','zine','journal')";
+        $base = ArchiveRecord::published()->whereRaw("({$periodicalWhere})");
+
+        $total = (clone $base)->count();
+        $digitized = (clone $base)->where('is_digitized', true)->count();
+        $scanNeeded = (clone $base)->where('is_digitized', false)->count();
+
+        $collectionCounts = (clone $base)
+            ->whereNotNull('collection')
+            ->where('collection', '!=', '')
+            ->selectRaw('collection, COUNT(*) as aggregate')
+            ->groupBy('collection')
+            ->orderByDesc('aggregate')
+            ->get()
+            ->mapWithKeys(fn ($row) => [(string) $row->collection => (int) $row->aggregate]);
+
+        $years = (clone $base)
+            ->whereBetween('year', [1700, (int) now()->year])
+            ->distinct()
+            ->orderByDesc('year')
+            ->pluck('year');
+
+        $query = clone $base;
+        if ($q !== '') {
+            $query->where(function ($where) use ($q) {
+                $where->where('title', 'like', "%{$q}%")
+                    ->orWhere('description', 'like', "%{$q}%")
+                    ->orWhere('authors', 'like', "%{$q}%")
+                    ->orWhere('publisher', 'like', "%{$q}%")
+                    ->orWhere('collection', 'like', "%{$q}%");
+            });
+        }
+        if ($collection !== '') {
+            $query->where('collection', $collection);
+        }
+        if ($year !== null && $year !== '') {
+            $query->where('year', (int) $year);
+        }
+        if ($availableOnly) {
+            $query->where('is_digitized', true);
+        }
+
+        match ($sort) {
+            'oldest' => $query->orderBy('date')->orderBy('year')->orderBy('title'),
+            'title' => $query->orderBy('title'),
+            default => $query->orderByDesc('date')->orderByDesc('year')->orderBy('title'),
+        };
+
+        $records = $query->paginate(36)->withQueryString();
+        $heroThumbs = (clone $base)
+            ->whereNotNull('thumbnail')
+            ->where('thumbnail', '!=', '')
+            ->inRandomOrder()
+            ->limit(12)
+            ->get()
+            ->map(fn ($record) => $record->thumbnail_url)
+            ->filter()
+            ->values();
+
+        $featuredNames = [
+            'The Black Panther Newspaper',
+            'Anarchist Black Cross — Federation (ABCF)',
+            'Nuclear Resister Back Issues',
+            'Love and Rage Revolutionary Anarchist Federation',
+            'Movimiento de Liberación Nacional Puertorriqueño — Libertad',
+            'Prairie Fire Organizing Committee — Breakthrough',
+            '4StruggleMag',
+            'Arm The Spirit (Toronto, 1990–1995)',
+        ];
+        $featuredCollections = collect($featuredNames)
+            ->filter(fn ($name) => $collectionCounts->has($name))
+            ->map(fn ($name) => ['name' => $name, 'count' => $collectionCounts[$name]])
+            ->values();
+
+        return view('pages.magazines', compact(
+            'records',
+            'collectionCounts',
+            'featuredCollections',
+            'heroThumbs',
+            'years',
+            'total',
+            'digitized',
+            'scanNeeded',
+            'q',
+            'collection',
+            'year',
+            'sort',
+            'availableOnly'
+        ));
+    }
+
     public function history() {
         return view('pages.history', ['eras' => HistoryEra::with('topics')->orderBy('sort_order')->get()]);
     }
