@@ -12,6 +12,5 @@
         @unless ($readable)<span class="mp-scan">Scan wanted</span>@endunless
     </div>
     <p class="mp-card-kicker">{{ $issueLabel($record) }}</p>
-    <h3>{{ $dateLabel($record) }}</h3>
-    <p class="mp-card-title">{{ $record->title }}</p>
+    <h3>{{ $record->title }}</h3>
 </{{ $tag }}>

@@ -5,11 +5,6 @@
         if (preg_match('/No\.\s*[\d\/.-]+/i', $record->title, $match)) return $match[0];
         return ucfirst((string) ($record->source_format ?: $record->record_type));
     };
-    $dateLabel = function ($record) {
-        if ($record->date) return $record->date->format('M Y');
-        if ($record->year) return (string) $record->year;
-        return 'Date unknown';
-    };
     $archiveUrl = fn ($section) => '/archive?'.http_build_query([
         'collection' => $section['archive_collection'],
         'include_nondigitized' => '1',
@@ -44,7 +39,7 @@
             <p class="mp-description">{{ $section['description'] }}</p>
             <div class="mp-issue-grid">
                 @foreach ($section['records'] as $record)
-                    @include('pages.partials.magazine-issue-card', ['record' => $record, 'issueLabel' => $issueLabel, 'dateLabel' => $dateLabel])
+                    @include('pages.partials.magazine-issue-card', ['record' => $record, 'issueLabel' => $issueLabel])
                 @endforeach
             </div>
             @if ($section['total'] > $section['records']->count())
@@ -65,7 +60,7 @@
                 </div>
                 <div class="mp-issue-grid">
                     @foreach ($section['records'] as $record)
-                        @include('pages.partials.magazine-issue-card', ['record' => $record, 'issueLabel' => $issueLabel, 'dateLabel' => $dateLabel])
+                        @include('pages.partials.magazine-issue-card', ['record' => $record, 'issueLabel' => $issueLabel])
                     @endforeach
                 </div>
             </section>
@@ -92,14 +87,13 @@
     .mp-issue-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
     .mp-card { position:relative; min-width:0; padding:14px; border:1px solid var(--mp-line); border-radius:4px; color:inherit; text-decoration:none; transition:border-color .15s,background .15s,transform .15s; }
     a.mp-card:hover { border-color:rgba(var(--fg-rgb),.55); background:rgba(var(--fg-rgb),.035); transform:translateY(-2px); }
-    .mp-cover { position:relative; width:100%; aspect-ratio:7/8.5; margin-bottom:13px; overflow:hidden; background:rgba(var(--fg-rgb),.06); border:1px solid rgba(var(--fg-rgb),.1); }
+    .mp-cover { position:relative; width:100%; aspect-ratio:1/1; margin-bottom:13px; overflow:hidden; background:rgba(var(--fg-rgb),.06); border:1px solid rgba(var(--fg-rgb),.1); }
     .mp-cover img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
     .mp-cover-fallback { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:space-between; padding:17px; background:linear-gradient(145deg,rgba(var(--fg-rgb),.13),rgba(var(--fg-rgb),.035)); }
     .mp-cover-fallback span { font-size:.63rem; font-weight:850; letter-spacing:.12em; text-transform:uppercase; }
     .mp-cover-fallback b { font-size:1.55rem; line-height:1; overflow-wrap:anywhere; }
     .mp-card-kicker { margin:0; color:var(--mp-muted); font-size:.68rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
-    .mp-card h3 { margin:5px 0 0; font-size:.96rem; line-height:1.3; font-weight:800; }
-    .mp-card-title { margin:8px 0 0; color:var(--mp-muted); font-size:.73rem; line-height:1.4; }
+    .mp-card h3 { margin:6px 0 0; font-size:.96rem; line-height:1.35; font-weight:800; }
     .mp-scan { position:absolute; left:9px; bottom:9px; padding:5px 7px; background:#18151d; color:#fff; font-size:.58rem; font-weight:850; letter-spacing:.08em; text-transform:uppercase; }
     .mp-view-all { display:inline-flex; margin-top:20px; color:var(--fg); font-size:.82rem; font-weight:800; text-underline-offset:4px; }
     .mp-secondary { margin-top:36px; padding-bottom:42px; border-bottom:1px solid var(--mp-line); }
