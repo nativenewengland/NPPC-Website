@@ -234,102 +234,66 @@ final class SiteController extends Controller {
         ));
     }
 
-    public function magazines(Request $request) {
-        $q = trim((string) $request->query('q', ''));
-        $collection = trim((string) $request->query('collection', ''));
-        $year = $request->query('year');
-        $sort = (string) $request->query('sort', 'newest');
-        $availableOnly = filter_var($request->query('available_only'), FILTER_VALIDATE_BOOLEAN);
-
+    public function magazines() {
         $periodicalWhere = "LOWER(record_type) IN ('magazine','newsletter','newspaper','zine','journal') OR LOWER(source_format) IN ('magazine','newsletter','newspaper','periodical','zine','journal')";
         $base = ArchiveRecord::published()->whereRaw("({$periodicalWhere})");
 
-        $total = (clone $base)->count();
-        $digitized = (clone $base)->where('is_digitized', true)->count();
-        $scanNeeded = (clone $base)->where('is_digitized', false)->count();
-
-        $collectionCounts = (clone $base)
-            ->whereNotNull('collection')
-            ->where('collection', '!=', '')
-            ->selectRaw('collection, COUNT(*) as aggregate')
-            ->groupBy('collection')
-            ->orderByDesc('aggregate')
-            ->get()
-            ->mapWithKeys(fn ($row) => [(string) $row->collection => (int) $row->aggregate]);
-
-        $years = (clone $base)
-            ->whereBetween('year', [1700, (int) now()->year])
-            ->distinct()
-            ->orderByDesc('year')
-            ->pluck('year');
-
-        $query = clone $base;
-        if ($q !== '') {
-            $query->where(function ($where) use ($q) {
-                $where->where('title', 'like', "%{$q}%")
-                    ->orWhere('description', 'like', "%{$q}%")
-                    ->orWhere('authors', 'like', "%{$q}%")
-                    ->orWhere('publisher', 'like', "%{$q}%")
-                    ->orWhere('collection', 'like', "%{$q}%");
-            });
-        }
-        if ($collection !== '') {
-            $query->where('collection', $collection);
-        }
-        if ($year !== null && $year !== '') {
-            $query->where('year', (int) $year);
-        }
-        if ($availableOnly) {
-            $query->where('is_digitized', true);
-        }
-
-        match ($sort) {
-            'oldest' => $query->orderBy('date')->orderBy('year')->orderBy('title'),
-            'title' => $query->orderBy('title'),
-            default => $query->orderByDesc('date')->orderByDesc('year')->orderBy('title'),
+        $collection = function (string $name, ?int $limit = null) use ($base) {
+            $query = (clone $base)->where('collection', $name)
+                ->orderByDesc('date')->orderByDesc('year')->orderBy('title');
+            if ($limit) $query->limit($limit);
+            return $query->get();
         };
 
-        $records = $query->paginate(36)->withQueryString();
-        $heroThumbs = (clone $base)
-            ->whereNotNull('thumbnail')
-            ->where('thumbnail', '!=', '')
-            ->inRandomOrder()
-            ->limit(12)
-            ->get()
-            ->map(fn ($record) => $record->thumbnail_url)
-            ->filter()
-            ->values();
+        $primarySections = collect([
+            [
+                'name' => 'The Nuclear Resister', 'archive_collection' => 'Nuclear Resister Back Issues',
+                'meta' => 'Tucson, founded 1980', 'website' => 'https://www.nukeresister.org', 'website_label' => 'nukeresister.org',
+                'description' => 'Founded by Jack and Felice Cohen-Joppa, The Nuclear Resister is the most consistent record of U.S. and international anti-nuclear and anti-war arrests, prisoners, trials, and resistance.',
+                'records' => $collection('Nuclear Resister Back Issues', 12),
+                'total' => (clone $base)->where('collection', 'Nuclear Resister Back Issues')->count(),
+            ],
+            [
+                'name' => 'Social Anarchism', 'archive_collection' => 'Social Anarchism',
+                'meta' => 'Baltimore, 1980–2017', 'website' => 'https://www.socialanarchism.org', 'website_label' => 'socialanarchism.org',
+                'description' => 'The theoretical journal of the Atlantic Center for Research and Education. Issue 22 includes James R. Bennett’s foundational essay on political trials and political prisoners in the United States.',
+                'records' => $collection('Social Anarchism'),
+                'total' => (clone $base)->where('collection', 'Social Anarchism')->count(),
+            ],
+            [
+                'name' => "Can't Jail the Spirit", 'archive_collection' => 'Movement Reference',
+                'meta' => 'Political-prisoner directories',
+                'description' => 'A biographical directory of U.S. political prisoners and the standard prisoner-support reference work of its era, preserving case histories, prison addresses, and movement context.',
+                'records' => ArchiveRecord::published()->where('slug', 'cant-jail-the-spirit-ceml-1985')->get(), 'total' => 1,
+            ],
+            [
+                'name' => '4StruggleMag', 'archive_collection' => '4StruggleMag',
+                'meta' => 'Toronto ABCF, edited by Jaan Laaman',
+                'description' => 'An independent, non-sectarian revolutionary magazine produced by the Toronto chapter of the Anarchist Black Cross Federation, featuring political-prisoner writing on justice, equality, socialism, and national-liberation struggles.',
+                'records' => (clone $base)->where('collection', '4StruggleMag')->orderBy('sort_order')->orderBy('date')->orderBy('title')->get(),
+                'total' => (clone $base)->where('collection', '4StruggleMag')->count(),
+            ],
+        ]);
 
-        $featuredNames = [
-            'The Black Panther Newspaper',
-            'Anarchist Black Cross — Federation (ABCF)',
-            'Nuclear Resister Back Issues',
-            'Love and Rage Revolutionary Anarchist Federation',
-            'Movimiento de Liberación Nacional Puertorriqueño — Libertad',
-            'Prairie Fire Organizing Committee — Breakthrough',
-            '4StruggleMag',
-            'Arm The Spirit (Toronto, 1990–1995)',
+        $additionalDefinitions = [
+            ['The Black Panther Newspaper', 'The Black Panther Newspaper', 'Black Panther Party newspaper reporting liberation struggles, state repression, community survival programs, and political-prisoner cases.'],
+            ['ABCF Political-Prisoner Updates', 'Anarchist Black Cross — Federation (ABCF)', 'Federation bulletins carrying prisoner news, addresses, solidarity campaigns, and calls to action.'],
+            ['Love and Rage', 'Love and Rage Revolutionary Anarchist Federation', 'Newspaper linking anti-racist, feminist, queer, labor, and anti-imperialist struggles.'],
+            ['Libertad', 'Movimiento de Liberación Nacional Puertorriqueño — Libertad', 'Puerto Rican national-liberation newspaper documenting independence organizing, political prisoners, and movement debate.'],
+            ['Breakthrough', 'Prairie Fire Organizing Committee — Breakthrough', 'Prairie Fire Organizing Committee periodical covering anti-imperialist movements, political prisoners, and resistance.'],
+            ['Arm the Spirit', 'Arm The Spirit (Toronto, 1990–1995)', 'Toronto revolutionary anti-imperialist journal preserving communiqués, prisoner statements, and international solidarity reporting.'],
         ];
-        $featuredCollections = collect($featuredNames)
-            ->filter(fn ($name) => $collectionCounts->has($name))
-            ->map(fn ($name) => ['name' => $name, 'count' => $collectionCounts[$name]])
-            ->values();
 
-        return view('pages.magazines', compact(
-            'records',
-            'collectionCounts',
-            'featuredCollections',
-            'heroThumbs',
-            'years',
-            'total',
-            'digitized',
-            'scanNeeded',
-            'q',
-            'collection',
-            'year',
-            'sort',
-            'availableOnly'
-        ));
+        $additionalSections = collect($additionalDefinitions)->map(function ($definition) use ($base, $collection) {
+            [$name, $archiveCollection, $description] = $definition;
+            return [
+                'name' => $name, 'archive_collection' => $archiveCollection, 'description' => $description,
+                'records' => $collection($archiveCollection, 8),
+                'total' => (clone $base)->where('collection', $archiveCollection)->count(),
+            ];
+        })->filter(fn ($section) => $section['records']->isNotEmpty())->values();
+
+        return view('pages.magazines', compact('primarySections', 'additionalSections'));
     }
 
     public function history() {
