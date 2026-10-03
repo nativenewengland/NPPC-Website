@@ -1614,7 +1614,7 @@ final class ApplyDiscordLeadPrisonerResearch extends Command
             'name' => 'Sophie Roske',
             'first_name' => 'Sophie',
             'last_name' => 'Roske',
-            'aka' => ['Nicholas John Roske'],
+            'aka' => 'Nicholas John Roske',
             'gender' => 'Female',
             'state' => 'California',
             'era' => '2020s',
