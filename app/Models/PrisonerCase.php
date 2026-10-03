@@ -24,6 +24,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string|null $judge
  * @property string|null $sentence
  * @property int|null $imprisoned_for_days
+ * @property int|null $documented_imprisoned_for_days
  * @property int|null $imprisoned_for_months
  * @property int|null $in_exile_for_days
  */
@@ -42,6 +43,7 @@ final class PrisonerCase extends Model
         'in_exile_since' => 'date',
         'end_of_exile' => 'date',
         'date_precision' => 'array',
+        'documented_imprisoned_for_days' => 'integer',
     ];
 
     public function partialDateFields(): array
@@ -139,6 +141,13 @@ final class PrisonerCase extends Model
      */
     public function computeImprisonedForDays(): ?int
     {
+        // Prefer a source-confirmed time served when exact custody endpoints
+        // are unavailable or the sentence does not match calendar arithmetic.
+        if ($this->documented_imprisoned_for_days !== null
+            && $this->documented_imprisoned_for_days >= 0) {
+            return $this->documented_imprisoned_for_days;
+        }
+
         // A documented duration outranks the date arithmetic. Where a source
         // states the time served in months and the endpoints are uncertain —
         // Bill Sutherland's 38 months against summaries that variously give
