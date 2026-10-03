@@ -82,7 +82,7 @@ final class ApplySoawAustinChronologyResearch extends Command
     {
         $updates = [
             'michaele-pasquale' => [
-                'profile' => ['name' => 'Mike Pasquale', 'first_name' => 'Mike', 'last_name' => 'Pasquale', 'description' => 'Mike Pasquale was a Syracuse peace activist and program director at the Family Center who crossed onto Fort Benning on November 18, 2001 during a School of the Americas Watch protest. He was convicted of federal trespass on July 12, 2002 and sentenced to six months in prison and a $1,000 fine. Pasquale served the sentence at Federal Prison Camp Allenwood from September 10, 2002 to March 7, 2003.'],
+                'profile' => ['name' => 'Mike Pasquale', 'first_name' => 'Mike', 'last_name' => 'Pasquale', 'gender' => 'Male', 'description' => 'Mike Pasquale was a Syracuse peace activist and program director at the Family Center who crossed onto Fort Benning on November 18, 2001 during a School of the Americas Watch protest. He was convicted of federal trespass on July 12, 2002 and sentenced to six months in prison and a $1,000 fine. Pasquale served the sentence at Federal Prison Camp Allenwood from September 10, 2002 to March 7, 2003.'],
                 'case' => ['sentence' => 'Six months in federal prison and a $1,000 fine', 'days' => 178, 'arrest' => [2001, 11, 18], 'sentenced' => [2002, 7, 12], 'incarceration' => [2002, 9, 10], 'release' => [2003, 3, 7]],
                 'sources' => [['Prison Notes — exact custody dates', 'https://www.peacecouncil.net/pnls/03/721/721_PrisonNotes.htm'], ['National Catholic Reporter — July 12, 2002 sentencing', 'https://natcath.org/NCR_Online/archives2/2002c/080202/080202t.htm']],
             ],
