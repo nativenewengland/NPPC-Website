@@ -1,0 +1,41 @@
+{
+  "follow_up_count": 2,
+  "checks": [
+    {
+      "status": 200,
+      "profile_url": "https://www.politicalprisonercoalition.org/prisoner/steven-charles-hamilton",
+      "image_status": 200,
+      "dimensions": "360x480",
+      "hash_verified": true,
+      "visually_verified": true,
+      "name": "Steven Charles Hamilton"
+    },
+    {
+      "status": 200,
+      "profile_url": "https://www.politicalprisonercoalition.org/prisoner/terry-cannon",
+      "image_status": 200,
+      "dimensions": "360x480",
+      "hash_verified": true,
+      "visually_verified": true,
+      "name": "Terry Cannon"
+    }
+  ],
+  "researched_count": 50,
+  "deployment": {
+    "applied": true,
+    "profiles": [
+      {
+        "name": "Steven Charles Hamilton",
+        "slug": "steven-charles-hamilton",
+        "photo": "prisoners/steven-charles-hamilton-batch163.jpg"
+      },
+      {
+        "name": "Terry Cannon",
+        "slug": "terry-cannon",
+        "photo": "prisoners/terry-cannon-batch163.jpg"
+      }
+    ],
+    "missing_photos": 6530
+  },
+  "successfully_photographed_count": 2
+}
