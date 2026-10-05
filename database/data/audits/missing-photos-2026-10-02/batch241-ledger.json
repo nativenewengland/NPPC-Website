@@ -1,0 +1,37 @@
+{
+  "batch": 241,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch241.json",
+  "target_note": "All one remaining unattempted profile researched. Historical source downloaded and rendered; ambiguous group identification retained for further verification.",
+  "profiles": [
+    {
+      "slug": "ian-sampson",
+      "name": "Ian Sampson",
+      "status": "unresolved_after_identity_search",
+      "queries": [
+        "\"Ian Sampson\" arrest protest ICE photo",
+        "\"Ian Sampson\" Chicago photographer portrait -Northampton -football -RAF",
+        "\"Ian Sampson\" \"Broadview\" photo portrait"
+      ],
+      "source_urls": [
+        "https://www.loevy.com/wp-content/uploads/2025/11/73-21-Ian-Sampson.pdf",
+        "https://clearinghouse.net/case/48177/",
+        "https://chicago.suntimes.com/immigration/2026/05/07/broadview-protesters-federal-lawsuit-ice-immigration-arrest-dna-collection"
+      ],
+      "notes": "Declaration and complaint independently identify27yearoldChicagoaccountant/amateurphotographer arrestedBroadviewSeptember27. No named recognizableportrait found. RejectEnglishfootballmanagerborn1968,RAFofficerandEnvironmentAgencyCornwall namesakes; standardmissingphoto retained."
+    },
+    {
+      "slug": "mark-suchy",
+      "name": "Mark Suchy",
+      "status": "group_mapping_pending_independent_confirmation",
+      "source_urls": [
+        "https://storage.googleapis.com/mnhs-org-support/mn_history_articles/64/v64i02p052-067.pdf"
+      ],
+      "credit": "Courtesy Mark Suchy / Minnesota Historical Society; photographer unnamed",
+      "rights": "No open image license established.",
+      "notes": "Downloaded tmp/suchy241.pdf and renderedPDFpage2/printed53 to tmp/suchy241-page.png; visually inspected large bakerygroup. Caption identifiesSteveSpoeringinallwhite andMarkSuchyat hisleft. Correct earlier overstatement: NOT explicit simple left-to-right two-person portrait; multirowgroup, adjacentpeopleoverlap. CandidatebehindStevewearingcap/glasses requires independentmappingverification beforecrop. IdentitylinkSandstoneconfirmed. PyMuPDFunavailable; Popplerrender succeeded; do not repeatdownloadrender."
+    }
+  ]
+}
