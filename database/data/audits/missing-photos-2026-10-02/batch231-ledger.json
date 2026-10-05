@@ -1,0 +1,42 @@
+{
+  "batch": 231,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch231.json",
+  "target_note": "All one newly unattempted profile researched; two existing profiles received follow-up searches.",
+  "profiles": [
+    {
+      "slug": "robert-chavez-cortez",
+      "name": "Robert Chavez Cortez",
+      "status": "unresolved",
+      "query": "\"Robert Chavez Cortez\" photo arrest",
+      "source_urls": [
+        "https://apps.cacd.uscourts.gov/JpsApi/file/c4650028-9e45-4fe0-6598-08de334a75ca",
+        "https://federal-assault-charges.vercel.app/"
+      ],
+      "notes": "Exact-name court calendar confirms custody, federal simple-assault case 8:25-cr-00235-JWH. No verified recognizable portrait found. Reject unrelated booking records surfaced by split-name search matches."
+    },
+    {
+      "slug": "faith-fippinger",
+      "name": "Faith Fippinger",
+      "status": "usable_lead_pending",
+      "query": "\"Faith Fippinger\" portrait SOA Watch",
+      "source_urls": [
+        "https://www.sfgate.com/news/article/human-shields-await-bombs-in-baghdad-from-2627866.php",
+        "https://elpais.com/diario/2003/08/13/internacional/1060725604_850215.html"
+      ],
+      "notes": "SFGate caption names Fippinger with Donna Mullhearn at Tigris vigil; El Pais names human shield photograph. Retired Sarasota teacher identity supported by CSMonitor. Need verify connection to SOA profile and source image quality before ingestion."
+    },
+    {
+      "slug": "betsy-lamb",
+      "name": "Betsy Lamb",
+      "status": "unresolved",
+      "query": "\"Betsy Lamb\" SOA Watch photo",
+      "source_urls": [
+        "https://www.indybay.org/newsitems/2004/01/28/16690081.php"
+      ],
+      "notes": "Indybay SOA sentencing story includes group_photo_ii.jpg but individual mapping remains unverified. Reject unlinked Waukesha counselor and Cornell IPM scientist portraits; no identity link to 65-year-old Columbia MD SOA prisoner established."
+    }
+  ]
+}
