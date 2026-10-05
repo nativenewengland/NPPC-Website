@@ -1,0 +1,41 @@
+{
+  "batch": 236,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch236.json",
+  "target_note": "All one remaining newly unattempted profile searched. Followed historical Masonovich lead; source access and portrait retrieval failures carried forward.",
+  "profiles": [
+    {
+      "slug": "ashleigh-brown",
+      "name": "Ashleigh Brown",
+      "status": "named_portrait_pending_retrieval",
+      "source_urls": [
+        "https://www.latimes.com/california/story/2026-03-06/ice-monitoring-doxing-charges-los-angeles",
+        "https://www.aol.com/news/l-feds-ramp-doxxing-charges-110000607.html",
+        "https://www.newstribune.com/news/2026/mar/08/la-feds-ramp-up-use-of-doxxing-charges-as-anti/",
+        "https://nz.news.yahoo.com/l-feds-ramp-doxxing-charges-110000581.html"
+      ],
+      "queries": [
+        "\"Ashleigh Brown\" activist Los Angeles portrait",
+        "\"Ashleigh Brown\" cyberstalking ICE photo"
+      ],
+      "credit": "Christina House / Los Angeles Times / TNS",
+      "rights": "No open license established; public accessibility not public domain.",
+      "notes": "Named Feb25 2026 courthouse portrait matches federal ICE-following prosecution. Original LATimes403; AOL404; NewsTribune403 on original retrieval. Yahoo alternate located, not yet retrieved. Prefer unmasked courthouse portrait over CBS masked surveillance image. Carry original retrieval and visual crop verification forward."
+    },
+    {
+      "slug": "philip-masonovich",
+      "name": "Philip Masonovich",
+      "status": "group_portrait_pending_original_retrieval",
+      "source_urls": [
+        "https://shop.mnhs.org/products/minnesota-history-quarterly-fall-2016-65-3",
+        "https://storage.googleapis.com/mnhs-org-support/mn_history_articles/65/v65i03p90-100.pdf",
+        "https://archive.iww.org/node/2556/"
+      ],
+      "credit": "Walter P. Reuther Library, Wayne State University; photographer unnamed",
+      "rights": "Original1916 image likely historic but no definitive creator/publication rights assessed; do not infer rights from magazine reproduction.",
+      "notes": "MNHS official cover description names JoeOrlandich,MilicaMasonovich,PhilipMasonovich,JoeNickich; IWW history confirms correct miner imprisonment. Original cover download failed local_rate_limited. Need explicit ordered mapping and high resolution original before clean crop; current web text alone insufficient. MarkSuchy context queried but no new completed research counted."
+    }
+  ]
+}
