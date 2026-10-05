@@ -1,0 +1,33 @@
+{
+  "batch": 244,
+  "newly_attempted_count": 1,
+  "researched_count": 1,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch244.json",
+  "target_note": "All one remaining unattempted profile researched and photographed.",
+  "profiles": [
+    {
+      "slug": "robert-held",
+      "name": "Robert Held",
+      "status": "verified_photo_deployed",
+      "queries": [
+        "Robert Held arrested Broadview",
+        "Robert Held prisoner photo",
+        "Robert Held Held Law portrait"
+      ],
+      "source_urls": [
+        "https://www.cbsnews.com/chicago/news/attorney-detained-ice-facility-broadview-protests/",
+        "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/02/089a8f81-ed7a-40be-bced-d8a95a49a8ca/thumbnail/1200x630/3324b6fc1dfa3b9115df03fa40496597/screenshot-2025-10-02-170311.jpg",
+        "https://www.macarthurjustice.org/wp-content/uploads/2025/10/Broadview-Declarations-compressed.pdf",
+        "https://chicagocouncil.org/our-members-are-living-our-values/",
+        "https://profiles.superlawyers.com/illinois/chicago/lawyer/robert-s-held/0a72e6f3-c2f6-4e02-adb8-c359a4a041fc.html"
+      ],
+      "credit": "CBS Chicago; interview report by Sabrina Franza; camera operator unnamed",
+      "rights": "No open image license established; user-authorized uncertain-rights use; not presumed public domain.",
+      "crop": "Original 1106x581; crop (440,45,800,525), 360x480, no aspect distortion",
+      "notes": "CBS October 2 2025 interview identifies 68-year-old Chicago attorney Robert Held detained at Broadview September 27 without charges. Signed MacArthur Justice declaration independently confirms name, age, Held Law Offices, arrest date and overnight release. Single interview subject visible unmasked; distinct from journalist Stephen Held and Canadian glass artist Robert Held. Super Lawyers image is a generic silhouette placeholder; reject. Firm homepage offers no named individual portrait.",
+      "deployment": "Guarded dry-run and apply succeeded. Public profile HTTP200 newimagepath and exact imageSHA256 confirmed; 360x480 crop visually inspected."
+    }
+  ],
+  "maintenance": "Previous audit243 committed and pushed 0f417275 despite Git auto-gc disk exhaustion. Removed only newly generated failed temporary pack tmp_pack_JYJCe0; disk free19GB; inventory retry successful. Other historical temporary packs untouched."
+}
