@@ -1,0 +1,44 @@
+{
+  "profiles": [
+    {
+      "slug": "job-garcia",
+      "name": "Job Garcia",
+      "status": "usable_lead_pending",
+      "query": "\"Job Garcia\" ICE arrested photo Los Angeles",
+      "source_urls": [
+        "https://www.latimes.com/espanol/california/articulo/2025-06-21/border-patrol-agents-brag-in-front-of-detained",
+        "https://www.foxla.com/news/us-citizen-speaks-out-detained-by-ice",
+        "https://www.maldef.org/wp-content/uploads/2025/07/FTCA-J.-Garcia-Redacted_7-1-2025.pdf"
+      ],
+      "notes": "Named June 20, 2025 Silver Lake portrait by Luke Johnson / Los Angeles Times matches doctoral candidate detained at Hollywood Home Depot. Retrieve an unwatermarked source, inspect quality and record rights before ingestion. Getty premium preview not ingested."
+    },
+    {
+      "slug": "anthony-orendorff",
+      "name": "Anthony Orendorff",
+      "status": "usable_lead_pending",
+      "query": "\"Anthony Orendorff\" ICE arrested photo",
+      "source_urls": [
+        "https://sanfernandosun.com/2025/06/25/documentarian-after-being-held-by-police-for-four-days-is-undeterred/"
+      ],
+      "notes": "Named release photograph with mother credited Gabriel Arizon / SFVS / el Sol. Article matches Pacoima June 19 arrest and June 23 release. Web access returned HTTP 429; clean isolated portrait crop remains unverified."
+    },
+    {
+      "slug": "juan-munoz",
+      "name": "Juan Muñoz",
+      "status": "verified_portrait_staged",
+      "source_urls": [
+        "https://www.flickr.com/photos/pgoyette/54896989852",
+        "https://www.oakpark.com/2026/09/29/juan-munoz/"
+      ],
+      "notes": "Paul Goyette caption names Oak Park Township Trustee. Flickr HTML ImageObject explicitly licenses image CC BY 4.0. Source and proportional crop visually inspected; ready for guarded deployment."
+    }
+  ],
+  "flickr_license": "https://creativecommons.org/licenses/by/4.0/",
+  "flickr_title": "20251028_5599",
+  "flickr_date_taken": "2025-10-28",
+  "creator": "Paul Goyette",
+  "access_failures": [
+    "Flickr web cache miss; direct HTML and image available",
+    "San Fernando Valley Sun HTTP 429"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "batch": 219,
+  "inventory": "tmp/photo-health-batch219.json",
+  "inventory_counts": {
+    "valid_image_header": 3874,
+    "blank": 6550,
+    "missing_asset": 1
+  },
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "target_note": "All two remaining unattempted profiles researched; followed one previously documented usable lead.",
+  "profiles": [
+    {
+      "slug": "job-garcia",
+      "name": "Job Garcia",
+      "status": "usable_lead_pending",
+      "query": "\"Job Garcia\" ICE arrested photo Los Angeles",
+      "source_urls": [
+        "https://www.latimes.com/espanol/california/articulo/2025-06-21/border-patrol-agents-brag-in-front-of-detained",
+        "https://www.foxla.com/news/us-citizen-speaks-out-detained-by-ice",
+        "https://www.maldef.org/wp-content/uploads/2025/07/FTCA-J.-Garcia-Redacted_7-1-2025.pdf"
+      ],
+      "notes": "Named June 20, 2025 Silver Lake portrait by Luke Johnson / Los Angeles Times matches doctoral candidate detained at Hollywood Home Depot. Retrieve an unwatermarked source, inspect quality and record rights before ingestion. Getty premium preview not ingested."
+    },
+    {
+      "slug": "anthony-orendorff",
+      "name": "Anthony Orendorff",
+      "status": "usable_lead_pending",
+      "query": "\"Anthony Orendorff\" ICE arrested photo",
+      "source_urls": [
+        "https://sanfernandosun.com/2025/06/25/documentarian-after-being-held-by-police-for-four-days-is-undeterred/"
+      ],
+      "notes": "Named release photograph with mother credited Gabriel Arizon / SFVS / el Sol. Article matches Pacoima June 19 arrest and June 23 release. Web access returned HTTP 429; clean isolated portrait crop remains unverified."
+    },
+    {
+      "slug": "juan-munoz",
+      "name": "Juan Muñoz",
+      "status": "verified_photo_deployed",
+      "source_urls": [
+        "https://www.flickr.com/photos/pgoyette/54896989852",
+        "https://www.oakpark.com/2026/09/29/juan-munoz/"
+      ],
+      "notes": "Paul Goyette caption names Oak Park Township Trustee. Flickr HTML ImageObject explicitly licenses image CC BY 4.0. Source and proportional crop visually inspected; ready for guarded deployment. Deployed successfully; public profile HTTP 200 and image SHA256 matched 979334e546a713d8293f5db9bacbcc86f3a72024b93d53f8daa81841c06d09dc. Proportional 360x480 crop visually verified; relevant caches refreshed."
+    }
+  ]
+}
