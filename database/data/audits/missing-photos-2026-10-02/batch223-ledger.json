@@ -1,0 +1,26 @@
+{
+  "batch": 223,
+  "inventory": "tmp/photo-health-batch223.json",
+  "inventory_counts": {
+    "valid_image_header": 3878,
+    "blank": 6547,
+    "missing_asset": 1
+  },
+  "newly_attempted_count": 0,
+  "researched_count": 1,
+  "successfully_photographed_count": 1,
+  "target_note": "No remaining unattempted profiles in fresh inventory; completed documented usable lead. Other leads remain pending.",
+  "profiles": [
+    {
+      "slug": "job-garcia",
+      "name": "Job Garcia",
+      "status": "verified_photo_deployed",
+      "source_urls": [
+        "https://www.latimes.com/espanol/california/articulo/2025-06-21/border-patrol-agents-brag-in-front-of-detained"
+      ],
+      "credit": "Luke Johnson / Los Angeles Times",
+      "rights": "No open license established; user-authorized uncertain-rights use. Not presumed public domain.",
+      "notes": "Named June 20, 2025 portrait in Silver Lake apartment. Caption and article link Job Garcia directly to June 19 Hollywood Home Depot arrest and following-day release, matching profile and MALDEF claim. Public profile HTTP 200 and image path confirmed; downloaded SHA256 b7161fefdcb85c79bd530491a6e627b2ce58125f931d1d7d59796e5ba895ffab matched. Proportional 360x480 crop visually verified; relevant caches refreshed."
+    }
+  ]
+}
