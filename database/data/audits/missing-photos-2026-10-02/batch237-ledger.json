@@ -1,0 +1,51 @@
+{
+  "batch": 237,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch237.json",
+  "target_note": "All two remaining unattempted profiles researched; one verified portrait deployed. Existing Ashleigh Yahoo lead returned429; carried forward.",
+  "profiles": [
+    {
+      "slug": "abu-agila-masud",
+      "name": "Abu Agila Mohammad Masâ€™ud Kheir Al-Marimi",
+      "status": "verified_photo_deployed",
+      "source_urls": [
+        "https://abcnews.com/US/pan-103-bombing-case-suspect-appears-court/story?id=95066207",
+        "https://i.abcnewsfe.com/a/e4aac425-d47f-48d1-b03b-541ad31a49d0/abu-agila-mohammad-ho-mz-17-221212_1670852724795_hpMain_4x5.jpg"
+      ],
+      "credit": "Alexandria Sheriffâ€™s Office, via ABC News",
+      "rights": "Local government booking photograph; no explicit open license established. User-authorized uncertain-rights use; not presumed federal public domain.",
+      "crop": "2458x3072 original; box (77,0,2381,3072); proportional resize to 360x480, embedded source credit retained",
+      "notes": "ABC News December12 2022 explicitly names full defendant and Alexandria detention booking in image caption; same Lockerbie prosecution and custody as profile. Booking face visually inspected; source credit in image retained.",
+      "deployment": "Guarded dry run and apply succeeded. Public profile200 references new portrait; imageSHA256 matches.360x480 crop visually inspected."
+    },
+    {
+      "slug": "sandra-carmona-samane",
+      "name": "Sandra Carmona Samane",
+      "status": "unresolved_after_identity_search",
+      "queries": [
+        "\"Sandra Carmona Samane\" portrait",
+        "\"Sandra Karmona\" photo activist",
+        "\"Sandra Carmona Samame\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://www.nacdl.org/getattachment/fe99b67c-cb40-4548-b1e6-3fc02f5bae79/gov-uscourts-cacd-988764-161-0.pdf",
+        "https://laopinion.com/2025/09/28/mujeres-acusadas-de-acosar-a-agente-de-ice-en-los-angeles/",
+        "https://baldwinparknewsonline.com/two-women-found-guilty-after-following-ice-agent-to-baldwin-park-home-and-live-streaming-address/"
+      ],
+      "notes": "Court document confirms alternateSamame spelling andKarmona alias. Exact identity reporting describes25yearoldPanoramaCitydefendantacquitted; no independently captioned recognizable portrait found. Do not use photos of co-defendantsRaygoza/Brown. Standardmissingphoto retained."
+    },
+    {
+      "slug": "ashleigh-brown",
+      "name": "Ashleigh Brown",
+      "status": "named_portrait_pending_retrieval",
+      "source_urls": [
+        "https://nz.news.yahoo.com/l-feds-ramp-doxxing-charges-110000581.html"
+      ],
+      "credit": "Christina House / Los Angeles Times",
+      "rights": "No open license established.",
+      "notes": "RemainingYahooalternative attempted; HTTP429. Do not repeat immediateYahoo fetch. EarlierLAT403,AOL404,NewsTribune403. Namedcourthouseportrait stillpendingaccessibleoriginal."
+    }
+  ]
+}
