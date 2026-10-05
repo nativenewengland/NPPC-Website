@@ -1,0 +1,46 @@
+{
+  "batch": 245,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch245.json",
+  "target_note": "Zero unattempted profiles at fresh inventory; two existing SOA leads followed.",
+  "profiles": [
+    {
+      "slug": "diane-lopez-hughes",
+      "name": "Diane Lopez Hughes",
+      "status": "verified_photo_deployed",
+      "queries": [
+        "Diane Lopez Hughes photo school americas"
+      ],
+      "source_urls": [
+        "https://www.nprillinois.org/people/diane-lopez-hughes",
+        "https://npr-brightspot.s3.amazonaws.com/legacy/sites/wuis/files/201509/lopezhughes-2400x1600.jpg",
+        "https://www.illinoistimes.com/news/cap-city-11446449/",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+        "https://www.essexethical.org/june2008.pdf"
+      ],
+      "credit": "NPR Illinois; photographer unnamed",
+      "rights": "No explicit open image license established; user-authorized uncertain-rights use; not presumed public domain.",
+      "crop": "2400x1600 original; NPR own portrait framing (479,0,1679,1600); proportional resize360x480",
+      "notes": "NPR Illinois explicitly labels Diane Lopez Hughes headshot and describes retired Springfield nurse and peace/environment activist. Illinois Times January 30 2008 Cap City independently identifies local peace activist by exact name and 45-day/$500 Fort Benning sentence matching profile; Nuke Resister148 confirms Springfield age58 and same sentence. Single named recognizable real portrait.",
+      "deployment": "Guarded dry run/apply successful; public profile200 newpath and imageSHA256 match;360x480 crop visually inspected."
+    },
+    {
+      "slug": "byron-plumley-jr",
+      "name": "Byron Plumley Jr.",
+      "status": "named_archive_group_pending_retrieval",
+      "queries": [
+        "Byron Plumley portrait SOA"
+      ],
+      "source_urls": [
+        "https://www.regis.edu/news/2022/magazine/06/safe-outdoor-space-provides-a-lifeline-to-residents",
+        "https://www.lorettocommunity.org/wp-content/uploads/2021/02/Final-for-web-winter-2021-Loretto-Magazine1.pdf",
+        "https://www.lorettocommunity.org/loretto-stands-at-the-border-to-close-the-school-of-the-americas/"
+      ],
+      "notes": "Regis University confirms retired religious studies educator and Catholic Worker identity, but displayed article photos identify other people; do not substitute residents Joe Giles or Cuica Montoya. New Loretto winter2021 page8 caption explicitly places Byron far right in five-person August6 2020 vigil. PDF needs retrieval/render and recognizable unmasked face check; pandemic mask may make it unusable. 2017 group caption not explicitly ordered, cannot crop yet.",
+      "credit": "2021 group courtesy Byron Plumley, photographer unnamed; Regis article photos Barry Bear Gutierrez (other subjects)",
+      "rights": "No open image license established. No crop/deployment for Byron."
+    }
+  ]
+}
