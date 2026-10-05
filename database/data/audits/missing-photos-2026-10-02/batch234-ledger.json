@@ -1,0 +1,41 @@
+{
+  "batch": 234,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch234.json",
+  "target_note": "All one newly unattempted profile researched. Existing named Alexandria lead retrieved, inspected and deployed.",
+  "profiles": [
+    {
+      "slug": "alexandria-demetrius-augustine",
+      "name": "Alexandria Demetrius Augustine",
+      "status": "verified_photo_deployed",
+      "source_urls": [
+        "https://www.latimes.com/california/story/2025-12-01/dhs-1000-percent-increase-attacks-on-ice-agents-times-analysis",
+        "https://www.edinburgpost.com/attacks-on-ice-up-1000-trump-administration-claim-not-backed-up-by-court-records/"
+      ],
+      "credit": "Juliana Yamada / Los Angeles Times",
+      "rights": "No open license established; user-authorized uncertain-rights use; not presumed public domain.",
+      "crop": "5472x3648 original; box (2250,300,3990,2620); proportional resize to 360x480",
+      "notes": "Named Nov26 2025 West Hollywood home portrait; report describes October jury acquittal after umbrella assault allegation at ICE protest, matching profile. Caption and original inspected through EdinburgPost reproduction; congressional hearing also reproduces named portrait.",
+      "deployment": "Guarded dry run and apply succeeded; public profile HTTP200 references new image; image hash matches; crop visually inspected."
+    },
+    {
+      "slug": "esteban-armenta-arias",
+      "name": "Esteban Armenta Arias",
+      "status": "unresolved_after_identity_search",
+      "queries": [
+        "\"Esteban Armenta Arias\" photo protest",
+        "\"Esteban Arias\" \"Roybal\" arrest photograph",
+        "\"Esteban Armenta Arias\" Los Angeles",
+        "\"Esteban Armenta\" ICE photo"
+      ],
+      "source_urls": [
+        "https://federal-assault-charges.vercel.app/",
+        "https://inmatereleases.org/arizona-inmate-locator/?abc=a&pg=153",
+        "https://itoldya420.getarchive.net/media/spc-esteban-armenta-a-medic-with-headquarters-and-081a86"
+      ],
+      "notes": "Exact-name reporting matches June2025 Roybal bottle allegation but provides no identified portrait. Reject unlinked Arizona inmate Esteban Armenta and 2008 San Antonio Army medic namesakes, plus directory and wrestler results: no independent identity link. Standard missing-photo treatment retained."
+    }
+  ]
+}
