@@ -1,0 +1,30 @@
+{
+  "batch": 232,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch232.json",
+  "target_note": "No remaining unattempted profiles found. Two existing leads retrieved and visually inspected; identity/crop work remains pending.",
+  "profiles": [
+    {
+      "slug": "faith-fippinger",
+      "name": "Faith Fippinger",
+      "status": "usable_portrait_pending_profile_link",
+      "source_urls": [
+        "https://elpais.com/diario/2003/08/13/internacional/1060725604_850215.html"
+      ],
+      "notes": "Named single-person original downloaded tmp/faith232.jpg (1960x2851) and visually inspected: recognizable real portrait seated holding document. Source identifies human shield Faith Fippinger. Confirm Sarasota teacher and SOA custody profile identity before crop and ingestion; extract creator credit from caption.",
+      "rights": "No open license established; public access is not public-domain evidence."
+    },
+    {
+      "slug": "betsy-lamb",
+      "name": "Betsy Lamb",
+      "status": "unresolved_after_source_inspection",
+      "source_urls": [
+        "https://www.indybay.org/newsitems/2004/01/28/16690081.php",
+        "https://www.indybay.org/uploads/2004/01/28/group_photo_ii.jpg"
+      ],
+      "notes": "Original 443x254 group image downloaded and visually inspected. Faces tiny and no ordered caption establishing Lamb among 20-plus subjects. Reject crop as inadequate identity mapping and resolution; do not repeat this image retrieval."
+    }
+  ]
+}
