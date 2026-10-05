@@ -1,0 +1,30 @@
+{
+  "batch": 276,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch276.json",
+  "inventory_counts": {"valid_image_header":3894,"blank":6559,"missing_asset":1},
+  "target_note": "Fresh live inventory has no unattempted profiles. Continued two unresolved identity-specific portrait leads.",
+  "profiles": [
+    {
+      "slug":"philip-masonovich", "name":"Philip Masonovich",
+      "status":"verified_sitter_low_resolution_primary_scan_pending",
+      "queries":["Philip Masonovich photograph","Masonovich site:reuther.wayne.edu","Philip Masonovich Orlandich photo"],
+      "source_urls":["https://weneverforget.org/tag/masonovich-family/","https://weneverforget.org/wp-content/uploads/2016/12/Masonovich-P.-M.-Boarders-ISR-Sept-1916.png","https://dokumen.pub/flames-of-discontent-the-1916-minnesota-iron-ore-strike-1517902681-9781517902681.html","https://shop.mnhs.org/products/minnesota-history-quarterly-fall-2016-65-3"],
+      "notes":"Downloaded and visually inspected the International Socialist Review September 1916 composite reproduced by We Never Forget. Its visible caption explicitly identifies clockwise from top left: Mr. Masonovich, Gavolivo Orlandich, Jovo Hercigonovich, Jovo Nickich; Mrs. Masonovich in center. Philip is therefore top left in THIS composite. Do not apply the left-to-right order of the separate five-person photograph from Flames of Discontent to this composite. The downloaded composite is approximately 280 by 535 pixels including caption; Philip's available portrait is approximately 130 by 220, inadequate for a clean standard portrait. No enlargement deployed. Seek a higher-resolution original September 1916 ISR scan. The historical article independently names Philip, age 35, as a Biwabik defendant sentenced in December 1916. MNHS shop direct access returned a JavaScript connection-verification challenge. Prior wife-only portrait remains rejected.",
+      "credit":"International Socialist Review, September 1916; digital reproduction hosted by We Never Forget; original photographer not established.",
+      "rights":"Publication date supports a pre-1930 US publication lead; exact original scan and provenance still to be recorded before ingestion.",
+      "crop":"None saved or deployed; top-left sitter verified only."
+    },
+    {
+      "slug":"mark-suchy", "name":"Mark Suchy",
+      "status":"unresolved_group_mapping",
+      "queries":["Mark Suchy Minnesota portrait socialist"],
+      "source_urls":["https://storage.googleapis.com/mnhs-org-support/mn_history_articles/64/v64i02p052-067.pdf","https://www.claritymn.com/team","https://www.rockwellautomation.com/en-us/company/news/case-studies/massman-oem-packaging.html"],
+      "notes":"Continued People's Company Bakery historical identity. MN History photograph credits to Mark Suchy identify a provider and do not establish him as a sitter. No ordered caption or independent portrait bridge found. Reject unlinked Clarity Medicare specialist headshot, Massman vice-president of sales, Ramsey County deputy Mark A. Suchy, and TreeHouse Foods employee as unsupported namesakes. Previous sportswriter rejection preserved in batch242.",
+      "rights":"No portrait accepted; group-photo rights and sitter identification remain unresolved."
+    }
+  ],
+  "deployment":{"performed":false,"reason":"No image met both verified identity and usable resolution requirements."}
+}
