@@ -1,0 +1,16 @@
+{
+ "batch":246,"newly_attempted_count":1,"researched_count":2,"successfully_photographed_count":0,
+ "inventory":"tmp/photo-health-batch246.json",
+ "target_note":"All one unattempted profile researched; one existing Loretto lead pursued. Access failures prevented image inspection and no verified photo was added.",
+ "profiles":[
+  {"slug":"maxwell-wolf","name":"Maxwell Wolf","status":"unresolved_court_exhibit_access_failure",
+   "queries":["Maxwell Wolf arrested ICE","Maxwell Wolf protest photo"],
+   "source_urls":["https://www.loevy.com/wp-content/uploads/2025/11/284-6-DHS-Report-of-Investigation-09.19.2025-1.pdf","https://dig.abclocal.go.com/wls/documents/2025/112125-wls-ice-use-force-opinion.pdf","https://caselaw.findlaw.com/court/us-dis-crt-n-d-ill-eas-div-eas-div/117965897.html"],
+   "notes":"Identity-specific court report and opinion match September19 2025 Broadview detention, alleged object throwing, misdemeanor citation, processing release. No verified face in search results. Reject unlinked art curator/Canadian celebrity partner, Albuquerque pizzeria owner, theater actor, youth wrestler and hockey player; names alone insufficient. Court investigation PDF could contain attachments but direct retrieval403 and browser fetch400; no pages inspected, no booking image claimed. Preserve pending alternate public court copy lead.",
+   "rights":"No portrait selected; no crop or deployment."},
+  {"slug":"byron-plumley-jr","name":"Byron Plumley Jr.","status":"named_archive_group_access_failure",
+   "source_urls":["https://www.lorettocommunity.org/wp-content/uploads/2021/02/Final-for-web-winter-2021-Loretto-Magazine1.pdf"],
+   "notes":"Continued batch245 named far-right August6 2020 vigil group lead. Direct PDF403; browser text accessible32pages, but page8 screenshot cache miss. Cannot determine mask, face quality or crop; no image accepted. Avoid repeating same fetch without changed access or alternate copy.",
+   "credit":"Photo courtesy Byron Plumley; photographer unnamed","rights":"No open image license established; no crop/deployment."}
+ ]
+}
