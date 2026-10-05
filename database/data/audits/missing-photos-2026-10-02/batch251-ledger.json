@@ -1,0 +1,32 @@
+{
+  "batch": 251,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch251.json",
+  "inventory_counts": {"valid_image_header": 3887, "blank": 6558, "missing_asset": 1},
+  "target_note": "All one remaining unattempted profile searched; one existing movement archive lead pursued. No usable verified portrait selected.",
+  "profiles": [
+    {
+      "slug": "nathaniel-bouchie",
+      "name": "Nathaniel Bouchie",
+      "status": "unresolved_identity_bridge",
+      "queries": ["Nathaniel Bouchie arrested photo", "Nathan Bouchie Broadview photo"],
+      "source_urls": ["https://caselaw.findlaw.com/court/us-dis-crt-n-d-ill-eas-div-eas-div/117965897.html", "https://news.wttw.com/sites/default/files/article/file-attachments/EllisOrderNov20.pdf", "https://cricket-mackerel-3ygr.squarespace.com/volunteer-spotlight/nathaniel-bouchie", "https://www.linkedin.com/in/nathanielbouchie", "https://www.wayup.com/profile/Nathaniel-Bouchie-78884440b7/"],
+      "notes": "Court account matches September 19, 2025 Broadview arrest, citation and release, and describes helmet, goggles and mask. Named volunteer and engineering profiles are potential portrait leads but no independent evidence ties them to the arrested individual. Chicagoland location alone is insufficient. No namesake portrait ingested. Preserve volunteer spotlight for future independent identity bridge.",
+      "rights": "No image selected; no credit, crop or deployment."
+    },
+    {
+      "slug": "julienne-oldfield",
+      "name": "Julienne Oldfield",
+      "status": "unresolved_source_too_small",
+      "queries": ["Julienne Oldfield SOA portrait"],
+      "source_urls": ["https://www.soaw-austin.org/POC1983_2012.php", "https://www.soaw-austin.org/fotos/julianneoldfieldsm.gif", "https://www.peacecouncil.net/clac/soa.htm"],
+      "notes": "Movement chronology explicitly associates image with 69-year-old Syracuse activist, UK migration in 1978, Syracuse University arts degree and January 29, 2007 three-month SOA sentence. Downloaded original GIF is only 129 by 150 pixels, below usable portrait quality; do not upscale into a 360 by 480 portrait. Larger original or Syracuse Peace Council archive remains unresolved lead.",
+      "credit": "SOAW Austin archive; photographer unnamed",
+      "rights": "No open license established; public accessibility is not public domain. No image deployed.",
+      "crop": null,
+      "deployment": null
+    }
+  ]
+}
