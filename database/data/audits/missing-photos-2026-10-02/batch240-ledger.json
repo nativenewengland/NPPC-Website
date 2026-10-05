@@ -1,0 +1,37 @@
+{
+  "batch": 240,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch240.json",
+  "target_note": "All one remaining unattempted profile researched. Existing MarkSuchy source screenshot unavailable; crop work carried forward.",
+  "profiles": [
+    {
+      "slug": "christopher-chitwood",
+      "name": "Christopher Chitwood",
+      "status": "unresolved_after_identity_search",
+      "queries": [
+        "\"Christopher Chitwood\" arrest photo ICE",
+        "\"Christopher Chitwood\" Sacramento protest",
+        "\"Chris Chitwood\" Sacramento arrest"
+      ],
+      "source_urls": [
+        "https://federal-assault-charges.vercel.app/",
+        "https://law.justia.com/cases/federal/appellate-courts/F3/52/338/573011/",
+        "https://www.linkedin.com/in/christopher-chitwood-472a94a7"
+      ],
+      "notes": "Exact-name case tracker matches650CapitolMallSacramento federalassault allegation but noface. Reject unlinked1995TenthCircuitdrugdefendantChristopherDonChitwood,DOJemployeeLinkedIn,Reddingprofessional,IllinoisIan/TimothyChristopherChitwood bookings,andFloridaMikeChitwoodsheriff. Noverifiedportrait;standardmissingphoto retained."
+    },
+    {
+      "slug": "mark-suchy",
+      "name": "Mark Suchy",
+      "status": "portrait_pending_original_render",
+      "source_urls": [
+        "https://storage.googleapis.com/mnhs-org-support/mn_history_articles/64/v64i02p052-067.pdf"
+      ],
+      "credit": "Courtesy Mark Suchy / Minnesota Historical Society; photographer unnamed",
+      "rights": "No open image license established.",
+      "notes": "PDF text available, but web screenshot page2 failedcachemiss. Need directoriginaldownload/localrender to inspect page53 orderedportrait. Existing confirmedSandstonedraftresisteridentity retained; noimageadded."
+    }
+  ]
+}
