@@ -1,0 +1,38 @@
+{
+  "batch": 233,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch233.json",
+  "target_note": "All one remaining unattempted profile researched; existing Faith lead independently linked and deployed. Alexandria named portrait lead requires original retrieval and crop verification; republisher access failed.",
+  "profiles": [
+    {
+      "slug": "faith-fippinger",
+      "name": "Faith Fippinger",
+      "status": "verified_photo_deployed",
+      "source_urls": [
+        "https://elpais.com/diario/2003/08/13/internacional/1060725604_850215.html",
+        "https://original.antiwar.com/kathy-kelly/2004/01/28/iraq-activist-kathy-kelly-sentenced-to-federal-prison/",
+        "https://www.scoop.co.nz/stories/WO0401/S00122/americans-on-trial-for-protesting-terror-training.htm"
+      ],
+      "credit": "El PaÃ­s; photographer unnamed",
+      "rights": "No open license established; user-authorized uncertain-rights use; not presumed public domain.",
+      "crop": "1960x2851 original; box (850,30,1930,1470); proportional resize to 360x480",
+      "deployment": "Guarded dry run and apply succeeded; public profile HTTP200 references new portrait; public image SHA256 matches; crop visually inspected."
+    },
+    {
+      "slug": "alexandria-demetrius-augustine",
+      "name": "Alexandria Demetrius Augustine",
+      "status": "named_portrait_pending_retrieval",
+      "source_urls": [
+        "https://www.latimes.com/california/story/2025-12-01/dhs-1000-percent-increase-attacks-on-ice-agents-times-analysis",
+        "https://www.govinfo.gov/content/pkg/CHRG-119hhrg63126/pdf/CHRG-119hhrg63126.pdf",
+        "https://malaysia.news.yahoo.com/attacks-ice-1-000-trump-110000437.html",
+        "https://www.edinburgpost.com/attacks-on-ice-up-1000-trump-administration-claim-not-backed-up-by-court-records/"
+      ],
+      "credit": "Juliana Yamada / Los Angeles Times",
+      "rights": "No open license established; congressional reproduction does not establish public domain.",
+      "notes": "Identity-specific exact-name and activist/umbrella searches matched Roybal ICE protest acquittal. Named portrait at West Hollywood home following court win appears in LA Times Dec1 2025 report and congressional hearing PDF p88. Retrieve original/syndicated source and inspect before crop. EdinburgPost web fetch cache miss. NPI behavior technician record is not portrait identity proof; no image ingested."
+    }
+  ]
+}
