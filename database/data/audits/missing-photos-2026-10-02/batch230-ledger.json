@@ -1,0 +1,32 @@
+{
+  "batch": 230,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch230.json",
+  "target_note": "No unattempted profiles remain in fresh inventory. Two documented leads retrieved and visually inspected; no acceptable portrait ingested.",
+  "profiles": [
+    {
+      "slug": "george-lucas",
+      "name": "George Lucas",
+      "status": "unresolved_after_source_inspection",
+      "source_urls": [
+        "https://cambriamemory.org/george-lucas/",
+        "https://cambriamemory.org/wp-content/uploads/2025/08/GeorgeLucas.jpg"
+      ],
+      "notes": "Direct original image downloaded and visually inspected: grave marker plaque only, not a face portrait. Reject as prisoner portrait; do not repeat this lead. Historical source identity does not turn grave image into portrait."
+    },
+    {
+      "slug": "bernie-survil",
+      "name": "Bernie Survil",
+      "status": "unresolved_after_source_inspection",
+      "source_urls": [
+        "https://paxchristiusa.org/2023/03/27/war-is-always-a-defeat-for-humanity-remembering-a-pax-christi-action/",
+        "https://paxchristiusa.org/wp-content/uploads/2023/03/march-26-2003.jpg"
+      ],
+      "credit": "Rick Reinhard / Impact Digitals, 2003",
+      "rights": "Explicit copyright; no open license established.",
+      "notes": "Original 1200x675 group image downloaded and visually inspected. Caption places Survil on right but several people occupy that region; inadequate individual mapping for clean crop. Do not guess or ingest. Need a precisely labeled individual portrait or independent mapping before using this image."
+    }
+  ]
+}
