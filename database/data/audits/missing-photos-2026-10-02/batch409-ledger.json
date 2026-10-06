@@ -1,0 +1,83 @@
+{
+  "batch": 409,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch409.json",
+  "inventory_counts": {
+    "valid_image_header": 3911,
+    "blank": 6648,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched. Followed unresolved currently imprisoned portrait lead; no need to repeat completed searches.",
+  "profiles": [
+    {
+      "slug": "khalfani-malik-khaldun",
+      "name": "Khalfani Malik Khaldun",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://khalfanikhaldun.wordpress.com/",
+        "https://khalfanikhaldun.wordpress.com/wp-content/uploads/2022/03/khalfani-2020.jpg"
+      ],
+      "credit": "Friends and Family Campaign to Free Khalfani M. Khaldun; photograph credited to Annabelle in source metadata; filename dated 2020.",
+      "rights": "Rights status unknown; no public-domain claim.",
+      "crop": {
+        "original_size": [
+          282,
+          358
+        ],
+        "box": [
+          8,
+          4,
+          272,
+          356
+        ],
+        "output": [
+          360,
+          480
+        ]
+      },
+      "identity_verification": "Family campaign explicitly captions recent photos of Khalfani Malik Khaldun and identifies Leonard McQuay #874304, matching live profile."
+    },
+    {
+      "slug": "kokichi-nakamura",
+      "name": "Kokichi Nakamura",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Kokichi Nakamura Hawaii internee photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-kokichi"
+      ],
+      "notes": "1887 Wailuku mail carrier, son Shigemi in 442nd. Santa Fe row 5 fourth, JCCH/Tamio Nakamura collection. Original previously inaccessible, alternate archive pending. 1898 California namesakes rejected.",
+      "rights": "Unknown; no accepted image."
+    },
+    {
+      "slug": "yuichi-nakamura",
+      "name": "Yuichi Nakamura",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Yuichi Nakamura Hawaii internee photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-yuichi",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/2573.Santa_Fe_Internees_with_ministers.jpg"
+      ],
+      "notes": "1897 Honolulu hotel owner confirmed. Altar photograph back row third, JCCH/Rev Hakuai Oda collection. Web image retrieval cache miss; alternate original pending. 1912 Captain Cook coffee farmer, modern actors and NGO founder rejected.",
+      "rights": "Unknown; no accepted image."
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/khalfani-malik-khaldun",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/khalfani-malik-khaldun-batch409.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "f5362eec2c3a4b8c06a568b0f9deec7fc2674968ff4b1276c60890bfcf7663e6",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
