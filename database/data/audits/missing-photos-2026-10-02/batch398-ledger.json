@@ -1,0 +1,52 @@
+{
+  "batch": 398,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch398.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6637,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched, plus pending Kitajima yearbook followup. Archive returned empty PDF; usable lead carried forward.",
+  "profiles": [
+    {
+      "slug": "sumie-kitajima",
+      "name": "Sumie Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"Sumie Kitajima\" Hawaii obituary photo",
+        "\"Sumie Kitajima\" Yoshio Roku",
+        "\"Sumie Kitajima\" \"Roku\"",
+        "\"Sumie Kitajima\" \"Kohala\"",
+        "\"Sumie Kitajima\" portrait internment"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-sumie",
+        "https://incarceration.jcchawaii.org/internees/kitajima-yoshio",
+        "https://incarceration.jcchawaii.org/places/tule-lake-segregation-center-california",
+        "https://www.hawaiitribune-herald.com/2013/03/08/obituaries/obituaries-for-march-8/",
+        "https://artscenter.uhh.hawaii.edu/applause"
+      ],
+      "notes": "Live profile identifies infant born Tule Lake May1944 to Yoshio and Roku, confined throughNovember1945. Father primary household and camp roster confirm daughter. Individual JCCH web internalerror. No identified portrait found. Sumie Kitajima-Ogata in2013 obituary is daughter of Nancy Mitsue, not Roku; reject identity assumption despite shared Stanley sibling name. Modern donor mentions provide no bridge or individually identified portrait.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Individually identified Yoshio/Roku family photo containing infant Sumie; later-life married name independently bridged to parents."
+      ]
+    },
+    {
+      "slug": "takashi-kitajima",
+      "name": "Takashi Kitajima",
+      "status": "followup_archive_inaccessible",
+      "source_urls": [
+        "https://digicoll.lib.berkeley.edu/nanna/record/174725/files/cubanc_35_1_00261309ta.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+      ],
+      "notes": "Direct archival download returned zero bytes; pypdf EmptyFileError. Indexed named row4 first-left remains pending; no pixels or publication/camp identity verified. Do not repeat this failed download endpoint unchanged.",
+      "rights": "Unverified; no image accepted.",
+      "unresolved_leads": [
+        "Find alternate Berkeley catalog/IIIF original for record174725; confirm year/camp and inspect native portrait."
+      ]
+    }
+  ]
+}
