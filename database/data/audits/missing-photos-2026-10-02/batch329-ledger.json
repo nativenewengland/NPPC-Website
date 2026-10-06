@@ -1,0 +1,54 @@
+{
+  "batch": 329,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch329.json",
+  "inventory_counts": {
+    "valid_image_header": 3903,
+    "blank": 6570,
+    "missing_asset": 1
+  },
+  "target_note": "No remaining unattempted profiles in fresh inventory. Two identity-specific archival follow-ups completed; no photo deployed.",
+  "profiles": [
+    {
+      "slug": "clayton-james",
+      "name": "Clayton James",
+      "status": "digital_collection_search_pending",
+      "queries": [
+        "site.digitalcollections.lib.washington.edu Clayton James"
+      ],
+      "source_urls": [
+        "https://digitalcollections.lib.washington.edu/digital/search/searchterm/PH%20COLL%20723/field/all/mode/exact/conn/and/order/title"
+      ],
+      "notes": "Targeted search did not return an individually indexed named portrait. Followed exact digitized-selections link from UW finding aid. Public collection viewer requires JavaScript; web text interface exposes no record or original image. Carry collection review forward using supported browser interface rather than repeating unproductive indexed query.",
+      "credit": "Mary Randlett / UW Libraries PH0723",
+      "rights": "Creator copyright transferred to UW Libraries, as established in batch328; no public-domain claim.",
+      "unresolved_leads": [
+        "Inspect actual UW collection browser for Clayton James record, especially Item575"
+      ]
+    },
+    {
+      "slug": "mark-rouch",
+      "name": "Mark Rouch",
+      "status": "oral_history_page_reviewed_no_photo",
+      "queries": [
+        "Mark A. Rouch photograph CPS"
+      ],
+      "source_urls": [
+        "https://stcpsarchive.z9.web.core.windows.net/cpsarchive/interview-mark-rouch.html",
+        "https://okra.stanford.edu/link/document520402-002",
+        "https://files.eric.ed.gov/fulltext/ED030036.pdf"
+      ],
+      "notes": "Followed actual CPS finding-aid link and downloaded interview HTML; no inline img elements or named portrait obtained. Search identifies1952MLK-related Mark A.Rouch papers and1968Methodist continuing-education author but identity bridge to CPS008737 not established; do not use author photos by name alone. Modern Dallas architect has same middle initial, insufficient identity evidence.",
+      "rights": "No accepted image or photo license established.",
+      "unresolved_leads": [
+        "Independent biographical bridge between Methodist educator and CPS008737 before considering educator images"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
