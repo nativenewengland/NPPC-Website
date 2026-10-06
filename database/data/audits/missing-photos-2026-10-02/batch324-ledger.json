@@ -1,0 +1,48 @@
+{
+  "batch": 324,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch324.json",
+  "inventory_counts": {
+    "valid_image_header": 3903,
+    "blank": 6567,
+    "missing_asset": 1
+  },
+  "target_note": "No newly unattempted profiles remain. Completed two carried-forward document image reviews.",
+  "profiles": [
+    {
+      "slug": "arlo-tatum",
+      "name": "Arlo Tatum",
+      "status": "downloaded_document_lead_exhausted",
+      "source_urls": [
+        "https://www.idk-info.net/app/download/5800038056/wri%2Bhistory.pdf"
+      ],
+      "notes": "Reviewed all embedded plate images in downloaded 523-page WRI history. Only 13 images total including logos/front matter; actual end plates on pages 520-523 show early 1920s/1930s WRI events and other people. Caption index lists Tatum photos 34,42,43, but corresponding plate photographs are absent from this PDF edition. No Tatum sitter accepted; Pierre Ramus, Professor Ude, woman portrait and historical groups must not be mistaken for him. This downloaded edition exhausted; do not repeat.",
+      "rights": "No accepted Tatum image; image-specific reuse rights unestablished.",
+      "unresolved_leads": [
+        "Different complete WRI history edition containing plates 34,42,43",
+        "Accessible full-resolution named Emory photograph"
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "reviewed_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/621",
+        "https://architecture.quincylibrary.org/files/original/5e7e79c1e4007a7a70a2a9a6ab1069ec95ebf10c.pdf"
+      ],
+      "notes": "Downloaded and rendered one-page Historic Illinois October 1990 page 11. Contains historical case text and a photograph of the home, caption identifies house restoration and Bryan J. Burris photo credit. No portrait of Eells. Media 621 exhausted; do not repeat.",
+      "credit": "Bryan J. Burris, building photograph only",
+      "rights": "No accepted person image; building photograph not used.",
+      "unresolved_leads": [
+        "Other unexamined Quincy archive media beginning 622"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified portrait; no live changes."
+  }
+}
