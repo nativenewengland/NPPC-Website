@@ -1,0 +1,65 @@
+{
+  "batch": 396,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch396.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6635,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles researched with exact-name and family-bridged searches. No verified usable images;2013 obituary lead requires identity verification.",
+  "profiles": [
+    {
+      "slug": "george-takao-matsuda",
+      "name": "George Takao Matsuda",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"George Takao Matsuda\" photo",
+        "\"Takao Matsuda\" \"Ryugen\"",
+        "\"George Takao Matsuda\" obituary Hawaii",
+        "\"Takao Matsuda\" \"Yoshi\" photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsuda-george-takao",
+        "https://incarceration.jcchawaii.org/internees/matsuda-ryugen",
+        "https://incarceration.jcchawaii.org/places/tule-lake-segregation-center-california",
+        "https://archives.starbulletin.com/1998/08/25/news/obits.html",
+        "https://digitalcollections.byuh.edu/obituaries/11697/"
+      ],
+      "notes": "Primary Ryugen household identifies George Takao as son; Tule Lake roster May1944-Nov1945. Sister Janet obituary independently bridges mother Yoshi and brother Takao. Individual primary record internalerror. Exact-name and parent-qualified searches found no actual portrait. May19,2013 library obituary index includes Takao Matsuda, but identity/age/household not yet established; pending not accepted. Rafu George Takao Matsuno is different surname with no bridge; modern academic results rejected.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Inspect2013 obituary for independent household bridge and actual portrait before accepting.",
+        "Individually captioned Matsuda household photograph."
+      ]
+    },
+    {
+      "slug": "janet-ruriko-matsuda",
+      "name": "Janet Ruriko Matsuda",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"Janet Ruriko Matsuda\" photograph",
+        "\"Janet Ogasawara\" obituary photo",
+        "\"Janet Ruriko\" Ogasawara"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsuda-janet-ruriko",
+        "https://incarceration.jcchawaii.org/internees/matsuda-ryugen",
+        "https://archives.starbulletin.com/1998/08/25/news/obits.html",
+        "https://www.moiliilihongwanji.org/wp-content/uploads/2016/12/2016_10_WW.pdf",
+        "https://obits.staradvertiser.com/2022/07/18/sally-mitsuko-hirano-18072022/"
+      ],
+      "notes": "JCCH individual and father household establish Janet Ruriko daughter;1998 obituary bridges Hilo Janet R.Ogasawara68, husband Edwin, mother Yoshi Matsuda and brother Takao. Text-only obituary bullet is not a portrait. Reject living Janet Terri/Paul Ogasawara in2022/Keiro publications: different husband/family and target deceased1998. Temple memorial mentions target but supplies no individually identified portrait. Genealogy1929-1998 compatible but no face evidence.",
+      "rights": "No accepted image; no substitution of unrelated contemporary faces.",
+      "unresolved_leads": [
+        "Digitized family obituary/household portrait explicitly identifying Janet Ruriko or Edwin spouse."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; profiles unchanged."
+  }
+}
