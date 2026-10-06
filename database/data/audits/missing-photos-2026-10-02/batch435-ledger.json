@@ -1,0 +1,78 @@
+{
+  "batch": 435,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch435.json",
+  "inventory_counts": {
+    "valid_image_header": 3918,
+    "blank": 6675,
+    "missing_asset": 1
+  },
+  "target_note": "All sole remaining unattempted profile researched plus two current-custody leads. Higher-resolution source403 and heavily obscured face prevented additions.",
+  "profiles": [
+    {
+      "slug": "kazuyuki-kawano",
+      "name": "Kazuyuki Kawano",
+      "queries": [
+        "Kazuyuki Kawano photo",
+        "Kazuyuki Kawano Central Pacific portrait"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kawano-kazuyuki",
+        "https://cpb-english.useast01.umbraco.io/about-us/timeline/"
+      ],
+      "notes": "1889Waipahu storeowner andCPB charterdirector. Primary identifies fiveSantaFe groups including Kumamoto frontrowfirst. Independent banktimeline explicitly identifies originalboard seated farRIGHT KazuyukiKawano, matching primary bankrole. Bank original page urllibHTTP403/browserInternalError; no pixels inspected. Do not retry previously inaccessible sharedJCCHassets.",
+      "credit": "JCCH collections individuallycaptioned; CPB bankarchive boardphoto creatorunknown.",
+      "rights": "Unknown; no public-domain inference.",
+      "unresolved_leads": [
+        "Accessible bank1954 charterboard original, seated farRIGHT, inspectface resolution and crop."
+      ]
+    },
+    {
+      "slug": "clift-seferlis",
+      "name": "Clift Seferlis",
+      "queries": [
+        "Clift Seferlis photograph arrest"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.katelewiswoods.com/portraits",
+        "https://format.creatorcdn.com/7bffc253-0cc6-4c0b-86ae-450391aacfca/0/0/0/0,0,3000,1996,2500,1996/0-0-0/53e3fa9a-609f-4ce0-a112-8f64213bcaeb/1/1/20220307_Memorial_0055.jpg?fjkss=exp=2106940086~hmac=ef344f8c41dcd5c99ac96d1a7f6c6d3a15ecbc3e5bb732d20cdfe2ff99af3be4",
+        "https://www.inquirer.com/crime/clift-seferlis-antisemitic-letters-jewish-institutions-prison-20260316.html"
+      ],
+      "notes": "Prior700x465environmentalportrait too-small-face rejection preserved. New actual publisherHTML2500px derivative20220307_Memorial_0055.jpg explicitly associatedCliftAndySeferlis extracted, attempteddownloadHTTP403. Inquirer exactsentencingcoverage independently confirmsstonecarver/tourguide, bridges portfolio occupation; museumscene photograph JoseFMoreno notportrait. Higher-resolutionoriginal remains pending.",
+      "credit": "Kate Woods portrait; Inquirer museumscene JoseF.Moreno.",
+      "rights": "Portfolio explicitly allrightsreserved; no openlicense established.",
+      "unresolved_leads": [
+        "Accessible publisher2500px derivative or photographer original for adequateface crop."
+      ]
+    },
+    {
+      "slug": "michael-d-stover",
+      "name": "Michael D. Stover",
+      "queries": [
+        "Michael D Stover September9 2026",
+        "Michael Stover sentenced one year immigration"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://cwbchicago.com/2026/09/no-mercy-suburban-man-gets-year-in-prison-for-threatening-ice-agents-online.html",
+        "https://cwbchicago.com/wp-content/uploads/2025/09/stover.jpg"
+      ],
+      "notes": "Exact2026sentencingarticle bridges34yearParkForest defendant. Downloaded/visually inspected native1200x626 courtfiles composite. PersonLEFT despite mistaken caption sayingright. Ghilliehood, darkfacepaint andrifle obscureface; not adequate recognizableportrait, reject. Governmentcourt hosting/reproduction does not establish originalsocialphoto publicdomain. Query initiallyTesla was incorrectcase then corrected usingprofilecontext; no namesakeassigned.",
+      "credit": "U.S.District Court files via CWBChicago; originalsocialphotographerunknown.",
+      "rights": "Unknown; no public-domain claim.",
+      "rejected_images": [
+        "Face obscured by ghilliehood,darkpaint andrifle in courtfiles composite"
+      ],
+      "unresolved_leads": [
+        "Unobscured individuallycaptioned defendant portrait or originalcourt exhibit."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
