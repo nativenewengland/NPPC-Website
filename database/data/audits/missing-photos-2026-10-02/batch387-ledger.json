@@ -1,0 +1,68 @@
+{
+  "batch": 387,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch387.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6620,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles received identity-specific searches. No verified usable image; archive and inaccessible newsletter leads carried forward.",
+  "profiles": [
+    {
+      "slug": "cherry-reiko-matano",
+      "name": "Cherry Reiko Matano",
+      "status": "researched_no_verified_portrait_pending_archive",
+      "queries": [
+        "\"Cherry Reiko Matano\" photograph portrait",
+        "\"Cherry Matano\" obituary",
+        "\"Cherry Reiko Matano\" \"2008\" obituary photograph",
+        "\"Cherry Matano\" Matsunaga photograph",
+        "\"Cherry Reiko Matano\" archives"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://incarceration.jcchawaii.org/internees/matano-cherry-reiko",
+        "https://library.byuh.edu/0000017b-3d3f-d55c-a7fb-fd3f35090000/m-2008",
+        "https://archivesspace.library.manoa.hawaii.edu/repositories/4/resources/162",
+        "https://downloads.densho.org/ddr-densho-537/ddr-densho-537-97-mezzanine-1e48e3b92f.pdf",
+        "https://www.govinfo.gov/content/pkg/CDIR-1978-03-01/pdf/CDIR-1978-03-01.pdf"
+      ],
+      "notes": "Primary Sharp Park roster identifies March1945 internee. Obituary bridges Waianae-born 1929-2008 Cherry to Matsunaga chief of staff and Matano siblings. University finding aid confirms longtime assistant and includes photographs, but no individually identified digital portrait retrieved. Individual JCCH record internalerror. Densho Crystal City Chatter issue88 Nov2006 search excerpt names Cherry at reunion and mentions group photo, but actual PDF web403; no subject position established. Genealogy add-photo prompt is not an image; modern artist and unrelated Matano results rejected.",
+      "rights": "No accepted image. University requires publication requests and distinguishes physical ownership from copyright.",
+      "unresolved_leads": [
+        "Inspect accessible original of Densho issue88 reunion newsletter; require caption/position evidence before cropping.",
+        "Matsunaga papers staff photographs or transferred moving-image materials with explicit Cherry identification."
+      ]
+    },
+    {
+      "slug": "florence-hiroko-matano",
+      "name": "Florence Hiroko Matano",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"Florence Hiroko Matano\" photograph portrait",
+        "\"Florence Matano\" Hawaii photo",
+        "\"Florence Hiroko Matano\" portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://incarceration.jcchawaii.org/internees/matano-florence-hiroko",
+        "https://hawaiiobituaries.com/us/obituaries/hawaiiobituaries/name/alice-fujieda-obituary?id=53975266",
+        "https://library.byuh.edu/0000017b-40bd-d55c-a7fb-cdbf48c70000/m-1991",
+        "https://archives.starbulletin.com/2000/03/09/news/obits.html",
+        "https://ldsgenealogy.com/HI/1940-Census-Waianae-HI.htm"
+      ],
+      "notes": "Primary Sharp Park roster March1945 and Konin household identify daughter. Census about1931 and sibling/mother obituaries provide family bridge. Alice Fujieda obituary image depicts Alice, not Florence; rejected substitution. Generic Florence Matano1915-2000 has incompatible generation/no household bridge, rejected. JCCH individual record internalerror; no usable portrait surfaced.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Individually identified Matano household photograph with Florence position evidence."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live profiles unchanged."
+  }
+}
