@@ -1,0 +1,59 @@
+{
+  "batch": 432,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch432.json",
+  "inventory_counts": {
+    "valid_image_header": 3917,
+    "blank": 6674,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh live inventory has zero remaining unattempted profiles. Pursued two unresolved current-custody leads; no deployment.",
+  "profiles": [
+    {
+      "slug": "john-j-ford",
+      "name": "John J. Ford",
+      "queries": [
+        "John Ford UFO radium photo1996"
+      ],
+      "status": "verified_identity_original_portrait_pending",
+      "source_urls": [
+        "https://anomalyarchives.org/collections/file/ford-john/",
+        "https://anomalyarchives.org/wp-content/uploads/2019/07/34ad7-7ec1fb483b0f1ac9bcc66949526c2c46-1.jpg",
+        "https://anomalyarchives.org/wp-content/uploads/2019/07/7ba07-fordinception.jpg",
+        "https://www.ufoteacher.com/johnford"
+      ],
+      "notes": "New archive lead retrieved via urllib after browser cache miss. Downloaded and visually inspected native343x343 campaign portrait, explicitly credited JoeZuppardo1996. Actual recognizable face but FREE JOHN FORD NOW strip covers bottom and source already cuts cap top; clean3:4 crop removing strip would cut substantial lateral face. Original uncropped portrait requested by research lead, not deployed. Second native792x792 asset inspected: promotional text poster, no face. Linked original campaign site inaccessible through browser.",
+      "credit": "Photo courtesy Joe Zuppardo,1996; reproduced Anomaly Archives.",
+      "rights": "Unknown; no public-domain claim.",
+      "rejected_images": [
+        "792x792 radio promotional text poster has no face"
+      ],
+      "unresolved_leads": [
+        "Uncropped Joe Zuppardo1996 portrait via original John Ford Initiative; preserve clean face without text or severe lateral crop."
+      ]
+    },
+    {
+      "slug": "tony-alexander-hamilton",
+      "name": "Tony Alexander Hamilton",
+      "queries": [
+        "Tony Alexander Hamilton photo Milford",
+        "Milford Death and Taxes Hamilton City Confidential"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.deseret.com/1999/10/26/19472351/religious-separatist-ordered-to-stand-trial-in-officer-s-shooting/",
+        "https://music.amazon.it/podcasts/27536da9-f65b-4c57-b58c-bf40ba341199/episodes/a4f5a583-46a3-45ee-a55a-f60945d29d8d/city-confidential-milford-ut-death-and-taxes",
+        "https://www.aetv.com/shows/city-confidential"
+      ],
+      "notes": "Exact Hamilton standoff bridged by1999Deseret courtcoverage. Search found30October2025 audio adaptation of2004episode, not visualportrait. Official A&E page opened and shows current series generic imagery, no identity-captioned Hamilton still. No image accepted.",
+      "unresolved_leads": [
+        "Accessible2004MilfordDeathAndTaxes original archival frame with explicit Hamilton identification and creator credit."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
