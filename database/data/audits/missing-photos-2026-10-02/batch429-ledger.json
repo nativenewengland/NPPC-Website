@@ -1,0 +1,75 @@
+{
+  "batch": 429,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch429.json",
+  "inventory_counts": {
+    "valid_image_header": 3916,
+    "blank": 6673,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched plus two current-custody followups. Native historical group inspected and rejected for inadequate face resolution.",
+  "profiles": [
+    {
+      "slug": "yasuyuki-mizutari",
+      "name": "Yasuyuki Mizutari",
+      "queries": [
+        "Yasuyuki Mizutari photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/jp/internees/mizutari-yasuyuki",
+        "https://publishing.cdlib.org/ucpressebooks/view?anchor.id=0&brand=ucpress&chunk.id=d0e1473&doc.view=content&docId=ft9290090n&toc.depth=1",
+        "https://publishing.cdlib.org/img/ft9290090n_00049.jpg",
+        "https://home.army.mil/monterey/application/files/8515/9174/3955/Hachiya.pdf"
+      ],
+      "notes": "1889 Kaumana language-school principal, alias Angyo. Shared Santa Fe row four fifteenth. Independent UC Press 1999 Japanese Conspiracy figure4 identifies labor leaders group third row first on left. Downloaded and inspected native567x353 group; face only approximately20px wide, unusably small, reject. Source originally credited Tsutsumi1920 Hawaii sato kochi rodo undoshi; publisher1999 copyright does not establish original image rights. Army portrait of Yukitaka Terry Mizutari is son, reject as father.",
+      "rejected_images": [
+        "UC Press native567x353 labor leaders group: subject face approximately20px wide",
+        "Terry Mizutari son military portrait"
+      ],
+      "unresolved_leads": [
+        "Higher resolution original of Tsutsumi1920 labor group; family portrait or accessible Santa Fe original."
+      ]
+    },
+    {
+      "slug": "adam-charles-palermo",
+      "name": "Adam Charles Palermo",
+      "queries": [
+        "Adam Charles Palermo photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://apps.cacd.uscourts.gov/JpsApi/file/6b6dabc2-b12e-4e36-258e-08dea2101009",
+        "https://www.telemundo52.com/noticias/local/sentencian-a-3-anos-de-prision-a-hombre-acusado-de-lanzar-piedras-al-chp-durante-protesta-migratoria/2884386/"
+      ],
+      "notes": "Current custody exact-case followup. Primary calendar names custody04156-512 and plea hearing. Telemundo sentencing article browser Internal Error; press conference exhibit remains pending original image and individually verified crop.",
+      "unresolved_leads": [
+        "Individually captioned press-conference exhibit or original Palermos social photo."
+      ]
+    },
+    {
+      "slug": "ismael-vega",
+      "name": "Ismael Vega",
+      "queries": [
+        "Ismael Vega purple protest"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.telemundo52.com/noticias/local/sentencian-a-3-anos-de-prision-a-hombre-acusado-de-lanzar-piedras-al-chp-durante-protesta-migratoria/2884386/"
+      ],
+      "notes": "Current custody followup of batch29 purple-clothed protester lead. Telemundo browser access failed, original pixels/caption still needed. Ismael Vega Holguin musician obituary mentioning Purple Bottle band is unrelated/unbridged, reject.",
+      "rejected_namesakes": [
+        "Ismael Vega Holguin musician obituary"
+      ],
+      "unresolved_leads": [
+        "Accessible individually captioned purple-clothed subject original, with recognizable face."
+      ]
+    }
+  ],
+  "rights": "No accepted image; source and original publication credit retained.",
+  "deployment": {
+    "performed": false
+  }
+}
