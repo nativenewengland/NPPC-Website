@@ -1,0 +1,86 @@
+{
+  "batch": 349,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch349.json",
+  "inventory_counts": {
+    "valid_image_header": 3905,
+    "blank": 6575,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched; three unresolved follow-ups also reviewed.",
+  "profiles": [
+    {
+      "slug": "sam-masao-nishimura",
+      "name": "Sam Masao Nishimura",
+      "status": "verified_portrait_lead_asset_inaccessible",
+      "queries": [
+        "Sam Masao Nishimura photograph",
+        "Masao Nishimura internment Sam portrait"
+      ],
+      "source_urls": [
+        "https://www.jcchawaii.org/resources/samuel-nishimura-3",
+        "https://www.jcchawaii.org/media/images/resources/Samuel-Nishimura/2026-04-30-0015.jpg",
+        "https://incarceration.jcchawaii.org/internees/nishimura-masao-samuel"
+      ],
+      "identity_verification": "JCCH explicitly names ca1940 single portrait; independently linked internee database confirms Haleiwa tailor, Sand Island and Honouliuli, matching NPS-based profile.",
+      "credit": "Personal collection of Sandi Chang; scanned in 2026 by Reva Mai; original photographer unlisted.",
+      "rights": "No open image license established; cultural-center public display is not public-domain evidence.",
+      "notes": "Web page accessible; direct page and actual portrait asset HTTP403; web asset cache miss. Pixels not acquired or inspected, so no crop/deployment. Reject baseball manager Nishimura and bank CEO born1933 namesakes; descendants photograph and crafted objects are not a portrait of him.",
+      "unresolved_leads": [
+        "Actual ca1940 portrait pixels or alternative accessible family photo explicitly mapped by JCCH. Do not repeat unchanged403asset."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_biographical_text_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2544",
+        "https://architecture.quincylibrary.org/files/original/e0d296ac13c54b17ae8f0271e1cf08a951bfab76.pdf"
+      ],
+      "notes": "Complete report page4 biographical introduction downloaded and visually inspected: text only, no portrait. Media2544 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Quincy unexamined media2545\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    },
+    {
+      "slug": "shiro-takeda",
+      "name": "Shiro Takeda",
+      "status": "item_specific_search_no_new_asset",
+      "queries": [
+        "Shiro Takeda site:content.libraries.wsu.edu/digital/collection/hmcolls/id"
+      ],
+      "source_urls": [
+        "https://content.libraries.wsu.edu/digital/collection/hmcolls/"
+      ],
+      "notes": "Item-path-specific query returned collection overview only; no named photograph item retrieved. No repeated blocked request.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "WSU item-level photographs."
+      ]
+    },
+    {
+      "slug": "benjamin-leroy-candee-jr",
+      "name": "Benjamin Leroy Candee Jr.",
+      "status": "yearbook_query_only_directory_text",
+      "queries": [
+        "Benjamin Leroy Candee Cornell photograph yearbook"
+      ],
+      "source_urls": [
+        "https://ecommons.cornell.edu/bitstreams/47cd27d1-0a0a-4949-95c8-ddedbccdec50/download"
+      ],
+      "notes": "Specific portrait/yearbook search yielded Cornell1939\u201340 directory text, not portrait; previously inspected obituary not downloaded again. No personal contact details retained.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Actual Cornell yearbook portrait if independently matched."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable image pixels acquired; live profiles unchanged."
+  }
+}
