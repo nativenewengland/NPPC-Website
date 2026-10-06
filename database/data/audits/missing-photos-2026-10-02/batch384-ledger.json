@@ -1,0 +1,61 @@
+{
+  "batch": 384,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch384.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6618,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles received identity-specific searches. Individual primary pages inaccessible; corroborating primary roster and historical newspaper reviewed. No verified usable portrait.",
+  "profiles": [
+    {
+      "slug": "tamako-matano",
+      "name": "Tamako Matano",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Tamako Matano\" photograph portrait",
+        "\"Tamako Fujieda Matano\" family photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matano-tamako",
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://library.byuh.edu/0000017b-40bd-d55c-a7fb-cdbf48c70000/m-1991"
+      ],
+      "identity_verification": "JCCH Sharp Park roster lists Tamako and Matano children in March 1945. Honolulu Advertiser March 7 1991 obituary identifies Tokyo-born 88-year-old Tamako, sons Albert and Bernard and named daughters matching household.",
+      "notes": "Individual JCCH page web retrieval failed. Obituary text has no target portrait. Genealogy Add photo prompts are not existing portraits. Daughter Alice Fujieda portrait would not establish mother’s face; rejected.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Independently captioned Konin/Tamako Matano family photograph."
+      ]
+    },
+    {
+      "slug": "albert-hiromaru-matano",
+      "name": "Albert Hiromaru Matano",
+      "status": "no_verified_portrait_found_candidate_lead_requires_bridge",
+      "queries": [
+        "\"Albert Hiromaru Matano\" photograph portrait",
+        "\"Albert Matano\" Hawaii photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matano-albert-hiromaru",
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://pacificcitizen.org/wp-content/uploads/archives-menu/Vol.022_%2302_Jan_12_1946.pdf",
+        "https://ecommons.cornell.edu/bitstream/1813/28019/1/088_07.pdf"
+      ],
+      "identity_verification": "JCCH Sharp Park roster names Albert Hiromaru Matano March 1945. 1940 Waianae census index gives approximately 1927 birth. Family obituaries identify Albert as sibling of Alice, Jane, Betsy and Bernard; Tamako’s son in New York.",
+      "notes": "Individual JCCH page web retrieval failed. Pacific Citizen January 12 1946 indexed text describes Hawaiian-born Albert Matano applying to Naval Aviation Cadet Board in New York, no established portrait. State magazine June 1994 awards group names Albert Matano but no Hiromaru/age/family bridge; must not accept namesake on name alone. Cornell alumni note is new possible archival lead, not yet portrait proof. Modern Albert Konin Matano is not independently bridged.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Cornell alumni record or obituary for Albert H Matano 1927–2010 Pleasantville, independently bridged before portrait acceptance.",
+        "Family original caption identifying Albert Hiromaru."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portraits; live profiles unchanged."
+  }
+}
