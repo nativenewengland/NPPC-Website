@@ -1,0 +1,55 @@
+{
+  "batch": 389,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch389.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6624,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched, plus pending newsletter follow-up completed. Access403 and insufficient original face resolution prevent additions.",
+  "profiles": [
+    {
+      "slug": "kenjyo-ohara",
+      "name": "Kenjyo Ohara",
+      "status": "researched_captioned_group_leads_pending_pixels",
+      "queries": [
+        "\"Kenjyo Ohara\" photograph",
+        "\"Kenjo Ohara\" Hawaii priest photo",
+        "\"Kenjyo\" \"Ohara\" internment"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/ohara-kenjyo",
+        "https://hongwanjihawaii.com/wp-content/uploads/2016/01/2018-09HQUpdate.pdf",
+        "https://waipahuhongwanji.org/temple-history/",
+        "https://incarceration.jcchawaii.org/documents/Ohara_Kenjyo-Japanese.pdf"
+      ],
+      "notes": "JCCH identifies1916-born Olaa Buddhist missionary arriving1941, arrestedApril1942, SantaFeMarch1943-Dec1945. Named April1944 priest group top row10th fromleft, JCCH/HakuaiOdaCollection; another SantaFe group row2eighth, JCCH/RiuichiIpponsugiCollection. Official mission obituary101-year-old deceasedAug5,2018 and temple tenure corroborate identity; direct obituary PDF403, not inspected. Modern KenOhara filmworker and unrelated university names rejected.",
+      "rights": "No accepted portrait; collection credits established, creator/license unspecified.",
+      "unresolved_leads": [
+        "Accessible original of official September2018 obituary PDF.",
+        "Original pixels of explicitly mapped JCCH groups with adequate face resolution."
+      ]
+    },
+    {
+      "slug": "caroline-atsuko-matano",
+      "name": "Caroline Atsuko Matano",
+      "status": "newsletter_lead_inspected_insufficient_face_resolution",
+      "source_urls": [
+        "https://fulbright.org/wp-content/uploads/2020/02/FA_NEWSLETTER_Fall_Winter1993_1994-web.pdf"
+      ],
+      "notes": "Downloaded actual newsletter, pageindex6 scan2550x1650 extracted/rendered. Printed12 caption explicitly identifies Caroline besideMichaelArmacost at1990Hawaii conference. Reviewed actual scan: paired portrait is small and Caroline face approximately100-120native pixels wide; separating her cleanly at standard360x480 would excessively magnify scanned detail. Larger original remains preferable. No crop accepted.",
+      "rights": "Fulbright Association publication; original photographer and reuse permission unspecified, not public domain.",
+      "unresolved_leads": [
+        "Larger original of1990conference paired portrait.",
+        "NAFSA2009 award photo original remains uninspected."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable portrait ready; site unchanged."
+  }
+}
