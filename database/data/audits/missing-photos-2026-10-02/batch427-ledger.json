@@ -1,0 +1,87 @@
+{
+  "batch": 427,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch427.json",
+  "inventory_counts": {
+    "valid_image_header": 3915,
+    "blank": 6672,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched plus two current-custody followups.",
+  "profiles": [
+    {
+      "slug": "zenzo-kisada",
+      "name": "Zenzo Kisada",
+      "queries": [
+        "Zenzo Kisada photo",
+        "Zenzo Kisada Hawaii internee"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kisada-zenzo",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf",
+        "https://aiisf.squarespace.com/taken"
+      ],
+      "notes": "1888 Kapaa bakery proprietor HJ-1839. Shared Santa Fe row five fifteenth; Kauai group row three tenth; another primary caption bottom row third. Native originals pending. JCCH page browser Internal Error, indexed captions available. AIISF exhibition identifies name but no individually verified face obtained.",
+      "unresolved_leads": [
+        "Smaller captioned Kauai group or bottom-row-third group native original."
+      ]
+    },
+    {
+      "slug": "toramatsu-matsumoto",
+      "name": "Toramatsu Matsumoto",
+      "queries": [
+        "Toramatsu Matsumoto portrait"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsumoto-toramatsu",
+        "https://beta.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "1872 Honolulu Kato Shrine priest, daughter Shizue married Genpachi Tsushima. Nine JCCH captioned group leads, including shared Santa Fe row four tenth and Mamoru Suga group row three fifteenth directly behind Genpachi. Native original pixels pending; captions support future crop verification.",
+      "unresolved_leads": [
+        "Accessible Matsumoto-Tsushima family group original; smaller Kumamoto group front row third."
+      ]
+    },
+    {
+      "slug": "john-j-ford",
+      "name": "John J. Ford",
+      "queries": [
+        "John J. Ford prison photo",
+        "John Ford UFO radium photograph Washington Post 1998"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.washingtonpost.com/archive/lifestyle/1998/01/11/out-there/89f520c3-bb7b-41d3-a991-6c4a1a2ff322/",
+        "https://howandwhys.com/southaven-park-long-island-ufo-crash-mystery/"
+      ],
+      "notes": "Followup of batch93. Original Washington Post caption confirms Ford far left, Joseph Mazzuchelli center; native image retrieval being checked. Secondary UFO page repeats case image but original photo provenance remains required. Do not use unrelated physician or filmmaker namesakes. Direct original page retrieval timed out; secondary howandwhys page HTTP 403. Neither yielded usable original pixels.",
+      "unresolved_leads": [
+        "Original Washington Post arrest photograph pixels and creator credit."
+      ]
+    },
+    {
+      "slug": "wrackkie-quiogue",
+      "name": "Wrackkie Quiogue",
+      "queries": [
+        "Wrackkie Quiogue photo"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://abc7.com/post/la-county-man-wrackkie-quiogue-plead-guilty-possessing-molotov-cocktail-during-anti-ice-protest/18174905/",
+        "https://www.kenklippenstein.com/p/la-protesters-arrested-for-throwing",
+        "https://www.courthousenews.com/wp-content/uploads/2025/06/usa-v-quiogue-complaint.pdf"
+      ],
+      "notes": "ABC7 plea article shows CNS logo rather than face. Klippenstein text details culinary resume but lead alleged-attacker footage refers to co-defendant Emiliano Garduno Galvez; cannot substitute for Quiogue. Complaint and arrest listings alone provide no verified usable portrait.",
+      "unresolved_leads": [
+        "Individually captioned Quiogue booking photo or footage."
+      ]
+    }
+  ],
+  "rights": "No image accepted; original creator and rights remain pending.",
+  "deployment": {
+    "performed": false
+  }
+}
