@@ -1,0 +1,88 @@
+{
+  "batch": 362,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch362.json",
+  "inventory_counts": {
+    "valid_image_header": 3907,
+    "blank": 6588,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile searched plus two followups. Verified named portrait pursued through original image, crop and deployment.",
+  "profiles": [
+    {
+      "slug": "ryuto-tsuda",
+      "name": "Ryuto Tsuda",
+      "status": "verified_portrait",
+      "queries": [
+        "\"Ryuto Tsuda\" photograph portrait",
+        "\"Ryuto Tsuda\" photo nun",
+        "\"Kiyome Tsuda\" portrait photograph"
+      ],
+      "source_page": "https://www.nps.gov/articles/000/kiyome-tsuda.htm",
+      "source_image": "https://www.nps.gov/people/images/HONO_TsudaBio_Photo.jpg",
+      "credit": "National Park Service; original photographer unknown.",
+      "rights": "NPS caption credits NPS photo; original photographer and underlying rights not specified. Public access is not treated as proof of public domain.",
+      "identity_verification": "NPS explicitly identifies rightmost woman as Kiyome Tsuda/Tatsusho Hirai and documents detention alias Ryuto Tsuda. JCCH confirms same religious leader interned at Honouliuli.",
+      "crop": {
+        "original_size": [
+          4032,
+          3024
+        ],
+        "box": [
+          2670,
+          300,
+          3660,
+          1620
+        ],
+        "output": [
+          360,
+          480
+        ]
+      },
+      "notes": "NPS caption identifies subject at right in late 1970s or early 1980s family group. Original 4032x3024; clean crop of her head and shoulders, no face reconstruction. Unrelated modern scientists and Fujimori family rejected."
+    },
+    {
+      "slug": "masaichi-sesoko",
+      "name": "Masaichi Sesoko",
+      "status": "employment_followup_no_portrait",
+      "queries": [
+        "\"Masaichi Sesoko\" Punahou photograph"
+      ],
+      "source_urls": [
+        "https://digicoll.lib.berkeley.edu/record/53409/files/cubanc_46_8_01224302ta.pdf"
+      ],
+      "notes": "Employment-specific search yielded obituary text and indexed camp list, no new portrait. Other Sesoko relatives not target.",
+      "unresolved_leads": [
+        "School or family original portrait."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_sixteen_text_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2556",
+        "https://architecture.quincylibrary.org/files/original/f74fb7915b8fc427f63f1c11bce97ab3a88558d0.pdf"
+      ],
+      "notes": "Complete page 16 downloaded and visually inspected: construction trades chronology, no portrait. Media2556 exhausted.",
+      "unresolved_leads": [
+        "Media2557\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/ryuto-tsuda",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/ryuto-tsuda-batch362.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "85e34ddbaa82e41cb573ad5d9ef512f1ab0090179b75374b1aa5d77bb0743a87",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
