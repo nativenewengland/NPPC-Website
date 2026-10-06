@@ -1,0 +1,87 @@
+{
+  "batch": 422,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch422.json",
+  "inventory_counts": {
+    "valid_image_header": 3914,
+    "blank": 6666,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched plus two current-custody followups. Archival originals inaccessible; retain leads for later access.",
+  "profiles": [
+    {
+      "slug": "rentaro-degawa",
+      "name": "Rentaro Degawa",
+      "queries": [
+        "Rentaro Degawa photo Hawaii",
+        "Rentaro Degawa portrait"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/degawa-rentaro",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "Born 1873, Hilo clerk and poet Shito. JCCH identifies him second from left in winter Santa Fe group (JCCH/Amy Inowe) and first from left in another group. Original 1454.SantaFe_NMIntermentCamp.jpg returns HTTP 403; browser cache miss. No crop possible without pixels.",
+      "unresolved_leads": [
+        "Accessible original of captioned Santa Fe groups."
+      ]
+    },
+    {
+      "slug": "junzo-mashita",
+      "name": "Junzo Mashita",
+      "queries": [
+        "Junzo Mashita Hawaii photograph",
+        "Junzo Mashita registration"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/mashita-junzo"
+      ],
+      "notes": "1889 Koloa plantation foreman. Alien registration card 3983.JunzoMashitaInterneeID.jpg and Missoula group 3984.MissoulaInterneeGrpFoto.jpg both HTTP 403 and browser cache miss. JCCH/Lynn Hiyakumoto Collection; group back row third from left. Portraits of son Clarence Tsutomu Mashita are explicitly different person and rejected.",
+      "rejected_namesakes": [
+        "Son Clarence Tsutomu Mashita"
+      ],
+      "unresolved_leads": [
+        "Accessible registration card original; captioned Missoula group original."
+      ]
+    },
+    {
+      "slug": "samuel-brown",
+      "name": "Samuel Brown",
+      "queries": [
+        "Samuel Brown Sekou portrait prison"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://freedomarchives.org/Documents/Finder/DOC47_scans/47.letourmottobe.no1.Jan.1982.pdf",
+        "https://freedomarchives.org/Documents/Finder/DOC37_scans/37.JBAKCChicago.DeathToTheKlan1981.pdf"
+      ],
+      "notes": "Current custody priority followup. Indexed movement archive text identifies Solomon (Samuel) Brown in October 1981 case. No verified individual photographic portrait obtained. Sekou Odinga is a separate codefendant.",
+      "unresolved_leads": [
+        "Inspect original movement newsletter scans for a captioned Brown portrait."
+      ]
+    },
+    {
+      "slug": "ernesto-wilson",
+      "name": "Ernesto Wilson",
+      "queries": [
+        "Ernesto Wilson Yayo photo"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.govinfo.gov/content/pkg/USCOURTS-ncmd-1_11-cr-00402/pdf/USCOURTS-ncmd-1_11-cr-00402-0.pdf",
+        "https://yesweeklyblog.blogspot.com/2012/10/day-2-north-carolina-latin-kings-on.html"
+      ],
+      "notes": "Current custody priority followup. Court opinion confirms King Yayo alias and witness photographic identification, but search yields text rather than a publishable identified portrait.",
+      "unresolved_leads": [
+        "Captioned court or booking portrait from exact North Carolina case."
+      ]
+    }
+  ],
+  "rights": "No image accepted. JCCH collection credits retained; public availability would not establish public domain.",
+  "deployment": {
+    "performed": false
+  }
+}
