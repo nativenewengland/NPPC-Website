@@ -1,0 +1,91 @@
+{
+  "batch": 351,
+  "newly_attempted_count": 3,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch351.json",
+  "inventory_counts": {
+    "valid_image_header": 3906,
+    "blank": 6579,
+    "missing_asset": 1
+  },
+  "target_note": "All three unattempted profiles researched; one unresolved follow-up. Access failures prevented acquiring named portrait pixels.",
+  "profiles": [
+    {
+      "slug": "dan-toru-nishikawa",
+      "name": "Dan Toru Nishikawa",
+      "queries": [
+        "Dan Toru Nishikawa photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nishikawa-dan-toru",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/997.NishikawaDanToru.jpg",
+        "https://encyclopedia.densho.org/Dan%20T.%20Nishikawa"
+      ],
+      "credit": "JCCH/Dan Toru Nishikawa Collection; photographer unlisted.",
+      "notes": "Named single portrait, wedding and family photographs match Honolulu newspaper salesman, wife Grace and son Albert, Sand Island/Honouliuli. Direct gallery and portrait HTTP403; web asset cache miss, no pixels inspected. Drawings and shell objects are creations by him, not portraits.",
+      "unresolved_leads": [
+        "Accessible reproduction of named single portrait or explicitly mapped family photo."
+      ],
+      "status": "verified_identity_leads_inaccessible_or_pending",
+      "rights": "No accepted image; no open image license established; public display not public domain."
+    },
+    {
+      "slug": "koji-hashimoto",
+      "name": "Koji Hashimoto",
+      "queries": [
+        "Koji Hashimoto Honouliuli portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/hashimoto-koji",
+        "https://npshistory.com/publications/hono/ai-jigoku-dani.pdf"
+      ],
+      "credit": "JCCH/Hashimoto Family Collection; Hanako Hashimoto photographed1948 revisit per archaeological report.",
+      "notes": "Archive matches Honolulu school principal paroledMay1945;1948family photo names David,Koji,Elsie. Direct gallery403. Report contains alternative reproduction, still to inspect for resolution and exact subject mapping. Reject actor,director,footballer,golfer and contemporary photographer namesakes.",
+      "unresolved_leads": [
+        "Archaeological report figure1.11 actual photo pixels and crop quality."
+      ],
+      "status": "verified_identity_leads_inaccessible_or_pending",
+      "rights": "No accepted image; no open image license established; public display not public domain."
+    },
+    {
+      "slug": "yoshitami-jack-tasaka",
+      "name": "Yoshitami Jack Tasaka",
+      "queries": [
+        "Yoshitami Jack Tasaka photograph",
+        "Yoshitami Tasaka portrait",
+        "Jack Tasaka Honouliuli photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tasaka-yoshitami-jack",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1977.Y.Tasaka_April1948.jpg"
+      ],
+      "credit": "JCCH/Nippu Jiji Collection; photographer unlisted.",
+      "notes": "Explicit April1948named photo matches ChuoGakuin teacher,Honouliuli arrestApril1943/paroleSept1944. Directgallery and exactphoto403; webimagecachemiss. Memorymap notportrait.",
+      "unresolved_leads": [
+        "Accessible alternative reproduction of April1948portrait."
+      ],
+      "status": "verified_identity_leads_inaccessible_or_pending",
+      "rights": "No accepted image; no open image license established; public display not public domain."
+    },
+    {
+      "slug": "harry-minoru-urata",
+      "name": "Harry Minoru Urata",
+      "queries": [],
+      "source_urls": [
+        "https://lcweb2.loc.gov/static/programs/national-recording-preservation-board/documents/Harry-Urata-Field-Recordings_Leary.pdf"
+      ],
+      "credit": "Not yet determined for PDF image; earlier Mid-Pacific Institute credit remains recorded.",
+      "notes": "Newly surfaced Library of Congress field-recordings PDF directHTTP403; no bytes acquired or portrait inspected. Do not repeat unchangedrequest.",
+      "unresolved_leads": [
+        "Other accessible named2009JCCHportrait or Mid-Pacific reproduction."
+      ],
+      "status": "verified_identity_leads_inaccessible_or_pending",
+      "rights": "No accepted image; no open image license established; public display not public domain."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable portrait acquired; no live changes."
+  }
+}
