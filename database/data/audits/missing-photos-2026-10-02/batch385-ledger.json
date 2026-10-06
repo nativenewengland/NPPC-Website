@@ -1,0 +1,52 @@
+{
+  "batch": 385,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch385.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6618,
+    "missing_asset": 1
+  },
+  "target_note": "No unattempted profiles in fresh inventory; followed two documented unresolved leads. No usable portrait.",
+  "profiles": [
+    {
+      "slug": "albert-hiromaru-matano",
+      "name": "Albert Hiromaru Matano",
+      "status": "cornell_archive_inaccessible_no_portrait",
+      "queries": [
+        "\"Albert H Matano\" obituary 2010"
+      ],
+      "source_urls": [
+        "https://ecommons.cornell.edu/bitstream/1813/28019/1/088_07.pdf"
+      ],
+      "notes": "Previously pending Cornell alumni PDF direct retrieval HTTP 405 Not Allowed. Do not repeat unchanged endpoint. Obituary search yielded generic genealogy and previously documented sibling notices, no identified target portrait.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Alternative accessible Cornell repository record or independently captioned family original."
+      ]
+    },
+    {
+      "slug": "shinri-sarashina",
+      "name": "Shinri Sarashina",
+      "status": "larger_original_search_no_new_portrait",
+      "queries": [
+        "\"Shinri Sarashina\" portrait original"
+      ],
+      "source_urls": [
+        "https://zentokufoundation.org/story/junji-sarashina/",
+        "https://www.mauinews.com/obituaries/2023/03/takuji-sarashina-97/"
+      ],
+      "notes": "Search for larger original returned son Junji biography, son Takuji obituary and text-only Federal Register notices. No larger independently identified Shinri image surfaced. Preserve batch383 rejection of tiny newsletter inset; sons’ portraits are not substitutes.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Temple commemorative booklet or family original of named newsletter portrait."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live profiles unchanged."
+  }
+}
