@@ -1,0 +1,68 @@
+{
+  "batch": 379,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch379.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6610,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile received identity-specific search and primary review; one distinct Densho lead followed. Image retrieval failures prevented usable additions.",
+  "profiles": [
+    {
+      "slug": "daizo-sumida",
+      "name": "Daizo Sumida",
+      "status": "verified_caption_leads_pixels_inaccessible",
+      "queries": [
+        "\"Daizo Sumida\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/sumida-daizo",
+        "https://encyclopedia.densho.org/Daizo_Sumida/"
+      ],
+      "identity_verification": "1887-born Honolulu Issei president of Pacific Bank and T. Sumida & Co.; uncle of Shinzaburo Sumida. December 1941 arrest; Missoula and Santa Fe, December 1945 Shawnee return.",
+      "caption_leads": [
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/1795-816.KuakiniHospitalBldgFundCommittee.3.15.53.jpg",
+          "identity": "March 1953 Kuakini Hospital Building Fund Committee, seated row first, sixth from left.",
+          "credit": "JCCH/Takuzo Kawamoto Collection",
+          "access": "Web cache miss; original pixels not inspected."
+        },
+        {
+          "identity": "January 1945 GI visit, second row first from left.",
+          "credit": "JCCH/Riuichi Ipponsugi Archival Collection",
+          "access": "Same group asset already inaccessible in batch371; not retried."
+        }
+      ],
+      "notes": "JCCH includes nine explicitly mapped group photographs. Commercial Daizo product/Sumida district and sumo stable results are unrelated, rejected. No actual recognizable face acquired.",
+      "rights": "JCCH All Rights Reserved; original photographer unspecified. No accepted image or crop.",
+      "unresolved_leads": [
+        "Accessible original of the mapped 1953 committee photograph or independently captioned individual portrait."
+      ]
+    },
+    {
+      "slug": "kumaji-furuya",
+      "name": "Kumaji Furuya",
+      "status": "individual_portrait_caption_verified_record_inaccessible",
+      "queries": [
+        "\"Kumaji Furuya\" \"702\" Densho"
+      ],
+      "source_urls": [
+        "https://ddr.densho.org/search/results/?fulltext=Publisher&page=111",
+        "https://ddr.densho.org/ddr-njpa-5-702/"
+      ],
+      "identity_verification": "Densho catalog reverse caption identifies manager of Fuji furniture company, matching JCCH target occupation.",
+      "notes": "Distinct pending individual portrait 5-702 followed. Actual record returns web cache miss; no pixels or rights metadata retrieved. Do not repeat unchanged failed record.",
+      "rights": "Unknown; no accepted image.",
+      "unresolved_leads": [
+        "Accessible original and rights metadata for ddr-njpa-5-702."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable image pixels; live profiles unchanged."
+  }
+}
