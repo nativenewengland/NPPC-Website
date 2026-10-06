@@ -1,0 +1,87 @@
+{
+  "batch": 417,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch417.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6660,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched; followed two current-custody leads. Reporter original image requires retrieval after webopenfailure.",
+  "profiles": [
+    {
+      "slug": "hisashi-fukuhara",
+      "name": "Hisashi Fukuhara",
+      "queries": [
+        "Hisashi Fukuhara portrait Hawaii"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/fukuhara-hisashi-getsugaku"
+      ],
+      "notes": "1897Honokaabarber, pennameGetsugaku; oralhistoryMay1983. SharedSantaFe group row4seventh JCCH/TamioNakamuraCollection; previously inaccessible nativeoriginal. ModernPaulHisashiFukuhara unbridged rejected.",
+      "unresolved_leads": [
+        "1983oralhistoryassociatedportrait; alternate grouporiginal."
+      ]
+    },
+    {
+      "slug": "itsuo-hamada",
+      "name": "Itsuo Hamada",
+      "queries": [
+        "Itsuo Hamada photo",
+        "Itsuo Hamada Hawaii internee photograph"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/hamada-itsuo",
+        "https://www.aiisf.org/taken"
+      ],
+      "notes": "PrimarySantaFegroup frontrow2seatedeleventh; JCCH/TamioNakamuraCollection nativeoriginalpending. AngelIslandvirtualexhibition namesinternee, imageidentitypending. Leilehuaclass1961 and2025RobertHamada survivingbrothernamesakes notbridged/rejected.",
+      "unresolved_leads": [
+        "AngelIslandexhibit captionedindividualimage; nativeSantaFeoriginal."
+      ]
+    },
+    {
+      "slug": "gazi-ibrahim-abu-mezer",
+      "name": "Gazi Ibrahim Abu Mezer",
+      "queries": [
+        "Gazi Ibrahim Abu Mezer photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.marymurphyofficial.com/post/that-time-i-climbed-through-a-window-after-subway-bomb-plot",
+        "https://www.washingtonpost.com/archive/politics/1997/08/02/arrest-of-ny-terrorism-suspects-stuns-their-families-on-west-bank/6738fa15-88e3-402f-adee-d14eb3ccdebc/"
+      ],
+      "notes": "Reporterfirstpersonarticle explicitly captions subject strikingmilitantpose andmatches1997case. Searchtextavailable butwebopenInternalError; originalimagepixels/creatorpending. WashingtonPostcaptionis fatherIbrahim plusbrotherNurandgrandson, NOTprisoner; reject. BridgemanLafiKhalilphotograph notGazi.",
+      "rejected_namesakes": [
+        "Ibrahim Abu Mezer father",
+        "Lafi Khalil roommate"
+      ],
+      "rights": "Unknownoriginalphotographer/license; no acceptedimage.",
+      "unresolved_leads": [
+        "Retrieve reporterpageHTML andnativecaptionedsubjectphoto; inspectqualityandcredits."
+      ]
+    },
+    {
+      "slug": "david-elmakayes",
+      "name": "David Elmakayes",
+      "queries": [
+        "David Elmakayes photo prison"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://uprisingsupport.org/support-information/",
+        "https://nycabc.wordpress.com/wp-content/uploads/2021/07/updates-13-jul-2021-1.pdf"
+      ],
+      "notes": "SupportcampaignmatchesPhiladelphia2020caseandprisoner77782-066; no new verifiedportrait. IsraeliintelligencecaseElmakayes again appears insearchbutunrelated, preservepriorrejection.",
+      "unresolved_leads": [
+        "CampaigncaptionedportraitororiginalPhiladelphiaarrestphoto."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
