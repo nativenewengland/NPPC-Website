@@ -1,0 +1,67 @@
+{
+  "batch": 348,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch348.json",
+  "inventory_counts": {
+    "valid_image_header": 3905,
+    "blank": 6574,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh live inventory found no unattempted profiles. Three unresolved follow-ups reviewed.",
+  "profiles": [
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_consultant_list_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2543",
+        "https://architecture.quincylibrary.org/files/original/714d171cbd01314d671c27bdf658287870df435f.pdf"
+      ],
+      "notes": "Downloaded and visually inspected complete Historic Structures Report page 3: professional consultants list, text only; no portrait. Media2543 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2544\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    },
+    {
+      "slug": "shiro-takeda",
+      "name": "Shiro Takeda",
+      "status": "collection_lead_still_pending",
+      "queries": [
+        "\"Shiro Takeda\" \"Heart Mountain\" photograph"
+      ],
+      "source_urls": [
+        "https://content.libraries.wsu.edu/digital/collection/hmcolls/"
+      ],
+      "notes": "Identity-specific photograph query confirms previously documented WSU Takeda family collection and Navy language school connection; no new individual image or mapped group subject surfaced. No repeated blocked page request.",
+      "rights": "No accepted image or established reuse license.",
+      "unresolved_leads": [
+        "WSU named item-level photographs remain to be retrieved and inspected."
+      ]
+    },
+    {
+      "slug": "seisaku-aoyagi",
+      "name": "Seisaku Aoyagi",
+      "status": "alternative_exhibition_source_inaccessible",
+      "queries": [
+        "\"Seisaku Aoyagi\" \"registration\" Smithsonian portrait high resolution"
+      ],
+      "source_urls": [
+        "https://www.americanhistory.si.edu/explore/exhibitions/righting-wrong/online/roundup",
+        "https://americanhistory.si.edu/collections/object/nmah_1803861"
+      ],
+      "notes": "New exhibition page search caption explicitly names registration card. Web retrieval internal error; direct request HTTP403. No larger image acquired. Selective Service certificate is a different documentary object, not evidence of a recognizable portrait. Prior undersized NPS card and blocked individual-portrait URLs not retried.",
+      "credit": "Smithsonian National Museum of American History; gift of Seiji Aoyagi where catalogued; unknown maker.",
+      "rights": "Usage Conditions Apply. CC0 applies to metadata, not restricted images.",
+      "unresolved_leads": [
+        "Larger accessible original of the independently identified portrait; exhibition URL now recorded inaccessible."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait acquired; live profiles unchanged."
+  }
+}
