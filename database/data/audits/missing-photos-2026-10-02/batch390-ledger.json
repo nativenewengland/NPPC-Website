@@ -1,0 +1,62 @@
+{
+  "batch": 390,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch390.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6626,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles searched; named group originals inaccessible and scanned historical source carried forward.",
+  "profiles": [
+    {
+      "slug": "yutetsu-matsui",
+      "name": "Yutetsu Matsui",
+      "status": "researched_named_group_leads_pending_original",
+      "queries": [
+        "\"Yutetsu Matsui\" photograph portrait",
+        "\"Yutetsu Matsui\" obituary"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/jp/internees/matsui-yutetsu",
+        "https://incarceration.jcchawaii.org/internees/matsui-yutetsu",
+        "https://www.hanaculturalcenter.org/pdf/HCC-Newsletter-2011.pdf",
+        "https://hanabuddhisttemple.org/pdf/Buddhist_Temple_National_Register.pdf"
+      ],
+      "notes": "JCCH Japanese record identifies altar group row3third, April1944 clergy bottomrow9th, broadcastgroupthird, soldiers frontrowfirst, liaisonfrontrowfourth, additional SantaFe bottomrowfourth. Collections HakuaiOda, PatSaiki, MeijiHirose. English record cachemiss. Hana cultural newsletter establishes minister since1922 and temple1939-40construction; depicted2010attendees are not him. National Register PDF45343177bytes56pages downloaded; text extractor did not match Yutetsu (likely scan), full visual inspection pending; not claimed exhausted.",
+      "rights": "No accepted image; named collection credits, photographer/license unspecified.",
+      "unresolved_leads": [
+        "Inspect scanned National Register PDF for captioned historical portrait.",
+        "Retrieve adequate-resolution named JCCH group originals."
+      ]
+    },
+    {
+      "slug": "joei-oi",
+      "name": "Joei Oi",
+      "status": "researched_named_group_sources_inaccessible",
+      "queries": [
+        "\"Joei Oi\" photograph portrait",
+        "\"Joei Oi\" Buddhist Hawaii"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/oi-joei",
+        "https://www.nichirenmission.org/history",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1468-2580.Missoula_Internees_with_ministers.jpg",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1468-2981.Group_photo_Santa_Fe_internees.jpg",
+        "https://www.lib.uidaho.edu/digital/objects/bpf/turningwheel-fall2000.pdf"
+      ],
+      "notes": "JCCH1896Honolulu chief priest/NichirenHommon and Rissho principal identifies Missoula softballfrontrowfirst, SantaFe row2third, January1945liaisonrow3sixth. First two original links webcachemiss. Official temple fullHTML downloaded: biographicaltext confirms1930teacher,1964death68; image tags showhistorybook, Nichirenmonument, templeinterior/architecture, no individually captioned Oi portrait. TurningWheel memoir textual target mention not face evidence. Reject unrelated Joei station and modern social profiles.",
+      "rights": "JCCH/HakuaiOda and JCCH/PatsySaiki collections; no accepted pixels or established reuse license.",
+      "unresolved_leads": [
+        "Accessible adequate-resolution originals of mapped JCCH group photos.",
+        "Historical mission book with individually captioned Oi photograph."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable image ready; live portraits unchanged."
+  }
+}
