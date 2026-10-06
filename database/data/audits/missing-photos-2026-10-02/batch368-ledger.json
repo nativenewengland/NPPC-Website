@@ -1,0 +1,67 @@
+{
+  "batch": 368,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch368.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6596,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile received identity-specific searches and primary archive review. Two followups inspected; image access failure recorded.",
+  "profiles": [
+    {
+      "slug": "kazumi-matsumoto",
+      "name": "Kazumi Matsumoto",
+      "status": "mapped_portrait_lead_unresolved",
+      "queries": [
+        "\"Kazumi Matsumoto\" Hawaii portrait internee",
+        "\"Kazumi Matsumoto\" Santa Fe photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsumoto-kazumi",
+        "https://library.byuh.edu/0000017b-5083-d748-a77f-f8f72e930000/m-2003-pdf"
+      ],
+      "notes": "JCCH captions identify target in1943FortMissoula softballteam frontrowthirdfromleft andSantaFeKauaigroup backrowninthfromleft. Weblink8resolved transfergroup page rather than image. DirectHTML retrieval failed: HTTP Error 403: Forbidden No actualimagepixels acquired. BallStateUniversity2010PhDfaculty andmodernmusicartist rejected as unrelated. Kalaheo100-year-oldJuly2003obituary possibleidentitylead,no portrait acquired.",
+      "credit": "JCCH/SoichiObataArchivalCollection softballteam;JCCH/SunaoFujiiArchivalCollection SantaFe. Photographersunknown.",
+      "rights": "No openlicense established; no image accepted.",
+      "unresolved_leads": [
+        "Accessible originalsoftballteam image for nativequality andcleanidentifiedcrop.",
+        "Independentlymatched2003obituaryportrait."
+      ]
+    },
+    {
+      "slug": "ishimatsu-shintani",
+      "name": "Ishimatsu Shintani",
+      "status": "museum_followup_no_digitized_portrait",
+      "queries": [
+        "\"Ishimatsu Shintani\" \"photo\" Kauai museum"
+      ],
+      "source_urls": [
+        "https://kauaihistoricalsociety.org/wp-content/uploads/2020/11/Manuscript-69-Kauai-WWII-Morale-Committee-and-Internment.pdf"
+      ],
+      "notes": "Museum-specificsearch againlocates catalogedMS69photo but no newdigitizedoriginal. Aircraft andotherNiihauparticipants nottarget.",
+      "unresolved_leads": [
+        "ActualMS69Binder2page84individualphotograph."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "pamphlet_history_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2563",
+        "https://architecture.quincylibrary.org/files/original/124c00f6c2f4c724ca8ba5d349f67deeedb18c15.pdf"
+      ],
+      "notes": "CompletePDFdownloaded andvisuallyinspected:prosecution andrestorationhistory,house sketch,no face. Media2563exhausted.",
+      "unresolved_leads": [
+        "Media2564\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait acquired."
+  }
+}
