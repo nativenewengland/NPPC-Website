@@ -1,0 +1,68 @@
+{
+  "batch": 380,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch380.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6611,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched. One distinct Daizo Sumida portrait search follow-up. No usable verified pixels acquired.",
+  "profiles": [
+    {
+      "slug": "shinzaburo-sumida",
+      "name": "Shinzaburo Sumida",
+      "status": "mapped_group_portraits_inaccessible",
+      "queries": [
+        "\"Shinzaburo Sumida\" photograph portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/sumida-shinzaburo",
+        "https://archives.starbulletin.com/2006/06/19/news/obits.html",
+        "https://library.byuh.edu/0000017b-4165-d55c-a7fb-cd77f8f20001/s-2006-pdf"
+      ],
+      "identity_verification": "JCCH identifies 1914-born Honolulu Nisei vice president of T. Sumida & Co., nephew and adopted son of Daizo. December 1941 arrest; mainland camps, August 1942 Hawaii return, Honouliuli March 1943–November 1944, Tule Lake November 1944–November 1945.",
+      "caption_leads": [
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/BASE_2467.Japanese_Language_Teachers_Group.jpg",
+          "identity": "Japanese language teachers: fourth row first from right.",
+          "credit": "JCCH/Tokiji Sojin Takei Collection",
+          "access": "Web cache miss; pixels not retrieved."
+        },
+        {
+          "identity": "1953 Kuakini committee: fourth row sixth from left.",
+          "credit": "JCCH/Takuzo Kawamoto Collection",
+          "access": "Same original already failed in batch379; not retried."
+        }
+      ],
+      "notes": "2006 obituary search identifies 91-year-old Honolulu retiree but no verified portrait surfaced. Unrelated Shinzaburo Ban and fictional Shinzaburo with Sumida River art are rejected. JCCH oral histories from December 1979 and son Ronald February 2015 remain distinct archival leads.",
+      "rights": "JCCH All Rights Reserved; original photographer unspecified. No accepted image or crop.",
+      "unresolved_leads": [
+        "Accessible teachers photograph original or independently identified oral-history portrait."
+      ]
+    },
+    {
+      "slug": "daizo-sumida",
+      "name": "Daizo Sumida",
+      "status": "individual_portrait_search_no_new_verified_image",
+      "queries": [
+        "\"Daizo Sumida\" individual portrait Densho"
+      ],
+      "source_urls": [
+        "https://encyclopedia.densho.org/Daizo_Sumida/",
+        "https://asset.library.wisc.edu/1711.dl/4H37J655QXUAF8M/E/file-1ad27.pdf?dl="
+      ],
+      "notes": "Search yielded Densho biography metadata and previously documented mapped groups. New Wisconsin library alien-enemy records PDF indexes Daizo Sumida but no portrait established; direct inspection remains pending.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Inspect Wisconsin alien-enemy records for specifically identified portrait rather than text-only index."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable image; live profiles unchanged."
+  }
+}
