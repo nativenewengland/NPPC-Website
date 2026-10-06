@@ -1,0 +1,67 @@
+{
+  "batch": 310,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch310.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched plus two lead follow-ups. No weakened identification or quality threshold.",
+  "profiles": [
+    {
+      "slug": "kenneth-shaun-traywick",
+      "name": "Kenneth Shaun Traywick",
+      "status": "researched_no_verified_photo",
+      "queries": [
+        "Kenneth Shaun Traywick photograph",
+        "Swift Justice photo Traywick",
+        "Kenneth Traywick portrait"
+      ],
+      "source_urls": [
+        "https://www.alreporter.com/2025/12/01/family-demands-updates-from-adoc-as-prison-reform-advocate-reaches-day-11-of-hunger-strike/",
+        "https://hardtimesreviewer.substack.com/p/swift-justices-hunger-strike-in-his",
+        "https://perilouschronicle.com/2019/06/14/hunger-strike-at-limestone-correctional-facility-alabama/"
+      ],
+      "notes": "Identity confirmed as Alabama incarcerated activist Swift Justice. APR image explicitly stock prison wall, not sitter; direct APR retrieval403. Perilous photo depicts outside supporters, not Traywick. Bakersfield Kenneth Traywick1936\u20132016 obituary is unrelated namesake. Taylor Swift and television Swift Justice images rejected. No independently captioned usable photograph obtained.",
+      "unresolved_leads": [
+        "Unheard Voices OTCJ individually captioned portrait",
+        "Review additional primary interview media"
+      ],
+      "rights": "No accepted portrait; no image license established."
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "library_media618_preview_rejected",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/618",
+        "https://architecture.quincylibrary.org/files/large/fcd31c392b344397c75990a51622eedaa760c0a8.jpg"
+      ],
+      "notes": "Direct library media and preview retrieved after web tool failure. Visually reviewed Historic Illinois October1990 page8: house photo and text, no portrait. House photo rejected; further PDF pages and other dossier media remain pending."
+    },
+    {
+      "slug": "shirley-way",
+      "name": "Shirley Way",
+      "status": "alternate_access_failed",
+      "queries": [
+        "Shirley Way 2021 AVP gathering photo"
+      ],
+      "source_urls": [
+        "https://www.avpny.org/wp-content/uploads/2021/12/AVPfallNews12-16-21FINAL.pdf",
+        "https://www.avpny.org/wp-content/uploads/2021/06/21.05-summer-newsletter-flat.pdf"
+      ],
+      "notes": "Web PDF access cache miss following prior direct406; no repeat direct download. Search locates spring newsletter but no independently identified adequate image reviewed. Australian event photographer Shirley Way excluded as identity-unbridged namesake.",
+      "unresolved_leads": [
+        "Accessible named 2021 group image"
+      ],
+      "rights": "Unestablished; no crop accepted."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; missing-photo treatment preserved."
+  }
+}
