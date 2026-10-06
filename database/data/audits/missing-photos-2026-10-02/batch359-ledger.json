@@ -1,0 +1,67 @@
+{
+  "batch": 359,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch359.json",
+  "inventory_counts": {
+    "valid_image_header": 3907,
+    "blank": 6584,
+    "missing_asset": 1
+  },
+  "target_note": "All oneunattemptedprofile searched plus twofollowups; imageaccessfailures recorded.",
+  "profiles": [
+    {
+      "slug": "genyei-miyagi",
+      "name": "Genyei Miyagi",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "Genyei Miyagi photograph portrait",
+        "Genyei Miyagi photo",
+        "Genei Miyagi internee portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/miyagi-genyei",
+        "https://www.aiisf.org/taken",
+        "https://jcch.soutronglobal.net/Portal/Default/en-US/DownloadImageFile.ashx?objectId=381&ownerId=6139&ownerType=0"
+      ],
+      "notes": "Identity-specific variant searches and primary internee archive reviewed. ShozoTakahashi oralhistory identifies GeneiMiyagi as Waialae schoolheadmaster arrestedDecember7. Camp lists and AngelIslandexhibition confirm internee name, but no actual namedportrait located in search. ModernbaseballGeneiSato/MiyagiKonanresults nottarget. Donor memorial text notphoto.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Potential school/familyarchive portrait independently matched to headmaster."
+      ]
+    },
+    {
+      "slug": "katsuichi-miho",
+      "name": "Katsuichi Miho",
+      "status": "mapped_group_assets_inaccessible",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/miho-katsuichi"
+      ],
+      "credit": "JCCH/Rev.HakuaiOda Collection and JCCH/UsaburoKatamotoArchivalCollection; photographers unknown.",
+      "rights": "No open license established.",
+      "notes": "Reviewed authoritative group captions and tried both previously unattempted image links(8paintingexhibition,9hospitalstaff) through web tool; both returned internalerrors. Actual pixels unavailable and exactassetURL notreturned; no nativequality,crop ordeployment. Identitymappings retained frombatch358.",
+      "unresolved_leads": [
+        "Accessible reproductions of namedJuly1944exhibition orFeb1945hospitalstaff photograph."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_thirteen_house_elevations_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2553",
+        "https://architecture.quincylibrary.org/files/original/14f4da6c0c553d2407985b820903479057119378.pdf"
+      ],
+      "rights": "No accepted image.",
+      "notes": "Complete reportpage13downloaded and visuallyinspected:fourwestelevationhouse sketches,no person. Media2553exhausted.",
+      "unresolved_leads": [
+        "Unexaminedmedia2554\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usableverified portraitacquired; liveprofilesunchanged."
+  }
+}
