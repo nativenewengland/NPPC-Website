@@ -1,0 +1,70 @@
+{
+  "batch": 424,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch424.json",
+  "inventory_counts": {
+    "valid_image_header": 3914,
+    "blank": 6669,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched plus two current-custody unresolved followups. Corrected Samuel Brown slug in batches422 and423.",
+  "profiles": [
+    {
+      "slug": "ushitaro-yonezaki",
+      "name": "Ushitaro Yonezaki",
+      "queries": [
+        "Ushitaro Yonezaki photograph",
+        "Ushitaro Yonezaki Hawaii",
+        "Ushitaro Yonesaki photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yonezaki-ushitaro",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "1885-1949 Honolulu innkeeper, alias Yonesaki, HJ-320. JCCH identifies shared Santa Fe group row five tenth from left, JCCH/Tamio Nakamura Collection. Previously documented common original access failure remains; no separate individual portrait found.",
+      "unresolved_leads": [
+        "Accessible shared Santa Fe group or independently captioned family portrait."
+      ]
+    },
+    {
+      "slug": "karrem-nasr",
+      "name": "Karrem Nasr",
+      "queries": [
+        "Karrem Nasr photograph arrest"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://abcnews.com/US/new-jersey-man-motivated-hamas-attack-threatened-attack/story?id=105990824"
+      ],
+      "source_images": [
+        "https://i.abcnewsfe.com/a/c871fe12-7186-4583-94f4-f7a66675c4ec/manhattan-courthouse-gt-ythg-231229_1703870165264_hpMain_16x9.jpg"
+      ],
+      "notes": "Current custody followup of batch43. ABC contextual caption sounded like a named portrait, but resolved original is explicitly manhattan-courthouse image, credited Andrey Denisyuk/Getty Images. Browser original cache miss; reject as portrait. Other visible article image is DOJ seal. No accepted individual face.",
+      "unresolved_leads": [
+        "Individually captioned booking or court portrait."
+      ]
+    },
+    {
+      "slug": "cody-michael-tarner",
+      "name": "Cody Michael Tarner",
+      "queries": [
+        "Cody Michael Tarner photo arrest"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.govinfo.gov/content/pkg/USCOURTS-dcd-1_20-cr-00183/pdf/USCOURTS-dcd-1_20-cr-00183-0.pdf"
+      ],
+      "notes": "Current custody followup; exact search yields court opinion on federal custody and release motion, without an identified photographic portrait.",
+      "unresolved_leads": [
+        "Captioned individual booking/court photograph."
+      ]
+    }
+  ],
+  "rights": "No accepted image; Getty courthouse illustration cannot serve as prisoner portrait.",
+  "deployment": {
+    "performed": false
+  }
+}
