@@ -1,0 +1,73 @@
+{
+  "batch": 373,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch373.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6603,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile received identity-specific searches. Two distinct archival follow-ups were reviewed; no verified usable portrait was obtained.",
+  "profiles": [
+    {
+      "slug": "richard-yoshikazu-matsui",
+      "name": "Richard Yoshikazu Matsui",
+      "status": "primary_record_inaccessible_no_verified_portrait",
+      "queries": [
+        "\"Richard Yoshikazu Matsui\" portrait photograph",
+        "\"Richard Matsui\" \"Totaro\" photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsui-totaro",
+        "https://incarceration.jcchawaii.org/internees/matsui-richard-yoshikazu"
+      ],
+      "identity_verification": "JCCH Totaro Matsui household explicitly names Richard Yoshikazu Matsui as his nephew. Correct linked individual record confirmed, but its web retrieval returned a cache miss.",
+      "rejected_namesakes": [
+        "Richard Yoshikazu Kezuka (1924–2002): different surname and no independent bridge to the Matsui nephew.",
+        "Richard Goro Matsui: no identity bridge."
+      ],
+      "notes": "Army-list Yoshikazu Matsui entry alone does not establish identity or provide a portrait. No accepted image.",
+      "unresolved_leads": [
+        "Accessible JCCH individual record and independently captioned household photographs."
+      ],
+      "rights": "No accepted image."
+    },
+    {
+      "slug": "florence-nobuko-matsui",
+      "name": "Florence Nobuko Matsui",
+      "status": "caption_lead_requires_identity_bridge",
+      "queries": [
+        "\"Florence Nobuko Matsui\" family photo"
+      ],
+      "source_urls": [
+        "https://ddr.densho.org/search/results/?fulltext=Florence&page=2",
+        "https://ddr.densho.org/ddr-njpa-4-821/"
+      ],
+      "notes": "Search catalog identifies Tomiichi Matsui with a woman; reverse inscription includes Florence. This is a new possible lead, but no independent Nobuko/1923 Honolulu/household bridge. Actual record retrieval returned cache miss. Do not accept the woman as this profile without that bridge.",
+      "rights": "Image rights and creator not retrieved; no accepted image.",
+      "unresolved_leads": [
+        "Record ddr-njpa-4-821: establish the woman’s full identity and inspect original pixels and rights."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "restoration_pamphlet_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/3256",
+        "https://architecture.quincylibrary.org/files/original/109ecc2a128c4117a4374c514520cedd56a5bfcc.pdf"
+      ],
+      "notes": "Downloaded, rendered and visually inspected: restored house photograph, member list, house sketches and text; no face. Media 3256 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Media 3257 and 3258 remain unexamined."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable additions; live profiles unchanged."
+  }
+}
