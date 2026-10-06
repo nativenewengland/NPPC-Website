@@ -1,0 +1,48 @@
+{
+  "batch": 319,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch319.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6566,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory identified no remaining unattempted profiles. Pursued two distinct previously unexamined leads; access failures prevented obtaining image pixels.",
+  "profiles": [
+    {
+      "slug": "tom-cahill",
+      "name": "Tom Cahill",
+      "status": "credible_portrait_source_inaccessible",
+      "source_urls": [
+        "https://www.legacy.com/us/obituaries/mendocinobeacon/name/tom-cahill-obituary?id=13354492",
+        "https://cache.legacy.net/legacy/images/cobrands/mendocinobeacon/photos/b0c6ed80-f4ae-4072-9b5b-026885513777.jpgx?h=200&option=3&w=129"
+      ],
+      "notes": "Mendocino Beacon obituary published July 2021 names activist born February 14, 1937, died June 11, 2021, prison assault, Stop Prison Rape/JDI leadership, France residence. Strong identity bridge. Named obituary image link found but web image cache miss and direct original-sized request HTTP 403. No image pixels reviewed. Do not repeat blocked retrieval.",
+      "credit": "Mendocino Beacon / Legacy obituary; image creator not established",
+      "rights": "No image reuse license established; page explicitly reserves rights.",
+      "unresolved_leads": [
+        "Alternative accessible original of the named obituary photo"
+      ]
+    },
+    {
+      "slug": "walter-gormly",
+      "name": "Walter Gormly",
+      "status": "source_inaccessible",
+      "source_urls": [
+        "https://marxists.architexturez.net/history/usa/pubs/lincoln-socialist-labor/950427-lincolnsocialistlabor-w01-DAMAGED.pdf"
+      ],
+      "notes": "Distinct newspaper PDF portrait lead from prior search examined. Web fetch failed (400 OK); direct download HTTP 403. Search caption alone does not establish that sitter is Iowa conscientious objector. Filename suggests 1895 newspaper, preceding his 1915 birth: potential namesake, not accepted. No photograph obtained. Do not repeat blocked retrieval.",
+      "rights": "No accepted image; rights and sitter unresolved.",
+      "unresolved_leads": [
+        "Unwatermarked 1959 UPI image previously verified by printed caption",
+        "Iowa State University physical papers RS 21/7/66"
+      ]
+    }
+  ],
+  "deployment": {
+    "applied": false,
+    "reason": "No usable verified image; no live profile changes."
+  }
+}
