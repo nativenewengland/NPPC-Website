@@ -1,0 +1,69 @@
+{
+  "batch": 308,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch308.json",
+  "inventory_counts": {
+    "valid_image_header": 3900,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "One remaining unattempted profile, all researched. Two historical follow-ups documented.",
+  "profiles": [
+    {
+      "slug": "jason-renard-walker",
+      "name": "Jason Renard Walker",
+      "status": "verified_photo",
+      "queries": [
+        "Jason Renard Walker photo portrait"
+      ],
+      "source_urls": [
+        "https://truthout.org/articles/unpaid-labor-in-texas-prisons-is-modern-day-slavery/",
+        "https://sfbayview.com/2022/07/jason-walker-each-move-is-far-worse-than-the-last/"
+      ],
+      "credit": "Photo courtesy of Jason Walker / Truthout",
+      "rights": "Courtesy credit identifies provider, not photographer or license. No open image license established; public access is not public domain.",
+      "notes": "Two real individually identified photos reviewed. Truthout GED image has clearer exposure than oversaturated SF Bay View outdoor photo; selected proportionate crop. Generic prison shakedown and Unsplash illustrations rejected."
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "library_dossier_followup_pending",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/item/617"
+      ],
+      "notes": "Library HTML retrieved and checked for direct media/file links; no actual photographic sitter verified. House dossier still unresolved; house images and sketch not accepted."
+    },
+    {
+      "slug": "lawrence-sangston",
+      "name": "Lawrence Sangston",
+      "status": "physical_archive_only",
+      "queries": [
+        "Lawrence Sangston portrait photograph digital"
+      ],
+      "source_urls": [
+        "https://mdhistory.libraryhost.com/agents/people/3801",
+        "https://mdhistory.libraryhost.com/repositories/2/archival_objects/225661"
+      ],
+      "notes": "Targeted digitization search confirms physical CDV, no digital asset found. Fertilizer advertisements and directories supply text, no accepted portrait. Do not repeat this query until archive digitization changes.",
+      "unresolved_leads": [
+        "Digitization of MS3255 CDV"
+      ],
+      "rights": "Physical archive use subject to restrictions; no digital portrait licensing established."
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/jason-renard-walker",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/jason-renard-walker-batch308.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "140fcadb324808c66b71b82d83657ad1e9fb477f7e7f76aae4ae8921b301632a",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
