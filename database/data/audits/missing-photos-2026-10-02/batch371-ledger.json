@@ -1,0 +1,70 @@
+{
+  "batch": 371,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch371.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6600,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched; two followups. Strong mapped images attempted but inaccessible.",
+  "profiles": [
+    {
+      "slug": "totaro-matsui",
+      "name": "Totaro Matsui",
+      "status": "mapped_portrait_assets_inaccessible",
+      "queries": [
+        "\"Totaro Matsui\" portrait photograph",
+        "\"Totaro Matsui\" Hawaii photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsui-totaro",
+        "https://www.govinfo.gov/content/pkg/FR-1943-07-06/pdf/FR-1943-07-06.pdf",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1006-2986.Santa_Fe_Broadcast_Dept_members.jpg",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1006-2891.R_Ipponsugi_Santa_Fe_Camp__2_GIs.jpg"
+      ],
+      "identity_verification": "JCCH1893IsseiHonoluluPacificBankmanager,arrestDec1941;FederalRegister independentlylistsbankshares. JCCHbroadcastgroup top rowfourth;twoGIvisitgroup frontrowfifth.",
+      "notes": "Reviewed primary archive, officialrecord andOzaki correspondencefindingaid. DirectHTML403 andtwoactualimageURLswebcachemiss; nativepixels unavailable. TotaroSugiyama,TakafumiMatsui andWalterMatsumoto nottarget.",
+      "credit": "BroadcastgroupJCCH/PatSaikiArchivalCollection;twoGIgroupJCCH/RiuichiIpponsugiArchivalCollection;photographersunknown.",
+      "rights": "No openlicense established;no acceptedimage.",
+      "unresolved_leads": [
+        "Accessibleoriginalbroadcastgroup orGIvisitgroup,adequatecleanidentifiedcrop."
+      ]
+    },
+    {
+      "slug": "osuke-shigemoto",
+      "name": "Osuke Shigemoto",
+      "status": "family_group_credit_verified_asset_inaccessible",
+      "queries": [
+        "\"Osuke Shigemoto\" family photograph Richard"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/media/_photoGallery/1006-2891.R_Ipponsugi_Santa_Fe_Camp__2_GIs.jpg"
+      ],
+      "notes": "AlternativeTotaroMatsuiarchivepage confirmsJan1945twoGIvisitgroup,Osukefrontrowsecond,sonthird;exactcreditJCCH/RiuichiIpponsugiArchivalCollection. Actualassetwebcachemiss. No croppossible.",
+      "rights": "No openlicense established.",
+      "unresolved_leads": [
+        "Accessibleoriginal identifiedGIvisitgroup."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "restoration_pamphlet_house_images_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2566",
+        "https://architecture.quincylibrary.org/files/original/e0c3cb2b02ff5c4df7e9c1bde2005045fe8d6fe3.pdf"
+      ],
+      "notes": "CompletePDFdownloaded andvisuallyinspected:restoredfacade1997,threehousesketches,memberlist andrestorationtext,no face. Media2566exhausted.",
+      "unresolved_leads": [
+        "Media2567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verifiedusableportraitacquired."
+  }
+}
