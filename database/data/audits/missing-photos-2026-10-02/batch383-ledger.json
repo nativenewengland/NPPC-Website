@@ -1,0 +1,62 @@
+{
+  "batch": 383,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch383.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6616,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched. Downloaded and visually reviewed promising named newsletter portrait; too small for usable ingestion.",
+  "profiles": [
+    {
+      "slug": "konin-matano",
+      "name": "Konin Matano",
+      "status": "mapped_group_portraits_no_usable_original",
+      "queries": [
+        "\"Konin Matano\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matano-konin",
+        "https://www.kapaahongwanji.org/about-us/"
+      ],
+      "identity_verification": "JCCH identifies Reverend Konin Matano in Missoula minister group front row first from left and Santa Fe altar group third row seventh; Kapaa official temple history lists tenure 1946–1948.",
+      "caption_leads": [
+        "Missoula ministers circa 1943, front row first from left; JCCH/Rev. Hakuai Oda Collection.",
+        "Restaurant ministers, back row third from left; JCCH/Rev. Hakuai Oda Collection."
+      ],
+      "notes": "No individually identified usable portrait surfaced. Alice Fujieda obituary concerns daughter, not target portrait; modern Albert Konin Matano payroll result not independent target bridge, rejected.",
+      "rights": "No accepted image. JCCH All Rights Reserved; original photographer unspecified.",
+      "unresolved_leads": [
+        "Accessible mapped ministers group original or temple archival portrait."
+      ]
+    },
+    {
+      "slug": "shinri-sarashina",
+      "name": "Shinri Sarashina",
+      "status": "identified_newsletter_portrait_too_small",
+      "queries": [
+        "\"Shinri Sarashina\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/sarashina-shinri",
+        "https://www.lahainahongwanji.com/January%202014%20Newsletter.pdf",
+        "https://zentokufoundation.org/story/junji-sarashina/"
+      ],
+      "identity_verification": "JCCH camp minister; official Lahaina January 2014 newsletter identifies Reverend Shinri as father of Takuji Tommy, resident minister 1924–1936. Named biographical inset includes a real portrait.",
+      "notes": "Downloaded nine-page newsletter; rendered and visually inspected page index 3. Named inset portrait is only approximately 40 by 50 pixels at page render scale and embedded in small biography; rejected as unusably small pending original resolution. 1931 school photograph depicts son Takuji and other children, not father. Zentoku article concerns son Junji; do not substitute son.",
+      "credit": "Lahaina Hongwanji newsletter; information and photographs supplied by Takuji Tommy Sarashina. Original portrait photographer unspecified.",
+      "rights": "Not established public domain; no accepted crop/image.",
+      "unresolved_leads": [
+        "Larger original of Shinri biographical inset portrait, potentially temple commemorative booklet or family original.",
+        "Small winter group mapped second from left, JCCH/Rev. Hakuai Oda Collection."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live profiles unchanged."
+  }
+}
