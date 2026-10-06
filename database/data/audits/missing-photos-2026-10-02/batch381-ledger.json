@@ -1,0 +1,56 @@
+{
+  "batch": 381,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch381.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6612,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched and a distinct university archive lead downloaded and inspected. No usable portrait acquired.",
+  "profiles": [
+    {
+      "slug": "gikyo-kuchiba",
+      "name": "Gikyo Kuchiba",
+      "status": "mapped_group_portraits_unretrieved",
+      "queries": [
+        "\"Gikyo Kuchiba\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kuchiba-gikyo",
+        "https://hongwanjihawaii.com/history/",
+        "https://ddr.densho.org/ddr-manz-4-15/"
+      ],
+      "identity_verification": "JCCH identifies Bishop Gikyo Kuchiba in Missoula and Santa Fe minister groups. Official Honpa Hongwanji history independently confirms appointment as bishop after Zuigi Ashikaga and tenure ending with December 1941 Pearl Harbor attack.",
+      "caption_leads": [
+        "Missoula Buddhist ministers circa 1943: front row fifth from left. JCCH/Rev. Hakuai Oda Collection.",
+        "Santa Fe altar group circa 1944–1945: third row fifth from left. JCCH/Rev. Hakuai Oda Collection."
+      ],
+      "notes": "JCCH gallery image click returned internal error without usable pixels. Official temple history illustrates other named figures (Kagahi and Imamura), not an independently captioned Kuchiba portrait; rejected for target. Densho item 4-15 is a postcard authored by Kuchiba, not established portrait. Federal Register property notices are text only.",
+      "rights": "No accepted image or crop; JCCH All Rights Reserved. Original photographer unspecified.",
+      "unresolved_leads": [
+        "Accessible original of explicitly mapped Missoula minister group; assess recognizable face resolution.",
+        "Temple bishop archival portrait independently captioned Kuchiba."
+      ]
+    },
+    {
+      "slug": "daizo-sumida",
+      "name": "Daizo Sumida",
+      "status": "university_archive_roster_no_portrait",
+      "source_urls": [
+        "https://asset.library.wisc.edu/1711.dl/4H37J655QXUAF8M/E/file-1ad27.pdf?dl="
+      ],
+      "notes": "Downloaded 68-page PDF. Matching page index 31 rendered and visually inspected: Camp McCoy enemy-alien roster as of May 1 1942, names Daizo and Shinzaburo Sumida; text table only, no faces. This matching roster lead exhausted. No unrelated address fields retained.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Distinct actual portrait source; this roster does not supply one."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portraits; live profiles unchanged."
+  }
+}
