@@ -1,0 +1,84 @@
+{
+  "batch": 388,
+  "newly_attempted_count": 3,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch388.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6623,
+    "missing_asset": 1
+  },
+  "target_note": "All three unattempted profiles researched. Actual Fulbright originals inspected, insufficient resolution; obituary access403. Larger source leads carried forward.",
+  "profiles": [
+    {
+      "slug": "alice-noriko-matano",
+      "name": "Alice Noriko Matano",
+      "status": "researched_no_deployed_portrait_pending_leads",
+      "queries": [
+        "\"Alice Nariko Matano Fujieda\" obituary photo",
+        "\"Alice\" \"Fujieda\" \"Konin\"",
+        "\"Alice Fujieda\" portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://hawaiiobituaries.com/us/obituaries/hawaiiobituaries/name/alice-fujieda-obituary?id=53975266",
+        "https://hawaiiobituaries.com/us/obituaries/hawaiiobituaries/name/alice-fujieda-obituary?id=53958839"
+      ],
+      "notes": "Obituary explicitly names Konin and Tamako parents, siblings and Waianae1932 birth, independently linking married name. Indexed obituary indicates portrait, but direct HTML403 prevents original retrieval. Reject unrelated Alice Quartet artwork.",
+      "rights": "No accepted image. Fulbright source organization identified; photographer and reuse license unspecified, not assumed public domain.",
+      "unresolved_leads": [
+        "Accessible original of explicitly named obituary portrait."
+      ]
+    },
+    {
+      "slug": "bernard-hirotake-matano",
+      "name": "Bernard Hirotake Matano",
+      "status": "researched_no_deployed_portrait_pending_leads",
+      "queries": [
+        "\"Bernard Hirotake Matano\" photograph",
+        "\"Bernard\" \"Matano\" obituary 2000",
+        "\"Bernard Matano\" \"photo\" Air Force"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://archives.starbulletin.com/2000/03/09/news/obits.html",
+        "https://digitalcollections.byuh.edu/obituaries/4463/"
+      ],
+      "notes": "2000 obituary identifies65-year-old Waianae-born retired USAF lieutenant colonel, wifeAmy and Matano sibling group. No portrait surfaced; genealogy icons and unrelated clergy/athletics results not portrait evidence.",
+      "rights": "No accepted image. Fulbright source organization identified; photographer and reuse license unspecified, not assumed public domain.",
+      "unresolved_leads": [
+        "Military or independently captioned family portrait, if digitized."
+      ]
+    },
+    {
+      "slug": "caroline-atsuko-matano",
+      "name": "Caroline Atsuko Matano",
+      "status": "researched_no_deployed_portrait_pending_leads",
+      "queries": [
+        "\"Caroline Atsuko Matano\" photo",
+        "\"Caroline Yang\" \"Konin\" internment",
+        "\"Caroline Matano Yang\" portrait interned Crystal City"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sharp-park-detention-station-california",
+        "https://fulbright.jp/forms/downloads/obituary-cay.pdf",
+        "https://fulbright.org/2024/01/04/in-memoriam-caroline-atsuko-matano-yang/",
+        "https://hawaiiobituaries.com/us/obituaries/hawaiiobituaries/name/alice-fujieda-obituary?id=53975266",
+        "https://fulbright.org/wp-content/uploads/2020/02/FA_NEWSLETTER_Fall_Winter1993_1994-web.pdf",
+        "https://www.nafsa.org/blog/tuesday-postcard-nafsa-2009-annual-conference"
+      ],
+      "notes": "Fulbright official memorial names full married name1936-2023; sibling obituary bridges CarolineYang to Konin/Tamako family. Actual487748-byte official PDF downloaded and images extracted. Individual portrait159x175 native (web158x173) too small for standard portrait. Handshake847x590 reviewed visually: central woman face approximately90pxwide; crop would magnify excessively. No accepted crop. Newly found1993-94 newsletter explicitly captions Caroline besideMichaelArmacost; actual pixels still pending, alsoNAFSA2009 award source.",
+      "rights": "No accepted image. Fulbright source organization identified; photographer and reuse license unspecified, not assumed public domain.",
+      "unresolved_leads": [
+        "Inspect original 1993-94 Fulbright newsletter captioned photograph resolution.",
+        "Inspect NAFSA2009 award photograph original and caption.",
+        "Larger original of official Fulbright individual portrait."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait ready; profiles unchanged."
+  }
+}
