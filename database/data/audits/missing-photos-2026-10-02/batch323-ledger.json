@@ -1,0 +1,88 @@
+{
+  "batch": 323,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch323.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6568,
+    "missing_asset": 1
+  },
+  "target_note": "All one newly unattempted profile researched, plus two carried-forward source investigations. One verified portrait prepared for deployment.",
+  "profiles": [
+    {
+      "slug": "roy-kepler",
+      "name": "Roy Kepler",
+      "status": "verified_photo",
+      "queries": [
+        "Roy Kepler portrait photograph conscientious objector",
+        "Roy Kepler obituary photograph"
+      ],
+      "source_urls": [
+        "https://www.a3mreunion.org/remembrance/kepler-r.html",
+        "https://www.a3mreunion.org/remembrance/images/kepler-r_w480.png",
+        "https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.185",
+        "https://www.almanacnews.com/news/2012/09/26/book-review-roy-keplers-war-on-war/"
+      ],
+      "notes": "Original named portrait retrieved and visually reviewed; 480x350 image shows recognizable adult at Keplers bookstore. Caption Roy Kepler, 1964. Clean 240x320 vertical crop preserves entire head and shoulders and resizes without distortion. Ralph Kohn obituary is a different bookstore manager, not Kepler; building facade images not portraits.",
+      "credit": "April Third Movement remembrance; caption Roy Kepler, 1964; text by Michael Doyle / Palo Alto Online; photographer unlisted",
+      "rights": "No open image license established; public availability does not establish public domain.",
+      "crop": {
+        "original_size": [
+          480,
+          350
+        ],
+        "box": [
+          207,
+          24,
+          447,
+          344
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "arlo-tatum",
+      "name": "Arlo Tatum",
+      "status": "credible_archive_lead_downloaded_review_pending",
+      "source_urls": [
+        "https://www.idk-info.net/app/download/5800038056/wri%2Bhistory.pdf"
+      ],
+      "notes": "Downloaded 523-page WRI history. Caption list names Tatum in numbered group photographs. PDF contains 13 embedded images; Tatum text pages contain no image. Need locate plate images and map exact caption before accepting any crop; no portrait deployed yet.",
+      "rights": "Image-specific creator and rights not established.",
+      "unresolved_leads": [
+        "Locate and visually map numbered WRI plate photographs from downloaded PDF"
+      ]
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "status": "source_inaccessible",
+      "source_urls": [
+        "https://cedarvalleyuu.org/wp-content/uploads/2024/05/2024-Annual-Report.pdf"
+      ],
+      "notes": "Distinct 2024 annual report direct download returned HTTP 406. No image pixels obtained; do not repeat this request.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Larger original of identified 2023 paired photo"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/roy-kepler",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/roy-kepler-batch323.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "11f6d4bdf308f61c82953bc7bc349b06d305d614411dd367a75057e1f4d7cae9",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
