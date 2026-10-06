@@ -1,0 +1,60 @@
+{
+  "batch": 309,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch309.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6561,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory found zero unattempted profiles. Three targeted unresolved lead follow-ups; no photo accepted.",
+  "profiles": [
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "one_library_media_exhausted_remaining_pending",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/635",
+        "https://architecture.quincylibrary.org/files/original/50e251fcbd4eb43630b5e1375f13fc5b19d64736.pdf"
+      ],
+      "notes": "Web tool inaccessible; direct retrieval succeeded. Single-page PDF image 708x870 visually reviewed: house photograph and historical text only, no person. Reject building as portrait. Media635 exhausted; other linked media not yet reviewed."
+    },
+    {
+      "slug": "shirley-way",
+      "name": "Shirley Way",
+      "status": "new_captioned_group_lead_access_failed",
+      "queries": [
+        "Shirley Way AVP portrait Ithaca"
+      ],
+      "source_urls": [
+        "https://www.avpny.org/wp-content/uploads/2021/12/AVPfallNews12-16-21FINAL.pdf",
+        "https://avpusa.org/feds-avp-is-a-model-program/"
+      ],
+      "notes": "2021 annual gathering caption explicitly identifies Secure Shirley Way as fifth/front-row right. Direct PDF download returned HTTP406; dimensions and face visibility unverified. No crop accepted. 2017 author article group photographs depict apprentice facilitators and are not individually mapped to Shirley.",
+      "unresolved_leads": [
+        "Accessible 2021 AVP gathering image to assess clean crop"
+      ],
+      "rights": "Photographer and image reuse rights unestablished."
+    },
+    {
+      "slug": "elise-french",
+      "name": "Elise French",
+      "status": "targeted_search_no_new_portrait",
+      "queries": [
+        "Elise French Avon photograph"
+      ],
+      "source_urls": [],
+      "notes": "Targeted local church/city search did not find an individually identified portrait. Appliance Elise French-door results are not a person. Known tiny 2024 church group not re-downloaded.",
+      "unresolved_leads": [
+        "Individually identified church portrait"
+      ],
+      "rights": "No accepted image or established rights."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No newly verified usable image; existing missing-photo treatment preserved."
+  }
+}
