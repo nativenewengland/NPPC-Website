@@ -1,0 +1,83 @@
+{
+  "batch": 431,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch431.json",
+  "inventory_counts": {
+    "valid_image_header": 3917,
+    "blank": 6674,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched plus two current-custody unresolved leads. No verified usable portrait found.",
+  "profiles": [
+    {
+      "slug": "masayuki-chikuma",
+      "name": "Masayuki Chikuma",
+      "queries": [
+        "Masayuki Chikuma photo",
+        "Masayuki Chikuma portrait Toyo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/chikuma-masayuki",
+        "https://incarceration.jcchawaii.org/documents/Chikuma2C20Masayuki20Pt12028Eng20trans29.pdf"
+      ],
+      "notes": "1902 Honolulu Toyo Theater manager, benshi entertainer and later Shinto priest. Primary identifies eight group photos: Missoula softball frontrow fifth; broadcast frontrow second; theatrical frontrow eighth. Shared archive originals previously inaccessible; do not repeat access failures. Oral-history transcript confirms theater identity, no independently accessible standalone portrait in search results.",
+      "credit": "JCCH / Rev. Hakuai Oda, Pat Saiki, Joan Oya, Matsumoto-Tsushima collections as individually captioned.",
+      "rights": "No public-domain inference; no image accepted.",
+      "unresolved_leads": [
+        "Accessible native broadcast or theatrical original for verified crop; Toyo Theater family portrait."
+      ]
+    },
+    {
+      "slug": "freddie-morrow",
+      "name": "Freddie Morrow",
+      "queries": [
+        "Freddie Morrow Alex Garcia",
+        "CONFEDERATE FLAG CAN STILL DRAW BLOOD Tribune",
+        "Freddie Morrow photograph Kaiser2000"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006-0470-F/2006-0470-F-PDF/Box_009/42-t-7431951-20060470-F-009-002-2015.pdf",
+        "https://bluessocietyoftulsa.com/wp-content/uploads/2018-BN-Jul-Aug.pdf",
+        "https://www.ancientfaces.com/person/freddie-morrow-birth-1898-death-1974/58681567"
+      ],
+      "notes": "Original Tribune19March2000 photograph creditAlexGarcia remains unfound; search again surfaced exhausted NARA text-only reproduction, not redownloaded. Newly surfaced Tulsa Blues Society FrederickEugeneMorrow1948-2018 memorial portrait is wrong person; Gallatin1898-1974 biography likewise wrong.",
+      "rejected_namesakes": [
+        "Frederick Eugene Morrow1948-2018 Tulsa blues organizer",
+        "Freddie Morrow1898-1974 Gallatin"
+      ],
+      "unresolved_leads": [
+        "Chicago Tribune original19March2000 page1 color portrait, photographerAlexGarcia."
+      ]
+    },
+    {
+      "slug": "julio-zuniga",
+      "name": "Julio Zuniga",
+      "queries": [
+        "Julio Zuniga Mongoose prisoner photo",
+        "julioazunigaart photo prisoner"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://mongoosedistro.com/page/33/",
+        "https://www.texasobserver.org/solidarity-prison-labor-union/",
+        "https://mongoosedistro.com/"
+      ],
+      "notes": "Mongoose page33 accompanying images concern NoahCoffin or EricKing, cannot assign to Zuniga. Independent TexasObserver23September2024 bridges JulioAlexZuniga ComradeZ, age44 SanAntonio and artistaccount; lead art creditedJEvers illustration and Union.jpg original artwork byZuniga, not actual photographic portrait. Mongoose current13August2026 artist-account post still supplies no named recognizable photographic portrait.",
+      "rejected_images": [
+        "TexasObserver JEvers illustration",
+        "Union.jpg Zuniga artwork",
+        "Mongoose neighboring NoahCoffin/EricKing images"
+      ],
+      "unresolved_leads": [
+        "Actual identity-captioned photograph on verified artist account or supporter archive."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
