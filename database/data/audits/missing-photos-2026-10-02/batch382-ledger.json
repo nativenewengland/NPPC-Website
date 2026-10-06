@@ -1,0 +1,71 @@
+{
+  "batch": 382,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch382.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6614,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles received identity-specific searches and primary source review. Verified caption leads could not be retrieved as usable pixels.",
+  "profiles": [
+    {
+      "slug": "josen-deme",
+      "name": "Josen Deme",
+      "status": "captioned_group_and_procession_leads_unretrieved",
+      "queries": [
+        "\"Josen Deme\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/deme-josen",
+        "https://waipahuhongwanji.org/temple-history/"
+      ],
+      "identity_verification": "JCCH maps Reverend Josen Deme in Missoula minister group, front row second from left; official Waipahu temple history independently lists his tenure 1941–1958.",
+      "caption_leads": [
+        "Missoula Buddhist ministers circa 1943: front row second from left; JCCH/Rev. Hakuai Oda Collection.",
+        "Winter four-person group: Hakuai Oda, Shinri Sarashina, Gikyo Kuchiba, Josen Deme left to right; JCCH/Rev. Hakuai Oda Collection.",
+        "Official Waipahu temple gallery captions Chigo Procession led by Rev. Deme; exact pixels and face mapping not inspected."
+      ],
+      "notes": "Official temple text accessible through web but direct HTML returns HTTP 403; gallery original unresolved. Genealogy Add photo prompts are not existing portraits. Josen Yempuku pictured in 1902 is another minister, rejected.",
+      "rights": "No accepted image. Original photographer and temple gallery rights unspecified; JCCH All Rights Reserved.",
+      "unresolved_leads": [
+        "Acquire captioned procession image and verify clear recognizable subject.",
+        "Accessible original of mapped small winter group."
+      ]
+    },
+    {
+      "slug": "hakuai-oda",
+      "name": "Hakuai Oda",
+      "status": "identified_individual_portrait_inaccessible",
+      "queries": [
+        "\"Hakuai Oda\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/oda-hakuai",
+        "https://www.hakalauhome.com/honohina-hongwanji.html",
+        "https://discovernikkei.org/es/journal/2018/10/3/saikoji-family-temple/"
+      ],
+      "caption_leads": [
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/2673.Reverend_Hakuai_Oda.jpg",
+          "identity": "Rev. Hakuai Oda shortly after Hawaii arrival circa 1924.",
+          "credit": "JCCH/Rev. Hakuai Oda Collection",
+          "access": "Web cache miss and direct HTTP 403. Do not repeat unchanged failed URL."
+        }
+      ],
+      "identity_verification": "JCCH explicitly identifies named individual portrait, March 1924 ship-arrival group and January 1932 Papaaloa family photograph; target Buddhist minister in Missoula and Santa Fe.",
+      "notes": "Discover Nikkei family article mentions memorial plaques; its Nobuyuki Oda family image is not automatically Hakuai. Generations magazine 2015 mentions Hakuai and wife Kako; actual named portrait not established.",
+      "rights": "JCCH All Rights Reserved; original photographer unspecified; no accepted crop/image.",
+      "unresolved_leads": [
+        "Accessible 1924 individual portrait original.",
+        "Inspect Generations October/November 2015 or family collection for independently captioned Hakuai photograph."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait pixels; live profiles unchanged."
+  }
+}
