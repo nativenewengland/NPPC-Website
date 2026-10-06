@@ -1,0 +1,65 @@
+{
+  "batch": 311,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch311.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "No remaining unattempted profiles at fresh inventory. Three unresolved identity-specific follow-ups documented.",
+  "profiles": [
+    {
+      "slug": "kenneth-shaun-traywick",
+      "name": "Kenneth Shaun Traywick",
+      "status": "primary_organization_images_rejected",
+      "queries": [
+        "Kenneth Traywick Unheard Voices portrait",
+        "Kenneth Shaun Traywick image"
+      ],
+      "source_urls": [
+        "https://unheardvoicesotcj.wordpress.com/2020/02/11/for-immediate-release-inside-voices-call-for-meeting-with-commissioner-over-retaliation/",
+        "https://unheardvoicesotcj.wordpress.com/wp-content/uploads/2020/02/image-for-release.jpg"
+      ],
+      "notes": "Primary organization release reviewed. Downloaded723x425 image visually shows two public officials, not Traywick; rejected. Metadata credit Jo Nopper does not establish photographer or reuse rights. Other inline image explicitly belongs to Robert Earl Council/Kinetik Justice, not Swift Justice; reject. Justia Image labels indicate document icons, not sitter photos.",
+      "unresolved_leads": [
+        "Organization questions-and-answers interview media"
+      ],
+      "rights": "No accepted image; Jo Nopper metadata pertains rejected release graphic."
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "media618_exhausted",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/files/original/fcd31c392b344397c75990a51622eedaa760c0a8.pdf"
+      ],
+      "notes": "Full original PDF retrieved: only one page and one1700x2200 scan, same house-only Historic Illinois October1990p8 previously reviewed. No additional pages or sitter photo. Media618 and635 exhausted; other dossier media pending."
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "status": "new_search_no_usable_portrait",
+      "queries": [
+        "Byron Plumley Shirley portrait Cedar Falls"
+      ],
+      "source_urls": [
+        "https://www.lorettocommunity.org/a-pride-month-proclamation-in-cedar-falls-iowa/",
+        "https://cedarvalleyuu.org/wp-content/uploads/2024/05/2024-Annual-Report.pdf",
+        "https://cedarvalleyuu.org/wp-content/uploads/2023/12/JANNL24.pdf"
+      ],
+      "notes": "Loretto July2023 article named author and wife confirms correct Cedar Falls identity, but featured image caption names church led by Fr Richard Watson, photo Leslee Moore; not a Byron portrait. Church annual report and newsletter references supply organizational context, no individually identified portrait established. Known tiny2023 paired photo not retried.",
+      "unresolved_leads": [
+        "Larger original of2023 paired new-members portrait",
+        "Review unexamined church newsletter photographs"
+      ],
+      "rights": "Leslee Moore credit belongs unrelated church photo, not Byron."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable additions; no profile fields changed."
+  }
+}
