@@ -1,0 +1,70 @@
+{
+  "batch": 407,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch407.json",
+  "inventory_counts": {
+    "valid_image_header": 3910,
+    "blank": 6645,
+    "missing_asset": 1
+  },
+  "currently_imprisoned_priority": {
+    "missing": 96,
+    "unattempted": 0,
+    "notes": "All96 have prior documented attempts; prioritize unresolved custody leads."
+  },
+  "target_note": "Both remaining unattempted historical profiles searched plus Khalfani source inspection. Saved after disk-space recovery.",
+  "profiles": [
+    {
+      "slug": "kunihiko-kitajima",
+      "name": "Kunihiko Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Kunihiko Kitajima photo Shoyu"
+      ],
+      "source_urls": [
+        "https://ddr.densho.org/media/ddr-densho-1000/ddr-densho-1000-287-transcript-a3656dda57.htm",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf",
+        "https://commons.wikimedia.org/wiki/File:Kitajima_Kunihiko_with_Chukakuha_Zengakuren.jpg"
+      ],
+      "notes": "Masamizu oral history explicitly names1938-born brother Kunihiko; NPS roster confirms. Japanese2017Zengakuren activist photograph lacks Hawaii family bridge and is rejected. No verified portrait.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Named Shoyu/Kamechiyo household photograph."
+      ]
+    },
+    {
+      "slug": "yoshikata-kitajima",
+      "name": "Yoshikata Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Yoshikata Kitajima portrait"
+      ],
+      "source_urls": [
+        "https://ddr.densho.org/media/ddr-densho-1000/ddr-densho-1000-287-transcript-a3656dda57.htm",
+        "https://incarceration.jcchawaii.org/places/jerome-relocation-center-arkansas"
+      ],
+      "notes": "Masamizu oral history names youngest brother Yoshikata; Jerome roster corroborates. Exact-name portrait query found no verified real face.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Captioned family child portrait."
+      ]
+    },
+    {
+      "slug": "khalfani-malik-khaldun",
+      "name": "Khalfani Malik Khaldun",
+      "status": "followup_image_provenance_unresolved",
+      "source_urls": [
+        "https://www.focusinitiatives.org/leadership/",
+        "https://www.focusinitiatives.org/wp-content/uploads/2024/07/KHALFANI-MALIK-KHALDUN-.png"
+      ],
+      "notes": "Reviewed1080square named organization image. Identity supported; processing and original creator provenance unknown. Hold pending original/creator evidence; no assertion image is AI generated. No deployment.",
+      "credit": "FOCUS Initiatives; creator unspecified.",
+      "rights": "Unknown; public access not public domain.",
+      "unresolved_leads": [
+        "Original creator/provenance for FOCUS portrait; family campaign2020 original."
+      ]
+    }
+  ]
+}
