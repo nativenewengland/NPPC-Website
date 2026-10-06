@@ -1,0 +1,68 @@
+{
+  "batch": 416,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch416.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6658,
+    "missing_asset": 1
+  },
+  "target_note": "Sole unattempted profile researched; completed pending newspaper visual inspection for two currently imprisoned profiles.",
+  "profiles": [
+    {
+      "slug": "toyoki-kimura",
+      "name": "Toyoki Kimura",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Toyoki Kimura photo Hawaii"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kimura-toyoki",
+        "https://www.mauicountyadrc.org/Data/Sites/1/media/Outstanding%20Older%20Americans%20Award/ooa-2023/2023-ooa-program.pdf",
+        "https://pacificcitizen.org/wp-content/uploads/archives-menu/Vol.075_%2321_Nov_24_1972.pdf"
+      ],
+      "notes": "1901Wailuku storekeeper; sonRobertNobuichiMIS. JCCH/TamioNakamuraCollection SantaFegroup row4twentyfirst; sharedoriginalpreviouslyinaccessible. MauiolderAmericanspastrecipient list and1972OrderRisingSunaward offer newspaperportrait leads, no pixels verified.",
+      "unresolved_leads": [
+        "HistoricalMauiolderAmericansaward originalportrait;1972honorscoverage; sharedgroupnativeoriginal."
+      ]
+    },
+    {
+      "slug": "freddie-morrow",
+      "name": "Freddie Morrow",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Freddie Morrow Alex Garcia",
+        "Freddie Morrow March19 2000 photo"
+      ],
+      "source_urls": [
+        "https://www.digifind-it.com/jlslibrary/data/newspapers/Cadiz%20Record/1996/1996-01-17.pdf"
+      ],
+      "notes": "Downloaded40MB28pageoriginal tmp/cadiz416.pdf. Textmatches onzeroindexed1,3,6. Visuallyinspectedallthree: page1subjecteditorial includes authorRobinStevensface, notMorrow; page3obitsandpage6unrelatedlocalcrime mentions differentMcGraw/Morrow. No usabledefendantportrait. New exactAlexGarciaqueryreturns onlyNARAtextalreadyexhausted. Do not repeat this issue.",
+      "rejected_namesakes": [
+        "Robin Stevens editorial author photo"
+      ],
+      "credit": "Pending original ChicagoTribuneMarch19,2000 photo: AlexGarcia.",
+      "rights": "Originalnewspaperphotocopyrightunknown; noPDclaim.",
+      "unresolved_leads": [
+        "ChicagoTribuneMarch19,2000 originalphotograph; alternate trialissue."
+      ]
+    },
+    {
+      "slug": "charles-damien-darden",
+      "name": "Charles Damien Darden",
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.digifind-it.com/jlslibrary/data/newspapers/Cadiz%20Record/1996/1996-01-17.pdf"
+      ],
+      "notes": "Same nativeissueinspection: editorialmentionsDardenbutonlyauthorportrait, no subjectface. Markthisspecificissue exhausted; othertrialnewspaperspending.",
+      "unresolved_leads": [
+        "Different captionedtrialphotooriginal."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
