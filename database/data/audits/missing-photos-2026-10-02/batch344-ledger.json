@@ -1,0 +1,53 @@
+{
+  "batch": 344,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch344.json",
+  "inventory_counts": {
+    "valid_image_header": 3905,
+    "blank": 6574,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus one archival follow-up; no verified portrait.",
+  "profiles": [
+    {
+      "slug": "shiro-takeda",
+      "name": "Shiro Takeda",
+      "status": "researched_collection_portrait_pending",
+      "queries": [
+        "Shiro Takeda photograph portrait",
+        "Shiro Takeda Boulder photo",
+        "site:content.libraries.wsu.edu Shiro Takeda photograph",
+        "Shiro Takeda family portrait Heart Mountain"
+      ],
+      "source_urls": [
+        "https://content.libraries.wsu.edu/digital/collection/hmcolls/",
+        "https://www.lapostapub.com/Backissues/LP30-3.pdf"
+      ],
+      "notes": "PrimaryWSUcollection confirms LosAngelesfamilyHeartMountain1942\u201343and1943NavyJapaneseLanguageSchoolBoulderemployment; photographs and scrapbook exist but no specific recognizable namedportrait surfaced. LaPostaindexed1946postalcover is envelope, not face. Reject contemporaryKyotoSangyoenvironmentaleconomist,Chibalandscapearchitect,RobertShiroTakedaCanadianpoliceofficer,Canadianstudent1925born internedKaslo/Hamilton,and fictionalcharacters. GardenaKonkoministerand1901\u20131971genealogicalcandidate have no independent target bridge; do not use images or dates.",
+      "rights": "No accepted image; collection access does not establish public domain.",
+      "unresolved_leads": [
+        "Browse specific TakedaFamilyCollection photographs/scrapbook for named instructor portrait."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_contents_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2539",
+        "https://architecture.quincylibrary.org/files/original/f4ef989669c28350c318cf8adf46a0c052db0000.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed complete one-page HistoricStructuresReport tableofcontents. No portrait. Notes biographical introduction/reportp4, not verified portrait. Media2539exhausted; do not repeat.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2540\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
