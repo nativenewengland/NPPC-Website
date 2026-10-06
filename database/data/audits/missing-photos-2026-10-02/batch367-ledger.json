@@ -1,0 +1,69 @@
+{
+  "batch": 367,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch367.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6595,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched; mapped group and individual archive leads pursued. Two followups documented; access failures prevented acquisition.",
+  "profiles": [
+    {
+      "slug": "ishimatsu-shintani",
+      "name": "Ishimatsu Shintani",
+      "status": "verified_identity_portrait_leads_inaccessible",
+      "queries": [
+        "\"Ishimatsu Shintani\" portrait photograph",
+        "\"Ishimatsu Shintani\" photo Niihau"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/shintani-ishimatsu",
+        "https://kauaihistoricalsociety.org/wp-content/uploads/2020/11/Manuscript-69-Kauai-WWII-Morale-Committee-and-Internment.pdf"
+      ],
+      "identity_verification": "JCCH1881-born HiroshimaIssei,RobinsonRanchNiihau beekeeper/ranchhand arrestedDec1941. MappedSantaFegroup Row3eleventhfromleft.",
+      "credit": "JCCH/Sunao Fujii Archival Collection for mapped group. KauaiHistoricalSocietyMS69 compiled/donatedRoyMiyake for catalogedindividualphotograph; photographersunknown.",
+      "rights": "No openlicense established. Findingaid noaccessrestrictions is notcopyrightpermission.",
+      "notes": "Primaryarchive groupcaption explicitlyidentifies subject; webimagelink returnedinternalerror and directpageHTML403,actualpixelsnotacquired. KauaiHistoricalSocietyMS69findingaid catalogs PHOTO\u2013Shintani,Ishimatsu atBinder2page84; findingaid only,notdigitizedphoto. CanadianPrivateIchimatsuShintani notindependentlymatched; rejected asportraitsource.",
+      "unresolved_leads": [
+        "AccessibleJCCHgroupimage withnativequality sufficientforcleanmappedcrop.",
+        "MS69Binder2page84 actualindividualphotograph."
+      ]
+    },
+    {
+      "slug": "helen-shizuko-nakagawa",
+      "name": "Helen Shizuko Nakagawa",
+      "status": "archive_followup_no_digitized_portrait",
+      "queries": [
+        "\"Helen Shizuko Nakagawa\" archive photograph"
+      ],
+      "source_urls": [
+        "https://library.haverford.edu/finding-aids/files/1161.pdf",
+        "https://archives.tricolib.brynmawr.edu/repositories/5/top_containers/47815"
+      ],
+      "notes": "Archive-specificsearch confirms correspondence1944\u201345parolee,notdigitizedportrait. Noactualface acquired.",
+      "unresolved_leads": [
+        "Identityspecificportrait inphysicalcollection,ifavailable."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "pamphlet_biography_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2562",
+        "https://architecture.quincylibrary.org/files/original/314a69a64e283cd9ecbf11e064aedc46191a6868.pdf"
+      ],
+      "notes": "CompletePDFdownloaded andvisuallyinspected:membershipform andEellsbiographicaltext,noimage. Media2562exhausted.",
+      "unresolved_leads": [
+        "Media2563\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "Noverifiedusableportraitpixelsacquired."
+  }
+}
