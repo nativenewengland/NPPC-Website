@@ -1,0 +1,55 @@
+{
+  "batch": 333,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch333.json",
+  "inventory_counts": {
+    "valid_image_header": 3904,
+    "blank": 6571,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched plus one archive follow-up. No verified usable portrait.",
+  "profiles": [
+    {
+      "slug": "robert-lam",
+      "name": "Robert Lam",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Robert Lam CPS photograph",
+        "Robert L. Lam conscientious obituary",
+        "Robert Lam McNeil",
+        "Robert Lam conscientious objector photograph",
+        "Robert Lam Fort Steilacoom",
+        "Robert Lam cpsarchive"
+      ],
+      "source_urls": [
+        "https://stcpsarchive.z9.web.core.windows.net/cpsarchive/findingaids.html",
+        "https://stcpsarchive.z9.web.core.windows.net/cpsarchive/interview-robert-lam.html"
+      ],
+      "notes": "Direct primary interview reviewed; zero img elements. CPS worker005781, MarysPeak/Waldport and FortSteilacoom walkout discussion identify target. Search results for physician, stock photographer RStudios, HongKong museum staff, Canadian realtor, Paris engineer born1972, and Pennsylvania securities commissioner have no independent WWII CPS/McNeil/Illinois bridge; do not use those portraits. No accepted photograph.",
+      "rights": "No image accepted; archive copyright does not establish public domain.",
+      "unresolved_leads": [
+        "Full Camp56 oral history p130\u2013135 at ccrh.org/oral/co.pdf referenced by archive; not examined in this run."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "document_reviewed_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/626",
+        "https://architecture.quincylibrary.org/files/original/42ae98e3fd4a1f316ad30b0ef52c41af7980d54c.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed complete one-page August26,2005 preservation fundraising letter; text/signature only, no portrait. Media626 exhausted; do not repeat.",
+      "rights": "No image accepted.",
+      "unresolved_leads": [
+        "Unexamined Quincy media beginning627."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
