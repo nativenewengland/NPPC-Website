@@ -1,0 +1,73 @@
+{
+  "batch": 419,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch419.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6663,
+    "missing_asset": 1
+  },
+  "target_note": "Sole remaining unattempted profile researched; completed current-custody verified portrait lead.",
+  "profiles": [
+    {
+      "slug": "gazi-ibrahim-abu-mezer",
+      "name": "Gazi Ibrahim Abu Mezer",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.marymurphyofficial.com/post/that-time-i-climbed-through-a-window-after-subway-bomb-plot",
+        "https://static.wixstatic.com/media/b8b3ca_410b0fd089704e6089be223633a2d8bc~mv2.jpeg"
+      ],
+      "credit": "Mary Murphy official reporter archive; original photographer unspecified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "Reporter caption names Lafi Khalil on left and Gazi Ibrahim Abu Mezer on right; narrative matches 1997 Brooklyn case. Right subject cropped.",
+      "crop": {
+        "original_size": [
+          1600,
+          1200
+        ],
+        "box": [
+          805,
+          30,
+          1405,
+          830
+        ],
+        "output": [
+          360,
+          480
+        ]
+      },
+      "notes": "Paired original compared with gun-pose original; selected unobstructed head from explicitly identified right subject."
+    },
+    {
+      "slug": "toshio-sakaguchi",
+      "name": "Toshio Sakaguchi",
+      "queries": [
+        "Toshio Sakaguchi Hawaii internee photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/places/sixth-transfer-group-september-1942",
+        "https://digicoll.lib.berkeley.edu/record/53508/files/cubanc_46_8_01224356ta.pdf"
+      ],
+      "notes": "Hilo newspaperman documented in1939navalvisit and1942transfer records. ModernCETfiltrationdirector and computer-scienceauthor unbridgednamesakes rejected; no verifiedportrait.",
+      "unresolved_leads": [
+        "Captioned HawaiiMainichi newspapereditor family/archiveportrait."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/gazi-ibrahim-abu-mezer",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/gazi-ibrahim-abu-mezer-batch419.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "d2d824dce3de40b861fb0d4b78ddebe9da35da115d144be1a42c4815f4947d08",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
