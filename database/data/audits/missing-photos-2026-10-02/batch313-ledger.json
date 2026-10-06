@@ -1,0 +1,63 @@
+{
+  "batch": 313,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch313.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory has no unattempted profiles. Three specific unresolved portrait follow-ups.",
+  "profiles": [
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "library_media620_rejected",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/620",
+        "https://architecture.quincylibrary.org/files/large/07521a34ea42a2dbe739f22a7fb0453fbd3af6ef.jpg"
+      ],
+      "notes": "Directly downloaded and visually reviewed Historic Illinois1990p10: two architectural photographs, no sitter. Both courtesy Gardner Museum of Architecture and Design. Media620 preview exhausted, no portrait crop.",
+      "rights": "Museum courtesy credit pertains architectural photographs only."
+    },
+    {
+      "slug": "gary-ashbeck",
+      "name": "Gary Ashbeck",
+      "status": "letters_page_no_photo",
+      "queries": [
+        "Gary Ashbeck portrait Jonah House"
+      ],
+      "source_urls": [
+        "https://jonahhouse.org/archive/soa1103garyjail.htm"
+      ],
+      "notes": "Primary2003\u20132004 jail letters retrieved; author mentions existing pictures but page includes only Jonah House logo and banner, no actual portrait. Known small brochure arrest photo and inaccessible anniversary Drive lead not retried.",
+      "unresolved_leads": [
+        "Accessible named anniversary webinar recording or original individual portrait"
+      ],
+      "rights": "No accepted image."
+    },
+    {
+      "slug": "shirley-way",
+      "name": "Shirley Way",
+      "status": "family_obituary_not_portrait",
+      "queries": [
+        "Shirley Way portrait Quaker"
+      ],
+      "source_urls": [
+        "https://www.friendsjournal.org/mary-elizabeth-otis-way/",
+        "https://www.nyym.org/sites/default/files/NYYMYearbook_2015-2016-SinglePages.pdf"
+      ],
+      "notes": "Friends Journal obituary identifies daughter Shirley and family SOA vigil participation, but is Mary Elizabeth Otis Way obituary, not an individually captioned Shirley portrait. Yearbook snippets are committee references, not evidence of sitter photograph. Known AVP406PDF not redownloaded.",
+      "unresolved_leads": [
+        "Accessible individually captioned AVP2021 gathering original"
+      ],
+      "rights": "No accepted portrait; family obituary access does not grant photo license."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait addition; profile fields unchanged."
+  }
+}
