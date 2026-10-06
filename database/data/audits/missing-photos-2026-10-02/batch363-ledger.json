@@ -1,0 +1,77 @@
+{
+  "batch": 363,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch363.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6589,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles searched and one archive followup inspected. No verified usable portraits found.",
+  "profiles": [
+    {
+      "slug": "masako-fujimura",
+      "name": "Masako Fujimura",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Masako Fujimura\" photograph portrait",
+        "\"Masako Fujimura\" Honouliuli photo",
+        "\"Masako Fujimura\" Hawaii photograph -Akujo -entertainment -IMDb",
+        "\"Mary Fujimura\" Hawaii portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/fujimura-masako",
+        "https://www.congress.gov/94/crecb/1976/04/06/GPO-CRECB-1976-pt8-4-2.pdf"
+      ],
+      "identity_verification": "JCCH: 1915-born Kauai Nisei, alternate Mary Fujimura; Honolulu maid, April1942 arrest, Honouliuli March\u2013September1943.",
+      "notes": "Primary archive biography has no portrait gallery. Searches mainly return actress and fictional 1983 film character; rejected. Genealogy1895/1909 namesakes conflict with1915 target; newsletter donor mentions lack identity bridge.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Verified family or employment archive portrait under Masako or Mary."
+      ]
+    },
+    {
+      "slug": "irene-umeno-harada",
+      "name": "Irene Umeno Harada",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Irene Umeno Harada\" photograph portrait",
+        "\"Irene Harada\" Niihau photo",
+        "\"Irene Umeno\" photograph 1992",
+        "\"Irene Harada\" \"1992\" interview TBS"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/harada-irene-umeno",
+        "https://library.byuh.edu/0000017b-414e-d0bd-a7ff-e74ea67b0000/h-1996",
+        "https://jcch.soutronglobal.net/Portal/Default/en-GB/RecordView/Index/6192"
+      ],
+      "identity_verification": "JCCH: Umeno Tanaka,1905-born Kapaa,Nisei, wife YoshioHarada,Niihau resident, arrestedDec1941,HonouliuliMarch1943\u2013June1944.",
+      "notes": "Primary biography and independently matching1996Kapaa obituary text reviewed; no named portrait found. SanFrancisco2011IreneHarada obituary rejected as namesake. Aircraft,Kanahele and other incident participants are not target. Reported1992TBSinterview is an unresolved audiovisual lead, no footage retrieved.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Actual1992TBSinterview independently verified and sufficient-resolution frame with source credits.",
+        "JCCH catalog6192 publication potentially has identified portrait; not yet inspected."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_seventeen_timeline_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2557",
+        "https://architecture.quincylibrary.org/files/original/c42c09414e22584110629aff397433d9a411acc7.pdf"
+      ],
+      "notes": "Downloaded complete reportpage17and visuallyinspected: events timeline, no image or face. Media2557exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Media2558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable additions."
+  }
+}
