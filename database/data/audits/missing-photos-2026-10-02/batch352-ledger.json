@@ -1,0 +1,61 @@
+{
+  "batch": 352,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch352.json",
+  "inventory_counts": {
+    "valid_image_header": 3906,
+    "blank": 6579,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory found no unattempted profiles; two unresolved archive leads inspected.",
+  "profiles": [
+    {
+      "slug": "koji-hashimoto",
+      "name": "Koji Hashimoto",
+      "status": "identified_family_photo_insufficient_portrait_detail",
+      "source_urls": [
+        "https://npshistory.com/publications/hono/ai-jigoku-dani.pdf"
+      ],
+      "credit": "Hanako Hashimoto,1948; JCCH/Hashimoto Family Collection.",
+      "rights": "No open license established; archive/report publication is not public-domain evidence.",
+      "notes": "Downloaded full report and inspected actual figure1.11 on PDF index25/printedpage6, extracting original embedded images. Koji is adult father behind his two children; independently matches named archival family photo. Face occupies only a small fraction of a broad landscape photograph, insufficient recognizable detail for standard360x480portrait. No enlargement or AI reconstruction. Modern2010photo depicts Hanako and Elsie, not Koji; reject.",
+      "embedded_image_sizes": {
+        "hashimoto352-actual-0.jp2": [
+          1107,
+          743
+        ],
+        "hashimoto352-actual-1.jp2": [
+          454,
+          556
+        ],
+        "hashimoto352-actual-2.jp2": [
+          629,
+          641
+        ]
+      },
+      "unresolved_leads": [
+        "Larger original family photograph or separately named individual portrait; current figure reproduction exhausted."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_six_text_only",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2546",
+        "https://architecture.quincylibrary.org/files/original/fcafb0802b1952f3607d53feb038d389ed63092f.pdf"
+      ],
+      "notes": "Complete report page6 downloaded and visually inspected; abolitionist activities and prosecution text only, no portrait. Media2546 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2547\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable portrait; live profiles unchanged."
+  }
+}
