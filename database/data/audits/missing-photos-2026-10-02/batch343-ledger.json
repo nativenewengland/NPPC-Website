@@ -1,0 +1,78 @@
+{
+  "batch": 343,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch343.json",
+  "inventory_counts": {
+    "valid_image_header": 3904,
+    "blank": 6574,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus one archival follow-up; one verified portrait.",
+  "profiles": [
+    {
+      "slug": "tom-terumi-hide",
+      "name": "Tom Terumi Hide",
+      "status": "verified_portrait_added",
+      "queries": [
+        "Tom Terumi Hide photograph",
+        "Tom Hide Heart Mountain photo",
+        "Terumi Hide portrait"
+      ],
+      "source_urls": [
+        "https://www.walkthefarm.org/hide-farm-and-nursery",
+        "https://irp.cdn-website.com/d8623050/dms3rep/multi/opt/Tom%2BHide%2B-%2BKu-ulani%2BKato-1920w.jpg",
+        "https://content.libraries.wsu.edu/digital/collection/hmcolls/",
+        "https://ddr.densho.org/ddr-densho-102-32/?format=api"
+      ],
+      "credit": "Walk the Farm, Hide Farm and Nursery family history; image filename credits Ku-ulani Kato; photographer unlisted",
+      "rights": "No open image license established; family history display does not establish public domain. Ku-ulani Kato filename credit retained without assuming photographer identity.",
+      "identity_verification": "Explicit Tom Hide caption in Hide family history, identifying Terumi(Tom), Wapato/Yakima origins, parents Mantaro/Kiyo and HeartMountain internment. Matches independent WSU named collection. Single subject actual photograph.",
+      "crop": {
+        "original_size": [
+          1080,
+          1326
+        ],
+        "box": [
+          310,
+          280,
+          670,
+          760
+        ],
+        "output": [
+          360,
+          480
+        ]
+      },
+      "notes": "Direct family page403; webpage exposed named CDNportrait successfully downloaded1080x1326and visually reviewed. Prefer recognizable single subject over reunion group. YoshikoHideportrait is sister, notTom; creatorTomdoesnotmean depictedTom. AIart/characterdoll rejected."
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_cover_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2538",
+        "https://architecture.quincylibrary.org/files/original/d5082d3beb202d8804740d92ab5a930e8ee3d840.pdf"
+      ],
+      "notes": "Complete one-page HistoricStructuresReport cover visually reviewed: house line drawing, no person. Media2538exhausted; do not repeat.",
+      "rights": "No portrait accepted.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2539\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/tom-terumi-hide",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/tom-terumi-hide-batch343.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "b061bd6d1fd624d01331de77dde41601463c29103921506051399d42c40f2205",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
