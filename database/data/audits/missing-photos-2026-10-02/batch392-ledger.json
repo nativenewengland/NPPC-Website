@@ -1,0 +1,54 @@
+{
+  "batch": 392,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch392.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6629,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched, plus pending award lead pursued; source403 prevents portrait review.",
+  "profiles": [
+    {
+      "slug": "wahei-oka",
+      "name": "Wahei Oka",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"Wahei Oka\" photograph portrait",
+        "\"Wahei Oka\" Hawaii Buddhist",
+        "\"Wahei Oka\" obituary"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/oka-wahei",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "JCCH identifies1888Honolulu barber/ChowadoShingon priest, arrestedDecember1942, HonouliuliMarch-July1943, SantaFeAugust1943-October1945, returnedYarmouthNovember1945. DaughterMildredMiekoMorikuni provides family bridge. Primary record has no gallery. Museum roster independently supplies1888Yamaguchibirth. Exact-name portrait and obituary queries surface no image; unrelated WaheiMihara and Oka cookware rejected.",
+      "rights": "No image accepted; source accessibility notpublicdomain.",
+      "unresolved_leads": [
+        "Individually captioned Oka/Morikuni family archive photograph if digitized."
+      ]
+    },
+    {
+      "slug": "caroline-atsuko-matano",
+      "name": "Caroline Atsuko Matano",
+      "status": "award_photo_lead_inaccessible",
+      "queries": [
+        "\"Caroline Matano Yang\" NAFSA 2009 photo"
+      ],
+      "source_urls": [
+        "https://www.nafsa.org/blog/tuesday-postcard-nafsa-2009-annual-conference"
+      ],
+      "notes": "Indexed authoritative conference account explicitly captionsNAFSApresidentJohnHudzik presentingCassandraPyleAward toCarolineMatanoYang, also awardwinnergroup. DirectHTML403 blocked retrieving actualimageURL/pixels. No portrait deployed, do not repeat same failed direct endpoint.",
+      "rights": "NAFSA source established; photographer/reuse license not retrieved.",
+      "unresolved_leads": [
+        "Accessible alternate NAFSA2009 award image original with caption and sufficient face resolution."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; site unchanged."
+  }
+}
