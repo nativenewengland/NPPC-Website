@@ -1,0 +1,92 @@
+{
+  "batch": 331,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch331.json",
+  "inventory_counts": {
+    "valid_image_header": 3903,
+    "blank": 6571,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched, plus two distinct follow-ups. One verified portrait accepted.",
+  "profiles": [
+    {
+      "slug": "benjamin-candee",
+      "name": "Benjamin Candee",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Benjamin Candee photograph conscientious objector",
+        "Benjamin Candee portrait obituary",
+        "Benjamin Leroy Candee photograph",
+        "Benjamin Candee photo Quaker"
+      ],
+      "source_urls": [
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/2009/HC12-51084.pdf",
+        "https://apadivision16.org/wp-content/uploads/2015/12/TSP-Vol.-68-No.-1-January-14.pdf"
+      ],
+      "notes": "Friends Journal obituary p46 downloaded, extracted and visually reviewed: text only, no portrait. Identity confirmed by Byberry walkout, cattle boats and Danbury imprisonment. APA obituary corroborates Cleveland school psychologist, Cornell and birth/death. Reject 1887\u20131983 namesake, historical cemetery Benjamin died1826, modern ABWE missionary, and Benjamin Noel. No accepted portrait.",
+      "rights": "No image accepted.",
+      "unresolved_leads": [
+        "Cornell student yearbook may contain an identity-confirmed portrait; directory text is not portrait."
+      ]
+    },
+    {
+      "slug": "bennett-andrews",
+      "name": "Bennett Andrews",
+      "status": "direct_source_reviewed_no_portrait",
+      "queries": [
+        "Bennett Wilber Andrews photograph"
+      ],
+      "source_urls": [
+        "https://composers-classical-music.com/a/AndrewsBennett.htm"
+      ],
+      "notes": "Direct HTML accessible and inspected; no img elements. Same composer dates corroborate identity but no portrait. Do not repeat.",
+      "rights": "No image accepted."
+    },
+    {
+      "slug": "clayton-james",
+      "name": "Clayton James",
+      "status": "verified_portrait_added",
+      "queries": [
+        "Clayton Bernard James obituary portrait 2016"
+      ],
+      "source_urls": [
+        "https://www.laconnerweeklynews.com/story/2016/10/05/obituaries/clayton-bernard-james/3410.html",
+        "https://www.laconnerweeklynews.com/IMG/-YMdlp4rmheuaUjllRvK5ozQu2Fx5/XPATH/home/cms_data/dfault/photos/stories/id/1/0/3410/s_topXEXT1475x35181is.jpg"
+      ],
+      "credit": "Photo by Andy Szurek; La Conner Weekly News, Clayton Bernard James obituary, October 5, 2016",
+      "rights": "No open image license established; source credits Andy Szurek. Public availability does not establish public domain.",
+      "identity_verification": "Named obituary portrait identifies artist Clayton Bernard James, 1918\u20132016, wife Barbara Straker, Camp Angel Waldport CPS service and La Conner artist career; matches profile oral history and prior UW/HistoryLink research.",
+      "crop": {
+        "original_size": [
+          1200,
+          800
+        ],
+        "box": [
+          300,
+          70,
+          840,
+          790
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/clayton-james",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/clayton-james-batch331.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "027b56101025e47c21276cf4471bf6e845c510157ceef97183b8e2f0670fb094",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
