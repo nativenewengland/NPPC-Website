@@ -1,0 +1,52 @@
+{
+  "batch": 399,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch399.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6638,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched, plus native-image check of earlier Sarashina lead. No usable verified portrait.",
+  "profiles": [
+    {
+      "slug": "shizuo-charles-kitajima",
+      "name": "Shizuo Charles Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "\"Shizuo Charles Kitajima\" portrait",
+        "\"Charles Kitajima\" obituary Hawaii",
+        "\"Shizuo Kitajima\" Yoshio photo",
+        "\"Charles Shizuo Kitajima\"",
+        "\"Shizuo Kitajima\" Kohala obituary photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-shizuo-charles",
+        "https://incarceration.jcchawaii.org/internees/kitajima-yoshio",
+        "https://incarceration.jcchawaii.org/places/jerome-relocation-center-arkansas",
+        "https://incarceration.jcchawaii.org/places/tule-lake-segregation-center-california"
+      ],
+      "notes": "Live profile identifies1936 Kohala-born son of Yoshio/Roku, Jerome1943-44 and TuleLake1944-45. Father household and both camp rosters independently corroborate. Individual primary record internalerror. No exact-name recognizable portrait found. Modern Japanese Fenic CEO has no family/date bridge; not accepted. Similar surnames Kitamori/Nakaji and unrelated Shizuo Tagawa obituaries rejected.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Individually captioned Yoshio/Roku household photo identifying youngest son Charles/Shizuo."
+      ]
+    },
+    {
+      "slug": "shinri-sarashina",
+      "name": "Shinri Sarashina",
+      "status": "followup_image_too_small",
+      "source_urls": [
+        "https://www.lahainahongwanji.com/January%202014%20Newsletter.pdf"
+      ],
+      "notes": "Inspected original embedded images on PDF pageindex3. Composite770x267 contains explicitly labeled Shinri biography with inset onlyabout120x160 and faceabout75x100, visibly coarse halftone; reject for portrait-quality threshold. Separate189x367 classroom image shows sonTakuji, notShinri. Native dimensions now checked; do not repeat current PDF crop. Larger source of reproduced minister biography remains possible.",
+      "credit": "Lahaina Hongwanji newsletter; underlying biography photographer/creator unspecified.",
+      "rights": "Unknown; publication access is not public-domain evidence.",
+      "unresolved_leads": [
+        "Larger original of labeled minister biography photograph."
+      ]
+    }
+  ]
+}
