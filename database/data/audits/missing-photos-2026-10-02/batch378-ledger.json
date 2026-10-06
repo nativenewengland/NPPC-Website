@@ -1,0 +1,66 @@
+{
+  "batch": 378,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch378.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6609,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched; one outstanding university archive lead downloaded and inspected. No usable portrait acquired.",
+  "profiles": [
+    {
+      "slug": "kumaji-furuya",
+      "name": "Kumaji Furuya",
+      "status": "verified_portrait_leads_inaccessible",
+      "queries": [
+        "\"Kumaji Furuya\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/furuya-kumaji-suikei",
+        "https://ddr.densho.org/ddr-njpa-5-709/",
+        "https://ddr.densho.org/search/results/?fulltext=Publisher&page=111",
+        "https://encyclopedia.densho.org/sources/en-kumaji-santafe-1/"
+      ],
+      "identity_verification": "JCCH 1889-born Honolulu Issei Fuji Furniture Store owner, poet pen name Suikei, December 1941 arrest; Missoula and Santa Fe confinement, November 1945 return. Author of Haisho Tenten/An Internment Odyssey.",
+      "caption_leads": [
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/3499.Furuya_return_to_Honolulu.jpg",
+          "identity": "November 1945 family reunion: Kumaji fifth from left carrying Florence Yoko; wife Jun at right.",
+          "credit": "JCCH/Gregg Furuya Collection",
+          "access": "Web cache miss; direct HTTP 403. Do not repeat unchanged failed URL."
+        },
+        {
+          "source_page": "https://ddr.densho.org/ddr-njpa-5-709/",
+          "identity": "Densho catalog title Kumaji Furuya; individual portrait lead.",
+          "access": "Actual record web cache miss; pixels, creator and rights not retrieved."
+        }
+      ],
+      "notes": "Densho also catalogs ddr-njpa-5-702. Encyclopedia identifies Furuya far left front row in 1945 Santa Fe group, but actual source returns HTTP 403. Modern painter Aoyama Kumaji/Furuya Shin search results are unrelated; rejected.",
+      "rights": "No accepted image. JCCH All Rights Reserved; original photographer unspecified. Densho rights not retrieved.",
+      "unresolved_leads": [
+        "Accessible originals of Densho 5-709 or 5-702 with identity and rights verification.",
+        "Family reunion image original; face resolution and crop unassessed."
+      ]
+    },
+    {
+      "slug": "ichiro-izuka",
+      "name": "Ichiro Izuka",
+      "status": "candidate_memo_exhausted_no_portrait",
+      "source_urls": [
+        "https://dolearchivecollections.ku.edu/collections/speeches/059/c019_059_017_all.pdf"
+      ],
+      "notes": "Downloaded 48-page PDF. Izuka appears on PDF page index 7/printed 8: August 8 1990 Republican Governors Association memo to Senator Dole from Michele Davis. Rendered and visually inspected relevant page: text, logo and signature only, no portrait. Image object is the document page scan. This memo lead exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Independently captioned Hawaii candidate newspaper portrait or labor archive image."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portraits; live profiles unchanged."
+  }
+}
