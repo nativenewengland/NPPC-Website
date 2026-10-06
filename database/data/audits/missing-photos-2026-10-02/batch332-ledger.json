@@ -1,0 +1,50 @@
+{
+  "batch": 332,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch332.json",
+  "inventory_counts": {
+    "valid_image_header": 3904,
+    "blank": 6570,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory has no unattempted profiles. Two identity-specific unresolved leads followed; no usable portrait.",
+  "profiles": [
+    {
+      "slug": "benjamin-candee",
+      "name": "Benjamin Candee",
+      "status": "followup_no_new_portrait",
+      "queries": [
+        "Benjamin Leroy Candee Cornell yearbook photograph",
+        "Benjamin Candee Cleveland obituary portrait"
+      ],
+      "source_urls": [
+        "https://ecommons.cornell.edu/bitstreams/47cd27d1-0a0a-4949-95c8-ddedbccdec50/download"
+      ],
+      "notes": "Targeted yearbook and Cleveland obituary queries surfaced Cornell university directory text and the already-reviewed Friends Journal obituary, not a new recognizable portrait. Did not redownload exhausted obituary. Modern missionary and Benjamin Noel remain rejected namesakes.",
+      "rights": "No image accepted.",
+      "unresolved_leads": [
+        "Actual Cornell yearbook scan remains a possible archival lead; directory listing is not a portrait."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "document_reviewed_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/625",
+        "https://architecture.quincylibrary.org/files/original/dcca85e29662e15d4c58d67f8d0eccba5ad8fef4.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed entire one-page December31,2005 Friends of Dr.Richard Eells House donation acknowledgment, including handwritten postscript. Text and signature only; no portrait. Media625 exhausted; do not repeat.",
+      "rights": "No image accepted.",
+      "unresolved_leads": [
+        "Unexamined Quincy media beginning626."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
