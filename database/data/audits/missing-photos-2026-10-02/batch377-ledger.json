@@ -1,0 +1,52 @@
+{
+  "batch": 377,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch377.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6608,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory has no unattempted profiles. Pursued two distinct unresolved leads; no usable portrait. Audit remains open because other documented leads are unresolved.",
+  "profiles": [
+    {
+      "slug": "harada-irene-umeno",
+      "name": "Irene Umeno Harada",
+      "status": "article_attachment_exhausted_no_portrait",
+      "queries": [
+        "\"Irene Harada\" \"1992\" interview photograph"
+      ],
+      "source_urls": [
+        "https://jcch.soutronglobal.net/Portal/Default/en-GB/RecordView/Index/6192",
+        "https://jcch.soutronglobal.net/Portal/Default/en-GB/DownloadImageFile.ashx?objectId=524&ownerId=6192&ownerType=0"
+      ],
+      "notes": "Previously untried attachment successfully downloaded: 342964-byte PDF, 20 pages, English translation of Kaori Akiyama Arena No.18 article (2015). Complete PDF parsed; every page has zero image objects, text and notes only. No portrait. Attachment lead exhausted. Search only repeats secondary mentions of circa-1992 TBS interview, no original footage or identified still.",
+      "rights": "No accepted image. Article author Kaori Akiyama; underlying publication rights not assumed public domain.",
+      "unresolved_leads": [
+        "Original TBS Broadcaster interview footage or independently captioned family portrait."
+      ]
+    },
+    {
+      "slug": "ichiro-izuka",
+      "name": "Ichiro Izuka",
+      "status": "candidate_archive_lead_text_only",
+      "queries": [
+        "\"Ichiro Izuka\" \"candidate\" photograph Hawaii 1990"
+      ],
+      "source_urls": [
+        "https://dolearchivecollections.ku.edu/collections/speeches/059/c019_059_017_all.pdf"
+      ],
+      "notes": "University of Kansas Dole Archives indexed August 8 1990 Hawaii candidate memo names Izuka; no identified portrait surfaced. Election result pages show maps and other candidates, not a verified Izuka face. New primary archival lead retained for direct document inspection if relevant.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Direct inspection of Dole candidate memo and independently captioned Hawaii election newspaper portraits."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live profiles unchanged."
+  }
+}
