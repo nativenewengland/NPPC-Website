@@ -1,0 +1,71 @@
+{
+  "batch": 318,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch318.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6566,
+    "missing_asset": 1
+  },
+  "target_note": "Researched all one remaining unattempted profile and two specific existing leads. No usable portrait obtained; source access failures recorded without repeating blocked URLs in future runs.",
+  "profiles": [
+    {
+      "slug": "walter-gormly",
+      "name": "Walter Gormly",
+      "status": "researched_verified_identity_image_unusable",
+      "queries": [
+        "Walter Gormly photograph portrait",
+        "Walter Ford Gormly archive photo",
+        "site.lib.iastate.edu Walter Gormly papers photographs",
+        "Walter Gormly 1959 engineer photo"
+      ],
+      "source_urls": [
+        "https://historicimages.com/products/ned11355",
+        "https://historicimages.com/cdn/shop/files/ned11355.jpg?v=1750662131",
+        "https://history.nebraska.gov/wp-content/uploads/2022/07/doc_publications_NH2012Atlas.pdf",
+        "https://en.wikipedia.org/wiki/Walter_Gormly"
+      ],
+      "notes": "Downloaded and visually inspected original 1000x801 press-photo preview. Original printed caption identifies pacifist Walter Gormly, consulting engineer from Mount Vernon, Iowa, protesting Atlas missiles in Omaha June 19, 1959. UPI TELEPHOTO credited. Correct adult man on right, distinct from children; identity matches profile. Reject deployment because substantial Historic Images watermarks cross the portrait; do not remove watermark. Reject Australian Walter John Gormly and Cornell Gormly Miller namesakes.",
+      "credit": "UPI Telephoto, June 19, 1959; Historic Images sales preview",
+      "rights": "No public domain or reuse license established; possession/sale of vintage print does not establish copyright permission.",
+      "unresolved_leads": [
+        "Find unwatermarked original UPI image with adequate rights/source record",
+        "Iowa State University Walter Gormly Papers RS 21/7/66",
+        "1950 Lincoln Socialist Labor newspaper portrait: check identity and image size before accepting"
+      ]
+    },
+    {
+      "slug": "tom-cahill",
+      "name": "Tom Cahill",
+      "status": "source_inaccessible",
+      "source_urls": [
+        "https://justdetention.org/wp-content/uploads/2018/10/JDI-DONOR-REPORT-2018.pdf"
+      ],
+      "notes": "Web PDF text available, page 19 explicitly titled Portrait of Courage: Tom Cahill and identifies former JDI president jailed for civil disobedience. Direct PDF download HTTP 403; web screenshot cache miss. No pixels available for inspection or crop. Do not repeat this blocked PDF retrieval.",
+      "rights": "No accepted image or image license established.",
+      "unresolved_leads": [
+        "Legacy Mendocino Beacon obituary previously identified; not yet visually examined"
+      ]
+    },
+    {
+      "slug": "seymour-eichel",
+      "name": "Seymour Eichel",
+      "status": "source_inaccessible",
+      "source_urls": [
+        "https://www.dignitymemorial.com/obituaries/brooklyn-ny/seymour-eichel-5699665"
+      ],
+      "notes": "Previously established obituary identity bridge remains valid. Fresh web open cache miss and direct request HTTP 403. No photo pixels obtained. Do not repeat this blocked retrieval.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "NJCU historical faculty portrait",
+        "Swarthmore physical family photographs"
+      ]
+    }
+  ],
+  "deployment": {
+    "applied": false,
+    "reason": "No usable verified image; no profile fields or live images changed."
+  }
+}
