@@ -1,0 +1,87 @@
+{
+  "batch": 408,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch408.json",
+  "inventory_counts": {
+    "valid_image_header": 3910,
+    "blank": 6647,
+    "missing_asset": 1
+  },
+  "target_note": "Bothremainingunattemptedprofilessearched; prioritycurrentlyimprisonedMutopeleadverifiedandaccepted.",
+  "profiles": [
+    {
+      "slug": "mutope-duguma",
+      "name": "Mutope Duguma",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.prisonradio.org/correspondent/mutope-duguma/",
+        "https://www.prisonradio.org/wp-content/uploads/2021/05/Mutope-Duguma-Sept-2014-001-1.jpg",
+        "https://incarceratedworkers.org/sites/default/files/resource_file/fireinside.pdf"
+      ],
+      "credit": "Prison Radio, Mutope Duguma correspondent portrait; image filename dated September2014; photographer unspecified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "NamedPrisonRadio correspondentimage; JamesDarrenCrawfordD05996 alias independentlyconfirmed in prisonerhumanrights sources andliveprofile.",
+      "crop": {
+        "original_size": [
+          1037,
+          833
+        ],
+        "box": [
+          166,
+          0,
+          790,
+          832
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "tamio-nakamura",
+      "name": "Tamio Nakamura",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Tamio Nakamura Hawaii internee photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-tamio"
+      ],
+      "notes": "1891Haikuappliancesalesman. PrimarycaptionSantaFerow4fifth; JCCH/TamioNakamuraCollection. Nativeoriginalnotyetretrieved;modernbaseballplayerand1922HenryTamioNakamurarejected.",
+      "rights": "Unknownimagecreator/license.",
+      "unresolved_leads": [
+        "Captionedgrouporiginalnativefacequality."
+      ]
+    },
+    {
+      "slug": "tomoaki-nakamura",
+      "name": "Tomoaki Nakamura",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Tomoaki Nakamura Hawaii internee photo"
+      ],
+      "source_urls": [],
+      "notes": "Exactidentity-specificqueryfoundnoverifiedinterneeportrait. Modern2025gameprogramsupervisorandmodernsocialprofilesnotbridged;rejected.",
+      "rights": "Noacceptedimage.",
+      "unresolved_leads": [
+        "Primaryindividualrecordandcaptionedhouseholdphoto."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/mutope-duguma",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/mutope-duguma-batch408.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "464c0f4c543419c5eb4ffc1cd999b5f8ae13242e85a2bb6bdb2ff97dd75bdbe3",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
