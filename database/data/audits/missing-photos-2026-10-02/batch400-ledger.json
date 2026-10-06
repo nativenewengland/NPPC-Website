@@ -1,0 +1,83 @@
+{
+  "batch": 400,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch400.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6640,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched. One verified portrait accepted.",
+  "profiles": [
+    {
+      "slug": "toshitaka-robert-kitajima",
+      "name": "Toshitaka Robert Kitajima",
+      "status": "verified_portrait",
+      "queries": [
+        "Toshitaka Robert Kitajima photo",
+        "Robert Kitajima Yoshio obituary",
+        "Robert Toshitaka Kitajima photo Mae"
+      ],
+      "source_urls": [
+        "https://www.fukuimortuary.com/obituaries/robert-kitajima",
+        "https://cdn.tukioswebsites.com/c45b5c13-e36b-4bfd-98ea-f6caf7599049/lg",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf"
+      ],
+      "credit": "Robert Toshitaka Kitajima obituary portrait, courtesy/source Fukui Mortuary; photographer unspecified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "Exact full name1931birth and former Tule Lake internee match JCCH/NPS; obituary explicitly labels portrait. Ookala birthplace versus Kohala residence is compatible.",
+      "crop": {
+        "original_size": [
+          764,
+          1024
+        ],
+        "box": [
+          0,
+          3,
+          764,
+          1021
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "yoshizumi-stanley-kitajima",
+      "name": "Yoshizumi Stanley Kitajima",
+      "status": "researched_unresolved_lead",
+      "queries": [
+        "Yoshizumi Stanley Kitajima portrait",
+        "Stanley Kitajima obituary photograph Hawaii",
+        "Stanley Kitajima Yoshizumi"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-yoshizumi-stanley",
+        "https://incarceration.jcchawaii.org/internees/kitajima-yoshio",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf",
+        "https://digicoll.lib.berkeley.edu/record/172706/files/cubanc6714_b268r40_0015.pdf"
+      ],
+      "notes": "1926 Kohala-born Yoshio/Roku son; primary household/camp/NPS roster corroborate. Individual primary web internalerror. Indexed Tule Lake publication describes18-year-old third-baseman Stanley Kitajima fromKohala; promising identity-specific publication lead, no photo verified. NancyMitsue obituary and modern Ian family mentions not established as this household; do not assume same family.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Inspect Berkeley record172706 Tule Lake sports publication for named Stanley photograph and native resolution."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/toshitaka-robert-kitajima",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/toshitaka-robert-kitajima-batch400.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "e6f14fa61a91adf44fc7df1c9fc85e0e05eeed3df0cc863cf292ca9e17b8e6fe",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
