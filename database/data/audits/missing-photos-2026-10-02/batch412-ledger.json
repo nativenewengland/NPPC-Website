@@ -1,0 +1,75 @@
+{
+  "batch": 412,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch412.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6652,
+    "missing_asset": 1
+  },
+  "target_note": "Only one unattempted profile remains; completed its identity-specific search and followed two currently imprisoned unresolved leads.",
+  "profiles": [
+    {
+      "slug": "sukeichi-koide",
+      "name": "Sukeichi Koide",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Sukeichi Koide photo Hawaii",
+        "Sukeichi Koide portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/koide-sukeichi",
+        "https://www.legacy.com/us/obituaries/nytimes/name/samuel-koide-obituary?id=8124040"
+      ],
+      "notes": "1894 Hiroshima-born Honolulu Onomichiya Inn owner and WWI veteran. Primary record no subject portrait; Samuel1923\u20132021 obituary identifies parents Sukeichi/Hideko but any son portrait cannot substitute for father. Allan1929familytree only generic father icon.",
+      "unresolved_leads": [
+        "Family archive identified portrait of father."
+      ]
+    },
+    {
+      "slug": "juan-jose-martinez-vega",
+      "name": "Juan Jose Martinez Vega",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Juan Jose Martinez Vega foto Chiguiro",
+        "Chiguiro Martinez captura foto"
+      ],
+      "source_urls": [
+        "https://media.cadc.uscourts.gov/opinions/docs/2016/06/10-3083.pdf",
+        "https://caracol.com.co/radio/2005/02/26/judicial/1109441580_156447.html?outputType=amp"
+      ],
+      "notes": "Critical primary appellate source specifically says the military-uniform photograph labeled Angel Leopoldo Lopez akaChiguiro does NOT show MartinezVega. GentilAlvisPatino identification documents also belong to another person. Reject alias-only image acceptance. Caracol arrest report offers possible independently captioned capture original but no native portrait inspected.",
+      "rejected_namesakes": [
+        "Angel Leopoldo Lopez photograph labeled Chiguiro",
+        "Gentil Alvis Patino identity document"
+      ],
+      "unresolved_leads": [
+        "Captioned2005capture original linked to full legal name and identity evidence."
+      ]
+    },
+    {
+      "slug": "luis-felipe-moreno-godoy",
+      "name": "Luis Felipe Moreno Godoy",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Luis Felipe Moreno Godoy photograph",
+        "Luis Felipe Moreno Godoy imagen"
+      ],
+      "source_urls": [
+        "https://www.leagle.com/decision/infdco20250411f03",
+        "https://dockets.justia.com/docket/circuit-courts/ca2/25-2462",
+        "https://i.cdn.turner.com/cnn/2008/images/06/13/kassars3indictment.pdf"
+      ],
+      "notes": "Exact Spanish/English queries produce text court records and indictment. No newly verified individual portrait. Prior batch60 notes news images commonly depict MonzerAlKassar rather than Godoy; preserve rejection.",
+      "unresolved_leads": [
+        "Original arrest press agency photograph explicitly identifying Godoy."
+      ]
+    }
+  ],
+  "rights": "No accepted portrait; creators and image licenses unresolved.",
+  "deployment": {
+    "performed": false
+  }
+}
