@@ -1,0 +1,68 @@
+{
+  "batch": 418,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch418.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6662,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles searched; substantial original-photo retrieval and visual inspection for current-custody lead completed; crop/credit verification carried forward.",
+  "profiles": [
+    {
+      "slug": "satoru-hirae",
+      "name": "Satoru Hirae",
+      "queries": [
+        "Satoru Hirae photograph"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/hirae-satoru",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "1887masseurHJ553; SantaFesharedgroupbackrowninth JCCH/TamioNakamuraCollection. Same inaccessibleoriginal not redownloaded; individualfacepending.",
+      "unresolved_leads": [
+        "Alternate nativeSantaFegrouporiginal."
+      ]
+    },
+    {
+      "slug": "tomoji-matsumura",
+      "name": "Tomoji Matsumura",
+      "queries": [
+        "Tomoji Matsumura photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/matsumura-tomoji"
+      ],
+      "notes": "Exactquery mostly unrelatedJapanesehaikueditorMatsumuraTomoji andTomojiAbe; noidentitybridge. Primaryindividual webopen cachemiss. EarlierindexedSantaFecaptionrow4eighteenth; sharedoriginalpending.",
+      "rejected_namesakes": [
+        "Japanese haiku editor Matsumura Tomoji",
+        "Tomoji Abe novelist"
+      ],
+      "unresolved_leads": [
+        "Captioned nativeSantaFeoriginal."
+      ]
+    },
+    {
+      "slug": "gazi-ibrahim-abu-mezer",
+      "name": "Gazi Ibrahim Abu Mezer",
+      "status": "native_portrait_lead_verified_pending_crop",
+      "source_urls": [
+        "https://www.marymurphyofficial.com/post/that-time-i-climbed-through-a-window-after-subway-bomb-plot",
+        "https://static.wixstatic.com/media/b8b3ca_b6c3b801c77e43c3856b5cdf41dda285~mv2.jpeg"
+      ],
+      "notes": "Retrieved reporterHTML successfullyusingurllib despitewebopenfailure. ExplicitcaptionmatchesGazi. Downloadednative1600x686 tmp/gazi418.jpg andvisuallyinspected: realrecognizableyoungman holdinggunoverhead; face roughly250x290, hair partiallyoverlappedbygun. SourcealsohaspairedLafiKhalilleft/Gazirightimage, potentiallybettercleanportrait; inspectthisbeforeingestinggunposecrop.",
+      "credit": "Mary Murphy official reporter archive; original photographer unspecified.",
+      "rights": "Unknown copyright/permission; no publicdomain claim.",
+      "unresolved_leads": [
+        "Retrieve pairedcaptionedimage, inspectrightface quality; choosebetterportrait, aspectpreservingcrop, guardeddeployment."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
