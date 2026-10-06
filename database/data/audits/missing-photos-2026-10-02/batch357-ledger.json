@@ -1,0 +1,97 @@
+{
+  "batch": 357,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch357.json",
+  "inventory_counts": {
+    "valid_image_header": 3906,
+    "blank": 6583,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattemptedprofile searched; threefollowups. Newly acquiredportrait needs nativequality/crop and deployment verification; unfinishedwork explicitlycarried forward.",
+  "profiles": [
+    {
+      "slug": "takeo-yamamoto",
+      "name": "Takeo Yamamoto",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "Takeo Yamamoto Honolulu teacher photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yamamoto-takeo",
+        "https://janm.emuseum.com/objects/9724/takeo-yamamoto-banning-high-school-student-body-president"
+      ],
+      "notes": "Identity-specific search locates ChuoGakuininterneeteacher mentions in fellowteachers archive. Own archive web retrieval internal error. JANM1961LosAngelesstudentbodypresident portrait is wrong age/location namesake; reject. Modernresearcher,musician,andRobertTakeoYamamoto born1944notaccepted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Named Hawaii teacher archive portrait, none located."
+      ]
+    },
+    {
+      "slug": "shozo-takahashi",
+      "name": "Shozo Takahashi",
+      "status": "verified_newsletter_portrait_extracted_pending_crop_and_deployment",
+      "queries": [
+        "Shozo Takahashi Legacies2020portrait alternative"
+      ],
+      "source_urls": [
+        "https://www.kaimukihawaii.com/newsimages/jcch_summer_2020_newsletter.pdf"
+      ],
+      "credit": "CourtesyKarenMurashige,JudySegawa,andShozoTakahashifamily; JCCHLegaciesSpring2020,printedpage11.",
+      "rights": "No openimage license established; publicnewsletter notPD.",
+      "notes": "Alternative hostednewsletter downloaded successfully, pageindex10visuallyinspected. Namedsingleactualportrait and Ewa1914teacher/Honouliuli biography. Originalembeddedimages extracted for next native-resolution/crop check. Previous403JCCHPDFnotretried. Carry remaining qualitycheck,guardedsnapshot,ingestion,deployment/publicverification forward.",
+      "embedded_image_sizes": {
+        "shozo357-0.png": [
+          519,
+          1655
+        ],
+        "shozo357-1.jpg": [
+          278,
+          335
+        ],
+        "shozo357-2.jpg": [
+          283,
+          347
+        ]
+      },
+      "unresolved_leads": [
+        "Inspect extractedphoto nativequality; crop standard360x480 and deploy if adequate."
+      ]
+    },
+    {
+      "slug": "shiro-takeda",
+      "name": "Shiro Takeda",
+      "status": "newspaper_lead_not_portrait",
+      "queries": [
+        "Shiro Takeda PacificCitizen language school"
+      ],
+      "source_urls": [
+        "https://downloads.densho.org/ddr-pc-23/ddr-pc-23-44-master-39e312077e.pdf"
+      ],
+      "notes": "Search-visible1951newspapertextmentionsSanGabrielbirthannouncement. AdjacentVincentTajiriphotographexplicitlyshowsSmokySakuradaandBettyKurotsuehi, notTakeda. No independentbridge frombirthannouncement to1943Boulderteacher; donotuseimage.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "WSU item-level namedportrait."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_eleven_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2551",
+        "https://architecture.quincylibrary.org/files/original/cd6cd56ac5bbeed309ab463b54478e468e322591.pdf"
+      ],
+      "notes": "Complete reportpage11visuallyinspected:buildingownershiptextonly,no portrait.Media2551exhausted.",
+      "rights": "No acceptedimage.",
+      "unresolved_leads": [
+        "Unexaminedmedia2552\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "Takahashi nativephoto quality/crop and guarded ingestion unfinished; no live changes."
+  }
+}
