@@ -1,0 +1,84 @@
+{
+  "batch": 353,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch353.json",
+  "inventory_counts": {
+    "valid_image_header": 3906,
+    "blank": 6580,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus three follow-ups; no usable photo acquired.",
+  "profiles": [
+    {
+      "slug": "teruo-konishi",
+      "name": "Teruo Konishi",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "Teruo Konishi photograph internment"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/konishi-teruo"
+      ],
+      "notes": "Identity-specific search and primary archive reviewed. Archive confirms1916HonoluluChuoGakuin teacher and SandIsland/Topaz/TuleLake itinerary, but provides no portrait gallery. Video-game credit namesake, unrelated physicists and fictional characters rejected; archival text mentions are not face evidence.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Possible named school or family archive photo, none located."
+      ]
+    },
+    {
+      "slug": "harry-minoru-urata",
+      "name": "Harry Minoru Urata",
+      "status": "new_named_newspaper_group_photo_inaccessible",
+      "queries": [
+        "Harry Urata portrait Mid-Pacific"
+      ],
+      "source_urls": [
+        "https://the.honoluluadvertiser.com/article/2004/Jun/04/ln/ln12a.html",
+        "https://the.honoluluadvertiser.com/dailypix/2004/Jun/04/localnews12.jpg"
+      ],
+      "credit": "Eugene Tanner, The Honolulu Advertiser,June4,2004.",
+      "rights": "Copyright The Honolulu Advertiser; all rights reserved; no reuse license established.",
+      "notes": "New newspaper source explicitly maps left-to-rightChojiroKageura,HarryUrata,ShozoTakahashi; Urata center. Directphoto403,webcachemiss; no pixels or crop assessed. Previously blockedLOC and folkloristassets not retried.",
+      "unresolved_leads": [
+        "Accessible reproduction of this exact mapped photograph, with adequate portrait detail."
+      ]
+    },
+    {
+      "slug": "dan-toru-nishikawa",
+      "name": "Dan Toru Nishikawa",
+      "status": "modern_namesake_rejected",
+      "queries": [
+        "Dan Nishikawa portrait photograph musician"
+      ],
+      "source_urls": [
+        "https://hiyouthsymphony.org/wp-content/uploads/2010/11/Winter_14.pdf",
+        "https://honoluluadvertiser.com/article/2010/Mar/26/bz/hawaii3260328.html"
+      ],
+      "notes": "Modern OliverMcMillan property executive photographed2010/2013 is not the1906\u20131991interned musician; rejected. Existing correct JCCHportrait remains blocked, not retried.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Previously identified JCCH individual photograph alternative reproduction."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_seven_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2547",
+        "https://architecture.quincylibrary.org/files/original/5daf652eb65311b7896aaacd1d3a695d9b9932bc.pdf"
+      ],
+      "notes": "Complete reportpage7downloaded and visually inspected: prosecution,death,burialtextonly. No portrait. Media2547exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined media2548\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified image pixels acquired; live profiles unchanged."
+  }
+}
