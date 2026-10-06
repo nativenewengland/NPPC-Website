@@ -1,0 +1,54 @@
+{
+  "batch": 322,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch322.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6567,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory has no remaining unattempted profiles. Two distinct carried-forward sources were pursued. No acceptable portrait obtained.",
+  "profiles": [
+    {
+      "slug": "arlo-tatum",
+      "name": "Arlo Tatum",
+      "status": "verified_named_archive_thumbnail_too_small",
+      "source_urls": [
+        "https://dlg.usg.edu/record/geusc_170msbcck2-cor_081wdbrvpg-cor",
+        "https://digital.library.emory.edu/purl/081wdbrvpg-cor",
+        "https://dlg.usg.edu/thumbnails/geusc/170msbcck2-cor/geusc_170msbcck2-cor_081wdbrvpg-cor.jpg"
+      ],
+      "notes": "Direct Georgia record accessible. Named Law School - Arlo Tatum giving a presentation, 1950/1980, Emory Alumni Publications Photographs, Rose Library. Actual thumbnail downloaded and visually inspected: man with glasses and bow tie at lectern; overall 300x242, face roughly 40x50 pixels. Reject as unusably small for recognizable site portrait. Original Emory record HTTP 403; do not repeat blocked request. Full-resolution archival image remains unavailable.",
+      "original_size": [
+        300,
+        242
+      ],
+      "credit": "Emory University Office of Alumni Publications Photographs; Stuart A. Rose Manuscript, Archives, and Rare Book Library; photographer unlisted",
+      "rights": "Copyright Undetermined (rightsstatements.org UND). Emory says it does not control copyright, access is for individual educational viewing/reference and reuse requires independent rights investigation. No public-domain assertion.",
+      "unresolved_leads": [
+        "Accessible full-resolution original of named Emory presentation photograph",
+        "WRI history PDF named group photos, not yet reviewed"
+      ]
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "status": "source_inaccessible",
+      "source_urls": [
+        "https://cedarvalleyuu.org/wp-content/uploads/2023/12/JANNL24.pdf"
+      ],
+      "notes": "Previously unexamined January 2024 newsletter source fetched directly; HTTP 406. No image pixels or sitter mapping obtained. Do not repeat this blocked PDF request.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "2024 annual report remains unexamined",
+        "Larger original of 2023 identified paired photo"
+      ]
+    }
+  ],
+  "deployment": {
+    "applied": false,
+    "reason": "No usable verified original image; no live profile changes."
+  }
+}
