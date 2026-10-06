@@ -1,0 +1,51 @@
+{
+  "batch": 338,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch338.json",
+  "inventory_counts": {
+    "valid_image_header": 3904,
+    "blank": 6572,
+    "missing_asset": 1
+  },
+  "target_note": "No unattempted profiles; two unresolved archival leads reviewed.",
+  "profiles": [
+    {
+      "slug": "donald-e-baker",
+      "name": "Donald E. Baker",
+      "status": "archived_catalog_record_accessible_pdf_not_retrieved",
+      "queries": [
+        "Don Baker Kermit Sheets Collection photo",
+        "Footprints of Pacifism catalog Lewis Clark download"
+      ],
+      "source_urls": [
+        "https://web.archive.org/web/20110719230624/http://digitalcollections.lclark.edu/cdm4/item_viewer.php?CISOROOT=%2Fpubs&CISOPTR=41&CISOBOX=1&REC=20",
+        "https://web.archive.org/web/20110719230624/http://digitalcollections.lclark.edu/cgi-bin/showfile.exe?CISOROOT=/pubs&CISOPTR=41&filename=42.pdf"
+      ],
+      "notes": "Web tool could not access archived catalog record, but direct retrieval succeeded HTML34227bytes. Inspected actual linked showfile PDF. PDF link returned HTTP200 text/html141524bytes beginningDOCTYPE, not PDF. No catalog portrait pixels obtained; no crop accepted. Do not treat HTML response as downloaded PDF.",
+      "rights": "No accepted image; collection and photographer rights remain unverified.",
+      "unresolved_leads": [
+        "Find actual saved42.pdf via archived institutional file or current collection."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "document_reviewed_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/631",
+        "https://architecture.quincylibrary.org/files/original/89e70490935b5d7998bb64f8854c620718c9e0d0.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed complete one-page2003WantListPre1844furniture list. No portrait. Media631 exhausted; do not repeat.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2530\u20132533,2538\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
