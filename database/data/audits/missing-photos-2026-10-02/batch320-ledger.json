@@ -1,0 +1,56 @@
+{
+  "batch": 320,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch320.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6566,
+    "missing_asset": 1
+  },
+  "target_note": "No unattempted profiles remain in fresh inventory. Investigated two existing identity-specific leads; no usable portrait obtained.",
+  "profiles": [
+    {
+      "slug": "seymour-eichel",
+      "name": "Seymour Eichel",
+      "queries": [
+        "Seymour Eichel NJCU portrait professor"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.njcu.edu/sites/default/files/gothicwin2014_4.pdf",
+        "https://www.njcu.edu/sites/default/files/smminutes_11-11-131.pdf",
+        "https://www.njcu.edu/sites/default/files/graduate_course_catalog_1.pdf"
+      ],
+      "notes": "Targeted faculty search returns obituary, senate memorial and emeritus lists. Indexed winter magazine obituary identifies English faculty 1969-1994 and 2013 death but contains text notices, not a named portrait. Direct PDF request returned HTML instead of PDF; no image extracted. Senate/catalog entries provide identity, not image evidence. Do not repeat this failed PDF download.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Swarthmore physical family photographs",
+        "NJCU undigitized faculty archives"
+      ]
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "queries": [
+        "Byron Plumley newsletter 2024 portrait"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://cedarvalleyuu.org/wp-content/uploads/2024/12/JANNL25.pdf",
+        "https://www.westword.com/news/soup-with-a-smile-5061308/"
+      ],
+      "notes": "New January 2025 newsletter lead direct retrieval HTTP 406; no pixels obtained, do not repeat download. Westword December 23, 1999 article independently identifies Denver Catholic Worker volunteer but accessible article contains no named Byron portrait image; advertisements/loader images not accepted as subject photos.",
+      "rights": "No accepted image or image license established.",
+      "unresolved_leads": [
+        "Larger original of identified 2023 Cedar Valley paired photograph",
+        "Other unexamined Loretto annual report lead"
+      ]
+    }
+  ],
+  "deployment": {
+    "applied": false,
+    "reason": "No usable verified portrait. Live data unchanged."
+  }
+}
