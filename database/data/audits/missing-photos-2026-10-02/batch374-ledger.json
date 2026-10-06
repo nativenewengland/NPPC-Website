@@ -1,0 +1,71 @@
+{
+  "batch": 374,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch374.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6604,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile received identity-specific searches and primary record review. One unexamined archive pamphlet also inspected. Verified caption leads remain inaccessible.",
+  "profiles": [
+    {
+      "slug": "sunao-fujii",
+      "name": "Sunao Fujii",
+      "status": "verified_caption_leads_pixels_inaccessible",
+      "queries": [
+        "\"Sunao Fujii\" portrait photograph",
+        "\"Sunao Fujii\" Hawaii internee"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/fujii-sunao",
+        "https://incarceration.jcchawaii.org/documents/Takesono_Jerald.pdf",
+        "https://www.hawaiiinternment.org/sites/default/files/Modern%20History%20of%20Hawaii_0.pdf"
+      ],
+      "identity_verification": "JCCH identifies 1900-born Issei restaurant owner in Kapaa, Kauai; November 1942 arrest, Sharp Park March–August 1943, Santa Fe August 1943–October 1945, November 1945 Yarmouth return. Takesono oral history independently associates Fujii Store father Sunao with internment.",
+      "credit": "JCCH/Sunao Fujii Archival Collection. Original photographer unspecified.",
+      "rights": "JCCH site states All Rights Reserved; public availability is not proof of public domain. No accepted image or crop.",
+      "caption_leads": [
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/158-2633.Santa_Fe_Camp_internees.jpg",
+          "identity": "Hawaii Tenrikyo ministers: Sunao Fujii front row first from left.",
+          "access": "Web cache miss; direct original HTTP 403. Do not repeat unchanged failed URL."
+        },
+        {
+          "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/158-2632.Internees_Cross_of_the_Martyrs_Santa_Fe.jpg",
+          "identity": "Cross of the Martyrs: Sunao Fujii kneeling far right.",
+          "access": "Web cache miss. Pixels and crop quality not inspected."
+        }
+      ],
+      "rejected_namesakes": [
+        "Modern Goshu Yakuhin president pictured in 2018 business report: different generation and occupation.",
+        "Modern Singapore ASKii managing director: no identity bridge.",
+        "Sunao Fukuoka Densho salesperson portrait: different name and occupation."
+      ],
+      "unresolved_leads": [
+        "Acquire accessible original pixels for explicitly mapped group photographs, assess face resolution, then crop only if usable.",
+        "JCCH Sunao Fujii letters collection or independently captioned family photograph."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "pamphlet_biography_restoration_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/3257",
+        "https://architecture.quincylibrary.org/files/original/c8c249aec2e8313b686f00b8461f7e9ee36ac355.pdf"
+      ],
+      "notes": "Complete one-page PDF downloaded, rendered and visually inspected: abolitionist biography, restoration history and house drawing. No face. Media 3257 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Media 3258 remains unexamined."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable image pixels acquired; live profiles unchanged."
+  }
+}
