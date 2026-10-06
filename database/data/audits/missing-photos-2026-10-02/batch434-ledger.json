@@ -1,0 +1,88 @@
+{
+  "batch": 434,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch434.json",
+  "inventory_counts": {
+    "valid_image_header": 3917,
+    "blank": 6675,
+    "missing_asset": 1
+  },
+  "target_note": "Zero unattempted profiles in freshinventory. Three current-custody followups; recognizable original portrait verified and accepted.",
+  "profiles": [
+    {
+      "slug": "quintez-brown",
+      "name": "Quintez Brown",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.lpm.org/news/2025-01-24/quintez-brown-sentenced-to-17-5-years-for-attack-on-louisville-mayoral-candidate",
+        "https://npr-brightspot.s3.amazonaws.com/legacy/wp-content/uploads/2021/07/QBPhoto.png",
+        "https://www.justice.gov/usao-wdky/pr/man-pleads-guilty-shooting-louisville-kentucky-mayor"
+      ],
+      "credit": "University of Louisville, via Louisville Public Media. Photographer not specified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "LPM explicitly captions individual portrait Quintez Brown and credits University of Louisville in exact sentencing coverage. DOJ July2024 plea confirms same Louisville mayoral-candidate shooting case.",
+      "crop": {
+        "original_size": [
+          1075,
+          708
+        ],
+        "box": [
+          196,
+          0,
+          727,
+          708
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "shawn-monper",
+      "name": "Shawn Monper",
+      "queries": [
+        "Shawn Monper Butler photo arrest"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.butlereagle.com/20260901/butler-man-sentenced-to-4-years-in-prison-for-threatening-trump/"
+      ],
+      "notes": "New September2026 sentencing coverage opened. Submittedphoto caption explicitly identifies police response onMortonAvenue, not individual Monper portrait. Prior lead now resolved as scene image; reject as portrait.",
+      "unresolved_leads": [
+        "Individually captioned booking or defendant portrait."
+      ]
+    },
+    {
+      "slug": "ian-william-moses",
+      "name": "Ian William Moses",
+      "queries": [
+        "Ian William Moses Mesa photo Tesla"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://www.axios.com/local/phoenix/2025/04/29/arizona-tesla-cybertruck-vandalism-charges-ian-moses",
+        "https://www.yahoo.com/news/fire-tesla-dealership-mesa-under-151407326.html"
+      ],
+      "notes": "Axios opened: Tesla sign photo creditedMarijanMurat/pictureallianceGetty, not Moses. ArizonaRepublic syndicated coverage mentions security-center matchingphotographs, but original identifiable face not supplied by search. Do not use stockTesla image.",
+      "unresolved_leads": [
+        "Individually identified Mesa police booking/security original with recognizable face."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/quintez-brown",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/quintez-brown-batch434.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "8b2926798da069d0407b39e7e0f176d554f6bb5f2345580cb7e5a78c790b3d4c",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
