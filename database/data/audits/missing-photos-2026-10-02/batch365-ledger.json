@@ -1,0 +1,70 @@
+{
+  "batch": 365,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch365.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6593,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched, plus two distinct followups. No verified portrait acquired.",
+  "profiles": [
+    {
+      "slug": "tomohide-tsukayama",
+      "name": "Tomohide Tsukayama",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Tomohide Tsukayama\" photograph portrait",
+        "\"Tomohide Tsukayama\" Hawaii photo",
+        "\"Tomohide Tsukayama\" internment family portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tsukayama-tomohide",
+        "https://dev.huoa.org/wp-content/uploads/2022/02/uchi_2013_07JulAug.pdf",
+        "https://www.bo.emb-japan.go.jp/itpr_ja/11_000001_02755.html"
+      ],
+      "identity_verification": "JCCH confirms Topaz/TuleLake internee returnedDec1945 and brother ofRubyChiyoHarrison/RoseMitsukoTsukayama.",
+      "notes": "Primary archive record reviewed; no namedportrait. 2013Chataneducationofficial and2025Boliviacooperativeleader photo captions belong to modern namesakes, rejected; no bridge toWWIIinternee. Familygenealogy1922\u20131987 potentially matches but no portrait evidence.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Independent family portrait matched to internee and sisters."
+      ]
+    },
+    {
+      "slug": "ruby-chiyo-harrison",
+      "name": "Ruby Chiyo Harrison",
+      "status": "maiden_name_followup_no_portrait",
+      "queries": [
+        "\"Ruby Chiyo\" Tsukayama photograph",
+        "\"Ruby Chiyo Tsukayama\" Harrison"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tsukayama-tomohide"
+      ],
+      "notes": "Distinct maiden-name searches confirmed sibling relationship in brother primary record. Otherresults unrelated models,fiction or genericRuby/Chiyonames. No actualportrait located.",
+      "unresolved_leads": [
+        "Familyarchive photograph with individually identified sister."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "house_pamphlet_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2560",
+        "https://architecture.quincylibrary.org/files/original/659425ce101aa80ad58d29904932738d85333479.pdf"
+      ],
+      "notes": "Complete PDFdownloaded and visuallyinspected:housepamphlet exterior line drawings and historicaltext,no person. Media2560exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Media2561\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable additions."
+  }
+}
