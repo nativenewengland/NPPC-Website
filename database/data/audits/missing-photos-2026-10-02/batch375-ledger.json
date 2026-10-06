@@ -1,0 +1,73 @@
+{
+  "batch": 375,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch375.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6606,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles received identity-specific searches and primary record review. Captioned photographs could not be retrieved; one archive follow-up exhausted.",
+  "profiles": [
+    {
+      "slug": "zenkichi-morita",
+      "name": "Zenkichi Morita",
+      "status": "verified_caption_leads_pixels_inaccessible",
+      "queries": [
+        "\"Zenkichi Morita\" photograph portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/morita-zenkichi"
+      ],
+      "identity_verification": "1890-born Issei shipping port truck driver, Eleele Kauai; ILWU member, son Susumu served in US Army. Sharp Park March–August 1943 and Santa Fe August 1943–October 1945.",
+      "caption_lead": "Kauai Issei small group: top row second from left. Also mapped in several larger groups.",
+      "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/2627.Santa_Fe_Camp_issei_internees.jpg",
+      "access": "Web cache miss and direct HTTP 403; do not repeat unchanged failed URL.",
+      "rights": "JCCH site states All Rights Reserved. Original photographer unspecified. No accepted crop/image; public accessibility not proof of public domain.",
+      "unresolved_leads": [
+        "Acquire original captioned photograph and assess recognizable face resolution before cropping."
+      ],
+      "notes": "Generic Morita family page displays actor Pat Morita, not the target; rejected. Directory entry alone does not establish an actual portrait."
+    },
+    {
+      "slug": "koshi-tatsuhara",
+      "name": "Koshi Tatsuhara",
+      "status": "verified_caption_leads_pixels_inaccessible",
+      "queries": [
+        "\"Koshi Tatsuhara\" photograph portrait"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tatsuhara-koshi",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "identity_verification": "1891-born Issei Japanese language school principal in Mana Kauai, alternative Koshi Tatehara. December 1941 arrest; Lordsburg June 1942–June 1943, Santa Fe June 1943–October 1945. Albuquerque Museum roster independently lists Koji or Koshi Tatsuhara, teacher, born October 10 1891.",
+      "caption_lead": "February 1944 Santa Fe group: front row fifth from left, JCCH/Joan Oya Collection. Also Kauai group front row third; JCCH/Sunao Fujii Archival Collection.",
+      "source_image": "https://incarceration.jcchawaii.org/media/_photoGallery/BASE_192.GroupPhotoSantaFeFeb1944.jpg",
+      "access": "Web cache miss; no pixels inspected.",
+      "rights": "JCCH site states All Rights Reserved. Original photographer unspecified. No accepted crop/image; public accessibility not proof of public domain.",
+      "unresolved_leads": [
+        "Acquire original captioned photograph and assess recognizable face resolution before cropping."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "historic_house_pamphlet_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/3258",
+        "https://architecture.quincylibrary.org/files/original/0661b55e312f92b2cb9bee29a9b695133a34b73e.pdf"
+      ],
+      "notes": "One-page PDF downloaded, rendered and visually inspected: house photograph and historical restoration text, no face. Media 3258 exhausted. All previously identified pamphlet leads through 3258 now examined.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "A distinct archive source with an actual independently identified portrait; house pamphlets exhausted."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified image pixels; live profiles unchanged."
+  }
+}
