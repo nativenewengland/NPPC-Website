@@ -1,0 +1,50 @@
+{
+  "batch": 345,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch345.json",
+  "inventory_counts": {
+    "valid_image_header": 3905,
+    "blank": 6574,
+    "missing_asset": 1
+  },
+  "target_note": "No unattempted profiles; two unresolved collection follow-ups completed.",
+  "profiles": [
+    {
+      "slug": "shiro-takeda",
+      "name": "Shiro Takeda",
+      "status": "collection_search_no_portrait_access_timeout",
+      "queries": [
+        "site:content.libraries.wsu.edu/digital/collection/hmcolls Takeda portrait",
+        "site:content.libraries.wsu.edu Shiro Photograph Takeda"
+      ],
+      "source_urls": [
+        "https://content.libraries.wsu.edu/digital/collection/hmcolls/"
+      ],
+      "notes": "Collection-specific portrait queries yielded no results. Web opening collection returned400fetchtimeout. No named individual image retrieved or accepted. Record access failure without repeating same query next run.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "TakedaFamilyCollection current browser view or institutional item metadata needed."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_contents_continuation_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2540",
+        "https://architecture.quincylibrary.org/files/original/ed79b606c30b9f299add9c89cacbaa336651e732.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed complete one-page tableofcontents continuation HistoricStructuresReport. No portrait. Appendix photographs listed, not themselves present. Media2540 exhausted; do not repeat.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2541\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
