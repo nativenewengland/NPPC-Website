@@ -1,0 +1,69 @@
+{
+  "batch": 314,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch314.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6563,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched plus two follow-ups; verified source access failure prevented portrait ingestion.",
+  "profiles": [
+    {
+      "slug": "stephen-donaldson",
+      "name": "Stephen Donaldson",
+      "status": "credible_large_portrait_access_failed",
+      "queries": [
+        "Stephen Donaldson portrait Donny punk"
+      ],
+      "source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Stephen_Donaldson_Oakland_1984.jpg",
+        "https://commons.wikimedia.org/wiki/Category:Stephen_Donaldson_(activist)",
+        "https://justdetention.org/who-we-are/our-history/"
+      ],
+      "notes": "Correct activist born Robert Anthony Martin Jr, alias Donny the Punk, distinguished from novelist Stephen R Donaldson. Commons metadata identifies July1984 Oakland airport real photograph by Tom Cahill via Ellen Spertus,2331x3422. Web page inaccessible and direct request403, so pixels and exact license not verified. Do not deploy yet. Other July1995 photograph only160x213 rejected as too small; framed medals photo is weaker candidate.",
+      "credit": "Tom Cahill via Ellen Spertus (1984 candidate)",
+      "rights": "Exact license of1984 photo must still be read; public access not proof of public domain.1995 file PD dedication must not be transferred to1984 file.",
+      "unresolved_leads": [
+        "Fetch original1984 portrait and verify exact Commons license",
+        "Institutional NYPL digitized portrait"
+      ]
+    },
+    {
+      "slug": "ann-louise-thompson",
+      "name": "Ann Louise Thompson",
+      "status": "namesakes_excluded",
+      "queries": [
+        "Ann Louise Thompson peace portrait"
+      ],
+      "source_urls": [
+        "https://www.tributearchive.com/obituaries/43647621/ann-louise-thompson"
+      ],
+      "notes": "Search produced1935\u20132025 Ann Louise Macumber Thompson LDS physical education graduate in Citrus Heights and1987 UNC nursing alumna Ann Louise Thompson Armstrong. Neither independently bridges Bellevue war-tax-resistance identity; exclude. Known damaged portrait and paired tiny photo not repeated.",
+      "rights": "No accepted photo."
+    },
+    {
+      "slug": "elise-french",
+      "name": "Elise French",
+      "status": "medical_professional_identity_unbridged",
+      "queries": [
+        "Elise French school americas photograph"
+      ],
+      "source_urls": [
+        "https://www.hrphysician.com/elise-french-np/",
+        "https://www.hrphysician.com/HRSpring_2014.pdf"
+      ],
+      "notes": "Named2014 nurse practitioner portrait found; biography Florida nursing2002,Army reserves,Hampton Roads military spouse with young children. No independent bridge to Avon Lake SOA defendant established. Do not use namesake portrait. Student education story and directory images also identity-unbridged.",
+      "rights": "No accepted portrait or established reuse rights.",
+      "unresolved_leads": [
+        "Individually identified Avon Lake church portrait"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "1984 Donaldson portrait access/licensing unresolved; other candidates identity-unbridged."
+  }
+}
