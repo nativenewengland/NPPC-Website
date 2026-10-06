@@ -1,0 +1,58 @@
+{
+  "batch": 397,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch397.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6636,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched; additionally pursued a previously recorded Matsuda obituary lead. No verified usable images. Archive yearbook lead carried forward.",
+  "profiles": [
+    {
+      "slug": "takashi-kitajima",
+      "name": "Takashi Kitajima",
+      "status": "researched_unresolved_lead",
+      "queries": [
+        "\"Takashi Kitajima\" Hawaii obituary",
+        "\"Takashi Kitajima\" \"Yoshio\"",
+        "\"Takashi Kitajima\" photo Kohala",
+        "\"Takashi Kitajima\" obituary portrait 1929",
+        "\"Takashi Kitajima\" \"Tule\" yearbook"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-takashi",
+        "https://incarceration.jcchawaii.org/internees/kitajima-yoshio",
+        "https://digicoll.lib.berkeley.edu/nanna/record/174725/files/cubanc_35_1_00261309ta.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+        "https://www.flickr.com/people/turntable00000/",
+        "https://www.tohobank.co.jp/pdf/en/2025/tohoir2025.pdf"
+      ],
+      "notes": "Live profile identifies 1929 Kohala-born son of Yoshio and Roku; Jerome January1943-May1944 then Tule Lake. Individual JCCH and Berkeley record web internal errors. Exact-name search found a Berkeley scanned yearbook with caption ROW4 Takashi Kitajima first from left. Must establish year/camp/age and inspect native photo before acceptance. Tokyo/Saitama modern photographer and modern Fukushima bank employee rejected as unrelated namesakes; scene photography is not subject portrait.",
+      "rights": "No accepted image; yearbook creator and rights unverified.",
+      "unresolved_leads": [
+        "Berkeley record174725 yearbook: establish identity bridge, inspect named row4 first-left and native dimensions."
+      ]
+    },
+    {
+      "slug": "george-takao-matsuda",
+      "name": "George Takao Matsuda",
+      "status": "followup_no_verified_portrait",
+      "queries": [
+        "\"Takao Matsuda\" \"2013\" obituary Hawaii",
+        "\"George Takao\" Matsuda birth"
+      ],
+      "source_urls": [
+        "https://library.byuh.edu/0000017b-3c2d-d95f-a1ff-7caf804a0000/m-2013",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_M.pdf",
+        "https://incarceration.jcchawaii.org/internees/matsuda-george-takao"
+      ],
+      "notes": "Previously pending2013 obituary now text verified: Takao Matsuda90 Lahaina-born Pioneer Mill electrician, wifeHarue; no Ryugen/Yoshiko family bridge or portrait. NPS Tule Lake roster independently lists TAKAO GEORGE MATSUDA birth-year26;2013 obituary age90 implies1922/1923, incompatible with roster1926. Reject2013 obituary as target identity absent additional contrary evidence. Individual JCCH web internalerror.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Individually captioned Matsuda household portrait; do not repeat2013 namesake obituary."
+      ]
+    }
+  ]
+}
