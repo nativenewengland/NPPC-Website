@@ -1,0 +1,77 @@
+{
+  "batch": 317,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch317.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6566,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched, plus two portrait lead follow-ups.",
+  "profiles": [
+    {
+      "slug": "seymour-eichel",
+      "name": "Seymour Eichel",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Seymour Eichel photograph portrait",
+        "Seymour Eichel archive",
+        "Seymour Eichel NJCU photo obituary"
+      ],
+      "source_urls": [
+        "https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.131",
+        "https://www.dignitymemorial.com/obituaries/brooklyn-ny/seymour-eichel-5699665",
+        "https://www.njcu.edu/sites/default/files/gothicwin2014_4.pdf"
+      ],
+      "notes": "Swarthmorefamilyarchive confirms son ofJuliusandEsther and1956draft refusal; physical papers not digitized. Exactparentnames and2013death independently bridge NJCUEnglishprofessor obituary. No real portrait verified.1919Eichelbrothersphoto depicts father/uncle beforeSeymourbirth, reject; JackEichelhockeyportrait unrelated.",
+      "unresolved_leads": [
+        "NJCU historicalfacultyportrait",
+        "Swarthmorephysicalfamilyphotographs"
+      ],
+      "rights": "No accepted image."
+    },
+    {
+      "slug": "mark-wilson-oregon",
+      "name": "Mark Wilson",
+      "status": "verified_photo",
+      "source_urls": [
+        "https://prisonthehiddensentence.com/podcasts/from-prison-to-purpose-mark-wilsons-fight-for-justice-part-2/",
+        "https://prisonthehiddensentence.com/wp-content/uploads/2025/09/Graphics-Mark-Wilson-Headshot-PHI-5-Mark-Wilson.jpg",
+        "https://www.connecting4justice.org/speaker-spotlight-of-mark-wilson/"
+      ],
+      "notes": "Direct podcast HTML succeeded after web timeout. Original650x650 guest headshot retrieved and visually reviewed; correct man matches named release-day image. Standard undistorted crop.",
+      "credit": "Prison the Hidden Sentence / Mark Wilson podcast guest headshot; photographer unlisted",
+      "rights": "No open image license established. Public availability does not imply public domain."
+    },
+    {
+      "slug": "tom-cahill",
+      "name": "Tom Cahill",
+      "status": "video_lead_pending",
+      "source_urls": [
+        "https://justdetention.org/multimedia/survivor-story-tom/",
+        "https://justdetention.org/wp-content/uploads/2018/10/JDI-DONOR-REPORT-2018.pdf"
+      ],
+      "notes": "PrimaryJDI survivor-video page establishes correct person; browser text lacks videoassetURL, noframeverified. Search discovers2018donorreportPortraitofCourage section; unexaminedlead carriedforward. Known4032021PDFnotrepeated.",
+      "rights": "OVC grant support does not establish federal public-domain status.",
+      "unresolved_leads": [
+        "JDI2018donorreport portrait",
+        "Verifiedsurvivorvideoframe"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/mark-wilson-oregon",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/mark-wilson-oregon-batch317.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "f95955e1afd9266f629694ade1255e042cfc1acfa2dca4ce5ae80e4da724d1c9",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
