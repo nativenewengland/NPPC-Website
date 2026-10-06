@@ -1,0 +1,79 @@
+{
+  "batch": 436,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch436.json",
+  "inventory_counts": {
+    "valid_image_header": 3918,
+    "blank": 6676,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile and two current-custody leads researched. Two native primary surveillance images inspected and rejected for hidden/tiny face.",
+  "profiles": [
+    {
+      "slug": "yozaemon-yamamoto",
+      "name": "Yozaemon Yamamoto",
+      "queries": [
+        "Yozaemon Yamamoto photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yamamoto-yozaemon",
+        "https://www.oldkoloa.com/history/the-asahi-soda-building/"
+      ],
+      "notes": "1877Koloa KauaiSodaemployee. Primary identifies threeSantaFegroups: bottomrowfifth in17personKauaigroup; secondroweighth largerKauaigroup; seatedrowfifth inSunaoFujii group. LocalAsahiSodabuildinghistory independently names formeremployee/newpartner but supplies buildinghistory not individualportrait. Previously inaccessible sharedarchive assets not redownloaded.",
+      "credit": "JCCH/Sunao Fujii Archival Collection.",
+      "rights": "Unknown; no public-domain claim.",
+      "unresolved_leads": [
+        "Accessible original17person Kauai group or AsahiSoda familyportrait."
+      ]
+    },
+    {
+      "slug": "clift-seferlis",
+      "name": "Clift Seferlis",
+      "queries": [
+        "Clift Seferlis portrait stone carver",
+        "Clift Seferlis Washingtonian photograph"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://washingtonian.com/2023/11/10/meet-the-guy-keeping-the-craft-of-stone-carving-alive-and-well-in-dc/",
+        "https://www.washingtonian.com/2023/11/10/meet-the-guy-keeping-the-craft-of-stone-carving-alive-and-well-in-dc/"
+      ],
+      "notes": "New2023Washingtonian feature identifiesCliftAndySeferlis stonecarver/fatherConstantine, independently bridged to2026Inquirer identity. Search captions IMG_5512 Seferlis instructingGailHolle; article/browser and www urllibbothHTTP403. No originalpixels inspected; do not claim verified usablephoto.",
+      "rights": "Publisher copyright; no openlicense established.",
+      "unresolved_leads": [
+        "AccessibleWashingtonian IMG_5512 original with recognizableface and photo credit."
+      ]
+    },
+    {
+      "slug": "gregory-vandenberg",
+      "name": "Gregory Vandenberg",
+      "queries": [
+        "Gregory Vandenberg photograph arrest",
+        "Gregory Vandenberg DOJ photo explosives"
+      ],
+      "status": "researched_no_usable_portrait",
+      "source_urls": [
+        "https://www.justice.gov/usao-nm/pr/former-us-navy-seal-convicted-transporting-explosives-throw-law-enforcement-california",
+        "https://www.justice.gov/sites/default/files/2026-01/vandenberg_4.png",
+        "https://www.justice.gov/sites/default/files/2026-01/vandenberg_5.jpg.png",
+        "https://www.justice.gov/usao-nm/pr/former-us-navy-seal-sentenced-transporting-explosives-throw-law-enforcement-california"
+      ],
+      "notes": "Retrieved exactprimary originals afterbrowserimage cachemiss. Visually inspected422x281whole storeframe: Vandenberg nearbackcounter faceabout15pxwide, unusable. Native482x628overheadframe subjecttopLEFTcap hidingeyes/mostface, reject recognizableportrait. DOJ explicitly identifiesVandenberg and July2026sentencing corroboratescase; originalsurveillance creator/storeunknown, federalreproductionnotproofPD. OriginalNavyNews surveillance lead exhausted viaprimaryimages.",
+      "credit": "Surveillance images supplied U.S.Attorney OfficeDistrictNewMexico/DOJ; originatingcamera ownerunknown.",
+      "rights": "Unknown originalsurveillance rights; no public-domain claim.",
+      "rejected_images": [
+        "422x281storeframe faceabout15pxwide",
+        "482x628overheadframe cap hideseyes and face"
+      ],
+      "unresolved_leads": [
+        "Separate frontalbooking or individuallycaptioned recognizableportrait; existing surveillanceframes exhausted."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
