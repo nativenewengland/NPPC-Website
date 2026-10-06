@@ -1,0 +1,65 @@
+{
+  "batch": 391,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch391.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6628,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles researched; verified actual founder image rejected for insufficient native face resolution, not counted as photo addition.",
+  "profiles": [
+    {
+      "slug": "kinai-ikuma",
+      "name": "Kinai Ikuma",
+      "status": "researched_no_verified_usable_portrait",
+      "queries": [
+        "\"Kinai Ikuma\" photograph portrait",
+        "\"Kinai Ikuma\" Hawaii",
+        "\"Kinai Ikuma\" bishop portrait temple"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/ikuma-kinai",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf",
+        "https://catalog.afi.com/Film/50418-BIG-JIMMCLAIN",
+        "https://aiisf.squarespace.com/taken"
+      ],
+      "notes": "Official museum roster identifies1872Hiroshima-born Honolulu assistant missionaryHJ179; AngelIsland memorial lists name. JCCH individual record internalerror. AFI1952BigJimMcLain cast listsBishopKinaiIkuma asReverendIto: credible distinct moving-image lead but not independently bridged to internee beyond uncommonname/clericalHawaii context; no verified face or still obtained. Unrelated Ikuma game and other Kinai genealogy rejected.",
+      "rights": "No accepted image. AFI records1952Wayne-Fellowscopyright; cast metadata is not permission to reproduce film still.",
+      "unresolved_leads": [
+        "Independently bridge1952film actor to1872internee, then inspect explicitly identified actual footage/still and rights."
+      ]
+    },
+    {
+      "slug": "yekai-okamoto",
+      "name": "Yekai Okamoto",
+      "status": "verified_identity_original_portrait_rejected_insufficient_resolution",
+      "queries": [
+        "\"Yekai Okamoto\" photograph portrait",
+        "\"Yekai Okamoto\" Buddhist",
+        "\"Nanshin Okamoto\" portrait Rinzai",
+        "Rinzai Zen Mission Yekai founder photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/okamoto-nanshin-yekai",
+        "https://www.rinzai-maui.org/our-founders",
+        "https://static.wixstatic.com/media/ce261b_f8042ace208c4aa69ac310748c2969b8~mv2.jpg",
+        "https://janm.emuseum.com/objects/76417/first-winds-of-ryukyu"
+      ],
+      "notes": "JCCH explicitly bridgesYekai toNanshinOkamoto1891, OkinawaRinzai priest/Huelo1920s/Paia1932founder. Official mission founderpage independently matches history and identifies1891-1974portrait. HTML retrieved and originalWiximage downloaded217x362 (displayed304x472variant is upscale). Visually reviewed actual full-body priest photograph: face approximately50pixelswide; rejected unusable portrait magnification. JANMfilm gifted in memory ofNanshin is Okinawa documentary, not proof depictedfaces arehim. OtherRinzaifoundersEisai/Hakuin rejected.",
+      "credit": "Rinzai Zen Mission of Paia, Our Founders; original photographer unspecified.",
+      "rights": "No accepted image; source has no established free license, public access notpublicdomain.",
+      "crop": null,
+      "unresolved_leads": [
+        "Larger original of mission founder portrait with adequate native face detail.",
+        "Other explicitly identified Okamoto family archive photograph."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live data unchanged."
+  }
+}
