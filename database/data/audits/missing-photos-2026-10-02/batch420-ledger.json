@@ -1,0 +1,89 @@
+{
+  "batch": 420,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch420.json",
+  "inventory_counts": {
+    "valid_image_header": 3913,
+    "blank": 6663,
+    "missing_asset": 1
+  },
+  "target_note": "Sole unattempted profile researched plus two current-custody leads. Verifiedportraitaccepted.",
+  "profiles": [
+    {
+      "slug": "lynette-sharp",
+      "name": "Lynette Sharp",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.fox4news.com/news/alvarado-ice-facility-ambush-trial-march-4/",
+        "https://images.foxtv.com/static.fox4news.com/www.fox4news.com/content/uploads/2026/03/932/524/p-dionne-alvarado-ois-trial-4p_kdfw5a84_146_mxf_00.00.25.46.jpg?ve=1&tl=1",
+        "https://www.thisamericanlife.org/891/transcript"
+      ],
+      "credit": "FOX 4 Dallas-Fort Worth / KDFW, Lynette Sharp booking portrait in March2026 trial coverage; original booking-image agency not specified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "FOX4 image expressly captioned Lynette Sharp in Prairieland case. ThisAmericanLife interview independently describes pink hair at arrest and matching case.",
+      "crop": {
+        "original_size": [
+          932,
+          524
+        ],
+        "box": [
+          276,
+          24,
+          633,
+          500
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "sadashichi-miura",
+      "name": "Sadashichi Miura",
+      "queries": [
+        "Sadashichi Miura photo"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/miura-sadashichi"
+      ],
+      "notes": "c1895Puna storekeeper; SantaFegroupfrontrow2thirteenth JCCH/TamioNakamuraCollection; sharedinaccessibleoriginalpending. PahoaSodaWorks historicallead confirms proprietor but noface.",
+      "unresolved_leads": [
+        "Alternate nativeSantaFegroup orPahoaStorefamilyphoto."
+      ]
+    },
+    {
+      "slug": "ernesto-wilson",
+      "name": "Ernesto Wilson",
+      "queries": [
+        "Ernesto Wilson Prison Radio",
+        "Ernesto Wilson Greensboro photograph Latin Kings"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://archives.fbi.gov/archives/charlotte/press-releases/2013/three-members-and-one-associate-of-violent-north-carolina-latin-kings-gang-sentenced-to-prison",
+        "https://yesweeklyblog.blogspot.com/2012/10/day-4-latin-kings-on-trial.html"
+      ],
+      "notes": "PrisonRadioquery noverifiedcorrespondent. FBI confirmsage55YayoNewYork2013. Localtrialreport mentionsphotograph ofVasquezbrothers/Asheborogroup, cannotidentifyWilson; no portrait accepted.",
+      "unresolved_leads": [
+        "IndividualcaptionedWilsontrial/arrestoriginal distinct fromCornellorVasquezbrothers."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/lynette-sharp",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/lynette-sharp-batch420.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "15d5fb344993bdaf2658d6df2a17ad31ce7aad79aff1b2d8ccd6d4fd2ffb351b",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
