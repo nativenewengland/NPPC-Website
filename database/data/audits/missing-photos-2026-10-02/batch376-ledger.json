@@ -1,0 +1,62 @@
+{
+  "batch": 376,
+  "newly_attempted_count": 2,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch376.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6608,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles received multiple identity-specific searches and primary source review. No verified portrait found.",
+  "profiles": [
+    {
+      "slug": "ichiro-izuka",
+      "name": "Ichiro Izuka",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Ichiro Izuka\" photograph portrait",
+        "\"Ichiro Izuka\" \"1990\" photo portrait",
+        "\"Ichiro Izuka\" photograph Hawaii union"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/izuka-ichiro",
+        "https://digicoll.lib.berkeley.edu/record/323927?ln=en",
+        "https://www.ilwu.org/ah-quon-mcelrath/",
+        "https://densho.org/catalyst/strikers-scabs-sugar-mongers-immigrant-labor-struggle-shaped-hawaii-know-today/"
+      ],
+      "identity_verification": "JCCH indexed primary record: 1911-born Nisei Eleele Kauai longshoreman and union organizer, brother Kuichi. Wailua detention, parole August 1942, parole release September 1943. Later Reinecke case witness and 1990 gubernatorial candidate.",
+      "notes": "JCCH indexed full text reviewed; no gallery in retrieved record. ILWU history gives text about Izuka but no identified portrait of him. Densho article retrieval HTTP 403. Berkeley Tony Gomez 1942 Tanforan image depicts Mrs Ichiro Iizuka and Henry Livingston, not this man; rejected. Kuichi obituary mentions brother Ichiro but is not his portrait.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "1990 Hawaii election candidate photographs or independently captioned union/1948 witness news photograph."
+      ]
+    },
+    {
+      "slug": "nobuyuki-yoshimoto",
+      "name": "Nobuyuki Yoshimoto",
+      "status": "primary_individual_record_inaccessible_no_verified_portrait",
+      "queries": [
+        "\"Nobuyuki Yoshimoto\" photograph portrait",
+        "\"Nobuyuki Yoshimoto\" Kauai",
+        "site:incarceration.jcchawaii.org \"Yoshimoto, Nobuyuki\""
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yoshimoto-nobuyuki",
+        "https://incarceration.jcchawaii.org/places/wailua-county-jail-kauai-island",
+        "https://incarceration.jcchawaii.org/internees/morita-zenkichi"
+      ],
+      "identity_verification": "JCCH Wailua detention roster explicitly lists Nobuyuki Yoshimoto; Morita and Izuka records identify him as another arrested Kauai ILWU member. Individual record retrieval failed.",
+      "notes": "Genealogy result for 1891–1974 Lihue resident is possible lead only; no actual portrait or independent identity bridge. Modern welding artist, textile researcher and executive results lack bridge to Kauai labor internee and are rejected. Do not store unrelated personal identifiers from genealogy pages.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Accessible individual JCCH record and historical Kauai labor/family archive with independent caption."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portraits; live profiles unchanged."
+  }
+}
