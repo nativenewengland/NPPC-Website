@@ -1,0 +1,82 @@
+{
+  "batch": 410,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch410.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6649,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles researched; current-custody unresolved leads followed without repeating completed searches.",
+  "profiles": [
+    {
+      "slug": "mitsue-nakamura",
+      "name": "Mitsue Nakamura",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Mitsue Nakamura Hawaii internee photo",
+        "Mitsue Nakamura Tomoaki photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-mitsue",
+        "https://incarceration.jcchawaii.org/internees/nakamura-tomoaki"
+      ],
+      "notes": "1902 Honolulu, wife of Tomoaki and mother of Tomoyoshi, Florence Yoshiko and Richard Tsunehide. Primary record has no subject photograph. Modern artist Mitsue/Yuya and Ethel Mitsue bride unbridged namesakes rejected.",
+      "unresolved_leads": [
+        "Captioned Nakamura family archive or obituary."
+      ]
+    },
+    {
+      "slug": "tomoyoshi-nakamura",
+      "name": "Tomoyoshi Nakamura",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Tomoyoshi Nakamura Hawaii photo",
+        "Roy Tomoyoshi Mitsue"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-tomoyoshi",
+        "https://obits.staradvertiser.com/2020/01/19/roy-tomoyoshi-nakamura-2/"
+      ],
+      "notes": "Live primary description birth 1929. Roy Tomoyoshi obituary age90 in January2020 and siblings Florence Nakamura and Richard Nakamura support a possible family bridge; captioned individual image present. Direct JCCH web retrieval cache miss. Need primary birth/household confirmation and native image inspection before accepting.",
+      "unresolved_leads": [
+        "Verify Roy alias and same siblings using roster; retrieve obituary original."
+      ]
+    },
+    {
+      "slug": "matthew-hale",
+      "name": "Matthew Hale",
+      "status": "deferred_hidden_profile",
+      "queries": [
+        "Matthew Hale prison portrait 2005"
+      ],
+      "source_urls": [
+        "https://www.cbsnews.com/news/white-supremacist-gets-40-years/"
+      ],
+      "notes": "News source matches modern convicted identity. Prior batch7 ledger confirms under_review=1 and intentionally excluded from public scope. Missing asset remains documented; no visibility or record changes. Historic jurist portrait rejected."
+    },
+    {
+      "slug": "laguerre-payen",
+      "name": "Laguerre Payen",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Laguerre Payen photograph Newburgh four"
+      ],
+      "source_urls": [
+        "https://highlandscurrent.org/2023/08/04/three-of-newburgh-four-released/",
+        "https://www.timesunion.com/business/article/behind-release-three-newburgh-four-18285018.php",
+        "https://atfp.org/adopt/terrorist/laguerre-payen/"
+      ],
+      "notes": "Current-custody candidate list conflicts with 2023 release reporting. Group images may show informant or Cromitie, not automatically Payen. No portrait accepted; individually captioned original and custody reconciliation pending.",
+      "unresolved_leads": [
+        "Identify native individual portrait; verify present custody before prioritizing further."
+      ]
+    }
+  ],
+  "rights": "No images accepted; all potential originals have unknown rights pending source inspection.",
+  "deployment": {
+    "performed": false
+  }
+}
