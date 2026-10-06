@@ -1,0 +1,66 @@
+{
+  "batch": 386,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch386.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6618,
+    "missing_asset": 1
+  },
+  "target_note": "No unattempted profiles. Pursued three distinct follow-ups; one magazine lead downloaded and visually exhausted. No usable portraits.",
+  "profiles": [
+    {
+      "slug": "hakuai-oda",
+      "name": "Hakuai Oda",
+      "status": "magazine_lead_exhausted_no_portrait",
+      "source_urls": [
+        "https://generations808.com/wp-content/uploads/2024/10/2015-OctNov-MedQueens_ALLsprds.pdf"
+      ],
+      "notes": "Downloaded 29-spread October/November 2015 magazine. Matching spread index12/printed24 rendered and visually reviewed. Japanese Floral Art article names Hakuai and Kako, but illustrates flowers and exhibition hall; no target face. Credit Barbara and Roger Tinius applies to article photographs, not an Oda portrait. Lead exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Accessible original of named 1924 JCCH portrait."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "distinct_archive_search_no_verified_portrait",
+      "queries": [
+        "\"Richard Eells\" portrait archive photograph Quincy"
+      ],
+      "source_urls": [
+        "https://archiveswest.orbiscascade.org/ark%3A80444/xv48663",
+        "https://theclio.com/entry/23377",
+        "https://www.hsqac.org/wp-content/uploads/2025/02/2023_Governors_Post_Summer_Edition-7.pdf"
+      ],
+      "notes": "Search returned mostly house photographs. Archives West family collection describes corporate philanthropy writer Richard Eells, not established bridge to 1846-deceased abolitionist; rejected as target evidence. Clio image classifier mentions sketch/self-portrait but does not independently identify a Richard Eells face. Historical society summer2023 publication is a new pending source, not yet portrait proof.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Inspect Historical Society summer2023 publication for independently captioned actual portrait."
+      ]
+    },
+    {
+      "slug": "shintani-ishimatsu",
+      "name": "Ishimatsu Shintani",
+      "status": "physical_archive_lead_no_digital_portrait",
+      "queries": [
+        "\"Ishimatsu Shintani\" portrait \"Miyake\""
+      ],
+      "source_urls": [
+        "https://kauaihistoricalsociety.org/wp-content/uploads/2020/11/Manuscript-69-Kauai-WWII-Morale-Committee-and-Internment.pdf"
+      ],
+      "notes": "Targeted search only corroborates previously documented MS69 binder2 page84 named photo. Finding aid contains description, not original pixels. No newly digitized original found; do not repeatedly download same finding aid.",
+      "rights": "No accepted image; physical access terms do not establish copyright permission.",
+      "unresolved_leads": [
+        "Digitized original of MS69 binder2 page84 named Shintani photograph."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portraits; live profiles unchanged."
+  }
+}
