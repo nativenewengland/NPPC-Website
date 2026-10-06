@@ -1,0 +1,87 @@
+{
+  "batch": 321,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch321.json",
+  "inventory_counts": {
+    "valid_image_header": 3902,
+    "blank": 6567,
+    "missing_asset": 1
+  },
+  "target_note": "All one newly unattempted profile searched, plus three identity-specific existing-lead follow-ups. No acceptable portrait obtained.",
+  "profiles": [
+    {
+      "slug": "arlo-tatum",
+      "name": "Arlo Tatum",
+      "status": "researched_portrait_rejected_quality",
+      "queries": [
+        "Arlo Tatum portrait photograph conscientious objector",
+        "Arlo Tatum obituary photo"
+      ],
+      "source_urls": [
+        "https://www.theguardian.com/theguardian/2014/may/07/arlo-tatum-obituary",
+        "https://dlg.usg.edu/record/geusc_170msbcck2-cor_081wdbrvpg-cor",
+        "https://wri-irg.org/en/ArloTatum"
+      ],
+      "notes": "Guardian obituary by spouse Polly independently matches Iowa Quaker, Sandstone imprisonment, second draft-registration prison term and CCCO leadership. Named obituary image retrieved from actual article URL and visually inspected, 460x276: tight low-quality head image cuts off top of head, eyes closed. Reject as weak portrait; standard vertical crop would worsen composition. Bare CDN request required signature; article-provided CDN URL succeeded. Georgia digital archive identifies Arlo giving law school presentation, but web record cache miss. WRI page inaccessible via web.",
+      "source_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/5/7/1399471834673/Arlo-Tatum-001.jpg?width=620&dpr=2&s=none&crop=none",
+      "credit": "Guardian obituary by Polly Tatum; photographer unlisted",
+      "rights": "No open photo license established; Guardian reserves rights.",
+      "unresolved_leads": [
+        "Georgia archive named law school presentation photo: attempt direct record and original image",
+        "WRI history PDF named group photographs: identity mapping and clean crop required"
+      ]
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "status": "researched_new_leads",
+      "queries": [
+        "Byron Plumley 2024 annual Loretto"
+      ],
+      "source_urls": [
+        "https://cedarvalleyuu.org/wp-content/uploads/2024/05/2024-Annual-Report.pdf",
+        "https://cedarvalleyuu.org/wp-content/uploads/2025/05/2025-Annual-Report-2.pdf",
+        "https://cedarvalleyuu.org/wp-content/uploads/2023/12/JANNL24.pdf"
+      ],
+      "notes": "Targeted search finds annual council lists and January 2024 blessing account, which establish membership but no indexed named portrait. Original PDF image review remains pending; text mentions alone do not identify a group sitter.",
+      "rights": "No image accepted.",
+      "unresolved_leads": [
+        "Review January 2024 newsletter and 2024 annual report images if accessible"
+      ]
+    },
+    {
+      "slug": "elise-french",
+      "name": "Elise French",
+      "status": "researched_no_new_verified_lead",
+      "queries": [
+        "Elise French Avon photograph"
+      ],
+      "source_urls": [],
+      "notes": "Identity-specific Avon search yielded no new credible individual portrait. Existing rejected tiny group and unrelated nurse remain excluded.",
+      "rights": "No accepted image."
+    },
+    {
+      "slug": "gary-ashbeck",
+      "name": "Gary Ashbeck",
+      "status": "researched_no_new_verified_lead",
+      "queries": [
+        "Gary Ashbeck portrait photo"
+      ],
+      "source_urls": [
+        "https://www.linkedin.com/in/gary-ashbeck-0032aa27",
+        "https://classic.countervortex.org/node/1591"
+      ],
+      "notes": "Search finds Baltimore solar-business LinkedIn profile without independently established bridge to Jonah House subject; no portrait accepted from occupational name match alone. CounterVortex Witness Against Torture mention is text identity context, not named portrait. Previously examined jail-letter page not downloaded again. Unrelated Tina Ashbeck and Gary Bruchman society photographs excluded.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Independent identity bridge required before any occupational-profile photo can be considered"
+      ]
+    }
+  ],
+  "deployment": {
+    "applied": false,
+    "reason": "No usable verified portrait; live profile fields unchanged."
+  }
+}
