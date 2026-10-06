@@ -1,0 +1,74 @@
+{
+  "batch": 316,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch316.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6565,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched plus two unresolved lead follow-ups. Primary image download403 and PDF screenshot failure prevented ingestion; usable candidates carried forward.",
+  "profiles": [
+    {
+      "slug": "tom-cahill",
+      "name": "Tom Cahill",
+      "status": "primary_named_photo_access_failed",
+      "queries": [
+        "Tom Cahill prison activist portrait"
+      ],
+      "source_urls": [
+        "https://justdetention.org/tom-cahill-hero-of-the-movement-to-end-prisoner-rape-passes-away/",
+        "https://justdetention.org/wp-content/uploads/2021/11/November-2021-AU.pdf",
+        "https://www.legacy.com/us/obituaries/mendocinobeacon/name/tom-cahill-obituary?id=13354492"
+      ],
+      "notes": "Primary JDI obituary establishes correct1937\u20132021antiwar activist, SanAntoniojail survivor,formerJDIpresident. November2021newsletter explicitly captions Tom outside camper; source is credible but direct PDF403 and web screenshotcachemiss. No pixels verified so not ingested. BelfastRepublicanTomCahill,WestPointfootballcoach and Australianpolitician rejected as unrelated namesakes.",
+      "credit": "JDI candidate; photographer still unknown.",
+      "rights": "Exact photograph license unestablished; public reading not public domain.",
+      "unresolved_leads": [
+        "Accessible original ofJDI2021camper photograph",
+        "JDI survivor video or obituary image"
+      ]
+    },
+    {
+      "slug": "mark-wilson-oregon",
+      "name": "Mark Wilson",
+      "status": "primary_staff_portrait_lead_pending",
+      "queries": [
+        "site ojrc.info Mark Wilson staff"
+      ],
+      "source_urls": [
+        "https://ojrc.squarespace.com/staff",
+        "https://ojrc.squarespace.com/cle",
+        "https://prisonthehiddensentence.com/podcasts/from-prison-to-purpose-mark-wilsons-fight-for-justice-part-2/"
+      ],
+      "notes": "Search confirms OJRCstaff roster MarkWilsonPolicyAssociateandLegalAssistant and namedCLEspeaker. Webstaffpageinternalerror; no portrait verified. Podcast independent biography bridges2018OJRCcollaboration and37yearimprisonment. Known smallgrandmothercrop not repeated.",
+      "unresolved_leads": [
+        "Staff portrait original",
+        "Namedpodcastportrait"
+      ],
+      "rights": "No image accepted."
+    },
+    {
+      "slug": "stephen-donaldson",
+      "name": "Stephen Donaldson",
+      "status": "exact_license_still_unresolved",
+      "queries": [
+        "Stephen Donaldson Oakland1984 TomCahill permission"
+      ],
+      "source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Stephen_Donaldson_Oakland_1984.jpg"
+      ],
+      "notes": "Search returned metadata mirror but no primary license or accessible original. TomCahillcredit belongs correct activist photographer, distinct namesakes. KnownblockedCommonsdownload not retried. Do not conflate1995publicdomainportrait with1984image.",
+      "unresolved_leads": [
+        "Accessible1984portraitwithfilelicense"
+      ],
+      "rights": "1984exactlicenseunresolved."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No newly verified usable pixels. Standard missing-photo treatment retained."
+  }
+}
