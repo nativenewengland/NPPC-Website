@@ -1,0 +1,55 @@
+{
+  "batch": 402,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch402.json",
+  "inventory_counts": {
+    "valid_image_header": 3909,
+    "blank": 6641,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched plus alternative temple-history query for Shoyu. No verified usable images.",
+  "profiles": [
+    {
+      "slug": "kamechiyo-kitajima",
+      "name": "Kamechiyo Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Kamechiyo Kitajima photo obituary",
+        "Kamechiyo Kitajima portrait",
+        "Kamechiyo Kitajima family photograph",
+        "Kamechiyo Kitajima centennial Jodo photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-kamechiyo",
+        "https://the.honoluluadvertiser.com/article/2009/Jul/27/ln/hawaii907270319.html",
+        "https://ddr.densho.org/media/ddr-densho-1000/ddr-densho-1000-287-transcript-a3656dda57.htm",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf",
+        "https://www.ancientfaces.com/surname/kitajima-family-history/783781"
+      ],
+      "notes": "SonMasamizu primaryoralhistory explicitly namesmotherKamechiyo andTashiro family; NPSrosterKamechiyoTashiro, obituary99diedJuly15,2009Saga-born retiredKapaaJodo minister childrenmatch. IndividualJCCHwebinternalerror. Obituarytext noidentifiedportrait. AncientFaces explicitly nofamilyphotos; matchingdates are notportraitlead. OkinawaKochi/Sueyoshi andrestaurantresults unrelated.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Identified Tashiro/Kitajima household or Kapaa Jodo memorialportrait."
+      ]
+    },
+    {
+      "slug": "shoyu-kitajima",
+      "name": "Shoyu Kitajima",
+      "status": "followup_no_new_portrait",
+      "queries": [
+        "Shoyu Kitajima history photo temple"
+      ],
+      "source_urls": [
+        "https://storage.e.jimdo.com/file/f8a91713-e9b6-4a10-99c2-74b79b51d755/AugBulletin2021.pdf",
+        "https://incarceration.jcchawaii.org/internees/kitajima-shoyu-masao"
+      ],
+      "notes": "Alternative temple-history search yielded descendant scholarshipbulletin alreadyidentified andprimarygallery. Noalternate originalportrait. Previouslyfailedarchiveendpoint notdownloadedagain.",
+      "rights": "No new accepted image.",
+      "unresolved_leads": [
+        "OriginalcaptionedJCCHgroup archive viaalternative access."
+      ]
+    }
+  ]
+}
