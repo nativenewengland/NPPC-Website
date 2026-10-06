@@ -1,0 +1,92 @@
+{
+  "batch": 414,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch414.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6655,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles searched plus two current-custody followups. Newspaper original exceeds web fetch limit; larger-file visual inspection carried forward.",
+  "profiles": [
+    {
+      "slug": "kinori-nishino",
+      "name": "Kinori Nishino",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Kinori Nishino photo",
+        "Kinori Nishino Hawaii internee"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nishino-kinori",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "Lahaina laundry owner born1905 perJCCH; separate roster birth1907 discrepancy retained. SantaFe group row5eleventh, JCCH/TamioNakamuraCollection. Previously inaccessible shared group original not fetched again; native original/quality pending.",
+      "unresolved_leads": [
+        "Alternative source of captioned SantaFe group original."
+      ]
+    },
+    {
+      "slug": "yaichi-yamamoto",
+      "name": "Yaichi Yamamoto",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Yaichi Yamamoto Hawaii photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yamamoto-yaichi"
+      ],
+      "notes": "1890LanaiCity pineapplelaboratory worker. SameSantaFe group row7twentieth, JCCH/TamioNakamuraCollection. WaichiYamamoto genealogical name variant not independently bridged; no portrait accepted.",
+      "unresolved_leads": [
+        "Native SantaFe group or family portrait."
+      ]
+    },
+    {
+      "slug": "freddie-morrow",
+      "name": "Freddie Morrow",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Freddie Morrow prisoner photo",
+        "Freddie Morrow Westerman photograph"
+      ],
+      "source_urls": [
+        "https://www.digifind-it.com/jlslibrary/data/newspapers/Cadiz%20Record/1996/1996-01-17.pdf",
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006-0470-F/2006-0470-F-PDF/Box_009/42-t-7431951-20060470-F-009-002-2015.pdf"
+      ],
+      "notes": "Newspaper1996 archive identifies defendants but visible index only author photos; direct web PDF failed400size40942743bytes. Need local download/render to check allpages. NARA pressclipping1999age22prisonvisit lead pending. TulsaFreddieEugeneMorrow1949\u20132018blues supporter and Rockwall2004obituary rejected.",
+      "rejected_namesakes": [
+        "Freddie Eugene Morrow Tulsa blues supporter",
+        "Freddie Morrow Rockwall obituary"
+      ],
+      "unresolved_leads": [
+        "Local visual inspection of Cadiz1996 and NARA pressclipping originals."
+      ]
+    },
+    {
+      "slug": "charles-damien-darden",
+      "name": "Charles Damien Darden",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Charles Damien Darden portrait",
+        "Damien Darden photo prison"
+      ],
+      "source_urls": [
+        "https://tncourts.gov/sites/default/files/dardencharlesdamienopn.pdf",
+        "https://www.digifind-it.com/jlslibrary/data/newspapers/Cadiz%20Record/1996/1996-01-17.pdf"
+      ],
+      "notes": "Court identity matches1995case. ModernNCStatetightend photographs cannot be this prisoner; rejected. Shared1996newspaper original pending localrender after websize failure.",
+      "rejected_namesakes": [
+        "NC State football player Damien Darden"
+      ],
+      "unresolved_leads": [
+        "Captioned trial photograph in1996newspaper archive."
+      ]
+    }
+  ],
+  "rights": "No accepted images. Newspaper/archive publication is not proof of public domain.",
+  "deployment": {
+    "performed": false
+  }
+}
