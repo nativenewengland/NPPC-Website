@@ -1,0 +1,96 @@
+{
+  "batch": 428,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch428.json",
+  "inventory_counts": {
+    "valid_image_header": 3915,
+    "blank": 6673,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched plus two current-custody followups.",
+  "profiles": [
+    {
+      "slug": "james-doc-holiday",
+      "name": "James \u201cDoc\u201d Holiday",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://jailhouselawyerspeak.wordpress.com/",
+        "https://jailhouselawyerspeak.wordpress.com/wp-content/uploads/2022/08/ab8e0c65-2694-46d7-b843-7eaf831ace83.jpg"
+      ],
+      "credit": "Jailhouse Lawyers Speak prisoner-support appeal; photographer not identified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "Image caption explicitly names Elder James Doc Holiday. Adjacent appeal names federal number86555-012, ADX history and McCreary, matching repository profile. Obituary namesakes rejected.",
+      "crop": {
+        "original_size": [
+          738,
+          1600
+        ],
+        "box": [
+          210,
+          0,
+          585,
+          500
+        ],
+        "output": [
+          360,
+          480
+        ],
+        "limitations": "Sunglasses and slight original top-of-head cutoff retained; no reconstruction."
+      },
+      "rejected_namesakes": [
+        "Harrodsburg93-year-old died2012",
+        "Columbus55-year-old obituary"
+      ]
+    },
+    {
+      "slug": "mitsutaka-horiuchi",
+      "name": "Mitsutaka Horiuchi",
+      "queries": [
+        "Mitsutaka Horiuchi photo",
+        "Mitsutaka Horiuchi Hawaii"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/horiuchi-mitsutaka",
+        "https://beta.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf",
+        "https://www.legacy.com/us/obituaries/deseretnews/name/russell-horiuchi-obituary?id=20774613"
+      ],
+      "notes": "1886-1966 Lahaina; shared Santa Fe group row four ninth JCCH/Tamio Nakamura Collection. JCCH page browser Internal Error; shared asset prior access failures retained. Russell1923-2011 obituary is son, explicitly names parents Mitsutaka and Kikuyo, not father portrait.",
+      "unresolved_leads": [
+        "Family archive identified through son Russell, or accessible Santa Fe original."
+      ]
+    },
+    {
+      "slug": "stefano-deong-green",
+      "name": "Stefano Deong Green",
+      "queries": [
+        "Stefano Deong Green photo arrest",
+        "Stefano Deong Green Tesla"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://apps.cacd.uscourts.gov/JpsApi/file/cfad75b1-e443-4c3e-a043-08de9c92672c",
+        "https://www.foxla.com/news/immigration-enforcement-protests-la-ventura-arrests"
+      ],
+      "notes": "Primary April2026 calendar names custody20751-512 exact case25-731. News lists Green34Westmont in June2025 protest case; no individually verified face obtained. Do not assign generic protest imagery.",
+      "unresolved_leads": [
+        "Individual captioned case25-731 portrait or identifiable original complaint exhibit."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/james-doc-holiday",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/james-doc-holiday-batch428.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "7d5fa1a8d1002bd86030b811d6bbfca353d0672fbb8b3143c59eff32e7e031c5",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
