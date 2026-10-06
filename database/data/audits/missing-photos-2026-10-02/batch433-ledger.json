@@ -1,0 +1,82 @@
+{
+  "batch": 433,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch433.json",
+  "inventory_counts": {
+    "valid_image_header": 3917,
+    "blank": 6675,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched, plus two current-custody followups. Source access failures and identity/crop limits prevent additions.",
+  "profiles": [
+    {
+      "slug": "tsuneichi-yamamoto",
+      "name": "Tsuneichi Yamamoto",
+      "queries": [
+        "Tsuneichi Yamamoto photo",
+        "Tsuneichi Kasahara photograph",
+        "Tsuneichi Yamamoto brewery portrait"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yamamoto-tsuneichi",
+        "https://repository.ninjal.ac.jp/record/2000286/files/zaigai_collection_iminshiryo_hour_eng.pdf",
+        "https://search.worldcat.org/title/16337927",
+        "https://kintoun51.blog.fc2.com/blog-entry-1339.html"
+      ],
+      "notes": "1901 Honolulu brewery general manager, aliasTsuneichiKasahara. Primary identifies seven SantaFe groups: frontrow second SunaoFujiiCollection; kabuki frontrowthird MatsumotoTsushimaCollection; oshibai frontrowseventh JoanOyaCollection. Sharedarchive access failures recorded earlier not retried. Search also found HawaiiHochi formerpresident and1987 chamber history editor, potentially same man but no portrait/independent bridge. Japanese sculptor bornc1910 died1994 is namesake, reject.",
+      "rejected_namesakes": [
+        "Tsuneichi Yamamoto Japanese sculptor c1910-1994"
+      ],
+      "credit": "JCCH/Sunao Fujii, Joan Oya, Matsumoto-Tsushima and Riuichi Ipponsugi collections per captions.",
+      "rights": "Unknown; no public-domain claim.",
+      "unresolved_leads": [
+        "Accessible original smaller kabuki group for face crop;1987 Honolulu chamber history editor portrait after identity bridge."
+      ]
+    },
+    {
+      "slug": "wrackkie-quiogue",
+      "name": "Wrackkie Quiogue",
+      "queries": [
+        "Wrackkie Quiogue photo arrest"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://www.courthousenews.com/wp-content/uploads/2025/06/usa-v-quiogue-complaint.pdf",
+        "https://lbpost.com/news/crime/paramount-standoff-molotov-cocktail-arrest/"
+      ],
+      "notes": "New9page primary complaint lead available in browser metadata/search but original download HTTP403 and screenshotpages5/6 cachemiss; cannot inspect image exhibits. LongBeachPost individual tattoos/arrest-photo description expressly refers to co-defendantGalvez; genericprotest photos DorianBonner/ThomasCordova not Quiogue. No uncaptioned protester assigned.",
+      "rejected_images": [
+        "Galvez arrest/tattoo photo is co-defendant",
+        "Generic protest crowds not identity-specific"
+      ],
+      "unresolved_leads": [
+        "Accessible original Quiogue complaint exhibits or individually captioned booking portrait."
+      ]
+    },
+    {
+      "slug": "john-j-ford",
+      "name": "John J. Ford",
+      "queries": [
+        "John Ford Joe Zuppardo photo"
+      ],
+      "status": "verified_identity_original_portrait_pending",
+      "source_urls": [
+        "https://anomalyarchives.org/collections/file/ford-john/",
+        "http://www.iwaynet.net/~pic/",
+        "http://www.ufoteacher.com/johnford/"
+      ],
+      "notes": "Followed source archive outgoing links to original FreeJohnFord campaign iwaynet site; browser InternalError. Search returns same already-inspected343square campaign portrait, not clean original. Do not repeat download. Archive also links1997 JerryCimisi articlePDF at ufoteacher, pending accessible mirror.",
+      "credit": "Joe Zuppardo1996 per archivecaption.",
+      "rights": "Unknown; no accepted image.",
+      "unresolved_leads": [
+        "Uncropped JoeZuppardo1996 portrait; accessible campaign/article mirror."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
