@@ -1,0 +1,61 @@
+{
+  "batch": 315,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch315.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6564,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched; additional institutional archive follow-up. Caption verification and small image quality assessment completed; larger originals unresolved.",
+  "profiles": [
+    {
+      "slug": "mark-wilson-oregon",
+      "name": "Mark Wilson",
+      "status": "verified_identity_small_photo_larger_leads_pending",
+      "queries": [
+        "Mark Wilson Oregon conscientious objector prison photo"
+      ],
+      "source_urls": [
+        "https://www.connecting4justice.org/speaker-spotlight-of-mark-wilson/",
+        "https://www.prisonlegalnews.org/news/2025/feb/15/oregon-pays-50000-settle-retaliation-suit-pln-contributor-who-wins-release/",
+        "https://www.connecting4justice.org/wp-content/uploads/2025/08/Mark-and-his-grandmother-the-day-he-was-released.png"
+      ],
+      "notes": "Live profile confirms Oregon PLN writer,2024settlement,January2025release, distinct from Kansas1969resister. Conference organizer independently identifies OJRC advocate and37.5years imprisonment; exact named photos available. Grandmother paired image388x506 downloaded and visually reviewed: Mark is left bald man in glasses; clean face region approximately110x170 too small for standard portrait. Do not upscale weak crop. Other page photos individually named with senator and retired chief justice remain to assess; primary OJRC staff portrait promising.",
+      "credit": "Connecting4Justice International; photographer unlisted.",
+      "rights": "Site all rights reserved; no open image license established.",
+      "unresolved_leads": [
+        "OJRC staff portrait",
+        "Larger original release-day photo",
+        "Other named conference page photographs"
+      ]
+    },
+    {
+      "slug": "stephen-donaldson",
+      "name": "Stephen Donaldson",
+      "status": "nypl_physical_portrait_collection",
+      "queries": [
+        "Stephen Donaldson Oakland1984.jpg license",
+        "site archives.nypl.org Stephen Donaldson photographs"
+      ],
+      "source_urls": [
+        "https://archives.nypl.org/mss/824",
+        "https://archives.nypl.org/admin/collections/5796",
+        "https://nyplorg-data-archives.s3.amazonaws.com/uploads/collection/pdf_finding_aid/824.pdf"
+      ],
+      "notes": "NYPL primary collection description confirms actual photographs, negatives and drawings of correct activist among1965\u20131998papers. No digitized individual portrait obtained. Commons search does not establish1984image license; avoid applying site text CC license to image. Previously blocked Commons page not requested again.",
+      "credit": "1984candidate Tom Cahill via Ellen Spertus.",
+      "rights": "Exact1984file license unresolved; NYPL collection access not public-domain permission.",
+      "unresolved_leads": [
+        "Accessible1984 original with exact license",
+        "NYPL digitized photograph if available"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No accepted full-quality verified portrait; larger sources pending."
+  }
+}
