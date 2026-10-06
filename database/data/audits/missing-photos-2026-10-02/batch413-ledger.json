@@ -1,0 +1,78 @@
+{
+  "batch": 413,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch413.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6653,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched; two currently imprisoned unresolved leads investigated.",
+  "profiles": [
+    {
+      "slug": "jinshichi-tokairin",
+      "name": "Jinshichi Tokairin",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Jinshichi Tokairin photo",
+        "Jinshichi Tokairin portrait Nuuanu"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tokairin-jinshichi",
+        "https://archives.starbulletin.com/1999/04/12/news/story7.html",
+        "https://www.ancientfaces.com/surname/tokairin-family-history/1168227"
+      ],
+      "notes": "1888 inn/teahouse owner; January1945SantaFeLiaisonOffice group row3third fromleft identified. This original previously inaccessible in other profile searches, no repeat download. AncientFaces explicitly has no family photos;1999newspaper confirms ownership but no identified portrait.",
+      "unresolved_leads": [
+        "Alternate native original of LiaisonOffice group, JCCHcollection rights and face quality."
+      ]
+    },
+    {
+      "slug": "tareq-mousa-al-ghazi",
+      "name": "Tareq Mousa Al Ghazi",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Tareq Mousa Al Ghazi photo"
+      ],
+      "source_urls": [
+        "https://www.aljazeera.com/news/2007/6/9/spain-puts-arms-dealer-in-jail",
+        "https://www.justice.gov/archive/usao/nys/pressreleases/July09/alghazitareqsentencingpr.pdf"
+      ],
+      "notes": "Arrest coverage checked: image caption explicitly MonzerAlKassar, reject as AlGhazi portrait. Federal source confirms identity without new portrait.",
+      "rejected_namesakes": [
+        "Monzer Al Kassar EPA image"
+      ],
+      "unresolved_leads": [
+        "Romanian arrest photo explicitly identifying AlGhazi."
+      ]
+    },
+    {
+      "slug": "francisco-joseph-arcila-ramirez",
+      "name": "Francisco Joseph Arcila Ramirez",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Francisco Joseph Arcila Ramirez foto",
+        "Francisco Joseph Arcila fotografia captura"
+      ],
+      "source_urls": [
+        "https://www.justice.gov/usao-sdfl/pr/south-florida-resident-pleads-guilty-selling-firearms-designated-foreign-terrorist",
+        "https://caracol.com.co/emisora/2021/07/28/barranquilla/1627433919_015105.html",
+        "https://www.miamiherald.com/news/local/article235997538.html"
+      ],
+      "notes": "DOJ guiltyplea identity source. 2021capture news explicitly shows associate CesarEnriqueGuihurtReyes and other associates, not automatically Arcila aliasPacho. Do not accept article illustrations merely mentioning Arcila. MiamiHerald native image inspection pending.",
+      "rejected_namesakes": [
+        "Cesar Enrique Guihurt Reyes arrest imagery",
+        "Efrain Antonio Guihurt Castro and Briyan Stefan Duran Silva"
+      ],
+      "unresolved_leads": [
+        "2019USarrest original specifically captioned Arcila."
+      ]
+    }
+  ],
+  "rights": "No accepted portraits; source publication does not establish image rights.",
+  "deployment": {
+    "performed": false
+  }
+}
