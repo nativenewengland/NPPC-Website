@@ -1,0 +1,62 @@
+{
+  "batch": 312,
+  "newly_attempted_count": 0,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch312.json",
+  "inventory_counts": {
+    "valid_image_header": 3901,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "No remaining unattempted profiles. Three targeted follow-ups, no usable photo accepted.",
+  "profiles": [
+    {
+      "slug": "kenneth-shaun-traywick",
+      "name": "Kenneth Shaun Traywick",
+      "status": "primary_interview_image_unusable",
+      "source_urls": [
+        "https://unheardvoicesotcj.wordpress.com/2020/06/18/questions-and-answers-to-swift-justice-about-his-experiences-in-the-alabama-department-of-corrections/",
+        "https://unheardvoicesotcj.wordpress.com/wp-content/uploads/2020/06/screenshot_2020-06-09-20-26-51_20200609203614955.jpg",
+        "https://unheardvoicesotcj.wordpress.com/wp-content/uploads/2020/06/received_1717901085054357.png"
+      ],
+      "notes": "Interview images directly retrieved and visually reviewed. First690x1015 is dark filtered photograph overlaid SWIFT JUSTICE, face in deep shadow and poorly recognizable; reject for quality, no reconstructed face or lighting invented. Second image is protest graphic and contains no portrait. Interview establishes alias but no separate clear photo.",
+      "rights": "Creator and reuse license unknown.",
+      "unresolved_leads": [
+        "Original clear photograph underlying interview graphic"
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "library_media619_preview_rejected",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/619",
+        "https://architecture.quincylibrary.org/files/large/4bc40d36e3ef3341411568b3ccdf00822022f330.jpg"
+      ],
+      "notes": "Visually reviewed Historic Illinois October1990page9: house addition photo and historical text only. Caption credit Bryan J Baas concerns house image, not sitter. Reject as portrait. Media618,619 previews and635 exhausted; other media pending.",
+      "rights": "Bryan J Baas credit belongs rejected building photo."
+    },
+    {
+      "slug": "byron-plumley",
+      "name": "Byron Plumley",
+      "status": "headshot_search_namesakes_excluded",
+      "queries": [
+        "Byron Plumley headshot"
+      ],
+      "source_urls": [
+        "https://www.acesterrier.org.uk/allarticles/categories/terrier-winter-2026",
+        "https://oneblueocean.org/"
+      ],
+      "notes": "Targeted headshot query produced unrelated Chris Plumley real-estate professional and Phil Plumley marine-team page. Neither identifies Byron or links Regis/Denver/Cedar Falls biography; reject. Known tiny paired church photo not repeated.",
+      "unresolved_leads": [
+        "Larger original paired new-members photograph"
+      ],
+      "rights": "No accepted image."
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified recognizable additions; standard missing-photo treatment retained."
+  }
+}
