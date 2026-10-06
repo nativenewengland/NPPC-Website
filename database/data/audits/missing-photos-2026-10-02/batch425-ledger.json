@@ -1,0 +1,93 @@
+{
+  "batch": 425,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch425.json",
+  "inventory_counts": {
+    "valid_image_header": 3914,
+    "blank": 6670,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched plus two current-custody followups.",
+  "profiles": [
+    {
+      "slug": "joka-heshima-jinsai",
+      "name": "Joka Heshima Jinsai",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.liberatecv.com/",
+        "https://www.liberatecv.com/joka-heshima-jinsai",
+        "https://images.squarespace-cdn.com/content/v1/679d39fdabe15e00a9dc0e13/67c55100-0d3c-4e8d-b42b-fd2508d26a03/att.0op6rKpMOOvOwUQlDoD_cEqP7By0DcUZJqFuYYmgM-w.png"
+      ],
+      "credit": "Liberate the Caged Voices support campaign; photographer not identified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim.",
+      "identity_verification": "Campaign homepage directly labels portrait Joka Heshima Jinsai; linked profile gives Shannon Denham, CDCR J38283, matching repository identity.",
+      "crop": {
+        "original_size": [
+          438,
+          438
+        ],
+        "box": [
+          90,
+          0,
+          417,
+          436
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "kiyoshi-james-yonemura",
+      "name": "Kiyoshi James Yonemura",
+      "queries": [
+        "Kiyoshi James Yonemura photograph"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/yonemura-kiyoshi-james"
+      ],
+      "notes": "1900 Honolulu building contractor. Five captioned groups; shared Santa Fe row five sixth from left. Smaller kabuki group back row second from left, JCCH/Matsumoto-Tsushima Family Collection, is pending native pixels. Shared original access failure previously documented.",
+      "unresolved_leads": [
+        "Accessible smaller kabuki or Kumamoto group native original."
+      ]
+    },
+    {
+      "slug": "robert-joyner",
+      "name": "Robert Joyner",
+      "queries": [
+        "Robert Joyner prison portrait"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://wurdradio.com/2023/07/11/a-p-p-aging-people-in-prison-all-people-persevere/",
+        "https://jerichony.org/images38/National_Jericho_Newsletter_March-15-April-15-2023_Vol_61.pdf"
+      ],
+      "notes": "Philadelphia AF-3793 case identified by WURD. Newsletter search image is Kwame Beans Shakur discussing grandfather Robert Joyner Sr., not this prisoner. Kentucky federal and Illinois Centralia namesakes unbridged.",
+      "rejected_namesakes": [
+        "Robert Joyner Sr. Terre Haute grandfather",
+        "Kentucky federal inmate",
+        "Illinois Centralia inmate"
+      ],
+      "unresolved_leads": [
+        "Captioned AF-3793 family or campaign portrait."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/joka-heshima-jinsai",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/joka-heshima-jinsai-batch425.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "85f8ccb90bfa41641ce3d96ef05dac418bf50d09e8a7ff2eb8c7bc6063e873e7",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
