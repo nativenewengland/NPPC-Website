@@ -1,0 +1,51 @@
+{
+  "batch": 401,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch401.json",
+  "inventory_counts": {
+    "valid_image_header": 3909,
+    "blank": 6640,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus pending Stanley publication. Primary image access403 and empty university PDF prevent acceptance.",
+  "profiles": [
+    {
+      "slug": "shoyu-kitajima",
+      "name": "Shoyu Kitajima",
+      "status": "researched_archive_inaccessible",
+      "queries": [
+        "Shoyu Kitajima portrait obituary",
+        "Shoyu Kitajima photo Jodo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-shoyu-masao",
+        "https://library.byuh.edu/0000017b-40cf-d95f-a1ff-5ccfa6e50000/k-1993",
+        "https://ddr.densho.org/media/ddr-densho-1000/ddr-densho-1000-287-transcript-a3656dda57.htm",
+        "https://storage.e.jimdo.com/file/f8a91713-e9b6-4a10-99c2-74b79b51d755/AugBulletin2021.pdf"
+      ],
+      "notes": "Primary actual URL includes shoyu-masao; indexed archive explicitly identifies ca1943 minister group middle-rowthird, anothergroup row1first, and tennisclub frontrowfifth. Credits JCCH/JoanOya and JCCH/Matsumoto-TsushimaFamily. ActualHTML403 prevents originals. Obituary84 diedDec30,1992Saga-bornKapaaJodo retiredminister,wifeKamechiyo corroborates. SonMasamizuDenshooralhistory explicitly bridgesMasao/Shoyu ordination name. August2021bulletin mentionsgreat-grandfather; student image belongs todescendant, notShoyu.",
+      "rights": "Original creators and licenses unknown; no accepted image.",
+      "unresolved_leads": [
+        "Obtain original captioned tennisclub orminister group at sufficient native resolution; preserve listed collection credit."
+      ]
+    },
+    {
+      "slug": "yoshizumi-stanley-kitajima",
+      "name": "Yoshizumi Stanley Kitajima",
+      "status": "followup_archive_inaccessible",
+      "queries": [
+        "Stanley Kitajima Kohala Tule Lake baseball"
+      ],
+      "source_urls": [
+        "https://digicoll.lib.berkeley.edu/record/172706/files/cubanc6714_b268r40_0015.pdf"
+      ],
+      "notes": "Direct new archival publication lead returned zero bytes; EmptyFileError. Indexedprintedpage51 sportsroster18-year-oldthird-basemanfromKohala supportsidentity butno actualphotograph verified. Do not repeat failedendpoint unchanged.",
+      "rights": "Unverified; no accepted image.",
+      "unresolved_leads": [
+        "Alternate Berkeley record172706 original/IIIF and visualphoto inspection."
+      ]
+    }
+  ]
+}
