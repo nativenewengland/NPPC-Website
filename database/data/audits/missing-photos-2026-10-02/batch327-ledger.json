@@ -1,0 +1,70 @@
+{
+  "batch": 327,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch327.json",
+  "inventory_counts": {
+    "valid_image_header": 3903,
+    "blank": 6569,
+    "missing_asset": 1
+  },
+  "target_note": "All one new unattempted profile searched, plus two identity-specific follow-ups. Access failures prevented obtaining promising new portrait pixels.",
+  "profiles": [
+    {
+      "slug": "clayton-james",
+      "name": "Clayton James",
+      "status": "credible_named_portrait_inaccessible",
+      "queries": [
+        "Clayton James pacifist portrait photograph",
+        "Clayton James conscientious objector obituary"
+      ],
+      "source_urls": [
+        "https://www.historylink.org/File/5349",
+        "https://www.historylink.org/Content/Media/Photos/Small/ACF438.jpg",
+        "https://gallerycygnus.com/past-shows/mystic-masters-two/"
+      ],
+      "notes": "HistoryLink biography by Deloris Tarzan Ament matches artist, RISD, wife Barbara Straker, Waldport CPS, unauthorized absence, FBI arrest and Portland jail. Explicit caption names Clayton James with ceramic sculpture April 1990. Named photograph could be credible, but web image cache miss and direct page/image HTTP403 prevent visual inspection and size verification. Do not repeat these failed downloads. Reject photographer Clayton James Cubitt born1972, triathlete Clayton Fettell, swapped-name James Clayton obituaries and 2002 Clayton James obituary as unrelated. Gallery art objects are not portrait photographs.",
+      "credit": "Mary Randlett, April1990; copyright credit \u00a92002 via HistoryLink",
+      "rights": "HistoryLink explicitly limits Creative Commons license to text, excluding images. Mary Randlett photo copyright retained; no open photo license established.",
+      "unresolved_leads": [
+        "Accessible original Mary Randlett named portrait through photographer archival collection",
+        "Artist museum obituary photograph with independent identity mapping"
+      ]
+    },
+    {
+      "slug": "bennett-andrews",
+      "name": "Bennett Andrews",
+      "status": "no_new_verified_portrait",
+      "queries": [
+        "Bennett Andrews Settlement photo"
+      ],
+      "source_urls": [
+        "https://www.webuystpetehouses.com/blog/benefits-selling-house-to-cash-buyer"
+      ],
+      "notes": "Targeted historical teaching search mainly returns contemporary Florida real-estate portrait. Modern company cofounder is distinct from1906-1994 Philadelphia pacifist; reject namesake, no portrait accepted.",
+      "rights": "No accepted image."
+    },
+    {
+      "slug": "walter-gormly",
+      "name": "Walter Gormly",
+      "status": "no_new_verified_portrait",
+      "queries": [
+        "Walter Gormly photographs Iowa archive"
+      ],
+      "source_urls": [
+        "https://history.nebraska.gov/wp-content/uploads/2022/07/doc_publications_NH2012Atlas.pdf",
+        "https://dailyiowan.lib.uiowa.edu/DI/1967/di1967-04-15.pdf"
+      ],
+      "notes": "Search index confirms 1959 Omaha Action history but image catalog describes campsite group without individual sitter mapping. Do not assume Gormly is any specific group member. New1967DailyIowan pacifist article lead not yet visually reviewed. Reject nineteenth-century NYC Walter B Gormly engineer and Australian family records as unrelated.",
+      "rights": "No accepted image; image-specific credits/license not yet established.",
+      "unresolved_leads": [
+        "1967-04-15DailyIowan original page image review"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; no live changes."
+  }
+}
