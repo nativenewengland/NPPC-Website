@@ -1,0 +1,75 @@
+{
+  "batch": 369,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch369.json",
+  "inventory_counts": {
+    "valid_image_header": 3908,
+    "blank": 6598,
+    "missing_asset": 1
+  },
+  "target_note": "All two remaining unattempted profiles searched, authoritative group mappings reviewed and strongest individual lead pursued; one archival followup. Access failures prevented acquisition.",
+  "profiles": [
+    {
+      "slug": "gengo-honda",
+      "name": "Gengo Honda",
+      "status": "individual_portrait_record_inaccessible",
+      "queries": [
+        "\"Gengo Honda\" photograph portrait",
+        "\"Gengo Honda\" Hawaii photo",
+        "\"Gengo Honda\" internment"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/honda-gengo-genzo",
+        "https://ddr.densho.org/search/results/?fulltext=Honda",
+        "https://ddr.densho.org/ddr-njpa-5-1311/"
+      ],
+      "identity_verification": "JCCH1884IsseiKapaaHeights,NippuJijiKauaiBureaumanager,aliasGenzoHonda. ArrestMarch1943,SantaFeJanuary1944\u2013October1945.",
+      "notes": "Denshosearch indexes namedindividualportrait ddr-njpa-5-1311. Actualitem webcachemiss and directHTTP403; pixels andrightsnotretrieved. JCCH mapsSantaFeKauaigroup backrowtenth andFeb1945hospitalgroup row5seventh. Unrelatedfictioncharacters,Hondavehicles andGengotranslationcompanyreject.",
+      "credit": "JCCH/SunaoFujiiArchivalCollection andJCCH/TamioNakamuraCollection groups;Denshonameditem creator/rightsunknown pendingrecordaccess.",
+      "rights": "No accepted image; no public-domain assumption.",
+      "unresolved_leads": [
+        "AccessibleDenshoitem1311original withrights andbiographicalbridge.",
+        "Mappedgrouporiginal withadequatefacequality."
+      ]
+    },
+    {
+      "slug": "isami-ueoka",
+      "name": "Isami Ueoka",
+      "status": "mapped_group_portrait_unresolved",
+      "queries": [
+        "\"Isami Ueoka\" photograph portrait",
+        "\"Isami Ueoka\" Kauai photo",
+        "\"Isamu Ueoka\" portrait photograph"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/ueoka-isamu-isami",
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf"
+      ],
+      "notes": "JCCH identifies Isami/Isamu inSantaFeKauaigroup frontrowfourth andsmallerIsseigroup bottomrowsecond. Officialmuseumroster independentlyidentifies1895/1896Hanapepe storeproprietor. DirectJCCHHTML403 preventsassetURLretrieval; nativepixelsnotobtained. IsamiTsukamoto andIsamuNoguchi nottarget.",
+      "credit": "JCCH/SunaoFujiiArchivalCollection groups;photographersunknown.",
+      "rights": "No openlicense established.",
+      "unresolved_leads": [
+        "Accessiblemappedsmallergrouporiginal andverifiedcrop."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "preservation_newspaper_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2564",
+        "https://architecture.quincylibrary.org/files/original/5fb670b6cc1287468da778d193b7b6852fa12677.pdf"
+      ],
+      "notes": "Downloaded andvisuallyinspected completeMay29,1991newspaperclipping:housepreservation andlibrarycounciltext,no face. Media2564exhausted.",
+      "unresolved_leads": [
+        "Media2565\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait pixels acquired."
+  }
+}
