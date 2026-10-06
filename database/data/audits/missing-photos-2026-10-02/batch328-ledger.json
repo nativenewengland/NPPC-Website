@@ -1,0 +1,67 @@
+{
+  "batch": 328,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch328.json",
+  "inventory_counts": {
+    "valid_image_header": 3903,
+    "blank": 6570,
+    "missing_asset": 1
+  },
+  "target_note": "Researched all one newly unattempted profile plus two credible carried-forward sources. No photo deployment.",
+  "profiles": [
+    {
+      "slug": "mark-rouch",
+      "name": "Mark Rouch",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Mark Rouch pacifist photograph",
+        "Mark Rouch conscientious objector portrait"
+      ],
+      "source_urls": [
+        "https://stcpsarchive.z9.web.core.windows.net/cpsarchive/findingaids.html",
+        "https://www.legacy.com/us/obituaries/denverpost/name/mark-rouch-obituary?id=9931615"
+      ],
+      "notes": "CPS archive specifically lists interview with Mark Rouch among walkout/arrest sources; no named real portrait obtained from search. Denver Mark Lee Rouch born1950 is unrelated, born after WWII camp episode; obituary image rejected. Modern architect profile and historical photographer W.W.Rouch are not established as this subject.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "CPS008737 oral-history source and historical camp photographs with named sitter"
+      ]
+    },
+    {
+      "slug": "clayton-james",
+      "name": "Clayton James",
+      "status": "primary_photo_archive_identified",
+      "queries": [
+        "Clayton James Mary Randlett portrait archive"
+      ],
+      "source_urls": [
+        "https://archiveswest.orbiscascade.org/ark:80444/xv00720"
+      ],
+      "notes": "UW Mary Randlett PH0723 finding aid has named artist series; April10,1990 portraits with sculptures at home correspond to HistoryLink credit, Box18 Item575. Other portraits Box17 Item563 September1968. Finding aid links digitized selections but full image pixels not yet obtained. No photograph accepted without inspection.",
+      "credit": "Mary Randlett / University of Washington Libraries Special Collections PH0723",
+      "rights": "Finding aid explicitly states creators copyrights transferred to University of Washington Libraries; unrestricted paper access does not mean public domain.",
+      "unresolved_leads": [
+        "UW digitized selections search for Clayton James, PH0723 Item575"
+      ]
+    },
+    {
+      "slug": "walter-gormly",
+      "name": "Walter Gormly",
+      "status": "source_download_failed",
+      "source_urls": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1967/di1967-04-15.pdf"
+      ],
+      "notes": "Fresh original PDF retrieval failed TLS certificate verification (issuer unavailable). No pixels retrieved, no source integrity bypass performed. Search index alone insufficient to map any portrait. Record failure so same download is not repeatedly attempted unchanged.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Alternative verified library access to1967DailyIowan issue"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified photo; live profiles unchanged."
+  }
+}
