@@ -1,0 +1,82 @@
+{
+  "batch": 361,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch361.json",
+  "inventory_counts": {
+    "valid_image_header": 3907,
+    "blank": 6587,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched; three distinct followups pursued. Access failures recorded; no acceptable portrait found.",
+  "profiles": [
+    {
+      "slug": "masaichi-sesoko",
+      "name": "Masaichi Sesoko",
+      "status": "no_verified_portrait_found",
+      "queries": [
+        "\"Masaichi Sesoko\" photograph portrait",
+        "\"Masaichi Sesoko\" Hawaii internment photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/sesoko-masaichi",
+        "https://home.nps.gov/hono/learn/historyculture/masaichi-sesoko.htm",
+        "https://archives.starbulletin.com/2005/07/07/news/obits.html",
+        "https://library.byuh.edu/0000017b-41d0-d55c-a7fb-cdf25b6d0001/s-2005-pdf",
+        "https://www.ancientfaces.com/surname/sesoko-family-history/1660174"
+      ],
+      "identity_verification": "JCCH identifies 1918-born Honolulu Waialae language-school teacher, arrested March 1943, Honouliuli April 1943\u2013November 1944, then Tule Lake. NPS confirms Ewa birth and teacher/printer occupations.",
+      "notes": "JCCH individual record has no portrait gallery. NPS presents text and logo rather than subject image. Obituaries and genealogy identify Ewa-born 86-year-old deceased June 2005, but no portrait located; AncientFaces explicitly reports no family photos. Seiji and Toru are not subject.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Independently verified school, newspaper employment or family portrait."
+      ]
+    },
+    {
+      "slug": "katsuichi-miho",
+      "name": "Katsuichi Miho",
+      "status": "newspaper_followup_inaccessible",
+      "source_urls": [
+        "https://www.mauinews.com/opinion/columns/2014/12/sharing-mana-o/"
+      ],
+      "notes": "Previously unexamined newspaper lead opened; 403 Forbidden. No actual image obtained.",
+      "unresolved_leads": [
+        "Accessible reproduction of newspaper or mapped JCCH group portraits."
+      ]
+    },
+    {
+      "slug": "kikuno-miyagi",
+      "name": "Kikuno Miyagi",
+      "status": "yearbook_lead_inaccessible",
+      "queries": [
+        "\"Kikuno Miyagi\" Rohwer yearbook"
+      ],
+      "source_urls": [
+        "https://cdn.calisphere.org/data/13030/1q/k69g5v1q/files/k69g5v1q-FID1.pdf"
+      ],
+      "notes": "Winter 1944 archival PDF indexed name in student list. Attempted actual PDF through web tool, inaccessible; no portrait or identity bridge established. Modern property, horses and unrelated prefecture results rejected.",
+      "unresolved_leads": [
+        "Accessible Winter 1944 publication with independent identity verification before accepting any photograph."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_page_fifteen_text_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2555",
+        "https://architecture.quincylibrary.org/files/original/1329a91b0f9affc0354fd177ca9de9e067e8635d.pdf"
+      ],
+      "notes": "Downloaded complete PDF and visually inspected page 15: house evolution and ownership text, no person. Media 2555 exhausted.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined media 2556\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No verified usable portrait; live data unchanged."
+  }
+}
