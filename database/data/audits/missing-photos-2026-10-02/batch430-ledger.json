@@ -1,0 +1,89 @@
+{
+  "batch": 430,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch430.json",
+  "inventory_counts": {
+    "valid_image_header": 3916,
+    "blank": 6674,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile researched plus two current-custody followups. Verified current-custody portrait accepted.",
+  "profiles": [
+    {
+      "slug": "paul-hyon-kim",
+      "name": "Paul Hyon Kim",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.foxbusiness.com/technology/tech-ceo-details-companys-role-catching-alleged-vegas-tesla-attacker",
+        "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/04/paul-hyon-kim-vegas-tesla.jpg"
+      ],
+      "credit": "FOX Business; published composite credited Hal Sparks via Storyful / Las Vegas Metropolitan Police. Portrait inset cropped; original photographer not specified.",
+      "rights": "Copyright/permission status unknown; no public-domain claim. Publisher reserves rights.",
+      "identity_verification": "Publisher explicitly identifies inset as Paul Hyon Kim, age36, Las Vegas Tesla case; matches profile identity and case.",
+      "crop": {
+        "original_size": [
+          1280,
+          720
+        ],
+        "box": [
+          831,
+          100,
+          1218,
+          616
+        ],
+        "output": [
+          360,
+          480
+        ]
+      }
+    },
+    {
+      "slug": "genpachi-edgar-tsushima",
+      "name": "Genpachi Edgar Tsushima",
+      "queries": [
+        "Genpachi Edgar Tsushima photograph"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/tsushima-genpachi-edgar-jukichi",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/4454.Genpachi_Tsushima_Alien_Registration.jpg"
+      ],
+      "notes": "1897 Honolulu Hawaii Hochi reporter and teacher, alias Jukichi, wifeShizue daughterToramatsuMatsumoto. Primary identifies1943 registration card and pairedphoto GenpachiRIGHT. Registration original access: HTTP Error 403: Forbidden",
+      "unresolved_leads": [
+        "Accessible registration-card original or paired portrait."
+      ]
+    },
+    {
+      "slug": "yachua-mauricio-flores",
+      "name": "Yachua Mauricio Flores",
+      "queries": [
+        "Yachua Mauricio Flores portrait sentenced"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://laopinion.com/2026/08/03/hispano-sentenciado-por-atacar-patrulla-durante-manifestacion-contra-ice-en-los-angeles/",
+        "https://www.gofundme.com/f/5gnw7-my-beautiful-mothers-funeral",
+        "https://apps.cacd.uscourts.gov/JpsApi/file/fb8f35b2-246a-4742-3f2c-08de17c35687"
+      ],
+      "notes": "Exact sentencing coverage age23 and37months uses generic AP protest imagery. Fundraiser organizer YachuaFlores lacks independent bridge to defendant; reject family imagery. Primary courtcalendar confirms case but noportrait.",
+      "unresolved_leads": [
+        "Captioned individual booking or family photo independently bridged to defendant."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/paul-hyon-kim",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/paul-hyon-kim-batch430.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "a76f375c7dedf51a53740f5f81f04a52094389fc9d79813d3561c052dd140c86",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
