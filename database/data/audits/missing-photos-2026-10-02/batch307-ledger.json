@@ -1,0 +1,76 @@
+{
+  "batch": 307,
+  "newly_attempted_count": 1,
+  "researched_count": 3,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch307.json",
+  "inventory_counts": {
+    "valid_image_header": 3899,
+    "blank": 6562,
+    "missing_asset": 1
+  },
+  "target_note": "All remaining unattempted profiles (one) researched, plus two historical follow-ups.",
+  "profiles": [
+    {
+      "slug": "kwaneta-harris",
+      "name": "Kwaneta Harris",
+      "status": "verified_photo",
+      "queries": [
+        "Kwaneta Harris portrait prison writer"
+      ],
+      "source_urls": [
+        "https://writing-freedom.org/fellows/2024/kwaneta-harris/",
+        "https://pen.org/profile/kwaneta-harris/",
+        "https://www.kwanetaharris.com/"
+      ],
+      "credit": "Ariana Gomez / Writing Freedom Fellowship (Haymarket Books)",
+      "rights": "Named photographer Ariana Gomez. Haymarket Books copyright footer; no open image license established. Public availability is not public-domain evidence.",
+      "notes": "Actual photograph individually captioned; Elizabeth Lozano drawn portrait rejected as nonphotographic. Crop preserves face and correct proportions."
+    },
+    {
+      "slug": "lawrence-sangston",
+      "name": "Lawrence Sangston",
+      "status": "physical_archive_lead",
+      "queries": [
+        "Lawrence Sangston photograph archive"
+      ],
+      "source_urls": [
+        "https://mdhistory.libraryhost.com/repositories/2/resources/1245"
+      ],
+      "notes": "MS3255 identifies one 2.5x4 inch photograph of correct 1814\u20131876 sitter. No digitized image obtained. Known 1863 memoir already reviewed; not repeated.",
+      "rights": "Access open for research, use subject to copyright restrictions.",
+      "unresolved_leads": [
+        "Digitization of physical MS3255 portrait"
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "archive_followup_pending",
+      "queries": [
+        "Richard Eells portrait Quincy archive"
+      ],
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/item/617",
+        "https://archiveswest.orbiscascade.org/ark%3A80444/xv48663"
+      ],
+      "notes": "Quincy Library house dossier may link contemporary clippings; no verified photographic portrait established. ArchivesWest business executive Richard SF Eells is a later namesake, rejected. House images and unverified sketch excluded.",
+      "unresolved_leads": [
+        "Review Quincy Library linked historic dossier for a named photograph"
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/kwaneta-harris",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/kwaneta-harris-batch307.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "b7e85d04031f100562c730fbe8955a4c040e76ea794ff67516296bc02180b541",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
