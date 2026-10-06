@@ -1,0 +1,78 @@
+{
+  "batch": 404,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 1,
+  "inventory": "tmp/photo-health-batch404.json",
+  "inventory_counts": {
+    "valid_image_header": 3909,
+    "blank": 6643,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus usable alternate source for earlier Masamizu lead.",
+  "profiles": [
+    {
+      "slug": "masamizu-kitajima",
+      "name": "Masamizu Kitajima",
+      "status": "verified_portrait",
+      "source_urls": [
+        "https://www.hawaiipublicradio.org/local-news/2022-12-20/hear-from-two-community-members-who-joined-their-families-in-incarceration-centers",
+        "https://npr-brightspot.s3.amazonaws.com/96/b6/20d2389c4bbb964f7088db9f4587/kmasamizu.jpg",
+        "https://ddr.densho.org/narrators/490/"
+      ],
+      "credit": "Densho Digital Repository; June12,2010 Honolulu interview portrait, reproduced by Hawaii Public Radio.",
+      "rights": "Densho image rights not independently specified; no public-domain claim. Page text license not assumed image license.",
+      "crop": {
+        "original_size": [
+          365,
+          415
+        ],
+        "box": [
+          27,
+          0,
+          338,
+          415
+        ],
+        "output": [
+          360,
+          480
+        ]
+      },
+      "identity_verification": "Densho narrator4901933Ookala-born; transcript namesShoyu/Kamechiyo parents andJerome/TuleLake; HPRexplicitlycaptioned sameinterviewsubject."
+    },
+    {
+      "slug": "fumiko-kitajima",
+      "name": "Fumiko Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Fumiko Kitajima McMahon photo",
+        "Violet McMahon Kitajima obituary",
+        "Fumiko Kitajima Shoyu portrait",
+        "Violet Fumiko McMahon photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-fumiko",
+        "https://library.byuh.edu/0000017b-40cf-d95f-a1ff-5ccfa6e50000/k-1993",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf"
+      ],
+      "notes": "FatherShoyuobituaryexplicitlybridgesVioletFumikoMcMahonLosAngeles;NPSroster1935. Primaryindividualinternalerror. Noidentifiedportraitfound. WisconsinVioletMcMahonnotbridgedto1935Hawaiibirth/Shoyuparents; rejectassumption. Modernnamesakephotography/architectureresultsnotportrait.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "CaptionedShoyu/Kamechiyo familyphoto or bridgedVioletFumikoMcMahon portrait."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": true,
+    "public_profile": "https://www.politicalprisonercoalition.org/prisoner/masamizu-kitajima",
+    "public_image": "https://www.politicalprisonercoalition.org/storage/prisoners/masamizu-kitajima-batch404.jpg",
+    "profile_http": 200,
+    "image_http": 200,
+    "sha256": "fc41f84dfa67d303132f3681ee630beb3778c7a34218b0a13d26b23f9fe6f827",
+    "caches_cleared": [
+      "api.prisoners.index.v3",
+      "museum:payload:v2"
+    ],
+    "verification": "Whole-row preservation guard passed; public page contains new URL; public image hash equals reviewed 360x480 portrait."
+  }
+}
