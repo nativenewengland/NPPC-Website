@@ -1,0 +1,76 @@
+{
+  "batch": 415,
+  "newly_attempted_count": 2,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch415.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6657,
+    "missing_asset": 1
+  },
+  "target_note": "All two unattempted profiles researched. Followed pending archive through download and visual inspection for both currently imprisoned defendants.",
+  "profiles": [
+    {
+      "slug": "takichi-kinoshita",
+      "name": "Takichi Kinoshita",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Takichi Kinoshita photograph Hawaii"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kinoshita-takichi"
+      ],
+      "notes": "1891Hilo busdriver identified in sharedSantaFe group row7fourteenth. Native shared original previously inaccessible, alternate pending; no individual portrait found.",
+      "unresolved_leads": [
+        "Alternate SantaFe group original."
+      ]
+    },
+    {
+      "slug": "tatsuji-morimoto",
+      "name": "Tatsuji Morimoto",
+      "status": "researched_unresolved_portrait",
+      "queries": [
+        "Tatsuji Morimoto internee photo"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/morimoto-tatsuji",
+        "https://incarceration.jcchawaii.org/media/_photoGallery/3896.SantaFeICInternees.jpg"
+      ],
+      "notes": "1886Wailuku Singersewingmachine salesman. RonChungCollection Mauiinterneesgroup backrowrightmost explicitly captioned; asset webretrieval cachemiss. AnotherTamioNakamuragroup row5sixteenth. ModernSapporo2013corporateperson rejected.",
+      "unresolved_leads": [
+        "RonChungCollection native group original, copyright and crop quality."
+      ]
+    },
+    {
+      "slug": "freddie-morrow",
+      "name": "Freddie Morrow",
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006-0470-F/2006-0470-F-PDF/Box_009/42-t-7431951-20060470-F-009-002-2015.pdf"
+      ],
+      "notes": "Downloaded96pagearchive tmp/morrow415.pdf. TextlocatedMorrow onzeroindexed52\u201357; visuallyinspected allsix renderedpages. TheseareLexisNexistextprintouts, no photographs embedded. Finalpage graphiccredit describes a COLOR portrait of FreddieMorrow serving life sentence, photographed by AlexGarcia forChicagoTribuneMarch19,2000. This is a new concrete originalphoto lead, not an accepted image.",
+      "credit": "Potential original: Alex Garcia / Chicago Tribune, March19,2000.",
+      "rights": "Chicago Tribunecopyright2000; not publicdomain merely because NARAhosts text.",
+      "unresolved_leads": [
+        "Original ChicagoTribuneMarch19,2000 article photograph byAlexGarcia; archiveprintout has no pixels.",
+        "Cadiz1996issue pendinglocalinspection."
+      ]
+    },
+    {
+      "slug": "charles-damien-darden",
+      "name": "Charles Damien Darden",
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006-0470-F/2006-0470-F-PDF/Box_009/42-t-7431951-20060470-F-009-002-2015.pdf"
+      ],
+      "notes": "Samepages52\u201357 identifyDarden in narrative but no pixels or Dardenphoto credit. Archivelead exhausted forDardenportrait; do not re-download.",
+      "unresolved_leads": [
+        "Cadiz1996issue captioned trialphotograph."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false
+  }
+}
