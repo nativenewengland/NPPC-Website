@@ -1,0 +1,85 @@
+{
+  "batch": 354,
+  "newly_attempted_count": 1,
+  "researched_count": 4,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch354.json",
+  "inventory_counts": {
+    "valid_image_header": 3906,
+    "blank": 6581,
+    "missing_asset": 1
+  },
+  "target_note": "All one remaining unattempted profile searched plus three follow-ups. Unfinished mapped group lead carried forward.",
+  "profiles": [
+    {
+      "slug": "chikashi-nakayama",
+      "name": "Chikashi Nakayama",
+      "status": "mapped_archival_group_lead_pending",
+      "queries": [
+        "Chikashi Nakayama photograph",
+        "Chikashi Nakayama portrait teacher"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakayama-chikashi"
+      ],
+      "credit": "JCCH/Tamio Nakamura Collection; photographer unknown.",
+      "rights": "No open license established.",
+      "notes": "Archive confirms1886IsseiHonoluluChuoGakuin teacher,July1942arrest,Lordsburg/SantaFe. NamedSantaFe1943\u201345group maps Row5,12th from left/7th from right to target. Actual pixels and face resolution not yet acquired; no group crop accepted. Modern CTmedical author has no independent identity bridge; not accepted.",
+      "unresolved_leads": [
+        "Retrieve mapped SantaFe group photo and assess native face resolution."
+      ]
+    },
+    {
+      "slug": "yoshitami-jack-tasaka",
+      "name": "Yoshitami Jack Tasaka",
+      "status": "named_newsletter_photo_too_small",
+      "queries": [
+        "Jack Yoshitami Tasaka obituary photo2013"
+      ],
+      "source_urls": [
+        "https://www.kaimukihawaii.com/newsimages/Legacies_SPRING2013_Final.pdf",
+        "https://library.byuh.edu/0000017b-3c2f-d95f-a1ff-7caf28d30000/t-2013"
+      ],
+      "credit": "Japanese Cultural Center of Hawaii,LegaciesSpring2013; photographer unlisted.",
+      "rights": "No open image license established.",
+      "notes": "Downloaded newsletter and visually inspected every Tasaka-mention page(indices2,3,11). Page4explicitly captions seated internee offering candle to PaulShinkawa. Very small profile-view face in a small group inset, inadequate portrait detail; rejected. Page3photosCaroleHayashino/TylerTokiokaNOTTasaka; donorlisttextnotphoto. BYUHobituarytext independently confirms1914\u20132013Honoluluhistorian, no face.",
+      "unresolved_leads": [
+        "Larger original namedApril1948portrait previously403, or larger candle photograph."
+      ]
+    },
+    {
+      "slug": "sam-masao-nishimura",
+      "name": "Sam Masao Nishimura",
+      "status": "namesake_portrait_rejected",
+      "queries": [
+        "Sam Nishimura portrait Haleiwa"
+      ],
+      "source_urls": [
+        "https://www.sasklegion.ca/wp-content/uploads/2012/07/SKCL08.pdf"
+      ],
+      "rights": "No accepted image.",
+      "notes": "Canadian veteran SannosukeSamNishimura uniformportrait is not1905Haleiwa tailor SamuelMasaoNishimura. FictionalTombRaiderSamalso rejected. Existingcorrectfamilycollectionlead not retried.",
+      "unresolved_leads": [
+        "Correct JCCHfamilycollectionportrait alternative accessible reproduction."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "report_property_chronology_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/2548",
+        "https://architecture.quincylibrary.org/files/original/159a5547ee784485ea8267d269ff64a14a2c7263.pdf"
+      ],
+      "rights": "No accepted image.",
+      "notes": "Complete reportpage8visuallyinspected;Lot6propertychronologytextonly, no portrait. Media2548exhausted.",
+      "unresolved_leads": [
+        "Unexamined Quincy media2549\u20132558,2560\u20132567,3256\u20133258."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable portrait acquired; live profiles unchanged."
+  }
+}
