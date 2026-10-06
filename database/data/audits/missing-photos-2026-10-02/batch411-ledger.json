@@ -1,0 +1,70 @@
+{
+  "batch": 411,
+  "newly_attempted_count": 2,
+  "researched_count": 3,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch411.json",
+  "inventory_counts": {
+    "valid_image_header": 3912,
+    "blank": 6651,
+    "missing_asset": 1
+  },
+  "target_note": "Both remaining unattempted profiles searched; followed current-custody Erminso government portrait lead through native extraction.",
+  "profiles": [
+    {
+      "slug": "florence-yoshiko-nakamura",
+      "name": "Florence Yoshiko Nakamura",
+      "queries": [
+        "Florence Yoshiko Nakamura photograph",
+        "Florence Yoshiko Nakamura Honolulu"
+      ],
+      "status": "researched_no_verified_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-florence-yoshiko",
+        "https://obits.staradvertiser.com/2020/01/19/roy-tomoyoshi-nakamura-2/"
+      ],
+      "notes": "1930 Honolulu daughter of Tomoaki/Mitsue; primary record has no portrait. Brother Roy obituary lists sister Florence, no Florence photo. Florence Tani2018 and Santa Barbara Florence2021 not family-bridged; do not ingest.",
+      "unresolved_leads": [
+        "Captioned family archive or independently bridged obituary."
+      ]
+    },
+    {
+      "slug": "richard-tsunehide-nakamura",
+      "name": "Richard Tsunehide Nakamura",
+      "queries": [
+        "Richard Tsunehide Nakamura photo",
+        "Richard Tsunehide Nakamura obituary"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/nakamura-richard-tsunehide",
+        "https://digicoll.lib.berkeley.edu/record/174731/files/cubanc_35_1_01251471ta.pdf",
+        "https://obits.staradvertiser.com/2020/01/19/roy-tomoyoshi-nakamura-2/"
+      ],
+      "notes": "JCCH individual retrieval cache miss. Father household and Jerome roster identify full name. Roy obituary mentions brother Richard(Ethel), without individual portrait. No verified image.",
+      "unresolved_leads": [
+        "Family archive or captioned individual obituary."
+      ]
+    },
+    {
+      "slug": "erminso-cuevas-cabrera",
+      "name": "Erminso Cuevas Cabrera",
+      "queries": [
+        "Erminso Cuevas Cabrera foto"
+      ],
+      "status": "researched_unresolved_portrait",
+      "source_urls": [
+        "https://home.treasury.gov/system/files/136/archive-documents/farc-november2007-chart.pdf",
+        "https://www.elespectador.com/judicial/el-imperio-cabrera-article-129946/"
+      ],
+      "notes": "Official Treasury November2007 caption establishes identity birth1960-09-16 aliasMincho. Downloaded original PDF tmp/farc411.pdf and extracted native images. Every individual face asset only79\u2013153px wide, maximum181px high; unsuitable for clean360x480 portrait, no upscale accepted. Government publication alone does not establish image photographer or rights.",
+      "unresolved_leads": [
+        "Higher resolution original underlying Treasury chart; captioned news portrait distinct from brothers Eduardo/Jose Benito."
+      ]
+    }
+  ],
+  "rights": "No accepted images. Government publication does not establish portrait copyright.",
+  "deployment": {
+    "performed": false
+  }
+}
