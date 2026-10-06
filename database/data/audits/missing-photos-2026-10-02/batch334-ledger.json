@@ -1,0 +1,50 @@
+{
+  "batch": 334,
+  "newly_attempted_count": 0,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch334.json",
+  "inventory_counts": {
+    "valid_image_header": 3904,
+    "blank": 6571,
+    "missing_asset": 1
+  },
+  "target_note": "Fresh inventory contains no unattempted profiles. Two unresolved archive leads followed; no usable portrait.",
+  "profiles": [
+    {
+      "slug": "robert-lam",
+      "name": "Robert Lam",
+      "status": "oral_history_original_inaccessible",
+      "queries": [
+        "Camp 56 Robert Lam photograph",
+        "Robert L. Lam Illinois pacifist"
+      ],
+      "source_urls": [
+        "https://www.ccrh.org/oral/co.pdf"
+      ],
+      "notes": "Attempted full Camp56 oral history PDF referenced by primary interview. Direct HTTP403; web tool internal error. Targeted alternative-source searches yielded no verified portrait or independent namesake bridge. Do not repeat unchanged blocked PDF request.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Alternative institutional copy of full Camp56 oral history may be available."
+      ]
+    },
+    {
+      "slug": "richard-eells",
+      "name": "Richard Eells",
+      "status": "document_reviewed_no_portrait",
+      "source_urls": [
+        "https://architecture.quincylibrary.org/s/architecture/media/627",
+        "https://architecture.quincylibrary.org/files/original/69c566198fb92827e5168fe323d98175f9f6012c.pdf"
+      ],
+      "notes": "Downloaded and visually reviewed entire one-page August16,2003 Friends of Dr.RichardEellsHouse donation acknowledgment. Text and signature only; no portrait. Media627 exhausted; do not repeat.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "Unexamined Quincy media beginning628."
+      ]
+    }
+  ],
+  "deployment": {
+    "performed": false,
+    "reason": "No usable verified portrait; live profiles unchanged."
+  }
+}
