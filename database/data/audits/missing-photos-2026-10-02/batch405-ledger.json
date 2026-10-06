@@ -1,0 +1,54 @@
+{
+  "batch": 405,
+  "newly_attempted_count": 1,
+  "researched_count": 2,
+  "successfully_photographed_count": 0,
+  "inventory": "tmp/photo-health-batch405.json",
+  "inventory_counts": {
+    "valid_image_header": 3910,
+    "blank": 6643,
+    "missing_asset": 1
+  },
+  "target_note": "All one unattempted profile researched plus alternate catalog search for pending Takashi yearbook. No verified usable images.",
+  "profiles": [
+    {
+      "slug": "noritaka-kitajima",
+      "name": "Noritaka Kitajima",
+      "status": "researched_no_verified_portrait",
+      "queries": [
+        "Noritaka Kitajima obituary photo",
+        "Noritaka Kitajima portrait Shoyu",
+        "Noritaka Kitajima Hawaii",
+        "Noritaka Kitajima photograph Los Angeles"
+      ],
+      "source_urls": [
+        "https://incarceration.jcchawaii.org/internees/kitajima-noritaka",
+        "https://ddr.densho.org/media/ddr-densho-1000/ddr-densho-1000-287-transcript-a3656dda57.htm",
+        "https://www.nps.gov/tule/learn/historyculture/upload/WDC_7-44_list_K.pdf",
+        "https://library.byuh.edu/0000017b-40cf-d95f-a1ff-5ccfa6e50000/k-1993"
+      ],
+      "notes": "Primaryindividualrecord available throughweb; siblingMasamizu oralhistory explicitlyspellsNoritaka andplacesinShoyu/Kamechiyohousehold. NPSroster1936birth;fatherobituaryLosAngeles soncorroborates. Exactnameandlocationsearchesfoundnorecognizableportrait. ModernacademicNoritakaHayashi/otherKitajimapartialmatches rejected. Anaheimsitereportdentistnamecontainsnoidentitybridgeorportrait;notaccepted. Privatepeople-searchlistingsnotusedasimageevidence.",
+      "rights": "No accepted image.",
+      "unresolved_leads": [
+        "IndividuallycaptionedShoyu/Kamechiyohouseholdportrait or later-lifeNoritakaindependentlybridgedtofamily."
+      ]
+    },
+    {
+      "slug": "takashi-kitajima",
+      "name": "Takashi Kitajima",
+      "status": "followup_no_alternate_source",
+      "queries": [
+        "174725 yearbook Berkeley Tule",
+        "Takashi Kitajima ROW 4 yearbook"
+      ],
+      "source_urls": [
+        "https://digicoll.lib.berkeley.edu/nanna/record/174725/files/cubanc_35_1_00261309ta.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+      ],
+      "notes": "Alternatecatalogsearchyieldedonlysameindexedrowcaption. Previouslyemptydownloadnotrepeated. Noidentity/year/camporimagepixelsresolved.",
+      "rights": "Unknown; no image accepted.",
+      "unresolved_leads": [
+        "Berkeleycatalog/IIIFalternateoriginalrecord174725."
+      ]
+    }
+  ]
+}
