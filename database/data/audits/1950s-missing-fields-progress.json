@@ -909,8 +909,35 @@
     "henry-winston": {
       "id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
       "name": "Henry Winston",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "cf25ef91-aee7-4d0a-a55a-b4807b043cca",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "winston-arrest",
+              "note": "Original UP Medford Mail Tribune July 21, 1948 p1 names Henry Winston among six New York defendants arrested last night. July 20 arrest belongs to the Smith Act prosecution, not his later 1956 surrender. Original scan visually inspected. Earlier duplicate populated July 19 remains untouched."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "winston-sentence",
+              "note": "Original UP H. D. Quigg report, Bend Bulletin October 21, 1949 p1, individually names Winston among ten five-year sentences imposed today. Original scan visually inspected. Existing 1956 incarceration and 1961 release retained; sentencing does not imply confinement in 1949. Duplicate populated October 20 remains untouched."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "48431265-e550-4be7-ba39-d0b8be3edb8d",
         "cf25ef91-aee7-4d0a-a55a-b4807b043cca"
@@ -922,18 +949,23 @@
           "end_of_exile"
         ],
         "cf25ef91-aee7-4d0a-a55a-b4807b043cca": [
-          "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "carl-winter": {
       "id": "8d771564-41d9-45f0-baee-330bdd4861d8",
       "name": "Carl Winter",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original July 21, 1948 UP roundup and October 21, 1949 sentencing report conflict populated July 19/October 20 milestones. All four milestones, vitals and portrait already present. Preserve populated values; this is a conflicting-date follow-up, not a missing-field fill."
+        }
+      ],
       "case_ids": [
         "714af347-9a44-4276-a7a9-59aeecb3c346"
       ],
@@ -943,7 +975,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original July 21, 1948 UP roundup and October 21, 1949 sentencing report conflict populated July 19/October 20 milestones. All four milestones, vitals and portrait already present. Preserve populated values; this is a conflicting-date follow-up, not a missing-field fill."
     },
     "bayard-rustin": {
       "id": "c696108d-7e14-47de-94de-dc70a5028710",
@@ -977,8 +1010,14 @@
     "iva-toguri-daquino": {
       "id": "a0cd207b-ebb4-4cb7-95b6-f0db9a34aec5",
       "name": "Iva Toguri D'Aquino",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "FBI own history separates 1945-1946 military detention, freedom, September 1948 rearrest, October 6, 1949 sentence and January 28, 1956 release. Existing single 1945-1956 interval appears to bridge freedom in 1946-1948. All milestones/vitals/portrait populated; no silent interval rewrite, new case or biography change."
+        }
+      ],
       "case_ids": [
         "a97c1c0c-a261-415f-81fa-db193279bc45"
       ],
@@ -988,13 +1027,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "FBI own history separates 1945-1946 military detention, freedom, September 1948 rearrest, October 6, 1949 sentence and January 28, 1956 release. Existing single 1945-1956 interval appears to bridge freedom in 1946-1948. All milestones/vitals/portrait populated; no silent interval rewrite, new case or biography change."
     },
     "a-j-muste": {
       "id": "c57a0a27-d588-4dd6-b87a-1689573528f4",
       "name": "A. J. Muste",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing 1955 drill arrest and sentence populated but precise actual initial jail discharge unresolved between June 16 and 17. December 22 suspended judgment not a release date. Karl Meyer eyewitness distinguishes Omaha July 1959 initial custody and suspended sentence; these fields already populated. No missing vitals or portrait; no invented endpoint."
+        }
+      ],
       "case_ids": [
         "50480092-03c7-47b8-84d3-2e8947c3fb6a",
         "6d068582-be68-4a23-b810-3ae7d355b845",
@@ -1032,7 +1078,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing 1955 drill arrest and sentence populated but precise actual initial jail discharge unresolved between June 16 and 17. December 22 suspended judgment not a release date. Karl Meyer eyewitness distinguishes Omaha July 1959 initial custody and suspended sentence; these fields already populated. No missing vitals or portrait; no invented endpoint."
     },
     "mollie-steimer": {
       "id": "069d0607-b88a-4444-b01a-cc30d63c4cba",
@@ -1063,8 +1110,37 @@
     "ammon-hennacy": {
       "id": "1c45f8ce-206b-4f38-9540-65ceae2978ae",
       "name": "Ammon Hennacy",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "de275616-d185-5f73-993c-d80e8f76d908",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "hennacy-court",
+              "note": "Francis Gorgen firsthand letter, Catholic Worker September 1959 printed pp4-5, visually inspected: Monday August 24 Omaha action, 10:55 US Marshal arrest, court that afternoon, Judge Richard Robinson six months and immediate county-jail confinement. Quoted docket explicitly August 24. Existing arrest YEAR 1959 and its precision preserved; no day refinement of populated arrest."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "hennacy-release",
+              "note": "Ammon Hennacy own Life in Sandstone Prison, Catholic Worker February 1960 printed p3, visually inspected: expressly released from Sandstone January 20th, met Dorothy and Francis on release, onward travel described. January 24 elsewhere in issue concerns a CBS telecast, not release. Own actual release, not a projected good-time estimate. Other cases untouched."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "25835d48-636e-4b7f-9813-2a4114b82048",
         "de275616-d185-5f73-993c-d80e8f76d908"
@@ -1077,13 +1153,11 @@
           "end_of_exile"
         ],
         "de275616-d185-5f73-993c-d80e8f76d908": [
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "pedro-albizu-campos": {
       "id": "b98baa1c-63c1-4723-bbdf-c42cd44400a5",
@@ -1125,8 +1199,14 @@
     "lolita-lebron": {
       "id": "edb258a5-8aa0-4698-a529-3ed6edef5151",
       "name": "Lolita Lebrón",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "House own archive dates Capitol action March 1, 1954, conflicting with populated February 28 arrest/admission. All main milestones, vitals and portrait populated. Existing qualifications and dates retained; no invented missing fields or pardon-to-release inference."
+        }
+      ],
       "case_ids": [
         "5a238366-5a83-4b41-bbf3-32852c1b085e"
       ],
@@ -1136,7 +1216,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "House own archive dates Capitol action March 1, 1954, conflicting with populated February 28 arrest/admission. All main milestones, vitals and portrait populated. Existing qualifications and dates retained; no invented missing fields or pardon-to-release inference."
     },
     "rafael-cancel-miranda": {
       "id": "a642eba1-0ce6-470e-9130-985e7383cbac",
@@ -1164,8 +1245,14 @@
     "andres-figueroa-cordero": {
       "id": "ae32c841-b712-4081-b46d-3c11ada4f4b7",
       "name": "Andrés Figueroa Cordero",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "House own archive identifies March 1, 1954 Capitol action, conflicting with populated February 28 arrest/admission. Commutation and actual prison discharge require distinction. All main milestones, vitals and portrait populated; no replacements in missing-only scope."
+        }
+      ],
       "case_ids": [
         "61a785e9-8f77-4823-a133-969211b4e23b"
       ],
@@ -1175,13 +1262,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "House own archive identifies March 1, 1954 Capitol action, conflicting with populated February 28 arrest/admission. Commutation and actual prison discharge require distinction. All main milestones, vitals and portrait populated; no replacements in missing-only scope."
     },
     "irvin-flores-rodriguez": {
       "id": "da1ab005-f773-481d-8460-6a33d0fbb450",
       "name": "Irvin Flores Rodríguez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "House own archive identifies March 1, 1954 Capitol action, conflicting with populated February 28 arrest/admission. Existing milestones, vitals and portrait preserved; clemency announcement not assumed physical release."
+        }
+      ],
       "case_ids": [
         "d7d86bc0-3b36-4a21-a166-9c3669e19a3c"
       ],
@@ -1191,13 +1285,113 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "House own archive identifies March 1, 1954 Capitol action, conflicting with populated February 28 arrest/admission. Existing milestones, vitals and portrait preserved; clemency announcement not assumed physical release."
     },
     "dorothy-day": {
       "id": "28c32269-1251-4e4a-bd1f-5bcdc6e09a6a",
       "name": "Dorothy Day",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "eb57a21e-45dd-45d9-a844-e8244fdfca01",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "day-1956-arrest",
+              "note": "Robert Lax original archival photograph DD#10, DD-CW W-8 Box 2, caption transcribed by Dorothy Day biographer Jim Forest: Dorothy entering police wagon after civil-defense drill arrest, Washington Square Park July 20, 1956. Marquette collection independently identifies same demonstration and person. Already populated custody endpoints and portrait preserved; this photograph is evidence only, not a replacement image."
+            }
+          ]
+        },
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "8ed3f03f-74f4-413e-8324-8c431e0ea992",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "day-1957-january",
+              "note": "Ammon Hennacy In the Market Place, Catholic Worker February 1957 printed p2, visually inspected: in court on the 15th before Judge Comerford concerning guilty pleas last July; $25 or five days, with Dorothy own court statement separately named. January 15 sentencing belongs to this already dated sentence-serving row. Do not invent a fresh January arrest or merge with the separate July 1956 arrest row."
+            }
+          ]
+        },
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "dbf45ce7-6360-4d5e-a9f8-0d72c74ea762",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "day-1957-arrest",
+              "note": "Original National Guardian July 22, 1957 printed p2, visually inspected, names Dorothy Day among ten peaceful protesters arrested Friday July 12 at Sarah Delano Roosevelt Park. Not a later Times Square hearing for Richard and Jane Moses."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "day-1957-sentence",
+              "note": "Participant Karl Meyer own Sixty Years with The Catholic Worker memoir, first published June/July 2017 and reproduced by NWTRCC February/March 2018: specifically July 12, 1957 action with Dorothy and Ammon, overnight Tombs custody, all sentenced to thirty days in court next day. July 13 derived from that explicit next-day chronology; contemporary Guardian independently confirms thirty-day sentences. Existing release August 6 retained; no sentence-length arithmetic substituted for discharge."
+            }
+          ]
+        },
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "35a6b931-35e0-4c61-bc4b-a81e3245efe0",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "day-1959-arrest",
+              "note": "Marquette custodian of Dorothy Day papers explicitly dates her fifth and last drill arrest April 17, 1959 and identifies Vivian Cherry photograph just before that arrest. Initial arrest row already has April 17 confinement; fill missing arrest only. Do not invent release across the interval before her later court appearance."
+            }
+          ]
+        },
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "09f44565-7697-4467-96f2-5e78310cd74d",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "day-1959-sentence",
+              "note": "Dorothy Day On Pilgrimage July 1959 reproduces commanding officer Court Detention Pens Manhattan report: received Friday April 24, 1959, sentenced $25 or ten days by Magistrate Roe. Exact court report distinguishes sentencing from earlier April 17 arrest. Existing April 24 confinement and May 4 release preserved; separate initial-arrest row retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e13a4fd9-a906-4bbe-a413-f0ee463cc06a",
         "0e706e15-12ea-44bf-ab4a-5e2d3910af56",
@@ -1230,20 +1424,16 @@
           "end_of_exile"
         ],
         "eb57a21e-45dd-45d9-a844-e8244fdfca01": [
-          "arrest_date",
           "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "8ed3f03f-74f4-413e-8324-8c431e0ea992": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "dbf45ce7-6360-4d5e-a9f8-0d72c74ea762": [
-          "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -1254,7 +1444,6 @@
           "end_of_exile"
         ],
         "35a6b931-35e0-4c61-bc4b-a81e3245efe0": [
-          "arrest_date",
           "sentenced_date",
           "release_date",
           "in_exile_since",
@@ -1262,7 +1451,6 @@
         ],
         "09f44565-7697-4467-96f2-5e78310cd74d": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -1276,13 +1464,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "james-lawson": {
       "id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
       "name": "James Lawson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "Lawson Institute own history identifies April 1951-May 1952 draft imprisonment and thirteen months served. Current case row is February 1960 Nashville prosecution; do not graft 1951 sentence/1952 discharge onto 1960 case. A separate draft case requires later case-addition review. Existing biography, vitals and portrait retained."
+        }
+      ],
       "case_ids": [
         "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2"
       ],
@@ -1294,13 +1489,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Lawson Institute own history identifies April 1951-May 1952 draft imprisonment and thirteen months served. Current case row is February 1960 Nashville prosecution; do not graft 1951 sentence/1952 discharge onto 1960 case. A separate draft case requires later case-addition review. Existing biography, vitals and portrait retained."
     },
     "julius-rosenberg": {
       "id": "ebc380ad-4696-4385-84c4-d2d94f4c1cf0",
       "name": "Julius Rosenberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary Congressional Record January 16, 1953 identifies April 5, 1951 death sentence, conflicting with populated April 4. All four main milestones, vitals and portrait present. No supported missing fields; preserve populated values and log conflict."
+        }
+      ],
       "case_ids": [
         "136e9e1c-fb23-4411-8dc2-6008c55f2969"
       ],
@@ -1310,13 +1512,33 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary Congressional Record January 16, 1953 identifies April 5, 1951 death sentence, conflicting with populated April 4. All four main milestones, vitals and portrait present. No supported missing fields; preserve populated values and log conflict."
     },
     "dalton-trumbo": {
       "id": "14f7496e-1f10-4b17-9dc5-7f53d713d297",
       "name": "Dalton Trumbo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "d2734b44-8c74-4d82-9cc5-be515a089636",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "trumbo-sentence",
+              "note": "Original UP Medford Mail Tribune May 21, 1948 p1, visually inspected: Hollywood Movie Writers Sentenced, Washington May 21 dateline, John Howard Lawson and Dalton Trumbo each sentenced today to one year. Both remain free on bond pending appeal. Sentencing precedes actual 1950 prison admission; no arrest inferred from HUAC testimony, subpoena, indictment or verdict."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d2734b44-8c74-4d82-9cc5-be515a089636"
       ],
@@ -1324,11 +1546,11 @@
       "missing_case_fields": {
         "d2734b44-8c74-4d82-9cc5-be515a089636": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "john-howard-lawson": {
       "id": "ca50305c-d975-424b-84ac-13b1d9461466",
@@ -1421,8 +1643,27 @@
     "albert-maltz": {
       "id": "31446727-d724-4d7f-bb49-de916257281c",
       "name": "Albert Maltz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "2dd73814-0b6d-4ec5-b3b7-33fe1f9c8770",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "maltz-sentence",
+              "note": "Original AP Bend Bulletin June 29, 1950 printed p8, visually inspected: Six Hollywood Men Sentenced expressly names Albert Maltz among defendants sentenced today. No arrest inferred from sentence or admission. Article contradictory Scott line is not reused for Scott; existing Maltz confinement and release retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2dd73814-0b6d-4ec5-b3b7-33fe1f9c8770"
       ],
@@ -1430,17 +1671,43 @@
       "missing_case_fields": {
         "2dd73814-0b6d-4ec5-b3b7-33fe1f9c8770": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "herbert-biberman": {
       "id": "a2b6c272-fa18-48a7-ba02-88c17e887c35",
       "name": "Herbert Biberman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 463,
+          "table": "prisoner_cases",
+          "id": "1a4391c0-9608-4dc8-a2cd-7ecdf03c1512",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "biberman-sentence",
+              "note": "Original AP Washington June 29 dateline, Scurry County Times June 30, 1950 printed p5/PDF5, full page and article detail visually inspected: names writer-director Biberman among six sentenced today, while Scott and Ornitz deferred. Printed first name Herman is a newspaper error; surname, Hollywood Ten prosecution and director role identify Herbert. Article also inaccurately generalizes one-year terms, so no term or fine copied."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "biberman-confirmation",
+              "note": "Original National Guardian July 5, 1950 printed p6, visually inspected, independently names Herbert Biberman among six sentenced the preceding week and distinguishes six-month sentence. Cross-check identity only; existing sentence prose and populated dates/precision remain unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1a4391c0-9608-4dc8-a2cd-7ecdf03c1512"
       ],
@@ -1448,11 +1715,11 @@
       "missing_case_fields": {
         "1a4391c0-9608-4dc8-a2cd-7ecdf03c1512": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch463 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "lester-cole": {
       "id": "8e642db7-6f89-4f98-9f5e-6f9c996e0370",
@@ -13810,6 +14077,7 @@
         "fc87cf98-9798-4d82-86ef-5f146310ffbb"
       ],
       "missing_profile_fields": [
+        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
