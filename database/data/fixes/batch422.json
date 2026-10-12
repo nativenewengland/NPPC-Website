@@ -1,0 +1,827 @@
+{
+  "batch": 422,
+  "audit_date": "2026-10-11",
+  "sources": {
+    "guardian1953": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-07-06-5-37-nat-guardian.pdf",
+    "guardian1959": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-11-30-12-7-nat-guardian.pdf",
+    "spiker": "https://static1.squarespace.com/static/610d5055699fb835cba4d997/t/61bc665edc64352c5357de59/1639736945882/2001_2002-LaRue-Spiker_ocr.pdf",
+    "hawaii": "https://westoahu.hawaii.edu/clear/research-resources/labor-history-narratives/key-historical-figures/",
+    "congress": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1949-pt6/pdf/GPO-CRECB-1949-pt6-16-1.pdf",
+    "travis": "https://archive.ilwu.org/wp-content/uploads/2015/04/19880509.pdf",
+    "bryson": "https://www.upi.com/Archives/1984/05/21/Hugh-Bryson-an-outspoken-waterfront-labor-leader-who-went/5358453960000/",
+    "andrulis": "https://www.vle.lt/straipsnis/vincas-andrulis/",
+    "custody": "https://pacificcitizen.org/wp-content/uploads/archives-menu/Vol.037_%2302_Jul_10_1953.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "15d472f6-ead7-48d5-beda-9e4681d7a6aa",
+      "prisoner_id": "15d472f6-ead7-48d5-beda-9e4681d7a6aa",
+      "slug": "larue-spiker",
+      "name": "LaRue Spiker",
+      "expected": {
+        "birthdate": null,
+        "date_precision": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1912-07-08 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "death_date": "1995-11-05 00:00:00",
+        "photo": "prisoners/larue-spiker-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "spiker",
+          "note": "Historical society biography, printed page 3, explicitly gives birth date."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "spiker",
+          "note": "Printed page 15 gives death date and cites the November 9, 1995 obituary."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "spiker",
+          "note": "Top portrait on PDF page 1 explicitly identifies LaRue Spiker. Caption decade appears inconsistent with her birth year; no photograph date is assigned."
+        }
+      ],
+      "asset": {
+        "file": "larue-spiker-batch422.png",
+        "sha256": "bb0c6cbc538e38146f0fd9121d1c6162babc22336da0c1013932014208fc7688",
+        "source": "spiker",
+        "render_file": "spiker-01.png",
+        "render_dimensions": [
+          1468,
+          2200
+        ],
+        "crop_box": [
+          424,
+          121,
+          1106,
+          1024
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "0b861848-39fb-4bcd-8478-2cd754e2ffb5",
+      "prisoner_id": "0b861848-39fb-4bcd-8478-2cd754e2ffb5",
+      "slug": "mary-louise-gilbert",
+      "name": "Mary Louise Gilbert",
+      "expected": {
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "death_date": "1994-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "spiker",
+          "note": "Printed page 15 states that Louise Gilbert died in 1994; the earlier discussion identifies her as Spiker's fellow Louisville sedition defendant. No month or day established."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "065c49d6-83bc-49cf-b6bc-c0985c048cfe",
+      "prisoner_id": "065c49d6-83bc-49cf-b6bc-c0985c048cfe",
+      "slug": "john-reinecke",
+      "name": "John Reinecke",
+      "expected": {
+        "birthdate": null,
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1904-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}",
+        "death_date": "1982-06-11 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "hawaii",
+          "note": "University of Hawaii labor-history biography identifies this Hawaii Seven defendant and gives 1904. Corroborated by Pittsburg State University finding aid https://digitalcommons.pittstate.edu/fa/248/."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "hawaii",
+          "note": "University of Hawaii labor-history biography gives June 11, 1982."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "ec1c4191-14e9-4230-8caa-af2875811bfd",
+      "prisoner_id": "ec1c4191-14e9-4230-8caa-af2875811bfd",
+      "slug": "charles-fujimoto",
+      "name": "Charles Fujimoto",
+      "expected": {
+        "birthdate": null,
+        "date_precision": null
+      },
+      "update": {
+        "birthdate": "1917-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "congress",
+          "note": "Printed Congressional Record page 8169 identifies Charles Kazuyuki Fujimoto, Hawaii chemist and party chairman, born in 1917. Only the biographical fact is used."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "df3bfced-8d05-44b0-844c-abe4ca9f1162",
+      "prisoner_id": "df3bfced-8d05-44b0-844c-abe4ca9f1162",
+      "slug": "eileen-fujimoto",
+      "name": "Eileen Fujimoto",
+      "expected": {
+        "birthdate": null,
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1920-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "photo": "prisoners/eileen-fujimoto-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "congress",
+          "note": "Same Congressional Record page identifies his wife Eileen Toshiko Nakama, born 1920 in Honolulu, married in 1942. Homonymous exact-date genealogy records not used."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1953",
+          "note": "Standing, third from left; caption identifies Eileen Fujimoto."
+        }
+      ],
+      "asset": {
+        "file": "eileen-fujimoto-batch422.png",
+        "sha256": "0d79838451dacc5bf2fd1194062c98ba37dcf7b0856a87e6424a583e531761e9",
+        "source": "guardian1953",
+        "render_file": "hawaii-hi-10.png",
+        "render_dimensions": [
+          2610,
+          3500
+        ],
+        "crop_box": [
+          732,
+          472,
+          883,
+          689
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "a2a15692-914f-4aa3-b9c0-76ecdc8d965e",
+      "prisoner_id": "a2a15692-914f-4aa3-b9c0-76ecdc8d965e",
+      "slug": "maurice-e-travis",
+      "name": "Maurice E. Travis",
+      "expected": {
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "death_date": "1985-04-27 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "travis",
+          "note": "ILWU Dispatcher May 9, 1988, printed page 10, resolution R-29, explicitly names union leader Maurice Travis and his death date."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7bad7e21-643c-437a-9591-19ef350aeab6",
+      "prisoner_id": "7bad7e21-643c-437a-9591-19ef350aeab6",
+      "slug": "hugh-bryson",
+      "name": "Hugh Bryson",
+      "expected": {
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "death_date": "1984-05-20 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "bryson",
+          "note": "UPI obituary dated Monday May 21 says the maritime union leader died Sunday. Corroborated by ILWU Dispatcher June 8, 1984 https://archive.ilwu.org/wp-content/uploads/2015/04/19840608.pdf."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "ed3289b8-ade4-45b4-b435-99c900668b56",
+      "prisoner_id": "ed3289b8-ade4-45b4-b435-99c900668b56",
+      "slug": "vincent-andrulis",
+      "name": "Vincent Andrulis",
+      "expected": {
+        "birthdate": null,
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1890-02-04 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "death_date": "1972-12-10 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "andrulis",
+          "note": "Lithuanian National Library encyclopedia names Vincas Andrulis (Andrulevicius), Vilnis editor in Chicago; Lithuanian name matches the English-language record."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "andrulis",
+          "note": "Same encyclopedia gives death in Chicago on December 10, 1972; burial in Lithuania in 1973 is a separate event."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "852f58a7-a77d-4563-9dbf-ea6a01d80824",
+      "prisoner_id": "852f58a7-a77d-4563-9dbf-ea6a01d80824",
+      "slug": "jack-hall",
+      "name": "Jack Hall",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/jack-hall-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1953",
+          "note": "Standing, first from left in the captioned photograph."
+        }
+      ],
+      "asset": {
+        "file": "jack-hall-batch422.png",
+        "sha256": "943b99c3f99a414371a81546139d1541836b6084316d5fd5f1c0f46d8216fdbc",
+        "source": "guardian1953",
+        "render_file": "hawaii-hi-10.png",
+        "render_dimensions": [
+          2610,
+          3500
+        ],
+        "crop_box": [
+          242,
+          405,
+          419,
+          608
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "9e2513f6-7e34-490f-9793-28b0c1445b8d",
+      "prisoner_id": "9e2513f6-7e34-490f-9793-28b0c1445b8d",
+      "slug": "jack-kimoto",
+      "name": "Jack Kimoto",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/jack-kimoto-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1953",
+          "note": "Standing, second from left; caption identifies Jack Kimoto."
+        }
+      ],
+      "asset": {
+        "file": "jack-kimoto-batch422.png",
+        "sha256": "e7679a83892c260162fd68df3f9e0785345f7fad094e9b162ee74724927116ce",
+        "source": "guardian1953",
+        "render_file": "hawaii-hi-10.png",
+        "render_dimensions": [
+          2610,
+          3500
+        ],
+        "crop_box": [
+          534,
+          399,
+          720,
+          633
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "89001394-7c91-4dd6-86cc-f735c70fa421",
+      "prisoner_id": "89001394-7c91-4dd6-86cc-f735c70fa421",
+      "slug": "koji-ariyoshi",
+      "name": "Koji Ariyoshi",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/koji-ariyoshi-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1953",
+          "note": "Standing behind Eileen, fourth from left; tight crop isolates his face."
+        }
+      ],
+      "asset": {
+        "file": "koji-ariyoshi-batch422.png",
+        "sha256": "19a2767f711711a391daf5bbd9efd9c9ffed0ba330dd616698f0e995c738911f",
+        "source": "guardian1953",
+        "render_file": "hawaii-hi-10.png",
+        "render_dimensions": [
+          2610,
+          3500
+        ],
+        "crop_box": [
+          851,
+          434,
+          951,
+          558
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "144f9589-5c0d-4405-8a3b-f0c60d1015e0",
+      "prisoner_id": "144f9589-5c0d-4405-8a3b-f0c60d1015e0",
+      "slug": "dwight-freeman",
+      "name": "Dwight Freeman",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/dwight-freeman-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1953",
+          "note": "Standing, fifth from left; caption identifies Dwight Freeman."
+        }
+      ],
+      "asset": {
+        "file": "dwight-freeman-batch422.png",
+        "sha256": "db464b2f833cd738841a4caf8608907d51450e1026b3c0dbe1bf99bf64dabc70",
+        "source": "guardian1953",
+        "render_file": "hawaii-hi-10.png",
+        "render_dimensions": [
+          2610,
+          3500
+        ],
+        "crop_box": [
+          1052,
+          391,
+          1168,
+          549
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "1e2f4892-dd42-4c3b-a431-55f73328108d",
+      "prisoner_id": "1e2f4892-dd42-4c3b-a431-55f73328108d",
+      "slug": "abner-green",
+      "name": "Abner Green",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/abner-green-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1959",
+          "note": "Individual portrait has an explicit ABNER GREEN caption."
+        }
+      ],
+      "asset": {
+        "file": "abner-green-batch422.png",
+        "sha256": "d3a4c821ccb61ffb4803d069cc816a113d1b1114e35288e2543367ef38c73e0f",
+        "source": "guardian1959",
+        "render_file": "nowak-04.png",
+        "render_dimensions": [
+          1662,
+          2200
+        ],
+        "crop_box": [
+          213,
+          545,
+          525,
+          952
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "ffababeb-e301-4252-b4d1-0fb6c0bd80b2",
+      "prisoner_id": "ffababeb-e301-4252-b4d1-0fb6c0bd80b2",
+      "slug": "william-bill-heikkila",
+      "name": "William “Bill” Heikkila",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/william-bill-heikkila-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1959",
+          "note": "Bottom left individual portrait has an explicit WILLIAM HEIKKILA caption."
+        }
+      ],
+      "asset": {
+        "file": "william-bill-heikkila-batch422.png",
+        "sha256": "c4902db820f63d662ece2a4ad15ae7058605b45ae0aa8b89b3b85c62b6f514d7",
+        "source": "guardian1959",
+        "render_file": "nowak-04.png",
+        "render_dimensions": [
+          1662,
+          2200
+        ],
+        "crop_box": [
+          217,
+          1394,
+          471,
+          1703
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "13f5055d-c71d-44c8-8c8c-46f16d83aec5",
+      "prisoner_id": "13f5055d-c71d-44c8-8c8c-46f16d83aec5",
+      "slug": "stanley-nowak",
+      "name": "Stanley Nowak",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/stanley-nowak-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1959",
+          "note": "Bottom center individual portrait has an explicit STANLEY NOWAK caption."
+        }
+      ],
+      "asset": {
+        "file": "stanley-nowak-batch422.png",
+        "sha256": "82b7fe403a11d16f1c7e527ebccc3d97b2d50912d2da652a0599b192c73ed433",
+        "source": "guardian1959",
+        "render_file": "nowak-04.png",
+        "render_dimensions": [
+          1662,
+          2200
+        ],
+        "crop_box": [
+          564,
+          1393,
+          820,
+          1702
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "6da928c1-95c0-4a85-87b9-3faf510197a9",
+      "prisoner_id": "6da928c1-95c0-4a85-87b9-3faf510197a9",
+      "slug": "charles-rowoldt",
+      "name": "Charles Rowoldt",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/charles-rowoldt-batch422.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian1959",
+          "note": "Bottom right individual portrait has an explicit CHARLES ROWOLDT caption."
+        }
+      ],
+      "asset": {
+        "file": "charles-rowoldt-batch422.png",
+        "sha256": "05fef06fe0570e39e28240824cc79931a13d26cb33fc1a4c73ef89e7934c5e5b",
+        "source": "guardian1959",
+        "render_file": "nowak-04.png",
+        "render_dimensions": [
+          1662,
+          2200
+        ],
+        "crop_box": [
+          903,
+          1394,
+          1156,
+          1703
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "92cc61da-7c98-4d14-8074-8a904d037717",
+      "prisoner_id": "852f58a7-a77d-4563-9dbf-ea6a01d80824",
+      "name": "Jack Hall",
+      "slug": "jack-hall",
+      "expected": {
+        "prisoner_id": "852f58a7-a77d-4563-9dbf-ea6a01d80824",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "f7cda873-17c2-41db-8cbe-4df5418622f4",
+      "prisoner_id": "ec1c4191-14e9-4230-8caa-af2875811bfd",
+      "name": "Charles Fujimoto",
+      "slug": "charles-fujimoto",
+      "expected": {
+        "prisoner_id": "ec1c4191-14e9-4230-8caa-af2875811bfd",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3d3dba6d-99ff-477f-9c54-2fb4fa9cf02a",
+      "prisoner_id": "89001394-7c91-4dd6-86cc-f735c70fa421",
+      "name": "Koji Ariyoshi",
+      "slug": "koji-ariyoshi",
+      "expected": {
+        "prisoner_id": "89001394-7c91-4dd6-86cc-f735c70fa421",
+        "arrest_date": "1951-08-01 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c0c8282e-8883-4324-aa8d-2be469285e79",
+      "prisoner_id": "144f9589-5c0d-4405-8a3b-f0c60d1015e0",
+      "name": "Dwight Freeman",
+      "slug": "dwight-freeman",
+      "expected": {
+        "prisoner_id": "144f9589-5c0d-4405-8a3b-f0c60d1015e0",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "fb1e94dc-c0bb-4307-b17b-4c59198f7a5b",
+      "prisoner_id": "df3bfced-8d05-44b0-844c-abe4ca9f1162",
+      "name": "Eileen Fujimoto",
+      "slug": "eileen-fujimoto",
+      "expected": {
+        "prisoner_id": "df3bfced-8d05-44b0-844c-abe4ca9f1162",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "470465c8-4d3b-4b52-a39b-4617e09d78a4",
+      "prisoner_id": "9e2513f6-7e34-490f-9793-28b0c1445b8d",
+      "name": "Jack Kimoto",
+      "slug": "jack-kimoto",
+      "expected": {
+        "prisoner_id": "9e2513f6-7e34-490f-9793-28b0c1445b8d",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ca1c9922-c510-42fe-8b54-38b56b381d13",
+      "prisoner_id": "065c49d6-83bc-49cf-b6bc-c0985c048cfe",
+      "name": "John Reinecke",
+      "slug": "john-reinecke",
+      "expected": {
+        "prisoner_id": "065c49d6-83bc-49cf-b6bc-c0985c048cfe",
+        "arrest_date": "1951-08-28 00:00:00",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null
+      },
+      "update": {
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "Pacific Citizen July 10, 1953, printed page 3: sentencing July 3; six entered jail July 4 because they could not post the raised bond. Hall posted bond and remained free. Incarceration date describes this documented post-sentence custody episode; release/end of episode remains unresolved. Do not assume the nominal sentences were served."
+        }
+      ]
+    }
+  ],
+  "expected_count": 23
+}
