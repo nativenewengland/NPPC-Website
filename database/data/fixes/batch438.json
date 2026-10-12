@@ -1,0 +1,122 @@
+{
+  "batch": 438,
+  "audit_date": "2026-10-12",
+  "expected_count": 3,
+  "sources": {
+    "doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0103.pdf",
+    "robertson-birth": "https://archive.ilwu.org/wp-content/uploads/2015/04/19780728.pdf",
+    "robertson-death": "https://archive.ilwu.org/wp-content/uploads/2015/04/19780908.pdf",
+    "robertson-photo": "https://archive.ilwu.org/wp-content/uploads/2015/03/19600422.pdf",
+    "feiner-death": "https://www.upi.com/Top_News/2009/02/03/Free-speech-advocate-Feiner-dies-at-84/80851233676194/",
+    "feiner-photo": "https://www.fire.org/news/blogs/eternally-radical-idea/dear-university-north-texas-hecklers-veto-not-good-thing"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "1fc2f417-8c85-455e-8c40-91ba6c85a3ea",
+      "prisoner_id": "dda3cd63-3c2b-4900-9d10-34e77add6114",
+      "slug": "irving-weissman",
+      "name": "Irving Weissman",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-08-25 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj",
+          "note": "UnitedStatesAttorneysBulletin Vol1No3 printed/PDF8 explicitly states JudgeRabeF.Marsh sentenced the five defendants, individually including IrvingWeissman, on August25,1953. Original scan visually checked. Applies to federal SmithAct case only, not separate contempt or verdictAugust20. No incarceration date inferred from sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "d9827ab1-f0fd-45da-bbe6-ebd851540f87",
+      "prisoner_id": "d9827ab1-f0fd-45da-bbe6-ebd851540f87",
+      "slug": "jr-robertson",
+      "name": "J.R. Robertson",
+      "expected": {
+        "photo": null,
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "photo": "prisoners/jr-robertson-ilwu-batch438.png",
+        "birthdate": "1903-01-01 00:00:00",
+        "death_date": "1978-08-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "jr-robertson-ilwu-batch438.png",
+        "sha256": "bec1fca8f7bc4db114c5a15cfc5cca0361a822b4d96a4b45b462eda2882941a4"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "robertson-birth",
+          "note": "Union obituary on page1 explicitly says born in1903 inWoodCountyTexas; page2 identifies the same Bridges-Robertson-Schmidt defendant. No month/day stated; year precision only. Masthead saysJuly28,1978 while reporting August1 events; publication-date anomaly logged and not treated as event date."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "robertson-death",
+          "note": "Dispatcher September8,1978 page2, InRobertsonMemory, explicitly dates death August1 inSanRafael and identifies former international vice-president. Original page/masthead visually checked; independently corroborates August1 from obituary in anomalously dated July28 issue."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "robertson-photo",
+          "note": "Dispatcher April22,1960 page8 OnTheMarch masthead identifies author J.R.(Bob)Robertson alongside his headshot. Native1740x2452grayscaleJPEG extracted from PDF XObject/X7; exact170x236crop isolates photo, excludes heading and byline. Original and crop visually checked."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
+      "prisoner_id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
+      "slug": "irving-feiner",
+      "name": "Irving Feiner",
+      "expected": {
+        "photo": null,
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "photo": "prisoners/irving-feiner-post-standard-batch438.png",
+        "death_date": "2009-01-23 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "irving-feiner-post-standard-batch438.png",
+        "sha256": "82adb6ed92ad0069041930a74bf143abdbb36cdbf7b1b8ab757cf433ee54b414"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "feiner-death",
+          "note": "UPI February3,2009 report explicitly attributes death January23 inValhalla to daughterEmily speaking to NYTimes. Identifies the same1949Syracuse/1951SupremeCourt litigant. Preferred over Barrett later essay January24 because UPI specifies family informant. Exactbirthday from same-name genealogy remains unverified and is not assigned."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "feiner-photo",
+          "note": "FIRE November5,2020 article explicitly identifies IrvingFeiner at center of March9,1949 PostStandard archival photograph, standing with two event organizers. Original393x512PNG at https://www.fire.org/sites/default/files/2020/11/04165103/unnamed-2.png inspected. Exact120x162crop isolates center face/neck; every retained pixel verified unchanged. No enlargement or reconstruction."
+        }
+      ]
+    }
+  ]
+}
