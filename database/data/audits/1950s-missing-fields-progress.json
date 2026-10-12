@@ -4282,8 +4282,34 @@
     "george-crockett": {
       "id": "c3c3dca6-81c8-48b3-8b7c-f80287d68227",
       "name": "George Crockett",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 433,
+          "table": "prisoner_cases",
+          "id": "98edc922-82e4-4666-b4e0-ddfabbee64fb",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "supreme",
+              "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "appeal",
+              "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "98edc922-82e4-4666-b4e0-ddfabbee64fb"
       ],
@@ -4291,17 +4317,51 @@
       "missing_case_fields": {
         "98edc922-82e4-4666-b4e0-ddfabbee64fb": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing defense-lawyer contempt sentencing dates and actual custody starts applied from court opinions and published legal research. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch433 audit."
     },
     "harry-sacher": {
       "id": "3e3a3d05-841b-4080-9996-22e8837a3199",
       "name": "Harry Sacher",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 433,
+          "table": "prisoner_cases",
+          "id": "9868e366-b499-4b65-b514-64eff08291b8",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "supreme",
+              "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "appeal",
+              "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "custody",
+              "note": "CatherineFisk, The Fire Last Time, UCDavisLawReview57(2024), printed3013/PDF17 explicitly states all five lawyers voluntarily surrendered inNewYorkCity April24,1952, citingStanleyKutlerpage164; team individually identified printed3006/PDF10. Original research article page visually inspected. ContemporaryNationalGuardianMay8,1952page3 independently identifies all five and confirms actual jail entry the prior month. Exact date fromFisk, not inferred from order to surrender."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9868e366-b499-4b65-b514-64eff08291b8"
       ],
@@ -4309,19 +4369,44 @@
       "missing_case_fields": {
         "9868e366-b499-4b65-b514-64eff08291b8": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing defense-lawyer contempt sentencing dates and actual custody starts applied from court opinions and published legal research. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch433 audit."
     },
     "abraham-isserman": {
       "id": "febbf6bc-9d19-4d7b-a31b-7d755fae6412",
       "name": "Abraham Isserman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 433,
+          "table": "prisoner_cases",
+          "id": "5c50e52e-c141-4d31-b310-b7281df81d7a",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "supreme",
+              "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "appeal",
+              "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5c50e52e-c141-4d31-b310-b7281df81d7a"
       ],
@@ -4329,11 +4414,11 @@
       "missing_case_fields": {
         "5c50e52e-c141-4d31-b310-b7281df81d7a": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing defense-lawyer contempt sentencing dates and actual custody starts applied from court opinions and published legal research. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch433 audit."
     },
     "helen-bryan": {
       "id": "6e18ca16-3ccf-4e4e-b7bb-be31306d7fb8",
@@ -14560,8 +14645,34 @@
     "richard-gladstein": {
       "id": "869f710a-0b17-4d0d-865f-3e72c3b59f08",
       "name": "Richard Gladstein",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 433,
+          "table": "prisoner_cases",
+          "id": "42994234-7eec-4b75-b69e-7d81bc2b0659",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "supreme",
+              "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "appeal",
+              "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "42994234-7eec-4b75-b69e-7d81bc2b0659"
       ],
@@ -14569,17 +14680,51 @@
       "missing_case_fields": {
         "42994234-7eec-4b75-b69e-7d81bc2b0659": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing defense-lawyer contempt sentencing dates and actual custody starts applied from court opinions and published legal research. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch433 audit."
     },
     "louis-mccabe": {
       "id": "d80860b9-dbf9-4c5d-9b96-e9157284771e",
       "name": "Louis McCabe",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 433,
+          "table": "prisoner_cases",
+          "id": "55837b5b-8073-4c4d-8271-61760f9230ec",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "supreme",
+              "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "appeal",
+              "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "custody",
+              "note": "CatherineFisk, The Fire Last Time, UCDavisLawReview57(2024), printed3013/PDF17 explicitly states all five lawyers voluntarily surrendered inNewYorkCity April24,1952, citingStanleyKutlerpage164; team individually identified printed3006/PDF10. Original research article page visually inspected. ContemporaryNationalGuardianMay8,1952page3 independently identifies all five and confirms actual jail entry the prior month. Exact date fromFisk, not inferred from order to surrender."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "55837b5b-8073-4c4d-8271-61760f9230ec"
       ],
@@ -14587,13 +14732,12 @@
       "missing_case_fields": {
         "55837b5b-8073-4c4d-8271-61760f9230ec": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing defense-lawyer contempt sentencing dates and actual custody starts applied from court opinions and published legal research. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch433 audit."
     },
     "james-macinnis": {
       "id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",

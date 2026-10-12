@@ -1,0 +1,17 @@
+Batch 433 live verification — October 12,2026
+Data commit: e373e1fc
+B433-ISOLATED-TEST-OK 355 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B433-OK on all three runs.
+Compared 723 profiles and 852 cases: 50203 unrelated field values preserved; 12 expected fields verified, including five precision metadata values; existing precision entries preserved.
+Seven missing case dates filled across five rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 433 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B433-OK.
+All 5 public profile pages returned HTTP 200. No portraits changed.
+abraham-isserman: sentenced_date=1949-10-14 (day); visible=True
+george-crockett: sentenced_date=1949-10-14 (day); visible=True
+harry-sacher: sentenced_date=1949-10-14 (day); visible=True; incarceration_date=1952-04-24 (day); visible=True
+louis-mccabe: sentenced_date=1949-10-14 (day); visible=True; incarceration_date=1952-04-24 (day); visible=True
+richard-gladstein: sentenced_date=1949-10-14 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
