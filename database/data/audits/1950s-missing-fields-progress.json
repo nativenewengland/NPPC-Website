@@ -12693,13 +12693,31 @@
     "mathew-kennedy": {
       "id": "a7d97eb9-7862-472a-8432-142d5f976736",
       "name": "Mathew Kennedy",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 453,
+          "table": "prisoners",
+          "id": "a7d97eb9-7862-472a-8432-142d5f976736",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "kennedy-photo",
+              "note": "CivilRightsDigitalLibrary item expressly identifies mugshot MathewKennedy arrestnumber7073, February21,1956 Montgomerybusboycott arrest, creator MontgomeryCountySheriffDepartment and MontgomeryCountyArchives. Catalog thumbnail150x199JPEG used unchanged, low resolution disclosed, no upscale/redraw/retouch. Catalog labels InCopyright. Exact arrest day documented but existing February1956/month field preserved; no namesake pianist portrait or genealogy assigned."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9dff0667-acc1-42be-9b35-ca33c68612b1"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -12711,7 +12729,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch453 audit. Unresolved release endpoints remain unknown."
     },
     "c-k-steele": {
       "id": "a9ed21d2-4a1b-47bc-8d99-01cde950fd7c",
@@ -13025,26 +13044,89 @@
     "marie-reed-haug": {
       "id": "936aa42b-0921-4283-93a0-5789f92978f7",
       "name": "Marie Reed Haug",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 453,
+          "table": "prisoners",
+          "id": "936aa42b-0921-4283-93a0-5789f92978f7",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "haug-birth",
+              "note": "Jean Simon contemporary profile, Militant March25,1957 printedp4, original visually inspected, explicitly NewHavenConn June4,1914 and Vassar1935, marriedFred1942, daughter, UE and ProgressiveParty organizer. Exact DOB, not calculated from age."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "haug-death",
+              "note": "Eva Kahana CWRU colleague obituary, ASA Footnotes December2001, explicitly October4,2001. Identity crossmatched through unusual NewHaven1914 birth, Vassar/PhiBetaKappa education and prior union organizer/social activist career. Contemporary Guardian February3,1958p7 also names MarieReedHaug Vassar/PhiBetaKappa. This is the later CWRU sociologist, not a namesake. Exact DOD, populated biography preserved."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "haug-photo",
+              "note": "Militant September9,1957 printedp4 photograph directly captioned MarieReedHaug and FredHaug. Marie is woman on LEFT, husband excluded by exact rectangular crop. Original and crop visually inspected; retained native pixels verified unchanged, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim."
+            }
+          ]
+        },
+        {
+          "batch": 453,
+          "table": "prisoner_cases",
+          "id": "d2f6ffa6-fc4b-47a0-a34e-f8aa460c73ed",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "haug-sentence",
+              "note": "National Guardian April28,1958 printedp3/PDFp5 defense appeal advertisement expressly seven defendants sentenced to eighteen months two months ago, names MarieReedHaug. YEAR1958 only; rounded two-month interval not an exact February sentencing date. January29 conviction is not assumed sentencing date."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "haug-prison",
+              "note": "National Guardian December11,1961 printedp11 Christmas appeal explicitly lists imprisoned TaftHartley victims, Mrs.MarieHaug at AldersonWV. Actual imprisonment established. May1961 source still prospective after appeal, independently bounds admission to1961; YEAR only, no invented May6 physical admission day. Existing eighteen-month duration and populated prose preserved."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "haug-before-prison",
+              "note": "AP report May7,1961 OregonStatesman p1: court ordered Marie to serve first and Fred ten days after her eventual release, proceedings still prospective. Used only with December actual prison address to support1961year; court order not actual admission. No release inferred by adding sentence length."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d2f6ffa6-fc4b-47a0-a34e-f8aa460c73ed"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "d2f6ffa6-fc4b-47a0-a34e-f8aa460c73ed": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch453 audit. Unresolved release endpoints remain unknown."
     },
     "fred-haug": {
       "id": "26172553-1e1e-4269-9ea8-10ff53c62b23",
@@ -14269,20 +14351,38 @@
     "maurice-mccrackin": {
       "id": "efd408fa-3ed7-4a3c-87b1-9273ac31893b",
       "name": "Maurice McCrackin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 453,
+          "table": "prisoners",
+          "id": "efd408fa-3ed7-4a3c-87b1-9273ac31893b",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "mccrackin-photo",
+              "note": "University of Memphis TentCity archive identifies MauriceMcCrackin, source CommercialAppeal November16,1961, UniversityLibraries SpecialCollections. Original image printed caption Rev.MauriceF.McCrackin. Photograph seated writing at desk, exact crop removes lower caption; retained pixels unchanged, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "37ce708a-f371-4734-8fe3-e4f8c07b7ff0"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "37ce708a-f371-4734-8fe3-e4f8c07b7ff0": [
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch453 audit. Unresolved release endpoints remain unknown."
     },
     "emmett-calvin-brown": {
       "id": "613c5740-104b-4891-bd6b-48056bbdd021",
@@ -19344,14 +19444,31 @@
     "maurice-hyman-halperin": {
       "id": "eb36a58a-40dd-4c1b-bf39-bc16ed8f8d42",
       "name": "Maurice Hyman Halperin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 453,
+          "table": "prisoners",
+          "id": "eb36a58a-40dd-4c1b-bf39-bc16ed8f8d42",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "halperin-photo",
+              "note": "WashingtonEveningStar August31,1960 clipping in NARA released file104-10172-10112 PDFp6, original caption MAURICEH.HALPERIN and APPhoto credit. Exact crop of original high-contrast scanned photograph, original retained binary pixels unchanged; no illustration/redraw/retouch/upscale. AssociatedPress photograph, no public-domain claim merely because archived by NARA. Separate later SFUComment illustration excluded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a3362ae9-df32-480e-bd25-24a3ad1481d8"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "a3362ae9-df32-480e-bd25-24a3ad1481d8": [
           "arrest_date",
@@ -19359,7 +19476,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch453 audit. Unresolved release endpoints remain unknown."
     },
     "morris-cohen": {
       "id": "fa57bb0e-9b15-4881-8f40-be0765564524",

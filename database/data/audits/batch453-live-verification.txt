@@ -1,0 +1,16 @@
+Batch 453 live verification — October 12,2026
+Data commit: 53d16a39
+B453-ISOLATED-TEST-OK 219 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B453-OK on all three runs.
+Compared 723 profiles and 852 cases: 50205 unrelated field values preserved; 10 expected fields verified, including two precision metadata values; existing precision entries preserved.
+Four missing dates and four identified portraits filled across four existing profiles. Marie Reed Haug birth/death dates have day precision; sentencing1958 and incarceration1961 have YEAR precision. No physical release endpoint inferred. Mathew Kennedy low-resolution archival JPEG retained unchanged; his populated arrest month preserved. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 453 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B453-OK.
+All 4 public profile pages returned HTTP 200. Four portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+marie-reed-haug: birthdate=1914-06-04 (day); visible=True; death_date=2001-10-04 (day); visible=True; portrait renders and HTTP image checksum matches; sentenced_date=1958-01-01 (year); visible=True; incarceration_date=1961-01-01 (year); visible=True
+mathew-kennedy: portrait renders and HTTP image checksum matches
+maurice-hyman-halperin: portrait renders and HTTP image checksum matches
+maurice-mccrackin: portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
