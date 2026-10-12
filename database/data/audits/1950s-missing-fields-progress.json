@@ -6442,8 +6442,27 @@
     "dorothy-forest": {
       "id": "a03bdd51-e253-4c9a-aa1c-7a747a8ff02a",
       "name": "Dorothy Forest",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 430,
+          "table": "prisoner_cases",
+          "id": "dba09f5d-986a-4531-85dd-86076c74bed9",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "doj",
+              "note": "U.S.AttorneysBulletin June25,1954, PDFpage5/printedpage4, explicitly separates May28 conviction from June4 sentencing in UnitedStatesvJamesForest. Names DorothyForest among the five and reports her three-year sentence. Original PDF visually checked."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "dba09f5d-986a-4531-85dd-86076c74bed9"
       ],
@@ -6454,19 +6473,38 @@
       ],
       "missing_case_fields": {
         "dba09f5d-986a-4531-85dd-86076c74bed9": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest or sentence date applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch430 audit."
     },
     "marcus-a-murphy": {
       "id": "95b921bd-585b-4641-8b49-bb01338f5320",
       "name": "Marcus A. Murphy",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 430,
+          "table": "prisoner_cases",
+          "id": "42ee0ea3-d684-44c3-8b7b-b52aec46ebed",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "arrests",
+              "note": "PampaDailyNews WednesdaySeptember17,1952 frontpage AssociatedPress roundup explicitly says arrests announced today and individually names MarcusAlphonseMurphy, arrested at his farm nearCharleston,Missouri. Name, MissouriCommunistParty role and StLouisSmithAct proceeding match. Original PDF and masthead visually checked. Existing prose incorrectly describes1953indictment; populated prose preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "42ee0ea3-d684-44c3-8b7b-b52aec46ebed"
       ],
@@ -6477,13 +6515,13 @@
       ],
       "missing_case_fields": {
         "42ee0ea3-d684-44c3-8b7b-b52aec46ebed": [
-          "arrest_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest or sentence date applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch430 audit."
     },
     "j-minor-sullivan-iii": {
       "id": "484adcdc-3fc7-4c84-9b83-55372d903851",
@@ -6729,21 +6767,40 @@
     "claude-lightfoot": {
       "id": "2620836a-18e8-45fc-8984-b731bf9f1691",
       "name": "Claude Lightfoot",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 430,
+          "table": "prisoner_cases",
+          "id": "e048d00f-b3f0-4ad0-96c7-fe33a8b7ea03",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lightfoot",
+              "note": "MedfordMailTribune TuesdayFebruary15,1955 printedpage11, UnitedPress report explicitly says JudgePhilipLSullivan sentenced ClaudeLightfoot today to five years and $5000. January26 was the verdict. Original PDF and dated masthead visually checked. Contemporary1955reports show appeal bail; sentence not equated with time served."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e048d00f-b3f0-4ad0-96c7-fe33a8b7ea03"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "e048d00f-b3f0-4ad0-96c7-fe33a8b7ea03": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest or sentence date applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch430 audit."
     },
     "martha-stone-asher": {
       "id": "4e02393d-b909-4a2a-95f8-98cc66e77110",
@@ -16482,8 +16539,27 @@
     "james-frederick-forest": {
       "id": "bc5f0d9a-d2e2-489e-a721-6ff2e5b9958a",
       "name": "James Frederick Forest",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 430,
+          "table": "prisoner_cases",
+          "id": "48fa862b-ccae-44e7-8378-66233d6bdfe8",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "arrests",
+              "note": "Same dated AssociatedPress frontpage individually names JamesFrederickForest, picked up at home inStLouis. This date belongs to the already separate1952pretrial detention case, not the1954post-sentencing episode. Existing September1952 incarceration at month precision and February1953 bail-release month remain populated and untouched. Original PDF and masthead visually checked."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "48fa862b-ccae-44e7-8378-66233d6bdfe8",
         "f6c103e9-6fcb-4104-9e6e-5cf86d8627f2"
@@ -16491,7 +16567,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "48fa862b-ccae-44e7-8378-66233d6bdfe8": [
-          "arrest_date",
           "sentenced_date",
           "in_exile_since",
           "end_of_exile"
@@ -16501,7 +16576,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest or sentence date applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch430 audit."
     },
     "maurice-hyman-halperin": {
       "id": "eb36a58a-40dd-4c1b-bf39-bc16ed8f8d42",
