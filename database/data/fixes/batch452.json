@@ -1,0 +1,465 @@
+{
+  "batch": 452,
+  "audit_date": "2026-10-12",
+  "expected_count": 13,
+  "sources": {
+    "court": "https://hallapproved.com/fl/cases/supreme/1954/1113246/",
+    "guardian-aug": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-02-6-41-nat-guardian.pdf",
+    "guardian-nov": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-11-29-7-6-nat-guardian.pdf",
+    "jewishlife": "https://ujpfo.org/wp-content/uploads/2023/12/JL_DEC_54.pdf",
+    "max-obituary": "https://www.legacy.com/us/obituaries/herald/name/max-shlafrock-obituary?id=13743979",
+    "small-family": "https://www.colonialfuneralhome.com/obituaries/berthe-small"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "85719809-b2dc-4127-8ed9-5e2519e56285",
+      "prisoner_id": "1ddf802c-8a1b-4fe3-b85a-449c0df21ad7",
+      "name": "Maurice Carroll",
+      "slug": "maurice-carroll",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "26c442b4-70f8-4552-bfc4-262a965d4bfd",
+      "prisoner_id": "cba1542a-9f7a-4918-855c-041ba6997b84",
+      "name": "Jose Carbonell",
+      "slug": "jose-carbonell",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "abf36a0a-d65c-4f32-90f1-853c685938fd",
+      "prisoner_id": "e96c733e-23aa-4cc4-a5d9-ead2eba169e4",
+      "name": "Philip Feldman",
+      "slug": "philip-feldman",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "91a36d0b-a06a-4254-963c-cd0e81dafc63",
+      "prisoner_id": "d2d72532-3762-4deb-9ab0-6c557a66273f",
+      "name": "David Lippert",
+      "slug": "david-lippert",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "372d2f6e-c0f8-419e-ba9f-af0d5f26aa31",
+      "prisoner_id": "c2e33897-a568-48bc-9922-3486ab28d1b6",
+      "name": "Charles Marks",
+      "slug": "charles-marks",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ddaa1b85-e831-453a-8ee9-095540e51c92",
+      "prisoner_id": "708f0e41-eb70-4370-b022-1fbe8e2cf68a",
+      "name": "Walter Marks",
+      "slug": "walter-marks",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "0f68d0b0-b212-4074-8808-c0d229d8bbd9",
+      "prisoner_id": "a65eb676-5e9d-4732-b2f4-b10c93e65fb2",
+      "name": "Mike Shantzek",
+      "slug": "mike-shantzek",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-06-11 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "jewishlife",
+          "note": "LouisHarap, Nightmare in Miami, JewishLifeDecember1954printedp5, original visually inspected: June11MikeShantzek contempt90day sentence byPatCannon; July7CharlesSmolikoff one-yearsentence byGeorgeHolt. Printed June11 visually confirmed (textlayer mistranscribes n). Actualincarceration independently confirmed bycourt; keptYEAR because precisephysicalcommitday not independently established. Same1954proceeding, no sentence-length-to-time-served inference."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "65bb7bf5-03ac-436a-b00e-900f88dcfa5c",
+      "prisoner_id": "914b21a0-a4cc-476f-99cf-c160eb57e5fb",
+      "name": "Max Shlafrock",
+      "slug": "max-shlafrock",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c077dd6d-275e-4b27-a2a9-5696ae0f8080",
+      "prisoner_id": "596041da-8199-4264-bd42-e1120d148821",
+      "name": "Charles Smolikoff",
+      "slug": "charles-smolikoff",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-07-07 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "jewishlife",
+          "note": "LouisHarap, Nightmare in Miami, JewishLifeDecember1954printedp5, original visually inspected: June11MikeShantzek contempt90day sentence byPatCannon; July7CharlesSmolikoff one-yearsentence byGeorgeHolt. Printed June11 visually confirmed (textlayer mistranscribes n). Actualincarceration independently confirmed bycourt; keptYEAR because precisephysicalcommitday not independently established. Same1954proceeding, no sentence-length-to-time-served inference."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5c008fcd-3e09-413f-9e24-9626c5e6f7de",
+      "prisoner_id": "d4aca351-6843-4b55-9d06-4c8c59615d14",
+      "name": "Augusta Birnberg",
+      "slug": "augusta-birnberg",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "51ac1975-cbc1-4e0b-96a3-f5b7d88f3e69",
+      "prisoner_id": "2792ba60-09ab-4e4e-9bfb-925ed9077548",
+      "name": "Emanuel Graff",
+      "slug": "emanuel-graff",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": "[]"
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "State ex rel. Feldman v. Kelly, 76 So.2d798, Florida Supreme Court November19,1954. Primary opinion names this petitioner among14 expressly adjudged in contempt and committed to jail for refusing grandjury political questions. Existing same1954Dadecase identity confirmed. YEAR precision for missing sentence/incarceration, no invented exact commitment day; raw populated case/bio unchanged. Philip/PhilFeldman and Mike/MichaelShantzek are matched by contemporaryoccupation/case, not unrelatednamesakes. MorrisRobinsky already batch451, excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "guardian-nov",
+          "note": "NationalGuardianNovember29,1954printedp3 original visually inspected,14Miamians sentencedtojail, corroborates1954. Newspaper says November21voiding whereas primaryopinion datedNovember19; neither is treated as physicalrelease. No term length or duration added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "914b21a0-a4cc-476f-99cf-c160eb57e5fb",
+      "prisoner_id": "914b21a0-a4cc-476f-99cf-c160eb57e5fb",
+      "name": "Max Shlafrock",
+      "slug": "max-shlafrock",
+      "expected": {
+        "birthdate": null,
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "birthdate": "1909-03-26 00:00:00",
+        "death_date": "2004-09-29 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "max-obituary",
+          "note": "Family obituary published MiamiHeraldOctober2,2004viaLegacy explicitly DOBMarch26,1909inKomorovPoland and DODSeptember29,2004atDouglasGardensMiami. Identity matches Miami1934carpenter/MSConstructioncontractor, JewishCulturalCenterpresident and lifelongpeaceactivist; not same-name inference from genealogy. Both fields previouslynull."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "596041da-8199-4264-bd42-e1120d148821",
+      "prisoner_id": "596041da-8199-4264-bd42-e1120d148821",
+      "name": "Charles Smolikoff",
+      "slug": "charles-smolikoff",
+      "expected": {
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "death_date": "1978-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "small-family",
+          "note": "Family-authored obituary of BertheNehamSmall, ColonialFuneralHome2015, identifies husband CharlesSmall neeSmolikoff, TWUorganizingSouth, bothjailed1954Dadegrandjury, late1954MexicoCitymove and Charlesdeath1978 twice. Alias explicitly corroborated by1954court caption CharlesSmolikoffa/k/aCharlesSmall. YEAR only, no guessed day/month. Photo shown on obituary is BERTHE, not Charles; not attached."
+        }
+      ]
+    }
+  ]
+}
