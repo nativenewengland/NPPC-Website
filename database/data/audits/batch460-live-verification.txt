@@ -1,0 +1,14 @@
+Batch460 live verification — October12,2026
+Data commit: 2f8ed09d
+B460-ISOLATED-TEST-OK 267 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview6; applied6; replay0. B460-OK on all three runs.
+Compared 723 profiles and 852 cases: 19 expected fields (eleven dates, three portraits, five precision metadata), 50195 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+roosevelt-ward: HTTP200; birthdate=1930-05-05 (DAY), visible; death_date=2021-02-20 (DAY), visible; portrait linked, HTTP200, exact SHA256
+roosevelt-ward: HTTP200; sentenced_date=1951-09-10 (DAY), visible; incarceration_date=1951-09-10 (DAY), visible; release_date=1951-10-01 (MONTH), visible
+rodolfo-lozoya: HTTP200; birthdate=1908-01-01 (YEAR), visible; death_date=1984-04-01 (MONTH), visible; portrait linked, HTTP200, exact SHA256
+rosa-lee-ingram: HTTP200; arrest_date=1947-11-01 (MONTH), visible; incarceration_date=1947-11-01 (MONTH), visible; sentenced_date=1948-01-01 (YEAR), visible
+ross-anderson: HTTP200; portrait linked, HTTP200, exact SHA256
+ross-anderson: HTTP200; sentenced_date=1959-07-09 (DAY), visible
+The exhaustive1950s research remains in progress; unresolved findings retained in batch460 audit.

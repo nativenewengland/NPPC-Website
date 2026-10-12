@@ -1973,8 +1973,14 @@
     "robert-thompson": {
       "id": "45a3a17e-2d63-4699-8734-473317128e58",
       "name": "Robert Thompson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "All vitals/portrait/maincase dates populated. Existing1949admission conflicts bail freedom andAugust1953capture; preserved and logged under missing-only scope."
+        }
+      ],
       "case_ids": [
         "de42aef1-0e71-4d09-b18d-4c978c443c5a"
       ],
@@ -1984,7 +1990,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "All vitals/portrait/maincase dates populated. Existing1949admission conflicts bail freedom andAugust1953capture; preserved and logged under missing-only scope."
     },
     "jacob-stachel": {
       "id": "5c525499-2e5b-45bc-bc38-9efb5c212739",
@@ -3168,8 +3175,14 @@
     "rosa-cortez-collazo": {
       "id": "87fd91f6-58a6-44fe-b766-9bab77e8e4c3",
       "name": "Rosa Cortez Collazo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "CUNY Latinas institutional biography confirms1950NYWomenHouseDetention and separate1954Aldersonterm. Custody length/endpoints conflict other accounts; no new dates fabricated, existingDODYEAR1988/portrait retained."
+        }
+      ],
       "case_ids": [
         "ab8a002b-4cd9-48cd-aeca-5c2d2376012d"
       ],
@@ -3181,7 +3194,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "CUNY Latinas institutional biography confirms1950NYWomenHouseDetention and separate1954Aldersonterm. Custody length/endpoints conflict other accounts; no new dates fabricated, existingDODYEAR1988/portrait retained."
     },
     "earl-ward": {
       "id": "f9ab731d-d3e7-400c-bc3e-e292d41439ee",
@@ -3438,21 +3452,49 @@
     "rosa-lee-ingram": {
       "id": "2b8d5ac8-11b9-4517-aca3-70bbbe262ea3",
       "name": "Rosa Lee Ingram",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "table": "prisoner_cases",
+          "id": "d049ab3e-25b6-47b2-a0c0-2e366ae95947",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "sentenced_date"
+              ],
+              "source": "ingram-custody",
+              "note": "Original Militant March15,1948 p1 reproduced archival text explicitly November1947 confrontation, sheriff summoned and arrested RosaLeeIngram/four sons, taken to separate jails and held without bail/trial, then death sentence before February27 execution stayed. MONTHNovember1947 arrest/actual jail, YEAR1948 sentence only. Do not infer exact arrest day from killing date or choose conflicting January26/February3/February7 sentence claims. This case belongs in1950s audit because imprisonment continued until1959. Populated release August26,1959, vitals, portrait and prose preserved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "ingram-history",
+              "note": "New Georgia Encyclopedia historian account confirms death sentence in1948 and subsequent reduction. Specific trial-day claims differ across sources; YEAR1948 only is supported without choosing a disputed day."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d049ab3e-25b6-47b2-a0c0-2e366ae95947"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "d049ab3e-25b6-47b2-a0c0-2e366ae95947": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch460 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "carl-marzani": {
       "id": "793aa345-e02b-4340-b472-e8c1d16c4373",
@@ -3884,8 +3926,14 @@
     "rose-nelson-lightcap": {
       "id": "898bb07b-35ca-4299-99fa-78daa10584ce",
       "name": "Rose Nelson Lightcap",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "ContemporaryLaisveAugust23,1951bail andClaudiaJones1950EllisIsland eyewitness prove confinement butmultiple episodes remain. Do not turn1950arrest–1951bail into continuous interval; exactmissing endpoints/vitals/photo unresolved."
+        }
+      ],
       "case_ids": [
         "3a5d4bd4-350d-4f8b-a4fa-973d51290eca"
       ],
@@ -3902,7 +3950,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ContemporaryLaisveAugust23,1951bail andClaudiaJones1950EllisIsland eyewitness prove confinement butmultiple episodes remain. Do not turn1950arrest–1951bail into continuous interval; exactmissing endpoints/vitals/photo unresolved."
     },
     "manuel-tarazona": {
       "id": "e417067c-eca5-432f-a337-161ac66ad0eb",
@@ -4227,25 +4276,85 @@
     "roosevelt-ward": {
       "id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
       "name": "Roosevelt Ward",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "table": "prisoners",
+          "id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "ward-vitals",
+              "note": "Family-supported official Douglas Turner Ward site explicitly May5,1930 birth and February20,2021 death. Own chronology identifies birth name Roosevelt Ward Jr., parents Roosevelt and Dorothy Short, New Orleans, subsequent draft prosecution and name change. Primary appeal independently names mother Dorothy Ward, New York addresses and same failure-to-notify Selective Service prosecution. Identity matched; no new profile/alias/name change. Official bio misdates Supreme Court reversal1952; original court reversed1953, so its case chronology is not used."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date",
+                "photo"
+              ],
+              "source": "ward-identity",
+              "note": "Chronology published by Ward longtime interviewer Gus Edwards explicitly birth name Roosevelt Ward Jr., May5,1930, Dorothy Short, draft prosecution and subsequent stage name. Court and contemporary New Foundations confirm same New Orleans prosecution. Chronology broad1950 arrest conflicts contemporary1951; no arrest field altered."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "ward-trial-photo",
+              "note": "Original Fall1951 New Foundations printedp6/PDFp8 photograph caption explicitly Roosevelt Ward and same case. Downloaded, original/caption/crop visually inspected. Exact native-width decoded scan crop, no invented pixels; details in CREDITS-batch460.md."
+            }
+          ]
+        },
+        {
+          "batch": 460,
+          "table": "prisoner_cases",
+          "id": "5159f069-dff0-4e21-b1e9-739e9cbe72de",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "ward-trial-photo",
+              "note": "Original Fall1951 New Foundations printedp6/PDFp8, visually inspected, explicitly court morningSeptember10,1951, no jury yet selected; by afternoon Ward was taken away to begin three-year sentence. Page7 describes immediate sentence and increased appeal bond. Actual post-conviction confinement began September10; May31 arrest was followed by bail, so that earlier date is not invented as continuous incarceration."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "ward-release",
+              "note": "Original National Guardian WednesdayOctober17,1951 printedp5, downloaded and visually inspected: New Orleans21-year-old Labor Youth League leader Roosevelt Ward was released last week on15000bail pending appeal of three-year sentence for address notification. MONTHOctober1951 only; exact day not inferred from last week. 1953 appellate reversal is not used as physical release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5159f069-dff0-4e21-b1e9-739e9cbe72de"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "5159f069-dff0-4e21-b1e9-739e9cbe72de": [
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch460 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "robert-michener": {
       "id": "040c3170-6ee4-47f5-ad93-4005779d033d",
@@ -6659,8 +6768,14 @@
     "rosaura-revueltas": {
       "id": "4799f489-cd87-445e-af2e-16a8e5b7f1f9",
       "name": "Rosaura Revueltas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "Profilevitals/photo and immigration-arrest/admission/release populated. No criminal sentence inferred from immigration detention."
+        }
+      ],
       "case_ids": [
         "b69ed895-5b6c-4a54-b1fd-e9ec1aaf5afb"
       ],
@@ -6671,7 +6786,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Profilevitals/photo and immigration-arrest/admission/release populated. No criminal sentence inferred from immigration detention."
     },
     "moses-resnikoff": {
       "id": "ddda01aa-648a-4d3e-b6c5-1103c4fb5c0c",
@@ -9813,8 +9929,14 @@
     "robert-norbert-galvan": {
       "id": "98b14445-0e88-4903-b07e-10398fc20efd",
       "name": "Robert Norbert Galvan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "Official SupremeCourt1953journal November16,p67 grants bail; order alone does not establish actual start/release. No missing death or portrait verified."
+        }
+      ],
       "case_ids": [
         "b8b7c48a-d399-4067-a66e-89ed4f4e7fc0"
       ],
@@ -9831,7 +9953,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Official SupremeCourt1953journal November16,p67 grants bail; order alone does not establish actual start/release. No missing death or portrait verified."
     },
     "manuel-cuevas-diaz": {
       "id": "62537c45-313e-40e4-929b-0ac5116daece",
@@ -10095,7 +10218,6 @@
         "4640c845-7c11-4442-abe8-09d3e42bd9f6"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -13379,8 +13501,14 @@
     "rosa-parks": {
       "id": "df587d8d-7461-4b04-87c0-cdbe47c7374e",
       "name": "Rosa Parks",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "Both episodes and profilevitals/photo populated. No source-backed sentence for second case; missing field not filled with an arrest or action date."
+        }
+      ],
       "case_ids": [
         "c63de650-3c9d-4626-980e-efa0c0879ef6",
         "bc3e1a2c-faea-4638-9825-b179b85641e4"
@@ -13396,7 +13524,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Both episodes and profilevitals/photo populated. No source-backed sentence for second case; missing field not filled with an arrest or action date."
     },
     "e-d-nixon": {
       "id": "de45183f-ff15-43d1-8167-8edc0c832363",
@@ -13649,8 +13778,6 @@
         "a4528c9f-5985-42ad-b0e5-0eccd8c78556"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -13764,16 +13891,41 @@
     "rodolfo-lozoya": {
       "id": "95578df9-52f2-4d4c-a3f4-71239aa8ca76",
       "name": "Rodolfo Lozoya",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "table": "prisoners",
+          "id": "95578df9-52f2-4d4c-a3f4-71239aa8ca76",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "lozoya-history-photo",
+              "note": "Historian Adam Goodman own author-posted peer-reviewed study Barring the Gates, Labor18(1),2021,54-66, PDFp2 explicitly born1908 and raisedDurango; p11 identifies death inApril1984 by matching RodolfoC.Lozoya Social Security Death Index entry (footnote27). Pages1,2,11 visually inspected. Consuelo/seven children/ChicagoUELocal1150/Jan1957Juarez exclusion independently match original1957report and profile. YEARbirth, MONTHdeath; no exactday inferred. Study reproduces letters stating no jail/conviction; no actual custody added."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "lozoya-history-photo",
+              "note": "PDFp1 standalone original785x1055JPEG explicitly captioned Rodolfo Lozoya, courtesy ChicagoHistoryMuseum. Original/caption/crop visually inspected; exact crop removes print border, retained pixels unchanged. Full credit and hashes inCREDITS-batch460.md."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cb143522-ff74-441c-8b86-74a999b57632"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "cb143522-ff74-441c-8b86-74a999b57632": [
           "arrest_date",
@@ -13783,7 +13935,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch460 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "stella-brown": {
       "id": "d13cfced-3d21-4e53-84e9-6db2a2301d10",
@@ -16482,9 +16635,7 @@
         "dd745cb5-31bd-4fd1-99c2-aef0aff54ddb"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "dd745cb5-31bd-4fd1-99c2-aef0aff54ddb": [
@@ -16750,20 +16901,55 @@
     "ross-anderson": {
       "id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
       "name": "Ross Anderson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "table": "prisoners",
+          "id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "anderson-participant-photo",
+              "note": "Participant KarlMeyer own memoir directly captions three marchers KarlMeyer,RossAnderson,A.J.Muste going to MeadmissilegateJuly1,1959. Ross middle marcher isolated from original840x651GIF using exact95x156crop; retained palette/pixels unchanged, no enlargement. Original and crop visually inspected; credit inCREDITS-batch460.md. No birthdate inferred from reported age59."
+            }
+          ]
+        },
+        {
+          "batch": 460,
+          "table": "prisoner_cases",
+          "id": "643693a1-d514-4926-ba7f-c36eed001345",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "anderson-participant-photo",
+              "note": "Direct participant KarlMeyer explicitly names A.J.Muste,RossAnderson and himself firstteamJuly1,1959, immediatearrest and weekjail, followed July9 JudgeRichardRobinson sentencing six months/$500, suspended with one-year probation. Exact sentence day independently distinguished from populated arrest/admission. Subsequent contemporary Militant report says three men held for twice scaling fence, so no physical release endpoint inferred from suspended sentence alone; exact repeated-custody chronology remains unresolved. No sentence text overwritten."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "643693a1-d514-4926-ba7f-c36eed001345",
         "dfd0a1d9-938b-5e32-a128-66eeefb1b459"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "643693a1-d514-4926-ba7f-c36eed001345": [
-          "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -16773,7 +16959,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch460 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "wilmer-young": {
       "id": "b51695c4-d577-4518-b146-816a96982157",
@@ -18062,9 +18249,7 @@
         "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53": [
@@ -18523,8 +18708,14 @@
     "roman-pisito": {
       "id": "63572b1e-0693-4d87-90bc-f577ed07119d",
       "name": "Roman Pisito",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "Civil denaturalization proceeding; no source-confirmed actual custody. Modern genealogy leads lack political identity match. No unsupported vitals/photo copied."
+        }
+      ],
       "case_ids": [
         "aed180bd-67f9-4f99-a446-195a7048c507"
       ],
@@ -18542,7 +18733,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Civil denaturalization proceeding; no source-confirmed actual custody. Modern genealogy leads lack political identity match. No unsupported vitals/photo copied."
     },
     "myer-klig": {
       "id": "d39c73a5-f40f-474f-9c19-8f5191a15aa9",
@@ -18658,8 +18850,7 @@
         "4d5adc16-4ac2-453c-880b-991b8243961d"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate"
+        "photo"
       ],
       "missing_case_fields": {
         "4d5adc16-4ac2-453c-880b-991b8243961d": [
@@ -20380,8 +20571,14 @@
     "robert-t-smith": {
       "id": "d3fe00b8-af58-4088-8f3b-49eb6be96a52",
       "name": "Robert T. Smith",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 460,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary Truitt appellate judgments and original Guardian February27/March26,1952 confirm ten-month appeal custody and suspended retrial sentence. Original sentence/admission/physical release dates unresolved; nearby photograph is HarryTruitt. No dates inferred by subtracting ten months."
+        }
+      ],
       "case_ids": [
         "ddd1803e-f4ec-4651-a9e9-7c4bf1f45678"
       ],
@@ -20398,7 +20595,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary Truitt appellate judgments and original Guardian February27/March26,1952 confirm ten-month appeal custody and suspended retrial sentence. Original sentence/admission/physical release dates unresolved; nearby photograph is HarryTruitt. No dates inferred by subtracting ten months."
     },
     "juan-jaca-hernandez": {
       "id": "61e37a97-c2bf-49ef-afac-458428cf8e87",
