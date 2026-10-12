@@ -1,0 +1,216 @@
+{
+  "batch": 459,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "refugio-birth": "https://www.illinoislaborhistory.org/hall-of-honor-articles/2013",
+    "klonsky-sentence": "https://newspapers.swco.ttu.edu/bitstreams/3c8267a6-92f0-4f66-8fc6-30b527efd57b/download",
+    "klonsky-arrest-context": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0102.pdf",
+    "lardner-sentence": "https://oregonnews.uoregon.edu/lccn/sn90051770/1950-06-29/ed-1/seq-8/",
+    "lardner-confirmation": "https://paperspast.natlib.govt.nz/newspapers/GEST19500701.2.80",
+    "michener-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-03-07-3-20-nat-guardian.pdf",
+    "michener-history": "https://centeronconscience.org/wp-content/uploads/2010/03/Reporter_2019.pdf",
+    "clein-court": "https://law.justia.com/cases/florida/supreme-court/1950/52-so-2d-117-0.html",
+    "clein-grandjury": "https://miamisao.com/wp-content/uploads/2021/02/gj1949f4-1.pdf",
+    "amdur-court": "https://law.justia.com/cases/california/court-of-appeal/2d/123/supp951.html",
+    "amdur-conviction": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-11-22-7-5-nat-guardian.pdf",
+    "ship-portrait-lead": "https://www.albany.edu/jmmh/vol3/investigator/investigator.html",
+    "michener-contemporary-history": "https://www.tandfonline.com/doi/abs/10.1111/j.1540-6563.1951.tb00126.x"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "7cdad867-59d5-450b-80f9-0adf4937d450",
+      "prisoner_id": "7cdad867-59d5-450b-80f9-0adf4937d450",
+      "name": "Refugio Martinez",
+      "slug": "refugio-martinez",
+      "expected": {
+        "date_precision": "{\"death_date\":\"month\"}",
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1903-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"month\",\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "refugio-birth",
+          "note": "Illinois Labor History Society own Hall of Honor biography, historian Emily Pope Obeda, explicitly identifies Refugio Roman Martinez, Villa Cecilia near Tampico, born 1903. Chicago packinghouse organizer, wife and two US-born daughters, lawyer Eugene Cotton and 1953 deportation independently match existing profile. YEAR precision only; no day/month inferred. Populated May 1953 death preserved; exact custody remains unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "f59a46e1-e554-4ecc-9471-1aa2c022337c",
+      "prisoner_id": "578c7a2b-03eb-4490-aef5-a193e78aead8",
+      "name": "Robert Klonsky",
+      "slug": "robert-klonsky",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1955-06-20 00:00:00",
+        "incarceration_date": "1955-06-20 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "klonsky-sentence",
+          "note": "Original Big Spring Herald Tuesday June21,1955 printed p4 AP Philadelphia report, downloaded and visually inspected: Judge J.Cullen Ganey sentenced nine defendants yesterday and ordered immediate imprisonment after rejecting appeal bail. Individually names Robert Klonsky among two-year recipients. Thus June20,1955 sentencing and immediate actual custody, not the 1954 conviction year. Existing August1953 arrest and narrative preserved. No physical release date inferred from 1958 withdrawal; full-populated-field conflict logged."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "klonsky-arrest-context",
+          "note": "Official DOJ US Attorneys Bulletin August21,1953 p5 identifies Robert Klonsky alias Robert Kirby, Philadelphia organizational secretary, arrested Brighton Massachusetts August13 and included in superseding nine-person indictment. Matches the same person and proceeding; populated MONTH August1953 arrest not overwritten or refined."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "56c7644e-f745-49c3-9c5d-90dd1d364f97",
+      "prisoner_id": "af01ad79-59cc-4843-8444-114e1091456c",
+      "name": "Ring Lardner Jr.",
+      "slug": "ring-lardner-jr",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1950-06-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lardner-sentence",
+          "note": "Original Bend Bulletin Thursday June29,1950 p8 UnitedPress Washington dispatch, downloaded/visually inspected, identifies Ring Lardner Jr and one-year sentence/fine imposed today. Article has Cole/Scott substitution in adjacent sentence; separate contemporary report confirms Lardner individually. Existing incarceration and MONTH April1951 release preserved; no arrest date inferred from subpoena or contempt citation."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lardner-confirmation",
+          "note": "Original Greymouth Evening Star July1,1950 p6 Washington June29 dispatch explicitly names Ring Lardner Jr among four writers sentenced to one year and $1000. Indexed archival text read, not claimed locally downloaded. Independently confirms June29 sentencing despite Bend article adjoining names error."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "15991e10-c0d9-48a1-a85a-f065b2667455",
+      "prisoner_id": "040c3170-6ee4-47f5-ad93-4005779d033d",
+      "name": "Robert Michener",
+      "slug": "robert-michener",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "michener-sentence",
+          "note": "Original National Guardian March7,1951 p9, downloaded/visually inspected: individually identifies nineteen-year-old Quaker Drake student Robert Michener, Topeka federal ten-year sentence for religious draft resistance. YEAR1951 only. Contemporary historian specifies February25,1951 but original day not independently verified; exact day not asserted. No DOB calculated from age, and no actual admission or release date invented."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "michener-history",
+          "note": "Center on Conscience and War own Reporter Fall2019 p8, downloaded/visually inspected: separate earlier non-registration year-and-day term served, followed by three-count reprosecution, two consecutive five-year terms originally and later all concurrent. Do not combine episodes or infer ten years actually served. Existing ten-year imposed sentence and case prose preserved; later reduction and actual endpoints unresolved."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "michener-contemporary-history",
+          "note": "Contemporary 1951 historian article Religious Freedom in American History explicitly identifies February25,1951 ten-year Kansas sentence, citing ACLU April9,1951 bulletin, CCCO March1951 NewsNotes and March1951 press. Confirms YEAR1951; exact February25 day not adopted without independent original-day verification."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "69bda98d-47e6-480f-bdc9-c075ab9c48a2",
+      "prisoner_id": "c6067984-1d73-49b7-81fd-04085ccc5ab7",
+      "name": "Reubin Clein",
+      "slug": "reubin-clein",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1950-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "clein-court",
+          "note": "Full Florida Supreme Court primary opinion Clein v State52So2d117, December8,1950: refusal before grand jury February7,1950, subsequent hearing imposed thirty days Dade County jail, appeal affirmed. Establishes original sentence within1950 but no exact sentencing day. YEAR1950 only; February7 subpoena/hearing request not assigned as arrest or physical jail admission. Existing portrait, birth/death, sentence and prose preserved."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "clein-grandjury",
+          "note": "Dade County grand jury own final report p3, indexed primary text read, separately confirms thirty-day county-jail contempt sentence following January28/February4,1950 MiamiLife stories. Direct original download403; no claimed visual inspection. Does not establish physical start/release dates."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "9e4d7122-217d-4dce-8360-ce7753811fd5",
+      "prisoner_id": "e8c39da3-4b88-45b1-8117-ae154d782274",
+      "name": "Reuel Amdur",
+      "slug": "reuel-amdur",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "arrest_date": "1953-02-01 00:00:00",
+        "sentenced_date": "1953-02-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "source": "amdur-court",
+          "note": "Full primary People v Amdur123CalApp2dSupp951,267P2d445 (Feb23,1954): February6,1953 table action, threatened arrest, subsequent actual arrest and conviction, $25 fine with contingent one day per unpaid $5. Read together with contemporary report identifying original conviction in February1953 establishes both milestones within that month; exact arrest/sentence day not asserted. Conditional nonpayment jail order does not prove a jail term. No incarceration or release dates invented."
+        },
+        {
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "source": "amdur-conviction",
+          "note": "Original National Guardian November22,1954 p6, downloaded/visually inspected, explicitly February1953 original conviction and later acquittal. MONTH February1953 only for earlier arrest and fine imposed at original conviction, not 1954 appellate judgment or acquittal. Nearby Morton Sobell photograph is a different man, excluded."
+        }
+      ]
+    }
+  ]
+}
