@@ -1,0 +1,140 @@
+{
+  "batch": 440,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "west-rutgers": "https://archives.libraries.rutgers.edu/repositories/11/resources/779",
+    "west-obit": "https://www.peoplesworld.org/article/jim-west-91-communist-leader/",
+    "west-uw": "https://depts.washington.edu/labhist/cpproject/west_interview.shtml",
+    "west-doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0604.pdf",
+    "macinnis-vitals": "https://sfgov.legistar.com/View.ashx?GUID=3FCB9649-59B3-4766-BBE7-E2D70DC192B8&ID=4988367&M=F",
+    "macinnis-identity": "https://archive.ilwu.org/wp-content/uploads/2015/02/19500317.pdf",
+    "macinnis-court": "https://law.justia.com/cases/federal/appellate-courts/F2/191/157/91746/"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
+      "prisoner_id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
+      "slug": "james-west",
+      "name": "James West",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1914-01-08 00:00:00",
+        "death_date": "2005-03-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "west-rutgers",
+          "note": "Rutgers MC972 finding aid biographical sketch and chronology explicitly gives January8,1914 birth, identifies CPUSA organizer and Taft-Hartley defendant. UW oral history identifies birth name IsadorWexler and the same prison case."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "west-obit",
+          "note": "April29,2005 obituary says he died last month in Seattle at91. March2005 supported; no exact day supplied. Month precision only. DOBJanuary8,1914 and IsadorWexler corroborate identity; current MayorJimWest namesake excluded."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6c2c3ef0-dd59-415c-b990-daa43c40cc3d",
+      "prisoner_id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
+      "slug": "james-west",
+      "name": "James West",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1957-01-01 00:00:00",
+        "sentenced_date": "1958-02-01 00:00:00",
+        "incarceration_date": "1961-01-01 00:00:00",
+        "release_date": "1962-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"month\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "west-rutgers",
+          "note": "Finding aid chronology explicitly says January1957 arrest, February1958 sentencing,1961 commencement at TerreHaute Federal Penitentiary,1962 completion and release. Exact days unresolved: month/month/year/year precision. Court1959opinion confirms appeal bond; 1958verdict/1961certiorari dates are not custody endpoints. Rutgers states$5000fine versus populated$2500; fine/prose not overwritten."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "west-doj",
+          "note": "DOJ February14,1958 sentencing is tentative, not proof that it occurred that day. Rutgers final chronology establishes February month only. January29 is verdict, not sentencing."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",
+      "prisoner_id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",
+      "slug": "james-macinnis",
+      "name": "James MacInnis",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1913-01-01 00:00:00",
+        "death_date": "1979-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "macinnis-vitals",
+          "note": "SanFrancisco Board February28,2017 packet PDF16/printed4882: original December21,2015 MacInnis,Donner&Koplowitz law-firm letterhead names deceased founder JamesMartinMacInnis(1913-1979). Original PDF page visually checked. Contemporary ILWU March17,1950 pages5-7 identifies JamesMartinMacInnis as Bridges defense counsel; court confirms same case. Year precision only, no day/month asserted."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cb16992f-e5f3-4fb0-8ede-86f68c729b9e",
+      "prisoner_id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",
+      "slug": "james-macinnis",
+      "name": "James MacInnis",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1950-04-04 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "macinnis-court",
+          "note": "NinthCircuit MacInnis v.US191F.2d157 July30,1951 expressly records sentence April4,1950 after Bridges verdict. February1 incident, February2 contempt announcement, February28certificate and March1filing are not sentencing/arrest/custody dates. Three-month sentence upheld, but populated sentence prose preserved. No actual prison entry/release inferred."
+        }
+      ]
+    }
+  ]
+}
