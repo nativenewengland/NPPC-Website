@@ -395,15 +395,22 @@
     "peter-norwood-duberg": {
       "id": "2378e2c4-a9fe-4b87-9b4a-272534769540",
       "name": "Peter Norwood Duberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "UNESCO employment retaliation and Swiss1954asylum not proof of actual arrest or confinement."
+        }
+      ],
       "case_ids": [],
       "missing_profile_fields": [
         "photo",
         "birthdate",
         "death_date"
       ],
-      "missing_case_fields": {}
+      "missing_case_fields": {},
+      "open_research_note": "UNESCO employment retaliation and Swiss1954asylum not proof of actual arrest or confinement."
     },
     "igal-roodenko": {
       "id": "3f9ca9fc-5861-45e7-b145-6d2231b8ac22",
@@ -776,8 +783,14 @@
     "pedro-albizu-campos": {
       "id": "b98baa1c-63c1-4723-bbdf-c42cd44400a5",
       "name": "Pedro Albizu Campos",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "80year sentence in1950case needs individual original judgment; July30,1951trial not assumed sentencing."
+        }
+      ],
       "case_ids": [
         "ced4edef-5ca9-4dbb-b419-0981fb024a73",
         "364d82e6-88c3-4ae4-8892-ee0ffc4e2495",
@@ -801,7 +814,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "80year sentence in1950case needs individual original judgment; July30,1951trial not assumed sentencing."
     },
     "lolita-lebron": {
       "id": "edb258a5-8aa0-4698-a529-3ed6edef5151",
@@ -3390,8 +3404,27 @@
     "peter-harisiades": {
       "id": "bb1b9298-64fe-4bd9-b347-47140ec821bd",
       "name": "Peter Harisiades",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "table": "prisoner_cases",
+          "id": "1b095f08-d637-49e1-9722-eb4f2512318e",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "harisiades-release",
+              "note": "OriginalVilnisEnglishSection printedp2/PDFpage6 header FridayJuly19th1951 (catalog filenameJuly20), AbnerGreen ACPFB executive secretary: Harisiades has been free on5000dollarbail since1949. Explicit actual freedom confirms releaseYEAR1949, matched to existingMay20,1949custody case. No exact day computed from64days or July19bail order; existing duration and start precision preserved. Jan1storage is YEARprecision, not asserted actualJanuary1release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1b095f08-d637-49e1-9722-eb4f2512318e"
       ],
@@ -3401,11 +3434,11 @@
       "missing_case_fields": {
         "1b095f08-d637-49e1-9722-eb4f2512318e": [
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/portraits applied and publicly verified; see batch457 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "david-hyun": {
       "id": "e9de8597-b713-4b60-97a6-ad8e0ea53d74",
@@ -6945,8 +6978,14 @@
     "pelaga-popovska": {
       "id": "2758e048-55db-47d5-980c-8d4b18025197",
       "name": "Pelaga Popovska",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "PopulatedNov1953arrestmonth preserved; missing actual custody endpoints remain unverified."
+        }
+      ],
       "case_ids": [
         "77949bd9-bf4e-46c5-8fc1-460847397b7b"
       ],
@@ -6963,7 +7002,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedNov1953arrestmonth preserved; missing actual custody endpoints remain unverified."
     },
     "petros-lezos": {
       "id": "75857e99-f42f-451c-ae50-c73153b4eb32",
@@ -9843,8 +9883,45 @@
     "pedro-antonio-rios": {
       "id": "72ad12fb-c4b9-4886-811e-a5285724011f",
       "name": "Pedro Antonio Rios",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "table": "prisoners",
+          "id": "72ad12fb-c4b9-4886-811e-a5285724011f",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "rios-photo",
+              "note": "OriginalNationalGuardian February21,1955 printedp9 photograph explicitly captioned PedroAntonioRios. Exact native-scan composite crop; no retouch/resizing. ClavinFuneralHome2015MTAretiree PedroAntonioRios is not established as same man; no vital dates copied from that namesake."
+            }
+          ]
+        },
+        {
+          "batch": 457,
+          "table": "prisoner_cases",
+          "id": "4640c845-7c11-4442-abe8-09d3e42bd9f6",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "rios-sentence",
+              "note": "OriginalNationalGuardian May10,1954 printedp10-11 deathhousecase already sentenced afterMarch1954trial; laterFebruary21,1955printedp9 explicitly April2juryverdict followed by JudgeJonahGoldstein sentence. YEAR1954 established, exact day/month not independently established. May10 is originally scheduled execution, not sentencing; April2 juryverdict not entered as sentencing. June3,1953crime date not borrowed as arrest/admission. No DOB derived from reported age22."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4640c845-7c11-4442-abe8-09d3e42bd9f6"
       ],
@@ -9856,13 +9933,13 @@
       "missing_case_fields": {
         "4640c845-7c11-4442-abe8-09d3e42bd9f6": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/portraits applied and publicly verified; see batch457 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "henry-matthews": {
       "id": "68e10948-52a2-498f-aca1-a59b60758785",
@@ -12212,8 +12289,27 @@
     "pete-seeger": {
       "id": "440e7e7a-523b-4238-b519-7c725856e6a9",
       "name": "Pete Seeger",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "table": "prisoner_cases",
+          "id": "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "seeger-sentence",
+              "note": "Contemporaneous AP NewsReview RoseburgOR TuesdayApril4,1961 printedp2: Seeger sentenced today one year by JudgeThomasFMurphy for1955HUAC contempt. University original page PDF downloaded and visually inspected. This is sentencing day for existing1950s-origin case, not conviction day, physical jail admission or1962appeal reversal. Existing photo/vitals preserved; actual custody endpoints remain unverified."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50"
       ],
@@ -12221,13 +12317,13 @@
       "missing_case_fields": {
         "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/portraits applied and publicly verified; see batch457 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "elliott-sullivan": {
       "id": "087896a2-c0cb-49ce-97ae-cbeb8abf224e",
@@ -12411,8 +12507,14 @@
     "paul-robeson": {
       "id": "f83a38f3-243f-4735-8373-d9c1f86fe6d3",
       "name": "Paul Robeson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "HUAC testimony and passport retaliation not proof of imprisonment; no invented custody endpoints."
+        }
+      ],
       "case_ids": [
         "f5697494-7d2c-4d52-9ca1-028161ded30c"
       ],
@@ -12426,7 +12528,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "HUAC testimony and passport retaliation not proof of imprisonment; no invented custody endpoints."
     },
     "herbert-simpson": {
       "id": "3927e67c-dfdc-4054-b31a-275987be8acb",
@@ -12590,8 +12693,14 @@
     "pauline-feuer": {
       "id": "c53ff25e-eb6e-416e-9dbb-d72ffa5c3cb8",
       "name": "Pauline Feuer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "PrimaryCongressionalRecord May10,1956 contempt citation does not establish jail. Unverified family/namesake vital leads rejected."
+        }
+      ],
       "case_ids": [
         "459d67e5-6cf1-4ac5-a418-08639753af63"
       ],
@@ -12609,7 +12718,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PrimaryCongressionalRecord May10,1956 contempt citation does not establish jail. Unverified family/namesake vital leads rejected."
     },
     "george-e-shibley": {
       "id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
@@ -13255,8 +13365,35 @@
     "peggy-wellman": {
       "id": "1205a937-15f1-46e7-a754-567d8276745a",
       "name": "Peggy Wellman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "table": "prisoners",
+          "id": "1205a937-15f1-46e7-a754-567d8276745a",
+          "fields": [
+            "birthdate",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "wellman-court",
+              "note": "Full253F2d932 opinion: MignonWellman born on or about March25,1912 in VictoriaBC. Approximate day not represented as exact: YEAR1912 only. Original JewishLife January1955 printedp11 first-person PeggyWellman interview independently states born1912BritishColumbia. Mignon/Peggy identity linked by husbandSaul/family and1956HUAC index."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "wellman-interview-photo",
+              "note": "Original printedp12 caption identifies Wellmanfamily left-to-right Vicki,Peggy,Saul,David; exact crop of adultwoman second. Original PDF composite layers decoded at native scan width3248; retained pixels unchanged. No missing custody dates inferred from bail or proceedings."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a4528c9f-5985-42ad-b0e5-0eccd8c78556"
       ],
@@ -13273,7 +13410,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/portraits applied and publicly verified; see batch457 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "rebecca-maisenberg": {
       "id": "33ccc540-3c96-48be-bc6a-2a07b6bc1e76",
@@ -15760,8 +15898,14 @@
     "paul-novick": {
       "id": "a87b38b0-7f3f-4ae0-81ef-82a0ce55570a",
       "name": "Paul Novick",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "Denaturalization proceedings not evidence of actual imprisonment."
+        }
+      ],
       "case_ids": [
         "93bbd737-108b-4f64-a7f0-6ac561aec698"
       ],
@@ -15775,7 +15919,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Denaturalization proceedings not evidence of actual imprisonment."
     },
     "charles-collins": {
       "id": "13a812a1-7165-4bc3-9d50-70b3032bfd4d",
@@ -16024,8 +16169,43 @@
     "perry-mackay-sturges-jr": {
       "id": "a9263341-950e-42b7-9034-5ab03b02df2b",
       "name": "Perry MacKay Sturges Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "table": "prisoners",
+          "id": "a9263341-950e-42b7-9034-5ab03b02df2b",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "sturges-obituary",
+              "note": "School own alumni obituary PDSJournal Fall1993 printedp45/PDFpage47, downloaded and original visually inspected: class1939 PerryMackaySturges diedMay11,1993, formerPackerCollegiate history/socialsciencechair, sisterJulieSturgesOConnor MFS43. MotherJuliaGreenSturges family obituary independently links sonPerryJr died1993, sisterJuliaSturgesOConnor and civil-rights arrest inSouth; not confused with fatherPerrySr."
+            },
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "sturges-genealogy",
+              "note": "Family primary compilation JohnDismukesGreen, TheUnionoftheGreenandDismukesFamilies1960, PDFpage11 genealogychart explicitly PerryMacKaySturgesJr1924, sistersJuliaAnne1925 andCarySutherland1930. Indexed original PDF text read; direct-download/screenshot failed, no claimed visual inspection. Same parent/sibling family independently identified by mother obituary; YEAR1924 only, no exact birthday inferred."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "sturges-family",
+              "note": "Family obituary motherJuliaGreenSturges1904 marriedPerryMacKaySturges1923; childrenPerryJr died1993, JuliaSturgesOConnor andCarySturgesBurns. Explicit civil-rights arrest inSouth matches existing profile. Obituary1960s summary not used to overwrite populated1959case dates."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "dd745cb5-31bd-4fd1-99c2-aef0aff54ddb"
       ],
@@ -16040,7 +16220,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/portraits applied and publicly verified; see batch457 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "theodore-gibson": {
       "id": "80aa1eb0-7ff6-4c7b-8f39-537079b705e4",
@@ -17852,8 +18033,14 @@
     "pete-carbonay": {
       "id": "4c2f6157-16f8-477d-a142-72dad2b95c74",
       "name": "Pete Carbonay",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "ILWU March16,1951 original paper explicitly freeonbail; undated earlier admission cannot be dated from this. Five pictured men are different people."
+        }
+      ],
       "case_ids": [
         "12b71b51-6cd9-4027-a8cf-774725723cfa"
       ],
@@ -17870,7 +18057,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ILWU March16,1951 original paper explicitly freeonbail; undated earlier admission cannot be dated from this. Five pictured men are different people."
     },
     "constancio-cargado": {
       "id": "e4858452-1e43-45a2-b2e9-5c2b3f2d0db6",
@@ -18023,8 +18211,14 @@
     "peter-warhol": {
       "id": "15da5a77-b03f-43b7-91bc-627c457b71f1",
       "name": "Peter Warhol",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "New primaryPoliticalAffairs December1949printedp71 names him among held unionists, contrary to populated narrative. Admission year not established; secondarySeptember1947lead needs primary date. No1949start manufactured."
+        }
+      ],
       "case_ids": [
         "a7883b2f-64d3-468d-bf37-916c25258dd6"
       ],
@@ -18042,7 +18236,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "New primaryPoliticalAffairs December1949printedp71 names him among held unionists, contrary to populated narrative. Admission year not established; secondarySeptember1947lead needs primary date. No1949start manufactured."
     },
     "refugio-martinez": {
       "id": "7cdad867-59d5-450b-80f9-0adf4937d450",
@@ -21035,8 +21230,14 @@
     "pedro-aviles-vargas": {
       "id": "6d577de8-ad8c-458a-a746-50f6ed4e27cf",
       "name": "Pedro Aviles Vargas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 457,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated1955sentence year preserved; individual arrest date not established from generic group prosecution."
+        }
+      ],
       "case_ids": [
         "b314e155-4e15-49a4-aa33-0a9e30f86a85"
       ],
@@ -21053,7 +21254,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated1955sentence year preserved; individual arrest date not established from generic group prosecution."
     },
     "julio-flores-medina": {
       "id": "c63177ab-e640-482e-a2f7-4d10ca6a1de7",
