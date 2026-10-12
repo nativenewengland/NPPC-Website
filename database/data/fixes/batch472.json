@@ -1,0 +1,234 @@
+{
+  "batch": 472,
+  "audit_date": "2026-10-12",
+  "expected_count": 7,
+  "sources": {
+    "bown-born": "https://www.ojp.gov/redirect-legacy/ncjrs/pdffiles1/Digitization/13357NCJRS.pdf",
+    "bown-obit": "https://albavolunteer.org/wp-content/uploads/2012/06/Volunteer2012-2-web.pdf",
+    "bown-custody": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-02-21-7-18-nat-guardian.pdf",
+    "lubka": "https://www.peoplesworld.org/article/lewis-lubka-90-north-dakota-peace-activist-and-communist/",
+    "lubka-family": "https://boulgerfuneralhome.com/obits/lewis-lubka/",
+    "lubka-image": "https://www.peoplesworld.org/wp-content/uploads/2017/01/LewLubkaMugshot309x500.jpg",
+    "carlos-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-16-6-43-nat-guardian.pdf",
+    "carlos-death": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-23-6-44-nat-guardian.pdf",
+    "kwak-birth": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003344410",
+    "kwak-custody": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-03-29-6-23-nat-guardian.pdf",
+    "ullmann-born": "https://www.govinfo.gov/content/pkg/GOVPUB-Y1_3-a64e3a438dd91dc07fd343d7dd1ff421/pdf/GOVPUB-Y1_3-a64e3a438dd91dc07fd343d7dd1ff421.pdf",
+    "ullmann-case": "https://www.govinfo.gov/content/pkg/USREPORTS-350/pdf/USREPORTS-350-422.pdf",
+    "ullmann-end": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0413.pdf",
+    "hupman-doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0203.pdf",
+    "hupman-news": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-02-01-6-15-nat-guardian.pdf",
+    "fried": "https://library.buffalostate.edu/archives/fried",
+    "maheney": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-04-19-6-26-nat-guardian.pdf",
+    "irma": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-01-25-6-14-nat-guardian.pdf",
+    "giles": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-12-13-7-8-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
+      "prisoner_id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
+      "name": "Vernon Bown",
+      "slug": "vernon-bown",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1917-10-14 00:00:00",
+        "death_date": "2012-03-23 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "bown-born",
+          "note": "Original congressional RevolutionaryUnion report printedp132/PDFp146 identifies VernonWilburtBaun, also spelledBown, bornOctober14,1917 EvergreenWisconsin. Fuller-name/alias and Wisconsin veteran identity corroborated by own ALBA son-reported obituary1917-2012; existing name retained."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "bown-obit",
+          "note": "Own ALBA TheVolunteer June2012 printedp22 obituary, PeterCarroll quoting sonRicardo, states diedMarch23 at MartinezVAhospital, heading1917-2012; Louisvilleguard and SpanishCivilWar veteran identity explicit."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "9b240bf4-7b5e-49a8-ba84-da4b5ea8c59b",
+      "prisoner_id": "9b240bf4-7b5e-49a8-ba84-da4b5ea8c59b",
+      "name": "Lewis Lubka",
+      "slug": "lewis-lubka",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1926-07-14 00:00:00",
+        "death_date": "2017-01-06 00:00:00",
+        "photo": "prisoners/lewis-lubka-original-booking-photo-batch472.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "photo"
+          ],
+          "source": "lubka",
+          "note": "Original movement obituary by PatrickFoote explicitly bornJuly14,1926 Bronx; names LouisvilleWade armedguard, NDSUprofessor and lifelongCPUSA activist. Historical named booking photo included. No physical custody endpoints inferred from image or indictment."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "lubka-family",
+          "note": "Family funeral-home notice expressly passedawayJanuary6,2017, born1926 NYC,90,NDSUprofessor,fourchildren,ninegrandchildren matches movement obituary."
+        }
+      ],
+      "asset": {
+        "file": "lewis-lubka-original-booking-photo-batch472.png",
+        "sha256": "c4d594a86668d1e41b2f35221f206e826695c2471d8088c118a4c121f711e658"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "75380b2a-7e95-4eca-a991-6eaeaf7505c0",
+      "prisoner_id": "75380b2a-7e95-4eca-a991-6eaeaf7505c0",
+      "name": "Carlos Soule Echeverria",
+      "slug": "carlos-soule-echeverria",
+      "expected": {
+        "date_precision": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "death_date": "1954-08-01 00:00:00",
+        "photo": "prisoners/carlos-soule-echeverria-national-guardian-batch472.png",
+        "date_precision": "{\"death_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "carlos-death",
+          "note": "Original August23,1954 printedp5 follow-up says died of heartattack still in custody on EllisIsland after plans made lastweek to leave forMexico. August1954 MONTH only; exactday unavailable. Existing biography says allowedMexico but source says diedbeforedeparture: conflict recorded, biography/status/case prose preserved. Death is not release; release_date remains blank."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "carlos-photo",
+          "note": "Original August16,1954 p6 named portrait, exact crop. May28-29 habeas delayed deportation, did not physically release him. No birthday inferred from age54."
+        }
+      ],
+      "asset": {
+        "file": "carlos-soule-echeverria-national-guardian-batch472.png",
+        "sha256": "28d4f716f1551a74bc02d85e0c7f97770114aab356a4f8803f7bde71e2b561c3"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "38175af9-166a-4c4e-9769-3ef1a2ed8925",
+      "prisoner_id": "38175af9-166a-4c4e-9769-3ef1a2ed8925",
+      "name": "Chungsoon Kwak",
+      "slug": "chungsoon-kwak",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1912-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "kwak-birth",
+          "note": "Original2026 peer-reviewed research by ChangJeongYoun, KoreanJournalofArtsStudies52 pp147-173 DOI10.20976/kjas.2026..52.007, author abstract explicitly identifies violinist ChungsoonKwak1912-after1956 and cellistbrotherChungsun1916-2011. YEAR1912 only; no brother death imported. Contemporary Guardian confirms Pyongyangviolinist and USstudy identity; existing photo retained."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "bde555ff-2908-4cb8-93b3-98f197e5359e",
+      "prisoner_id": "bde555ff-2908-4cb8-93b3-98f197e5359e",
+      "name": "William Ullman",
+      "slug": "william-ullman",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1908-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "ullmann-born",
+          "note": "Original1953 Senate TransferofOccupationCurrencyPlates espionage hearing printedp39/PDFp47, WilliamLudwigUllmann own answer bornSpringfieldMissouri1908. Bentley identifies sameTreasuryfigure. YEAR only; uncited exactAugust14 secondary dates not imported. Brownell immunity-case actual custody endpoints unresolved; current name preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b28190b1-7cfa-47f0-8b01-8a7fc58eaa0a",
+      "prisoner_id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
+      "name": "Vernon Bown",
+      "slug": "vernon-bown",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1954-09-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "bown-custody",
+          "note": "Contemporary original GuardianFebruary21,1955 Louisville report printedp8 explicitly Bown jailedsinceSeptember, stillcountyjail unable10000bond. September1954 MONTH only. No exact arrestday inferred from September24 indictment; ALBA retrospective six-month/1956 release wording internally inconsistent, no releaseadded."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bac04280-db42-4b30-9f9a-5e412f6861d2",
+      "prisoner_id": "b44499b5-400d-414f-abee-415971a77b1e",
+      "name": "Everest Melvin “Red” Hupman",
+      "slug": "everest-melvin-red-hupman",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "hupman-doj",
+          "note": "DOJ own February5,1954 USAttorneysBulletin Vol2No3 PDFpp4-5 reports January15,1954 conviction and concurrentfiveyears plus5000fine; GuardianFebruary1,1954 printedp6 corroborates sentencealreadyimposed. Both do not separately state exact sentence day: conservative YEAR1954 only, January1 storageplaceholder. Convictionday not equatedwithsentenceday. Populated June1955 MONTH actualadmission and April18,1958 parole retained."
+        }
+      ]
+    }
+  ]
+}
