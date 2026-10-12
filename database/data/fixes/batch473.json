@@ -1,0 +1,179 @@
+{
+  "batch": 473,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "estrada": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-05-03-6-28-nat-guardian.pdf",
+    "estrada-followup": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-05-10-6-29-nat-guardian.pdf",
+    "estrada-editorial": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-05-17-6-30-nat-guardian.pdf",
+    "taras": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-11-22-7-5-nat-guardian.pdf",
+    "taras-end": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-12-20-7-9-nat-guardian.pdf",
+    "bridger-colleague": "https://www.nature.com/articles/npp200976",
+    "bridger-family": "https://www.legacy.com/us/obituaries/nytimes/name/wagner-bridger-obituary?id=28816639",
+    "chin-doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0214.pdf",
+    "nelson": "https://law.justia.com/cases/federal/appellate-courts/F2/210/574/393604/",
+    "leff": "https://wwwex.ilo.org/dyn/triblex/triblexmain.fullText?p_judgment_no=15&p_lang=en&p_language_code=EN",
+    "ingram": "https://www.marxists.org/history/usa/pubs/masses-mainstream/1951/v04n11-nov-1951-mm.pdf",
+    "orloff-school": "https://medicine.tulane.edu/sites/default/files/pictures/MedicineSpring2010.pdf",
+    "orloff-association": "https://psychiatryonline.org/doi/10.1176/pn.45.22.psychnews_45_22_025",
+    "callow-family": "https://www.legacy.com/person/blagoy-%28bob%29-l.-callow-58452722",
+    "peress-official": "https://www.congress.gov/84/crecb/1955/01/10/GPO-CRECB-1955-pt1-3.pdf",
+    "roche-death": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1956-01-27.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "41466d7c-e029-4933-85a8-e81ccd0fae6f",
+      "prisoner_id": "41466d7c-e029-4933-85a8-e81ccd0fae6f",
+      "name": "Concepcion Estrada Correa",
+      "slug": "concepcion-estrada-correa",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/concepcion-estrada-correa-national-guardian-batch473.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "estrada",
+          "note": "Original National Guardian May3,1954 printedp9 directly captions CONCEPCION ESTRADA CORREA beneath the portrait. Page and exact crop visually inspected. Composite decoded at native horizontal scan width4204; no resize/retouch. No approximate birthday derived from reported age17."
+        }
+      ],
+      "asset": {
+        "file": "concepcion-estrada-correa-national-guardian-batch473.png",
+        "sha256": "dab9e60e3b146298dd40fe6c84b95414eea82a1355b9554f09ed4c5413e7c1f4"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "74b388f4-4962-4f32-8156-82f3f5b02884",
+      "prisoner_id": "41466d7c-e029-4933-85a8-e81ccd0fae6f",
+      "name": "Concepcion Estrada Correa",
+      "slug": "concepcion-estrada-correa",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "estrada",
+          "note": "Original May3,1954 p9 names all three defendants: April2 jury verdict followed by JudgeJonahGoldstein death sentences. Exact sentencing day/month not independently specified: YEAR1954 only, Jan1 storageplaceholder. May10 scheduled execution is not sentencing; April2 verdict not treated as sentence. June3,1953 crime not borrowed as arrest/admission. Co-defendant Rios already received same conservative sentencing YEAR in batch457; no repeat update."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5a5aa7bd-7ec4-404d-ad2d-929262ab00d0",
+      "prisoner_id": "68e10948-52a2-498f-aca1-a59b60758785",
+      "name": "Henry Matthews",
+      "slug": "henry-matthews",
+      "expected": {
+        "date_precision": "{\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "estrada",
+          "note": "Original May3,1954 p9 names all three defendants: April2 jury verdict followed by JudgeJonahGoldstein death sentences. Exact sentencing day/month not independently specified: YEAR1954 only, Jan1 storageplaceholder. May10 scheduled execution is not sentencing; April2 verdict not treated as sentence. June3,1953 crime not borrowed as arrest/admission. Co-defendant Rios already received same conservative sentencing YEAR in batch457; no repeat update."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ab7081c4-0685-41bd-aa44-3774c16b2f72",
+      "prisoner_id": "b7ad9748-46b8-4686-8782-dfa12eaf4f51",
+      "name": "Taras Bojarchuk",
+      "slug": "taras-bojarchuk",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1954-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "taras",
+          "note": "Contemporary original November22,1954 report explicitly prior EllisIsland detention September1950-November1952, returned there lastAugust, transferred WestStreet threeweeksago. Late episode actual admission August1954 MONTH only. Earlier episode not combined into continuous1950-1954 custody. December20 follow-up attorney GloriaAgrin says finally released bail but does not date physical release; publication date is not release and possible November/December ambiguity retained. Arrest day not inferred from return to detention."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "5afcc5ba-d2af-4f6e-9a39-4426023a69d9",
+      "prisoner_id": "5afcc5ba-d2af-4f6e-9a39-4426023a69d9",
+      "name": "Wagner Bridger",
+      "slug": "wagner-bridger",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "2009-02-10 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "bridger-colleague",
+          "note": "Original colleague GeorgeMSimpson obituary Neuropsychopharmacology34,2786(2009), DOI10.1038/npp.2009.76: diedFebruary10. Downloaded original PDF visually inspected. MedicalCollegePennsylvania/Einstein psychiatrist, MCHR activist, NYU1950MD/Army1953-54 career matches military-retaliation profile."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "bridger-family",
+          "note": "Family NewYorkTimes notice publishedFebruary20,2009 expressly diedFebruary10,2009 FountainHillsAZ; same psychiatry career, wifeRitaHayesBridger/sevenchildren independently corroborate colleague report. BirthJanuary9,1928 in secondary biography/SSDI leads not entered without original identity-specific birth record. No jail date inferred from military discharge."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e1bb2a99-92f7-416a-969a-a80d49d09c62",
+      "prisoner_id": "93100914-86b1-45d1-b13d-4911752d7cd3",
+      "name": "Chin Hong Ming",
+      "slug": "chin-hong-ming",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-06-17 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "chin-doj",
+          "note": "DOJ own USAttorneysBulletin Vol2No14 printedp4/PDFp5 explicitly OnJune17,1954 defendants sentenced, ChinHongMing one year concurrent on eachcount. Original downloaded page visually inspected. Sentence is not physical admission; actual custody and release remain unresolved. Modern MalaysianBuddhist adviser same name excluded."
+        }
+      ]
+    }
+  ]
+}
