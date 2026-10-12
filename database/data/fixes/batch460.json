@@ -1,0 +1,241 @@
+{
+  "batch": 460,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "ward-vitals": "https://www.douglasturnerward.com/about",
+    "ward-identity": "https://douglasturnerward.wordpress.com/2011/03/14/douglas-turner-ward-chronology/",
+    "ward-court": "https://law.justia.com/cases/federal/appellate-courts/F2/195/441/144864/",
+    "ward-trial-photo": "https://www.marxists.org/history/usa/pubs/new-foundations/v05n01-fall-1951-NF.pdf",
+    "ward-release": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-10-17-3-52-nat-guardian.pdf",
+    "lozoya-history-photo": "https://adamsigoodman.com/wp-content/uploads/2026/01/goodman_labor_barring.the_.gates_.lozoya_pre-pub-2021.pdf",
+    "lozoya-original": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-05-13-9-30-nat-guardian.pdf",
+    "ingram-custody": "https://www.marxists.org/history/etol/newspape/themilitant/1948/v12n11/ingram.html",
+    "ingram-court": "https://hallapproved.com/ga/cases/supreme/1948/3406947/",
+    "ingram-history": "https://www.georgiaencyclopedia.org/articles/history-archaeology/rosa-lee-ingram-case/",
+    "anderson-participant-photo": "https://www.endwarlistentoearth.com/banbomb.html",
+    "anderson-photo-file": "https://www.endwarlistentoearth.com/uploads/1/2/4/0/124026309/omaha-1959_orig.gif",
+    "anderson-news": "https://www.marxists.org/history/etol/newspape/themilitant/1959/1959-pathfinder/v23n28-jul-13-1959-mil.pdf",
+    "smith-court": "https://law.justia.com/cases/pennsylvania/supreme-court/1951/369-pa-72-0.html",
+    "smith-history": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-02-27-4-19-nat-guardian.pdf",
+    "smith-retrial": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-03-26-4-23-nat-guardian.pdf",
+    "galvan-bail": "https://www.supremecourt.gov/pdfs/journals/scannedjournals/1953_journal.pdf",
+    "lightcap-bail": "https://www.spauda2.org/laisve/archive/1951/1951-08-23-LAISVE.pdf",
+    "collazo-institution": "https://depthome.brooklyn.cuny.edu/latinashistory/collazorosa.html"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
+      "prisoner_id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
+      "name": "Roosevelt Ward",
+      "slug": "roosevelt-ward",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1930-05-05 00:00:00",
+        "death_date": "2021-02-20 00:00:00",
+        "photo": "prisoners/roosevelt-ward-new-foundations-batch460.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "ward-vitals",
+          "note": "Family-supported official Douglas Turner Ward site explicitly May5,1930 birth and February20,2021 death. Own chronology identifies birth name Roosevelt Ward Jr., parents Roosevelt and Dorothy Short, New Orleans, subsequent draft prosecution and name change. Primary appeal independently names mother Dorothy Ward, New York addresses and same failure-to-notify Selective Service prosecution. Identity matched; no new profile/alias/name change. Official bio misdates Supreme Court reversal1952; original court reversed1953, so its case chronology is not used."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "source": "ward-identity",
+          "note": "Chronology published by Ward longtime interviewer Gus Edwards explicitly birth name Roosevelt Ward Jr., May5,1930, Dorothy Short, draft prosecution and subsequent stage name. Court and contemporary New Foundations confirm same New Orleans prosecution. Chronology broad1950 arrest conflicts contemporary1951; no arrest field altered."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "ward-trial-photo",
+          "note": "Original Fall1951 New Foundations printedp6/PDFp8 photograph caption explicitly Roosevelt Ward and same case. Downloaded, original/caption/crop visually inspected. Exact native-width decoded scan crop, no invented pixels; details in CREDITS-batch460.md."
+        }
+      ],
+      "asset": {
+        "file": "roosevelt-ward-new-foundations-batch460.png",
+        "sha256": "e90ae0be0c45806e2be2f98f03e429aa26fe4fe65c874bd399f209ffb8d004cb"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5159f069-dff0-4e21-b1e9-739e9cbe72de",
+      "prisoner_id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
+      "name": "Roosevelt Ward",
+      "slug": "roosevelt-ward",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-09-10 00:00:00",
+        "incarceration_date": "1951-09-10 00:00:00",
+        "release_date": "1951-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "ward-trial-photo",
+          "note": "Original Fall1951 New Foundations printedp6/PDFp8, visually inspected, explicitly court morningSeptember10,1951, no jury yet selected; by afternoon Ward was taken away to begin three-year sentence. Page7 describes immediate sentence and increased appeal bond. Actual post-conviction confinement began September10; May31 arrest was followed by bail, so that earlier date is not invented as continuous incarceration."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "ward-release",
+          "note": "Original National Guardian WednesdayOctober17,1951 printedp5, downloaded and visually inspected: New Orleans21-year-old Labor Youth League leader Roosevelt Ward was released last week on15000bail pending appeal of three-year sentence for address notification. MONTHOctober1951 only; exact day not inferred from last week. 1953 appellate reversal is not used as physical release."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "95578df9-52f2-4d4c-a3f4-71239aa8ca76",
+      "prisoner_id": "95578df9-52f2-4d4c-a3f4-71239aa8ca76",
+      "name": "Rodolfo Lozoya",
+      "slug": "rodolfo-lozoya",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1908-01-01 00:00:00",
+        "death_date": "1984-04-01 00:00:00",
+        "photo": "prisoners/rodolfo-lozoya-chicago-history-museum-batch460.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "lozoya-history-photo",
+          "note": "Historian Adam Goodman own author-posted peer-reviewed study Barring the Gates, Labor18(1),2021,54-66, PDFp2 explicitly born1908 and raisedDurango; p11 identifies death inApril1984 by matching RodolfoC.Lozoya Social Security Death Index entry (footnote27). Pages1,2,11 visually inspected. Consuelo/seven children/ChicagoUELocal1150/Jan1957Juarez exclusion independently match original1957report and profile. YEARbirth, MONTHdeath; no exactday inferred. Study reproduces letters stating no jail/conviction; no actual custody added."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "lozoya-history-photo",
+          "note": "PDFp1 standalone original785x1055JPEG explicitly captioned Rodolfo Lozoya, courtesy ChicagoHistoryMuseum. Original/caption/crop visually inspected; exact crop removes print border, retained pixels unchanged. Full credit and hashes inCREDITS-batch460.md."
+        }
+      ],
+      "asset": {
+        "file": "rodolfo-lozoya-chicago-history-museum-batch460.png",
+        "sha256": "1a2d21e9c2679699caf6d6f5219417614b142e6975305256a739f0c8dbd82b25"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d049ab3e-25b6-47b2-a0c0-2e366ae95947",
+      "prisoner_id": "2b8d5ac8-11b9-4517-aca3-70bbbe262ea3",
+      "name": "Rosa Lee Ingram",
+      "slug": "rosa-lee-ingram",
+      "expected": {
+        "date_precision": "{\"release_date\":\"day\"}",
+        "arrest_date": null,
+        "incarceration_date": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "arrest_date": "1947-11-01 00:00:00",
+        "incarceration_date": "1947-11-01 00:00:00",
+        "sentenced_date": "1948-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "source": "ingram-custody",
+          "note": "Original Militant March15,1948 p1 reproduced archival text explicitly November1947 confrontation, sheriff summoned and arrested RosaLeeIngram/four sons, taken to separate jails and held without bail/trial, then death sentence before February27 execution stayed. MONTHNovember1947 arrest/actual jail, YEAR1948 sentence only. Do not infer exact arrest day from killing date or choose conflicting January26/February3/February7 sentence claims. This case belongs in1950s audit because imprisonment continued until1959. Populated release August26,1959, vitals, portrait and prose preserved."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "ingram-history",
+          "note": "New Georgia Encyclopedia historian account confirms death sentence in1948 and subsequent reduction. Specific trial-day claims differ across sources; YEAR1948 only is supported without choosing a disputed day."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
+      "prisoner_id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
+      "name": "Ross Anderson",
+      "slug": "ross-anderson",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/ross-anderson-omaha-action-batch460.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "anderson-participant-photo",
+          "note": "Participant KarlMeyer own memoir directly captions three marchers KarlMeyer,RossAnderson,A.J.Muste going to MeadmissilegateJuly1,1959. Ross middle marcher isolated from original840x651GIF using exact95x156crop; retained palette/pixels unchanged, no enlargement. Original and crop visually inspected; credit inCREDITS-batch460.md. No birthdate inferred from reported age59."
+        }
+      ],
+      "asset": {
+        "file": "ross-anderson-omaha-action-batch460.png",
+        "sha256": "a85cb898b1d43d326307a496f595871231579902c561f1293354509f4be1b9f8"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "643693a1-d514-4926-ba7f-c36eed001345",
+      "prisoner_id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
+      "name": "Ross Anderson",
+      "slug": "ross-anderson",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "anderson-participant-photo",
+          "note": "Direct participant KarlMeyer explicitly names A.J.Muste,RossAnderson and himself firstteamJuly1,1959, immediatearrest and weekjail, followed July9 JudgeRichardRobinson sentencing six months/$500, suspended with one-year probation. Exact sentence day independently distinguished from populated arrest/admission. Subsequent contemporary Militant report says three men held for twice scaling fence, so no physical release endpoint inferred from suspended sentence alone; exact repeated-custody chronology remains unresolved. No sentence text overwritten."
+        }
+      ]
+    }
+  ]
+}
