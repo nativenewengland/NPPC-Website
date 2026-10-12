@@ -1,0 +1,259 @@
+{
+  "batch": 467,
+  "audit_date": "2026-10-12",
+  "expected_count": 8,
+  "sources": {
+    "begun-fbi": "https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2008/at_download/file",
+    "begun-guardian": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-08-22-3-44-nat-guardian.pdf",
+    "davis-sentence": "https://oregonnews.uoregon.edu/lccn/sn90051770/1949-10-21/ed-1/seq-1.pdf",
+    "davis-nypl": "https://old-digitalcollections.nypl.org/collections/benjamin-j-davis-papers?filters%5Brights%5D=pd&keywords=",
+    "fine-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-09-24-8-49-nat-guardian.pdf",
+    "ward-photo": "https://oregonnews.uoregon.edu/lccn/sn97071090/1952-04-27/ed-1/seq-9.pdf",
+    "howard-records": "https://uncommonwealth.lva.virginia.gov/blog/2021/02/10/the-martinsville-seven/",
+    "wells-sentence": "https://www.marxists.org/history/usa/pubs/black-panther/03n09-jun%2021%201969.pdf",
+    "wells-release": "https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP08031974.pdf",
+    "wells-footage": "https://diva.sfsu.edu/collections/sfbatv/bundles/217359",
+    "marzani-held": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-04-11-3-25-nat-guardian.pdf",
+    "marzani-record": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1954-pt2/pdf/GPO-CRECB-1954-pt2-8-2.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "f9ab731d-d3e7-400c-bc3e-e292d41439ee",
+      "prisoner_id": "f9ab731d-d3e7-400c-bc3e-e292d41439ee",
+      "name": "Earl Ward",
+      "slug": "earl-ward",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/earl-ward-international-soundphoto-batch467.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "ward-photo",
+          "note": "Medford Mail Tribune Sunday April 27, 1952 printed page 9, original page and crop visually inspected. Caption explicitly identifies convict ringleader Earl Ward signing peace treaty behind Jackson prison bars, watched by guards. Ward is the foreground man holding the pen, not the man behind him or the guard at left. Exact rectangular crop (300,140,435,375) from sole original page JPEG image 2073x2771; output135x235. Retained original decoded pixels unchanged. International Soundphoto credit; rights undetermined, no public-domain claim. No vital dates inferred from age or namesakes."
+        }
+      ],
+      "asset": {
+        "file": "earl-ward-international-soundphoto-batch467.png",
+        "sha256": "1d987e56a106dcebeed2547654371696044e36006b9352c038e1feb8b9e59094"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "23a188fe-e5cd-4d3e-a76f-7b10e0bea76d",
+      "prisoner_id": "65fa0202-83e6-4439-986b-7638441a7728",
+      "name": "Isidore Begun",
+      "slug": "isidore-begun",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1951-08-14 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "begun-fbi",
+          "note": "FBI Claudia Jones file Part08 PDFpage28/printed reportpage10, contemporaneous NY100-81752 report drawing on SDNY criminal docket. Explicitly says Begun was released August14,1951 on10000dollar bail posted by wifeAliceBegun at1406TownsendAvenueBronx. Read indexed original agency text; direct download and image screenshot unavailable, no claimed visual inspection. Search extraction spells August14; raw open OCR gives August lb. Actual release, not a bail-order date or later acquittal. July1951MONTH admission retained without refining prior multiple remands."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "begun-guardian",
+          "note": "Original Guardian August22,1951 printedp5 visually inspected independently confirms Begun was released after bail was raised. Its relative day earlier wording compared with ArnoldJohnson differs from agency explicit August14 and JohnsonAugust16. Discrepancy logged; explicit administrative individual date preferred, not a computed relative day. June29 populated first episode retained; no continuous June-August custody manufactured."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "22d11a4f-81f9-4152-8b51-8ccf9cc5cae9",
+      "prisoner_id": "c92c98c2-9826-4a16-a5ca-48aa4becdb2e",
+      "name": "Benjamin J. Davis Jr.",
+      "slug": "benjamin-j-davis-jr",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-21 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "davis-sentence",
+          "note": "Contemporaneous original BendBulletin October21,1949 printedp1 UP report by H.D.Quigg, also independently original MedfordMailTribune same-dayp1, original pages visually inspected. Ten leaders sentenced today to five years; Davis individually named. This adds sentencing only to existing SmithAct row with actual July2,1951 admission. Populated October13/20 dates in other rows preserved and flagged; conviction day is not copied as sentencing or admission."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "davis-nypl",
+          "note": "NYPL custodian description of Davis own papers distinguishes additional two months in AlleghenyCountyJail following federal term for separate1953contempt. Combined SmithAct-plus-contempt case not given one inferred admission/release interval. Existing conflicting February28/March1 federal releases remain populated and unchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "073d5118-b144-4156-b911-db45ccdaefdc",
+      "prisoner_id": "32da0462-0481-4a4a-9545-09bda70c0f12",
+      "name": "Fred Fine",
+      "slug": "fred-fine",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1956-09-01 00:00:00",
+        "release_date": "1956-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "source": "fine-sentence",
+          "note": "Original Guardian September24,1956 printedp9, visually inspected. Explicit individual Fine four-year sentence by JudgeAlexanderBicks last week; all six were released on bail pending appeal. Both actual sentencing and actual release are established within September1956; exact individual days not found, MONTH precision only. September1 storage placeholders are not claimed dates. Applies missing fields on two existing descriptions of same prosecution; no new row or duplicate created. Populated November1955 arrest, three-year prose,1956conviction and later appellate history retained unchanged; article instead says surrender earlier in1956 and four-year sentence, conflicts logged. July31verdict and1958appeal not mistaken for sentence/admission/release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "30b01ed6-f8b6-48dc-ae1e-24131872c254",
+      "prisoner_id": "32da0462-0481-4a4a-9545-09bda70c0f12",
+      "name": "Fred Fine",
+      "slug": "fred-fine",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1956-09-01 00:00:00",
+        "release_date": "1956-09-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "source": "fine-sentence",
+          "note": "Original Guardian September24,1956 printedp9, visually inspected. Explicit individual Fine four-year sentence by JudgeAlexanderBicks last week; all six were released on bail pending appeal. Both actual sentencing and actual release are established within September1956; exact individual days not found, MONTH precision only. September1 storage placeholders are not claimed dates. Applies missing fields on two existing descriptions of same prosecution; no new row or duplicate created. Populated November1955 arrest, three-year prose,1956conviction and later appellate history retained unchanged; article instead says surrender earlier in1956 and four-year sentence, conflicts logged. July31verdict and1958appeal not mistaken for sentence/admission/release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5beb88f3-0935-4824-95b1-734009de7241",
+      "prisoner_id": "f27ac431-a31e-43c4-922c-64e79e4da5a1",
+      "name": "Wesley Robert Wells",
+      "slug": "wesley-robert-wells",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1947-01-01 00:00:00",
+        "release_date": "1974-07-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "wells-sentence",
+          "note": "Original BlackPanther June21,1969 printedp2, own first-person Wells letter February16,1954 and introduction, visually inspected. Explicitly indicted and condemned to death in1947 for prison incident. YEAR1947 only; January1 is storage placeholder. August29deathrow arrival not used as sentencing day. Earlier1942 robbery imprisonment not entered as start of this1947case; no new custody interval created."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "wells-release",
+          "note": "Original BlackPanther August3,1974 printedp3, visually inspected. Interview introduction explicitly says Wells was released on parole from Vacaville prison on July1,1974. Reception/July28plaque not mistaken for release date. Existing birth/deathYEAR precision, photo, prose, commutation and all unrelated fields preserved."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "wells-footage",
+          "note": "SFSU custodian catalog of original KPIX July1,1974 news footage, BelvaDavis, describes Wells walking out of Vacaville with CharlesGarry and LeoBranton. Catalog indexed description read; full video not watched. Independent corroboration of actual release rather than order date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3b57e9b4-8b43-4ad6-a8a8-d60ff51ea943",
+      "prisoner_id": "2c6b82ba-657f-4048-8104-5add9e5ef672",
+      "name": "Howard Hairston",
+      "slug": "howard-hairston",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1951-02-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "howard-records",
+          "note": "Library of Virginia own state-records presentation by senior archivist individually identifies HowardLeeHairston death certificate February2,1951 and penitentiary execution file accession41558Box379Folder7. Actual execution at VirginiaStatePenitentiary terminated custody; release_date used as terminal custody endpoint, NOT freedom or parole. Matches individual already-populated deathdate and other case endpoint. Posthumous2021pardon not release. Existing January1949MONTH arrest, other inconsistent fullcase dates, vitals/photo remain untouched; missing actual admission and individual sentence dates not fabricated from May4institution intake or group trials."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "dc1729b4-efce-420c-8b25-5aa9c3cdccda",
+      "prisoner_id": "793aa345-e02b-4340-b472-e8c1d16c4373",
+      "name": "Carl Marzani",
+      "slug": "carl-marzani",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "marzani-held",
+          "note": "Original Guardian April11,1951 printedp6, visually inspected, explicitly Marzani had already served more than two years and committee seeking immediate parole; still actually incarcerated in1951. Conflicts populated1950August14endpoint in other case, retained unchanged."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "marzani-record",
+          "note": "Original CongressionalRecord House February17,1954 printedp1944/PDF25, visually inspected. Discussion of BureauofPrisons directorJamesVBennett June20,1952testimony states goodtime restored and Marzani actually left institution before June25,1951 GI schooling deadline. Combined with April11,1951 contemporary still-in-custody report establishes actual releaseYEAR1951; exact day/month not established. June25is schooling deadline, not release;1952is testimony date. January1 storageYEAR placeholder. Existing March1949MONTH admission retained."
+        }
+      ]
+    }
+  ]
+}
