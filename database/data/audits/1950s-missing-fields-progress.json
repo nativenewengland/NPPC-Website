@@ -260,8 +260,14 @@
     "joseph-kuzma": {
       "id": "bd988591-4bb1-4f17-9031-7e575bc5b13c",
       "name": "Joseph Kuzma",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "status": "researched; no supported addition",
+          "evidence": "Original July 30, 1953 arrest report visually checked; populated year-precision dates preserved. No birthday inferred from age or unverified obituary namesakes."
+        }
+      ],
       "case_ids": [
         "0abc8f75-c426-4e62-96f8-9eaff4fc7f99"
       ],
@@ -277,7 +283,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original July 30, 1953 arrest report visually checked; populated year-precision dates preserved. No birthday inferred from age or unverified obituary namesakes. See batch444 audit."
     },
     "joseph-roberts": {
       "id": "3e607bd5-f099-45ec-ab91-fb4847692982",
@@ -3484,8 +3491,14 @@
     "john-zydok": {
       "id": "b3855814-dd07-446e-8237-62c91307dc88",
       "name": "John Zydok",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "status": "researched; no supported addition",
+          "evidence": "Court arrest/deportation context reviewed against genealogy namesakes with conflicting arrival/birth years. No independently matched missing vitals or actual physical release date."
+        }
+      ],
       "case_ids": [
         "609c2ad5-7976-4eab-a217-fa3aaccbe04a"
       ],
@@ -3501,7 +3514,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court arrest/deportation context reviewed against genealogy namesakes with conflicting arrival/birth years. No independently matched missing vitals or actual physical release date. See batch444 audit."
     },
     "george-siskind": {
       "id": "5a59bb35-03fb-4cd3-988d-9c3606d56df3",
@@ -6784,8 +6798,14 @@
     "joseph-ranchioni": {
       "id": "98ea5f21-0ceb-4cdb-b0c9-6a369401189e",
       "name": "Joseph Ranchioni",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "status": "researched; no supported addition",
+          "evidence": "Original combined-edition newspaper names Gaetano Rancioni, not Joseph Ranchioni, despite matching religious/Korea narrative. Identity conflict unresolved; no date assigned and existing name/biography preserved."
+        }
+      ],
       "case_ids": [
         "f794984b-3005-4be2-8bd4-b5e41b63aa3f"
       ],
@@ -6803,7 +6823,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original combined-edition newspaper names Gaetano Rancioni, not Joseph Ranchioni, despite matching religious/Korea narrative. Identity conflict unresolved; no date assigned and existing name/biography preserved. See batch444 audit."
     },
     "caroline-foulke-urie": {
       "id": "637e1f5c-3503-4fee-9153-208d5129a900",
@@ -7046,13 +7067,31 @@
     "anna-bary": {
       "id": "be7e57f5-ffcd-4731-b38a-108c0eed02f7",
       "name": "Anna Bary",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoners",
+          "id": "be7e57f5-ffcd-4731-b38a-108c0eed02f7",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "Contemporary caption identifies Anna Bary (seated left). Organizational, location, spouse and Smith Act context match the existing profile. Exact original crop (1870, 4430, 2170, 4900). No custody date inferred from photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1c8211bf-5624-4ed9-872f-222ba7e17952"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -7064,7 +7103,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "lewis-johnson": {
       "id": "d7540ef7-cb0e-414a-96d8-faeaca2f47cb",
@@ -7092,13 +7132,31 @@
     "harold-zepelin": {
       "id": "21fb55f9-7689-48bb-9817-a048c3d415aa",
       "name": "Harold Zepelin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoners",
+          "id": "21fb55f9-7689-48bb-9817-a048c3d415aa",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "Contemporary caption identifies Harold Zepelin (standing third from left). Organizational, location, spouse and Smith Act context match the existing profile. Exact original crop (2320, 3960, 2580, 4380). No custody date inferred from photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ac55c899-e5ac-45ad-8c7b-6f186c08af4a"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -7108,18 +7166,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "maia-scherrer": {
       "id": "d8074b8d-2788-4bc2-a672-03dcd2d184da",
       "name": "Maia Scherrer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoners",
+          "id": "d8074b8d-2788-4bc2-a672-03dcd2d184da",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "Contemporary caption identifies Maia Scherrer (seated right). Organizational, location, spouse and Smith Act context match the existing profile. Exact original crop (2570, 4540, 2880, 4970). No custody date inferred from photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "16185743-cd23-4408-b833-34c40d9720b6"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -7130,18 +7207,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "joseph-w-scherrer": {
       "id": "baf939fb-8c2f-412f-a68a-df1e7e927ea5",
       "name": "Joseph W. Scherrer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoners",
+          "id": "baf939fb-8c2f-412f-a68a-df1e7e927ea5",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "Contemporary caption identifies Joseph W. Scherrer (standing right). Organizational, location, spouse and Smith Act context match the existing profile. Exact original crop (2660, 3950, 2960, 4390). No custody date inferred from photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6f6864ea-3a82-4aa9-a5a4-95461cbfffae"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -7153,18 +7249,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "patricia-blau": {
       "id": "782e6f0e-4de9-43c6-b76d-3a595898bca4",
       "name": "Patricia Blau",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoners",
+          "id": "782e6f0e-4de9-43c6-b76d-3a595898bca4",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "Contemporary caption identifies Patricia Blau (seated center). Organizational, location, spouse and Smith Act context match the existing profile. Exact original crop (2220, 4380, 2550, 4830). No custody date inferred from photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bd06d004-409d-42eb-b681-73693045f4bf"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate"
       ],
       "missing_case_fields": {
@@ -7175,7 +7290,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "claude-lightfoot": {
       "id": "2620836a-18e8-45fc-8984-b731bf9f1691",
@@ -7858,8 +7974,14 @@
     "jose-carbonell": {
       "id": "cba1542a-9f7a-4918-855c-041ba6997b84",
       "name": "Jose Carbonell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "status": "researched; no supported addition",
+          "evidence": "Court discharge order and prior July bail grant do not establish actual physical release. One-year sentence does not prove a year served. Custody endpoints unresolved."
+        }
+      ],
       "case_ids": [
         "26c442b4-70f8-4552-bfc4-262a965d4bfd"
       ],
@@ -7877,7 +7999,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court discharge order and prior July bail grant do not establish actual physical release. One-year sentence does not prove a year served. Custody endpoints unresolved. See batch444 audit."
     },
     "philip-feldman": {
       "id": "e96c733e-23aa-4cc4-a5d9-ead2eba169e4",
@@ -9544,8 +9667,27 @@
     "john-noto": {
       "id": "cc91574c-7244-4000-a63e-ec1ba1586224",
       "name": "John Noto",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 444,
+          "table": "prisoner_cases",
+          "id": "983d1dc3-d6c5-458a-96bc-44a2429b3a56",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "noto-court",
+              "note": "Second Circuit opinion, United States v. John Francis Noto, 226 F.2d 953, October 31, 1955, expressly gives apprehension in Buffalo August 31, 1955. Erie County/Western New York CP organizer and Smith Act membership charge match. Only arrest filled; no separate prison admission or release date inferred from bail litigation."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "983d1dc3-d6c5-458a-96bc-44a2429b3a56"
       ],
@@ -9556,14 +9698,14 @@
       ],
       "missing_case_fields": {
         "983d1dc3-d6c5-458a-96bc-44a2429b3a56": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch444 audit."
     },
     "max-weiss": {
       "id": "6c5b6228-1378-4b5c-866e-179b278294ac",

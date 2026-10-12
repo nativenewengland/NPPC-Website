@@ -1,0 +1,18 @@
+Batch 444 live verification — October 12,2026
+Data commit: 6656915e
+B444-ISOLATED-TEST-OK 299 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview6 matched guarded rows. Applied6 rows; replay0 rows. B444-OK on all three runs.
+Compared 723 profiles and 852 cases: 50207 unrelated field values preserved; 7 expected fields verified, including one precision metadata value; existing precision entries preserved.
+One missing arrest date and five identified photographs filled across six profiles. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 444 repeat live/public check — October 12, 2026
+All 6 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B444-OK.
+All 6 public profile pages returned HTTP 200. All five portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+anna-bary: portrait renders and HTTP image checksum matches
+harold-zepelin: portrait renders and HTTP image checksum matches
+john-noto: arrest_date=1955-08-31 (day); visible=True
+joseph-w-scherrer: portrait renders and HTTP image checksum matches
+maia-scherrer: portrait renders and HTTP image checksum matches
+patricia-blau: portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
