@@ -1,0 +1,135 @@
+{
+  "batch": 424,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "minerich-photo": "https://www.spauda2.org/laisve/archive/1932/1932-07-13-LAISVE.pdf",
+    "minerich-court": "https://law.justia.com/cases/federal/appellate-courts/F2/250/721/43220/",
+    "sentner-photo": "https://oregonnews.uoregon.edu/lccn/2019260070/1949-10-20/ed-1/seq-9/",
+    "sentner-pdf": "https://oregonnews.uoregon.edu/lccn/2019260070/1949-10-20/ed-1/seq-9.pdf",
+    "howard-photo": "https://dlg.usg.edu/record/gsu_labor_2253",
+    "howard-manifest": "https://digitalcollections.library.gsu.edu/iiif/2/labor:2253/manifest.json",
+    "shadowitz-photo": "https://www.worldradiohistory.com/Archive-ITT/40s/ITT-Vol-25-1948-02.pdf"
+  },
+  "expected_count": 4,
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "37415e91-ca50-4edc-84b7-7236284491e7",
+      "prisoner_id": "37415e91-ca50-4edc-84b7-7236284491e7",
+      "slug": "anthony-paul-tony-minerich",
+      "name": "Anthony Paul “Tony” Minerich",
+      "expected": {
+        "photo": null,
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "photo": "prisoners/tony-minerich-laisve-batch424.png",
+        "birthdate": "1903-05-27 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "asset": {
+        "file": "tony-minerich-laisve-batch424.png",
+        "sha256": "74a262d6109740a76b3433549307518c33a2038d509ecd5c70169b9ca3231211"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "minerich-photo",
+          "note": "Laisve, July 13, 1932, page 5, Pioneer Corner: individual headshot explicitly captioned Tony Minerich, described as the miners organizer and Young Communist League speaker. Photographer unnamed."
+        },
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "minerich-court",
+          "note": "250 F.2d 721 gives an explicit chronology beginning with birth on May 27, 1903. The coal-miner organizer and Croatian-language editor is distinct from the Washington coal miner born in 1918."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7317adc8-1106-498f-8cb0-322ab6a1eda7",
+      "prisoner_id": "7317adc8-1106-498f-8cb0-322ab6a1eda7",
+      "slug": "antonia-sentner",
+      "name": "Antonia Sentner",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/antonia-sentner-international-batch424.png"
+      },
+      "asset": {
+        "file": "antonia-sentner-international-batch424.png",
+        "sha256": "5ca3dd2a4eb8cb465113b41303c064ab125f1e993a51c23db42047b080fa0237"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "sentner-photo",
+          "note": "Cottage Grove Sentinel, October 20, 1949, section two page 1 (archive image 9): Faces Deportation photo explicitly identifies Antonia Sentner, wife of St. Louis union leader William Sentner. News-service credit: International; photographer unnamed."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "b63a0587-1ac0-4449-964b-4196f7c272f4",
+      "prisoner_id": "b63a0587-1ac0-4449-964b-4196f7c272f4",
+      "slug": "asbury-howard",
+      "name": "Asbury Howard",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/asbury-howard-gsu-batch424.png"
+      },
+      "asset": {
+        "file": "asbury-howard-gsu-batch424.png",
+        "sha256": "03e3d4aae07f6a1a047548ee5c37d4e0eb731f4436fe32eeedbfafa85b1bdfea"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "howard-photo",
+          "note": "Georgia State University Southern Labor Archives, M. H. Ross Papers L2001-05_087: catalog description identifies Asbury Howard as the second man from the left at a Paul Robeson event at Tuskegee. Photograph date and photographer unspecified."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "08f1b81c-2329-464f-b910-6ee7c1a5323a",
+      "prisoner_id": "08f1b81c-2329-464f-b910-6ee7c1a5323a",
+      "slug": "albert-shadowitz",
+      "name": "Albert Shadowitz",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "update": {
+        "photo": "prisoners/albert-shadowitz-itt-batch424.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "albert-shadowitz-itt-batch424.png",
+        "sha256": "351a47290cb192b24b8d535d3cc9fa08b8b9fa806450d46de35df0fb94d23a47"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "shadowitz-photo",
+          "note": "Electrical Communication, volume 25 number 2, June 1948, printed page 208 (PDF page 105): individual portrait explicitly captioned Albert Shadowitz; contributor biography identifies the Federal Telecommunication Laboratories engineer born in Brooklyn in 1915. Photographer unnamed."
+        }
+      ]
+    }
+  ]
+}
