@@ -10775,8 +10775,14 @@
     "wilbur-maheney": {
       "id": "d732d015-eae2-47d8-ae99-63ba02795864",
       "name": "Wilbur Maheney",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original April19,1954 report says WilburL and wife formerCPUSA, March3 contemptcitation; citation is not arrest or prison sentence. No exactvitals/identifiedportrait or custody endpoints found. Spelling preserved."
+        }
+      ],
       "case_ids": [
         "072ba0be-98ed-415f-8ab0-fcbe8bdcfbf0"
       ],
@@ -10794,13 +10800,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original April19,1954 report says WilburL and wife formerCPUSA, March3 contemptcitation; citation is not arrest or prison sentence. No exactvitals/identifiedportrait or custody endpoints found. Spelling preserved."
     },
     "emanuel-fried": {
       "id": "31217c59-c7e2-4d71-9af2-aa5cafa9792f",
       "name": "Emanuel Fried",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "BuffaloState own archive collection biography describes twoHUACappearances, interview refusal, blacklisting; no verified actualjail. Existing fullvitals/photo preserved. Different EmanuelFried Holocaustsurvivor family photograph excluded."
+        }
+      ],
       "case_ids": [
         "3f685d2a-36f5-494c-aa83-3ce5dee1e98e"
       ],
@@ -10814,19 +10827,38 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "BuffaloState own archive collection biography describes twoHUACappearances, interview refusal, blacklisting; no verified actualjail. Existing fullvitals/photo preserved. Different EmanuelFried Holocaustsurvivor family photograph excluded."
     },
     "william-ullman": {
       "id": "bde555ff-2908-4cb8-93b3-98f197e5359e",
       "name": "William Ullman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoners",
+          "id": "bde555ff-2908-4cb8-93b3-98f197e5359e",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "ullmann-born",
+              "note": "Original1953 Senate TransferofOccupationCurrencyPlates espionage hearing printedp39/PDFp47, WilliamLudwigUllmann own answer bornSpringfieldMissouri1908. Bentley identifies sameTreasuryfigure. YEAR only; uncited exactAugust14 secondary dates not imported. Brownell immunity-case actual custody endpoints unresolved; current name preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c9186989-4dc2-4a34-99ac-deaec3cd636c"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -10838,7 +10870,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "paul-sweezy": {
       "id": "eacb7df8-e94f-4d7f-a836-e9a26304e7f1",
@@ -10882,26 +10915,69 @@
     "vernon-bown": {
       "id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
       "name": "Vernon Bown",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoners",
+          "id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "bown-born",
+              "note": "Original congressional RevolutionaryUnion report printedp132/PDFp146 identifies VernonWilburtBaun, also spelledBown, bornOctober14,1917 EvergreenWisconsin. Fuller-name/alias and Wisconsin veteran identity corroborated by own ALBA son-reported obituary1917-2012; existing name retained."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "bown-obit",
+              "note": "Own ALBA TheVolunteer June2012 printedp22 obituary, PeterCarroll quoting sonRicardo, states diedMarch23 at MartinezVAhospital, heading1917-2012; Louisvilleguard and SpanishCivilWar veteran identity explicit."
+            }
+          ]
+        },
+        {
+          "batch": 472,
+          "table": "prisoner_cases",
+          "id": "b28190b1-7cfa-47f0-8b01-8a7fc58eaa0a",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "bown-custody",
+              "note": "Contemporary original GuardianFebruary21,1955 Louisville report printedp8 explicitly Bown jailedsinceSeptember, stillcountyjail unable10000bond. September1954 MONTH only. No exact arrestday inferred from September24 indictment; ALBA retrospective six-month/1956 release wording internally inconsistent, no releaseadded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b28190b1-7cfa-47f0-8b01-8a7fc58eaa0a"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "b28190b1-7cfa-47f0-8b01-8a7fc58eaa0a": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "larue-spiker": {
       "id": "15d472f6-ead7-48d5-beda-9e4681d7a6aa",
@@ -11001,8 +11077,14 @@
     "i-o-ford": {
       "id": "e0b7d111-ce12-4c03-bdf8-61906c51d8b3",
       "name": "I. O. Ford",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Serious identity conflict: existing profile biography is2003 CaliforniaNationalGuardSgt counterintelligencewhistleblower but attached1954 Braden case is79-year-old retiredLouisvilleriverboatman, original GuardianFebruary21,1955 jailhospital. No1954 custodydates or portrait/vitals attached to unresolved mixedidentity; no bioedit, removal or replacement under missing-onlyscope. Separate reconciliation needed."
+        }
+      ],
       "case_ids": [
         "5f19b412-0f30-420f-bd43-1cfadc212ce1"
       ],
@@ -11020,21 +11102,47 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Serious identity conflict: existing profile biography is2003 CaliforniaNationalGuardSgt counterintelligencewhistleblower but attached1954 Braden case is79-year-old retiredLouisvilleriverboatman, original GuardianFebruary21,1955 jailhospital. No1954 custodydates or portrait/vitals attached to unresolved mixedidentity; no bioedit, removal or replacement under missing-onlyscope. Separate reconciliation needed."
     },
     "lewis-lubka": {
       "id": "9b240bf4-7b5e-49a8-ba84-da4b5ea8c59b",
       "name": "Lewis Lubka",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoners",
+          "id": "9b240bf4-7b5e-49a8-ba84-da4b5ea8c59b",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "photo"
+              ],
+              "source": "lubka",
+              "note": "Original movement obituary by PatrickFoote explicitly bornJuly14,1926 Bronx; names LouisvilleWade armedguard, NDSUprofessor and lifelongCPUSA activist. Historical named booking photo included. No physical custody endpoints inferred from image or indictment."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "lubka-family",
+              "note": "Family funeral-home notice expressly passedawayJanuary6,2017, born1926 NYC,90,NDSUprofessor,fourchildren,ninegrandchildren matches movement obituary."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "85da594d-35d1-400a-acf1-d00da91d0da7"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "85da594d-35d1-400a-acf1-d00da91d0da7": [
           "arrest_date",
@@ -11044,13 +11152,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "giles-cooper": {
       "id": "3c934271-59e9-490e-80a9-8715298a79d5",
       "name": "Giles Cooper",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original December13,1954 Guardian quotes Lexingtonbookseller describing30hours contemptjail, deputies assaulting80yo mother and pressuretotestifyBraden case. Actualjail established but exact start/end/datesvitals/photo absent. Unrelated Britishplaywright/actor portraits excluded."
+        }
+      ],
       "case_ids": [
         "fb7fd99e-08ac-418b-9ad4-7772b038a68c"
       ],
@@ -11068,7 +11183,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original December13,1954 Guardian quotes Lexingtonbookseller describing30hours contemptjail, deputies assaulting80yo mother and pressuretotestifyBraden case. Actualjail established but exact start/end/datesvitals/photo absent. Unrelated Britishplaywright/actor portraits excluded."
     },
     "andrew-wade": {
       "id": "e5bcb271-6fa2-4fa9-b1ba-647730d82161",
@@ -11956,8 +12072,14 @@
     "homer-chase": {
       "id": "b3332a8c-43c8-41c2-b081-44622d80c536",
       "name": "Homer Chase",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "NHBar own2020 historical account identifiesmotherElbaChaseNelson December1953jail and sonHomerwithwife; no proofson held sameinterval. Contemporary December1954 stateprosecution alone notactualcustody. Existingvitals/photo retained, no mothersendpoints imported."
+        }
+      ],
       "case_ids": [
         "a36d4348-725a-497f-a412-688a4b28bc2d"
       ],
@@ -11971,13 +12093,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "NHBar own2020 historical account identifiesmotherElbaChaseNelson December1953jail and sonHomerwithwife; no proofson held sameinterval. Contemporary December1954 stateprosecution alone notactualcustody. Existingvitals/photo retained, no mothersendpoints imported."
     },
     "irma-otto": {
       "id": "c8e0de35-dd06-45c2-a028-829286a7b9b0",
       "name": "Irma Otto",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original January25,1954 Guardian statechair IrmaC.Otto statement invokesNHArticle15; attorneygeneral threatenedcontempt, no actualarrest/commitment established. Subsequent own1951/1960 letters support NHpeaceorganizeridentity, no verifiedvitals/photo. UnrelatedBrazilianIrmaOtto excluded."
+        }
+      ],
       "case_ids": [
         "e609b8ec-8e98-4897-988b-48d425f6bb85"
       ],
@@ -11995,7 +12124,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original January25,1954 Guardian statechair IrmaC.Otto statement invokesNHArticle15; attorneygeneral threatenedcontempt, no actualarrest/commitment established. Subsequent own1951/1960 letters support NHpeaceorganizeridentity, no verifiedvitals/photo. UnrelatedBrazilianIrmaOtto excluded."
     },
     "joe-stern": {
       "id": "b66e35a4-07d1-4937-af6b-9c13a8f0a6a2",
@@ -12031,8 +12161,27 @@
     "everest-melvin-red-hupman": {
       "id": "b44499b5-400d-414f-abee-415971a77b1e",
       "name": "Everest Melvin “Red” Hupman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoner_cases",
+          "id": "bac04280-db42-4b30-9f9a-5e412f6861d2",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hupman-doj",
+              "note": "DOJ own February5,1954 USAttorneysBulletin Vol2No3 PDFpp4-5 reports January15,1954 conviction and concurrentfiveyears plus5000fine; GuardianFebruary1,1954 printedp6 corroborates sentencealreadyimposed. Both do not separately state exact sentence day: conservative YEAR1954 only, January1 storageplaceholder. Convictionday not equatedwithsentenceday. Populated June1955 MONTH actualadmission and April18,1958 parole retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bac04280-db42-4b30-9f9a-5e412f6861d2"
       ],
@@ -12044,17 +12193,23 @@
       "missing_case_fields": {
         "bac04280-db42-4b30-9f9a-5e412f6861d2": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "craig-vincent": {
       "id": "b7339f4b-0c09-4b49-a8e0-9c755c0e2c26",
       "name": "Craig Vincent",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original March29,1954 Guardian dismisses ClintonJencks-trial contemptcitation afterjudge studiescase; not verifiedactualjail. WifeJennyVincent family2016funeral confirmshusband deceased but noexactlife dates. IrisharchitectVincentCraig and modernCraigVincent namesakes excluded."
+        }
+      ],
       "case_ids": [
         "750911ce-f341-4143-8608-9a5c7bf21758"
       ],
@@ -12072,7 +12227,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original March29,1954 Guardian dismisses ClintonJencks-trial contemptcitation afterjudge studiescase; not verifiedactualjail. WifeJennyVincent family2016funeral confirmshusband deceased but noexactlife dates. IrisharchitectVincentCraig and modernCraigVincent namesakes excluded."
     },
     "michael-quill": {
       "id": "330bebf4-6e1b-4e29-9e6d-96ab40d2f017",
@@ -12101,13 +12257,31 @@
     "chungsoon-kwak": {
       "id": "38175af9-166a-4c4e-9769-3ef1a2ed8925",
       "name": "Chungsoon Kwak",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoners",
+          "id": "38175af9-166a-4c4e-9769-3ef1a2ed8925",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "kwak-birth",
+              "note": "Original2026 peer-reviewed research by ChangJeongYoun, KoreanJournalofArtsStudies52 pp147-173 DOI10.20976/kjas.2026..52.007, author abstract explicitly identifies violinist ChungsoonKwak1912-after1956 and cellistbrotherChungsun1916-2011. YEAR1912 only; no brother death imported. Contemporary Guardian confirms Pyongyangviolinist and USstudy identity; existing photo retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6964e4a7-15e2-49e3-af18-c92a5e7609dd"
       ],
       "missing_profile_fields": [
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -12117,13 +12291,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "choon-cha-kwak": {
       "id": "c4b26d10-592c-48c6-8db7-40877ba59dfc",
       "name": "Choon Cha Kwak",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "status": "reviewed, no unsupported additions",
+          "note": "Contemporary March29,1954 couplearticle confirmsSeptember1951 EllisIslandtwo-weekdetention, thenbail; exactrelease day/month maycrossintoOctober, not calculatedfrommonthplaceholder. Existing1913YEARbirth and portrait preserved. BrotherChungsun1916-2011 is different person; no deathdateborrowed."
+        }
+      ],
       "case_ids": [
         "770c3468-879c-4f70-a0c2-954f6082e9d2"
       ],
@@ -12137,20 +12318,46 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Contemporary March29,1954 couplearticle confirmsSeptember1951 EllisIslandtwo-weekdetention, thenbail; exactrelease day/month maycrossintoOctober, not calculatedfrommonthplaceholder. Existing1913YEARbirth and portrait preserved. BrotherChungsun1916-2011 is different person; no deathdateborrowed."
     },
     "carlos-soule-echeverria": {
       "id": "75380b2a-7e95-4eca-a991-6eaeaf7505c0",
       "name": "Carlos Soule Echeverria",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 472,
+          "table": "prisoners",
+          "id": "75380b2a-7e95-4eca-a991-6eaeaf7505c0",
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "carlos-death",
+              "note": "Original August23,1954 printedp5 follow-up says died of heartattack still in custody on EllisIsland after plans made lastweek to leave forMexico. August1954 MONTH only; exactday unavailable. Existing biography says allowedMexico but source says diedbeforedeparture: conflict recorded, biography/status/case prose preserved. Death is not release; release_date remains blank."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "carlos-photo",
+              "note": "Original August16,1954 p6 named portrait, exact crop. May28-29 habeas delayed deportation, did not physically release him. No birthday inferred from age54."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c038b57a-d007-4b8c-90f6-d39650d0f5c8"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "c038b57a-d007-4b8c-90f6-d39650d0f5c8": [
@@ -12159,7 +12366,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch472 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "robert-norbert-galvan": {
       "id": "98b14445-0e88-4903-b07e-10398fc20efd",
