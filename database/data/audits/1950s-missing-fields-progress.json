@@ -4912,8 +4912,34 @@
     "gerhart-eisler": {
       "id": "46261489-a1c2-4f49-8774-a3676e0f8242",
       "name": "Gerhart Eisler",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "a2293cf2-0d5a-462b-8aa0-82c1b38c2497",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "eisler-sentence",
+              "note": "Original Herald and News June27,1947p1 AP Washington same-day report, visually inspected, explicitly Judge Holtzoff imposed one year and1000fine today. June10 is conviction, not sentencing. Existing case combines criminal contempt/passport prosecution and separate immigration detention; sentence not entered as actual jail admission. Existing March6,1948release retained."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "eisler-court",
+              "note": "Original appellate opinion reproduces February4,1947INSarrest and February6custody at HUAC. That episode does not establish start of later1948immigration detention; arrest/admission deliberately remain unresolved rather than creating continuous February1947–March1948 interval. No criminal time served inferred from sentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a2293cf2-0d5a-462b-8aa0-82c1b38c2497"
       ],
@@ -4921,10 +4947,10 @@
       "missing_case_fields": {
         "a2293cf2-0d5a-462b-8aa0-82c1b38c2497": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "peter-harisiades": {
       "id": "bb1b9298-64fe-4bd9-b347-47140ec821bd",
@@ -5291,8 +5317,14 @@
     "george-siskind": {
       "id": "5a59bb35-03fb-4cd3-988d-9c3606d56df3",
       "name": "George Siskind",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "CPUSA original PoliticalAffairs October1948 authored article https://www.bannedthought.net/USA/CPUSA/Periodicals/PoliticalAffairs/1948/PoliticalAffairs-1948-10-OCR-sm.pdf identifies political writer but no verified birth/death/portrait.1930s/1950civil deportation reports do not establish custody. AaronSiskind photographer is different person; modern search namesakes not copied."
+        }
+      ],
       "case_ids": [
         "7d2a61e4-7ceb-420a-9698-b4939b9e3359"
       ],
@@ -5310,7 +5342,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "CPUSA original PoliticalAffairs October1948 authored article https://www.bannedthought.net/USA/CPUSA/Periodicals/PoliticalAffairs/1948/PoliticalAffairs-1948-10-OCR-sm.pdf identifies political writer but no verified birth/death/portrait.1930s/1950civil deportation reports do not establish custody. AaronSiskind photographer is different person; modern search namesakes not copied."
     },
     "rose-nelson-lightcap": {
       "id": "898bb07b-35ca-4299-99fa-78daa10584ce",
@@ -5397,8 +5430,27 @@
     "sol-hertz": {
       "id": "563842ae-60ae-4366-8526-8dd98d65fc09",
       "name": "Sol Hertz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "9e73bafc-0044-4e11-9fe9-e32d15b42776",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "hertz-release",
+              "note": "Original DailyWorker MondayNovember23,1931p2, visually inspected, says SolHertz and AnnaBrooks arrested Thursdayonpicketline and nowoutonbail. Existing November19arrest places actual bail release between November19and23; MONTHNovember1931verified, exact day unresolved. November1storageplaceholder; publication not used as release day. This is existing1931picket case attached to1950sera profile, not later1951deportation proceeding; no custody inferred from deportation order."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9e73bafc-0044-4e11-9fe9-e32d15b42776"
       ],
@@ -5411,17 +5463,23 @@
         "9e73bafc-0044-4e11-9fe9-e32d15b42776": [
           "sentenced_date",
           "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "clinton-jencks": {
       "id": "0d9cc730-79cc-41bb-8554-da627dd12127",
       "name": "Clinton Jencks",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original NewMexico SupremeCourt https://case-law.vlex.com/vid/new-jersey-zinc-co-886116003 and Jencks v.Goforth https://www.casemine.com/judgement/us/5914ca66add7b049347fa2b8 distinguish June12,1951injunction from July23,1951ninety-day suspended contempt sentence and later revocation. Existing case explicitly sixty-day suspended sentence/$100costs conflicts reviewed ninety-day order. Do not attach date to unreconciled punishment; injunction filing is not arrest, suspended sentence not actual admission,1957reversal not release. Vitals/photo full."
+        }
+      ],
       "case_ids": [
         "cdd2b106-7f42-48ec-814f-7ef054e0f98f"
       ],
@@ -5435,7 +5493,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original NewMexico SupremeCourt https://case-law.vlex.com/vid/new-jersey-zinc-co-886116003 and Jencks v.Goforth https://www.casemine.com/judgement/us/5914ca66add7b049347fa2b8 distinguish June12,1951injunction from July23,1951ninety-day suspended contempt sentence and later revocation. Existing case explicitly sixty-day suspended sentence/$100costs conflicts reviewed ninety-day order. Do not attach date to unreconciled punishment; injunction filing is not arrest, suspended sentence not actual admission,1957reversal not release. Vitals/photo full."
     },
     "james-lustig": {
       "id": "67a7ca36-a885-4684-99b2-bf7e56059063",
@@ -5495,13 +5554,31 @@
     "theodore-narusheff": {
       "id": "9cca3d2f-309a-415c-a950-989ee1c8cfff",
       "name": "Theodore Narusheff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoners",
+          "id": "9cca3d2f-309a-415c-a950-989ee1c8cfff",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "narusheff-photo",
+              "note": "Original National Guardian March28,1951 printedp5 explicitly labels right portrait THEODORE NARUSHEFF. Left portrait is Anthony Anastasia and excluded. PDF image layers decoded together at native horizontal scan resolution4368x5617; exact rectangle3020,825,3795,1755 output775x930. Conviction in February1951 does not establish sentence or confinement; no such dates added. Original page and crop visually inspected. Exact retained decoded pixels; no generation, resizing or retouch. Rights undetermined, photographer uncredited in reviewed source."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b74b5b99-6203-4c56-8a9f-4375760c266e"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -5513,7 +5590,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "irving-feiner": {
       "id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
@@ -5567,14 +5645,31 @@
     "charles-nusser": {
       "id": "0c0e9e94-8f1d-4f47-833c-bc574967ca32",
       "name": "Charles Nusser",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoners",
+          "id": "0c0e9e94-8f1d-4f47-833c-bc574967ca32",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "nusser-photo",
+              "note": "Abraham Lincoln Brigade Archives own Pittsburgh volunteers biographical compilation PDFp7, numbered entry15 Charlie Nusser, adjacent single portrait. Sole corresponding image Im13.jpg extracted at136x221; full original pixel rectangle retained. Do not refine populated1914/1993YEAR dates to exact dates in source: missing-only scope. No imprisonment endpoints inferred from Spain service or Army service. Original page and crop visually inspected. Exact retained decoded pixels; no generation, resizing or retouch. Rights undetermined, photographer uncredited in reviewed source."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2c02b8fe-c789-4021-aae2-a2e79af7fbe7"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "2c02b8fe-c789-4021-aae2-a2e79af7fbe7": [
           "sentenced_date",
@@ -5583,7 +5678,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "olava-skottedal": {
       "id": "1c05f3dc-51ca-434e-9342-f7c3aac3a063",
@@ -5618,8 +5714,14 @@
     "martin-robbins": {
       "id": "e47037e3-42f2-4f1a-a6d9-53ee2e00b4bf",
       "name": "Martin Robbins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalGuardian January24,1951p5 https://www.marxists.org/history/usa/pubs/national-guardian/1951-01-24-3-14-nat-guardian.pdf visually inspected says case dormant five months, defendants free without bail, trialcalled December13,1950and500bailfixed. No conviction, actual admission or physical release date established. Never infer continuous July1950–January1951custody or two-year sentence from maximum penalty. No identified portrait/vitals found."
+        }
+      ],
       "case_ids": [
         "d9eae1e6-85d1-4cee-9ad3-1a99bcba5a15"
       ],
@@ -5636,13 +5738,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalGuardian January24,1951p5 https://www.marxists.org/history/usa/pubs/national-guardian/1951-01-24-3-14-nat-guardian.pdf visually inspected says case dormant five months, defendants free without bail, trialcalled December13,1950and500bailfixed. No conviction, actual admission or physical release date established. Never infer continuous July1950–January1951custody or two-year sentence from maximum penalty. No identified portrait/vitals found."
     },
     "eugene-brunner": {
       "id": "933fbc16-40b8-42ee-8a14-ba60e023da47",
       "name": "Eugene Brunner",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "5cbe27c2-4fff-4cd5-879f-b8b5db0738a5",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "brunner-court",
+              "note": "Original Ninth Circuit Brunner v.UnitedStates190F2d167 opinion starts August31,1950 witness testimony and immediate six-month contempt sentence, then reports actual appellate bail release without date. Court-issued sentence only; no actual admission or release day inferred.1951appeal and1952reversal are not sentencing/physical release."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "brunner-archive",
+              "note": "Caltech archive Weinbaum interview includes contemporary newspaper clipping PDFp8 reporting six-month jail order and trial-court bail denial. Bail denial is not sufficient to supply precise physical admission or appellate release dates. Nearby portraits belong to other people, not Brunner."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5cbe27c2-4fff-4cd5-879f-b8b5db0738a5"
       ],
@@ -5654,13 +5783,13 @@
       "missing_case_fields": {
         "5cbe27c2-4fff-4cd5-879f-b8b5db0738a5": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "roosevelt-ward": {
       "id": "cbf23cd0-b262-453b-8ee7-82a47d72df05",
@@ -5846,8 +5975,42 @@
     "theodore-jordan": {
       "id": "3500f7af-e972-4709-9744-4d36a59461aa",
       "name": "Theodore Jordan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "3b559b65-9fee-4314-a494-c9cb85656a25",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "jordan-arrest",
+              "note": "Original NationalGuardian October24,1951p5 visually inspected: June3,1932crime, arrest next day. Subsequent court-text search gives June5 rather thanJune4; MONTHJune1932 only supported across accounts, exact day unresolved. June1 is storage placeholder, not claim. No birth inferred from inconsistent ages."
+            },
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "jordan-held",
+              "note": "Original NewsReview September12,1951p1 AP visually inspected confirms actual holding from June1932. Source differs on victim death timing and trial chronology. Populated1964release conflicts1954parole lead; do not fill incarceration_date and thereby assert uninterrupted1932–1964custody. Preserve prose and endpoint; require interval reconciliation separately."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "jordan-sentence",
+              "note": "Original SanAntonioRegister May18,1934p1 at UniversityNorthTexas portal explicitly Klamath County court death sentence1932. YEAR1932 only; January1 storage placeholder. No trial month or later resentencing assumed original sentence day."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3b559b65-9fee-4314-a494-c9cb85656a25"
       ],
@@ -5858,13 +6021,12 @@
       ],
       "missing_case_fields": {
         "3b559b65-9fee-4314-a494-c9cb85656a25": [
-          "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "mack-ingram": {
       "id": "ee5e0d6c-f034-4d0e-9c6d-c9618aee7ea6",
@@ -5994,8 +6156,14 @@
     "camille-derose": {
       "id": "e81f6b31-41fe-4258-a12a-36bfddd7da42",
       "name": "Camille DeRose",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "ChicagoHistoryMuseum own research https://www.chicagohistory.org/racially-restrictive-covenants-and-the-1951-cicero-race-riot/ identifies September18,1951indictment and1952chargesdropped; neither proves jail. Primary1953ownbook linked at https://livinghistoryofillinois.com/pdf_files/The_Camille_DeRose_Story_1951_Cicero_Race_Riot.pdf web502notinspected. Photos shown are Clarks and Leighton/Hansberry, notDeRose. Genealogy1906/1975namesake lacks political identity corroboration; no dates copied. Mental hospital claim distinct from criminal imprisonment."
+        }
+      ],
       "case_ids": [
         "83442b98-787a-45b8-803c-7dc3f83eece2"
       ],
@@ -6013,7 +6181,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ChicagoHistoryMuseum own research https://www.chicagohistory.org/racially-restrictive-covenants-and-the-1951-cicero-race-riot/ identifies September18,1951indictment and1952chargesdropped; neither proves jail. Primary1953ownbook linked at https://livinghistoryofillinois.com/pdf_files/The_Camille_DeRose_Story_1951_Cicero_Race_Riot.pdf web502notinspected. Photos shown are Clarks and Leighton/Hansberry, notDeRose. Genealogy1906/1975namesake lacks political identity corroboration; no dates copied. Mental hospital claim distinct from criminal imprisonment."
     },
     "norman-silverman": {
       "id": "a30131f1-b9ef-45c6-adfb-cda10f7dfad0",
@@ -6048,8 +6217,14 @@
     "dirk-struik": {
       "id": "5562e2fe-f046-42bf-9a43-408962b3c39e",
       "name": "Dirk Struik",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "First-person Struik interview https://mathshistory.st-andrews.ac.uk/Extras/Struik_interview/ and originalGuardian September19,1951p8 https://www.marxists.org/history/usa/pubs/national-guardian/1951-09-19-3-48-nat-guardian.pdf reviewed: indictment and MITsuspension do not supply actual incarceration. Vitals/photo populated. IllinoisGilbert v.Babb case concerns co-defendant Gilbert actualOctober9arrest/release, notStruik; no dates transferred."
+        }
+      ],
       "case_ids": [
         "bb89840a-42de-4381-bdf1-bdd751e62324"
       ],
@@ -6063,13 +6238,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "First-person Struik interview https://mathshistory.st-andrews.ac.uk/Extras/Struik_interview/ and originalGuardian September19,1951p8 https://www.marxists.org/history/usa/pubs/national-guardian/1951-09-19-3-48-nat-guardian.pdf reviewed: indictment and MITsuspension do not supply actual incarceration. Vitals/photo populated. IllinoisGilbert v.Babb case concerns co-defendant Gilbert actualOctober9arrest/release, notStruik; no dates transferred."
     },
     "harry-winner": {
       "id": "0beb815c-e3f7-49a7-a1ec-620d19a7fd79",
       "name": "Harry Winner",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "status": "reviewed, no unsupported additions",
+          "note": "Same original September19,1951Guardian p8 calls HarryE.Winner rubberfactoryofficial and co-defendant ofStruik. Indictment not actual detention;1956dismissal not release. Both duplicate rows preserved without unverified endpoints. No identity-matched vital dates or portrait; no modern namesake copied."
+        }
+      ],
       "case_ids": [
         "9dd55d28-4c58-4162-9e0c-00f6da651a96",
         "60cf21f3-4721-4124-ab4c-b0bfb6587d8e"
@@ -6096,7 +6278,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Same original September19,1951Guardian p8 calls HarryE.Winner rubberfactoryofficial and co-defendant ofStruik. Indictment not actual detention;1956dismissal not release. Both duplicate rows preserved without unverified endpoints. No identity-matched vital dates or portrait; no modern namesake copied."
     },
     "leon-gilbert": {
       "id": "1a9d591c-a6bb-41e7-9b83-782009977dcd",
@@ -6211,8 +6394,42 @@
     "walter-irvin": {
       "id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
       "name": "Walter Irvin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5",
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "groveland-lawyer",
+              "note": "Columbia own2008account with LDF attorney JackGreenberg interview describes September1949trial and actual original death sentences for Irvin/Shepherd and life for Greenlee. MONTHSeptember1949 only; no September14day copied from other populated row. Original prosecution, not1952retrial or1955commutation. Existing duplicate left separate; no new row."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "groveland-lawyer",
+              "note": "Greenberg interviewed concerning his own defense work explicitly says Irvin finally released1968. YEAR1968 only; January1 storage placeholder. No June14day copied from populated firstcase."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "groveland-state",
+              "note": "Florida StateArchives own collection general note independently describes actual Irvin parole1968. Letter itself is August1,1949pretrial arrangements, not sentence order. General note gives Greenlee1960parole conflicting populated1962, retained unchanged; note also misdates SupremeCourt reversal1950rather than1951, so not used for that event. No unrelated fields changed."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "940440b7-73f8-45ba-a57b-14355f6e3514",
         "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5"
@@ -6224,18 +6441,36 @@
           "end_of_exile"
         ],
         "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5": [
-          "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "charles-greenlee": {
       "id": "a7c6a694-56a9-4316-93f0-2c5c8ce3c976",
       "name": "Charles Greenlee",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 468,
+          "table": "prisoner_cases",
+          "id": "065c8cab-d8a4-4c2d-981f-ba4937f5bd63",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "groveland-lawyer",
+              "note": "Columbia own JackGreenberg account explicitly original September1949trial and life sentence for teenage Greenlee, distinguishes Irvin/Shepherd death sentences. MONTHprecision; September1placeholder, no September14exact day copied from other row. Populated release1962YEAR preserved despite Florida archive general note1960parole; no replacement or additional interval."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b795d80b-2fd4-442d-acb2-6ffc56efb5fe",
         "065c8cab-d8a4-4c2d-981f-ba4937f5bd63"
@@ -6247,11 +6482,11 @@
           "end_of_exile"
         ],
         "065c8cab-d8a4-4c2d-981f-ba4937f5bd63": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch468 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "sang-ryup-park": {
       "id": "b3e961fa-30bb-47c3-965b-1b513fb31a86",
