@@ -578,7 +578,7 @@
     "bayard-rustin": {
       "id": "c696108d-7e14-47de-94de-dc70a5028710",
       "name": "Bayard Rustin",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "478150d9-8d16-4c75-8d94-4f5263afb750",
@@ -601,7 +601,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1953Pasadena release day unresolved; reported50daysserved does not establish exact endpoint by arithmetic. Existing dates preserved."
     },
     "iva-toguri-daquino": {
       "id": "a0cd207b-ebb4-4cb7-95b6-f0db9a34aec5",
@@ -1139,7 +1140,7 @@
     "elizabeth-gurley-flynn": {
       "id": "3293bf0f-b62a-4b99-852f-9f5a5e417a9a",
       "name": "Elizabeth Gurley Flynn",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "3378a7de-97b0-40d9-b470-a3cc98a49d22",
@@ -1163,12 +1164,13 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedJan20,1953 sentence conflicts with originalFeb3,1953 sentencing table and newspaper. Existing fields preserved; no corrections under missing-only scope."
     },
     "pettis-perry": {
       "id": "8b669321-2568-4d96-b99c-04a5e4ad0f61",
       "name": "Pettis Perry",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "da7286cf-25dd-4bff-a9a5-9a17c9e9a5b1"
@@ -1179,81 +1181,212 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedJan20,1953 sentence/start conflicts with originalFeb3 sentence; appeal-bail and later commitment require separate review. Existing fields preserved."
     },
     "alexander-trachtenberg": {
       "id": "006c7df6-5dd6-4744-8735-4f849b52d16e",
       "name": "Alexander Trachtenberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "58010053-08a6-41b9-ac1e-eb7507985db9",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "58010053-08a6-41b9-ac1e-eb7507985db9"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "58010053-08a6-41b9-ac1e-eb7507985db9": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "betty-gannett": {
       "id": "08674abc-87d8-42bc-8464-1cf36d11daea",
       "name": "Betty Gannett",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "05c8e195-ad39-4618-8ccf-3c964990842b",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "05c8e195-ad39-4618-8ccf-3c964990842b"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "05c8e195-ad39-4618-8ccf-3c964990842b": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "george-blake-charney": {
       "id": "d2c440d0-df81-4b33-a779-7af5ed0eaf31",
       "name": "George Blake Charney",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "acc7313f-1735-4bd3-b34c-83a1f07ecf7d",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "acc7313f-1735-4bd3-b34c-83a1f07ecf7d"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "acc7313f-1735-4bd3-b34c-83a1f07ecf7d": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "v-j-jerome": {
       "id": "c04a3436-b7a4-49b4-bb0a-42e21d68ee8e",
       "name": "V. J. Jerome",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "225ef227-eadb-4424-ac1e-19c1b0209631",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "225ef227-eadb-4424-ac1e-19c1b0209631"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "225ef227-eadb-4424-ac1e-19c1b0209631": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "albert-lannon": {
       "id": "dbc1a1bb-7832-4aaa-82a7-d8ee9aa524a1",
       "name": "Albert Lannon",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "1ad8915e-04d9-490a-b0ee-e971e092c5f3",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1ad8915e-04d9-490a-b0ee-e971e092c5f3",
         "a09f9785-e8cd-4bab-bf12-c64f55c5af1b"
@@ -1261,7 +1394,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "1ad8915e-04d9-490a-b0ee-e971e092c5f3": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -1273,76 +1405,181 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "jacob-mindel": {
       "id": "490a36dc-8a16-4bbb-bf22-18051b8cede7",
       "name": "Jacob Mindel",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "c27658d8-8617-421f-b80c-72c11b535d11",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c27658d8-8617-421f-b80c-72c11b535d11"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "c27658d8-8617-421f-b80c-72c11b535d11": [
-          "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "louis-weinstock": {
       "id": "33be334a-5444-4aa6-98ce-7a46eb3866dd",
       "name": "Louis Weinstock",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "b7358eae-296d-4a4c-83ae-9191aa6cf90b",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b7358eae-296d-4a4c-83ae-9191aa6cf90b"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "b7358eae-296d-4a4c-83ae-9191aa6cf90b": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "arnold-johnson": {
       "id": "9e26b33c-e4e5-4372-926d-dbee0db09c01",
       "name": "Arnold Johnson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "41ffcb0c-e863-4e48-9b51-671b34600b0b",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "41ffcb0c-e863-4e48-9b51-671b34600b0b"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "41ffcb0c-e863-4e48-9b51-671b34600b0b": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "alexander-bittelman": {
       "id": "c47525a1-b0a3-4334-9017-c8d99f0159a8",
       "name": "Alexander Bittelman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "c7de8743-330f-419c-b7dd-8bb4d099a9c2",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c7de8743-330f-419c-b7dd-8bb4d099a9c2"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "c7de8743-330f-419c-b7dd-8bb4d099a9c2": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "steve-nelson": {
       "id": "353f548b-a6c0-4b16-8bfb-430d9fd5a25d",
@@ -1506,7 +1743,7 @@
     "claudia-jones": {
       "id": "1c6cd254-c53d-4dce-b0cb-7a03dd88e90d",
       "name": "Claudia Jones",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "9936291e-63da-4423-8bde-95e3b55d677a"
@@ -1517,12 +1754,13 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedJan20,1953 sentence conflicts with originalFeb3,1953 sentencing table and newspaper. FBI Part8PDF64 reports bailreleaseFeb10,1953, a separate episode from existing1955custody. No new dates placed onwrong episode."
     },
     "oleta-oconnor-yates": {
       "id": "38c1fb3a-c03b-458e-9dcc-a55756d0b2ff",
       "name": "Oleta O'Connor Yates",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "47252f57-55cb-4655-bfc0-b3ad2509c399"
@@ -1533,29 +1771,56 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original newspaper and court separate Aug7,1952 conspiracy sentence from Aug8 contempt sentence. SupremeCourt356US363 supplies distinct June26-Aug30,Sep3-5 andSep8-11 custody episodes. Existing populated conflicting dates preserved; no continuous imprisonment inferred."
     },
     "frank-spector": {
       "id": "8129ccc3-8fba-41f2-9072-c641bb2a2aac",
       "name": "Frank Spector",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "88bfc677-25eb-41e8-986e-816ee9467244",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "88bfc677-25eb-41e8-986e-816ee9467244"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "88bfc677-25eb-41e8-986e-816ee9467244": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "henry-steinberg": {
       "id": "d1b2ea06-d6d0-4b04-8b6f-bb02dcac0d97",
       "name": "Henry Steinberg",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "8f35ee1f-7f01-43da-850a-76bb8df06250",
@@ -1573,30 +1838,83 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedAug8,1952 sentence conflicts with originalAug7 group conspiracy sentence. Existing fields preserved; bail/reversal not equated with release."
     },
     "rose-chernin": {
       "id": "6ca539b2-1c7e-4205-b672-9bc1d3247835",
       "name": "Rose Chernin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "b0f2d399-e985-4dbb-b555-79b0de0d556c",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b0f2d399-e985-4dbb-b555-79b0de0d556c"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "b0f2d399-e985-4dbb-b555-79b0de0d556c": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "ben-dobbs": {
       "id": "f29e56b9-5e5d-4f88-87f3-b23b6bcd8a10",
       "name": "Ben Dobbs",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "bb64d88c-a8c8-4c66-aa3e-0184a8e3b793",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bb64d88c-a8c8-4c66-aa3e-0184a8e3b793",
         "e3c52100-1474-4582-b6fe-7e50d127d3e1"
@@ -1604,7 +1922,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "bb64d88c-a8c8-4c66-aa3e-0184a8e3b793": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -1614,7 +1931,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "junius-scales": {
       "id": "0ecc1c26-7c5a-4538-95f3-3857432e5419",
@@ -1730,7 +2048,7 @@
     "ben-gold": {
       "id": "f8ecc775-5c4b-460f-8b6e-3bb75c366464",
       "name": "Ben Gold",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "e95aaaf3-9b79-4905-ab23-89469477f3a7"
@@ -1741,7 +2059,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated perjury-case dates require independent procedural source verification; no missing field verified in currentpass."
     },
     "hugh-bryson": {
       "id": "7bad7e21-643c-437a-9591-19ef350aeab6",
@@ -3729,8 +4048,34 @@
     "william-weinstone": {
       "id": "e00d2548-d0ee-4e80-937d-4a20e5056c97",
       "name": "William Weinstone",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "add12372-f1cd-4156-a15e-d742214e90e2",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-newspaper",
+              "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "newyork-fbi",
+              "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "add12372-f1cd-4156-a15e-d742214e90e2",
         "12c6dd35-aa5d-4b2e-b6c0-ab02b0041dc0"
@@ -3738,7 +4083,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "add12372-f1cd-4156-a15e-d742214e90e2": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -3750,7 +4094,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "vincent-hallinan": {
       "id": "30e023bb-55e9-411e-9883-5d72d598a4f2",
@@ -3982,7 +4327,7 @@
     "dorothy-ray-healey": {
       "id": "1f11c3d5-6198-4dfd-84fd-93ee35e48b51",
       "name": "Dorothy Ray Healey",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "0fe336a4-b6e7-467f-aa2c-2c79a69376ac",
@@ -4001,12 +4346,13 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Apparent duplicate LA SmithAct cases and populatedAug14 sentence conflict with originalAug7 group sentencing. Both existing records preserved; no extra repeated case dates added."
     },
     "philip-connelly": {
       "id": "660ebd4a-219e-4028-ad94-8d68669107ca",
       "name": "Philip Connelly",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "02e03716-7efd-49c3-802e-f12ee500a358"
@@ -4022,31 +4368,58 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedAug8 sentence conflicts with originalAug7 group report. Existing arrest/prose preserved; exact1951pretrial release and1952remand/bail endpoints unresolved."
     },
     "al-richmond": {
       "id": "ab11fb57-83e8-4dc2-be0a-b8a46e940e67",
       "name": "Al Richmond",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "a95768f5-22fa-43c1-a05c-d9c989f9668c",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a95768f5-22fa-43c1-a05c-d9c989f9668c"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "a95768f5-22fa-43c1-a05c-d9c989f9668c": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "ernest-fox": {
       "id": "52073399-c57d-41d3-9cce-0c86fd485bc4",
       "name": "Ernest Fox",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "f2b00ee6-653d-4112-bc10-94a73965ceca"
@@ -4062,12 +4435,13 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedAug8 sentence conflicts with originalAug7 group report; existing fields preserved. Exact pretrial/remand and appeal-bail endpoints unresolved."
     },
     "carl-lambert": {
       "id": "69c7d5c3-3be5-4aac-9f3a-d13b6d1e565a",
       "name": "Carl Lambert",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "33ed19e9-fbc9-4c26-83c4-2b33e6696375"
@@ -4083,7 +4457,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedAug8 sentence conflicts with originalAug7 group report; existing fields preserved. Exact pretrial/remand and appeal-bail endpoints unresolved."
     },
     "albert-lima": {
       "id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
@@ -4107,6 +4482,31 @@
               "note": "Obituary identifies the state Communist leader and his death at home on June 3."
             }
           ]
+        },
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "8d9bdaac-4cc8-484d-b493-56577d3079ec",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
         }
       ],
       "case_ids": [
@@ -4118,7 +4518,6 @@
       ],
       "missing_case_fields": {
         "8d9bdaac-4cc8-484d-b493-56577d3079ec": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -4130,13 +4529,39 @@
           "end_of_exile"
         ]
       },
-      "open_research_note": "Contemporary obituary verifies death 1989-06-03. Exact birth genealogy lead not accepted; obituary age differs. Duplicate Smith Act case dates conflict; no copying of assumed continuous custody."
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "loretta-stack": {
       "id": "6b410635-2bc6-424b-a274-a7d16643cdc5",
       "name": "Loretta Stack",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 427,
+          "table": "prisoner_cases",
+          "id": "e761132f-ce3f-4b7b-92ca-f0e2b4899481",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-newspaper",
+              "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "california-identity",
+              "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e761132f-ce3f-4b7b-92ca-f0e2b4899481",
         "55d8c007-936c-4ba3-8e97-c6dce3cf7f1a"
@@ -4144,7 +4569,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "e761132f-ce3f-4b7b-92ca-f0e2b4899481": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -4155,7 +4579,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Missing sentencing date applied from original newspaper and independent primary procedural evidence. Populated custody dates preserved; actual bail/release intervals remain a research question. Duplicate cases, where present, not changed. See batch427 audit."
     },
     "bernadette-doyle": {
       "id": "4952c015-ff52-47ed-abd1-b17d9de55316",
@@ -4177,12 +4602,12 @@
           "end_of_exile"
         ]
       },
-      "open_research_note": "Canadian/nun namesakes excluded; existing portrait preserved; missing dates unresolved."
+      "open_research_note": "Identity/proceeding conflict: absent from original LosAngeles14 caption; FrankCarlson appears instead. Existing LA/Yates case/date prose preserved; do not add group dates without identifying her own proceeding."
     },
     "william-schneiderman": {
       "id": "f5e10dcf-c746-4c6a-b308-ed9023a1e1fa",
       "name": "William Schneiderman",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "39ed44cb-7a6b-4d1a-ace8-9826533257bc"
@@ -4193,7 +4618,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedAug14 sentence conflicts with originalAug7 group report; existing fields preserved. Appellate reversalJune17,1957 notproofreleaseJune16."
     },
     "dorothy-rose-blumberg": {
       "id": "02222b1c-7522-433a-94b0-c433fbeae7fe",
