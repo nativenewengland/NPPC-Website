@@ -4144,8 +4144,14 @@
     "heriberto-marin": {
       "id": "6a40da9c-5c52-43cc-9065-49d6964ccb5c",
       "name": "Heriberto Marín",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own interview ElNuevoDia October26,2025 https://www.elnuevodia.com/corresponsalias/washington-dc/notas/soy-un-soldado-de-la-patria-heriberto-marin-torres-recuenta-la-insurreccion-nacionalista-del-30-de-octubre-ocurrida-hace-75-anos/ describes145-year sentence and actual August18,1959 release, contradicting populated life sentence and November3release. No missing exact sentencing date verified; do not replace populated fields or add death from namesakes. Still alive at2025interview; no death presumed."
+        }
+      ],
       "case_ids": [
         "5600c240-7b34-411a-bed4-1a43d12792d8"
       ],
@@ -4158,13 +4164,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own interview ElNuevoDia October26,2025 https://www.elnuevodia.com/corresponsalias/washington-dc/notas/soy-un-soldado-de-la-patria-heriberto-marin-torres-recuenta-la-insurreccion-nacionalista-del-30-de-octubre-ocurrida-hace-75-anos/ describes145-year sentence and actual August18,1959 release, contradicting populated life sentence and November3release. No missing exact sentencing date verified; do not replace populated fields or add death from namesakes. Still alive at2025interview; no death presumed."
     },
     "james-peck": {
       "id": "9c1173ea-5c3c-4a3b-91d5-81aa862d489f",
       "name": "James Peck",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original NationalGuardian June16,1958p4 https://www.marxists.org/history/usa/pubs/national-guardian/1958-06-16-10-35-nat-guardian.pdf explicitly Peck received one-year probation, while Bigelow,Huntington,Sherwood,Willoughby received60daysimmediatejail. Detailed contemporary account conflicts existing Peck sixty-day custody claim and Swarthmore broad summary. Missing sentence deliberately left blank pending case reconciliation; no other crew sentence transferred to Peck.1942CO sentencing day not established; vitals/photo preserved."
+        }
+      ],
       "case_ids": [
         "611bced2-0a19-4e12-b2bd-88d270c3962e",
         "553869ec-6b07-4a26-8d27-16efc2705355"
@@ -4181,13 +4194,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original NationalGuardian June16,1958p4 https://www.marxists.org/history/usa/pubs/national-guardian/1958-06-16-10-35-nat-guardian.pdf explicitly Peck received one-year probation, while Bigelow,Huntington,Sherwood,Willoughby received60daysimmediatejail. Detailed contemporary account conflicts existing Peck sixty-day custody claim and Swarthmore broad summary. Missing sentence deliberately left blank pending case reconciliation; no other crew sentence transferred to Peck.1942CO sentencing day not established; vitals/photo preserved."
     },
     "benjamin-j-davis-jr": {
       "id": "c92c98c2-9826-4a16-a5ca-48aa4becdb2e",
       "name": "Benjamin J. Davis Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "22d11a4f-81f9-4152-8b51-8ccf9cc5cae9",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "davis-sentence",
+              "note": "Contemporaneous original BendBulletin October21,1949 printedp1 UP report by H.D.Quigg, also independently original MedfordMailTribune same-dayp1, original pages visually inspected. Ten leaders sentenced today to five years; Davis individually named. This adds sentencing only to existing SmithAct row with actual July2,1951 admission. Populated October13/20 dates in other rows preserved and flagged; conviction day is not copied as sentencing or admission."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "davis-nypl",
+              "note": "NYPL custodian description of Davis own papers distinguishes additional two months in AlleghenyCountyJail following federal term for separate1953contempt. Combined SmithAct-plus-contempt case not given one inferred admission/release interval. Existing conflicting February28/March1 federal releases remain populated and unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "95901e97-3830-45a2-b162-d70fd280789c",
         "209faa17-78e2-4595-9867-d0d1b060f6c6",
@@ -4208,7 +4248,6 @@
         ],
         "22d11a4f-81f9-4152-8b51-8ccf9cc5cae9": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -4220,13 +4259,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "isidore-begun": {
       "id": "65fa0202-83e6-4439-986b-7638441a7728",
       "name": "Isidore Begun",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "23a188fe-e5cd-4d3e-a76f-7b10e0bea76d",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "begun-fbi",
+              "note": "FBI Claudia Jones file Part08 PDFpage28/printed reportpage10, contemporaneous NY100-81752 report drawing on SDNY criminal docket. Explicitly says Begun was released August14,1951 on10000dollar bail posted by wifeAliceBegun at1406TownsendAvenueBronx. Read indexed original agency text; direct download and image screenshot unavailable, no claimed visual inspection. Search extraction spells August14; raw open OCR gives August lb. Actual release, not a bail-order date or later acquittal. July1951MONTH admission retained without refining prior multiple remands."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "begun-guardian",
+              "note": "Original Guardian August22,1951 printedp5 visually inspected independently confirms Begun was released after bail was raised. Its relative day earlier wording compared with ArnoldJohnson differs from agency explicit August14 and JohnsonAugust16. Discrepancy logged; explicit administrative individual date preferred, not a computed relative day. June29 populated first episode retained; no continuous June-August custody manufactured."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "eafa2df9-b83f-43c0-a3fb-989c8d7b0752",
         "23a188fe-e5cd-4d3e-a76f-7b10e0bea76d"
@@ -4241,17 +4307,58 @@
         "23a188fe-e5cd-4d3e-a76f-7b10e0bea76d": [
           "arrest_date",
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "fred-fine": {
       "id": "32da0462-0481-4a4a-9545-09bda70c0f12",
       "name": "Fred Fine",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "073d5118-b144-4156-b911-db45ccdaefdc",
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "release_date"
+              ],
+              "source": "fine-sentence",
+              "note": "Original Guardian September24,1956 printedp9, visually inspected. Explicit individual Fine four-year sentence by JudgeAlexanderBicks last week; all six were released on bail pending appeal. Both actual sentencing and actual release are established within September1956; exact individual days not found, MONTH precision only. September1 storage placeholders are not claimed dates. Applies missing fields on two existing descriptions of same prosecution; no new row or duplicate created. Populated November1955 arrest, three-year prose,1956conviction and later appellate history retained unchanged; article instead says surrender earlier in1956 and four-year sentence, conflicts logged. July31verdict and1958appeal not mistaken for sentence/admission/release."
+            }
+          ]
+        },
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "30b01ed6-f8b6-48dc-ae1e-24131872c254",
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "release_date"
+              ],
+              "source": "fine-sentence",
+              "note": "Original Guardian September24,1956 printedp9, visually inspected. Explicit individual Fine four-year sentence by JudgeAlexanderBicks last week; all six were released on bail pending appeal. Both actual sentencing and actual release are established within September1956; exact individual days not found, MONTH precision only. September1 storage placeholders are not claimed dates. Applies missing fields on two existing descriptions of same prosecution; no new row or duplicate created. Populated November1955 arrest, three-year prose,1956conviction and later appellate history retained unchanged; article instead says surrender earlier in1956 and four-year sentence, conflicts logged. July31verdict and1958appeal not mistaken for sentence/admission/release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "073d5118-b144-4156-b911-db45ccdaefdc",
         "30b01ed6-f8b6-48dc-ae1e-24131872c254"
@@ -4259,27 +4366,30 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "073d5118-b144-4156-b911-db45ccdaefdc": [
-          "sentenced_date",
           "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "30b01ed6-f8b6-48dc-ae1e-24131872c254": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "simon-w-gerson": {
       "id": "739d2339-f93f-44c3-aae2-f9f3b9df2810",
       "name": "Simon W. Gerson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOJ/FBI actual1951SmithAct records distinguish June release, July remands and September23,1952acquittal from sentence or incarceration. Gerson existing1951arrest/admission/release and vitals/photo populated; no sentencing on acquittal inferred. BioSeptember30acquittal conflict retained."
+        }
+      ],
       "case_ids": [
         "cb138049-1762-42c4-8f08-22503f467285"
       ],
@@ -4290,13 +4400,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOJ/FBI actual1951SmithAct records distinguish June release, July remands and September23,1952acquittal from sentence or incarceration. Gerson existing1951arrest/admission/release and vitals/photo populated; no sentencing on acquittal inferred. BioSeptember30acquittal conflict retained."
     },
     "oscar-collazo": {
       "id": "8d3d882f-9239-4a0f-8b41-a0a973d0ccc6",
       "name": "Oscar Collazo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original appellate court Collazo v.UnitedStates196F2d573 https://law.justia.com/cases/federal/appellate-courts/F2/196/573/15636/ confirms prosecution and appellate review, which are not physical jail endpoints. All four main milestones/vitals/photo populated; March7conviction-as-admission conflict not overwritten. No additional exile or custody inferred."
+        }
+      ],
       "case_ids": [
         "5fbea0d5-be30-4777-a5a5-70092686f2bd"
       ],
@@ -4306,13 +4423,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original appellate court Collazo v.UnitedStates196F2d573 https://law.justia.com/cases/federal/appellate-courts/F2/196/573/15636/ confirms prosecution and appellate review, which are not physical jail endpoints. All four main milestones/vitals/photo populated; March7conviction-as-admission conflict not overwritten. No additional exile or custody inferred."
     },
     "isabel-rosado-morales": {
       "id": "e36ae3ba-de12-4890-9804-69810453c6ad",
       "name": "Isabel Rosado Morales",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "First-person interview https://www.peacehost.net/WhiteStar/Voces/rosado.html states actual March6,1954arrest, seventeen-year sentence and1965freedom after eleven years. Claridad https://claridadpuertorico.com/isabel-rosado-morales-paradigma-hostosiano-del-nacionalismo-puertorriqueno/ gives February8,1955verdict and fifteen-year sentence; verdict day not assumed sentencing. Serious contradictions with existing March4arrest/five-year1958release and populated vital dates. Do not invent missing sentencing date for unreconciled case. Portrait/populated fields/prose preserved."
+        }
+      ],
       "case_ids": [
         "0cb43fbf-e5a0-4ce9-92c0-b1c68074c0c4"
       ],
@@ -4323,7 +4447,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "First-person interview https://www.peacehost.net/WhiteStar/Voces/rosado.html states actual March6,1954arrest, seventeen-year sentence and1965freedom after eleven years. Claridad https://claridadpuertorico.com/isabel-rosado-morales-paradigma-hostosiano-del-nacionalismo-puertorriqueno/ gives February8,1955verdict and fifteen-year sentence; verdict day not assumed sentencing. Serious contradictions with existing March4arrest/five-year1958release and populated vital dates. Do not invent missing sentencing date for unreconciled case. Portrait/populated fields/prose preserved."
     },
     "rosa-cortez-collazo": {
       "id": "87fd91f6-58a6-44fe-b766-9bab77e8e4c3",
@@ -4353,13 +4478,31 @@
     "earl-ward": {
       "id": "f9ab731d-d3e7-400c-bc3e-e292d41439ee",
       "name": "Earl Ward",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoners",
+          "id": "f9ab731d-d3e7-400c-bc3e-e292d41439ee",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "ward-photo",
+              "note": "Medford Mail Tribune Sunday April 27, 1952 printed page 9, original page and crop visually inspected. Caption explicitly identifies convict ringleader Earl Ward signing peace treaty behind Jackson prison bars, watched by guards. Ward is the foreground man holding the pen, not the man behind him or the guard at left. Exact rectangular crop (300,140,435,375) from sole original page JPEG image 2073x2771; output135x235. Retained original decoded pixels unchanged. International Soundphoto credit; rights undetermined, no public-domain claim. No vital dates inferred from age or namesakes."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "465d19c8-375c-4530-8538-15126482a169"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -4370,7 +4513,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "otis-hood": {
       "id": "68014c60-2ec9-49fc-a770-640e8920f4eb",
@@ -4405,8 +4549,14 @@
     "anne-timpson": {
       "id": "12deca32-c124-40ad-adea-27758ffe2461",
       "name": "Anne Timpson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOJ own USAttorneysBulletin June1956p381 https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0412.pdf establishes May29,1956BostonSmithAct arrests and bail fixed. Bail order not actual release; no new sentence/admission/release inferred from1957dismissal. CPUSA own history1930imprisonment pertains separate out-of-scope episode. Existing vitals/photo retained."
+        }
+      ],
       "case_ids": [
         "fa886f9c-ebaa-4f92-8c11-aa7bb219ea2d"
       ],
@@ -4419,7 +4569,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOJ own USAttorneysBulletin June1956p381 https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0412.pdf establishes May29,1956BostonSmithAct arrests and bail fixed. Bail order not actual release; no new sentence/admission/release inferred from1957dismissal. CPUSA own history1930imprisonment pertains separate out-of-scope episode. Existing vitals/photo retained."
     },
     "daniel-boone-schirmer": {
       "id": "be73b5a0-c168-4320-ba55-adb979acf472",
@@ -4463,8 +4614,14 @@
     "sidney-lipshires": {
       "id": "b330c11d-7c64-4cdb-91f9-0f0eae5a67f7",
       "name": "Sidney Lipshires",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "status": "reviewed, no unsupported additions",
+          "note": "Same DOJ Boston1956arrest and bail order; UMBC historian https://userpages.umbc.edu/~burke/Chapter12.pdf says raised bail, exact start/release unresolved. CPUSA captioned UMass group photo https://www.cpusa.org/article/anne-burlak-the-red-flame/ names all seven without explicit row positions; cannot confidently isolate Sidney, so no portrait assigned. Manchester newspaper portrait leads1972/1974/1978 direct access403; no claimed inspection or namesake image. Existing vitals preserved."
+        }
+      ],
       "case_ids": [
         "5dc2fd30-3c29-414f-b8b6-e6708a95186f"
       ],
@@ -4479,7 +4636,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Same DOJ Boston1956arrest and bail order; UMBC historian https://userpages.umbc.edu/~burke/Chapter12.pdf says raised bail, exact start/release unresolved. CPUSA captioned UMass group photo https://www.cpusa.org/article/anne-burlak-the-red-flame/ names all seven without explicit row positions; cannot confidently isolate Sidney, so no portrait assigned. Manchester newspaper portrait leads1972/1974/1978 direct access403; no claimed inspection or namesake image. Existing vitals preserved."
     },
     "michael-russo": {
       "id": "8f94a011-90a1-4638-8cd6-13bcf4e7190b",
@@ -4561,8 +4719,27 @@
     "howard-hairston": {
       "id": "2c6b82ba-657f-4048-8104-5add9e5ef672",
       "name": "Howard Hairston",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "3b57e9b4-8b43-4ad6-a8a8-d60ff51ea943",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "howard-records",
+              "note": "Library of Virginia own state-records presentation by senior archivist individually identifies HowardLeeHairston death certificate February2,1951 and penitentiary execution file accession41558Box379Folder7. Actual execution at VirginiaStatePenitentiary terminated custody; release_date used as terminal custody endpoint, NOT freedom or parole. Matches individual already-populated deathdate and other case endpoint. Posthumous2021pardon not release. Existing January1949MONTH arrest, other inconsistent fullcase dates, vitals/photo remain untouched; missing actual admission and individual sentence dates not fabricated from May4institution intake or group trials."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b782144c-1445-43e6-b820-ced1619cf5d1",
         "3b57e9b4-8b43-4ad6-a8a8-d60ff51ea943"
@@ -4576,17 +4753,51 @@
         "3b57e9b4-8b43-4ad6-a8a8-d60ff51ea943": [
           "sentenced_date",
           "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "wesley-robert-wells": {
       "id": "f27ac431-a31e-43c4-922c-64e79e4da5a1",
       "name": "Wesley Robert Wells",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "5beb88f3-0935-4824-95b1-734009de7241",
+          "fields": [
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "wells-sentence",
+              "note": "Original BlackPanther June21,1969 printedp2, own first-person Wells letter February16,1954 and introduction, visually inspected. Explicitly indicted and condemned to death in1947 for prison incident. YEAR1947 only; January1 is storage placeholder. August29deathrow arrival not used as sentencing day. Earlier1942 robbery imprisonment not entered as start of this1947case; no new custody interval created."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "wells-release",
+              "note": "Original BlackPanther August3,1974 printedp3, visually inspected. Interview introduction explicitly says Wells was released on parole from Vacaville prison on July1,1974. Reception/July28plaque not mistaken for release date. Existing birth/deathYEAR precision, photo, prose, commutation and all unrelated fields preserved."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "wells-footage",
+              "note": "SFSU custodian catalog of original KPIX July1,1974 news footage, BelvaDavis, describes Wells walking out of Vacaville with CharlesGarry and LeoBranton. Catalog indexed description read; full video not watched. Independent corroboration of actual release rather than order date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5beb88f3-0935-4824-95b1-734009de7241"
       ],
@@ -4594,13 +4805,12 @@
       "missing_case_fields": {
         "5beb88f3-0935-4824-95b1-734009de7241": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "rosa-lee-ingram": {
       "id": "2b8d5ac8-11b9-4517-aca3-70bbbe262ea3",
@@ -4652,8 +4862,34 @@
     "carl-marzani": {
       "id": "793aa345-e02b-4340-b472-e8c1d16c4373",
       "name": "Carl Marzani",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 467,
+          "table": "prisoner_cases",
+          "id": "dc1729b4-efce-420c-8b25-5aa9c3cdccda",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "marzani-held",
+              "note": "Original Guardian April11,1951 printedp6, visually inspected, explicitly Marzani had already served more than two years and committee seeking immediate parole; still actually incarcerated in1951. Conflicts populated1950August14endpoint in other case, retained unchanged."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "marzani-record",
+              "note": "Original CongressionalRecord House February17,1954 printedp1944/PDF25, visually inspected. Discussion of BureauofPrisons directorJamesVBennett June20,1952testimony states goodtime restored and Marzani actually left institution before June25,1951 GI schooling deadline. Combined with April11,1951 contemporary still-in-custody report establishes actual releaseYEAR1951; exact day/month not established. June25is schooling deadline, not release;1952is testimony date. January1 storageYEAR placeholder. Existing March1949MONTH admission retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ab06c45e-6411-47f9-ac8f-824c71722311",
         "dc1729b4-efce-420c-8b25-5aa9c3cdccda"
@@ -4667,11 +4903,11 @@
         "dc1729b4-efce-420c-8b25-5aa9c3cdccda": [
           "arrest_date",
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch467 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "gerhart-eisler": {
       "id": "46261489-a1c2-4f49-8774-a3676e0f8242",
