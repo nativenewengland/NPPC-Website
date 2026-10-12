@@ -1,0 +1,319 @@
+{
+  "batch": 474,
+  "audit_date": "2026-10-12",
+  "expected_count": 12,
+  "sources": {
+    "doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0214.pdf",
+    "empire": "https://www.casemine.com/judgement/us/5914ca66add7b049347fa2b8",
+    "daley": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-06-28-6-36-nat-guardian.pdf",
+    "resnick-family": "https://www.wellerfuneralhome.com/obituaries/sidney-resnick",
+    "connecticut-arrests": "https://oregonnews.uoregon.edu/lccn/sn97071090/1954-05-30/ed-1/seq-1.pdf",
+    "steinberg": "https://case-law.vlex.com/vid/united-states-v-kremen-890632608",
+    "hashmall-before": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-04-11-7-25-nat-guardian.pdf",
+    "hashmall-after": "https://app.midpage.ai/document/united-states-v-brandt-2373459",
+    "jackson": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/981aa348-6be2-400e-9f49-5a57ce93be24/content"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "7536488f-1bcf-4d46-9019-23d48a076115",
+      "prisoner_id": "0e2bff55-711e-4408-b604-7617411d2fb2",
+      "name": "Chin You Gon",
+      "slug": "chin-you-gon",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-06-17 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj",
+          "note": "DOJ own United States Attorneys Bulletin, Vol. 2 No. 14, printed page 4/PDF page 5, explicitly dates sentencing June 17, 1954 and individually names these defendants. Original downloaded page visually inspected. Tom Sung received a suspended one-year sentence and probation; sentencing is not physical jail admission. No admission or release inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "85e30d02-0128-4919-81f9-c88ccf0a37fb",
+      "prisoner_id": "1a8a338f-e44e-42ea-af17-4713de55c5b0",
+      "name": "Tom Sung",
+      "slug": "tom-sung",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-06-17 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj",
+          "note": "DOJ own United States Attorneys Bulletin, Vol. 2 No. 14, printed page 4/PDF page 5, explicitly dates sentencing June 17, 1954 and individually names these defendants. Original downloaded page visually inspected. Tom Sung received a suspended one-year sentence and probation; sentencing is not physical jail admission. No admission or release inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c67befbe-2bfb-40ea-b88d-0d10230d65fa",
+      "prisoner_id": "85f2105e-bf2c-4f1b-b9e4-ba4d2316ea5a",
+      "name": "Fred Barreras",
+      "slug": "fred-barreras",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-07-23 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "empire",
+          "note": "Original Supreme Court of New Mexico opinion, Jencks v. Goforth, September 25, 1953: decree July 23, 1951 gave six expressly named individuals ninety days, initially conditionally suspended for one year beginning July 25. The suspension was later revoked after September 5, 1952 proceedings; a September 30 writ provisionally released applicants, and the 1953 decision ordered renewed custody. Add original sentencing day only. Do not manufacture one continuous custody period from these separate episodes."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e56abc66-4a4b-44ef-8ea2-7aa5d2a83f12",
+      "prisoner_id": "ae115aff-efd2-43c6-98d9-f9df012839a2",
+      "name": "Cipriano Montoya",
+      "slug": "cipriano-montoya",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-07-23 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "empire",
+          "note": "Original Supreme Court of New Mexico opinion, Jencks v. Goforth, September 25, 1953: decree July 23, 1951 gave six expressly named individuals ninety days, initially conditionally suspended for one year beginning July 25. The suspension was later revoked after September 5, 1952 proceedings; a September 30 writ provisionally released applicants, and the 1953 decision ordered renewed custody. Add original sentencing day only. Do not manufacture one continuous custody period from these separate episodes."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "84300b7f-0a0c-4949-8f53-4b2fa845b341",
+      "prisoner_id": "2600362f-a46c-4f52-b83e-518e629feab7",
+      "name": "Ernest Velasquez",
+      "slug": "ernest-velasquez",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-07-23 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "empire",
+          "note": "Original Supreme Court of New Mexico opinion, Jencks v. Goforth, September 25, 1953: decree July 23, 1951 gave six expressly named individuals ninety days, initially conditionally suspended for one year beginning July 25. The suspension was later revoked after September 5, 1952 proceedings; a September 30 writ provisionally released applicants, and the 1953 decision ordered renewed custody. Add original sentencing day only. Do not manufacture one continuous custody period from these separate episodes."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "c4014e41-97e5-489c-9f32-768182067ac8",
+      "prisoner_id": "c4014e41-97e5-489c-9f32-768182067ac8",
+      "name": "William Daley",
+      "slug": "william-daley",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/william-daley-national-guardian-batch474.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "daley",
+          "note": "Original National Guardian June 28, 1954 printed page 9 directly identifies William Daley of New York on the right, after his Guatemala protest at the UN Security Council and subsequent police booking/Bellevue observation. Original page and exact crop visually inspected. Officer on left excluded; no date inferred from publication. Native scan width 4216; every retained decoded pixel unchanged."
+        }
+      ],
+      "asset": {
+        "file": "william-daley-national-guardian-batch474.png",
+        "sha256": "148223fb0314931bee6c502bf30a607195237c73764fc48196ffc64da3e8bea9"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "ce9e3374-e4ca-4c67-a33e-88c1cfe39df2",
+      "prisoner_id": "ce9e3374-e4ca-4c67-a33e-88c1cfe39df2",
+      "name": "Sidney Resnek",
+      "slug": "sidney-resnek",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1922-01-17 00:00:00",
+        "death_date": "2008-10-24 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "resnick-family",
+          "note": "Family funeral-home obituary expressly gives January 17, 1922 and October 24, 2008, and identifies his Connecticut Smith Act arrest in 1954, New Haven printing career, union work and family. This links Sidney Resnick to the database spelling Sidney Resnek; name and biography preserved. The obituary image was visually checked and is a decorative dove, not a portrait; it is excluded."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "756cd67a-f034-4810-ad0a-24f40c992e6b",
+      "prisoner_id": "ce9e3374-e4ca-4c67-a33e-88c1cfe39df2",
+      "name": "Sidney Resnek",
+      "slug": "sidney-resnek",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-05-29 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "connecticut-arrests",
+          "note": "Original Medford Mail Tribune Sunday May 30, 1954, page 1, United Press report explicitly says all arrested Saturday and lists Sidney Sussman Resnick of New Haven and James Sherman Tate of West Hartford. Original downloaded page visually inspected; the calendar resolves Saturday to May 29. This is arrest only; no admission/release from initial arrest. Tate March 29, 1956 jury verdict and April 2 contempt sentence of Robert Ekins are not borrowed as Tate sentencing."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "0d8aa3e2-3d43-4d2a-b7b9-67c7078808aa",
+      "prisoner_id": "8b456637-b7a0-455d-84d5-bd1612ff98c1",
+      "name": "James Tate",
+      "slug": "james-tate",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-05-29 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "connecticut-arrests",
+          "note": "Original Medford Mail Tribune Sunday May 30, 1954, page 1, United Press report explicitly says all arrested Saturday and lists Sidney Sussman Resnick of New Haven and James Sherman Tate of West Hartford. Original downloaded page visually inspected; the calendar resolves Saturday to May 29. This is arrest only; no admission/release from initial arrest. Tate March 29, 1956 jury verdict and April 2 contempt sentence of Robert Ekins are not borrowed as Tate sentencing."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "6fa59eb5-a04b-4a7f-a07e-ee80c6448228",
+      "prisoner_id": "6fa59eb5-a04b-4a7f-a07e-ee80c6448228",
+      "name": "Sidney Steinberg",
+      "slug": "sidney-steinberg",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1914-09-16 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "steinberg",
+          "note": "Original United States v. Kremen, 114 F. Supp. 899 (September 14, 1953), reproduces Sidney Steinberg own affidavit: born September 16, 1914 in Lithuania; arrived April 1, 1930; naturalized New York 1937. Full original text locally read. Alias Sidney Stein already has same verified DOB from batch 471; no duplicate merger, photo replacement or custody-date overwrite under missing-fields scope."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "7d7531ba-aa0d-42bc-b221-ea8611b39214",
+      "prisoner_id": "66db390f-726c-4e47-97d5-fd04c5f6de02",
+      "name": "Frank Hashmall",
+      "slug": "frank-hashmall",
+      "expected": {
+        "date_precision": null,
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1955-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "hashmall-before",
+          "note": "Original April 11, 1955 National Guardian reports March 20 trial postponement while awaiting Hashmall release from his Ohio state auto-registration imprisonment. This proves confinement into 1955, without treating publication or postponement as release."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "hashmall-after",
+          "note": "Original July 29, 1955 district-court opinion United States v. Brandt, 139 F. Supp. 367, expressly states Hashmall has since been released on parole from the state penitentiary. Together sources bound actual parole release to 1955; YEAR only, January 1 storage placeholder. Federal Smith Act case remains separate. No exact date calculated from reported 27 months or appellate modification."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "206ccd51-a802-4f32-adb5-fcdadffaaee7",
+      "prisoner_id": "81105744-3183-41bd-b22a-8d78b35ccc8b",
+      "name": "James E. Jackson",
+      "slug": "james-e-jackson",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1962-03-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "jackson",
+          "note": "Original Big Spring Herald March 22, 1962 printed page 4A/PDF page 4, AP report: Judge Holtzoff sentenced James E. Jackson March 9 to six months; appeals court postponed jailing indefinitely March 12. Original page visually inspected. Add sentencing only to his existing contempt case. Populated March 9 admission may conflict with the stay; preserve and log, not silently convert the sentence to actual custody or the stay to release."
+        }
+      ]
+    }
+  ]
+}
