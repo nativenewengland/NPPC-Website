@@ -14346,8 +14346,27 @@
     "juan-santos-rivera": {
       "id": "e87a5422-74ce-4000-8b56-bd8291d2b409",
       "name": "Juan Santos Rivera",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "6e3cdfc7-55a9-4fef-baa7-74812e90ca6d",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "santos",
+              "note": "Original October 20, 1954 Medford Mail Tribune, page 1, United Press: Hoover announces ten Communist Party leaders arrested in Puerto Rico/New York and names Juan Santos-Rivera. Original archive OCR read. Announcement date not substituted for individual arrest day: October 1954 MONTH only. October 27 indictment is not arrest. 1927-2010 genealogy namesake lacks political identity linkage; no vital dates imported."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6e3cdfc7-55a9-4fef-baa7-74812e90ca6d"
       ],
@@ -14358,14 +14377,14 @@
       ],
       "missing_case_fields": {
         "6e3cdfc7-55a9-4fef-baa7-74812e90ca6d": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ramon-mirabal": {
       "id": "350bdd51-07b0-44d0-a70d-d455dddce1d6",
@@ -14414,8 +14433,14 @@
     "anne-braden": {
       "id": "cd51f08a-5c1c-49b1-9ba0-1ae167881da4",
       "name": "Anne Braden",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing portrait, vital dates and October 1-8, 1954 custody fully populated. Prosecution ended without conviction; no sentence or extra custody fabricated. Biography and dates preserved."
+        }
+      ],
       "case_ids": [
         "72eeaf8a-ec9c-4ae8-a0a8-d8c99e98a84e"
       ],
@@ -14426,7 +14451,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing portrait, vital dates and October 1-8, 1954 custody fully populated. Prosecution ended without conviction; no sentence or extra custody fabricated. Biography and dates preserved."
     },
     "louise-gilbert": {
       "id": "62ca41a5-2ce9-4154-b224-2d850600813b",
@@ -14486,8 +14512,34 @@
     "thomas-quinn": {
       "id": "5bcc692c-b497-47bb-9700-731ed5cc478b",
       "name": "Thomas Quinn",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "ba3fc4d2-384c-4407-81d6-5fce750816d6",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "quinn",
+              "note": "Original National Guardian March 14, 1951 printed page 5, visually inspected, identifies Tom Quinn, UE Local 601 Pittsburgh, Judge Kirkland sentence and re-sentence to one year/$500. Exact day/month not established by this report: YEAR 1951 only. Photograph nearby is Julius Emspak, not Quinn; excluded."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "quinn-union",
+              "note": "ILWU own March 30, 1951 Dispatcher independently names Thomas Quinn and reports initial sentence and change to one year/$500, appeal pending. Existing six-month case prose conflicts with these contemporary reports and remains unchanged under missing-only scope. Emspak five-day detention not attributed to Quinn; Supreme Court acquittal is not physical release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ba3fc4d2-384c-4407-81d6-5fce750816d6"
       ],
@@ -14499,13 +14551,13 @@
       "missing_case_fields": {
         "ba3fc4d2-384c-4407-81d6-5fce750816d6": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "phil-bart": {
       "id": "4cbc0766-bad7-4a4d-b492-a3cc15308212",
@@ -14541,8 +14593,14 @@
     "joseph-starobin": {
       "id": "37a9fef5-70a6-42b5-8d6d-4f810e0e42c7",
       "name": "Joseph Starobin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original Congressional Record July 27, 1955 confirms contempt citation (database summary says August). Citation is not arrest/sentence/admission. Existing vitals/photo preserved. No actual custody established; conflict logged without biography edits."
+        }
+      ],
       "case_ids": [
         "65a1c038-13ed-44a6-9e2e-6301cfa722d8"
       ],
@@ -14556,13 +14614,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original Congressional Record July 27, 1955 confirms contempt citation (database summary says August). Citation is not arrest/sentence/admission. Existing vitals/photo preserved. No actual custody established; conflict logged without biography edits."
     },
     "wendell-furry": {
       "id": "6d3b81f3-091e-48ce-8e29-ef0c0ba15d50",
       "name": "Wendell Furry",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Senate own published executive-hearing history states prosecution dropped June 1956; no prison term established. Existing complete vitals/photo retained; dismissal is not release."
+        }
+      ],
       "case_ids": [
         "7d257b7f-234d-4359-9617-1a96e03c372a"
       ],
@@ -14576,13 +14641,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Senate own published executive-hearing history states prosecution dropped June 1956; no prison term established. Existing complete vitals/photo retained; dismissal is not release."
     },
     "leon-j-kamin": {
       "id": "6884e250-d50f-4bd7-873c-b95c52264e5c",
       "name": "Leon J. Kamin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Senate own historical introduction and original United States v. Kamin, 136 F.Supp.791, January 5, 1956 acquittal; no actual served sentence established. All populated vitals/photo preserved; acquittal not physical release."
+        }
+      ],
       "case_ids": [
         "daa53c8e-5140-480c-b508-043aaf80ae8d"
       ],
@@ -14596,13 +14668,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Senate own historical introduction and original United States v. Kamin, 136 F.Supp.791, January 5, 1956 acquittal; no actual served sentence established. All populated vitals/photo preserved; acquittal not physical release."
     },
     "diantha-hoag": {
       "id": "4c340358-d670-464c-a7c6-ddcc4171625c",
       "name": "Diantha Hoag",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original United States v. Hoag, 142 F.Supp.667, July 6, 1956 upholds Fifth Amendment defense. No sentencing or physical custody dates established; generic obituaries not identity matched. No false arrest/release date from trial disposition."
+        }
+      ],
       "case_ids": [
         "fd4ec0ba-5a97-4687-b325-43af006f9344"
       ],
@@ -14620,13 +14699,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original United States v. Hoag, 142 F.Supp.667, July 6, 1956 upholds Fifth Amendment defense. No sentencing or physical custody dates established; generic obituaries not identity matched. No false arrest/release date from trial disposition."
     },
     "william-l-patterson": {
       "id": "cfef5d22-76da-477f-b4e1-24a0530f3e1f",
       "name": "William L. Patterson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "a2e9a223-fdc5-47c8-a668-818c934aa9ee",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "patterson-trial",
+              "note": "Original district-court opinion Application of Patterson, 125 F. Supp. 881, November 19, 1954, adjudges criminal contempt for Civil Rights Congress receipt records. Separate earlier IRS contempt term July-September 1954 is not combined."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "patterson-appeal",
+              "note": "Original Second Circuit opinion 219 F.2d659 January 27, 1955 explicitly states Judge Weinfeld imposed contempt sentence November 19. Orders immediate release January 27 but order alone not proof actual release that day. Earlier term dates differ from populated first case (opinion actual July 1-September 28, district September 27); populated first case and biography preserved, conflicts logged. No unsupported admission day or January release day inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "dbd46199-dab1-4f9f-ab49-3ba9548c8c35",
         "a2e9a223-fdc5-47c8-a668-818c934aa9ee"
@@ -14639,43 +14745,105 @@
         ],
         "a2e9a223-fdc5-47c8-a668-818c934aa9ee": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "edward-j-fitzgerald": {
       "id": "67499608-c2ee-40e0-8d26-4e6ea9348779",
       "name": "Edward J. Fitzgerald",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoners",
+          "id": "67499608-c2ee-40e0-8d26-4e6ea9348779",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "fitzgerald-sentence-photo",
+              "note": "Original printed page 4 directly captions Edward J. Fitzgerald; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+            }
+          ]
+        },
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "671dbb10-b70a-4b9b-9ccc-4c50e1088de3",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "fitzgerald-sentence-photo",
+              "note": "Original August 29, 1955 Guardian pages 1 and 4 describes August 18 contempt trial, Judge Walsh six-month sentence and parole until August 24 to appeal. Page 4 visually inspected. August 1955 MONTH only, no claim exact August 18 sentence day without distinct explicit dating. Bail/parole during appeal not treated as imprisonment or final release."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "fitzgerald-custody",
+              "note": "Original November 12, 1956 Guardian printed page 12, visually inspected: government threat made the day Fitzgerald surrendered to serve his term, followed by prosecutor statement October 29. Direct report links actual surrender/admission October 29, 1956 after appeal, distinct from 1955 sentence. No release calculated by adding six months; no vital dates from NSA analyst Edward Joseph Fitzgerald namesake."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "671dbb10-b70a-4b9b-9ccc-4c50e1088de3"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "671dbb10-b70a-4b9b-9ccc-4c50e1088de3": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "anna-h-morgan": {
       "id": "1c20a162-22eb-4804-a1b8-efddb0758322",
       "name": "Anna H. Morgan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "ac10c43a-525b-4d39-8227-60785d6adc61",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "morgan",
+              "note": "Original National Guardian October 31, 1955 page 2, Anna H. Morgan own Worthington Ohio letter and editorial note expressly say Morgan and Oscar Smilack fined $3200/$900 respectively in 1954 for Fifth Amendment refusals. Original page visually inspected. Fine sentencing YEAR 1954 only; no exact day, jail or release manufactured. Genealogical Anna Morgans not identity matched."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ac10c43a-525b-4d39-8227-60785d6adc61"
       ],
@@ -14687,33 +14855,68 @@
       "missing_case_fields": {
         "ac10c43a-525b-4d39-8227-60785d6adc61": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "willard-uphaus": {
       "id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
       "name": "Willard Uphaus",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoners",
+          "id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "uphaus-photo",
+              "note": "Original printed page 8 directly captions Willard Uphaus; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+            }
+          ]
+        },
+        {
+          "batch": 475,
+          "table": "prisoner_cases",
+          "id": "67f1f60b-14ab-4da2-b0ed-83af22b00cd3",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "uphaus-sentence",
+              "note": "Original Guardian December 14, 1959 page 2 explicitly original indeterminate contempt sentence in January 1956, later appeals and renewed court appearance December 14, 1959. Original visually inspected. Add original sentencing January 1956 MONTH only, distinct from actual 1959 imprisonment. New Hampshire own 102 N.H.517 opinion separately confirms December 14, 1959 committal. Existing December 11, 1960 release conflicts some December 13 summaries; preserve pending original physical-release confirmation."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "67f1f60b-14ab-4da2-b0ed-83af22b00cd3"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "67f1f60b-14ab-4da2-b0ed-83af22b00cd3": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "sam-hirsch": {
       "id": "d8239678-2cfd-404e-bedd-bd00e0078a70",
@@ -14796,14 +14999,32 @@
     "john-juhn": {
       "id": "d210858b-e4c1-4abe-a36e-0269ebeb29df",
       "name": "John Juhn",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoners",
+          "id": "d210858b-e4c1-4abe-a36e-0269ebeb29df",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "juhn-research",
+              "note": "Original archival research by Vladimir Hlasny and Byung Joon Jung, Political Migration of Korean Activists through Czechoslovakia, Seoul Journal of Korean Studies 30(1), 2017, expressly identifies John Juhn (Chon Kyongjun; 1895-?), linotype operator/editor/co-owner Korean Independence, wife Anna Song, 1920 migration and 1955 deportation proceedings. Identity matches profile. Authors own full indexed paper text read; original underlying birth/FBI record not visually inspected. YEAR 1895 only, January 1 storage placeholder. Death unknown; no custody endpoint or exile date from later travel inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cc779c69-95db-458d-9747-4d3411769536"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -14814,18 +15035,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "thomas-dutton": {
       "id": "77d226d3-4757-411f-97b0-3b4444ff77c9",
       "name": "Thomas Dutton",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "table": "prisoners",
+          "id": "77d226d3-4757-411f-97b0-3b4444ff77c9",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "dutton-photo",
+              "note": "Original printed page 8 directly captions Thomas Dutton; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c264e8e7-9760-428c-a5d8-7414e1047637"
       ],
       "missing_profile_fields": [
-        "photo",
         "death_date"
       ],
       "missing_case_fields": {
@@ -14837,7 +15077,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch475 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "joel-doty": {
       "id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
@@ -15168,8 +15409,14 @@
     "joseph-delaine": {
       "id": "5473753c-6fdd-4abe-b758-5992981fef25",
       "name": "Joseph DeLaine",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 475,
+          "status": "reviewed, no unsupported additions",
+          "note": "Profile explicitly records warrant without arrest/confinement; no jail endpoints applicable. Existing vitals and portrait retained. No custody date created from October 11, 1955 warrant or flight/extradition."
+        }
+      ],
       "case_ids": [
         "96fe41b0-8c95-44cd-9d5d-d51ce52a8435"
       ],
@@ -15183,7 +15430,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Profile explicitly records warrant without arrest/confinement; no jail endpoints applicable. Existing vitals and portrait retained. No custody date created from October 11, 1955 warrant or flight/extradition."
     },
     "emanuel-blum": {
       "id": "382ab54a-be3b-406a-a676-38017355b3f3",

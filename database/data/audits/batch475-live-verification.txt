@@ -1,0 +1,18 @@
+Batch475 live verification — October12,2026
+Data commit: db03bb5e
+B475-ISOLATED-TEST-OK 498 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview10; applied10; replay0. B475-OK on all three runs.
+Compared 723 profiles and 853 cases: 18 expected fields (eight dates, three portraits, seven precision metadata), 50217 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+willard-uphaus: HTTP200; portrait linked, HTTP200, exact SHA256
+thomas-dutton: HTTP200; portrait linked, HTTP200, exact SHA256
+edward-j-fitzgerald: HTTP200; portrait linked, HTTP200, exact SHA256
+juan-santos-rivera: HTTP200; arrest_date=1954-10-01 (MONTH), visible
+thomas-quinn: HTTP200; sentenced_date=1951-01-01 (YEAR), visible
+anna-h-morgan: HTTP200; sentenced_date=1954-01-01 (YEAR), visible
+john-juhn: HTTP200; birthdate=1895-01-01 (YEAR), visible
+edward-j-fitzgerald: HTTP200; sentenced_date=1955-08-01 (MONTH), visible; incarceration_date=1956-10-29 (DAY), visible
+willard-uphaus: HTTP200; sentenced_date=1956-01-01 (MONTH), visible
+william-l-patterson: HTTP200; sentenced_date=1954-11-19 (DAY), visible
+Fourteen profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch475 audit.
