@@ -1,0 +1,252 @@
+{
+  "batch": 479,
+  "audit_date": "2026-10-12",
+  "expected_count": 9,
+  "sources": {
+    "remes": "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_195804.pdf",
+    "remes-identity": "https://law.justia.com/cases/federal/district-courts/FSupp/170/200/2360435/",
+    "jenkins-letter": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-05-13-9-30-nat-guardian.pdf",
+    "judy-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-10-21-10-1-nat-guardian.pdf",
+    "daisy": "https://www.wisconsinhistory.org/record/image/W012C1R",
+    "daisy-corroboration": "https://theses.newcastle.ac.uk/jspui/bitstream/10443/145/1/kirk97.pdf",
+    "mowrer": "https://merton.bellarmine.edu/files/original/b87cbf0b58b7920a930310e553cc8cdcac310212.pdf",
+    "gines": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-08-12-9-43-nat-guardian.pdf",
+    "huntington-may": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1958/HC12-50149.pdf",
+    "huntington-june": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1958/HC12-50153.pdf",
+    "degregory": "https://openjurist.org/100/nh/513/wyman-v-degregory",
+    "katz": "https://law.justia.com/cases/federal/appellate-courts/F2/249/619/14746/"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "97b1582a-2d07-4e4d-a235-677322e9a093",
+      "prisoner_id": "d6ef6fcc-c971-4fd3-be7a-d34cee8c27b6",
+      "name": "Andrew Remes",
+      "slug": "andrew-remes",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-02-19 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "remes",
+          "note": "Original BLS MonthlyLaborReview April1958 printedp420/PDF58 seven Cleveland defendants sentenced under February19 heading, original visually checked in batch478. District170FSupp200 explicitly names AndrewRemes among seven and says all free on appeal bond1959. No actual admission or release inferred from sentence or later prison-reporting order; separate populated1936case untouched."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "152ad147-269a-4794-9314-c1c03a886bc9",
+      "prisoner_id": "76c938c8-736d-485f-824c-426e56d12977",
+      "name": "Grady Jenkins",
+      "slug": "grady-jenkins",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1957-04-08 00:00:00",
+        "incarceration_date": "1957-04-08 00:00:00",
+        "release_date": "1957-04-22 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "jenkins-letter",
+          "note": "Wife Junesh(Judy)Jenkins own signed letter NationalGuardian May13,1957 printedp2/PDF2, original visually read: husband arrested April8 at hospital and chained to bed; April22 finally released after two weeks chained. Custodial restraint at hospital distinguished preexisting tuberculosis treatment, which is not counted as incarceration. Bail reduction announcement April21 is not physical release; actual wife testimony April22 used. No sentence inferred from future threatened penalty."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "c2610578-6079-4915-a64e-6bc5d094d853",
+      "prisoner_id": "c2610578-6079-4915-a64e-6bc5d094d853",
+      "name": "Judy Jenkins",
+      "slug": "judy-jenkins",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/judy-jenkins-national-guardian-batch479.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "judy-photo",
+          "note": "Original NationalGuardian October21,1957 printedp8 explicit caption JudyJenkins and her children. Adultwoman isolated by exact rectangular crop of nativewidth4158 decoded page composite; original page and final crop visually inspected. No photograph of Grady inferred from family caption."
+        }
+      ],
+      "asset": {
+        "file": "judy-jenkins-national-guardian-batch479.png",
+        "sha256": "42ac04ba53244822306c38c29860e62eb56a9492395812f8766beda465484aac"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cd4c5cae-dd40-43c6-b99f-4fa841fcf1bf",
+      "prisoner_id": "c2610578-6079-4915-a64e-6bc5d094d853",
+      "name": "Judy Jenkins",
+      "slug": "judy-jenkins",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1957-04-06 00:00:00",
+        "incarceration_date": "1957-04-06 00:00:00",
+        "release_date": "1957-04-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "jenkins-letter",
+          "note": "Own signed first-person letter May13,1957 p2: April6 arrested on BatonRouge benchwarrant, taken to jail in NewOrleans, transferred to BatonRouge during bond arrangements and finally released3000-dollar bond that night. Initial actual custodial episode of existing broad1957Louisiana case; same-day release explicit. Separate April11 rearrest on NewOrleans charges followed same-day bond release is documented in audit only, not collapsed into continuous April6–11 custody or silently added as new case. Existing case prose remains unchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3f7c95f4-ec50-4d8e-bad2-2d9d563cefb1",
+      "prisoner_id": "3e67b703-b1ea-4919-984a-cc4bb20e04e0",
+      "name": "Daisy Bates",
+      "slug": "daisy-bates",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-12-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "daisy",
+          "note": "WisconsinHistoricalSociety own DaisyBates papers photographW012C1R datedDecember3,1957 explicitly Bates conferring with lawyerRobertCarter after100-dollar fine plus150costs for refusal to discloseNAACPrecords. JohnKirk Newcastle1997 research thesis p186 corroborates December3trial/fine from ArkansasGazetteDecember4,1957. Fine sentence distinguished actual imprisonment: no missing jail admission filled. LittleRockRevJCCrenshaw had dismissal, not assigned Bates or HelenaCrenshaw sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b3aa06df-07b2-40a0-b469-d990d68b66f0",
+      "prisoner_id": "c78d8acf-6c0f-4102-84dc-52b21f3136a4",
+      "name": "Deane Mowrer",
+      "slug": "deane-mowrer",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "mowrer",
+          "note": "Original CatholicWorker JulyAugust1957 frontpage contemporaneous report: July12 civildefense protest, group booked ElizabethStreet then quickly brought151stStreet court tried and sentenced30days; footnote names DeaneMowrer among fourCWstaff. Original scan visually read. MONTHJuly1957 only because exact sentencing day not explicit; Ammon own letter says jailJuly13, so July12protest not automatically sentence day. Existing arrest/admissionJuly12 and30day duration preserved; no release computed by adding sentence length."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "8030c050-cf56-417e-a8e1-8f4c3894dbea",
+      "prisoner_id": "6ccdc67a-53ee-45c7-86ae-bc08e04d8976",
+      "name": "Gines Martinez",
+      "slug": "gines-martinez",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1957-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "gines",
+          "note": "Original NationalGuardian August12,1957 printedp3 names GinesMartinez among five sailors who came ashoreJuly4 then sought Mexicoasylum and were brought back in USNavy custody, subsequently INS held as aliens. Actual1957USconfinement explicit; exact transfer/initialrestraint day and month not established. YEAR1957 only, Jan1 storage placeholder is not claimed admission. No July4arrival entered as arrest and no habeas order entered as release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d649df9c-d93c-4e35-85e9-deedbeb03332",
+      "prisoner_id": "4b8e506a-e2f0-4d98-b04e-4155714ca741",
+      "name": "William Huntington",
+      "slug": "william-huntington",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-05-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "huntington-may",
+          "note": "Original FriendsJournal May17,1958 printedp317/PDF9 explicitly OnMay7 fourcrew includingWilliamHuntington sentenced byJudgeWiig60days or oneyearprobation. Original page visually inspected. Sentence does not replace existing arrest/admission/release nor supply new custody totals; later Juneattempt distinct."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "600b3eb2-7c09-4d71-9b8b-f3bfc47f30d8",
+      "prisoner_id": "4b8e506a-e2f0-4d98-b04e-4155714ca741",
+      "name": "William Huntington",
+      "slug": "william-huntington",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "huntington-june",
+          "note": "Original FriendsJournal June14,1958 printedp382/PDF10 expressly June4 secondattempt then Huntington/Willoughby/Sherwood sentenced60days currentlyserving. Original page visually inspected. MONTHJune1958 only: June4sailing not exact sentencing day. Existing releaseAugust3 retained despite laterAugust9still-in-jail printedstatement requiring lettercomposition date verification."
+        }
+      ]
+    }
+  ]
+}
