@@ -1,0 +1,100 @@
+{
+  "batch": 436,
+  "audit_date": "2026-10-12",
+  "expected_count": 3,
+  "sources": {
+    "schmidt": "https://archive.ilwu.org/wp-content/uploads/2015/04/19840504.pdf",
+    "lumer": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-F0418-0001-005,_Berlin,_VII._SED-Parteitag,_1.Tag.jpg",
+    "phillips": "https://historylink.org/File/1482"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "d94009e0-c31b-4154-8e36-10940531bf6e",
+      "prisoner_id": "d94009e0-c31b-4154-8e36-10940531bf6e",
+      "slug": "henry-schmidt",
+      "name": "Henry Schmidt",
+      "expected": {
+        "photo": null,
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "photo": "prisoners/henry-schmidt-ilwu-batch436.png",
+        "birthdate": "1899-02-09 00:00:00",
+        "death_date": "1984-05-02 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "henry-schmidt-ilwu-batch436.png",
+        "sha256": "d5f08c2a38af057eacd3e972d1292b7c03cbe2617b8eee2918e52f35c573e169"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo",
+            "birthdate",
+            "death_date"
+          ],
+          "source": "schmidt",
+          "note": "Contemporary ILWU obituary explicitly gives birth February9,1899 and death May2,1984. Same page identifies the Bridges-Robertson-Schmidt prosecution, matching this existing record. Caption identifies Henry Schmidt at left, in light hat, leading the 1934 parade; crop is the man in the light hat at front left of the leading pair. Original page and crop visually checked."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "746d4e60-848d-4b8c-be9b-bd7d09ad09f3",
+      "prisoner_id": "746d4e60-848d-4b8c-be9b-bd7d09ad09f3",
+      "slug": "hyman-lumer",
+      "name": "Hyman Lumer",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"month\"}"
+      },
+      "update": {
+        "photo": "prisoners/hyman-lumer-bundesarchiv-batch436.png"
+      },
+      "asset": {
+        "file": "hyman-lumer-bundesarchiv-batch436.png",
+        "sha256": "b77a365723a14d99ced288b2b2c3e3bd049a9145e8965b3e3f03b9e59357b884"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "lumer",
+          "note": "Bundesarchiv original caption explicitly identifies Hyman Lumer first from right in the SED congress presidium photograph, archived April18,1967; caption refers to April17 event. Identifies him as CPUSA national executive member, matching the existing educator. Exact crop of the rightmost foreground man; original and crop visually checked. No vital or case dates changed."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "50d06263-7a11-4e50-9202-4cdc2f6ff36d",
+      "prisoner_id": "50d06263-7a11-4e50-9202-4cdc2f6ff36d",
+      "slug": "herbert-phillips",
+      "name": "Herbert Phillips",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/herbert-phillips-historylink-batch436.png"
+      },
+      "asset": {
+        "file": "herbert-phillips-historylink-batch436.png",
+        "sha256": "0da6de55dcec1d9ae9e1ee027b81f6f60b57887ee1e75c42ec62ac91b6a6fe44"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "phillips",
+          "note": "HistoryLink record1482 photograph56943 explicitly identifies Professor Herbert J. Phillips at left with Clayton Van Lydegraf at UW regents hearing, Seattle January23,1949. Large original1024x1075; crop retains the named left-hand professor. Original and crop visually checked. The article identifies his philosophy department and loyalty-purge context, matching this record. No vital dates inferred from reported age56."
+        }
+      ]
+    }
+  ]
+}
