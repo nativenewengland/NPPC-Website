@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Batch 458: fill verified missing fields for 1950s profiles and cases.
-# Provenance: fixes/batch458.json, audits/1950s-deep-dive-batch458.md,
-# photos/CREDITS-batch458.md. All existing nonempty fields are guarded.
+# Provenance: fixes/batch458.json, audits/1950s-deep-dive-batch458.md.
+# All existing nonempty fields are guarded.
 
 set -uo pipefail
 cd "$(dirname "$0")/../.." || exit 1
@@ -39,7 +39,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 $payload = json_decode(File::get(base_path("database/data/fixes/batch458.json")), true, 512, JSON_THROW_ON_ERROR);
-if (($payload["batch"] ?? null) !== 658 || ($payload["expected_count"] ?? null) !== 6 || count($payload["entries"] ?? []) !== 6) {
+if (($payload["batch"] ?? null) !== 458 || ($payload["expected_count"] ?? null) !== 6 || count($payload["entries"] ?? []) !== 6) {
     throw new \RuntimeException("Unexpected batch identity or count.");
 }
 $allowed = ["prisoners" => ["photo", "birthdate", "death_date", "date_precision"], "prisoner_cases" => ["arrest_date", "sentenced_date", "incarceration_date", "release_date", "date_precision"]];
