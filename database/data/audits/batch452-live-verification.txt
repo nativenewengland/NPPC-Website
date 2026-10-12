@@ -1,0 +1,23 @@
+Batch 452 live verification — October 12,2026
+Data commit: 4601c820
+B452-ISOLATED-TEST-OK 737 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview13 matched guarded rows. Applied13 rows; replay0 rows. B452-OK on all three runs.
+Compared 723 profiles and 852 cases: 50169 unrelated field values preserved; 38 expected fields verified, including thirteen precision metadata values; existing precision entries preserved.
+Twenty-five missing dates filled across eleven existing profiles and cases. Two sentencing dates and Max Shlafrock birth/death have day precision; other case dates and Charles Smolikoff death have year precision. Release dates and unsupported vital/portrait leads remain unresolved. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 452 repeat live/public check — October 12, 2026
+All 13 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B452-OK.
+All 11 public profile pages returned HTTP 200. No portraits changed in this date-only batch.
+augusta-birnberg: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+charles-marks: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+charles-smolikoff: sentenced_date=1954-07-07 (day); visible=True; incarceration_date=1954-01-01 (year); visible=True; death_date=1978-01-01 (year); visible=True
+david-lippert: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+emanuel-graff: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+jose-carbonell: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+maurice-carroll: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+max-shlafrock: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True; birthdate=1909-03-26 (day); visible=True; death_date=2004-09-29 (day); visible=True
+mike-shantzek: sentenced_date=1954-06-11 (day); visible=True; incarceration_date=1954-01-01 (year); visible=True
+philip-feldman: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+walter-marks: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
