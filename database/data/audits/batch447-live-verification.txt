@@ -1,0 +1,15 @@
+Batch 447 live verification — October 12,2026
+Data commit: e98def85
+B447-ISOLATED-TEST-OK 227 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview4 matched guarded rows. Applied4 rows; replay0 rows. B447-OK on all three runs.
+Compared 723 profiles and 852 cases: 50209 unrelated field values preserved; 7 expected fields verified, including three precision metadata values; existing precision entries preserved.
+Three missing dates and one identified portrait filled across three existing profiles and cases. Gilbert release has month precision, not a claimed October 1 release day. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 447 repeat live/public check — October 12, 2026
+All 4 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B447-OK.
+All 3 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+joseph-brandt: sentenced_date=1956-03-23 (day); visible=True
+louise-gilbert: release_date=1954-10-01 (month); visible=True; portrait renders and HTTP image checksum matches
+lucille-bethencourt: sentenced_date=1956-03-23 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

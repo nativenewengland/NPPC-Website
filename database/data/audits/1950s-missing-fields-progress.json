@@ -5779,8 +5779,33 @@
     "lucille-bethencourt": {
       "id": "3907150a-a8eb-4b4f-a67c-17b159efd7b9",
       "name": "Lucille Bethencourt",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 447,
+          "table": "prisoner_cases",
+          "id": "b2fd6523-e13a-403b-ab99-3085a8041660",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "doj-sentence",
+              "note": "United States Attorneys Bulletin April 13, 1956 printed pp246–247, PDF pp7–8, explicitly reports March 23, 1956 sentencing in United States v. Brandt et al. Joseph Brandt receives five years; Lucille Bethencourt three and a half. Both original pages visually checked. This is sentencing, not the February 10 verdict or actual imprisonment. Existing related defendant sentences and all custody fields preserved."
+            }
+          ]
+        },
+        {
+          "batch": 447,
+          "status": "portrait lead unresolved",
+          "note": "Library of Congress New York World-Telegram and Sun biographical finding aid lists Bethencourt, Lucille—Communist arrest; no digitized image located. No portrait assigned from finding aid alone.",
+          "source": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/pp021033/pp021033.pdf"
+        }
+      ],
       "case_ids": [
         "b2fd6523-e13a-403b-ab99-3085a8041660"
       ],
@@ -5791,13 +5816,13 @@
       ],
       "missing_case_fields": {
         "b2fd6523-e13a-403b-ab99-3085a8041660": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch447 audit."
     },
     "joseph-dougher": {
       "id": "3697aba5-aa8e-41fa-bfe0-f5ce29156d6c",
@@ -5867,6 +5892,24 @@
               "note": "Joseph Brandt, April 1938. 15th International Brigade Photographic Unit Photograph Collection, ALBA Photo 11, item 11-0143, Tamiment Library/Robert F. Wagner Labor Archives, New York University Libraries. ALBA volunteer page explicitly identifies this photograph and ties Sam Brustein to Ohio CP organizing, Spanish Civil War service and Smith Act imprisonment. Original 237x317 JPEG retained, including archive marking. Copyright retained by the archive; no public-domain claim. Unrelated painter, Mohawk leader and university president namesakes excluded."
             }
           ]
+        },
+        {
+          "batch": 447,
+          "table": "prisoner_cases",
+          "id": "1855e1d0-1015-40fc-ae31-51d8e0ffc919",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "doj-sentence",
+              "note": "United States Attorneys Bulletin April 13, 1956 printed pp246–247, PDF pp7–8, explicitly reports March 23, 1956 sentencing in United States v. Brandt et al. Joseph Brandt receives five years; Lucille Bethencourt three and a half. Both original pages visually checked. This is sentencing, not the February 10 verdict or actual imprisonment. Existing related defendant sentences and all custody fields preserved."
+            }
+          ]
         }
       ],
       "case_ids": [
@@ -5875,14 +5918,13 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "1855e1d0-1015-40fc-ae31-51d8e0ffc919": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
       },
-      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch447 audit."
     },
     "corliss-lamont": {
       "id": "79b44f3a-b626-48dd-b479-d7b9caee6ede",
@@ -10037,22 +10079,57 @@
     "louise-gilbert": {
       "id": "62ca41a5-2ce9-4154-b224-2d850600813b",
       "name": "Louise Gilbert",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 447,
+          "table": "prisoner_cases",
+          "id": "e4ea9f7d-45dd-4d1d-a075-e81f216c4e1f",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "guardian-release",
+              "note": "National Guardian October 18, 1954 printed/PDF p7, original visually checked, identifies Louise Gilbert social worker in Wade-house prosecution, describes October 1 imprisonment on bail and expressly states all indicted still in jail except Miss Gilbert who had posted bail. Establishes physical release within October, not an exact day. October 1 stored only as month-precision placeholder and displayed October 1954, not a same-day release. No service total or release day calculated."
+            }
+          ]
+        },
+        {
+          "batch": 447,
+          "table": "prisoners",
+          "id": "62ca41a5-2ce9-4154-b224-2d850600813b",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "gilbert-portrait",
+              "note": "Historical trail page identifies Louisville Wade Defense Committee defendant and LaRue Spiker partner, captioned newspaper portrait at her grand jury indictment, credited to Mount Desert Historical Society. Original clipping independently captions Miss Louise Gilbert, social worker and former chairman Louisville Branch WILPF. Original inspected. Exact crop removes caption and margin only; retained pixels unchanged. Photographer/newspaper uncredited; rights undetermined. Distinct from San Francisco artist Louise Gilbert."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e4ea9f7d-45dd-4d1d-a075-e81f216c4e1f"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "e4ea9f7d-45dd-4d1d-a075-e81f216c4e1f": [
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated 1913 birth and 2005 death match an unrelated San Francisco artist; library-supported historical trail identifies the Louisville social worker and LaRue Spiker partner with death 1994. Preserve populated values under missing-only scope; separately sourced identity reconciliation remains required. See batch447 audit."
     },
     "thomas-quinn": {
       "id": "5bcc692c-b497-47bb-9700-731ed5cc478b",
