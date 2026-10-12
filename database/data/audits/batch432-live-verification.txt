@@ -1,0 +1,14 @@
+Batch 432 live verification — October 12,2026
+Data commit: 6686152f
+B432-ISOLATED-TEST-OK 114 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview2 matched guarded rows. Applied2 rows; replay0 rows. B432-OK on all three runs.
+Compared 723 profiles and 852 cases: 50212 unrelated field values preserved; 6 expected fields verified, including two precision metadata values; existing precision entries preserved.
+Three missing vital dates and one missing portrait filled. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 432 repeat live/public check — October 12, 2026
+All 2 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B432-OK.
+All 2 public profile pages returned HTTP 200. The portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+elba-chase-nelson: birthdate=1891-01-01 (year); visible=True; death_date=1967-01-01 (year); visible=True; portrait renders and HTTP image checksum matches
+ernesto-mangaoang: death_date=1968-03-28 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

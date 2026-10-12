@@ -3306,14 +3306,31 @@
     "ernesto-mangaoang": {
       "id": "16a7a004-297d-434c-9cc1-878103194782",
       "name": "Ernesto Mangaoang",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 432,
+          "table": "prisoners",
+          "id": "16a7a004-297d-434c-9cc1-878103194782",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "mangaoang",
+              "note": "ILWU Dispatcher June21,1968 printed/PDFpage6, Seattle Memorial Service Honors Ernesto Mangaoang, explicitly states died March28 at Seattle home. Name, Local37 business-agent role, birth February22,1902, widowBabaJeanne and deportation case match. Original PDF and masthead visually checked. June7,1968 Dispatcher page6 independently confirms March28 death."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d64c315b-1935-4f3a-bbe6-0d79ae15add3"
       ],
-      "missing_profile_fields": [
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "d64c315b-1935-4f3a-bbe6-0d79ae15add3": [
           "arrest_date",
@@ -3322,7 +3339,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified vital dates and captioned Nelson portrait applied. Nelson dates remain year-only; exact days unresolved. Existing case dates and prose preserved. See batch432 audit."
     },
     "knut-heikkinen": {
       "id": "964b2e6d-e944-49ab-a615-cb29e256575d",
@@ -7728,23 +7746,50 @@
     "elba-chase-nelson": {
       "id": "0b75577e-571e-47ec-8b5c-2fdaac592c2f",
       "name": "Elba Chase Nelson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 432,
+          "table": "prisoners",
+          "id": "0b75577e-571e-47ec-8b5c-2fdaac592c2f",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "nelson_family",
+              "note": "Granddaughter Norah Chase’s family-maintained site identifies Elba Chase Nelson (1891–1967), Latvia-born NewHampshire CommunistParty leader and gubernatorial candidate. Only years are asserted; January1 is storage placeholder, not claimed birthday/deathday."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "photo"
+              ],
+              "source": "nelson_bar",
+              "note": "NewHampshireBarNews April15,2020 page3 JackMiddleton article independently confirms1891birth and reproduces a captioned historic court photograph identifying MrsElbaChaseNelson onleft, sonHomer and wifecenter, husbandCharlesright. Extracted embedded1473x1029CMYKJPEG Im2 fromPDFpage3, exactrectangularcrop (144,398,404,745),260x347PNG; necessaryCMYK-to-RGBdisplayconversion only. No resizing, retouching or generated pixels. Originalphoto and caption visually checked; photographer not credited for this particular image."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1c2bb319-7fb0-40dd-8897-122216b96813"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "1c2bb319-7fb0-40dd-8897-122216b96813": [
           "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified vital dates and captioned Nelson portrait applied. Nelson dates remain year-only; exact days unresolved. Existing case dates and prose preserved. See batch432 audit."
     },
     "homer-chase": {
       "id": "b3332a8c-43c8-41c2-b081-44622d80c536",
