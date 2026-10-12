@@ -3616,8 +3616,38 @@
     "manuel-tarazona": {
       "id": "e417067c-eca5-432f-a337-161ac66ad0eb",
       "name": "Manuel Tarazona",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "0fd9a203-7acf-47f9-b4d6-1837c16d62a4",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "tarazona-guardian",
+              "note": "NationalGuardianAugust22,1951p5, original inspected: re-arrest after CRCbailfundrevoked, heldfor deportation, Weinfeldorderedreleaseon4000bondtwicerejected; confirms same1951rearrestcase. Only YEAR for each field; no exact arrest/release day or month claimed from publication."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "tarazona-laisve",
+              "note": "LaisveAugust22,1951p4 original Lithuanian report, Nemažaslaimėjimas: wife/daughterpostedbail, WeinfeldorderedreleasefromEllisIsland and Dabar jau laimėtas paliuosavimas (release has now been achieved), contrasting Bittelmanstilljail. Supports completed1951release, not solely an unexecuted courtorder. Originalpage inspected; uncertain month kept YEAR, no issue-date endpoint."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0fd9a203-7acf-47f9-b4d6-1837c16d62a4"
       ],
@@ -3628,14 +3658,12 @@
       ],
       "missing_case_fields": {
         "0fd9a203-7acf-47f9-b4d6-1837c16d62a4": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "sol-hertz": {
       "id": "563842ae-60ae-4366-8526-8dd98d65fc09",
@@ -8345,8 +8373,37 @@
     "morris-robinsky": {
       "id": "6e1b7918-cb9a-42a5-8e0d-2ba45146f07b",
       "name": "Morris Robinsky",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "a0398a3a-03d7-4709-bd6a-1ae705d11036",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "morris-court",
+              "note": "StateexrelFeldmanvKelly76So2d798, FloridaSupremeCourtNovember19,1954, expressly lists MorrisROHINSKY and says petitioners adjudgedcontemptandcommittedtojail forpoliticalgrandjuryquestions. Matched by Guardianhousepainter/JewishCulturalCenter identity and same1954Dadecase despite existingROBinsky spelling. YEAR precision only; judgment date not imprisonment or release day."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "morris-guardian",
+              "note": "NationalGuardianAugust2,1954p5, original inspected, lists MorrisRohinskyhousepainter/JewishCulturalCenterofficer, one-year contemptterms and bailgrant. Corroborates1954actualcustody/sentence. Bailgrantnotactualrelease, so endpoint unresolved; Novembervoidedtermnotassumedphysicalrelease."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a0398a3a-03d7-4709-bd6a-1ae705d11036"
       ],
@@ -8358,13 +8415,12 @@
       "missing_case_fields": {
         "a0398a3a-03d7-4709-bd6a-1ae705d11036": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "jose-carbonell": {
       "id": "cba1542a-9f7a-4918-855c-041ba6997b84",
@@ -8923,24 +8979,60 @@
     "manuel-cuevas-diaz": {
       "id": "62537c45-313e-40e4-929b-0ac5116daece",
       "name": "Manuel Cuevas Diaz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "391aef74-a744-454d-b0d1-6368bf5c1c12",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "diaz-guardian",
+              "note": "NationalGuardianMarch29,1954p3 originalpage, sameSpanishRepublicannavy/FreeFrench veteran,wifeElba,sonsAntonio/ManuelJr: livedincage until lastmonth, now freeandsafeinGuatemala workingascook. February1954 MONTH precision; February1placeholder notclaimedday. PopulatedSeptember1952arrest/incarceration preserved and their precision retained."
+            }
+          ]
+        },
+        {
+          "batch": 451,
+          "table": "prisoners",
+          "id": "62537c45-313e-40e4-929b-0ac5116daece",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "diaz-guardian",
+              "note": "NationalGuardianMarch29,1954p3 portrait immediately over caption MANUELCUEVASDIAZ/Therecamelifeandfreedom, inside articleidentifying same refugee. Originalcaption/page and crop visuallyinspected. NativeJPX4236x5536, exactcrop765x1015, retainedpixelsverified equal; noresize/redraw/retouch. Photographeruncredited, rightsundetermined, nopublicdomainclaim. Not sonsManuelJr/Antonio fromJanuary1954photo; not MexicanclothierManuelCuevas1933 namesake."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "391aef74-a744-454d-b0d1-6368bf5c1c12"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "391aef74-a744-454d-b0d1-6368bf5c1c12": [
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "jacob-burck": {
       "id": "3cce76dd-4c2e-4a4e-b98c-861450d869db",
@@ -13186,8 +13278,37 @@
     "enrique-medina-fernandez": {
       "id": "f4c3e42b-1d0f-420f-8f63-afc87a9db110",
       "name": "Enrique Medina Fernandez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "10609572-beb8-42fe-b050-9c142f5aacf0",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-witness",
+              "note": "The Witness August7,1958 printedp19/PDFp19, original letter HowardO.Hale, SanDiego layman and ACLU CommitteeToFreeTheFiveSpanishSailors member, personally visiting detainees weekly. Explicit July4,1957 seizure inTijuana followed by imprisonmentChulaVistaImmigrationStation; all five named at close including this subject. Original page visually inspected. MidJune1957 departure from ships is distinct from July4seizure; actual prolonged detention expressly documented, not inferred from asylum application or sentence."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-court",
+              "note": "EnriqueMedinaFernandez etal v.Hartman260F2d569, July17,1958, names same five, independently confirms apprehension inBajaCalifornia, involuntary return, U.S.Navy/Immigration custody, and sham parole never actual liberty. Appellate order is not assumed physical release day. Samegroupidentity and ships corroborated."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "10609572-beb8-42fe-b050-9c142f5aacf0"
       ],
@@ -13198,14 +13319,13 @@
       ],
       "missing_case_fields": {
         "10609572-beb8-42fe-b050-9c142f5aacf0": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "gines-martinez": {
       "id": "6ccdc67a-53ee-45c7-86ae-bc08e04d8976",
@@ -13234,8 +13354,37 @@
     "victor-rodriguez": {
       "id": "a0f958aa-108f-49d9-b6b4-f2996c1a22c7",
       "name": "Victor Rodriguez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "482f845f-c227-4f7b-a57d-7bb4356f70d2",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-witness",
+              "note": "The Witness August7,1958 printedp19/PDFp19, original letter HowardO.Hale, SanDiego layman and ACLU CommitteeToFreeTheFiveSpanishSailors member, personally visiting detainees weekly. Explicit July4,1957 seizure inTijuana followed by imprisonmentChulaVistaImmigrationStation; all five named at close including this subject. Original page visually inspected. MidJune1957 departure from ships is distinct from July4seizure; actual prolonged detention expressly documented, not inferred from asylum application or sentence."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-court",
+              "note": "EnriqueMedinaFernandez etal v.Hartman260F2d569, July17,1958, names same five, independently confirms apprehension inBajaCalifornia, involuntary return, U.S.Navy/Immigration custody, and sham parole never actual liberty. Appellate order is not assumed physical release day. Samegroupidentity and ships corroborated."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "482f845f-c227-4f7b-a57d-7bb4356f70d2"
       ],
@@ -13246,20 +13395,48 @@
       ],
       "missing_case_fields": {
         "482f845f-c227-4f7b-a57d-7bb4356f70d2": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "manuel-fernandez-rodriguez": {
       "id": "f2d98e80-d68d-4b82-8814-21b708ed9e4d",
       "name": "Manuel Fernandez Rodriguez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "f0dc222e-f244-4f3a-8e32-ec0e4c115f08",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-witness",
+              "note": "The Witness August7,1958 printedp19/PDFp19, original letter HowardO.Hale, SanDiego layman and ACLU CommitteeToFreeTheFiveSpanishSailors member, personally visiting detainees weekly. Explicit July4,1957 seizure inTijuana followed by imprisonmentChulaVistaImmigrationStation; all five named at close including this subject. Original page visually inspected. MidJune1957 departure from ships is distinct from July4seizure; actual prolonged detention expressly documented, not inferred from asylum application or sentence."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-court",
+              "note": "EnriqueMedinaFernandez etal v.Hartman260F2d569, July17,1958, names same five, independently confirms apprehension inBajaCalifornia, involuntary return, U.S.Navy/Immigration custody, and sham parole never actual liberty. Appellate order is not assumed physical release day. Samegroupidentity and ships corroborated."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "f0dc222e-f244-4f3a-8e32-ec0e4c115f08"
       ],
@@ -13270,20 +13447,48 @@
       ],
       "missing_case_fields": {
         "f0dc222e-f244-4f3a-8e32-ec0e4c115f08": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "augustine-cabrera-oroza": {
       "id": "ce780123-e965-4eda-a378-b517399d0e95",
       "name": "Augustine Cabrera Oroza",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 451,
+          "table": "prisoner_cases",
+          "id": "80c4d5d9-dbed-43a0-b32b-1844d009a495",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-witness",
+              "note": "The Witness August7,1958 printedp19/PDFp19, original letter HowardO.Hale, SanDiego layman and ACLU CommitteeToFreeTheFiveSpanishSailors member, personally visiting detainees weekly. Explicit July4,1957 seizure inTijuana followed by imprisonmentChulaVistaImmigrationStation; all five named at close including this subject. Original page visually inspected. MidJune1957 departure from ships is distinct from July4seizure; actual prolonged detention expressly documented, not inferred from asylum application or sentence."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "sailors-court",
+              "note": "EnriqueMedinaFernandez etal v.Hartman260F2d569, July17,1958, names same five, independently confirms apprehension inBajaCalifornia, involuntary return, U.S.Navy/Immigration custody, and sham parole never actual liberty. Appellate order is not assumed physical release day. Samegroupidentity and ships corroborated."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "80c4d5d9-dbed-43a0-b32b-1844d009a495"
       ],
@@ -13294,14 +13499,13 @@
       ],
       "missing_case_fields": {
         "80c4d5d9-dbed-43a0-b32b-1844d009a495": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch451 audit."
     },
     "william-huntington": {
       "id": "4b8e506a-e2f0-4d98-b04e-4155714ca741",

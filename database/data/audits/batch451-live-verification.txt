@@ -1,0 +1,19 @@
+Batch 451 live verification — October 12,2026
+Data commit: 63c596a7
+B451-ISOLATED-TEST-OK 483 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview8 matched guarded rows. Applied8 rows; replay0 rows. B451-OK on all three runs.
+Compared 723 profiles and 852 cases: 50190 unrelated field values preserved; 22 expected fields verified, including seven precision metadata values; existing precision entries preserved.
+Fourteen missing dates and one identified portrait filled across seven existing profiles and cases. Four sailors arrest/incarceration have day precision; Cuevas Diaz release has month precision; Tarazona and Robinsky dates have year precision. Gines Martinez identity remains unresolved and untouched. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 451 repeat live/public check — October 12, 2026
+All 8 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B451-OK.
+All 7 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+augustine-cabrera-oroza: arrest_date=1957-07-04 (day); visible=True; incarceration_date=1957-07-04 (day); visible=True
+enrique-medina-fernandez: arrest_date=1957-07-04 (day); visible=True; incarceration_date=1957-07-04 (day); visible=True
+manuel-cuevas-diaz: release_date=1954-02-01 (month); visible=True; portrait renders and HTTP image checksum matches
+manuel-fernandez-rodriguez: arrest_date=1957-07-04 (day); visible=True; incarceration_date=1957-07-04 (day); visible=True
+manuel-tarazona: arrest_date=1951-01-01 (year); visible=True; incarceration_date=1951-01-01 (year); visible=True; release_date=1951-01-01 (year); visible=True
+morris-robinsky: sentenced_date=1954-01-01 (year); visible=True; incarceration_date=1954-01-01 (year); visible=True
+victor-rodriguez: arrest_date=1957-07-04 (day); visible=True; incarceration_date=1957-07-04 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
