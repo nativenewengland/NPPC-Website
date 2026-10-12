@@ -3467,26 +3467,63 @@
     "knut-heikkinen": {
       "id": "964b2e6d-e944-49ab-a615-cb29e256575d",
       "name": "Knut Heikkinen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 448,
+          "table": "prisoners",
+          "id": "964b2e6d-e944-49ab-a615-cb29e256575d",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "heikkinen-court",
+              "note": "Eighth Circuit opinion June 20, 1951, 190 F.2d 16, expressly identifies Knut Einar Heikkinen as born Finland in 1890. Editor Eteenpain/Tovari, Communist membership and Duluth deportation detention match the existing profile. Year precision, not a birthday calculated from age. Full court opinion retrieved through web; direct local HTTP403, no original-page visual claim."
+            }
+          ]
+        },
+        {
+          "batch": 448,
+          "table": "prisoner_cases",
+          "id": "646149c8-1096-44ca-995f-a23487f3bdde",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "heikkinen-court",
+              "note": "Opinion expressly reports rearrest and detention without bail on or about October 23, 1950, followed by Duluth habeas hearings October 30 and November 10. Missing 1950 McCarran deportation detention dates stored October 1950 MONTH precision because on-or-about does not establish exact day. October 1 is storage placeholder only. November 21, 1949 initial warrant arrest and later 1953/1954 criminal proceeding not substituted. Bail pending appeal confirmed but actual release date unresolved; June 20, 1951 appellate decision is not release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "646149c8-1096-44ca-995f-a23487f3bdde"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "646149c8-1096-44ca-995f-a23487f3bdde": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch448 audit."
     },
     "john-zydok": {
       "id": "b3855814-dd07-446e-8237-62c91307dc88",
@@ -3987,8 +4024,27 @@
     "lawrence-walker": {
       "id": "8177e8b6-4478-4279-8d7b-d210a91c0a64",
       "name": "Lawrence Walker",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 448,
+          "table": "prisoner_cases",
+          "id": "e7bd6b0b-d655-4efa-b0c2-bdb041245e98",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "walker-arrest",
+              "note": "Eugene Register-Guard August 6, 1951 printed/PDF p2 contemporary Associated Press report, original visually checked, identifies former March Air Force Base airman and March 26 Riverside slayings, explicitly says Walker arrested on the day of the slaying. Case context matches. August 5 verdict and scheduled August 15 sentencing are not actual sentence or prison admission. Cajun accordionist namesake excluded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e7bd6b0b-d655-4efa-b0c2-bdb041245e98"
       ],
@@ -3999,14 +4055,14 @@
       ],
       "missing_case_fields": {
         "e7bd6b0b-d655-4efa-b0c2-bdb041245e98": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch448 audit."
     },
     "camille-derose": {
       "id": "e81f6b31-41fe-4258-a12a-36bfddd7da42",
@@ -7175,25 +7231,75 @@
     "lewis-johnson": {
       "id": "d7540ef7-cb0e-414a-96d8-faeaca2f47cb",
       "name": "Lewis Johnson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 448,
+          "table": "prisoner_cases",
+          "id": "c5b16274-3a26-48cc-89a4-eb008d99b833",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "denver-fbi",
+              "note": "Official indexed FBI NAACP Part5 NY100-7629 Colorado Committee to Protect Civil Liberties glossary reports all seven Denver Smith Act defendants sentenced June 23, 1955. Its list renders Lewis Martin Jackson; cross-check DOJ January21,1955 Bary prosecution list identifies the same seventh defendant as Lewis Martin Johnson. Other six defendants all match. Direct FBI original fetch unavailable; no visual inspection claim."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "denver-sentence",
+              "note": "National Guardian July4,1955 original printed/PDF p7 visually checked, expressly names Lewis Johnson among the same seven first-sentence defendants and gives four years plus $3000. Distinct from the 1959 six-person retrial, whose indictment against Johnson was dismissed. Existing pending-trial prose and populated August1954 arrest preserved. No prison admission, actual service total or release inferred."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "denver-doj",
+              "note": "DOJ United States Attorneys Bulletin January21,1955 printed case summary identifies Lewis Martin Johnson in Bary et al, with exactly the other six defendants. Resolves Lewis/Louis/errant Jackson renderings by case identity, not name alone."
+            }
+          ]
+        },
+        {
+          "batch": 448,
+          "table": "prisoners",
+          "id": "d7540ef7-cb0e-414a-96d8-faeaca2f47cb",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "denver-caption",
+              "note": "National Guardian June6,1955 printed/PDF p4 original group caption identifies Denver Smith Act defendants by seated/standing position. Louis Johnson is standing second from left, between Arthur Bary and Harold Zepelin. Same prosecution, exact six co-defendants, paired contemporary Lewis Johnson sentencing report and DOJ Lewis Martin Johnson list establish identity despite Louis caption spelling. Native grayscale JPX exact rectangular crop; no resizing/retouching. Photographer uncredited; rights undetermined."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c5b16274-3a26-48cc-89a4-eb008d99b833"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "c5b16274-3a26-48cc-89a4-eb008d99b833": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch448 audit."
     },
     "harold-zepelin": {
       "id": "21fb55f9-7689-48bb-9817-a048c3d415aa",

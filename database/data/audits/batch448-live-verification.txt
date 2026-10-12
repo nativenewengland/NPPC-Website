@@ -1,0 +1,15 @@
+Batch 448 live verification — October 12,2026
+Data commit: 5fbbbfe5
+B448-ISOLATED-TEST-OK 226 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B448-OK on all three runs.
+Compared 723 profiles and 852 cases: 50205 unrelated field values preserved; 10 expected fields verified, including four precision metadata values; existing precision entries preserved.
+Five missing dates and one identified portrait filled across three existing profiles and cases. Heikkinen birth has year precision; October1950 arrest and incarceration have month precision, not a claimed October1 detention day. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 448 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B448-OK.
+All 3 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+knut-heikkinen: birthdate=1890-01-01 (year); visible=True; arrest_date=1950-10-01 (month); visible=True; incarceration_date=1950-10-01 (month); visible=True
+lawrence-walker: arrest_date=1951-03-26 (day); visible=True
+lewis-johnson: sentenced_date=1955-06-23 (day); visible=True; portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
