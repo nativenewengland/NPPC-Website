@@ -1,0 +1,21 @@
+# 1950s missing-fields review: batch478
+
+October12,2026. Fourteen profiles reviewed. Eleven missing dates and two identified original portraits across seven profiles/eight guarded rows. Sources and field-level reasoning in payload; portrait hashes/crops in credits.
+
+Added: LeoFisher birthOctober10,1897 and deathNovember5,1977 (national Croatian biographical lexicon identity). WilhelminaJakes birthSeptember14,1929/deathAugust17,2010 (own FAMU obituary and museum memorial card) and portrait. CarriePatterson deathYEAR1969 (original first-person essay interviewing sonDerald), portrait, releaseMONTHMay1956 (original May29AP confirms already physically released on bond). C.K.Steele initial bond-releaseMONTHAugust1956 and sentenceMONTHOctober1956 (contemporary sociologists fieldreport). StellaBrown sentenceYEAR1955 (original Guardian). FredHaug and EricReinthaler sentenceFebruary19,1958 (original BLS chronology; court identities).
+
+## Qualifications and conflicts
+
+Partial dates use MONTH/YEAR precision; storage placeholders are not asserted days. Existing precise May26,1956 arrests preserved despite later May27 accounts. Carrie release day not specified in AP, so no exact day adopted. C.K.Steele October17 is trial commencement, not proven sentencing day; contemporary fieldreport says arguments complete byOctober20, MONTH only. Steele suspended sentence is not actual confinement; initial August bondrelease distinguished later October release. Original labor chronology visibly places seven defendants sentence under February19 heading, not February27 returned by search; both cases useFebruary19. Report-to-prison orders do not establish actual admissions. EricReinthaler SSDI deathJan1970 lead matching DOBJan7,1924 remains unresolved without stronger independent identity linkage, not imported. Original SupremeCourt Brown opinion confirms case but no actual endpoints; Guardian STELLABROWN heading has no portrait, unrelated McClellan/Kennedy photo excluded. Official trail pair is reversed in rendering relative embedded image; crops preserve embedded pixels/orientation and subjects mapped through explicit displayed caption. No photo content generated.
+
+## Reviews without additions
+
+- arthur-bartl: Original Guardian1956/1957 describes civil denaturalization and OSS role, not custody. ArthurBartl1912–1964 SSDI/FBIdeadlist name lead not securely linked to this individual; no namesake vitals copied.
+- james-keller: Own first-person GuardianJanuary2,1956 letter distinguishes1955arrest and indictment under supervision from possible one-year future penalty. No actual custodial interval/end or new vitals/photo established; CatholicChristopherfounder and Minnesota politician namesakes excluded.
+- frank-borich: Multiple populated cases and portrait retained.1952–1953civil immigration confinement overlaps distinct episodes, individual physicalrelease not verified. Minnesota militaryveteran bornFrance1910 not same Croatianminer; BluePoint1899–1986SSDI unlinked.
+- e-d-nixon: Complete vitals/photo and1956arrest/release retained. No new source-confirmed exact jail admission or sentence established for boycott booking; no invented imprisonment from indictment.
+- steve-tandaric: Original257F2d895 identifies Croatian-born StejoRebic entered1911, using deceasedbrotherEmilTandaric passport. May24,1912Chicago passport birth is false identity, not imported.1944/1946TerreHaute hearing not conflated with existingMarch20,1957custody.1961Guardian documents deportation andItalyrefugee camp but physicalUSrelease/exile date remains unconfirmed.
+- hazel-wolf: Existing complete vitals/photo and1949custody dates preserved. Immigration proceeding does not supply missing criminal sentence.
+- walter-baer: Original GuardianSeptember2,1957 confirms pardon halting23-year immigration battle over1919conviction; does not establish exact custodial dates or vitals. Age58 not converted toDOB; physicianWalterBaer/Marga namesake excluded.
+
+Every populated field, biography, case prose, precision, flag, duration, custody period, existingphoto, institution, affiliation and sorting retained. No record additions/removals/merges; no pull request. Full live verification recorded separately.
