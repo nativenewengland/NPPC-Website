@@ -1,0 +1,105 @@
+{
+  "batch": 439,
+  "audit_date": "2026-10-12",
+  "expected_count": 3,
+  "sources": {
+    "phifer-vitals": "https://kinginstitute.stanford.edu/king-papers/documents/alabama-christian-movement-human-rights",
+    "phifer-arrest": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-11-10-11-4-nat-guardian.pdf",
+    "phifer-context": "https://kinginstitute.stanford.edu/king-papers/documents/robert-f-kennedy-2",
+    "dimow-vitals": "https://www.legacy.com/us/obituaries/nhregister/name/joe-dimow-obituary?id=9902852",
+    "dimow-photo": "https://media.hachettelearning.com/media/medialibraries/hodder/samples/psychology/16-19/aqa-a-level-psychology/aqa-a-level-psychology-year-1-and-year-2-sample-pages-9781510483019.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+      "prisoner_id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+      "slug": "j-s-phifer",
+      "name": "J. S. Phifer",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1915-01-01 00:00:00",
+        "death_date": "1969-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "phifer-vitals",
+          "note": "Stanford King Papers, ACMHR August9,1962 telegram editorial footnote2, explicitly identifies JamesS.Phifer(1915-1969), LowndesCounty-born pastor of ZionStarBaptist/Birmingham and later CalvaryBaptist/WhitePlains, ACMHR second vice-president. Identity matches existing Birmingham defendant. No month/day provided: year precision only. Same-name genealogy January15/February1969 remains unverified and is not used."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "355cb9a5-15df-4a56-8a0f-434870d3c32d",
+      "prisoner_id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+      "slug": "j-s-phifer",
+      "name": "J. S. Phifer",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1958-10-20 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "phifer-arrest",
+          "note": "National Guardian November10,1958 printed1 and4: on October20 the thirteen bus protesters were taken in patrol wagons to jail; continued article individually identifies Rev.J.S.Phifer as the unsuspended sixty-day defendant. Original PDF reviewed. Stanford King-to-Kennedy January25,1962 footnote1 confirms Phifer and twelve others protested the day before Shuttlesworth surrendered October21,1958. Records protest arrest only; initial remand/bail and later1962 sentence service are separate and their custody endpoints are not inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "4b640f59-d486-4c5a-9276-087c4766f520",
+      "prisoner_id": "4b640f59-d486-4c5a-9276-087c4766f520",
+      "slug": "joseph-dimow",
+      "name": "Joseph Dimow",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1920-02-18 00:00:00",
+        "death_date": "2013-05-02 00:00:00",
+        "photo": "prisoners/joseph-dimow-hodder-batch439.jpg",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "dimow-vitals",
+          "note": "NewHavenRegister family obituary publishedMay11-12,2013 explicitly gives birthFebruary18,1920 and deathMay2, identifies Joseph(Joe)Dimow, machinist, CommunistParty SmithAct defendant, spouseLillian and JewishCurrents/Milgram participant. Birth/death facts used; obituary1955arrest/1958reversal chronology conflicts with contemporary1954arrest/1957appellate opinion and is not imported."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "dimow-photo",
+          "note": "Publisher sample printed20/PDF25 has a standalone portrait directly captioned Figure1.24 JosephDimow. Context identifies JewishCurrents author and Milgram participant, independently tied to the same SmithAct defendant by family obituary. Original page and native image visually checked;253x320JPEG XObject/Im0 extracted, retained as original CMYK JPEG with every byte unchanged. No enlargement or reconstruction."
+        }
+      ],
+      "asset": {
+        "file": "joseph-dimow-hodder-batch439.jpg",
+        "sha256": "22d69c1d3bc13526c0569676e45f6d1d58baa09d7d5718b0e8db0bb884c37a22"
+      }
+    }
+  ]
+}
