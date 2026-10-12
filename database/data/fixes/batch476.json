@@ -1,0 +1,230 @@
+{
+  "batch": 476,
+  "audit_date": "2026-10-12",
+  "expected_count": 8,
+  "sources": {
+    "saez-own": "https://es.scribd.com/document/1077182271/CEREP-01-Lucha-Obrera-Puerto-Rico-Quintero-Rivera",
+    "guardian": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-10-29-9-2-nat-guardian.pdf",
+    "arbona": "https://law.justia.com/cases/federal/district-courts/FSupp/126/366/1625080/",
+    "october-report": "https://gateway.okhistory.org/ark:/67531/metadc2165786/m1/1/",
+    "indictment": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0224.pdf",
+    "bail": "https://openjurist.org/225/f2d/679/mirabal-carrion-v-united-states",
+    "gilbert": "https://law.justia.com/cases/massachusetts/supreme-court/volumes/334/334mass71.html",
+    "white": "https://dailyiowan.lib.uiowa.edu/DI/1956/di1956-05-30.pdf",
+    "miller": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-06-10-9-34-nat-guardian.pdf",
+    "sullivan": "https://tile.loc.gov/storage-services/service/afc/afc2014008/afc2014008_ms2511/afc2014008_ms2511.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "362e7427-e645-473e-97a7-b9f1a8b0e40d",
+      "prisoner_id": "362e7427-e645-473e-97a7-b9f1a8b0e40d",
+      "name": "Juan Saez Corales",
+      "slug": "juan-saez-corales",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1915-12-08 00:00:00",
+        "photo": "prisoners/juan-saez-corales-national-guardian-batch476.png",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "saez-own",
+          "note": "Juan Saez Corales own 1955 pamphlet 25 Anos de Lucha es mi Respuesta a la Persecucion, reproduced in Angel G. Quintero Rivera, Lucha Obrera en Puerto Rico, printed page 127: names himself, parents Francisco Saez Baez and Lucia Corales Baez, and exact birth December 8, 1915 in Sabana Grande Abajo, San German. Full host HTML transcription read, authorship heading and table of contents explicitly verified; underlying paper scan not visually inspected. No birthday inferred from newspaper age."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "guardian",
+          "note": "Original October 29, 1956 Guardian printed page 3 directly captions JUAN SAEZ CORALES. Original page and exact crop visually inspected; native-width composite 4286x5574, rectangle (1265,780,2035,1845), output770x1065. Every retained decoded RGB pixel verified identical; no generation, resize or retouch. Photographer uncredited, rights undetermined."
+        }
+      ],
+      "asset": {
+        "file": "juan-saez-corales-national-guardian-batch476.png",
+        "sha256": "56f235df817467fcd287b08359bdddb52f989d4b1ed10d4b9d3addb3e202ae2f"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d131d5bd-66f9-4cae-8d0b-0f343a1c53e7",
+      "prisoner_id": "362e7427-e645-473e-97a7-b9f1a8b0e40d",
+      "name": "Juan Saez Corales",
+      "slug": "juan-saez-corales",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1954-10-20 00:00:00",
+        "incarceration_date": "1954-10-20 00:00:00",
+        "release_date": "1955-03-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "saez-own",
+          "note": "Own pamphlet, printed page136: FBI arrest at dawn October20,1954, imprisonment La Princesa San Juan district jail, held almost incommunicado until March9,1955 and explicitly left on bail that day. This is actual release on bail before trial, not dismissal. Authorship verified from explicit self-identification on page127. April18,1954 separate local arrest mentioned on page135 is not combined with this Smith Act case. No date assigned to co-defendants from his personal account."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6bf468d2-9ca5-4a9a-9b1a-2cf24b5d6263",
+      "prisoner_id": "900582ae-22f9-4625-b08c-a23c120e26f9",
+      "name": "Eugenio Cuebas Arbona",
+      "slug": "eugenio-cuebas-arbona",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-10-20 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "arbona",
+          "note": "Original Arbona v. Kenton,126F.Supp.366,December1,1954, footnote1 explicitly original arrest October20,1954, distinct October19 complaint and October27 indictment. Opinion confirms continuing federal detention pending removal to Puerto Rico. Writ discharged means habeas petition denied, not prisoner freed. Admission day and release not manufactured from legal disposition. Original October20 Okemah AP report separately identifies him as sole New York arrestee; claims that Andreu spouses arrested New York not adopted."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d63a5e69-3ff8-46d4-8eee-56ae7ed4b64f",
+      "prisoner_id": "5ab40be5-87fa-4a25-a476-549df880ed4f",
+      "name": "Juan Emmanuelli",
+      "slug": "juan-emmanuelli",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "october-report",
+          "note": "Original October20,1954 Okemah Daily Leader printedp1 Associated Press names Juan Emmanuelli among FBI arrestees in Puerto Rico. Host archive full OCR read; announcement does not establish his individual arrest day, so only October1954 MONTH. October27 indictment independently names Juan Emmanuelli Morales. No exact incarceration/release, vital dates or photograph from namesakes supplied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "56ec4dd1-dbc1-47b5-962e-00203b867bff",
+      "prisoner_id": "0ce3b8ae-ca5f-4422-a434-bd3c293e5560",
+      "name": "César Andreu Iglesias",
+      "slug": "cesar-andreu-iglesias",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "guardian",
+          "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b2c7f46c-40cd-4492-88cc-6288f219946e",
+      "prisoner_id": "8ca70a81-6f29-478a-b9dc-b6377d2fc30c",
+      "name": "Jorge Maysonet-Hernandez",
+      "slug": "jorge-maysonet-hernandez",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "guardian",
+          "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c808b7aa-730f-47b5-b1d2-1cb92e6a2eab",
+      "prisoner_id": "5c0fe96e-40a0-4fea-ad2e-d9d80f35a68c",
+      "name": "Consuelo Burgos",
+      "slug": "consuelo-burgos",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "guardian",
+          "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "902f403b-fb3a-4079-8dfc-5db3afc11864",
+      "prisoner_id": "f6cc9b5e-f69d-4551-b1e0-4e0f06a3c39c",
+      "name": "Cristino Perez Mendez",
+      "slug": "cristino-perez-mendez",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "guardian",
+          "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+        }
+      ]
+    }
+  ]
+}
