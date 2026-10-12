@@ -1,0 +1,115 @@
+{
+  "batch": 454,
+  "audit_date": "2026-10-12",
+  "expected_count": 3,
+  "sources": {
+    "singer-cornell": "https://ecommons.cornell.edu/bitstreams/f98faa48-2842-4a3a-b38c-963b1a6d8367/download",
+    "singer-ap": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1956-04-13.pdf",
+    "singer-court": "https://law.justia.com/cases/federal/appellate-courts/F2/244/349/103265/",
+    "weiss-prison": "https://www.marxists.org/history/etol/newspape/themilitant/1955/v19n40-oct-03-1955-mil.pdf",
+    "ganley-photo": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-8/v08n07-may-1954-JL.pdf",
+    "carman-pending": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-11-03-11-3-nat-guardian.pdf",
+    "travis-obituary": "https://archive.ilwu.org/wp-content/uploads/2015/04/19880509.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "9c6cb28a-d965-4e27-b2f8-a6c0c134cd5a",
+      "prisoner_id": "a69a2b50-2046-471b-9a3d-f0c7183dc2f0",
+      "name": "Marcus Singer",
+      "slug": "marcus-singer",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1956-04-13 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "singer-cornell",
+          "note": "Contemporary Cornell Alumni News May15,1956 printedp555 explicitly April13, $100 fine and three-month SUSPENDED sentence by Judge BurnitaMatthews. Full indexed primary-source paragraph read; original direct PDF download unavailable (405), not represented as visually inspected. Exact date independently corroborated by same-day AP report."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "singer-ap",
+          "note": "Manchester Evening Herald April13,1956 front-page AP brief PROFESSOR FINED $100, Washington April13 dateline: today fined $100 and given three-month suspended jail term. Full indexed primary-source paragraph read; direct original PDF unavailable (403). Independent contemporary corroboration of exact sentencing day."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "singer-court",
+          "note": "244F2d349 confirms $100 fine and suspended three-month sentence. Conviction date and sentencing day distinguished; suspended term is not physical imprisonment. Existing incarceration/release fields remain null and all existing prose preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4427ac56-7b8b-44f2-a49d-5709a8a31526",
+      "prisoner_id": "6c5b6228-1378-4b5c-866e-179b278294ac",
+      "name": "Max Weiss",
+      "slug": "max-weiss",
+      "expected": {
+        "incarceration_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "incarceration_date": "1955-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "weiss-prison",
+          "note": "Militant October3,1955 printedp4 Notes from the News, SMITH ACT VICTIMS paragraph expressly MaxWeiss is being held on $50,000 bail pending extradition hearing to Chicago. All original scanned pages visually inspected. Actual custody established in1955; YEAR precision only. Existing September19 arrest day does not automatically establish admission day. No sentence, release or served duration inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "e293bfd2-b23f-4bdb-b6aa-dddfaac4fbc4",
+      "prisoner_id": "e293bfd2-b23f-4bdb-b6aa-dddfaac4fbc4",
+      "name": "Nat Ganley",
+      "slug": "nat-ganley",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/nat-ganley-jewish-life-batch454.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "ganley-photo",
+          "note": "JewishLife May1954 vol8no7 printedp11, photograph beside NATGANLEY:LABORLEADER by AbeStrauss. Identified from original article, original page and crop visually inspected. Exact rectangular crop isolates original photograph; retained native pixels unchanged, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim. Populated year-precision birth/death dates and1954 custody dates preserved; release remains unresolved."
+        }
+      ],
+      "asset": {
+        "file": "nat-ganley-jewish-life-batch454.png",
+        "sha256": "feabff789695c3b3034bb641dc5bd77350d658bf5d3a6668642fdbc727022e02",
+        "crop_box": [
+          332,
+          510,
+          690,
+          1030
+        ],
+        "original_dimensions": [
+          3248,
+          4280
+        ],
+        "original_pixel_mode": "L"
+      }
+    }
+  ]
+}
