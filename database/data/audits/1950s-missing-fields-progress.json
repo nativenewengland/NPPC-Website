@@ -8478,8 +8478,14 @@
     "corliss-lamont": {
       "id": "79b44f3a-b626-48dd-b479-d7b9caee6ede",
       "name": "Corliss Lamont",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Indictment dismissed and dismissal upheld; no actual jail established. Vitals/photo already populated. No arrest/admission/release inferred from contempt citation."
+        }
+      ],
       "case_ids": [
         "9da4805b-5391-4fc9-8e38-1fa3496ece69"
       ],
@@ -8493,24 +8499,59 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Indictment dismissed and dismissal upheld; no actual jail established. Vitals/photo already populated. No arrest/admission/release inferred from contempt citation."
     },
     "harvey-oconnor": {
       "id": "42cd1ae7-97d7-4863-ac3f-d27f48451d14",
       "name": "Harvey O'Connor",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "table": "prisoners",
+          "id": "42cd1ae7-97d7-4863-ac3f-d27f48451d14",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "oconnor",
+              "note": "Explicitly named portrait on original December5,1955 printedp5 contempt-case article. Exact crop, original pixels retained."
+            }
+          ]
+        },
+        {
+          "batch": 470,
+          "table": "prisoner_cases",
+          "id": "3f14263d-713b-44b2-83b7-f2091b1443a7",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "oconnor",
+              "note": "Original NationalGuardian December5,1955 printedp5 expressly sentenced November18,1955, one-year suspended sentence plus500dollar fine; preceding banquet November17 corroborates next morning. Sentence date only: suspended sentence not physical prison admission. Populated case prose unknown retained under missing-only scope."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3f14263d-713b-44b2-83b7-f2091b1443a7",
         "e8416307-a7f7-455d-bb6c-14993cbbc9ad"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "3f14263d-713b-44b2-83b7-f2091b1443a7": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
@@ -8523,7 +8564,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch470 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "barrows-dunham": {
       "id": "7e9048b8-82a1-4826-b103-513a49841958",
@@ -8568,8 +8610,14 @@
     "anthony-valentino": {
       "id": "7438de5f-aa79-4723-884d-cc1cf3f8c00c",
       "name": "Anthony Valentino",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary USvValenti207F2d242 identifies AnthonyValenti/Valentino and five-year sentence, then acquittal for improper venue. Companion habeas207F2d247 full original is only mootness dismissal; no custody start/release day stated. Local80 Packinghouse identity differs existing UE account, flagged without bio/prose edit. Bail and acquittal do not establish endpoints."
+        }
+      ],
       "case_ids": [
         "7b6223ee-a182-4bfd-80a1-f2e41d50f8e5"
       ],
@@ -8587,13 +8635,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary USvValenti207F2d242 identifies AnthonyValenti/Valentino and five-year sentence, then acquittal for improper venue. Companion habeas207F2d247 full original is only mootness dismissal; no custody start/release day stated. Local80 Packinghouse identity differs existing UE account, flagged without bio/prose edit. Bail and acquittal do not establish endpoints."
     },
     "mary-beatrice-belfrage": {
       "id": "2f454eaf-4fd2-4787-8fc3-5a6ce7e3da72",
       "name": "Mary Beatrice Belfrage",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own1959 Bermudian interview identifies Molly(MaryBeatrice)Castle, former CedricBelfrage wife, daughterSally, later WilliamTucker wife. Article no exact vitals/identified usable portrait. IMDb1903 and genealogy1905 conflict, not primary. Existing August17,1953 arrest/admission/release preserved, no criminal sentence inferred."
+        }
+      ],
       "case_ids": [
         "7d718e1b-1f34-41fe-a83b-1bb1460f3fb7"
       ],
@@ -8608,7 +8663,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own1959 Bermudian interview identifies Molly(MaryBeatrice)Castle, former CedricBelfrage wife, daughterSally, later WilliamTucker wife. Article no exact vitals/identified usable portrait. IMDb1903 and genealogy1905 conflict, not primary. Existing August17,1953 arrest/admission/release preserved, no criminal sentence inferred."
     },
     "boris-sklar": {
       "id": "3d931ca6-e2e2-45f0-8e87-a959a0be5800",
@@ -8741,16 +8797,41 @@
     "leon-prusekis": {
       "id": "0a29b8d0-85c8-41d9-b3cb-b0f23b0f014d",
       "name": "Leon Prusekis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "table": "prisoners",
+          "id": "0a29b8d0-85c8-41d9-b3cb-b0f23b0f014d",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "pruseika-birth",
+              "note": "Original Laisve November4,1977 printedp4 Leonas Pruseika anniversary article explicitly says November10 birth1887 and90years, identifies Vilnis editor Albertas Vabalas. Original page visually read. VLE gives1877 conflicting year; primary own movement newspaper explicit1887 used, conflict logged."
+            },
+            {
+              "fields": [
+                "death_date",
+                "photo"
+              ],
+              "source": "pruseika-death",
+              "note": "Original Laisve March23,1962 printedp3 colleague Rojus Mizara first-anniversary memorial explicitly died March24,1961 Chicago. Named photograph in same article, exact crop. Russian/Siberian pre-US confinement not imported into current US case. Name spelling preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cbe90a4a-1a5b-46e9-a84f-f2f9f5316fa7"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "cbe90a4a-1a5b-46e9-a84f-f2f9f5316fa7": [
           "arrest_date",
@@ -8760,7 +8841,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch470 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "michael-nukk": {
       "id": "82db8012-be2c-4f80-8d0e-15654119454e",
@@ -8796,8 +8878,14 @@
     "george-witkovich": {
       "id": "6c07357b-f6b1-416b-89a0-a909205e0233",
       "name": "George Witkovich",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original district140FSupp815 and Supreme353US194 address supervision questioning/indictment, not established jail. LOC ChicagoEthnicArts1977 Mr/MrsGeorgeWitkovich lead not matched to litigant GeorgeI/JuriIsador; no portrait or life dates copied."
+        }
+      ],
       "case_ids": [
         "44679fe8-e17d-4f1c-a97b-ec16890880c7"
       ],
@@ -8815,7 +8903,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original district140FSupp815 and Supreme353US194 address supervision questioning/indictment, not established jail. LOC ChicagoEthnicArts1977 Mr/MrsGeorgeWitkovich lead not matched to litigant GeorgeI/JuriIsador; no portrait or life dates copied."
     },
     "anthony-paul-tony-minerich": {
       "id": "37415e91-ca50-4edc-84b7-7236284491e7",
@@ -8886,8 +8975,14 @@
     "elias-espinoza": {
       "id": "7ad8685b-0587-4c89-ac87-ad40b38e8dcd",
       "name": "Elias Espinoza",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing October17,1951 arrest/admission retained. Historian own OCWeekly2007 SantaAnaFour research describes family leaflet with Elias portrait, but actual leaflet pixels not found. Release day unverified; deportation order September16,1954 not actual release. No identified vitals."
+        }
+      ],
       "case_ids": [
         "96abf6e9-0af6-48bf-a2cc-64a04f06bca2"
       ],
@@ -8903,18 +8998,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing October17,1951 arrest/admission retained. Historian own OCWeekly2007 SantaAnaFour research describes family leaflet with Elias portrait, but actual leaflet pixels not found. Release day unverified; deportation order September16,1954 not actual release. No identified vitals."
     },
     "emma-grondahl": {
       "id": "4e97c3de-2e75-488d-b65b-adf8b2b2c037",
       "name": "Emma Grondahl",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "table": "prisoners",
+          "id": "4e97c3de-2e75-488d-b65b-adf8b2b2c037",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "grondahls",
+              "note": "Original named-couple photograph in own1953 advocacy leaflet; exact isolated crop. Leaflet describes May18 re-arrest and earlier actual three-day detention, but existing November1953 arrest may be separate or mismatched. No custody dates copied across unresolved episodes; no DOB inferred from age62/67."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "39ca845e-403e-448e-b34b-8c1e0b93fc35"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -8926,18 +9040,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch470 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "werner-grondahl": {
       "id": "f3e82712-8e58-4574-b06a-b5d4e17ef54e",
       "name": "Werner Grondahl",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "table": "prisoners",
+          "id": "f3e82712-8e58-4574-b06a-b5d4e17ef54e",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "grondahls",
+              "note": "Original named-couple photograph in own1953 advocacy leaflet; exact isolated crop. Leaflet describes May18 re-arrest and earlier actual three-day detention, but existing November1953 arrest may be separate or mismatched. No custody dates copied across unresolved episodes; no DOB inferred from age62/67."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0f271749-e6a8-4e3f-aba6-eabf9483aaf1"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -8949,13 +9082,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch470 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "giacomo-quattrone": {
       "id": "65725b57-cc4d-479a-9b9c-e3e0420dba3c",
       "name": "Giacomo Quattrone",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original210F2d513 states January1950 arrest,1951 administrative hearing,1952 appeal dismissal, physical warrant custody January1953 EastBoston. Existing January1952 admission conflicts. Preserved; no endpoint added to flawed interval or continuous custody inferred across three years. Common-name SSDI vitals unconfirmed."
+        }
+      ],
       "case_ids": [
         "5975683e-9cfe-47dd-b8bc-8b6c16b857d7"
       ],
@@ -8972,13 +9112,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original210F2d513 states January1950 arrest,1951 administrative hearing,1952 appeal dismissal, physical warrant custody January1953 EastBoston. Existing January1952 admission conflicts. Preserved; no endpoint added to flawed interval or continuous custody inferred across three years. Common-name SSDI vitals unconfirmed."
     },
     "ida-gottesman": {
       "id": "aaf609d8-3987-4897-be2a-69ca549a3537",
       "name": "Ida Gottesman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Hungarian immigrant/needleworker November1953 arrest account, existing arrest retained. Common-name SSDI NewYork1894 and Michigan1915 leads not identity matched; no vitals/portrait or actual endpoints verified."
+        }
+      ],
       "case_ids": [
         "82224f99-8207-425b-973f-1150dd32bf91"
       ],
@@ -8995,7 +9142,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Hungarian immigrant/needleworker November1953 arrest account, existing arrest retained. Common-name SSDI NewYork1894 and Michigan1915 leads not identity matched; no vitals/portrait or actual endpoints verified."
     },
     "joe-dumas": {
       "id": "c6ddbeb6-2993-4821-9117-f45d0cd51471",
@@ -9030,8 +9178,14 @@
     "marie-kratochvil": {
       "id": "370e5400-4c89-4086-8c08-ccf0b0511634",
       "name": "Marie Kratochvil",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing1883YEAR DOB and November1953 arrest retained. Czech immigrant genealogy namesakes not matched by political identity. Missing death/photo and physical custody endpoints unresolved."
+        }
+      ],
       "case_ids": [
         "b248f2a9-8341-473b-a0ee-8b28f6ee6f2b"
       ],
@@ -9047,13 +9201,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing1883YEAR DOB and November1953 arrest retained. Czech immigrant genealogy namesakes not matched by political identity. Missing death/photo and physical custody endpoints unresolved."
     },
     "mary-topovich": {
       "id": "26e1037a-e6ea-4ea2-9e94-43ae42e804ca",
       "name": "Mary Topovich",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing November1953 arrest retained. No source-confirmed life dates, portrait or physical release/admission found. No speculative correction to Popovich spelling or namesake data."
+        }
+      ],
       "case_ids": [
         "1631cdcd-13b3-4b8c-8628-6c6e46d2af78"
       ],
@@ -9070,7 +9231,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing November1953 arrest retained. No source-confirmed life dates, portrait or physical release/admission found. No speculative correction to Popovich spelling or namesake data."
     },
     "paul-cinat": {
       "id": "bfb85db5-4e2e-4c7e-b6be-51e072651bf6",
@@ -9165,8 +9327,14 @@
     "arsen-yerganian": {
       "id": "4af85725-b130-49e7-9388-5f64b2901fe6",
       "name": "Arsen Yerganian",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 470,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing1886YEAR birth retained. Deportation order toTurkey is not actual custody. Not AramYerganian1900 of OperationNemesis; no vitals/photo borrowed. Missing custody endpoints remain unresolved."
+        }
+      ],
       "case_ids": [
         "241e8d1b-1357-4f86-b709-2361887f75b3"
       ],
@@ -9183,7 +9351,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing1886YEAR birth retained. Deportation order toTurkey is not actual custody. Not AramYerganian1900 of OperationNemesis; no vitals/photo borrowed. Missing custody endpoints remain unresolved."
     },
     "reuben-ship": {
       "id": "f1f5800b-0f05-4671-bbc4-1626bd3069ae",
