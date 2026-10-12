@@ -1724,8 +1724,34 @@
     "lester-cole": {
       "id": "8e642db7-6f89-4f98-9f5e-6f9c996e0370",
       "name": "Lester Cole",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "632075bb-7cff-4d87-a228-7b120bd60091",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-sentence",
+              "note": "Original AP Washington June 29 report, Scurry County Times June 30, 1950 printed p5/PDF5, visually inspected in batch463 review: individually names Cole and Dmytryk among defendants sentenced today, distinguishes Scott and Ornitz deferred. Article overgeneralizes prison terms, so use administrative date only; no sentence length or fine copied."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-confirmation",
+              "note": "Original National Guardian July 5, 1950 p6, visually inspected, separately names Lester Cole and Edward Dmytryk among six sentenced preceding week. Existing admission/release, exile dates and precision retained. No new arrest inferred from HUAC subpoena, indictment or sentencing."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "632075bb-7cff-4d87-a228-7b120bd60091"
       ],
@@ -1733,33 +1759,78 @@
       "missing_case_fields": {
         "632075bb-7cff-4d87-a228-7b120bd60091": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "edward-dmytryk": {
       "id": "6b8ef80c-f7e0-407b-b74d-e03b6e8395a3",
       "name": "Edward Dmytryk",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "71ef675b-3982-42b7-be07-8330d1cb7c56",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-sentence",
+              "note": "Original AP Washington June 29 report, Scurry County Times June 30, 1950 printed p5/PDF5, visually inspected in batch463 review: individually names Cole and Dmytryk among defendants sentenced today, distinguishes Scott and Ornitz deferred. Article overgeneralizes prison terms, so use administrative date only; no sentence length or fine copied."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-confirmation",
+              "note": "Original National Guardian July 5, 1950 p6, visually inspected, separately names Lester Cole and Edward Dmytryk among six sentenced preceding week. Existing admission/release, exile dates and precision retained. No new arrest inferred from HUAC subpoena, indictment or sentencing."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "71ef675b-3982-42b7-be07-8330d1cb7c56"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "71ef675b-3982-42b7-be07-8330d1cb7c56": [
-          "arrest_date",
-          "sentenced_date"
+          "arrest_date"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "adrian-scott": {
       "id": "bc4f8468-2344-4128-b50b-ccb7b2f4c7c4",
       "name": "Adrian Scott",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "2c39c666-23cc-4d6b-9251-57d97a8919ac",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "scott-archive",
+              "note": "American Heritage Center, University of Wyoming custodian of Adrian and Joan Scott papers, collection 3238, explicitly identifies September 27, 1950 sentencing to one year and fine. Its exhibit supplies original letters/statements and provenance. Distinct from other Hollywood Ten June 29 sentences. Existing YEAR release retained rather than refined from a vague secondary account; no arrest inferred from surrender."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2c39c666-23cc-4d6b-9251-57d97a8919ac"
       ],
@@ -1767,11 +1838,11 @@
       "missing_case_fields": {
         "2c39c666-23cc-4d6b-9251-57d97a8919ac": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "samuel-ornitz": {
       "id": "d53f0ea4-22bd-42a7-a40a-ebeccf005778",
@@ -2370,8 +2441,14 @@
     "steve-nelson": {
       "id": "353f548b-a6c0-4b16-8bfb-430d9fd5a25d",
       "name": "Steve Nelson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Supreme Court Pennsylvania v Nelson separates state sedition prosecution from federal Smith Act prosecution; original DOJ bulletin describes March-August 1953 federal trial, conflicting with populated July 31 sentence. Current row combines distinct proceedings. All main milestones, portrait and vitals populated; no missing field filled from a different prosecution and no chronology rewrite."
+        }
+      ],
       "case_ids": [
         "630fae7c-bce8-46be-aba0-053c9bbbec64"
       ],
@@ -2381,7 +2458,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supreme Court Pennsylvania v Nelson separates state sedition prosecution from federal Smith Act prosecution; original DOJ bulletin describes March-August 1953 federal trial, conflicting with populated July 31 sentence. Current row combines distinct proceedings. All main milestones, portrait and vitals populated; no missing field filled from a different prosecution and no chronology rewrite."
     },
     "maurice-braverman": {
       "id": "9e301572-a4f4-495c-9dba-85e15a228379",
@@ -2409,19 +2487,45 @@
     "saul-wellman": {
       "id": "1f1b81c5-c3b6-4e3d-8923-95693c00482f",
       "name": "Saul Wellman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "acf0d05b-52c7-4d6e-ae25-ae56491ab7a0",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "wellman-sentence",
+              "note": "Original Medford Mail Tribune February 19, 1954 p1, visually inspected, individually names Saul Wellman with four years eight months among six whom Judge Frank Picard sentenced today. Article separately dates verdict preceding Tuesday. Not the erroneous October 1954 verdict in populated case prose; prose and existing 1952 admission/1957 release preserved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "wellman-court",
+              "note": "Original Sixth Circuit Wellman v United States, 227 F2d757, confirms trial ending February 19, 1954 and each defendant sentenced four to five years. Court judgment corroborates identity/proceeding; contemporaneous newspaper supplies actual sentencing day. Existing five-year sentence prose not overwritten."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "acf0d05b-52c7-4d6e-ae25-ae56491ab7a0"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "acf0d05b-52c7-4d6e-ae25-ae56491ab7a0": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "lyman-r-bradley": {
       "id": "ca334a5a-c923-495a-8c0a-fe4d31240c89",
@@ -2470,8 +2574,14 @@
     "dashiell-hammett": {
       "id": "e652769e-d10b-411a-88db-c4d6139b00a8",
       "name": "Dashiell Hammett",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Jackson List historical research identifies original July 9, 1951 Hammett/Hunton jail photograph and Russell Porter contemporary report; existing July 8 sentencing/admission therefore needs conflicting-date review. All main milestones/vitals/portrait populated. No replacements in missing-only scope."
+        }
+      ],
       "case_ids": [
         "5446f289-bf1a-4f80-b9ec-700c7b53140e"
       ],
@@ -2481,13 +2591,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Jackson List historical research identifies original July 9, 1951 Hammett/Hunton jail photograph and Russell Porter contemporary report; existing July 8 sentencing/admission therefore needs conflicting-date review. All main milestones/vitals/portrait populated. No replacements in missing-only scope."
     },
     "juanita-morrow-nelson": {
       "id": "00c8b7e3-a2fc-4161-88b0-338f7e2e0fbe",
       "name": "Juanita Morrow Nelson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Juanita own A Matter of Freedom explicitly places bathrobe arrest June 16, 1959 and describes being allowed home after court that afternoon; charges later dropped, arrest was contempt for refusing records, not tax nonpayment. Populated arrest/admission June 14 contradict own account. Do not add June 16 release alone, because that would imply unsupported two-day confinement from incorrect start. No criminal sentence inferred from same-day civil contempt hearing. Record/prose retained; conflict logged."
+        }
+      ],
       "case_ids": [
         "1ecfb178-1ec2-4ece-9519-60860a911505"
       ],
@@ -2499,20 +2616,28 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Juanita own A Matter of Freedom explicitly places bathrobe arrest June 16, 1959 and describes being allowed home after court that afternoon; charges later dropped, arrest was contempt for refusing records, not tax nonpayment. Populated arrest/admission June 14 contradict own account. Do not add June 16 release alone, because that would imply unsupported two-day confinement from incorrect start. No criminal sentence inferred from same-day civil contempt hearing. Record/prose retained; conflict logged."
     },
     "jacob-abrams": {
       "id": "48d0b279-3b22-450f-aa9a-86036c10aeb5",
       "name": "Jacob Abrams",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Abrams Supreme Court case and current source-supported 1918-1921 milestones/exile metadata already present. Profile appears through era/exile scope rather than a newly verified 1950s criminal case. No missing main field or portrait/vitals; no later custody inferred from exile or return visits."
+        }
+      ],
       "case_ids": [
         "e5a63382-cb56-45fa-9889-3c1d063cbb32"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "e5a63382-cb56-45fa-9889-3c1d063cbb32": []
-      }
+      },
+      "open_research_note": "Abrams Supreme Court case and current source-supported 1918-1921 milestones/exile metadata already present. Profile appears through era/exile scope rather than a newly verified 1950s criminal case. No missing main field or portrait/vitals; no later custody inferred from exile or return visits."
     },
     "robert-thompson": {
       "id": "45a3a17e-2d63-4699-8734-473317128e58",
@@ -2540,8 +2665,67 @@
     "jacob-stachel": {
       "id": "5c525499-2e5b-45bc-bc38-9efb5c212739",
       "name": "Jacob Stachel",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "e6ac31fb-f260-436d-9045-8c7c81bd02fc",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "stachel-sentence",
+              "note": "Original UP H. D. Quigg report, Bend Bulletin October 21, 1949 p1, visually inspected in batch463 review, names Jacob Stachel among ten sentenced five years today. This is same Smith Act prosecution as existing duplicate rows; add missing sentencing day only. Populated May 31 arrest/admission and February 28 release retained despite conflicts, not used as evidence."
+            }
+          ]
+        },
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "ee3f79e7-8597-455b-b9a0-0c4db477fd7b",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "stachel-surrender",
+              "note": "Original UP Bend Bulletin July 2, 1951 p1 describes seven defendants actually appearing and being remanded to prison today, not merely an order to surrender. Continuation printed p7 individually describes Jacob Stachel, heart illness and failed request for sentence suspension; county-jail medical report ordered during confinement. Original continuation visually inspected."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "stachel-own-custody",
+              "note": "Contemporary Political Affairs June 1954 printed p56/PDF58, visually inspected, explicitly says seven began prison terms July 2, 1951, individually naming Jack Stachel sent to Danbury. This is the party own publication, used only for administrative custody chronology; ideological characterizations not adopted."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "stachel-fbi-release",
+              "note": "Contemporary FBI Walter Winchell Part41 memorandum to Boardman, administrative comment citing Buffile100-3-69, archival extracted transcript expressly names Jack Stachel conditionally released from prison March 1, 1955 and legal supervision ending December 26, 1955. Actual prison discharge differs from later conditional-release termination. Direct PDF download403 and screenshot unavailable; no claimed visual inspection of this source."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "stachel-release-confirmation",
+              "note": "Original Manchester Evening Herald March 1, 1955 archived extracted report explicitly names John Williamson and Jacob Stachel as released today. Direct scan retrieval blocked403; extracted report independently agrees with FBI administrative chronology. Existing other rows populated February 28 remain preserved; no immigration detention or forced exile inferred for Stachel."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e6ac31fb-f260-436d-9045-8c7c81bd02fc",
         "c22a6928-d1d2-4563-9920-197d9a319ec4",
@@ -2550,7 +2734,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "e6ac31fb-f260-436d-9045-8c7c81bd02fc": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -2559,12 +2742,11 @@
           "end_of_exile"
         ],
         "ee3f79e7-8597-455b-b9a0-0c4db477fd7b": [
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "claudia-jones": {
       "id": "1c6cd254-c53d-4dce-b0cb-7a03dd88e90d",
@@ -2763,8 +2945,14 @@
     "junius-scales": {
       "id": "0ecc1c26-7c5a-4538-95f3-3857432e5419",
       "name": "Junius Scales",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original Supreme Court Scales v United States identifies separate 1955 conviction/reversal and 1958 retrial, not continuous custody while appeals pending. Existing documented October 1961 surrender and December 1962 discharge preserved; no missing main fields or portrait/vitals. Exact populated retrial sentence day remains a conflict/research question, not replaced."
+        }
+      ],
       "case_ids": [
         "91415a04-9b0f-40d4-bffa-8c4ac0036b21"
       ],
@@ -2774,13 +2962,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original Supreme Court Scales v United States identifies separate 1955 conviction/reversal and 1958 retrial, not continuous custody while appeals pending. Existing documented October 1961 surrender and December 1962 discharge preserved; no missing main fields or portrait/vitals. Exact populated retrial sentence day remains a conflict/research question, not replaced."
     },
     "alvah-bessie": {
       "id": "e8bec18d-02a7-4e35-b3b3-8b23a1667585",
       "name": "Alvah Bessie",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "table": "prisoner_cases",
+          "id": "509ff756-1363-47a0-8fd0-5a1c166597d9",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-sentence",
+              "note": "Original AP Washington June 29 report, Scurry County Times June 30, 1950 p5/PDF5, visually inspected: expressly names Alvah Bessie among defendants sentenced today. Existing admission/release and MONTH April1951 release precision retained; no HUAC appearance or indictment treated as arrest."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hollywood-confirmation",
+              "note": "Original National Guardian July 5, 1950 printed p6, visually inspected, independently names Alvah Bessie among six sentenced preceding week; administrative date only, no sentence length or fine changes."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "509ff756-1363-47a0-8fd0-5a1c166597d9"
       ],
@@ -2788,17 +3003,23 @@
       "missing_case_fields": {
         "509ff756-1363-47a0-8fd0-5a1c166597d9": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch464 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ethel-rosenberg": {
       "id": "e6a9bea9-2e14-40f2-a0d1-2f029abe40c9",
       "name": "Ethel Rosenberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original 200 F2d666 appellate opinion expressly says Greenglass sentenced April 6, 1951 the day after petitioners sentences, confirming Rosenbergs April 5 rather than populated April 4. All main fields/vitals/portrait populated; discrepancy logged, no replacements or biography changes."
+        }
+      ],
       "case_ids": [
         "e5dd265a-9e24-4de0-8d98-8195d5e6e6d3"
       ],
@@ -2808,7 +3029,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original 200 F2d666 appellate opinion expressly says Greenglass sentenced April 6, 1951 the day after petitioners sentences, confirming Rosenbergs April 5 rather than populated April 4. All main fields/vitals/portrait populated; discrepancy logged, no replacements or biography changes."
     },
     "morton-sobell": {
       "id": "9f2145f2-5360-45f7-a59e-eb2c0faf9040",
@@ -2833,8 +3055,14 @@
     "david-greenglass": {
       "id": "ae588f9d-f765-47e1-8097-6b182ba31464",
       "name": "David Greenglass",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original 200 F2d666 appellate opinion explicitly dates April 6, 1951 sentence, contradicting populated April 5 sentence/admission. Existing June 1950 arrest and prison endpoints not rewritten. All main milestones/vitals/portrait present; missing-only batch has no supported addition."
+        }
+      ],
       "case_ids": [
         "27753b4b-6a17-468b-a587-0e31f1e3133a"
       ],
@@ -2844,13 +3072,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original 200 F2d666 appellate opinion explicitly dates April 6, 1951 sentence, contradicting populated April 5 sentence/admission. Existing June 1950 arrest and prison endpoints not rewritten. All main milestones/vitals/portrait present; missing-only batch has no supported addition."
     },
     "harry-gold": {
       "id": "4a14b140-ea4f-4fd5-a4d9-412867fcfae0",
       "name": "Harry Gold",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 464,
+          "status": "reviewed, no unsupported additions",
+          "note": "Federal Eastern District of Pennsylvania own Judge McGranery history distinguishes December 7, 1950 initial sentencing hearing from December 9 reconvened hearing and sentence; original defense records finding aid lists December 7-9 sentencing transcripts. Existing December 8 sentence/admission requires source-based correction outside missing-only scope. All main milestones/vitals/portrait populated; no replacements."
+        }
+      ],
       "case_ids": [
         "f17d84de-8736-40f2-98e7-78cee4e65b85"
       ],
@@ -2860,7 +3095,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Federal Eastern District of Pennsylvania own Judge McGranery history distinguishes December 7, 1950 initial sentencing hearing from December 9 reconvened hearing and sentence; original defense records finding aid lists December 7-9 sentencing transcripts. Existing December 8 sentence/admission requires source-based correction outside missing-only scope. All main milestones/vitals/portrait populated; no replacements."
     },
     "julius-emspak": {
       "id": "11d27daf-78cc-4e80-b3b9-90614e4f749b",
