@@ -1,0 +1,17 @@
+Batch 424 live verification — October 12, 2026
+Data commit: e2c5a40c
+Isolated in-memory test: 195 assertions passed. Production connection unused for test writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Live preview: four row guards matched. Application: four rows updated; B424-OK. Replay: zero rows updated; B424-OK.
+Compared all 723 candidate profiles and 852 associated cases: 50209 unrelated field values preserved; 7 expected fields verified, including one new and one unchanged precision metadata value.
+Added four portraits and one birth date. No profile or case added or removed. All biographies, case information, existing dates, custody flags, durations and sort order preserved.
+API cache cleared after actual changes. No pull request created.
+Batch 424 repeat live/public check — October 12, 2026
+All 4 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B424-OK.
+All 4 public profile pages returned HTTP 200. All four image URLs returned HTTP 200 and matched committed SHA-256 checksums.
+albert-shadowitz: portrait renders and HTTP image checksum matches
+anthony-paul-tony-minerich: portrait renders and HTTP image checksum matches; birthdate=1903-05-27 (day); visible=True
+antonia-sentner: portrait renders and HTTP image checksum matches
+asbury-howard: portrait renders and HTTP image checksum matches
+
+Other vital and custody dates remain unresolved as documented in the research audit. Exhaustive 1950s review remains in progress.
