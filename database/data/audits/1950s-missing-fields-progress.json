@@ -20228,8 +20228,14 @@
     "william-p-mitchell": {
       "id": "f946bbca-41c6-4200-a3c0-964cc1b3541b",
       "name": "William P. Mitchell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "AlabamaNAACPcontemptlitigation andcivilvoterorganizationrole notconfirmedactualarrest/jail. GenericWilliamP.MitchellSSDI/ButlerAlabama namesake notlinked byorganizationalidentity, no guessedvitals/portrait."
+        }
+      ],
       "case_ids": [
         "378a421b-8e22-4fc6-b820-9489e2b6c3a0"
       ],
@@ -20247,7 +20253,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "AlabamaNAACPcontemptlitigation andcivilvoterorganizationrole notconfirmedactualarrest/jail. GenericWilliamP.MitchellSSDI/ButlerAlabama namesake notlinked byorganizationalidentity, no guessedvitals/portrait."
     },
     "robert-manewitz": {
       "id": "4a550d7d-d96e-4b05-87a0-01e08a51a93f",
@@ -20303,8 +20310,14 @@
     "joseph-russo": {
       "id": "a72f2e79-3c52-4bb7-a6f9-c979b78f2321",
       "name": "Joseph Russo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "ContemporaryNationalGuardianMay26,1958 andJanuary12,1959 identifyBostonmembershipcase stilluntried. Indictment not proofactualcustody. Many BostonRusso namesakes/criminalrecords excluded; noverifiedphoto/vitals."
+        }
+      ],
       "case_ids": [
         "5b09bc34-7bb4-46f9-9026-366077fca435"
       ],
@@ -20322,7 +20335,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ContemporaryNationalGuardianMay26,1958 andJanuary12,1959 identifyBostonmembershipcase stilluntried. Indictment not proofactualcustody. Many BostonRusso namesakes/criminalrecords excluded; noverifiedphoto/vitals."
     },
     "paul-bowen": {
       "id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
@@ -20452,37 +20466,107 @@
     "al-fisher": {
       "id": "e3f8b539-b440-49bb-881c-ad6fd873b5d1",
       "name": "Al Fisher",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "table": "prisoners",
+          "id": "e3f8b539-b440-49bb-881c-ad6fd873b5d1",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "fisher-vitals",
+              "note": "Original FBI RIDS administrative DeadList released publicly and mirrored by AltGov2, PDF271 rowFISHER AVALO explicitlyDOB2/16/1913 DOD5/2/2002. Original table visually checked to avoid crossrow misattribution. RarelegalnameAvalo linked by254F2d302 to InternationalWoodworkersDistrict23Local93 and byILWU1957 toA.A./AlFisher. AdministrativeFBIpoliticalcharacterization not adopted as fact; only explicit vitaldates used."
+            }
+          ]
+        },
+        {
+          "batch": 481,
+          "table": "prisoner_cases",
+          "id": "bbc66a8e-37b8-4401-b2e1-f368c7197a54",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date"
+              ],
+              "source": "fisher-ilwu",
+              "note": "OwnunionDispatcherNovember8,1957 printedp7/PDF7 explicitly firstarrest1954woodworkersstrike andMarch1957retrial followedfiveyearsentence nowappealed; court254F2d302 corroborates secondconviction/sentence. YEAR1954arrest andYEAR1957 operative retrialsentence only. DOJApril1957bulletin scheduledApril12 notproofcourtactuallymetthatday. Earlyfirstconviction1954vsDOJ1955 timingconflict notused asoperativesentence. Original visuallychecked."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "fisher-jail",
+              "note": "Defensecommittee ownsignedNationalGuardianJuly20,1959 p2 confirmsalreadybehindbarsMcNeilIsland, originalvisuallyread. December7,1959committeeletterp2 specificallyone-yeartermmilestoneJanuary21,1960 establishes1959termstart; conservativelyYEAR1959 only, not inferred exactadmissionday/month orcomputedrelease. August1,1958ownFisherILWUletterexplicitlydeniesthenrumoredincarceration, so1954arrest notturnedinto1954–1959 continuousjail."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "fisher-milestone",
+              "note": "OriginalDecember7,1959committeeletterp2 one-yearmilestoneJanuary21,1960; distinguishes postappealserviceterm1959 from1954initialarrest. Exactreportedmilestone notphysicalrelease or exactprisonarrivalday."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bbc66a8e-37b8-4401-b2e1-f368c7197a54"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "bbc66a8e-37b8-4401-b2e1-f368c7197a54": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch481 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "william-mackie": {
       "id": "df45f34e-d6ec-43ce-a293-824c7c532c5c",
       "name": "William Mackie",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "table": "prisoners",
+          "id": "df45f34e-d6ec-43ce-a293-824c7c532c5c",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "mackie-photo",
+              "note": "OriginalNationalGuardianDecember26,1960 printedp7/PDF7 lowerphotograph explicitcaption HisSisterSobsAsWilliamMackieHeadsForHisPlane. Individual departingman at right isolated, not HamishMacKay in otherphotographs on samepage. Nativewidth4210 decodedcomposite originalandcrop visuallychecked, retainedpixelsunchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c53418d3-2927-4d36-9271-3ad60141d642"
       ],
       "missing_profile_fields": [
-        "photo",
         "death_date"
       ],
       "missing_case_fields": {
@@ -20491,13 +20575,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch481 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "lena-davis-scherer": {
       "id": "3fa3e9ce-d681-4bae-9432-974da2f763e2",
       "name": "Lena Davis Scherer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalNationalGuardianApril28,1958 p3 free2500bailafterimmigrationarrest, populatedAprilMONTHarrest/release retained. No independentphysicaljailadmission or exactday beyondarrest/bondreport. ModernSwissdancerLenaScherer and1922USSSDI entries notlinked toRussianimmigrantMarcelwife. FBI2009DeadList Lenaentrynoexplicitbirth/death. No guessedphoto/vitals."
+        }
+      ],
       "case_ids": [
         "d6bce380-492f-48d7-a519-e0a704e23470"
       ],
@@ -20513,13 +20604,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalNationalGuardianApril28,1958 p3 free2500bailafterimmigrationarrest, populatedAprilMONTHarrest/release retained. No independentphysicaljailadmission or exactday beyondarrest/bondreport. ModernSwissdancerLenaScherer and1922USSSDI entries notlinked toRussianimmigrantMarcelwife. FBI2009DeadList Lenaentrynoexplicitbirth/death. No guessedphoto/vitals."
     },
     "gus-polites": {
       "id": "fc431db7-263b-4728-822e-2de90efe51a5",
       "name": "Gus Polites",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary364US426 and302F2d449 separate1953denaturalization from1955immigrationarrest andlaterdeportation.1963INSannualreport saysdeportedfiscal1963, not1955custodyrelease. No age17at1916arrival birthguess, no courtjudgment storedasjailsentence."
+        }
+      ],
       "case_ids": [
         "86d45c1d-89c7-4938-8384-a1052414e98e"
       ],
@@ -20535,13 +20633,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary364US426 and302F2d449 separate1953denaturalization from1955immigrationarrest andlaterdeportation.1963INSannualreport saysdeportedfiscal1963, not1955custodyrelease. No age17at1916arrival birthguess, no courtjudgment storedasjailsentence."
     },
     "august-wilhelm-lahtinen": {
       "id": "439e846d-6cfb-4047-977b-849f853fb69f",
       "name": "August Wilhelm Lahtinen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary199FSupp910 explicitlyWilliamLahtinen akaAugustWilhelmLahtinen civildeportationorderreview, notphysicalcustody.1958defenseletter age56notexactbirthyear; Finnishnamesake1891–1918 killedprisoncampwrongperson. No deportationorder orshowcause copiedasprisondate."
+        }
+      ],
       "case_ids": [
         "7a4d71c9-198f-4768-b459-b29d2d7ed5ef"
       ],
@@ -20559,7 +20664,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary199FSupp910 explicitlyWilliamLahtinen akaAugustWilhelmLahtinen civildeportationorderreview, notphysicalcustody.1958defenseletter age56notexactbirthyear; Finnishnamesake1891–1918 killedprisoncampwrongperson. No deportationorder orshowcause copiedasprisondate."
     },
     "john-janosco": {
       "id": "3787e9e8-47c3-4446-a19e-d6cc6621c926",
@@ -20606,8 +20712,14 @@
     "benjamin-cruz": {
       "id": "34b3dbed-cae7-4ece-b589-5bf0cf0c8a28",
       "name": "Benjamin Cruz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalNationalGuardianMarch17,1958 p3 Guatemalanborn FurnitureWorkersofficer naturalized1945 servedcivildeprivationnotice, notprovenjail. CommonmodernBenjaminCruz namesakes excluded; no biographyunsupportedvitals/photo."
+        }
+      ],
       "case_ids": [
         "d66884cc-eecb-487e-9393-13eebb075be3"
       ],
@@ -20625,13 +20737,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalNationalGuardianMarch17,1958 p3 Guatemalanborn FurnitureWorkersofficer naturalized1945 servedcivildeprivationnotice, notprovenjail. CommonmodernBenjaminCruz namesakes excluded; no biographyunsupportedvitals/photo."
     },
     "louis-zuker": {
       "id": "508e245a-0dbd-4635-b913-4276f228611c",
       "name": "Louis Zuker",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original1958Guardian confirmsoptometrist anddaughterFriedaKatz; deportationorderset asidebecauseunreliablewitnesses, notactualprisonrelease. Existingbirth/deathYEAR1886/1965preserved. Noidentifiedphotograph found; daughterphoto notfather."
+        }
+      ],
       "case_ids": [
         "7f575dc1-daf1-4331-aeb3-4ee4279aed89"
       ],
@@ -20647,20 +20766,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original1958Guardian confirmsoptometrist anddaughterFriedaKatz; deportationorderset asidebecauseunreliablewitnesses, notactualprisonrelease. Existingbirth/deathYEAR1886/1965preserved. Noidentifiedphotograph found; daughterphoto notfather."
     },
     "edo-mita": {
       "id": "ee5019f7-f6b2-4863-9e2c-e7aab473814d",
       "name": "Edo Mita",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "table": "prisoners",
+          "id": "ee5019f7-f6b2-4863-9e2c-e7aab473814d",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "edo-vitals",
+              "note": "JapaneseAmericanNationalMuseum DiscoverNikkei ownhistoryproject GregRobinson2023 study explicitly1908birth and1963death fromstomachcancer. LinksEdoHeihachiMita/Kamiyama actor/writer, ChiyeMori1938marriage andLACommitteeForeignBorn1950sdeportationdefense successful1959; sameprofileidentity. YEARonly. IMDb exactMay8/January13dates not backed by reviewedmuseumsource, not imported. WartimeTBsanitarium not treated as criminaljail; motherUraji photograph not assigned toson."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "dd8878b0-af74-4470-8086-5f845276dcb9"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "dd8878b0-af74-4470-8086-5f845276dcb9": [
@@ -20671,7 +20810,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch481 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "morris-rubin": {
       "id": "c47ed572-41ca-4926-baa1-0751530b33ce",
@@ -20733,8 +20873,14 @@
     "charles-collins": {
       "id": "13a812a1-7165-4bc3-9d50-70b3032bfd4d",
       "name": "Charles Collins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "GrenadabornHotelTrades/NegroLaborVictoryorganizer distinguishednumerousnamesakes. GeraldHorneRedSeas notes earlierfive-dayConeyIslandbathhousejail incident, butnodatelinktoexisting1950sdenaturalizationcase. Separateearliercaseleadresearchonly,no newcase or guessedendpoints. Existingqualification retained."
+        }
+      ],
       "case_ids": [
         "3f13d30f-5ac0-494d-9721-87c58a4a39b3"
       ],
@@ -20752,7 +20898,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "GrenadabornHotelTrades/NegroLaborVictoryorganizer distinguishednumerousnamesakes. GeraldHorneRedSeas notes earlierfive-dayConeyIslandbathhousejail incident, butnodatelinktoexisting1950sdenaturalizationcase. Separateearliercaseleadresearchonly,no newcase or guessedendpoints. Existingqualification retained."
     },
     "albert-e-perry-jr": {
       "id": "59e0000e-dbba-4358-80cb-24e41e80b856",
@@ -20897,28 +21044,55 @@
     "calvin-woods": {
       "id": "9a1e9ab9-28fb-44dd-a9a9-b7bd2e362653",
       "name": "Calvin Woods",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "table": "prisoner_cases",
+          "id": "cca86032-70a7-4741-b60d-d6967c3dfebc",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "woods-custody",
+              "note": "SouthernRegionalCouncil own1960 compilation IntimidationReprisalViolence1955–1959 printedp5/PDF7 entryBirmingham datedNov25,1958 sourceB: namesRevCalvinW.Woods EastEndBaptist, arrestedurgingbusboycott and physicallyreleasedseveralhourslaterunder500bond. YEAR1958 only because reportdate notnecessarilyindividualeventday/month. Initialactualcustody andrelease separatefrom laterJanuary1959sentence describedpopulatedbio, which is preserved. NeighborJohnHarveyKelly1000fine/sixmonthsentence not assignedWoods. Later1956obituarychronology conflict logged, nooverwrite."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cca86032-70a7-4741-b60d-d6967c3dfebc"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "cca86032-70a7-4741-b60d-d6967c3dfebc": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch481 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "septima-clark": {
       "id": "c89a1670-e10e-44ae-b5a5-0faf110a5c97",
       "name": "Septima Clark",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "status": "reviewed, no unsupported additions",
+          "note": "Completevitals/photo andJuly31,1959actualjail/August1bondrelease preserved. ContemporaryNationalGuardianAugust17casegrandjuryreferral, notsentence. Chargeuntried/dropped: no fabricatedsentence."
+        }
+      ],
       "case_ids": [
         "d3e755e0-45a5-4bda-a667-38e5fba1fd70"
       ],
@@ -20929,13 +21103,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Completevitals/photo andJuly31,1959actualjail/August1bondrelease preserved. ContemporaryNationalGuardianAugust17casegrandjuryreferral, notsentence. Chargeuntried/dropped: no fabricatedsentence."
     },
     "guy-hughes-carawan-jr": {
       "id": "604a37dd-1683-4972-96b7-e0ed66cb6249",
       "name": "Guy Hughes Carawan Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 481,
+          "table": "prisoner_cases",
+          "id": "15493481-e1f0-4d1a-bba5-ad76a9dd1687",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "carawan-raid",
+              "note": "OriginalNationalGuardianAugust17,1959 printedp3/PDF3 specificallynamesGuyCarawan amongteachers arrestedJuly31Highlanderraid. DavidGarrow archivalstudypp14–15 corroborates actualcountylockup withCarawan eyewitnesshearingSeptimaClark in jailcellbelow, citing ownAugust3,1959letterSmithsonian andfirsthandpublishedaccounts. Actualjail distinguished arrest-only; existingarrestJuly31 unchanged (includingdateformat). No exact release inferred from bailamount orClarksdifferentrelease."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "carawan-jail",
+              "note": "Study downloadedandread, directlycites Carawanfirsthand jailaccount andAugust3letter; namedJuly31raid supportedcontemporaryoriginal."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "15493481-e1f0-4d1a-bba5-ad76a9dd1687"
       ],
@@ -20943,12 +21144,12 @@
       "missing_case_fields": {
         "15493481-e1f0-4d1a-bba5-ad76a9dd1687": [
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch481 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "brent-eugene-barksdale": {
       "id": "930c542c-71d9-40e2-87b3-6b66bb17ff18",
