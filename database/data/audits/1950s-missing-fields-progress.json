@@ -403,8 +403,35 @@
     "eugene-dennis": {
       "id": "e88088dd-3996-4b81-9bb2-3162e0420b30",
       "name": "Eugene Dennis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 431,
+          "table": "prisoner_cases",
+          "id": "d8fd4a2a-4cfa-450c-940c-269e42eaa4c4",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "dennis_sentence",
+              "note": "Medford Mail Tribune Friday October21,1949 page1, United Press report individually names Eugene Dennis among defendants sentenced today by Judge Medina. Five-year Smith Act sentence distinguished from October14 verdict. Original dated masthead and report visually inspected."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "dennis_custody",
+              "note": "Original Daily Iowan masthead is Tuesday July3,1951 despite archive filename di1951-07-01.pdf. Page1 Associated Press report individually names Eugene Dennis among seven who went behind bars Monday (July2); accompanying AP Wirephoto caption identifies him in prison van that Monday on transfer to federal house of detention. Original masthead, report and caption visually inspected. This actual Smith Act prison-entry date does not apply to his separate contempt-of-Congress case."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a67b66be-58a3-4a5b-9769-9eb0f8168cdf",
         "d8fd4a2a-4cfa-450c-940c-269e42eaa4c4",
@@ -421,8 +448,6 @@
         ],
         "d8fd4a2a-4cfa-450c-940c-269e42eaa4c4": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -432,7 +457,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest, sentence and actual prison-entry dates applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch431 audit."
     },
     "john-gates": {
       "id": "9153beea-ea49-4863-ac1d-d76e259457d3",
@@ -11867,22 +11893,55 @@
     "earle-l-reynolds": {
       "id": "fb865936-f066-4e2b-b15b-0abeb404e00d",
       "name": "Earle L. Reynolds",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 431,
+          "table": "prisoner_cases",
+          "id": "3dc8c631-963b-414d-9e57-0539a511be5a",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "reynolds_arrest",
+              "note": "National Guardian December 18,1961, printed/PDF page9, Jack A.Smith review of Reynolds’s The Forbidden Voyage explicitly gives July2 arrest after the June1958 Phoenix voyage into the nuclear test zone. Original scan visually inspected; identity matched by full name, Phoenix, Hiroshima work, August26,1958 verdict and subsequent appeal."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "reynolds_sentence",
+              "note": "Original U.S.Attorneys Bulletin vol6 no24 printed698/PDF23 explicitly distinguishes August26,1958 verdict from September26,1958 sentence, two years with eighteen months suspended. Original scan visually inspected."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "reynolds_bail",
+              "note": "Friends Journal October18,1958 printed604/PDF12 independently confirms September26 sentence, six months plus eighteen months probation, and explicitly states $500 appeal bail continued. Original scan visually inspected. No actual prison start/end or served six months inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3dc8c631-963b-414d-9e57-0539a511be5a"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "3dc8c631-963b-414d-9e57-0539a511be5a": [
-          "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing arrest, sentence and actual prison-entry dates applied from original newspaper or JusticeDepartment bulletin. Populated custody periods, dates and prose preserved. Exact bail/release endpoints remain unresolved; see batch431 audit."
     },
     "robert-gillmore": {
       "id": "04463bce-be4a-4c4b-98e0-d83c039517dc",

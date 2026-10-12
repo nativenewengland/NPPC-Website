@@ -1,0 +1,15 @@
+Batch 431 live verification — October 12,2026
+Data commit: 8d009b98
+Conflict check diagnostic: Row changed since audit: Eugene Dennis / prisoner_cases
+B431-ISOLATED-TEST-OK 163 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview2 matched guarded rows. Applied2 rows; replay0 rows. B431-OK on all three runs.
+Compared 723 profiles and 852 cases: 50212 unrelated field values preserved; 6 expected fields verified, including two precision metadata values; existing precision entries preserved.
+Four missing case dates filled across two rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 431 repeat live/public check — October 12, 2026
+All 2 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B431-OK.
+All 2 public profile pages returned HTTP 200. No portraits changed.
+earle-l-reynolds: arrest_date=1958-07-02 (day); visible=True; sentenced_date=1958-09-26 (day); visible=True
+eugene-dennis: sentenced_date=1949-10-21 (day); visible=True; incarceration_date=1951-07-02 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
