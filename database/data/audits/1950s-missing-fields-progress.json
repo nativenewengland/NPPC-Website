@@ -4012,26 +4012,84 @@
     "mack-ingram": {
       "id": "ee5e0d6c-f034-4d0e-9c6d-c9618aee7ea6",
       "name": "Mack Ingram",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 450,
+          "table": "prisoner_cases",
+          "id": "3c85aaae-d4c7-4308-b5e1-35ce776d373b",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "ingram-court",
+              "note": "State v.Mack Ingram, NorthCarolina SupremeCourt1953, testimony expressly dates incident June4,1951 and arrest later that morning at Simpson farm. Court text reviewed through CaseMine; page metadata February1 not accepted as actual decision date. Exact arrest day only, no custody endpoint inferred."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "ingram-museum",
+              "note": "Smithsonian NMAAHC exhibition explicitly states Ingram was tried, convicted and imprisoned in1951 and first sentence was two years hard labor. YEAR precision only; January1 storage placeholders are not claimed dates. First two-year case matches existing record, not November1952 suspended six-month retrial sentence. No sentence length converted to time served."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "ingram-contemporary",
+              "note": "National Guardian August8,1951 contemporaneously reports initial two-year sentence already imposed. First trial day/month remains uncertain; July23Time issue and laterJune15 reporting disagree, so only YEAR recorded."
+            }
+          ]
+        },
+        {
+          "batch": 450,
+          "table": "prisoners",
+          "id": "ee5e0d6c-f034-4d0e-9c6d-c9618aee7ea6",
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "ingram-research",
+              "note": "MaryFrancesBerry, RecklessEyeballing: TheMattIngramCaseandtheDenialofAfricanAmericanSexualFreedom, JournalofAfricanAmericanHistory93(2008),printed233, original archival research with Upchurchfamily/CaswellCountyHistoricalSociety assistance, explicitly says Ingram died1973 and wifeLinward2003. Indexed article text reviewed; direct PDF406, no original visual claim for death year. YEAR precision only; birth June6,1910 from historical blog uncorroborated and not assigned."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "ingram-archive",
+              "note": "CaswellCountyPhotographCollection photo386062089, original printed caption identifies Matt joking with76-year-old lawyerErnestF.Upchurch on porch inYanceyville. Matt at LEFT, lawyer at RIGHT. Same image independently identified as MackIngram with Upchurch by Smithsonian NMAAHC exhibition. Original full caption and final crop visually inspected; exact rectangular crop removes lawyer and caption, retained pixels unchanged. Flickr license0/allrightsreserved; photographer uncredited on this clipping; rights undetermined, no public-domain claim."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3c85aaae-d4c7-4308-b5e1-35ce776d373b"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "3c85aaae-d4c7-4308-b5e1-35ce776d373b": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch450 audit."
     },
     "lawrence-walker": {
       "id": "8177e8b6-4478-4279-8d7b-d210a91c0a64",
@@ -19021,13 +19079,31 @@
     "otho-grayson-bell": {
       "id": "5dd4704e-587e-4a65-a7ab-d2b5eb60427a",
       "name": "Otho Grayson Bell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 450,
+          "table": "prisoners",
+          "id": "5dd4704e-587e-4a65-a7ab-d2b5eb60427a",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "turncoats-photo",
+              "note": "Lamb County Leader, November17,1955, section page2/PDF page18. Original page and caption visually inspected. Caption explicitly identifies Lewis Griggs22JacksonvilleTexas at left, William Cowart22DaltonGeorgia at right, Otho Bell24HillsboroMississippi signing hotel register in SanFrancisco following release from SixthArmy guardhouse under JudgeLouisE.Goodman writ. Matches same three repatriation/refusal identities in existing bios. Otho Bell signing the hotel register in foreground. Exact crop of native scanned2494x3343JPEG; no retained pixel changed, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "91d75a3c-b4c0-41a4-90be-f752aa15d05f"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate"
       ],
       "missing_case_fields": {
@@ -19037,7 +19113,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch450 audit."
     },
     "richard-gordon": {
       "id": "69e7417d-5a5f-475d-a9d5-fa8200e5d9ba",
@@ -19063,13 +19140,31 @@
     "william-cowart": {
       "id": "b9e7205f-64b7-4a32-bbcf-c17b4038593d",
       "name": "William Cowart",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 450,
+          "table": "prisoners",
+          "id": "b9e7205f-64b7-4a32-bbcf-c17b4038593d",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "turncoats-photo",
+              "note": "Lamb County Leader, November17,1955, section page2/PDF page18. Original page and caption visually inspected. Caption explicitly identifies Lewis Griggs22JacksonvilleTexas at left, William Cowart22DaltonGeorgia at right, Otho Bell24HillsboroMississippi signing hotel register in SanFrancisco following release from SixthArmy guardhouse under JudgeLouisE.Goodman writ. Matches same three repatriation/refusal identities in existing bios. William Cowart at right behind Bell. Exact crop of native scanned2494x3343JPEG; no retained pixel changed, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "47e6c7c5-f204-4c25-89e9-1f2ba293d8d5"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -19080,7 +19175,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch450 audit."
     },
     "rufus-douglas": {
       "id": "bcd3da3a-5309-4292-af9e-33c647352c5b",
@@ -19148,13 +19244,31 @@
     "lewis-wayne-griggs": {
       "id": "c310e968-b5aa-4c22-bf20-243e083603ea",
       "name": "Lewis Wayne Griggs",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 450,
+          "table": "prisoners",
+          "id": "c310e968-b5aa-4c22-bf20-243e083603ea",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "turncoats-photo",
+              "note": "Lamb County Leader, November17,1955, section page2/PDF page18. Original page and caption visually inspected. Caption explicitly identifies Lewis Griggs22JacksonvilleTexas at left, William Cowart22DaltonGeorgia at right, Otho Bell24HillsboroMississippi signing hotel register in SanFrancisco following release from SixthArmy guardhouse under JudgeLouisE.Goodman writ. Matches same three repatriation/refusal identities in existing bios. Lewis Griggs at left. Exact crop of native scanned2494x3343JPEG; no retained pixel changed, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1d66a399-e854-4f91-8c98-57cc62b4a497"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate"
       ],
       "missing_case_fields": {
@@ -19164,7 +19278,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch450 audit."
     },
     "samuel-david-hawkins": {
       "id": "a31e2095-88bc-465b-9c09-435eef7e027c",
