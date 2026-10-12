@@ -4132,7 +4132,7 @@
     "bernadette-doyle": {
       "id": "4952c015-ff52-47ed-abd1-b17d9de55316",
       "name": "Bernadette Doyle",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "b9aaf6a1-c63a-436b-b0b6-fd6151f079ad"
@@ -4148,7 +4148,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Canadian/nun namesakes excluded; existing portrait preserved; missing dates unresolved."
     },
     "william-schneiderman": {
       "id": "f5e10dcf-c746-4c6a-b308-ed9023a1e1fa",
@@ -4727,7 +4728,7 @@
     "john-s-daschbach": {
       "id": "145f9726-396e-4432-b9c6-0979cabfe1ab",
       "name": "John S. Daschbach",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "8defb791-3503-4e33-9fc1-53afa660ecf7"
@@ -4742,38 +4743,92 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court verifies separate civil contempt September10–October9,1953; existing Smith Act case not assigned civil endpoints. Group photo ordering not assumed; identified portrait remains missing."
     },
     "henry-p-huff": {
       "id": "c2233e9d-72be-48f0-af44-d453b30e3aaa",
       "name": "Henry P. Huff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 425,
+          "table": "prisoners",
+          "id": "c2233e9d-72be-48f0-af44-d453b30e3aaa",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "huff-photo",
+              "note": "University of Washington Who’s Who page explicitly identifies this individual headshot as Henry Heinie Huff, Northwest Communist Party chairman and Smith Act defendant. Photographer and exposure date unspecified."
+            }
+          ]
+        },
+        {
+          "batch": 425,
+          "table": "prisoner_cases",
+          "id": "bb760054-1f23-4ec7-af69-f11f01a43cfa",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "seattle-remand",
+              "note": "Same October 16 ILWU report names Huff among the five defendants convicted October 10 and jailed pending sentence and bail argument. The post-verdict remand is verified; no release endpoint or term actually served inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bb760054-1f23-4ec7-af69-f11f01a43cfa"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "bb760054-1f23-4ec7-af69-f11f01a43cfa": [
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned individual portrait and October10,1953 post-verdict remand applied. Appeal-bail release day unresolved; existing vital dates preserved."
     },
     "barbara-hartle": {
       "id": "df7e1ce1-5091-43af-898b-6d39926783d6",
       "name": "Barbara Hartle",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 425,
+          "table": "prisoners",
+          "id": "df7e1ce1-5091-43af-898b-6d39926783d6",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "hartle-photo",
+              "note": "University of Washington Smith Act project: caption identifies Barbara Hartle at left speaking to HUAC in 1954. The woman on the right is not used. Photographer unnamed."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "94003d1e-cc4d-46e0-96bb-59a0cf9b9cc0"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -4783,7 +4838,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Portrait applied. Existing October9 sentencing conflicts with later court chronology; not replaced in missing-only batch. Vital dates and exact prison admission remain unresolved."
     },
     "frieda-zucker-katz": {
       "id": "670e4046-9d65-46b9-9ef0-9ec46c5dc09f",
@@ -4995,14 +5051,31 @@
     "barrows-dunham": {
       "id": "7e9048b8-82a1-4826-b103-513a49841958",
       "name": "Barrows Dunham",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 425,
+          "table": "prisoners",
+          "id": "7e9048b8-82a1-4826-b103-513a49841958",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "dunham-photo",
+              "note": "Bud Schultz identifies Barrows Dunham in his own Social Activists of the Last Century collection. Photograph exposure date unresolved: Flickr 2012 metadata cannot be an exposure date for Dunham, who died in 1995."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "fc5352c2-896a-4dfe-ad71-777d24ace17d"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "fc5352c2-896a-4dfe-ad71-777d24ace17d": [
           "arrest_date",
@@ -5012,7 +5085,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Photographer-identified portrait applied. Exposure year unresolved. Existing acquittal/no-confinement information preserved; no custody dates added."
     },
     "anthony-valentino": {
       "id": "7438de5f-aa79-4723-884d-cc1cf3f8c00c",
@@ -10374,7 +10448,7 @@
     "andrew-peter-yiannopoulos": {
       "id": "77f6cd70-1889-409a-a946-f90a53988cbb",
       "name": "Andrew Peter Yiannopoulos",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "96385162-9dd8-4f2a-a494-ead5a79553c0"
@@ -10393,7 +10467,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Not legal scholar AthanasiosN.Yiannopoulos; civil deportation documents do not supply verified custody endpoints."
     },
     "hazel-wolf": {
       "id": "c5cca2dc-11d4-48d2-8864-ee2b96c6e1ec",
@@ -11874,22 +11949,71 @@
     "paul-bowen": {
       "id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
       "name": "Paul Bowen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 425,
+          "table": "prisoners",
+          "id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
+          "fields": [
+            "photo",
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "bowen-photo",
+              "note": "Jet, October 2, 1952, printed/PDF page 10: individual portrait explicitly captioned Paul Bowen, alongside reporting identifying Paul Miller Bowen, age 30, arrested in Chicago and active in the Party since 1943. Photographer unnamed."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "bowen-vitals",
+              "note": "The university oral-history project explicitly reports birth in Chicago in 1922 and death in 2008. Only the years are verified; January 1 is storage convention, never a claimed birthday or death day."
+            }
+          ]
+        },
+        {
+          "batch": 425,
+          "table": "prisoner_cases",
+          "id": "55c6b3fe-2990-4cea-940d-7833d87726aa",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "bowen-arrest",
+              "note": "Same-day Medford Mail Tribune United Press report identifies Paul Miller Bowen among the FBI arrests on Wednesday September 17, 1952."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "seattle-remand",
+              "note": "ILWU Dispatcher October 16, 1953, page 7, names Bowen among the five defendants convicted October 10 and jailed pending sentence and bail argument. This records the post-verdict remand, not an inferred five-year prison term. Release and earlier arrest-custody endpoint unresolved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "55c6b3fe-2990-4cea-940d-7833d87726aa",
         "57ab04ed-f44a-429c-8256-bfa642cfb7c6"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "55c6b3fe-2990-4cea-940d-7833d87726aa": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -11902,7 +12026,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Portrait, verified vital years, September17,1952 arrest and October10,1953 post-verdict remand applied. Existing duplicate/contradictory acquittal case, race and middle initial conflict preserved and documented for separate correction. Release and exact vital days unresolved."
     },
     "herbert-phillips": {
       "id": "50d06263-7a11-4e50-9202-4cdc2f6ff36d",
@@ -13256,7 +13381,7 @@
     "a-robert-kaufman": {
       "id": "43b1dea7-70e0-4492-8da5-41f513667c8c",
       "name": "A. Robert Kaufman",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "3b3ee267-e2bd-439f-b832-98f5810c8c1e"
@@ -13272,7 +13397,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "University Baltimore archival collection and Daily Record primary-photo leads remain. Beat poet namesake excluded; no verified accessible picture applied."
     },
     "marjorie-swann": {
       "id": "1c8e7905-30c1-4404-9805-48e4b245c2f1",
@@ -13472,8 +13598,34 @@
     "terry-pettus": {
       "id": "4db8ee7a-c1dd-4f68-b8bd-bbeb86f3bd62",
       "name": "Terry Pettus",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 425,
+          "table": "prisoner_cases",
+          "id": "909764f6-ba00-4b50-b46e-b00d3f632141",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "contempt-sentence",
+              "note": "United States Attorneys Bulletin November 27, 1953, printed page 8, explicitly dates the later criminal-contempt sentencing to October 16. Existing case already describes both the earlier civil confinement and later reversed sentence; earlier civil-custody dates and 52-day total are preserved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "contempt-court",
+              "note": "Daschbach v. United States, 254 F.2d 687, paragraphs 18-19, confirms October 16 sentencing; actual opinion also retrieved through the CaseFoundry mirror. Bail authorization is not assumed to prove an actual release day."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4676c6c0-887d-4c67-807c-42098de80b6f",
         "909764f6-ba00-4b50-b46e-b00d3f632141"
@@ -13489,11 +13641,11 @@
         ],
         "909764f6-ba00-4b50-b46e-b00d3f632141": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Later criminal-contempt sentencing October16,1953 applied to existing combined contempt case. Existing civil confinement endpoints and52-day total preserved. Smith Act sentencing and bail release day unresolved."
     },
     "william-j-pennock": {
       "id": "59a5b4ec-1004-4802-a234-c8ab944d5f92",
@@ -13517,7 +13669,7 @@
     "benjamin-lowell-careathers": {
       "id": "82041544-78f0-4897-b82e-d79c53e0b62d",
       "name": "Benjamin Lowell Careathers",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "3338e498-8b16-4dcf-b746-c66f67d92f9a"
@@ -13534,7 +13686,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Exact genealogy birthdate uncorroborated; historian cites his own uncertainty. Primary1953 statement/interview remain leads."
     },
     "irving-weissman": {
       "id": "dda3cd63-3c2b-4900-9d10-34e77add6114",
@@ -16097,7 +16250,7 @@
     "andrew-fortuna": {
       "id": "c8abcc50-3414-46e9-87e9-0ba78b9be8c4",
       "name": "Andrew Fortuna",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "e33b1d5f-50ee-49ec-b79a-081f81cb6fa1"
@@ -16113,7 +16266,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Modern Connecticut obituary namesake excluded; Korean War defector vital/photo source remains unresolved."
     },
     "lewis-wayne-griggs": {
       "id": "c310e968-b5aa-4c22-bf20-243e083603ea",
@@ -16160,7 +16314,7 @@
     "arlie-pate": {
       "id": "51d43684-2786-40f5-8733-679fe1c159b1",
       "name": "Arlie Pate",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "4f50ec21-6859-42d6-a386-45420c4bdc51"
@@ -16176,7 +16330,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Modern Oklahoma offender born1959 excluded; Korean War defector vital/photo source remains unresolved."
     },
     "scott-rush": {
       "id": "8cb83a03-087a-4ed6-b6e0-f8ac60853bfb",

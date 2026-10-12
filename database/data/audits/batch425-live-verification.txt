@@ -1,0 +1,18 @@
+Batch 425 live verification — October 12, 2026
+Data commit: f2ccd568
+B425-ISOLATED-TEST-OK 307 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Live preview: seven row guards matched. Application: seven rows updated; B425-OK. Replay: zero rows updated; B425-OK.
+Compared all 723 candidate profiles and 852 associated cases: 50197 unrelated field values preserved; 16 expected fields verified, including new and preserved precision metadata.
+Four portraits, two vital years, one arrest date, two post-verdict custody starts and one contempt sentencing date added. No profile or case added or removed. All biographies, populated dates, prose, custody flags, duration values and sort order preserved.
+API cache cleared after actual changes. No pull request created.
+Batch 425 repeat live/public check — October 12, 2026
+All 7 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B425-OK.
+All 5 public profile pages returned HTTP 200. All four image URLs returned HTTP 200 and matched committed SHA-256 checksums.
+barbara-hartle: portrait renders and HTTP image checksum matches
+barrows-dunham: portrait renders and HTTP image checksum matches
+henry-p-huff: portrait renders and HTTP image checksum matches; incarceration_date=1953-10-10 (day); visible=True
+paul-bowen: portrait renders and HTTP image checksum matches; birthdate=1922-01-01 (year); visible=True; death_date=2008-01-01 (year); visible=True; arrest_date=1952-09-17 (day); visible=True; incarceration_date=1953-10-10 (day); visible=True
+terry-pettus: sentenced_date=1953-10-16 (day); visible=True
+
+Seattle factual conflicts and unresolved release days remain documented in the research audit. The exhaustive 1950s review remains in progress.
