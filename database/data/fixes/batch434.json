@@ -1,0 +1,136 @@
+{
+  "batch": 434,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "court": "https://law.justia.com/cases/federal/appellate-courts/F2/193/86/349580/",
+    "barrett": "https://www.stjohns.edu/sites/default/files/2019-02/JoL7-1%2C%20JICP2-1%2C%202Barrett.pdf",
+    "release": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-12-12-4-8-nat-guardian.pdf",
+    "jafrc": "https://oregonnews.uoregon.edu/lccn/sn85042470/1947-07-17/ed-1/seq-2/"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "b7de4026-03ab-405b-946f-38e8af324c3b",
+      "prisoner_id": "d9d8f892-7a71-48b7-8baf-e1719dad4f9a",
+      "slug": "frederick-vanderbilt-field",
+      "name": "Frederick Vanderbilt Field",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-07-05 00:00:00",
+        "release_date": "1952-02-26 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "court",
+          "note": "Justice Reed in Field et al. v. United States, 193 F.2d 86 (1951), expressly dates the initial ninety-day sentence July 5. This original judicial record takes precedence over Barrett’s next-day wording. Existing approximately nine-month aggregate sentence prose preserved."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "barrett",
+          "note": "John Q. Barrett, Journal of Law 7 (2017), printed 32/PDF14, expressly dates final release from Ashland February 26, 1952, citing the February 29 New York Times report and Field autobiography. Original page visually checked. This is the endpoint after successive contempt sentences, not ninety-day arithmetic. No continuous incarceration start is entered because temporary appeal-bail periods remain unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b2bd0aee-c12b-402f-8bfa-c2322b5c0bfd",
+      "prisoner_id": "37c9d6c0-d2a5-4ebc-95a2-b2b240d01e38",
+      "slug": "alphaeus-hunton",
+      "name": "Alphaeus Hunton",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-07-09 00:00:00",
+        "incarceration_date": "1951-07-09 00:00:00",
+        "release_date": "1951-12-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "court",
+          "note": "Justice Reed explicitly dates Hunton and Hammett six-month sentences July 9, 1951."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "barrett",
+          "note": "Printed24/PDF6 identifies Hunton individually and states that immediately after July9 sentencing the marshals took him and Hammett into custody. Actual custody, not inferred from the sentence; original page visually checked."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release",
+          "note": "December12,1951 National Guardian page5 reports both men completed their terms last weekend and Hunton arrived in New York on Sunday. Barrett printed32 says on or about December9, not an independently certain day. December1951 only is verified; first-of-month storage uses month precision, never displayed as an exact December1 release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e75e2f8b-eb03-47c3-acd5-7d36f2ec69e9",
+      "prisoner_id": "1c54441e-b275-4464-ba3b-1da790a7cd8a",
+      "slug": "howard-fast",
+      "name": "Howard Fast",
+      "expected": {
+        "date_precision": "{\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1947-07-16 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "jafrc",
+          "note": "Oregon Statesman Thursday July17,1947 page2 AP Washington July16 report states sentences imposed today; individually names Howard Fast among the three-month defendants. Original scan and masthead visually checked. This is original sentence, not June27 verdict or June1950 surrender."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "8459250d-76b3-455a-860e-5cae4c289bec",
+      "prisoner_id": "bdb6e4b1-2fb4-4225-a465-709a6195497b",
+      "slug": "edward-k-barsky",
+      "name": "Edward K. Barsky",
+      "expected": {
+        "date_precision": "{\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1947-07-16 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "jafrc",
+          "note": "Same July16 Associated Press sentencing report individually names Edward K. Barsky, identifies committee chair and distinguishes his six-month term. Original scan visually checked. Existing incarceration/release and prose remain unchanged."
+        }
+      ]
+    }
+  ]
+}
