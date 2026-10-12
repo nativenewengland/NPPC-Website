@@ -1,0 +1,16 @@
+Batch 437 live verification — October 12,2026
+Data commit: 988b5cf6
+B437-ISOLATED-TEST-OK 291 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B437-OK on all three runs.
+Compared 723 profiles and 852 cases: 50205 unrelated field values preserved; 10 expected fields verified, including four precision metadata values; existing precision entries preserved.
+Five missing case dates and one portrait filled across five rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 437 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B437-OK.
+All 4 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched its committed SHA256.
+harold-bowers: sentenced_date=1954-05-11 (day); visible=True
+harold-ward: incarceration_date=1952-10-09 (day); visible=True; release_date=1952-12-01 (month); visible=True; portrait renders and HTTP image checksum matches
+wil-ackalitis: sentenced_date=1954-05-11 (day); visible=True
+william-lynch: sentenced_date=1954-05-11 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
