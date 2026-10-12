@@ -1258,8 +1258,34 @@
     "samuel-ornitz": {
       "id": "d53f0ea4-22bd-42a7-a40a-ebeccf005778",
       "name": "Samuel Ornitz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "table": "prisoner_cases",
+          "id": "25c5a24e-38ea-46a4-a4ad-0d9c05573c32",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "ornitz-sentence",
+              "note": "Contemporary MANAS August30,1950 III35 printed7/PDF7 explicitly reports SamuelOrnitz June30 fined1000 and sentenced one year. Original downloaded and visually inspected. AP June29 report independently deferred his sentence until FridayJune30. MANAS wrongly calls HUAC a Senate committee and generalizes all others as one-year sentences; those claims are not adopted. Exact date used only for individually stated Ornitz sentencing. Existing June1950 admission and April1951 release MONTH precision preserved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "ornitz-schedule",
+              "note": "Original AP EugeneRegisterGuard June29,1950 p1 explicitly court deferred Ornitz sentence to FridayJune30, separately postponing Scott until August. This is corroborating planned date, not used alone as proof of sentence or custody. Actual sentence independently reported by contemporary MANAS."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "25c5a24e-38ea-46a4-a4ad-0d9c05573c32"
       ],
@@ -1267,11 +1293,11 @@
       "missing_case_fields": {
         "25c5a24e-38ea-46a4-a4ad-0d9c05573c32": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch461 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "howard-fast": {
       "id": "1c54441e-b275-4464-ba3b-1da790a7cd8a",
@@ -2745,8 +2771,14 @@
     "samuel-shepherd": {
       "id": "6ca76818-3943-4e2b-8db0-aeab92c074f0",
       "name": "Samuel Shepherd",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "All profile vitals/photo and four case milestones already populated. No missing date verified; existing values preserved."
+        }
+      ],
       "case_ids": [
         "7f0353a4-dbcb-4804-bdb2-f3fbb6351e98"
       ],
@@ -2756,7 +2788,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "All profile vitals/photo and four case milestones already populated. No missing date verified; existing values preserved."
     },
     "elizabeth-catlett": {
       "id": "d283306b-9e23-459f-afef-97496d7be10a",
@@ -4867,8 +4900,14 @@
     "sang-ryup-park": {
       "id": "b3e961fa-30bb-47c3-965b-1b513fb31a86",
       "name": "Sang Ryup Park",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original federal judgment on CaseMine is August19,1952, not May20. It explicitly says May9 deportation injunction did NOT order release, addresses June27 renewed deportation and later grants release. Court order alone does not establish actual physical release day. Existing Nov30,1951 arrest/admission conflicts narrative Nov29 and is preserved. No unverified vitals/photo or criminal sentence added."
+        }
+      ],
       "case_ids": [
         "86e504d9-f148-4476-b367-ca301903d5e3"
       ],
@@ -4884,7 +4923,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original federal judgment on CaseMine is August19,1952, not May20. It explicitly says May9 deportation injunction did NOT order release, addresses June27 renewed deportation and later grants release. Court order alone does not establish actual physical release day. Existing Nov30,1951 arrest/admission conflicts narrative Nov29 and is preserved. No unverified vitals/photo or criminal sentence added."
     },
     "martin-young": {
       "id": "e320817c-bd47-4eda-afcb-1e62c041d960",
@@ -8392,8 +8432,14 @@
     "sam-coleman": {
       "id": "9e243e43-5c93-43cb-97cb-4335784db741",
       "name": "Sam Coleman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Four case milestones populated for harboring Thompson/Steinberg. Contemporary primary evidence considered; no new identity-matched vitals/photo. Modern namesakes not adopted."
+        }
+      ],
       "case_ids": [
         "25678249-54e9-41e0-a718-a7d41488dd4e"
       ],
@@ -8407,7 +8453,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Four case milestones populated for harboring Thompson/Steinberg. Contemporary primary evidence considered; no new identity-matched vitals/photo. Modern namesakes not adopted."
     },
     "sidney-stein": {
       "id": "cbd54bf8-7e80-46e4-b857-d4fd2aa3deaf",
@@ -10950,8 +10997,14 @@
     "ruth-cort": {
       "id": "dde04f65-1519-4f2c-91bd-69f07e426788",
       "name": "Ruth Cort",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own1962 clinical paper confirms RuthL.Cort Prague physician, consistent with JosephCort wife; no date of birth/death, identified portrait or US criminal custody established. Australian Latrobe nurse RuthCortBell is another person. Existing incomplete exile chronology remains unresolved."
+        }
+      ],
       "case_ids": [
         "33399627-baf0-4ead-be9a-b1db50ccc5f5"
       ],
@@ -10969,7 +11022,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own1962 clinical paper confirms RuthL.Cort Prague physician, consistent with JosephCort wife; no date of birth/death, identified portrait or US criminal custody established. Australian Latrobe nurse RuthCortBell is another person. Existing incomplete exile chronology remains unresolved."
     },
     "frank-hashmall": {
       "id": "66db390f-726c-4e47-97d5-fd04c5f6de02",
@@ -11831,8 +11885,14 @@
     "sam-hirsch": {
       "id": "d8239678-2cfd-404e-bedd-bd00e0078a70",
       "name": "Sam Hirsch",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original Guardian February7,1955 p8 establishes MiamiBeach BiltmorePlayhouse director eight-count perjury indictment. Indictment/report publication is not proof of actual arrest or jail; no invented custody or sentence dates. No portrait on inspected page."
+        }
+      ],
       "case_ids": [
         "1b63a9f2-9f22-4467-b11f-4602b581fe3e"
       ],
@@ -11850,7 +11910,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original Guardian February7,1955 p8 establishes MiamiBeach BiltmorePlayhouse director eight-count perjury indictment. Indictment/report publication is not proof of actual arrest or jail; no invented custody or sentence dates. No portrait on inspected page."
     },
     "charles-rowoldt": {
       "id": "6da928c1-95c0-4a85-87b9-3faf510197a9",
@@ -12188,8 +12249,69 @@
     "sammie-ingram": {
       "id": "3dbd5b2b-a938-4f87-82a0-36e28a55f833",
       "name": "Sammie Ingram",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "table": "prisoner_cases",
+          "id": "e4ebc65b-aedd-405f-911d-d2b693b9f39c",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "sentenced_date"
+              ],
+              "source": "ingram-custody",
+              "note": "Original Militant March15,1948 p1 archive explicitly names fourteen-year-old Sammie among the Ingrams arrested following the November1947 confrontation and held in separate jails without bail until trial. MONTHNovember1947 only, not an exact arrest date inferred from the killing. Death sentence1948; conflicting precise trial/sentencing days are not adopted. YEAR1948 only. Do not infer DOB from reported age."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "ingram-history",
+              "note": "University of Georgia historian Emma Rountree New Georgia Encyclopedia account explicitly names RosaLee,Wallace and SammieLee Ingram as released from prison August26,1959. Identity and same Georgia prosecution matched. Two existing case rows describe the same prosecution; fill their missing milestones consistently without deleting/merging rows or changing prose. Existing portrait retained."
+            }
+          ]
+        },
+        {
+          "batch": 461,
+          "table": "prisoner_cases",
+          "id": "3dbbc3c7-4e29-4f50-ac90-cff4b6b80868",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "sentenced_date"
+              ],
+              "source": "ingram-custody",
+              "note": "Original Militant March15,1948 p1 archive explicitly names fourteen-year-old Sammie among the Ingrams arrested following the November1947 confrontation and held in separate jails without bail until trial. MONTHNovember1947 only, not an exact arrest date inferred from the killing. Death sentence1948; conflicting precise trial/sentencing days are not adopted. YEAR1948 only. Do not infer DOB from reported age."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "ingram-history",
+              "note": "University of Georgia historian Emma Rountree New Georgia Encyclopedia account explicitly names RosaLee,Wallace and SammieLee Ingram as released from prison August26,1959. Identity and same Georgia prosecution matched. Two existing case rows describe the same prosecution; fill their missing milestones consistently without deleting/merging rows or changing prose. Existing portrait retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e4ebc65b-aedd-405f-911d-d2b693b9f39c",
         "3dbbc3c7-4e29-4f50-ac90-cff4b6b80868"
@@ -12200,22 +12322,15 @@
       ],
       "missing_case_fields": {
         "e4ebc65b-aedd-405f-911d-d2b693b9f39c": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "3dbbc3c7-4e29-4f50-ac90-cff4b6b80868": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch461 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "joseph-delaine": {
       "id": "5473753c-6fdd-4abe-b758-5992981fef25",
@@ -14238,8 +14353,34 @@
     "sam-reed": {
       "id": "e0a097cd-52a8-4704-8ab3-1361d08868cb",
       "name": "Sam Reed",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "table": "prisoner_cases",
+          "id": "c75d57ab-2cac-4210-9c0b-bbc42e0a1bbf",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "reed-judgment",
+              "note": "Original US Bureau of Labor Statistics Monthly Labor Review April1958 printed420/PDF58 visually inspected. Under February19 heading, Cleveland federal court sentences seven in conspiracy to file false non-Communist affidavits, 18months/$2500 each. Text wraps across columns; February27 is a different heading and is NOT this sentence date. Contemporary named defendants committee appeal matches SamReed to these seven and same penalty."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "reed-identity",
+              "note": "Original National Guardian April28,1958 printed3/PDF5 defendants appeal committee full-page appeal individually names SamReed among the seven Cleveland defendants sentenced two months earlier,18months/$2500. Original viewed; links identity to government chronology. Guardian April17,1961 still describes prison terms as pending after appeals; sentence1958 is not actual admission. No incarceration/release inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c75d57ab-2cac-4210-9c0b-bbc42e0a1bbf"
       ],
@@ -14251,13 +14392,13 @@
       "missing_case_fields": {
         "c75d57ab-2cac-4210-9c0b-bbc42e0a1bbf": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch461 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "andrew-remes": {
       "id": "d6ef6fcc-c971-4fd3-be7a-d34cee8c27b6",
@@ -16877,26 +17018,69 @@
     "ruth-bishop": {
       "id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
       "name": "Ruth Bishop",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "table": "prisoners",
+          "id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "bishop-research",
+              "note": "GabrielSanRoman own researched OCWeekly September8,2016 account identifies LosAlamitos kindergarten teacher RuthBishop and1959broom/subpoena trial; explicitly reports died1999age95 and cites contemporaneous LosAngelesTimes obituary. Own reporting includes interview with MalvinaReynolds daughter NancySchimmel, not Bishop daughter. YEAR1999 only; obituary exact date not recovered. No birthday inferred from age and no unrelated Australian virologist1933-2022 or MichiganRuth1908-1999 vitals adopted."
+            }
+          ]
+        },
+        {
+          "batch": 461,
+          "table": "prisoner_cases",
+          "id": "ecd23ada-e4df-4988-bf9c-a97a198ae106",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "bishop-research",
+              "note": "Own researched OCWeekly account places trial earlyOctober1959, lasting a few days, ending with500fine. MONTHOctober1959 only, no exact day inferred. Original Guardian confirms four-and-half-day trial, election to pay fine instead of60days and schoolboard retention on sentencing evening. No actual jail admitted or inferred; June5 action/subpoena not automatically an arrest."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "bishop-original",
+              "note": "Original LouisE.Burnham NationalGuardian November2,1959 printed3/PDF3 downloaded and visually inspected. Individually reported sentencing, paidfine and board vote; MONTH chronology supplied by OCWeekly research. Preserve accurate distinction between fine alternative and actual imprisonment; no custody dates added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ecd23ada-e4df-4988-bf9c-a97a198ae106"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "ecd23ada-e4df-4988-bf9c-a97a198ae106": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch461 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ross-anderson": {
       "id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",
@@ -17708,8 +17892,14 @@
     "roy-wood": {
       "id": "a225a8ee-4765-48b7-a503-e6da311b5f17",
       "name": "Roy Wood",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Niece RobertaWood own family account confirms LeRoyH.Wood, WashingtonDC leadership and Lewisburg imprisonment. Existing portrait/case sentence/admission retained. No exact vitals/arrest/release supplied. Nebraska grave namesake not matched; no additions."
+        }
+      ],
       "case_ids": [
         "8ddd4263-066f-4ef8-b1a9-7deb511cf4c4"
       ],
@@ -17724,7 +17914,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Niece RobertaWood own family account confirms LeRoyH.Wood, WashingtonDC leadership and Lewisburg imprisonment. Existing portrait/case sentence/admission retained. No exact vitals/arrest/release supplied. Nebraska grave namesake not matched; no additions."
     },
     "regina-frankfeld": {
       "id": "ef76766e-1c0d-42f6-b1ed-efdb1e7c5dff",
@@ -19401,8 +19592,14 @@
     "sam-jordan": {
       "id": "0e060eed-adca-4421-9835-e4433bd2247f",
       "name": "Sam Jordan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Mother GeorgiaJordan own letter Guardian January2,1952 describes NewJersey governor extradition warrant and CRC postponement until January3. Postponement is not physical release or actual transfer; exact missing custody/vitals/photo unresolved."
+        }
+      ],
       "case_ids": [
         "2891bbfe-cfaa-40d1-ba9d-785559a6935a"
       ],
@@ -19420,7 +19617,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Mother GeorgiaJordan own letter Guardian January2,1952 describes NewJersey governor extradition warrant and CRC postponement until January3. Postponement is not physical release or actual transfer; exact missing custody/vitals/photo unresolved."
     },
     "marie-richardson": {
       "id": "eea8a81e-93fe-4df7-84f5-c3ad273773ec",
@@ -20642,8 +20840,14 @@
     "sam-milgrom": {
       "id": "10b1b78c-d2c8-4ecf-9bac-e4a52fdaa590",
       "name": "Sam Milgrom",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own1948 JewishLife report independently identifies IWO executive secretary;1952 source names his EllisIsland detention. Existing YEAR1952 admission preserved; hospital guard/bail proceedings do not prove release. Modern gallery owner StevenAllenMilgrom born1952 is different.1893-1974 SSDI genealogy lacks political identity match."
+        }
+      ],
       "case_ids": [
         "34b2d491-f23a-47d5-8120-1e9ab756cc5b"
       ],
@@ -20660,7 +20864,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own1948 JewishLife report independently identifies IWO executive secretary;1952 source names his EllisIsland detention. Existing YEAR1952 admission preserved; hospital guard/bail proceedings do not prove release. Modern gallery owner StevenAllenMilgrom born1952 is different.1893-1974 SSDI genealogy lacks political identity match."
     },
     "ignatz-mezei": {
       "id": "a84ca08f-1ad3-460b-8a13-a97d917c9f78",
@@ -21224,8 +21429,14 @@
     "rufus-douglas": {
       "id": "bcd3da3a-5309-4292-af9e-33c647352c5b",
       "name": "Rufus Douglas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "AstroDatabank researcher SyScholfield lists RufusElbertDouglas March21,1927 Dallas with birth-certificate provenance, but original certificate was not inspected. Retain as promising lead, not verified addition. Existing death/exile YEAR1954 retained; June1954 report would refine populated data and is outside missing-only scope. No Korean POW captivity misrepresented as US criminal custody."
+        }
+      ],
       "case_ids": [
         "c7a149fa-e40f-4e8e-aae2-30da548bec9e"
       ],
@@ -21240,7 +21451,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "AstroDatabank researcher SyScholfield lists RufusElbertDouglas March21,1927 Dallas with birth-certificate provenance, but original certificate was not inspected. Retain as promising lead, not verified addition. Existing death/exile YEAR1954 retained; June1954 report would refine populated data and is outside missing-only scope. No Korean POW captivity misrepresented as US criminal custody."
     },
     "john-roedel-dunn": {
       "id": "be1db4d3-0a90-4b4f-be15-03d8d547d9d9",
@@ -21327,8 +21539,14 @@
     "samuel-david-hawkins": {
       "id": "a31e2095-88bc-465b-9c09-435eef7e027c",
       "name": "Samuel David Hawkins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 461,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing DOB/exile values preserved. MedfordMarch4,1957 p3 mentions him but pictured people are other subjects; no false portrait crop. Original Wallace interview URL now404 and Manchester scan403; ReadingEagle lead not retrieved.2018LebanonTN obituary has different birth and identity; no DOD adopted."
+        }
+      ],
       "case_ids": [
         "b2d1916d-dda4-4dba-85d7-6c178a4d2f99"
       ],
@@ -21343,7 +21561,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Existing DOB/exile values preserved. MedfordMarch4,1957 p3 mentions him but pictured people are other subjects; no false portrait crop. Original Wallace interview URL now404 and Manchester scan403; ReadingEagle lead not retrieved.2018LebanonTN obituary has different birth and identity; no DOD adopted."
     },
     "arlie-pate": {
       "id": "51d43684-2786-40f5-8733-679fe1c159b1",
