@@ -1,0 +1,198 @@
+{
+  "batch": 458,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "paschalidis-arrest": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-07-09-8-38-nat-guardian.pdf",
+    "mirabal-arrest": "https://oregonnews.uoregon.edu/lccn/sn97071090/1954-10-22/ed-1/seq-1/",
+    "local7-history": "https://s3.amazonaws.com/arena-attachments/1109455/9bb355341c4ee03dcda14b01b9fea67e.pdf?1499118820=",
+    "local7-contemporary": "https://archive.ilwu.org/wp-content/uploads/2015/02/19510316.pdf",
+    "raissa-birth": "https://mathshistory.st-andrews.ac.uk/Biographies/Browder_Felix/",
+    "raissa-death": "https://oregonnews.uoregon.edu/lccn/sn85042470/1955-01-09/ed-1/seq-1/",
+    "raissa-custody": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-10-09-4-51-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "4d91233a-b9fc-457f-867e-98d8d3757bd5",
+      "prisoner_id": "ea200a31-c4ba-4ad4-ba24-b6796e3e3140",
+      "name": "Polychronis Paschalidis",
+      "slug": "polychronis-paschalidis",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1956-06-21 00:00:00",
+        "incarceration_date": "1956-06-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "paschalidis-arrest",
+          "note": "OriginalNationalGuardian July9,1956 printedp1 downloaded/visuallyinspected. Individually names PolychronisPaulPaschalidis, wife/twochildren, lawyerIraGollobin; explicitlyJune21 at11am arrested pending4pmdeportation whilelawyerappealpending; atpublication still NYdetentionheadquarters. Actual custody, not simply warrant. Separate1950arrest not combined with1956episode. Aug7voluntarydeparturePoland does not establish jail release day, endpoint remains unknown."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cd143b97-1689-4b52-91df-84222bcde463",
+      "prisoner_id": "350bdd51-07b0-44d0-a70d-d455dddce1d6",
+      "name": "Ramon Mirabal",
+      "slug": "ramon-mirabal",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1954-10-21 00:00:00",
+        "incarceration_date": "1954-10-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "mirabal-arrest",
+          "note": "OriginalMedfordMailTribune FridayOctober22,1954 printedp1 UnitedPress EdinburgTexas dispatch11thPuertoRicanRedCaptured, downloaded/visuallyinspected: secretary-generalRamonMirabalCarrion41 arrested lastnight inHidalgo, appearedlastnightbeforeUSCommissionerJohnC.Hall/bond25000 then spentnightHidalgojail. Thus actualOctober21arrest and jail admission, not genericOctober19PuertoRico roundup. Nearby UNHerbertSolesphoto different person, not assigned. NoDOB inferred from age; actual bail release unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "12b71b51-6cd9-4027-a8cf-774725723cfa",
+      "prisoner_id": "4c2f6157-16f8-477d-a142-72dad2b95c74",
+      "name": "Pete Carbonay",
+      "slug": "pete-carbonay",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "incarceration_date": "1951-01-01 00:00:00",
+        "release_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "local7-history",
+          "note": "ArleenDeVera, WithoutParallel:TheLocal7DeportationCases1949-1955, AmerasiaJournal20:2(1994)printedp9, downloaded/fullparagraphread: afterstartnewyear1951 RamonTancioco,ConstancioCargado,PeteCabornay taken countyjail, physicallyreleasedaboutweeklater afterPortlandprotests,totalbail2000. Footnote31 printedp20 cites ownunionDispatcherJanuary19,1951p7. ExistingPeteCarbonay/PeteCabornay identity tied tosamePortlandLocal7defensecommittee/case. YEAR1951 only for each endpoint; exact day/month unverified. Jan1 storage not actualJan1dates; no full-year duration inferred, preserved existing week narrative."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "local7-contemporary",
+          "note": "OwnunionDispatcherMarch16,1951printedp8 explicitly namesPeteCabornay,RamonTancioco among defendants and confirms allfreeonbail. PrimaryPDFindexedtext read; directdownload403, no claimed original image inspection or assigned photo. Fivepictured men areotherindividuals. Confirms releasewithin1951 together with detailed archival history, not publicationday used as release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6e35b6da-b9df-4164-94c2-d8a9b80e3e2e",
+      "prisoner_id": "6e60b5b2-3690-4dcd-add4-b401b2273958",
+      "name": "Ramon Tancioco",
+      "slug": "ramon-tancioco",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "incarceration_date": "1951-01-01 00:00:00",
+        "release_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "local7-history",
+          "note": "ArleenDeVera, WithoutParallel:TheLocal7DeportationCases1949-1955, AmerasiaJournal20:2(1994)printedp9, downloaded/fullparagraphread: afterstartnewyear1951 RamonTancioco,ConstancioCargado,PeteCabornay taken countyjail, physicallyreleasedaboutweeklater afterPortlandprotests,totalbail2000. Footnote31 printedp20 cites ownunionDispatcherJanuary19,1951p7. ExistingPeteCarbonay/PeteCabornay identity tied tosamePortlandLocal7defensecommittee/case. YEAR1951 only for each endpoint; exact day/month unverified. Jan1 storage not actualJan1dates; no full-year duration inferred, preserved existing week narrative."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "local7-contemporary",
+          "note": "OwnunionDispatcherMarch16,1951printedp8 explicitly namesPeteCabornay,RamonTancioco among defendants and confirms allfreeonbail. PrimaryPDFindexedtext read; directdownload403, no claimed original image inspection or assigned photo. Fivepictured men areotherindividuals. Confirms releasewithin1951 together with detailed archival history, not publicationday used as release."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
+      "prisoner_id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
+      "name": "Raissa Browder",
+      "slug": "raissa-browder",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1897-01-01 00:00:00",
+        "death_date": "1955-01-08 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "raissa-birth",
+          "note": "UniversityStAndrewsMacTutor biography byJOConnor/EFRobertson explicitly RaissaBerckmann motherFelix,wifeEarl bornStPetersburg1897. YEAR1897 only, not derived from age58. Contemporary LAdunata1953number11 independently gives1897; unsupported birthday not asserted."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "raissa-death",
+          "note": "OriginalOregonStatesman SundayJanuary9,1955 printedp1 bottomright MrsBrowderDies, downloaded/visuallyinspected. Explicit wifeEarl formerCPhead, diedatYonkershome Saturday followinglongillness. ThusJanuary8,1955 DAY, notJan9publication. ContemporaryTIMEJan17obituary independently identifiessamewife/three sons/deportation litigation, matchesfamily."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53",
+      "prisoner_id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
+      "name": "Raissa Browder",
+      "slug": "raissa-browder",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1952-01-01 00:00:00",
+        "incarceration_date": "1952-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "raissa-custody",
+          "note": "OriginalNationalGuardian October9,1952printedp4 Browdersarejailedfornon-cooperation, downloaded/visuallyinspected: Earl andRussianbornwifeRaissa arrested lastweek inperjurynaturalizationcase; prosecutoropposesrecognizance, unable2500eachbail, stillincellsthisweek. Establishes actualmulti-daycustody in1952, not merely citation or future sentence. ExactSeptember30day inpopulatedbio not independentlyverifiedoriginalhere; YEAR1952 only. Continuedcivildeportation proceedings not assumed jail admission. Source says inabilitytofundbail/deniedrecognizance, populatedbio saysbailrefused; conflict preserved andlogged, no bios/prose rewritten. Releaseunverified."
+        }
+      ]
+    }
+  ]
+}
