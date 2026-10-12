@@ -1,0 +1,309 @@
+{
+  "batch": 477,
+  "audit_date": "2026-10-12",
+  "expected_count": 10,
+  "sources": {
+    "wollam": "https://oregonnews.uoregon.edu/lccn/sn97071090/1955-02-01/ed-1/seq-7/",
+    "wollam-court": "https://law.justia.com/cases/federal/appellate-courts/F2/244/212/103465/",
+    "whitman": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0720.pdf",
+    "peck": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-05-13-9-30-nat-guardian.pdf",
+    "liveright-obit": "https://www.iberkshires.com/obituaries/148/HermanE.Liveright.html",
+    "liveright-sentence": "https://oregonnews.uoregon.edu/lccn/sn90066132/1957-03-22/ed-1/seq-4.pdf",
+    "knowles": "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1957-01-18.pdf",
+    "knowles-confirm": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-02-04-9-16-nat-guardian.pdf",
+    "shibley-start": "https://archive.ilwu.org/wp-content/uploads/2015/02/19570118.pdf",
+    "shibley-end": "https://archive.ilwu.org/wp-content/uploads/2015/02/19580815.pdf",
+    "shibley-death": "https://www.sjsu.edu/filmandtheatre/docs/Zoot%20Suit.pdf",
+    "powell-obit": "https://www.sfgate.com/bayarea/article/Sylvia-Powell-writer-accused-then-cleared-of-2708108.php",
+    "powell-reed": "https://www.reed.edu/reed-magazine/in-memoriam/obituaries/november2004/sylvia-campbell-powell-1943.html",
+    "powell-photo": "https://s.hdnux.com/photos/10/21/71/2170445/6/rawImage.jpg",
+    "cammer-prosecutor": "https://dcchs.org/wp-content/uploads/2019/04/oliver-gasch_complete-oral-history-compressed.pdf",
+    "cammer-court": "https://openjurist.org/223/f2d/322",
+    "grossman": "https://www.leagle.com/decision/19561004229f2d7751767",
+    "tyne": "https://tile.loc.gov/storage-services/service/afc/afc2014008/afc2014008_ms2511/afc2014008_ms2511.pdf",
+    "killian": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab1001.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "9c6c9c73-eb59-43e5-89d9-ae1132aa6182",
+      "prisoner_id": "416bfc6c-6dec-4cb3-a561-6920ecfdafcf",
+      "name": "Donald M. Wollam",
+      "slug": "donald-m-wollam",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1955-01-31 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "wollam",
+          "note": "Original Medford Mail Tribune February1,1955 printedp7 United Press article states Judge Samuel Driver imposed one-year term and250-dollar fine yesterday afternoon. Court244F2d212 distinguishes January19 conviction. Bail retained; no actual incarceration or physical release inferred from sentence. Archive indexed full OCR read; scan not visually inspected."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "63945836-9a58-4b55-9526-559ab3941436",
+      "prisoner_id": "1405354c-bcf5-40df-aa3b-afc33a91b02a",
+      "name": "Seymour Peck",
+      "slug": "seymour-peck",
+      "expected": {
+        "date_precision": "[]",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-05-03 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "peck",
+          "note": "Original Guardian May13,1957 printedp3 says Otto Nathan sentenced May3 and Peck sentenced same day to500-dollar fine and30days suspended, probation one year. Original visually inspected: May3, not OCR April3. Nearby photograph is Nathan, not Peck. No imprisonment inferred from suspended sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "65cd8631-0c4f-4956-a2ac-703b2b16bbc2",
+      "prisoner_id": "65cd8631-0c4f-4956-a2ac-703b2b16bbc2",
+      "name": "Herman Liveright",
+      "slug": "herman-liveright",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1912-01-11 00:00:00",
+        "death_date": "2001-01-19 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "liveright-obit",
+          "note": "Own local obituary dated January19,2001 says died Friday and explicitly born January11,1912; January19 was Friday. Identity matched WDSU, Senate contempt, Highlander, Berkshire Forum, parents publisher Horace B.Liveright and Lucile Elsas, wife Betty Fouche. No ages used to fabricate birthdate."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "29f96760-302c-469e-b4d1-e077a94af0f9",
+      "prisoner_id": "65cd8631-0c4f-4956-a2ac-703b2b16bbc2",
+      "name": "Herman Liveright",
+      "slug": "herman-liveright",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-03-22 00:00:00",
+        "incarceration_date": "1957-03-22 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "liveright-sentence",
+          "note": "Original Capital Journal Salem Friday March22,1957 section1 printedp8/PDFsequence4, AP Washington report, explicitly same-day three-month sentence and500-dollar fine by Judge Richmond Keech; taken to courthouse lockup. Actual admission to courthouse lockup is recorded, not an assumed prison-transfer date. Judge would consider bail application, not confirmation of physical release; release remains missing. Original downloaded full text read."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "896e56d0-91ff-4461-9098-a6f8a18a6f57",
+      "prisoner_id": "0099c72c-93dc-4ebd-b6a5-af0ab0a68db1",
+      "name": "Mary Knowles",
+      "slug": "mary-knowles",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-01-18 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "knowles",
+          "note": "Original Manchester Evening Herald January18,1957 AP Washington Jan18 report says today sentenced120days and500-dollar fine by Judge Ross Rizley. Host full indexed text read; direct download403, so no scan inspection claim. Original Guardian February4,1957 independently confirms same sentence but not actual admission. No custody endpoints inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
+      "prisoner_id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
+      "name": "George E. Shibley",
+      "slug": "george-e-shibley",
+      "expected": {
+        "date_precision": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "death_date": "1989-07-04 00:00:00",
+        "photo": "prisoners/george-shibley-ilwu-dispatcher-batch477.png",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "shibley-death",
+          "note": "San Jose State University Zoot Suit teaching document George Shibley slide explicitly July4,1989 death of Sleepy Lagoon defense lawyer, citing Long Beach Press-Telegram. Full PDF read. This is attributed university evidence, not independently viewed original obituary. SSDI and spouse Eleanor Shaw lead agrees; DOB from namesake alone not imported."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "shibley-end",
+          "note": "Original ILWU Dispatcher August15,1958 printedp5 identified family photograph, adult man at right cropped. Native decoded original scan, retained pixels unchanged; original and crop visually inspected."
+        }
+      ],
+      "asset": {
+        "file": "george-shibley-ilwu-dispatcher-batch477.png",
+        "sha256": "f279241cdcf211119bbc4d24b9b1910e628a3aec91b2213f9ec51c8a96c367e9"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a6d7a00c-8260-4e95-84d6-4d7e95e05e27",
+      "prisoner_id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
+      "name": "George E. Shibley",
+      "slug": "george-e-shibley",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "incarceration_date": "1957-01-14 00:00:00",
+        "release_date": "1958-07-14 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "shibley-start",
+          "note": "Own ILWU Dispatcher January18,1957 printedp1 explicitly surrendered10am January14 and taken to Terminal Island to serve three-year term."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "shibley-end",
+          "note": "Own ILWU Dispatcher August15,1958 printedp5 explicitly paroled July14 after18months of three-year term. June1958 anticipated release report not adopted. Source distinguishes acquitted military contempt from conviction for conspiracy and receiving transcript; existing case three-year narrative identifies same term but labels offense differently. Prose preserved and conflict logged. Separate January18,1954 thirty-day summary contempt is not assigned to this three-year imprisonment."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "3e2976ce-c754-4757-8f81-090d7ba523fe",
+      "prisoner_id": "3e2976ce-c754-4757-8f81-090d7ba523fe",
+      "name": "Sylvia Powell",
+      "slug": "sylvia-powell",
+      "expected": {
+        "date_precision": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "death_date": "2004-07-01 00:00:00",
+        "photo": "prisoners/sylvia-powell-sf-chronicle-batch477.png",
+        "date_precision": "{\"death_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "powell-obit",
+          "note": "Chronicle family interview implies July6,2004; Reed alumni obituary gives July12. Both agree July2004; MONTH precision only."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "powell-photo",
+          "note": "Chronicle obituary labels John and Sylvia, April26,1958; woman at left cropped exactly,140x200, unchanged pixels."
+        }
+      ],
+      "asset": {
+        "file": "sylvia-powell-sf-chronicle-batch477.png",
+        "sha256": "e1b64164467b1859a99a0d14bbba654e5001bd8bebf34c1322397415493f7d41"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "9e787d54-fb9e-4a7e-a306-9e18d724147d",
+      "prisoner_id": "9485e3ed-aa4d-4ed4-a14c-5192f6093dd6",
+      "name": "Harold I. Cammer",
+      "slug": "harold-i-cammer",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "cammer-prosecutor",
+          "note": "Own prosecutor Oliver Gasch oral history printedp110 explicitly identifies original In re Cammer as1954 case. Original appellate223F2d322 quotes district ruling imposing100-dollar fine; appeal argued November29,1954. CourtListener district opinion index gives June15,1954 but underlying district opinion could not be read, so YEAR1954 only. No jail from fine-only sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "eff5db95-087b-4413-b70b-d6192e49ac20",
+      "prisoner_id": "bf3bbd9d-0763-40ad-bd98-5431cd705573",
+      "name": "Alden Whitman",
+      "slug": "alden-whitman",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-09-14 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "whitman",
+          "note": "Original DOJ United States Attorneys Bulletin September25,1959 printedp575 explicitly September14,1959 six-month term suspended and500-dollar fine; probation during term. April9,1957 is conviction, not sentence. No actual incarceration or release from suspended term."
+        }
+      ]
+    }
+  ]
+}
