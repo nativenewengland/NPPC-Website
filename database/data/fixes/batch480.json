@@ -1,0 +1,323 @@
+{
+  "batch": 480,
+  "audit_date": "2026-10-12",
+  "expected_count": 11,
+  "sources": {
+    "willoughby-may": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1958/HC12-50149.pdf",
+    "willoughby-june": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1958/HC12-50153.pdf",
+    "erica-vitals": "https://archives.tricolib.brynmawr.edu/resources/scpc-cdg-a-enzer_erica",
+    "erica-jail": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-09-22-10-49-nat-guardian.pdf",
+    "erica-photo": "https://d1vmz9r13e2j4x.cloudfront.net/nebstudies/Lesson3_CreationofSAC.pdf",
+    "scull-obituary": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1983/HC12-50748.pdf",
+    "scull-photo": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1982/HC12-50717.pdf",
+    "graham-photo": "https://www.mdpls.org/dc-blog-twentyfour-nov",
+    "graham-image": "https://static.libnet.info/frontend-images/editor/mdpls/dc-blog-nov24-8.jpg",
+    "graves-vitals": "https://www.theblackarchives.org/archon/index.php?id=237&p=collections%2Fcontrolcard",
+    "patton-vitals": "https://kinginstitute.stanford.edu/king-papers/documents/dwight-d-eisenhower-9",
+    "kissing-case": "https://www.marxists.org/history/etol/newspape/youngsocialist/1958-1959/v2n04-jan-1959-ys.pdf",
+    "otis-report": "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn82015425/1958-03-19/ed-1/seq-1/",
+    "florida-orders": "https://law.justia.com/cases/florida/supreme-court/1958/108-so-2d-729-0.html",
+    "raley-brown": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-03-01-6-19-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "04b28f36-bcc4-4863-9e4a-e2d1e9c2e61e",
+      "prisoner_id": "9c1b58b3-cc78-4a27-ad93-b3bd57f06e17",
+      "name": "George Willoughby",
+      "slug": "george-willoughby",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-05-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "willoughby-may",
+          "note": "Original FriendsJournal May17,1958 printedp317/PDF9 explicitly May7 four GoldenRule crew including GeorgeWilloughby sentenced byJudgeWiig60days or oneyearprobation. Original visually inspected in batch479. Existing firstcase arrest/admission/release retained; sentence not counted as new custody."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "93468b01-ff01-4eeb-98ed-9e248b6587d8",
+      "prisoner_id": "9c1b58b3-cc78-4a27-ad93-b3bd57f06e17",
+      "name": "George Willoughby",
+      "slug": "george-willoughby",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "willoughby-june",
+          "note": "Original FriendsJournal June14,1958 printedp382/PDF10: June4secondattempt followed Huntington/Willoughby/Sherwood60days currentlyserving. MONTHJune1958 because exact sentencingday unspecified; June4action not automatically courtdate. Original visually inspected in batch479. All existing endpoints retained."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
+      "prisoner_id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
+      "name": "Erica Enzer",
+      "slug": "erica-enzer",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1925-01-01 00:00:00",
+        "death_date": "1998-01-01 00:00:00",
+        "photo": "prisoners/erica-enzer-nebraska-studies-batch480.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "erica-vitals",
+          "note": "SwarthmorePeaceCollection own EricaEnzerCollectedPapers institutional findingaid explicitly1925–1998, bornCzechoslovakia, chemist/mathteacher andCNVAactivist; papersgiftBradLyttle1998. Full web cached archive entry read; direct download403. YEARonly. SSDI exactDec23/Jul10 dates not independently linked, not imported."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "erica-photo",
+          "note": "Explicit third-from-left original caption, raster visually read. Exact original-image crop; unidentified newsletter group not used."
+        }
+      ],
+      "asset": {
+        "file": "erica-enzer-nebraska-studies-batch480.png",
+        "sha256": "7ef95b505f364b1c726628c087678b3948776204dd3ba508ddda19b868ba606d"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "50010722-b585-4299-98ce-ea895b0523e2",
+      "prisoner_id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
+      "name": "Erica Enzer",
+      "slug": "erica-enzer",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1958-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "erica-jail",
+          "note": "Original NationalGuardian September22,1958 printedp7/PDF7 explicitly MissEnzer andWhite soonjoinedothersinjail in Cheyenne missilebase campaign. YEAR1958 actual custody supported, day/month unspecified. August18Calkinsarrest not assigned to Enzer; Calkins104days sentence not hers. No inferred release, no separate1959Omaha/1963Polaris actions added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "b400aef5-38b9-4513-807a-99d69f9e680d",
+      "prisoner_id": "b400aef5-38b9-4513-807a-99d69f9e680d",
+      "name": "David E. Scull",
+      "slug": "david-e-scull",
+      "expected": {
+        "date_precision": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "death_date": "1983-09-18 00:00:00",
+        "photo": "prisoners/david-scull-friends-journal-batch480.png",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "scull-obituary",
+          "note": "FriendsJournal November15,1983 printedp28/PDF28 original obituary explicitly DavidH.Scull September18 followingstroke. Identity linked LangleyHillfounder/TurnpikePress/ScullStudios/civilrights litigation/wifeLaurel. Original visually read. Different MarylandpoliticianDavidScull1917–1968 and Indiana1920–1988 grave excluded. Existingdisplayname/slug and uncertainty of actualcustody unchanged."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "scull-photo",
+          "note": "Own identified firsthand interview portrait original visually inspected and cropped unchanged."
+        }
+      ],
+      "asset": {
+        "file": "david-scull-friends-journal-batch480.png",
+        "sha256": "87ade6045f96ca4d08a5027cc67f400929bedefd3b8b41addd5270c1a0bd49b1"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "d1132cf8-d18d-4b38-ac42-f8e8d0161268",
+      "prisoner_id": "d1132cf8-d18d-4b38-ac42-f8e8d0161268",
+      "name": "Edward T. Graham",
+      "slug": "edward-t-graham",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/edward-t-graham-black-archives-batch480.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "graham-photo",
+          "note": "Library caption expressly identifies ReverendEdwardT.Graham; exactcrop originalportrait. Unlinked1912–1965grave contradicts documented1970scommissioner and is not imported."
+        }
+      ],
+      "asset": {
+        "file": "edward-t-graham-black-archives-batch480.png",
+        "sha256": "3606801429107dfc635486d53fffde5a2e243abac82f8444425d852d00808967"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "d8d4fea6-cd81-4abe-b09f-ce18dce27010",
+      "prisoner_id": "d8d4fea6-cd81-4abe-b09f-ce18dce27010",
+      "name": "G. E. Graves",
+      "slug": "g-e-graves",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1919-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "graves-vitals",
+          "note": "BlackArchives own GrattanEllesmereGravesJr collectionfindingaid explicitlybornLawrencevilleVirginia1919, HowardLaw1944, FloridaNAACPattorney; full cachedinstitutionalentryread. YEARonly. FIU historicalsocietyFeb11,1919lead could not be downloaded (emptyresponse), exactday not imported. No unlinkedDOD or restrictedphoto used."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7f904c50-7e3c-426c-8b55-b981d71348ed",
+      "prisoner_id": "7f904c50-7e3c-426c-8b55-b981d71348ed",
+      "name": "W. C. Patton",
+      "slug": "w-c-patton",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1911-01-01 00:00:00",
+        "death_date": "1997-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "patton-vitals",
+          "note": "StanfordKingInstitute editedprimaryletterJanuary24,1959 toEisenhower footnote explicitly WilliamC.Patton1911–1997, Marionborn, NAACPAlabamastatepresident1947–1955 andnationalvotereducation1956–1978. FullinstitutionalHTMLread. YEARonly, no dates inferred from Congressional1997tribute or unrelatedWilliamClydePattonJr grave."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ef28cce7-2bce-4b97-bdc9-2e48d1912e61",
+      "prisoner_id": "2daa22d6-a053-4aee-b730-6f67167a3972",
+      "name": "Hanover Thompson",
+      "slug": "hanover-thompson",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-11-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "kissing-case",
+          "note": "Original YoungSocialist January1959 printedp4/PDF4 contemporaneous CCRIdefensepetition explicitly names both HanoverThompson andDavidSimpson, triedNovember4 sentencedcommitmentindustrialschool. Original scan visually checked. Later tertiaryNovember3date conflict logged; contemporary defensepetition used. Existing arrest/admissionOctober28 and releaseFebruary13 retained, no birthyear inferred from inconsistent ages."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "236f335b-3c55-4230-9e3e-6185db7f889b",
+      "prisoner_id": "6316362e-34f9-4921-994b-57e0dc3687d4",
+      "name": "David Simpson",
+      "slug": "david-simpson",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-11-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "kissing-case",
+          "note": "Original YoungSocialist January1959 printedp4/PDF4 contemporaneous CCRIdefensepetition explicitly names both HanoverThompson andDavidSimpson, triedNovember4 sentencedcommitmentindustrialschool. Original scan visually checked. Later tertiaryNovember3date conflict logged; contemporary defensepetition used. Existing arrest/admissionOctober28 and releaseFebruary13 retained, no birthyear inferred from inconsistent ages."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "677ba03e-bdd0-4583-bcb3-2f5ec6a41628",
+      "prisoner_id": "e0eb5b79-dd1a-41f0-961b-ccf64e4d2532",
+      "name": "Otis W. Smith",
+      "slug": "otis-w-smith",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-03-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "otis-report",
+          "note": "Existing previously curator-verified sentence andconvicted fields explicitly March10,1958 initialeightmonths; missing structuredsentence date filled from that explicit date, not inferred from prisonadmission. Prior archived contemporary AtlantaDailyWorld March19 report corroborated; current archivefetch unavailable so no claim of new originalvisualread in thispass. March17modification500fine notoriginalsentence. Populated caseprose, admission/release andseven-daytotal preserved."
+        }
+      ]
+    }
+  ]
+}
