@@ -836,8 +836,14 @@
     "rafael-cancel-miranda": {
       "id": "a642eba1-0ce6-470e-9130-985e7383cbac",
       "name": "Rafael Cancel Miranda",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "PopulatedFeb28,1954arrest/incar conflictsMarch1Capitolattack; existingfields preserved under missing-onlyscope."
+        }
+      ],
       "case_ids": [
         "96065abd-ab35-4128-92c1-a5ce19e4391a"
       ],
@@ -847,7 +853,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedFeb28,1954arrest/incar conflictsMarch1Capitolattack; existingfields preserved under missing-onlyscope."
     },
     "andres-figueroa-cordero": {
       "id": "ae32c841-b712-4081-b46d-3c11ada4f4b7",
@@ -2466,8 +2473,14 @@
     "ralph-cooper": {
       "id": "b70d795e-7b1d-4c4c-a0c7-a0afd765d01d",
       "name": "Ralph Cooper",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populatedcase dates/photo preserved; missingvitals not independentlyestablished."
+        }
+      ],
       "case_ids": [
         "9c48efa1-395c-4012-9c9e-c089a5d60043"
       ],
@@ -2480,7 +2493,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populatedcase dates/photo preserved; missingvitals not independentlyestablished."
     },
     "horace-wilson": {
       "id": "c81004db-8572-4bc9-93bc-b0aca5f33d9a",
@@ -5483,8 +5497,14 @@
     "phil-frankfeld": {
       "id": "81757638-df71-4b55-8e34-08bb3dc70bb8",
       "name": "Phil Frankfeld",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "NYUownfindingaid confirms imprisonment but not missing vitals or actualrelease; populateddates/photo preserved."
+        }
+      ],
       "case_ids": [
         "735ed32d-62fa-4840-802d-8abf59c8a0b9"
       ],
@@ -5498,7 +5518,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "NYUownfindingaid confirms imprisonment but not missing vitals or actualrelease; populateddates/photo preserved."
     },
     "andrew-onda": {
       "id": "48240b78-975c-4f0c-929b-f0c9297e32be",
@@ -7008,8 +7029,14 @@
     "petros-lezos": {
       "id": "75857e99-f42f-451c-ae50-c73153b4eb32",
       "name": "Petros Lezos",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "Court confirms populatedOctober12,1951arrest; actual custody/release still unverified."
+        }
+      ],
       "case_ids": [
         "779f3198-5576-4fa6-85b3-1cce1e25a433"
       ],
@@ -7026,7 +7053,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court confirms populatedOctober12,1951arrest; actual custody/release still unverified."
     },
     "arsen-yerganian": {
       "id": "4af85725-b130-49e7-9388-5f64b2901fe6",
@@ -7563,8 +7591,14 @@
     "phil-schatz": {
       "id": "6d2b5fc1-dc21-49f1-9f86-35bdf5f8186c",
       "name": "Phil Schatz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "1958newtrial not physicalbailrelease; remainingvitals/photo/endpoints unverified."
+        }
+      ],
       "case_ids": [
         "eebf1f23-9233-4b61-8ed0-5a1cb7f1e81a"
       ],
@@ -7579,7 +7613,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1958newtrial not physicalbailrelease; remainingvitals/photo/endpoints unverified."
     },
     "anna-bary": {
       "id": "be7e57f5-ffcd-4731-b38a-108c0eed02f7",
@@ -11164,8 +11199,29 @@
     "ramon-mirabal": {
       "id": "350bdd51-07b0-44d0-a70d-d455dddce1d6",
       "name": "Ramon Mirabal",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "table": "prisoner_cases",
+          "id": "cd143b97-1689-4b52-91df-84222bcde463",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "mirabal-arrest",
+              "note": "OriginalMedfordMailTribune FridayOctober22,1954 printedp1 UnitedPress EdinburgTexas dispatch11thPuertoRicanRedCaptured, downloaded/visuallyinspected: secretary-generalRamonMirabalCarrion41 arrested lastnight inHidalgo, appearedlastnightbeforeUSCommissionerJohnC.Hall/bond25000 then spentnightHidalgojail. Thus actualOctober21arrest and jail admission, not genericOctober19PuertoRico roundup. Nearby UNHerbertSolesphoto different person, not assigned. NoDOB inferred from age; actual bail release unresolved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cd143b97-1689-4b52-91df-84222bcde463"
       ],
@@ -11176,14 +11232,13 @@
       ],
       "missing_case_fields": {
         "cd143b97-1689-4b52-91df-84222bcde463": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch458 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "anne-braden": {
       "id": "cd51f08a-5c1c-49b1-9ba0-1ae167881da4",
@@ -11284,8 +11339,14 @@
     "phil-bart": {
       "id": "4cbc0766-bad7-4a4d-b492-a3cc15308212",
       "name": "Phil Bart",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "SupremeCourtMay23,1955reversal not physicalrelease; sentence day remains unverified."
+        }
+      ],
       "case_ids": [
         "7540cecd-7052-4cf1-b1ae-1d21fbd34506"
       ],
@@ -11303,7 +11364,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "SupremeCourtMay23,1955reversal not physicalrelease; sentence day remains unverified."
     },
     "joseph-starobin": {
       "id": "37a9fef5-70a6-42b5-8d6d-4f810e0e42c7",
@@ -13045,8 +13107,29 @@
     "polychronis-paschalidis": {
       "id": "ea200a31-c4ba-4ad4-ba24-b6796e3e3140",
       "name": "Polychronis Paschalidis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "table": "prisoner_cases",
+          "id": "4d91233a-b9fc-457f-867e-98d8d3757bd5",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "paschalidis-arrest",
+              "note": "OriginalNationalGuardian July9,1956 printedp1 downloaded/visuallyinspected. Individually names PolychronisPaulPaschalidis, wife/twochildren, lawyerIraGollobin; explicitlyJune21 at11am arrested pending4pmdeportation whilelawyerappealpending; atpublication still NYdetentionheadquarters. Actual custody, not simply warrant. Separate1950arrest not combined with1956episode. Aug7voluntarydeparturePoland does not establish jail release day, endpoint remains unknown."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4d91233a-b9fc-457f-867e-98d8d3757bd5"
       ],
@@ -13057,14 +13140,13 @@
       ],
       "missing_case_fields": {
         "4d91233a-b9fc-457f-867e-98d8d3757bd5": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch458 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "frank-borich": {
       "id": "05fc7072-e11b-42c0-b7b9-0c9b76d4d7b8",
@@ -13320,8 +13402,14 @@
     "petros-moutsos": {
       "id": "9423d24d-0242-4c5c-b04a-d0d403f69161",
       "name": "Petros Moutsos",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalGuardianApr22,1957 separately establishesDec10-Dec28,1956jail; earlierperiod not grafted toexistingApril7,1957rearrest. Separatepriorcase needs episode review."
+        }
+      ],
       "case_ids": [
         "594e3aab-9ba3-452e-abf2-f28ed2f08c1f"
       ],
@@ -13338,7 +13426,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalGuardianApr22,1957 separately establishesDec10-Dec28,1956jail; earlierperiod not grafted toexistingApril7,1957rearrest. Separatepriorcase needs episode review."
     },
     "steve-tandaric": {
       "id": "eb309aeb-90c1-4d53-8d56-ae1392203ea7",
@@ -13416,8 +13505,14 @@
     "rebecca-maisenberg": {
       "id": "33ccc540-3c96-48be-bc6a-2a07b6bc1e76",
       "name": "Rebecca Maisenberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "Civil denaturalization not actual imprisonment; no custody dates inferred."
+        }
+      ],
       "case_ids": [
         "30bfa15a-c9f8-4756-a03b-b5fb074cff6c"
       ],
@@ -13435,7 +13530,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Civil denaturalization not actual imprisonment; no custody dates inferred."
     },
     "andrew-peter-yiannopoulos": {
       "id": "77f6cd70-1889-409a-a946-f90a53988cbb",
@@ -17041,8 +17137,14 @@
     "raymond-dennis": {
       "id": "8c306c5b-4524-4268-a083-aadf32adf65e",
       "name": "Raymond Dennis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "Freeonappeal/noimprisonment established; missingcustody notinvented."
+        }
+      ],
       "case_ids": [
         "38137a77-d596-45cd-96d2-2551db775557"
       ],
@@ -17059,7 +17161,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Freeonappeal/noimprisonment established; missingcustody notinvented."
     },
     "alton-lawrence": {
       "id": "b4ef6e52-b940-4967-b0dd-11a2a1e8dc10",
@@ -17723,8 +17826,55 @@
     "raissa-browder": {
       "id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
       "name": "Raissa Browder",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "table": "prisoners",
+          "id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "raissa-birth",
+              "note": "UniversityStAndrewsMacTutor biography byJOConnor/EFRobertson explicitly RaissaBerckmann motherFelix,wifeEarl bornStPetersburg1897. YEAR1897 only, not derived from age58. Contemporary LAdunata1953number11 independently gives1897; unsupported birthday not asserted."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "raissa-death",
+              "note": "OriginalOregonStatesman SundayJanuary9,1955 printedp1 bottomright MrsBrowderDies, downloaded/visuallyinspected. Explicit wifeEarl formerCPhead, diedatYonkershome Saturday followinglongillness. ThusJanuary8,1955 DAY, notJan9publication. ContemporaryTIMEJan17obituary independently identifiessamewife/three sons/deportation litigation, matchesfamily."
+            }
+          ]
+        },
+        {
+          "batch": 458,
+          "table": "prisoner_cases",
+          "id": "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "raissa-custody",
+              "note": "OriginalNationalGuardian October9,1952printedp4 Browdersarejailedfornon-cooperation, downloaded/visuallyinspected: Earl andRussianbornwifeRaissa arrested lastweek inperjurynaturalizationcase; prosecutoropposesrecognizance, unable2500eachbail, stillincellsthisweek. Establishes actualmulti-daycustody in1952, not merely citation or future sentence. ExactSeptember30day inpopulatedbio not independentlyverifiedoriginalhere; YEAR1952 only. Continuedcivildeportation proceedings not assumed jail admission. Source says inabilitytofundbail/deniedrecognizance, populatedbio saysbailrefused; conflict preserved andlogged, no bios/prose rewritten. Releaseunverified."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53"
       ],
@@ -17735,14 +17885,13 @@
       ],
       "missing_case_fields": {
         "a7f13c5f-d889-4e08-874b-7a2dfe7dfa53": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch458 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "jr-robertson": {
       "id": "d9827ab1-f0fd-45da-bbe6-ebd851540f87",
@@ -17978,8 +18127,14 @@
     "ponce-torres": {
       "id": "f13638e4-6892-4704-bc92-f206851d608d",
       "name": "Ponce Torres",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "1949/early1951/July1951arrests need separateepisodeaccounting. ILWUgroupcaption identifiesrightmostportrait butoriginaldownload403, pendingassetverification."
+        }
+      ],
       "case_ids": [
         "eaf5aa13-c3f0-4fef-a96b-9a8586a2387a"
       ],
@@ -17997,7 +18152,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1949/early1951/July1951arrests need separateepisodeaccounting. ILWUgroupcaption identifiesrightmostportrait butoriginaldownload403, pendingassetverification."
     },
     "joe-prudencio": {
       "id": "9035efed-f339-42b6-8b9c-09f7ea364965",
@@ -18039,6 +18195,33 @@
           "batch": 457,
           "status": "reviewed, no unsupported additions",
           "note": "ILWU March16,1951 original paper explicitly freeonbail; undated earlier admission cannot be dated from this. Five pictured men are different people."
+        },
+        {
+          "batch": 458,
+          "table": "prisoner_cases",
+          "id": "12b71b51-6cd9-4027-a8cf-774725723cfa",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "local7-history",
+              "note": "ArleenDeVera, WithoutParallel:TheLocal7DeportationCases1949-1955, AmerasiaJournal20:2(1994)printedp9, downloaded/fullparagraphread: afterstartnewyear1951 RamonTancioco,ConstancioCargado,PeteCabornay taken countyjail, physicallyreleasedaboutweeklater afterPortlandprotests,totalbail2000. Footnote31 printedp20 cites ownunionDispatcherJanuary19,1951p7. ExistingPeteCarbonay/PeteCabornay identity tied tosamePortlandLocal7defensecommittee/case. YEAR1951 only for each endpoint; exact day/month unverified. Jan1 storage not actualJan1dates; no full-year duration inferred, preserved existing week narrative."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "local7-contemporary",
+              "note": "OwnunionDispatcherMarch16,1951printedp8 explicitly namesPeteCabornay,RamonTancioco among defendants and confirms allfreeonbail. PrimaryPDFindexedtext read; directdownload403, no claimed original image inspection or assigned photo. Fivepictured men areotherindividuals. Confirms releasewithin1951 together with detailed archival history, not publicationday used as release."
+            }
+          ]
         }
       ],
       "case_ids": [
@@ -18052,13 +18235,11 @@
       "missing_case_fields": {
         "12b71b51-6cd9-4027-a8cf-774725723cfa": [
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
       },
-      "open_research_note": "ILWU March16,1951 original paper explicitly freeonbail; undated earlier admission cannot be dated from this. Five pictured men are different people."
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch458 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "constancio-cargado": {
       "id": "e4858452-1e43-45a2-b2e9-5c2b3f2d0db6",
@@ -18109,8 +18290,36 @@
     "ramon-tancioco": {
       "id": "6e60b5b2-3690-4dcd-add4-b401b2273958",
       "name": "Ramon Tancioco",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "table": "prisoner_cases",
+          "id": "6e35b6da-b9df-4164-94c2-d8a9b80e3e2e",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "local7-history",
+              "note": "ArleenDeVera, WithoutParallel:TheLocal7DeportationCases1949-1955, AmerasiaJournal20:2(1994)printedp9, downloaded/fullparagraphread: afterstartnewyear1951 RamonTancioco,ConstancioCargado,PeteCabornay taken countyjail, physicallyreleasedaboutweeklater afterPortlandprotests,totalbail2000. Footnote31 printedp20 cites ownunionDispatcherJanuary19,1951p7. ExistingPeteCarbonay/PeteCabornay identity tied tosamePortlandLocal7defensecommittee/case. YEAR1951 only for each endpoint; exact day/month unverified. Jan1 storage not actualJan1dates; no full-year duration inferred, preserved existing week narrative."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "local7-contemporary",
+              "note": "OwnunionDispatcherMarch16,1951printedp8 explicitly namesPeteCabornay,RamonTancioco among defendants and confirms allfreeonbail. PrimaryPDFindexedtext read; directdownload403, no claimed original image inspection or assigned photo. Fivepictured men areotherindividuals. Confirms releasewithin1951 together with detailed archival history, not publicationday used as release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6e35b6da-b9df-4164-94c2-d8a9b80e3e2e"
       ],
@@ -18122,12 +18331,11 @@
       "missing_case_fields": {
         "6e35b6da-b9df-4164-94c2-d8a9b80e3e2e": [
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch458 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "roman-pisito": {
       "id": "63572b1e-0693-4d87-90bc-f577ed07119d",
@@ -19804,8 +20012,14 @@
     "raffaele-schiavina": {
       "id": "1cb33856-6d6e-47af-b263-bbc81c52cfee",
       "name": "Raffaele Schiavina",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 458,
+          "status": "reviewed, no unsupported additions",
+          "note": "ReviewedexistingWWIcase outside1950smilestones; missinghistoricalcustody unresolved, noout-of-scopeupdates."
+        }
+      ],
       "case_ids": [
         "6cbdcf55-a072-425a-bfc0-bb6c0196fdb2"
       ],
@@ -19817,7 +20031,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "ReviewedexistingWWIcase outside1950smilestones; missinghistoricalcustody unresolved, noout-of-scopeupdates."
     },
     "afanasy-severny": {
       "id": "fbc939dd-70b0-4d6a-b79b-24c6338339d0",
