@@ -1,0 +1,230 @@
+{
+  "batch": 425,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "hartle-photo": "https://depts.washington.edu/labhist/cpproject/SmithAct.shtml",
+    "huff-photo": "https://depts.washington.edu/labhist/cpproject/whos_who.shtml",
+    "dunham-photo": "https://www.flickr.com/photos/bud1929/6969277331",
+    "bowen-photo": "https://www.lojs.org/wp-content/uploads/2019/11/Haile-Selassie-I-Africas-Last-King-Jet-Magazine-October-2-1952.pdf",
+    "bowen-vitals": "https://depts.washington.edu/labhist/cpproject/bowen_interview.shtml",
+    "bowen-arrest": "https://oregonnews.uoregon.edu/lccn/sn97071090/1952-09-17/ed-1/seq-1/",
+    "seattle-remand": "https://archive.ilwu.org/wp-content/uploads/2015/02/19531016.pdf",
+    "contempt-sentence": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0109.pdf",
+    "contempt-court": "https://openjurist.org/254/f2d/687/daschbach-v-united-states",
+    "contempt-court-mirror": "https://casefoundry.law/court/ca9/475271/daschbach-v-united-states-1958.html"
+  },
+  "expected_count": 7,
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "df7e1ce1-5091-43af-898b-6d39926783d6",
+      "prisoner_id": "df7e1ce1-5091-43af-898b-6d39926783d6",
+      "slug": "barbara-hartle",
+      "name": "Barbara Hartle",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/barbara-hartle-uw-batch425.png"
+      },
+      "asset": {
+        "file": "barbara-hartle-uw-batch425.png",
+        "sha256": "dda40914677f2191f463473d259988cab601a5596025b30ca6bf06806acbd9a1"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "hartle-photo",
+          "note": "University of Washington Smith Act project: caption identifies Barbara Hartle at left speaking to HUAC in 1954. The woman on the right is not used. Photographer unnamed."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7e9048b8-82a1-4826-b103-513a49841958",
+      "prisoner_id": "7e9048b8-82a1-4826-b103-513a49841958",
+      "slug": "barrows-dunham",
+      "name": "Barrows Dunham",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "update": {
+        "photo": "prisoners/barrows-dunham-bud-schultz-batch425.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "barrows-dunham-bud-schultz-batch425.png",
+        "sha256": "b37552c1263ed70e10c5089ab27256a4b76351551478c8e2b4dd66336897ab12"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "dunham-photo",
+          "note": "Bud Schultz identifies Barrows Dunham in his own Social Activists of the Last Century collection. Photograph exposure date unresolved: Flickr 2012 metadata cannot be an exposure date for Dunham, who died in 1995."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "c2233e9d-72be-48f0-af44-d453b30e3aaa",
+      "prisoner_id": "c2233e9d-72be-48f0-af44-d453b30e3aaa",
+      "slug": "henry-p-huff",
+      "name": "Henry P. Huff",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "update": {
+        "photo": "prisoners/henry-p-huff-uw-batch425.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "henry-p-huff-uw-batch425.png",
+        "sha256": "7226c95a18ab50858b1fd75bb94ad52ae4dfbe92fcb325d97ef8e0258a1e3f71"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "huff-photo",
+          "note": "University of Washington Who’s Who page explicitly identifies this individual headshot as Henry Heinie Huff, Northwest Communist Party chairman and Smith Act defendant. Photographer and exposure date unspecified."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
+      "prisoner_id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
+      "slug": "paul-bowen",
+      "name": "Paul Bowen",
+      "expected": {
+        "photo": null,
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "photo": "prisoners/paul-bowen-jet-batch425.png",
+        "birthdate": "1922-01-01 00:00:00",
+        "death_date": "2008-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "asset": {
+        "file": "paul-bowen-jet-batch425.png",
+        "sha256": "8770123b4169084c4250762a1b02934689e6798e6181f9a4f29b68926f86aba3"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "bowen-photo",
+          "note": "Jet, October 2, 1952, printed/PDF page 10: individual portrait explicitly captioned Paul Bowen, alongside reporting identifying Paul Miller Bowen, age 30, arrested in Chicago and active in the Party since 1943. Photographer unnamed."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "bowen-vitals",
+          "note": "The university oral-history project explicitly reports birth in Chicago in 1922 and death in 2008. Only the years are verified; January 1 is storage convention, never a claimed birthday or death day."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "55c6b3fe-2990-4cea-940d-7833d87726aa",
+      "prisoner_id": "2b94f953-659d-435f-a417-cdd4dde0af4d",
+      "slug": "paul-bowen",
+      "name": "Paul Bowen",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1952-09-17 00:00:00",
+        "incarceration_date": "1953-10-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "bowen-arrest",
+          "note": "Same-day Medford Mail Tribune United Press report identifies Paul Miller Bowen among the FBI arrests on Wednesday September 17, 1952."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "seattle-remand",
+          "note": "ILWU Dispatcher October 16, 1953, page 7, names Bowen among the five defendants convicted October 10 and jailed pending sentence and bail argument. This records the post-verdict remand, not an inferred five-year prison term. Release and earlier arrest-custody endpoint unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bb760054-1f23-4ec7-af69-f11f01a43cfa",
+      "prisoner_id": "c2233e9d-72be-48f0-af44-d453b30e3aaa",
+      "slug": "henry-p-huff",
+      "name": "Henry P. Huff",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1953-10-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "seattle-remand",
+          "note": "Same October 16 ILWU report names Huff among the five defendants convicted October 10 and jailed pending sentence and bail argument. The post-verdict remand is verified; no release endpoint or term actually served inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "909764f6-ba00-4b50-b46e-b00d3f632141",
+      "prisoner_id": "4db8ee7a-c1dd-4f68-b8bd-bbeb86f3bd62",
+      "slug": "terry-pettus",
+      "name": "Terry Pettus",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1953-10-16 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "contempt-sentence",
+          "note": "United States Attorneys Bulletin November 27, 1953, printed page 8, explicitly dates the later criminal-contempt sentencing to October 16. Existing case already describes both the earlier civil confinement and later reversed sentence; earlier civil-custody dates and 52-day total are preserved."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "contempt-court",
+          "note": "Daschbach v. United States, 254 F.2d 687, paragraphs 18-19, confirms October 16 sentencing; actual opinion also retrieved through the CaseFoundry mirror. Bail authorization is not assumed to prove an actual release day."
+        }
+      ]
+    }
+  ]
+}
