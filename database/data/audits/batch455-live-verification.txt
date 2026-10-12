@@ -1,0 +1,17 @@
+Batch 455 live verification — October 12,2026
+Data commit: 7d9ca6a4
+B455-ISOLATED-TEST-OK 354 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview7 matched guarded rows. Applied7 rows; replay0 rows. B455-OK on all three runs.
+Compared 723 profiles and 852 cases: 50193 unrelated field values preserved; 20 expected fields verified, including seven precision metadata values; existing precision entries preserved.
+Twelve missing dates and one portrait filled across six existing profiles. MiriamStevenson/DavidHyun individual actual custody starts; allfour TerminalIsland detainees physical release May3,1951 DAY, original HonoluluRecord visually verified. FrankCarlson birth YEAR1913 only. MolkaReichBare birth/death DAY, sentence YEAR1954 only, exact original-pixel portrait. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 455 repeat live/public check — October 12, 2026
+All 7 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B455-OK.
+All 6 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched its committed SHA256 checksum.
+david-hyun: arrest_date=1950-10-21 (day); visible=True; incarceration_date=1950-10-21 (day); visible=True; release_date=1951-05-03 (day); visible=True
+frank-carlson: release_date=1951-05-03 (day); visible=True; birthdate=1913-01-01 (year); visible=True
+harry-carlisle: release_date=1951-05-03 (day); visible=True
+miriam-stevenson: arrest_date=1950-10-24 (day); visible=True; incarceration_date=1950-10-24 (day); visible=True; release_date=1951-05-03 (day); visible=True
+molka-reich-bare: sentenced_date=1954-01-01 (year); visible=True; birthdate=1901-01-01 (day); visible=True; death_date=1992-07-09 (day); visible=True; portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

@@ -725,8 +725,14 @@
     "mollie-steimer": {
       "id": "069d0607-b88a-4444-b01a-cc30d63c4cba",
       "name": "Mollie Steimer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing identified photo/vitals/exile/custody dates reviewed. No redundant or unsupported additions."
+        }
+      ],
       "case_ids": [
         "a797253f-9783-4a6e-8e33-7e5d49707419",
         "3cc19cb4-48a9-4c18-8289-223ed3cdab43"
@@ -739,7 +745,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing identified photo/vitals/exile/custody dates reviewed. No redundant or unsupported additions."
     },
     "ammon-hennacy": {
       "id": "1c45f8ce-206b-4f38-9540-65ceae2978ae",
@@ -2154,15 +2161,22 @@
     "morton-sobell": {
       "id": "9f2145f2-5360-45f7-a59e-eb2c0faf9040",
       "name": "Morton Sobell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photo/vitals/allfour dates reviewed. BiographyJan14 versus populatedJan13 release conflict preserved."
+        }
+      ],
       "case_ids": [
         "d2495f7e-221b-4719-bc1f-e9815fac439a"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "d2495f7e-221b-4719-bc1f-e9815fac439a": []
-      }
+      },
+      "open_research_note": "Existing photo/vitals/allfour dates reviewed. BiographyJan14 versus populatedJan13 release conflict preserved."
     },
     "david-greenglass": {
       "id": "ae588f9d-f765-47e1-8097-6b182ba31464",
@@ -2393,8 +2407,14 @@
     "mckinley-forrest": {
       "id": "7e85235d-230f-43e6-961d-09ebdcfe241d",
       "name": "McKinley Forrest",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photo/custody dates reviewed. No identity-safe missing vitals found."
+        }
+      ],
       "case_ids": [
         "5394ebe7-b41d-42bf-83bc-0d67aa469509"
       ],
@@ -2407,7 +2427,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing photo/custody dates reviewed. No identity-safe missing vitals found."
     },
     "john-mackenzie": {
       "id": "12a8e165-f578-428e-8fc2-7a1b9157739a",
@@ -2727,8 +2748,14 @@
     "michael-wilson-screenwriter": {
       "id": "ba29bf9f-dc8b-4612-89d5-4f779586233e",
       "name": "Michael Wilson (screenwriter)",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated incarceration fields appear to represent exile; conflict preserved in missing-only audit. No U.S. prison custody inferred."
+        }
+      ],
       "case_ids": [
         "885d768e-334e-417e-9d93-743d631076c6"
       ],
@@ -2739,7 +2766,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated incarceration fields appear to represent exile; conflict preserved in missing-only audit. No U.S. prison custody inferred."
     },
     "john-berry": {
       "id": "01f51fed-3803-4262-afb4-f4b5bf0dc453",
@@ -3174,8 +3202,14 @@
     "michael-russo": {
       "id": "8f94a011-90a1-4638-8cd6-13bcf4e7190b",
       "name": "Michael Russo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "UMass identified1957 Boston defendants group photograph found, but individual position unverified; no arbitrary assignment. March1956 membership recognizance release separate from existingMay1956 conspiracy charge. No verified missing admission/release/vitals."
+        }
+      ],
       "case_ids": [
         "55f32637-f63f-48c2-8de7-302fec3fe41e"
       ],
@@ -3192,7 +3226,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "UMass identified1957 Boston defendants group photograph found, but individual position unverified; no arbitrary assignment. March1956 membership recognizance release separate from existingMay1956 conspiracy charge. No verified missing admission/release/vitals."
     },
     "boyd-payton": {
       "id": "1b35a3b8-f115-43ad-a9dc-778d60563647",
@@ -3368,28 +3403,74 @@
     "david-hyun": {
       "id": "e9de8597-b713-4b60-97a6-ad8e0ea53d74",
       "name": "David Hyun",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "table": "prisoner_cases",
+          "id": "68bd1ec3-ddb3-4527-a3bf-c9bf0c5631a3",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "hyun-court1950",
+              "note": "186F2d190 Hyun section explicitly complete restraint without bail since October21,1950 under arrest for deportation. Court individual date, not generic newspaper October22 raid date. Earlier release on bond is separate. Subsequent1953 custody not assumed continuous with this first period."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "release-original",
+              "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "68bd1ec3-ddb3-4527-a3bf-c9bf0c5631a3"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "68bd1ec3-ddb3-4527-a3bf-c9bf0c5631a3": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing fields applied and publicly verified. See batch455 audit. Remaining missing portraits/vitals and additional custody episodes unresolved; populated fields preserved."
     },
     "harry-carlisle": {
       "id": "c0f5e976-4b35-4c85-9b6b-9d8de6649c42",
       "name": "Harry Carlisle",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "table": "prisoner_cases",
+          "id": "49e9d092-7091-4be5-8940-d8d23c093754",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "release-original",
+              "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "49e9d092-7091-4be5-8940-d8d23c093754"
       ],
@@ -3400,39 +3481,104 @@
       "missing_case_fields": {
         "49e9d092-7091-4be5-8940-d8d23c093754": [
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing fields applied and publicly verified. See batch455 audit. Remaining missing portraits/vitals and additional custody episodes unresolved; populated fields preserved."
     },
     "frank-carlson": {
       "id": "2833b0bc-3b07-41d3-b1b6-4fba1d4c08b2",
       "name": "Frank Carlson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "table": "prisoner_cases",
+          "id": "12c3aaa0-85b7-48db-9bab-2a5fd7a90533",
+          "fields": [
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "release-original",
+              "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+            }
+          ]
+        },
+        {
+          "batch": 455,
+          "table": "prisoners",
+          "id": "2833b0bc-3b07-41d3-b1b6-4fba1d4c08b2",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "court1951",
+              "note": "187F2d991 Carlson section: petition born Poland1913; INS return KosowGaliciaPoland on/aboutMarch6,1913. YEAR1913 only, not invented exactMarch6. Identity YoungWorker editor, YoungCommunistLeague California and Wisconsin, LosAngeles MarxistInstitute confirmed. Kansas Senator FrankCarlson1893-1987 is a different person."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "12c3aaa0-85b7-48db-9bab-2a5fd7a90533"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "12c3aaa0-85b7-48db-9bab-2a5fd7a90533": [
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing fields applied and publicly verified. See batch455 audit. Remaining missing portraits/vitals and additional custody episodes unresolved; populated fields preserved."
     },
     "miriam-stevenson": {
       "id": "44dc9212-0557-450e-988f-82859de23ebe",
       "name": "Miriam Stevenson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "table": "prisoner_cases",
+          "id": "3966fc04-d5d8-4786-bff5-ddc84c8b1284",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "court1951",
+              "note": "187F2d991 individual Stevenson section: INS return explicitly actual custody October24,1950. Instructions October21 and later warrant October31 are not actual arrest. Court individual date preferred over newspaper generic roundup October22. Earlier July1949 same-day bail detention is separate and not grafted here."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "release-original",
+              "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3966fc04-d5d8-4786-bff5-ddc84c8b1284"
       ],
@@ -3441,14 +3587,12 @@
       ],
       "missing_case_fields": {
         "3966fc04-d5d8-4786-bff5-ddc84c8b1284": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing fields applied and publicly verified. See batch455 audit. Remaining missing portraits/vitals and additional custody episodes unresolved; populated fields preserved."
     },
     "ernesto-mangaoang": {
       "id": "16a7a004-297d-434c-9cc1-878103194782",
@@ -4202,8 +4346,14 @@
     "norman-silverman": {
       "id": "a30131f1-b9ef-45c6-adfb-cda10f7dfad0",
       "name": "Norman Silverman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Arrest established but booking/release and actual detention duration unverified; dismissal not physical release."
+        }
+      ],
       "case_ids": [
         "b081ce16-fb10-44f8-abac-30b31ba61bf0"
       ],
@@ -4220,7 +4370,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Arrest established but booking/release and actual detention duration unverified; dismissal not physical release."
     },
     "dirk-struik": {
       "id": "5562e2fe-f046-42bf-9a43-408962b3c39e",
@@ -6330,8 +6481,14 @@
     "moses-resnikoff": {
       "id": "ddda01aa-648a-4d3e-b6c5-1103c4fb5c0c",
       "name": "Moses Resnikoff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Reviewed threatened deportation record; no physical custody established. Populated arrest field/source conflict preserved."
+        }
+      ],
       "case_ids": [
         "2d8817a4-c9f1-4c60-b5f4-923c0bb8aba3"
       ],
@@ -6348,7 +6505,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Reviewed threatened deportation record; no physical custody established. Populated arrest field/source conflict preserved."
     },
     "vincent-andrulis": {
       "id": "ed3289b8-ade4-45b4-b435-99c900668b56",
@@ -6426,8 +6584,14 @@
     "michael-nukk": {
       "id": "82db8012-be2c-4f80-8d0e-15654119454e",
       "name": "Michael Nukk",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Reviewed threatened deportation record; actual custody not established, no incarceration inferred."
+        }
+      ],
       "case_ids": [
         "7a3b3262-542c-4794-bdcc-34783f4613bd"
       ],
@@ -6445,7 +6609,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Reviewed threatened deportation record; actual custody not established, no incarceration inferred."
     },
     "george-witkovich": {
       "id": "6c07357b-f6b1-416b-89a0-a909205e0233",
@@ -8356,26 +8521,69 @@
     "molka-reich-bare": {
       "id": "8bd3ab7d-2101-4c52-919e-6c1455c05443",
       "name": "Molka Reich Bare",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "table": "prisoner_cases",
+          "id": "f264ecd0-bb32-42d6-a932-15119bfe19c3",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "bare-sentence",
+              "note": "NationalGuardian November1,1954 original printedp4 visually inspected: JudgeHolt sentenced MrsBare to one year for contempt. YEAR1954 only; nearby October8/12 dates for other defendants and September22 show-cause not assigned as her sentence day. Sentence alone not admission; no physical1954custody endpoint inferred from later broad early1950s brief imprisonment account."
+            }
+          ]
+        },
+        {
+          "batch": 455,
+          "table": "prisoners",
+          "id": "8bd3ab7d-2101-4c52-919e-6c1455c05443",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "bare-vitals",
+              "note": "PuppeteersofAmerica January26,2015 trade-association remembrance assembled by SteveAbrams explicitly Jan1,1901-July9,1992. Full indexed primary publication read; original HTML direct retrieval unavailable406, not claimed visually inspected. Identity matches RemoBufano NY, MiamiWPA puppetry and refusal to testify/briefjailing, corroborated by GMU archival collection and1954Guardian. January1 explicit birthday is DAY precision, not a year-only storage placeholder."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "bare-photo",
+              "note": "GeorgeMasonUniversity SpecialCollections December2008 StringsAttached—MarionettesofMolkaReich. Original image title MolkaReichandhermarionettes identifies human at right. Original page HTML, photograph and crop inspected. Exact native-pixel rectangular crop isolates identified person; no resizing, generation or retouch. Photographer uncredited; rights undetermined; no public-domain claim. No assertion that later2013 different Bimbo photograph box/folder is this specific photograph."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "f264ecd0-bb32-42d6-a932-15119bfe19c3"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "f264ecd0-bb32-42d6-a932-15119bfe19c3": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing fields applied and publicly verified. See batch455 audit. Remaining missing portraits/vitals and additional custody episodes unresolved; populated fields preserved."
     },
     "maurice-carroll": {
       "id": "1ddf802c-8a1b-4fe3-b85a-449c0df21ad7",
@@ -9705,8 +9913,14 @@
     "norman-roye": {
       "id": "7e937832-f334-43d5-9f2a-0b5ba69545ad",
       "name": "Norman Roye",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOByear conflict and missing case dates/portrait require further original-source research; unrelatedJohnFrancisRoche photo excluded."
+        }
+      ],
       "case_ids": [
         "3b33a257-513c-4285-8a2b-77027c0a5d2f"
       ],
@@ -9722,7 +9936,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOByear conflict and missing case dates/portrait require further original-source research; unrelatedJohnFrancisRoche photo excluded."
     },
     "jackson-ingram": {
       "id": "58701d9c-503d-4a94-9a07-cadd790aa4ca",
@@ -15389,8 +15604,14 @@
     "morris-rubin": {
       "id": "c47ed572-41ca-4926-baa1-0751530b33ce",
       "name": "Morris Rubin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated1958death day preserved. Immigration visit not proven detention; no endpoint invented."
+        }
+      ],
       "case_ids": [
         "f11da1b9-84ef-4435-a0c4-9e719f77cf29"
       ],
@@ -15407,7 +15628,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated1958death day preserved. Immigration visit not proven detention; no endpoint invented."
     },
     "paul-novick": {
       "id": "a87b38b0-7f3f-4ae0-81ef-82a0ce55570a",
@@ -16251,8 +16473,14 @@
     "michael-daniels": {
       "id": "b4fb0346-5a0e-4146-9da1-18bdf334c079",
       "name": "Michael Daniels",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "No verified missing portrait/vitals or actual custody endpoint established; namesakes excluded."
+        }
+      ],
       "case_ids": [
         "8c41d655-fcbf-4d70-b423-4117151117d9"
       ],
@@ -16269,7 +16497,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "No verified missing portrait/vitals or actual custody endpoint established; namesakes excluded."
     },
     "jo-ann-santiago": {
       "id": "699b3d00-db01-4dc7-9032-a2c237f20e98",
@@ -17587,8 +17816,14 @@
     "myer-klig": {
       "id": "d39c73a5-f40f-474f-9c19-8f5191a15aa9",
       "name": "Myer Klig",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Deportation cancellation is not release from imprisonment. Actual custody not established."
+        }
+      ],
       "case_ids": [
         "f4630dfd-311a-4981-b80d-439df5b8d335"
       ],
@@ -17606,7 +17841,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Deportation cancellation is not release from imprisonment. Actual custody not established."
     },
     "jack-schneider": {
       "id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
@@ -19079,8 +19315,14 @@
     "nils-madsen": {
       "id": "d1ab03f4-a16c-4a8c-a347-765bfd399468",
       "name": "Nils Madsen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photo/yearvitals/deportationdates reviewed; no criminal sentence inferred."
+        }
+      ],
       "case_ids": [
         "4bf506fb-1f02-496a-a866-82fdc7ae13b9"
       ],
@@ -19089,13 +19331,20 @@
         "4bf506fb-1f02-496a-a866-82fdc7ae13b9": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "Existing photo/yearvitals/deportationdates reviewed; no criminal sentence inferred."
     },
     "nikolai-mansevich": {
       "id": "c3d1195e-2272-4fdd-9eca-fa6cdf5d4e4d",
       "name": "Nikolai Mansevich",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing year vitals and administrative deportation dates reviewed; no criminal sentence inferred. Photo unverified."
+        }
+      ],
       "case_ids": [
         "1c927580-dc9f-4d75-beac-da7b133c872f"
       ],
@@ -19106,7 +19355,8 @@
         "1c927580-dc9f-4d75-beac-da7b133c872f": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "Existing year vitals and administrative deportation dates reviewed; no criminal sentence inferred. Photo unverified."
     },
     "vito-mariani": {
       "id": "4b0329b1-85b8-4a9d-a213-90835d0c793c",
@@ -19579,8 +19829,14 @@
     "morris-cohen": {
       "id": "fa57bb0e-9b15-4881-8f40-be0765564524",
       "name": "Morris Cohen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photograph/vitals/exile/British custody dates reviewed. Later1961 British sentencing still needs its own original source, not U.S. imprisonment."
+        }
+      ],
       "case_ids": [
         "d7ae12b2-7f52-45a0-9639-6676c546038a"
       ],
@@ -19589,7 +19845,8 @@
         "d7ae12b2-7f52-45a0-9639-6676c546038a": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "Existing photograph/vitals/exile/British custody dates reviewed. Later1961 British sentencing still needs its own original source, not U.S. imprisonment."
     },
     "lona-cohen": {
       "id": "a806246a-34e2-48df-92e5-9317dcd5b943",
@@ -19687,8 +19944,14 @@
     "miriam-zeitlin-seborer": {
       "id": "8f56785a-a543-4787-b354-1a01b90156a4",
       "name": "Miriam Zeitlin Seborer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated exile/vitals preserved. Soviet custody not inserted as U.S. imprisonment."
+        }
+      ],
       "case_ids": [
         "8cce1489-3782-4fc4-82f9-b7d0ff6a2594"
       ],
@@ -19702,7 +19965,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Populated exile/vitals preserved. Soviet custody not inserted as U.S. imprisonment."
     },
     "george-koval": {
       "id": "26acf349-8a88-4072-acb1-b0b043acce9b",
@@ -20473,8 +20737,14 @@
     "maximino-pedraza-martinez": {
       "id": "9bc7e676-5593-447e-a7e2-dbfbada83d27",
       "name": "Maximino Pedraza Martinez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photograph and1955sentence year preserved. Group caption conflicts18months/sixyears, not overwritten. Individual actual custody dates/vitals not verified."
+        }
+      ],
       "case_ids": [
         "93b64cff-c0d8-4e14-8003-f56666420935"
       ],
@@ -20490,7 +20760,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing photograph and1955sentence year preserved. Group caption conflicts18months/sixyears, not overwritten. Individual actual custody dates/vitals not verified."
     },
     "esteban-quinones-escute": {
       "id": "75e835e2-b262-4325-924a-6568a693084b",
@@ -20629,8 +20900,14 @@
     "miguel-vargas-nieves": {
       "id": "6afa3df0-79f2-4ab3-96be-ef5ad4321e33",
       "name": "Miguel Vargas Nieves",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 455,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing photograph and1955sentence year preserved. Group indictment evidence not assumed individual arrest/admission. Vitals unresolved."
+        }
+      ],
       "case_ids": [
         "716694a2-0a0d-4be3-942c-697267468e13"
       ],
@@ -20646,7 +20923,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing photograph and1955sentence year preserved. Group indictment evidence not assumed individual arrest/admission. Vitals unresolved."
     },
     "seymour-eichel": {
       "id": "c2a3a4ed-91d2-4d18-8174-bfe59e906c82",
