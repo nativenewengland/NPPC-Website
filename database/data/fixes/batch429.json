@@ -1,0 +1,122 @@
+{
+  "batch": 429,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "sentence": "https://oregonnews.uoregon.edu/lccn/sn85042470/1959-07-24/ed-1/seq-13/",
+    "custody": "https://oregonnews.uoregon.edu/lccn/sn85042470/1960-11-04/ed-1/seq-40/",
+    "court": "https://law.justia.com/cases/north-carolina/supreme-court/1960/373-0.html",
+    "speed": "https://www.flickr.com/photos/floridamemory/6941115613/"
+  },
+  "expected_count": 3,
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "60f43aba-4bff-4c75-abd1-c8ea7f7770a1",
+      "prisoner_id": "572a76d4-f86c-4623-95a1-fb2165be7b77",
+      "slug": "lawrence-gore",
+      "name": "Lawrence Gore",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-23 00:00:00",
+        "incarceration_date": "1960-11-03 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "sentence",
+          "note": "Associated Press contemporaneous sentencing report in Oregon Statesman Friday July24,1959 printedSectionIIpage13, says Thursday sentencing and individually names this defendant with the existing six-to-ten-year sentence. Thursday is July23. Original PDF and dated masthead visually checked."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "PhilCorner AssociatedPress report, OregonStatesman Friday November4,1960 printedSectionIVpage40, explicitly says all eight were imprisoned Thursday and surrendered to VanceCounty officers after unsuccessful appeals. This defendant is individually named. Thus custody began November3,1960, not the 1959 sentence date. Original PDF and masthead visually checked."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "Original January14,1960 StatevWalker appellate caption names LawrenceGore and CharlesAuslander among the same eight defendants in the Harriet-Henderson prosecution, independently matching identities and charges. The appellate decision is not treated as a release or prison-entry event."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a9f7eb86-3e1d-4569-86a7-47a414be2b5e",
+      "prisoner_id": "e3d7b3a4-a8d7-4710-a49a-ce587eeb1421",
+      "slug": "charles-auslander",
+      "name": "Charles Auslander",
+      "expected": {
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-23 00:00:00",
+        "incarceration_date": "1960-11-03 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "sentence",
+          "note": "Associated Press contemporaneous sentencing report in Oregon Statesman Friday July24,1959 printedSectionIIpage13, says Thursday sentencing and individually names this defendant with the existing six-to-ten-year sentence. Thursday is July23. Original PDF and dated masthead visually checked."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "PhilCorner AssociatedPress report, OregonStatesman Friday November4,1960 printedSectionIVpage40, explicitly says all eight were imprisoned Thursday and surrendered to VanceCounty officers after unsuccessful appeals. This defendant is individually named. Thus custody began November3,1960, not the 1959 sentence date. Original PDF and masthead visually checked."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "court",
+          "note": "Original January14,1960 StatevWalker appellate caption names LawrenceGore and CharlesAuslander among the same eight defendants in the Harriet-Henderson prosecution, independently matching identities and charges. The appellate decision is not treated as a release or prison-entry event."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "f92cb060-cba8-41f7-b7ce-9366311094df",
+      "prisoner_id": "f92cb060-cba8-41f7-b7ce-9366311094df",
+      "slug": "dan-b-speed",
+      "name": "Dan B. Speed",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/dan-b-speed-florida-memory-batch429.png"
+      },
+      "asset": {
+        "file": "dan-b-speed-florida-memory-batch429.png",
+        "sha256": "305e89a1a3f7de4e0da63c9616e6d62b138acdeeb9b0f0ec59d719ffbf9f1652"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "speed",
+          "note": "StateLibraryAndArchivesOfFlorida official Flickr record RC12419, December24,1956, explicitly identifies DanSpeed at center-right, next to C.K.Steele at center-left. Exact crop of named center-right man; not assigned by resemblance. FloridaMemory persistent record34854 gives same accession but returnedHTTP403. Original Flickr upload600x472; crop66x87, no resizing, enhancement, generated pixels or retouching. Photographer unspecified; repository marks no known copyright restrictions, not an unconditional publicdomain determination."
+        }
+      ]
+    }
+  ]
+}
