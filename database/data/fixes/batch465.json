@@ -1,0 +1,165 @@
+{
+  "batch": 465,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "jersey-justice": "https://api.pageplace.de/preview/DT0400.9780813552071_A49478774/preview-9780813552071_A49478774.pdf",
+    "naacp-own": "https://archives.mrap.fr/mediawiki/images/0/07/1951_Trenton_opt.pdf",
+    "arrest-court-report": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-04-04-3-24-nat-guardian.pdf",
+    "release-eyewitness": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-06-20-3-35-nat-guardian.pdf",
+    "exoneration-registry": "https://exonerationregistry.org/cases/4655",
+    "belfrage-departure": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-08-22-7-44-nat-guardian.pdf",
+    "belfrage-own": "https://tribunemag.co.uk/1955/10/the-man-they-deported-affirms-my-faith-in-america",
+    "belfrage-court": "https://law.justia.com/cases/federal/appellate-courts/F2/224/803/145744/",
+    "emspak-court": "https://supreme.justia.com/cases/federal/us/349/190/",
+    "emspak-bail": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1952-pt7/pdf/GPO-CRECB-1952-pt7-7-1.pdf",
+    "bridges-court": "https://supreme.justia.com/cases/federal/us/346/209/",
+    "hiss-own-timeline": "https://algerhiss.com/history/timeline/",
+    "hiss-release-photo": "https://algerhiss.com/alger-hiss/a-brief-biography/",
+    "remington-obituary": "https://archive.dartmouthalumnimagazine.com/article/1955/2/1/deaths",
+    "remington-papers": "https://archives-manuscripts.dartmouth.edu/agents/people/6085",
+    "mcgee-execution-broadcast": "https://mcgeebook.wordpress.com/audio-5/",
+    "martinsville-custodian": "https://www.lva.virginia.gov/events/exhibitions/200-years-200-stories/stories/154"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "12a8e165-f578-428e-8fc2-7a1b9157739a",
+      "prisoner_id": "12a8e165-f578-428e-8fc2-7a1b9157739a",
+      "name": "John MacKenzie",
+      "slug": "john-mackenzie",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1923-02-14 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "jersey-justice",
+          "note": "Cathy D. Knepper, Jersey Justice, Rutgers University Press2011 publisher preview, printedp12/PDF25, original page visually inspected, explicitly identifies defendant John MacKenzie born AmericusGeorgia February14,1923, nephew of McKinleyForrest, arrested February11,1948. Name, family, address and prosecution match profile. Explicit birthday, not inferred from age. General online lists1925 not used; death remains unresolved. Existing portrait and populated case dates preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "661910ad-32bc-40f3-9303-f91a0d7b1cda",
+      "prisoner_id": "661910ad-32bc-40f3-9303-f91a0d7b1cda",
+      "name": "James H. Thorpe Jr.",
+      "slug": "james-h-thorpe-jr",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1923-08-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "jersey-justice",
+          "note": "Original publisher preview printedp9/PDF22 visually inspected: JamesHThorpeJr born WarrenNorthCarolina in August1923, address24GrantSt, familyJamesHenryThorpe/Robert/Raymond, amputatedrightarm. Identifies same TrentonSix defendant, not athleteJimThorpe. MONTH August1923 only, day1 is storage placeholder. Wikipedia1913 conflicts with explicit scholarly evidence and age24 in contemporary NAACP original. No exact day inferred, death1955lead not filled from inaccessible original NYTimes report."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "eca3200b-20fa-41ed-8912-99ab1a2f7110",
+      "prisoner_id": "e71f2a09-2401-4588-92ed-48dd27d12576",
+      "name": "Cedric Belfrage",
+      "slug": "cedric-belfrage",
+      "expected": {
+        "date_precision": null,
+        "in_exile_since": null
+      },
+      "update": {
+        "in_exile_since": "1955-08-15 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "belfrage-departure",
+          "note": "Original NationalGuardianAugust22,1955p1, visually inspected: colleagueJohnTMcManus reports actual noonMondayAugust15 sailing aboard NieuwAmsterdam under deportation order toEngland. Actual departure into exile, not date an order was issued. Own editorial on same page confirms banishment. Populated August14sentence/admission/release and1953arrest contradict chronology, preserved as required; no presumed exile endpoint or death-date substitution."
+        },
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "belfrage-own",
+          "note": "Own TribuneOctober1955 account indexed text explicitly confirms taken from jail by two guards an hour before August15NieuwAmsterdam sailing. Read own archival text, page full retrieval unavailable. Primary August22scan independently supplies exact departure."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "167fdf7f-7364-4d60-990c-74ae5238cfa6",
+      "prisoner_id": "661910ad-32bc-40f3-9303-f91a0d7b1cda",
+      "name": "James H. Thorpe Jr.",
+      "slug": "james-h-thorpe-jr",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1948-02-07 00:00:00",
+        "incarceration_date": "1948-02-07 00:00:00",
+        "sentenced_date": "1948-08-06 00:00:00",
+        "release_date": "1951-06-14 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "arrest-court-report",
+          "note": "WilliamAReuben contemporaneous court reporting, NationalGuardianApril4,1951printedp8, original visually inspected. Police trial testimony puts English arrestFeb6, Cooper/Wilson/Forrest nextday, JamesThorpe that afternoon, thenMacKenzie followingWednesday. Actual police custody, not indictmentFeb17 or laterprisontransfer."
+        },
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "jersey-justice",
+          "note": "Publisher preview printedp8-9/PDF21-22 directly dates SaturdayFeb7,1948 police events, Thorpe same-day5pm arrest and being placed in ChanceryLane cell untilMondayquestioning; printedp14/PDF27 separates Feb12 county-jailtransfer. This confirms actual confinement beginningFeb7, not transfer day or Augustdeathsentence. Populated conflicting duplicate dates untouched."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "exoneration-registry",
+          "note": "NationalRegistryofExonerations own researched TrentonSix case record explicitly says August6,1948verdict and immediate deathsentences forallsix. Same-prosecution identity confirmed by originalNAACPLegalDefense pamphlet; no term change. Registry generalizedFeb11allarrests not copied because individual contemporary court chronology suppliesFeb7Thorpe arrest."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "naacp-own",
+          "note": "NAACPLegalDefense contemporary own pamphlet TheTrentonSixStory, original scanvisuallyinspected, printed narrative/PDF6 explicitly dates August6juryverdict aftereight-weektrial, corroborating registry exact sentence day. Institutional provenance in Feb21,1951coverletter. Sentencing date distinct from arrest and custody start."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release-eyewitness",
+          "note": "WilliamAReuben eyewitness NationalGuardianJune20,1951originalprintedp1,4-5visuallyinspected: acquittals lastThursdayJune14; judge granted discharge, andthefour actually walked outof jail amongcrowd300. Individually captioned Thorpe onjailsteps. Describes same-day family celebrationatEnglishhome. Actual prison discharge, not acquittal alone or hypotheticalbail. No newduplicatecreated orcaseproseedited."
+        }
+      ]
+    }
+  ]
+}
