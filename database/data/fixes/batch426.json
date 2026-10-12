@@ -1,0 +1,130 @@
+{
+  "batch": 426,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "deutch-vitals": "https://auhist.au.dk/showroom/oversigter/nekrologer/1994bd",
+    "deutch-photo": "https://www.marxists.org/subject/china/china-reconstructs/1979/CR1979-11.pdf",
+    "salwen-tribute": "https://secure-sha.org/wp-content/uploads/2016/10/1990-24-2-Harrington-Salwen.pdf",
+    "payton-sentence": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/a5211c66-4aa7-403d-aef3-52ad42595d83/content",
+    "payton-custody": "https://www.ncpedia.org/biography/payton-boyd-ellsworth"
+  },
+  "expected_count": 3,
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
+      "prisoner_id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
+      "slug": "bernhard-deutch",
+      "name": "Bernhard Deutch",
+      "expected": {
+        "photo": null,
+        "birthdate": null,
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/bernhard-deutch-china-reconstructs-batch426.png",
+        "birthdate": "1929-09-29 00:00:00",
+        "death_date": "1994-09-07 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "bernhard-deutch-china-reconstructs-batch426.png",
+        "sha256": "3e414e88a70c099303dc4d9497f92d1fb4db9860621fcf90e36b8f92e82c24b6"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "deutch-photo",
+          "note": "China Reconstructs, November 1979, printed page 32/PDF page 34: caption identifies Prof. Bernhard I. Deutch of Aarhus lecturing at the Shanghai Institute of Metallurgy. Article is written by his collaborator Zou Shichang. It describes their late 1978 joint work; exact photograph date and photographer unspecified."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "deutch-vitals",
+          "note": "Aarhus University 1994 obituary by colleague Henrik Loft Nielsen gives explicit birth September 29,1929 New York City and death September 7,1994 Aarhus. Cornell/Pennsylvania training, lawyer Henry Sawyer and the HUAC case independently match this profile. Do not copy its inaccurate 1962 Supreme Court reversal chronology."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "cc016490-0b8f-40d6-95a2-dcc257ea4740",
+      "prisoner_id": "cc016490-0b8f-40d6-95a2-dcc257ea4740",
+      "slug": "bert-salwen",
+      "name": "Bert Salwen",
+      "expected": {
+        "photo": null,
+        "birthdate": null,
+        "death_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/bert-salwen-ethan-salwen-batch426.png",
+        "birthdate": "1920-01-01 00:00:00",
+        "death_date": "1988-12-25 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "asset": {
+        "file": "bert-salwen-ethan-salwen-batch426.png",
+        "sha256": "0acd32ddc7a57ad6184adf24bf49d5da4228c3ecfebb53e6f9f4120cfc2d38d7"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "salwen-tribute",
+          "note": "Historical Archaeology volume 24 number 2 (1990), printed page 4/PDF page 1, J. C. Harrington Medal tribute to Bert Salwen. Photograph explicitly credited to Ethan Salwen. The next page explicitly connects this archaeologist with the Mercer County Freeholder candidacy in the database. Exposure date unspecified."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "salwen-tribute",
+          "note": "Colleague Joel I. Klein explicitly reports 1920 birth and Christmas Day 1988 death in the same identity-linked tribute. Birthyear only verified; January 1 is storage convention. Genealogy-only October20 is not applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a9a72d7a-f5cf-40e6-bff4-3a4adbcf62e2",
+      "prisoner_id": "1b35a3b8-f115-43ad-a9dc-778d60563647",
+      "slug": "boyd-payton",
+      "name": "Boyd Payton",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-23 00:00:00",
+        "incarceration_date": "1960-11-01 00:00:00",
+        "release_date": "1961-08-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "payton-sentence",
+          "note": "AssociatedPress report in Big Spring Herald Friday July 24,1959 printed5-B/PDFpage13 says JudgeRaymond Mallard sentenced Payton on Thursday; calendar date July 23,1959. Six-to-ten-year term matches this case. Existing prose saying1960 is preserved and flagged."
+        },
+        {
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "payton-custody",
+          "note": "Robin Brabham 1994 Dictionary of North Carolina Biography entry hosted by State Library of North Carolina explicitly reports prison admission November 1960 after appeals and release August 1961 after nine months. Both use month precision; no exact day inferred. The earlier July commutation is not a release date."
+        }
+      ]
+    }
+  ]
+}
