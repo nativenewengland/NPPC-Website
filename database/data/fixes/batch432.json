@@ -1,0 +1,78 @@
+{
+  "batch": 432,
+  "audit_date": "2026-10-12",
+  "expected_count": 2,
+  "sources": {
+    "mangaoang": "https://archive.ilwu.org/wp-content/uploads/2015/03/19680621.pdf",
+    "mangaoang_corroboration": "https://archive.ilwu.org/wp-content/uploads/2015/03/19680607.pdf",
+    "nelson_family": "https://www.norahchase.com/academia/writing",
+    "nelson_bar": "https://nhba.s3.amazonaws.com/wp-content/uploads/2020/04/14110612/BN-4-15-20new.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "16a7a004-297d-434c-9cc1-878103194782",
+      "prisoner_id": "16a7a004-297d-434c-9cc1-878103194782",
+      "slug": "ernesto-mangaoang",
+      "name": "Ernesto Mangaoang",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"day\"}",
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1968-03-28 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "mangaoang",
+          "note": "ILWU Dispatcher June21,1968 printed/PDFpage6, Seattle Memorial Service Honors Ernesto Mangaoang, explicitly states died March28 at Seattle home. Name, Local37 business-agent role, birth February22,1902, widowBabaJeanne and deportation case match. Original PDF and masthead visually checked. June7,1968 Dispatcher page6 independently confirms March28 death."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "0b75577e-571e-47ec-8b5c-2fdaac592c2f",
+      "prisoner_id": "0b75577e-571e-47ec-8b5c-2fdaac592c2f",
+      "slug": "elba-chase-nelson",
+      "name": "Elba Chase Nelson",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1891-01-01 00:00:00",
+        "death_date": "1967-01-01 00:00:00",
+        "photo": "prisoners/elba-chase-nelson-nhbar-batch432.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "nelson_family",
+          "note": "Granddaughter Norah Chase’s family-maintained site identifies Elba Chase Nelson (1891–1967), Latvia-born NewHampshire CommunistParty leader and gubernatorial candidate. Only years are asserted; January1 is storage placeholder, not claimed birthday/deathday."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "photo"
+          ],
+          "source": "nelson_bar",
+          "note": "NewHampshireBarNews April15,2020 page3 JackMiddleton article independently confirms1891birth and reproduces a captioned historic court photograph identifying MrsElbaChaseNelson onleft, sonHomer and wifecenter, husbandCharlesright. Extracted embedded1473x1029CMYKJPEG Im2 fromPDFpage3, exactrectangularcrop (144,398,404,745),260x347PNG; necessaryCMYK-to-RGBdisplayconversion only. No resizing, retouching or generated pixels. Originalphoto and caption visually checked; photographer not credited for this particular image."
+        }
+      ],
+      "asset": {
+        "file": "elba-chase-nelson-nhbar-batch432.png",
+        "sha256": "a8e0e69721cef23d8e0075ae53191b8aa95eda5ef36b841002272c7370abe923"
+      }
+    }
+  ]
+}
