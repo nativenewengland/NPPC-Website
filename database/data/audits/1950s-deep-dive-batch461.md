@@ -1,0 +1,23 @@
+# 1950s missing-fields review: batch 461
+
+October12,2026. Twelve missing dates across four existing profiles / six guarded rows. No biographies, populated values, existing precision, portraits, case prose, durations, flags, institutions, periods, affiliations or sort order changed. No rows added, removed or merged.
+
+- SammieIngram: both existing rows describe the same1947-1959 prosecution. Fill each with arrest/admission MONTHNovember1947, sentence YEAR1948 and actual release August26,1959 DAY. Exact sentence day disputed; birthdate cannot be derived from age14. Duplicate rows documented and preserved.
+- SamReed: sentence February19,1958 DAY, original federal BLS chronology printed420/PDF58, matched to original defendants committee appeal. Multi-column indexing misleadingly suggests February27; visual inspection resolves February19.1961 coverage still reports pending prison terms; do not count custody from sentencing1958.
+- SamuelOrnitz: sentence June30,1950 DAY. Contemporary individually stated MANAS report and June29 AP scheduling corroborate. MANAS unrelated Senate/one-year-generalization errors not adopted. Existing admission/release precision retained.
+- RuthBishop: death YEAR1999, sentence MONTHOctober1959. Researcher own reporting matches teacher, action and trial; exact obituary not recovered. Original1959coverage says paidfine instead of60days, so no jail date added. Songwriter daughter interviewed is NancySchimmel, not Bishop daughter.
+
+## Additional profiles reviewed; unresolved findings
+
+- roy-wood: Niece RobertaWood own family account confirms LeRoyH.Wood, WashingtonDC leadership and Lewisburg imprisonment. Existing portrait/case sentence/admission retained. No exact vitals/arrest/release supplied. Nebraska grave namesake not matched; no additions.
+- rufus-douglas: AstroDatabank researcher SyScholfield lists RufusElbertDouglas March21,1927 Dallas with birth-certificate provenance, but original certificate was not inspected. Retain as promising lead, not verified addition. Existing death/exile YEAR1954 retained; June1954 report would refine populated data and is outside missing-only scope. No Korean POW captivity misrepresented as US criminal custody.
+- ruth-cort: Own1962 clinical paper confirms RuthL.Cort Prague physician, consistent with JosephCort wife; no date of birth/death, identified portrait or US criminal custody established. Australian Latrobe nurse RuthCortBell is another person. Existing incomplete exile chronology remains unresolved.
+- sam-coleman: Four case milestones populated for harboring Thompson/Steinberg. Contemporary primary evidence considered; no new identity-matched vitals/photo. Modern namesakes not adopted.
+- sam-hirsch: Original Guardian February7,1955 p8 establishes MiamiBeach BiltmorePlayhouse director eight-count perjury indictment. Indictment/report publication is not proof of actual arrest or jail; no invented custody or sentence dates. No portrait on inspected page.
+- sam-jordan: Mother GeorgiaJordan own letter Guardian January2,1952 describes NewJersey governor extradition warrant and CRC postponement until January3. Postponement is not physical release or actual transfer; exact missing custody/vitals/photo unresolved.
+- sam-milgrom: Own1948 JewishLife report independently identifies IWO executive secretary;1952 source names his EllisIsland detention. Existing YEAR1952 admission preserved; hospital guard/bail proceedings do not prove release. Modern gallery owner StevenAllenMilgrom born1952 is different.1893-1974 SSDI genealogy lacks political identity match.
+- samuel-david-hawkins: Existing DOB/exile values preserved. MedfordMarch4,1957 p3 mentions him but pictured people are other subjects; no false portrait crop. Original Wallace interview URL now404 and Manchester scan403; ReadingEagle lead not retrieved.2018LebanonTN obituary has different birth and identity; no DOD adopted.
+- samuel-shepherd: All profile vitals/photo and four case milestones already populated. No missing date verified; existing values preserved.
+- sang-ryup-park: Original federal judgment on CaseMine is August19,1952, not May20. It explicitly says May9 deportation injunction did NOT order release, addresses June27 renewed deportation and later grants release. Court order alone does not establish actual physical release day. Existing Nov30,1951 arrest/admission conflicts narrative Nov29 and is preserved. No unverified vitals/photo or criminal sentence added.
+
+Sources and per-field evidence in batch461.json. Research review does not mean every missing field is resolved. Exhaustive audit remains in progress. Live verification recorded separately after application.

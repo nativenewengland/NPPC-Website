@@ -1,0 +1,220 @@
+{
+  "batch": 461,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "ingram-custody": "https://www.marxists.org/history/etol/newspape/themilitant/1948/v12n11/ingram.html",
+    "ingram-history": "https://www.georgiaencyclopedia.org/articles/history-archaeology/rosa-lee-ingram-case/",
+    "reed-judgment": "https://fraser.stlouisfed.org/files/docs/publications/bls_mlr/bls_mlr_195804.pdf",
+    "reed-identity": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-04-28-10-28-nat-guardian.pdf",
+    "reed-pending": "https://www.marxists.org/history/usa/pubs/national-guardian/1961-04-17-13-27-nat-guardian.pdf",
+    "ornitz-sentence": "https://www.manasjournal.org/pdf_library/VolumeIII_1950/III-35.pdf",
+    "ornitz-schedule": "https://oregonnews.uoregon.edu/lccn/sn85042472/1950-06-29/ed-1/seq-1/ocr/",
+    "bishop-research": "https://www.ocweekly.com/the-story-behind-malvina-reynolds-rare-song-about-an-oc-school-teacher-7493573-2/",
+    "bishop-original": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-11-02-12-3-nat-guardian.pdf",
+    "wood-family": "https://www.peoplesworld.org/article/communists-like-my-uncle-were-sent-to-prison-because-they-fought-for-democracy/",
+    "douglas-lead": "https://www.astro.com/astro-databank/Douglas%2C_Rufus",
+    "cort-own": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2018885/?page=1",
+    "hirsch-original": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-02-07-7-16-nat-guardian.pdf",
+    "jordan-family": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-01-02-4-11-nat-guardian.pdf",
+    "milgrom-own": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-2/v02n05-mar-1948-JL.pdf",
+    "park-order": "https://www.casemine.com/judgement/us/5914a027add7b04934674da3"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "e4ebc65b-aedd-405f-911d-d2b693b9f39c",
+      "prisoner_id": "3dbd5b2b-a938-4f87-82a0-36e28a55f833",
+      "name": "Sammie Ingram",
+      "slug": "sammie-ingram",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1947-11-01 00:00:00",
+        "incarceration_date": "1947-11-01 00:00:00",
+        "sentenced_date": "1948-01-01 00:00:00",
+        "release_date": "1959-08-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "source": "ingram-custody",
+          "note": "Original Militant March15,1948 p1 archive explicitly names fourteen-year-old Sammie among the Ingrams arrested following the November1947 confrontation and held in separate jails without bail until trial. MONTHNovember1947 only, not an exact arrest date inferred from the killing. Death sentence1948; conflicting precise trial/sentencing days are not adopted. YEAR1948 only. Do not infer DOB from reported age."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "ingram-history",
+          "note": "University of Georgia historian Emma Rountree New Georgia Encyclopedia account explicitly names RosaLee,Wallace and SammieLee Ingram as released from prison August26,1959. Identity and same Georgia prosecution matched. Two existing case rows describe the same prosecution; fill their missing milestones consistently without deleting/merging rows or changing prose. Existing portrait retained."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3dbbc3c7-4e29-4f50-ac90-cff4b6b80868",
+      "prisoner_id": "3dbd5b2b-a938-4f87-82a0-36e28a55f833",
+      "name": "Sammie Ingram",
+      "slug": "sammie-ingram",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "sentenced_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1947-11-01 00:00:00",
+        "incarceration_date": "1947-11-01 00:00:00",
+        "sentenced_date": "1948-01-01 00:00:00",
+        "release_date": "1959-08-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "source": "ingram-custody",
+          "note": "Original Militant March15,1948 p1 archive explicitly names fourteen-year-old Sammie among the Ingrams arrested following the November1947 confrontation and held in separate jails without bail until trial. MONTHNovember1947 only, not an exact arrest date inferred from the killing. Death sentence1948; conflicting precise trial/sentencing days are not adopted. YEAR1948 only. Do not infer DOB from reported age."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "ingram-history",
+          "note": "University of Georgia historian Emma Rountree New Georgia Encyclopedia account explicitly names RosaLee,Wallace and SammieLee Ingram as released from prison August26,1959. Identity and same Georgia prosecution matched. Two existing case rows describe the same prosecution; fill their missing milestones consistently without deleting/merging rows or changing prose. Existing portrait retained."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c75d57ab-2cac-4210-9c0b-bbc42e0a1bbf",
+      "prisoner_id": "e0a097cd-52a8-4704-8ab3-1361d08868cb",
+      "name": "Sam Reed",
+      "slug": "sam-reed",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-02-19 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "reed-judgment",
+          "note": "Original US Bureau of Labor Statistics Monthly Labor Review April1958 printed420/PDF58 visually inspected. Under February19 heading, Cleveland federal court sentences seven in conspiracy to file false non-Communist affidavits, 18months/$2500 each. Text wraps across columns; February27 is a different heading and is NOT this sentence date. Contemporary named defendants committee appeal matches SamReed to these seven and same penalty."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "reed-identity",
+          "note": "Original National Guardian April28,1958 printed3/PDF5 defendants appeal committee full-page appeal individually names SamReed among the seven Cleveland defendants sentenced two months earlier,18months/$2500. Original viewed; links identity to government chronology. Guardian April17,1961 still describes prison terms as pending after appeals; sentence1958 is not actual admission. No incarceration/release inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "25c5a24e-38ea-46a4-a4ad-0d9c05573c32",
+      "prisoner_id": "d53f0ea4-22bd-42a7-a40a-ebeccf005778",
+      "name": "Samuel Ornitz",
+      "slug": "samuel-ornitz",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1950-06-30 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "ornitz-sentence",
+          "note": "Contemporary MANAS August30,1950 III35 printed7/PDF7 explicitly reports SamuelOrnitz June30 fined1000 and sentenced one year. Original downloaded and visually inspected. AP June29 report independently deferred his sentence until FridayJune30. MANAS wrongly calls HUAC a Senate committee and generalizes all others as one-year sentences; those claims are not adopted. Exact date used only for individually stated Ornitz sentencing. Existing June1950 admission and April1951 release MONTH precision preserved."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "ornitz-schedule",
+          "note": "Original AP EugeneRegisterGuard June29,1950 p1 explicitly court deferred Ornitz sentence to FridayJune30, separately postponing Scott until August. This is corroborating planned date, not used alone as proof of sentence or custody. Actual sentence independently reported by contemporary MANAS."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
+      "prisoner_id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
+      "name": "Ruth Bishop",
+      "slug": "ruth-bishop",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1999-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "bishop-research",
+          "note": "GabrielSanRoman own researched OCWeekly September8,2016 account identifies LosAlamitos kindergarten teacher RuthBishop and1959broom/subpoena trial; explicitly reports died1999age95 and cites contemporaneous LosAngelesTimes obituary. Own reporting includes interview with MalvinaReynolds daughter NancySchimmel, not Bishop daughter. YEAR1999 only; obituary exact date not recovered. No birthday inferred from age and no unrelated Australian virologist1933-2022 or MichiganRuth1908-1999 vitals adopted."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ecd23ada-e4df-4988-bf9c-a97a198ae106",
+      "prisoner_id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
+      "name": "Ruth Bishop",
+      "slug": "ruth-bishop",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-10-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "bishop-research",
+          "note": "Own researched OCWeekly account places trial earlyOctober1959, lasting a few days, ending with500fine. MONTHOctober1959 only, no exact day inferred. Original Guardian confirms four-and-half-day trial, election to pay fine instead of60days and schoolboard retention on sentencing evening. No actual jail admitted or inferred; June5 action/subpoena not automatically an arrest."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "bishop-original",
+          "note": "Original LouisE.Burnham NationalGuardian November2,1959 printed3/PDF3 downloaded and visually inspected. Individually reported sentencing, paidfine and board vote; MONTH chronology supplied by OCWeekly research. Preserve accurate distinction between fine alternative and actual imprisonment; no custody dates added."
+        }
+      ]
+    }
+  ]
+}
