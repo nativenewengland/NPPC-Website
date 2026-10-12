@@ -1,0 +1,17 @@
+Batch 426 live verification — October 12, 2026
+Data commit: 113a567b
+B426-ISOLATED-TEST-OK 179 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview: three guarded rows matched. Application: three rows updated; B426-OK. Replay: zero rows updated; B426-OK.
+Compared all 723 candidate profiles and 852 associated cases: 50205 unrelated field values preserved; 12 expected fields verified, including three precision metadata values.
+Added two portraits, four vital dates and three Payton case dates. No profile or case added or removed. Biographies, populated fields, duration values, custody flags and sort order preserved.
+Public display preserves year/month precision: Salwen birth 1920; Payton admission November1960 and release August1961. No exact first day asserted.
+API cache cleared after actual changes. No pull request created.
+Batch 426 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B426-OK.
+All 3 public profile pages returned HTTP 200. Both image URLs returned HTTP 200 and matched committed SHA-256 checksums.
+bernhard-deutch: portrait renders and HTTP image checksum matches; birthdate=1929-09-29 (day); visible=True; death_date=1994-09-07 (day); visible=True
+bert-salwen: portrait renders and HTTP image checksum matches; birthdate=1920-01-01 (year); visible=True; death_date=1988-12-25 (day); visible=True
+boyd-payton: sentenced_date=1959-07-23 (day); visible=True; incarceration_date=1960-11-01 (month); visible=True; release_date=1961-08-01 (month); visible=True
+
+Conflicting existing prose and unresolved custody questions remain documented. The full 1950s audit remains in progress.

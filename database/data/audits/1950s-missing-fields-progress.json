@@ -278,7 +278,7 @@
     "benjamin-weiss": {
       "id": "1fd9eb6e-a68e-476a-9804-197c71651c31",
       "name": "Benjamin Weiss",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "10bc14fe-f57f-4f28-b811-844d9514c0fd"
@@ -295,7 +295,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Modern Philadelphia pharmacologist born1937 and mathematician born1941 excluded; no independently matched vital/portrait source yet verified."
     },
     "david-davis": {
       "id": "1a8e89ab-64aa-4137-8c2d-ebf2dc20c786",
@@ -2686,8 +2687,37 @@
     "boyd-payton": {
       "id": "1b35a3b8-f115-43ad-a9dc-778d60563647",
       "name": "Boyd Payton",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 426,
+          "table": "prisoner_cases",
+          "id": "a9a72d7a-f5cf-40e6-bff4-3a4adbcf62e2",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "payton-sentence",
+              "note": "AssociatedPress report in Big Spring Herald Friday July 24,1959 printed5-B/PDFpage13 says JudgeRaymond Mallard sentenced Payton on Thursday; calendar date July 23,1959. Six-to-ten-year term matches this case. Existing prose saying1960 is preserved and flagged."
+            },
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "payton-custody",
+              "note": "Robin Brabham 1994 Dictionary of North Carolina Biography entry hosted by State Library of North Carolina explicitly reports prison admission November 1960 after appeals and release August 1961 after nine months. Both use month precision; no exact day inferred. The earlier July commutation is not a release date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a9a72d7a-f5cf-40e6-bff4-3a4adbcf62e2"
       ],
@@ -2695,13 +2725,11 @@
       "missing_case_fields": {
         "a9a72d7a-f5cf-40e6-bff4-3a4adbcf62e2": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary reporting establishes July23,1959 sentence, added to missing case field; populated1960 prose preserved and conflict documented. November1960 prison admission and August1961 release applied at monthprecision. Exact custody days remain unresolved."
     },
     "howard-hairston": {
       "id": "2c6b82ba-657f-4048-8104-5add9e5ef672",
@@ -5136,7 +5164,7 @@
     "boris-sklar": {
       "id": "3d931ca6-e2e2-45f0-8e87-a959a0be5800",
       "name": "Boris Sklar",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "6f14d748-0831-4454-84a2-af0050fc45c7"
@@ -5155,7 +5183,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "May3,1954 report entering eighth month on EllisIsland does not establish exact start. RusskyGolos editor matched in Senate hearings; vital dates, portrait and release remain unresolved. Modern financial-adviser namesake excluded."
     },
     "rosaura-revueltas": {
       "id": "4799f489-cd87-445e-af2e-16a8e5b7f1f9",
@@ -8045,16 +8074,41 @@
     "bert-salwen": {
       "id": "cc016490-0b8f-40d6-95a2-dcc257ea4740",
       "name": "Bert Salwen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 426,
+          "table": "prisoners",
+          "id": "cc016490-0b8f-40d6-95a2-dcc257ea4740",
+          "fields": [
+            "photo",
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "salwen-tribute",
+              "note": "Historical Archaeology volume 24 number 2 (1990), printed page 4/PDF page 1, J. C. Harrington Medal tribute to Bert Salwen. Photograph explicitly credited to Ethan Salwen. The next page explicitly connects this archaeologist with the Mercer County Freeholder candidacy in the database. Exposure date unspecified."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "salwen-tribute",
+              "note": "Colleague Joel I. Klein explicitly reports 1920 birth and Christmas Day 1988 death in the same identity-linked tribute. Birthyear only verified; January 1 is storage convention. Genealogy-only October20 is not applied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "8a5a9813-2ae1-416e-b1b5-9a0fe1252bc3"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "8a5a9813-2ae1-416e-b1b5-9a0fe1252bc3": [
           "arrest_date",
@@ -8064,7 +8118,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned Ethan Salwen portrait, verified1920 birthyear and December25,1988 death applied. Identity explicitly matched to MercerCounty candidacy by colleague tribute. No arrest/confinement added to civil ballot case; exact birthday genealogy uncorroborated."
     },
     "arnold-bernardini": {
       "id": "ecbe6268-d9bb-42d5-b52c-0e1ae873a2e2",
@@ -10185,7 +10240,7 @@
     "benjamin-saltzman": {
       "id": "687542d5-aa44-4bf1-b2a6-c2abd944bbdd",
       "name": "Benjamin Saltzman",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "523e8e57-4ba0-49b0-91a4-6ca0511a6d4e"
@@ -10204,7 +10259,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1949/1952 reporting identifies wifeSadie and sonsIsidore,Bernard,Max. Reported ages do not establish exact birthyear. Modern prosecutor and unrelated families excluded;1956 supervisory parole not exact release date."
     },
     "rosa-parks": {
       "id": "df587d8d-7461-4b04-87c0-cdbe47c7374e",
@@ -11530,16 +11586,41 @@
     "bernhard-deutch": {
       "id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
       "name": "Bernhard Deutch",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 426,
+          "table": "prisoners",
+          "id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
+          "fields": [
+            "photo",
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "deutch-photo",
+              "note": "China Reconstructs, November 1979, printed page 32/PDF page 34: caption identifies Prof. Bernhard I. Deutch of Aarhus lecturing at the Shanghai Institute of Metallurgy. Article is written by his collaborator Zou Shichang. It describes their late 1978 joint work; exact photograph date and photographer unspecified."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "deutch-vitals",
+              "note": "Aarhus University 1994 obituary by colleague Henrik Loft Nielsen gives explicit birth September 29,1929 New York City and death September 7,1994 Aarhus. Cornell/Pennsylvania training, lawyer Henry Sawyer and the HUAC case independently match this profile. Do not copy its inaccurate 1962 Supreme Court reversal chronology."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a471e264-ffd0-4d7a-ade5-38c659b68153"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "a471e264-ffd0-4d7a-ade5-38c659b68153": [
           "arrest_date",
@@ -11549,7 +11630,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "University obituary vital dates and captioned Shanghai portrait applied. Procedural errors in obituary not imported. Actual custody before Supreme Court reversal remains unresolved; no exile inferred from later Denmark move."
     },
     "otis-w-smith": {
       "id": "e0eb5b79-dd1a-41f0-961b-ccf64e4d2532",
@@ -11786,7 +11868,7 @@
     "bertha-teplow": {
       "id": "fbf17dd9-ae75-4c78-b990-6eaf56ddb833",
       "name": "Bertha Teplow",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "ddc74de5-546f-48f7-9d8b-ee41b03d04b3"
@@ -11805,7 +11887,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1958 committee testimony establishes appearance/refusal; not proof of custody endpoints. No arrest inferred from testimony date."
     },
     "anna-rosenblatt": {
       "id": "d09c41de-e66e-4b55-a4e2-316f587b5455",
@@ -11904,7 +11987,7 @@
     "billy-allen": {
       "id": "64ef179c-665e-4dbd-a5e2-05aa67eb1abb",
       "name": "Billy Allen",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "df3a9676-4916-4492-b77e-9f72bb56f661"
@@ -11920,7 +12003,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "WilliamAllan identity established in existing data; modern BillyAllen namesakes excluded. Existing1954 incarceration dates preserved; exact appeal-bail release unresolved."
     },
     "joseph-russo": {
       "id": "a72f2e79-3c52-4bb7-a6f9-c979b78f2321",
@@ -12523,7 +12607,7 @@
     "brent-eugene-barksdale": {
       "id": "930c542c-71d9-40e2-87b3-6b66bb17ff18",
       "name": "Brent Eugene Barksdale",
-      "research_status": "pending",
+      "research_status": "partially researched",
       "findings": [],
       "case_ids": [
         "e774d9fc-a5bf-4cc8-af14-13c24c76368e"
@@ -12541,7 +12625,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing Highlander1959 arrest and bond reporting preserved; no new exact release or independently matched vital/portrait source."
     },
     "perry-mackay-sturges-jr": {
       "id": "a9263341-950e-42b7-9034-5ab03b02df2b",
