@@ -1,0 +1,9 @@
+# 1950s missing-fields review: batch453
+
+October12,2026. Four missing dates and four verified portraits across four existing profiles, five guarded rows. No new cases/profiles and no PR. Field citations in batch453.json; image provenance and exact crop checksums in CREDITS-batch453.md.
+
+Marie Reed Haug: contemporary JeanSimon1957Militant profile explicitly DOBJune4,1914; colleague EvaKahana2001ASA obituary explicitly DODOctober4,2001. Crossmatched NewHaven1914, Vassar/PhiBetaKappa and prior union/social activist career. Guardian1958defense appeal establishes sentencing YEAR1958; December1961imprisoned-prisoner address plus May1961prospective admission report supports incarceration YEAR1961. No exact admission/release guessed from court order or18monthsentence. Native photo directly captioned with husband; woman left cropped exactly.
+
+Maurice McCrackin: captioned CommercialAppeal photograph in UniversityofMemphis archive. Existing vitals and four case dates preserved. MauriceHymanHalperin: original captioned AP photograph in1960EveningStar clipping, retained in NARA file; high contrast original scan preserved. Later SFUComment illustration excluded, existing vitals/exile dates preserved, no unsupported U.S. incarceration added. MathewKennedy: MontgomeryCountyArchives mugshot number7073 cataloged by CRDL, original low-resolution thumbnail used without upscale. Archive exact arrestFebruary21,1956 is a further source refinement; populatedFebruary/month field preserved. Unrelated Fiskpianist and genealogy namesakes excluded.
+
+All biographies, populated fields, precision entries, durations, flags, periods, cases and sorting preserved. No personal-support website fields changed. No public-domain claim for these copyrighted/undetermined photographs. Unresolved missing endpoints and namesakes remain open; exhaustive723-profile review continues.
