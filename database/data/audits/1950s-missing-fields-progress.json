@@ -1242,8 +1242,19 @@
     "lloyd-barenblatt": {
       "id": "f1243d71-7671-435a-8239-de19dde3da37",
       "name": "Lloyd Barenblatt",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 449,
+          "fields": [],
+          "status": "research reviewed; no supported missing-field update",
+          "note": "Primary appeal dates HUAC appearance June 28,1954; populated June27 arrest/incarceration and 2697-day total conflict with bio describing six-month1961 service. No populated field changed under missing-only scope; sentence/vitals/photo remain unresolved. Supreme Court argument date is not sentencing.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/USREPORTS-360/pdf/USREPORTS-360-109.pdf",
+            "https://case-law.vlex.com/vid/barenblatt-v-united-states-888475644"
+          ]
+        }
+      ],
       "case_ids": [
         "5e1a2af5-69de-45f1-94d3-2c1627a4ed12"
       ],
@@ -1257,7 +1268,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary appeal dates HUAC appearance June 28,1954; populated June27 arrest/incarceration and 2697-day total conflict with bio describing six-month1961 service. No populated field changed under missing-only scope; sentence/vitals/photo remain unresolved. Supreme Court argument date is not sentencing."
     },
     "elizabeth-gurley-flynn": {
       "id": "3293bf0f-b62a-4b99-852f-9f5a5e417a9a",
@@ -4167,24 +4179,81 @@
     "leon-gilbert": {
       "id": "1a9d591c-a6bb-41e7-9b83-782009977dcd",
       "name": "Leon Gilbert",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 449,
+          "table": "prisoner_cases",
+          "id": "51b99980-82b7-4d6c-840a-a31e4ad53f78",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "archival-research",
+              "note": "Chris Dixon and Jessica Johnson, Journal of African American Studies28(2024)154–170, original archival research based on Truman Library court file CM343472 and NARA dossier6033540. Explicit July31,1950 Sangju incident, repeated refusal, immediate arrest. Existing24thInfantry court-martial identity matches. Article full text retrieved and retained; linked author PDF and official Army original PDF HTTP403, so no original court-file visual claim."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "archival-research",
+              "note": "Same article explicitly states guilty finding and death sentence in early September1950, citing FredL.Borch2019. MONTH precision only, September1 storage placeholder not exact sentence day. Separate November1950 presidential commutation and September1952 reduction not substituted for first court-martial sentence."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date"
+              ],
+              "source": "naacp-report",
+              "note": "Contemporary Clarence Mitchell November3,1950 monthly report confirms same LeonGilbert Korea court-martial death sentence, legal representation and military review; context corroboration only, not independent exact dates."
+            }
+          ]
+        },
+        {
+          "batch": 449,
+          "table": "prisoners",
+          "id": "1a9d591c-a6bb-41e7-9b83-782009977dcd",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "jet-original-page",
+              "note": "Jet May5,1955 p5 original page visually inspected, caption identifies paroled Korea lieutenant LeonA.Gilbert reunited with wifeKay, sonLeon and daughterTondalaya at LosAngelesInternationalAirport. Adult man at center; no child substituted. Clean clipping retains same identified subject and original photograph, obtained via clipping context. Exact rectangular crop; retained pixels unchanged. Original page photographer uncredited, JohnsonPublishing magazine; rights undetermined. Subject died1999, not Navy2003 AirForce namesake."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "jet-clipping-image",
+              "note": "Clean original clipping407x331 RGBA pixels; crop(106,51,230,319),124x268, no resize/redraw/retouch. Full GoogleBooks p5 visually cross-checked against clipping and final crop."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "51b99980-82b7-4d6c-840a-a31e4ad53f78"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "51b99980-82b7-4d6c-840a-a31e4ad53f78": [
-          "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Arrest July31,1950/day, first sentencing September1950/month and caption-identified Jet portrait applied/publicly verified. Release actual day/month/year unresolved: May5,1955 issue shows physical freedom by publication, not exact parole date. Incarceration start not inferred from arrest. Existing vitals/bio/duration untouched."
     },
     "pasquale-branca": {
       "id": "5f2e347a-6e2c-49ee-96ee-592c779374b2",
@@ -8441,8 +8510,18 @@
     "leah-benemovsky": {
       "id": "679a03c7-e762-4161-b668-32e1bed669cc",
       "name": "Leah Benemovsky",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 449,
+          "fields": [],
+          "status": "research reviewed; no supported missing-field update",
+          "note": "1948 contempt/bail materials concern another-year proceeding; scheduled July28,1954 hearing not actual custody. Existing1954 fields remain unresolved.",
+          "sources": [
+            "https://dpanther.fiu.edu/sobek/content/FI/CG/00/00/07/00162/FICG000007_00162_opt.pdf"
+          ]
+        }
+      ],
       "case_ids": [
         "a89c5a17-2943-4dda-b9e2-de892acca9cb"
       ],
@@ -8460,7 +8539,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1948 contempt/bail materials concern another-year proceeding; scheduled July28,1954 hearing not actual custody. Existing1954 fields remain unresolved."
     },
     "augusta-birnberg": {
       "id": "d4aca351-6843-4b55-9d06-4c8c59615d14",
@@ -17067,8 +17147,16 @@
     "louis-ragni": {
       "id": "a570dc52-6813-4761-a41a-ae8ba8df737e",
       "name": "Louis Ragni",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 449,
+          "fields": [],
+          "status": "research reviewed; no supported missing-field update",
+          "note": "Scheduled September12,1952 deportation subsequently stayed; does not establish arrest/confinement. No custody dates assigned.",
+          "sources": []
+        }
+      ],
       "case_ids": [
         "be65e056-b12d-4669-807e-0266a0fd1bea"
       ],
@@ -17086,7 +17174,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Scheduled September12,1952 deportation subsequently stayed; does not establish arrest/confinement. No custody dates assigned."
     },
     "antonio-papadimitriou": {
       "id": "7aedcf75-0bbb-4e09-8558-6709f2a43c57",
@@ -18407,8 +18496,18 @@
     "lester-peay": {
       "id": "c318b102-ce85-46bb-b387-22d84414481c",
       "name": "Lester Peay",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 449,
+          "fields": [],
+          "status": "research reviewed; no supported missing-field update",
+          "note": "Original/retrial sentencing and actual service endpoints unresolved; docket term, reversal December19,1951 and ten-month service do not establish exact dates.",
+          "sources": [
+            "https://case-law.vlex.com/vid/commonwealth-v-peay-900274611"
+          ]
+        }
+      ],
       "case_ids": [
         "cc639a75-8c15-417c-911e-db56f9c50f01"
       ],
@@ -18425,7 +18524,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original/retrial sentencing and actual service endpoints unresolved; docket term, reversal December19,1951 and ten-month service do not establish exact dates."
     },
     "robert-t-smith": {
       "id": "d3fe00b8-af58-4088-8f3b-49eb6be96a52",

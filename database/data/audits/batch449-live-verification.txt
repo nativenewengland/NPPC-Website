@@ -1,0 +1,13 @@
+Batch 449 live verification — October 12,2026
+Data commit: 35f545c1
+B449-ISOLATED-TEST-OK 99 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview2 matched guarded rows. Applied2 rows; replay0 rows. B449-OK on all three runs.
+Compared 723 profiles and 852 cases: 50214 unrelated field values preserved; 4 expected fields verified, including one precision metadata value; existing precision entries preserved.
+Two missing dates and one identified portrait filled in the existing LeonGilbert profile and case. Sentencing has month precision, not a claimed September1 sentence day. Custody endpoint remains unresolved. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 449 repeat live/public check — October 12, 2026
+All 2 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B449-OK.
+All 1 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+leon-gilbert: arrest_date=1950-07-31 (day); visible=True; sentenced_date=1950-09-01 (month); visible=True; portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
