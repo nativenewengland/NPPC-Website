@@ -16100,8 +16100,14 @@
     "george-tyne": {
       "id": "5e26b92c-038f-4851-ae40-070c558472e0",
       "name": "George Tyne",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original government Isacson appeal brief cites Yarus198FSupp425 October28,1961 acquittal; citation and indictment do not establish arrest or custody. Existing photo and vitals preserved. No additions."
+        }
+      ],
       "case_ids": [
         "eb5f36a4-d14a-403b-8e71-ab38c60478d6"
       ],
@@ -16115,7 +16121,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original government Isacson appeal brief cites Yarus198FSupp425 October28,1961 acquittal; citation and indictment do not establish arrest or custody. Existing photo and vitals preserved. No additions."
     },
     "john-t-watkins": {
       "id": "532bcde0-d90a-4b53-89aa-ddb3afc55af3",
@@ -16193,8 +16200,14 @@
     "saul-grossman": {
       "id": "75e49a93-7089-48d9-8ca6-e5e7b8c018b4",
       "name": "Saul Grossman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original229F2d775 January12,1956 reverses conviction; contemporary1955 Congressional Record says free on bail after one-year sentence. Individual original sentence date not confirmed, no release from reversal assumed. Namesake vitals and portraits excluded."
+        }
+      ],
       "case_ids": [
         "bb2e8f4d-7d50-486f-bfc8-8c5e7cef873f"
       ],
@@ -16212,7 +16225,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original229F2d775 January12,1956 reverses conviction; contemporary1955 Congressional Record says free on bail after one-year sentence. Individual original sentence date not confirmed, no release from reversal assumed. Namesake vitals and portraits excluded."
     },
     "clark-foreman": {
       "id": "d4bcfe38-3311-42d1-aedb-9be59fafb7d3",
@@ -16309,8 +16323,27 @@
     "donald-m-wollam": {
       "id": "416bfc6c-6dec-4cb3-a561-6920ecfdafcf",
       "name": "Donald M. Wollam",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "9c6c9c73-eb59-43e5-89d9-ae1132aa6182",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "wollam",
+              "note": "Original Medford Mail Tribune February1,1955 printedp7 United Press article states Judge Samuel Driver imposed one-year term and250-dollar fine yesterday afternoon. Court244F2d212 distinguishes January19 conviction. Bail retained; no actual incarceration or physical release inferred from sentence. Archive indexed full OCR read; scan not visually inspected."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9c6c9c73-eb59-43e5-89d9-ae1132aa6182"
       ],
@@ -16322,19 +16355,38 @@
       "missing_case_fields": {
         "9c6c9c73-eb59-43e5-89d9-ae1132aa6182": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "alden-whitman": {
       "id": "bf3bbd9d-0763-40ad-bd98-5431cd705573",
       "name": "Alden Whitman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "eff5db95-087b-4413-b70b-d6192e49ac20",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "whitman",
+              "note": "Original DOJ United States Attorneys Bulletin September25,1959 printedp575 explicitly September14,1959 six-month term suspended and500-dollar fine; probation during term. April9,1957 is conviction, not sentence. No actual incarceration or release from suspended term."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "eff5db95-087b-4413-b70b-d6192e49ac20"
       ],
@@ -16342,19 +16394,38 @@
       "missing_case_fields": {
         "eff5db95-087b-4413-b70b-d6192e49ac20": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "seymour-peck": {
       "id": "1405354c-bcf5-40df-aa3b-afc33a91b02a",
       "name": "Seymour Peck",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "63945836-9a58-4b55-9526-559ab3941436",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "peck",
+              "note": "Original Guardian May13,1957 printedp3 says Otto Nathan sentenced May3 and Peck sentenced same day to500-dollar fine and30days suspended, probation one year. Original visually inspected: May3, not OCR April3. Nearby photograph is Nathan, not Peck. No imprisonment inferred from suspended sentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "63945836-9a58-4b55-9526-559ab3941436"
       ],
@@ -16364,19 +16435,25 @@
       "missing_case_fields": {
         "63945836-9a58-4b55-9526-559ab3941436": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "william-a-price": {
       "id": "37ea6fbe-781e-45ed-80e8-ddfed97a7d1c",
       "name": "William A. Price",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Guardian1959 reporting confirms three-month sentence and bail; original individual sentencing date unresolved. Profile assertion1959 alone not new evidence; no imprisonment from sentence while free on bail. No identified portrait found."
+        }
+      ],
       "case_ids": [
         "d0f0872f-3ca2-47e5-bce9-313b01fda78d"
       ],
@@ -16392,37 +16469,95 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Guardian1959 reporting confirms three-month sentence and bail; original individual sentencing date unresolved. Profile assertion1959 alone not new evidence; no imprisonment from sentence while free on bail. No identified portrait found."
     },
     "herman-liveright": {
       "id": "65cd8631-0c4f-4956-a2ac-703b2b16bbc2",
       "name": "Herman Liveright",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoners",
+          "id": "65cd8631-0c4f-4956-a2ac-703b2b16bbc2",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "liveright-obit",
+              "note": "Own local obituary dated January19,2001 says died Friday and explicitly born January11,1912; January19 was Friday. Identity matched WDSU, Senate contempt, Highlander, Berkshire Forum, parents publisher Horace B.Liveright and Lucile Elsas, wife Betty Fouche. No ages used to fabricate birthdate."
+            }
+          ]
+        },
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "29f96760-302c-469e-b4d1-e077a94af0f9",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "liveright-sentence",
+              "note": "Original Capital Journal Salem Friday March22,1957 section1 printedp8/PDFsequence4, AP Washington report, explicitly same-day three-month sentence and500-dollar fine by Judge Richmond Keech; taken to courthouse lockup. Actual admission to courthouse lockup is recorded, not an assumed prison-transfer date. Judge would consider bail application, not confirmation of physical release; release remains missing. Original downloaded full text read."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "29f96760-302c-469e-b4d1-e077a94af0f9"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "29f96760-302c-469e-b4d1-e077a94af0f9": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "mary-knowles": {
       "id": "0099c72c-93dc-4ebd-b6a5-af0ab0a68db1",
       "name": "Mary Knowles",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "896e56d0-91ff-4461-9098-a6f8a18a6f57",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "knowles",
+              "note": "Original Manchester Evening Herald January18,1957 AP Washington Jan18 report says today sentenced120days and500-dollar fine by Judge Ross Rizley. Host full indexed text read; direct download403, so no scan inspection claim. Original Guardian February4,1957 independently confirms same sentence but not actual admission. No custody endpoints inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "896e56d0-91ff-4461-9098-a6f8a18a6f57"
       ],
@@ -16432,13 +16567,13 @@
       "missing_case_fields": {
         "896e56d0-91ff-4461-9098-a6f8a18a6f57": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "pauline-feuer": {
       "id": "c53ff25e-eb6e-416e-9dbb-d72ffa5c3cb8",
@@ -16474,32 +16609,101 @@
     "george-e-shibley": {
       "id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
       "name": "George E. Shibley",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoners",
+          "id": "9f403a3a-663d-422f-a56f-c1b5c2caf800",
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "shibley-death",
+              "note": "San Jose State University Zoot Suit teaching document George Shibley slide explicitly July4,1989 death of Sleepy Lagoon defense lawyer, citing Long Beach Press-Telegram. Full PDF read. This is attributed university evidence, not independently viewed original obituary. SSDI and spouse Eleanor Shaw lead agrees; DOB from namesake alone not imported."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "shibley-end",
+              "note": "Original ILWU Dispatcher August15,1958 printedp5 identified family photograph, adult man at right cropped. Native decoded original scan, retained pixels unchanged; original and crop visually inspected."
+            }
+          ]
+        },
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "a6d7a00c-8260-4e95-84d6-4d7e95e05e27",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "shibley-start",
+              "note": "Own ILWU Dispatcher January18,1957 printedp1 explicitly surrendered10am January14 and taken to Terminal Island to serve three-year term."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "shibley-end",
+              "note": "Own ILWU Dispatcher August15,1958 printedp5 explicitly paroled July14 after18months of three-year term. June1958 anticipated release report not adopted. Source distinguishes acquitted military contempt from conviction for conspiracy and receiving transcript; existing case three-year narrative identifies same term but labels offense differently. Prose preserved and conflict logged. Separate January18,1954 thirty-day summary contempt is not assigned to this three-year imprisonment."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a6d7a00c-8260-4e95-84d6-4d7e95e05e27"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "a6d7a00c-8260-4e95-84d6-4d7e95e05e27": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "harold-i-cammer": {
       "id": "9485e3ed-aa4d-4ed4-a14c-5192f6093dd6",
       "name": "Harold I. Cammer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoner_cases",
+          "id": "9e787d54-fb9e-4a7e-a306-9e18d724147d",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "cammer-prosecutor",
+              "note": "Own prosecutor Oliver Gasch oral history printedp110 explicitly identifies original In re Cammer as1954 case. Original appellate223F2d322 quotes district ruling imposing100-dollar fine; appeal argued November29,1954. CourtListener district opinion index gives June15,1954 but underlying district opinion could not be read, so YEAR1954 only. No jail from fine-only sentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9e787d54-fb9e-4a7e-a306-9e18d724147d"
       ],
@@ -16507,13 +16711,13 @@
       "missing_case_fields": {
         "9e787d54-fb9e-4a7e-a306-9e18d724147d": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "john-h-calhoun": {
       "id": "3076fed7-7ba3-4b10-beb3-64efe5062203",
@@ -16555,8 +16759,14 @@
     "alva-a-al-fisher": {
       "id": "f8ff6ed7-696f-4ef0-8cd6-8da76f881ee1",
       "name": "Alva A. “Al” Fisher",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original ILWU August15,1958 confirms ongoing appeal and defense support. Existing January21,1959 admission preserved. First reversed conviction and retrial require distinct date evidence; individual physical release, vitals and photo not confirmed. Namesake washing-machine inventor and tribal member excluded."
+        }
+      ],
       "case_ids": [
         "42c2f7c0-0af9-4667-b501-520f4782cfa2"
       ],
@@ -16573,13 +16783,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original ILWU August15,1958 confirms ongoing appeal and defense support. Existing January21,1959 admission preserved. First reversed conviction and retrial require distinct date evidence; individual physical release, vitals and photo not confirmed. Namesake washing-machine inventor and tribal member excluded."
     },
     "john-joseph-killian": {
       "id": "4bf7e3f3-9f87-4209-80c3-b4f08818092c",
       "name": "John Joseph Killian",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original DOJ1961 bulletin documents Supreme Court remand December11,1961, not physical release. Existing May13,1958 sentence preserved; no admission/end inferred. Boxer Jake Kilrain birth-name namesake excluded."
+        }
+      ],
       "case_ids": [
         "4bda3344-6167-495e-b9e3-6c09f3420941"
       ],
@@ -16596,13 +16813,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original DOJ1961 bulletin documents Supreme Court remand December11,1961, not physical release. Existing May13,1958 sentence preserved; no admission/end inferred. Boxer Jake Kilrain birth-name namesake excluded."
     },
     "john-w-powell": {
       "id": "a5fc13f0-06b7-4bdb-972d-9c0c60e972d1",
       "name": "John W. Powell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing complete vitals/photo retained. April25,1956 indictment and bail do not establish confinement. No imprisonment manufactured from sedition prosecution."
+        }
+      ],
       "case_ids": [
         "643cf654-986a-4c03-bdd7-034a4080972b"
       ],
@@ -16616,20 +16840,46 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing complete vitals/photo retained. April25,1956 indictment and bail do not establish confinement. No imprisonment manufactured from sedition prosecution."
     },
     "sylvia-powell": {
       "id": "3e2976ce-c754-4757-8f81-090d7ba523fe",
       "name": "Sylvia Powell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 477,
+          "table": "prisoners",
+          "id": "3e2976ce-c754-4757-8f81-090d7ba523fe",
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "powell-obit",
+              "note": "Chronicle family interview implies July6,2004; Reed alumni obituary gives July12. Both agree July2004; MONTH precision only."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "powell-photo",
+              "note": "Chronicle obituary labels John and Sylvia, April26,1958; woman at left cropped exactly,140x200, unchanged pixels."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "7b1c484b-03d2-471d-80ce-bd9f83b0dbbe"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "7b1c484b-03d2-471d-80ce-bd9f83b0dbbe": [
@@ -16640,7 +16890,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch477 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "julian-schuman": {
       "id": "53ba17d2-2d65-4320-9157-6737c41fa49e",
