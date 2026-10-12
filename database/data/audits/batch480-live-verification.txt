@@ -1,0 +1,19 @@
+Batch480 live verification — October12,2026
+Data commit: a7630121
+B480-ISOLATED-TEST-OK 537 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview11; applied11; replay0. B480-OK on all three runs.
+Compared 723 profiles and 853 cases: 25 expected fields (twelve dates, three portraits, ten precision metadata), 50209 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+george-willoughby: HTTP200; sentenced_date=1958-05-07 (DAY), visible
+george-willoughby: HTTP200; sentenced_date=1958-06-01 (MONTH), visible
+erica-enzer: HTTP200; birthdate=1925-01-01 (YEAR), visible; death_date=1998-01-01 (YEAR), visible; portrait linked, HTTP200, exact SHA256
+erica-enzer: HTTP200; incarceration_date=1958-01-01 (YEAR), visible
+david-e-scull: HTTP200; death_date=1983-09-18 (DAY), visible; portrait linked, HTTP200, exact SHA256
+edward-t-graham: HTTP200; portrait linked, HTTP200, exact SHA256
+g-e-graves: HTTP200; birthdate=1919-01-01 (YEAR), visible
+w-c-patton: HTTP200; birthdate=1911-01-01 (YEAR), visible; death_date=1997-01-01 (YEAR), visible
+hanover-thompson: HTTP200; sentenced_date=1958-11-04 (DAY), visible
+david-simpson: HTTP200; sentenced_date=1958-11-04 (DAY), visible
+otis-w-smith: HTTP200; sentenced_date=1958-03-10 (DAY), visible
+Fourteen profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch480 audit.

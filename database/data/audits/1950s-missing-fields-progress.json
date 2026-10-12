@@ -19052,8 +19052,45 @@
     "george-willoughby": {
       "id": "9c1b58b3-cc78-4a27-ad93-b3bd57f06e17",
       "name": "George Willoughby",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "04b28f36-bcc4-4863-9e4a-e2d1e9c2e61e",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "willoughby-may",
+              "note": "Original FriendsJournal May17,1958 printedp317/PDF9 explicitly May7 four GoldenRule crew including GeorgeWilloughby sentenced byJudgeWiig60days or oneyearprobation. Original visually inspected in batch479. Existing firstcase arrest/admission/release retained; sentence not counted as new custody."
+            }
+          ]
+        },
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "93468b01-ff01-4eeb-98ed-9e248b6587d8",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "willoughby-june",
+              "note": "Original FriendsJournal June14,1958 printedp382/PDF10: June4secondattempt followed Huntington/Willoughby/Sherwood60days currentlyserving. MONTHJune1958 because exact sentencingday unspecified; June4action not automatically courtdate. Original visually inspected in batch479. All existing endpoints retained."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "04b28f36-bcc4-4863-9e4a-e2d1e9c2e61e",
         "93468b01-ff01-4eeb-98ed-9e248b6587d8"
@@ -19061,16 +19098,15 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "04b28f36-bcc4-4863-9e4a-e2d1e9c2e61e": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "93468b01-ff01-4eeb-98ed-9e248b6587d8": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "orion-sherwood": {
       "id": "d34fea34-2429-405e-b89b-b78894def884",
@@ -19201,22 +19237,64 @@
     "erica-enzer": {
       "id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
       "name": "Erica Enzer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoners",
+          "id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "erica-vitals",
+              "note": "SwarthmorePeaceCollection own EricaEnzerCollectedPapers institutional findingaid explicitly1925–1998, bornCzechoslovakia, chemist/mathteacher andCNVAactivist; papersgiftBradLyttle1998. Full web cached archive entry read; direct download403. YEARonly. SSDI exactDec23/Jul10 dates not independently linked, not imported."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "erica-photo",
+              "note": "Explicit third-from-left original caption, raster visually read. Exact original-image crop; unidentified newsletter group not used."
+            }
+          ]
+        },
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "50010722-b585-4299-98ce-ea895b0523e2",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "erica-jail",
+              "note": "Original NationalGuardian September22,1958 printedp7/PDF7 explicitly MissEnzer andWhite soonjoinedothersinjail in Cheyenne missilebase campaign. YEAR1958 actual custody supported, day/month unspecified. August18Calkinsarrest not assigned to Enzer; Calkins104days sentence not hers. No inferred release, no separate1959Omaha/1963Polaris actions added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "50010722-b585-4299-98ce-ea895b0523e2",
         "ac062d69-d301-53a9-a230-128e6e059f2a"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "50010722-b585-4299-98ce-ea895b0523e2": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -19225,7 +19303,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "eleanor-calkins": {
       "id": "e0cee2a7-e175-420c-b625-ba7fa88106ff",
@@ -19412,15 +19491,40 @@
     "david-e-scull": {
       "id": "b400aef5-38b9-4513-807a-99d69f9e680d",
       "name": "David E. Scull",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoners",
+          "id": "b400aef5-38b9-4513-807a-99d69f9e680d",
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "scull-obituary",
+              "note": "FriendsJournal November15,1983 printedp28/PDF28 original obituary explicitly DavidH.Scull September18 followingstroke. Identity linked LangleyHillfounder/TurnpikePress/ScullStudios/civilrights litigation/wifeLaurel. Original visually read. Different MarylandpoliticianDavidScull1917–1968 and Indiana1920–1988 grave excluded. Existingdisplayname/slug and uncertainty of actualcustody unchanged."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "scull-photo",
+              "note": "Own identified firsthand interview portrait original visually inspected and cropped unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0551b88a-93ac-40d4-8af0-468bf0b1c279"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "0551b88a-93ac-40d4-8af0-468bf0b1c279": [
@@ -19431,7 +19535,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "mathilda-carman": {
       "id": "59d9da14-d77f-4f34-bf4c-96ffca1e0a51",
@@ -19502,8 +19607,14 @@
     "emmett-calvin-brown": {
       "id": "613c5740-104b-4891-bd6b-48056bbdd021",
       "name": "Emmett Calvin Brown",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "status": "reviewed, no unsupported additions",
+          "note": "ContemporaryNationalGuardianMarch1,1954 identifies CincinnatiBlack AFLleader amongOhio contemptdefendants each10days500fine, allfreebailpendingappeal. Hearing1952, dismissal1959, appealdecisions do not establish actualimprisonment or exactinitialsentence. Unlinked namesakevitals/photos excluded."
+        }
+      ],
       "case_ids": [
         "81963231-91ce-4772-b5ac-c18bf949c8a7"
       ],
@@ -19521,13 +19632,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ContemporaryNationalGuardianMarch1,1954 identifies CincinnatiBlack AFLleader amongOhio contemptdefendants each10days500fine, allfreebailpendingappeal. Hearing1952, dismissal1959, appealdecisions do not establish actualimprisonment or exactinitialsentence. Unlinked namesakevitals/photos excluded."
     },
     "talmadge-raley": {
       "id": "805fa8ca-a2d1-40da-819d-363ae7d0e05c",
       "name": "Talmadge Raley",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary360US423 andNationalGuardianMarch1,1954 identify UE766leader contempt10days500fine andappealbail, not actualprisonservice.1950federalHUACcase distinctfrom1952Ohiohearing. SSDI1911–1970 lead notindependentlylinked; no guessed dates/portrait."
+        }
+      ],
       "case_ids": [
         "4c199bf0-edd4-4ccf-b625-930a364a5dfa"
       ],
@@ -19545,7 +19663,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary360US423 andNationalGuardianMarch1,1954 identify UE766leader contempt10days500fine andappealbail, not actualprisonservice.1950federalHUACcase distinctfrom1952Ohiohearing. SSDI1911–1970 lead notindependentlylinked; no guessed dates/portrait."
     },
     "norton-anthony-russell": {
       "id": "59d2a4ef-0986-4364-add4-1f5c0e38813e",
@@ -19631,25 +19750,50 @@
     "otis-w-smith": {
       "id": "e0eb5b79-dd1a-41f0-961b-ccf64e4d2532",
       "name": "Otis W. Smith",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "677ba03e-bdd0-4583-bcb3-2f5ec6a41628",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "otis-report",
+              "note": "Existing previously curator-verified sentence andconvicted fields explicitly March10,1958 initialeightmonths; missing structuredsentence date filled from that explicit date, not inferred from prisonadmission. Prior archived contemporary AtlantaDailyWorld March19 report corroborated; current archivefetch unavailable so no claim of new originalvisualread in thispass. March17modification500fine notoriginalsentence. Populated caseprose, admission/release andseven-daytotal preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "677ba03e-bdd0-4583-bcb3-2f5ec6a41628"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "677ba03e-bdd0-4583-bcb3-2f5ec6a41628": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "clennon-washington-king-jr": {
       "id": "6716bc78-215d-4f95-b446-a683e15a134a",
       "name": "Clennon Washington King Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing complete vitals/photo andJune5arrest/June6psychiatricadmission/June18release retained. No criminalcharge: no unsupported criminalsentencingdate added."
+        }
+      ],
       "case_ids": [
         "9efa79e0-94a9-40ec-8823-ae19be7c34ab"
       ],
@@ -19660,13 +19804,33 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing complete vitals/photo andJune5arrest/June6psychiatricadmission/June18release retained. No criminalcharge: no unsupported criminalsentencingdate added."
     },
     "hanover-thompson": {
       "id": "2daa22d6-a053-4aee-b730-6f67167a3972",
       "name": "Hanover Thompson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "ef28cce7-2bce-4b97-bdc9-2e48d1912e61",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "kissing-case",
+              "note": "Original YoungSocialist January1959 printedp4/PDF4 contemporaneous CCRIdefensepetition explicitly names both HanoverThompson andDavidSimpson, triedNovember4 sentencedcommitmentindustrialschool. Original scan visually checked. Later tertiaryNovember3date conflict logged; contemporary defensepetition used. Existing arrest/admissionOctober28 and releaseFebruary13 retained, no birthyear inferred from inconsistent ages."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ef28cce7-2bce-4b97-bdc9-2e48d1912e61"
       ],
@@ -19676,17 +19840,36 @@
       ],
       "missing_case_fields": {
         "ef28cce7-2bce-4b97-bdc9-2e48d1912e61": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "david-simpson": {
       "id": "6316362e-34f9-4921-994b-57e0dc3687d4",
       "name": "David Simpson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoner_cases",
+          "id": "236f335b-3c55-4230-9e3e-6185db7f889b",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "kissing-case",
+              "note": "Original YoungSocialist January1959 printedp4/PDF4 contemporaneous CCRIdefensepetition explicitly names both HanoverThompson andDavidSimpson, triedNovember4 sentencedcommitmentindustrialschool. Original scan visually checked. Later tertiaryNovember3date conflict logged; contemporary defensepetition used. Existing arrest/admissionOctober28 and releaseFebruary13 retained, no birthyear inferred from inconsistent ages."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "236f335b-3c55-4230-9e3e-6185db7f889b"
       ],
@@ -19696,17 +19879,23 @@
       ],
       "missing_case_fields": {
         "236f335b-3c55-4230-9e3e-6185db7f889b": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "fred-shuttlesworth": {
       "id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
       "name": "Fred Shuttlesworth",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "status": "reviewed, no unsupported additions",
+          "note": "1956busprotestDecember26 populatedarrest/admission retained; bailordernotphysicalrelease evidence.1958sentenceMONTHOctober alreadyfilled;1962admission/release populated. No assumed1956arrest silentlyassigned1958case, no later1960s casechanged."
+        }
+      ],
       "case_ids": [
         "707ced7d-d25d-4527-832e-b883e5c4c625",
         "1c5e5a71-8ee2-451c-976d-d3ed77602912",
@@ -19786,7 +19975,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1956busprotestDecember26 populatedarrest/admission retained; bailordernotphysicalrelease evidence.1958sentenceMONTHOctober alreadyfilled;1962admission/release populated. No assumed1956arrest silentlyassigned1958case, no later1960s casechanged."
     },
     "j-s-phifer": {
       "id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
@@ -19852,13 +20042,31 @@
     "edward-t-graham": {
       "id": "d1132cf8-d18d-4b38-ac42-f8e8d0161268",
       "name": "Edward T. Graham",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoners",
+          "id": "d1132cf8-d18d-4b38-ac42-f8e8d0161268",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "graham-photo",
+              "note": "Library caption expressly identifies ReverendEdwardT.Graham; exactcrop originalportrait. Unlinked1912–1965grave contradicts documented1970scommissioner and is not imported."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9386f210-cf9d-497e-9a25-d1b598412b8f"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -19871,19 +20079,38 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "g-e-graves": {
       "id": "d8d4fea6-cd81-4abe-b09f-ce18dce27010",
       "name": "G. E. Graves",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoners",
+          "id": "d8d4fea6-cd81-4abe-b09f-ce18dce27010",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "graves-vitals",
+              "note": "BlackArchives own GrattanEllesmereGravesJr collectionfindingaid explicitlybornLawrencevilleVirginia1919, HowardLaw1944, FloridaNAACPattorney; full cachedinstitutionalentryread. YEARonly. FIU historicalsocietyFeb11,1919lead could not be downloaded (emptyresponse), exactday not imported. No unlinkedDOD or restrictedphoto used."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d976322a-6407-4541-a866-9758162e4366"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -19895,7 +20122,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "bertha-teplow": {
       "id": "fbf17dd9-ae75-4c78-b990-6eaf56ddb833",
@@ -19925,8 +20153,14 @@
     "anna-rosenblatt": {
       "id": "d09c41de-e66e-4b55-a4e2-316f587b5455",
       "name": "Anna Rosenblatt",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary108So2d729December19,1958 reviews orders toanswerAugust11 orfacecontempt; threatenedcontempt notdocumentedactualjail orsentence.105So2d339 lead was mistaken/unrelatedLouisianacivilGarafola case, excluded. Numerous modernmedical/NYgenealogy namesakes excluded."
+        }
+      ],
       "case_ids": [
         "e7cbbc74-d7f8-4b05-bd72-0fa00dd11197"
       ],
@@ -19944,20 +20178,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary108So2d729December19,1958 reviews orders toanswerAugust11 orfacecontempt; threatenedcontempt notdocumentedactualjail orsentence.105So2d339 lead was mistaken/unrelatedLouisianacivilGarafola case, excluded. Numerous modernmedical/NYgenealogy namesakes excluded."
     },
     "w-c-patton": {
       "id": "7f904c50-7e3c-426c-8b55-b981d71348ed",
       "name": "W. C. Patton",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 480,
+          "table": "prisoners",
+          "id": "7f904c50-7e3c-426c-8b55-b981d71348ed",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "patton-vitals",
+              "note": "StanfordKingInstitute editedprimaryletterJanuary24,1959 toEisenhower footnote explicitly WilliamC.Patton1911–1997, Marionborn, NAACPAlabamastatepresident1947–1955 andnationalvotereducation1956–1978. FullinstitutionalHTMLread. YEARonly, no dates inferred from Congressional1997tribute or unrelatedWilliamClydePattonJr grave."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "458ca780-0a59-4e6d-93cd-7ad351b9425e"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "458ca780-0a59-4e6d-93cd-7ad351b9425e": [
@@ -19968,7 +20222,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch480 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "william-p-mitchell": {
       "id": "f946bbca-41c6-4200-a3c0-964cc1b3541b",
