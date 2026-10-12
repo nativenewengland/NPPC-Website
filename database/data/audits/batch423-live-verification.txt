@@ -1,0 +1,23 @@
+Batch 423 live verification — October 12, 2026
+Data commit: 86a24f3d
+Isolated in-memory test: 295 assertions passed. Production database unused for test writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Live preview: all six row guards matched. Application: six rows updated; B423-OK.
+Replay: zero rows updated; B423-OK.
+Before/after compared all 723 candidate profiles and 852 associated cases: 50196 unrelated field values preserved; 18 expected fields verified, including precision.
+Added one portrait, three birth dates, four death dates, two sentencing dates, two incarceration dates.
+Four profile rows and two case rows, six people. No profiles or cases created or removed.
+Biographies, case prose, prior photos/dates, custody flags, duration totals, case membership and sort order preserved.
+API cache cleared after actual changes. No pull request created.
+Batch 423 repeat live/public check — October 12, 2026
+All 6 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B423-OK.
+All 6 public profile pages returned HTTP 200. The one image URL returned HTTP 200 and matched committed SHA-256 checksums.
+a-leon-lowry: birthdate=1913-06-12 (day); visible=True; death_date=2005-08-20 (day); visible=True
+albert-lima: death_date=1989-06-03 (day); visible=True
+alfred-marder: birthdate=1922-01-18 (day); visible=True; death_date=2023-12-19 (day); visible=True
+andrew-wade: birthdate=1922-02-12 (day); visible=True; death_date=2005-09-26 (day); visible=True; portrait renders and HTTP image checksum matches
+asbury-howard: sentenced_date=1959-01-24 (day); visible=True; incarceration_date=1959-02-23 (day); visible=True
+asbury-howard-jr: sentenced_date=1959-03-07 (day); visible=True; incarceration_date=1959-03-07 (day); visible=True
+
+Exact release dates, Howard arrest-day conflict, Lima overlapping case records and unresolved photo/vital identity leads remain open as documented in the research audit.
+The 1950s audit remains in progress; this batch does not mark all candidates researched.

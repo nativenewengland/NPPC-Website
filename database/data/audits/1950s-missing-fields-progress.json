@@ -4061,14 +4061,32 @@
       "id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
       "name": "Albert Lima",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoners",
+          "id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "lima-obit",
+              "note": "Obituary identifies the state Communist leader and his death at home on June 3."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "8d9bdaac-4cc8-484d-b493-56577d3079ec",
         "3032b0df-6d37-4107-b0a9-6c7241c90e16"
       ],
       "missing_profile_fields": [
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "8d9bdaac-4cc8-484d-b493-56577d3079ec": [
@@ -6625,15 +6643,46 @@
       "id": "e5bcb271-6fa2-4fa9-b1ba-647730d82161",
       "name": "Andrew Wade",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoners",
+          "id": "e5bcb271-6fa2-4fa9-b1ba-647730d82161",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "wade-history",
+              "note": "National Register district nomination PDF page 32 gives exact birth date of Andrew Edward Wade IV, the Louisville electrician and housing-rights activist."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "wade-obit",
+              "note": "Family funeral notice identifies Wade & Son Electrical Contractors owner, wife Charlotte, and September 26 death; nomination PDF page 80 agrees."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "wade-history",
+              "note": "PDF page 80 explicitly captions Andrew Wade; image credits staff photographer Keith Williams, Courier-Journal, February 15, 1988. Exact rectangular crop isolates the pictured man; no generated pixels."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b72103b0-a8e2-4da5-bb84-71accb321ed2"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "b72103b0-a8e2-4da5-bb84-71accb321ed2": [
           "sentenced_date",
@@ -8271,14 +8320,38 @@
       "id": "85378469-9459-498d-ad6f-655bb70a4388",
       "name": "Alfred Marder",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoners",
+          "id": "85378469-9459-498d-ad6f-655bb70a4388",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "marder",
+              "note": "Community obituary title explicitly supplies birth date; article identifies the New Haven peace activist and Smith Act defendant."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "marder",
+              "note": "Community obituary title and text give death date."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "09f702fc-7754-4dbe-a9a6-712c997c3332"
       ],
-      "missing_profile_fields": [
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "09f702fc-7754-4dbe-a9a6-712c997c3332": [
           "sentenced_date",
@@ -12109,7 +12182,34 @@
       "id": "b63a0587-1ac0-4449-964b-4196f7c272f4",
       "name": "Asbury Howard",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoner_cases",
+          "id": "4c771247-d1f0-4e8b-8570-2734162e3e0b",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "usccr",
+              "note": "Printed pages 74-75 (PDF pages 82-83) identify January 24 trial and same proceeding sentencing. National Guardian March 16 page 3 independently dates conviction to January 24. Initial arrest-day typo in report is not adopted."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "howard-jail",
+              "note": "ILWU Dispatcher August 14, 1959, page 7 explicitly gives jail admission February 23. National Guardian March 16 page 3 distinguishes January conviction and release on bond from later remand on Washington birthday. This identifies the post-bond imprisonment episode, not uninterrupted detention from January."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4c771247-d1f0-4e8b-8570-2734162e3e0b"
       ],
@@ -12120,8 +12220,6 @@
       ],
       "missing_case_fields": {
         "4c771247-d1f0-4e8b-8570-2734162e3e0b": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -12133,7 +12231,34 @@
       "id": "828c8748-3554-4d77-8fbc-a7b5c7586bab",
       "name": "Asbury Howard Jr.",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoner_cases",
+          "id": "76e34634-5dec-4203-bfba-42081d1ce25f",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "howard-jr",
+              "note": "National Guardian March 16, 1959, page 3 explicitly dates the younger Howard sentencing to March 7."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "howard-jr",
+              "note": "Same contemporary account explicitly states that he was sent to jail with his father on March 7; prior January arrest had ended in bond release according to USCCR report."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "76e34634-5dec-4203-bfba-42081d1ce25f"
       ],
@@ -12144,8 +12269,6 @@
       ],
       "missing_case_fields": {
         "76e34634-5dec-4203-bfba-42081d1ce25f": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -12277,14 +12400,39 @@
       "id": "14a5115e-50f1-4e2c-bfe6-98d6375af88c",
       "name": "A. Leon Lowry",
       "research_status": "partially researched",
-      "findings": [],
+      "findings": [
+        {
+          "batch": 423,
+          "table": "prisoners",
+          "id": "14a5115e-50f1-4e2c-bfe6-98d6375af88c",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "lowry-bio",
+              "note": "Contemporary Black Biography entry explicitly gives birth date and identifies the Tampa NAACP president and Beulah Baptist pastor."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "lowry-obit",
+              "note": "Wilson Funeral Home notice identifies Beulah Baptist pastor A. Leon Lowry Sr. and states date of death; published biography independently agrees."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "fa70d443-97b3-46ad-a9fd-64104f8fb6f7"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "fa70d443-97b3-46ad-a9fd-64104f8fb6f7": [
@@ -12296,7 +12444,7 @@
           "end_of_exile"
         ]
       },
-      "open_research_note": "Family funeral notice verifies death 2005-08-20. Birth 1913-06-12 secondary lead awaiting primary corroboration. Existing case describes proposed jailing, actual custody unresolved."
+      "open_research_note": "Both vital dates verified and applied in batch423; actual custody from 1959 committee recommendation remains unresolved; portrait search pending."
     },
     "lawrence-gore": {
       "id": "572a76d4-f86c-4623-95a1-fb2165be7b77",
