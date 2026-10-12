@@ -13160,55 +13160,167 @@
     "eleanor-calkins": {
       "id": "e0cee2a7-e175-420c-b625-ba7fa88106ff",
       "name": "Eleanor Calkins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 446,
+          "table": "prisoner_cases",
+          "id": "4fbef771-6b05-4f83-9898-41c4bff1857e",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian-photo",
+              "note": "September 1, 1958 National Guardian printed/PDF p4 original image and caption explicitly identify Mr. and Mrs. Kenneth Calkins and their August 18 custody for leafleting. September 22 p7 describes several hours held that day. Earliest arrest in this existing protest case; not used as the day of later sustained jail confinement."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "guardian-jail",
+              "note": "September 22, 1958 National Guardian printed/PDF p7 expressly places both in Laramie County jail on August 29 and describes Kenneth transfer to jail after ten hospital days following August 19 truck injury. Establishes sustained confinement began within August 1958, but not a sufficiently verified exact admission day. Stored August 1 with month precision, displayed August 1958; no first-day claim or calculated release."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "upi-sentence",
+              "note": "Contemporary UPI report in Thursday August 21, 1958 Medford Mail Tribune printed p11 states Ellanor Calkins and Theodore Olson fined Wednesday by Tosh Suyematsu; Wednesday was August 20. Same husband, location and protest establish identity despite Eleanor/Ellanor spelling variant. Original page visually inspected."
+            }
+          ]
+        },
+        {
+          "batch": 446,
+          "table": "prisoners",
+          "id": "e0cee2a7-e175-420c-b625-ba7fa88106ff",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "guardian-photo",
+              "note": "National Guardian September 1, 1958 printed/PDF p4 caption identifies Mr. and Mrs. Kenneth Calkins stopped at the base August 18. Female subject at right isolated from original native grayscale JPX image with an exact rectangular crop. Photographer uncredited; no public-domain claim. Kenneth already has a photograph and is left unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4fbef771-6b05-4f83-9898-41c4bff1857e"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "4fbef771-6b05-4f83-9898-41c4bff1857e": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch446 audit."
     },
     "kenneth-calkins": {
       "id": "16fc9b3c-e16e-4e30-853d-fad8c9f93995",
       "name": "Kenneth Calkins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 446,
+          "table": "prisoners",
+          "id": "16fc9b3c-e16e-4e30-853d-fad8c9f93995",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "obituary",
+              "note": "Kenneth Roy Calkins obituary, published January 11, 2026, explicitly gives February 19, 1935 birth and December 31 death under 1935–2025 heading. Identity independently matches University of Chicago historian and the 1958 Cheyenne protest truck injury. Legacy person page explicitly indexes December 31, 2025. Retrieved complete obituary text via web tool; direct local download HTTP403. Existing portrait preserved."
+            }
+          ]
+        },
+        {
+          "batch": 446,
+          "table": "prisoner_cases",
+          "id": "c5430df2-be56-4aca-a196-66fd113d3ce7",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian-photo",
+              "note": "September 1, 1958 National Guardian printed/PDF p4 original image and caption explicitly identify Mr. and Mrs. Kenneth Calkins and their August 18 custody for leafleting. September 22 p7 describes several hours held that day. Earliest arrest in this existing protest case; not used as the day of later sustained jail confinement."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "guardian-jail",
+              "note": "September 22, 1958 National Guardian printed/PDF p7 expressly places both in Laramie County jail on August 29 and describes Kenneth transfer to jail after ten hospital days following August 19 truck injury. Establishes sustained confinement began within August 1958, but not a sufficiently verified exact admission day. Stored August 1 with month precision, displayed August 1958; no first-day claim or calculated release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c5430df2-be56-4aca-a196-66fd113d3ce7"
       ],
-      "missing_profile_fields": [
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "c5430df2-be56-4aca-a196-66fd113d3ce7": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch446 audit."
     },
     "arthur-springer": {
       "id": "dddc82ae-3682-4f71-888d-03aa131d987d",
       "name": "Arthur Springer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 446,
+          "table": "prisoner_cases",
+          "id": "dd77e0e3-69a6-488a-840b-54455ce21183",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "ap-arrest",
+              "note": "Wednesday August 20, 1958 Daily Iowan printed/PDF p2 contemporary AP report identifies Arthur Springer, Brooklyn, and Theodore Olson as arrested and placed in Laramie County Jail during the Tuesday August 19 action. Existing arrest August 19 and precision preserved. Later bail report supplies no sufficiently certain physical release day."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "dd77e0e3-69a6-488a-840b-54455ce21183"
       ],
@@ -13220,12 +13332,12 @@
       "missing_case_fields": {
         "dd77e0e3-69a6-488a-840b-54455ce21183": [
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch446 audit."
     },
     "david-e-scull": {
       "id": "b400aef5-38b9-4513-807a-99d69f9e680d",
@@ -15582,8 +15694,14 @@
     "karley-larsen": {
       "id": "3cd327be-5b06-4d90-b6a4-9c66fcaf9b16",
       "name": "Karley Larsen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 446,
+          "status": "researched; no supported missing-field change",
+          "note": "ILWU Dispatcher September 26, 1952 p6 original visually checked: confirms IWA identity and bail during convention but no physical release day or portrait; arrest already populated and preserved."
+        }
+      ],
       "case_ids": [
         "d605d822-4605-45d9-866c-da3b6535a279"
       ],
@@ -16586,8 +16704,14 @@
     "kathryn-hyndman": {
       "id": "86aa7361-c653-45f2-82a2-c9dd65613e6d",
       "name": "Kathryn Hyndman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 446,
+          "status": "researched; no supported missing-field change",
+          "note": "James B. Lane research and jail diary account confirms populated detention and death year; no new exact vitals or identified portrait. Unrelated nursing professor rejected."
+        }
+      ],
       "case_ids": [
         "48b1e88e-f254-4526-ac9b-c88cd0a8b927",
         "e259f595-8c75-4dfe-acd1-2a3a31b56395"

@@ -1,0 +1,15 @@
+Batch 446 live verification — October 12,2026
+Data commit: 14babab6
+B446-ISOLATED-TEST-OK 226 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B446-OK on all three runs.
+Compared 723 profiles and 852 cases: 50202 unrelated field values preserved; 13 expected fields verified, including three precision metadata values; existing precision entries preserved.
+Eight missing dates and one identified portrait filled across three existing profiles and cases. Incarceration dates for the Calkins couple use month precision, not a claimed August 1 admission day. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 446 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B446-OK.
+All 3 public profile pages returned HTTP 200. One portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+arthur-springer: incarceration_date=1958-08-19 (day); visible=True
+eleanor-calkins: arrest_date=1958-08-18 (day); visible=True; incarceration_date=1958-08-01 (month); visible=True; sentenced_date=1958-08-20 (day); visible=True; portrait renders and HTTP image checksum matches
+kenneth-calkins: birthdate=1935-02-19 (day); visible=True; death_date=2025-12-31 (day); visible=True; arrest_date=1958-08-18 (day); visible=True; incarceration_date=1958-08-01 (month); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
