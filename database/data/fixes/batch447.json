@@ -1,0 +1,124 @@
+{
+  "batch": 447,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "doj-sentence": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0408.pdf",
+    "guardian-release": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-10-18-6-52-nat-guardian.pdf",
+    "gilbert-portrait": "https://lesbianhistorytrailmdi.weebly.com/louise-gilbert.html",
+    "gilbert-original": "https://lesbianhistorytrailmdi.weebly.com/uploads/1/3/0/9/130989980/image_orig.jpg",
+    "library-context": "https://swhplibrary.org/2021/10/19/lesbian-history-trail-of-mount-desert-island-launch/",
+    "loc-finding-aid": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/pp021033/pp021033.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "b2fd6523-e13a-403b-ab99-3085a8041660",
+      "prisoner_id": "3907150a-a8eb-4b4f-a67c-17b159efd7b9",
+      "name": "Lucille Bethencourt",
+      "slug": "lucille-bethencourt",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1956-03-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj-sentence",
+          "note": "United States Attorneys Bulletin April 13, 1956 printed pp246–247, PDF pp7–8, explicitly reports March 23, 1956 sentencing in United States v. Brandt et al. Joseph Brandt receives five years; Lucille Bethencourt three and a half. Both original pages visually checked. This is sentencing, not the February 10 verdict or actual imprisonment. Existing related defendant sentences and all custody fields preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "1855e1d0-1015-40fc-ae31-51d8e0ffc919",
+      "prisoner_id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
+      "name": "Joseph Brandt",
+      "slug": "joseph-brandt",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1956-03-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj-sentence",
+          "note": "United States Attorneys Bulletin April 13, 1956 printed pp246–247, PDF pp7–8, explicitly reports March 23, 1956 sentencing in United States v. Brandt et al. Joseph Brandt receives five years; Lucille Bethencourt three and a half. Both original pages visually checked. This is sentencing, not the February 10 verdict or actual imprisonment. Existing related defendant sentences and all custody fields preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e4ea9f7d-45dd-4d1d-a075-e81f216c4e1f",
+      "prisoner_id": "62ca41a5-2ce9-4154-b224-2d850600813b",
+      "name": "Louise Gilbert",
+      "slug": "louise-gilbert",
+      "expected": {
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "update": {
+        "release_date": "1954-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "guardian-release",
+          "note": "National Guardian October 18, 1954 printed/PDF p7, original visually checked, identifies Louise Gilbert social worker in Wade-house prosecution, describes October 1 imprisonment on bail and expressly states all indicted still in jail except Miss Gilbert who had posted bail. Establishes physical release within October, not an exact day. October 1 stored only as month-precision placeholder and displayed October 1954, not a same-day release. No service total or release day calculated."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "62ca41a5-2ce9-4154-b224-2d850600813b",
+      "prisoner_id": "62ca41a5-2ce9-4154-b224-2d850600813b",
+      "name": "Louise Gilbert",
+      "slug": "louise-gilbert",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/louise-gilbert-mdi-history-trail-batch447.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "gilbert-portrait",
+          "note": "Historical trail page identifies Louisville Wade Defense Committee defendant and LaRue Spiker partner, captioned newspaper portrait at her grand jury indictment, credited to Mount Desert Historical Society. Original clipping independently captions Miss Louise Gilbert, social worker and former chairman Louisville Branch WILPF. Original inspected. Exact crop removes caption and margin only; retained pixels unchanged. Photographer/newspaper uncredited; rights undetermined. Distinct from San Francisco artist Louise Gilbert."
+        }
+      ],
+      "asset": {
+        "file": "louise-gilbert-mdi-history-trail-batch447.png",
+        "sha256": "e3d7c87fedd958d76371493ea03645d77698fc62a8751e4597efac2ac882b47f",
+        "crop_box": [
+          42,
+          15,
+          658,
+          785
+        ],
+        "original_dimensions": [
+          693,
+          1002
+        ],
+        "original_pixel_mode": "RGB"
+      }
+    }
+  ]
+}
