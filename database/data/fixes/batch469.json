@@ -1,0 +1,297 @@
+{
+  "batch": 469,
+  "audit_date": "2026-10-12",
+  "expected_count": 9,
+  "sources": {
+    "moos-family": "https://emrosebooks.com/documents/Bernhard_Moos-by_Emily_Rose.pdf",
+    "fleischman-research": "https://today.uconn.edu/2025/04/living-ernestina-a-womans-story-of-bravery-exile-tragic-love-and-activism/",
+    "fleischman-image": "https://today.uconn.edu/wp-content/uploads/2025/04/FotoErnestinayLeo.jpg",
+    "fleischman-conflict": "https://usldhrecovery.uh.edu/exhibits/show/fighting-fascist-spain--the-ex/antifascist-stage/speakers-and-performers/radical-women",
+    "labovitz-author": "https://writing.upenn.edu/wh/archival/events/1999/beingred.html",
+    "labovitz-image": "https://writing.upenn.edu/~afilreis/Images/sherm.gif",
+    "willie-home": "https://www.spauda2.org/laisve/archive/1951/1951-12-14-LAISVE.pdf",
+    "willie-held": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-11-21-4-5-nat-guardian.pdf",
+    "young-letter": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-04-09-4-25-nat-guardian.pdf",
+    "hallinan-court": "https://www.casemine.com/judgement/us/5c563d2e342cca2d430a253d",
+    "blumberg-court": "https://law.justia.com/cases/federal/district-courts/FSupp/111/919/1815880/",
+    "blumberg-docket": "https://msa.maryland.gov/megafile/msa/speccol/sc5300/sc5339/000209/000000/000014/restricted/msa_sc5458_000051_003509-2.pdf",
+    "amter-sentence": "https://www.spauda2.org/laisve/archive/1930/1930-04-22-LAISVE.pdf",
+    "ohio-doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0109.pdf",
+    "bryan-original": "https://www.marxists.org/history/usa/pubs/new-masses/1947/v64n01-jul-01-1947-NM.pdf",
+    "bryan-court": "https://law.justia.com/cases/federal/district-courts/FSupp/72/58/2238858/"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "20096c1c-a7af-4c41-970a-50536a717b90",
+      "prisoner_id": "20096c1c-a7af-4c41-970a-50536a717b90",
+      "name": "Elizabeth Moos",
+      "slug": "elizabeth-moos",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1890-01-01 00:00:00",
+        "death_date": "1984-12-30 00:00:00",
+        "photo": "prisoners/elizabeth-moos-family-archive-batch469.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "moos-family",
+          "note": "Family-history author Emily Rose explicitly gives Elizabeth Moos1890–1984 onPDFp30; same family, Hessian Hills school and children identify peace activist in existing record. YEAR only; no birthday inferred from obituary age."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "moos-family",
+          "note": "Original NYTimes January1,1985 obituary reproduced onPDFp31, visually inspected: died Sunday at Riverside Drive apartment. Tuesday January1,1985 implies Sunday December30,1984. Calendar checked. This is death day, not publication. Original clipping identifies PIC prosecution, SmithCollege1911 and children."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "moos-family",
+          "note": "Explicitly identified family photograph onPDFp31; retained-pixel crop of woman on right. No custody endpoints inferred from indictment or acquittal."
+        }
+      ],
+      "asset": {
+        "file": "elizabeth-moos-family-archive-batch469.png",
+        "sha256": "555afade5857d6196681a0f6c560cc25204b03a460126cd76017809fb2d42bc6"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "18ecd931-8524-4c35-bc00-18f9e7da0c0d",
+      "prisoner_id": "18ecd931-8524-4c35-bc00-18f9e7da0c0d",
+      "name": "Ernestina Fleischman",
+      "slug": "ernestina-fleischman",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1896-01-01 00:00:00",
+        "death_date": "1976-01-01 00:00:00",
+        "photo": "prisoners/ernestina-fleischman-vicens-family-batch469.png",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "fleischman-research",
+          "note": "UConn2025 own report on Ana Maria Diaz-Marcos archival biography research explicitly states born1896, died1976. YEAR precision only; day1 placeholders. Houston exhibit gives1899 conflicting birth year, logged; newer dedicated archival research used. PARES exact-day authority record inaccessible429/SSL, not claimed inspected and no exact days added."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "fleischman-research",
+          "note": "Caption names Ernestina and Leo, courtesy Vicens family. Exact woman-left crop; same activist independently identified by library career, JAFRC and exile. Existing admission and inferred release preserved; no physical release inferred from sentence."
+        }
+      ],
+      "asset": {
+        "file": "ernestina-fleischman-vicens-family-batch469.png",
+        "sha256": "4833982f139d0a73ba079431e33197581a39b8ce357fa45b0fdeed308e6531c6"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "ab609ca0-acb5-4418-8618-39dee34f53df",
+      "prisoner_id": "ab609ca0-acb5-4418-8618-39dee34f53df",
+      "name": "Sherman Labovitz",
+      "slug": "sherman-labovitz",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/sherman-labovitz-upenn-batch469.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "labovitz-author",
+          "note": "University own author-event archive identifies author, WWII service and1953SmithAct prosecution; linked single-person portrait. Full original decodedGIF pixels preserved losslessly asPNG. No unsupported vital dates or sentence day. Existing duplicate cases preserved; appellate reversal not physical release."
+        }
+      ],
+      "asset": {
+        "file": "sherman-labovitz-upenn-batch469.png",
+        "sha256": "74063be8f059c11710be7a9c7b51832789ad9ba823124fee459aefacc768601a"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "22b1d813-8c78-4eb8-9112-0922f6df6292",
+      "prisoner_id": "22b1d813-8c78-4eb8-9112-0922f6df6292",
+      "name": "Willie Thomas",
+      "slug": "willie-thomas",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/willie-thomas-laisve-batch469.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "willie-home",
+          "note": "Original Laisve December14,1951p5 caption identifies WillieThomas at Albanyhome with wife and children after Dewey refused Alabama extradition. Man on right isolated; original and crop visually inspected. No vitals from unrelated trumpeter, sportsman or modern obituaries."
+        }
+      ],
+      "asset": {
+        "file": "willie-thomas-laisve-batch469.png",
+        "sha256": "5c5bed52ce4f1f418152e14afdc63731c2bdf703efbb105751b1370e6d55d6fb"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3a6d37e1-c762-4e94-8643-f39627d7b2b2",
+      "prisoner_id": "e320817c-bd47-4eda-afcb-1e62c041d960",
+      "name": "Martin Young",
+      "slug": "martin-young",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1951-10-26 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "young-letter",
+          "note": "NationalGuardian April9,1952printedp6 introduction to Young own EllisIsland letter explicitly says arrested for deportation October26,1951and held without bail since then. Original source inspected. Populated admission1919May5 appears mismatched to1951episode and is retained under missing-only scope. Release deliberately left blank: endpoint would create false1919–1952interval until start reconciled. No birthday inferred from46age."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "edea32ab-780d-4574-bd0f-f99e7be82330",
+      "prisoner_id": "30e023bb-55e9-411e-9883-5d72d598a4f2",
+      "name": "Vincent Hallinan",
+      "slug": "vincent-hallinan",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-11-22 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "hallinan-court",
+          "note": "Original district judge own UnitedStatesvHallinan103FSupp800 March17,1952 opinion explicitly initial contempt sentence November22,1949; distinguishes second concurrent contempt sentence April4,1950and delayed service. First original sentence added for existing Bridges contempt record. March1952 stay expiration not assumed actual admission; populated April1,1952admission retained. Separate tax prosecution not conflated."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "87a3cf8a-28ea-4ded-990c-44ac6363ee42",
+      "prisoner_id": "02222b1c-7522-433a-94b0-c433fbeae7fe",
+      "name": "Dorothy Rose Blumberg",
+      "slug": "dorothy-rose-blumberg",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1952-04-04 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "blumberg-court",
+          "note": "Original judge Chesnut UnitedStatesvFrankfeld111FSupp919 expressly sentence and judgment April4,1952; verdict April1distinguished. StateArchives docket indexed text names DorothyRoseBlumberg in same April4three-year judgment. No precise physical admission inferred from commitment order. Existing parallel pretrial row already has sentence populated, preserved without merging or duplicating."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "83738910-16c3-442d-a72c-26d7b06822d0",
+      "prisoner_id": "fb4eb745-5244-4700-b82e-30eba829669c",
+      "name": "Israel Amter",
+      "slug": "israel-amter",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1930-04-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "amter-sentence",
+          "note": "Original Laisve TuesdayApril22,1930p1, visually inspected, reports Monday sentencing of Amter,Foster,Minor,Raymond for March6unemployed delegation; prior Monday is April21. Court sentence distinguished from original arrest. Existing March1930arrest/April1930admission/October1930release identify episode, but populated charges wrongly say1950sSmithAct; conflict logged without prose replacement. Existing vitals/photo unchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b272504c-69f9-4cd9-b186-d4fb72f471f7",
+      "prisoner_id": "22b1d813-8c78-4eb8-9112-0922f6df6292",
+      "name": "Willie Thomas",
+      "slug": "willie-thomas",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1951-01-01 00:00:00",
+        "incarceration_date": "1951-01-01 00:00:00",
+        "release_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "willie-held",
+          "note": "Original NationalGuardian November21,1951p5, visually inspected, reports recent Albany police roundup/fingerprints then current holding for Alabama extradition. YEAR1951only; initial few-hour roundup and subsequent re-arrest not falsely assigned one exact day. Actual holding explicitly reported; no admission inferred from warrant. Current1951episode, not original1934Alabama imprisonment or1945escape."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "willie-home",
+          "note": "Original Laisve December14,1951p5 photograph and caption explicitly at Albanyhome with family, says no need return to Alabamachain gang because GovernorDewey refused extradition. Actual out-of-custody home presence by December14after November21held report verifies releaseYEAR1951, exact day unresolved. AllJanuary1values are YEAR storage placeholders, not claimed same-day arrest/release; no computed duration or original100year sentence copied."
+        }
+      ]
+    }
+  ]
+}
