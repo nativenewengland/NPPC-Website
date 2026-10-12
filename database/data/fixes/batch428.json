@@ -1,0 +1,93 @@
+{
+  "batch": 428,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "foreman": "https://www.trumanlibrary.gov/photograph-records/61-109",
+    "urie": "https://digital.janeaddams.ramapo.edu/items/show/4934",
+    "schirmer": "https://dl.tufts.edu/downloads/d791sv98g?filename=8w32rj74j.pdf"
+  },
+  "expected_count": 3,
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "d4bcfe38-3311-42d1-aedb-9be59fafb7d3",
+      "prisoner_id": "d4bcfe38-3311-42d1-aedb-9be59fafb7d3",
+      "slug": "clark-foreman",
+      "name": "Clark Foreman",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "update": {
+        "photo": "prisoners/clark-foreman-harris-ewing-batch428.png"
+      },
+      "asset": {
+        "file": "clark-foreman-harris-ewing-batch428.png",
+        "sha256": "89c13f7a749a1bd5f19fa9f392b496ce391d26c8068f09681c952956e000abc4"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "foreman",
+          "note": "Truman Library accession61-109, April3,1945 JusticeBlack testimonial dinner. Original caption explicitly identifies ClarkForeman third fromleft, between HugoBlack and FredVinson. Photographer Harris&Ewing. Cropped only the named third man. Library states it is unaware of copyright claims; no known claim is not a blanket public-domain determination."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "637e1f5c-3503-4fee-9153-208d5129a900",
+      "prisoner_id": "637e1f5c-3503-4fee-9153-208d5129a900",
+      "slug": "caroline-foulke-urie",
+      "name": "Caroline Foulke Urie",
+      "expected": {
+        "photo": null,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "update": {
+        "photo": "prisoners/caroline-foulke-urie-addams-batch428.png"
+      },
+      "asset": {
+        "file": "caroline-foulke-urie-addams-batch428.png",
+        "sha256": "bdcb23edc6e2d0568b4c7c9342a445d8af20e94649aa197491c8548c19004fef"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "urie",
+          "note": "JaneAddams DigitalEdition person entry4934 explicitly identifies CarolineFoulkeUrie, Quaker relief worker and war-tax refuser never prosecuted. The portrait belongs to that entry; not inferred from filename or resemblance. Page labels rights publicdomain. Photographer and exposuredate not supplied. Original is260x543; crop removes newspaper and hands below face. Vitals already populated and unchanged, includingJuly28 birthday despiteJuly27 on another secondarysite."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "be73b5a0-c168-4320-ba55-adb979acf472",
+      "prisoner_id": "be73b5a0-c168-4320-ba55-adb979acf472",
+      "slug": "daniel-boone-schirmer",
+      "name": "Daniel Boone Schirmer",
+      "expected": {
+        "photo": null,
+        "date_precision": null
+      },
+      "update": {
+        "photo": "prisoners/daniel-boone-schirmer-jon-pearlman-batch428.png"
+      },
+      "asset": {
+        "file": "daniel-boone-schirmer-jon-pearlman-batch428.png",
+        "sha256": "045b77468e7d634f7b4bf4767ea030b7a4b66004c13b59e10dccee26b5ffe49e"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "schirmer",
+          "note": "Tufts Observer vol12no12, December9,1977 printed/PDFpage8. Caption explicitly identifies formerBUprofessor DanielBooneSchirmer as second photograph clockwise fromupperleft, the upperright speaker. Photos credited JonPearlman. Page14 independently identifies his FriendsOfTheFilipinoPeople work, teaching and book RepublicOrEmpire. Exact rectangular crop of2x page rendering, with no later resampling or retouching. Copyrightstatus not established; archivalhosting does not confer publicdomain."
+        }
+      ]
+    }
+  ]
+}
