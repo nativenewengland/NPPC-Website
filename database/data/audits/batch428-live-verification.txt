@@ -1,0 +1,15 @@
+Batch 428 live verification — October 12,2026
+Data commit: 2fc91787
+B428-ISOLATED-TEST-OK 155 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview3 matched guarded rows. Applied3 rows; replay0 rows. B428-OK on all three runs.
+Compared 723 profiles and 852 cases: 50214 unrelated field values preserved; 3 expected fields verified, with existing precision metadata preserved.
+Three missing portraits attached. No profile or case created or removed. No populated field, biography, case prose, date, precision metadata, duration, custody flag or sort order changed. API cache cleared after actual changes; no pull request created.
+Batch 428 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B428-OK.
+All 3 public profile pages returned HTTP 200. All three portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+caroline-foulke-urie: portrait renders and HTTP image checksum matches
+clark-foreman: portrait renders and HTTP image checksum matches
+daniel-boone-schirmer: portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
