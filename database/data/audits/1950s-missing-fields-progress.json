@@ -6520,8 +6520,27 @@
     "martin-young": {
       "id": "e320817c-bd47-4eda-afcb-1e62c041d960",
       "name": "Martin Young",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoner_cases",
+          "id": "3a6d37e1-c762-4e94-8643-f39627d7b2b2",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "young-letter",
+              "note": "NationalGuardian April9,1952printedp6 introduction to Young own EllisIsland letter explicitly says arrested for deportation October26,1951and held without bail since then. Original source inspected. Populated admission1919May5 appears mismatched to1951episode and is retained under missing-only scope. Release deliberately left blank: endpoint would create false1919–1952interval until start reconciled. No birthday inferred from46age."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "3a6d37e1-c762-4e94-8643-f39627d7b2b2"
       ],
@@ -6531,13 +6550,13 @@
       ],
       "missing_case_fields": {
         "3a6d37e1-c762-4e94-8643-f39627d7b2b2": [
-          "arrest_date",
           "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "abdel-mohsen-hamouda": {
       "id": "5a35f52c-2466-41fa-859e-3acfbfbb7b27",
@@ -6565,43 +6584,106 @@
     "willie-thomas": {
       "id": "22b1d813-8c78-4eb8-9112-0922f6df6292",
       "name": "Willie Thomas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoners",
+          "id": "22b1d813-8c78-4eb8-9112-0922f6df6292",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "willie-home",
+              "note": "Original Laisve December14,1951p5 caption identifies WillieThomas at Albanyhome with wife and children after Dewey refused Alabama extradition. Man on right isolated; original and crop visually inspected. No vitals from unrelated trumpeter, sportsman or modern obituaries."
+            }
+          ]
+        },
+        {
+          "batch": 469,
+          "table": "prisoner_cases",
+          "id": "b272504c-69f9-4cd9-b186-d4fb72f471f7",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "willie-held",
+              "note": "Original NationalGuardian November21,1951p5, visually inspected, reports recent Albany police roundup/fingerprints then current holding for Alabama extradition. YEAR1951only; initial few-hour roundup and subsequent re-arrest not falsely assigned one exact day. Actual holding explicitly reported; no admission inferred from warrant. Current1951episode, not original1934Alabama imprisonment or1945escape."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "willie-home",
+              "note": "Original Laisve December14,1951p5 photograph and caption explicitly at Albanyhome with family, says no need return to Alabamachain gang because GovernorDewey refused extradition. Actual out-of-custody home presence by December14after November21held report verifies releaseYEAR1951, exact day unresolved. AllJanuary1values are YEAR storage placeholders, not claimed same-day arrest/release; no computed duration or original100year sentence copied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b272504c-69f9-4cd9-b186-d4fb72f471f7"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "b272504c-69f9-4cd9-b186-d4fb72f471f7": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "israel-amter": {
       "id": "fb4eb745-5244-4700-b82e-30eba829669c",
       "name": "Israel Amter",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoner_cases",
+          "id": "83738910-16c3-442d-a72c-26d7b06822d0",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "amter-sentence",
+              "note": "Original Laisve TuesdayApril22,1930p1, visually inspected, reports Monday sentencing of Amter,Foster,Minor,Raymond for March6unemployed delegation; prior Monday is April21. Court sentence distinguished from original arrest. Existing March1930arrest/April1930admission/October1930release identify episode, but populated charges wrongly say1950sSmithAct; conflict logged without prose replacement. Existing vitals/photo unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "83738910-16c3-442d-a72c-26d7b06822d0"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "83738910-16c3-442d-a72c-26d7b06822d0": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "william-weinstone": {
       "id": "e00d2548-d0ee-4e80-937d-4a20e5056c97",
@@ -6658,8 +6740,27 @@
     "vincent-hallinan": {
       "id": "30e023bb-55e9-411e-9883-5d72d598a4f2",
       "name": "Vincent Hallinan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoner_cases",
+          "id": "edea32ab-780d-4574-bd0f-f99e7be82330",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "hallinan-court",
+              "note": "Original district judge own UnitedStatesvHallinan103FSupp800 March17,1952 opinion explicitly initial contempt sentence November22,1949; distinguishes second concurrent contempt sentence April4,1950and delayed service. First original sentence added for existing Bridges contempt record. March1952 stay expiration not assumed actual admission; populated April1,1952admission retained. Separate tax prosecution not conflated."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "edea32ab-780d-4574-bd0f-f99e7be82330"
       ],
@@ -6667,25 +6768,56 @@
       "missing_case_fields": {
         "edea32ab-780d-4574-bd0f-f99e7be82330": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "elizabeth-moos": {
       "id": "20096c1c-a7af-4c41-970a-50536a717b90",
       "name": "Elizabeth Moos",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoners",
+          "id": "20096c1c-a7af-4c41-970a-50536a717b90",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "moos-family",
+              "note": "Family-history author Emily Rose explicitly gives Elizabeth Moos1890–1984 onPDFp30; same family, Hessian Hills school and children identify peace activist in existing record. YEAR only; no birthday inferred from obituary age."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "moos-family",
+              "note": "Original NYTimes January1,1985 obituary reproduced onPDFp31, visually inspected: died Sunday at Riverside Drive apartment. Tuesday January1,1985 implies Sunday December30,1984. Calendar checked. This is death day, not publication. Original clipping identifies PIC prosecution, SmithCollege1911 and children."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "moos-family",
+              "note": "Explicitly identified family photograph onPDFp31; retained-pixel crop of woman on right. No custody endpoints inferred from indictment or acquittal."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "706d1ad1-57ee-4e74-9bab-6253975fe286"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "706d1ad1-57ee-4e74-9bab-6253975fe286": [
           "sentenced_date",
@@ -6694,7 +6826,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "frederick-vanderbilt-field": {
       "id": "d9d8f892-7a71-48b7-8baf-e1719dad4f9a",
@@ -6978,8 +7111,14 @@
     "helen-bryan": {
       "id": "6e18ca16-3ccf-4e4e-b7bb-be31306d7fb8",
       "name": "Helen Bryan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original NewMasses July1,1947 printedp12 researched named JAFRC executive secretary, no portrait. Original USvBryan72FSupp58 May21,1947 concerns subpoena indictment, not sentencing or admission. Separate twelve-month individual and three-month board conspiracy sentence accounts require reconciliation; no sentencing date attached to ambiguous duplicate rows. Populated November13,1950admission and February1951inferred release retained; source evidence not adequate to copy those to blank duplicate."
+        }
+      ],
       "case_ids": [
         "608d0f20-8628-456c-b2b5-57b53a5b96f4",
         "db3d0980-d262-4a39-9019-3711fda438b8"
@@ -7002,21 +7141,47 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original NewMasses July1,1947 printedp12 researched named JAFRC executive secretary, no portrait. Original USvBryan72FSupp58 May21,1947 concerns subpoena indictment, not sentencing or admission. Separate twelve-month individual and three-month board conspiracy sentence accounts require reconciliation; no sentencing date attached to ambiguous duplicate rows. Populated November13,1950admission and February1951inferred release retained; source evidence not adequate to copy those to blank duplicate."
     },
     "ernestina-fleischman": {
       "id": "18ecd931-8524-4c35-bc00-18f9e7da0c0d",
       "name": "Ernestina Fleischman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoners",
+          "id": "18ecd931-8524-4c35-bc00-18f9e7da0c0d",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "fleischman-research",
+              "note": "UConn2025 own report on Ana Maria Diaz-Marcos archival biography research explicitly states born1896, died1976. YEAR precision only; day1 placeholders. Houston exhibit gives1899 conflicting birth year, logged; newer dedicated archival research used. PARES exact-day authority record inaccessible429/SSL, not claimed inspected and no exact days added."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "fleischman-research",
+              "note": "Caption names Ernestina and Leo, courtesy Vicens family. Exact woman-left crop; same activist independently identified by library career, JAFRC and exile. Existing admission and inferred release preserved; no physical release inferred from sentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2f867fbe-42b4-41ff-b595-d5d5290ecfa9"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "2f867fbe-42b4-41ff-b595-d5d5290ecfa9": [
           "arrest_date",
@@ -7024,7 +7189,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "dorothy-ray-healey": {
       "id": "1f11c3d5-6198-4dfd-84fd-93ee35e48b51",
@@ -7326,8 +7492,27 @@
     "dorothy-rose-blumberg": {
       "id": "02222b1c-7522-433a-94b0-c433fbeae7fe",
       "name": "Dorothy Rose Blumberg",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoner_cases",
+          "id": "87a3cf8a-28ea-4ded-990c-44ac6363ee42",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "blumberg-court",
+              "note": "Original judge Chesnut UnitedStatesvFrankfeld111FSupp919 expressly sentence and judgment April4,1952; verdict April1distinguished. StateArchives docket indexed text names DorothyRoseBlumberg in same April4three-year judgment. No precise physical admission inferred from commitment order. Existing parallel pretrial row already has sentence populated, preserved without merging or duplicating."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "533acc48-3d59-48f4-afa5-f8f9cfd6746d",
         "87a3cf8a-28ea-4ded-990c-44ac6363ee42"
@@ -7341,11 +7526,11 @@
         ],
         "87a3cf8a-28ea-4ded-990c-44ac6363ee42": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "phil-frankfeld": {
       "id": "81757638-df71-4b55-8e34-08bb3dc70bb8",
@@ -7430,8 +7615,14 @@
     "william-albertson": {
       "id": "ebf8a019-5ff8-430d-ba9c-0aa17d7436d5",
       "name": "William Albertson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original SupremeCourt Mesarosh352US1 and existing profile distinguish conviction/sentence from appeal bail. No actual sentence service established; appellate reversal1956does not supply actual release endpoint. Vitals/photo full. No unsupported detention interval added."
+        }
+      ],
       "case_ids": [
         "f5f0df84-4176-4782-aeca-96b87e446912"
       ],
@@ -7443,7 +7634,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original SupremeCourt Mesarosh352US1 and existing profile distinguish conviction/sentence from appeal bail. No actual sentence service established; appellate reversal1956does not supply actual release endpoint. Vitals/photo full. No unsupported detention interval added."
     },
     "jack-hall": {
       "id": "852f58a7-a77d-4563-9dbf-ea6a01d80824",
@@ -7868,14 +8060,32 @@
     "sherman-labovitz": {
       "id": "ab609ca0-acb5-4418-8618-39dee34f53df",
       "name": "Sherman Labovitz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "table": "prisoners",
+          "id": "ab609ca0-acb5-4418-8618-39dee34f53df",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "labovitz-author",
+              "note": "University own author-event archive identifies author, WWII service and1953SmithAct prosecution; linked single-person portrait. Full original decodedGIF pixels preserved losslessly asPNG. No unsupported vital dates or sentence day. Existing duplicate cases preserved; appellate reversal not physical release."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6b97c9a1-28bb-4e43-9b05-10c59f44d917",
         "8404f987-ba2c-421a-a963-10f61ca9ab84"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -7894,7 +8104,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch469 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "john-s-daschbach": {
       "id": "145f9726-396e-4432-b9c6-0979cabfe1ab",
@@ -8015,8 +8226,14 @@
     "frieda-zucker-katz": {
       "id": "670e4046-9d65-46b9-9ef0-9ec46c5dc09f",
       "name": "Frieda Zucker Katz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOJ own USAttorneysBulletin Vol1No9 records Cleveland indictment November9,1953superseding October9case, explicitly names FriedaZuckerKatz. Indictment alone does not establish jail. Existing October6arrest preserved; February1956acquittal does not verify release. No identity-matched vitals/portrait found."
+        }
+      ],
       "case_ids": [
         "1902e38b-9263-41d1-9159-548da35b1787"
       ],
@@ -8033,13 +8250,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOJ own USAttorneysBulletin Vol1No9 records Cleveland indictment November9,1953superseding October9case, explicitly names FriedaZuckerKatz. Indictment alone does not establish jail. Existing October6arrest preserved; February1956acquittal does not verify release. No identity-matched vitals/portrait found."
     },
     "david-katz": {
       "id": "a489775f-7033-4473-b451-2350ef0a3951",
       "name": "David Katz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "Same DOJ indictment identifies DavidKatz with FriedaZuckerKatz,Greenfield,Dougher. Populated January5,1956release may represent proceeding date rather than actual release, preserved; no proof continuous October1953–January1956custody. No vital dates/photos from common-name matches. No conviction sentence assumed for acquitted defendant."
+        }
+      ],
       "case_ids": [
         "195fc1ba-6100-4772-9db2-fab06cf1300c"
       ],
@@ -8054,13 +8278,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Same DOJ indictment identifies DavidKatz with FriedaZuckerKatz,Greenfield,Dougher. Populated January5,1956release may represent proceeding date rather than actual release, preserved; no proof continuous October1953–January1956custody. No vital dates/photos from common-name matches. No conviction sentence assumed for acquitted defendant."
     },
     "elvadoore-claude-greenfield": {
       "id": "873436b5-21fa-4d94-a30f-0d540a65e718",
       "name": "Elvadoore Claude Greenfield",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOJ original Cleveland superseding indictment names ElvadooreClaudeGreenfield. Trial/acquittal accounts do not establish physical admission/release; no endpoints invented. Existing October6arrest untouched. No exact life dates or identified portrait found in reviewed sources."
+        }
+      ],
       "case_ids": [
         "bfa95311-b436-4869-98a9-d336b224316c"
       ],
@@ -8077,7 +8308,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOJ original Cleveland superseding indictment names ElvadooreClaudeGreenfield. Trial/acquittal accounts do not establish physical admission/release; no endpoints invented. Existing October6arrest untouched. No exact life dates or identified portrait found in reviewed sources."
     },
     "lucille-bethencourt": {
       "id": "3907150a-a8eb-4b4f-a67c-17b159efd7b9",
@@ -8130,8 +8362,14 @@
     "joseph-dougher": {
       "id": "3697aba5-aa8e-41fa-bfe0-f5ce29156d6c",
       "name": "Joseph Dougher",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 469,
+          "status": "reviewed, no unsupported additions",
+          "note": "DOJ own indictment identifies JosephDougher as ClevelandSmithAct defendant. Charges and acquittal not custody evidence. Existing arrest unchanged; no verified endpoints or identity-matched life dates/photo. OhioGuardian February20,1956issue searched without target matches, not claimed evidence of individual release."
+        }
+      ],
       "case_ids": [
         "14a87ac7-ac86-47a6-ab32-bd2bb1b31c39"
       ],
@@ -8148,7 +8386,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "DOJ own indictment identifies JosephDougher as ClevelandSmithAct defendant. Charges and acquittal not custody evidence. Existing arrest unchanged; no verified endpoints or identity-matched life dates/photo. OhioGuardian February20,1956issue searched without target matches, not claimed evidence of individual release."
     },
     "robert-a-campbell": {
       "id": "213b5db9-54a2-4ed3-86fa-98939fe6bc6c",
