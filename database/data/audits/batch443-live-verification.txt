@@ -1,0 +1,17 @@
+Batch 443 live verification — October 12,2026
+Data commit: ae5d3779
+B443-ISOLATED-TEST-OK 232 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview5 matched guarded rows. Applied5 rows; replay0 rows. B443-OK on all three runs.
+Compared 723 profiles and 852 cases: 50206 unrelated field values preserved; 9 expected fields verified, including three precision metadata values; existing precision entries preserved.
+Four missing vital date values and two identified photographs filled across five profiles. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 443 repeat live/public check — October 12, 2026
+All 5 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B443-OK.
+All 5 public profile pages returned HTTP 200. Both portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+john-t-gojack: birthdate=1916-08-15 (day); visible=True
+joseph-brandt: portrait renders and HTTP image checksum matches
+joseph-cort: portrait renders and HTTP image checksum matches
+joseph-felmet: death_date=1994-01-01 (year); visible=True
+julian-schuman: birthdate=1920-01-01 (year); visible=True; death_date=1995-04-01 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

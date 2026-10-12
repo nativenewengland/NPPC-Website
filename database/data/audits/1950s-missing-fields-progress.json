@@ -176,14 +176,38 @@
     "joseph-felmet": {
       "id": "a9596341-4bf2-4b81-bd7e-4c226c166640",
       "name": "Joseph Felmet",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "table": "prisoners",
+          "id": "a9596341-4bf2-4b81-bd7e-4c226c166640",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "felmet-archive",
+              "note": "Swarthmore College Peace Collection/TriCollege finding aid explicitly identifies Joseph Andrew Felmet, pacifist and WWII conscientious objector, born 1921 and died 1994. Year precision only."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "felmet-obituary",
+              "note": "October 20, 1994 Winston-Salem Chronicle, page 10, Original Freedom Rider Found Dead, contemporary obituary confirms Joseph Felmet death. Original page visually checked. Exact death versus discovery days are unresolved; no day assigned. Existing birthdate preserved despite conflicting secondary May 31 lead. Existing imprisonment duration retained despite six/eight-month source discrepancy."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9ba2c92f-41eb-4ecc-a116-34fd1e51851d"
       ],
-      "missing_profile_fields": [
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "9ba2c92f-41eb-4ecc-a116-34fd1e51851d": [
           "arrest_date",
@@ -193,7 +217,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
     },
     "reubin-clein": {
       "id": "c6067984-1d73-49b7-81fd-04085ccc5ab7",
@@ -5809,14 +5834,31 @@
     "joseph-brandt": {
       "id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
       "name": "Joseph Brandt",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "table": "prisoners",
+          "id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "brandt-archive",
+              "note": "Joseph Brandt, April 1938. 15th International Brigade Photographic Unit Photograph Collection, ALBA Photo 11, item 11-0143, Tamiment Library/Robert F. Wagner Labor Archives, New York University Libraries. ALBA volunteer page explicitly identifies this photograph and ties Sam Brustein to Ohio CP organizing, Spanish Civil War service and Smith Act imprisonment. Original 237x317 JPEG retained, including archive marking. Copyright retained by the archive; no public-domain claim. Unrelated painter, Mohawk leader and university president namesakes excluded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1855e1d0-1015-40fc-ae31-51d8e0ffc919"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "1855e1d0-1015-40fc-ae31-51d8e0ffc919": [
           "sentenced_date",
@@ -5825,7 +5867,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
     },
     "corliss-lamont": {
       "id": "79b44f3a-b626-48dd-b479-d7b9caee6ede",
@@ -8441,13 +8484,31 @@
     "joseph-cort": {
       "id": "ab25faeb-1ee6-42a6-8af3-990dce7d072d",
       "name": "Joseph Cort",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "table": "prisoners",
+          "id": "ab25faeb-1ee6-42a6-8af3-990dce7d072d",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "cort-photo",
+              "note": "Głos Wielkopolski, Poznań, August 7, 1954, issue 187 (3243), printed/PDF page 1. Caption identifies Dr Joseph and Dr Ruth Cort aboard Jarosław Dąbrowski, arriving in Poland August 4 en route to asylum in Czechoslovakia after Britain refused asylum. Caption credits CAF, photograph by Gutkiewicz. Male subject isolated from native /Bg JPX 4643x6850 by exact rectangular crop 570x950, retaining original color/halftone. University, spouse, draft and asylum context match Cort court record. This photograph does not establish any American arrest or confinement."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2f455ac2-8ad4-4318-b5d0-be2acd8c3f05"
       ],
       "missing_profile_fields": [
-        "photo",
         "death_date"
       ],
       "missing_case_fields": {
@@ -8459,7 +8520,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
     },
     "david-leff": {
       "id": "2c3a6a0d-77b7-477d-b825-bdafaeb86297",
@@ -10817,8 +10879,14 @@
     "john-t-watkins": {
       "id": "532bcde0-d90a-4b53-89aa-ddb3afc55af3",
       "name": "John T. Watkins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "status": "researched; no supported addition",
+          "evidence": "Court/committee material confirms suspended sentence and reversal, not actual service. Vitals and portrait namesake leads not independently matched; no supported addition."
+        }
+      ],
       "case_ids": [
         "53be2d4f-a50c-4f87-bc54-3af654b976e7"
       ],
@@ -10836,18 +10904,37 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court/committee material confirms suspended sentence and reversal, not actual service. Vitals and portrait namesake leads not independently matched; no supported addition. See batch443 audit."
     },
     "john-t-gojack": {
       "id": "defc43e1-ede8-425c-861e-37865b31e863",
       "name": "John T. Gojack",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "table": "prisoners",
+          "id": "defc43e1-ede8-425c-861e-37865b31e863",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "gojack-testimony",
+              "note": "Congressional Record, House, July 26, 1955, printed 11516/PDF page 4, reproduces February 28, 1955 HUAC testimony. John Thomas Gojack himself states born Dayton, Ohio, August 15, 1916, and identifies Fort Wayne residence and UE District 9 presidency. Original page visually checked. Death and actual incarceration remain unresolved; existing portrait preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b1737e5c-43e0-4922-9810-9b8ff09cfce1"
       ],
       "missing_profile_fields": [
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
@@ -10859,7 +10946,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
     },
     "saul-grossman": {
       "id": "75e49a93-7089-48d9-8ca6-e5e7b8c018b4",
@@ -11302,15 +11390,40 @@
     "julian-schuman": {
       "id": "53ba17d2-2d65-4320-9157-6737c41fa49e",
       "name": "Julian Schuman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "table": "prisoners",
+          "id": "53ba17d2-2d65-4320-9157-6737c41fa49e",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "schuman-birth-study",
+              "note": "Fuyuan Shen, John William Powell and The China Weekly Review: An Analysis of His Reporting and His McCarthy Era Ordeal, AEJMC annual convention August 1994, printed page 13/PDF page 146, explicitly states Julian Schuman born in Boston in 1920. Source page visually checked; note 33 cites Stanley Kutler, The American Inquisition. Scholarly secondary evidence used for year only. No unconfirmed genealogical exact birthday assigned."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "schuman-obituary",
+              "note": "May 10, 1995 obituary reports Julian Schuman died April 1 in Beijing and identifies China Weekly Review/Powell prosecution, matching this profile. Day precision; no confinement inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e1a5f5ba-eb3e-4688-91a7-977eda04cf15"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "e1a5f5ba-eb3e-4688-91a7-977eda04cf15": [
@@ -11321,7 +11434,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch443 audit."
     },
     "leo-fisher": {
       "id": "6f22317b-95ab-4fce-b0f9-3d476bc8b0fd",
@@ -16974,8 +17088,14 @@
     "joseph-p-kamp": {
       "id": "dbbc000f-da28-42d9-ba4c-1ef7d10f65c4",
       "name": "Joseph P. Kamp",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 443,
+          "status": "researched; no supported addition",
+          "evidence": "Contemporary committee/court records reviewed; no identified missing portrait or actual release day newly verified. No release computed from sentence."
+        }
+      ],
       "case_ids": [
         "5d50dbbf-45bd-4023-8e5d-46535359bf4d"
       ],
@@ -16989,7 +17109,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Contemporary committee/court records reviewed; no identified missing portrait or actual release day newly verified. No release computed from sentence. See batch443 audit."
     },
     "ruth-leider": {
       "id": "8fb4a081-16c8-4f6d-97ab-75ea1a90e4c9",
