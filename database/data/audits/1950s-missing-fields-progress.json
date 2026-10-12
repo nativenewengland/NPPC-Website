@@ -3834,13 +3834,31 @@
     "jerry-newson": {
       "id": "5f007f45-a5d6-4945-974d-07c7e8a89d8d",
       "name": "Jerry Newson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "table": "prisoners",
+          "id": "5f007f45-a5d6-4945-974d-07c7e8a89d8d",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "newson-photo",
+              "note": "August28,1952 printed/PDF3 standalone portrait directly captioned JerryNewson, in article about Oakland double-murder trials and EastBayCRC defense. Crime dismissal is not release: robbery imprisonment continued. Native/Im0 JPX4245x5616grayscale, crop840x1095."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0f46db05-49b1-4a2f-bb1e-7646ebb4f692"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -3851,7 +3869,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned Newson/Santiago portraits and Jane/RichardMoses July15,1957 sentencing dates applied. Actual prison entry/release days remain unresolved; existing fields preserved. See batch441 audit."
     },
     "theodore-jordan": {
       "id": "3500f7af-e972-4709-9744-4d36a59461aa",
@@ -6286,8 +6305,14 @@
     "joe-dumas": {
       "id": "c6ddbeb6-2993-4821-9117-f45d0cd51471",
       "name": "Joe Dumas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "status": "researched; no supported addition",
+          "evidence": "GuardianNovember16,1953 identifies CharlestonYugoslav ex-miner and deportation arrestee, age60; arrest month populated, no exact confinement/release/vitals verified."
+        }
+      ],
       "case_ids": [
         "e6fd0c19-a467-467d-841d-aac9796245d7"
       ],
@@ -6304,7 +6329,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "GuardianNovember16,1953 identifies CharlestonYugoslav ex-miner and deportation arrestee, age60; arrest month populated, no exact confinement/release/vitals verified. See batch441 audit."
     },
     "marie-kratochvil": {
       "id": "370e5400-4c89-4086-8c08-ccf0b0511634",
@@ -8119,8 +8145,14 @@
     "joe-stern": {
       "id": "b66e35a4-07d1-4937-af6b-9c13a8f0a6a2",
       "name": "Joe Stern",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "status": "researched; no supported addition",
+          "evidence": "GuardianMarch1,1954 identifies UE766 member and10day/$500sentence but free on appeal bail; actual service/endpoints remain unverified."
+        }
+      ],
       "case_ids": [
         "535e3869-5f8d-459c-82a8-7055a79a7c3c"
       ],
@@ -8138,7 +8170,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "GuardianMarch1,1954 identifies UE766 member and10day/$500sentence but free on appeal bail; actual service/endpoints remain unverified. See batch441 audit."
     },
     "everest-melvin-red-hupman": {
       "id": "b44499b5-400d-414f-abee-415971a77b1e",
@@ -12157,8 +12190,27 @@
     "richard-moses": {
       "id": "28ae16e3-cd75-4b0f-877a-2f9127de4e9f",
       "name": "Richard Moses",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "table": "prisoner_cases",
+          "id": "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "moses-sentence",
+              "note": "NationalGuardian July22,1957 printed/PDF2 OperationAlert report expressly identifies Richard and JaneMoses arrested carrying pacifist signs in TimesSquare and sentenced at July15hearing to30days. Original page visually checked. Does not establish actual admission or release; no term-derived endpoint. Existing arrest dates and precision retained, including Richard year-only placeholder."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92"
       ],
@@ -12169,19 +12221,38 @@
       ],
       "missing_case_fields": {
         "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned Newson/Santiago portraits and Jane/RichardMoses July15,1957 sentencing dates applied. Actual prison entry/release days remain unresolved; existing fields preserved. See batch441 audit."
     },
     "jane-moses": {
       "id": "415069fa-fb61-46d5-a4a5-31f9926e322d",
       "name": "Jane Moses",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "table": "prisoner_cases",
+          "id": "cce29927-8ed6-492e-90d7-8f773b4e9c7d",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "moses-sentence",
+              "note": "NationalGuardian July22,1957 printed/PDF2 OperationAlert report expressly identifies Richard and JaneMoses arrested carrying pacifist signs in TimesSquare and sentenced at July15hearing to30days. Original page visually checked. Does not establish actual admission or release; no term-derived endpoint. Existing arrest dates and precision retained, including Richard year-only placeholder."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cce29927-8ed6-492e-90d7-8f773b4e9c7d"
       ],
@@ -12192,13 +12263,13 @@
       ],
       "missing_case_fields": {
         "cce29927-8ed6-492e-90d7-8f773b4e9c7d": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned Newson/Santiago portraits and Jane/RichardMoses July15,1957 sentencing dates applied. Actual prison entry/release days remain unresolved; existing fields preserved. See batch441 audit."
     },
     "enrique-medina-fernandez": {
       "id": "f4c3e42b-1d0f-420f-8f63-afc87a9db110",
@@ -14404,13 +14475,31 @@
     "jo-ann-santiago": {
       "id": "699b3d00-db01-4dc7-9032-a2c237f20e98",
       "name": "Jo Ann Santiago",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "table": "prisoners",
+          "id": "699b3d00-db01-4dc7-9032-a2c237f20e98",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "santiago-photo",
+              "note": "August10,1959 printed/PDF3 article GuiltByMarriage directly captions JoAnnSantiago and identifies Canada1922birth, childhoodUSimmigration, spouseJoseSantiago, NYCfactoryunion and deportation proceeding. Native/Im0 JPX4300x5636grayscale, crop780x1000. No arrest or confinement inferred from immigration case."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0460a822-e0bf-4262-a0ef-f2a36bcc1962"
       ],
       "missing_profile_fields": [
-        "photo",
         "death_date"
       ],
       "missing_case_fields": {
@@ -14422,7 +14511,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captioned Newson/Santiago portraits and Jane/RichardMoses July15,1957 sentencing dates applied. Actual prison entry/release days remain unresolved; existing fields preserved. See batch441 audit."
     },
     "walter-c-lohman-jr": {
       "id": "4510c069-ec14-48eb-b524-ef0e05d9c23d",
@@ -15545,8 +15635,14 @@
     "joe-prudencio": {
       "id": "9035efed-f339-42b6-8b9c-09f7ea364965",
       "name": "Joe Prudencio",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 441,
+          "status": "researched; no supported addition",
+          "evidence": "UWlibrary and Local37deportation records match Filipino unionist. KDP1982 portrait source retrievalHTTP406; no photo assigned. Individual custody endpoints unresolved."
+        }
+      ],
       "case_ids": [
         "9b9f2670-5777-424a-967b-b018255221e4"
       ],
@@ -15564,7 +15660,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "UWlibrary and Local37deportation records match Filipino unionist. KDP1982 portrait source retrievalHTTP406; no photo assigned. Individual custody endpoints unresolved. See batch441 audit."
     },
     "pete-carbonay": {
       "id": "4c2f6157-16f8-477d-a142-72dad2b95c74",

@@ -1,0 +1,16 @@
+Batch 441 live verification — October 12,2026
+Data commit: 0c4230b5
+B441-ISOLATED-TEST-OK 243 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview4 matched guarded rows. Applied4 rows; replay0 rows. B441-OK on all three runs.
+Compared 723 profiles and 852 cases: 50210 unrelated field values preserved; 6 expected fields verified, including two precision metadata values; existing precision entries preserved.
+Two missing sentencing dates and two captioned portraits filled across four rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 441 repeat live/public check — October 12, 2026
+All 4 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B441-OK.
+All 4 public profile pages returned HTTP 200. Both portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+jane-moses: sentenced_date=1957-07-15 (day); visible=True
+jerry-newson: portrait renders and HTTP image checksum matches
+jo-ann-santiago: portrait renders and HTTP image checksum matches
+richard-moses: sentenced_date=1957-07-15 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
