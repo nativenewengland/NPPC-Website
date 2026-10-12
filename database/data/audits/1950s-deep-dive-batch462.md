@@ -1,0 +1,22 @@
+# 1950s missing-fields review: batch462
+
+October12,2026. Twelve missing dates across six existing profiles / nine guarded case rows. No records added, removed or merged. All populated fields/precision, biographies, case prose, durations, flags, institutions, periods, affiliations and sorting preserved. Sources/per-field evidence in batch462.json.
+
+- MartinLutherKingJr: March22,1956 boycott sentence and September5,1958 sentence in both existing rows of that proceeding. Stanford documentary edition distinguishes priorarrest and fine/custody. Duplicate1958rows retained; no14day term fabricated.
+- CarlBraden: February2,1959 contempt sentence, NARAoriginalPDF103 visually verified, corroborated DOJ schedule. Existing1961-1962custody endpoints retained.
+- KarlMeyer: July1,1959 actual first jail and July9sentence from own memoir. Later re-arrest after conditional release; no continuous endpoint invented across that gap. No1968/2000case changes.
+- WalterLowenfels andDavidDavis(aliasDavidDubensky): June20,1955 sentences from originalAPJune21,p4. Populated earliercustody dates preserved despite inconsistencies;1957reversal not actualrelease.
+- JohnWilliamson(CPUSAlaborsecretary): missing July20,1948arrest andOctober21,1949sentence in secondSmithActrow; May4,1955 departure underdeportationwarrant in both existingSmithActrows. PrimaryUPoriginalarrest scan inspected; FBI primary archival transcripts independently agree departure. OriginalFBIPDF403 so no claimed visual inspection. ExistingotherrowJuly19arrest/October20sentence/February28release conflictprimaryrecord and are preserved/logged. Biography/thirdcase erroneously incorporates unrelatedJackWilliamsonFlorida1933prosecution: do not merge identities or fill those unrelated dates. Noexileflag,enddateorstatus inferred.
+
+## Further reviews; unresolved findings
+
+- albert-bigelow: Original FriendsJournal May17reports May7sentence, June14describes predeparture arrest and renewed60days; university own archive describes June4action. CurrentcaseJune4/Aug3 may compress two separate proceedings. No unambiguous sentence day for matching secondcase verified, so no May7date grafted to it. Existing vitals/photo preserved.
+- joseph-roberts: Alias SamGobeloff identity confirmed in original1955AP sentence report and Kuzma primary court. Missing actual release cannot be equated with Nov13,1957 reversal/newtrial. Vitals/photo still unidentified; nearby individuals or modern JosephRoberts not used.
+- thomas-nabried: Original1955AP report confirms named Philadelphia defendant, sentence/currentadmission preserved. No actual release confirmation or identity-matched vitals/portrait found;1957reversal is not automatically a custody endpoint.
+- igal-roodenko: Own donated papers findingaid identifies Nov9,1943arrest, June6,1944sentence, SandstoneApr1945-Dec1946 parole and1947Journey30days. These unresolved case dates are outside1950s focus and not silently added as1950s custody. Exact1949chaingang discharge not derived from30day sentence. Existing vitals/photo retained.
+- john-gates: Original1951 surrender history separates1949sentence from July1951prison service. Four milestones/vitals/portrait populated;1949admission and1955release require conflicting-value review, not missing-field replacement. No invented new values.
+- gil-green: Original arrest roundup excluded Green initially; Finnishhistorian dissertation cites own Green1984memoir and individual ChicagoJuly30,1948surrender. ExistingduplicateJuly19arrest/1949admission/1961release dates conflict actual1956surrender chronology. No exact newarrest added without primary individual record; duplicate preserved.
+- gus-hall: Primary1960CongressionalRecord describes 1951capture, March1957conditionalrelease, April1959probationend. Populated1959release may conflate legal supervision with actualcustody. No missing milestone on existingrow; preserved rather than overwrite. Vitals/photo retained.
+- irving-potash: Original GuardianFeb4,1957 identifies January18reentrysentence and congressional1960record identifies Jan4arrest/Aug28,1958release followedINSdetention. Those belong to a distinct later case absent from currentSmithActrow; do not graft them to1948-1955interval. Populated1955release conflicts independentDec9,1954 report. Existing vitals/photo preserved; newcase creation not in this missing-fields batch.
+
+Fourteen profiles reviewed; research review does not mean every missing field is solved. Exhaustive1950s audit remains in progress. Live verification recorded separately.
