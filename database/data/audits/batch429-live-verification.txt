@@ -1,0 +1,15 @@
+Batch 429 live verification — October 12,2026
+Data commit: c94509d7
+B429-ISOLATED-TEST-OK 203 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview3 matched guarded rows. Applied3 rows; replay0 rows. B429-OK on all three runs.
+Compared 723 profiles and 852 cases: 50210 unrelated field values preserved; 7 expected fields verified, including two precision metadata values; existing precision entries preserved.
+Four missing case dates and one missing portrait filled. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 429 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B429-OK.
+All 3 public profile pages returned HTTP 200. The portrait URL returned HTTP200 and matched the committed SHA256 checksum.
+charles-auslander: sentenced_date=1959-07-23 (day); visible=True; incarceration_date=1960-11-03 (day); visible=True
+dan-b-speed: portrait renders and HTTP image checksum matches
+lawrence-gore: sentenced_date=1959-07-23 (day); visible=True; incarceration_date=1960-11-03 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

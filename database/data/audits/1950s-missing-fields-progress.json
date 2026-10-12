@@ -10829,13 +10829,31 @@
     "dan-b-speed": {
       "id": "f92cb060-cba8-41f7-b7ce-9366311094df",
       "name": "Dan B. Speed",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 429,
+          "table": "prisoners",
+          "id": "f92cb060-cba8-41f7-b7ce-9366311094df",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "speed",
+              "note": "StateLibraryAndArchivesOfFlorida official Flickr record RC12419, December24,1956, explicitly identifies DanSpeed at center-right, next to C.K.Steele at center-left. Exact crop of named center-right man; not assigned by resemblance. FloridaMemory persistent record34854 gives same accession but returnedHTTP403. Original Flickr upload600x472; crop66x87, no resizing, enhancement, generated pixels or retouching. Photographer unspecified; repository marks no known copyright restrictions, not an unconditional publicdomain determination."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "582a3069-c6aa-47f1-b975-3f65be386c20"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -10847,7 +10865,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing fields applied. Original sentencing and custody reports distinguish1959sentence from1960surrender. Captioned portrait identity and exact crop verified for Speed. Populated dates and prose preserved; individual release endpoints unresolved. See batch429 audit."
     },
     "wilhelmina-jakes": {
       "id": "b0e1e78a-83cf-4cb5-9c43-3ea58cb5141f",
@@ -13204,8 +13223,43 @@
     "lawrence-gore": {
       "id": "572a76d4-f86c-4623-95a1-fb2165be7b77",
       "name": "Lawrence Gore",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 429,
+          "table": "prisoner_cases",
+          "id": "60f43aba-4bff-4c75-abd1-c8ea7f7770a1",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "sentence",
+              "note": "Associated Press contemporaneous sentencing report in Oregon Statesman Friday July24,1959 printedSectionIIpage13, says Thursday sentencing and individually names this defendant with the existing six-to-ten-year sentence. Thursday is July23. Original PDF and dated masthead visually checked."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "custody",
+              "note": "PhilCorner AssociatedPress report, OregonStatesman Friday November4,1960 printedSectionIVpage40, explicitly says all eight were imprisoned Thursday and surrendered to VanceCounty officers after unsuccessful appeals. This defendant is individually named. Thus custody began November3,1960, not the 1959 sentence date. Original PDF and masthead visually checked."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "court",
+              "note": "Original January14,1960 StatevWalker appellate caption names LawrenceGore and CharlesAuslander among the same eight defendants in the Harriet-Henderson prosecution, independently matching identities and charges. The appellate decision is not treated as a release or prison-entry event."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "60f43aba-4bff-4c75-abd1-c8ea7f7770a1"
       ],
@@ -13217,19 +13271,53 @@
       "missing_case_fields": {
         "60f43aba-4bff-4c75-abd1-c8ea7f7770a1": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing fields applied. Original sentencing and custody reports distinguish1959sentence from1960surrender. Captioned portrait identity and exact crop verified for Speed. Populated dates and prose preserved; individual release endpoints unresolved. See batch429 audit."
     },
     "charles-auslander": {
       "id": "e3d7b3a4-a8d7-4710-a49a-ce587eeb1421",
       "name": "Charles Auslander",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 429,
+          "table": "prisoner_cases",
+          "id": "a9f7eb86-3e1d-4569-86a7-47a414be2b5e",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "sentence",
+              "note": "Associated Press contemporaneous sentencing report in Oregon Statesman Friday July24,1959 printedSectionIIpage13, says Thursday sentencing and individually names this defendant with the existing six-to-ten-year sentence. Thursday is July23. Original PDF and dated masthead visually checked."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "custody",
+              "note": "PhilCorner AssociatedPress report, OregonStatesman Friday November4,1960 printedSectionIVpage40, explicitly says all eight were imprisoned Thursday and surrendered to VanceCounty officers after unsuccessful appeals. This defendant is individually named. Thus custody began November3,1960, not the 1959 sentence date. Original PDF and masthead visually checked."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "court",
+              "note": "Original January14,1960 StatevWalker appellate caption names LawrenceGore and CharlesAuslander among the same eight defendants in the Harriet-Henderson prosecution, independently matching identities and charges. The appellate decision is not treated as a release or prison-entry event."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "a9f7eb86-3e1d-4569-86a7-47a414be2b5e"
       ],
@@ -13241,13 +13329,12 @@
       "missing_case_fields": {
         "a9f7eb86-3e1d-4569-86a7-47a414be2b5e": [
           "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing fields applied. Original sentencing and custody reports distinguish1959sentence from1960surrender. Captioned portrait identity and exact crop verified for Speed. Populated dates and prose preserved; individual release endpoints unresolved. See batch429 audit."
     },
     "chandler-davis": {
       "id": "92ad6631-dde2-49ce-940f-84dc6d14f964",
