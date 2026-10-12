@@ -1,0 +1,167 @@
+{
+  "batch": 470,
+  "audit_date": "2026-10-12",
+  "expected_count": 5,
+  "sources": {
+    "oconnor": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-12-05-8-7-nat-guardian.pdf",
+    "pruseika-birth": "https://www.spauda2.org/laisve/archive/1977/1977-11-04-LAISVE.pdf",
+    "pruseika-death": "https://www.spauda2.org/laisve/archive/1962/1962-03-23-LAISVE.pdf",
+    "pruseika-conflict": "https://www.vle.lt/straipsnis/leonas-pruseika/",
+    "grondahls": "https://www.zvab.com/Meet-Grondahls-Immigration-Angeles-Committee-Protection/31760757166/bd",
+    "grondahl-image": "https://pictures.abebooks.com/inventory/31760757166.jpg",
+    "valenti": "https://law.justia.com/cases/federal/appellate-courts/F2/207/242/347282/",
+    "valenti-habeas": "https://law.justia.com/cases/federal/appellate-courts/F2/207/247/347266/",
+    "mary": "https://www.thebermudian.com/people/the-tuckers-of-trunk-island/",
+    "quattrone": "https://law.justia.com/cases/federal/appellate-courts/F2/210/513/393368/",
+    "witkovich": "https://law.justia.com/cases/federal/district-courts/FSupp/140/815/2349308/",
+    "witkovich-supreme": "https://www.law.cornell.edu/supremecourt/text/353/194",
+    "espinoza": "https://www.ocweekly.com/news-whatever-happened-to-the-santa-ana-four-6426485/"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "42cd1ae7-97d7-4863-ac3f-d27f48451d14",
+      "prisoner_id": "42cd1ae7-97d7-4863-ac3f-d27f48451d14",
+      "name": "Harvey O'Connor",
+      "slug": "harvey-oconnor",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/harvey-oconnor-national-guardian-batch470.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "oconnor",
+          "note": "Explicitly named portrait on original December5,1955 printedp5 contempt-case article. Exact crop, original pixels retained."
+        }
+      ],
+      "asset": {
+        "file": "harvey-oconnor-national-guardian-batch470.png",
+        "sha256": "4d240a9c686d223d1c2c31175afe6e70300ea1aa6dad59c769241d728fb6c860"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "0a29b8d0-85c8-41d9-b3cb-b0f23b0f014d",
+      "prisoner_id": "0a29b8d0-85c8-41d9-b3cb-b0f23b0f014d",
+      "name": "Leon Prusekis",
+      "slug": "leon-prusekis",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1887-11-10 00:00:00",
+        "death_date": "1961-03-24 00:00:00",
+        "photo": "prisoners/leon-pruseika-laisve-batch470.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "pruseika-birth",
+          "note": "Original Laisve November4,1977 printedp4 Leonas Pruseika anniversary article explicitly says November10 birth1887 and90years, identifies Vilnis editor Albertas Vabalas. Original page visually read. VLE gives1877 conflicting year; primary own movement newspaper explicit1887 used, conflict logged."
+        },
+        {
+          "fields": [
+            "death_date",
+            "photo"
+          ],
+          "source": "pruseika-death",
+          "note": "Original Laisve March23,1962 printedp3 colleague Rojus Mizara first-anniversary memorial explicitly died March24,1961 Chicago. Named photograph in same article, exact crop. Russian/Siberian pre-US confinement not imported into current US case. Name spelling preserved."
+        }
+      ],
+      "asset": {
+        "file": "leon-pruseika-laisve-batch470.png",
+        "sha256": "d1944d446521c5a65d79c49842782864f5f63db059c89ab501e1718bf6eb64e8"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "4e97c3de-2e75-488d-b65b-adf8b2b2c037",
+      "prisoner_id": "4e97c3de-2e75-488d-b65b-adf8b2b2c037",
+      "name": "Emma Grondahl",
+      "slug": "emma-grondahl",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/emma-grondahl-original-leaflet-batch470.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "grondahls",
+          "note": "Original named-couple photograph in own1953 advocacy leaflet; exact isolated crop. Leaflet describes May18 re-arrest and earlier actual three-day detention, but existing November1953 arrest may be separate or mismatched. No custody dates copied across unresolved episodes; no DOB inferred from age62/67."
+        }
+      ],
+      "asset": {
+        "file": "emma-grondahl-original-leaflet-batch470.png",
+        "sha256": "7f5886dac38bc63c0a0f22ae81c723401c67be6417ad85a66603493606bdc949"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "f3e82712-8e58-4574-b06a-b5d4e17ef54e",
+      "prisoner_id": "f3e82712-8e58-4574-b06a-b5d4e17ef54e",
+      "name": "Werner Grondahl",
+      "slug": "werner-grondahl",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/werner-grondahl-original-leaflet-batch470.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "grondahls",
+          "note": "Original named-couple photograph in own1953 advocacy leaflet; exact isolated crop. Leaflet describes May18 re-arrest and earlier actual three-day detention, but existing November1953 arrest may be separate or mismatched. No custody dates copied across unresolved episodes; no DOB inferred from age62/67."
+        }
+      ],
+      "asset": {
+        "file": "werner-grondahl-original-leaflet-batch470.png",
+        "sha256": "935954d65a3dcdd98c7112351ebec21e4650a2551971ca1d5072406cd01a7da6"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3f14263d-713b-44b2-83b7-f2091b1443a7",
+      "prisoner_id": "42cd1ae7-97d7-4863-ac3f-d27f48451d14",
+      "name": "Harvey O'Connor",
+      "slug": "harvey-oconnor",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1955-11-18 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "oconnor",
+          "note": "Original NationalGuardian December5,1955 printedp5 expressly sentenced November18,1955, one-year suspended sentence plus500dollar fine; preceding banquet November17 corroborates next morning. Sentence date only: suspended sentence not physical prison admission. Populated case prose unknown retained under missing-only scope."
+        }
+      ]
+    }
+  ]
+}
