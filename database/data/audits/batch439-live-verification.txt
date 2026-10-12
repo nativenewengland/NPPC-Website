@@ -1,0 +1,14 @@
+Batch 439 live verification — October 12,2026
+Data commit: 262f9f8c
+B439-ISOLATED-TEST-OK 138 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview3 matched guarded rows. Applied3 rows; replay0 rows. B439-OK on all three runs.
+Compared 723 profiles and 852 cases: 50208 unrelated field values preserved; 9 expected fields verified, including three precision metadata values; existing precision entries preserved.
+Five missing dates and one captioned portrait filled across three rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 439 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B439-OK.
+All 2 public profile pages returned HTTP 200. The portrait URL returned HTTP200 and matched its committed SHA256 checksum.
+j-s-phifer: birthdate=1915-01-01 (year); visible=True; death_date=1969-01-01 (year); visible=True; arrest_date=1958-10-20 (day); visible=True
+joseph-dimow: birthdate=1920-02-18 (day); visible=True; death_date=2013-05-02 (day); visible=True; portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.

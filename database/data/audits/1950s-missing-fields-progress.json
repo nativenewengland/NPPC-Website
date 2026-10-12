@@ -6830,8 +6830,14 @@
     "j-minor-sullivan-iii": {
       "id": "484adcdc-3fc7-4c84-9b83-55372d903851",
       "name": "J. Minor Sullivan III",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "status": "investigated; no supported missing-field addition",
+          "evidence_note": "1957 New Jersey Supreme Court opinion confirms probation and fine, with no jail term. Library of Congress clipping gives April 20 as sentencing day; original clipping could not be retrieved (HTTP403), so no new exact date applied. Exact sentence day and portrait remain under research."
+        }
+      ],
       "case_ids": [
         "e492a659-7287-40b4-9fcc-94800149ffc5"
       ],
@@ -6847,7 +6853,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1957 New Jersey Supreme Court opinion confirms probation and fine, with no jail term. Library of Congress clipping gives April 20 as sentencing day; original clipping could not be retrieved (HTTP403), so no new exact date applied. Exact sentence day and portrait remain under research."
     },
     "carl-thierman": {
       "id": "9fafd316-c287-4f94-8e94-679fe7b873b9",
@@ -7109,8 +7116,14 @@
     "martha-stone-asher": {
       "id": "4e02393d-b909-4a2a-95f8-98cc66e77110",
       "name": "Martha Stone Asher",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "status": "investigated; no supported missing-field addition",
+          "evidence_note": "1957 NewHaven appellate case identifies MarthaStone aliasMrsEmilAsher. She is not in the seven-defendant June1954 arrest roster, so group arrest date is not assigned. Sentence and actual custody remain unresolved; existing vitals and photo preserved."
+        }
+      ],
       "case_ids": [
         "63f72b4a-fc9b-47c9-bff6-b49575e0a97d"
       ],
@@ -7126,7 +7139,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1957 NewHaven appellate case identifies MarthaStone aliasMrsEmilAsher. She is not in the seven-defendant June1954 arrest roster, so group arrest date is not assigned. Sentence and actual custody remain unresolved; existing vitals and photo preserved."
     },
     "albert-blumberg": {
       "id": "2d312500-d669-4418-8e7c-1c8618fc1d1b",
@@ -9160,16 +9174,41 @@
     "joseph-dimow": {
       "id": "4b640f59-d486-4c5a-9276-087c4766f520",
       "name": "Joseph Dimow",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "table": "prisoners",
+          "id": "4b640f59-d486-4c5a-9276-087c4766f520",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "dimow-vitals",
+              "note": "NewHavenRegister family obituary publishedMay11-12,2013 explicitly gives birthFebruary18,1920 and deathMay2, identifies Joseph(Joe)Dimow, machinist, CommunistParty SmithAct defendant, spouseLillian and JewishCurrents/Milgram participant. Birth/death facts used; obituary1955arrest/1958reversal chronology conflicts with contemporary1954arrest/1957appellate opinion and is not imported."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "dimow-photo",
+              "note": "Publisher sample printed20/PDF25 has a standalone portrait directly captioned Figure1.24 JosephDimow. Context identifies JewishCurrents author and Milgram participant, independently tied to the same SmithAct defendant by family obituary. Original page and native image visually checked;253x320JPEG XObject/Im0 extracted, retained as original CMYK JPEG with every byte unchanged. No enlargement or reconstruction."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5b0ec82d-4f50-4846-9ad1-0015d991eb01"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "5b0ec82d-4f50-4846-9ad1-0015d991eb01": [
           "arrest_date",
@@ -9179,13 +9218,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Phifer year-only vitals and October20,1958 protest arrest, and Dimow exact vitals and captioned portrait applied. Separate custody episodes and NewHaven arrest/sentence dates remain unresolved; existing prose and populated dates preserved. See batch439 audit."
     },
     "jacob-goldring": {
       "id": "51a668ce-2a86-4ba4-8414-7044fc46996e",
       "name": "Jacob Goldring",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "status": "investigated; no supported missing-field addition",
+          "evidence_note": "1954 Guardian roster and 1957 appellate opinion identify the New Haven defendant. June 4,1954 DOJ date is indictment, not automatically arrest. Original day/month confirmation and individual sentencing date remain unresolved; DOJ 1956 issues9-16 inspected with no matching sentence entry. No imprisonment inferred from reversed sentence."
+        }
+      ],
       "case_ids": [
         "52899e39-af0f-400d-ae3e-dd541a082ef2"
       ],
@@ -9203,13 +9249,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1954 Guardian roster and 1957 appellate opinion identify the New Haven defendant. June 4,1954 DOJ date is indictment, not automatically arrest. Original day/month confirmation and individual sentencing date remain unresolved; DOJ 1956 issues9-16 inspected with no matching sentence entry. No imprisonment inferred from reversed sentence."
     },
     "robert-champion-ekins": {
       "id": "c65800dd-89a3-476b-96e2-f05a376a11e5",
       "name": "Robert Champion Ekins",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "status": "investigated; no supported missing-field addition",
+          "evidence_note": "1954 Guardian roster and 1957 appellate opinion identify the sculptor/SmithAct defendant. DOJ April2,1956 contempt sentence is a separate proceeding and is not assigned to his SmithAct case. Arrest day and individual sentence remain unresolved; no sentence-derived imprisonment dates applied."
+        }
+      ],
       "case_ids": [
         "3ccf1946-3c66-4273-bd67-52bd3e8b6055"
       ],
@@ -9227,13 +9280,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1954 Guardian roster and 1957 appellate opinion identify the sculptor/SmithAct defendant. DOJ April2,1956 contempt sentence is a separate proceeding and is not assigned to his SmithAct case. Arrest day and individual sentence remain unresolved; no sentence-derived imprisonment dates applied."
     },
     "simon-silverman": {
       "id": "fa39719c-8713-4de1-aa44-fff62ec00b62",
       "name": "Simon Silverman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "status": "investigated; no supported missing-field addition",
+          "evidence_note": "1954 Guardian roster and 1957 appellate opinion identify SimonSilverman aliasSidTaylor. June4,1954 DOJ date is indictment, not automatically arrest. Original individual arrest and sentencing dates remain unresolved; actual jail service not inferred from verdict or appellate reversal."
+        }
+      ],
       "case_ids": [
         "94fa27bc-47dd-4805-875c-df2cb2a3fc38"
       ],
@@ -9251,7 +9311,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1954 Guardian roster and 1957 appellate opinion identify SimonSilverman aliasSidTaylor. June4,1954 DOJ date is indictment, not automatically arrest. Original individual arrest and sentencing dates remain unresolved; actual jail service not inferred from verdict or appellate reversal."
     },
     "william-z-foster": {
       "id": "99be766e-bd0f-4821-b8a1-43f895d0d089",
@@ -12794,26 +12855,63 @@
     "j-s-phifer": {
       "id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
       "name": "J. S. Phifer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 439,
+          "table": "prisoners",
+          "id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "phifer-vitals",
+              "note": "Stanford King Papers, ACMHR August9,1962 telegram editorial footnote2, explicitly identifies JamesS.Phifer(1915-1969), LowndesCounty-born pastor of ZionStarBaptist/Birmingham and later CalvaryBaptist/WhitePlains, ACMHR second vice-president. Identity matches existing Birmingham defendant. No month/day provided: year precision only. Same-name genealogy January15/February1969 remains unverified and is not used."
+            }
+          ]
+        },
+        {
+          "batch": 439,
+          "table": "prisoner_cases",
+          "id": "355cb9a5-15df-4a56-8a0f-434870d3c32d",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "phifer-arrest",
+              "note": "National Guardian November10,1958 printed1 and4: on October20 the thirteen bus protesters were taken in patrol wagons to jail; continued article individually identifies Rev.J.S.Phifer as the unsuspended sixty-day defendant. Original PDF reviewed. Stanford King-to-Kennedy January25,1962 footnote1 confirms Phifer and twelve others protested the day before Shuttlesworth surrendered October21,1958. Records protest arrest only; initial remand/bail and later1962 sentence service are separate and their custody endpoints are not inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "355cb9a5-15df-4a56-8a0f-434870d3c32d"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "355cb9a5-15df-4a56-8a0f-434870d3c32d": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Phifer year-only vitals and October20,1958 protest arrest, and Dimow exact vitals and captioned portrait applied. Separate custody episodes and NewHaven arrest/sentence dates remain unresolved; existing prose and populated dates preserved. See batch439 audit."
     },
     "edward-t-graham": {
       "id": "d1132cf8-d18d-4b38-ac42-f8e8d0161268",
