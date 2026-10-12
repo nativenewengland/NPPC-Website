@@ -3647,15 +3647,40 @@
     "irving-feiner": {
       "id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
       "name": "Irving Feiner",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 438,
+          "table": "prisoners",
+          "id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
+          "fields": [
+            "photo",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "feiner-death",
+              "note": "UPI February3,2009 report explicitly attributes death January23 inValhalla to daughterEmily speaking to NYTimes. Identifies the same1949Syracuse/1951SupremeCourt litigant. Preferred over Barrett later essay January24 because UPI specifies family informant. Exactbirthday from same-name genealogy remains unverified and is not assigned."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "feiner-photo",
+              "note": "FIRE November5,2020 article explicitly identifies IrvingFeiner at center of March9,1949 PostStandard archival photograph, standing with two event organizers. Original393x512PNG at https://www.fire.org/sites/default/files/2020/11/04165103/unnamed-2.png inspected. Exact120x162crop isolates center face/neck; every retained pixel verified unchanged. No enlargement or reconstruction."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "7bd73abd-b4bd-4512-8182-919b1de3071c"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "7bd73abd-b4bd-4512-8182-919b1de3071c": [
@@ -3665,7 +3690,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing federal sentence date for Weissman, Robertson year-only birth and exact death date, and Feiner family-attributed death date and captioned portraits applied. Feiner death-day conflict and Robertson issue-date anomaly documented. Actual custody endpoints and Feiner birthdate remain unresolved; existing dates and prose preserved. See batch438 audit."
     },
     "charles-nusser": {
       "id": "0c0e9e94-8f1d-4f47-833c-bc574967ca32",
@@ -14837,8 +14863,27 @@
     "irving-weissman": {
       "id": "dda3cd63-3c2b-4900-9d10-34e77add6114",
       "name": "Irving Weissman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 438,
+          "table": "prisoner_cases",
+          "id": "1fc2f417-8c85-455e-8c40-91ba6c85a3ea",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "doj",
+              "note": "UnitedStatesAttorneysBulletin Vol1No3 printed/PDF8 explicitly states JudgeRabeF.Marsh sentenced the five defendants, individually including IrvingWeissman, on August25,1953. Original scan visually checked. Applies to federal SmithAct case only, not separate contempt or verdictAugust20. No incarceration date inferred from sentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "1fc2f417-8c85-455e-8c40-91ba6c85a3ea",
         "42b07316-7f6b-4351-ae28-8924188ebea9"
@@ -14848,7 +14893,6 @@
       ],
       "missing_case_fields": {
         "1fc2f417-8c85-455e-8c40-91ba6c85a3ea": [
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
@@ -14862,7 +14906,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing federal sentence date for Weissman, Robertson year-only birth and exact death date, and Feiner family-attributed death date and captioned portraits applied. Feiner death-day conflict and Robertson issue-date anomaly documented. Actual custody endpoints and Feiner birthdate remain unresolved; existing dates and prose preserved. See batch438 audit."
     },
     "hymen-schlesinger": {
       "id": "7bd1dc3a-eb08-45e8-a7aa-ec01213f4fd4",
@@ -15076,16 +15121,47 @@
     "jr-robertson": {
       "id": "d9827ab1-f0fd-45da-bbe6-ebd851540f87",
       "name": "J.R. Robertson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 438,
+          "table": "prisoners",
+          "id": "d9827ab1-f0fd-45da-bbe6-ebd851540f87",
+          "fields": [
+            "photo",
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "robertson-birth",
+              "note": "Union obituary on page1 explicitly says born in1903 inWoodCountyTexas; page2 identifies the same Bridges-Robertson-Schmidt defendant. No month/day stated; year precision only. Masthead saysJuly28,1978 while reporting August1 events; publication-date anomaly logged and not treated as event date."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "robertson-death",
+              "note": "Dispatcher September8,1978 page2, InRobertsonMemory, explicitly dates death August1 inSanRafael and identifies former international vice-president. Original page/masthead visually checked; independently corroborates August1 from obituary in anomalously dated July28 issue."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "robertson-photo",
+              "note": "Dispatcher April22,1960 page8 OnTheMarch masthead identifies author J.R.(Bob)Robertson alongside his headshot. Native1740x2452grayscaleJPEG extracted from PDF XObject/X7; exact170x236crop isolates photo, excludes heading and byline. Original and crop visually checked."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "8b442ea3-e686-4da8-8444-67d9ddf2c9fc"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "8b442ea3-e686-4da8-8444-67d9ddf2c9fc": [
           "arrest_date",
@@ -15094,7 +15170,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing federal sentence date for Weissman, Robertson year-only birth and exact death date, and Feiner family-attributed death date and captioned portraits applied. Feiner death-day conflict and Robertson issue-date anomaly documented. Actual custody endpoints and Feiner birthdate remain unresolved; existing dates and prose preserved. See batch438 audit."
     },
     "henry-schmidt": {
       "id": "d94009e0-c31b-4154-8e36-10940531bf6e",

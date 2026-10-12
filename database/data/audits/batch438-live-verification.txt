@@ -1,0 +1,15 @@
+Batch 438 live verification — October 12,2026
+Data commit: 5853b684
+B438-ISOLATED-TEST-OK 179 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview3 matched guarded rows. Applied3 rows; replay0 rows. B438-OK on all three runs.
+Compared 723 profiles and 852 cases: 50208 unrelated field values preserved; 9 expected fields verified, including three precision metadata values; existing precision entries preserved.
+Four missing dates and two captioned portraits filled across three rows. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 438 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B438-OK.
+All 3 public profile pages returned HTTP 200. Both portrait URLs returned HTTP200 and matched their committed SHA256 checksums.
+irving-feiner: portrait renders and HTTP image checksum matches; death_date=2009-01-23 (day); visible=True
+irving-weissman: sentenced_date=1953-08-25 (day); visible=True
+jr-robertson: portrait renders and HTTP image checksum matches; birthdate=1903-01-01 (year); visible=True; death_date=1978-08-01 (day); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
