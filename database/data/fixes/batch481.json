@@ -1,0 +1,211 @@
+{
+  "batch": 481,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "fisher-court": "https://law.justia.com/cases/federal/appellate-courts/F2/254/302/196844/",
+    "fisher-ilwu": "https://archive.ilwu.org/wp-content/uploads/2020/05/19571108.pdf",
+    "fisher-vitals": "https://altgov2.org/wp-content/uploads/2022/05/FBI_RIDS-dead-list_AltGov2.pdf",
+    "fisher-jail": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-20-11-40-nat-guardian.pdf",
+    "fisher-milestone": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-12-07-12-8-nat-guardian.pdf",
+    "fisher-1958-free": "https://archive.ilwu.org/wp-content/uploads/2015/02/19580801.pdf",
+    "fisher-scheduled": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0508.pdf",
+    "mackie-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1960-12-26-13-11-nat-guardian.pdf",
+    "edo-vitals": "https://5dn.org/en/journal/2023/7/13/9663/",
+    "carawan-jail": "https://www.davidgarrow.com/wp-content/uploads/2018/04/DJGWSOReport140417.pdf",
+    "carawan-raid": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-08-17-11-44-nat-guardian.pdf",
+    "woods-custody": "https://www.crmvet.org/docs/60_src_violence-r.pdf",
+    "scherer": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-04-28-10-28-nat-guardian.pdf",
+    "polites": "https://www.law.cornell.edu/supremecourt/text/364/426",
+    "lahtinen": "https://www.leagle.com/decision/19611109199fsupp9101908",
+    "cruz-zuker": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-03-17-10-22-nat-guardian.pdf",
+    "russo": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-05-26-10-32-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "e3f8b539-b440-49bb-881c-ad6fd873b5d1",
+      "prisoner_id": "e3f8b539-b440-49bb-881c-ad6fd873b5d1",
+      "name": "Al Fisher",
+      "slug": "al-fisher",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1913-02-16 00:00:00",
+        "death_date": "2002-05-02 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "fisher-vitals",
+          "note": "Original FBI RIDS administrative DeadList released publicly and mirrored by AltGov2, PDF271 rowFISHER AVALO explicitlyDOB2/16/1913 DOD5/2/2002. Original table visually checked to avoid crossrow misattribution. RarelegalnameAvalo linked by254F2d302 to InternationalWoodworkersDistrict23Local93 and byILWU1957 toA.A./AlFisher. AdministrativeFBIpoliticalcharacterization not adopted as fact; only explicit vitaldates used."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "df45f34e-d6ec-43ce-a293-824c7c532c5c",
+      "prisoner_id": "df45f34e-d6ec-43ce-a293-824c7c532c5c",
+      "name": "William Mackie",
+      "slug": "william-mackie",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/william-mackie-national-guardian-batch481.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "mackie-photo",
+          "note": "OriginalNationalGuardianDecember26,1960 printedp7/PDF7 lowerphotograph explicitcaption HisSisterSobsAsWilliamMackieHeadsForHisPlane. Individual departingman at right isolated, not HamishMacKay in otherphotographs on samepage. Nativewidth4210 decodedcomposite originalandcrop visuallychecked, retainedpixelsunchanged."
+        }
+      ],
+      "asset": {
+        "file": "william-mackie-national-guardian-batch481.png",
+        "sha256": "e133bd7b1ab7da83cd8036f841b32f0dd9ae57c2a367b92f1733b86ee727f8d8"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "ee5019f7-f6b2-4863-9e2c-e7aab473814d",
+      "prisoner_id": "ee5019f7-f6b2-4863-9e2c-e7aab473814d",
+      "name": "Edo Mita",
+      "slug": "edo-mita",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1908-01-01 00:00:00",
+        "death_date": "1963-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "edo-vitals",
+          "note": "JapaneseAmericanNationalMuseum DiscoverNikkei ownhistoryproject GregRobinson2023 study explicitly1908birth and1963death fromstomachcancer. LinksEdoHeihachiMita/Kamiyama actor/writer, ChiyeMori1938marriage andLACommitteeForeignBorn1950sdeportationdefense successful1959; sameprofileidentity. YEARonly. IMDb exactMay8/January13dates not backed by reviewedmuseumsource, not imported. WartimeTBsanitarium not treated as criminaljail; motherUraji photograph not assigned toson."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "15493481-e1f0-4d1a-bba5-ad76a9dd1687",
+      "prisoner_id": "604a37dd-1683-4972-96b7-e0ed66cb6249",
+      "name": "Guy Hughes Carawan Jr.",
+      "slug": "guy-hughes-carawan-jr",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1959-07-31 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "carawan-raid",
+          "note": "OriginalNationalGuardianAugust17,1959 printedp3/PDF3 specificallynamesGuyCarawan amongteachers arrestedJuly31Highlanderraid. DavidGarrow archivalstudypp14–15 corroborates actualcountylockup withCarawan eyewitnesshearingSeptimaClark in jailcellbelow, citing ownAugust3,1959letterSmithsonian andfirsthandpublishedaccounts. Actualjail distinguished arrest-only; existingarrestJuly31 unchanged (includingdateformat). No exact release inferred from bailamount orClarksdifferentrelease."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "carawan-jail",
+          "note": "Study downloadedandread, directlycites Carawanfirsthand jailaccount andAugust3letter; namedJuly31raid supportedcontemporaryoriginal."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cca86032-70a7-4741-b60d-d6967c3dfebc",
+      "prisoner_id": "9a1e9ab9-28fb-44dd-a9a9-b7bd2e362653",
+      "name": "Calvin Woods",
+      "slug": "calvin-woods",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1958-01-01 00:00:00",
+        "incarceration_date": "1958-01-01 00:00:00",
+        "release_date": "1958-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "woods-custody",
+          "note": "SouthernRegionalCouncil own1960 compilation IntimidationReprisalViolence1955–1959 printedp5/PDF7 entryBirmingham datedNov25,1958 sourceB: namesRevCalvinW.Woods EastEndBaptist, arrestedurgingbusboycott and physicallyreleasedseveralhourslaterunder500bond. YEAR1958 only because reportdate notnecessarilyindividualeventday/month. Initialactualcustody andrelease separatefrom laterJanuary1959sentence describedpopulatedbio, which is preserved. NeighborJohnHarveyKelly1000fine/sixmonthsentence not assignedWoods. Later1956obituarychronology conflict logged, nooverwrite."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bbc66a8e-37b8-4401-b2e1-f368c7197a54",
+      "prisoner_id": "e3f8b539-b440-49bb-881c-ad6fd873b5d1",
+      "name": "Al Fisher",
+      "slug": "al-fisher",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "sentenced_date": "1957-01-01 00:00:00",
+        "incarceration_date": "1959-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "source": "fisher-ilwu",
+          "note": "OwnunionDispatcherNovember8,1957 printedp7/PDF7 explicitly firstarrest1954woodworkersstrike andMarch1957retrial followedfiveyearsentence nowappealed; court254F2d302 corroborates secondconviction/sentence. YEAR1954arrest andYEAR1957 operative retrialsentence only. DOJApril1957bulletin scheduledApril12 notproofcourtactuallymetthatday. Earlyfirstconviction1954vsDOJ1955 timingconflict notused asoperativesentence. Original visuallychecked."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "fisher-jail",
+          "note": "Defensecommittee ownsignedNationalGuardianJuly20,1959 p2 confirmsalreadybehindbarsMcNeilIsland, originalvisuallyread. December7,1959committeeletterp2 specificallyone-yeartermmilestoneJanuary21,1960 establishes1959termstart; conservativelyYEAR1959 only, not inferred exactadmissionday/month orcomputedrelease. August1,1958ownFisherILWUletterexplicitlydeniesthenrumoredincarceration, so1954arrest notturnedinto1954–1959 continuousjail."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "fisher-milestone",
+          "note": "OriginalDecember7,1959committeeletterp2 one-yearmilestoneJanuary21,1960; distinguishes postappealserviceterm1959 from1954initialarrest. Exactreportedmilestone notphysicalrelease or exactprisonarrivalday."
+        }
+      ]
+    }
+  ]
+}
