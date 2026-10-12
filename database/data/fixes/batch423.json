@@ -1,0 +1,236 @@
+{
+  "batch": 423,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "marder": "https://par-newhaven.org/2023/12/30/remembering-alfred-marder-jan-18-1922-dec-19-2023-a-century-of-struggle-for-peace-justice-and-socialism/",
+    "lowry-bio": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/lowry-leon-sr",
+    "lowry-obit": "https://www.legacy.com/us/obituaries/tampabaytimes/name/a-lowry-obituary?id=39355383",
+    "lima-obit": "https://www.latimes.com/archives/la-xpm-1989-06-11-mn-3188-story.html",
+    "wade-history": "https://heritage.ky.gov/historic-places/national-register/Documents/Jefferson%20County%2C%20Wade-Braden%20District.pdf",
+    "wade-obit": "https://www.legacy.com/us/obituaries/louisville/name/andrew-wade-obituary?id=9970052",
+    "usccr": "https://www.usccr.gov/files/historical/1959/59-002.pdf",
+    "howard-jail": "https://archive.ilwu.org/wp-content/uploads/2015/03/19590814.pdf",
+    "howard-jr": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-03-16-11-22-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "85378469-9459-498d-ad6f-655bb70a4388",
+      "prisoner_id": "85378469-9459-498d-ad6f-655bb70a4388",
+      "slug": "alfred-marder",
+      "name": "Alfred Marder",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1922-01-18 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "death_date": "2023-12-19 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "marder",
+          "note": "Community obituary title explicitly supplies birth date; article identifies the New Haven peace activist and Smith Act defendant."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "marder",
+          "note": "Community obituary title and text give death date."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "14a5115e-50f1-4e2c-bfe6-98d6375af88c",
+      "prisoner_id": "14a5115e-50f1-4e2c-bfe6-98d6375af88c",
+      "slug": "a-leon-lowry",
+      "name": "A. Leon Lowry",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1913-06-12 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "death_date": "2005-08-20 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "lowry-bio",
+          "note": "Contemporary Black Biography entry explicitly gives birth date and identifies the Tampa NAACP president and Beulah Baptist pastor."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "lowry-obit",
+          "note": "Wilson Funeral Home notice identifies Beulah Baptist pastor A. Leon Lowry Sr. and states date of death; published biography independently agrees."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
+      "prisoner_id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
+      "slug": "albert-lima",
+      "name": "Albert Lima",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1989-06-03 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "lima-obit",
+          "note": "Obituary identifies the state Communist leader and his death at home on June 3."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "e5bcb271-6fa2-4fa9-b1ba-647730d82161",
+      "prisoner_id": "e5bcb271-6fa2-4fa9-b1ba-647730d82161",
+      "slug": "andrew-wade",
+      "name": "Andrew Wade",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1922-02-12 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "death_date": "2005-09-26 00:00:00",
+        "photo": "prisoners/andrew-wade-keith-williams-batch423.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "wade-history",
+          "note": "National Register district nomination PDF page 32 gives exact birth date of Andrew Edward Wade IV, the Louisville electrician and housing-rights activist."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "wade-obit",
+          "note": "Family funeral notice identifies Wade & Son Electrical Contractors owner, wife Charlotte, and September 26 death; nomination PDF page 80 agrees."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "wade-history",
+          "note": "PDF page 80 explicitly captions Andrew Wade; image credits staff photographer Keith Williams, Courier-Journal, February 15, 1988. Exact rectangular crop isolates the pictured man; no generated pixels."
+        }
+      ],
+      "asset": {
+        "file": "andrew-wade-keith-williams-batch423.png",
+        "sha256": "1b3fcbb68579dfab0ab79006283d3bd02a17252c643e1d4e8b28ee924eb07da0"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4c771247-d1f0-4e8b-8570-2734162e3e0b",
+      "prisoner_id": "b63a0587-1ac0-4449-964b-4196f7c272f4",
+      "slug": "asbury-howard",
+      "name": "Asbury Howard",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "charges": "Local 'scurrilous publication' / breach-of-peace ordinance",
+        "arrest_date": "1959-01-01 00:00:00",
+        "sentence": "$100 fine and six months on the Bessemer chain gang\n\nCharges as recorded: Local 'scurrilous publication' / breach-of-peace ordinance — for a civil-rights protest sign",
+        "release_date": null,
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-01-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "incarceration_date": "1959-02-23 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "usccr",
+          "note": "Printed pages 74-75 (PDF pages 82-83) identify January 24 trial and same proceeding sentencing. National Guardian March 16 page 3 independently dates conviction to January 24. Initial arrest-day typo in report is not adopted."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "howard-jail",
+          "note": "ILWU Dispatcher August 14, 1959, page 7 explicitly gives jail admission February 23. National Guardian March 16 page 3 distinguishes January conviction and release on bond from later remand on Washington birthday. This identifies the post-bond imprisonment episode, not uninterrupted detention from January."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "76e34634-5dec-4203-bfba-42081d1ce25f",
+      "prisoner_id": "828c8748-3554-4d77-8fbc-a7b5c7586bab",
+      "slug": "asbury-howard-jr",
+      "name": "Asbury Howard Jr.",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "charges": "Disorderly conduct",
+        "arrest_date": "1959-01-01 00:00:00",
+        "sentence": "One year's imprisonment and a $100 fine\n\nCharges as recorded: Disorderly conduct — after being beaten defending his father at the courthouse",
+        "release_date": null,
+        "custody_periods": null,
+        "imprisoned_for_days": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-03-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "incarceration_date": "1959-03-07 00:00:00"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "howard-jr",
+          "note": "National Guardian March 16, 1959, page 3 explicitly dates the younger Howard sentencing to March 7."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "howard-jr",
+          "note": "Same contemporary account explicitly states that he was sent to jail with his father on March 7; prior January arrest had ended in bond release according to USCCR report."
+        }
+      ]
+    }
+  ],
+  "expected_count": 6
+}
