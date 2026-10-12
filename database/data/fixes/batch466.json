@@ -1,0 +1,131 @@
+{
+  "batch": 466,
+  "audit_date": "2026-10-12",
+  "expected_count": 2,
+  "sources": {
+    "wgf-papers": "https://oac.cdlib.org/findaid/ark:/13030/c86w9hkk",
+    "ahc-return": "https://www.uwyo.edu/ahc/_files/annual-reports/ahc-annual-report-2011-12.pdf",
+    "ahc-butler": "https://www.uwyo.edu/ahc/_files/collection_guides/us-latinamerican-relations_guide_2014_ed2016.pdf",
+    "own-memoir-excerpt": "https://spartacus-educational.com/USAbutlerHB.htm",
+    "unl-film-history": "https://plainshumanities.unl.edu/encyclopedia/doc/egp.fil.009.html",
+    "martinsville": "https://www.lva.virginia.gov/events/exhibitions/200-years-200-stories/stories/154",
+    "catlett-museum": "https://www.cartermuseum.org/blog/elizabeth-catlett-multiple-identities-art-and-life",
+    "losey-archive": "https://harvardfilmarchive.org/programs/the-complete-joseph-losey-july/6",
+    "ucla-exiles": "https://cinema.ucla.edu/blog/hollywood-exiles-in-europe/",
+    "stewart-papers": "https://ead-pdfs.library.yale.edu/1620.pdf",
+    "foreman-letter-documentary": "https://www.thenation.com/article/archive/high-noon-rewrite/",
+    "chaplin-estate": "https://www.charliechaplin.com/en/biography/articles/21-Overview-of-His-Life",
+    "eisler-fbi": "https://vault.fbi.gov/Hanns%20Eisler/Hanns%20Eisler%20Part%2009%20%28Final%29/at_download/file",
+    "usc-exhibit": "https://libguides.usc.edu/c.php?g=234957&p=1559419"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "1f53585c-fe15-4125-a339-57b8fe6e52d1",
+      "prisoner_id": "659c8ab3-b509-4331-87fe-df149062b4cf",
+      "name": "Hugo Butler",
+      "slug": "hugo-butler",
+      "expected": {
+        "date_precision": null,
+        "in_exile_since": null,
+        "end_of_exile": null
+      },
+      "update": {
+        "in_exile_since": "1951-01-01 00:00:00",
+        "end_of_exile": "1964-01-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "wgf-papers",
+          "note": "Writers Guild Foundation Archive, family-donated Jean Rouverol Butler Papers WGF-MS-085, institutional finding aid. Both individual biographies explicitly place the couple leaving for Mexico in 1951 following HUAC subpoenas and blacklisting. YEAR precision only; January 1 is a storage placeholder, not an actual departure day. No subpoena treated as arrest or incarceration."
+        },
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "ahc-butler",
+          "note": "American Heritage Center guide to its own Hugo Butler papers, collection 3208, printed page 38 / PDF page 39, original visually inspected. Independently identifies 1951 blacklisting and subsequent Mexican exile. No date derived from populated December 31 custody placeholders."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "ahc-return",
+          "note": "American Heritage Center 2011-2012 Annual Report, Jean Rouverol collection 8115, printed page 17 / PDF page 19, original visually inspected. Explicitly states the couple moved to Mexico and returned to the United States in 1964. Permanent return, not a presumed release from jail or death date. YEAR precision only."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "own-memoir-excerpt",
+          "note": "Jean Rouverol first-person passage attributed to Refugees from Hollywood (2000), reproduced in Hugo Butler biography, explicitly places their move back to the States in late 1964. Read reproduced passage; full original memoir scan not accessed. No month or day inferred from late. Corroborates the custodian annual report and WGF Jean biography."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "wgf-papers",
+          "note": "Finding aid Jean biography explicitly dates permanent California return in 1964, whereas its separate Hugo summary says Hollywood in 1963. Contradiction logged rather than suppressed. Use 1964 permanent return supported by the first-person memoir passage and AHC custodian report; do not invent a separate earlier visit. Existing populated 1963-12-31 release and 1950-12-31 arrest/admission retained unchanged under missing-only scope."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "101bd3a1-22ae-468b-9138-7215ad04a98b",
+      "prisoner_id": "88787298-c177-4c1c-ad62-07d9030bcfbb",
+      "name": "Jean Rouverol Butler",
+      "slug": "jean-rouverol-butler",
+      "expected": {
+        "date_precision": null,
+        "in_exile_since": null,
+        "end_of_exile": null
+      },
+      "update": {
+        "in_exile_since": "1951-01-01 00:00:00",
+        "end_of_exile": "1964-01-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "wgf-papers",
+          "note": "Writers Guild Foundation Archive, family-donated Jean Rouverol Butler Papers WGF-MS-085, institutional finding aid. Both individual biographies explicitly place the couple leaving for Mexico in 1951 following HUAC subpoenas and blacklisting. YEAR precision only; January 1 is a storage placeholder, not an actual departure day. No subpoena treated as arrest or incarceration."
+        },
+        {
+          "fields": [
+            "in_exile_since"
+          ],
+          "source": "ahc-butler",
+          "note": "American Heritage Center guide to its own Hugo Butler papers, collection 3208, printed page 38 / PDF page 39, original visually inspected. Independently identifies 1951 blacklisting and subsequent Mexican exile. No date derived from populated December 31 custody placeholders."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "ahc-return",
+          "note": "American Heritage Center 2011-2012 Annual Report, Jean Rouverol collection 8115, printed page 17 / PDF page 19, original visually inspected. Explicitly states the couple moved to Mexico and returned to the United States in 1964. Permanent return, not a presumed release from jail or death date. YEAR precision only."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "own-memoir-excerpt",
+          "note": "Jean Rouverol first-person passage attributed to Refugees from Hollywood (2000), reproduced in Hugo Butler biography, explicitly places their move back to the States in late 1964. Read reproduced passage; full original memoir scan not accessed. No month or day inferred from late. Corroborates the custodian annual report and WGF Jean biography."
+        },
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "wgf-papers",
+          "note": "Finding aid Jean biography explicitly dates permanent California return in 1964, whereas its separate Hugo summary says Hollywood in 1963. Contradiction logged rather than suppressed. Use 1964 permanent return supported by the first-person memoir passage and AHC custodian report; do not invent a separate earlier visit. Existing populated 1963-12-31 release and 1950-12-31 arrest/admission retained unchanged under missing-only scope."
+        }
+      ]
+    }
+  ]
+}
