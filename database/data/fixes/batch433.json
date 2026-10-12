@@ -1,0 +1,186 @@
+{
+  "batch": 433,
+  "audit_date": "2026-10-12",
+  "expected_count": 5,
+  "sources": {
+    "supreme": "https://www.govinfo.gov/content/pkg/USREPORTS-343/pdf/USREPORTS-343-1.pdf",
+    "appeal": "https://openjurist.org/182/f2d/416",
+    "custody": "https://lawreview.law.ucdavis.edu/sites/g/files/dgvnsk15026/files/2024-06/57-5_Fisk.pdf",
+    "contemporary": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-05-08-4-29-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "98edc922-82e4-4666-b4e0-ddfabbee64fb",
+      "prisoner_id": "c3c3dca6-81c8-48b3-8b7c-f80287d68227",
+      "slug": "george-crockett",
+      "name": "George Crockett",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-14 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "supreme",
+          "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "appeal",
+          "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5c50e52e-c141-4d31-b310-b7281df81d7a",
+      "prisoner_id": "febbf6bc-9d19-4d7b-a31b-7d755fae6412",
+      "slug": "abraham-isserman",
+      "name": "Abraham Isserman",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-14 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "supreme",
+          "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "appeal",
+          "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "42994234-7eec-4b75-b69e-7d81bc2b0659",
+      "prisoner_id": "869f710a-0b17-4d0d-865f-3e72c3b59f08",
+      "slug": "richard-gladstein",
+      "name": "Richard Gladstein",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-14 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "supreme",
+          "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "appeal",
+          "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "9868e366-b499-4b65-b514-64eff08291b8",
+      "prisoner_id": "3e3a3d05-841b-4080-9996-22e8837a3199",
+      "slug": "harry-sacher",
+      "name": "Harry Sacher",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-14 00:00:00",
+        "incarceration_date": "1952-04-24 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "supreme",
+          "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "appeal",
+          "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "CatherineFisk, The Fire Last Time, UCDavisLawReview57(2024), printed3013/PDF17 explicitly states all five lawyers voluntarily surrendered inNewYorkCity April24,1952, citingStanleyKutlerpage164; team individually identified printed3006/PDF10. Original research article page visually inspected. ContemporaryNationalGuardianMay8,1952page3 independently identifies all five and confirms actual jail entry the prior month. Exact date fromFisk, not inferred from order to surrender."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "55837b5b-8073-4c4d-8271-61760f9230ec",
+      "prisoner_id": "d80860b9-dbf9-4c5d-9b96-e9157284771e",
+      "slug": "louis-mccabe",
+      "name": "Louis McCabe",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1949-10-14 00:00:00",
+        "incarceration_date": "1952-04-24 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "supreme",
+          "note": "Official U.S.Reports Sacher v.UnitedStates343U.S.1(1952), printed/PDF89 footnote4 explicitly dates contempt judgments October14,1949. Original page visually checked. Majority explains sentences imposed immediately with judgment. This is original contempt sentence, not March10,1952 SupremeCourt affirmance."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "appeal",
+          "note": "Original SecondCircuit opinion UnitedStatesvSacher182F.2d416(1950), paragraph13/printed418–419, explicitly states October14 oral contempt judgment and sentence, individually namingCrockett,Isserman,McCabe,Sacher,Gladstein(andDennis). Existing case identity and sentence type match. No criminal arrest inferred."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "custody",
+          "note": "CatherineFisk, The Fire Last Time, UCDavisLawReview57(2024), printed3013/PDF17 explicitly states all five lawyers voluntarily surrendered inNewYorkCity April24,1952, citingStanleyKutlerpage164; team individually identified printed3006/PDF10. Original research article page visually inspected. ContemporaryNationalGuardianMay8,1952page3 independently identifies all five and confirms actual jail entry the prior month. Exact date fromFisk, not inferred from order to surrender."
+        }
+      ]
+    }
+  ]
+}
