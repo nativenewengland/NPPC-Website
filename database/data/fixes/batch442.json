@@ -1,0 +1,334 @@
+{
+  "batch": 442,
+  "audit_date": "2026-10-12",
+  "expected_count": 12,
+  "sources": {
+    "hellman-arrest-report": "https://oregonnews.uoregon.edu/lccn/sn97071090/1956-04-05/ed-1/seq-3/",
+    "hellman-fbi-index": "https://documents2.theblackvault.com/documents/fbifiles/1572047.pdf",
+    "lawson-own-account": "https://www.marxists.org/history/usa/pubs/masses-mainstream/1948/v01n05-jul-1948-mm.pdf",
+    "lawson-ap": "https://dailyiowan.lib.uiowa.edu/DI/1948/di1948-05-22.pdf",
+    "calhoun-photo": "https://dlg.usg.edu/record/gsu_ajc_7235",
+    "calhoun-image": "https://cdm16905.contentdm.oclc.org/iiif/2/ajc:7235/full/full/0/default.jpg",
+    "calhoun-identity": "https://findingaids.auctr.edu/repositories/2/resources/91",
+    "doty-contemporary": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-04-25-7-27-nat-guardian.pdf",
+    "doty-caption-order": "https://www.startribune.com/obituary-minneapolis-pacifist-went-to-prison-three-times-for-his-beliefs/419078254",
+    "janosco-archive": "https://findingaids.csun.edu/repositories/2/resources/101"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "d168eea2-e332-410a-b199-220da88c89b8",
+      "prisoner_id": "d168eea2-e332-410a-b199-220da88c89b8",
+      "slug": "john-cyril-hellman",
+      "name": "John Cyril Hellman",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1921-12-26 00:00:00",
+        "death_date": "2007-08-07 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "hellman-arrest-report",
+          "note": "April 5, 1956 Medford Mail Tribune, printed/PDF page 3, United Press report reproduces FBI announcement identifying John Cyril Hellman, Butte Communist organizer for Montana/Idaho, born December 26, 1921 at Columbia Falls. Original page visually checked."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "hellman-fbi-index",
+          "note": "FBI deceased-records index, PDF page 296, explicitly gives JOHN CYRIL HELLMAN birth 12/26/1921 and death 8/7/2007. Original index page visually checked; full name and birth match the contemporary arrest report. No dates taken from generic John Hellman namesakes."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ce22363d-1360-4cac-9339-859855d9da4e",
+      "prisoner_id": "ca50305c-d975-424b-84ac-13b1d9461466",
+      "slug": "john-howard-lawson",
+      "name": "John Howard Lawson",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1948-05-21 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lawson-own-account",
+          "note": "Lawson, Your Trial, Masses & Mainstream July 1948, printed page 3/PDF page 5, explicitly states his May 21, 1948 sentencing. Author contemporary first-person account; original page visually checked. This is the sentence for the case whose actual custody occurred in 1950-1951; existing incarceration/release dates unchanged."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lawson-ap",
+          "note": "Daily Iowan May 22, 1948, page 4, Associated Press report corroborates Lawson and Trumbo sentenced yesterday, with appeal bond. Verdict and sentencing distinguished; no arrest or actual service date inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "3076fed7-7ba3-4b10-beb3-64efe5062203",
+      "prisoner_id": "3076fed7-7ba3-4b10-beb3-64efe5062203",
+      "slug": "john-h-calhoun",
+      "name": "John H. Calhoun",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/john-h-calhoun-nick-arroyo-batch442.jpg"
+      },
+      "asset": {
+        "file": "john-h-calhoun-nick-arroyo-batch442.jpg",
+        "sha256": "822eb90db3760266a5308540fdf2a87bcd7ffea16013aa816a8090f591cff199"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "calhoun-photo",
+          "note": "John H. Calhoun outside Big Bethel AME Church, Atlanta, April 20, 1983. Nick Arroyo, Atlanta Journal-Constitution Photographic Archives, Georgia State University Library, AJCP363-030b. Archive metadata identifies the subject; AUC NAACP papers corroborate identity. Archive permits educational use without permission. Full original JPEG retained, including copyright notice; no claim of public-domain status. Conflicting birth-year authority metadata is not used to change existing vitals."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
+      "prisoner_id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
+      "slug": "joel-doty",
+      "name": "Joel Doty",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/joel-doty-larry-schreiber-batch442.png"
+      },
+      "asset": {
+        "file": "joel-doty-larry-schreiber-batch442.png",
+        "sha256": "728adab61311f6df56613065a8cb7ffd7c285e36535d77d3dd6a6f218b6cbcc3"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d5df836d-2f39-480e-a056-47b6c86c81e1",
+      "prisoner_id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
+      "slug": "joel-doty",
+      "name": "Joel Doty",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1955-03-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "2140d3e1-685b-4693-ac1b-fb7e1c574429",
+      "prisoner_id": "2140d3e1-685b-4693-ac1b-fb7e1c574429",
+      "slug": "orin-doty",
+      "name": "Orin Doty",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/orin-doty-larry-schreiber-batch442.png"
+      },
+      "asset": {
+        "file": "orin-doty-larry-schreiber-batch442.png",
+        "sha256": "041e9c782697160dd504efa6e12853fc5b0d1ca06e852b8b52e8307507d407ec"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "94c3106f-1065-4116-a0c1-21a6fc1a4001",
+      "prisoner_id": "2140d3e1-685b-4693-ac1b-fb7e1c574429",
+      "slug": "orin-doty",
+      "name": "Orin Doty",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1955-03-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "2f51e0c3-5c87-441e-8023-e690634f7265",
+      "prisoner_id": "2f51e0c3-5c87-441e-8023-e690634f7265",
+      "slug": "paul-doty",
+      "name": "Paul Doty",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/paul-doty-larry-schreiber-batch442.png"
+      },
+      "asset": {
+        "file": "paul-doty-larry-schreiber-batch442.png",
+        "sha256": "f20dc6185679b7ed0a7067d1780cb922bb241f465da4f993833fe40afa9af5d1"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c7ea0213-c29b-4697-9386-e3d763408f6e",
+      "prisoner_id": "2f51e0c3-5c87-441e-8023-e690634f7265",
+      "slug": "paul-doty",
+      "name": "Paul Doty",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1955-03-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "d838c522-1e00-4959-aa2d-99ece8146ea1",
+      "prisoner_id": "d838c522-1e00-4959-aa2d-99ece8146ea1",
+      "slug": "sid-doty",
+      "name": "Sid Doty",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/sid-doty-larry-schreiber-batch442.png"
+      },
+      "asset": {
+        "file": "sid-doty-larry-schreiber-batch442.png",
+        "sha256": "a8d56aaaf028e65c62bc8bfc7ff7ffbf2c48b46d1d01760e4605f193a68f0ba9"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4e716e39-b746-4e2b-86b3-706420c53292",
+      "prisoner_id": "d838c522-1e00-4959-aa2d-99ece8146ea1",
+      "slug": "sid-doty",
+      "name": "Sid Doty",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1955-03-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "doty-contemporary",
+          "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "3787e9e8-47c3-4446-a19e-d6cc6621c926",
+      "prisoner_id": "3787e9e8-47c3-4446-a19e-d6cc6621c926",
+      "slug": "john-janosco",
+      "name": "John Janosco",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1973-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "janosco-archive",
+          "note": "CSUN Special Collections finding aid for John Janosco UPWA Collection, biographical note explicitly states Janosco passed away in 1973. Career, west-coast UPWA work and 1957 immigration proceeding match this profile. Stored January 1 is only a year-precision placeholder. Collection coverage beginning 1908 is not a birthdate. Unconfirmed genealogical exact-day lead not assigned."
+        }
+      ]
+    }
+  ]
+}
