@@ -1,0 +1,237 @@
+{
+  "batch": 455,
+  "audit_date": "2026-10-12",
+  "expected_count": 7,
+  "sources": {
+    "court1951": "https://law.justia.com/cases/federal/appellate-courts/F2/187/991/440201/",
+    "hyun-court1950": "https://openjurist.org/186/f2d/190",
+    "release-original": "https://dspace.lib.hawaii.edu/server/api/core/bitstreams/0adc4332-6774-459e-880a-5dacf78deb26/content",
+    "release-catalog": "https://dspace.lib.hawaii.edu/items/68c8af6c-110f-4022-a613-928ed3e48456",
+    "release-corroboration": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-5/v05n08-jun-1951-JL.pdf",
+    "bare-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-11-01-7-2-nat-guardian.pdf",
+    "bare-vitals": "https://www.lacquiparledesign.com/pofa/2015/01/26/celebrating-and-remembering-puppeteers-born-in-january-part-1/",
+    "bare-photo": "https://vault217.gmu.edu/?p=119",
+    "bare-photo-original": "https://specialcollections.files.wordpress.com/2008/12/molka_reich_puppets.jpg"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "3966fc04-d5d8-4786-bff5-ddc84c8b1284",
+      "prisoner_id": "44dc9212-0557-450e-988f-82859de23ebe",
+      "name": "Miriam Stevenson",
+      "slug": "miriam-stevenson",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1950-10-24 00:00:00",
+        "incarceration_date": "1950-10-24 00:00:00",
+        "release_date": "1951-05-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "court1951",
+          "note": "187F2d991 individual Stevenson section: INS return explicitly actual custody October24,1950. Instructions October21 and later warrant October31 are not actual arrest. Court individual date preferred over newspaper generic roundup October22. Earlier July1949 same-day bail detention is separate and not grafted here."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release-original",
+          "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "68bd1ec3-ddb3-4527-a3bf-c9bf0c5631a3",
+      "prisoner_id": "e9de8597-b713-4b60-97a6-ad8e0ea53d74",
+      "name": "David Hyun",
+      "slug": "david-hyun",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "arrest_date": "1950-10-21 00:00:00",
+        "incarceration_date": "1950-10-21 00:00:00",
+        "release_date": "1951-05-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "hyun-court1950",
+          "note": "186F2d190 Hyun section explicitly complete restraint without bail since October21,1950 under arrest for deportation. Court individual date, not generic newspaper October22 raid date. Earlier release on bond is separate. Subsequent1953 custody not assumed continuous with this first period."
+        },
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release-original",
+          "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "49e9d092-7091-4be5-8940-d8d23c093754",
+      "prisoner_id": "c0f5e976-4b35-4c85-9b6b-9d8de6649c42",
+      "name": "Harry Carlisle",
+      "slug": "harry-carlisle",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1951-05-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release-original",
+          "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "12c3aaa0-85b7-48db-9bab-2a5fd7a90533",
+      "prisoner_id": "2833b0bc-3b07-41d3-b1b6-4fba1d4c08b2",
+      "name": "Frank Carlson",
+      "slug": "frank-carlson",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1951-05-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "release-original",
+          "note": "Honolulu Record May10,1951 ORIGINAL printedp4 article DavidHyun,3OtherAliensReleasedOnBailByOrderofSupremeCourt. Downloaded from university repository, catalog dc.date.issued1951-05-10; original page visually inspected. Names all four and explicitly states physical release ThursdayMay3 by JudgeBenHarrison. Separate from April30 SupremeCourt bail order; confirms DAY May3,1951. Original printedp4, not erroneous search-extract PageFive or OCR1928. June1951 JewishLife printedp15 independently confirms released inMay. Later re-detention episodes not represented as continuous confinement in this first period."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "2833b0bc-3b07-41d3-b1b6-4fba1d4c08b2",
+      "prisoner_id": "2833b0bc-3b07-41d3-b1b6-4fba1d4c08b2",
+      "name": "Frank Carlson",
+      "slug": "frank-carlson",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1913-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "court1951",
+          "note": "187F2d991 Carlson section: petition born Poland1913; INS return KosowGaliciaPoland on/aboutMarch6,1913. YEAR1913 only, not invented exactMarch6. Identity YoungWorker editor, YoungCommunistLeague California and Wisconsin, LosAngeles MarxistInstitute confirmed. Kansas Senator FrankCarlson1893-1987 is a different person."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "f264ecd0-bb32-42d6-a932-15119bfe19c3",
+      "prisoner_id": "8bd3ab7d-2101-4c52-919e-6c1455c05443",
+      "name": "Molka Reich Bare",
+      "slug": "molka-reich-bare",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "bare-sentence",
+          "note": "NationalGuardian November1,1954 original printedp4 visually inspected: JudgeHolt sentenced MrsBare to one year for contempt. YEAR1954 only; nearby October8/12 dates for other defendants and September22 show-cause not assigned as her sentence day. Sentence alone not admission; no physical1954custody endpoint inferred from later broad early1950s brief imprisonment account."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "8bd3ab7d-2101-4c52-919e-6c1455c05443",
+      "prisoner_id": "8bd3ab7d-2101-4c52-919e-6c1455c05443",
+      "name": "Molka Reich Bare",
+      "slug": "molka-reich-bare",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1901-01-01 00:00:00",
+        "death_date": "1992-07-09 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "photo": "prisoners/molka-reich-bare-george-mason-batch455.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "bare-vitals",
+          "note": "PuppeteersofAmerica January26,2015 trade-association remembrance assembled by SteveAbrams explicitly Jan1,1901-July9,1992. Full indexed primary publication read; original HTML direct retrieval unavailable406, not claimed visually inspected. Identity matches RemoBufano NY, MiamiWPA puppetry and refusal to testify/briefjailing, corroborated by GMU archival collection and1954Guardian. January1 explicit birthday is DAY precision, not a year-only storage placeholder."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "bare-photo",
+          "note": "GeorgeMasonUniversity SpecialCollections December2008 StringsAttached—MarionettesofMolkaReich. Original image title MolkaReichandhermarionettes identifies human at right. Original page HTML, photograph and crop inspected. Exact native-pixel rectangular crop isolates identified person; no resizing, generation or retouch. Photographer uncredited; rights undetermined; no public-domain claim. No assertion that later2013 different Bimbo photograph box/folder is this specific photograph."
+        }
+      ],
+      "asset": {
+        "file": "molka-reich-bare-george-mason-batch455.png",
+        "sha256": "5d837d523f4cea45d2e3cf3a79b93673b8526a6ff90d106cfe35d0fbc6c420d9",
+        "crop_box": [
+          635,
+          150,
+          990,
+          660
+        ],
+        "original_dimensions": [
+          1021,
+          1253
+        ],
+        "original_pixel_mode": "RGB"
+      }
+    }
+  ]
+}
