@@ -1,0 +1,196 @@
+{
+  "batch": 457,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "wellman-court": "https://law.justia.com/cases/federal/appellate-courts/F2/253/932/145493/",
+    "wellman-interview-photo": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-9/v09n03-jan-1955-JL.pdf",
+    "sturges-obituary": "https://www.digifind-it.com/princetonday/data/Publications/Journals/1993%20Fall.pdf",
+    "sturges-family": "https://vineyardgazette.com/obituaries/2003/08/26/julia-green-sturges-98-was-woman-adventurous-spirit",
+    "sturges-genealogy": "https://www.seekingmyroots.com/members/files/G002781.pdf",
+    "seeger-sentence": "https://oregonnews.uoregon.edu/lccn/2003260229/1961-04-04/ed-1/seq-2/",
+    "rios-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-02-21-7-18-nat-guardian.pdf",
+    "rios-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-05-10-6-29-nat-guardian.pdf",
+    "harisiades-release": "https://www.spauda2.org/vilnis/archive/1951/1951-07-20-VILNIS.pdf",
+    "warhol-custody-lead": "https://www.marxists.org/history/usa/pubs/political-affairs/1949-12v28n12-political-affairs.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "1205a937-15f1-46e7-a754-567d8276745a",
+      "prisoner_id": "1205a937-15f1-46e7-a754-567d8276745a",
+      "name": "Peggy Wellman",
+      "slug": "peggy-wellman",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1912-01-01 00:00:00",
+        "photo": "prisoners/peggy-wellman-jewish-life-batch457.png",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "wellman-court",
+          "note": "Full253F2d932 opinion: MignonWellman born on or about March25,1912 in VictoriaBC. Approximate day not represented as exact: YEAR1912 only. Original JewishLife January1955 printedp11 first-person PeggyWellman interview independently states born1912BritishColumbia. Mignon/Peggy identity linked by husbandSaul/family and1956HUAC index."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "wellman-interview-photo",
+          "note": "Original printedp12 caption identifies Wellmanfamily left-to-right Vicki,Peggy,Saul,David; exact crop of adultwoman second. Original PDF composite layers decoded at native scan width3248; retained pixels unchanged. No missing custody dates inferred from bail or proceedings."
+        }
+      ],
+      "asset": {
+        "file": "peggy-wellman-jewish-life-batch457.png",
+        "sha256": "459f8f4a3403c39b33503cf805808475a636cfc8863545ee139673de39057dbf"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "a9263341-950e-42b7-9034-5ab03b02df2b",
+      "prisoner_id": "a9263341-950e-42b7-9034-5ab03b02df2b",
+      "name": "Perry MacKay Sturges Jr.",
+      "slug": "perry-mackay-sturges-jr",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1924-01-01 00:00:00",
+        "death_date": "1993-05-11 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "sturges-obituary",
+          "note": "School own alumni obituary PDSJournal Fall1993 printedp45/PDFpage47, downloaded and original visually inspected: class1939 PerryMackaySturges diedMay11,1993, formerPackerCollegiate history/socialsciencechair, sisterJulieSturgesOConnor MFS43. MotherJuliaGreenSturges family obituary independently links sonPerryJr died1993, sisterJuliaSturgesOConnor and civil-rights arrest inSouth; not confused with fatherPerrySr."
+        },
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "sturges-genealogy",
+          "note": "Family primary compilation JohnDismukesGreen, TheUnionoftheGreenandDismukesFamilies1960, PDFpage11 genealogychart explicitly PerryMacKaySturgesJr1924, sistersJuliaAnne1925 andCarySutherland1930. Indexed original PDF text read; direct-download/screenshot failed, no claimed visual inspection. Same parent/sibling family independently identified by mother obituary; YEAR1924 only, no exact birthday inferred."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "sturges-family",
+          "note": "Family obituary motherJuliaGreenSturges1904 marriedPerryMacKaySturges1923; childrenPerryJr died1993, JuliaSturgesOConnor andCarySturgesBurns. Explicit civil-rights arrest inSouth matches existing profile. Obituary1960s summary not used to overwrite populated1959case dates."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50",
+      "prisoner_id": "440e7e7a-523b-4238-b519-7c725856e6a9",
+      "name": "Pete Seeger",
+      "slug": "pete-seeger",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1961-04-04 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "seeger-sentence",
+          "note": "Contemporaneous AP NewsReview RoseburgOR TuesdayApril4,1961 printedp2: Seeger sentenced today one year by JudgeThomasFMurphy for1955HUAC contempt. University original page PDF downloaded and visually inspected. This is sentencing day for existing1950s-origin case, not conviction day, physical jail admission or1962appeal reversal. Existing photo/vitals preserved; actual custody endpoints remain unverified."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "72ad12fb-c4b9-4886-811e-a5285724011f",
+      "prisoner_id": "72ad12fb-c4b9-4886-811e-a5285724011f",
+      "name": "Pedro Antonio Rios",
+      "slug": "pedro-antonio-rios",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/pedro-antonio-rios-national-guardian-batch457.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "rios-photo",
+          "note": "OriginalNationalGuardian February21,1955 printedp9 photograph explicitly captioned PedroAntonioRios. Exact native-scan composite crop; no retouch/resizing. ClavinFuneralHome2015MTAretiree PedroAntonioRios is not established as same man; no vital dates copied from that namesake."
+        }
+      ],
+      "asset": {
+        "file": "pedro-antonio-rios-national-guardian-batch457.png",
+        "sha256": "67dda86671d0d347c144d1f97a350c8aa9b197dd95fa662c848198c5f0bc3cf5"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4640c845-7c11-4442-abe8-09d3e42bd9f6",
+      "prisoner_id": "72ad12fb-c4b9-4886-811e-a5285724011f",
+      "name": "Pedro Antonio Rios",
+      "slug": "pedro-antonio-rios",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "rios-sentence",
+          "note": "OriginalNationalGuardian May10,1954 printedp10-11 deathhousecase already sentenced afterMarch1954trial; laterFebruary21,1955printedp9 explicitly April2juryverdict followed by JudgeJonahGoldstein sentence. YEAR1954 established, exact day/month not independently established. May10 is originally scheduled execution, not sentencing; April2 juryverdict not entered as sentencing. June3,1953crime date not borrowed as arrest/admission. No DOB derived from reported age22."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "1b095f08-d637-49e1-9722-eb4f2512318e",
+      "prisoner_id": "bb1b9298-64fe-4bd9-b347-47140ec821bd",
+      "name": "Peter Harisiades",
+      "slug": "peter-harisiades",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1949-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "harisiades-release",
+          "note": "OriginalVilnisEnglishSection printedp2/PDFpage6 header FridayJuly19th1951 (catalog filenameJuly20), AbnerGreen ACPFB executive secretary: Harisiades has been free on5000dollarbail since1949. Explicit actual freedom confirms releaseYEAR1949, matched to existingMay20,1949custody case. No exact day computed from64days or July19bail order; existing duration and start precision preserved. Jan1storage is YEARprecision, not asserted actualJanuary1release."
+        }
+      ]
+    }
+  ]
+}
