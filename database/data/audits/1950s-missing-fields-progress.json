@@ -5014,8 +5014,14 @@
     "james-dolsen": {
       "id": "b72c9b01-3f69-4ede-9936-34383947a04c",
       "name": "James Dolsen",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 440,
+          "status": "researched; no supported addition",
+          "evidence": "FBI deceased-index PDF145 dates1885November30/1988November lack identity context to match Pittsburgh defendant; independent corroboration pending. Existing combined case dates preserved."
+        }
+      ],
       "case_ids": [
         "e766f2ac-4d0a-42d6-beb8-3bf32f9dae5c"
       ],
@@ -5031,7 +5037,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "See batch440 audit for unassigned vital-date leads and unresolved release."
     },
     "william-albertson": {
       "id": "ebf8a019-5ff8-430d-ba9c-0aa17d7436d5",
@@ -11759,26 +11766,79 @@
     "james-west": {
       "id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
       "name": "James West",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 440,
+          "table": "prisoners",
+          "id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "west-rutgers",
+              "note": "Rutgers MC972 finding aid biographical sketch and chronology explicitly gives January8,1914 birth, identifies CPUSA organizer and Taft-Hartley defendant. UW oral history identifies birth name IsadorWexler and the same prison case."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "west-obit",
+              "note": "April29,2005 obituary says he died last month in Seattle at91. March2005 supported; no exact day supplied. Month precision only. DOBJanuary8,1914 and IsadorWexler corroborate identity; current MayorJimWest namesake excluded."
+            }
+          ]
+        },
+        {
+          "batch": 440,
+          "table": "prisoner_cases",
+          "id": "6c2c3ef0-dd59-415c-b990-daa43c40cc3d",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date",
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "west-rutgers",
+              "note": "Finding aid chronology explicitly says January1957 arrest, February1958 sentencing,1961 commencement at TerreHaute Federal Penitentiary,1962 completion and release. Exact days unresolved: month/month/year/year precision. Court1959opinion confirms appeal bond; 1958verdict/1961certiorari dates are not custody endpoints. Rutgers states$5000fine versus populated$2500; fine/prose not overwritten."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "west-doj",
+              "note": "DOJ February14,1958 sentencing is tentative, not proof that it occurred that day. Rutgers final chronology establishes February month only. January29 is verdict, not sentencing."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6c2c3ef0-dd59-415c-b990-daa43c40cc3d"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "6c2c3ef0-dd59-415c-b990-daa43c40cc3d": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "West exact birth/month-only death and month/year case dates, and MacInnis year-only vitals and exact sentencing date applied. Exact custody days remain unresolved; existing biographies, sentences and populated fields preserved. See batch440 audit."
     },
     "sam-reed": {
       "id": "e0a097cd-52a8-4704-8ab3-1361d08868cb",
@@ -15129,26 +15189,63 @@
     "james-macinnis": {
       "id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",
       "name": "James MacInnis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 440,
+          "table": "prisoners",
+          "id": "7c80579d-42c0-4a50-b0cb-b4c8fc29dc86",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "macinnis-vitals",
+              "note": "SanFrancisco Board February28,2017 packet PDF16/printed4882: original December21,2015 MacInnis,Donner&Koplowitz law-firm letterhead names deceased founder JamesMartinMacInnis(1913-1979). Original PDF page visually checked. Contemporary ILWU March17,1950 pages5-7 identifies JamesMartinMacInnis as Bridges defense counsel; court confirms same case. Year precision only, no day/month asserted."
+            }
+          ]
+        },
+        {
+          "batch": 440,
+          "table": "prisoner_cases",
+          "id": "cb16992f-e5f3-4fb0-8ede-86f68c729b9e",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "macinnis-court",
+              "note": "NinthCircuit MacInnis v.US191F.2d157 July30,1951 expressly records sentence April4,1950 after Bridges verdict. February1 incident, February2 contempt announcement, February28certificate and March1filing are not sentencing/arrest/custody dates. Three-month sentence upheld, but populated sentence prose preserved. No actual prison entry/release inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cb16992f-e5f3-4fb0-8ede-86f68c729b9e"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "cb16992f-e5f3-4fb0-8ede-86f68c729b9e": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "West exact birth/month-only death and month/year case dates, and MacInnis year-only vitals and exact sentencing date applied. Exact custody days remain unresolved; existing biographies, sentences and populated fields preserved. See batch440 audit."
     },
     "abram-flaxer": {
       "id": "a07625b0-78e8-42e2-8267-49382b3d7cb1",

@@ -1,0 +1,14 @@
+Batch 440 live verification — October 12,2026
+Data commit: 284c63e0
+B440-ISOLATED-TEST-OK 161 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes. Initial live apply failed with SQLite disk-full; complete profile/case snapshot matched baseline after rollback. Removed782 expired Laravel cache entries(792391485bytes), preserving sessions, media, backups and valid cache. Retry succeeded and replay wrote0 rows.
+Preview4 matched guarded rows. Applied4 rows; replay0 rows. B440-OK on all three runs.
+Compared 723 profiles and 852 cases: 50203 unrelated field values preserved; 13 expected fields verified, including four precision metadata values; existing precision entries preserved.
+Nine missing dates filled across four rows; no photo changes. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 440 repeat live/public check — October 12, 2026
+All 4 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B440-OK.
+All 2 public profile pages returned HTTP 200. No portrait assets in this batch.
+james-macinnis: birthdate=1913-01-01 (year); visible=True; death_date=1979-01-01 (year); visible=True; sentenced_date=1950-04-04 (day); visible=True
+james-west: birthdate=1914-01-08 (day); visible=True; death_date=2005-03-01 (month); visible=True; arrest_date=1957-01-01 (month); visible=True; sentenced_date=1958-02-01 (month); visible=True; incarceration_date=1961-01-01 (year); visible=True; release_date=1962-01-01 (year); visible=True
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
