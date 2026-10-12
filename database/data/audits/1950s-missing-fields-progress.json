@@ -3100,8 +3100,14 @@
     "otis-hood": {
       "id": "68014c60-2ec9-49fc-a770-640e8920f4eb",
       "name": "Otis Hood",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "State1954 case dismissalMay1956 separate from federalMay29,1956 case. Expert born1900 lead needs stronger identity-safe vital verification; group portrait position unverified."
+        }
+      ],
       "case_ids": [
         "856125b0-5ef3-4b3c-a5c6-7e7793ffd530"
       ],
@@ -3118,7 +3124,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "State1954 case dismissalMay1956 separate from federalMay29,1956 case. Expert born1900 lead needs stronger identity-safe vital verification; group portrait position unverified."
     },
     "anne-timpson": {
       "id": "12deca32-c124-40ad-adea-27758ffe2461",
@@ -4016,8 +4023,14 @@
     "olava-skottedal": {
       "id": "1c05f3dc-51ca-434e-9342-f7c3aac3a063",
       "name": "Olava Skottedal",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Biography1951 versus populatedJuly15,1950 arrest conflict preserved; no individual release verified."
+        }
+      ],
       "case_ids": [
         "781b73e7-1260-46a4-9f0a-b9bec78174c8"
       ],
@@ -4034,7 +4047,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Biography1951 versus populatedJuly15,1950 arrest conflict preserved; no individual release verified."
     },
     "martin-robbins": {
       "id": "e47037e3-42f2-4f1a-a6d9-53ee2e00b4bf",
@@ -4508,8 +4522,14 @@
     "pasquale-branca": {
       "id": "5f2e347a-6e2c-49ee-96ee-592c779374b2",
       "name": "Pasquale Branca",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Court FifthAmendment claim/cleared case not evidence of imprisonment; missing custody fields unresolved."
+        }
+      ],
       "case_ids": [
         "fc3b7192-1dee-4d62-a9ce-4d1e17cfa191"
       ],
@@ -4527,7 +4547,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Court FifthAmendment claim/cleared case not evidence of imprisonment; missing custody fields unresolved."
     },
     "walter-irvin": {
       "id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
@@ -6894,8 +6915,14 @@
     "paul-cinat": {
       "id": "bfb85db5-4e2e-4c7e-b6be-51e072651bf6",
       "name": "Paul Cinat",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "PopulatedNov1953 arrestmonth preserved; admission/release not independently established."
+        }
+      ],
       "case_ids": [
         "f5d53998-ea85-425f-a2ee-9c9050c8c5cc"
       ],
@@ -6912,7 +6939,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PopulatedNov1953 arrestmonth preserved; admission/release not independently established."
     },
     "pelaga-popovska": {
       "id": "2758e048-55db-47d5-980c-8d4b18025197",
@@ -8255,8 +8283,27 @@
     "paul-sweezy": {
       "id": "eacb7df8-e94f-4d7f-a836-e9a26304e7f1",
       "name": "Paul Sweezy",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "table": "prisoner_cases",
+          "id": "97e2d548-cde0-4305-9faf-5dbc914d6807",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "sweezy-newspaper",
+              "note": "National Guardian July26,1954 original printedp7 Broomsticks in New England, downloaded and visually inspected, explicitly individual sentence June30 by Superior Court Justice R.F.Griffith, MerrimackNH. Bail pending appeal does not establish actual jail admission or its duration. Supreme Court354US234 confirms state court contempt proceedings. Existing charge wording Contempt of Congress conflicts with state court contempt; preserved under missing-only scope."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "97e2d548-cde0-4305-9faf-5dbc914d6807"
       ],
@@ -8264,13 +8311,13 @@
       "missing_case_fields": {
         "97e2d548-cde0-4305-9faf-5dbc914d6807": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch456 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "vernon-bown": {
       "id": "c7582fb9-3fdd-489e-b4d2-2dc5cdfe2a49",
@@ -9842,8 +9889,14 @@
     "paul-freeman": {
       "id": "3ef5cac2-f66a-4eaf-b237-57308d1ff384",
       "name": "Paul Freeman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "OliverFreeman namesake source not assumed same as Paul; identity and missing dates unresolved."
+        }
+      ],
       "case_ids": [
         "1a625cf4-cb03-46eb-94ec-cf2d2b19dc9f"
       ],
@@ -9861,13 +9914,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OliverFreeman namesake source not assumed same as Paul; identity and missing dates unresolved."
     },
     "paul-pfeffer": {
       "id": "303c96bb-6a23-4d3c-9166-3be1346f6e40",
       "name": "Paul Pfeffer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "ParoleNov27,1972 lead requires primary confirmation; no dates inferred from sentence."
+        }
+      ],
       "case_ids": [
         "d65888b1-fcee-4ad0-8f10-8ccad49b3f2f"
       ],
@@ -9885,7 +9945,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ParoleNov27,1972 lead requires primary confirmation; no dates inferred from sentence."
     },
     "john-roche": {
       "id": "6ead78f2-c4b3-455f-aa17-e56203db0390",
@@ -9919,6 +9980,26 @@
           "batch": 455,
           "status": "reviewed, no unsupported additions",
           "note": "DOByear conflict and missing case dates/portrait require further original-source research; unrelatedJohnFrancisRoche photo excluded."
+        },
+        {
+          "batch": 456,
+          "table": "prisoner_cases",
+          "id": "3b33a257-513c-4285-8a2b-77027c0a5d2f",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "roye-up",
+              "note": "BigSpringHerald MondayJune7,1954 original printedp6 UP dispatch NewYorkRapeVictimDies;SecondAllegedSexKillerHeld. Original downloaded and visually inspected. Names NormanRoye, says arrested yesterday and booked on homicide/rape charges. Thus actual arrest and booking custody SundayJune6, not article publicationJune7. AP PrinceAlbertDailyHerald June7p2 independently says earlySunday arrest. Does not establish continuous custody length or later sentencing day. Existing1936birth year and1956death day preserved; alternative1935birth year unresolved. JohnFrancisRoche discussed nearby is a different person, no photo assigned."
+            }
+          ]
         }
       ],
       "case_ids": [
@@ -9929,15 +10010,13 @@
       ],
       "missing_case_fields": {
         "3b33a257-513c-4285-8a2b-77027c0a5d2f": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
       },
-      "open_research_note": "DOByear conflict and missing case dates/portrait require further original-source research; unrelatedJohnFrancisRoche photo excluded."
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch456 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "jackson-ingram": {
       "id": "58701d9c-503d-4a94-9a07-cadd790aa4ca",
@@ -10953,8 +11032,14 @@
     "pablo-garcia": {
       "id": "175d51a0-018b-4d25-b026-4ac1dfa4b82d",
       "name": "Pablo Garcia",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "March1954 local GagLaw arrest separate from October1954 federalSmithAct case. No exact individual federal date verified; no March endpoints grafted."
+        }
+      ],
       "case_ids": [
         "83913ad9-b6d9-449d-834e-183acc16bad1"
       ],
@@ -10972,7 +11057,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "March1954 local GagLaw arrest separate from October1954 federalSmithAct case. No exact individual federal date verified; no March endpoints grafted."
     },
     "juan-santos-rivera": {
       "id": "e87a5422-74ce-4000-8b56-bd8291d2b409",
@@ -12097,8 +12183,14 @@
     "otto-nathan": {
       "id": "e1fe2754-cbbc-4738-8590-1f3a867dcda4",
       "name": "Otto Nathan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Conviction and bond with indefinitely deferred sentence do not prove imprisonment. IAS archival photo lead remains pending original asset verification."
+        }
+      ],
       "case_ids": [
         "9dab64b5-b5b8-48ca-98a3-2afd1a96e0ab"
       ],
@@ -12114,7 +12206,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Conviction and bond with indefinitely deferred sentence do not prove imprisonment. IAS archival photo lead remains pending original asset verification."
     },
     "pete-seeger": {
       "id": "440e7e7a-523b-4238-b519-7c725856e6a9",
@@ -12790,8 +12883,14 @@
     "paul-brown": {
       "id": "3a422a6d-5d47-4f62-a105-77397e2cf250",
       "name": "Paul Brown",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "SamuelHorowitz identity lead, populatedMay1954 arrest/Aug11,1955 release preserved; sixmonth description not used to compute exact custody day."
+        }
+      ],
       "case_ids": [
         "c1199d76-fc3e-436c-87ec-b8bb7e318cc1"
       ],
@@ -12807,7 +12906,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "SamuelHorowitz identity lead, populatedMay1954 arrest/Aug11,1955 release preserved; sixmonth description not used to compute exact custody day."
     },
     "james-keller": {
       "id": "d7322279-a066-4f2e-a815-52867cc817ef",
@@ -14298,8 +14398,27 @@
     "orion-sherwood": {
       "id": "d34fea34-2429-405e-b89b-b78894def884",
       "name": "Orion Sherwood",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "table": "prisoner_cases",
+          "id": "d40bc39c-6692-4ccb-862a-dc00bd96f3b0",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "sherwood-journal",
+              "note": "Friends Journal May17,1958 printedp317 (PDFpage9), original downloaded and visually inspected, explicitly names OrionSherwood and other three GoldenRule crew sentenced May7 by JudgeWiig. Applies to first May1958 case, not second June4 arrest. Early report says elected jail whereas populated first-case narrative says suspended term/releasedMay7; conflict preserved, no duration, release or sentence prose rewritten."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d40bc39c-6692-4ccb-862a-dc00bd96f3b0",
         "fc12d467-6e5a-41cd-855b-a1f47296987a"
@@ -14310,7 +14429,6 @@
       ],
       "missing_case_fields": {
         "d40bc39c-6692-4ccb-862a-dc00bd96f3b0": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -14319,7 +14437,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch456 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "earle-l-reynolds": {
       "id": "fb865936-f066-4e2b-b15b-0abeb404e00d",
@@ -14747,8 +14866,14 @@
     "norton-anthony-russell": {
       "id": "59d2a4ef-0986-4364-add4-1f5c0e38813e",
       "name": "Norton Anthony Russell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Sentence and overturned conviction do not establish actual imprisonment dates; unresolved."
+        }
+      ],
       "case_ids": [
         "f6bb2b8c-1ecc-4847-8941-997007661456"
       ],
@@ -14766,7 +14891,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Sentence and overturned conviction do not establish actual imprisonment dates; unresolved."
     },
     "bernhard-deutch": {
       "id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
@@ -17578,8 +17704,34 @@
     "oscar-smilack": {
       "id": "7d76ef53-ffbb-4e51-bf71-74bfb99cdd30",
       "name": "Oscar Smilack",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "table": "prisoner_cases",
+          "id": "4553d8cb-8de0-43fe-b155-c6f5ec16a61a",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "smilack-court",
+              "note": "93OhioApp201,112NE2d675, No1025 (June12,1952), full judicial opinion read. Reproduces May29,1952 CommonPleas hearing and immediate sheriff jail remand pending transfer to LimaStateHospital. NationalGuardian June26 originalp6 visually inspected independently reports taken away from courtroom immediately without time to say goodbye. This is actual custody start, not inferred hospital admission day. Thirteen days in hospital does not date the earlier jail remand. June12 judicial discharge delivered him into FranklinCounty sheriff custody: not freedom and not entered as release_date. Commitment for observation is not a criminal prison sentence; sentenced_date remains unknown."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "smilack-newspaper",
+              "note": "Original printedp6, individually named OscarSmilack in Ohio judge rules humanitarian crazy; describes physical removal directly from courtroom and later13days hospital confinement. Combined with dated court transcript establishes actualMay29 custody; no endpoint inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4553d8cb-8de0-43fe-b155-c6f5ec16a61a"
       ],
@@ -17592,12 +17744,12 @@
         "4553d8cb-8de0-43fe-b155-c6f5ec16a61a": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch456 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "chris-mensalvas": {
       "id": "2c3ee168-8029-498f-874a-daa9c0e79058",
@@ -18254,8 +18406,14 @@
     "norman-tallentire": {
       "id": "d71997d0-01cc-4fbe-a959-58df0b90a0e6",
       "name": "Norman Tallentire",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "23day custody1951 established but exact admission/release remain unverified; no inferred endpoint."
+        }
+      ],
       "case_ids": [
         "bdd9fc8e-73a0-4c9b-bc42-bc1754d4151f"
       ],
@@ -18267,7 +18425,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "23day custody1951 established but exact admission/release remain unverified; no inferred endpoint."
     },
     "antonia-sentner": {
       "id": "7317adc8-1106-498f-8cb0-322ab6a1eda7",
@@ -18484,8 +18643,14 @@
     "olga-viscal-garriga": {
       "id": "b5986dcd-ebd8-42f4-a3d8-7b2fcaadd5bb",
       "name": "Olga Viscal Garriga",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary archive caption dates shackled court photograph January4,1951, not Wikipedia November2,1950 arrest. Sentence/release days unresolved."
+        }
+      ],
       "case_ids": [
         "10e6e857-a138-46c1-83fa-a1539940c798"
       ],
@@ -18499,7 +18664,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary archive caption dates shackled court photograph January4,1951, not Wikipedia November2,1950 arrest. Sentence/release days unresolved."
     },
     "vidal-santiago-diaz": {
       "id": "1a8b42db-301d-4ced-b7ee-c14a028fa6e6",
@@ -19902,8 +20068,14 @@
     "oscar-seborer": {
       "id": "4abdd7b5-593e-4d0c-b589-d8c5e3258560",
       "name": "Oscar Seborer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated exile/vitals preserved; no U.S. prosecution or actual imprisonment established."
+        }
+      ],
       "case_ids": [
         "e8ab63f7-329f-469e-bc08-b0c0acf14f71"
       ],
@@ -19917,7 +20089,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Populated exile/vitals preserved; no U.S. prosecution or actual imprisonment established."
     },
     "stuart-seborer": {
       "id": "645c4bda-e1c6-4c4c-887b-58597ca24f59",
@@ -20009,8 +20182,14 @@
     "orest-stephen-makar": {
       "id": "833c5c4d-bd8a-422a-a397-8202cb343999",
       "name": "Orest Stephen Makar",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 456,
+          "status": "reviewed, no unsupported additions",
+          "note": "Return to USSRDecember1956 not evidence of U.S. prosecution or incarceration."
+        }
+      ],
       "case_ids": [
         "b3d651ae-f986-42d9-8073-62370739cda4"
       ],
@@ -20027,7 +20206,8 @@
           "release_date",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Return to USSRDecember1956 not evidence of U.S. prosecution or incarceration."
     },
     "alexander-kazem-bek": {
       "id": "a4aed91e-c6fc-4ec5-a378-ab2020afaef6",
