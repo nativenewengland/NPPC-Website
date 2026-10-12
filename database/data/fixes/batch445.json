@@ -1,0 +1,167 @@
+{
+  "batch": 445,
+  "audit_date": "2026-10-12",
+  "expected_count": 5,
+  "sources": {
+    "fbi-sentencing": "https://vault.fbi.gov/NAACP/NAACP%20Part%2005/",
+    "guardian-sentencing": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-07-04-7-37-nat-guardian.pdf",
+    "doj-bail": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0302.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "1c8211bf-5624-4ed9-872f-222ba7e17952",
+      "prisoner_id": "be7e57f5-ffcd-4731-b38a-108c0eed02f7",
+      "name": "Anna Bary",
+      "slug": "anna-bary",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-06-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fbi-sentencing",
+          "note": "FBI NAACP Part 5, NY 100-7629, glossary Colorado Committee to Protect Civil Liberties explicitly lists these Denver defendants, guilty verdict May 25, 1955 and sentencing June 23, 1955 by Jean S. Breitenstein. Official indexed document text retrieved via search; direct PDF HTTP403, so no claim of visually inspecting that original FBI page."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "guardian-sentencing",
+          "note": "July 4, 1955 National Guardian, printed/PDF page 7, contemporary report names each defendant and first sentences by Breitenstein, with continued bail for all except Lewis Johnson. Original page visually checked. Corroborates initial 1955 sentencing context, not the separate April 15, 1959 retrial sentence. No incarceration or release inferred from sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ac55c899-e5ac-45ad-8c7b-6f186c08af4a",
+      "prisoner_id": "21fb55f9-7689-48bb-9817-a048c3d415aa",
+      "name": "Harold Zepelin",
+      "slug": "harold-zepelin",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"release_date\":\"day\",\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-06-23 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fbi-sentencing",
+          "note": "FBI NAACP Part 5, NY 100-7629, glossary Colorado Committee to Protect Civil Liberties explicitly lists these Denver defendants, guilty verdict May 25, 1955 and sentencing June 23, 1955 by Jean S. Breitenstein. Official indexed document text retrieved via search; direct PDF HTTP403, so no claim of visually inspecting that original FBI page."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "guardian-sentencing",
+          "note": "July 4, 1955 National Guardian, printed/PDF page 7, contemporary report names each defendant and first sentences by Breitenstein, with continued bail for all except Lewis Johnson. Original page visually checked. Corroborates initial 1955 sentencing context, not the separate April 15, 1959 retrial sentence. No incarceration or release inferred from sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "16185743-cd23-4408-b833-34c40d9720b6",
+      "prisoner_id": "d8074b8d-2788-4bc2-a672-03dcd2d184da",
+      "name": "Maia Scherrer",
+      "slug": "maia-scherrer",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-06-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fbi-sentencing",
+          "note": "FBI NAACP Part 5, NY 100-7629, glossary Colorado Committee to Protect Civil Liberties explicitly lists these Denver defendants, guilty verdict May 25, 1955 and sentencing June 23, 1955 by Jean S. Breitenstein. Official indexed document text retrieved via search; direct PDF HTTP403, so no claim of visually inspecting that original FBI page."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "guardian-sentencing",
+          "note": "July 4, 1955 National Guardian, printed/PDF page 7, contemporary report names each defendant and first sentences by Breitenstein, with continued bail for all except Lewis Johnson. Original page visually checked. Corroborates initial 1955 sentencing context, not the separate April 15, 1959 retrial sentence. No incarceration or release inferred from sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6f6864ea-3a82-4aa9-a5a4-95461cbfffae",
+      "prisoner_id": "baf939fb-8c2f-412f-a68a-df1e7e927ea5",
+      "name": "Joseph W. Scherrer",
+      "slug": "joseph-w-scherrer",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-06-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fbi-sentencing",
+          "note": "FBI NAACP Part 5, NY 100-7629, glossary Colorado Committee to Protect Civil Liberties explicitly lists these Denver defendants, guilty verdict May 25, 1955 and sentencing June 23, 1955 by Jean S. Breitenstein. Official indexed document text retrieved via search; direct PDF HTTP403, so no claim of visually inspecting that original FBI page."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "guardian-sentencing",
+          "note": "July 4, 1955 National Guardian, printed/PDF page 7, contemporary report names each defendant and first sentences by Breitenstein, with continued bail for all except Lewis Johnson. Original page visually checked. Corroborates initial 1955 sentencing context, not the separate April 15, 1959 retrial sentence. No incarceration or release inferred from sentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bd06d004-409d-42eb-b681-73693045f4bf",
+      "prisoner_id": "782e6f0e-4de9-43c6-b76d-3a595898bca4",
+      "name": "Patricia Blau",
+      "slug": "patricia-blau",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-06-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fbi-sentencing",
+          "note": "FBI NAACP Part 5, NY 100-7629, glossary Colorado Committee to Protect Civil Liberties explicitly lists these Denver defendants, guilty verdict May 25, 1955 and sentencing June 23, 1955 by Jean S. Breitenstein. Official indexed document text retrieved via search; direct PDF HTTP403, so no claim of visually inspecting that original FBI page."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "guardian-sentencing",
+          "note": "July 4, 1955 National Guardian, printed/PDF page 7, contemporary report names each defendant and first sentences by Breitenstein, with continued bail for all except Lewis Johnson. Original page visually checked. Corroborates initial 1955 sentencing context, not the separate April 15, 1959 retrial sentence. No incarceration or release inferred from sentence."
+        }
+      ]
+    }
+  ]
+}
