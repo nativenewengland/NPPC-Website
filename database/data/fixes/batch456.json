@@ -1,0 +1,122 @@
+{
+  "batch": 456,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "sweezy-newspaper": "https://www.marxists.org/history/usa/pubs/national-guardian/1954-07-26-6-40-nat-guardian.pdf",
+    "sweezy-court": "https://supreme.justia.com/cases/federal/us/354/234/",
+    "sherwood-journal": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1958/HC12-50149.pdf",
+    "smilack-court": "https://www.casemine.com/judgement/us/5914ca94add7b049347fb81e",
+    "smilack-newspaper": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-06-26-4-36-nat-guardian.pdf",
+    "roye-up": "https://newspapers.swco.ttu.edu/bitstreams/c0044c2a-a765-473c-a216-9669696c7b9f/download",
+    "roye-ap": "https://princealbertlibrary.ca/padh/1954/June/June%207,1954.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "97e2d548-cde0-4305-9faf-5dbc914d6807",
+      "prisoner_id": "eacb7df8-e94f-4d7f-a836-e9a26304e7f1",
+      "name": "Paul Sweezy",
+      "slug": "paul-sweezy",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-06-30 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "sweezy-newspaper",
+          "note": "National Guardian July26,1954 original printedp7 Broomsticks in New England, downloaded and visually inspected, explicitly individual sentence June30 by Superior Court Justice R.F.Griffith, MerrimackNH. Bail pending appeal does not establish actual jail admission or its duration. Supreme Court354US234 confirms state court contempt proceedings. Existing charge wording Contempt of Congress conflicts with state court contempt; preserved under missing-only scope."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d40bc39c-6692-4ccb-862a-dc00bd96f3b0",
+      "prisoner_id": "d34fea34-2429-405e-b89b-b78894def884",
+      "name": "Orion Sherwood",
+      "slug": "orion-sherwood",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-05-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "sherwood-journal",
+          "note": "Friends Journal May17,1958 printedp317 (PDFpage9), original downloaded and visually inspected, explicitly names OrionSherwood and other three GoldenRule crew sentenced May7 by JudgeWiig. Applies to first May1958 case, not second June4 arrest. Early report says elected jail whereas populated first-case narrative says suspended term/releasedMay7; conflict preserved, no duration, release or sentence prose rewritten."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4553d8cb-8de0-43fe-b155-c6f5ec16a61a",
+      "prisoner_id": "7d76ef53-ffbb-4e51-bf71-74bfb99cdd30",
+      "name": "Oscar Smilack",
+      "slug": "oscar-smilack",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1952-05-29 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "smilack-court",
+          "note": "93OhioApp201,112NE2d675, No1025 (June12,1952), full judicial opinion read. Reproduces May29,1952 CommonPleas hearing and immediate sheriff jail remand pending transfer to LimaStateHospital. NationalGuardian June26 originalp6 visually inspected independently reports taken away from courtroom immediately without time to say goodbye. This is actual custody start, not inferred hospital admission day. Thirteen days in hospital does not date the earlier jail remand. June12 judicial discharge delivered him into FranklinCounty sheriff custody: not freedom and not entered as release_date. Commitment for observation is not a criminal prison sentence; sentenced_date remains unknown."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "smilack-newspaper",
+          "note": "Original printedp6, individually named OscarSmilack in Ohio judge rules humanitarian crazy; describes physical removal directly from courtroom and later13days hospital confinement. Combined with dated court transcript establishes actualMay29 custody; no endpoint inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3b33a257-513c-4285-8a2b-77027c0a5d2f",
+      "prisoner_id": "7e937832-f334-43d5-9f2a-0b5ba69545ad",
+      "name": "Norman Roye",
+      "slug": "norman-roye",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1954-06-06 00:00:00",
+        "incarceration_date": "1954-06-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "source": "roye-up",
+          "note": "BigSpringHerald MondayJune7,1954 original printedp6 UP dispatch NewYorkRapeVictimDies;SecondAllegedSexKillerHeld. Original downloaded and visually inspected. Names NormanRoye, says arrested yesterday and booked on homicide/rape charges. Thus actual arrest and booking custody SundayJune6, not article publicationJune7. AP PrinceAlbertDailyHerald June7p2 independently says earlySunday arrest. Does not establish continuous custody length or later sentencing day. Existing1936birth year and1956death day preserved; alternative1935birth year unresolved. JohnFrancisRoche discussed nearby is a different person, no photo assigned."
+        }
+      ]
+    }
+  ]
+}
