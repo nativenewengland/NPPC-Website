@@ -1,0 +1,509 @@
+{
+  "batch": 427,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "california-newspaper": "https://oregonnews.uoregon.edu/lccn/sn97071090/1952-08-08/ed-1/seq-1/",
+    "california-identity": "https://law.justia.com/cases/federal/appellate-courts/F2/225/146/417598/",
+    "newyork-newspaper": "https://oregonnews.uoregon.edu/lccn/sn97071090/1953-02-03/ed-1/seq-4/",
+    "newyork-fbi": "https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2008/at_download/file"
+  },
+  "expected_count": 16,
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "88bfc677-25eb-41e8-986e-816ee9467244",
+      "prisoner_id": "8129ccc3-8fba-41f2-9072-c641bb2a2aac",
+      "slug": "frank-spector",
+      "name": "Frank Spector",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b0f2d399-e985-4dbb-b555-79b0de0d556c",
+      "prisoner_id": "6ca539b2-1c7e-4205-b672-9bc1d3247835",
+      "slug": "rose-chernin",
+      "name": "Rose Chernin",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bb64d88c-a8c8-4c66-aa3e-0184a8e3b793",
+      "prisoner_id": "f29e56b9-5e5d-4f88-87f3-b23b6bcd8a10",
+      "slug": "ben-dobbs",
+      "name": "Ben Dobbs",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a95768f5-22fa-43c1-a05c-d9c989f9668c",
+      "prisoner_id": "ab11fb57-83e8-4dc2-be0a-b8a46e940e67",
+      "slug": "al-richmond",
+      "name": "Al Richmond",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "8d9bdaac-4cc8-484d-b493-56577d3079ec",
+      "prisoner_id": "66d40f40-b989-4932-a687-abf27c8cbfe1",
+      "slug": "albert-lima",
+      "name": "Albert Lima",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e761132f-ce3f-4b7b-92ca-f0e2b4899481",
+      "prisoner_id": "6b410635-2bc6-424b-a274-a7d16643cdc5",
+      "slug": "loretta-stack",
+      "name": "Loretta Stack",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1952-08-07 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-newspaper",
+          "note": "United Press sentencing report, Medford Mail Tribune Friday August 8,1952 page1, explicitly says the fourteen Smith Act defendants received five years and $10,000 each on Thursday, August7. This is the conspiracy sentence, distinct from the August5 verdict and the August8 Yates contempt sentence."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "california-identity",
+          "note": "Original Ninth Circuit case caption,225F2d146, independently names this defendant among the fourteen Los Angeles Smith Act defendants. Existing populated dates are preserved; no appeal or reversal is treated as a release date."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "58010053-08a6-41b9-ac1e-eb7507985db9",
+      "prisoner_id": "006c7df6-5dd6-4744-8735-4f849b52d16e",
+      "slug": "alexander-trachtenberg",
+      "name": "Alexander Trachtenberg",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "05c8e195-ad39-4618-8ccf-3c964990842b",
+      "prisoner_id": "08674abc-87d8-42bc-8464-1cf36d11daea",
+      "slug": "betty-gannett",
+      "name": "Betty Gannett",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "acc7313f-1735-4bd3-b34c-83a1f07ecf7d",
+      "prisoner_id": "d2c440d0-df81-4b33-a779-7af5ed0eaf31",
+      "slug": "george-blake-charney",
+      "name": "George Blake Charney",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "225ef227-eadb-4424-ac1e-19c1b0209631",
+      "prisoner_id": "c04a3436-b7a4-49b4-bb0a-42e21d68ee8e",
+      "slug": "v-j-jerome",
+      "name": "V. J. Jerome",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "1ad8915e-04d9-490a-b0ee-e971e092c5f3",
+      "prisoner_id": "dbc1a1bb-7832-4aaa-82a7-d8ee9aa524a1",
+      "slug": "albert-lannon",
+      "name": "Albert Lannon",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c27658d8-8617-421f-b80c-72c11b535d11",
+      "prisoner_id": "490a36dc-8a16-4bbb-bf22-18051b8cede7",
+      "slug": "jacob-mindel",
+      "name": "Jacob Mindel",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b7358eae-296d-4a4c-83ae-9191aa6cf90b",
+      "prisoner_id": "33be334a-5444-4aa6-98ce-7a46eb3866dd",
+      "slug": "louis-weinstock",
+      "name": "Louis Weinstock",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "41ffcb0c-e863-4e48-9b51-671b34600b0b",
+      "prisoner_id": "9e26b33c-e4e5-4372-926d-dbee0db09c01",
+      "slug": "arnold-johnson",
+      "name": "Arnold Johnson",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "c7de8743-330f-419c-b7dd-8bb4d099a9c2",
+      "prisoner_id": "c47525a1-b0a3-4334-9017-c8d99f0159a8",
+      "slug": "alexander-bittelman",
+      "name": "Alexander Bittelman",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "add12372-f1cd-4156-a15e-d742214e90e2",
+      "prisoner_id": "e00d2548-d0ee-4e80-937d-4a20e5056c97",
+      "slug": "william-weinstone",
+      "name": "William Weinstone",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "update": {
+        "sentenced_date": "1953-02-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-newspaper",
+          "note": "UnitedPress report in Medford Mail Tribune Tuesday February3,1953 page4 explicitly says thirteen defendants were sentenced today and individually names this defendant with the matching sentence. Their statements to court were the previous day, February2; conviction was January21."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "newyork-fbi",
+          "note": "FBI contemporary procedural record, ClaudiaJones Part8 PDFpage53, explicitly dates the individually named defendants sentencing table February3,1953. PDFpage64 reiterates the date and distinguishes Jones February10 bail release. Only the missing sentence date is applied."
+        }
+      ]
+    }
+  ]
+}
