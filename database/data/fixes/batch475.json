@@ -1,0 +1,299 @@
+{
+  "batch": 475,
+  "audit_date": "2026-10-12",
+  "expected_count": 10,
+  "sources": {
+    "uphaus-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1960-02-01-12-16-nat-guardian.pdf",
+    "uphaus-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-12-14-12-9-nat-guardian.pdf",
+    "uphaus-court": "https://openjurist.org/102/nh/517/uphaus-v-wyman",
+    "dutton-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-12-26-8-10-nat-guardian.pdf",
+    "fitzgerald-sentence-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-08-29-7-45-nat-guardian.pdf",
+    "fitzgerald-custody": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-11-12-9-4-nat-guardian.pdf",
+    "fitzgerald-court": "https://law.justia.com/cases/federal/appellate-courts/F2/235/453/334585/",
+    "quinn": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-03-14-3-21-nat-guardian.pdf",
+    "quinn-union": "https://archive.ilwu.org/wp-content/uploads/2015/02/19510330.pdf",
+    "morgan": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-10-31-8-2-nat-guardian.pdf",
+    "santos": "https://oregonnews.uoregon.edu/lccn/sn97071090/1954-10-20/ed-1/seq-1/",
+    "juhn-research": "https://www.researchgate.net/publication/318003326_Political_Migration_of_Korean_Activists_Through_Czechoslovakia_in_the_Post_World_War_2_Period",
+    "juhn-authors": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2844602",
+    "patterson-trial": "https://law.justia.com/cases/federal/district-courts/FSupp/125/881/1410816/",
+    "patterson-appeal": "https://case-law.vlex.com/vid/united-states-v-patterson-894225990",
+    "hoag": "https://law.justia.com/cases/federal/district-courts/FSupp/142/667/2263437/",
+    "harvard": "https://www.senate.gov/about/resources/pdf/mccarthy-hearings-volume5.pdf",
+    "starobin": "https://www.congress.gov/84/crecb/1955/07/27/GPO-CRECB-1955-pt9-6-1.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
+      "prisoner_id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
+      "name": "Willard Uphaus",
+      "slug": "willard-uphaus",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/willard-uphaus-national-guardian-batch475.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "uphaus-photo",
+          "note": "Original printed page 8 directly captions Willard Uphaus; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+        }
+      ],
+      "asset": {
+        "file": "willard-uphaus-national-guardian-batch475.png",
+        "sha256": "10356054fce1c850db4ea67f7a53672b11e86365cb95cb16fa48469443675e30"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "77d226d3-4757-411f-97b0-3b4444ff77c9",
+      "prisoner_id": "77d226d3-4757-411f-97b0-3b4444ff77c9",
+      "name": "Thomas Dutton",
+      "slug": "thomas-dutton",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/thomas-dutton-national-guardian-batch475.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "dutton-photo",
+          "note": "Original printed page 8 directly captions Thomas Dutton; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+        }
+      ],
+      "asset": {
+        "file": "thomas-dutton-national-guardian-batch475.png",
+        "sha256": "26ed05c0022126cc82a0ff49aea379dcfb2a3d6194c8de9a31e4ae6c7a0c230f"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "67499608-c2ee-40e0-8d26-4e6ea9348779",
+      "prisoner_id": "67499608-c2ee-40e0-8d26-4e6ea9348779",
+      "name": "Edward J. Fitzgerald",
+      "slug": "edward-j-fitzgerald",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/edward-j-fitzgerald-national-guardian-batch475.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "fitzgerald-sentence-photo",
+          "note": "Original printed page 4 directly captions Edward J. Fitzgerald; original page and exact crop visually inspected. Neighboring portraits are different people and excluded. No vital date inferred from age or picture. Every retained decoded RGB pixel verified unchanged."
+        }
+      ],
+      "asset": {
+        "file": "edward-j-fitzgerald-national-guardian-batch475.png",
+        "sha256": "a5da11002bbf961729767aa9abcd967213b51cd872253aaef27b0facbbeae5a6"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6e3cdfc7-55a9-4fef-baa7-74812e90ca6d",
+      "prisoner_id": "e87a5422-74ce-4000-8b56-bd8291d2b409",
+      "name": "Juan Santos Rivera",
+      "slug": "juan-santos-rivera",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "santos",
+          "note": "Original October 20, 1954 Medford Mail Tribune, page 1, United Press: Hoover announces ten Communist Party leaders arrested in Puerto Rico/New York and names Juan Santos-Rivera. Original archive OCR read. Announcement date not substituted for individual arrest day: October 1954 MONTH only. October 27 indictment is not arrest. 1927-2010 genealogy namesake lacks political identity linkage; no vital dates imported."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ba3fc4d2-384c-4407-81d6-5fce750816d6",
+      "prisoner_id": "5bcc692c-b497-47bb-9700-731ed5cc478b",
+      "name": "Thomas Quinn",
+      "slug": "thomas-quinn",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1951-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "quinn",
+          "note": "Original National Guardian March 14, 1951 printed page 5, visually inspected, identifies Tom Quinn, UE Local 601 Pittsburgh, Judge Kirkland sentence and re-sentence to one year/$500. Exact day/month not established by this report: YEAR 1951 only. Photograph nearby is Julius Emspak, not Quinn; excluded."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "quinn-union",
+          "note": "ILWU own March 30, 1951 Dispatcher independently names Thomas Quinn and reports initial sentence and change to one year/$500, appeal pending. Existing six-month case prose conflicts with these contemporary reports and remains unchanged under missing-only scope. Emspak five-day detention not attributed to Quinn; Supreme Court acquittal is not physical release."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ac10c43a-525b-4d39-8227-60785d6adc61",
+      "prisoner_id": "1c20a162-22eb-4804-a1b8-efddb0758322",
+      "name": "Anna H. Morgan",
+      "slug": "anna-h-morgan",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "morgan",
+          "note": "Original National Guardian October 31, 1955 page 2, Anna H. Morgan own Worthington Ohio letter and editorial note expressly say Morgan and Oscar Smilack fined $3200/$900 respectively in 1954 for Fifth Amendment refusals. Original page visually inspected. Fine sentencing YEAR 1954 only; no exact day, jail or release manufactured. Genealogical Anna Morgans not identity matched."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "d210858b-e4c1-4abe-a36e-0269ebeb29df",
+      "prisoner_id": "d210858b-e4c1-4abe-a36e-0269ebeb29df",
+      "name": "John Juhn",
+      "slug": "john-juhn",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1895-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "juhn-research",
+          "note": "Original archival research by Vladimir Hlasny and Byung Joon Jung, Political Migration of Korean Activists through Czechoslovakia, Seoul Journal of Korean Studies 30(1), 2017, expressly identifies John Juhn (Chon Kyongjun; 1895-?), linotype operator/editor/co-owner Korean Independence, wife Anna Song, 1920 migration and 1955 deportation proceedings. Identity matches profile. Authors own full indexed paper text read; original underlying birth/FBI record not visually inspected. YEAR 1895 only, January 1 storage placeholder. Death unknown; no custody endpoint or exile date from later travel inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "671dbb10-b70a-4b9b-9ccc-4c50e1088de3",
+      "prisoner_id": "67499608-c2ee-40e0-8d26-4e6ea9348779",
+      "name": "Edward J. Fitzgerald",
+      "slug": "edward-j-fitzgerald",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1955-08-01 00:00:00",
+        "incarceration_date": "1956-10-29 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "fitzgerald-sentence-photo",
+          "note": "Original August 29, 1955 Guardian pages 1 and 4 describes August 18 contempt trial, Judge Walsh six-month sentence and parole until August 24 to appeal. Page 4 visually inspected. August 1955 MONTH only, no claim exact August 18 sentence day without distinct explicit dating. Bail/parole during appeal not treated as imprisonment or final release."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "fitzgerald-custody",
+          "note": "Original November 12, 1956 Guardian printed page 12, visually inspected: government threat made the day Fitzgerald surrendered to serve his term, followed by prosecutor statement October 29. Direct report links actual surrender/admission October 29, 1956 after appeal, distinct from 1955 sentence. No release calculated by adding six months; no vital dates from NSA analyst Edward Joseph Fitzgerald namesake."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "67f1f60b-14ab-4da2-b0ed-83af22b00cd3",
+      "prisoner_id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
+      "name": "Willard Uphaus",
+      "slug": "willard-uphaus",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1956-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "uphaus-sentence",
+          "note": "Original Guardian December 14, 1959 page 2 explicitly original indeterminate contempt sentence in January 1956, later appeals and renewed court appearance December 14, 1959. Original visually inspected. Add original sentencing January 1956 MONTH only, distinct from actual 1959 imprisonment. New Hampshire own 102 N.H.517 opinion separately confirms December 14, 1959 committal. Existing December 11, 1960 release conflicts some December 13 summaries; preserve pending original physical-release confirmation."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "a2e9a223-fdc5-47c8-a668-818c934aa9ee",
+      "prisoner_id": "cfef5d22-76da-477f-b4e1-24a0530f3e1f",
+      "name": "William L. Patterson",
+      "slug": "william-l-patterson",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-11-19 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "patterson-trial",
+          "note": "Original district-court opinion Application of Patterson, 125 F. Supp. 881, November 19, 1954, adjudges criminal contempt for Civil Rights Congress receipt records. Separate earlier IRS contempt term July-September 1954 is not combined."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "patterson-appeal",
+          "note": "Original Second Circuit opinion 219 F.2d659 January 27, 1955 explicitly states Judge Weinfeld imposed contempt sentence November 19. Orders immediate release January 27 but order alone not proof actual release that day. Earlier term dates differ from populated first case (opinion actual July 1-September 28, district September 27); populated first case and biography preserved, conflicts logged. No unsupported admission day or January release day inferred."
+        }
+      ]
+    }
+  ]
+}
