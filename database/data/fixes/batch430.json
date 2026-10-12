@@ -1,0 +1,108 @@
+{
+  "batch": 430,
+  "audit_date": "2026-10-12",
+  "sources": {
+    "doj": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0213.pdf",
+    "lightfoot": "https://oregonnews.uoregon.edu/lccn/sn97071090/1955-02-15/ed-1/seq-11/",
+    "arrests": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/a626831b-c2e3-455e-a55d-9bb934e57c0d/content"
+  },
+  "expected_count": 4,
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "dba09f5d-986a-4531-85dd-86076c74bed9",
+      "prisoner_id": "a03bdd51-e253-4c9a-aa1c-7a747a8ff02a",
+      "slug": "dorothy-forest",
+      "name": "Dorothy Forest",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1954-06-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "doj",
+          "note": "U.S.AttorneysBulletin June25,1954, PDFpage5/printedpage4, explicitly separates May28 conviction from June4 sentencing in UnitedStatesvJamesForest. Names DorothyForest among the five and reports her three-year sentence. Original PDF visually checked."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e048d00f-b3f0-4ad0-96c7-fe33a8b7ea03",
+      "prisoner_id": "2620836a-18e8-45fc-8984-b731bf9f1691",
+      "slug": "claude-lightfoot",
+      "name": "Claude Lightfoot",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "update": {
+        "sentenced_date": "1955-02-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lightfoot",
+          "note": "MedfordMailTribune TuesdayFebruary15,1955 printedpage11, UnitedPress report explicitly says JudgePhilipLSullivan sentenced ClaudeLightfoot today to five years and $5000. January26 was the verdict. Original PDF and dated masthead visually checked. Contemporary1955reports show appeal bail; sentence not equated with time served."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "42ee0ea3-d684-44c3-8b7b-b52aec46ebed",
+      "prisoner_id": "95b921bd-585b-4641-8b49-bb01338f5320",
+      "slug": "marcus-a-murphy",
+      "name": "Marcus A. Murphy",
+      "expected": {
+        "arrest_date": null,
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "update": {
+        "arrest_date": "1952-09-17 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "arrests",
+          "note": "PampaDailyNews WednesdaySeptember17,1952 frontpage AssociatedPress roundup explicitly says arrests announced today and individually names MarcusAlphonseMurphy, arrested at his farm nearCharleston,Missouri. Name, MissouriCommunistParty role and StLouisSmithAct proceeding match. Original PDF and masthead visually checked. Existing prose incorrectly describes1953indictment; populated prose preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "48fa862b-ccae-44e7-8378-66233d6bdfe8",
+      "prisoner_id": "bc5f0d9a-d2e2-489e-a721-6ff2e5b9958a",
+      "slug": "james-frederick-forest",
+      "name": "James Frederick Forest",
+      "expected": {
+        "arrest_date": null,
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "update": {
+        "arrest_date": "1952-09-17 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "arrests",
+          "note": "Same dated AssociatedPress frontpage individually names JamesFrederickForest, picked up at home inStLouis. This date belongs to the already separate1952pretrial detention case, not the1954post-sentencing episode. Existing September1952 incarceration at month precision and February1953 bail-release month remain populated and untouched. Original PDF and masthead visually checked."
+        }
+      ]
+    }
+  ]
+}
