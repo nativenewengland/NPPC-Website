@@ -15436,8 +15436,14 @@
     "emanuel-blum": {
       "id": "382ab54a-be3b-406a-a676-38017355b3f3",
       "name": "Emanuel Blum",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated March27,1956 arrest preserved. Contemporary Guardian July7/October20,1958 dismissal reports do not establish actual release day. Bail reduction is not physical release; namesake cemeteries unconfirmed. No additions."
+        }
+      ],
       "case_ids": [
         "0546731c-70e4-432e-941d-a36bd0d14be1"
       ],
@@ -15454,7 +15460,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated March27,1956 arrest preserved. Contemporary Guardian July7/October20,1958 dismissal reports do not establish actual release day. Bail reduction is not physical release; namesake cemeteries unconfirmed. No additions."
     },
     "john-cyril-hellman": {
       "id": "d168eea2-e332-410a-b199-220da88c89b8",
@@ -15509,8 +15516,14 @@
     "edward-e-strong": {
       "id": "1616e0e8-9342-4d51-b527-27794c15e221",
       "name": "Edward E. Strong",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing birthYEAR1914, April9,1957 death, portrait and May29,1956 arrest preserved. Bail setting and death before trial do not establish custodial interval. No additions."
+        }
+      ],
       "case_ids": [
         "2cab1452-44aa-4515-b2ee-497a0f9cc4fd"
       ],
@@ -15523,13 +15536,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing birthYEAR1914, April9,1957 death, portrait and May29,1956 arrest preserved. Bail setting and death before trial do not establish custodial interval. No additions."
     },
     "geoffrey-warner-white": {
       "id": "e2ac794f-45a8-4e07-989e-a81dcf21fc7d",
       "name": "Geoffrey Warner White",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own contemporary Daily Iowan May30,1956 report identifies arrest and age29, but age not exact DOB; no identity-matched obituary/photo found. Populated arrest retained; court removal/bail and disappearance from later active docket not proof release. No additions."
+        }
+      ],
       "case_ids": [
         "cfad4cf1-a6d4-4e3b-9f12-d0ae4d8465b1"
       ],
@@ -15546,13 +15566,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own contemporary Daily Iowan May30,1956 report identifies arrest and age29, but age not exact DOB; no identity-matched obituary/photo found. Populated arrest retained; court removal/bail and disappearance from later active docket not proof release. No additions."
     },
     "margaret-gilbert": {
       "id": "5a1ef41a-e8dd-4f3d-a779-76ba15a6d69b",
       "name": "Margaret Gilbert",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original Commonwealth v.Gilbert334Mass71,May3,1956 records September12,1951 indictment and 1956 dismissal after federal preemption. Neither is an arrest or actual jail endpoint. Namesakes not linked; no additions."
+        }
+      ],
       "case_ids": [
         "4830e7b2-bc68-4d47-946b-e4531dac95c0"
       ],
@@ -15570,33 +15597,59 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original Commonwealth v.Gilbert334Mass71,May3,1956 records September12,1951 indictment and 1956 dismissal after federal preemption. Neither is an arrest or actual jail endpoint. Namesakes not linked; no additions."
     },
     "cesar-andreu-iglesias": {
       "id": "0ce3b8ae-ca5f-4422-a434-bd3c293e5560",
       "name": "César Andreu Iglesias",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "56ec4dd1-dbc1-47b5-962e-00203b867bff",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian",
+              "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "56ec4dd1-dbc1-47b5-962e-00203b867bff"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "56ec4dd1-dbc1-47b5-962e-00203b867bff": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "jane-speed-de-andreu": {
       "id": "28086ea5-8fe7-402e-b2e0-93238459bb28",
       "name": "Jane Speed de Andreu",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing portrait, vitalYEARs and five cases retained. Group bond reports do not establish individual Smith Act release. Existing three-week and53-day calculated release dates retained; suspended1935 sentence distinct from imprisonment. No new exact custody endpoint confirmed."
+        }
+      ],
       "case_ids": [
         "a6124863-9d6e-46a6-8b07-730adde5e5d2",
         "cfa1bc28-556d-4515-8f49-83e688a3a9f6",
@@ -15633,13 +15686,33 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing portrait, vitalYEARs and five cases retained. Group bond reports do not establish individual Smith Act release. Existing three-week and53-day calculated release dates retained; suspended1935 sentence distinct from imprisonment. No new exact custody endpoint confirmed."
     },
     "juan-emmanuelli": {
       "id": "5ab40be5-87fa-4a25-a476-549df880ed4f",
       "name": "Juan Emmanuelli",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "d63a5e69-3ff8-46d4-8eee-56ae7ed4b64f",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "october-report",
+              "note": "Original October20,1954 Okemah Daily Leader printedp1 Associated Press names Juan Emmanuelli among FBI arrestees in Puerto Rico. Host archive full OCR read; announcement does not establish his individual arrest day, so only October1954 MONTH. October27 indictment independently names Juan Emmanuelli Morales. No exact incarceration/release, vital dates or photograph from namesakes supplied."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d63a5e69-3ff8-46d4-8eee-56ae7ed4b64f"
       ],
@@ -15650,20 +15723,39 @@
       ],
       "missing_case_fields": {
         "d63a5e69-3ff8-46d4-8eee-56ae7ed4b64f": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "jorge-maysonet-hernandez": {
       "id": "8ca70a81-6f29-478a-b9dc-b6377d2fc30c",
       "name": "Jorge Maysonet-Hernandez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "b2c7f46c-40cd-4492-88cc-6288f219946e",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian",
+              "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "b2c7f46c-40cd-4492-88cc-6288f219946e"
       ],
@@ -15674,20 +15766,39 @@
       ],
       "missing_case_fields": {
         "b2c7f46c-40cd-4492-88cc-6288f219946e": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "consuelo-burgos": {
       "id": "5c0fe96e-40a0-4fea-ad2e-d9d80f35a68c",
       "name": "Consuelo Burgos",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "c808b7aa-730f-47b5-b1d2-1cb92e6a2eab",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian",
+              "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c808b7aa-730f-47b5-b1d2-1cb92e6a2eab"
       ],
@@ -15698,20 +15809,39 @@
       ],
       "missing_case_fields": {
         "c808b7aa-730f-47b5-b1d2-1cb92e6a2eab": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "cristino-perez-mendez": {
       "id": "f6cc9b5e-f69d-4551-b1e0-4e0f06a3c39c",
       "name": "Cristino Perez Mendez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "902f403b-fb3a-4079-8dfc-5db3afc11864",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "guardian",
+              "note": "Original October29,1956 Guardian printedp3 directly names this defendant among eleven, describes case beginning with FBI arrests two years earlier, and pretrial detention/bail fundraising. Original visually inspected; YEAR1954 only because this report does not specify this individual arrest month/day. January1 storage placeholder is not exact arrest. No individual release copied from Saez account, group last-release statement or appeals order. Original DOJ October27,1954 bulletin confirms identity in indictment, which is not arrest."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "902f403b-fb3a-4079-8dfc-5db3afc11864"
       ],
@@ -15722,20 +15852,39 @@
       ],
       "missing_case_fields": {
         "902f403b-fb3a-4079-8dfc-5db3afc11864": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "eugenio-cuebas-arbona": {
       "id": "900582ae-22f9-4625-b08c-a23c120e26f9",
       "name": "Eugenio Cuebas Arbona",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "6bf468d2-9ca5-4a9a-9b1a-2cf24b5d6263",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "arbona",
+              "note": "Original Arbona v. Kenton,126F.Supp.366,December1,1954, footnote1 explicitly original arrest October20,1954, distinct October19 complaint and October27 indictment. Opinion confirms continuing federal detention pending removal to Puerto Rico. Writ discharged means habeas petition denied, not prisoner freed. Admission day and release not manufactured from legal disposition. Original October20 Okemah AP report separately identifies him as sole New York arrestee; claims that Andreu spouses arrested New York not adopted."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6bf468d2-9ca5-4a9a-9b1a-2cf24b5d6263"
       ],
@@ -15746,44 +15895,95 @@
       ],
       "missing_case_fields": {
         "6bf468d2-9ca5-4a9a-9b1a-2cf24b5d6263": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "juan-saez-corales": {
       "id": "362e7427-e645-473e-97a7-b9f1a8b0e40d",
       "name": "Juan Saez Corales",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "table": "prisoners",
+          "id": "362e7427-e645-473e-97a7-b9f1a8b0e40d",
+          "fields": [
+            "birthdate",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "saez-own",
+              "note": "Juan Saez Corales own 1955 pamphlet 25 Anos de Lucha es mi Respuesta a la Persecucion, reproduced in Angel G. Quintero Rivera, Lucha Obrera en Puerto Rico, printed page 127: names himself, parents Francisco Saez Baez and Lucia Corales Baez, and exact birth December 8, 1915 in Sabana Grande Abajo, San German. Full host HTML transcription read, authorship heading and table of contents explicitly verified; underlying paper scan not visually inspected. No birthday inferred from newspaper age."
+            },
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "guardian",
+              "note": "Original October 29, 1956 Guardian printed page 3 directly captions JUAN SAEZ CORALES. Original page and exact crop visually inspected; native-width composite 4286x5574, rectangle (1265,780,2035,1845), output770x1065. Every retained decoded RGB pixel verified identical; no generation, resize or retouch. Photographer uncredited, rights undetermined."
+            }
+          ]
+        },
+        {
+          "batch": 476,
+          "table": "prisoner_cases",
+          "id": "d131d5bd-66f9-4cae-8d0b-0f343a1c53e7",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "saez-own",
+              "note": "Own pamphlet, printed page136: FBI arrest at dawn October20,1954, imprisonment La Princesa San Juan district jail, held almost incommunicado until March9,1955 and explicitly left on bail that day. This is actual release on bail before trial, not dismissal. Authorship verified from explicit self-identification on page127. April18,1954 separate local arrest mentioned on page135 is not combined with this Smith Act case. No date assigned to co-defendants from his personal account."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d131d5bd-66f9-4cae-8d0b-0f343a1c53e7"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "d131d5bd-66f9-4cae-8d0b-0f343a1c53e7": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch476 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "arthur-miller": {
       "id": "dfd86e21-4019-464e-8fbc-c9c457d9cba9",
       "name": "Arthur Miller",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original Guardian June10,1957 expressly May31 conviction with sentencing deferred and continued bail; original May31/June28 district opinion and1958 DOJ appellate report separate conviction and reconsideration from sentence. Exact sentencing date remains unresolved; no incarceration or physical release invented for suspended term. Complete vitals/photo preserved."
+        }
+      ],
       "case_ids": [
         "0b15b4c0-f624-4fc9-a6b8-283b7d8f1e2c"
       ],
@@ -15797,7 +15997,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original Guardian June10,1957 expressly May31 conviction with sentencing deferred and continued bail; original May31/June28 district opinion and1958 DOJ appellate report separate conviction and reconsideration from sentence. Exact sentencing date remains unresolved; no incarceration or physical release invented for suspended term. Complete vitals/photo preserved."
     },
     "otto-nathan": {
       "id": "e1fe2754-cbbc-4738-8590-1f3a867dcda4",
@@ -15870,8 +16071,14 @@
     "elliott-sullivan": {
       "id": "087896a2-c0cb-49ce-97ae-cbeb8abf224e",
       "name": "Elliott Sullivan",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 476,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original government Isacson appeal brief, Library of Congress afc2014008_ms2511 printedp9 cites Sullivan SDNYC152-238 acquittal filedOctober28,1961. Citation, indictment and acquittal are not actual jail endpoints. No identified actor portrait found; WWII Air Corps engineer namesake excluded."
+        }
+      ],
       "case_ids": [
         "87aeb08c-4b44-4120-90cf-e92d61c964fc"
       ],
@@ -15887,7 +16094,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original government Isacson appeal brief, Library of Congress afc2014008_ms2511 printedp9 cites Sullivan SDNYC152-238 acquittal filedOctober28,1961. Citation, indictment and acquittal are not actual jail endpoints. No identified actor portrait found; WWII Air Corps engineer namesake excluded."
     },
     "george-tyne": {
       "id": "5e26b92c-038f-4851-ae40-070c558472e0",

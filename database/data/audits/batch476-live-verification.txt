@@ -1,0 +1,16 @@
+Batch476 live verification — October12,2026
+Data commit: c594e50f
+B476-ISOLATED-TEST-OK 483 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Isolated preview8; live application8; two live replays0. B476-OK on all three live runs. The runner resets NPPC_BATCH_DRY_RUN unless --dry-run is passed, so the environment-prefixed first live call applied the authorized batch; it was not a production preview.
+Compared 723 profiles and 853 cases: 19 expected fields (ten dates, one portrait, eight precision metadata), 50218 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+juan-saez-corales: HTTP200; birthdate=1915-12-08 (DAY), visible; portrait linked, HTTP200, exact SHA256
+juan-saez-corales: HTTP200; arrest_date=1954-10-20 (DAY), visible; incarceration_date=1954-10-20 (DAY), visible; release_date=1955-03-09 (DAY), visible
+eugenio-cuebas-arbona: HTTP200; arrest_date=1954-10-20 (DAY), visible
+juan-emmanuelli: HTTP200; arrest_date=1954-10-01 (MONTH), visible
+cesar-andreu-iglesias: HTTP200; arrest_date=1954-01-01 (YEAR), visible
+jorge-maysonet-hernandez: HTTP200; arrest_date=1954-01-01 (YEAR), visible
+consuelo-burgos: HTTP200; arrest_date=1954-01-01 (YEAR), visible
+cristino-perez-mendez: HTTP200; arrest_date=1954-01-01 (YEAR), visible
+Fourteen profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch476 audit.
