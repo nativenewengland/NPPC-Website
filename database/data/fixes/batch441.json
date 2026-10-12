@@ -1,0 +1,112 @@
+{
+  "batch": 441,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "newson-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-08-28-4-45-nat-guardian.pdf",
+    "santiago-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-08-10-11-43-nat-guardian.pdf",
+    "moses-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1957-07-22-9-40-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "5f007f45-a5d6-4945-974d-07c7e8a89d8d",
+      "prisoner_id": "5f007f45-a5d6-4945-974d-07c7e8a89d8d",
+      "slug": "jerry-newson",
+      "name": "Jerry Newson",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/jerry-newson-national-guardian-batch441.png"
+      },
+      "asset": {
+        "file": "jerry-newson-national-guardian-batch441.png",
+        "sha256": "4aa5a96aa41e922d69cab8967b9d0ba78e06eaca619a193bf0165087fd051e8e"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "newson-photo",
+          "note": "August28,1952 printed/PDF3 standalone portrait directly captioned JerryNewson, in article about Oakland double-murder trials and EastBayCRC defense. Crime dismissal is not release: robbery imprisonment continued. Native/Im0 JPX4245x5616grayscale, crop840x1095."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "699b3d00-db01-4dc7-9032-a2c237f20e98",
+      "prisoner_id": "699b3d00-db01-4dc7-9032-a2c237f20e98",
+      "slug": "jo-ann-santiago",
+      "name": "Jo Ann Santiago",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/jo-ann-santiago-national-guardian-batch441.png"
+      },
+      "asset": {
+        "file": "jo-ann-santiago-national-guardian-batch441.png",
+        "sha256": "9c4cf1c309e3d78ea3222ecde9cea75400530f9628e152f97adb9394470585bc"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "santiago-photo",
+          "note": "August10,1959 printed/PDF3 article GuiltByMarriage directly captions JoAnnSantiago and identifies Canada1922birth, childhoodUSimmigration, spouseJoseSantiago, NYCfactoryunion and deportation proceeding. Native/Im0 JPX4300x5636grayscale, crop780x1000. No arrest or confinement inferred from immigration case."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cce29927-8ed6-492e-90d7-8f773b4e9c7d",
+      "prisoner_id": "415069fa-fb61-46d5-a4a5-31f9926e322d",
+      "slug": "jane-moses",
+      "name": "Jane Moses",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": null
+      },
+      "update": {
+        "sentenced_date": "1957-07-15 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "moses-sentence",
+          "note": "NationalGuardian July22,1957 printed/PDF2 OperationAlert report expressly identifies Richard and JaneMoses arrested carrying pacifist signs in TimesSquare and sentenced at July15hearing to30days. Original page visually checked. Does not establish actual admission or release; no term-derived endpoint. Existing arrest dates and precision retained, including Richard year-only placeholder."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92",
+      "prisoner_id": "28ae16e3-cd75-4b0f-877a-2f9127de4e9f",
+      "slug": "richard-moses",
+      "name": "Richard Moses",
+      "expected": {
+        "sentenced_date": null,
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "update": {
+        "sentenced_date": "1957-07-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "moses-sentence",
+          "note": "NationalGuardian July22,1957 printed/PDF2 OperationAlert report expressly identifies Richard and JaneMoses arrested carrying pacifist signs in TimesSquare and sentenced at July15hearing to30days. Original page visually checked. Does not establish actual admission or release; no term-derived endpoint. Existing arrest dates and precision retained, including Richard year-only placeholder."
+        }
+      ]
+    }
+  ]
+}
