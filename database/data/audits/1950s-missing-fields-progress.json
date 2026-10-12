@@ -5,8 +5,63 @@
     "martin-luther-king-jr": {
       "id": "70b9df40-7aa5-4de8-928f-398efd3ef5e1",
       "name": "Martin Luther King Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "579ad428-13c3-4a28-adf3-2b35bc18fd89",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "king-boycott",
+              "note": "Stanford KingInstitute documentary edition cites Judgment and Sentence of Court StateAlabamavMLKingJr March22,1956 Papers3:197 and describes boycott fine judgment following March19-22 trial. Add missing sentencing date only; existing February23 arrest/bond release retained. Later fine judgment does not prolong actual custody."
+            }
+          ]
+        },
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "33965139-bb89-440b-96de-61c751432502",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "king-loitering",
+              "note": "King own statement to JudgeEugeneLoe September5,1958, Stanford documentary edition, identifies Sept3 loitering arrest followed Sept5 guilty/fine14 judgment and Sellers paying fine before extended term. Existing Sept3 and Sept5 case rows overlap the same proceeding with different charges; add identical verified sentencing date without relabeling, merging or altering populated arrest/custody/release. Log duplication; no14day imprisonment inferred."
+            }
+          ]
+        },
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "d9860272-96d8-4d63-833d-02ec78d80650",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "king-loitering",
+              "note": "King own statement to JudgeEugeneLoe September5,1958, Stanford documentary edition, identifies Sept3 loitering arrest followed Sept5 guilty/fine14 judgment and Sellers paying fine before extended term. Existing Sept3 and Sept5 case rows overlap the same proceeding with different charges; add identical verified sentencing date without relabeling, merging or altering populated arrest/custody/release. Log duplication; no14day imprisonment inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "cc551b58-027b-4a43-bfdc-3f377c06544f",
         "579ad428-13c3-4a28-adf3-2b35bc18fd89",
@@ -31,17 +86,14 @@
           "end_of_exile"
         ],
         "579ad428-13c3-4a28-adf3-2b35bc18fd89": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "33965139-bb89-440b-96de-61c751432502": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
         "d9860272-96d8-4d63-833d-02ec78d80650": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -95,13 +147,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "albert-bigelow": {
       "id": "599f844f-d2ac-4372-9b2a-85e2535dffe7",
       "name": "Albert Bigelow",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original FriendsJournal May17reports May7sentence, June14describes predeparture arrest and renewed60days; university own archive describes June4action. CurrentcaseJune4/Aug3 may compress two separate proceedings. No unambiguous sentence day for matching secondcase verified, so no May7date grafted to it. Existing vitals/photo preserved."
+        }
+      ],
       "case_ids": [
         "e8d118d3-fbd1-403e-8e81-fdc668790a75"
       ],
@@ -112,13 +171,40 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original FriendsJournal May17reports May7sentence, June14describes predeparture arrest and renewed60days; university own archive describes June4action. CurrentcaseJune4/Aug3 may compress two separate proceedings. No unambiguous sentence day for matching secondcase verified, so no May7date grafted to it. Existing vitals/photo preserved."
     },
     "carl-braden": {
       "id": "288f5bb0-ee9b-403b-b890-885e4fa4064a",
       "name": "Carl Braden",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "0dacf4a6-5cf6-4e3a-959f-d88882e9f1e9",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "braden-fbi",
+              "note": "Original declassified FBI record NARA32989672 printed14/PDF103 downloaded and visually inspected. Explicit LouisvilleCourierJournal February3,1959 report of CarlBraden sentenced February2,1959 Atlanta one year contempt. Same page distinguishes May1,1961 actual surrender and February1,1962 release, which are already populated and preserved. Allegations about party membership not adopted; only administrative sentence milestone."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "braden-doj",
+              "note": "JusticeDepartment contemporaneous bulletin independently schedules February2 sentencing after January1959 conviction. Scheduling corroboration not used alone as actual event. This1958-origin case served1961-62 remains within1950s audit."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "0dacf4a6-5cf6-4e3a-959f-d88882e9f1e9",
         "b26ab1d8-7cd4-4852-b8d1-d4f24e32c56b"
@@ -127,7 +213,6 @@
       "missing_case_fields": {
         "0dacf4a6-5cf6-4e3a-959f-d88882e9f1e9": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ],
@@ -135,13 +220,35 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "karl-meyer": {
       "id": "7ca2f12c-07e1-4410-84a7-7f4ec8f45e4d",
       "name": "Karl Meyer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "17aba31d-89e1-571f-97c4-c4c81ac76c0c",
+          "fields": [
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "sentenced_date"
+              ],
+              "source": "meyer-own",
+              "note": "KarlMeyer own memoir: crossed Meadbasefence July1,1959, arrested immediately, arraigned nextday, spentweekjail, JudgeRichardRobinson sentence July9 sixmonths500fine suspended/probation. Actual first confinement beginsJuly1; initial sentenceJuly9. Returned with nextteam two dayslater, re-arrest and prisonterm imposed. Existing case combines initial trespass/probation violation; no single continuous release endpoint invented across bail gap, no admission falsely shifted to later re-arrest.1959 release still unresolved. Existing1968and2000cases preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "364aaa82-b1dc-4ee8-9f11-02c20f38afc7",
         "17aba31d-89e1-571f-97c4-c4c81ac76c0c",
@@ -157,8 +264,6 @@
           "end_of_exile"
         ],
         "17aba31d-89e1-571f-97c4-c4c81ac76c0c": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -171,7 +276,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "joseph-felmet": {
       "id": "a9596341-4bf2-4b81-bd7e-4c226c166640",
@@ -269,19 +375,38 @@
     "walter-lowenfels": {
       "id": "1b89c5fe-8b3d-4092-b77b-aec953313318",
       "name": "Walter Lowenfels",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "e099b528-2dcf-44b6-9bae-7ff155d804b6",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "philadelphia-sentence",
+              "note": "Original AP BigSpringHerald TuesdayJune21,1955 printed4/PDF4 downloaded and visually inspected: JudgeJ.CullenGaney yesterday sentenced all nine, expressly naming DavidDubensky(alsoDaveDavis) three years and WalterLowenfels two. June20,1955 sentencing, not1954verdict or1957reversal. Source says jailedimmediately; populated admission retained under missing-only guard despite chronology conflict. Actual release not inferred from appellate decision."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e099b528-2dcf-44b6-9bae-7ff155d804b6"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "e099b528-2dcf-44b6-9bae-7ff155d804b6": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "joseph-kuzma": {
       "id": "bd988591-4bb1-4f17-9031-7e575bc5b13c",
@@ -315,8 +440,14 @@
     "joseph-roberts": {
       "id": "3e607bd5-f099-45ec-ab91-fb4847692982",
       "name": "Joseph Roberts",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Alias SamGobeloff identity confirmed in original1955AP sentence report and Kuzma primary court. Missing actual release cannot be equated with Nov13,1957 reversal/newtrial. Vitals/photo still unidentified; nearby individuals or modern JosephRoberts not used."
+        }
+      ],
       "case_ids": [
         "8aa9e6d6-e728-4a5a-b991-5316aa4e4da2"
       ],
@@ -331,7 +462,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Alias SamGobeloff identity confirmed in original1955AP sentence report and Kuzma primary court. Missing actual release cannot be equated with Nov13,1957 reversal/newtrial. Vitals/photo still unidentified; nearby individuals or modern JosephRoberts not used."
     },
     "benjamin-weiss": {
       "id": "1fd9eb6e-a68e-476a-9804-197c71651c31",
@@ -359,8 +491,27 @@
     "david-davis": {
       "id": "1a8e89ab-64aa-4137-8c2d-ebf2dc20c786",
       "name": "David Davis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "799997e8-ae4c-4bd8-a3bd-81225da2e254",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "philadelphia-sentence",
+              "note": "Original AP BigSpringHerald TuesdayJune21,1955 printed4/PDF4 downloaded and visually inspected: JudgeJ.CullenGaney yesterday sentenced all nine, expressly naming DavidDubensky(alsoDaveDavis) three years and WalterLowenfels two. June20,1955 sentencing, not1954verdict or1957reversal. Source says jailedimmediately; populated admission retained under missing-only guard despite chronology conflict. Actual release not inferred from appellate decision."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "799997e8-ae4c-4bd8-a3bd-81225da2e254"
       ],
@@ -371,18 +522,24 @@
       ],
       "missing_case_fields": {
         "799997e8-ae4c-4bd8-a3bd-81225da2e254": [
-          "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "thomas-nabried": {
       "id": "6ebe07aa-789a-4836-99ed-4684e75b0686",
       "name": "Thomas Nabried",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original1955AP report confirms named Philadelphia defendant, sentence/currentadmission preserved. No actual release confirmation or identity-matched vitals/portrait found;1957reversal is not automatically a custody endpoint."
+        }
+      ],
       "case_ids": [
         "fccb36ba-296f-4097-a3aa-6070d18e3298"
       ],
@@ -397,7 +554,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original1955AP report confirms named Philadelphia defendant, sentence/currentadmission preserved. No actual release confirmation or identity-matched vitals/portrait found;1957reversal is not automatically a custody endpoint."
     },
     "robert-klonsky": {
       "id": "578c7a2b-03eb-4490-aef5-a193e78aead8",
@@ -469,8 +627,14 @@
     "igal-roodenko": {
       "id": "3f9ca9fc-5861-45e7-b145-6d2231b8ac22",
       "name": "Igal Roodenko",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own donated papers findingaid identifies Nov9,1943arrest, June6,1944sentence, SandstoneApr1945-Dec1946 parole and1947Journey30days. These unresolved case dates are outside1950s focus and not silently added as1950s custody. Exact1949chaingang discharge not derived from30day sentence. Existing vitals/photo retained."
+        }
+      ],
       "case_ids": [
         "f89cce04-f7ee-4270-a65e-f8c539f8a51b",
         "529fab97-8921-487d-90e9-3f07b835d2e7"
@@ -491,7 +655,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own donated papers findingaid identifies Nov9,1943arrest, June6,1944sentence, SandstoneApr1945-Dec1946 parole and1947Journey30days. These unresolved case dates are outside1950s focus and not silently added as1950s custody. Exact1949chaingang discharge not derived from30day sentence. Existing vitals/photo retained."
     },
     "eugene-dennis": {
       "id": "e88088dd-3996-4b81-9bb2-3162e0420b30",
@@ -556,8 +721,14 @@
     "john-gates": {
       "id": "9153beea-ea49-4863-ac1d-d76e259457d3",
       "name": "John Gates",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original1951 surrender history separates1949sentence from July1951prison service. Four milestones/vitals/portrait populated;1949admission and1955release require conflicting-value review, not missing-field replacement. No invented new values."
+        }
+      ],
       "case_ids": [
         "0971e9b4-353f-4333-9db6-d804ba20443f"
       ],
@@ -567,13 +738,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original1951 surrender history separates1949sentence from July1951prison service. Four milestones/vitals/portrait populated;1949admission and1955release require conflicting-value review, not missing-field replacement. No invented new values."
     },
     "gil-green": {
       "id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
       "name": "Gil Green",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original arrest roundup excluded Green initially; Finnishhistorian dissertation cites own Green1984memoir and individual ChicagoJuly30,1948surrender. ExistingduplicateJuly19arrest/1949admission/1961release dates conflict actual1956surrender chronology. No exact newarrest added without primary individual record; duplicate preserved."
+        }
+      ],
       "case_ids": [
         "18d2e52b-e56e-4adb-b9ec-3847fd18e911",
         "62696997-00a3-449d-bf5b-47d31a2695d4"
@@ -589,13 +767,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original arrest roundup excluded Green initially; Finnishhistorian dissertation cites own Green1984memoir and individual ChicagoJuly30,1948surrender. ExistingduplicateJuly19arrest/1949admission/1961release dates conflict actual1956surrender chronology. No exact newarrest added without primary individual record; duplicate preserved."
     },
     "gus-hall": {
       "id": "11110eec-9f4e-4dc1-9e90-1495d21c782c",
       "name": "Gus Hall",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Primary1960CongressionalRecord describes 1951capture, March1957conditionalrelease, April1959probationend. Populated1959release may conflate legal supervision with actualcustody. No missing milestone on existingrow; preserved rather than overwrite. Vitals/photo retained."
+        }
+      ],
       "case_ids": [
         "6dbb3ad3-21f2-4768-b3c6-24bfe7958aba"
       ],
@@ -605,13 +790,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Primary1960CongressionalRecord describes 1951capture, March1957conditionalrelease, April1959probationend. Populated1959release may conflate legal supervision with actualcustody. No missing milestone on existingrow; preserved rather than overwrite. Vitals/photo retained."
     },
     "irving-potash": {
       "id": "ef34c8b3-2e62-4a6f-aa81-0c29d1638e73",
       "name": "Irving Potash",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original GuardianFeb4,1957 identifies January18reentrysentence and congressional1960record identifies Jan4arrest/Aug28,1958release followedINSdetention. Those belong to a distinct later case absent from currentSmithActrow; do not graft them to1948-1955interval. Populated1955release conflicts independentDec9,1954 report. Existing vitals/photo preserved; newcase creation not in this missing-fields batch."
+        }
+      ],
       "case_ids": [
         "a43dd1a9-9f89-4487-afa4-2375faaa9e43"
       ],
@@ -621,13 +813,75 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original GuardianFeb4,1957 identifies January18reentrysentence and congressional1960record identifies Jan4arrest/Aug28,1958release followedINSdetention. Those belong to a distinct later case absent from currentSmithActrow; do not graft them to1948-1955interval. Populated1955release conflicts independentDec9,1954 report. Existing vitals/photo preserved; newcase creation not in this missing-fields batch."
     },
     "john-williamson": {
       "id": "6e8ce642-1dc8-44a2-980b-ba8779104660",
       "name": "John Williamson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "6f61a1f1-ab4b-4d03-9db1-2bf75ee2e942",
+          "fields": [
+            "in_exile_since"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "in_exile_since"
+              ],
+              "source": "williamson-fbi",
+              "note": "Original FBI PaulRobesonPart19 Appendix NationalPaulRobesonCommittee, web archival transcript identifies CPUSA laborsecretary JohnWilliamson October14,1949 conviction, October21 sentence, March1,1955 release and actual departure toEngland May4,1955 voluntarily under deportation warrant. Criminal prison release and later coerced departure are separate milestones. Original PDF direct-download403; no claimed visual inspection. IndependentClaudiaJonesPart10 confirms actual deportationMay4. Existing Feb28release conflicts FBI March1 and is preserved, not overwritten."
+            },
+            {
+              "fields": [
+                "in_exile_since"
+              ],
+              "source": "williamson-exile-confirmation",
+              "note": "Contemporary FBI November1955 London communication on ClaudiaJones explicitly says JohnWilliamson already deported EnglandMay4,1955. Actual past event, not planned travel. No endofexile inferred from death or status, and no exile flag altered. Same SmithAct prosecution appears twice; both missing exile starts filled consistently."
+            }
+          ]
+        },
+        {
+          "batch": 462,
+          "table": "prisoner_cases",
+          "id": "4126f23b-d36d-4d63-80df-4ed91c00dd5b",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "in_exile_since"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "williamson-arrest",
+              "note": "Original UP MedfordMailTribune WednesdayJuly21,1948p1 downloaded and visually inspected. Six NewYork defendants expressly including JohnWilliamson arrested lastnight and releasedJuly21onbail; July20 arrest for SmithAct prosecution later imprisoned1951-1955. NotFeb1948separateimmigrationarrest. OtherexistingduplicateJuly19arrest preserved/logged; no unverified gap filled from another person."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "in_exile_since"
+              ],
+              "source": "williamson-fbi",
+              "note": "FBI primary administrative chronology explicitly October21,1949 sentence and May4,1955 actual departure under deportation warrant. Applies to CPUSA laborsecretary, not JackWilliamson Florida1933 murder defendant mistakenly appended in public biography/thirdcase. Do not graft those unrelated case dates to this person. Existing otherduplicateOctober20sentence preserved/logged; no biography edits in missing-fields scope."
+            },
+            {
+              "fields": [
+                "in_exile_since"
+              ],
+              "source": "williamson-exile-confirmation",
+              "note": "Independent contemporaneous FBI ClaudiaJonesLondon communication explicitly actual JohnWilliamson deportationMay4,1955. Two existingSmithActrows preserved; matching missing exile start, no newflag or enddate."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "6f61a1f1-ab4b-4d03-9db1-2bf75ee2e942",
         "4126f23b-d36d-4d63-80df-4ed91c00dd5b",
@@ -636,13 +890,9 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "6f61a1f1-ab4b-4d03-9db1-2bf75ee2e942": [
-          "in_exile_since",
           "end_of_exile"
         ],
         "4126f23b-d36d-4d63-80df-4ed91c00dd5b": [
-          "arrest_date",
-          "sentenced_date",
-          "in_exile_since",
           "end_of_exile"
         ],
         "fbc33606-5911-4b2c-97e5-e112029dde6d": [
@@ -653,7 +903,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates applied and publicly checked; see batch462 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "henry-winston": {
       "id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
