@@ -1,0 +1,158 @@
+{
+  "batch": 443,
+  "audit_date": "2026-10-12",
+  "expected_count": 5,
+  "sources": {
+    "felmet-archive": "https://archives.tricolib.brynmawr.edu/resources/scpc-cdg-a-felmet_joseph",
+    "felmet-obituary": "https://newspapers.digitalnc.org/lccn/sn85042324/1994-10-20/ed-1/seq-10.pdf",
+    "schuman-birth-study": "https://files.eric.ed.gov/fulltext/ED376527.pdf",
+    "schuman-obituary": "https://www.sfgate.com/news/article/julian-schuman-3033549.php",
+    "gojack-testimony": "https://www.congress.gov/84/crecb/1955/07/26/GPO-CRECB-1955-pt9-5-2.pdf",
+    "brandt-archive": "https://alba-valb.org/volunteers/joseph-brandt/",
+    "brandt-image": "https://alba-valb.org/wp-content/uploads/2020/03/BrandtJoseph.jpg",
+    "cort-photo": "https://www.wbc.poznan.pl/Content/493351/GW_1954_0187.pdf",
+    "cort-court": "https://www.govinfo.gov/content/pkg/USREPORTS-369/pdf/USREPORTS-369-367.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
+      "prisoner_id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
+      "slug": "joseph-brandt",
+      "name": "Joseph Brandt",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/joseph-brandt-alba-batch443.jpg"
+      },
+      "asset": {
+        "file": "joseph-brandt-alba-batch443.jpg",
+        "sha256": "7e8b14a5fd962b52c6c9e7032297d8d8dac745c0628196b91173156dedcd7758"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "brandt-archive",
+          "note": "Joseph Brandt, April 1938. 15th International Brigade Photographic Unit Photograph Collection, ALBA Photo 11, item 11-0143, Tamiment Library/Robert F. Wagner Labor Archives, New York University Libraries. ALBA volunteer page explicitly identifies this photograph and ties Sam Brustein to Ohio CP organizing, Spanish Civil War service and Smith Act imprisonment. Original 237x317 JPEG retained, including archive marking. Copyright retained by the archive; no public-domain claim. Unrelated painter, Mohawk leader and university president namesakes excluded."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "ab25faeb-1ee6-42a6-8af3-990dce7d072d",
+      "prisoner_id": "ab25faeb-1ee6-42a6-8af3-990dce7d072d",
+      "slug": "joseph-cort",
+      "name": "Joseph Cort",
+      "expected": {
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/joseph-cort-glos-wielkopolski-batch443.png"
+      },
+      "asset": {
+        "file": "joseph-cort-glos-wielkopolski-batch443.png",
+        "sha256": "f345b68510a184807b53538081f431adfcf99551ac923fbc6d6411779280437e"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "cort-photo",
+          "note": "Głos Wielkopolski, Poznań, August 7, 1954, issue 187 (3243), printed/PDF page 1. Caption identifies Dr Joseph and Dr Ruth Cort aboard Jarosław Dąbrowski, arriving in Poland August 4 en route to asylum in Czechoslovakia after Britain refused asylum. Caption credits CAF, photograph by Gutkiewicz. Male subject isolated from native /Bg JPX 4643x6850 by exact rectangular crop 570x950, retaining original color/halftone. University, spouse, draft and asylum context match Cort court record. This photograph does not establish any American arrest or confinement."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "a9596341-4bf2-4b81-bd7e-4c226c166640",
+      "prisoner_id": "a9596341-4bf2-4b81-bd7e-4c226c166640",
+      "slug": "joseph-felmet",
+      "name": "Joseph Felmet",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1994-01-01 00:00:00",
+        "date_precision": "{\"death_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "felmet-archive",
+          "note": "Swarthmore College Peace Collection/TriCollege finding aid explicitly identifies Joseph Andrew Felmet, pacifist and WWII conscientious objector, born 1921 and died 1994. Year precision only."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "felmet-obituary",
+          "note": "October 20, 1994 Winston-Salem Chronicle, page 10, Original Freedom Rider Found Dead, contemporary obituary confirms Joseph Felmet death. Original page visually checked. Exact death versus discovery days are unresolved; no day assigned. Existing birthdate preserved despite conflicting secondary May 31 lead. Existing imprisonment duration retained despite six/eight-month source discrepancy."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "53ba17d2-2d65-4320-9157-6737c41fa49e",
+      "prisoner_id": "53ba17d2-2d65-4320-9157-6737c41fa49e",
+      "slug": "julian-schuman",
+      "name": "Julian Schuman",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null
+      },
+      "update": {
+        "birthdate": "1920-01-01 00:00:00",
+        "death_date": "1995-04-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "schuman-birth-study",
+          "note": "Fuyuan Shen, John William Powell and The China Weekly Review: An Analysis of His Reporting and His McCarthy Era Ordeal, AEJMC annual convention August 1994, printed page 13/PDF page 146, explicitly states Julian Schuman born in Boston in 1920. Source page visually checked; note 33 cites Stanley Kutler, The American Inquisition. Scholarly secondary evidence used for year only. No unconfirmed genealogical exact birthday assigned."
+        },
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "schuman-obituary",
+          "note": "May 10, 1995 obituary reports Julian Schuman died April 1 in Beijing and identifies China Weekly Review/Powell prosecution, matching this profile. Day precision; no confinement inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "defc43e1-ede8-425c-861e-37865b31e863",
+      "prisoner_id": "defc43e1-ede8-425c-861e-37865b31e863",
+      "slug": "john-t-gojack",
+      "name": "John T. Gojack",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1916-08-15 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "gojack-testimony",
+          "note": "Congressional Record, House, July 26, 1955, printed 11516/PDF page 4, reproduces February 28, 1955 HUAC testimony. John Thomas Gojack himself states born Dayton, Ohio, August 15, 1916, and identifies Fort Wayne residence and UE District 9 presidency. Original page visually checked. Death and actual incarceration remain unresolved; existing portrait preserved."
+        }
+      ]
+    }
+  ]
+}
