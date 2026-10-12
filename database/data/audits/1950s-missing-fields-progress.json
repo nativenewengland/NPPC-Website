@@ -12460,8 +12460,14 @@
     "jacob-burck": {
       "id": "3cce76dd-4c2e-4a4e-b98c-861450d869db",
       "name": "Jacob Burck",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Existing fullvitals and portrait retained. Civil deportation/informer proceedings do not establish actual custody; no arrest/admission/release/sentence manufactured."
+        }
+      ],
       "case_ids": [
         "1681c2b5-5d0c-42a7-8dcf-5cc8035c075f"
       ],
@@ -12475,13 +12481,33 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Existing fullvitals and portrait retained. Civil deportation/informer proceedings do not establish actual custody; no arrest/admission/release/sentence manufactured."
     },
     "taras-bojarchuk": {
       "id": "b7ad9748-46b8-4686-8782-dfa12eaf4f51",
       "name": "Taras Bojarchuk",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "table": "prisoner_cases",
+          "id": "ab7081c4-0685-41bd-aa44-3774c16b2f72",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "taras",
+              "note": "Contemporary original November22,1954 report explicitly prior EllisIsland detention September1950-November1952, returned there lastAugust, transferred WestStreet threeweeksago. Late episode actual admission August1954 MONTH only. Earlier episode not combined into continuous1950-1954 custody. December20 follow-up attorney GloriaAgrin says finally released bail but does not date physical release; publication date is not release and possible November/December ambiguity retained. Arrest day not inferred from return to detention."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ab7081c4-0685-41bd-aa44-3774c16b2f72"
       ],
@@ -12494,18 +12520,24 @@
         "ab7081c4-0685-41bd-aa44-3774c16b2f72": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch473 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "leon-callow": {
       "id": "b49bc9ff-3e22-48b3-8b72-e8d76fb312cd",
       "name": "Leon Callow",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Contemporary GuardianJanuary6,1958 civilinjunction report establishes Macedonian steelworker in Niles, wifeKatieDesovich and ninechildren matched by sonBlagoy familyobit. SSDI LeonCallow1895-1983 is a promisinglead but no original family-linked exactvitals verified; no importing cemetery dates or generic portrait. Civil removal is not jail."
+        }
+      ],
       "case_ids": [
         "795a94fc-ea10-4083-a6a4-2f7e8afc5416"
       ],
@@ -12523,7 +12555,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Contemporary GuardianJanuary6,1958 civilinjunction report establishes Macedonian steelworker in Niles, wifeKatieDesovich and ninechildren matched by sonBlagoy familyobit. SSDI LeonCallow1895-1983 is a promisinglead but no original family-linked exactvitals verified; no importing cemetery dates or generic portrait. Civil removal is not jail."
     },
     "joseph-cort": {
       "id": "ab25faeb-1ee6-42a6-8af3-990dce7d072d",
@@ -12570,8 +12603,14 @@
     "david-leff": {
       "id": "2c3a6a0d-77b7-477d-b825-bdafaeb86297",
       "name": "David Leff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Own ILOATjudgment15 establishes passport withdrawalAugust17,1951, subpoena and employment suspension while livingParis. Reinstatement is not prison release. UNESCO own1953audio has no identified portrait. No missing vitals verified."
+        }
+      ],
       "case_ids": [
         "702dd49a-8626-444a-9a2c-5f6cc03b9ddf"
       ],
@@ -12589,31 +12628,68 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Own ILOATjudgment15 establishes passport withdrawalAugust17,1951, subpoena and employment suspension while livingParis. Reinstatement is not prison release. UNESCO own1953audio has no identified portrait. No missing vitals verified."
     },
     "concepcion-estrada-correa": {
       "id": "41466d7c-e029-4933-85a8-e81ccd0fae6f",
       "name": "Concepcion Estrada Correa",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "table": "prisoners",
+          "id": "41466d7c-e029-4933-85a8-e81ccd0fae6f",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "estrada",
+              "note": "Original National Guardian May3,1954 printedp9 directly captions CONCEPCION ESTRADA CORREA beneath the portrait. Page and exact crop visually inspected. Composite decoded at native horizontal scan width4204; no resize/retouch. No approximate birthday derived from reported age17."
+            }
+          ]
+        },
+        {
+          "batch": 473,
+          "table": "prisoner_cases",
+          "id": "74b388f4-4962-4f32-8156-82f3f5b02884",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "estrada",
+              "note": "Original May3,1954 p9 names all three defendants: April2 jury verdict followed by JudgeJonahGoldstein death sentences. Exact sentencing day/month not independently specified: YEAR1954 only, Jan1 storageplaceholder. May10 scheduled execution is not sentencing; April2 verdict not treated as sentence. June3,1953 crime not borrowed as arrest/admission. Co-defendant Rios already received same conservative sentencing YEAR in batch457; no repeat update."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "74b388f4-4962-4f32-8156-82f3f5b02884"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "74b388f4-4962-4f32-8156-82f3f5b02884": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch473 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "pedro-antonio-rios": {
       "id": "72ad12fb-c4b9-4886-811e-a5285724011f",
@@ -12678,8 +12754,27 @@
     "henry-matthews": {
       "id": "68e10948-52a2-498f-aca1-a59b60758785",
       "name": "Henry Matthews",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "table": "prisoner_cases",
+          "id": "5a5aa7bd-7ec4-404d-ad2d-929262ab00d0",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "estrada",
+              "note": "Original May3,1954 p9 names all three defendants: April2 jury verdict followed by JudgeJonahGoldstein death sentences. Exact sentencing day/month not independently specified: YEAR1954 only, Jan1 storageplaceholder. May10 scheduled execution is not sentencing; April2 verdict not treated as sentence. June3,1953 crime not borrowed as arrest/admission. Co-defendant Rios already received same conservative sentencing YEAR in batch457; no repeat update."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5a5aa7bd-7ec4-404d-ad2d-929262ab00d0"
       ],
@@ -12690,12 +12785,12 @@
       "missing_case_fields": {
         "5a5aa7bd-7ec4-404d-ad2d-929262ab00d0": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch473 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "paul-freeman": {
       "id": "3ef5cac2-f66a-4eaf-b237-57308d1ff384",
@@ -12762,8 +12857,14 @@
     "john-roche": {
       "id": "6ead78f2-c4b3-455f-aa17-e56203db0390",
       "name": "John Roche",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Full-name lead JohnFrancisRoche matches existingNYC murder/execution January26,1956; contemporary ManchesterAP January27 says diedlastnight, supporting populatedDOD. Generic database coerced-confession narrative conflicts broader homicide source record; preserve biography and flags. June5,1954 arrest/January10,1955 sentence and September6,1927 birth found in secondary leads, original individual records not yet verified; no copying unsupported dates/photo. Execution is not release."
+        }
+      ],
       "case_ids": [
         "51b34296-20a5-4639-a131-f7eef11814af"
       ],
@@ -12780,7 +12881,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Full-name lead JohnFrancisRoche matches existingNYC murder/execution January26,1956; contemporary ManchesterAP January27 says diedlastnight, supporting populatedDOD. Generic database coerced-confession narrative conflicts broader homicide source record; preserve biography and flags. June5,1954 arrest/January10,1955 sentence and September6,1927 birth found in secondary leads, original individual records not yet verified; no copying unsupported dates/photo. Execution is not release."
     },
     "norman-roye": {
       "id": "7e937832-f334-43d5-9f2a-0b5ba69545ad",
@@ -12832,8 +12934,14 @@
     "jackson-ingram": {
       "id": "58701d9c-503d-4a94-9a07-cadd790aa4ca",
       "name": "Jackson Ingram",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Contemporary eyewitness MainstreamNovember1951 p11 explicitly RosaLeeIngram secondoldest son,26, FortValleywife/twochildren, April1951jail and ten-year sentence. Populated April1951MONTHadmission retained; age not converted toDOB, RosaLee/Wallace/Sammie release not borrowed for differentcase. Exactmissing endpoints/portrait unresolved."
+        }
+      ],
       "case_ids": [
         "3c3692c6-7371-47dc-819a-dcf410cdfba1"
       ],
@@ -12850,13 +12958,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Contemporary eyewitness MainstreamNovember1951 p11 explicitly RosaLeeIngram secondoldest son,26, FortValleywife/twochildren, April1951jail and ten-year sentence. Populated April1951MONTHadmission retained; age not converted toDOB, RosaLee/Wallace/Sammie release not borrowed for differentcase. Exactmissing endpoints/portrait unresolved."
     },
     "irving-peress": {
       "id": "bf128a1a-ac8d-4490-be10-88272c57058b",
       "name": "Irving Peress",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original congressional January10,1955 Army discharge account and institutional/obituary record identify retaliation, not actualjail. All existingvitals/portrait retained; no incarceration date from service discharge."
+        }
+      ],
       "case_ids": [
         "f19f057b-6946-4689-b6d1-f670ce7f38f1"
       ],
@@ -12870,13 +12985,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original congressional January10,1955 Army discharge account and institutional/obituary record identify retaliation, not actualjail. All existingvitals/portrait retained; no incarceration date from service discharge."
     },
     "stanley-orloff": {
       "id": "d7a7c76e-82b1-4f4f-b1b9-4be7aebcf3fe",
       "name": "Stanley Orloff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Doctor StanleyJOrloff, age27 in original1951draft litigation, Cornell TulaneMD1946 faculty and Tulane2010owndeathslist/APA GreenwichCTmemoriam. SecondarySSDI April5,1924-September16,2009Greenwich plausible, but family-linked individual exact dates notverified and multiple StanleyOrloff namesakes exist. No unsupported date/photo. Militarycompelledservice notjail."
+        }
+      ],
       "case_ids": [
         "3c822139-c67f-4d6f-9c86-0a276ecafdcb"
       ],
@@ -12894,13 +13016,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Doctor StanleyJOrloff, age27 in original1951draft litigation, Cornell TulaneMD1946 faculty and Tulane2010owndeathslist/APA GreenwichCTmemoriam. SecondarySSDI April5,1924-September16,2009Greenwich plausible, but family-linked individual exact dates notverified and multiple StanleyOrloff namesakes exist. No unsupported date/photo. Militarycompelledservice notjail."
     },
     "eugene-levin": {
       "id": "15e3fbd5-5942-4f20-9541-88fd33f95e6b",
       "name": "Eugene Levin",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original GuardianJune21,1954 DrEugeneLevin SF27yo courtJune3 order Armyhonorabledischarge; notactualincarceration. Modern EugeneLevin90yoNY/NJdrycleaner2020obit unrelated; no vitals/photo borrowed."
+        }
+      ],
       "case_ids": [
         "2d8552cd-62d5-409e-af7d-fbca8b9bb824"
       ],
@@ -12918,20 +13047,46 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original GuardianJune21,1954 DrEugeneLevin SF27yo courtJune3 order Armyhonorabledischarge; notactualincarceration. Modern EugeneLevin90yoNY/NJdrycleaner2020obit unrelated; no vitals/photo borrowed."
     },
     "wagner-bridger": {
       "id": "5afcc5ba-d2af-4f6e-9a39-4426023a69d9",
       "name": "Wagner Bridger",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "table": "prisoners",
+          "id": "5afcc5ba-d2af-4f6e-9a39-4426023a69d9",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "bridger-colleague",
+              "note": "Original colleague GeorgeMSimpson obituary Neuropsychopharmacology34,2786(2009), DOI10.1038/npp.2009.76: diedFebruary10. Downloaded original PDF visually inspected. MedicalCollegePennsylvania/Einstein psychiatrist, MCHR activist, NYU1950MD/Army1953-54 career matches military-retaliation profile."
+            },
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "bridger-family",
+              "note": "Family NewYorkTimes notice publishedFebruary20,2009 expressly diedFebruary10,2009 FountainHillsAZ; same psychiatry career, wifeRitaHayesBridger/sevenchildren independently corroborate colleague report. BirthJanuary9,1928 in secondary biography/SSDI leads not entered without original identity-specific birth record. No jail date inferred from military discharge."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "99bbae97-539e-4b77-93df-f8397f732021"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "99bbae97-539e-4b77-93df-f8397f732021": [
@@ -12942,13 +13097,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch473 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "herbert-nelson": {
       "id": "26782fa1-923f-4844-b254-e0c2fd9ea74b",
       "name": "Herbert Nelson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original FourthCircuit NelsonvPeckham210F2d574 February9,1954 dentist37yo, draft/private rank deniedcommission because formerCP/YCL/IWO; orders releasefromservice unlesscommissioned. Militaryservice habeas is not prison custody. No exactvitals or identifiedportrait found."
+        }
+      ],
       "case_ids": [
         "8cb2f018-6570-4e9c-ab14-14bf22ae1610"
       ],
@@ -12966,13 +13128,33 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original FourthCircuit NelsonvPeckham210F2d574 February9,1954 dentist37yo, draft/private rank deniedcommission because formerCP/YCL/IWO; orders releasefromservice unlesscommissioned. Militaryservice habeas is not prison custody. No exactvitals or identifiedportrait found."
     },
     "chin-hong-ming": {
       "id": "93100914-86b1-45d1-b13d-4911752d7cd3",
       "name": "Chin Hong Ming",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 473,
+          "table": "prisoner_cases",
+          "id": "e1bb2a99-92f7-416a-969a-a80d49d09c62",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "chin-doj",
+              "note": "DOJ own USAttorneysBulletin Vol2No14 printedp4/PDFp5 explicitly OnJune17,1954 defendants sentenced, ChinHongMing one year concurrent on eachcount. Original downloaded page visually inspected. Sentence is not physical admission; actual custody and release remain unresolved. Modern MalaysianBuddhist adviser same name excluded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e1bb2a99-92f7-416a-969a-a80d49d09c62"
       ],
@@ -12984,13 +13166,13 @@
       "missing_case_fields": {
         "e1bb2a99-92f7-416a-969a-a80d49d09c62": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch473 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "chin-you-gon": {
       "id": "0e2bff55-711e-4408-b604-7617411d2fb2",
