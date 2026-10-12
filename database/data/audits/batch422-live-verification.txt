@@ -1,0 +1,31 @@
+Batch 422 live verification — October 12, 2026
+Data deployed from commit: 5203fd56; identical batch files published in the isolated branch as 0d83d0d5.
+Scope: 1950s cases and profiles already associated with the era.
+Isolated in-memory test: 812 assertions passed; no production data writes in tests.
+Shell syntax: passed. Single-quoted tinker block contains zero apostrophes.
+Live preview: 23 rows matched expected missing-field and identity guards.
+Live application: 23 rows changed; B422-OK.
+Immediate replay: zero rows changed; B422-OK.
+Added: 10 portraits, 5 birth dates, 6 death dates, 7 sentencing dates, 6 incarceration dates.
+Affected: 16 distinct people, 16 profile rows and 7 case rows.
+Compared all 722 candidate profiles and 851 associated cases against the immediate pre-application baseline.
+50083 unrelated field values preserved; 49 expected field values verified (includes precision metadata).
+Membership/counts unchanged. Biographies, case prose, existing photos/dates, custody flags, duration totals and non-target cases preserved.
+API cache cleared after actual application.
+Public image checks:
+- LaRue Spiker: HTTP 200, exact committed image SHA-256 matched.
+- Eileen Fujimoto: HTTP 200, exact committed image SHA-256 matched.
+- Jack Hall: HTTP 200, exact committed image SHA-256 matched.
+- Jack Kimoto: HTTP 200, exact committed image SHA-256 matched.
+- Koji Ariyoshi: HTTP 200, exact committed image SHA-256 matched.
+- Dwight Freeman: HTTP 200, exact committed image SHA-256 matched.
+- Abner Green: HTTP 200, exact committed image SHA-256 matched.
+- William “Bill” Heikkila: HTTP 200, exact committed image SHA-256 matched.
+- Stanley Nowak: HTTP 200, exact committed image SHA-256 matched.
+- Charles Rowoldt: HTTP 200, exact committed image SHA-256 matched.
+Profile larue-spiker: HTTP 200; new portrait reference present in rendered HTML.
+Profile eileen-fujimoto: HTTP 200; new portrait reference present in rendered HTML.
+Profile abner-green: HTTP 200; new portrait reference present in rendered HTML.
+Unresolved: exact release dates for the six Hawaii defendants; Spiker/Gilbert release day; vital-date identity/conflict leads listed in the research audit.
+No new release date or arrest date added in this batch. No sentence-duration or biography correction applied.
+Research remains incomplete for other 1950s candidates; this is not an exhaustive verification of all 722 profiles.
