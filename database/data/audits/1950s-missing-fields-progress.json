@@ -968,8 +968,34 @@
     "john-howard-lawson": {
       "id": "ca50305c-d975-424b-84ac-13b1d9461466",
       "name": "John Howard Lawson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoner_cases",
+          "id": "ce22363d-1360-4cac-9339-859855d9da4e",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lawson-own-account",
+              "note": "Lawson, Your Trial, Masses & Mainstream July 1948, printed page 3/PDF page 5, explicitly states his May 21, 1948 sentencing. Author contemporary first-person account; original page visually checked. This is the sentence for the case whose actual custody occurred in 1950-1951; existing incarceration/release dates unchanged."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lawson-ap",
+              "note": "Daily Iowan May 22, 1948, page 4, Associated Press report corroborates Lawson and Trumbo sentenced yesterday, with appeal bond. Verdict and sentencing distinguished; no arrest or actual service date inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ce22363d-1360-4cac-9339-859855d9da4e"
       ],
@@ -977,11 +1003,11 @@
       "missing_case_fields": {
         "ce22363d-1360-4cac-9339-859855d9da4e": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "ring-lardner-jr": {
       "id": "af01ad79-59cc-4843-8444-114e1091456c",
@@ -10049,13 +10075,49 @@
     "joel-doty": {
       "id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
       "name": "Joel Doty",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "7bcaf479-59fe-4b37-8920-ee274c74edc5",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+            }
+          ]
+        },
+        {
+          "batch": 442,
+          "table": "prisoner_cases",
+          "id": "d5df836d-2f39-480e-a056-47b6c86c81e1",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d5df836d-2f39-480e-a056-47b6c86c81e1"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -10063,23 +10125,59 @@
         "d5df836d-2f39-480e-a056-47b6c86c81e1": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "orin-doty": {
       "id": "2140d3e1-685b-4693-ac1b-fb7e1c574429",
       "name": "Orin Doty",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "2140d3e1-685b-4693-ac1b-fb7e1c574429",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+            }
+          ]
+        },
+        {
+          "batch": 442,
+          "table": "prisoner_cases",
+          "id": "94c3106f-1065-4116-a0c1-21a6fc1a4001",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "94c3106f-1065-4116-a0c1-21a6fc1a4001"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -10087,23 +10185,59 @@
         "94c3106f-1065-4116-a0c1-21a6fc1a4001": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "paul-doty": {
       "id": "2f51e0c3-5c87-441e-8023-e690634f7265",
       "name": "Paul Doty",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "2f51e0c3-5c87-441e-8023-e690634f7265",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+            }
+          ]
+        },
+        {
+          "batch": 442,
+          "table": "prisoner_cases",
+          "id": "c7ea0213-c29b-4697-9386-e3d763408f6e",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c7ea0213-c29b-4697-9386-e3d763408f6e"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -10111,23 +10245,59 @@
         "c7ea0213-c29b-4697-9386-e3d763408f6e": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "sid-doty": {
       "id": "d838c522-1e00-4959-aa2d-99ece8146ea1",
       "name": "Sid Doty",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "d838c522-1e00-4959-aa2d-99ece8146ea1",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, photograph of the four Doty brothers reporting to jail. Original source caption and matching publisher caption reviewed for individual identification; see the shared ordering note in CREDITS-batch442.md. Photographer Larry Schreiber, Minneapolis newspaper photograph. Native grayscale /Im0 JPX 4192x5576; exact rectangular crop isolates the identified brother. No age-derived birthdate added."
+            }
+          ]
+        },
+        {
+          "batch": 442,
+          "table": "prisoner_cases",
+          "id": "4e716e39-b746-4e2b-86b3-706420c53292",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "doty-contemporary",
+              "note": "National Guardian April 25, 1955, printed/PDF page 4, contemporary photo caption individually names the four Doty brothers and expressly says they went to jail March 29, 1955. This is actual commencement of the second, refusing-induction prison term. Earlier refusal-to-register imprisonment is separate. No arrest date, sentencing date or calculated two-year release added."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4e716e39-b746-4e2b-86b3-706420c53292"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -10135,12 +10305,12 @@
         "4e716e39-b746-4e2b-86b3-706420c53292": [
           "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "sammie-ingram": {
       "id": "3dbd5b2b-a938-4f87-82a0-36e28a55f833",
@@ -10220,15 +10390,41 @@
     "john-cyril-hellman": {
       "id": "d168eea2-e332-410a-b199-220da88c89b8",
       "name": "John Cyril Hellman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "d168eea2-e332-410a-b199-220da88c89b8",
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "hellman-arrest-report",
+              "note": "April 5, 1956 Medford Mail Tribune, printed/PDF page 3, United Press report reproduces FBI announcement identifying John Cyril Hellman, Butte Communist organizer for Montana/Idaho, born December 26, 1921 at Columbia Falls. Original page visually checked."
+            },
+            {
+              "fields": [
+                "birthdate",
+                "death_date"
+              ],
+              "source": "hellman-fbi-index",
+              "note": "FBI deceased-records index, PDF page 296, explicitly gives JOHN CYRIL HELLMAN birth 12/26/1921 and death 8/7/2007. Original index page visually checked; full name and birth match the contemporary arrest report. No dates taken from generic John Hellman namesakes."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "78dbfdaa-92dd-4d28-95b0-2899555194b0"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
+        "photo"
       ],
       "missing_case_fields": {
         "78dbfdaa-92dd-4d28-95b0-2899555194b0": [
@@ -10238,7 +10434,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "edward-e-strong": {
       "id": "1616e0e8-9342-4d51-b527-27794c15e221",
@@ -10978,21 +11175,39 @@
     "john-h-calhoun": {
       "id": "3076fed7-7ba3-4b10-beb3-64efe5062203",
       "name": "John H. Calhoun",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "3076fed7-7ba3-4b10-beb3-64efe5062203",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "calhoun-photo",
+              "note": "John H. Calhoun outside Big Bethel AME Church, Atlanta, April 20, 1983. Nick Arroyo, Atlanta Journal-Constitution Photographic Archives, Georgia State University Library, AJCP363-030b. Archive metadata identifies the subject; AUC NAACP papers corroborate identity. Archive permits educational use without permission. Full original JPEG retained, including copyright notice; no claim of public-domain status. Conflicting birth-year authority metadata is not used to change existing vitals."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "e8df7152-92c7-4a90-8de2-ffecabb068c7"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "e8df7152-92c7-4a90-8de2-ffecabb068c7": [
           "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "alva-a-al-fisher": {
       "id": "f8ff6ed7-696f-4ef0-8cd6-8da76f881ee1",
@@ -13497,15 +13712,33 @@
     "john-janosco": {
       "id": "3787e9e8-47c3-4446-a19e-d6cc6621c926",
       "name": "John Janosco",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 442,
+          "table": "prisoners",
+          "id": "3787e9e8-47c3-4446-a19e-d6cc6621c926",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "janosco-archive",
+              "note": "CSUN Special Collections finding aid for John Janosco UPWA Collection, biographical note explicitly states Janosco passed away in 1973. Career, west-coast UPWA work and 1957 immigration proceeding match this profile. Stored January 1 is only a year-precision placeholder. Collection coverage beginning 1908 is not a birthdate. Unconfirmed genealogical exact-day lead not assigned."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "8157f775-2679-4159-bf63-5d9d75aa4428"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "8157f775-2679-4159-bf63-5d9d75aa4428": [
@@ -13515,7 +13748,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch442 audit."
     },
     "benjamin-cruz": {
       "id": "34b3dbed-cae7-4ece-b589-5bf0cf0c8a28",
