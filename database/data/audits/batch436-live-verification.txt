@@ -1,0 +1,15 @@
+Batch 436 live verification — October 12,2026
+Data commit: 9de54a70
+B436-ISOLATED-TEST-OK 155 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview3 matched guarded rows. Applied3 rows; replay0 rows. B436-OK on all three runs.
+Compared 723 profiles and 852 cases: 50211 unrelated field values preserved; 6 expected fields verified, including one precision metadata value; existing precision entries preserved.
+Two missing vital dates and three missing portraits filled. No profile or case created or removed. No populated field, biography, case prose, duration, custody flag or sort order changed; existing precision entries preserved. API cache cleared after actual changes; no pull request created.
+Batch 436 repeat live/public check — October 12, 2026
+All 3 targeted database rows retain the batch values. Runner replay: Updated rows: 0; B436-OK.
+All 3 public profile pages returned HTTP 200. All three portrait URLs returned HTTP200 and matched committed SHA256 checksums.
+henry-schmidt: portrait renders and HTTP image checksum matches; birthdate=1899-02-09 (day); visible=True; death_date=1984-05-02 (day); visible=True
+herbert-phillips: portrait renders and HTTP image checksum matches
+hyman-lumer: portrait renders and HTTP image checksum matches
+
+Conflicting populated dates, duplicate cases and unresolved custody endpoints remain documented; the exhaustive review continues.
