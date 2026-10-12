@@ -1,0 +1,201 @@
+{
+  "batch": 471,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "jacksons": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-04-04-5-24-nat-guardian.pdf",
+    "thierman-yearbook": "https://archives.med.nyu.edu/_flysystem/fedora/nyumed_16260_OBJ.pdf",
+    "thierman-case": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-08-17-5-43-nat-guardian.pdf",
+    "affidavits": "https://case-law.vlex.com/vid/united-states-v-kremen-890632608",
+    "shirley-photo": "https://oregonnews.uoregon.edu/lccn/sn97071090/1953-09-01/ed-1/seq-1.pdf",
+    "sidney-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-05-07-8-29-nat-guardian.pdf",
+    "sentence": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0211.pdf",
+    "ethel": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-10-05-5-50-nat-guardian.pdf",
+    "oxford": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-07-13-5-38-nat-guardian.pdf",
+    "parrilla": "https://culturadigital.udp.cl/dev/wp-content/uploads/2022/07/LN_1952_11_14.pdf",
+    "watson": "https://law.justia.com/cases/federal/appellate-courts/F2/280/689/263764/",
+    "watson-suspended": "https://www.marxists.org/history/usa/pubs/national-guardian/1956-12-24-9-10-nat-guardian.pdf",
+    "dennis-lead": "https://findingaids.library.nyu.edu/tamwag/tam_132/all/"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "edd09e3c-e7a8-440c-82d5-60bc275a1067",
+      "prisoner_id": "edd09e3c-e7a8-440c-82d5-60bc275a1067",
+      "name": "Jacob Jackson",
+      "slug": "jacob-jackson",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/jacob-jackson-national-guardian-batch471.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "jacksons",
+          "note": "Original hospital photograph explicitly identifies Jackson couple. Existing Jacob arrest August9,1952 conflicts article police attack August8; no populated date edited or wife endpoint inferred."
+        }
+      ],
+      "asset": {
+        "file": "jacob-jackson-national-guardian-batch471.png",
+        "sha256": "c4fda4720ccc0678153929154672accc045576e6255b7c91ae5328194aef8686"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "9a76d22f-8a5b-451f-acc5-3fc2c363cbf8",
+      "prisoner_id": "9a76d22f-8a5b-451f-acc5-3fc2c363cbf8",
+      "name": "Genevieve Jackson",
+      "slug": "genevieve-jackson",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/genevieve-jackson-national-guardian-batch471.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "jacksons",
+          "note": "Original hospital photograph explicitly identifies Jackson couple. Existing Jacob arrest August9,1952 conflicts article police attack August8; no populated date edited or wife endpoint inferred."
+        }
+      ],
+      "asset": {
+        "file": "genevieve-jackson-national-guardian-batch471.png",
+        "sha256": "06d72d71746c4f5cca043340b0f2c669039728f9aea1208716ed2b37b101fcdd"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "9fafd316-c287-4f94-8e94-679fe7b873b9",
+      "prisoner_id": "9fafd316-c287-4f94-8e94-679fe7b873b9",
+      "name": "Carl Thierman",
+      "slug": "carl-thierman",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/carl-thierman-nyu-yearbook-batch471.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "thierman-yearbook",
+          "note": "Original1949 NYU medical yearbook named portrait. Fuller name, graduation and hospital career corroborated by August17,1953 original court-martial report. No namesake vital dates or actual imprisonment inferred from military assignment."
+        }
+      ],
+      "asset": {
+        "file": "carl-thierman-nyu-yearbook-batch471.png",
+        "sha256": "4ac9c17402210d2045316a95a99314297e9bf9dbd72be6939520439d884b6d8e"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "e38308ab-3407-4b83-ae06-1d2f211dbe14",
+      "prisoner_id": "e38308ab-3407-4b83-ae06-1d2f211dbe14",
+      "name": "Shirley Kremen",
+      "slug": "shirley-kremen",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1931-12-29 00:00:00",
+        "photo": "prisoners/shirley-kremen-medford-mail-tribune-batch471.png",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "affidavits",
+          "note": "Full September14,1953 district opinion USvKremen114FSupp899 quotes her own affidavit born December29,1931 Chicago; husband Erwin and marriage April20,1951 establish identity."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "shirley-photo",
+          "note": "Original AP photograph explicitly names second-from-left woman MrsShirleyKeithKremen. Exact crop only. No release inferred from absence in later prisoner lists; August1953 pretrial detention distinct from populated May1954 sentence/admission."
+        }
+      ],
+      "asset": {
+        "file": "shirley-kremen-medford-mail-tribune-batch471.png",
+        "sha256": "a0446c2390a81112e19d0d87fa5364d5b5dca7243514a268a0c34d821c2597fd"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "cbd54bf8-7e80-46e4-b857-d4fd2aa3deaf",
+      "prisoner_id": "cbd54bf8-7e80-46e4-b857-d4fd2aa3deaf",
+      "name": "Sidney Stein",
+      "slug": "sidney-stein",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1914-09-16 00:00:00",
+        "photo": "prisoners/sidney-stein-national-guardian-batch471.png",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "affidavits",
+          "note": "Full114FSupp899 opinion quotes SidneySteinberg own affidavit born September16,1914 Lithuania, USarrivalApril1,1930 and NYnaturalization1937. Political SmithAct and harboring identities linked; current SidneyStein name retained."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "sidney-photo",
+          "note": "Original named SIDNEY STEIN portrait in NY SmithAct defense advertisement. No separate1956 SmithAct sentence imported into1954 harboring case."
+        }
+      ],
+      "asset": {
+        "file": "sidney-stein-national-guardian-batch471.png",
+        "sha256": "94a1e089a28abd483076b10e84d26a4e3f34da201da979674badfaf6bbbf8b97"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "84ccca9a-a715-4109-a1d5-4b81f99eba32",
+      "prisoner_id": "cbd54bf8-7e80-46e4-b857-d4fd2aa3deaf",
+      "name": "Sidney Stein",
+      "slug": "sidney-stein",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1954-05-03 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "sentence",
+          "note": "DOJ own USAttorneysBulletin May28,1954 Vol2No11 printedp7/PDFp8 explicitly reports April26 conviction, May3,1954 Steinberg/Coleman three-year sentencing, Ross two years and Kremen one. Actual admission not inferred; populated April26 admission retained. No release date established."
+        }
+      ]
+    }
+  ]
+}
