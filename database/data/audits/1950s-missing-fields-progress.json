@@ -1734,8 +1734,14 @@
     "maurice-braverman": {
       "id": "9e301572-a4f4-495c-9dba-85e15a228379",
       "name": "Maurice Braverman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "status": "reviewed, no unsupported additions",
+          "note": "Reviewed existing photo/vitals and four case dates; no additional missing field supported. Biography versus existing death-year conflict preserved for separate verification."
+        }
+      ],
       "case_ids": [
         "bbe98f9a-bf03-435a-8935-cad4db5045fd"
       ],
@@ -1745,7 +1751,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Reviewed existing photo/vitals and four case dates; no additional missing field supported. Biography versus existing death-year conflict preserved for separate verification."
     },
     "saul-wellman": {
       "id": "1f1b81c5-c3b6-4e3d-8923-95693c00482f",
@@ -2281,6 +2288,11 @@
               "note": "ILWU Dispatcher May 9, 1988, printed page 10, resolution R-29, explicitly names union leader Maurice Travis and his death date."
             }
           ]
+        },
+        {
+          "batch": 454,
+          "status": "reviewed, no unsupported additions",
+          "note": "April27,1985 DOD already applied earlier. Original Guardian1955 advertisement contains unnamed miner illustration, not portrait. Populated June14 case endpoints lack precision and need separate conflict verification; preserved. Namesakes excluded. No verified DOB/photo found."
         }
       ],
       "case_ids": [
@@ -2295,7 +2307,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "April27,1985 DOD already applied earlier. Original Guardian1955 advertisement contains unnamed miner illustration, not portrait. Populated June14 case endpoints lack precision and need separate conflict verification; preserved. Namesakes excluded. No verified DOB/photo found."
     },
     "harry-bridges": {
       "id": "c0f9e31b-3c51-482b-ba9f-4ffb4092324b",
@@ -7259,21 +7272,39 @@
     "nat-ganley": {
       "id": "e293bfd2-b23f-4bdb-b6aa-dddfaac4fbc4",
       "name": "Nat Ganley",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "table": "prisoners",
+          "id": "e293bfd2-b23f-4bdb-b6aa-dddfaac4fbc4",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "ganley-photo",
+              "note": "JewishLife May1954 vol8no7 printedp11, photograph beside NATGANLEY:LABORLEADER by AbeStrauss. Identified from original article, original page and crop visually inspected. Exact rectangular crop isolates original photograph; retained native pixels unchanged, no resize/redraw/retouch. Photographer uncredited; rights undetermined, no public-domain claim. Populated year-precision birth/death dates and1954 custody dates preserved; release remains unresolved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "bd64b4b9-7e2e-49f9-8c28-08e7689d6f92"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "bd64b4b9-7e2e-49f9-8c28-08e7689d6f92": [
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch454 audit. Unresolved release endpoints remain unknown."
     },
     "thomas-dennis": {
       "id": "8f3fc15f-8ca0-46dc-a665-6b387cdee034",
@@ -9231,8 +9262,14 @@
     "michael-quill": {
       "id": "330bebf4-6e1b-4e29-9e6d-96ab40d2f017",
       "name": "Michael Quill",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "status": "reviewed, no unsupported additions",
+          "note": "Reviewed existing photo/vitals and actual same-day arrest/incarceration/release. No conviction established; empty sentencing field not inferred."
+        }
+      ],
       "case_ids": [
         "dc7d86ed-c30c-4968-9b90-9b0f05c9fe7f"
       ],
@@ -9243,7 +9280,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Reviewed existing photo/vitals and actual same-day arrest/incarceration/release. No conviction established; empty sentencing field not inferred."
     },
     "chungsoon-kwak": {
       "id": "38175af9-166a-4c4e-9769-3ef1a2ed8925",
@@ -10563,8 +10601,27 @@
     "max-weiss": {
       "id": "6c5b6228-1378-4b5c-866e-179b278294ac",
       "name": "Max Weiss",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "table": "prisoner_cases",
+          "id": "4427ac56-7b8b-44f2-a49d-5709a8a31526",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "weiss-prison",
+              "note": "Militant October3,1955 printedp4 Notes from the News, SMITH ACT VICTIMS paragraph expressly MaxWeiss is being held on $50,000 bail pending extradition hearing to Chicago. All original scanned pages visually inspected. Actual custody established in1955; YEAR precision only. Existing September19 arrest day does not automatically establish admission day. No sentence, release or served duration inferred."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4427ac56-7b8b-44f2-a49d-5709a8a31526"
       ],
@@ -10576,12 +10633,12 @@
       "missing_case_fields": {
         "4427ac56-7b8b-44f2-a49d-5709a8a31526": [
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch454 audit. Unresolved release endpoints remain unknown."
     },
     "alfred-marder": {
       "id": "85378469-9459-498d-ad6f-655bb70a4388",
@@ -13419,8 +13476,41 @@
     "marcus-singer": {
       "id": "a69a2b50-2046-471b-9a3d-f0c7183dc2f0",
       "name": "Marcus Singer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "table": "prisoner_cases",
+          "id": "9c6cb28a-d965-4e27-b2f8-a6c0c134cd5a",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "singer-cornell",
+              "note": "Contemporary Cornell Alumni News May15,1956 printedp555 explicitly April13, $100 fine and three-month SUSPENDED sentence by Judge BurnitaMatthews. Full indexed primary-source paragraph read; original direct PDF download unavailable (405), not represented as visually inspected. Exact date independently corroborated by same-day AP report."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "singer-ap",
+              "note": "Manchester Evening Herald April13,1956 front-page AP brief PROFESSOR FINED $100, Washington April13 dateline: today fined $100 and given three-month suspended jail term. Full indexed primary-source paragraph read; direct original PDF unavailable (403). Independent contemporary corroboration of exact sentencing day."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "singer-court",
+              "note": "244F2d349 confirms $100 fine and suspended three-month sentence. Conviction date and sentencing day distinguished; suspended term is not physical imprisonment. Existing incarceration/release fields remain null and all existing prose preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9c6cb28a-d965-4e27-b2f8-a6c0c134cd5a"
       ],
@@ -13430,13 +13520,13 @@
       "missing_case_fields": {
         "9c6cb28a-d965-4e27-b2f8-a6c0c134cd5a": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates/photographs applied and publicly verified. Remaining missing fields and conflicting source years remain unresolved; populated fields preserved. See batch454 audit. Unresolved release endpoints remain unknown."
     },
     "irving-katz": {
       "id": "e777cee7-7891-4a24-bdb1-09cb9ac3cc99",
@@ -14328,8 +14418,14 @@
     "mathilda-carman": {
       "id": "59d9da14-d77f-4f34-bf4c-96ffca1e0a51",
       "name": "Mathilda Carman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "status": "reviewed, no unsupported additions",
+          "note": "Guardian November3,1958 p9 confirms suspended appeal on $100bail following60days sentence; November1957 conviction does not establish sentencing day or actual prison service. No identified photograph/vitals found. Missing fields remain unresolved."
+        }
+      ],
       "case_ids": [
         "1945b620-80f8-4c3a-bc9f-846ae535bf02"
       ],
@@ -14346,7 +14442,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Guardian November3,1958 p9 confirms suspended appeal on $100bail following60days sentence; November1957 conviction does not establish sentencing day or actual prison service. No identified photograph/vitals found. Missing fields remain unresolved."
     },
     "maurice-mccrackin": {
       "id": "efd408fa-3ed7-4a3c-87b1-9273ac31893b",
@@ -20151,8 +20248,14 @@
     "morris-wills": {
       "id": "2e9ebb11-600b-44db-bc1e-a3ebee77060c",
       "name": "Morris Wills",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 454,
+          "status": "reviewed, no unsupported additions",
+          "note": "Reviewed existing photo/vitals and exile dates. Foreign POW captivity not inserted as U.S. political imprisonment; no supported missing field found."
+        }
+      ],
       "case_ids": [
         "c4d86f4c-9baf-4195-9984-dbe561a8b022"
       ],
@@ -20164,7 +20267,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Reviewed existing photo/vitals and exile dates. Foreign POW captivity not inserted as U.S. political imprisonment; no supported missing field found."
     },
     "aaron-wilson": {
       "id": "5fe8d8cb-6db6-405e-9ad0-7290d5b3d97b",
