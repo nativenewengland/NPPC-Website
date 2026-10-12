@@ -1,0 +1,13 @@
+# 1950s missing-fields review: batch 446
+
+October 12, 2026. Five guarded existing rows across Kenneth Calkins, Eleanor Calkins and Arthur Springer: eight missing dates and one caption-identified portrait. No new profile or case.
+
+Kenneth: February 19, 1935 birth and December 31, 2025 death verified from his published obituary (heading 1935–2025, January 2026 publication); identity matches Chicago historian and Cheyenne truck injury. Both Calkins: August 18, 1958 first custody during this protest documented by original newspaper caption and narrative. Sustained jail confinement began in August, but exact transfer/admission day is unresolved: incarceration stored with MONTH precision, displayed August 1958, not August 1. Eleanor sentencing August 20, 1958 verified by Thursday August 21 UPI report stating Wednesday. Arthur: AP report August 20 expressly describes Tuesday August 19 arrest and placement in Laramie County Jail, corroborating his populated arrest date; fill only missing incarceration date. Original newspaper pages visually checked. Source URLs and per-field rationale in JSON; no copyrighted newspaper prose inserted into profile.
+
+Eleanor portrait cropped exactly from caption-identified September 1 photograph, native retained pixels preserved. Kenneth existing photo preserved. No birth year inferred from a newspaper age.
+
+Open conflict: Kenneth obituary describes three weeks in jail; 1958 Guardian describes 104-day sentences. A sentence and actual service differ. Existing biography and duration are preserved, no 104-day endpoint calculated. No release dates filled without direct evidence. Initial several-hour August 18 custody is distinct from later sustained confinement. Both are within this existing Cheyenne prosecution; month precision avoids false exact admission claims.
+
+Further reviewed: Kathryn Hyndman historian James B. Lane confirms preexisting October 7, 1952 detention and 1978 death year, but no new exact vital dates or personally identified portrait from that page. Contemporary ILWU Dispatcher September 26, 1952 page 6 confirms Karley Larsen IWA/Smith Act identity and bail during the Portland convention, without a physical release day or portrait. These findings do not justify changing populated fields or inferring a release. Unmatched namesakes rejected. Primary-source review of James Otsuka remains open.
+
+Missing-only updates; all identities, expected fields, precision preservation and portrait checksum checked before writes. No biography/case prose, populated dates/photos, duration, custody status or sorting edits; no pull request. Exhaustive 1950s review continues.
