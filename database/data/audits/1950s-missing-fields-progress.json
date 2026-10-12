@@ -223,8 +223,34 @@
     "reubin-clein": {
       "id": "c6067984-1d73-49b7-81fd-04085ccc5ab7",
       "name": "Reubin Clein",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoner_cases",
+          "id": "69bda98d-47e6-480f-bdc9-c075ab9c48a2",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "clein-court",
+              "note": "Full Florida Supreme Court primary opinion Clein v State52So2d117, December8,1950: refusal before grand jury February7,1950, subsequent hearing imposed thirty days Dade County jail, appeal affirmed. Establishes original sentence within1950 but no exact sentencing day. YEAR1950 only; February7 subpoena/hearing request not assigned as arrest or physical jail admission. Existing portrait, birth/death, sentence and prose preserved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "clein-grandjury",
+              "note": "Dade County grand jury own final report p3, indexed primary text read, separately confirms thirty-day county-jail contempt sentence following January28/February4,1950 MiamiLife stories. Direct original download403; no claimed visual inspection. Does not establish physical start/release dates."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "69bda98d-47e6-480f-bdc9-c075ab9c48a2"
       ],
@@ -232,13 +258,13 @@
       "missing_case_fields": {
         "69bda98d-47e6-480f-bdc9-c075ab9c48a2": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "walter-lowenfels": {
       "id": "1b89c5fe-8b3d-4092-b77b-aec953313318",
@@ -376,21 +402,49 @@
     "robert-klonsky": {
       "id": "578c7a2b-03eb-4490-aef5-a193e78aead8",
       "name": "Robert Klonsky",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoner_cases",
+          "id": "f59a46e1-e554-4ecc-9471-1aa2c022337c",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "klonsky-sentence",
+              "note": "Original Big Spring Herald Tuesday June21,1955 printed p4 AP Philadelphia report, downloaded and visually inspected: Judge J.Cullen Ganey sentenced nine defendants yesterday and ordered immediate imprisonment after rejecting appeal bail. Individually names Robert Klonsky among two-year recipients. Thus June20,1955 sentencing and immediate actual custody, not the 1954 conviction year. Existing August1953 arrest and narrative preserved. No physical release date inferred from 1958 withdrawal; full-populated-field conflict logged."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "klonsky-arrest-context",
+              "note": "Official DOJ US Attorneys Bulletin August21,1953 p5 identifies Robert Klonsky alias Robert Kirby, Philadelphia organizational secretary, arrested Brighton Massachusetts August13 and included in superseding nine-person indictment. Matches the same person and proceeding; populated MONTH August1953 arrest not overwritten or refined."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "f59a46e1-e554-4ecc-9471-1aa2c022337c"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "f59a46e1-e554-4ecc-9471-1aa2c022337c": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "peter-norwood-duberg": {
       "id": "2378e2c4-a9fe-4b87-9b4a-272534769540",
@@ -1072,8 +1126,34 @@
     "ring-lardner-jr": {
       "id": "af01ad79-59cc-4843-8444-114e1091456c",
       "name": "Ring Lardner Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoner_cases",
+          "id": "56c7644e-f745-49c3-9c5d-90dd1d364f97",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lardner-sentence",
+              "note": "Original Bend Bulletin Thursday June29,1950 p8 UnitedPress Washington dispatch, downloaded/visually inspected, identifies Ring Lardner Jr and one-year sentence/fine imposed today. Article has Cole/Scott substitution in adjacent sentence; separate contemporary report confirms Lardner individually. Existing incarceration and MONTH April1951 release preserved; no arrest date inferred from subpoena or contempt citation."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lardner-confirmation",
+              "note": "Original Greymouth Evening Star July1,1950 p6 Washington June29 dispatch explicitly names Ring Lardner Jr among four writers sentenced to one year and $1000. Indexed archival text read, not claimed locally downloaded. Independently confirms June29 sentencing despite Bend article adjoining names error."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "56c7644e-f745-49c3-9c5d-90dd1d364f97"
       ],
@@ -1081,11 +1161,11 @@
       "missing_case_fields": {
         "56c7644e-f745-49c3-9c5d-90dd1d364f97": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "albert-maltz": {
       "id": "31446727-d724-4d7f-bb49-de916257281c",
@@ -4170,8 +4250,41 @@
     "robert-michener": {
       "id": "040c3170-6ee4-47f5-ad93-4005779d033d",
       "name": "Robert Michener",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoner_cases",
+          "id": "15991e10-c0d9-48a1-a85a-f065b2667455",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "michener-sentence",
+              "note": "Original National Guardian March7,1951 p9, downloaded/visually inspected: individually identifies nineteen-year-old Quaker Drake student Robert Michener, Topeka federal ten-year sentence for religious draft resistance. YEAR1951 only. Contemporary historian specifies February25,1951 but original day not independently verified; exact day not asserted. No DOB calculated from age, and no actual admission or release date invented."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "michener-history",
+              "note": "Center on Conscience and War own Reporter Fall2019 p8, downloaded/visually inspected: separate earlier non-registration year-and-day term served, followed by three-count reprosecution, two consecutive five-year terms originally and later all concurrent. Do not combine episodes or infer ten years actually served. Existing ten-year imposed sentence and case prose preserved; later reduction and actual endpoints unresolved."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "michener-contemporary-history",
+              "note": "Contemporary 1951 historian article Religious Freedom in American History explicitly identifies February25,1951 ten-year Kansas sentence, citing ACLU April9,1951 bulletin, CCCO March1951 NewsNotes and March1951 press. Confirms YEAR1951; exact February25 day not adopted without independent original-day verification."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "15991e10-c0d9-48a1-a85a-f065b2667455"
       ],
@@ -4183,13 +4296,13 @@
       "missing_case_fields": {
         "15991e10-c0d9-48a1-a85a-f065b2667455": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "jerry-newson": {
       "id": "5f007f45-a5d6-4945-974d-07c7e8a89d8d",
@@ -6300,8 +6413,14 @@
     "robert-a-campbell": {
       "id": "213b5db9-54a2-4ed3-86fa-98939fe6bc6c",
       "name": "Robert A. Campbell",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "Acquittal and existing arrest preserved; no actual custody endpoint established by further searches. Software-engineer namesake portrait rejected."
+        }
+      ],
       "case_ids": [
         "a7a91843-95e0-4fd5-9e2e-de47c28b22c1"
       ],
@@ -6318,7 +6437,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Acquittal and existing arrest preserved; no actual custody endpoint established by further searches. Software-engineer namesake portrait rejected."
     },
     "joseph-brandt": {
       "id": "ebee07dc-2e58-422a-bba9-05ba54950c43",
@@ -7082,8 +7202,14 @@
     "reuben-ship": {
       "id": "f1f5800b-0f05-4671-bbc4-1626bd3069ae",
       "name": "Reuben Ship",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "1939 McGill Archives portrait identified by Albany journal caption; original retrieval returned403, so no asset attached. Existing case dates preserved."
+        }
+      ],
       "case_ids": [
         "3f919314-5c34-44a8-9220-5c4e30574399"
       ],
@@ -7096,7 +7222,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1939 McGill Archives portrait identified by Albany journal caption; original retrieval returned403, so no asset attached. Existing case dates preserved."
     },
     "ethel-linn": {
       "id": "4b94da5e-6c6f-48c0-a418-1e2b6edc5434",
@@ -7301,8 +7428,14 @@
     "robert-d-walsh": {
       "id": "b7c5eea8-5cbc-439f-897a-29126879a182",
       "name": "Robert D. Walsh",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "Draft-resister dates/photo/vitals remain unresolved. Modern military veteran namesakes not adopted."
+        }
+      ],
       "case_ids": [
         "4300aafc-a7f2-495d-9fce-0efe9e28df54"
       ],
@@ -7320,7 +7453,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Draft-resister dates/photo/vitals remain unresolved. Modern military veteran namesakes not adopted."
     },
     "joseph-ranchioni": {
       "id": "98ea5f21-0ceb-4cdb-b0c9-6a369401189e",
@@ -10642,8 +10776,37 @@
     "reuel-amdur": {
       "id": "e8c39da3-4b88-45b1-8117-ae154d782274",
       "name": "Reuel Amdur",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoner_cases",
+          "id": "9e4d7122-217d-4dce-8360-ce7753811fd5",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date"
+              ],
+              "source": "amdur-court",
+              "note": "Full primary People v Amdur123CalApp2dSupp951,267P2d445 (Feb23,1954): February6,1953 table action, threatened arrest, subsequent actual arrest and conviction, $25 fine with contingent one day per unpaid $5. Read together with contemporary report identifying original conviction in February1953 establishes both milestones within that month; exact arrest/sentence day not asserted. Conditional nonpayment jail order does not prove a jail term. No incarceration or release dates invented."
+            },
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date"
+              ],
+              "source": "amdur-conviction",
+              "note": "Original National Guardian November22,1954 p6, downloaded/visually inspected, explicitly February1953 original conviction and later acquittal. MONTH February1953 only for earlier arrest and fine imposed at original conviction, not 1954 appellate judgment or acquittal. Nearby Morton Sobell photograph is a different man, excluded."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9e4d7122-217d-4dce-8360-ce7753811fd5"
       ],
@@ -10654,14 +10817,13 @@
       ],
       "missing_case_fields": {
         "9e4d7122-217d-4dce-8360-ce7753811fd5": [
-          "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "ruth-cort": {
       "id": "dde04f65-1519-4f2c-91bd-69f07e426788",
@@ -14730,8 +14892,14 @@
     "robert-gillmore": {
       "id": "04463bce-be4a-4c4b-98e0-d83c039517dc",
       "name": "Robert Gillmore",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "AFSC/CNVA organizer not matched to California sheet-metal-worker obituary; no unsupported vitals copied. Existing same-day custody dates preserved."
+        }
+      ],
       "case_ids": [
         "64692eae-d401-46fb-ba4e-b1110e5235e2"
       ],
@@ -14746,7 +14914,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "AFSC/CNVA organizer not matched to California sheet-metal-worker obituary; no unsupported vitals copied. Existing same-day custody dates preserved."
     },
     "erica-enzer": {
       "id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
@@ -15547,8 +15716,14 @@
     "robert-manewitz": {
       "id": "4a550d7d-d96e-4b05-87a0-01e08a51a93f",
       "name": "Robert Manewitz",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "1917-2004 family genealogy and IrmaLeeZarfas connection require stronger linkage to SmithAct defendant. No dates copied; free-on-appeal record preserved."
+        }
+      ],
       "case_ids": [
         "f68d953d-4bcb-40f3-b45d-aaaab74eb7f4"
       ],
@@ -15564,7 +15739,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "1917-2004 family genealogy and IrmaLeeZarfas connection require stronger linkage to SmithAct defendant. No dates copied; free-on-appeal record preserved."
     },
     "billy-allen": {
       "id": "64ef179c-665e-4dbd-a5e2-05aa67eb1abb",
@@ -17366,8 +17542,14 @@
     "regina-frankfeld": {
       "id": "ef76766e-1c0d-42f6-b1ed-efdb1e7c5dff",
       "name": "Regina Frankfeld",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "Populated case dates and portrait preserved. NYU finding aid confirms prison history but has no verified vital dates."
+        }
+      ],
       "case_ids": [
         "d6baca43-ced6-42db-84b8-7865fbde85d5",
         "45d28504-f9b5-49f7-ad6e-a6a5fa3c372d"
@@ -17387,7 +17569,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Populated case dates and portrait preserved. NYU finding aid confirms prison history but has no verified vital dates."
     },
     "helen-winter": {
       "id": "cd9c9e4e-0b71-40ed-a6b3-1e46e7700eb5",
@@ -18450,8 +18633,27 @@
     "refugio-martinez": {
       "id": "7cdad867-59d5-450b-80f9-0adf4937d450",
       "name": "Refugio Martinez",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "table": "prisoners",
+          "id": "7cdad867-59d5-450b-80f9-0adf4937d450",
+          "fields": [
+            "birthdate"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate"
+              ],
+              "source": "refugio-birth",
+              "note": "Illinois Labor History Society own Hall of Honor biography, historian Emily Pope Obeda, explicitly identifies Refugio Roman Martinez, Villa Cecilia near Tampico, born 1903. Chicago packinghouse organizer, wife and two US-born daughters, lawyer Eugene Cotton and 1953 deportation independently match existing profile. YEAR precision only; no day/month inferred. Populated May 1953 death preserved; exact custody remains unresolved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4d5adc16-4ac2-453c-880b-991b8243961d"
       ],
@@ -18467,7 +18669,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Supported missing dates applied and publicly verified; see batch459 audit. Populated fields and source conflicts preserved; remaining endpoints/vitals/photos unresolved."
     },
     "charles-doyle": {
       "id": "56b8c96a-8871-44a5-91e7-338f00bde235",
@@ -18900,8 +19103,14 @@
     "reuel-mugo-gatheru": {
       "id": "928b5a49-28b9-460a-afcf-d093f55f9b3d",
       "name": "Reuel Mugo Gatheru",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "No arrest or confinement in this proceeding; complete vital dates and portrait preserved."
+        }
+      ],
       "case_ids": [
         "dfa53f74-7ee4-47ea-a693-50b3541240ec"
       ],
@@ -18915,7 +19124,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "No arrest or confinement in this proceeding; complete vital dates and portrait preserved."
     },
     "harold-ward": {
       "id": "c84e201b-3a3a-4ea0-afa3-8f53b8384efc",
@@ -20747,8 +20957,14 @@
     "richard-gordon": {
       "id": "69e7417d-5a5f-475d-a9d5-fa8200e5d9ba",
       "name": "Richard Gordon",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "No verified missing vital dates or identified portrait. Photographer and author namesakes rejected; existing exile endpoints preserved."
+        }
+      ],
       "case_ids": [
         "f62bac98-cb83-408d-8ad1-a64f8f7acac4"
       ],
@@ -20763,7 +20979,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "No verified missing vital dates or identified portrait. Photographer and author namesakes rejected; existing exile endpoints preserved."
     },
     "william-cowart": {
       "id": "b9e7205f-64b7-4a32-bbcf-c17b4038593d",
@@ -21019,8 +21236,14 @@
     "richard-tenneson": {
       "id": "de9a044a-bcf9-4656-9c01-656923d5025b",
       "name": "Richard Tenneson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 459,
+          "status": "reviewed, no unsupported additions",
+          "note": "Birth June4,1933 / death August28,2001 genealogical leads not independently linked to identity; not adopted. Modern Portland RichardKennethTenneson obituary is a different man. Existing exile endpoints preserved."
+        }
+      ],
       "case_ids": [
         "d6c64712-88c0-42b3-b86b-bca76d92c6ec"
       ],
@@ -21035,7 +21258,8 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "Birth June4,1933 / death August28,2001 genealogical leads not independently linked to identity; not adopted. Modern Portland RichardKennethTenneson obituary is a different man. Existing exile endpoints preserved."
     },
     "james-veneris": {
       "id": "d46bd658-3db9-41ca-abf7-88f950692589",
