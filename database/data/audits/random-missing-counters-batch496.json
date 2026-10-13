@@ -1,0 +1,2202 @@
+{
+  "batch": 496,
+  "seed": "NPPC-random-missing-incarceration-counters-batch496-2026-10-13",
+  "eligible_count": 4747,
+  "snapshot_time": "2026-10-13T17:24:20+00:00",
+  "selection_method": "random.Random(seed).sample(live eligible pool ordered by prisoner UUID,100). Excluded all 102 IDs reviewed in batch495, including its original draw and display-validation replacements.",
+  "eligibility": "No positive days, documented months or partial-date counter according to the live application. Same-day and exile-only profiles may correctly qualify.",
+  "profiles": [
+    {
+      "number": 1,
+      "id": "ab078119-a811-42ea-b3ca-f2d832ccb3f9",
+      "name": "Thomas Banyacya",
+      "slug": "thomas-banyacya",
+      "outcome": "unchanged",
+      "finding": "Sources disagree on aggregate years and Tucson chronology; no exact/month endpoint verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "1d0bff4d-3d74-432f-a2e2-d86d471d449a",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "ea323667-e421-4fa4-8902-8efd27cb02c8",
+      "name": "Jack Mikhail Wolfson",
+      "slug": "jack-mikhail-wolfson",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest confirmed; individual admission and release remain unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "0bb51b31-1518-49dd-a917-216d368da1bd",
+          "arrest_date": "1961-07-15 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "a07d7877-22e9-4194-b245-6269293585ac",
+      "name": "Willie Mendoza",
+      "slug": "willie-mendoza",
+      "outcome": "unchanged",
+      "finding": "Biltmore action, later indictment and bail reports do not establish Mendoza's individual custody interval.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "08042ded-5235-48f7-8bce-f6e344f376d5",
+          "arrest_date": "1969-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "89b05948-37ae-40f5-a19b-3561c5e0252a",
+      "name": "Kendall Copperberg",
+      "slug": "kendall-copperberg",
+      "outcome": "unchanged",
+      "finding": "Safford conscientious-objector roster establishes presence, not admission or release.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "f989687d-baa8-445b-9d3f-8496e52115c1",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "77123cdd-bae1-4abe-93ce-da1bc58c4f88",
+      "name": "Chris E. Miller",
+      "slug": "chris-e-miller",
+      "outcome": "unchanged",
+      "finding": "WWI conscientious-objector sentence and camp identified; endpoints not established.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "000e18b0-a02f-4b47-ac16-5398b8bca1c8",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "5351c89c-272c-4e16-92f1-f9d6d79a836c",
+      "name": "Frank T. Grady",
+      "slug": "frank-t-grady",
+      "outcome": "unchanged",
+      "finding": "Fort Delaware release already recorded; initial custody date not verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "cf573ed6-2790-4c9b-9783-4bfa30f190f5",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1864-03-11 00:00:00",
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "67c744b9-aea5-4b51-a942-1f0216c1926c",
+      "name": "Nydia Gonzalez Reyes",
+      "slug": "nydia-gonzalez-reyes",
+      "outcome": "unchanged",
+      "finding": "Vieques arrest and refusal of bail recorded; actual release not found.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "ea4b7d93-32cb-4085-a909-30b979fdcfe9",
+          "arrest_date": "2002-09-13 00:00:00",
+          "incarceration_date": "2002-09-13 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "493ad66f-8325-4af4-8b87-fa6969543a2a",
+      "name": "Leo Frederick Burt",
+      "slug": "leo-frederick-burt",
+      "outcome": "unchanged",
+      "finding": "FBI fugitive record does not establish an executed incarceration; no counter manufactured.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "a24f28e4-9fb7-4f10-914f-9e33021679f5",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"in_exile_since\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "e60f91d0-11af-4d88-af3c-50c3387c264f",
+      "name": "Mark Rudd",
+      "slug": "mark-rudd",
+      "outcome": "unchanged",
+      "finding": "Same-day surrender cases have conflicting September 1977 dates; no new continuous interval asserted.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "fa253d63-2fff-453d-b0da-3d22a360230c",
+          "arrest_date": "1977-09-13 00:00:00",
+          "incarceration_date": "1977-09-13 00:00:00",
+          "release_date": "1977-09-13 00:00:00",
+          "date_precision": null,
+          "imprisoned_for_days": 0,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        },
+        {
+          "id": "a824e8f6-3faa-4579-b810-0966bc48f3da",
+          "arrest_date": "1977-09-14 00:00:00",
+          "incarceration_date": null,
+          "release_date": "1977-09-14 00:00:00",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "f44a9177-a9b3-4818-b488-a83447bb52f6",
+      "name": "Bibiano Pizarro",
+      "slug": "bibiano-pizarro",
+      "outcome": "unchanged",
+      "finding": "Vieques name search did not establish individualized custody dates.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "8e59ff19-d833-4707-ae56-98665fb5ab1b",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "9cab7b75-a1d8-4e1c-8815-bbb21785a159",
+      "name": "Leon Russ Jr.",
+      "slug": "leon-russ-jr",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest verified; release and actual duration not established.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "a0602e11-adc3-4558-9845-86c7d85c9cfa",
+          "arrest_date": "1961-07-15 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "807092c8-1fab-4692-b747-d22f4e94d489",
+      "name": "Ernest Giuliani",
+      "slug": "ernest-giuliani",
+      "outcome": "unchanged",
+      "finding": "Illinois criminal-syndicalism prosecution identified; endpoints unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "7b2291ea-2d73-4928-b982-d03be66ecd28",
+          "arrest_date": "1938-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "c301f404-26d9-4101-8c89-24ac17e074f6",
+      "name": "Sander Katz",
+      "slug": "sander-katz",
+      "outcome": "update",
+      "finding": "Exact conditional release and sentencing dates verified in contemporary Alternative; custody start remains unresolved.",
+      "sources": [
+        "https://libcom.org/article/alternative-vol-2-no-2-october-1949",
+        "https://libcom.org/article/alternative-vol-1-no-6-november-1948"
+      ],
+      "cases_before": [
+        {
+          "id": "0782ce64-9944-4fa4-9859-bc0632127db7",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "c347601e-cbd5-4985-9aee-f519c709b67a",
+      "name": "Ernest Patton Jr.",
+      "slug": "ernest-patton-jr",
+      "outcome": "update",
+      "finding": "Initial Jackson custody date verified; later Parchman duration not used to infer release.",
+      "sources": [
+        "https://www.pbs.org/wgbh/americanexperience/features/meet-players-freedom-riders/",
+        "https://www.the-independent.com/news/nashville-mississippi-jackson-john-cooper-montgomery-b1908793.html"
+      ],
+      "cases_before": [
+        {
+          "id": "8f5c4af5-f3cd-4043-87b4-651ce6b6910a",
+          "arrest_date": "1961-05-24 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "2270da5b-94b1-435e-a7a1-e53d517c5fae",
+      "name": "Harry Minoru Urata",
+      "slug": "harry-minoru-urata",
+      "outcome": "update",
+      "finding": "September 1945 departure into civilian life supported by archive and oral history; month-precision release added.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/urata-harry-minoru",
+        "https://incarceration.jcchawaii.org/documents/2091-transcript2.pdf#page=18"
+      ],
+      "cases_before": [
+        {
+          "id": "5bbf83ce-f9a4-4f7e-a760-205754ec7f34",
+          "arrest_date": "1943-04-01 00:00:00",
+          "incarceration_date": "1943-04-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "df868f83-2f33-47b2-9dbf-331c8b32250f",
+      "name": "Kevin Art",
+      "slug": "kevin-art",
+      "outcome": "unchanged",
+      "finding": "Irish-prisoner directory documents custody presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "c3b64fbe-2267-4052-aeaf-b8ee756734f9",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "c5d158f8-41dc-4eb1-ab17-3c4059b51101",
+      "name": "Julio Pinto Gandia",
+      "slug": "julio-pinto-gandia",
+      "outcome": "unchanged",
+      "finding": "Ponce and later Cooper prosecution must be separated; no mismatched date span added.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "daf638a9-2a1f-45e5-ab05-71ef33d5f21e",
+          "arrest_date": "1937-03-21 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "53023fd3-64d7-45d4-a825-f270b6cb95ca",
+      "name": "Terry Phillips",
+      "slug": "terry-phillips",
+      "outcome": "unchanged",
+      "finding": "White Panther appeal/bail reports do not establish a reliable admission/release pair.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "0879ce9b-20ed-4152-9147-913df0fa1e29",
+          "arrest_date": "1974-07-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "52bc503b-d16d-42ac-a1e8-6fff6358401f",
+      "name": "Amy Carter",
+      "slug": "amy-carter",
+      "outcome": "unchanged",
+      "finding": "Embassy protest arrest established; physical release date not established by absence of prosecution.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "76c29997-61f2-4bf6-9460-55c3c74a5715",
+          "arrest_date": "1985-04-08 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "72830c97-3e0b-4463-906a-f3ac9b7e0d4e",
+      "name": "Alan Shaw",
+      "slug": "alan-shaw",
+      "outcome": "unchanged",
+      "finding": "Existing August 1940 start retained; later speech and bail ruling do not give physical release date.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "475a13ba-0003-49ec-b577-f88fbd47e07a",
+          "arrest_date": "1940-08-17 00:00:00",
+          "incarceration_date": "1940-08-17 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "id": "b9e28d06-db3b-4d10-a465-1678f9b0201f",
+      "name": "Albert Pezzati",
+      "slug": "albert-pezzati",
+      "outcome": "unchanged",
+      "finding": "Probation-only disposition does not establish a prison term.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "119e4a03-ce6f-4c12-bcb0-35839ad08ab6",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "id": "f3027035-4c72-4712-b368-b7c3de1b9293",
+      "name": "Reginald Booker",
+      "slug": "reginald-booker",
+      "outcome": "unchanged",
+      "finding": "Freeway protest arrest identified; no release endpoint verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "80333116-4465-473e-8073-1aa902e1df99",
+          "arrest_date": "1969-06-21 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "1f555401-0d3c-4564-884e-0415095b1347",
+      "name": "Phillip Wallash",
+      "slug": "phillip-wallash",
+      "outcome": "unchanged",
+      "finding": "Allenwood conscientious-objector roster supplies no individual endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "62aa7c35-1fa0-40ff-b40c-bb0dac868305",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "id": "263cc082-4997-4757-aa0e-edf1d76756ff",
+      "name": "Bernadette Naro",
+      "slug": "bernadette-naro",
+      "outcome": "unchanged",
+      "finding": "Same-day protest custody already has complete dates; no positive counter warranted.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "29e71961-20b5-400f-a9a1-69c3117811bc",
+          "arrest_date": "2026-03-27 00:00:00",
+          "incarceration_date": null,
+          "release_date": "2026-03-27 00:00:00",
+          "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "id": "35c387ae-e8ba-491b-af34-349346e4e447",
+      "name": "Jose Gabriel Alvarez-Ortiz",
+      "slug": "jose-gabriel-alvarez-ortiz",
+      "outcome": "unchanged",
+      "finding": "Colombian arrest and later extradition chronology require separation from US custody; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "948b882e-172b-4187-af57-498ba4ca2cd8",
+          "arrest_date": "2020-09-18 00:00:00",
+          "incarceration_date": "2020-09-18 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "id": "de3b7f6d-7afd-47c4-85d4-c6523be8ce31",
+      "name": "Koshi Tatsuhara",
+      "slug": "koshi-tatsuhara",
+      "outcome": "unchanged",
+      "finding": "Santa Fe departure and return to Hawaii are transfers/travel, not a verified release date.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "34adea56-78fa-47ef-aa32-e6e705e3ccdb",
+          "arrest_date": "1941-12-01",
+          "incarceration_date": "1941-12-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "id": "f84e7890-394a-4f59-a3db-0b287d07fad7",
+      "name": "George Talas",
+      "slug": "george-talas",
+      "outcome": "unchanged",
+      "finding": "Deportation date recorded; prior arrest/incarceration start unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "32993a7c-e2f4-443d-b297-c2550b0f4934",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1920-05-08 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "id": "18909e6a-b2f1-46cf-8fe9-36347303fdc7",
+      "name": "William Norman Marron",
+      "slug": "william-norman-marron",
+      "outcome": "update",
+      "finding": "Exact surrender and remand date verified; later bail date unresolved.",
+      "sources": [
+        "https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2010%20%28Final%29/at_download/file"
+      ],
+      "cases_before": [
+        {
+          "id": "74b3bb1b-7973-4f9c-86ce-8ee50e87b6a9",
+          "arrest_date": "1955-12-05 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "id": "945c0bc0-c5f7-439d-a26f-17ac4c933585",
+      "name": "Philip Jonathan Perkins",
+      "slug": "philip-jonathan-perkins",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest recorded; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "d5621441-3495-4d3f-8df5-9181114e86a7",
+          "arrest_date": "1961-07-09 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "id": "c1f89360-0ae8-44e2-a427-0dc7733604be",
+      "name": "David Sanders",
+      "slug": "david-sanders",
+      "outcome": "unchanged",
+      "finding": "Canada-based military resistance does not establish an executed US confinement.",
+      "sources": [],
+      "cases_before": []
+    },
+    {
+      "number": 31,
+      "id": "68bac192-f318-4ffd-b0cb-041150f3c7ca",
+      "name": "D. M. Carr",
+      "slug": "d-m-carr",
+      "outcome": "unchanged",
+      "finding": "WWI fine and ten-day sentence are not proof of exact days actually served.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "918a8a4b-4ea0-43a7-9e20-1948209fa0b6",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+      "name": "Donald Fortenberry",
+      "slug": "donald-fortenberry",
+      "outcome": "update",
+      "finding": "Year-only incarceration refined to July 1959; bail gap prevents assuming arrest was continuous start.",
+      "sources": [
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50202.pdf#page=12",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-20-11-40-nat-guardian.pdf#page=5"
+      ],
+      "cases_before": [
+        {
+          "id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+          "arrest_date": "1959-07-08 00:00:00",
+          "incarceration_date": "1959-01-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "id": "2a76ec84-4dad-4bc4-a98a-9218d14340e1",
+      "name": "John Vargo",
+      "slug": "john-vargo",
+      "outcome": "unchanged",
+      "finding": "Coal-strike sentence and jail identified; actual admission/release dates unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "df584ff5-7872-4a5c-9ac6-75bd9bbadc75",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "id": "701c8379-da77-40a9-be00-90e180c97708",
+      "name": "Ali Shokri",
+      "slug": "ali-shokri",
+      "outcome": "unchanged",
+      "finding": "Iranian military defection/asylum context identified; no executed US custody endpoint established.",
+      "sources": [],
+      "cases_before": []
+    },
+    {
+      "number": 35,
+      "id": "2edeedd5-0d0a-4503-bc9e-aee5e4e221e0",
+      "name": "Avery Kimrey",
+      "slug": "avery-kimrey",
+      "outcome": "unchanged",
+      "finding": "Suspended sentence does not establish an executed prison term; 1934 arrest day/month unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "df460370-6a70-4160-bdac-3c0d7975cb02",
+          "arrest_date": "1934-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "id": "94608b99-31da-4f80-8203-1a4d8842033d",
+      "name": "William Baker",
+      "slug": "william-baker-freedom-rider",
+      "outcome": "unchanged",
+      "finding": "Walgreen sit-in arrest identified; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "ed24f3d9-e110-4c14-ba52-acb9ae88c931",
+          "arrest_date": "1961-07-13 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "id": "3330dc28-98d0-41b6-aa01-0f2e5d889883",
+      "name": "William Nygren",
+      "slug": "william-nygren",
+      "outcome": "unchanged",
+      "finding": "Lompoc conscientious-objector roster confirms presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "5b114cef-8f4c-4b37-8f1a-1fd529d2cc79",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "id": "04ecd2d9-a9d4-47e8-9b01-1102814b8a77",
+      "name": "Tim Brassil",
+      "slug": "tim-brassil",
+      "outcome": "unchanged",
+      "finding": "British Gulf War resistance is not evidence of a US imprisonment interval.",
+      "sources": [],
+      "cases_before": []
+    },
+    {
+      "number": 39,
+      "id": "315fc311-e66e-4614-bdac-34df18eb92e6",
+      "name": "James Wessner",
+      "slug": "james-wessner",
+      "outcome": "unchanged",
+      "finding": "June 1968 custody report identified; individual admission day and release remain unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "d80a28d1-d1d4-4b86-a6d8-9d5a6e2c8eb1",
+          "arrest_date": null,
+          "incarceration_date": "1968-06-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "id": "33a1e818-1cb6-4a37-91bc-c38fe319a5fa",
+      "name": "Eugene Balthazar",
+      "slug": "eugene-balthazar",
+      "outcome": "unchanged",
+      "finding": "February 9 episode already complete same-day; February 13 release near midnight is ambiguous across two dates.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "15f1dc53-cb16-46be-9347-6ee40076f5b7",
+          "arrest_date": "1970-02-09 00:00:00",
+          "incarceration_date": "1970-02-09 00:00:00",
+          "release_date": "1970-02-09 00:00:00",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_days": 0,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        },
+        {
+          "id": "a02ac73f-bef5-4b8b-9435-458b2f6d14bf",
+          "arrest_date": "1970-02-13 00:00:00",
+          "incarceration_date": "1970-02-13 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "id": "6fa2c320-9604-48d2-a8f0-1f8fedd75bce",
+      "name": "Lonnie Thurman",
+      "slug": "lonnie-thurman",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest recorded; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "703d5a80-448d-4bee-a49f-a75c8ba5e0de",
+          "arrest_date": "1961-07-30 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "id": "821eb3af-beaf-42d6-ada5-b017d5927e2d",
+      "name": "John Yancey",
+      "slug": "john-yancey",
+      "outcome": "unchanged",
+      "finding": "Prison charge is distinct from the earlier admission; no original custody start found.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "14e8d794-0bfb-4c38-a668-b0e490865f18",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "id": "2c2b28fc-47eb-46a6-a13c-6155160adb42",
+      "name": "Ebb Payne",
+      "slug": "ebb-payne",
+      "outcome": "unchanged",
+      "finding": "Harlan labor-jail context identified; individual endpoints unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "0371ca91-b49c-442c-b6a6-94a8ac8084f8",
+          "arrest_date": "1932-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "id": "b58c70dd-b4ec-49c4-990c-83841943dd23",
+      "name": "Philip Krabil",
+      "slug": "philip-krabil",
+      "outcome": "unchanged",
+      "finding": "Same-day Pentagon protest dates complete; no positive counter appropriate.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "6978c1e4-5843-430f-8007-70bfa33f70c8",
+          "arrest_date": "2026-03-27 00:00:00",
+          "incarceration_date": null,
+          "release_date": "2026-03-27 00:00:00",
+          "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "id": "227524c4-59c6-40fd-974f-4bae6637480d",
+      "name": "Hakuai Oda",
+      "slug": "hakuai-oda",
+      "outcome": "unchanged",
+      "finding": "Wartime camp departure and return to Hawaii are not automatically release dates.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "a691da90-7065-4d7c-a290-48e8c5219277",
+          "arrest_date": "1941-12-01",
+          "incarceration_date": "1941-12-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "id": "42a0fc38-a556-4ace-b2f1-910f5680b513",
+      "name": "George Humon",
+      "slug": "george-humon",
+      "outcome": "unchanged",
+      "finding": "March 1920 dismissal is a court event, not proof of physical release or uninterrupted custody.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "392baa8d-804b-4c58-a08d-6ee1c24ad2ca",
+          "arrest_date": "1920-01-20 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "id": "900582ae-22f9-4625-b08c-a23c120e26f9",
+      "name": "Eugenio Cuebas Arbona",
+      "slug": "eugenio-cuebas-arbona",
+      "outcome": "unchanged",
+      "finding": "October 1954 arrest already recorded; indictment and bail proceedings do not establish missing custody endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "6bf468d2-9ca5-4a9a-9b1a-2cf24b5d6263",
+          "arrest_date": "1954-10-20 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "id": "2ae52f2e-51d2-46e5-9ac5-2e37050237d1",
+      "name": "Albert Wilhelm Walter",
+      "slug": "albert-wilhelm-walter",
+      "outcome": "unchanged",
+      "finding": "German immigrant deportation context identified; earlier custody dates unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "85d5ee6d-0bae-4a64-87fe-57c1e4185f94",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1921-01-12 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "id": "7db67fc8-bd5e-49e5-8c03-60ebde4c6266",
+      "name": "Martin Carter",
+      "slug": "martin-carter",
+      "outcome": "unchanged",
+      "finding": "Execution already recorded; initial confinement date not verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "30bb5882-0be5-4bd2-9ee2-0c22b15c67a1",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1859-02-25 00:00:00",
+          "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "id": "882a9581-175e-4068-94bd-ce84b699b010",
+      "name": "Vazil Haluszak",
+      "slug": "vazil-haluszak",
+      "outcome": "unchanged",
+      "finding": "Deportation endpoint known; arrest/incarceration start unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "4c9a8562-2211-4968-abe0-529af5dbce43",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1920-03-02 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "id": "78183a4e-e230-4af6-b509-79e6a52decc6",
+      "name": "Louis Smith",
+      "slug": "louis-smith",
+      "outcome": "unchanged",
+      "finding": "WWI prisoner roster name identified; exact/month endpoints not found.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "c7fbc632-9ec9-42b9-b118-f2c4597e6609",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "id": "8e2a06e7-d292-4898-98ad-d7509f2ff55f",
+      "name": "Carolyn DeLoatch",
+      "slug": "carolyn-deloatch",
+      "outcome": "unchanged",
+      "finding": "Leesburg girls entered on different dates; August presence cannot establish admission or a shared 45-day term.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "af4a10b4-ffa5-44ea-b503-0dcedc5d245f",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "id": "7b9abfff-84dd-48e1-b7b2-3d65609f93fc",
+      "name": "Renee Moore",
+      "slug": "renee-moore",
+      "outcome": "unchanged",
+      "finding": "Los Angeles Panther raid and jail context identified; individual physical endpoints need further confirmation.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "55ddbb66-729d-4530-8926-695c540ebaa5",
+          "arrest_date": "1969-12-08 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "id": "089fbc91-53b8-433c-9c37-3c35b37b9dcc",
+      "name": "Fred Bockman",
+      "slug": "fred-bockman",
+      "outcome": "unchanged",
+      "finding": "WWI fine does not prove executed prison custody.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "dde53388-98d9-4e15-976c-d7ce62305111",
+          "arrest_date": null,
+          "incarceration_date": "1918-12-09 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "id": "6be30190-e219-4922-85f5-3eed18d888c9",
+      "name": "Peter Heppner",
+      "slug": "peter-heppner",
+      "outcome": "unchanged",
+      "finding": "WWI conscientious-objector record identified; individual endpoints unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "f59788b7-516e-4f18-ba7b-7e6e78d7eff8",
+          "arrest_date": null,
+          "incarceration_date": "1918-06-24 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "id": "07d4c726-8d7d-43a4-83e4-448030f69b47",
+      "name": "Norma Gist",
+      "slug": "norma-gist",
+      "outcome": "unchanged",
+      "finding": "November 1971 Panther scan verifies April bail release and later re-incarceration; separate custody periods required before entering a single span.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "332d72d6-4f27-4a83-b904-44b40ee90614",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "id": "ebd99fc9-0a5c-41b6-aa48-2411357edc56",
+      "name": "John T. Pace",
+      "slug": "john-t-pace",
+      "outcome": "unchanged",
+      "finding": "Testimony gives an uncertain 20-25-day term and uncertain release; no falsely exact endpoint entered.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "3ac32f6d-95cc-4992-a266-e0a699e9cc83",
+          "arrest_date": "1932-07-25 00:00:00",
+          "incarceration_date": "1932-07-25 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "id": "c76fbfc5-acb1-40c5-a4b2-4ba2ac8a11f3",
+      "name": "Ubaldo Rosario Nieves",
+      "slug": "ubaldo-rosario-nieves",
+      "outcome": "unchanged",
+      "finding": "Vieques group litigation does not establish individualized release.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "17de718b-3c17-4670-8c41-4e8cd590dc5d",
+          "arrest_date": "2000-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "id": "185a95bf-6030-49e0-9d74-15a1abdb3c48",
+      "name": "David Schaeffer",
+      "slug": "david-schaeffer",
+      "outcome": "unchanged",
+      "finding": "Fries Rebellion group chronology does not establish this defendant's initial custody date.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "c06f89a4-f42f-4c35-aabf-b9d694f228b0",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "id": "be28819f-4e7e-41ea-9b43-63054601d5c6",
+      "name": "David J. Dennis Sr.",
+      "slug": "david-j-dennis-sr",
+      "outcome": "unchanged",
+      "finding": "Family interview confirms Freedom Ride participation but does not supply new individualized jail endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "125353db-905a-43ac-a2e8-8217bd79545c",
+          "arrest_date": "1961-05-24 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "id": "ab844029-b279-45d2-97da-8fa4064aea10",
+      "name": "Tatsuko Sato Matsui",
+      "slug": "tatsuko-sato-matsui",
+      "outcome": "unchanged",
+      "finding": "Family internment, transfers and return travel identified; release-to-freedom date unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "906928d6-f4a7-4155-b874-bd9e567a05a8",
+          "arrest_date": null,
+          "incarceration_date": "1944-11-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "id": "78fce3a6-884b-486c-8dc8-7a3d73526d3d",
+      "name": "Rafael Ayala Ayala",
+      "slug": "rafael-ayala-ayala",
+      "outcome": "unchanged",
+      "finding": "Thirty-day imposed Vieques sentence not substituted for actual time served.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "31e70573-8f82-4c95-9b6d-004068165261",
+          "arrest_date": "2001-04-28 00:00:00",
+          "incarceration_date": "2001-04-29 00:00:00",
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "id": "18ab2275-bb4f-4f02-85f9-0c5ba793b4a5",
+      "name": "Daniel Ellsberg",
+      "slug": "daniel-ellsberg",
+      "outcome": "unchanged",
+      "finding": "June 1971 same-day arrest/release already complete; no positive counter appropriate.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "58352aa2-fb9f-4fc7-9d68-f52d5a666ecb",
+          "arrest_date": "1971-06-28 00:00:00",
+          "incarceration_date": "1971-06-28 00:00:00",
+          "release_date": "1971-06-28 00:00:00",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_days": 0,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "id": "eec043e4-9e26-4683-80e3-98107d946c5a",
+      "name": "Seisaku Aoyagi",
+      "slug": "seisaku-aoyagi",
+      "outcome": "unchanged",
+      "finding": "Wartime camp transfers not treated as release dates.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "85377972-b0a7-47de-af45-ab77b1baa415",
+          "arrest_date": "1942-08-01 00:00:00",
+          "incarceration_date": "1942-08-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "id": "6e1b7918-cb9a-42a5-8e0d-2ba45146f07b",
+      "name": "Morris Robinsky",
+      "slug": "morris-robinsky",
+      "outcome": "unchanged",
+      "finding": "Miami group chronology does not individually pin Robinsky's admission month; reversal not physical release.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "a0398a3a-03d7-4709-bd6a-1ae705d11036",
+          "arrest_date": null,
+          "incarceration_date": "1954-01-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "id": "e2ac794f-45a8-4e07-989e-a81dcf21fc7d",
+      "name": "Geoffrey Warner White",
+      "slug": "geoffrey-warner-white",
+      "outcome": "unchanged",
+      "finding": "Smith Act surrender and bail-setting identified; actual release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "cfad4cf1-a6d4-4e3b-9f12-d0ae4d8465b1",
+          "arrest_date": "1956-05-29 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "id": "57dc885d-87b1-481f-ad60-28d31ce9cf51",
+      "name": "Pam Solo",
+      "slug": "pam-solo",
+      "outcome": "unchanged",
+      "finding": "Rocky Flats protest identified; individual release date not verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "ba95f459-73e0-439d-b5d5-07c3e5f3f264",
+          "arrest_date": "1978-04-28 00:00:00",
+          "incarceration_date": "1978-04-28 00:00:00",
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "id": "4227d18c-84d9-4e79-9660-93eecff102d6",
+      "name": "Michael McCord",
+      "slug": "michael-mccord",
+      "outcome": "unchanged",
+      "finding": "September 1972 release already recorded; completion of a one-year sentence does not establish admission or exact time served.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "9292d459-0366-4e99-878e-13546971184c",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1972-09-01 00:00:00",
+          "date_precision": "{\"release_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "id": "245ab797-f8a0-496f-b56c-3ce21948aba1",
+      "name": "Robert Miller Baum",
+      "slug": "robert-miller-baum",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest recorded; individual release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "f709a108-a456-4850-8cf2-10ee0f7a3d4f",
+          "arrest_date": "1961-06-11 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "id": "ab7a2a55-7640-489f-933f-c1422bcd2977",
+      "name": "Mike Matty",
+      "slug": "mike-matty",
+      "outcome": "unchanged",
+      "finding": "1929 release already recorded; 1928 presence in jail does not establish original admission.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "58ba064d-9da2-46b8-865f-1b8e573e72dd",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1929-04-29 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "id": "a4989eb6-6e02-401d-8740-90d1bcb4bd43",
+      "name": "Ghanim Khalil",
+      "slug": "ghanim-khalil",
+      "outcome": "unchanged",
+      "finding": "Threatened military refusal/prosecution does not establish executed imprisonment.",
+      "sources": [],
+      "cases_before": []
+    },
+    {
+      "number": 72,
+      "id": "971ca627-7b97-43a3-80d5-da1678a1f9c0",
+      "name": "Eldridge Morrison Jr. (Omar Shabazz)",
+      "slug": "eldridge-morrison-jr-omar-shabazz",
+      "outcome": "unchanged",
+      "finding": "Indianapolis Panther arrest recorded; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "c028f979-e5df-4131-ae2e-f708d77d4ed5",
+          "arrest_date": "1968-06-23 00:00:00",
+          "incarceration_date": "1968-06-23 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "id": "5bb5f464-7f40-431a-965e-e817f0ccd599",
+      "name": "Karen Gargamelli-McCreight",
+      "slug": "karen-gargamelli-mccreight",
+      "outcome": "unchanged",
+      "finding": "Electric Boat arrest and later community-service disposition do not establish physical release date.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "fcaf8a8d-db61-4478-8918-85ae803f2554",
+          "arrest_date": "2025-04-17 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "id": "a0716084-f579-4625-9696-be1033d70970",
+      "name": "Charlotte O'Neal",
+      "slug": "charlotte-oneal",
+      "outcome": "unchanged",
+      "finding": "Exile and husband's prosecution do not establish her own US incarceration.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "46ada00d-d658-4c1e-b483-1c9cee8a4af6",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "id": "afb10889-db3d-4d1f-b1c2-1c6af6d19678",
+      "name": "Anne Walsh",
+      "slug": "anne-walsh",
+      "outcome": "unchanged",
+      "finding": "Grand-jury contempt and appellate reversal confirmed; actual admission/release endpoints unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "887694c0-a067-43e2-abc3-1e03832b5d13",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "id": "285eeb79-e06e-4d07-aa79-4d446f1bebdd",
+      "name": "E. J. Parker Sage",
+      "slug": "e-j-parker-sage",
+      "outcome": "unchanged",
+      "finding": "Smith Act indictment and sedition proceedings do not establish executed imprisonment.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "7af5c8ff-84a7-4cf1-9112-4f2a91c5f1ad",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "id": "e6f6a5c4-6dce-46da-9100-f740865fba9b",
+      "name": "Faith Grasso",
+      "slug": "faith-grasso",
+      "outcome": "unchanged",
+      "finding": "Fort Sill directory confirms custody presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "309b7ce3-eb6d-4b75-a644-d4a2f8358c9a",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "id": "e16a1a23-8176-4852-8d09-8b4f041143ce",
+      "name": "Daniel Shays",
+      "slug": "daniel-shays",
+      "outcome": "unchanged",
+      "finding": "Death sentence in absentia and exile do not establish incarceration.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "947f80b2-039f-4c63-9427-2680260bb346",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",
+      "name": "Harold Reap",
+      "slug": "harold-reap",
+      "outcome": "update",
+      "finding": "64 actual pretrial days verified; exact arrest/release dates remain unresolved and later 1964 custody excluded.",
+      "sources": [
+        "https://www.crmvet.org/docs/monroe_nelson.pdf#page=34",
+        "https://conservancy.umn.edu/bitstream/handle/11299/240973/19631115.pdf?isAllowed=y&sequence=1",
+        "https://digitalcollections.archives.csudh.edu/digital/api/collection/p16855coll19/id/1715/download"
+      ],
+      "cases_before": [
+        {
+          "id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "id": "7377911d-efca-43cf-9bb6-393d8250c896",
+      "name": "Arnold Austad",
+      "slug": "arnold-austad",
+      "outcome": "unchanged",
+      "finding": "Leavenworth conscientious-objector roster confirms presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "d5e0e90f-c8bf-4b2f-bdd4-7610d84d30a4",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "id": "04837492-14ab-4480-8aca-2c1c574badf7",
+      "name": "Henry Schwarzschild",
+      "slug": "henry-schwarzschild",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest identified; individual bail date unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "4ab6436f-6467-4d38-8b4d-bba74d126f9d",
+          "arrest_date": "1961-06-21 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "id": "ffa401a1-3fe7-4a52-b0a7-483b8ffa7b9b",
+      "name": "Richard Lewis Zuchman",
+      "slug": "richard-lewis-zuchman",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider arrest identified; individual release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "e14115a6-ec18-46cd-9153-2286be66f244",
+          "arrest_date": "1961-07-16 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "id": "4bbe51ed-33e7-4960-b0a0-1af0c476af14",
+      "name": "Eddie Carthan",
+      "slug": "eddie-carthan",
+      "outcome": "unchanged",
+      "finding": "State and federal proceedings plus bail gaps require separate intervals; no continuous span imposed.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "ea34b286-f488-4e9b-b24b-682a0ac55eac",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1983-10-13 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "id": "9af837ff-ffd9-4c0f-9076-fa8b9dda1293",
+      "name": "Félix Rosa",
+      "slug": "felix-rosa",
+      "outcome": "unchanged",
+      "finding": "Court documents a December 1980 arrest but also absence during trial and re-arrest; adding the first arrest would falsely span bail time.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "425b5d30-8640-4229-8f0c-3af9e9eb921e",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": "1986-10-17 00:00:00",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "id": "202400f4-4209-4668-9c09-f9625ab0c335",
+      "name": "Arthur Jackson",
+      "slug": "arthur-jackson",
+      "outcome": "unchanged",
+      "finding": "Florida raid account gives only vague duration; no exact/month endpoints verified.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "9fc7572c-7184-4ded-a001-f85ff3c99447",
+          "arrest_date": "1938-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "id": "82291804-ba8c-4416-a266-4a45ebbac624",
+      "name": "Wes Studi",
+      "slug": "wes-studi",
+      "outcome": "unchanged",
+      "finding": "Firsthand account confirms Wounded Knee arrest and conditional release but does not identify exact/month dates.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "7a77888d-29a4-4ba7-be48-a0f4d02ce6c0",
+          "arrest_date": "1973-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "id": "6da44348-917c-47a2-9b46-90b07da4a2d2",
+      "name": "Lorine Norman",
+      "slug": "lorine-norman",
+      "outcome": "unchanged",
+      "finding": "Bail release occurred by October 1935 reporting, not necessarily during that month; no publication date substituted.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "633808e4-80c4-46c4-8079-f780e01abd79",
+          "arrest_date": "1934-07-20 00:00:00",
+          "incarceration_date": "1934-07-20 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "id": "ee0216fb-9bdb-4bec-82a6-c92ef707aec6",
+      "name": "Sukenoshin Nakano",
+      "slug": "sukenoshin-nakano",
+      "outcome": "unchanged",
+      "finding": "Amache departure and Hawaii homecoming are not proof of the legal release date.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "dd956c7b-e18e-4aee-bfea-b187595874ad",
+          "arrest_date": "1941-12-01",
+          "incarceration_date": "1941-12-01 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "id": "e55bd8de-c43a-4d1d-aa8d-66b93828b2ee",
+      "name": "Fred Bisdorf",
+      "slug": "fred-bisdorf",
+      "outcome": "unchanged",
+      "finding": "WWI speech-prosecution lead; no individualized custody endpoints found.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "b4b7996b-b01d-4e63-9487-365feb72ac62",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "id": "8a4ddc12-2731-454f-b615-449c33a01bd4",
+      "name": "Jose Sepulveda",
+      "slug": "jose-sepulveda",
+      "outcome": "unchanged",
+      "finding": "1934 deportation context identified; exact/month custody endpoints unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "869947cf-4243-482f-8c08-87a0018a016a",
+          "arrest_date": "1934-01-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"year\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "id": "1a8a338f-e44e-42ea-af17-4713de55c5b0",
+      "name": "Tom Sung",
+      "slug": "tom-sung",
+      "outcome": "unchanged",
+      "finding": "Suspended sentence and probation do not establish a prison term.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "85e30d02-0128-4919-81f9-c88ccf0a37fb",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"sentenced_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "id": "662c8406-35a3-4e2c-9185-693de5b7970b",
+      "name": "Kendall Langley",
+      "slug": "kendall-langley",
+      "outcome": "unchanged",
+      "finding": "Camp Lejeune Gulf-resister directory establishes presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "e6dd7980-0492-4934-a691-a4d80adba414",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "id": "08f1b81c-2329-464f-b910-6ee7c1a5323a",
+      "name": "Albert Shadowitz",
+      "slug": "albert-shadowitz",
+      "outcome": "unchanged",
+      "finding": "Contempt indictment does not prove executed custody.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "918bc95c-627b-4656-ab50-fdc0eff8bcc2",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": null,
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "id": "9b01d120-42fd-4aeb-a8cd-f06e55c51417",
+      "name": "George Russell",
+      "slug": "george-russell",
+      "outcome": "unchanged",
+      "finding": "New Orleans Panther arrest month recorded; release unresolved.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "643f98ce-e04a-4e92-90fa-52f6c26caf27",
+          "arrest_date": "1970-11-01 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"month\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "id": "8364650c-4f98-4083-b955-fbbe0f4ab11b",
+      "name": "Amos Cleophilus Brown",
+      "slug": "amos-cleophilus-brown",
+      "outcome": "unchanged",
+      "finding": "Livingston Park arrest identified; accounts of other civil-rights actions not conflated.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "082afbc2-cecf-44a5-8551-0a3d8870769c",
+          "arrest_date": "1961-06-10 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "id": "7bce202d-86f0-46f7-b660-1d4349e768d5",
+      "name": "Naomi Williams",
+      "slug": "naomi-williams",
+      "outcome": "unchanged",
+      "finding": "January 26 Panther report confirms existing arrest; neither its first part nor continuation establishes physical release.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "216177e5-e4a4-4080-bc2e-92938cac2532",
+          "arrest_date": "1974-01-15 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "id": "7382028c-5380-4e1d-a25e-e8ddebf2ddd6",
+      "name": "Luvaghn Brown",
+      "slug": "luvaghn-brown",
+      "outcome": "unchanged",
+      "finding": "Firsthand oral history confirms existing July arrest; later fairgrounds episode not conflated.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "27181c42-ce18-4b5e-a71c-9423bd1f2916",
+          "arrest_date": "1961-07-11 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "id": "646af9b0-2bf2-4257-a820-4f8a334512a6",
+      "name": "John Hayden",
+      "slug": "john-hayden",
+      "outcome": "unchanged",
+      "finding": "Allenwood roster confirms presence, not endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "3e699ade-4752-4d34-b3bb-ee1962a7c156",
+          "arrest_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "[]",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "id": "86cd9b8b-1d88-499d-855d-aa6978e2c643",
+      "name": "John J. Roberts",
+      "slug": "john-j-roberts",
+      "outcome": "unchanged",
+      "finding": "Burns-rescue detention known; hearing dates do not establish actual release.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "d5788a6d-7e13-4a1e-a67b-3dd23f07f215",
+          "arrest_date": "1854-05-26 00:00:00",
+          "incarceration_date": "1854-05-27 00:00:00",
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "id": "c289c403-d5fd-447d-b134-201ca7015540",
+      "name": "David Kerr Morton",
+      "slug": "david-kerr-morton",
+      "outcome": "unchanged",
+      "finding": "Freedom Rider identification confirmed; obituary does not supply custody endpoints.",
+      "sources": [],
+      "cases_before": [
+        {
+          "id": "1cd08f5e-a6ed-48cc-b5fb-e6875bafb3c8",
+          "arrest_date": "1961-06-11 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_days": null,
+          "documented_imprisoned_for_days": null,
+          "imprisoned_for_months": null,
+          "custody_periods": null
+        }
+      ]
+    }
+  ]
+}

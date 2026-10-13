@@ -1,0 +1,265 @@
+{
+  "batch": 496,
+  "expected_count": 6,
+  "selection_seed": "NPPC-random-missing-incarceration-counters-batch496-2026-10-13",
+  "entries": [
+    {
+      "sample_number": 13,
+      "prisoner_id": "c301f404-26d9-4101-8c89-24ac17e074f6",
+      "name": "Sander Katz",
+      "slug": "sander-katz",
+      "case_id": "0782ce64-9944-4fa4-9859-bc0632127db7",
+      "expected": {
+        "id": "0782ce64-9944-4fa4-9859-bc0632127db7",
+        "prisoner_id": "c301f404-26d9-4101-8c89-24ac17e074f6",
+        "institution_id": null,
+        "charges": "Refusing to register.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year and one day in the federal penitentiary.\n\nVerdict as recorded: Yes — convicted of draft refusal, 1948.\n\nCharges as recorded: Refusing to register for the draft under the peacetime (Cold War) Selective Service law.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 04:52:39",
+        "updated_at": "2026-07-29 17:12:21",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1949-08-24 00:00:00",
+        "sentenced_date": "1948-11-19 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://libcom.org/article/alternative-vol-2-no-2-october-1949",
+        "https://libcom.org/article/alternative-vol-1-no-6-november-1948"
+      ],
+      "rationale": "Alternative October 1949 page 1 explicitly reports conditional release from Lewisburg on August 24, with good-conduct credit. November 1948 page 1 dates sentencing November 19 and describes earlier pretrial confinement plus a ten-day opportunity to settle affairs. Fill the exact release and sentence dates; do not invent a continuous incarceration start or equate the one-year-and-one-day sentence with actual time served. Both original scans visually checked."
+    },
+    {
+      "sample_number": 14,
+      "prisoner_id": "c347601e-cbd5-4985-9aee-f519c709b67a",
+      "name": "Ernest Patton Jr.",
+      "slug": "ernest-patton-jr",
+      "case_id": "8f5c4af5-f3cd-4043-87b4-651ce6b6910a",
+      "expected": {
+        "id": "8f5c4af5-f3cd-4043-87b4-651ce6b6910a",
+        "prisoner_id": "c347601e-cbd5-4985-9aee-f519c709b67a",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — arrested Jackson, May 24, 1961.",
+        "arrest_date": "1961-05-24 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-05-24. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-08-02 22:50:53",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-05-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.pbs.org/wgbh/americanexperience/features/meet-players-freedom-riders/",
+        "https://www.the-independent.com/news/nashville-mississippi-jackson-john-cooper-montgomery-b1908793.html"
+      ],
+      "rationale": "PBS identifies the May 24 Freedom Ride, Jackson arrest and subsequent transfer to Parchman; the AP obituary independently confirms immediate arrest and imprisonment. Fill the initial Jackson custody date, not the later Parchman transfer. Existing arrest and photograph placard support May 24 despite a May 25 catalog discrepancy. Reported 40 days at Parchman is not used to calculate release from the earlier Jackson arrest."
+    },
+    {
+      "sample_number": 15,
+      "prisoner_id": "2270da5b-94b1-435e-a7a1-e53d517c5fae",
+      "name": "Harry Minoru Urata",
+      "slug": "harry-minoru-urata",
+      "case_id": "5bbf83ce-f9a4-4f7e-a760-205754ec7f34",
+      "expected": {
+        "id": "5bbf83ce-f9a4-4f7e-a760-205754ec7f34",
+        "prisoner_id": "2270da5b-94b1-435e-a7a1-e53d517c5fae",
+        "institution_id": null,
+        "charges": "Administrative US wartime civilian detention; no individual criminal charge established",
+        "arrest_date": "1943-04-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1943-04-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Administrative wartime incarceration, with arrest April 1943 and recorded Honouliuli and Tule Lake custody through September 1945. Return to Hawaii December 1945 is distinct from departure from Tule Lake. No exact entry or release days, judicial prison sentence or measured continuous duration established. Source: https://incarceration.jcchawaii.org/internees/urata-harry-minoru",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-06 06:57:55",
+        "updated_at": "2026-10-12 03:52:57",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1945-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/urata-harry-minoru",
+        "https://incarceration.jcchawaii.org/documents/2091-transcript2.pdf#page=18"
+      ],
+      "rationale": "JCCH dates the end of Tule Lake confinement to September 1945. Urata explains in his January 2009 oral history, pages 18-19, that he then voluntarily joined his sister in Minneapolis and obtained a Japanese-language teaching job while waiting for transport home. Together these establish departure into civilian life, rather than another camp transfer. Add September 1945 release at month precision; December return to Hawaii is not used as release. Conflicting recollections about earlier transfers do not overwrite the existing archival dates."
+    },
+    {
+      "sample_number": 28,
+      "prisoner_id": "18909e6a-b2f1-46cf-8fe9-36347303fdc7",
+      "name": "William Norman Marron",
+      "slug": "william-norman-marron",
+      "case_id": "74b3bb1b-7973-4f9c-86ce-8ee50e87b6a9",
+      "expected": {
+        "id": "74b3bb1b-7973-4f9c-86ce-8ee50e87b6a9",
+        "prisoner_id": "18909e6a-b2f1-46cf-8fe9-36347303fdc7",
+        "institution_id": null,
+        "charges": "Smith Act conspiracy to advocate and teach the forceful overthrow of the United States government",
+        "arrest_date": "1955-12-05 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted in August 1956",
+        "plead": null,
+        "sentenced_date": "1956-09-17 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Five years; released on bail pending appeal and no service of the sentence is established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 15:00:29",
+        "updated_at": "2026-09-26 20:38:18",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1955-12-05 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2010%20%28Final%29/at_download/file"
+      ],
+      "rationale": "FBI case chronology, printed pages 19-20 (also repeated as 29-30), records December 5 surrender/arraignment followed by remand to the US Marshal pending $20,000 bail. This supports actual initial custody, not service of the later five-year sentence. Release on bail remains undated. Indexed FBI text checked; direct PDF download returned 403."
+    },
+    {
+      "sample_number": 32,
+      "prisoner_id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+      "name": "Donald Fortenberry",
+      "slug": "donald-fortenberry",
+      "case_id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+      "expected": {
+        "id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+        "prisoner_id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+        "institution_id": null,
+        "charges": "Trespassing — antinuclear protest at the Mead, Nebraska ICBM missile base",
+        "arrest_date": "1959-07-08 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1959-07-13 00:00:00",
+        "incarceration_date": "1959-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months in jail and a $500 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:20:47",
+        "updated_at": "2026-10-13 00:11:53",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1959-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50202.pdf#page=12",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-20-11-40-nat-guardian.pdf#page=5"
+      ],
+      "rationale": "Friends Journal August 22, 1959, printed page 464, names Fortenberry among four already in federal prison for approximately a month. The contemporary July Guardian account documents the July action and intervening bail. Refine the existing year-only start to July 1959, preserving uncertainty about the admission day and actual release. Do not assume uninterrupted confinement from arrest. Scan visually checked."
+    },
+    {
+      "sample_number": 79,
+      "prisoner_id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",
+      "name": "Harold Reap",
+      "slug": "harold-reap",
+      "case_id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+      "expected": {
+        "id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+        "prisoner_id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",
+        "institution_id": null,
+        "charges": "Kidnapping (state)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed on high bail; tried October 1961",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed pending trial in the Monroe case\n\nCharges as recorded: Kidnapping (state) — the Monroe civil-rights frame-up",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": 64
+      },
+      "sources": [
+        "https://www.crmvet.org/docs/monroe_nelson.pdf#page=34",
+        "https://conservancy.umn.edu/bitstream/handle/11299/240973/19631115.pdf?isAllowed=y&sequence=1",
+        "https://digitalcollections.archives.csudh.edu/digital/api/collection/p16855coll19/id/1715/download"
+      ],
+      "rationale": "Truman Nelson, People With Strength, printed page 33 (PDF page 34), explicitly records 64 days in jail for Harold Reape. A November 15, 1963 Minnesota Daily report independently gives the same duration before bail. The November 16, 1961 Denver Blade confirms physical release after bail reduction. Add the documented 64-day duration for the existing 1961 pretrial case, without back-calculating uncertain arrest/release dates or including later 1964 custody. Nelson and Blade scans reviewed; university direct download unavailable but indexed text corroborates."
+    }
+  ]
+}
