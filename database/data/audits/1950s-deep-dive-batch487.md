@@ -1,0 +1,41 @@
+# 1950s missing-fields review: batch487
+
+October12,2026. Fourteen pending profiles researched. Five verified missing dates across four guarded rows. No portrait added.
+
+## Verified additions
+
+IgnatzMezei birthYEAR1897; JuanJacaHernandez actualcustodyYEAR1950; JohnFAllen actualcustody/sentenceYEAR1950; LonaCohen sentencingDAYMarch22,1961foralready-existingBritishcaseincludedby1950s-originexile.
+
+## Preservation and limits
+
+Missingfields only. Administrativeproceedingswithoutcriminalsentence leftblank. Release/retrial/appeal/deportationdatesnotinterchanged. Filledvitals/photos/prose/casefields/precision/durations/periods/sortingpreserved. Conflictsloggedbelow; noPR.
+
+## Per-profile research
+
+- **thomas-rimmer**: ReadZimmerownINS54379/417research,1917Buttepress,SPGB1959remembrance. Current1918–19custody/1886/1952vitalsfilled. No criminalsentencefoundadministrativedeportation. Noportraitverified; RAFofficer1948/actor1980/artistfatherpre1852differentmenexcluded.
+
+- **janet-johnstone-roy**: ReadZimmerINS54379/532,532AandEarly/Mayerresearch; originalSeattleUnionRecordFeb14,1919captionphotoalreadyattached. Custody/exile/vitalsallfilled,preserved. Civildeportationnocourtcriminalsentencingdate. ReturntohusbandBritishColumbia notUSreleaseendpoint.
+
+- **cesare-saccaro**: ReadZimmerINS54885/17,FBI379633,CPC4513research. Portrait1937BorderCitiesStaralreadyattached,vitalsfilled. March16,1921deportationdoesnotestablishUSarrest/admissionday. Canada1923/USlaterreturnmeanscurrentexilethroughdeathmayoverstateperiod; recordconflict,preservepopulatedfields.
+
+- **marcelo-salinas-y-lopez**: ReadZimmerINS53572/12 and54616/79research, ownwritingandShaffer/Fernandez/Avrichcitations. 1913and1919deportationswithUSreturnJun1913,separateSpanish/Cubanimprisonments; donotattach1919datesorforeignsentenceto1913case. Currentexile1913–1976conflictsmultipleUSreturnsincluding1967, protected. Alreadyphoto/vitalsfilled. NoindividualphysicalUSstart/endfromdeportationalone.
+
+- **afanasy-severny**: ReadZimmerFBI383729andownFreeSocietyOctNov1921letterresearch. Feb1920arrestalreadyfilled; noactualentry/releasedayverified. SovietAug24,1921–Jan6,1922custodyforeign,separate1923Detroitarrest, notcopytofirstUScase. Ontario1928/Vancouver1960vitalsalreadyfilled. Noidentifiedportrait.
+
+- **john-yereb**: ReadZimmerINS54861/401,FBI383910research. Current1952DODmatcheswifeLaura, authorstatesJohndied1957; populatedconflictloggednotchanged. Currentexilethrough1952conflictsJuly30,1922USreturn/detention andlatercitizenshipverified. Originalcasearrest/releasealreadyfilled,nocriminalsentenceinvented.
+
+- **arrington-w-high**: ReadCivilRightsDigitalLibraryindividualauthorityandoriginal1954Aug27SovereigntyCommissionpolicephotocatalogue. Photo/arrest/vitalsalreadyfilled. No1954physicalentry/releaseorcriminalsentencegiven. October1957asylumcommitment/Feb1958escapeareseparateepisode, donotborrow1957admissionas1954case. ModernBroadwayArringtoncriminalappealexcluded.
+
+- **john-f-allen**: OriginalFebruary27/March5/March26Guardianreportsreviewed,1950YEARsentenceandactualincarcerationfilled. Exactreleaseafter10months/bailpendingappealunresolved,notcomputedfromMarch1952retrial. March1952Allenacquitted,other3suspendedsentence. PhotoGuardianMarch26depictsFBIundercoverraidnotAllen; age23notDOB, unmatchedJohnAllenobituariesexcluded.
+
+- **juan-jaca-hernandez**: Firsthandcustodianoriginalcarpeta/prisonletters supports1950YEARactualdetentionfilled. Current1968YEARreleaseprotected; Dec27pardonnotphysicalexitday. Sept18,1952seditionvsApril1951murderdifferentproceedings, preserve. ArticleillustrationBarbosaexcluded. UnmatchedSSDIexactvitalsnotcopiedoverfilledyears.
+
+- **ignatz-mezei**: Primary195F2d964birth1897YEARfilled. Actualcustodyepisodesalreadyfilled, no criminalsentenceadministrativeexclusion. May10executiveexclusionordernotphysicalrelease. Pressphoto1953identifieddealer403unavailable,noattachment. Ignac/JuliusSSDIunmatched,death1970sreportedonlynotadded.
+
+- **anthony-krchmarek**: DOJownApril13,1956USAttorneysBulletinprinted246 verifiesMarch23sentenceexisting. FBIownClevelandhistory/CaseWesternownlocalhistory/JeanKrchmarekfirstpersonMainstreamJanuary1960familylinkreviewed; noactualadmission/releasedayorverifiedDOD/portrait. May23,1958appealreversalnotrelease. NamesakeWWIsoldiers/modernfamilyimagesnotassigned.
+
+- **george-watt**: DOJoriginal1956sentencereportexistingdateconfirmed. StuyvesanthistorycitingGeorgeWattownCometConnection1990andsonDanielWattmemoir2017 describesNovember1953arrest, bailreduced10k/familymortgage, noexactreleaseorpostsentenceadmission. No5yrdurationorMay1958appealdateasactualcustodyendpoint. Portrait/vitalsfilled,preserved.
+
+- **lona-cohen**: OriginalUPIMedfordMarch22,1961p1visuallyverifiedsame-daysentencingfilledonlymissingBritishcasefield. MI5ownarchivereleaseandODNIhistoryconfirmidentities/sentence;1950exileexisting. AvoidMarch23publicationdateanderroneousMorris25yearssecondaryclaims. NoinventedUScustody,newcasesorvital/photooverwrite.
+
+- **joel-barr**: CIAownTheBrotherresearchandIEEEComputerSocietyComputerPioneersinstitutionalbiographyreviewed. BarrfledParis1950afterGreenglassarrest, nocustody/sentenceestablished. AuthorMarkKuchmentCCNYrecordJan7,1916vsfilledJan1,1916conflict;existingvitals/photo/exileprotected. 1992USreturnmayendexilebefore1998death, lognoteditpopulatedvalues.

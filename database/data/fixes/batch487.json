@@ -1,0 +1,133 @@
+{
+  "batch": 487,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "rimmer487": "https://kenyonzimmer.com/red-scare-deportees/reid-to-rivera/",
+    "roy487": "https://kenyonzimmer.com/red-scare-deportees/roberts-to-roy/",
+    "saccaro487": "https://kenyonzimmer.com/red-scare-deportees/roznuk-to-saccaro/",
+    "salinas487": "https://kenyonzimmer.com/red-scare-deportees/sachar-to-sanchez/",
+    "severny487": "https://kenyonzimmer.com/red-scare-deportees/sernaker-to-shainfine/",
+    "yereb487": "https://kenyonzimmer.com/red-scare-deportees/yarmovics-to-yereb/",
+    "allen-second487": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-03-05-4-20-nat-guardian.pdf",
+    "allen-retrial487": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-03-26-4-23-nat-guardian.pdf",
+    "jaca-photo487": "https://claridadpuertorico.com/wp-content/uploads/2019/03/centrales-web.jpg",
+    "mezei-court487": "https://openjurist.org/195/f2d/964/united-states-mezei-v-shaughnessy",
+    "lona-sentence487": "https://oregonnews.uoregon.edu/lccn/sn97071090/1961-03-22/ed-1/seq-1.pdf",
+    "mezei-primary487": "https://law.resource.org/pub/us/case/reporter/F2/195/195.F2d.964.189.22263.html",
+    "barr487": "https://history.computer.org/barr.html",
+    "high487": "https://crdl.usg.edu/people/high_arrington_w_1910",
+    "ohio-sentence487": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0408.pdf",
+    "watt-memoir487": "https://scwnyc.stuy.edu/archive/George%20Watt.html",
+    "barr-cia487": "https://www.cia.gov/resources/csi/static/The-Brother.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "a84ca08f-1ad3-460b-8a13-a97d917c9f78",
+      "prisoner_id": "a84ca08f-1ad3-460b-8a13-a97d917c9f78",
+      "name": "Ignatz Mezei",
+      "slug": "ignatz-mezei",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null
+      },
+      "update": {
+        "birthdate": "1897-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "mezei-primary487",
+          "note": "Primary Second Circuit opinion195F2d964 March20,1952 factualparagraph1 expresslybirth1897. YEARonly, no birthday from age arithmetic or unmatchedSSDI. Born location competingaccounts immaterialtoyear; existing custody andprecisionprotected."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "b2ee94c2-67d7-482d-a902-4f1cc8e7e092",
+      "prisoner_id": "61e37a97-c2bf-49ef-afac-458428cf8e87",
+      "name": "Juan Jaca Hernández",
+      "slug": "juan-jaca-hernandez",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"month\",\"release_date\":\"year\"}",
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1950-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"month\",\"release_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "jaca487",
+          "note": "MarioRodriguezLeon firsthand custodian ofJaca originalpolicecarpeta48andprisonletters, ClaridadMarch2019 research: detainedafterOct30,1950revolt, imprisoned18years. ActualcustodyYEAR1950 only; uprisingdaynotcopiedasphysicaladmission. 1967habeascourtcorroboratescontinuedcustody. ExistingApril1951sentence/1968YEARreleaseprotected; Sept18,1952separatesedition sentence notoverwritingearliermurdercase. ArticlephotoisJoseCelsoBarbosa, excluded."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "e3513f77-5f57-4142-88d9-11c0e1a3f984",
+      "prisoner_id": "b7aa2a83-53eb-4bce-b714-4f65b6cdaea4",
+      "name": "John F. Allen",
+      "slug": "john-f-allen",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "incarceration_date": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "incarceration_date": "1950-01-01 00:00:00",
+        "sentenced_date": "1950-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"year\",\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date",
+            "sentenced_date"
+          ],
+          "source": "allen-second487",
+          "note": "OriginalWilliamAReubenreport March5,1952printedp8: three-dayAugust1950trial, allconvicted/jailed deniedbailpendingappeal; actualtenmonthsserved. OriginalMarch26p8namesAllenfouryearfirstsentence. YEAR1950conservative sentencingandactualcustody, no admissiondayfromverdictorMarch18initialarrest. Exactreleasependingappealunresolved: March1952retrialfreedomnotassumedcontinuous1950–1952endpoint."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "allen-retrial487",
+          "note": "OriginalMarch26,1952printedp8 Allen acquittedatsecondtrial, threeothermen convictedwithsuspendedtenmonths. EarlierfouryearsentenceexplicitlyAllen/Truitt/Peay. Do notassignMarch1952suspendedsentencetoAllen, noreleasearithmeticfrom10months. Age23in1950notexactDOB."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "68a1d780-7402-4255-8f6c-c25934e6e805",
+      "prisoner_id": "a806246a-34e2-48df-92e5-9317dcd5b943",
+      "name": "Lona Cohen",
+      "slug": "lona-cohen",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"day\",\"in_exile_since\":\"year\",\"end_of_exile\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1961-03-22 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"day\",\"in_exile_since\":\"year\",\"end_of_exile\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lona-sentence487",
+          "note": "OriginalUPIreport MedfordMailTribuneMarch22,1961frontpageDownloadedandvisuallychecked: fiveconvictedtodayandpromptlysentenced, PeterJohnandHelenKrogeridentifiedasMr/MrsMorrisCohen,20yearseach. ExistingBritishcustodycaseunderd1950s-originUSexile includesBritishdates; onlymissingsentencedatefilled, notcreatingUScustody. March23Timespublicationnotassumedsentenceday."
+        }
+      ]
+    }
+  ]
+}
