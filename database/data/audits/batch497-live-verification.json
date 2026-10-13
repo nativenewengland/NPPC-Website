@@ -1,0 +1,69 @@
+{
+  "batch": 497,
+  "data_commit": "fb452cec",
+  "before_time": "2026-10-13T22:58:58+00:00",
+  "after_time": "2026-10-13T22:59:06+00:00",
+  "reviewed_profiles": 100,
+  "updated_profiles": 4,
+  "date_fields_added": 5,
+  "new_positive_counters": 0,
+  "profile_fields_preserved": true,
+  "unrelated_case_fields_preserved": true,
+  "replay_changes": 0,
+  "tests": "B497-FIXTURE-OK: no-write preview, four updates, partial duration, preservation of partial precision, preservation, replay, conflict guard",
+  "application": "--- fill-random-sample-custody-dates\nUpdating: Ruby Doris Smith Robinson\nUpdating: Jack Crane\nUpdating: J. Henry Albers\nUpdating: Bennett Andrews\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 4\nB497-OK\nBatch 497 complete.",
+  "public_checks": [
+    {
+      "name": "Ruby Doris Smith Robinson",
+      "url": "https://politicalprisonercoalition.org/prisoner/ruby-doris-smith-robinson",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        " Trailways terminal, June 2, 1961. Arrested: Jun 2, 1961 Incarcerated: Jun 2, 1961 Sentence: Arrested 1961-06-02. The Civil Rights Digital Librar",
+        "une 2, 1961. Arrested: Jun 2, 1961 Incarcerated: Jun 2, 1961 Sentence: Arrested 1961-06-02. The Civil Rights Digital Library establishes the arre",
+        "ith Robinson AKA: Ruby Doris Smith Released Date of birth: 25. 04. 1941 Date of death: 07. 10. 1967 Age: 26 † Deceased Gender: Female Era: 1960s ",
+        " the Jackson Trailways terminal on June 2, 1961, under her name at the time, Ruby Doris Smith — one of the arrests recorded by the Mississippi St",
+        "ed: Jun 2, 1961 Sentence: Arrested 1961-06-02. The Civil Rights Digital Library establishes the arrest and the identification photograph but not "
+      ]
+    },
+    {
+      "name": "Jack Crane",
+      "url": "https://politicalprisonercoalition.org/prisoner/jack-crane",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "ornia agricultural workers' union. Arrested: July 1934 Sentenced: Apr 11, 1935 Released: April 1937 Sentence: One to fourteen years, imposed Apri",
+        " catch (e) {} }); })(); Jack Crane Released Gender: Male Race: White Era: 1930s Inmate Number: #57605 State: California Support Communism Labor O",
+        "orkers' union. Arrested: July 1934 Sentenced: Apr 11, 1935 Released: April 1937 Sentence: One to fourteen years, imposed April 11, 1935. The pris",
+        " Sentenced: Apr 11, 1935 Released: April 1937 Sentence: One to fourteen years, imposed April 11, 1935. The prison board later fixed the term at f"
+      ]
+    },
+    {
+      "name": "J. Henry Albers",
+      "url": "https://politicalprisonercoalition.org/prisoner/j-henry-albers",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "provoked by a business competitor. Arrested: Oct 21, 1918 Released: Oct 21, 1918 Sentence: Sentence not stated in report. Verdict as recorded: Ye",
+        "h (e) {} }); })(); J. Henry Albers Released Gender: Male Race: White Era: 1910s Support Biography J. Henry Albers was prosecuted under World War "
+      ]
+    },
+    {
+      "name": "Bennett Andrews",
+      "url": "https://politicalprisonercoalition.org/prisoner/bennett-andrews",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "tt Andrews AKA: Bennett W. Andrews Released Full name: Bennett W. Andrews Date of birth: 13. 09. 1906 Date of death: 02. 05. 1994 Age: 87 † Decea",
+        "recise statutory charge unverified Sentenced: April 1943 Released: Jul 11, 1946 Sentence: Imposed sentence: five years, April 1943, Danbury. Actu",
+        "lege Peace Collection documents an April 1943 five-year sentence and imprisonment at Danbury, Connecticut. He was released unconditionally on Jul"
+      ]
+    }
+  ],
+  "notes": [
+    "First application attempt returned a nonzero status without retained detail. Subsequent no-write preview confirmed all four updates still pending; retry succeeded.",
+    "No positive counters were restored: custody endpoints remain incomplete or same-day. This review must not be described as 100 counters fixed.",
+    "Crane parole month is established but initial admission still unresolved.",
+    "No biographies, status flags, photos or existing precise dates were replaced."
+  ]
+}

@@ -2,7 +2,7 @@
 
 Snapshot: 2026-10-13T18:15:43+00:00; eligible pool: 4745; seed: NPPC-random-missing-incarceration-counters-batch497-2026-10-13.
 
-All 100 received initial contextual searches. Strong leads received focused follow-up. This is a research pass, not exhaustion of all archives. Four profiles receive five supported date additions. Only Crane receives a new estimated duration; no claim that 100 counters are fixed.
+All 100 received initial contextual searches. Strong leads received focused follow-up. This is a research pass, not exhaustion of all archives. Four profiles receive five supported date additions. No positive counters were restored: initial admission or release endpoints remain unresolved, and Albers was released on the arrest date. These are five verified date additions, not 100 repaired counters.
 
 ## Supported updates
 
@@ -145,4 +145,4 @@ The Swarthmore finding aid explicitly dates sentencing April 1943. Fill sentenci
 
 ## Verification
 
-Pending guarded live execution. Biographies, statuses, photos and unrelated case fields must remain unchanged. Exact-day numbers must not be manufactured from month-only dates.
+Applied to the live site and verified 2026-10-13T22:59:06+00:00. All four public pages returned HTTP 200 and show the added dates. No positive counter appeared. Full profile fields and unrelated case fields were preserved; replay made zero changes. Isolated fixture tested preview, execution, replay, month precision and concurrent-edit refusal. See batch497-live-verification.json. Exact-day numbers were not manufactured from month-only dates.
