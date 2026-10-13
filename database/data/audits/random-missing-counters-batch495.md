@@ -1,12 +1,12 @@
 # Random 100 missing-counter research — batch 495
 
-Snapshot: 2026-10-13T16:36:14+00:00. Eligible public profiles: 4,956. Random sample: 100.
+Snapshot: 2026-10-13T16:36:14+00:00. Initial candidate pool (zero exact-day total): 4,956. Random sample: 100.
 
 Seed: `NPPC-random-missing-incarceration-counters-2026-10-13`.
 
 All 100 received an initial name/case-context search and comparison with their saved records. Promising leads received focused source follow-up; this is a completed research pass, not a claim that every archive or docket has been exhausted.
 
-Seven profiles receive 10 missing/refined date fields and one documented actual-duration field. Two positive counters are expected to become available (Cory Bartholomew and Delbert Tibbs). Five other profiles remain without a positive counter because an endpoint is unresolved, precision is partial, or custody was same-day. No biographies, existing precise dates, identities, statuses, photos, unrelated cases or ordering are changed.
+Seven profiles receive nine missing/refined date fields and one documented actual-duration field. Cory Bartholomew receives a documented six-month counter; Delbert Tibbs receives an exact 1,032-day span. Otto Popovich will show the existing website formatter’s estimate from arrest to release; this is not proof of continuous custody. Four others still lack a positive counter. Two initially sampled profiles already displayed counters and were randomly replaced after display validation. No biographies, existing precise dates, identities, statuses, photos, unrelated cases or ordering are changed.
 
 Month precision is stored explicitly; the first day is only a storage placeholder. No expected release, prison transfer, exoneration date or imposed sentence is substituted for physical custody evidence.
 
@@ -47,14 +47,6 @@ Changes: arrest_date: 1974-03-13 00:00:00, incarceration_date: 1974-03-13 00:00:
 - [Source 1](https://exonerationregistry.org/cases/4620)
 - [Source 2](https://openjurist.org/337/so2d/788/tibbs-v-state-1850636)
 
-### Jonathan Montanez
-
-David Olson reporting on September 30, 2020 explicitly states FBI arrest that Wednesday and detention pending a Friday hearing. Adds the initial custody start; the existing June 2022 month-only release is preserved. No exact continuous-duration total is inferred; bail history and exact release remain unresolved.
-
-Changes: arrest_date: 2020-09-30 00:00:00, incarceration_date: 2020-09-30 00:00:00.
-
-- [Source 1](https://www.thedickinsonpress.com/news/moorhead-man-faces-federal-charge-stemming-from-may-riot-in-fargo)
-
 ### Kim Williams
 
 CatholicWorker.org January 5, 2024 report, based on organizer Art Laffin, dates the action December 28 and describes police processing followed by release. Refines both existing December 2023 dates. Same-day protest custody does not justify a positive incarceration counter or a prison admission.
@@ -70,6 +62,16 @@ March 1920 One Big Union Monthly page 20 expressly dates arrest and confinement 
 Changes: arrest_date: 1918-08-01 00:00:00.
 
 - [Source 1](https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf#page=20)
+
+### Clyde Allen
+
+Daily Worker January 14, 1936 explicitly dates the police shooting, arrest and subsequent detention to May 25, 1934. Fill the missing arrest date. Hospital custody and subsequent jail admission are distinguished; no prison admission or release date is invented.
+
+Changes: arrest_date: 1934-05-25 00:00:00.
+
+- [Source 1](https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n012-NY-jan-14-1936-DW-Q.pdf)
+
+Additional replacement research: [Robert Hill — contemporary roster](https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004007.pdf). No custody endpoints established. The JSON manifest records the replacement seed and eligible pool.
 
 ## All 100 outcomes
 
@@ -122,7 +124,7 @@ Unchanged means no supported date addition in this pass; it does not mean the re
 | 43 | [Mary Hanna](https://politicalprisonercoalition.org/prisoner/mary-hanna) | Unchanged | Conscientious-objector military litigation is not proof of imprisonment; no case or dates invented. |
 | 44 | [Eckhardt H. von Schack](https://politicalprisonercoalition.org/prisoner/eckhardt-h-von-schack) | Unchanged | Wartime internment and criminal proceedings require separate spans; no endpoints verified. |
 | 45 | [Jack Schneider](https://politicalprisonercoalition.org/prisoner/jack-schneider) | Unchanged | Court opinion distinguishes 1948, 1950 and 1952 detentions and conflicts with stored 1948 arrest. Not merged into a false continuous span; separate reconciliation needed. |
-| 46 | [Dashun Martin](https://politicalprisonercoalition.org/prisoner/dashun-martin) | Unchanged | Reporting on offense, arrest and indictment conflicts with stored chronology. Existing dates preserved for separate review. |
+| 46 | [Clyde Allen](https://politicalprisonercoalition.org/prisoner/clyde-allen) | Update | Verified May 25, 1934 arrest in contemporary Daily Worker; physical prison admission and release remain unresolved. |
 | 47 | [Eugene Cherry](https://politicalprisonercoalition.org/prisoner/eugene-cherry) | Unchanged | Discharge and conscientious objection established; no executed incarceration established. |
 | 48 | [Mohammad Mazhar](https://politicalprisonercoalition.org/prisoner/mohammad-mazhar) | Unchanged | Interdiction/material-witness chronology requires reconciliation with stored December prosecution; no unsupported span added. |
 | 49 | [Albert S. Nussbaum](https://politicalprisonercoalition.org/prisoner/albert-s-nussbaum) | Unchanged | WWI conscientious-objector roster lead; endpoints unresolved. |
@@ -145,7 +147,7 @@ Unchanged means no supported date addition in this pass; it does not mean the re
 | 66 | [Roy Dempsey](https://politicalprisonercoalition.org/prisoner/roy-dempsey) | Unchanged | WWI conscientious-objector sentence does not establish actual duration; endpoints unresolved. |
 | 67 | [Fred Bassett](https://politicalprisonercoalition.org/prisoner/fred-bassett) | Unchanged | Alias Fred Basset Blair needs individualized 1930 jail chronology; no new endpoint verified. |
 | 68 | [Julio H. Velázquez](https://politicalprisonercoalition.org/prisoner/julio-h-velazquez) | Unchanged | Atlanta transfer in June 1937 is not necessarily initial custody; release not established. |
-| 69 | [Jonathan Montanez](https://politicalprisonercoalition.org/prisoner/jonathan-montanez) | Update | Verified September 30, 2020 arrest and prehearing confinement; month-only release and unresolved bail continuity preserved. |
+| 69 | [Jonathan Montanez](https://politicalprisonercoalition.org/prisoner/jonathan-montanez) | Unchanged | September 30, 2020 arrest and initial detention verified; adding it to the existing release would generate a potentially misleading continuous counter. Held pending bail-history verification. |
 | 70 | [Joe White](https://politicalprisonercoalition.org/prisoner/joe-white) | Unchanged | WWI conscientious-objector roster lead; endpoints unresolved. |
 | 71 | [John Perlich](https://politicalprisonercoalition.org/prisoner/john-perlich) | Unchanged | 1930 Milwaukee arrest known; same-name judicial results excluded. Individual release unresolved. |
 | 72 | [Edo Mita](https://politicalprisonercoalition.org/prisoner/edo-mita) | Unchanged | Japanese-American deportation-case name search did not establish endpoints. |
@@ -162,7 +164,7 @@ Unchanged means no supported date addition in this pass; it does not mean the re
 | 83 | [Corey Long](https://politicalprisonercoalition.org/prisoner/corey-long) | Unchanged | Five-weekend jail arrangement is not continuous confinement; planned reporting is not proof of execution. |
 | 84 | [Nehanda Abiodun](https://politicalprisonercoalition.org/prisoner/nehanda-abiodun) | Unchanged | Exile/fugitive record; no US incarceration span established. |
 | 85 | [Corey Glass](https://politicalprisonercoalition.org/prisoner/corey-glass) | Unchanged | Canadian removal litigation is not an executed US military incarceration; no dates invented. |
-| 86 | [Emma Cutler](https://politicalprisonercoalition.org/prisoner/emma-cutler) | Unchanged | 1936 same-day custody already recorded; 1930 release unresolved. Separate contempt litigation not conflated. |
+| 86 | [Robert Hill](https://politicalprisonercoalition.org/prisoner/robert-hill) | Unchanged | Contemporary September 1967 and early 1968 rosters confirm Robert Hill at Milan, but neither establishes admission or release. No dates inferred from publication. |
 | 87 | [Paul Magno](https://politicalprisonercoalition.org/prisoner/paul-magno) | Unchanged | Initial detention and later prison sentence were interrupted by freedom; sentencing date not treated as remand without evidence. |
 | 88 | [Frank Goodall](https://politicalprisonercoalition.org/prisoner/frank-goodall) | Unchanged | 1936 seamen strike arrest month known; no release endpoint verified. |
 | 89 | [Bob Atchison](https://politicalprisonercoalition.org/prisoner/bob-atchison) | Unchanged | Four-day imposed sentence does not prove dates actually served or continuous custody from arrest. |

@@ -176,49 +176,6 @@
       "rationale": "National Registry of Exonerations, by Michael L. Radelet and Rob Warden, explicitly identifies March 13, 1974 arrest, custodial extradition and jail, and physical release after bond was raised on January 8, 1977. Refines existing January 1977 release precision. The earlier February police stops ended in release and are not counted in this continuous span."
     },
     {
-      "sample_number": 69,
-      "prisoner_id": "372950f2-3630-429d-b35e-2142fe0bda72",
-      "name": "Jonathan Montanez",
-      "slug": "jonathan-montanez",
-      "case_id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
-      "expected": {
-        "id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
-        "prisoner_id": "372950f2-3630-429d-b35e-2142fe0bda72",
-        "institution_id": "bb6c98db-f14f-487e-8cb0-ef89cb05289f",
-        "charges": "Civil disorder",
-        "arrest_date": null,
-        "indicted": null,
-        "convicted": "Yes",
-        "plead": null,
-        "sentenced_date": null,
-        "incarceration_date": null,
-        "release_date": "2022-06-01 00:00:00",
-        "death_in_custody_date": null,
-        "in_exile_since": null,
-        "end_of_exile": null,
-        "prosecutor": null,
-        "judge": null,
-        "sentence": "Sentenced to 24 months federal prison. Indicted by grand jury on one count of civil disorder for obstructing law enforcement/firefighters on May 30, 2020; during the May 30 Fargo, ND riots he jumped on a police squad car and possibly damaged it while inciting a crowd.",
-        "imprisoned_for_days": null,
-        "in_exile_for_days": null,
-        "created_at": "2026-07-22 01:32:18",
-        "updated_at": "2026-07-29 17:05:27",
-        "date_precision": "{\"release_date\":\"month\"}",
-        "imprisoned_for_months": null,
-        "documented_imprisoned_for_days": null,
-        "custody_periods": null
-      },
-      "updates": {
-        "arrest_date": "2020-09-30 00:00:00",
-        "incarceration_date": "2020-09-30 00:00:00",
-        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
-      },
-      "sources": [
-        "https://www.thedickinsonpress.com/news/moorhead-man-faces-federal-charge-stemming-from-may-riot-in-fargo"
-      ],
-      "rationale": "David Olson reporting on September 30, 2020 explicitly states FBI arrest that Wednesday and detention pending a Friday hearing. Adds the initial custody start; the existing June 2022 month-only release is preserved. No exact continuous-duration total is inferred; bail history and exact release remain unresolved."
-    },
-    {
       "sample_number": 73,
       "prisoner_id": "77ed4744-ebcc-4437-a678-775368f4fdc6",
       "name": "Kim Williams",
@@ -302,6 +259,48 @@
         "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf#page=20"
       ],
       "rationale": "March 1920 One Big Union Monthly page 20 expressly dates arrest and confinement at Camp Jackson to August 1918. Fill arrest at month precision, preserving the separately documented August 9 incarceration date. No release date inferred from sentence reduction."
+    },
+    {
+      "sample_number": 46,
+      "prisoner_id": "7497b912-59be-4ffa-99fa-82ea3c677bf0",
+      "name": "Clyde Allen",
+      "slug": "clyde-allen",
+      "case_id": "5ed8e4c9-c39e-411f-b6a6-5ca64adb8dbc",
+      "expected": {
+        "id": "5ed8e4c9-c39e-411f-b6a6-5ca64adb8dbc",
+        "prisoner_id": "7497b912-59be-4ffa-99fa-82ea3c677bf0",
+        "institution_id": null,
+        "charges": "Burglary in the second degree and rape in the first degree.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Conviction reversed and a new trial ordered by the Appellate Division on November 1, 1935.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William F. X. Geoghan, Kings County District Attorney.",
+        "judge": "Alonzo G. McLaughlin",
+        "sentence": "Thirty-five-year sentence reported before the conviction was reversed and a new trial ordered.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-04 00:08:27",
+        "updated_at": "2026-10-13 01:53:18",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1934-05-25 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n012-NY-jan-14-1936-DW-Q.pdf"
+      ],
+      "rationale": "Daily Worker January 14, 1936 explicitly dates the police shooting, arrest and subsequent detention to May 25, 1934. Fill the missing arrest date. Hospital custody and subsequent jail admission are distinguished; no prison admission or release date is invented."
     }
   ]
 }
