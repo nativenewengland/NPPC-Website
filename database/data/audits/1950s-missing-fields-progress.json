@@ -23520,8 +23520,27 @@
     "mary-jane-keeney": {
       "id": "b237a241-0f68-47e4-8f96-56460c0db0c1",
       "name": "Mary Jane Keeney",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "2a28ecfb-e681-46bf-a09a-42cc85ed5e54",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "keeney",
+              "note": "NationalGuardianApril18,1955 printedp7/PDF7 originalvisuallychecked explicitlyMarch1953DistrictCourtconvictionand250fine/oneyearsentence,suspended. March1953MONTHonly. March20exactsecondaryclaimnotprimaryconfirmed; noactualincarceration/releasedateaddedfor suspendedsentence; April4,1955acquittalnotphysicalrelease."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "2a28ecfb-e681-46bf-a09a-42cc85ed5e54"
       ],
@@ -23531,13 +23550,13 @@
       "missing_case_fields": {
         "2a28ecfb-e681-46bf-a09a-42cc85ed5e54": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "raissa-browder": {
       "id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
@@ -23708,8 +23727,47 @@
     "william-perl": {
       "id": "8492718a-c5c5-4b89-8c87-a33c3c226701",
       "name": "William Perl",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "f30d0aec-a833-4f53-b50f-7bfb63db9359",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "perl-custody",
+              "note": "ContemporaryNYTnews May22 dateline clipping datedMay23,1953 reproducedFBIWilliamPerlPart14 explicitlypostverdictbailrevoked andPerlremandedHouseofDetention; actualremandMay22 beforeJune5sentence. Full indexedoriginalclipping read; directdownload403, no visualinspectionclaimed. EarlierMarch14–19,1951pretrialdetention separatedbybailfreedom; notcombinedwith1957release ascontinuoussixyears."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "perl-release",
+              "note": "FBIApril25,1957 report recordsprobationofficerJackMaster February26,1957 account: releasedTerreHauteFebruary9, arrivedNYFebruary10. LaterFBIJune16,1969summary insteadsaysFebruary10release. BothagreeFebruary1957; unresolvedonedaydiscrepancy logged, MONTHonly added. No sentencearithmetic. Full indexedprimaryreportsread, directdownload403. CurrentbioJune5admission/Feb10release/Austrianbirth protected; bornNYC1918inFBI conflictsprose butDOBfieldalreadyfilled."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "perl-conflict",
+              "note": "FBIJune16,1969summary reportsFebruary10,1957release whilecontemporaneous1957reportdistinguishesFeb9releasefromFeb10arrival. LaterreportalsoincorrectlydatesRosenbergexecutionJune15vsJune19. Monthacceptedwithoutpretendingexactdayresolved."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "VerifiedMay22,1953remand andFeb1957MONTHreleasefilled. Primary1957Feb9releasevs1969Feb10conflict unresolvedday,currentbio/prosepreserved.1951detentionendsMarch19bail,notcontinuouswith1953–57custody. No verifiedportraitfound."
+        }
+      ],
       "case_ids": [
         "f30d0aec-a833-4f53-b50f-7bfb63db9359"
       ],
@@ -23718,32 +23776,73 @@
       ],
       "missing_case_fields": {
         "f30d0aec-a833-4f53-b50f-7bfb63db9359": [
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "VerifiedMay22,1953remand andFeb1957MONTHreleasefilled. Primary1957Feb9releasevs1969Feb10conflict unresolvedday,currentbio/prosepreserved.1951detentionendsMarch19bail,notcontinuouswith1953–57custody. No verifiedportraitfound. Publicpage/counter uses existingpopulated custody_periods June5,1953–Feb10,1957; preservedandconflictlogged,newscalarDBdatesnotdisplayed."
     },
     "sidney-weinbaum": {
       "id": "4b428c3e-4130-45c2-bc59-e480f12008ff",
       "name": "Sidney Weinbaum",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoners",
+          "id": "4b428c3e-4130-45c2-bc59-e480f12008ff",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "weinbaum-archive",
+              "note": "OregonStateUniversity SpecialCollections ownPaulingBlog article identifies SidneyWeinbaum, June1950 and links institutionalcatalogue original150x221 photograph. Original headshot downloaded, visuallychecked and attached unchanged, without enlarging smallsource. Matches Caltech scientist existingrecord, not anotherWeinbaum."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "9488189e-3158-4edf-a6b9-13ba0de33d2f",
+          "fields": [
+            "arrest_date",
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "weinbaum-arrest",
+              "note": "CongressionalRecordHouse August29,1950 printedp13726/PDF14 explicitlySidneyWeinbaum arrestedJune16,1950; original visuallychecked. Caltechownoralhistory1991 printedp33 reproducesJune16,1950 PasadenaStarNews headlineFBIcustody corroborates. Exactday derives explicitCongressreport, notpublicationdate alone."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "weinbaum-sentence",
+              "note": "Contemporary AP CapitalJournalSeptember13,1950 printedp18 LosAngelesSeptember13 dateline states FederalJudgeBenHarrison sentencedWeinbaumTuesday tofouryears. Tuesday precedingWednesdaySeptember13,1950 isSeptember12. Full indexedprimaryreport read; directsourceoriginalnotdownloaded. ExistingSeptember1950MONTHincarceration andSeptember1953MONTHrelease preserved; sentence notusedasphysicaladmission."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9488189e-3158-4edf-a6b9-13ba0de33d2f"
       ],
-      "missing_profile_fields": [
-        "photo"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "9488189e-3158-4edf-a6b9-13ba0de33d2f": [
-          "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "oscar-smilack": {
       "id": "7d76ef53-ffbb-4e51-bf71-74bfb99cdd30",
@@ -23798,27 +23897,68 @@
     "chris-mensalvas": {
       "id": "2c3ee168-8029-498f-874a-daa9c0e79058",
       "name": "Chris Mensalvas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "5f2b6857-03ab-44d7-9b8f-ec6f8839a0be",
+          "fields": [
+            "arrest_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "release_date"
+              ],
+              "source": "filipino",
+              "note": "ChrisFriday AmerasiaJournal20:2(1994) WithoutParallel printedp8 citesMensalvasownOctober29,1950 letterfromUWSpecialCollectionsLocal37Box27. Re-arrestStocktonOctober1950,heldStocktoncountyjailthenSanFranciscoINSbarracks,fivedays, releasedbeforewritingOctober29. MONTHOctober1950 forboth, notOctober29exactrelease and notsubtractingfivedays. Original article visuallychecked. Existing1950YEARincarceration/prose/photo/vitals preserved; renewed1950arrest distinct1949episode."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5f2b6857-03ab-44d7-9b8f-ec6f8839a0be"
       ],
       "missing_profile_fields": [],
       "missing_case_fields": {
         "5f2b6857-03ab-44d7-9b8f-ec6f8839a0be": [
-          "arrest_date",
           "sentenced_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "casimiro-bueno-absolor": {
       "id": "83cffb4f-698f-4e88-a47b-2c878237ba9d",
       "name": "Casimiro Bueno Absolor",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "94db113c-455e-4d39-91d1-6b7efcb5c88e",
+          "fields": [
+            "arrest_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "incarceration_date"
+              ],
+              "source": "filipino",
+              "note": "Friday archivalstudy printedp8 explicitlyAbsolorre-arrestOctober1950 underMcCarranAct; communitycommittee againpostedbail. Physicalcustody establishedwithinthisrenewedepisode; MONTHOctober1950 only. EarlierAugust1949arrest/jail p6 andownDispatcherSeptember16,1949p3 confirmidentity butnotjoinedacrossbailgapto1950caseendpoints. Noexactrelease orvitals independentlyestablished; generic1905–1972ArkansasSSDI notmatched."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "94db113c-455e-4d39-91d1-6b7efcb5c88e"
       ],
@@ -23829,14 +23969,13 @@
       ],
       "missing_case_fields": {
         "94db113c-455e-4d39-91d1-6b7efcb5c88e": [
-          "arrest_date",
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ponce-torres": {
       "id": "f13638e4-6892-4704-bc92-f206851d608d",
@@ -23958,31 +24097,96 @@
     "constancio-cargado": {
       "id": "e4858452-1e43-45a2-b2e9-5c2b3f2d0db6",
       "name": "Constancio Cargado",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoners",
+          "id": "e4858452-1e43-45a2-b2e9-5c2b3f2d0db6",
+          "fields": [
+            "death_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "death_date"
+              ],
+              "source": "filipino",
+              "note": "Friday archivalstudy printedp11 explicitlyCargadodiedheartattackPortlandspring1952. ImmigrationcaseclosedMay1952 isadministrativeclosure notdeathday/month; YEAR1952 only. Originalarticlevisuallychecked; no exactvitals/photo matched."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "c13f6942-53de-4bdb-b9a5-13a9aebf0f7d",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "cargado",
+              "note": "OwnILWUDispatcherJanuary19,1951 printedp5/PDF9 ThreePortlandLocal7CMembersArrested namesConstancioCargado,RamonTancioco,PeterCarbonay: arrestedtwoweeksago,heldCountyJailinlieu2000bail,atlibertyJanuary10. Visuallycheckedoriginal. January1951MONTHactualjailandrelease supported; January10isreportedatliberty,bailauthorizationJanuary9/releaseorderlateWednesday specificallyTancioco, nottreatedasexactCargadoreleaseday. Existingarrest1951YEARpreserved, no roughtwoweeksarithmetic exactdate."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "c13f6942-53de-4bdb-b9a5-13a9aebf0f7d"
       ],
       "missing_profile_fields": [
         "photo",
-        "birthdate",
-        "death_date"
+        "birthdate"
       ],
       "missing_case_fields": {
         "c13f6942-53de-4bdb-b9a5-13a9aebf0f7d": [
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "jose-raymundo": {
       "id": "9ed3df5d-2d84-40dd-bbde-5eb61b2f908f",
       "name": "Jose Raymundo",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "21f70949-f798-44ec-898d-58997b8f95ac",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "filipino",
+              "note": "Friday archivalstudy printedp9 RaymundopickedupFebruary–March1951,remainingmenbailedoutbyendMarch. ActualcustodyandreleaseYEAR1951; notclaimingMarchreleasewhenFebruarypossible. Existingarrest1951YEARpreserved. ILWUownMarch16,1951reportnamesJoseRaymundounderJusticeDepartmentfireandallfreeonbail; indexedoriginalcorroborates releasein1951, notexactindividualday."
+            },
+            {
+              "fields": [
+                "release_date"
+              ],
+              "source": "raymundo-bail",
+              "note": "OwnILWUDispatcherMarch16,1951 namesJoseRaymundo amongLocal7Cmembersallfreeonbail. Publicationdate isupperbound, notactualreleaseendpoint. YEAR1951 conservative."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "21f70949-f798-44ec-898d-58997b8f95ac"
       ],
@@ -23994,12 +24198,11 @@
       "missing_case_fields": {
         "21f70949-f798-44ec-898d-58997b8f95ac": [
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch484 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ramon-tancioco": {
       "id": "6e60b5b2-3690-4dcd-add4-b401b2273958",
@@ -24116,26 +24319,68 @@
     "jack-schneider": {
       "id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
       "name": "Jack Schneider",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoners",
+          "id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
+          "fields": [
+            "birthdate",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "photo"
+              ],
+              "source": "schneider",
+              "note": "International Fur and Leather Workers Union own1949 booklet ForJusticeInTheFurIndustry printedpp18–19/PDF11 identifies JackSchneider with wifeSonia and daughterMona. Central adult man isolated; original1650-pixel-wide scan rendered together, exact235x375 crop visually checked. Photographer uncredited. Same booklet explicitlybornBessarabia1897, immigrant1921, CuttersLocal101 manager; no age arithmetic. Current bio says no arrest established but booklet documentsNovember23,1948 immigrationarrest; existingbio/caseprose deliberately preserved under missing-fields-only scope."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "table": "prisoner_cases",
+          "id": "3254ffe0-e069-464f-955a-e253f40783cd",
+          "fields": [
+            "arrest_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "schneider",
+              "note": "Ownunion1949 booklet printedp19/PDF11 explicitlyNovember23,1948 again arrested byimmigrationauthorities fordeportation. Original visually checked. Earlier1932EllisIslanddetention and1938coercionprosecution distinct; no endpoints borrowed between episodes and no physicalincarceration asserted solelyfrom1948arrest. Later1950sdeportationcase identity crosschecked GuardianApril9,1952p6. Existingbio/caseprose noarrestestablished conflictsnewsource, loggedwithoutrewriting."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "Unionownbookletverifies1897birthyear,centralmanfamilyphoto,andNov23,1948immigrationarrest. Newsourcecontradictspublicnoarrestestablishedprose, loggedwithoutbioedit.1932detention/1938coerciondifferentepisodesnotmerged,1948arrestalone notincdate."
+        }
+      ],
       "case_ids": [
         "3254ffe0-e069-464f-955a-e253f40783cd"
       ],
       "missing_profile_fields": [
-        "photo",
-        "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "3254ffe0-e069-464f-955a-e253f40783cd": [
-          "arrest_date",
           "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Unionownbookletverifies1897birthyear,centralmanfamilyphoto,andNov23,1948immigrationarrest. Newsourcecontradictspublicnoarrestestablishedprose, loggedwithoutbioedit.1932detention/1938coerciondifferentepisodesnotmerged,1948arrestalone notincdate."
     },
     "peter-warhol": {
       "id": "15da5a77-b03f-43b7-91bc-627c457b71f1",
@@ -24212,8 +24457,14 @@
     "charles-doyle": {
       "id": "56b8c96a-8871-44a5-91e7-338f00bde235",
       "name": "Charles Doyle",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "FamilyfirsthandBuffaloStoriesSteveCichon(owngrandmotheruncle) publishescaptionedphotographs butoriginalimagefetchfailscertificatehostmismatch; no unusablephoto attached.1953deportationyearreportedwithoutphysicalexitdate.1953habeascourtApril28 confirmscurrentlyjailed,existing1952YEARincpreserved; no1952startdayinferredfrom1953opinion. Allpopulated1948custodyendpoints and1983YEARdeathprotected. NamesakeMassachusetts1887–1983SSDI notScottishBuffaloorganizer independentlymatched."
+        }
+      ],
       "case_ids": [
         "7db2fe56-10ea-45d3-8e01-e0d1551debf0",
         "6f9e00eb-a6f6-4511-876b-45b7aab0a4ea"
@@ -24235,13 +24486,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "FamilyfirsthandBuffaloStoriesSteveCichon(owngrandmotheruncle) publishescaptionedphotographs butoriginalimagefetchfailscertificatehostmismatch; no unusablephoto attached.1953deportationyearreportedwithoutphysicalexitdate.1953habeascourtApril28 confirmscurrentlyjailed,existing1952YEARincpreserved; no1952startdayinferredfrom1953opinion. Allpopulated1948custodyendpoints and1983YEARdeathprotected. NamesakeMassachusetts1887–1983SSDI notScottishBuffaloorganizer independentlymatched."
     },
     "john-mastrondea": {
       "id": "68248319-17db-4c34-8487-8670b6d8e241",
       "name": "John Mastrondea",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalGuardianApril9,1952p6 namesUAWmemberamongdeportationtargets. Furthername/union/immigration searches returnsamecontemporarylistwithoutactualcustody/vitals/portrait. Spellingmayneedarchivalidentityresearch; no unrelatedJohnunionist substituted."
+        }
+      ],
       "case_ids": [
         "c7eed07b-3cbf-44e5-aa73-beb75e0ce249"
       ],
@@ -24259,13 +24517,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalGuardianApril9,1952p6 namesUAWmemberamongdeportationtargets. Furthername/union/immigration searches returnsamecontemporarylistwithoutactualcustody/vitals/portrait. Spellingmayneedarchivalidentityresearch; no unrelatedJohnunionist substituted."
     },
     "joseph-lukas": {
       "id": "fc772d02-1ed4-4ea0-8eef-16c6479723d8",
       "name": "Joseph Lukas",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalGuardianApril9,1952p6 identifiesAFLPrintersmemberdeportationtarget; targetedsearchesnoindependentcustody/vitals/portrait. ModernFCPAdefendant/German1860spolitician/WWIImilitaryLukas unrelated,excluded."
+        }
+      ],
       "case_ids": [
         "1e4f598f-4fc1-4410-ad86-8e2fd3739a67"
       ],
@@ -24283,13 +24548,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalGuardianApril9,1952p6 identifiesAFLPrintersmemberdeportationtarget; targetedsearchesnoindependentcustody/vitals/portrait. ModernFCPAdefendant/German1860spolitician/WWIImilitaryLukas unrelated,excluded."
     },
     "william-weber": {
       "id": "8fc24dfe-3e32-4d33-b456-56d22e06c05f",
       "name": "William Weber",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalGuardianApril9,1952p6 identifiesAFLBakersUnionmembertargeted; no individualarrest/detentiondateestablished. Commonnameadvertisingexecutive/physicist/genealogynamesakesnotmatched. No unsupportedmissingfields filled."
+        }
+      ],
       "case_ids": [
         "5dc8fb62-fafe-4dd2-892e-f328eef5a13c"
       ],
@@ -24307,7 +24579,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalGuardianApril9,1952p6 identifiesAFLBakersUnionmembertargeted; no individualarrest/detentiondateestablished. Commonnameadvertisingexecutive/physicist/genealogynamesakesnotmatched. No unsupportedmissingfields filled."
     },
     "kathryn-hyndman": {
       "id": "86aa7361-c653-45f2-82a2-c9dd65613e6d",
@@ -24345,13 +24618,36 @@
     "esther-sazer": {
       "id": "b8643303-f3bd-4590-a6f4-2f9364de9e28",
       "name": "Esther Sazer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoners",
+          "id": "b8643303-f3bd-4590-a6f4-2f9364de9e28",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "foreign-born",
+              "note": "National Guardian April9,1952 printedp5 top row third individual photograph explicitly captioned by name. Sazer identified Russian-born LosAngeles IndependentOfficeWorkers member, Weber Yugoslav-born organizer of rubber/steel/coal/farm-equipment workers; same identities as existing records. Original page composite rendered at native horizontal raster width4240; exact crop visually checked. Photographer uncredited. Neither age nor years in US turned into DOB. Existing portraits of other people on page preserved."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "Captionidentifiedportraitadded. Original1952age50notexactDOB.1905/1899–1978SSDIleadsnotindependentlymatched; 1949conferenceaggregate112arrests notindividualSazercustody. Existingnoarrestestablishedbiopreserved."
+        }
+      ],
       "case_ids": [
         "08690ec2-61d4-47a6-b39a-57fb01dde357"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -24364,18 +24660,42 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Captionidentifiedportraitadded. Original1952age50notexactDOB.1905/1899–1978SSDIleadsnotindependentlymatched; 1949conferenceaggregate112arrests notindividualSazercustody. Existingnoarrestestablishedbiopreserved."
     },
     "joseph-weber": {
       "id": "96fc92b8-ee87-4fa0-b0cd-0b18ca95b145",
       "name": "Joseph Weber",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 484,
+          "table": "prisoners",
+          "id": "96fc92b8-ee87-4fa0-b0cd-0b18ca95b145",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "foreign-born",
+              "note": "National Guardian April9,1952 printedp5 top row second individual photograph explicitly captioned by name. Sazer identified Russian-born LosAngeles IndependentOfficeWorkers member, Weber Yugoslav-born organizer of rubber/steel/coal/farm-equipment workers; same identities as existing records. Original page composite rendered at native horizontal raster width4240; exact crop visually checked. Photographer uncredited. Neither age nor years in US turned into DOB. Existing portraits of other people on page preserved."
+            }
+          ]
+        },
+        {
+          "batch": 484,
+          "status": "reviewed, no unsupported additions",
+          "note": "CaptionidentifiedYugoslav-bornunionorganizerportraitadded.1952age46notexactDOB,physicistJosephWeber1919–2000unrelated. Deportationtargetingalone notcustodyproof; no unsupportedcaseendpoints."
+        }
+      ],
       "case_ids": [
         "26631a13-e434-4abf-9380-bd09e371db67"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -24388,7 +24708,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "CaptionidentifiedYugoslav-bornunionorganizerportraitadded.1952age46notexactDOB,physicistJosephWeber1919–2000unrelated. Deportationtargetingalone notcustodyproof; no unsupportedcaseendpoints."
     },
     "anna-ganley": {
       "id": "c7376e56-23d9-41ee-b26a-268ea3071e69",

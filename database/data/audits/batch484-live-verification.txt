@@ -1,0 +1,22 @@
+Batch484 live verification — October12,2026
+Data commit: b259c86c
+B484-ISOLATED-TEST-OK 626 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview13; applied13; replay0. B484-OK on all three runs.
+Compared 723 profiles and 853 cases: 30 expected fields (sixteen dates, four portraits, ten precision metadata), 50202 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+esther-sazer: HTTP200; portrait linked, HTTP200, exact SHA256
+joseph-weber: HTTP200; portrait linked, HTTP200, exact SHA256
+jack-schneider: HTTP200; birthdate=1897-01-01 (YEAR), visible; portrait linked, HTTP200, exact SHA256
+jack-schneider: HTTP200; arrest_date=1948-11-23 (DAY), visible
+sidney-weinbaum: HTTP200; portrait linked, HTTP200, exact SHA256
+sidney-weinbaum: HTTP200; arrest_date=1950-06-16 (DAY), visible; sentenced_date=1950-09-12 (DAY), visible
+william-perl: HTTP200; incarceration_date=1953-05-22 verified in DB; public dates continue to use preserved existing custody_periods; release_date=1957-02-01 verified in DB; public dates continue to use preserved existing custody_periods
+chris-mensalvas: HTTP200; arrest_date=1950-10-01 (MONTH), visible; release_date=1950-10-01 (MONTH), visible
+casimiro-bueno-absolor: HTTP200; arrest_date=1950-10-01 (MONTH), visible; incarceration_date=1950-10-01 (MONTH), visible
+constancio-cargado: HTTP200; death_date=1952-01-01 (YEAR), visible
+constancio-cargado: HTTP200; incarceration_date=1951-01-01 (MONTH), visible; release_date=1951-01-01 (MONTH), visible
+jose-raymundo: HTTP200; incarceration_date=1951-01-01 (YEAR), visible; release_date=1951-01-01 (YEAR), visible
+mary-jane-keeney: HTTP200; sentenced_date=1953-03-01 (MONTH), visible
+WilliamPerl public incarceration/release rows and counter use existing populated custody_periods. Newly filled scalar dates verified in DB; period chronology/display remains unchanged and its source conflicts are logged.
+Fourteen previously pending profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch484 audit.

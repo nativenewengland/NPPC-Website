@@ -27,3 +27,8 @@ Allpopulateddates/precision,bios,caseprose,durations,flags,institutions,periods,
 - **jack-schneider**: Unionownbookletverifies1897birthyear,centralmanfamilyphoto,andNov23,1948immigrationarrest. Newsourcecontradictspublicnoarrestestablishedprose, loggedwithoutbioedit.1932detention/1938coerciondifferentepisodesnotmerged,1948arrestalone notincdate.
 
 - **william-perl**: VerifiedMay22,1953remand andFeb1957MONTHreleasefilled. Primary1957Feb9releasevs1969Feb10conflict unresolvedday,currentbio/prosepreserved.1951detentionendsMarch19bail,notcontinuouswith1953–57custody. No verifiedportraitfound.
+
+
+## Live display limitation
+
+William Perl has populated custody_periods for March14–19,1951 and June5,1953–February10,1957. Public incarceration/release rows and counter use these periods instead of the newly filled scalar dates. Database fields verified; existingperiods preserved under missing-fields-onlyscope and their May22/June5 and February9/10 conflicts retained for separate correction.
