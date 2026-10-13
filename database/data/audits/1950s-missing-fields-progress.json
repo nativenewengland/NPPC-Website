@@ -25649,8 +25649,41 @@
     "marion-bachrach": {
       "id": "e4491b14-35e6-468c-a02c-642f6e26690d",
       "name": "Marion Bachrach",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "table": "prisoner_cases",
+          "id": "245cf216-a7e3-4b9a-bce8-c8f1026a3db9",
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date",
+                "release_date"
+              ],
+              "source": "bachrach",
+              "note": "ContemporaryGuardianJuly4,1951 printedp5/PDF5 explicitly11defendants jailedlastweek pendingbail, namesMarionBachrach andstatesbyFriday allreleasedonbail. LastweekJune1951, byFridayJune29isupperboundnotexactexitday. Actualdetention/releaseMONTHJune1951only. ExistingJune20arrestpreserved, no criminalsentence becausecase severedbeforetrial."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "bachrach-court",
+              "note": "June27,1951primaryappellatehabeascase namesMarionBachrach amongcustodyrelators, affirmsbailorder. Corroboratesdetention; appealdecisionnotphysicalrelease."
+            }
+          ]
+        },
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalJuly4,1951p5 actualdetentionandbailreleaseJune1951MONTHadded. June29Fridayby-dateupperboundnotexactrelease; June20arrestprotected. Nevertried/convictedso nosentenceinvented. Vitals/photoalreadyfilled,preserved."
+        }
+      ],
       "case_ids": [
         "245cf216-a7e3-4b9a-bce8-c8f1026a3db9"
       ],
@@ -25658,18 +25691,23 @@
       "missing_case_fields": {
         "245cf216-a7e3-4b9a-bce8-c8f1026a3db9": [
           "sentenced_date",
-          "incarceration_date",
-          "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalJuly4,1951p5 actualdetentionandbailreleaseJune1951MONTHadded. June29Fridayby-dateupperboundnotexactrelease; June20arrestprotected. Nevertried/convictedso nosentenceinvented. Vitals/photoalreadyfilled,preserved."
     },
     "katsuki-james-otsuka": {
       "id": "96c4d06c-8222-4ee2-92d9-e364a272d3d8",
       "name": "Katsuki James Otsuka",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "NWTRCCownhistoryread; imagesareHiroshimaruins, rallysignsandbutterfly, noOtsukaportrait. Populatedvitals/custodypreserved, Jan15vsJan16releasealreadyloggedconflict. UnrelatedmodernJapaneseartists/photos excluded. No exileassertion."
+        }
+      ],
       "case_ids": [
         "1ba5a970-99c0-40d9-b9da-f8b8a45402d3"
       ],
@@ -25681,13 +25719,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "NWTRCCownhistoryread; imagesareHiroshimaruins, rallysignsandbutterfly, noOtsukaportrait. Populatedvitals/custodypreserved, Jan15vsJan16releasealreadyloggedconflict. UnrelatedmodernJapaneseartists/photos excluded. No exileassertion."
     },
     "santiago-gonzalez-castro": {
       "id": "74ed8265-76fe-41ca-8e99-77a9959c47fb",
       "name": "Santiago González Castro",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalJan6,1955courtUnitedStatesvValle16FRD519 namesGonzalezCastrosecondmassprosecution, Oct29,1954indictmentandvenueissues; noindividualactualarrest/custodyendpointgiven. SupremeCourtMay21,1956certdenialnotrelease. Current1955YEARsentenceprotected.1937Ponceand1938Winshipshootingseparateepisodes; no borrowedeightyearterm. Guatemala1982disappearance/Mexican2010shootingnamesakes excluded. Vitals/portraitnotverified."
+        }
+      ],
       "case_ids": [
         "116a1214-028b-4496-8f4b-25a85d480a78",
         "672f0665-1fc1-4d05-b15b-0251493ba322"
@@ -25712,18 +25757,42 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalJan6,1955courtUnitedStatesvValle16FRD519 namesGonzalezCastrosecondmassprosecution, Oct29,1954indictmentandvenueissues; noindividualactualarrest/custodyendpointgiven. SupremeCourtMay21,1956certdenialnotrelease. Current1955YEARsentenceprotected.1937Ponceand1938Winshipshootingseparateepisodes; no borrowedeightyearterm. Guatemala1982disappearance/Mexican2010shootingnamesakes excluded. Vitals/portraitnotverified."
     },
     "festus-coleman": {
       "id": "08c706be-3c8c-4993-a636-565079170f90",
       "name": "Festus Coleman",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "table": "prisoners",
+          "id": "08c706be-3c8c-4993-a636-565079170f90",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "coleman-original",
+              "note": "ColemanDefenseCommittee own1942 pamphlet BecauseofRace,Creed,Color:TheCaseofFestusColeman originalinsidefrontwrapper explicitFestusColemanportraitcaption, reproducedoriginalspread byLawbookExchange item85146. Source2000x1734WEBP decodedexactrectangular352x580crop, no resize/generation/retouch; originalcaption/personandcrop visuallychecked. TextwifeDoris/childrenClaudetteRonald matchesSanFranciscocase. Age31attrial not exactDOB; children notusedasportrait."
+            }
+          ]
+        },
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "Original1942defensepamphletcaptionverifiedportraitadded. Age31attrialnotexactDOB; no deathrecordidentitymatched. FirstpagewifeDoris/childrenClaudetteRonaldlinksSanFranciscoprosecution; no originalsentencingdatefrom16pagessampledspread. Populated1941arrest/inc/1951MONTHreleaseprotected."
+        }
+      ],
       "case_ids": [
         "d31c8ed9-957d-4c94-8145-775e34fbb666"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
@@ -25733,7 +25802,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Original1942defensepamphletcaptionverifiedportraitadded. Age31attrialnotexactDOB; no deathrecordidentitymatched. FirstpagewifeDoris/childrenClaudetteRonaldlinksSanFranciscoprosecution; no originalsentencingdatefrom16pagessampledspread. Populated1941arrest/inc/1951MONTHreleaseprotected."
     },
     "joseph-p-kamp": {
       "id": "dbbc000f-da28-42d9-ba4c-1ef7d10f65c4",
@@ -26089,8 +26159,32 @@
     "george-marshall": {
       "id": "efda4d2d-0d76-49cb-9853-973200159a25",
       "name": "George Marshall",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "table": "prisoner_cases",
+          "id": "ccaf8704-510b-474e-98ff-11cf4a8b7a0e",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "marshall",
+              "note": "NYPLownGeorgeMarshallpapersfindingaidSeriesGeorgeMarshallContemptofCongressCase1945–1950 explicitlyApril1948districtcourttrial andsentence3months/500fine, unsuccessfulappeal, subsequent1950custody. YEAR1948conservative, exactsentencingday notlocatedandApriltrialnotassumedsentenceDAY. SameNFCLchairconservationist, notSecretaryofStateGeorgeCatlettMarshall. ExistingJune2/Sept2,1950custody preserved."
+            }
+          ]
+        },
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "NYPLownarchive verifies1948YEARsentenceadded. Exactsentence/arrestdayunlocated; June2/Sept2,1950populatedcustodydatespreserved. NotSecretaryofStateMarshall."
+        }
+      ],
       "case_ids": [
         "ccaf8704-510b-474e-98ff-11cf4a8b7a0e"
       ],
@@ -26098,17 +26192,48 @@
       "missing_case_fields": {
         "ccaf8704-510b-474e-98ff-11cf4a8b7a0e": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "NYPLownarchive verifies1948YEARsentenceadded. Exactsentence/arrestdayunlocated; June2/Sept2,1950populatedcustodydatespreserved. NotSecretaryofStateMarshall."
     },
     "henry-podolski": {
       "id": "612324f4-0409-447b-b549-d723264f6548",
       "name": "Henry Podolski",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "table": "prisoner_cases",
+          "id": "2642b759-ce35-48f3-bab9-3149ae2329ce",
+          "fields": [
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "podolski",
+              "note": "PrimaryPodolskivBaird94FSupp294November6,1950findings: originallyarrested/takenintocustody onAugust4,1949warrant, previouslyreleasedon5000bond, re-arrestOctober23,1950samewarrant. Originalwarrantdate alone notphysicalentryday; MONTHAugust1949only confirmedbyIWOownAugust16,1949newsreleasecondemningactualarrest. ExistingAug15arrest andall1950secondcase datesprotected; no combiningthroughbailgap."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "podolski-archive",
+              "note": "LoCinstitutional fullbookGeraldMeyer2017 notes89 identifiesoriginal IWOnewsreleaseAugust16,1949 IWOCondemnsDeportationArrestofHenryPodolski, archiveIWO-CUbox48; corroboratesactualAugust1949custody, notexactphysicalday. Primarycourtprovidessequence. ReleaseorderNovember6,1950 notborrowedfirstepisode."
+            }
+          ]
+        },
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "PrimarycourtreviewandIWOAugust16,1949newsrelease establishactualAugust1949MONTHcustodyfilled, notwarrantAug4asexactentry. Original1949bailreleasephysicaldayunresolved, 1950renewedcaseprotected. No verifiedvitals/portrait, deportationdaystillunresolved."
+        }
+      ],
       "case_ids": [
         "2642b759-ce35-48f3-bab9-3149ae2329ce",
         "ff09097e-df6d-48dd-b5ad-ad8f9084dc8a"
@@ -26121,7 +26246,6 @@
       "missing_case_fields": {
         "2642b759-ce35-48f3-bab9-3149ae2329ce": [
           "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -26131,13 +26255,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "PrimarycourtreviewandIWOAugust16,1949newsrelease establishactualAugust1949MONTHcustodyfilled, notwarrantAug4asexactentry. Original1949bailreleasephysicaldayunresolved, 1950renewedcaseprotected. No verifiedvitals/portrait, deportationdaystillunresolved."
     },
     "william-thomas-colyer": {
       "id": "b11ebc0e-4b4b-4fff-b11a-5538ca3296d1",
       "name": "William Thomas Colyer",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54810/209researchandCongress1920Colyercase identifiesJanuary1920arrest/DeerIslandcustody/April11,1922deportation, allpopulatedcase/vitalsprotected. Noportraitinsource; modernunrelatedColyerimages excluded. Administrativeproceedingnosupportedcriminalsentence. Exilethrough1950sexplainsinclusion."
+        }
+      ],
       "case_ids": [
         "2331f73c-cc66-43d0-9af3-e376a3ff7c4c"
       ],
@@ -26148,13 +26279,20 @@
         "2331f73c-cc66-43d0-9af3-e376a3ff7c4c": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54810/209researchandCongress1920Colyercase identifiesJanuary1920arrest/DeerIslandcustody/April11,1922deportation, allpopulatedcase/vitalsprotected. Noportraitinsource; modernunrelatedColyerimages excluded. Administrativeproceedingnosupportedcriminalsentence. Exilethrough1950sexplainsinclusion."
     },
     "virgilio-foli": {
       "id": "617b6943-f635-4061-8aaa-db7aec8e263a",
       "name": "Virgilio Foli",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54885/19/CPC2101researchoriginalbiographyread, Dec1920arrest/March16,1921deportation,Italy1969deathalreadyfilled. Sourcehasnopersonphoto,noexactphysicaladmissionorcriminalsentencingdate. Arrest/deportationalone notinventedcontinuousinterval."
+        }
+      ],
       "case_ids": [
         "dbc1f8dc-9ff0-4530-930c-e348c123fa14"
       ],
@@ -26166,13 +26304,20 @@
           "sentenced_date",
           "incarceration_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54885/19/CPC2101researchoriginalbiographyread, Dec1920arrest/March16,1921deportation,Italy1969deathalreadyfilled. Sourcehasnopersonphoto,noexactphysicaladmissionorcriminalsentencingdate. Arrest/deportationalone notinventedcontinuousinterval."
     },
     "josep-grau-i-jassans": {
       "id": "51af33eb-8ba9-4e54-8f00-94afbc2a9d61",
       "name": "Josep Grau i Jassans",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "MemoriaEsquerraowninstitutionalbiographyandZimmerINS5461/211researchmatchCNT/IWWdeporteeERCpolitician. Portraitandvitals/custody/exilealreadyfilled, preserve. No criminalsentencedateinadministrativedeportation. Do notassignanotherGrauGarriga/Serisimage."
+        }
+      ],
       "case_ids": [
         "decdd7cd-9018-428e-b1dd-128ea3100d0c"
       ],
@@ -26181,13 +26326,20 @@
         "decdd7cd-9018-428e-b1dd-128ea3100d0c": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "MemoriaEsquerraowninstitutionalbiographyandZimmerINS5461/211researchmatchCNT/IWWdeporteeERCpolitician. Portraitandvitals/custody/exilealreadyfilled, preserve. No criminalsentencedateinadministrativedeportation. Do notassignanotherGrauGarriga/Serisimage."
     },
     "thomas-graves": {
       "id": "111dd310-5bee-4bc6-82c0-d5655baf1fcb",
       "name": "Thomas Graves",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54616/87originalresearchread: May1918vagrancy, later1918GlobeEspionageAct, April1919renewedarrest separateepisodes; deportedJune21,1919. CurrentcontinuousMay1918–June1919 intervalmayjoinarrests/bailgaps, loggednotchangedmissingonlyscope. Noportraitorcriminalsentenceverified. Exileend1966yearalreadyfilled."
+        }
+      ],
       "case_ids": [
         "8c43a787-f6ba-47bc-a765-b27931435576"
       ],
@@ -26198,13 +26350,20 @@
         "8c43a787-f6ba-47bc-a765-b27931435576": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54616/87originalresearchread: May1918vagrancy, later1918GlobeEspionageAct, April1919renewedarrest separateepisodes; deportedJune21,1919. CurrentcontinuousMay1918–June1919 intervalmayjoinarrests/bailgaps, loggednotchangedmissingonlyscope. Noportraitorcriminalsentenceverified. Exileend1966yearalreadyfilled."
     },
     "janos-grunzweig": {
       "id": "06221b9f-d84d-4e4a-bade-3a85b9fdbaa3",
       "name": "Janos Grunzweig",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54811/755/FBIresearchoriginalbiography: Jan1920arrest/May8deportation, separateMay1921re-arrest/March1922bail. Do notattach1922releaseas1920endpoint. Captionidentifiedlate1920sphoto linkedpublicAncestryoriginal403unavailable, so no brokenassetattached. Current1900/1984vitalsprotected; no unverifiedexactdates."
+        }
+      ],
       "case_ids": [
         "942cdd7a-ec05-4fb6-85d7-ba11e09ee6df"
       ],
@@ -26217,13 +26376,20 @@
           "incarceration_date",
           "release_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54811/755/FBIresearchoriginalbiography: Jan1920arrest/May8deportation, separateMay1921re-arrest/March1922bail. Do notattach1922releaseas1920endpoint. Captionidentifiedlate1920sphoto linkedpublicAncestryoriginal403unavailable, so no brokenassetattached. Current1900/1984vitalsprotected; no unverifiedexactdates."
     },
     "alexander-krishtal": {
       "id": "2956bd48-9f5a-4b85-b403-e116628e5bfd",
       "name": "Alexander Krishtal",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownresearchcitesFreeSocietyOctNov1921ownopenletterLenin; February26,1921deportation/Libauentryrefused andlaterUSreturn alreadyrecorded. NoindividualactualUSarrestdatetime/prisonadmission,sentenceorcaptionedportrait. Modernteachers/physicistsnotmatched; noforeigncustodyborrowed."
+        }
+      ],
       "case_ids": [
         "ee07d27a-4afb-41cd-927b-ed462baf218a"
       ],
@@ -26236,13 +26402,20 @@
           "sentenced_date",
           "incarceration_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownresearchcitesFreeSocietyOctNov1921ownopenletterLenin; February26,1921deportation/Libauentryrefused andlaterUSreturn alreadyrecorded. NoindividualactualUSarrestdatetime/prisonadmission,sentenceorcaptionedportrait. Modernteachers/physicistsnotmatched; noforeigncustodyborrowed."
     },
     "francisco-lopez-garcia": {
       "id": "a11fda6d-b9d5-4599-baf5-ca7d1491c92f",
       "name": "Francisco López García",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54379/511researchandBostonPublicLibrarycaptioned1923image alreadyattached/vitalsfilled. February1918arrest/Novemberdeportationorder,bondfreedom,May25,1925deportation; notcontinuous1918–1925jail. No missingexactincorcriminalsentenceverified. Existingexilethrough1967mayconflictearlierUSreturn1925/NY1953marriage, preserve/log."
+        }
+      ],
       "case_ids": [
         "58c66c80-b0a0-4259-806d-356fe9a296bb"
       ],
@@ -26252,7 +26425,8 @@
           "sentenced_date",
           "incarceration_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54379/511researchandBostonPublicLibrarycaptioned1923image alreadyattached/vitalsfilled. February1918arrest/Novemberdeportationorder,bondfreedom,May25,1925deportation; notcontinuous1918–1925jail. No missingexactincorcriminalsentenceverified. Existingexilethrough1967mayconflictearlierUSreturn1925/NY1953marriage, preserve/log."
     },
     "nils-madsen": {
       "id": "d1ab03f4-a16c-4a8c-a347-765bfd399468",
@@ -26303,8 +26477,14 @@
     "vito-mariani": {
       "id": "4b0329b1-85b8-4a9d-a213-90835d0c793c",
       "name": "Vito Mariani",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 486,
+          "status": "reviewed, no unsupported additions",
+          "note": "ZimmerownINS54861/318/FBI/CPC3061researchandtwocaptionedphotosread; currentphotoalreadyfilled,preserved.1914arrestheldthenreleased,Feb1920separatearrest/June29deportation. Current1914–1920continuousintervalconflictsinterimrelease, loggedwithoutoverwriting. Italy1921two-yearsentenceforeigncase notUSdeportationsentencingdate."
+        }
+      ],
       "case_ids": [
         "39e2b98a-58dd-45bb-b65c-92bd62f69aaf"
       ],
@@ -26313,7 +26493,8 @@
         "39e2b98a-58dd-45bb-b65c-92bd62f69aaf": [
           "sentenced_date"
         ]
-      }
+      },
+      "open_research_note": "ZimmerownINS54861/318/FBI/CPC3061researchandtwocaptionedphotosread; currentphotoalreadyfilled,preserved.1914arrestheldthenreleased,Feb1920separatearrest/June29deportation. Current1914–1920continuousintervalconflictsinterimrelease, loggedwithoutoverwriting. Italy1921two-yearsentenceforeigncase notUSdeportationsentencingdate."
     },
     "thomas-rimmer": {
       "id": "c959853a-6432-4516-ad03-fd8b62ded1ab",
