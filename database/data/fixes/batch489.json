@@ -1,0 +1,188 @@
+{
+  "batch": 489,
+  "audit_date": "2026-10-12",
+  "expected_count": 6,
+  "sources": {
+    "album489": "https://www.flickr.com/photos/washington_area_spark/albums/72157678581074188/",
+    "carmen-photo489": "https://www.flickr.com/photos/washington_area_spark/46339321454",
+    "first-arrests489": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/afc5f24e-d90c-4def-be0b-2af5a36ee504/content",
+    "second-arrests489": "https://www.spauda2.org/laisve/archive/1954/1954-11-03-LAISVE.pdf",
+    "eichel-archive489": "https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.131",
+    "eichel-release489": "https://thesparrowsnest.org.uk/collections/public_archive/17184.pdf",
+    "eichel-obit489": "https://www.dignitymemorial.com/obituaries/name/seymour/eichel",
+    "lebron-court489": "https://casefoundry.law/court/ca2/607878/united-states-v-lebron-1955.html",
+    "valle-court489": "https://hallapproved.com/ny/cases/federal/district/1955/9046537/",
+    "medina-photo489": "https://www.flickr.com/photos/washington_area_spark/32122810587",
+    "carmen-original489": "https://live.staticflickr.com/7835/46339321454_dfcf31fb28_o.jpg",
+    "may-arrests489": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1954-05-26.pdf",
+    "james-thesis489": "https://repository.nottingham.ac.uk/39967/1/Civil%20Liberties%20Under%20Siege.%20The%20U.S.%20Federal%20Government%20and%20the%20anti-Stalinist%20Left,%201941-1958..pdf",
+    "medina-original489": "https://live.staticflickr.com/7804/32122810587_8c46e0b1c2_o.jpg",
+    "may-original489": "https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/13689/The_Big_Spring_Daily_Herald__1954-05-26.pdf?isAllowed=y&sequence=3",
+    "eichel-obituary-full489": "https://www.dignitymemorial.com/obituaries/brooklyn-ny/seymour-eichel-5699665",
+    "james-study489": "https://researchmap.jp/ytkysd/published_papers/32242626/attachment_file.pdf",
+    "valle-fbi489": "https://www.archives.gov/files/research/jfk/releases/docid-32311859.pdf",
+    "may-doj489": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0213.pdf",
+    "chicago-arrests489": "https://www.spauda.org/naujienos/archive/1954/1954-05-27-NAUJIENOS.pdf",
+    "ny-arrests489": "https://www.spauda2.org/laisve/archive/1954/1954-05-27-LAISVE.pdf",
+    "james-unesco489": "https://media.unesco.org/sites/default/files/webform/mow001/trinidad_and_tobago_clr_james_collection.pdf",
+    "james-pease489": "https://www.jstor.org/stable/j.ctt184qq95.6",
+    "james-anbinder489": "https://erenow.org/common/american-passage-the-history-of-ellis-island/18.php",
+    "james-conflict489": "https://marxistsarchive.mirrors.informatics.coop/history/etol/newspape/atc/9111.html",
+    "valle-history489": "https://claridadpuertorico.com/juan-hernandez-valle-tres-veces-perseguido/"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "3a791e55-4159-46ad-99e0-a442b4ea021e",
+      "prisoner_id": "3a791e55-4159-46ad-99e0-a442b4ea021e",
+      "name": "Juan Francisco Ortiz Medina",
+      "slug": "juan-francisco-ortiz-medina",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/juan-francisco-ortiz-medina-star-batch489.jpg"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "medina-photo489",
+          "note": "Explicit named original archival portrait; full identity independently linked by original DOJ indictment and appellate record. Entire original JPEG retained."
+        }
+      ],
+      "asset": {
+        "file": "juan-francisco-ortiz-medina-star-batch489.jpg",
+        "sha256": "567f40c2322791e7042c2a3984ef4395ae0e73bc651ed73ba4c86b3e4c060fa2"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "1dd9b1e7-1a86-4d50-b0da-6ebecc17a486",
+      "prisoner_id": "1dd9b1e7-1a86-4d50-b0da-6ebecc17a486",
+      "name": "Carmen Dolores Otero de Torresola",
+      "slug": "carmen-dolores-otero-de-torresola",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/carmen-dolores-otero-torresola-star-batch489.jpg"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "carmen-photo489",
+          "note": "Named caption and widow identity match existing profile. Entire original JPEG retained."
+        }
+      ],
+      "asset": {
+        "file": "carmen-dolores-otero-torresola-star-batch489.jpg",
+        "sha256": "1429335ec352d799f35282d28de2ebd08df2988e1317f915919ecdcda0921f82"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "cb38da19-a78b-44b8-ad57-5b8b38c7a703",
+      "prisoner_id": "22cce138-d1c2-4e2d-9665-6048fddd2445",
+      "name": "Carmelo Alvarez Roman",
+      "slug": "carmelo-alvarez-roman",
+      "expected": {
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-05-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"arrest_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "may-arrests489",
+          "note": "Original Manchester Evening Herald May 26, 1954, printed page 8 continuation FBI Arrests 11, indexed original text identifies named Brooklyn resident actually seized/taken into custody at home in this roundup. Original PDF download returned403; indexed source text inspected, no claim of direct visual inspection. Contemporary Big Spring Daily Herald May26 physical roundup report and Naujienos May27 independently establish actual May1954 roundup, separate from May25 indictment. Conservative MONTH May1954; no claimed exact arrest day or continuous prison admission. Julio Pinto Gandia and Juan Francisco Ortiz Medina were already at Danbury on separate contempt cases, so their detainers are not assigned these arrest dates."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5464c686-aebd-4e57-879c-55e115d511f8",
+      "prisoner_id": "6773de4e-539c-4956-8e22-385be6eee805",
+      "name": "Jose Antonio Otero Otero",
+      "slug": "jose-antonio-otero-otero",
+      "expected": {
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-05-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"arrest_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "may-arrests489",
+          "note": "Original Manchester Evening Herald May 26, 1954, printed page 8 continuation FBI Arrests 11, indexed original text identifies named Brooklyn resident actually seized/taken into custody at home in this roundup. Original PDF download returned403; indexed source text inspected, no claim of direct visual inspection. Contemporary Big Spring Daily Herald May26 physical roundup report and Naujienos May27 independently establish actual May1954 roundup, separate from May25 indictment. Conservative MONTH May1954; no claimed exact arrest day or continuous prison admission. Julio Pinto Gandia and Juan Francisco Ortiz Medina were already at Danbury on separate contempt cases, so their detainers are not assigned these arrest dates."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3a5f5302-12c8-4b97-b0db-ef008a57069b",
+      "prisoner_id": "1dd9b1e7-1a86-4d50-b0da-6ebecc17a486",
+      "name": "Carmen Dolores Otero de Torresola",
+      "slug": "carmen-dolores-otero-de-torresola",
+      "expected": {
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "arrest_date": null
+      },
+      "update": {
+        "arrest_date": "1954-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"arrest_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "second-arrests489",
+          "note": "Original Laisve November3,1954 printedpage4 Areštavo dar12portorikiečių explicitly names Carmen Dolores Otero Torresola among12 newly arrested following first13 convictions. Original PDF downloaded and page visually inspected. YEAR1954 only; October29 indictment in16FRD519 is not treated as actual arrest day. Her separate1950 arrest is not assigned to this1955-origin proceeding. No prison-admission or release endpoint inferred."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "1297ec12-171c-46cf-9041-8219c77ff226",
+      "prisoner_id": "c2a3a4ed-91d2-4d18-8174-bfe59e906c82",
+      "name": "Seymour Eichel",
+      "slug": "seymour-eichel",
+      "expected": {
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"month\"}",
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "incarceration_date": "1956-01-01 00:00:00",
+        "release_date": "1957-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "eichel-archive489",
+          "note": "Swarthmore College Peace Collection Eichel Family Papers DG131, family-donated primary archive finding aid: prison sentence December27,1956; actual West Street detention and Danbury confinement, actual release after nine months/eighteen days; dated prison letters December29,1956 into1957 and October29,1957 WRL reception. Conservative YEAR1956 admission and YEAR1957 release only. No exact endpoint computed from sentence length, no assumption December27 sentencing equals admission or October29 reception equals release. Existing arrest, sentencing, vital dates, institutions and prose preserved."
+        }
+      ]
+    }
+  ]
+}
