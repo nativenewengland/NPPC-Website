@@ -49,7 +49,7 @@ $dry = getenv("NPPC_BATCH_DRY_RUN") === "1";
 $normalize = fn ($v) => trim(preg_replace("/[^a-z0-9]+/", " ", strtolower(Str::ascii((string) $v))));
 $names = array_map($normalize, $entry["match_names"]);
 if (! in_array($normalize($entry["prisoner"]["name"]), $names, true)) { throw new \RuntimeException("Invalid identity aliases."); }
-Validator::make($entry, ["prisoner.id"=>"required|uuid", "prisoner.name"=>"required|string|max:255", "prisoner.description"=>"required|string", "prisoner.website"=>"required|url", "prisoner.in_custody"=>"required|boolean|accepted", "prisoner.awaiting_trial"=>"required|boolean|accepted", "case.id"=>"required|uuid", "case.charges"=>"required|string|max:255", "case.arrest_date"=>"required|date_format:Y-m-d H:i:s|before_or_equal:now", "case.incarceration_date"=>"required|date_format:Y-m-d H:i:s|before_or_equal:now"])->validate();
+Validator::make($entry, ["prisoner.name"=>"required|string|max:255", "prisoner.description"=>"required|string", "prisoner.website"=>"required|url", "prisoner.in_custody"=>"required|boolean|accepted", "prisoner.awaiting_trial"=>"required|boolean|accepted", "case.charges"=>"required|string|max:255", "case.arrest_date"=>"required|date_format:Y-m-d H:i:s|before_or_equal:now", "case.incarceration_date"=>"required|date_format:Y-m-d H:i:s|before_or_equal:now"])->validate();
 if ($entry["case"]["arrest_date"] !== "2026-08-18 00:00:00" || $entry["case"]["incarceration_date"] !== "2026-08-18 00:00:00" || $entry["case"]["institution_id"] !== null || $entry["case"]["release_date"] !== null || $entry["case"]["convicted"] !== null || $entry["prisoner"]["birthdate"] !== null) { throw new \RuntimeException("Unexpected unsupported case or biography detail."); }
 $result = DB::transaction(function () use ($entry, $names, $normalize, $dry) {
     $matches = Prisoner::withoutGlobalScopes()->lockForUpdate()->get(["id","name","first_name","middle_name","last_name","aka","slug"])->filter(function ($r) use ($names,$normalize) {
@@ -60,7 +60,6 @@ $result = DB::transaction(function () use ($entry, $names, $normalize, $dry) {
     });
     if ($matches->count() > 1) { throw new \RuntimeException("Ambiguous existing identity; no writes."); }
     if ($matches->isNotEmpty()) { echo "Preserved existing: ",$matches->first()->name,"\n"; return ["added"=>0,"id"=>$matches->first()->id]; }
-    if (DB::table("prisoners")->where("id",$entry["prisoner"]["id"])->exists() || DB::table("prisoner_cases")->where("id",$entry["case"]["id"])->exists()) { throw new \RuntimeException("UUID collision."); }
     if ($dry) { echo "Would add: ",$entry["prisoner"]["name"]," with one ongoing military case\n"; return ["added"=>1,"id"=>null]; }
     $profileProof = [];
     foreach (DB::table("prisoners")->orderBy("id")->cursor() as $row) {
@@ -72,7 +71,7 @@ $result = DB::transaction(function () use ($entry, $names, $normalize, $dry) {
         foreach (DB::table($table)->where("id","!=",$excludeId)->orderBy("id")->cursor() as $row) { hash_update($ctx,json_encode($row)."\n"); }
         return hash_final($ctx);
     };
-    $caseProof = $digest("prisoner_cases",$entry["case"]["id"]);
+    $caseProof = $digest("prisoner_cases","");
     $dashboardProof = $digest("dashboard_links","");
     $record = Prisoner::create($entry["prisoner"]);
     $caseData = $entry["case"];
