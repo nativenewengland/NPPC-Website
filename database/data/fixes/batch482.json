@@ -1,0 +1,469 @@
+{
+  "batch": 482,
+  "audit_date": "2026-10-12",
+  "expected_count": 15,
+  "sources": {
+    "gibson": "https://www.themilitant.com/1960/2433/MIL2433.pdf",
+    "davis": "https://digicoll.lib.berkeley.edu/record/222194/files/meik-03_1.pdf",
+    "davis-court": "https://law.justia.com/cases/federal/appellate-courts/F2/269/357/316451/",
+    "turoff": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0802.pdf",
+    "turoff-contemporary": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-12-28-12-11-nat-guardian.pdf",
+    "young-wyland": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50200.pdf",
+    "omaha-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-20-11-40-nat-guardian.pdf",
+    "omaha-prison": "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50202.pdf",
+    "lazar": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-27-11-41-nat-guardian.pdf",
+    "lincoln-photo": "https://d1vmz9r13e2j4x.cloudfront.net/nebstudies/Lesson3_CreationofSAC.pdf",
+    "harvey": "https://www.warresisters.org/arthur-harvey-june-8-1932-january-17-2026/",
+    "harvey-photo": "https://www.warresisters.org/wp-content/uploads/2026/05/Harvey-Gravalos-1996.jpg",
+    "harvey-cw": "https://merton.bellarmine.edu/files/original/54645213bdc72e104b0c8d7535f4bccdcd031703.pdf",
+    "drill-sentence": "https://www.marxists.org/history/usa/pubs/national-guardian/1959-05-04-11-29-nat-guardian.pdf",
+    "young-firsthand": "https://inwardlight.org/witness/peace/visible-witness/",
+    "lohman": "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0614.pdf",
+    "lohman-court": "https://law.counselstack.com/opinion/walter-c-lohman-jr-v-united-states-ca6-1959",
+    "mine-mill": "https://archive.ilwu.org/wp-content/uploads/2015/03/19591120.pdf",
+    "mine-mill-appeal": "https://openjurist.org/302/f2d/5"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+      "prisoner_id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+      "name": "Donald Fortenberry",
+      "slug": "donald-fortenberry",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/donald-fortenberry-nebraska-studies-batch482.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "lincoln-photo",
+          "note": "Original explicit ordered caption identifies rightmost DonFortenberry; exact retained-pixel crop, source and crop inspected. No unrelated Fortenberry grave/vital entries imported."
+        }
+      ],
+      "asset": {
+        "file": "donald-fortenberry-nebraska-studies-batch482.png",
+        "sha256": "8e6cc23934372af7fc3145515fed78204e4c6657a19cbbe336e50151b8753719"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "03830610-dc00-4058-88a6-27aa907e9fa5",
+      "prisoner_id": "03830610-dc00-4058-88a6-27aa907e9fa5",
+      "name": "Ed Lazar",
+      "slug": "ed-lazar",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/ed-lazar-nebraska-studies-batch482.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "lincoln-photo",
+          "note": "Original explicit ordered caption identifies second-from-left EdLazar, behindJohnWhite; exact retained-pixel crop, original/caption/crop inspected. Existing1935YEAR birth preserved; no birthday arithmetic."
+        }
+      ],
+      "asset": {
+        "file": "ed-lazar-nebraska-studies-batch482.png",
+        "sha256": "b92cd46eb2817161e585b6495d891762a8e27a41170be72bb2e47fc4444177be"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+      "prisoner_id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+      "name": "Arthur Harvey",
+      "slug": "arthur-harvey",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1932-06-08 00:00:00",
+        "death_date": "2026-01-17 00:00:00",
+        "photo": "prisoners/arthur-harvey-carl-walsh-batch482.png",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "source": "harvey",
+          "note": "WarResistersLeague May6,2026 obituary byEdHedemann adapted from initialdraft bywifeElizabeth anddaughterEmily explicitlyDOBJune8,1932 RidgewoodNJ andDODJanuary17,2026 athome; sameApril17,1959drillarrest andMead1959Sandstoneimprisonment identity. Originalfamilyphoto caption identifies rightmostArthur, CarlWalsh1996. Existing1930BuffaloArthurS.Harveycase is impossible for1932-bornpacifist, likelynameconflation; flagged for separateidentitycorrection, not deleted/rewritten under missing-onlyscope."
+        }
+      ],
+      "asset": {
+        "file": "arthur-harvey-carl-walsh-batch482.png",
+        "sha256": "013bf6a841df391cea512d5e22d2aa1ca4825465cd64225cdc5de8bfb448c713"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "8cc0a467-b26d-4f95-b26c-8030ae35e298",
+      "prisoner_id": "80aa1eb0-7ff6-4c7b-8f39-537079b705e4",
+      "name": "Theodore Gibson",
+      "slug": "theodore-gibson",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1960-08-30 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "gibson",
+          "note": "OriginalMilitantSeptember19,1960 printedp1, visuallyread: August30 sixmonths/$1200 contempt sentence forReverendsEdwardTGraham andTheodoreGibson inTallahassee. Judge refusedbond but grudginglycontinuedlibertypendingappeal, so noactualprisonarrival/release inferred.1959hearings beganproceeding, notsentencingyear. Existingfullvitals/photo preserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "5ba9d48c-e209-43e7-a9a8-caf73e9faf77",
+      "prisoner_id": "92ad6631-dde2-49ce-940f-84dc6d14f964",
+      "name": "Chandler Davis",
+      "slug": "chandler-davis",
+      "expected": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1957-07-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "davis",
+          "note": "ContemporaryCivilLibertiesDocket volIII no1 printedp9 item271.5 WD Michigan: Jy[July1957] defendantconvicted,six-monthsentence,toappeal. Originalindexed primarydocket entry read through web; directdownload403, no claimedvisualinspection. MONTHonly,no assumedindividualday.269F2d357 confirms sameFirstAmendmentcase/sentence. Existing1960admissionDAY andJune1960releaseMONTH preserved despite proseaboutsixmonths/summer; no refinement or arithmetic."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "davis-court",
+          "note": "Primary269F2d357 appeal confirms six-monthcontemptsentence andsameHoraceChandlerDavis; affirmanceAugust1959 not storedassentence."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "abcd9cd6-fb31-4175-972b-012a016fa6f7",
+      "prisoner_id": "e91dd1ce-2b4c-4bda-b604-b3f894c453e5",
+      "name": "Sidney Turoff",
+      "slug": "sidney-turoff",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-12-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "turoff",
+          "note": "DOJownJanuary15,1960 USAttorneysBulletin printedp39/PDF24 visuallyread: December15,1959juryverdict, followedJudgeBurke sixtydayconcurrentterms/$100eachcount. December28,1959Guardiancontemporaryreportalsoalreadyreportsentence; thereforeMONTHDecember1959, not assumptionjuryandsentenceoccurredsameDAY. No actualcustody from sentence, indictmentJune23notarrest, 1961reversalnotrelease. Generic1921–1989Brooklyn/StocktonSidneyTuroffgenealogy not independentlylinked toBuffalowitness, no guessedvitals/photo."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "turoff-contemporary",
+          "note": "December28contemporary reporting confirms sentence alreadyimposed inDecember; exactsentencingday unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "d3cbccc4-af4d-4899-aa5c-41873e9a71e5",
+      "prisoner_id": "b51695c4-d577-4518-b146-816a96982157",
+      "name": "Wilmer Young",
+      "slug": "wilmer-young",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "young-wyland",
+          "note": "MildredB.Young firsthandFriendsJournalJuly25,1959 printedp428/PDF8 originalvisuallyread: WilmerYoung andDaveWyland enterandarearrestedJuly6; allfirstfive sentencedJuly7,sixmonths/$500suspended withprobation. Matchesexistingcourt/releaseJuly7prose. GuardianJuly20fivegroupJuly9 wordingconflicts; firsthandnamedJuly7account retained andconflictlogged. No suspendedsixmonthterm countedascustody. Existingarrest/admission/release endpoints/vitals preserved. Daveage23notusedasexactbirthyear; noidentifiedDavephoto; Wilmerexisting1887YEAR/1983SepMONTH unchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "9b696a99-cf35-499d-a40a-23fd7dea4097",
+      "prisoner_id": "c615656f-1df6-464f-8c28-4cfbf9d0c655",
+      "name": "Dave Wyland",
+      "slug": "dave-wyland",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "young-wyland",
+          "note": "MildredB.Young firsthandFriendsJournalJuly25,1959 printedp428/PDF8 originalvisuallyread: WilmerYoung andDaveWyland enterandarearrestedJuly6; allfirstfive sentencedJuly7,sixmonths/$500suspended withprobation. Matchesexistingcourt/releaseJuly7prose. GuardianJuly20fivegroupJuly9 wordingconflicts; firsthandnamedJuly7account retained andconflictlogged. No suspendedsixmonthterm countedascustody. Existingarrest/admission/release endpoints/vitals preserved. Daveage23notusedasexactbirthyear; noidentifiedDavephoto; Wilmerexisting1887YEAR/1983SepMONTH unchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "982135e4-2d6e-4d70-9dc9-bbd63bcf3de6",
+      "prisoner_id": "34123174-a774-449f-95c4-2bd8a1428589",
+      "name": "Bradford Lyttle",
+      "slug": "bradford-lyttle",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-13 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "omaha-sentence",
+          "note": "OriginalGuardianJuly20,1959 printedp5/PDF5 visuallyread specificallyJuly13LyttleandFortenberrysixmonths/$500afterdisregardingcourtorder. ExistingLyttleJul13admissionday andJul8arrest preserved. Other1954/1960s/2010cases untouched. No release computed byaddingterm; no assumptionliving/deathfromabsenceofobituary."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+      "prisoner_id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+      "name": "Donald Fortenberry",
+      "slug": "donald-fortenberry",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-07-13 00:00:00",
+        "incarceration_date": "1959-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "omaha-sentence",
+          "note": "OriginalGuardianJuly20p5 expresslyJuly13LyttleandFortenberrysentences. July8arrest initiallyfollowedbail; do not countit ascontinuoussixmonthprisonterm."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "omaha-prison",
+          "note": "FriendsJournalAugust22,1959 printedp464 namesDonFortenberry,BradfordLyttle,EdLazar,KarlMeyer actuallyinFederalprisonforaboutamonth. Actual1959custodyconfirmed; YEAR1959conservativeendpoint, July13courtdaynotphysicaladmissionproof. No release fromsentence arithmetic."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "73eff3c8-b06b-42f9-8b50-9e0fb520df31",
+      "prisoner_id": "03830610-dc00-4058-88a6-27aa907e9fa5",
+      "name": "Ed Lazar",
+      "slug": "ed-lazar",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1959-07-16 00:00:00",
+        "sentenced_date": "1959-07-01 00:00:00",
+        "incarceration_date": "1959-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "lazar",
+          "note": "OriginalGuardianJuly27,1959 printedp4/PDF4 visuallyread: EdLazar24NewYorkCity, arrestJuly16,andcurrentlyinjailforsixmonths. DAYarrestJuly16; MONTHJuly1959sentenceandactualjailstartonly, becauseactualsentencing/admissiondaynotstated. No assumedyearfrom24age, existing1935birthYEARpreserved.1962Polarisrowuntouched, no release computed."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "be587b1e-cfd9-47f0-ac9c-4a0357cd6a24",
+      "prisoner_id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+      "name": "Arthur Harvey",
+      "slug": "arthur-harvey",
+      "expected": {
+        "date_precision": null,
+        "arrest_date": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "arrest_date": "1959-04-17 00:00:00",
+        "sentenced_date": "1959-04-24 00:00:00",
+        "incarceration_date": "1959-04-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "arrest_date"
+          ],
+          "source": "harvey",
+          "note": "Family-supportedWRLobituary explicitlyArthurHarveyarrestApril17,1959CityHallParkmandatorydrill. SameprotestinoriginalGuardianMay4."
+        },
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "drill-sentence",
+          "note": "OriginalGuardianMay4,1959 printedp1 andp4, visuallyread: April24court17protesters,sentence25fineortenjail,fiveincludingArthurHarveychosejail. ArrestApril17 andsentencingApril24separate. MONTHApril1959actualincarcerationonly, no assumedphysicaladmissionday; CatholicWorkerApril-May1959p1explicitlyArthurcurrentlyservingconfirmsactualcustody. May4picketendnotArthurrelease."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "harvey-cw",
+          "note": "ParticipantpublicationCatholicWorkerApril-May1959 frontpage explicitlyArthurHarveyoneofrepeatprotesterscurrentlyservingten-dayjailsentenceafterrefusingfine; originalvisuallychecked."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bde0301d-99a4-56fe-b2a7-cc0ae876f72d",
+      "prisoner_id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+      "name": "Arthur Harvey",
+      "slug": "arthur-harvey",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-01-01 00:00:00",
+        "incarceration_date": "1959-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "harvey",
+          "note": "Family-supportedWRLobituary sameMead1959action explicitlysentencedandserved6monthsinSandstonewithAmmonHennacy. YEAR1959only; WilmerYoung own1961VisibleWitnessmemoir contemporaneousparticipant describesArthursecondentryandactuallysenttoprisonafterearlierprobation; no inventedday/month orreleasedate. Populated1959YEARarrest retained."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "young-firsthand",
+          "note": "WilmerYoung ownparticipantmemoir confirmsArtHarveyandMarjSwannreturnedandwereactuallysenttoprison, distinctWilmerremainingonprobation; fulltranscriptdownloaded/read."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ec8e416e-6a8a-43d0-a139-9f1b9b7edcc5",
+      "prisoner_id": "49ca0921-285a-4cf7-838d-6eefc009a524",
+      "name": "David McReynolds",
+      "slug": "david-mcreynolds",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1959-04-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "drill-sentence",
+          "note": "OriginalGuardianMay4p1namesDavidMcReynoldstestimonyApril24court,p4sentenceall17,12firstoffenderssuspended,fiveotherschosejail. Same1959drillcase; addjudgmentdateonly, notten-dayjailassignmenttoDavid. ExistingovernightApr17arrest/admissionretained; no April18releaseassumption.1961HartIslandcaseoutside1950sdeepdiveleftunchanged."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4a936f95-7ecf-4b59-825b-27e610b423fd",
+      "prisoner_id": "4510c069-ec14-48eb-b524-ef0e05d9c23d",
+      "name": "Walter C. Lohman Jr.",
+      "slug": "walter-c-lohman-jr",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1958-06-16 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lohman",
+          "note": "DOJownUSAttorneysBulletin vol6no14 printedp403/PDF6 originalvisuallyread explicitlyJune16,1958 fiveyearconcurrenttermsatsecondtrial;10000bailcontinuedpendingappeal. Primary266F2d3 confirmsretrialafter251F2d951reversal. No June16actualprisonadmission, affidavitDec6,1949notarrest, convictionSept15,1955notoperative1958sentence, May5,1959affirmancenotsentence. Admissionyearunresolved1959/1960; no genericLohmanvitals/photo."
+        },
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "lohman-court",
+          "note": "Fullprimary266F2d3 appellateopinion confirmsretrial/fiveyearconcurrentterms; nottreatedascustodyproof."
+        }
+      ]
+    }
+  ]
+}
