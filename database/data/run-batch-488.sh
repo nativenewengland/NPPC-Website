@@ -39,7 +39,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 
 $payload = json_decode(File::get(base_path("database/data/fixes/batch488.json")), true, 512, JSON_THROW_ON_ERROR);
-if (($payload["batch"] ?? null) !== 788 || ($payload["expected_count"] ?? null) !== 7 || count($payload["entries"] ?? []) !== 7) {
+if (($payload["batch"] ?? null) !== 488 || ($payload["expected_count"] ?? null) !== 7 || count($payload["entries"] ?? []) !== 7) {
     throw new \RuntimeException("Unexpected batch identity or count.");
 }
 $allowed = ["prisoners" => ["photo", "birthdate", "death_date", "date_precision"], "prisoner_cases" => ["arrest_date", "sentenced_date", "incarceration_date", "release_date", "in_exile_since", "end_of_exile", "date_precision"]];
