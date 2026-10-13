@@ -1,0 +1,18 @@
+Batch485 live verification — October12,2026
+Data commit: 801c4d03
+B485-ISOLATED-TEST-OK 370 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview10; applied10; replay0. B485-OK on all three runs.
+Compared 723 profiles and 853 cases: 24 expected fields (eleven dates, five portraits, eight precision metadata), 50211 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+marie-richardson: HTTP200; birthdate=1920-09-04 (DAY), visible; death_date=1987-03-06 (DAY), visible; portrait linked, HTTP200, exact SHA256
+marie-richardson: HTTP200; release_date=1958-10-01 (MONTH), visible
+stanley-dale-sydow: HTTP200; birthdate=1929-09-16 (DAY), visible; death_date=2022-08-12 (DAY), visible; portrait linked, HTTP200, exact SHA256
+elio-torresola: HTTP200; portrait linked, HTTP200, exact SHA256
+vidal-santiago-diaz: HTTP200; portrait linked, HTTP200, exact SHA256; birthdate=1910-01-01 (YEAR), visible
+elio-torresola: HTTP200; incarceration_date=1950-01-01 (YEAR), visible
+fyke-farmer: HTTP200; portrait linked, HTTP200, exact SHA256
+eugene-moy: HTTP200; death_date=1958-12-14 (DAY), visible
+eugene-moy: HTTP200; incarceration_date=1955-12-16 (DAY), visible
+stanley-dale-sydow: HTTP200; sentenced_date=1952-10-01 (MONTH), visible; incarceration_date=1952-01-01 (YEAR), visible
+Fourteen previously pending profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch485 audit.
