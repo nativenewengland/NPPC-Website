@@ -1,0 +1,227 @@
+{
+  "batch": 488,
+  "audit_date": "2026-10-12",
+  "expected_count": 7,
+  "sources": {
+    "howard-photo488": "https://24thida.com/taro_leaf/images/1998%2002%20SO2.pdf",
+    "howard-birth488": "https://www.astro.com/astro-databank/Adams%2C_Howard_Gayle",
+    "veneris-own488": "https://www.bannedthought.net/Korea-DPRK/KoreanWar/American_Living_In_China_Ex-POW_Jim_%28James%29_Veneris.pdf",
+    "veneris-photo488": "https://kcstarphotos.org/photo/279045",
+    "bucar-fbi488": "https://www.archives.gov/files/research/jfk/releases/2023/124-10369-10063.pdf",
+    "seborer-cia488": "https://www.cia.gov/resources/csi/static/Project-SOLO-and-Seborers.pdf",
+    "skinner-photo488": "https://www.spauda.org/naujienos/archive/1963/1963-08-03-NAUJIENOS.pdf",
+    "clarence-return488": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1966-07-05.pdf",
+    "dunn-photo488": "https://www.newyorker.com/news/news-desk/the-korean-war-prisoner-who-never-came-home",
+    "aaron-photo488": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/e03aa640-ee18-498d-8eac-365a46562c73/content",
+    "aaron-survey488": "https://oregonnews.uoregon.edu/lccn/sn97071090/1957-12-05/ed-1/seq-11/ocr/",
+    "belhomme-own488": "https://www.lapostapub.com/Backissues/LP39-5.pdf",
+    "clarence-texas488": "https://texashistory.unt.edu/ark:/67531/metapth1724145/m1/1/",
+    "clarence-main488": "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1966-07-05.pdf",
+    "clarence-original488": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/55ec53ee-3f6a-41ba-bdb0-99d33d4da604/content",
+    "sarant-cia": "https://www.cia.gov/resources/csi/static/The-Brother.pdf",
+    "koval-history": "https://www.smithsonianmag.com/history/george-koval-atomic-spy-unmasked-125046223/",
+    "repatriates-ap": "https://www.mail-archive.com/antinato%40topica.com/msg04937.html",
+    "sullivan-vitals-lead": "https://www.locateancestors.com/larance-part-2/",
+    "rush-namesake": "https://obits.cleveland.com/us/obituaries/cleveland/name/scott-rush-obituary?id=11747305",
+    "belhomme-photo-lead": "https://www.lapostapub.com/Backissues/LP39-5.pdf",
+    "rush-primary-return": "https://www.congress.gov/89/crecb/1965/03/10/GPO-CRECB-1965-pt4-4-3.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "645c4bda-e1c6-4c4c-887b-58597ca24f59",
+      "prisoner_id": "645c4bda-e1c6-4c4c-887b-58597ca24f59",
+      "name": "Stuart Seborer",
+      "slug": "stuart-seborer",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/stuart-seborer-ccny1939-batch488.jpg"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "seborer-cia488",
+          "note": "Caption explicitly identifies Stuart Seborer, not Oscar or Max; original 1939 CCNY yearbook portrait reproduced on printed page 4. Entire embedded JPEG retained."
+        }
+      ],
+      "asset": {
+        "file": "stuart-seborer-ccny1939-batch488.jpg",
+        "sha256": "ff3041744a0b0a84e2ebc16eb778160777917c88f9e5fb0385016656db91f93f"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "110d0b38-dac1-4807-91bd-5d7c5e7f4ba1",
+      "prisoner_id": "110d0b38-dac1-4807-91bd-5d7c5e7f4ba1",
+      "name": "Howard Gayle Adams",
+      "slug": "howard-gayle-adams",
+      "expected": {
+        "date_precision": null,
+        "photo": null,
+        "birthdate": null
+      },
+      "update": {
+        "photo": "prisoners/howard-gayle-adams-cox-batch488.png",
+        "birthdate": "1925-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "howard-photo488",
+          "note": "Cox firsthand letter and named caption identify the portrait; exact native scan crop."
+        },
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "howard-birth488",
+          "note": "Certificate-derived transcription by Sy Scholfield reports Howard Gale Adams born May 19, 1925, Corsicana, Texas, and explicitly identifies the Korean War corporal. Underlying certificate image not accessed; conservative YEAR 1925 only, no claim of direct certificate inspection. Not the Canadian activist Howard Adams or footballer Howard Gayle."
+        }
+      ],
+      "asset": {
+        "file": "howard-gayle-adams-cox-batch488.png",
+        "sha256": "bd645d414ab5eb7811e36ed7fab271614e4612d6958dfbb29cc71e34d886de2f"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "d46bd658-3db9-41ca-abf7-88f950692589",
+      "prisoner_id": "d46bd658-3db9-41ca-abf7-88f950692589",
+      "name": "James Veneris",
+      "slug": "james-veneris",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/james-veneris-own-family-batch488.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "veneris-own488",
+          "note": "Own interview pamphlet, caption identifies Jim Veneris and his family; adult man isolated, not a child or another former POW. Exact rectangular crop without altered retained pixels."
+        }
+      ],
+      "asset": {
+        "file": "james-veneris-own-family-batch488.png",
+        "sha256": "86d4ada89d1c1aefd0b6ada5811b3281b93327c34149888177c1700b188ff6b4"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "cd310bd7-e71d-4ffc-bfc2-5d1b447be7c3",
+      "prisoner_id": "cd310bd7-e71d-4ffc-bfc2-5d1b447be7c3",
+      "name": "Lowell Skinner",
+      "slug": "lowell-skinner",
+      "expected": {
+        "date_precision": "{\"death_date\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/lowell-skinner-united-press-batch488.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "skinner-photo488",
+          "note": "Original United Press caption positively identifies Lowell Skinner of Akron; exact native scan crop. Birth date remains unresolved despite plausible SSDI lead."
+        }
+      ],
+      "asset": {
+        "file": "lowell-skinner-united-press-batch488.png",
+        "sha256": "f07a2ed3df4922b94db80aa7386d84dff4c01aaef93b3c35226a8ec24e9b3bba"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "be1db4d3-0a90-4b4f-be15-03d8d547d9d9",
+      "prisoner_id": "be1db4d3-0a90-4b4f-be15-03d8d547d9d9",
+      "name": "John Roedel Dunn",
+      "slug": "john-roedel-dunn",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/john-roedel-dunn-mitchison-ap-batch488.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "dunn-photo488",
+          "note": "Named caption identifies Dunn on far right, photograph by Lois Mitchison/AP, February 28, 1956. Exact rectangular crop. Existing 1959 exile endpoint and 1996 YEAR death preserved despite source conflicts."
+        }
+      ],
+      "asset": {
+        "file": "john-roedel-dunn-mitchison-ap-batch488.png",
+        "sha256": "68a06647c537abbf4b84b271b5a5dd8f2b4f78da635964610019b4d1a63655d0"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "5fe8d8cb-6db6-405e-9ad0-7290d5b3d97b",
+      "prisoner_id": "5fe8d8cb-6db6-405e-9ad0-7290d5b3d97b",
+      "name": "Aaron Wilson",
+      "slug": "aaron-wilson",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"year\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/aaron-wilson-ap1956-batch488.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "aaron-photo488",
+          "note": "Original caption explicitly identifies Wilson on right. Exact crop; no claimed US criminal conviction or incarceration from Korean/Chinese POW custody."
+        }
+      ],
+      "asset": {
+        "file": "aaron-wilson-ap1956-batch488.png",
+        "sha256": "b57e0a8e27d75a9c86b2ba84c40bdc7ebc63912a5de482eb33b956f86f915362"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "80c1eeb1-9cc2-4782-95f9-74c651bb1901",
+      "prisoner_id": "274b24ae-8c71-4acc-ac85-93c24ba76f78",
+      "name": "Clarence Adams",
+      "slug": "clarence-adams",
+      "expected": {
+        "date_precision": "{\"in_exile_since\":\"day\"}",
+        "end_of_exile": null
+      },
+      "update": {
+        "end_of_exile": "1966-07-04 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"day\",\"end_of_exile\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "end_of_exile"
+          ],
+          "source": "clarence-original488",
+          "note": "Original AP report, Big Spring Daily Herald July 5, 1966, printed 3-A / PDF page 3, downloaded and visually inspected: physical arrival at San Francisco aboard President Cleveland on Independence Day. Same report reproduced in Taylor Daily Press July 5 front page. May 26, 1966 was China-to-Hong-Kong crossing, not physical US return. Only missing endpoint filled; no populated profile vital/photo fields changed."
+        }
+      ]
+    }
+  ]
+}
