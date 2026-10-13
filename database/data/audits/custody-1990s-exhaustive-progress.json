@@ -141,9 +141,23 @@
       "case_ids": [
         "ed4d6cb6-dfc3-4a54-b9c8-e0c2d90c7969"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Animal People October1997 reports August27 sentencing and March19 action (conflicts with legacy March17). Exact custody boundaries unresolved; sentencing date is a supported addition pending batch.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 504,
+          "case_id": "ed4d6cb6-dfc3-4a54-b9c8-e0c2d90c7969",
+          "fields": [
+            "sentenced_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://newspaper.animalpeopleforum.org/1997/10/01/direct-action-crackdown/"
+          ],
+          "finding": "Contemporary October1997 reporting supplies this sentencing date. Walton is month precision only. Custody endpoints and conflicting March action dates remain unresolved; no sentence length is used to invent release."
+        }
+      ]
     },
     {
       "id": "0b3e8bb7-a6d6-452f-808e-353a898c633a",
@@ -557,9 +571,24 @@
       "case_ids": [
         "239aadbf-04fe-4133-afd0-9ddfaf9cbbb7"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 505,
+          "case_id": "239aadbf-04fe-4133-afd0-9ddfaf9cbbb7",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.latimes.com/archives/la-xpm-1991-04-24-mn-452-story.html"
+          ],
+          "finding": "Sentenced and sent to military prison in April 1991; exact day and release remain unverified."
+        }
+      ]
     },
     {
       "id": "2a80697b-4107-4dce-97af-6c04810f57b2",
@@ -4364,6 +4393,30 @@
             "https://www.episcopalarchives.org/e-archives/the_witness/pdf/1998_Watermarked/Witness_19981101.pdf#page=13"
           ],
           "finding": "Correct this 1998 action separately from later cases. Preserve duplicate rows but align their verified dates; do not turn bail time or a later case release into imprisonment for this case."
+        }
+      ]
+    },
+    {
+      "id": "c6e940e1-c934-4fb6-8a3d-bec1e63eaeed",
+      "name": "Bret G. Walton",
+      "slug": "bret-g-walton",
+      "case_ids": [
+        "14a73f0e-72e9-4056-af58-abf65237bf4c"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 504,
+          "case_id": "14a73f0e-72e9-4056-af58-abf65237bf4c",
+          "fields": [
+            "sentenced_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://newspaper.animalpeopleforum.org/1997/10/01/direct-action-crackdown/"
+          ],
+          "finding": "Contemporary October1997 reporting supplies this sentencing date. Walton is month precision only. Custody endpoints and conflicting March action dates remain unresolved; no sentence length is used to invent release."
         }
       ]
     }
