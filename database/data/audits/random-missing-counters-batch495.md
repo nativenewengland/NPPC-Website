@@ -189,4 +189,4 @@ Unchanged means no supported date addition in this pass; it does not mean the re
 
 ## Deployment
 
-Pending guarded batch execution and public verification. See batch495-live-verification.json once applied.
+Applied and publicly verified on 2026-10-13. Seven case rows updated; all prisoner fields (including biographies) and unrelated case fields preserved. An immediate replay made zero changes. All seven public pages returned HTTP 200 and displayed the expected dates. Cory displays 6 Months; Tibbs displays 2 Years 9 Months 26 Days; Popovich displays the existing arrest-to-release estimate of 2 Months 7 Days. Ninety-seven sampled profiles still have no positive counter; their unresolved findings are retained above. See batch495-live-verification.json for the deployment and preservation audit.
