@@ -1,0 +1,48 @@
+{
+  "batch": 505,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "2a0e548e-ba88-4916-96f1-e6ed10c4fb98",
+      "name": "David Bobbitt",
+      "slug": "david-bobbitt",
+      "case_id": "239aadbf-04fe-4133-afd0-9ddfaf9cbbb7",
+      "expected": {
+        "id": "239aadbf-04fe-4133-afd0-9ddfaf9cbbb7",
+        "prisoner_id": "2a0e548e-ba88-4916-96f1-e6ed10c4fb98",
+        "institution_id": null,
+        "charges": "Military-service refusal during Gulf War mobilization",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "14 months of confinement",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 22:53:51",
+        "updated_at": "2026-09-18 22:53:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1991-04-01 00:00:00",
+        "incarceration_date": "1991-04-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.latimes.com/archives/la-xpm-1991-04-24-mn-452-story.html"
+      ],
+      "rationale": "Sentenced and sent to military prison in April 1991; exact day and release remain unverified."
+    }
+  ]
+}
