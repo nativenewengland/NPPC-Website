@@ -48,4 +48,4 @@ Ramsey Muniz: obsolete release uncertainty clause updated in the case note only.
 
 ## Validation
 
-Pending live execution; fixture, full-table unrelated-field preservation, replay and public-page checks required.
+Applied and verified live on 2026-10-13T23:16:10+00:00. Fixture, preservation checks, zero-change replay, and all five public-page date checks passed. See batch498-live-verification.json. Two previously absent profile counters now render; other changes improve existing information without claiming that every date gap is resolved.

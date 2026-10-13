@@ -1,0 +1,93 @@
+{
+  "verified_at": "2026-10-13T23:16:10+00:00",
+  "batch": 498,
+  "profiles_updated": 5,
+  "date_fields_added_or_refined": 8,
+  "case_notes_updated": 1,
+  "biographies_changed": 0,
+  "unrelated_fields_changed": 0,
+  "replay_updates": 0,
+  "validation": [
+    "Isolated in-memory fixture: preview, apply, replay, partial precision and concurrent-edit rejection passed.",
+    "Initial live attempt rolled back on SQLite lock; retry succeeded.",
+    "Full-table preservation digests passed in the transaction.",
+    "All five public pages returned HTTP 200 and show the new dates."
+  ],
+  "profiles": [
+    {
+      "name": "Claude Marks",
+      "before": {
+        "days": 0,
+        "start": null,
+        "months": null,
+        "components": null
+      },
+      "after": {
+        "days": 1452,
+        "start": "1994-12-06T00:00:00.000000Z",
+        "months": null,
+        "components": null
+      }
+    },
+    {
+      "name": "Donna Willmott",
+      "before": {
+        "days": 0,
+        "start": null,
+        "months": null,
+        "components": null
+      },
+      "after": {
+        "days": 814,
+        "start": "1994-12-07T00:00:00.000000Z",
+        "months": null,
+        "components": null
+      }
+    },
+    {
+      "name": "Ramsey Muñiz",
+      "before": {
+        "days": 0,
+        "start": null,
+        "months": null,
+        "components": null
+      },
+      "after": {
+        "days": 0,
+        "start": null,
+        "months": null,
+        "components": null
+      }
+    },
+    {
+      "name": "Megan Rice",
+      "before": {
+        "days": 1111,
+        "start": null,
+        "months": null,
+        "components": null
+      },
+      "after": {
+        "days": 927,
+        "start": null,
+        "months": null,
+        "components": null
+      }
+    },
+    {
+      "name": "Christopher Jones",
+      "before": {
+        "days": 183,
+        "start": null,
+        "months": 6,
+        "components": null
+      },
+      "after": {
+        "days": 0,
+        "start": null,
+        "months": 6,
+        "components": null
+      }
+    }
+  ]
+}
