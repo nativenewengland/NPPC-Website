@@ -1,0 +1,179 @@
+{
+  "batch": 497,
+  "expected_count": 4,
+  "selection_seed": "NPPC-random-missing-incarceration-counters-batch497-2026-10-13",
+  "entries": [
+    {
+      "sample_number": 48,
+      "prisoner_id": "87570651-dc44-4898-88ce-3e1172a2b614",
+      "name": "Ruby Doris Smith Robinson",
+      "slug": "ruby-doris-smith-robinson",
+      "case_id": "5ba503ce-dc50-4d7b-8603-b568fb54c80f",
+      "expected": {
+        "id": "5ba503ce-dc50-4d7b-8603-b568fb54c80f",
+        "prisoner_id": "87570651-dc44-4898-88ce-3e1172a2b614",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride arrival at the Jackson Trailways terminal, June 2, 1961.",
+        "arrest_date": "1961-06-02 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-02. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://snccdigital.org/people/ruby-doris-smith-robinson/",
+        "https://sncclegacyproject.org/wp-content/uploads/WG_Toolkit-V3-LinkedWeb.pdf"
+      ],
+      "rationale": "SNCC confirms imprisonment following the Jackson Freedom Ride arrest, which the archival identification dates June 2, 1961. Fill initial Jackson custody, not a Parchman transfer. The reported 45 days in Parchman are not treated as the complete custody total or used to calculate a release day. Preserve the existing case narrative and unresolved release."
+    },
+    {
+      "sample_number": 61,
+      "prisoner_id": "bbbf2543-625e-406f-a120-36f9c4b20a22",
+      "name": "Jack Crane",
+      "slug": "jack-crane",
+      "case_id": "400a9c34-e421-46ff-b091-6b62385e16d2",
+      "expected": {
+        "id": "400a9c34-e421-46ff-b091-6b62385e16d2",
+        "prisoner_id": "bbbf2543-625e-406f-a120-36f9c4b20a22",
+        "institution_id": null,
+        "charges": "Indicted for criminal syndicalism at Sacramento for leading the California agricultural workers' union.",
+        "arrest_date": "1934-07-01 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted April 1, 1935; judgment reversed on appeal September 28, 1937.",
+        "plead": null,
+        "sentenced_date": "1935-04-11 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Dal M. Lemmon",
+        "sentence": "One to fourteen years, imposed April 11, 1935. The prison board later fixed the term at five years. Conviction reversed September 28, 1937.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 23:10:18",
+        "updated_at": "2026-10-12 16:54:26",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1937-04-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://website-e255da46.pnr.smo.mybluehost.me/wp-content/uploads/2015/04/19370422.pdf",
+        "https://www.themilitant.com/1934/0751/NM0103.pdf"
+      ],
+      "rationale": "The April 22, 1937 newspaper report names Crane among three men paroled from San Quentin that week. Use April 1937 at month precision, not the later appellate reversal. The December 29, 1934 New Militant, page 4, identifies only Hougardy and Mini as bailed out and describes the other defendants in jail. That scan was visually checked. The parole report was available as indexed text; direct PDF retrieval failed. The existing July 1934 arrest remains month precision; no invented exact admission day."
+    },
+    {
+      "sample_number": 67,
+      "prisoner_id": "56543cb3-f094-4a86-93e7-356cf44b06a3",
+      "name": "J. Henry Albers",
+      "slug": "j-henry-albers",
+      "case_id": "535192e6-39ad-4139-8316-23022ed029b1",
+      "expected": {
+        "id": "535192e6-39ad-4139-8316-23022ed029b1",
+        "prisoner_id": "56543cb3-f094-4a86-93e7-356cf44b06a3",
+        "institution_id": null,
+        "charges": "Alleged seditious statements said to have been provoked by a business competitor.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentence not stated in report.\n\nVerdict as recorded: Yes — listed in the NCLB 1919 report \"War-Time Prosecutions and Mob Violence.\"",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 16:43:53",
+        "updated_at": "2026-07-29 17:05:32",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1918-10-21 00:00:00",
+        "release_date": "1918-10-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042444/1918-10-22/ed-1/seq-3.pdf"
+      ],
+      "rationale": "The October 22, 1918 Oregon Daily Journal, page 3, reports arrest Monday and liberty on bail put up Monday. Both therefore date October 21. Original scan visually checked. Do not infer an executed prison sentence or positive incarceration counter from this same-day arrest and bail."
+    },
+    {
+      "sample_number": 99,
+      "prisoner_id": "1718278b-8019-437e-9b2b-ae2465cbba6f",
+      "name": "Bennett Andrews",
+      "slug": "bennett-andrews",
+      "case_id": "3b9300aa-354e-4901-8f46-9227bd2a7a0d",
+      "expected": {
+        "id": "3b9300aa-354e-4901-8f46-9227bd2a7a0d",
+        "prisoner_id": "1718278b-8019-437e-9b2b-ae2465cbba6f",
+        "institution_id": null,
+        "charges": "WWII refusal of military and alternative service; precise statutory charge unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1946-07-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Imposed sentence: five years, April 1943, Danbury. Actual release: July 11, 1946, without conditions; 1947 amnesty is a separate event. Exact custody entry and sentencing days are unverified. The archive describes the couple’s separation as three and a half years; this is not imported as a precise measured custody duration. Formal conscientious-objector recognition is not asserted. Source: https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.209",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-06 02:58:31",
+        "updated_at": "2026-10-06 02:58:31",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1943-04-01 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "sources": [
+        "https://findingaids.library.upenn.edu/records/Peace_SCPC.DG.209",
+        "https://www1.swarthmore.edu/library/peace/manuscriptcollections/quaker.co.expressions.htm"
+      ],
+      "rationale": "The Swarthmore finding aid explicitly dates sentencing April 1943. Fill sentencing at month precision only. It also lists prison correspondence beginning January 5, 1943, so sentencing cannot safely stand in for the initial custody date. Preserve the verified July 11, 1946 release."
+    }
+  ]
+}
