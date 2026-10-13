@@ -1,0 +1,80 @@
+{
+  "batch": 500,
+  "verified_at": "2026-10-13T23:26:45+00:00",
+  "profiles_updated": 2,
+  "date_fields_updated": 0,
+  "duration_overrides_cleared": 2,
+  "biographies_changed": 0,
+  "unrelated_fields_changed": 0,
+  "replay_updates": 0,
+  "validation": [
+    "Isolated fixture passed: no-write preview, guarded apply, replay and concurrent-edit rejection.",
+    "Transaction verified full-table preservation of unrelated fields.",
+    "Public pages verified after batch500.",
+    "Fixture independently checked exact case totals of 179 and 1881 days.",
+    "Earlier attempts rolled back under temporary SQLite lock contention; committed runner now retries only that error up to five times."
+  ],
+  "profiles": [
+    {
+      "name": "Megan Rice",
+      "before": {
+        "days": 927,
+        "start": null,
+        "months": null,
+        "components": null
+      },
+      "after": {
+        "days": 1106,
+        "start": null,
+        "months": null,
+        "components": null
+      }
+    },
+    {
+      "name": "Kevin Poulsen",
+      "before": {
+        "days": 0,
+        "start": null,
+        "months": 60,
+        "components": null
+      },
+      "after": {
+        "days": 1881,
+        "start": "1991-04-11T00:00:00.000000Z",
+        "months": null,
+        "components": null
+      }
+    }
+  ],
+  "public_after_500": [
+    {
+      "name": "Megan Rice",
+      "url": "https://politicalprisonercoalition.org/prisoner/megan-rice",
+      "http_status": 200,
+      "counters": [
+        "3 Years 11 Days"
+      ],
+      "date_context": [
+        "f government property — affirmed). Arrested: Jul 28, 2012 Sentenced: Feb 18, 2014 Incarcerated: May 8, 2013 Released: May 16, 2015 Sentence: Fede",
+        "l 28, 2012 Sentenced: Feb 18, 2014 Incarcerated: May 8, 2013 Released: May 16, 2015 Sentence: Federal prison until May 16, 2015, following the 6t",
+        " catch (e) {} }); })(); Megan Rice Released Full name: Megan Gillespie Rice Date of birth: 31. 01. 1930 Date of death: 10. 10. 2021 Age: 91 † Dec",
+        " affirmed). Arrested: Jul 28, 2012 Sentenced: Feb 18, 2014 Incarcerated: May 8, 2013 Released: May 16, 2015 Sentence: Federal prison until May 16"
+      ]
+    },
+    {
+      "name": "Kevin Poulsen",
+      "url": "https://politicalprisonercoalition.org/prisoner/kevin-poulsen",
+      "http_status": 200,
+      "counters": [
+        "5 Years 1 Month 24 Days"
+      ],
+      "date_context": [
+        "ion (hacking Pacific Bell systems) Arrested: Apr 11, 1991 Sentenced: Apr 10, 1995 Incarcerated: Apr 11, 1991 Released: Jun 4, 1996 Sentence: Hack",
+        "r 11, 1991 Sentenced: Apr 10, 1995 Incarcerated: Apr 11, 1991 Released: Jun 4, 1996 Sentence: Hacked Pacific Bell servers to rig radio call-in co",
+        "tch (e) {} }); })(); Kevin Poulsen Released Date of birth: 30. 11. 1965 Age: 60 Gender: Male Race: White Era: 1990s Time Imprisoned: 5 Years 1 Mo",
+        "ll systems) Arrested: Apr 11, 1991 Sentenced: Apr 10, 1995 Incarcerated: Apr 11, 1991 Released: Jun 4, 1996 Sentence: Hacked Pacific Bell servers"
+      ]
+    }
+  ],
+  "qualification": "Megan Rice has other cases, including an older undated 1999 SOA case with its existing stored duration. This batch changes only the verified 1998 case; it is not a complete audit of her overall profile total."
+}
