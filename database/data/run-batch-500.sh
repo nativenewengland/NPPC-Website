@@ -43,6 +43,8 @@ $payload = json_decode(File::get(base_path("database/data/fixes/batch500.json"))
 if (($payload["batch"] ?? null) !== 500 || ($payload["expected_count"] ?? null) !== 2 || count($payload["entries"] ?? []) !== 2) { throw new \RuntimeException("Unexpected batch identity or count."); }
 $dry = getenv("NPPC_BATCH_DRY_RUN") === "1";
 $same = fn ($a,$b) => $a === null || $b === null ? $a === $b : (string) $a === (string) $b;
+for ($attempt = 1; $attempt <= 5; $attempt++) {
+try {
 $result = DB::transaction(function () use ($payload,$dry,$same) {
     $plans = [];
     $allowed = ["imprisoned_for_months"];
@@ -106,6 +108,12 @@ $result = DB::transaction(function () use ($payload,$dry,$same) {
     echo "Preservation verified: all profile fields and all unrelated case fields unchanged\n";
     return $changed;
 });
+break;
+} catch (\Illuminate\Database\QueryException $error) {
+    if ($attempt >= 5 || !str_contains($error->getMessage(), "database is locked")) { throw $error; }
+    usleep(500000);
+}
+}
 if (! $dry && $result > 0) { Cache::forget(PrisonerApiController::cacheKey()); }
 echo ($dry ? "Would update: " : "Updated: "),$result,"\n";
 echo "B500-OK\n";
