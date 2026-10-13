@@ -21233,8 +21233,27 @@
     "theodore-gibson": {
       "id": "80aa1eb0-7ff6-4c7b-8f39-537079b705e4",
       "name": "Theodore Gibson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "8cc0a467-b26d-4f95-b26c-8030ae35e298",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "gibson",
+              "note": "OriginalMilitantSeptember19,1960 printedp1, visuallyread: August30 sixmonths/$1200 contempt sentence forReverendsEdwardTGraham andTheodoreGibson inTallahassee. Judge refusedbond but grudginglycontinuedlibertypendingappeal, so noactualprisonarrival/release inferred.1959hearings beganproceeding, notsentencingyear. Existingfullvitals/photo preserved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "8cc0a467-b26d-4f95-b26c-8030ae35e298"
       ],
@@ -21242,13 +21261,13 @@
       "missing_case_fields": {
         "8cc0a467-b26d-4f95-b26c-8030ae35e298": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "a-leon-lowry": {
       "id": "14a5115e-50f1-4e2c-bfe6-98d6375af88c",
@@ -21419,8 +21438,34 @@
     "chandler-davis": {
       "id": "92ad6631-dde2-49ce-940f-84dc6d14f964",
       "name": "Chandler Davis",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "5ba9d48c-e209-43e7-a9a8-caf73e9faf77",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "davis",
+              "note": "ContemporaryCivilLibertiesDocket volIII no1 printedp9 item271.5 WD Michigan: Jy[July1957] defendantconvicted,six-monthsentence,toappeal. Originalindexed primarydocket entry read through web; directdownload403, no claimedvisualinspection. MONTHonly,no assumedindividualday.269F2d357 confirms sameFirstAmendmentcase/sentence. Existing1960admissionDAY andJune1960releaseMONTH preserved despite proseaboutsixmonths/summer; no refinement or arithmetic."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "davis-court",
+              "note": "Primary269F2d357 appeal confirms six-monthcontemptsentence andsameHoraceChandlerDavis; affirmanceAugust1959 not storedassentence."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "5ba9d48c-e209-43e7-a9a8-caf73e9faf77"
       ],
@@ -21428,17 +21473,43 @@
       "missing_case_fields": {
         "5ba9d48c-e209-43e7-a9a8-caf73e9faf77": [
           "arrest_date",
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "sidney-turoff": {
       "id": "e91dd1ce-2b4c-4bda-b604-b3f894c453e5",
       "name": "Sidney Turoff",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "abcd9cd6-fb31-4175-972b-012a016fa6f7",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "turoff",
+              "note": "DOJownJanuary15,1960 USAttorneysBulletin printedp39/PDF24 visuallyread: December15,1959juryverdict, followedJudgeBurke sixtydayconcurrentterms/$100eachcount. December28,1959Guardiancontemporaryreportalsoalreadyreportsentence; thereforeMONTHDecember1959, not assumptionjuryandsentenceoccurredsameDAY. No actualcustody from sentence, indictmentJune23notarrest, 1961reversalnotrelease. Generic1921–1989Brooklyn/StocktonSidneyTuroffgenealogy not independentlylinked toBuffalowitness, no guessedvitals/photo."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "turoff-contemporary",
+              "note": "December28contemporary reporting confirms sentence alreadyimposed inDecember; exactsentencingday unresolved."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "abcd9cd6-fb31-4175-972b-012a016fa6f7"
       ],
@@ -21450,13 +21521,13 @@
       "missing_case_fields": {
         "abcd9cd6-fb31-4175-972b-012a016fa6f7": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ruth-bishop": {
       "id": "8efcee8b-ec99-4afd-9474-ba26d04556ec",
@@ -21592,8 +21663,27 @@
     "wilmer-young": {
       "id": "b51695c4-d577-4518-b146-816a96982157",
       "name": "Wilmer Young",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "d3cbccc4-af4d-4899-aa5c-41873e9a71e5",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "young-wyland",
+              "note": "MildredB.Young firsthandFriendsJournalJuly25,1959 printedp428/PDF8 originalvisuallyread: WilmerYoung andDaveWyland enterandarearrestedJuly6; allfirstfive sentencedJuly7,sixmonths/$500suspended withprobation. Matchesexistingcourt/releaseJuly7prose. GuardianJuly20fivegroupJuly9 wordingconflicts; firsthandnamedJuly7account retained andconflictlogged. No suspendedsixmonthterm countedascustody. Existingarrest/admission/release endpoints/vitals preserved. Daveage23notusedasexactbirthyear; noidentifiedDavephoto; Wilmerexisting1887YEAR/1983SepMONTH unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "d3cbccc4-af4d-4899-aa5c-41873e9a71e5"
       ],
@@ -21602,17 +21692,36 @@
       ],
       "missing_case_fields": {
         "d3cbccc4-af4d-4899-aa5c-41873e9a71e5": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "dave-wyland": {
       "id": "c615656f-1df6-464f-8c28-4cfbf9d0c655",
       "name": "Dave Wyland",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "9b696a99-cf35-499d-a40a-23fd7dea4097",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "young-wyland",
+              "note": "MildredB.Young firsthandFriendsJournalJuly25,1959 printedp428/PDF8 originalvisuallyread: WilmerYoung andDaveWyland enterandarearrestedJuly6; allfirstfive sentencedJuly7,sixmonths/$500suspended withprobation. Matchesexistingcourt/releaseJuly7prose. GuardianJuly20fivegroupJuly9 wordingconflicts; firsthandnamedJuly7account retained andconflictlogged. No suspendedsixmonthterm countedascustody. Existingarrest/admission/release endpoints/vitals preserved. Daveage23notusedasexactbirthyear; noidentifiedDavephoto; Wilmerexisting1887YEAR/1983SepMONTH unchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "9b696a99-cf35-499d-a40a-23fd7dea4097"
       ],
@@ -21623,17 +21732,36 @@
       ],
       "missing_case_fields": {
         "9b696a99-cf35-499d-a40a-23fd7dea4097": [
-          "sentenced_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "bradford-lyttle": {
       "id": "34123174-a774-449f-95c4-2bd8a1428589",
       "name": "Bradford Lyttle",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "982135e4-2d6e-4d70-9dc9-bbd63bcf3de6",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "omaha-sentence",
+              "note": "OriginalGuardianJuly20,1959 printedp5/PDF5 visuallyread specificallyJuly13LyttleandFortenberrysixmonths/$500afterdisregardingcourtorder. ExistingLyttleJul13admissionday andJul8arrest preserved. Other1954/1960s/2010cases untouched. No release computed byaddingterm; no assumptionliving/deathfromabsenceofobituary."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "982135e4-2d6e-4d70-9dc9-bbd63bcf3de6",
         "7b385412-c1c2-40b3-8c0f-75785dee3b3c",
@@ -21653,7 +21781,6 @@
       ],
       "missing_case_fields": {
         "982135e4-2d6e-4d70-9dc9-bbd63bcf3de6": [
-          "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -21720,49 +21847,130 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "donald-fortenberry": {
       "id": "80d9d917-d0ec-4799-bab6-802287d063c5",
       "name": "Donald Fortenberry",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoners",
+          "id": "80d9d917-d0ec-4799-bab6-802287d063c5",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "lincoln-photo",
+              "note": "Original explicit ordered caption identifies rightmost DonFortenberry; exact retained-pixel crop, source and crop inspected. No unrelated Fortenberry grave/vital entries imported."
+            }
+          ]
+        },
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "omaha-sentence",
+              "note": "OriginalGuardianJuly20p5 expresslyJuly13LyttleandFortenberrysentences. July8arrest initiallyfollowedbail; do not countit ascontinuoussixmonthprisonterm."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "omaha-prison",
+              "note": "FriendsJournalAugust22,1959 printedp464 namesDonFortenberry,BradfordLyttle,EdLazar,KarlMeyer actuallyinFederalprisonforaboutamonth. Actual1959custodyconfirmed; YEAR1959conservativeendpoint, July13courtdaynotphysicaladmissionproof. No release fromsentence arithmetic."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "59fa5171-ac88-46ab-bb30-e744a6959cd1"
       ],
       "missing_profile_fields": [
-        "photo",
         "birthdate",
         "death_date"
       ],
       "missing_case_fields": {
         "59fa5171-ac88-46ab-bb30-e744a6959cd1": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "ed-lazar": {
       "id": "03830610-dc00-4058-88a6-27aa907e9fa5",
       "name": "Ed Lazar",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoners",
+          "id": "03830610-dc00-4058-88a6-27aa907e9fa5",
+          "fields": [
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "photo"
+              ],
+              "source": "lincoln-photo",
+              "note": "Original explicit ordered caption identifies second-from-left EdLazar, behindJohnWhite; exact retained-pixel crop, original/caption/crop inspected. Existing1935YEAR birth preserved; no birthday arithmetic."
+            }
+          ]
+        },
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "73eff3c8-b06b-42f9-8b50-9e0fb520df31",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date",
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "lazar",
+              "note": "OriginalGuardianJuly27,1959 printedp4/PDF4 visuallyread: EdLazar24NewYorkCity, arrestJuly16,andcurrentlyinjailforsixmonths. DAYarrestJuly16; MONTHJuly1959sentenceandactualjailstartonly, becauseactualsentencing/admissiondaynotstated. No assumedyearfrom24age, existing1935birthYEARpreserved.1962Polarisrowuntouched, no release computed."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "73eff3c8-b06b-42f9-8b50-9e0fb520df31",
         "d6607b71-7b5f-5030-9d9b-f43f4f4bcc47"
       ],
       "missing_profile_fields": [
-        "photo",
         "death_date"
       ],
       "missing_case_fields": {
         "73eff3c8-b06b-42f9-8b50-9e0fb520df31": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -21773,28 +21981,113 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "arthur-harvey": {
       "id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
       "name": "Arthur Harvey",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoners",
+          "id": "7ff74563-bd5a-49bd-8a9a-d29ba4a2cf77",
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "birthdate",
+                "death_date",
+                "photo"
+              ],
+              "source": "harvey",
+              "note": "WarResistersLeague May6,2026 obituary byEdHedemann adapted from initialdraft bywifeElizabeth anddaughterEmily explicitlyDOBJune8,1932 RidgewoodNJ andDODJanuary17,2026 athome; sameApril17,1959drillarrest andMead1959Sandstoneimprisonment identity. Originalfamilyphoto caption identifies rightmostArthur, CarlWalsh1996. Existing1930BuffaloArthurS.Harveycase is impossible for1932-bornpacifist, likelynameconflation; flagged for separateidentitycorrection, not deleted/rewritten under missing-onlyscope."
+            }
+          ]
+        },
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "be587b1e-cfd9-47f0-ac9c-4a0357cd6a24",
+          "fields": [
+            "arrest_date",
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "arrest_date"
+              ],
+              "source": "harvey",
+              "note": "Family-supportedWRLobituary explicitlyArthurHarveyarrestApril17,1959CityHallParkmandatorydrill. SameprotestinoriginalGuardianMay4."
+            },
+            {
+              "fields": [
+                "sentenced_date",
+                "incarceration_date"
+              ],
+              "source": "drill-sentence",
+              "note": "OriginalGuardianMay4,1959 printedp1 andp4, visuallyread: April24court17protesters,sentence25fineortenjail,fiveincludingArthurHarveychosejail. ArrestApril17 andsentencingApril24separate. MONTHApril1959actualincarcerationonly, no assumedphysicaladmissionday; CatholicWorkerApril-May1959p1explicitlyArthurcurrentlyservingconfirmsactualcustody. May4picketendnotArthurrelease."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "harvey-cw",
+              "note": "ParticipantpublicationCatholicWorkerApril-May1959 frontpage explicitlyArthurHarveyoneofrepeatprotesterscurrentlyservingten-dayjailsentenceafterrefusingfine; originalvisuallychecked."
+            }
+          ]
+        },
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "bde0301d-99a4-56fe-b2a7-cc0ae876f72d",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "harvey",
+              "note": "Family-supportedWRLobituary sameMead1959action explicitlysentencedandserved6monthsinSandstonewithAmmonHennacy. SentenceYEAR1959only; WilmerYoung own1961VisibleWitnessmemoir contemporaneousparticipant describesArthursecondentryandactuallysenttoprisonafterearlierprobation; no inventedday/month orreleasedate. Populated1959YEARarrest retained."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "omaha-prison",
+              "note": "OriginalFriendsJournalAugust22,1959 printedp464/PDF12 visuallychecked: August10 ArtHarvey andMarjorieSwann returnedtoMead, botharrested andcourt-hearingsameday, judgecommittedthemtoprisononoriginalsixmonthsentence. Actual renewedcustodyAugust10 DAY supported bynamedcontemporaryreport, notcomputedfromtermlength. Earlierprobation/briefarrestnotcontinuousprisonterm."
+            },
+            {
+              "fields": [
+                "incarceration_date"
+              ],
+              "source": "young-firsthand",
+              "note": "WilmerYoung ownparticipantmemoir confirmsArtHarveyandMarjSwannreturnedandwereactuallysenttoprison, distinctWilmerremainingonprobation; fulltranscriptdownloaded/read."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "be587b1e-cfd9-47f0-ac9c-4a0357cd6a24",
         "8c1577b5-7bd5-41ee-80dc-734a5a7c3059",
         "bde0301d-99a4-56fe-b2a7-cc0ae876f72d"
       ],
-      "missing_profile_fields": [
-        "photo",
-        "birthdate",
-        "death_date"
-      ],
+      "missing_profile_fields": [],
       "missing_case_fields": {
         "be587b1e-cfd9-47f0-ac9c-4a0357cd6a24": [
-          "arrest_date",
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -21807,19 +22100,37 @@
           "end_of_exile"
         ],
         "bde0301d-99a4-56fe-b2a7-cc0ae876f72d": [
-          "sentenced_date",
-          "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "david-mcreynolds": {
       "id": "49ca0921-285a-4cf7-838d-6eefc009a524",
       "name": "David McReynolds",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "ec8e416e-6a8a-43d0-a139-9f1b9b7edcc5",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "drill-sentence",
+              "note": "OriginalGuardianMay4p1namesDavidMcReynoldstestimonyApril24court,p4sentenceall17,12firstoffenderssuspended,fiveotherschosejail. Same1959drillcase; addjudgmentdateonly, notten-dayjailassignmenttoDavid. ExistingovernightApr17arrest/admissionretained; no April18releaseassumption.1961HartIslandcaseoutside1950sdeepdiveleftunchanged."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "ec8e416e-6a8a-43d0-a139-9f1b9b7edcc5",
         "0b4aa328-6a7b-4fcf-8294-ec1b2aa7960a"
@@ -21827,7 +22138,6 @@
       "missing_profile_fields": [],
       "missing_case_fields": {
         "ec8e416e-6a8a-43d0-a139-9f1b9b7edcc5": [
-          "sentenced_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
@@ -21838,7 +22148,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "diamond-kimm": {
       "id": "ca60d02a-9a8e-4300-a81b-c523a5a23df1",
@@ -21938,8 +22249,34 @@
     "walter-c-lohman-jr": {
       "id": "4510c069-ec14-48eb-b524-ef0e05d9c23d",
       "name": "Walter C. Lohman Jr.",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "table": "prisoner_cases",
+          "id": "4a936f95-7ecf-4b59-825b-27e610b423fd",
+          "fields": [
+            "sentenced_date"
+          ],
+          "status": "applied and public verification passed 2026-10-12",
+          "evidence": [
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lohman",
+              "note": "DOJownUSAttorneysBulletin vol6no14 printedp403/PDF6 originalvisuallyread explicitlyJune16,1958 fiveyearconcurrenttermsatsecondtrial;10000bailcontinuedpendingappeal. Primary266F2d3 confirmsretrialafter251F2d951reversal. No June16actualprisonadmission, affidavitDec6,1949notarrest, convictionSept15,1955notoperative1958sentence, May5,1959affirmancenotsentence. Admissionyearunresolved1959/1960; no genericLohmanvitals/photo."
+            },
+            {
+              "fields": [
+                "sentenced_date"
+              ],
+              "source": "lohman-court",
+              "note": "Fullprimary266F2d3 appellateopinion confirmsretrial/fiveyearconcurrentterms; nottreatedascustodyproof."
+            }
+          ]
+        }
+      ],
       "case_ids": [
         "4a936f95-7ecf-4b59-825b-27e610b423fd"
       ],
@@ -21951,13 +22288,13 @@
       "missing_case_fields": {
         "4a936f95-7ecf-4b59-825b-27e610b423fd": [
           "arrest_date",
-          "sentenced_date",
           "incarceration_date",
           "release_date",
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "Verified missing dates/photos applied and publicly checked; see batch482 audit. Populated fields preserved; unresolved endpoints and source conflicts retained."
     },
     "albert-skinner": {
       "id": "3b656f63-4de0-4f06-95bb-d76eaf790372",
@@ -21986,8 +22323,14 @@
     "jesse-van-camp": {
       "id": "4ba9b5c9-4d25-4d34-b1f8-b9f3a5de03bf",
       "name": "Jesse Van Camp",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalILWUDispatcherNovember20,1959p5 identifiesMineMillstaffJesseVanCamp among1956indicted/1959trieddefendants, notphysicaljail. Appeal302F2d5 andexistingresearched1963acquittal/bailqualificationpreserved. No courtdateconvertedtoarrest/incarceration/release. Generic1845–1911VanCampCanadianfamily andmodernnamesakesexcluded; noverifiedvitals/photo."
+        }
+      ],
       "case_ids": [
         "4007ff23-48cf-4738-979e-e2cecab3db82"
       ],
@@ -22005,13 +22348,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalILWUDispatcherNovember20,1959p5 identifiesMineMillstaffJesseVanCamp among1956indicted/1959trieddefendants, notphysicaljail. Appeal302F2d5 andexistingresearched1963acquittal/bailqualificationpreserved. No courtdateconvertedtoarrest/incarceration/release. Generic1845–1911VanCampCanadianfamily andmodernnamesakesexcluded; noverifiedvitals/photo."
     },
     "irving-dichter": {
       "id": "a65afbc9-0317-4a61-9e50-56ec45f98aaf",
       "name": "Irving Dichter",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "status": "reviewed, no unsupported additions",
+          "note": "ContemporaryILWU1959trialreport identifiesMineMillsecretarytreasurer;302F2d5 appellatecaseandlaterunionreportconfirmprosecution, notactualjail. PopulatedNovember1963MONTHsentencepreserved, freeonappealno falsecustodydates. Genealogy1912–1974/sonMichael1945–2004/Pe arlWeinsteinlead notindependentlylinkedtoNewEnglandunionofficer, no guessedvitals/photo."
+        }
+      ],
       "case_ids": [
         "e87ed572-4faa-4ea7-bb1a-1099e9609b06"
       ],
@@ -22028,13 +22378,20 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "ContemporaryILWU1959trialreport identifiesMineMillsecretarytreasurer;302F2d5 appellatecaseandlaterunionreportconfirmprosecution, notactualjail. PopulatedNovember1963MONTHsentencepreserved, freeonappealno falsecustodydates. Genealogy1912–1974/sonMichael1945–2004/Pe arlWeinsteinlead notindependentlylinkedtoNewEnglandunionofficer, no guessedvitals/photo."
     },
     "harold-sanderson": {
       "id": "25dcf21a-32e8-4c9e-b55a-53546b7d18d7",
       "name": "Harold Sanderson",
-      "research_status": "pending",
-      "findings": [],
+      "research_status": "partially researched",
+      "findings": [
+        {
+          "batch": 482,
+          "status": "reviewed, no unsupported additions",
+          "note": "OriginalILWU1959trialand1965appealreports linkMineMillstaff/controller/administrativeassistant, notphysicaljail. Populated1963MONTHsentenceandno-servicequalificationretained.1859–1932BritishTitanicshipownerand1898–1962Trentongravewrong/unlinked, no vitals/portraitassignment."
+        }
+      ],
       "case_ids": [
         "54626738-3d4f-4949-b486-867b0215b6ba"
       ],
@@ -22051,7 +22408,8 @@
           "in_exile_since",
           "end_of_exile"
         ]
-      }
+      },
+      "open_research_note": "OriginalILWU1959trialand1965appealreports linkMineMillstaff/controller/administrativeassistant, notphysicaljail. Populated1963MONTHsentenceandno-servicequalificationretained.1859–1932BritishTitanicshipownerand1898–1962Trentongravewrong/unlinked, no vitals/portraitassignment."
     },
     "james-h-durkin": {
       "id": "9009b1a1-5dad-4346-b449-95aa1f885d44",

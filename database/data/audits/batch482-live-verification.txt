@@ -1,0 +1,23 @@
+Batch482 live verification — October12,2026
+Data commit: b50573dc
+B482-ISOLATED-TEST-OK 763 assertions; production connection unused for writes.
+Shell syntax passed; tinker block contains zero apostrophes.
+Preview15; applied15; replay0. B482-OK on all three runs.
+Compared 723 profiles and 853 cases: 36 expected fields (twenty dates, three portraits, thirteen precision metadata), 50194 unrelated field values preserved.
+No populated values, biographies, case prose, durations, flags, periods, existing photos or sorting changed. No records added/removed. Existing precision entries preserved. Cache cleared after actual changes. No pull request created.
+donald-fortenberry: HTTP200; portrait linked, HTTP200, exact SHA256
+ed-lazar: HTTP200; portrait linked, HTTP200, exact SHA256
+arthur-harvey: HTTP200; birthdate=1932-06-08 (DAY), visible; death_date=2026-01-17 (DAY), visible; portrait linked, HTTP200, exact SHA256
+theodore-gibson: HTTP200; sentenced_date=1960-08-30 (DAY), visible
+chandler-davis: HTTP200; sentenced_date=1957-07-01 (MONTH), visible
+sidney-turoff: HTTP200; sentenced_date=1959-12-01 (MONTH), visible
+wilmer-young: HTTP200; sentenced_date=1959-07-07 (DAY), visible
+dave-wyland: HTTP200; sentenced_date=1959-07-07 (DAY), visible
+bradford-lyttle: HTTP200; sentenced_date=1959-07-13 (DAY), visible
+donald-fortenberry: HTTP200; sentenced_date=1959-07-13 (DAY), visible; incarceration_date=1959-01-01 (YEAR), visible
+ed-lazar: HTTP200; arrest_date=1959-07-16 (DAY), visible; sentenced_date=1959-07-01 (MONTH), visible; incarceration_date=1959-07-01 (MONTH), visible
+arthur-harvey: HTTP200; arrest_date=1959-04-17 (DAY), visible; sentenced_date=1959-04-24 (DAY), visible; incarceration_date=1959-04-01 (MONTH), visible
+arthur-harvey: HTTP200; sentenced_date=1959-01-01 (YEAR), visible; incarceration_date=1959-08-10 (DAY), visible
+david-mcreynolds: HTTP200; sentenced_date=1959-04-24 (DAY), visible
+walter-c-lohman-jr: HTTP200; sentenced_date=1958-06-16 (DAY), visible
+Fourteen profiles researched. The exhaustive1950s research remains in progress; unresolved findings retained in batch482 audit.
