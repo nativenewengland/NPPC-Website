@@ -34,4 +34,4 @@ Sentence date only. Release remains unresolved, and the early August 1995 bail i
 
 Source: Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.59 / PDF p.71 (user-supplied book; scan visually verified).
 
-Validation and deployment pending. This does not complete the decade review.
+Applied live and verified; replay updated zero rows. See batch501-live-verification.json. This does not complete the decade review.

@@ -7,4 +7,4 @@ Sources:
 - https://www.laka.org/docu/magazines/nukewatch_pathfinder/1999-1-spring.pdf#page=7
 - https://www.episcopalarchives.org/e-archives/the_witness/pdf/1998_Watermarked/Witness_19981101.pdf#page=13
 
-The Pathfinder scan was visually checked. Public biographies and unrelated case fields remain unchanged. Existing judge/institution metadata and duplicate-row consolidation require a separate review. Validation/deployment pending.
+The Pathfinder scan was visually checked. Public biographies and unrelated case fields remain unchanged. Existing judge/institution metadata and duplicate-row consolidation require a separate review. Applied live and verified; replay updated zero rows. See batch502-live-verification.json.

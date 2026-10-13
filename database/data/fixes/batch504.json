@@ -1,0 +1,88 @@
+{
+  "batch": 504,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "0ab727b2-2c51-4d8a-9a57-73a4767a1369",
+      "name": "Cameron Michael Kraus",
+      "slug": "cameron-michael-kraus",
+      "case_id": "ed4d6cb6-dfc3-4a54-b9c8-e0c2d90c7969",
+      "expected": {
+        "id": "ed4d6cb6-dfc3-4a54-b9c8-e0c2d90c7969",
+        "prisoner_id": "0ab727b2-2c51-4d8a-9a57-73a4767a1369",
+        "institution_id": "c98452d2-9cda-44fe-9b98-c026540260c8",
+        "charges": "Attempted aggravated arson - 1997 attempted firebombing of Montgomery Fur Company, West Haven, Utah",
+        "arrest_date": "1997-03-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-03-17 00:00:00",
+        "release_date": "1997-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days county jail",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-30 22:54:26",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1997-08-27 00:00:00",
+        "date_precision": "{\"release_date\":\"year\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://newspaper.animalpeopleforum.org/1997/10/01/direct-action-crackdown/"
+      ],
+      "rationale": "Contemporary October1997 reporting supplies this sentencing date. Walton is month precision only. Custody endpoints and conflicting March action dates remain unresolved; no sentence length is used to invent release."
+    },
+    {
+      "prisoner_id": "c6e940e1-c934-4fb6-8a3d-bec1e63eaeed",
+      "name": "Bret G. Walton",
+      "slug": "bret-g-walton",
+      "case_id": "14a73f0e-72e9-4056-af58-abf65237bf4c",
+      "expected": {
+        "id": "14a73f0e-72e9-4056-af58-abf65237bf4c",
+        "prisoner_id": "c6e940e1-c934-4fb6-8a3d-bec1e63eaeed",
+        "institution_id": "c98452d2-9cda-44fe-9b98-c026540260c8",
+        "charges": "Attempted aggravated arson - 1997 attempted firebombing of Montgomery Fur Company, West Haven, Utah",
+        "arrest_date": "1997-03-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-03-17 00:00:00",
+        "release_date": "1997-04-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days home confinement",
+        "imprisoned_for_days": 30,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1997-06-01 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"month\"}"
+      },
+      "sources": [
+        "https://newspaper.animalpeopleforum.org/1997/10/01/direct-action-crackdown/"
+      ],
+      "rationale": "Contemporary October1997 reporting supplies this sentencing date. Walton is month precision only. Custody endpoints and conflicting March action dates remain unresolved; no sentence length is used to invent release."
+    }
+  ]
+}

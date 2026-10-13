@@ -6,4 +6,4 @@ Sources:
 - https://www.2600.com/law/bernie.html
 - https://www.2600.com/law/2index.html
 
-Validation/deployment pending. The separate 1995 federal case needs its own entry and precise admission verification; it is not added by this batch.
+Applied live and verified. Replay updated zero rows; see batch503-live-verification.json. The separate 1995 federal case needs its own entry and precise admission verification; it is not added by this batch.
