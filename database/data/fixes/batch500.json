@@ -1,0 +1,82 @@
+{
+  "batch": 500,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "fb93b63f-3bb6-4696-ae81-b52b80ac0a76",
+      "name": "Megan Rice",
+      "slug": "megan-rice",
+      "case_id": "3295078a-fd15-4803-b9a1-0bb4a8e46615",
+      "expected": {
+        "id": "3295078a-fd15-4803-b9a1-0bb4a8e46615",
+        "prisoner_id": "fb93b63f-3bb6-4696-ae81-b52b80ac0a76",
+        "institution_id": null,
+        "charges": "Federal trespass during a School of the Americas Watch protest at Fort Benning, Georgia (1997)",
+        "arrest_date": "1997-11-16 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1998-03-23 00:00:00",
+        "release_date": "1998-09-18 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "6 months, $3000 fine. Source: https://www.soaw-austin.org/POC1983_2012.php",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 19:22:56",
+        "updated_at": "2026-10-13 23:16:07",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": 6,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": null
+      },
+      "sources_batch": 498,
+      "rationale": "Use the verified exact custody endpoints instead of an older rounded month override. Preserve the sentence text and all other case fields."
+    },
+    {
+      "prisoner_id": "eca95a1a-28cb-42c0-830e-91cf9824190d",
+      "name": "Kevin Poulsen",
+      "slug": "kevin-poulsen",
+      "case_id": "3f8bffe7-38b6-49ad-b572-654af4f66246",
+      "expected": {
+        "id": "3f8bffe7-38b6-49ad-b572-654af4f66246",
+        "prisoner_id": "eca95a1a-28cb-42c0-830e-91cf9824190d",
+        "institution_id": null,
+        "charges": "Computer/telecommunications intrusion (hacking Pacific Bell systems)",
+        "arrest_date": "1991-04-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1995-04-10 00:00:00",
+        "incarceration_date": "1991-04-11 00:00:00",
+        "release_date": "1996-06-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Hacked Pacific Bell servers to rig radio call-in contests and reportedly uncovered evidence of FBI wiretapping; the FBI labeled him a national security risk and placed him atop its most-wanted list. Arrested in 1991 and spent about 5 years in prison.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-13 23:20:06",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": 60,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": null
+      },
+      "sources_batch": 499,
+      "rationale": "Use the verified exact custody endpoints instead of an older rounded month override. Preserve the sentence text and all other case fields."
+    }
+  ]
+}
