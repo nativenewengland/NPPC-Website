@@ -1,0 +1,41 @@
+# 1950s missing-fields review: batch 485
+
+October 12, 2026. Fourteen previously pending profiles researched. Eleven missing dates and five portraits across seven profiles/ten guarded rows. Field evidence in batch485.json; portrait provenance and exact crop boxes in CREDITS-batch485.md. No pull request.
+
+## Verified additions
+
+Marie Richardson: DOB September4,1920; DOD March6,1987; October1958MONTHrelease and1952AfroAmerican portrait. StanleySydow: DOB September16,1929; DOD August12,2022; October1952MONTHsentence and1952YEARactualjail, familyobituary portrait. EugeneMoy: December16,1955DAYphysicalremand; December14,1958DAYdeath. VidalSantiagoDiaz:1910YEARbirth, ElMundoheadshot. ElioTorresola:1950YEARactualcapture/custody, WideWorldportrait. FykeFarmer:captioned1958portrait.
+
+## Scope and limitations
+
+Existingfields/precision,bios,caseprose,durations,flags,institutions,periods,affiliationsandsortingpreserved. Norecordsadded/removed. Monthday1/yearJan1 placeholders carryexplicitprecision. No sentencearithmetic,bailorder,appeal/acquittalordeportationorderconvertedtoactualrelease. Exactphysicalexitstillunresolvedforseveralprofiles. Marie thumbnail attachedunchangedbecauseoriginaldownload429; notupscaled. Sydowfamilyidentityindependentlycrossmatched, laterArmyservicepreserved inresearchnotes. Vidal17yr6mosentencereported vscurrentabout2yr andBlancaAug18releasevscurrentAug1 conflictsloggedwithoutoverwriting.
+
+## Per-profile research
+
+- **anna-ganley**: Originalsociologistfieldresearch NatureSocietyThought3:4p418 identifiesAnnaBlock,wifeNatmarried1924, priorpicketingarrests,deportationattempt1949. Noindividual1950scustodyendpoint,vitalsorportraitverified. Fullindexedsource read; directPDF expiredcertificate unavailable. FamilyPattyBenderobituaryconfirmsparentsNat/Annaonlychild1938 butnotAnnaDOB. UnrelatedMassachusetts/IrishAnnaGanleyrecordsnotmatched.
+
+- **paul-yuditch**: PrimaryJewishLifeApril1951p5 reports17daysandbailorder, June1951pp23–24 letterconfirmsbailwonseveralweekslater; exactphysicalexitnotverified, no arithmeticday/orderasrelease. Age63Aprilvs62Juneconflictmeansno DOBfromage. Jan1953p?renewedEllisIslanddetentionwithSchneider/Nukk/Simonoff separateepisode, not1951release. No captionedportraitfound.
+
+- **ida-rothstein**: Currentvitals,photoandJan9,1951arrest/inc/releasealreadyfilled, preserved. Civildeportationproceedingdoesnotneedcriminalsentencingdate. Noadditionalverifiedmissingendpointfound.
+
+- **antonio-papadimitriou**: 1952Guardianforeignborncoverageandtargetedname/deportationsearches establishGreekdeportationtargeting, notactualUScustody/vitals/photo. NamesakeGreekcurrentcourtdefendantsnotmatched. No unsupportedcustodyadded.
+
+- **charles-tuteur**: OriginalGuardianDec11,1952p6 civilcitizenshipcaseandACPFBownLamp casecontinuance establishdenaturalization, notUSjail. WifeMurielMannyTuteurfamilyhistorylinksGermanescape/marriage1943/husbanddied2006; genericCharlesTuteur1915–2006SSDIleadnot independentlylinkedoriginalrecord, leftunfilled. Guardian1931escapevsJewishLife1938discrepancy logged; no existingprosechanged. EarlierNaziimprisonmentnotUS1950scustody.
+
+- **marie-richardson**: VerifiedDOBSept4,1920/DODMar6,1987andOct1958MONTHreleasefromoriginalWashingtonAreaSparkarchivalresearch. CaptionidentifiedAfroAmericanD.A.HarrisJr1952portraitpublisherthumbnail195x240attachedunchanged; largerFlickroriginal429unavailable. Existing1952sentence/1954inc preserved. Laterrelease exactdayunresolved.
+
+- **vidal-santiago-diaz**: CaptionidentifiedElMundoheadshotadded;1910YEARbirthconservativewithoutinspectedoriginalregistry. ExactbirthdayJan1reportedsource/familyprofilebutnotclaimingdocumentinspection. March1982/Mar12deathleadunverifiedoriginal; noaddeddeath. SiegeOct30vsOct31narrativeconflict, sentencing17yr6mo vscurrentabout2yr likelyactualtime confusion,pardon1952notphysicalreleaseday. Currentbio/sentencepreservedmissingonlyscope; nounsupportedcustodydates.
+
+- **deusdedit-marrero**: OwnGovernorCivilRightsCommittee1959p168 confirmsprisonthenhospitals, administrativejobrestorationDec23,1957 andclaimscriminalreversalafterthat; originalcourt79PR610dated1956 conflictsreport chronology. FirsthandRichardLevinsletterGuardianFeb6,1952p2 confirmsArecibojail butdoesnotgiveactualadmissiondate. CourtinformationOct30,1950describesoffense, notarrestdatetime; no custodyendpointfromoffense/currentstatus/reversal. No verifiedportrait/vitals.
+
+- **stanley-dale-sydow**: Familyobituaryprimaryexactvitalsandportraitmatchedviaunique fullname,Lyons,parentsHarvey and1952age23; Army2years/reservesJune4,1961acknowledged. AP1952source actualOmahajailYEAR1952, Oct1952MONTHsentence. Oct7convictionnot exactsentence, Feb1953appealdismissalnotrelease. No releasearithmetic.
+
+- **fyke-farmer**: OriginalGuardianApr14,1958p3 explicitcaptionportraitadded. Populatedvitalsprotected. Civil4733taxlienandunsuccessfullitigationarenotUSincarceration, no jaildatesadded.
+
+- **eugene-moy**: OriginalDec26,1955p8 actualDec16entry andDec29,1958p10 exactDec14deathverified. Obituaryconfirmsdeathaftercustody, neverrecovered,notinprison. Age52notexactDOB. No verifiedindividualportrait/releaseendpoint; no one-yearsentencearithmetic.
+
+- **jacob-daniel-webster-greene**: Targetedfull/shortnameGreene/Webster,HarrisonCountyIndianacriminallibel searchesnoindependentvitals/photo/actualrelease. ExistingDec18,1951arrest/incprotected; sixmonthobservationperiodnotarithmeticallyturnedintorelease. Unrelatedmodernmugshots andgenealogynamesexcluded.
+
+- **blanca-canales**: Populatedvitals/photo/custodydatespreserved. ScholarlyWagenheimtablelead reportsAug18,1967release,currentAug1,1967date/prosemonthonly conflictloggednotchanged. June1951Aldersonarrivalafterbrieftrialnot sentencingday; no verifiedmissing sentencingdatefound.
+
+- **elio-torresola**: OriginalWideWorldPhotoexplicitrightidentifiedcapturedElio—notGriselio—croppedexactlyandadded. Armedguardcaptured1950 photograph verifiesactualcustodyYEAR1950, no inventedprisonadmissionday; populatedNov2arrestprotected. Sentence/releaseuncertain, no deathminusdurationarithmetic.

@@ -1,0 +1,334 @@
+{
+  "batch": 485,
+  "audit_date": "2026-10-12",
+  "expected_count": 10,
+  "sources": {
+    "richardson": "https://washingtonspark.wordpress.com/2012/11/19/a-dc-labor-civil-rights-leader-remembered-marie-richardson/",
+    "richardson-photo": "https://www.flickr.com/photos/washington_area_spark/8199615761",
+    "richardson-published": "https://i0.wp.com/farm9.staticflickr.com/8202/8199615761_3faa2a4ae5_m.jpg?resize=195%2C240",
+    "sydow-obit": "https://cdn5.creativecirclemedia.com/enterprise/files/20220817-103515-8.18.2022%20Lyons%20Mirror-Sun.pdf",
+    "sydow-jail": "https://oregonnews.uoregon.edu/lccn/sn97071090/1952-12-08/ed-1/seq-8/",
+    "sydow-family": "https://www.marxists.org/history/usa/pubs/national-guardian/1953-05-04-5-28-nat-guardian.pdf",
+    "sydow-court": "https://www.leagle.com/decision/1953954202f2d7522724",
+    "farmer-photo": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-04-14-10-26-nat-guardian.pdf",
+    "moy-obit": "https://www.marxists.org/history/usa/pubs/national-guardian/1958-12-29-11-11-nat-guardian.pdf",
+    "moy-remand": "https://www.marxists.org/history/usa/pubs/national-guardian/1955-12-26-8-10-nat-guardian.pdf",
+    "torresola-vidal-photo": "https://omowalebooks.wordpress.com/wp-content/uploads/2020/03/campos-1.pdf",
+    "vidal-birth": "https://www.salonboricua.com/blogs/historias/vidal-santiago-diaz-el-barbero-que-paralizo-a-puerto-rico-en-1950-segunda-parte",
+    "vidal-registry-lead": "https://ancestors.familysearch.org/en/GMVP-5CN/vidal-santiago-d%C3%ADaz-1910-1982",
+    "ganley": "https://www.imid.ltd/docs/nst034.pdf",
+    "yuditch-1951": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-5/v05n06-apr-1951-JL.pdf",
+    "yuditch-letter": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-5/v05n08-jun-1951-JL.pdf",
+    "yuditch-renewed": "https://www.marxists.org/history/usa/pubs/jewish-life/vol-7/v07n03-jan-1953-JL.pdf",
+    "tuteur-papadimitriou": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-12-11-5-8-nat-guardian.pdf",
+    "marrero-court": "https://law.counselstack.com/opinion/people-v-marrero-nazario-prsupreme-1956",
+    "marrero-committee": "https://cdc.pr.gov/InstitutoDeEducacion/RecursosEducativos/Informes/Informe%20del%20Comit%C3%A9%20del%20Gobernador%20X.%201959-CDC-001.pdf",
+    "marrero-letter": "https://www.marxists.org/history/usa/pubs/national-guardian/1952-02-06-4-16-nat-guardian.pdf"
+  },
+  "entries": [
+    {
+      "table": "prisoners",
+      "id": "eea8a81e-93fe-4df7-84f5-c3ad273773ec",
+      "prisoner_id": "eea8a81e-93fe-4df7-84f5-c3ad273773ec",
+      "name": "Marie Richardson",
+      "slug": "marie-richardson",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1920-09-04 00:00:00",
+        "death_date": "1987-03-06 00:00:00",
+        "photo": "prisoners/marie-richardson-afro-american-batch485.jpg",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date"
+          ],
+          "source": "richardson",
+          "note": "Craig Simpson original archival research, Washington Area Spark, explicitly Marie Lucinda Richardson bornSeptember4,1920 WashingtonDC toMattie/Griffin, brotherThomas, redcaps union family, diedMarch6,1987, viewingMarch12, burialLincolnMemorialSuitland. Article identifies same1952LibraryofCongress prosecution and1954Alderson custody; dates not inferred from age or viewing. Full article downloaded/read; underlying newspaper issues not independently retrieved. Source research basis names AfroAmerican, WashingtonPost/Star, court records andHUAC transcripts."
+        },
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "richardson-photo",
+          "note": "Washington Area Spark original archive identifies Marie Lucinda Richardson (Harris), undated photograph published in Afro American in 1952, photographer D. A. Harris Jr., courtesy Afro American Newspapers, all rights reserved. Full original Flickr file currently returns429; exact publisher-served195x240 thumbnail downloaded from observed article imageURL and attached unchanged, without enlargement. Original caption and photograph visually inspected."
+        }
+      ],
+      "asset": {
+        "file": "marie-richardson-afro-american-batch485.jpg",
+        "sha256": "dd24e4f481e0e3330e6564705bb4cf2a767eac6a6fd23a648f4a4ecaa361d03c"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "9f9d9aec-a788-4b7d-be6b-908bebb8ee3e",
+      "prisoner_id": "eea8a81e-93fe-4df7-84f5-c3ad273773ec",
+      "name": "Marie Richardson",
+      "slug": "marie-richardson",
+      "expected": {
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "release_date": null
+      },
+      "update": {
+        "release_date": "1958-10-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "release_date"
+          ],
+          "source": "richardson",
+          "note": "Original archival research explicitly finally released prisonOctober1958, afterAlderson custody. MONTHonly, dayunresolved; January1952 defenseparty detention notarrest norpermanentprisonentry. ExistingMarch7,1952sentence andJuly1954MONTHincarceration preserved; no duration edit."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "70956be1-beb1-4342-aa78-79a6a15eacbe",
+      "prisoner_id": "70956be1-beb1-4342-aa78-79a6a15eacbe",
+      "name": "Stanley Dale Sydow",
+      "slug": "stanley-dale-sydow",
+      "expected": {
+        "date_precision": null,
+        "birthdate": null,
+        "death_date": null,
+        "photo": null
+      },
+      "update": {
+        "birthdate": "1929-09-16 00:00:00",
+        "death_date": "2022-08-12 00:00:00",
+        "photo": "prisoners/stanley-dale-sydow-lyons-mirror-sun-batch485.jpg",
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "source": "sydow-obit",
+          "note": "Family obituary reproduced by original Lyons Mirror-Sun August18,2022 printedp3/PDF3 namesStanleyDaleSydow, parentsHarvey/ChristineMiller, formerlyLyons, explicitcaptionStanleySydow. Originalembedded149x223 JPEG extracted directly from PDF, visuallychecked and attached unchanged. Unique full name, Lyons residence, 1952age23 andmotherMrsHarveySydow in1953 originalGuardian independently link sameperson. LaterArmyservice acknowledged, not concealed or usedtoinfercustodyrelease. ExplicitDOBSeptember16,1929Blair; diedAugust12,2022SyracuseGoodSamaritan. Dates printedin familyobituary, not agearithmetic."
+        },
+        {
+          "fields": [
+            "birthdate",
+            "death_date",
+            "photo"
+          ],
+          "source": "sydow-family",
+          "note": "OriginalGuardianMay4,1953p5 first-personattorneyFykeFarmer interview identifiesMrsHarveySydow asmotherseekingdefenseforStanleyDaleSydow, NebraskaLyonsfarmer. Crossmatchwithobituary full name, fatherHarvey, Lyons andage. ModernSyracusegrave withoutfamily crossmatchnotused."
+        }
+      ],
+      "asset": {
+        "file": "stanley-dale-sydow-lyons-mirror-sun-batch485.jpg",
+        "sha256": "08a884024562ac2547100e471653b2f84b9ae9115cb3b7097be2cdcff51783c3"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "417a9ccb-da3d-41b4-afa2-644143430bb8",
+      "prisoner_id": "417a9ccb-da3d-41b4-afa2-644143430bb8",
+      "name": "Elio Torresola",
+      "slug": "elio-torresola",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/elio-torresola-wide-world-batch485.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "torresola-vidal-photo",
+          "note": "FedericoRibesTovar1971 AlbizuCampos:PuertoRicanRevolutionary image-onlyPDF62, bottomrightphoto caption explicitlyElioTorresola,right,brotherGriselio,captured during1950fighting; WideWorldPhoto. Rightidentifiedmanisolated fromguard, original1668wide composite rendered atnative scanwidth, exact250x380crop. Originalcaption/photoandcropvisuallychecked. NotGriselioTorresola orunknownNationalist."
+        }
+      ],
+      "asset": {
+        "file": "elio-torresola-wide-world-batch485.png",
+        "sha256": "9b3e12df3a5e6fd741870400bd8b84e5498c3a16e2d885c65735cddc64b71a24"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "1a8b42db-301d-4ced-b7ee-c14a028fa6e6",
+      "prisoner_id": "1a8b42db-301d-4ced-b7ee-c14a028fa6e6",
+      "name": "Vidal Santiago Diaz",
+      "slug": "vidal-santiago-diaz",
+      "expected": {
+        "date_precision": null,
+        "photo": null,
+        "birthdate": null
+      },
+      "update": {
+        "photo": "prisoners/vidal-santiago-diaz-el-mundo-batch485.png",
+        "birthdate": "1910-01-01 00:00:00",
+        "date_precision": "{\"birthdate\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "torresola-vidal-photo",
+          "note": "Same1971bookPDF64 bottomrightheadshot explicitcaptionVidalSantiagoDiaz,AlbizuCamposbarber, bulletwoundforehead; Photo fromElMundoSanJuan. Original1668wide scanrenderatnativewidth, exact436x635crop. Originalcaption/photoandcropvisuallychecked."
+        },
+        {
+          "fields": [
+            "birthdate"
+          ],
+          "source": "vidal-birth",
+          "note": "WilmerJobethFernandez originalSalónBoricua historicalresearch explicitlyJanuary1,1910AguasBuenas. FamilySearch civil-registry-linkedGMVP5CN familyprofile confirms1910parentsHiginioSantiagoPagan/MargaritaDiaz. Exactbirthcertificateimage notinspected; conservativelyYEAR1910only. March1982death/Mar12familyprofilelead notaddedwithout original deathrecord; no age arithmetic."
+        }
+      ],
+      "asset": {
+        "file": "vidal-santiago-diaz-el-mundo-batch485.png",
+        "sha256": "4b158e7e4c26d5d99d0eb74269b5bd2a043b6ee80c73ba4e2d2040c8cca517b1"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "fd5e6e50-1fa1-425b-85a5-8c6eabe11915",
+      "prisoner_id": "417a9ccb-da3d-41b4-afa2-644143430bb8",
+      "name": "Elio Torresola",
+      "slug": "elio-torresola",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1950-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "torresola-vidal-photo",
+          "note": "Originalcaption-identified1950uprisingnewsphotograph explicitlyElioTorresolacaptured, underarmedguard. ActualcustodyYEAR1950supported; thisdoesnotestablishprisoninstitutionadmissionday, no sentenceconvertedtoadmission. ExistingNovember2,1950arrestpreserved, release andsentence dates unresolved."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "04772d32-8b7d-4c40-91e1-87cdf517be87",
+      "prisoner_id": "04772d32-8b7d-4c40-91e1-87cdf517be87",
+      "name": "Fyke Farmer",
+      "slug": "fyke-farmer",
+      "expected": {
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/fyke-farmer-national-guardian-batch485.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "farmer-photo",
+          "note": "OriginalGuardianApril14,1958 printedp3/PDF3 captionexplicitlyFykeFarmer,left, holdsacitizencannotbecompelledtoassistcrime; separatephotoGIgravesKorea onright. Exact804x1029portrait cropfromnative4142-wide composite scan, originalcaptionandportrait/crop visuallychecked. Photographeruncredited; originalrightsretained. Civiltaxlienlitigationdoesnotestablishincarceration; casecustodydatesleftblank."
+        }
+      ],
+      "asset": {
+        "file": "fyke-farmer-national-guardian-batch485.png",
+        "sha256": "a97378c81ba72e5debb2a74e0b29cc57ee7e46fc0cd33e5c85fd3c8f7753d0eb"
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "9bc75051-c3cd-4135-8659-1829b0118d38",
+      "prisoner_id": "9bc75051-c3cd-4135-8659-1829b0118d38",
+      "name": "Eugene Moy",
+      "slug": "eugene-moy",
+      "expected": {
+        "date_precision": null,
+        "death_date": null
+      },
+      "update": {
+        "death_date": "1958-12-14 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "death_date"
+          ],
+          "source": "moy-obit",
+          "note": "OriginalGuardianDecember29,1958 printedp10/PDF10 obituary explicitlyEugeneMoy diedNewYorkDecember14,age52; funeralDecember21,wifeAnnbusinessmanagerChinaDailyNews. Originalvisuallychecked. He previouslyservedoneyearin1956 andneverrecovered, notdiedduringcustody. Age52doesnotestablish exact1906DOB; no DOBarithmetic. Existingbiopreserved."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "273d1aa9-59a5-4400-b728-0ed72a475f86",
+      "prisoner_id": "9bc75051-c3cd-4135-8659-1829b0118d38",
+      "name": "Eugene Moy",
+      "slug": "eugene-moy",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1955-12-16 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "moy-remand",
+          "note": "OriginalGuardianDecember26,1955 printedp8/PDF8 explicitretrospectivereport EugeneT.Moy takenFederalHouseofDetentionWestSt FridaymorningDecember16 tobeginoneyear. Originalvisuallychecked. Actualphysicalcustodyreport, notDecember12plannedreportingdate. No releaseendpointinferredbyaddingoneyear; sentence date notinferredfromverdict."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "4df03edb-346c-4415-ba5d-8dd789191e2e",
+      "prisoner_id": "70956be1-beb1-4342-aa78-79a6a15eacbe",
+      "name": "Stanley Dale Sydow",
+      "slug": "stanley-dale-sydow",
+      "expected": {
+        "date_precision": null,
+        "sentenced_date": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "sentenced_date": "1952-10-01 00:00:00",
+        "incarceration_date": "1952-01-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"incarceration_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date",
+            "incarceration_date"
+          ],
+          "source": "sydow-jail",
+          "note": "ContemporaryAPreportMedfordMailTribuneDecember8,1952 printedp8: StanleyDaleSydow23LyonsNE convictedOctober7 forfailurereportinduction,sentenced3years, actuallyinjailOmahaawaitingappeals. MONTHOctober1952sentence only, October7isverdictnotseparatelyverifiedsentencingday. YEAR1952custody only; firstactualday notestablished, notsentenceasadmission. Fullindexedprimaryreportread; nativepage notdownloaded."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "sydow-family",
+          "note": "FirstpersonattorneyFykeFarmer interview GuardianMay4,1953p5: pleanotguiltyJune16,1952,falltrial,Octoberhabeaspetition, confirms1952prosecutionidentityandactualcustody. Feb4,1953appellatedismissalnotrelease; laterArmyservice datesnotusedasjailendpoint."
+        }
+      ]
+    }
+  ]
+}
