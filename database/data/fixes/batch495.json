@@ -1,0 +1,307 @@
+{
+  "batch": 495,
+  "expected_count": 7,
+  "selection_seed": "NPPC-random-missing-incarceration-counters-2026-10-13",
+  "entries": [
+    {
+      "sample_number": 4,
+      "prisoner_id": "60024029-e41c-4798-9105-969ce9135b53",
+      "name": "Cory Bartholomew",
+      "slug": "cory-bartholomew",
+      "case_id": "04a7a333-07bd-440c-b52c-edfccfd457be",
+      "expected": {
+        "id": "04a7a333-07bd-440c-b52c-edfccfd457be",
+        "prisoner_id": "60024029-e41c-4798-9105-969ce9135b53",
+        "institution_id": "6839fd9f-e59d-4178-9e7e-a2ae9a76e64d",
+        "charges": "Federal trespass — Project ELF anti-nuclear protest",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1995-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months imprisonment for refusal to pay a $1,000 Project ELF protest fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:33",
+        "updated_at": "2026-05-18 05:47:33",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 6
+      },
+      "sources": [
+        "https://www.laka.org/docu/magazines/nukewatch_pathfinder/2002-4-winter.pdf#page=6",
+        "https://www.laka.org/docu/magazines/nukewatch_pathfinder/2004-4-winter.pdf"
+      ],
+      "rationale": "John LaForge reports six months actually served in 1995 in Nukewatch Pathfinder Winter 2002-03, printed page 5 (PDF page 6). This is actual custody, not merely the imposed sentence. The existing January 1995 month-precision start is corroborated by the Winter 2004 chronology. No exact release is inferred."
+    },
+    {
+      "sample_number": 14,
+      "prisoner_id": "dd95d08e-d14d-418d-a3eb-57fb65f1c1fd",
+      "name": "Otto Popovich",
+      "slug": "otto-popovich",
+      "case_id": "f9fc6872-b66b-4afd-a14e-6fd964213fd8",
+      "expected": {
+        "id": "f9fc6872-b66b-4afd-a14e-6fd964213fd8",
+        "prisoner_id": "dd95d08e-d14d-418d-a3eb-57fb65f1c1fd",
+        "institution_id": null,
+        "charges": "Disorderly conduct and violating a handbill ordinance while distributing Free Thaelmann leaflets",
+        "arrest_date": "1934-07-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to six months and ten days of hard labor and a $60 fine for distributing leaflets in Jamaica, Queens. Released from Welfare Island on $1,000 bail on September 10, 1934, while appealing the conviction.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 23:10:19",
+        "updated_at": "2026-10-12 14:56:19",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1934-09-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1934/v11-n218-sep-11-1934-DW-LOC.pdf#page=6"
+      ],
+      "rationale": "September 11, 1934 Daily Worker page 6 explicitly reports release from Welfare Island the previous day on bail. Fill the structured release already mentioned in the biography; custody start is not inferred from arrest or sentencing."
+    },
+    {
+      "sample_number": 53,
+      "prisoner_id": "596041da-8199-4264-bd42-e1120d148821",
+      "name": "Charles Smolikoff",
+      "slug": "charles-smolikoff",
+      "case_id": "c077dd6d-275e-4b27-a2a9-5696ae0f8080",
+      "expected": {
+        "id": "c077dd6d-275e-4b27-a2a9-5696ae0f8080",
+        "prisoner_id": "596041da-8199-4264-bd42-e1120d148821",
+        "institution_id": null,
+        "charges": "Contempt —.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed for contempt.",
+        "plead": null,
+        "sentenced_date": "1954-07-07 00:00:00",
+        "incarceration_date": "1954-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed without bail (despite a rheumatic heart).\n\nCharges as recorded: Contempt — for refusing, on Fifth Amendment grounds, to answer a Dade County 'subversive activities' probe.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 06:50:18",
+        "updated_at": "2026-10-12 16:27:54",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1954-07-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://ujpfo.org/wp-content/uploads/2023/12/JL_DEC_54.pdf#page=5",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-02-6-41-nat-guardian.pdf#page=5"
+      ],
+      "rationale": "Jewish Life December 1954 page 5 places the July 7 contempt sentence among defendants committed without bail before July ended. Refine the existing year-only incarceration date to July 1954; do not equate sentencing with a proved exact admission day. August 2 Guardian reports release as expected, so it is not an actual release endpoint."
+    },
+    {
+      "sample_number": 61,
+      "prisoner_id": "39b46918-68ec-4f92-ad83-235864c48abf",
+      "name": "Delbert Tibbs",
+      "slug": "delbert-tibbs",
+      "case_id": "ededb43d-7ba1-4b00-b21e-04fc80e9e525",
+      "expected": {
+        "id": "ededb43d-7ba1-4b00-b21e-04fc80e9e525",
+        "prisoner_id": "39b46918-68ec-4f92-ad83-235864c48abf",
+        "institution_id": "6b7a097c-6941-44dc-834f-923a150cfe5a",
+        "charges": "Murder and rape in a 1974 attack near Fort Myers, Florida (the killing of Terry Milroy and rape of Cynthia Nadeau).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1977-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death (1974); conviction reversed by the Florida Supreme Court in 1976; freed and charges dropped. Tibbs became a prominent anti-death-penalty activist.\n\nVerdict as recorded: Convicted of murder and rape by an all-white jury in 1974 and sentenced to death. The Florida Supreme Court reversed the conviction in 1976, citing \"considerable doubt\" of his guilt, and the charges were dismissed in 1982.\n\nCharges as recorded: Murder and rape in a 1974 attack near Fort Myers, Florida (the killing of Terry Milroy and rape of Cynthia Nadeau) — a conviction widely condemned as a racist frame-up of a Black hitchhiker; the case rested on a since-recanted jailhouse informant and a disputed eyewitness identification made from police photographs.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 03:26:17",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1974-03-13 00:00:00",
+        "incarceration_date": "1974-03-13 00:00:00",
+        "release_date": "1977-01-08 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://exonerationregistry.org/cases/4620",
+        "https://openjurist.org/337/so2d/788/tibbs-v-state-1850636"
+      ],
+      "rationale": "National Registry of Exonerations, by Michael L. Radelet and Rob Warden, explicitly identifies March 13, 1974 arrest, custodial extradition and jail, and physical release after bond was raised on January 8, 1977. Refines existing January 1977 release precision. The earlier February police stops ended in release and are not counted in this continuous span."
+    },
+    {
+      "sample_number": 69,
+      "prisoner_id": "372950f2-3630-429d-b35e-2142fe0bda72",
+      "name": "Jonathan Montanez",
+      "slug": "jonathan-montanez",
+      "case_id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
+      "expected": {
+        "id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
+        "prisoner_id": "372950f2-3630-429d-b35e-2142fe0bda72",
+        "institution_id": "bb6c98db-f14f-487e-8cb0-ef89cb05289f",
+        "charges": "Civil disorder",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2022-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 24 months federal prison. Indicted by grand jury on one count of civil disorder for obstructing law enforcement/firefighters on May 30, 2020; during the May 30 Fargo, ND riots he jumped on a police squad car and possibly damaged it while inciting a crowd.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-07-29 17:05:27",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2020-09-30 00:00:00",
+        "incarceration_date": "2020-09-30 00:00:00",
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.thedickinsonpress.com/news/moorhead-man-faces-federal-charge-stemming-from-may-riot-in-fargo"
+      ],
+      "rationale": "David Olson reporting on September 30, 2020 explicitly states FBI arrest that Wednesday and detention pending a Friday hearing. Adds the initial custody start; the existing June 2022 month-only release is preserved. No exact continuous-duration total is inferred; bail history and exact release remain unresolved."
+    },
+    {
+      "sample_number": 73,
+      "prisoner_id": "77ed4744-ebcc-4437-a678-775368f4fdc6",
+      "name": "Kim Williams",
+      "slug": "kim-williams",
+      "case_id": "487426cc-801e-4d86-8590-b575f3d5b931",
+      "expected": {
+        "id": "487426cc-801e-4d86-8590-b575f3d5b931",
+        "prisoner_id": "77ed4744-ebcc-4437-a678-775368f4fdc6",
+        "institution_id": null,
+        "charges": "Disobeying a lawful order; no conviction established in the reviewed eyewitness report",
+        "arrest_date": "2023-12-01",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2023-12-01",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "During the December 2023 Holy Innocents witness, Williams and Bill Frankel-Streit blocked a Pentagon checkpoint with a banner linking Wounded Knee and Gaza. Police arrested them after warnings, processed them and released them, charging disobedience of a lawful order. A March 7, 2024 Alexandria federal court appearance was scheduled. The reviewed report establishes no imposed sentence, detention duration or subsequent court disposition. The page also advertises a later December 27 event; that heading is not used as the 2023 arrest date. Source: https://www.fosna.org/preach-palestine-blog/dec-27-massacre-of-the-holy-innocents-witness-at-the-pentagon",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-07 01:53:04",
+        "updated_at": "2026-10-07 01:53:04",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2023-12-28 00:00:00",
+        "release_date": "2023-12-28 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://catholicworker.org/cwers-mark-massacre-of-the-holy-innocents-at-pentagon/"
+      ],
+      "rationale": "CatholicWorker.org January 5, 2024 report, based on organizer Art Laffin, dates the action December 28 and describes police processing followed by release. Refines both existing December 2023 dates. Same-day protest custody does not justify a positive incarceration counter or a prison admission."
+    },
+    {
+      "sample_number": 100,
+      "prisoner_id": "9ab88e9f-fc26-4b48-b331-412759dfa478",
+      "name": "Albert Stangeland",
+      "slug": "albert-stangeland",
+      "case_id": "3abaa32e-0d70-4bdc-aa5b-5c9e73677ee5",
+      "expected": {
+        "id": "3abaa32e-0d70-4bdc-aa5b-5c9e73677ee5",
+        "prisoner_id": "9ab88e9f-fc26-4b48-b331-412759dfa478",
+        "institution_id": "dc430b70-db37-432a-9849-d753d03ce6a2",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1918-09-17 00:00:00",
+        "incarceration_date": "1918-08-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Fifty-year court-martial sentence approved September 17, 1918; reduced to five years in April 1919. December 1919 One Big Union Monthly, pages 39–40, and March 1920 issue, page 20, document military confinement and Fort Douglas imprisonment. The approval date is recorded here as the sentence date. Five years is the reduced imposed sentence, not a verified custody duration. No eventual release date or formal conscientious-objector recognition is inferred.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-10-04 21:00:24",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1918-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf#page=20"
+      ],
+      "rationale": "March 1920 One Big Union Monthly page 20 expressly dates arrest and confinement at Camp Jackson to August 1918. Fill arrest at month precision, preserving the separately documented August 9 incarceration date. No release date inferred from sentence reduction."
+    }
+  ]
+}
