@@ -1,0 +1,204 @@
+{
+  "batch": 496,
+  "verified_at": "2026-10-13T17:47:27.906841+00:00",
+  "commit": "e11cf207aeb7e7546c09af7c53cf66b341f60468",
+  "sample_size": 100,
+  "profiles_updated": 6,
+  "date_fields_added_or_refined": 6,
+  "documented_day_totals_added": 1,
+  "restored_counters": 2,
+  "unchanged_profiles": 94,
+  "preservation": "All prisoner fields and unrelated case fields preserved; whole-table hashes checked inside transaction.",
+  "fixture": "B496-FIXTURE-OK: no-write preview, six updates, documented 64 days, partial duration, preservation of partial precision, preservation, replay, conflict guard\n",
+  "apply_output": "--- fill-random-sample-custody-dates\nUpdating: Sander Katz\nUpdating: Ernest Patton Jr.\nUpdating: Harry Minoru Urata\nUpdating: William Norman Marron\nUpdating: Donald Fortenberry\nUpdating: Harold Reap\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 6\nB496-OK\nBatch 496 complete.\n",
+  "replay_output": "--- fill-random-sample-custody-dates\nAlready applied: Sander Katz\nAlready applied: Ernest Patton Jr.\nAlready applied: Harry Minoru Urata\nAlready applied: William Norman Marron\nAlready applied: Donald Fortenberry\nAlready applied: Harold Reap\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB496-OK\nBatch 496 complete.\n",
+  "public_verification": [
+    {
+      "name": "Sander Katz",
+      "url": "https://politicalprisonercoalition.org/prisoner/sander-katz",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "catch (e) {} }); })(); Sander Katz Released Gender: Male Race: White Era: 1940s State: New York Support Anti-War Biography Sander Katz was a paci"
+      ]
+    },
+    {
+      "name": "Ernest Patton Jr.",
+      "url": "https://politicalprisonercoalition.org/prisoner/ernest-patton-jr",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        " — arrested Jackson, May 24, 1961. Arrested: May 24, 1961 Incarcerated: May 24, 1961 Sentence: Arrested 1961-05-24. The Civil Rights Digital Libr",
+        "y 24, 1961. Arrested: May 24, 1961 Incarcerated: May 24, 1961 Sentence: Arrested 1961-05-24. The Civil Rights Digital Library establishes the arr",
+        "KA: Rip Patton; Earnest Patton Jr. Released Full name: Ernest Patton Date of birth: 1940 Age: 86 Gender: Male Race: Black Era: 1960s State: Missi",
+        "where the catalog dates the record May 25, 1961; the placard date is entered. Case Charges: Freedom Ride participation — arrested Jackson, May 24"
+      ]
+    },
+    {
+      "name": "Harry Minoru Urata",
+      "url": "https://politicalprisonercoalition.org/prisoner/harry-minoru-urata",
+      "http_status": 200,
+      "counters": [
+        "2 Years 5 Months 0 Days"
+      ],
+      "date_context": [
+        "vidual criminal charge established Arrested: April 1943 Incarcerated: April 1943 Released: September 1945 Sentence: Administrative wartime incarc",
+        "e established Arrested: April 1943 Incarcerated: April 1943 Released: September 1945 Sentence: Administrative wartime incarceration, with arrest ",
+        " Harry M. Urata; Minoru Urata; 浦田實 Released Date of birth: 1918 Age: 108 Gender: Male Era: 1940s State: Hawaii Time Imprisoned: 2 Years 5 Months "
+      ]
+    },
+    {
+      "name": "William Norman Marron",
+      "url": "https://politicalprisonercoalition.org/prisoner/william-norman-marron",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "ow of the United States government Arrested: Dec 5, 1955 Sentenced: Sep 17, 1956 Incarcerated: Dec 5, 1955 Sentence: Five years; released on bail",
+        "ec 5, 1955 Sentenced: Sep 17, 1956 Incarcerated: Dec 5, 1955 Sentence: Five years; released on bail pending appeal and no service of the sentence",
+        "{} }); })(); William Norman Marron Released Full name: William Norman Date of birth: 10. 11. 1901 Gender: Male Race: White Era: 1950s State: New "
+      ]
+    },
+    {
+      "name": "Donald Fortenberry",
+      "url": "https://politicalprisonercoalition.org/prisoner/donald-fortenberry",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "e Mead, Nebraska ICBM missile base Arrested: Jul 8, 1959 Sentenced: Jul 13, 1959 Incarcerated: July 1959 Sentence: Six months in jail and a $500 ",
+        "ul 8, 1959 Sentenced: Jul 13, 1959 Incarcerated: July 1959 Sentence: Six months in jail and a $500 fine Convicted: Yes Related Cases Ross Anderso",
+        "e) {} }); })(); Donald Fortenberry Released Gender: Male Race: White Era: 1950s State: Nebraska Support Anti-War Committee for Nonviolent Action "
+      ]
+    },
+    {
+      "name": "Harold Reap",
+      "url": "https://politicalprisonercoalition.org/prisoner/harold-reap",
+      "http_status": 200,
+      "counters": [
+        "2 Months 3 Days"
+      ],
+      "date_context": [
+        "catch (e) {} }); })(); Harold Reap Released Gender: Male Race: White Era: 1960s State: North Carolina Time Imprisoned: 2 Months 3 Days Support Ci"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "name": "Sander Katz",
+      "case_id": "0782ce64-9944-4fa4-9859-bc0632127db7",
+      "changed_fields": {
+        "sentenced_date": {
+          "before": null,
+          "after": "1948-11-19 00:00:00"
+        },
+        "release_date": {
+          "before": null,
+          "after": "1949-08-24 00:00:00"
+        },
+        "updated_at": {
+          "before": "2026-07-29 17:12:21",
+          "after": "2026-10-13 17:46:51"
+        },
+        "date_precision": {
+          "before": null,
+          "after": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        }
+      },
+      "profile_unchanged": true
+    },
+    {
+      "name": "Ernest Patton Jr.",
+      "case_id": "8f5c4af5-f3cd-4043-87b4-651ce6b6910a",
+      "changed_fields": {
+        "incarceration_date": {
+          "before": null,
+          "after": "1961-05-24 00:00:00"
+        },
+        "updated_at": {
+          "before": "2026-08-02 22:50:53",
+          "after": "2026-10-13 17:46:51"
+        },
+        "date_precision": {
+          "before": "{\"arrest_date\":\"day\"}",
+          "after": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+        }
+      },
+      "profile_unchanged": true
+    },
+    {
+      "name": "Harry Minoru Urata",
+      "case_id": "5bbf83ce-f9a4-4f7e-a760-205754ec7f34",
+      "changed_fields": {
+        "release_date": {
+          "before": null,
+          "after": "1945-09-01 00:00:00"
+        },
+        "updated_at": {
+          "before": "2026-10-12 03:52:57",
+          "after": "2026-10-13 17:46:51"
+        },
+        "date_precision": {
+          "before": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+          "after": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+        }
+      },
+      "profile_unchanged": true
+    },
+    {
+      "name": "William Norman Marron",
+      "case_id": "74b3bb1b-7973-4f9c-86ce-8ee50e87b6a9",
+      "changed_fields": {
+        "incarceration_date": {
+          "before": null,
+          "after": "1955-12-05 00:00:00"
+        },
+        "updated_at": {
+          "before": "2026-09-26 20:38:18",
+          "after": "2026-10-13 17:46:51"
+        },
+        "date_precision": {
+          "before": "{\"arrest_date\":\"day\"}",
+          "after": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+        }
+      },
+      "profile_unchanged": true
+    },
+    {
+      "name": "Donald Fortenberry",
+      "case_id": "59fa5171-ac88-46ab-bb30-e744a6959cd1",
+      "changed_fields": {
+        "incarceration_date": {
+          "before": "1959-01-01 00:00:00",
+          "after": "1959-07-01 00:00:00"
+        },
+        "updated_at": {
+          "before": "2026-10-13 00:11:53",
+          "after": "2026-10-13 17:46:51"
+        },
+        "date_precision": {
+          "before": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"year\"}",
+          "after": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}"
+        }
+      },
+      "profile_unchanged": true
+    },
+    {
+      "name": "Harold Reap",
+      "case_id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+      "changed_fields": {
+        "imprisoned_for_days": {
+          "before": null,
+          "after": 64
+        },
+        "updated_at": {
+          "before": "2026-07-29 17:12:20",
+          "after": "2026-10-13 17:46:51"
+        },
+        "documented_imprisoned_for_days": {
+          "before": null,
+          "after": 64
+        }
+      },
+      "profile_unchanged": true
+    }
+  ]
+}

@@ -180,4 +180,4 @@ Unchanged means no supported addition in this pass, not that the record is compl
 
 ## Deployment
 
-Pending guarded execution and public verification; see batch496-live-verification.json after application.
+Applied and publicly verified on 2026-10-13. Six case rows updated with six date fields and one documented 64-day duration. All biographies, profile fields and unrelated case fields preserved. Replay made zero changes. All six public pages returned HTTP 200. Urata displays 2 Years 5 Months 0 Days based on month-level dates; Reap displays 2 Months 3 Days from 64 documented days. Four updated profiles still lack complete endpoints; 94 profiles remained unchanged. See batch496-live-verification.json for checks and before/after changes.
