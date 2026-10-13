@@ -389,17 +389,23 @@
       },
       "update": {
         "sentenced_date": "1959-01-01 00:00:00",
-        "incarceration_date": "1959-01-01 00:00:00",
-        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"year\",\"incarceration_date\":\"year\"}"
+        "incarceration_date": "1959-08-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"year\",\"incarceration_date\":\"day\"}"
       },
       "evidence": [
         {
           "fields": [
-            "sentenced_date",
-            "incarceration_date"
+            "sentenced_date"
           ],
           "source": "harvey",
-          "note": "Family-supportedWRLobituary sameMead1959action explicitlysentencedandserved6monthsinSandstonewithAmmonHennacy. YEAR1959only; WilmerYoung own1961VisibleWitnessmemoir contemporaneousparticipant describesArthursecondentryandactuallysenttoprisonafterearlierprobation; no inventedday/month orreleasedate. Populated1959YEARarrest retained."
+          "note": "Family-supportedWRLobituary sameMead1959action explicitlysentencedandserved6monthsinSandstonewithAmmonHennacy. SentenceYEAR1959only; WilmerYoung own1961VisibleWitnessmemoir contemporaneousparticipant describesArthursecondentryandactuallysenttoprisonafterearlierprobation; no inventedday/month orreleasedate. Populated1959YEARarrest retained."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "omaha-prison",
+          "note": "OriginalFriendsJournalAugust22,1959 printedp464/PDF12 visuallychecked: August10 ArtHarvey andMarjorieSwann returnedtoMead, botharrested andcourt-hearingsameday, judgecommittedthemtoprisononoriginalsixmonthsentence. Actual renewedcustodyAugust10 DAY supported bynamedcontemporaryreport, notcomputedfromtermlength. Earlierprobation/briefarrestnotcontinuousprisonterm."
         },
         {
           "fields": [

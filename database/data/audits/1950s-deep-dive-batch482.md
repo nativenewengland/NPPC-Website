@@ -2,7 +2,7 @@
 
 October12,2026. Fourteen profiles reviewed; twenty missing dates and three caption-identified portraits across eleven profiles/fifteen guardedrows. Fullfieldprovenance inbatch482.json; crops inCREDITS-batch482.md.
 
-TheodoreGibson August30,1960sentence; ChandlerDavis July1957MONTHsentence; SidneyTuroff December1959MONTHsentence; WilmerYoung/DaveWyland July7,1959suspendedsentences; BradfordLyttle/DonaldFortenberry July13,1959sentences; Fortenberry1959YEARphysicalprison; EdLazar July16,1959arrest,JulyMONTHsentence/admission; ArthurHarvey verifiedDOB/DOD,April17arrest/April24sentence/AprilMONTHjail andOmaha1959YEARsentence/admission; DavidMcReynoldsApril24,1959judgment; WalterLohmanJune16,1958retrialsentence. Threeidentifiedoriginalportraits DonFortenberry,EdLazar,ArthurHarvey.
+TheodoreGibson August30,1960sentence; ChandlerDavis July1957MONTHsentence; SidneyTuroff December1959MONTHsentence; WilmerYoung/DaveWyland July7,1959suspendedsentences; BradfordLyttle/DonaldFortenberry July13,1959sentences; Fortenberry1959YEARphysicalprison; EdLazar July16,1959arrest,JulyMONTHsentence/admission; ArthurHarvey verifiedDOB/DOD,April17arrest/April24sentence/AprilMONTHjail andOmaha1959YEARoriginalsentence/August10DAYrenewedcustody; DavidMcReynoldsApril24,1959judgment; WalterLohmanJune16,1958retrialsentence. Threeidentifiedoriginalportraits DonFortenberry,EdLazar,ArthurHarvey.
 
 ## Conflicts and limits
 
