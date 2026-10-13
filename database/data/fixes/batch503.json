@@ -1,0 +1,52 @@
+{
+  "batch": 503,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "098a84f9-26f8-4df9-ad42-b30fc1062faa",
+      "name": "Edward Cummings",
+      "slug": "edward-cummings",
+      "case_id": "2303e2de-1e01-4afb-9868-60601d582599",
+      "expected": {
+        "id": "2303e2de-1e01-4afb-9868-60601d582599",
+        "prisoner_id": "098a84f9-26f8-4df9-ad42-b30fc1062faa",
+        "institution_id": "bcecb1ec-da60-4b88-a155-8bf9bd39c0c3",
+        "charges": "Civil Disorder",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "1996-03-04 00:00:00",
+        "incarceration_date": "1996-03-04 00:00:00",
+        "release_date": "1996-09-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 192,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-05-10 06:33:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1996-01-12 00:00:00",
+        "sentenced_date": "1996-03-05 00:00:00",
+        "release_date": "1996-09-13 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "charges": "Probation violation arising from an earlier Pennsylvania evidence-tampering conviction",
+        "sentence": "Six to twenty-four months and a $3,000 fine, imposed March 5, 1996. Returned to custody following the January 12, 1996 probation hearing. Released on furlough September 13, 1996, with probation reporting continuing. The endpoint records departure from imprisonment, not completion of supervision. This interval excludes the separate March-October 1995 federal detention. Sources: https://www.2600.com/law/bernie.html ; https://www.2600.com/law/2index.html"
+      },
+      "sources": [
+        "https://www.2600.com/law/bernie.html",
+        "https://www.2600.com/law/2index.html"
+      ],
+      "rationale": "Contemporary chronological reports distinguish the January remand from March sentencing and explicitly announce actual September 13 release. Correct one-day legacy errors; do not count the earlier interval across a documented period of freedom."
+    }
+  ]
+}
