@@ -1,0 +1,49 @@
+{
+  "batch": 499,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "eca95a1a-28cb-42c0-830e-91cf9824190d",
+      "name": "Kevin Poulsen",
+      "slug": "kevin-poulsen",
+      "case_id": "3f8bffe7-38b6-49ad-b572-654af4f66246",
+      "expected": {
+        "id": "3f8bffe7-38b6-49ad-b572-654af4f66246",
+        "prisoner_id": "eca95a1a-28cb-42c0-830e-91cf9824190d",
+        "institution_id": null,
+        "charges": "Computer/telecommunications intrusion (hacking Pacific Bell systems)",
+        "arrest_date": "1991-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1995-04-10 00:00:00",
+        "incarceration_date": "1991-04-01 00:00:00",
+        "release_date": "1996-06-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Hacked Pacific Bell servers to rig radio call-in contests and reportedly uncovered evidence of FBI wiretapping; the FBI labeled him a national security risk and placed him atop its most-wanted list. Arrested in 1991 and spent about 5 years in prison.",
+        "imprisoned_for_days": 1827,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-08-05 06:04:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"release_date\":\"day\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": 60,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1991-04-11 00:00:00",
+        "incarceration_date": "1991-04-11 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.latimes.com/archives/la-xpm-1993-09-12-tm-34163-story.html",
+        "https://api.pageplace.de/preview/DT0400.9780313365478_A23550603/preview-9780313365478_A23550603.pdf"
+      ],
+      "rationale": "Refine arrest and custody admission to April 11, 1991. Preserve release and sentencing."
+    }
+  ]
+}
