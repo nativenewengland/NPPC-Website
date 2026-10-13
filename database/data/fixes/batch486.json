@@ -1,0 +1,141 @@
+{
+  "batch": 486,
+  "audit_date": "2026-10-12",
+  "expected_count": 4,
+  "sources": {
+    "bachrach": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-07-04-3-37-nat-guardian.pdf",
+    "bachrach-court": "https://law.justia.com/cases/federal/appellate-courts/F2/190/83/247206/",
+    "coleman": "https://www.lawbookexchange.com/details.php?record=85146",
+    "coleman-original": "https://lawbookexchange.cdn.bibliopolis.com/pictures/85146_2.jpg?auto=webp&v=1766007211",
+    "marshall": "https://archives.nypl.org/scm/21218",
+    "podolski": "https://www.leagle.com/decision/195038894fsupp2941306",
+    "podolski-archive": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/66/78/51/2019667851/2019667851.pdf",
+    "otsuka": "https://nwtrcc.org/2017/08/09/7125/",
+    "grau": "https://memoriaesquerra.cat/biografies/grau-jassans-josep",
+    "colyer": "https://kenyonzimmer.com/red-scare-deportees/coacci-to-danilovich/",
+    "foli": "https://kenyonzimmer.com/red-scare-deportees/fernandez-to-foli/",
+    "graves-grunzweig": "https://kenyonzimmer.com/red-scare-deportees/graves-to-gushchia/",
+    "krishtal": "https://kenyonzimmer.com/red-scare-deportees/krachie-to-krupka/",
+    "lopez": "https://kenyonzimmer.com/red-scare-deportees/lopez-garcia-to-lukashuk/",
+    "mariani": "https://kenyonzimmer.com/red-scare-deportees/mansevich-to-martinovsky/",
+    "santiago": "https://hallapproved.com/ny/cases/federal/district/1955/9046537/"
+  },
+  "entries": [
+    {
+      "table": "prisoner_cases",
+      "id": "245cf216-a7e3-4b9a-bce8-c8f1026a3db9",
+      "prisoner_id": "e4491b14-35e6-468c-a02c-642f6e26690d",
+      "name": "Marion Bachrach",
+      "slug": "marion-bachrach",
+      "expected": {
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "update": {
+        "incarceration_date": "1951-06-01 00:00:00",
+        "release_date": "1951-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date",
+            "release_date"
+          ],
+          "source": "bachrach",
+          "note": "ContemporaryGuardianJuly4,1951 printedp5/PDF5 explicitly11defendants jailedlastweek pendingbail, namesMarionBachrach andstatesbyFriday allreleasedonbail. LastweekJune1951, byFridayJune29isupperboundnotexactexitday. Actualdetention/releaseMONTHJune1951only. ExistingJune20arrestpreserved, no criminalsentence becausecase severedbeforetrial."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "bachrach-court",
+          "note": "June27,1951primaryappellatehabeascase namesMarionBachrach amongcustodyrelators, affirmsbailorder. Corroboratesdetention; appealdecisionnotphysicalrelease."
+        }
+      ]
+    },
+    {
+      "table": "prisoners",
+      "id": "08c706be-3c8c-4993-a636-565079170f90",
+      "prisoner_id": "08c706be-3c8c-4993-a636-565079170f90",
+      "name": "Festus Coleman",
+      "slug": "festus-coleman",
+      "expected": {
+        "date_precision": null,
+        "photo": null
+      },
+      "update": {
+        "photo": "prisoners/festus-coleman-defense-committee-batch486.png"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "photo"
+          ],
+          "source": "coleman-original",
+          "note": "ColemanDefenseCommittee own1942 pamphlet BecauseofRace,Creed,Color:TheCaseofFestusColeman originalinsidefrontwrapper explicitFestusColemanportraitcaption, reproducedoriginalspread byLawbookExchange item85146. Source2000x1734WEBP decodedexactrectangular352x580crop, no resize/generation/retouch; originalcaption/personandcrop visuallychecked. TextwifeDoris/childrenClaudetteRonald matchesSanFranciscocase. Age31attrial not exactDOB; children notusedasportrait."
+        }
+      ],
+      "asset": {
+        "file": "festus-coleman-defense-committee-batch486.png",
+        "sha256": "1c67d371791512cd8d6eaa2326acd020e5139cef46e288c2028655d0d07714d3"
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "2642b759-ce35-48f3-bab9-3149ae2329ce",
+      "prisoner_id": "612324f4-0409-447b-b549-d723264f6548",
+      "name": "Henry Podolski",
+      "slug": "henry-podolski",
+      "expected": {
+        "date_precision": null,
+        "incarceration_date": null
+      },
+      "update": {
+        "incarceration_date": "1949-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "podolski",
+          "note": "PrimaryPodolskivBaird94FSupp294November6,1950findings: originallyarrested/takenintocustody onAugust4,1949warrant, previouslyreleasedon5000bond, re-arrestOctober23,1950samewarrant. Originalwarrantdate alone notphysicalentryday; MONTHAugust1949only confirmedbyIWOownAugust16,1949newsreleasecondemningactualarrest. ExistingAug15arrest andall1950secondcase datesprotected; no combiningthroughbailgap."
+        },
+        {
+          "fields": [
+            "incarceration_date"
+          ],
+          "source": "podolski-archive",
+          "note": "LoCinstitutional fullbookGeraldMeyer2017 notes89 identifiesoriginal IWOnewsreleaseAugust16,1949 IWOCondemnsDeportationArrestofHenryPodolski, archiveIWO-CUbox48; corroboratesactualAugust1949custody, notexactphysicalday. Primarycourtprovidessequence. ReleaseorderNovember6,1950 notborrowedfirstepisode."
+        }
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ccaf8704-510b-474e-98ff-11cf4a8b7a0e",
+      "prisoner_id": "efda4d2d-0d76-49cb-9853-973200159a25",
+      "name": "George Marshall",
+      "slug": "george-marshall",
+      "expected": {
+        "date_precision": "{\"release_date\":\"day\"}",
+        "sentenced_date": null
+      },
+      "update": {
+        "sentenced_date": "1948-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"year\"}"
+      },
+      "evidence": [
+        {
+          "fields": [
+            "sentenced_date"
+          ],
+          "source": "marshall",
+          "note": "NYPLownGeorgeMarshallpapersfindingaidSeriesGeorgeMarshallContemptofCongressCase1945–1950 explicitlyApril1948districtcourttrial andsentence3months/500fine, unsuccessfulappeal, subsequent1950custody. YEAR1948conservative, exactsentencingday notlocatedandApriltrialnotassumedsentenceDAY. SameNFCLchairconservationist, notSecretaryofStateGeorgeCatlettMarshall. ExistingJune2/Sept2,1950custody preserved."
+        }
+      ]
+    }
+  ]
+}

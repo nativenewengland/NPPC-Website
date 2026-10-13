@@ -1,0 +1,41 @@
+# 1950s missing-fields review: batch 486
+
+October12,2026. Fourteen previouslypendingprofiles reviewed, includingdeportation/exileperiodsintersecting1950s. Fourmissingdatesandonecaptionedportraitacrossfourprofiles/fourguardedrows. Existingvaluesprotected.
+
+## Verified additions
+
+MarionBachrach actualjail/releaseJune1951MONTH; HenryPodolski firstepisode actualcustodyAugust1949MONTH; GeorgeMarshall sentence1948YEAR; FestusColeman own1942defensepamphletportrait.
+
+## Limits
+
+No bailorder/publication/indictment/warrant/sentenceconvertedtoexactcustodyendpoint. No sentencedateforciviladministrativecaseswithoutcriminalsentence. Re-arrestsseparatedbyrelease notmerged. Populatedphotos/vitals/precision/prose/durations/institutions/periods/sortingpreserved. NoPR.
+
+## Per-profile review
+
+- **marion-bachrach**: OriginalJuly4,1951p5 actualdetentionandbailreleaseJune1951MONTHadded. June29Fridayby-dateupperboundnotexactrelease; June20arrestprotected. Nevertried/convictedso nosentenceinvented. Vitals/photoalreadyfilled,preserved.
+
+- **katsuki-james-otsuka**: NWTRCCownhistoryread; imagesareHiroshimaruins, rallysignsandbutterfly, noOtsukaportrait. Populatedvitals/custodypreserved, Jan15vsJan16releasealreadyloggedconflict. UnrelatedmodernJapaneseartists/photos excluded. No exileassertion.
+
+- **santiago-gonzalez-castro**: OriginalJan6,1955courtUnitedStatesvValle16FRD519 namesGonzalezCastrosecondmassprosecution, Oct29,1954indictmentandvenueissues; noindividualactualarrest/custodyendpointgiven. SupremeCourtMay21,1956certdenialnotrelease. Current1955YEARsentenceprotected.1937Ponceand1938Winshipshootingseparateepisodes; no borrowedeightyearterm. Guatemala1982disappearance/Mexican2010shootingnamesakes excluded. Vitals/portraitnotverified.
+
+- **festus-coleman**: Original1942defensepamphletcaptionverifiedportraitadded. Age31attrialnotexactDOB; no deathrecordidentitymatched. FirstpagewifeDoris/childrenClaudetteRonaldlinksSanFranciscoprosecution; no originalsentencingdatefrom16pagessampledspread. Populated1941arrest/inc/1951MONTHreleaseprotected.
+
+- **george-marshall**: NYPLownarchive verifies1948YEARsentenceadded. Exactsentence/arrestdayunlocated; June2/Sept2,1950populatedcustodydatespreserved. NotSecretaryofStateMarshall.
+
+- **henry-podolski**: PrimarycourtreviewandIWOAugust16,1949newsrelease establishactualAugust1949MONTHcustodyfilled, notwarrantAug4asexactentry. Original1949bailreleasephysicaldayunresolved, 1950renewedcaseprotected. No verifiedvitals/portrait, deportationdaystillunresolved.
+
+- **william-thomas-colyer**: ZimmerownINS54810/209researchandCongress1920Colyercase identifiesJanuary1920arrest/DeerIslandcustody/April11,1922deportation, allpopulatedcase/vitalsprotected. Noportraitinsource; modernunrelatedColyerimages excluded. Administrativeproceedingnosupportedcriminalsentence. Exilethrough1950sexplainsinclusion.
+
+- **virgilio-foli**: ZimmerownINS54885/19/CPC2101researchoriginalbiographyread, Dec1920arrest/March16,1921deportation,Italy1969deathalreadyfilled. Sourcehasnopersonphoto,noexactphysicaladmissionorcriminalsentencingdate. Arrest/deportationalone notinventedcontinuousinterval.
+
+- **josep-grau-i-jassans**: MemoriaEsquerraowninstitutionalbiographyandZimmerINS5461/211researchmatchCNT/IWWdeporteeERCpolitician. Portraitandvitals/custody/exilealreadyfilled, preserve. No criminalsentencedateinadministrativedeportation. Do notassignanotherGrauGarriga/Serisimage.
+
+- **thomas-graves**: ZimmerownINS54616/87originalresearchread: May1918vagrancy, later1918GlobeEspionageAct, April1919renewedarrest separateepisodes; deportedJune21,1919. CurrentcontinuousMay1918–June1919 intervalmayjoinarrests/bailgaps, loggednotchangedmissingonlyscope. Noportraitorcriminalsentenceverified. Exileend1966yearalreadyfilled.
+
+- **janos-grunzweig**: ZimmerownINS54811/755/FBIresearchoriginalbiography: Jan1920arrest/May8deportation, separateMay1921re-arrest/March1922bail. Do notattach1922releaseas1920endpoint. Captionidentifiedlate1920sphoto linkedpublicAncestryoriginal403unavailable, so no brokenassetattached. Current1900/1984vitalsprotected; no unverifiedexactdates.
+
+- **alexander-krishtal**: ZimmerownresearchcitesFreeSocietyOctNov1921ownopenletterLenin; February26,1921deportation/Libauentryrefused andlaterUSreturn alreadyrecorded. NoindividualactualUSarrestdatetime/prisonadmission,sentenceorcaptionedportrait. Modernteachers/physicistsnotmatched; noforeigncustodyborrowed.
+
+- **francisco-lopez-garcia**: ZimmerownINS54379/511researchandBostonPublicLibrarycaptioned1923image alreadyattached/vitalsfilled. February1918arrest/Novemberdeportationorder,bondfreedom,May25,1925deportation; notcontinuous1918–1925jail. No missingexactincorcriminalsentenceverified. Existingexilethrough1967mayconflictearlierUSreturn1925/NY1953marriage, preserve/log.
+
+- **vito-mariani**: ZimmerownINS54861/318/FBI/CPC3061researchandtwocaptionedphotosread; currentphotoalreadyfilled,preserved.1914arrestheldthenreleased,Feb1920separatearrest/June29deportation. Current1914–1920continuousintervalconflictsinterimrelease, loggedwithoutoverwriting. Italy1921two-yearsentenceforeigncase notUSdeportationsentencingdate.
