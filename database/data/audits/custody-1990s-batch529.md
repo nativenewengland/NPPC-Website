@@ -9,4 +9,4 @@ Michele Naar-Obed: The original sentence was eighteen months; keep it separate f
 - Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 58 (user-supplied PDF page 70).
 - https://www.washingtonpost.com/archive/local/1996/09/07/peace-activists-sentenced/bd02a7b3-339f-4450-aa1f-953489b48cf1/
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch529-live-verification.json.

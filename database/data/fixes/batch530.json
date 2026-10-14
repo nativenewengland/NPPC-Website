@@ -1,0 +1,52 @@
+{
+  "batch": 530,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "83e863ef-76b8-4121-a865-412e15ab0066",
+      "name": "Steve Hindi",
+      "slug": "steve-hindi",
+      "case_id": "dcc041a1-61df-4ace-8faa-00bc236c5b28",
+      "expected": {
+        "id": "dcc041a1-61df-4ace-8faa-00bc236c5b28",
+        "prisoner_id": "83e863ef-76b8-4121-a865-412e15ab0066",
+        "institution_id": "e99588cf-5cf8-4b8a-9f6d-8a925806f6a4",
+        "charges": "Protest activities against a hunt in Illinois",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six-month sentence; held at the McHenry County Jail (per a March 1998 listing)",
+        "imprisoned_for_days": 55,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-18 01:46:11",
+        "updated_at": "2026-09-17 22:22:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 55,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1996-11-06 00:00:00",
+        "incarceration_date": "1998-02-01 00:00:00",
+        "release_date": "1998-03-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "sentence": "Six-month sentence; held at the McHenry County Jail (per a March 1998 listing) The original contempt sentence was imposed November 6, 1996. The Chicago Tribune report dated November 26 confirms actual release on bond the preceding Monday, November 25, 1996. A separate return to jail occurred in February 1998; admission is recorded only to the month because contemporary accounts differ on the day. Animal People (May 1998) confirms that he was out on appeal bond before the March 28 awards ceremony, establishing a March 1998 release without an exact day. The structured admission and release fields describe this later stay; the earlier bond interval is not counted as custody. His existing documented time-served total is preserved, and no extra days are added from these overlapping accounts."
+      },
+      "sources": [
+        "https://sharkonline.org/index.php/shark-hunting-media/378-activist-steve-hindi-out-of-jail-on-50-000-bond",
+        "https://sharkonline.org/index.php/shark-hunting-media/377-in-hunters-world-free-speech-is-a-lame-duck",
+        "https://newspaper.animalpeopleforum.org/1998/05/01/page/4/"
+      ],
+      "rationale": "Archived contemporary reports establish original sentencing and separate February-March1998 custody. Preserve existing55-day documented total; do not merge across1996-1998bail or add duplicate days. February4column conflicts with February4news report reference; retain month precision."
+    }
+  ]
+}
