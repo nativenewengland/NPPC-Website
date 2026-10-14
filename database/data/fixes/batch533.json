@@ -1,0 +1,133 @@
+{
+  "batch": 533,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "00628428-4974-4cbe-bafe-ac55356588e0",
+      "name": "David Harris",
+      "slug": "david-harris",
+      "case_id": "a8826b95-b6fa-49f6-831b-d0673c172781",
+      "expected": {
+        "id": "a8826b95-b6fa-49f6-831b-d0673c172781",
+        "prisoner_id": "00628428-4974-4cbe-bafe-ac55356588e0",
+        "institution_id": null,
+        "charges": "Federal refusal to submit to a lawful order of induction (Selective Service Act of 1948)",
+        "arrest_date": "1969-07-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1968-01-01 00:00:00",
+        "incarceration_date": "1969-07-15 00:00:00",
+        "release_date": "1971-03-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3 years federal prison; served 20 months\n\nVerdict as recorded: Yes - federal conviction, Northern District of California, 1968",
+        "imprisoned_for_days": 607,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1971-03-15 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://a3mreunion.org/remembrance/harris-d.html",
+        "https://diva.sfsu.edu/collections/sfbatv/bundles/238196"
+      ],
+      "rationale": "Harris explicitly dates his parole release March 15, 1971 in his own essay. Same-day KRON footage independently records his return following release. Correct March 14 to March 15; preserve other dates. Sentencing month not changed because the account clearly dates trial but does not separately date sentencing."
+    },
+    {
+      "prisoner_id": "78790219-bee6-46e4-a228-117a2d4b3e15",
+      "name": "Frank Wilkinson",
+      "slug": "frank-wilkinson",
+      "case_id": "ae875a30-7677-4eeb-aeed-a5921b1a8aa2",
+      "expected": {
+        "id": "ae875a30-7677-4eeb-aeed-a5921b1a8aa2",
+        "prisoner_id": "78790219-bee6-46e4-a228-117a2d4b3e15",
+        "institution_id": "fbad2f29-e234-4a8b-aea0-2fca620a266f",
+        "charges": "Contempt of Congress.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-05-01 00:00:00",
+        "release_date": "1962-02-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to twelve months; served about nine months in federal prison (1961–1962).\n\nVerdict as recorded: Yes — conviction affirmed 5–4 by the Supreme Court in Wilkinson v. United States, 365 U.S. 399 (1961).\n\nCharges as recorded: Contempt of Congress — for refusing, on First Amendment grounds, to answer the House Un-American Activities Committee (Atlanta, 1958) about his organizing to abolish the committee.",
+        "imprisoned_for_days": 276,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 12:27:30",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1959-01-23 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/2018/docid-32989672.pdf"
+      ],
+      "rationale": "NARA docid 32989672, PDF page 62 (printed page 10), visually checked: January 24, 1959 NYT report states sentence imposed January 23. Same page independently corroborates existing May 1, 1961 surrender and February 1, 1962 release. Add only sentencing date for this 1961 custody case."
+    },
+    {
+      "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
+      "name": "Joan Baez",
+      "slug": "joan-baez",
+      "case_id": "5cab610f-b3f1-4b1c-8bad-dbef57e5cc01",
+      "expected": {
+        "id": "5cab610f-b3f1-4b1c-8bad-dbef57e5cc01",
+        "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
+        "institution_id": null,
+        "charges": "Blocking entrance to Armed Forces Induction Center (civil disobedience)",
+        "arrest_date": "1967-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Arrested and jailed for blocking draft induction",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested in 1967 in Oakland during demonstrations at the Armed Forces Induction Center, where protesters sought to block draft processing. Served jail time as a consequence of the antiwar civil disobedience.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1967-10-16 00:00:00",
+        "incarceration_date": "1967-10-16 00:00:00",
+        "release_date": "1967-10-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.joanbaez.com/bio/",
+        "https://diva.sfsu.edu/collections/sfbatv/bundles/190085"
+      ],
+      "rationale": "Official chronology dates October 16 arrest and ten-day imprisonment; October 26 KPIX footage records her return after release. Refine existing year-only case to October episode. December 1967-January 1968 is a separate stay and is not counted across the intervening liberty period; further research remains pending."
+    }
+  ]
+}
