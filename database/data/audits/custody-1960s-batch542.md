@@ -8,4 +8,4 @@ https://www.amnesty.org/fr/wp-content/uploads/2021/05/POL1000031986ENGLISH.pdf#p
 https://www.sfgate.com/news/article/summer-of-love-40-years-later-keith-mather-2559482.php
 https://couragetoresist.org/mather-presidio27-50-years-later/
 
-Deployment pending.
+Applied and verified live. Preview, fixture, preservation, readback, replay and public checks passed.

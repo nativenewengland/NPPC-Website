@@ -4,4 +4,4 @@ Army report in Congressional Record, April 2, 1969, page 8478, paragraph 3 state
 
 Source: https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt7/pdf/GPO-CRECB-1969-pt7-1-2.pdf#page=77
 
-Live validation pending.
+Applied and verified live. Isolated fixture, no-write preview, database readback, unrelated-field preservation, zero-change replay and public HTTP checks passed.

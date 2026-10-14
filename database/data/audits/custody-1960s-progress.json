@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 43,
-  "case_records_changed_or_added": 50,
+  "changed_profiles": 49,
+  "case_records_changed_or_added": 56,
   "status_counts": {
-    "not-yet-researched": 1333,
-    "partially-corrected-live": 43,
-    "research-incomplete": 5,
+    "not-yet-researched": 1325,
+    "partially-corrected-live": 49,
+    "research-incomplete": 6,
     "reviewed-selected-case-no-change": 2,
-    "researched-unresolved": 36
+    "researched-unresolved": 37
   },
   "decade_complete": false,
   "rows": [
@@ -36,9 +36,11 @@
         "364aa990-b748-4516-bbc6-771708dde7e0"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        543
+      ],
+      "note": "Remove spurious 1966 arrest, 1967 admission and 1985 release. FBI contemporaneous custody announcement establishes November 29, 2012; prisoner-support notice establishes prison-to-halfway-house transfer April 11, 2016. AP report January 28 identifies Monday sentencing, January 27. This is not a 1960s case; it entered the inventory through corrupt dates. Preserve biography."
     },
     {
       "prisoner_id": "79179486-f468-46af-8d50-af0b60929af4",
@@ -181,9 +183,11 @@
         "8a69314d-b8ba-4c90-8b6a-142b07992371"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        543
+      ],
+      "note": "UCLA dissertation page 154 explicitly dates arrest and jail admission May 31; NPR anniversary report corroborates arrest date. Historian Hank Reichman identifies June 2 bail release. Replace unsupported December 31, 1969 endpoint. Counter should be two elapsed days, not 580. No group-wide inference."
     },
     {
       "prisoner_id": "757065c8-4740-4b86-a7d7-3f34073d1775",
@@ -235,9 +239,9 @@
         "8d3dd69d-48a5-4c37-8130-94f9caee7269"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "December13 1971 release corroborated by AP obituary and University of Delaware collection summary. Existing date preserved. Full arrest/admission review unfinished. https://apnews.com/article/82a88b0420656561e708ea36c4050a21"
     },
     {
       "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
@@ -380,9 +384,11 @@
       "gap_case_ids": [
         "19f8b4f6-c828-4b9a-bf28-087c59ce2eea"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        544
+      ],
+      "note": "People v. Hampton, 44 Ill.2d 41 (1969) identifies robbery and two-to-five-year sentence. State historic registration draft page 63 corroborates robbery and appeal-bond release. Replace incorrect Murder charge. Exact admission and conflicting August 12/13 release date remain unresolved; dates and institution unchanged pending further research."
     },
     {
       "prisoner_id": "61c22720-fb91-429c-bc4b-9c30b18a9360",
@@ -444,9 +450,11 @@
         "309d60a8-8c63-49f4-afd8-acbb4c77695b"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        544
+      ],
+      "note": "Library of Congress chronology and archived Hamer deposition identify June 9 arrest, not June 8. Preserve verified June 12 release. Three elapsed days."
     },
     {
       "prisoner_id": "70b9df40-7aa5-4de8-928f-398efd3ef5e1",
@@ -5488,9 +5496,11 @@
       "gap_case_ids": [
         "bb5b0ea4-215f-431d-9bd9-9bf2fd2d529a"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        542
+      ],
+      "note": "Amnesty International annual report 1986 page 199 explicitly places military detention in December 1984 and release in April 1985. Contemporary AP photograph dated April 10, 1985 corroborates April. A later oral history says May 10; prefer contemporary sources for month, leave exact day unresolved. This later episode arises from the 1968 case. No exact duration is inferred."
     },
     {
       "prisoner_id": "dc00dfff-01a9-4d36-aee6-c80c47edd3b6",
@@ -5534,9 +5544,9 @@
       "gap_case_ids": [
         "64fa4758-fa1b-4b3b-a9be-40882abe7089"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Congressional Record Aug 6 1970 p27643 prints escape Feb27 1968, impossible before protest. Randy Rowland eyewitness memoir confirms 1969 but no exact date. Existing month retained; no exact counter manufactured. https://www.theragblog.com/randy-rowland-lindys-great-escape/"
     },
     {
       "prisoner_id": "e17255c2-83f0-4831-8544-88baf6efaeea",
@@ -5548,9 +5558,11 @@
       "gap_case_ids": [
         "f91f8724-285d-40aa-a1b9-cc48676639a5"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        541
+      ],
+      "note": "Army report reproduced in Congressional Record, April 2, 1969, page 8478, paragraph 3 explicitly identifies September 16, 1968 stockade confinement. Preserve October 11 death-in-custody endpoint and biography; elapsed duration 25 days."
     },
     {
       "prisoner_id": "d4d72762-907e-4c7b-bcbf-e15e46d66103",

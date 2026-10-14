@@ -14,4 +14,4 @@ People v. Hampton, 44 Ill.2d 41 (1969) identifies robbery and two-to-five-year s
 https://www.neochart.com/catalog/cases/ill-2d/volume_44/0041_01/index.html
 https://dnrhistoric.illinois.gov/content/dam/soi/en/web/dnrhistoric/documents/Update_Illinois%20Chapter%20of%20the%20Black%20Panther%20Party%20MPD%20reduced.pdf#page=63
 
-Live validation pending.
+Applied and verified live. Isolated fixture, no-write preview, database readback, unrelated-field preservation, zero-change replay and public HTTP checks passed.

@@ -16,4 +16,4 @@ https://escholarship.org/content/qt0w3394d5/qt0w3394d5.pdf
 https://academeblog.org/2018/03/04/east-los-angeles-1968-a-student-walkout-to-commemorate-and-learn-from/
 https://www.apr.org/politics-government/2018-05-30/what-gun-violence-protesters-can-learn-from-1968s-chicano-blowouts?_amp=true
 
-Preview, isolated fixture, live application, preservation checks and public verification pending.
+Preview, isolated fixture, live application, preservation checks, zero-change replay and public verification passed.

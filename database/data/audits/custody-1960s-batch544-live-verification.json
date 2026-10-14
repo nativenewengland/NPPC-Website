@@ -1,0 +1,33 @@
+{
+  "batch": 544,
+  "entries": 2,
+  "fixture": "B544-FIXTURE-OK: no-write preview, two updates, partial duration, preservation of partial precision, preservation, replay, conflict guard",
+  "application": "--- correct-1960s-custody-dates\nUpdating: Fannie Lou Hamer\nUpdating: Fred Hampton\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 2\nB544-OK\nBatch 544 complete.",
+  "replay": "--- correct-1960s-custody-dates\nAlready applied: Fannie Lou Hamer\nAlready applied: Fred Hampton\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB544-OK\nBatch 544 complete.",
+  "public": [
+    {
+      "name": "Fannie Lou Hamer",
+      "url": "https://politicalprisonercoalition.org/prisoner/fannie-lou-hamer",
+      "http_status": 200,
+      "counters": [
+        "3 Days"
+      ],
+      "date_context": [
+        "lice later resulted in acquittals) Arrested: Jun 9, 1963 Incarcerated: Jun 9, 1963 Released: Jun 12, 1963 Sentence: Several days county jail; sev",
+        " acquittals) Arrested: Jun 9, 1963 Incarcerated: Jun 9, 1963 Released: Jun 12, 1963 Sentence: Several days county jail; severe beating in custody",
+        " (e) {} }); })(); Fannie Lou Hamer Released Date of birth: 06. 10. 1917 Date of death: 14. 03. 1977 Age: 59 † Deceased Gender: Female Race: Black"
+      ]
+    },
+    {
+      "name": "Fred Hampton",
+      "url": "https://politicalprisonercoalition.org/prisoner/fred-hampton",
+      "http_status": 200,
+      "counters": [],
+      "date_context": [
+        "atch (e) {} }); })(); Fred Hampton Released Date of birth: 30. 08. 1948 Date of death: 04. 12. 1969 Age: 21 † Deceased Gender: Male Race: Black E",
+        "8 Released: Aug 12, 1969 Sentence: Sentenced to two to five years in state prison for robbery; released on appeal bond in August 1969. Plead: Not"
+      ]
+    }
+  ],
+  "biographies_and_unrelated_fields_preserved": true
+}
