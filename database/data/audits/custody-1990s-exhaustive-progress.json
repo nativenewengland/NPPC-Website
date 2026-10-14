@@ -4769,9 +4769,31 @@
       "case_ids": [
         "786452ff-76f5-4225-bbd0-b41cde207828"
       ],
-      "status": "prior_review_remaining_gaps",
-      "finding": "Earlier individual source review recovered and linked; not counted as new research or as an exhausted case. Remaining date gaps persist.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 527,
+          "case_id": "a94477f0-848e-5811-bf70-dd5f27669298",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1991_Watermarked/Witness_19910501.pdf#page=5",
+            "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1991_Watermarked/Witness_19910701.pdf#page=5"
+          ],
+          "finding": "Four-month sentence for the January 17, 1991 Fort McCoy antiwar action. Day described remaining in Rock County Jail after arrest, then transfer to Dane County Jail following the March 26 verdict. His later first-person account identifies May 13, 1991 as his first day free after completing the term at Rock County Jail. The April 24 sentencing date was prospective in the earlier article and is not entered as a confirmed date. This interval does not include his other anti-nuclear protest cases."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {
@@ -4906,6 +4928,29 @@
             "https://www.upi.com/Archives/1994/02/24/FBI-Bay-area-underground-helped-IRA-fugitives/3898762066000/"
           ],
           "finding": "Contemporary FBI reporting identifies Wednesday February 23, 1994 arrest and ensuing federal custody. Existing January 3, 1996 release preserved."
+        },
+        {
+          "batch": 527,
+          "case_id": "768c3ce0-8cc9-5a95-aabb-fbcdaaec8cd5",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://law.justia.com/cases/federal/district-courts/FSupp/972/1253/1486214/",
+            "https://www.sfgate.com/bayarea/article/3-northern-ireland-fugitives-are-handed-3104673.php",
+            "https://themilitant.com/1998/6218/6218_19.html",
+            "https://www.anphoblacht.com/contents/4121",
+            "https://wildbluepress.com/above-the-ground-dan-lawton-photo-gallery/"
+          ],
+          "finding": "Separate return to U.S. custody during the extradition proceedings, after the earlier release on bail. Contemporary reports place the return in August 1997 but conflict on the exact day: an August 12 report describes surrender after the August 11 order, while an October 1998 retrospective gives August 22. Only the month is entered. Release on bail on October 16, 1998 is corroborated by a contemporary report and the defense lawyer-author's dated release photograph. The period at liberty before this detention is excluded; this is not a new criminal sentence or a period of Northern Ireland imprisonment."
         }
       ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
@@ -5689,9 +5734,34 @@
       "case_ids": [
         "0675ae8d-815e-46e1-bca8-6e822c5f6ddf"
       ],
-      "status": "prior_review_remaining_gaps",
-      "finding": "Earlier individual source review recovered and linked; not counted as new research or as an exhausted case. Remaining date gaps persist.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 527,
+          "case_id": "d4afb59b-2e7b-5202-aba7-3924db76f41d",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://law.justia.com/cases/federal/district-courts/FSupp/972/1253/1486214/",
+            "https://www.sfgate.com/bayarea/article/3-northern-ireland-fugitives-are-handed-3104673.php",
+            "https://themilitant.com/1998/6218/6218_19.html",
+            "https://www.anphoblacht.com/contents/4121",
+            "https://wildbluepress.com/above-the-ground-dan-lawton-photo-gallery/"
+          ],
+          "finding": "Separate return to U.S. custody during the extradition proceedings, after the earlier release on bail. Contemporary reports place the return in August 1997 but conflict on the exact day: an August 12 report describes surrender after the August 11 order, while an October 1998 retrospective gives August 22. Only the month is entered. Release on bail on October 16, 1998 is corroborated by a contemporary report and the defense lawyer-author's dated release photograph. The period at liberty before this detention is excluded; this is not a new criminal sentence or a period of Northern Ireland imprisonment."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {
@@ -6048,6 +6118,29 @@
             "https://www.sfgate.com/news/article/u-s-judge-won-t-block-extradition-of-3-irishmen-2813124.php"
           ],
           "finding": "Historical roster visually verifies Kevin Artt at FDC Pleasanton with existing33020-198, matching BOP identity and only live profile. Contemporary reporting establishes June3,1992 custody; Ninth Circuit106F3d855 paragraph10 explicitly gives January10,1996 bail release. Preserve bail gap and exclude later1997-1998 recommitment. Existing blank case gets only first completed US episode; no changes to biography or other profile fields."
+        },
+        {
+          "batch": 527,
+          "case_id": "03e397cf-9c40-5c0c-817d-b2ba15488478",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://law.justia.com/cases/federal/district-courts/FSupp/972/1253/1486214/",
+            "https://www.sfgate.com/bayarea/article/3-northern-ireland-fugitives-are-handed-3104673.php",
+            "https://themilitant.com/1998/6218/6218_19.html",
+            "https://www.anphoblacht.com/contents/4121",
+            "https://wildbluepress.com/above-the-ground-dan-lawton-photo-gallery/"
+          ],
+          "finding": "Separate return to U.S. custody during the extradition proceedings, after the earlier release on bail. Contemporary reports place the return in August 1997 but conflict on the exact day: an August 12 report describes surrender after the August 11 order, while an October 1998 retrospective gives August 22. Only the month is entered. Release on bail on October 16, 1998 is corroborated by a contemporary report and the defense lawyer-author's dated release photograph. The period at liberty before this detention is excluded; this is not a new criminal sentence or a period of Northern Ireland imprisonment."
         }
       ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",

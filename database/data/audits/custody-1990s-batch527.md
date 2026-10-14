@@ -31,4 +31,4 @@ Sam Day: Four-month sentence for the January 17, 1991 Fort McCoy antiwar action.
 - https://digitalarchives.episcopalarchives.org/the_witness/pdf/1991_Watermarked/Witness_19910501.pdf#page=5
 - https://digitalarchives.episcopalarchives.org/the_witness/pdf/1991_Watermarked/Witness_19910701.pdf#page=5
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch527-live-verification.json.
