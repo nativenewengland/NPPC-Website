@@ -3063,9 +3063,26 @@
       "case_ids": [
         "d8110922-6fe7-40a8-b08b-62f240a02c85"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Chronology PDF58: initial January 1-March 6, 1991 detention followed by bail; final release mid-June 1992. Need separate custody episodes; do not join arrest to final release.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 512,
+          "case_id": "d8110922-6fe7-40a8-b08b-62f240a02c85",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "imprisoned_for_months",
+            "sentence"
+          ],
+          "sources": [
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 46 / supplied PDF page 58.",
+            "https://lestweforget.org.nz/wp-content/uploads/2008/04/lest-we-forget-a4.pdf#page=17"
+          ],
+          "finding": "Source explicitly distinguishes twelve-month sentence from ten months actually served and reports mid-June1992 release. Store release at month precision and documented actual months; do not fabricate dates or count bail gaps."
+        }
+      ]
     },
     {
       "id": "aaa08338-7c82-4317-9b7a-8d67aedad632",
@@ -3385,6 +3402,21 @@
             "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.46 / PDF p.58 (user-supplied book; scan visually verified)."
           ],
           "finding": "Sentence date only. Initial January-March detention was interrupted by bail; do not create a continuous arrest-to-June-1992 interval."
+        },
+        {
+          "batch": 512,
+          "case_id": "6bc8be03-e10b-4c75-983f-51ac75ad5e66",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "imprisoned_for_months",
+            "sentence"
+          ],
+          "sources": [
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 46 / supplied PDF page 58.",
+            "https://lestweforget.org.nz/wp-content/uploads/2008/04/lest-we-forget-a4.pdf#page=17"
+          ],
+          "finding": "Source explicitly distinguishes twelve-month sentence from ten months actually served and reports mid-June1992 release. Store release at month precision and documented actual months; do not fabricate dates or count bail gaps."
         }
       ]
     },

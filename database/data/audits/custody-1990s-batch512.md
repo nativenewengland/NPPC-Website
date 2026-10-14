@@ -6,4 +6,4 @@ January1991 arrest to June1992 release is not treated as continuous: March6,1991
 
 Full expected snapshots and transaction preservation hashes protect biographies and unrelated case fields. Isolated fixture checks actual-month field, missing-start preservation, dry run, replay and conflict guard.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch512-live-verification.json.
