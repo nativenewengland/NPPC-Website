@@ -1,0 +1,49 @@
+{
+  "batch": 511,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "30157fa6-a265-4e9f-9908-ce02dcc35e0f",
+      "name": "Byron Chubbuck",
+      "slug": "byron-chubbuck",
+      "case_id": "cc575e09-eeae-4657-99b8-1345deb2f2da",
+      "expected": {
+        "id": "cc575e09-eeae-4657-99b8-1345deb2f2da",
+        "prisoner_id": "30157fa6-a265-4e9f-9908-ce02dcc35e0f",
+        "institution_id": "584a0dd3-c3d5-48a1-9ef0-72c9deea28ec",
+        "charges": "Property Destruction Civil Disorder",
+        "arrest_date": "1999-07-12 00:00:00",
+        "indicted": null,
+        "convicted": "Oct 13th 1999",
+        "plead": "Guilty",
+        "sentenced_date": "1999-10-13 00:00:00",
+        "incarceration_date": "1999-10-13 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "55 Years",
+        "imprisoned_for_days": 9863,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:00:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1999-08-13 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://freeosoblanco.org/about/",
+        "https://prisonersolidarity.com/sites/default/files/OsoBlanco-trifold.pdf",
+        "https://ca10.washburnlaw.edu/cases/2002/10/01-2331.htm"
+      ],
+      "rationale": "Correct the arrest field to August 13, 1999, individually described in the support organization account and its detailed case brochure. This limited correction does not resolve the incarceration counter: appellate opinion confirms an escape followed by recapture about six weeks later. The legacy continuous interval and sentencing date require a separate episode-level correction; no invented custody endpoint is added."
+    }
+  ]
+}
