@@ -1,0 +1,135 @@
+{
+  "batch": 520,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "89e735db-4ef5-40b4-bb99-18f7ff0b433c",
+      "name": "Rick Springer",
+      "slug": "rick-springer",
+      "case_id": "d7d5a70b-38bc-4dd4-a24e-747730623e5d",
+      "expected": {
+        "id": "d7d5a70b-38bc-4dd4-a24e-747730623e5d",
+        "prisoner_id": "89e735db-4ef5-40b4-bb99-18f7ff0b433c",
+        "institution_id": null,
+        "charges": "Charges arising from April13,1992 anti-nuclear disruption of Reagan speech; initial arrest episode",
+        "arrest_date": "1992-04-13 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1992-04-13 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "120 days imprisonment for interference with the Secret Service.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-11 16:14:42",
+        "updated_at": "2026-10-11 16:14:42",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1992-04-14 00:00:00",
+        "sentence": "120 days imprisonment for interference with the Secret Service. Initial detention April 13-14, 1992 ended with release on personal recognizance. The later service of the sentence and failure-to-surrender term are recorded separately.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.upi.com/Archives/1992/04/14/Protester-released-after-accosting-Reagan/2245703224000/"
+      ],
+      "rationale": "Contemporary April 14 UPI report explicitly states judge freed Springer Tuesday on his own recognizance. Completes initial one-day detention and preserves the intervening bail gap."
+    },
+    {
+      "prisoner_id": "89e735db-4ef5-40b4-bb99-18f7ff0b433c",
+      "name": "Rick Springer",
+      "slug": "rick-springer",
+      "case_id": "b7fb77d1-7e1f-44f8-9c16-76a4fe436317",
+      "expected": {
+        "id": "b7fb77d1-7e1f-44f8-9c16-76a4fe436317",
+        "prisoner_id": "89e735db-4ef5-40b4-bb99-18f7ff0b433c",
+        "institution_id": null,
+        "charges": "Interference with Secret Service and failure to surrender; subsequent prison term",
+        "arrest_date": "1993-08-09 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1994-09-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "An additional 11 months imprisonment for failure to surrender.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-11 16:14:42",
+        "updated_at": "2026-10-14 00:00:50",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": 13,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1993-08-09 00:00:00",
+        "imprisoned_for_months": null,
+        "sentence": "An additional 11 months imprisonment for failure to surrender. Actual confinement August 9, 1993-September 9, 1994 covered the later prison term following the original offense and failure to surrender. The court identifies August 9 as an arrest, not voluntary surrender. This exact interval replaces the rounded thirteen-month total; time on bail after April 1992 is excluded.",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://openjurist.org/51/f3d/861/united-states-v-springer",
+        "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_15_1_1.pdf#page=27"
+      ],
+      "rationale": "Appellate opinion supplies August 9, 1993 arrest; contemporary interview reports thirteen months served and September 9, 1994 release. Verified original journal printed page 26. Existing rounded counter becomes an exact interval; not counted as a newly working counter."
+    },
+    {
+      "prisoner_id": "be4d4220-5f52-4dcf-9ab4-01ec009ae4ac",
+      "name": "Rik Scarce",
+      "slug": "rik-scarce",
+      "case_id": "013f8149-51e4-4e2e-b1b8-127389218b32",
+      "expected": {
+        "id": "013f8149-51e4-4e2e-b1b8-127389218b32",
+        "prisoner_id": "be4d4220-5f52-4dcf-9ab4-01ec009ae4ac",
+        "institution_id": null,
+        "charges": "Civil contempt of court",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Civil contempt (no underlying criminal conviction)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1993-05-14 00:00:00",
+        "release_date": "1993-10-20 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed 159 days for civil contempt\n\nCharges as recorded: Civil contempt of court for refusing to testify before a federal grand jury",
+        "imprisoned_for_days": 159,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 14:54:10",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1993-10-19 00:00:00",
+        "sentence": "Jailed 159 days for civil contempt\n\nCharges as recorded: Civil contempt of court for refusing to testify before a federal grand jury Released October 19, 1993, according to contemporary reporting and his own later account. The reported 159 days counts both admission and release dates; the elapsed interval is 158 days.",
+        "date_precision": "{\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://inquisitivemag.org/articles/the-heterodox-life/and-thats-why-i-went-to-jail/",
+        "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_1_sm_0.pdf#page=9"
+      ],
+      "rationale": "Correct October 20 legacy release to October 19, corroborated by first-person account and contemporary journal printed page 8. Preserve narrative inclusive count without shifting actual release day."
+    }
+  ]
+}
