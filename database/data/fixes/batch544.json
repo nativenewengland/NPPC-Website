@@ -1,0 +1,91 @@
+{
+  "batch": 544,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "9f70840e-cbde-4354-8081-7422a3daf7e4",
+      "name": "Fannie Lou Hamer",
+      "slug": "fannie-lou-hamer",
+      "case_id": "309d60a8-8c63-49f4-afd8-acbb4c77695b",
+      "expected": {
+        "id": "309d60a8-8c63-49f4-afd8-acbb4c77695b",
+        "prisoner_id": "9f70840e-cbde-4354-8081-7422a3daf7e4",
+        "institution_id": "b2ddeeea-2ee0-4e3e-a718-1cf546cad529",
+        "charges": "Disorderly conduct / refusing to leave segregated bus station — Winona, MS, June 9, 1963 (federal civil-rights prosecution against the police later resulted in acquittals)",
+        "arrest_date": "1963-06-08 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1963-06-08 00:00:00",
+        "release_date": "1963-06-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Several days county jail; severe beating in custody",
+        "imprisoned_for_days": 4,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-01 10:10:33",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1963-06-09 00:00:00",
+        "incarceration_date": "1963-06-09 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://blogs.loc.gov/law/2021/02/stunned-by-her-thunder-fannie-lou-hamer/",
+        "https://www.wisconsinhistory.org/record/texts/W01A44I/deposition-of-mrs-fannie-lou-hamer-1968-may-22"
+      ],
+      "rationale": "Library of Congress chronology and archived Hamer deposition identify June 9 arrest, not June 8. Preserve verified June 12 release. Three elapsed days."
+    },
+    {
+      "prisoner_id": "af920809-3a7c-4f1e-aedc-51496bbf07e4",
+      "name": "Fred Hampton",
+      "slug": "fred-hampton",
+      "case_id": "19f8b4f6-c828-4b9a-bf28-087c59ce2eea",
+      "expected": {
+        "id": "19f8b4f6-c828-4b9a-bf28-087c59ce2eea",
+        "prisoner_id": "af920809-3a7c-4f1e-aedc-51496bbf07e4",
+        "institution_id": "9adfb6b9-53af-41b8-a78d-4434c5bb07ec",
+        "charges": "Murder",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1969-08-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-05-10 06:33:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Robbery — alleged taking of ice cream from a truck in Maywood, Illinois, July 10, 1968",
+        "sentence": "Sentenced to two to five years in state prison for robbery; released on appeal bond in August 1969."
+      },
+      "sources": [
+        "https://www.neochart.com/catalog/cases/ill-2d/volume_44/0041_01/index.html",
+        "https://dnrhistoric.illinois.gov/content/dam/soi/en/web/dnrhistoric/documents/Update_Illinois%20Chapter%20of%20the%20Black%20Panther%20Party%20MPD%20reduced.pdf#page=63"
+      ],
+      "rationale": "People v. Hampton, 44 Ill.2d 41 (1969) identifies robbery and two-to-five-year sentence. State historic registration draft page 63 corroborates robbery and appeal-bond release. Replace incorrect Murder charge. Exact admission and conflicting August 12/13 release date remain unresolved; dates and institution unchanged pending further research."
+    }
+  ]
+}
