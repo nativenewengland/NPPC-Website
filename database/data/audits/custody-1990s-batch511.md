@@ -11,4 +11,4 @@ Unresolved: the existing incarceration and sentencing fields are not established
 
 All profile fields and unrelated case fields are preserved. Full expected-case guard, transactional preservation hashes, isolated fixture, preview, apply, replay and public verification.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch511-live-verification.json.
