@@ -1195,9 +1195,26 @@
       "case_ids": [
         "2d00587c-eec0-4bd7-8b4f-351b5dfadd23"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 516,
+          "case_id": "2d00587c-eec0-4bd7-8b4f-351b5dfadd23",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.soaw-austin.org/POC1983_2012.php",
+            "https://www.jesuits.org/memoriam/mercy-frederick-o-brother/"
+          ],
+          "finding": "BOP register 86283-020 confirms actual release 1996-07-29; identity matched by full name and age against movement or biographical sources. Existing sentence total preserved; no admission inferred from sentence length."
+        }
+      ]
     },
     {
       "id": "468cc37a-3b5d-4242-a7e2-9efc6d6753fc",
@@ -1640,9 +1657,25 @@
       "case_ids": [
         "fb6ee5ac-8bbb-43dc-b78f-84b18a3dcb61"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 516,
+          "case_id": "fb6ee5ac-8bbb-43dc-b78f-84b18a3dcb61",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.soaw-austin.org/POC1983_2012.php"
+          ],
+          "finding": "BOP register 86282-020 confirms actual release 1996-07-26; identity matched by full name and age against movement or biographical sources. Existing sentence total preserved; no admission inferred from sentence length."
+        }
+      ]
     },
     {
       "id": "5f7f210c-bd08-4d83-8f67-e3721e0b8bbb",
@@ -3586,9 +3619,28 @@
       "case_ids": [
         "2cff8cd5-4c54-43b3-b66a-f2566a108012"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 516,
+          "case_id": "2cff8cd5-4c54-43b3-b66a-f2566a108012",
+          "fields": [
+            "release_date",
+            "incarceration_date",
+            "date_precision",
+            "sentence",
+            "imprisoned_for_months"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.soaw-austin.org/POC1983_2012.php",
+            "https://osueast.org/sister-claire-omara-1922-2012/"
+          ],
+          "finding": "BOP register 86284-020 confirms actual release 1996-07-29; identity matched by full name and age against movement or biographical sources. Existing sentence total preserved; no admission inferred from sentence length. Ursulines obituary explicitly dates actual Danbury admission May31,1996. Thus the actual interval is59elapsed days. Replace the rounded two-month counter with the59-day date-derived interval; the original two-month statement remains in the sentence text."
+        }
+      ]
     },
     {
       "id": "be4d4220-5f52-4dcf-9ab4-01ec009ae4ac",
@@ -3720,9 +3772,26 @@
       "case_ids": [
         "9891ba54-0096-4b9a-bf80-9f2922c32404"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 516,
+          "case_id": "9891ba54-0096-4b9a-bf80-9f2922c32404",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.soaw-austin.org/POC1983_2012.php",
+            "https://catholicworker.org/louie-de-benedette-a-lifetime-of-resisting-militarism-and-materialism/"
+          ],
+          "finding": "BOP register 86277-020 confirms actual release 1996-10-18; identity matched by full name and age against movement or biographical sources. Existing sentence total preserved; no admission inferred from sentence length."
+        }
+      ]
     },
     {
       "id": "c6fd9a43-9db2-4369-ab90-cde3763c2ddd",

@@ -1,0 +1,49 @@
+{
+  "batch": 517,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "bb2c4518-dada-42ec-9f20-b2e778ca67f5",
+      "name": "Ali Khalid Abdullah",
+      "slug": "ali-khalid-abdullah",
+      "case_id": "c2b956dc-c8b2-4675-8641-237128b56c4d",
+      "expected": {
+        "id": "c2b956dc-c8b2-4675-8641-237128b56c4d",
+        "prisoner_id": "bb2c4518-dada-42ec-9f20-b2e778ca67f5",
+        "institution_id": null,
+        "charges": "Assault with intent to rob while armed, arising from an attempted action against businesses alleged to be drug-dealing fronts.",
+        "arrest_date": "1990-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1990-01-01 00:00:00",
+        "release_date": "2008-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six and a half to twenty years in prison; maximum discharge reported for July 2008.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:15:58",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2008-08-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+        "sentence": "Six and a half to twenty years in prison. Released August 1, 2008, according to his first-person update published in 4strugglemag issue 12 (Spring 2009). The earlier July 2008 maximum-discharge forecast was not his actual release date. Arrest and admission remain known only to the year; no exact total is inferred."
+      },
+      "sources": [
+        "https://4strugglemag.org/wp-content/uploads/2010/03/4sm12collated.pdf",
+        "https://camron46justiceforall.blogspot.com/2009_07_19_archive.html"
+      ],
+      "rationale": "The first-person Update: Ali Khalid Abdullah in4strugglemag issue12(Spring2009) explicitly dates actual release August1,2008. This supersedes the previously stored projected July2008 discharge month. Exact1990 admission and arrest day remain unresolved."
+    }
+  ]
+}
