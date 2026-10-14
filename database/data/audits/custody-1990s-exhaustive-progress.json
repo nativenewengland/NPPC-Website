@@ -328,9 +328,26 @@
       "case_ids": [
         "39811b24-b78c-42b4-a783-418280beaa1d"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 510,
+          "case_id": "39811b24-b78c-42b4-a783-418280beaa1d",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.upi.com/Archives/1996/06/14/LI-pol-kill-plot/3638834724800/",
+            "https://www.upi.com/Archives/1997/06/11/Guilty-plea-in-radiation-plot/7314866001600/",
+            "https://www.washingtonpost.com/archive/politics/1996/06/14/2-charged-in-plot-to-poison-long-island-gop-officials/ed5c576e-f2c1-4a30-bd92-56166dc7c2a2/"
+          ],
+          "finding": "Contemporary reporting establishes June 1996 arrest and continuing pretrial detention by June 1997. Correct erroneous year; preserve month precision pending booking record."
+        }
+      ]
     },
     {
       "id": "1766e8ba-1156-4eaf-9c1f-16ba27224f40",
@@ -614,9 +631,24 @@
       "case_ids": [
         "a8c80a08-d41d-4d83-ab4c-d9bf445295ef"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 510,
+          "case_id": "a8c80a08-d41d-4d83-ab4c-d9bf445295ef",
+          "fields": [
+            "release_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.laweekly.com/ghetto-star/",
+            "https://people.umass.edu/kastor/fallprogram/fall-shakur.html"
+          ],
+          "finding": "LA Weekly reports September 1995 parole. Preserve missing start; subsequent parole-violation detentions are separate."
+        }
+      ]
     },
     {
       "id": "2ae765b6-23e8-49ab-a455-6b4c2074906d",
