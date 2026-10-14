@@ -1,0 +1,94 @@
+{
+  "batch": 512,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "a9db41e5-e8e8-4fee-bdf8-17130ae4eeb6",
+      "name": "Susan Frankel",
+      "slug": "susan-frankel",
+      "case_id": "d8110922-6fe7-40a8-b08b-62f240a02c85",
+      "expected": {
+        "id": "d8110922-6fe7-40a8-b08b-62f240a02c85",
+        "prisoner_id": "a9db41e5-e8e8-4fee-bdf8-17130ae4eeb6",
+        "institution_id": "92ea7923-dfeb-4d3a-9b93-f22e61616c69",
+        "charges": "Destruction of government property (and related)",
+        "arrest_date": "1991-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1991-08-20 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twelve months prison, $1,800 restitution; released mid-June 1992",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-29 02:45:24",
+        "updated_at": "2026-05-29 02:45:24",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1992-06-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": 10,
+        "sentence": "Twelve months prison, $1,800 restitution; released mid-June 1992 The Plowshares Disarmament Chronology, 1980-2003, page 46, reports ten months actually served. Release is recorded to June 1992 only; no exact day is established. Pretrial release on March 6, 1991 interrupted custody, so no continuous interval from the January arrest is assumed and no additional pretrial days are added to the reported total."
+      },
+      "sources": [
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 46 / supplied PDF page 58.",
+        "https://lestweforget.org.nz/wp-content/uploads/2008/04/lest-we-forget-a4.pdf#page=17"
+      ],
+      "rationale": "Source explicitly distinguishes twelve-month sentence from ten months actually served and reports mid-June1992 release. Store release at month precision and documented actual months; do not fabricate dates or count bail gaps."
+    },
+    {
+      "prisoner_id": "bb1b3515-cbf6-440f-bba4-ac0f6fb0abaf",
+      "name": "Bill Streit",
+      "slug": "bill-streit",
+      "case_id": "6bc8be03-e10b-4c75-983f-51ac75ad5e66",
+      "expected": {
+        "id": "6bc8be03-e10b-4c75-983f-51ac75ad5e66",
+        "prisoner_id": "bb1b3515-cbf6-440f-bba4-ac0f6fb0abaf",
+        "institution_id": "92ea7923-dfeb-4d3a-9b93-f22e61616c69",
+        "charges": "Destruction of government property (and related)",
+        "arrest_date": "1991-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1991-08-20 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twelve months prison, $1,800 restitution; released mid-June 1992",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-29 02:45:24",
+        "updated_at": "2026-10-13 23:41:21",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1992-06-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": 10,
+        "sentence": "Twelve months prison, $1,800 restitution; released mid-June 1992 The Plowshares Disarmament Chronology, 1980-2003, page 46, reports ten months actually served. Release is recorded to June 1992 only; no exact day is established. Pretrial release on March 6, 1991 interrupted custody, so no continuous interval from the January arrest is assumed and no additional pretrial days are added to the reported total."
+      },
+      "sources": [
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 46 / supplied PDF page 58.",
+        "https://lestweforget.org.nz/wp-content/uploads/2008/04/lest-we-forget-a4.pdf#page=17"
+      ],
+      "rationale": "Source explicitly distinguishes twelve-month sentence from ten months actually served and reports mid-June1992 release. Store release at month precision and documented actual months; do not fabricate dates or count bail gaps."
+    }
+  ]
+}
