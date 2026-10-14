@@ -1,0 +1,95 @@
+{
+  "batch": 526,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "7ea6255d-1656-4ce5-ad83-c3045b5c7e54",
+      "name": "Jose Solis Jordan",
+      "slug": "jose-solis-jordan",
+      "case_id": "d100db6f-b150-4bd7-9593-8624c85655bb",
+      "expected": {
+        "id": "d100db6f-b150-4bd7-9593-8624c85655bb",
+        "prisoner_id": "7ea6255d-1656-4ce5-ad83-c3045b5c7e54",
+        "institution_id": null,
+        "charges": "18 USC 371 Conspiracy; 18 USC 844(f) Attempted Destruction of Government Property [2 counts]; 26 USC 5861(d) Illegal Possession of Explosives - 1992 Chicago military recruiting facility bombing",
+        "arrest_date": "1997-11-07 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1999-07-07 00:00:00",
+        "incarceration_date": "1999-03-12 00:00:00",
+        "release_date": "2003-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "51 months federal prison",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": "{\"release_date\":\"year\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2002-11-21 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentence": "51 months federal prison BOP register 08121-424 records release from federal custody on November 21, 2002. This is the BOP custody endpoint; it does not establish the date of any earlier transfer to a halfway house or the end of supervised release. Contemporary reporting described a planned transfer to Guaynabo and then a halfway house in 2002; the actual transfer date remains unverified."
+      },
+      "sources": [
+        "https://www.bop.gov/inmateloc/",
+        "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_19_7_1.pdf#page=34",
+        "https://www.marxists.org/history/etol/newspape/news-and-letters/2000s/2002-12.pdf#page=7",
+        "https://digitallibrary.un.org/record/496137/files/A_AC-109_2003_L-3-EN.pdf",
+        "https://groups.io/g/earthfirstalert/topics?after=1023321938000000000&page=1808"
+      ],
+      "rationale": "Live BOP register lookup resolves legacy release 2003-01-01 00:00:00 to 2002-11-21. Contemporary roster visually matches full name and register; December2002release report corroborates exact day, UN report corroboratesmonth. Preserve admission/arrest and all profile fields. Endpoint is federal custody, not a verified earlier physical-prison departure."
+    },
+    {
+      "prisoner_id": "fe24b675-0876-4f0e-acb1-3c35c660a1fc",
+      "name": "Chris Lamprecht",
+      "slug": "chris-lamprecht",
+      "case_id": "6751804f-aa22-4c26-b4c4-2c56ef89fca9",
+      "expected": {
+        "id": "6751804f-aa22-4c26-b4c4-2c56ef89fca9",
+        "prisoner_id": "fe24b675-0876-4f0e-acb1-3c35c660a1fc",
+        "institution_id": "4f255baa-f195-43bd-b46f-e6f7c5df8784",
+        "charges": "Money laundering",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1995-01-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2000-03-02 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "70 months imprisonment.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-05-10 06:33:15",
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2000-03-03 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"year\",\"release_date\":\"day\"}",
+        "sentence": "70 months imprisonment. BOP register 61153-080 records release from federal custody on March 3, 2000. This is the BOP custody endpoint; it does not establish the date of any earlier transfer to a halfway house or the end of supervised release."
+      },
+      "sources": [
+        "https://www.bop.gov/inmateloc/",
+        "https://www.ussc.gov/sites/default/files/pdf/amendment-process/public-hearings-and-meetings/19960311/19960311_Testimony.pdf"
+      ],
+      "rationale": "Live BOP register lookup resolves legacy release 2000-03-02 00:00:00 to 2000-03-03. Existing register and full-name BOP identity match; signed1996USSCletter also independently matches register. Preserve admission/arrest and all profile fields. Endpoint is federal custody, not a verified earlier physical-prison departure."
+    }
+  ]
+}
