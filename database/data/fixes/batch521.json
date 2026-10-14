@@ -1,0 +1,140 @@
+{
+  "batch": 521,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "6b64b89c-586e-4f3a-8fab-0d68a0580caf",
+      "name": "Siobhan Browne",
+      "slug": "siobhan-browne",
+      "case_id": "f540d096-5d98-4209-94de-aada117e4e9c",
+      "expected": {
+        "id": "f540d096-5d98-4209-94de-aada117e4e9c",
+        "prisoner_id": "6b64b89c-586e-4f3a-8fab-0d68a0580caf",
+        "institution_id": null,
+        "charges": "22 USC 2778 Arms Export Control Act; 18 USC 371 Conspiracy to Mail Weapons - 1999 IRA gun purchase",
+        "arrest_date": "1999-07-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2000-08-01 00:00:00",
+        "incarceration_date": "1999-07-25 00:00:00",
+        "release_date": "2001-03-25 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "20 months federal prison",
+        "imprisoned_for_days": 609,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1999-07-26 00:00:00",
+        "incarceration_date": "1999-07-26 00:00:00",
+        "release_date": "2001-01-01 00:00:00",
+        "imprisoned_for_months": 17,
+        "sentence": "20 months federal prison. Arrested and detained July 26, 1999; released from Tallahassee federal prison in January 2001. The release day is unverified: January 1 is a month-precision storage placeholder. A later interview reports seventeen months actually spent in jail, distinct from a later four-month halfway-house stay for a supervision violation. The displayed total uses that documented rounded duration, not the twenty-month sentence or a guessed release day.",
+        "date_precision": "{\"release_date\":\"month\",\"sentenced_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+        "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/",
+        "https://www.browardpalmbeach.com/news/irish-sting-6323923/",
+        "https://www.independent.ie/news/from-us-stockbroker-to-ira-gun-runner/26044800.html"
+      ],
+      "rationale": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported. July 19, 2001 interview reports January release; later first-person interview reports seventeen months in jail and a separate four-month halfway-house stay. Replace unsupported March 25 endpoint with January month precision and documented seventeen-month total. BOP name search returned no identity match; no exact release day inferred."
+    },
+    {
+      "prisoner_id": "8976ebff-7376-496f-b0b8-90b9263c62a2",
+      "name": "Conor Claxton",
+      "slug": "conor-claxton",
+      "case_id": "8ce413de-f382-4b1b-95a7-53610c7379f1",
+      "expected": {
+        "id": "8ce413de-f382-4b1b-95a7-53610c7379f1",
+        "prisoner_id": "8976ebff-7376-496f-b0b8-90b9263c62a2",
+        "institution_id": null,
+        "charges": "22 USC 2778 Arms Export Control Act; 18 USC 371 Conspiracy - 1999 IRA gun-running",
+        "arrest_date": "1999-07-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2000-09-27 00:00:00",
+        "incarceration_date": "1999-07-25 00:00:00",
+        "release_date": "2003-09-08 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "56 months federal prison",
+        "imprisoned_for_days": 1506,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1999-07-26 00:00:00",
+        "incarceration_date": "1999-07-26 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+        "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/"
+      ],
+      "rationale": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported."
+    },
+    {
+      "prisoner_id": "001ec0e2-b3b9-4fda-9e17-c977fe2663c9",
+      "name": "Anthony Smyth",
+      "slug": "anthony-smyth",
+      "case_id": "7d1c1d04-0ec0-46f8-8006-945abaa70999",
+      "expected": {
+        "id": "7d1c1d04-0ec0-46f8-8006-945abaa70999",
+        "prisoner_id": "001ec0e2-b3b9-4fda-9e17-c977fe2663c9",
+        "institution_id": null,
+        "charges": "22 USC 2778 Arms Export Control Act; 18 USC 371 Conspiracy - 1999 IRA gun-running",
+        "arrest_date": "1999-07-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2000-09-27 00:00:00",
+        "incarceration_date": "1999-07-25 00:00:00",
+        "release_date": "2002-03-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "36 months federal prison",
+        "imprisoned_for_days": 953,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1999-07-26 00:00:00",
+        "incarceration_date": "1999-07-26 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+        "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/"
+      ],
+      "rationale": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported."
+    }
+  ]
+}
