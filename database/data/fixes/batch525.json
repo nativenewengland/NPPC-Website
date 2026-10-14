@@ -1,0 +1,54 @@
+{
+  "batch": 525,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "df868f83-2f33-47b2-9dbf-331c8b32250f",
+      "name": "Kevin Art",
+      "slug": "kevin-art",
+      "case_id": "c3b64fbe-2267-4052-aeaf-b8ee756734f9",
+      "expected": {
+        "id": "c3b64fbe-2267-4052-aeaf-b8ee756734f9",
+        "prisoner_id": "df868f83-2f33-47b2-9dbf-331c8b32250f",
+        "institution_id": "1b5198ff-3784-4267-8bf6-db156ba8b6f3",
+        "charges": "Federal charges relating to Irish republican activity",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-05-18 05:47:32",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1992-06-03 00:00:00",
+        "incarceration_date": "1992-06-03 00:00:00",
+        "release_date": "1996-01-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Initial U.S. custody episode for Kevin Barry Artt (register 33020-198): arrested and detained on June 3, 1992; released on bail on January 10, 1996. The court records electronic monitoring and other restrictions after release, which are not counted as imprisonment here. Later return to custody in the extradition proceedings is a separate episode and is not included in this interval. These dates are not the dates of his earlier Northern Ireland imprisonment."
+      },
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.26.fal.94.pdf#page=51",
+        "https://www.latimes.com/archives/la-xpm-1992-06-17-me-426-story.html",
+        "https://www.latimes.com/archives/la-xpm-1992-06-09-me-156-story.html",
+        "https://openjurist.org/106/f3d/855/united-states-v-kirby",
+        "https://www.sfgate.com/news/article/u-s-judge-won-t-block-extradition-of-3-irishmen-2813124.php"
+      ],
+      "rationale": "Historical roster visually verifies Kevin Artt at FDC Pleasanton with existing33020-198, matching BOP identity and only live profile. Contemporary reporting establishes June3,1992 custody; Ninth Circuit106F3d855 paragraph10 explicitly gives January10,1996 bail release. Preserve bail gap and exclude later1997-1998 recommitment. Existing blank case gets only first completed US episode; no changes to biography or other profile fields."
+    }
+  ]
+}

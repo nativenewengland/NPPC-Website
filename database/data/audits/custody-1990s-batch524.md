@@ -8,4 +8,4 @@ Visually checked DOJ June1995 bulletin printed203 explicitly reports actual May9
 - https://newspapers.swco.ttu.edu/server/api/core/bitstreams/0fa8abd4-c348-4604-8d93-9738976b3fd6/content#page=10
 - https://multimedia.fbi.gov/item?id=7748&type=image
 
-Source PDF pages visually checked. Validation/deployment pending.
+Source PDF pages visually checked. Applied live and verified. Replay updated zero rows; see batch524-live-verification.json.
