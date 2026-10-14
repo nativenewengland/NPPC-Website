@@ -414,14 +414,6 @@
       "counters": []
     },
     {
-      "name": "Sam Day",
-      "url": "https://politicalprisonercoalition.org/prisoner/sam-day",
-      "http_status": 200,
-      "counters": [
-        "9 Months 21 Days"
-      ]
-    },
-    {
       "name": "Michele Naar-Obed",
       "url": "https://politicalprisonercoalition.org/prisoner/michele-naar-obed",
       "http_status": 200,
@@ -450,12 +442,24 @@
       "counters": [
         "20 Years 10 Months 19 Days"
       ]
+    },
+    {
+      "name": "Sam Day",
+      "url": "https://politicalprisonercoalition.org/prisoner/sam-day",
+      "http_status": 200,
+      "counters": [
+        "11 Months 2 Days"
+      ],
+      "date_context": [
+        "ssile Silo campaigns of the 1980s. Arrested numerous times for nonviolent civil disobedience at nuclear weapons sites. Documented in PFOC Breakth",
+        " leafleting Arrested: Jan 17, 1991 Incarcerated: Jan 17, 1991 Released: May 13, 1991 Sentence: Four-month sentence for the January 17, 1991 Fort ",
+        "; } catch (e) {} }); })(); Sam Day Released Date of birth: 23. 11. 1926 Date of death: 26. 01. 2001 Age: 74 † Deceased Gender: Male Race: White E"
+      ]
     }
   ],
-  "deployment": "Batches501through531appliedlive. Latest aggregate verification found zero mismatches across284fieldvalues in68case rows for58profiles; all58publicpagesHTTP200. Individual fixture, preservation and no-change replay checks retained.",
-  "profiles_with_live_corrections_in_batches_501_to_531": 58,
-  "corrected_case_rows": 68,
-  "verified_field_values": 284,
+  "deployment": "Batches501through532appliedlive. Aggregate501-531readback verified284fieldvalues in68case rows for58profiles with zero mismatches, all58publicpagesHTTP200. Batch532independentlyverified oneadditionalSamDayepisode with unchanged existing fields, zero-change replay, publicHTTP200;69corrected or added case rows total.",
+  "corrected_case_rows": 69,
+  "verified_field_values": 294,
   "research_status_counts": {
     "reviewed_unresolved": 197,
     "prior_review_remaining_gaps": 120,
@@ -468,7 +472,8 @@
     "Naar-Obed1999-2000revocation episode added528; original sentence corrected529.",
     "TahanJonesseven months actual custody added529.",
     "Hindi1998custodymonths and1996sentencing added530 without changing55daytotal.",
-    "GrahamBOPactualreleaseMarch5,2014added531."
+    "GrahamBOPactualreleaseMarch5,2014added531.",
+    "SamDay1993six-weekstay separatelyadded532withyear-onlydateanddocumented42days."
   ],
   "additional_source_limitations": [
     {
@@ -489,5 +494,6 @@
       "finding": "Publisher legacy archive link returns403. Publisher identifies ProQuest microfilm and paper copies as alternatives; no correspondence sent.",
       "source": "https://www.nukeresister.org/back-issues/"
     }
-  ]
+  ],
+  "profiles_with_live_corrections_in_batches_501_to_532": 58
 }

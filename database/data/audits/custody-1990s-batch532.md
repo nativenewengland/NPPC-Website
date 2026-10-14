@@ -4,4 +4,4 @@ Original publisher biography visuallycheckedp10explicitly reports six weeks serv
 
 https://www.bmartin.cc/dissent/contacts/au_wba/whistle199705.pdf#page=10
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch532-live-verification.json.
