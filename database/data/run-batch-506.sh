@@ -62,7 +62,7 @@ $count=DB::transaction(function()use($e,$dry,$same){
  }
  $digest=function($table,$exclude){$h=hash_init("sha256");foreach(DB::table($table)->where("id","!=",$exclude)->orderBy("id")->cursor() as $row){hash_update($h,json_encode($row)."\n");}return hash_final($h);};
  $beforeP=$digest("prisoners","");$beforeC=$digest("prisoner_cases",$e["case_id"]);
- if(!$dry){$candidate->save();if($candidate->fresh()->imprisoned_for_days!==5){throw new RuntimeException("Saved duration incorrect");}}
+ if(!$dry){$candidate->save();if((int)$candidate->fresh()->imprisoned_for_days!==5){throw new RuntimeException("Saved duration incorrect");}}
  if($beforeP!==$digest("prisoners","")||$beforeC!==$digest("prisoner_cases",$e["case_id"])){throw new RuntimeException("Preservation failed");}
  echo "All existing profiles and cases preserved\n";return 1;
 });break;
