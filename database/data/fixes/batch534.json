@@ -1,0 +1,136 @@
+{
+  "batch": 534,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "bd3cb28f-a154-43a4-ab5e-a4a3e409566e",
+      "name": "Bernard Lafayette",
+      "slug": "bernard-lafayette",
+      "case_id": "26b8f0e0-708d-4c62-bfa8-af95197ae3de",
+      "expected": {
+        "id": "26b8f0e0-708d-4c62-bfa8-af95197ae3de",
+        "prisoner_id": "bd3cb28f-a154-43a4-ab5e-a4a3e409566e",
+        "institution_id": "79fa7ac3-bd68-4b54-b959-cf6c8d0f0167",
+        "charges": "Breach of peace — 1961 Freedom Rides (Jackson, MS); civil-rights demonstrations, Selma, Alabama, 1962-1965",
+        "arrest_date": "1961-04-30 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-04-30 00:00:00",
+        "release_date": "1961-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Multiple short jail terms (Freedom Rides + Selma organizing)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-14 00:00:29",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-05-24 00:00:00",
+        "incarceration_date": "1961-05-24 00:00:00",
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-2-68-1-1-1"
+      ],
+      "rationale": "MDAH arrest photograph catalog establishes May 24, 1961 Jackson arrest and custody, correcting April 30. Preserve existing July release at month precision, with no day inferred; this batch does not newly verify that endpoint."
+    },
+    {
+      "prisoner_id": "61c22720-fb91-429c-bc4b-9c30b18a9360",
+      "name": "Bill Epton",
+      "slug": "bill-epton",
+      "case_id": "218440b4-2564-4343-be24-b4798c5121ad",
+      "expected": {
+        "id": "218440b4-2564-4343-be24-b4798c5121ad",
+        "prisoner_id": "61c22720-fb91-429c-bc4b-9c30b18a9360",
+        "institution_id": null,
+        "charges": "Criminal anarchy",
+        "arrest_date": "1964-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested after the 1964 Harlem uprising for calling a rally/march in defiance of a state-of-emergency ban. Prosecuted under New York's rarely-used criminal anarchy statute; convicted and sentenced to a one-year prison term.\n\nVerdict as recorded: Yes — convicted of criminal anarchy",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-14 00:00:25",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1964-07-25 00:00:00",
+        "sentenced_date": "1966-01-27 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/erol/1960-1970/challenge-1-8a.pdf",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt3/pdf/GPO-CRECB-1967-pt3-7-1.pdf"
+      ],
+      "rationale": "Contemporary August 1, 1964 Challenge page 3 dates the protest arrest July 25. Congressional Record dates later criminal-anarchy arrest August 5, 1964, rearrest June 7, 1965, and sentence January 27, 1966. Arrest field describes initial protest arrest matching existing case narrative; do not use it as continuous imprisonment start. Prison admission and release remain unresolved."
+    },
+    {
+      "prisoner_id": "210be04b-1af9-4ed4-aa03-378603490d44",
+      "name": "Marjorie Melville",
+      "slug": "marjorie-melville",
+      "case_id": "7ee36f4d-35b5-4033-a118-93ea64f5a76c",
+      "expected": {
+        "id": "7ee36f4d-35b5-4033-a118-93ea64f5a76c",
+        "prisoner_id": "210be04b-1af9-4ed4-aa03-378603490d44",
+        "institution_id": "7dec17b0-b4c5-4220-a341-95d3e4e07e2f",
+        "charges": "Federal destruction of government property — May 17, 1968 Catonsville draft-board raid",
+        "arrest_date": "1968-05-16 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-05-16 00:00:00",
+        "release_date": "1970-10-08 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "2 years federal prison\n\nVerdict as recorded: Yes — federal jury verdict, U.S. District Court for the District of Maryland, October 10, 1968",
+        "imprisoned_for_days": 875,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-05-17 00:00:00",
+        "incarceration_date": "1968-05-17 00:00:00",
+        "release_date": "1968-05-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "2 years federal prison\n\nVerdict as recorded: Yes — federal jury verdict, U.S. District Court for the District of Maryland, October 10, 1968\n\nThe dates on this case describe the initial pretrial detention, May 17-24, 1968, ending in release on bail. They do not span the later prison sentence. The counter includes only the verified pretrial period; later prison admission and release dates remain unresolved."
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/417/1002/190492/",
+        "https://www.newyorker.com/magazine/1970/03/14/acts-of-witness-priests-and-vietnam-war-protesters"
+      ],
+      "rationale": "Court opinion dates the action May 17, 1968. Contemporary reporting describes admission that afternoon and bail May 24. Correct this case to initial pretrial episode; prior May 16, 1968 through October 8, 1970 continuity is contradicted by bail. Preserve the second case and all profile fields. Later imprisonment dates remain unresolved; the seven-day counter is only verified pretrial time, not complete lifetime custody."
+    }
+  ]
+}
