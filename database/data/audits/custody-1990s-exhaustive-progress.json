@@ -427,8 +427,8 @@
       "case_ids": [
         "ebea3bd8-8e77-4a1e-86a5-a0eec4067c76"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Reviewed Kuby/Kunstler Enduring the Storm. Six months actually served is already recorded in sentence note; no exact admission or release day supplied.",
       "prior_sources": []
     },
     {
@@ -494,8 +494,8 @@
       "case_ids": [
         "73b8b0bd-c369-4112-b31f-07461c2f32f2"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Contemporary Jan1992 custody roster and Fifth Estate corroborate15-month sentence, not individual admission or release dates.",
       "prior_sources": []
     },
     {
@@ -655,8 +655,8 @@
       "case_ids": [
         "32526edf-3570-4648-8aea-f8ffab567b7c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Fifth Estate Winter1992 describes a forecast pre-Christmas release. It cannot establish actual discharge day. Other name matches concerned unrelated individuals.",
       "prior_sources": []
     },
     {
@@ -699,8 +699,8 @@
       "case_ids": [
         "4aba64fb-1a95-460a-a699-aeb648a27c29"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Name-specific searches returned unrelated modern records; no custody boundary established.",
       "prior_sources": []
     },
     {
@@ -897,8 +897,8 @@
       "case_ids": [
         "12f73dbe-ce3a-40dc-9ae6-073ca5c4234b"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "First-person grand-jury account distinguishes September1999 Oakland weekend detention from later StLouis confinement. September16,2004 news release concerns a different case. No1999 discharge inferred.",
       "prior_sources": []
     },
     {
@@ -1472,8 +1472,8 @@
       "case_ids": [
         "f4aaf34f-8adc-4040-a41e-7b631a902009"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Name-specific Raytheon1999 release searches did not yield a reliable new endpoint.",
       "prior_sources": []
     },
     {
@@ -1567,8 +1567,8 @@
       "case_ids": [
         "04a7a333-07bd-440c-b52c-edfccfd457be"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "January1995 month precision already present. Nukewatch2004 chronology corroborates it. Fall1995 reports a later August action; do not combine. Archive links to1995spring/summer return404.",
       "prior_sources": []
     },
     {
@@ -2698,8 +2698,8 @@
         "73d9cc75-257c-4f3b-8fd0-b8cb6e8e233a",
         "be533756-3498-462c-a716-238994e3f9ef"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Rechecked Fourth Circuit 989 F2d494: existing January25 discharge and September23 sentence already correct. March15 surrender conflicts with March newspaper report; active military custody for habeas is not necessarily jail. No new confinement endpoint inferred.",
       "prior_sources": []
     },
     {
@@ -3971,9 +3971,34 @@
       "case_ids": [
         "caf55951-e643-4a48-8075-4cb7d942d16e"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 506,
+          "case_id": "93b729ba-7002-5dab-bf87-e5e70809b920",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentenced_date",
+            "convicted",
+            "sentence",
+            "date_precision",
+            "documented_imprisoned_for_days",
+            "imprisoned_for_months"
+          ],
+          "sources": [
+            "https://www.laka.org/docu/magazines/nukewatch_pathfinder/1997-4-winter.pdf#page=5"
+          ],
+          "finding": "Original Winter 1997 page 5 confirms five days jailed in May for the courthouse banner action, separate from the 1989 Thames River case. No exact day inferred."
+        }
+      ]
     },
     {
       "id": "efff1fa7-ca20-4247-b17f-0d109adecb77",
