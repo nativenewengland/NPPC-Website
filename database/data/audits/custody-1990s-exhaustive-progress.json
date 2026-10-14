@@ -3451,9 +3451,28 @@
       "case_ids": [
         "dcc041a1-61df-4ace-8faa-00bc236c5b28"
       ],
-      "status": "prior_review_remaining_gaps",
-      "finding": "Earlier individual source review recovered and linked; not counted as new research or as an exhausted case. Remaining date gaps persist.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 530,
+          "case_id": "dcc041a1-61df-4ace-8faa-00bc236c5b28",
+          "fields": [
+            "sentenced_date",
+            "incarceration_date",
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://sharkonline.org/index.php/shark-hunting-media/378-activist-steve-hindi-out-of-jail-on-50-000-bond",
+            "https://sharkonline.org/index.php/shark-hunting-media/377-in-hunters-world-free-speech-is-a-lame-duck",
+            "https://newspaper.animalpeopleforum.org/1998/05/01/page/4/"
+          ],
+          "finding": "Archived contemporary reports establish original sentencing and separate February-March1998 custody. Preserve existing55-day documented total; do not merge across1996-1998bail or add duplicate days. February4column conflicts with February4news report reference; retain month precision."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {

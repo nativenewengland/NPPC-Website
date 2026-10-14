@@ -1,0 +1,50 @@
+{
+  "batch": 531,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "a4630cd3-055f-4b27-9657-b692f3025595",
+      "name": "William White Graham",
+      "slug": "william-white-graham",
+      "case_id": "2c2f770a-e467-4672-baec-fd211174ebdf",
+      "expected": {
+        "id": "2c2f770a-e467-4672-baec-fd211174ebdf",
+        "prisoner_id": "a4630cd3-055f-4b27-9657-b692f3025595",
+        "institution_id": null,
+        "charges": "Air piracy and murder",
+        "arrest_date": "1993-04-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1993-04-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Yes — returned to the U.S. after the Tullers and was prosecuted and imprisoned\n\nCharges as recorded: Air piracy and murder — the October 29, 1972 seizure of Eastern Air Lines Flight 486 at Houston, in which ticket agent Stanley Hubbard was killed; preceded by the June 1972 Arlington, Virginia bank-robbery attempt that left two men dead",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-18 02:59:32",
+        "updated_at": "2026-07-29 17:12:22",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2014-03-05 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Verdict as recorded: Yes — returned to the U.S. after the Tullers and was prosecuted and imprisoned\n\nCharges as recorded: Air piracy and murder — the October 29, 1972 seizure of Eastern Air Lines Flight 486 at Houston, in which ticket agent Stanley Hubbard was killed; preceded by the June 1972 Arlington, Virginia bank-robbery attempt that left two men dead BOP register 19268-083, under the full name William White Graham, records release from federal custody on March 5, 2014. The full name and reported age match the subject of the contemporary January 1975 interview. This is the federal custody endpoint, not proof of the date of any earlier transfer to a halfway house or the end of supervised release. The existing admission date is preserved."
+      },
+      "sources": [
+        "https://www.bop.gov/inmateloc/",
+        "https://www.latinamericanstudies.org/hijackers/enjoys-cuba.htm",
+        "https://dccrimeandpunishment.wordpress.com/tag/united-states-department-of-commerce/"
+      ],
+      "rationale": "BOP full-name search and separate exact-register lookup agree on actual releaseMarch5,2014, register19268-083. Identity supported by unusual three-part full name and age72 compatible with age20 in January1975 contemporary interview; later journalistic account identifies1993 surrender and imprisonment. Preserve all other fields, including existing admission. No sentence length inferred as time served."
+    }
+  ]
+}

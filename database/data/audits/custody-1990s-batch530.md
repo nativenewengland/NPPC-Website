@@ -6,4 +6,4 @@ Archived contemporary reports establish original sentencing and separate Februar
 - https://sharkonline.org/index.php/shark-hunting-media/377-in-hunters-world-free-speech-is-a-lame-duck
 - https://newspaper.animalpeopleforum.org/1998/05/01/page/4/
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch530-live-verification.json.
