@@ -678,8 +678,8 @@
       "case_ids": [
         "5fee3a0b-2354-4e40-beb6-d0929e31e5fd"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Peace Law Reporter provides March17,1990 air-show leafleting arrest and June12 acquittal, but not custody duration. This is not the generic anti-Contra Pledge of Resistance row; no mismatched date written. https://digicoll.lib.berkeley.edu/record/222230/files/meik-peacelaw.pdf",
       "prior_sources": []
     },
     {
@@ -1439,8 +1439,8 @@
       "case_ids": [
         "e27c6c0c-07b7-4256-a3ec-c8bbdf640c8c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Original consolidated appellate opinion275F3d1 states appellants arrested April-June2000, not1999. Generic campaign1999-2003 label is not individual1990s custody evidence. No individual date inferred from group range. https://law.justia.com/cases/federal/appellate-courts/F3/275/1/592301/",
       "prior_sources": []
     },
     {
@@ -6666,8 +6666,8 @@
       "case_ids": [
         "e5cc46dc-6d8e-4c40-bd7a-933be739fa57"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "First-person1999 Sojourners and Quaker accounts identify March1998 detention in Kosovo. That foreign detention must not be assigned to the generic US anti-Contra case. No1990s US custody boundary verified. https://sojo.net/magazine/july-august-1999/creative-courage ; https://quaker.org/legacy/peaceweb/kodh2.html",
       "prior_sources": []
     },
     {
@@ -6677,9 +6677,26 @@
       "case_ids": [
         "88140096-9ead-404b-9c78-a0e226d7a122"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Conflicting 1990 release sources: National Registry of Exonerations gives May31; Alford v Maddock federal findings (2007), page4 footnote3, says released after October1990 resentencing. Neither endpoint written. Do not combine later1996/1997 custody with original1978-1990 term. Sources: https://exonerationregistry.org/cases/10372 ; https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_97-cv-00664/pdf/USCOURTS-caed-2_97-cv-00664-2.pdf",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 523,
+          "case_id": "88140096-9ead-404b-9c78-a0e226d7a122",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://exonerationregistry.org/cases/10372",
+            "https://www.latimes.com/archives/la-xpm-1990-06-24-tm-1167-story.html",
+            "https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_97-cv-00664/pdf/USCOURTS-caed-2_97-cv-00664-2.pdf#page=4"
+          ],
+          "finding": "NRE records May 31, 1990 release and later separate custody ending in 2005. The June 1990 contemporary report corroborates an earlier recognizance release before resentencing. The 2007 court footnote refers to October 1990 resentencing and subsequent release, but cannot establish continuous confinement through October against the contemporaneous account. Add the supported initial release endpoint; do not invent an admission day, combine later custody, or claim a new working counter."
+        }
+      ]
     },
     {
       "id": "fdde652f-70b2-43a5-98ee-2292e7e6e50f",

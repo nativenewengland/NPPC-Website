@@ -8,4 +8,4 @@ NRE records May 31, 1990 release and later separate custody ending in 2005. The 
 
 One case field correction with explanatory sentence appendix; biography unchanged. No counter claimed: admission remains unknown.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch523-live-verification.json.
