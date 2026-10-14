@@ -1,0 +1,98 @@
+{
+  "batch": 543,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "5fb150e8-e0ba-4baf-957a-8ef31d8496ab",
+      "name": "Rebecca Rubin",
+      "slug": "rebecca-rubin",
+      "case_id": "364aa990-b748-4516-bbc6-771708dde7e0",
+      "expected": {
+        "id": "364aa990-b748-4516-bbc6-771708dde7e0",
+        "prisoner_id": "5fb150e8-e0ba-4baf-957a-8ef31d8496ab",
+        "institution_id": "9adfb6b9-53af-41b8-a78d-4434c5bb07ec",
+        "charges": "Arson",
+        "arrest_date": "1966-06-17 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2014-01-26 00:00:00",
+        "incarceration_date": "1967-05-27 00:00:00",
+        "release_date": "1985-11-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "60 months federal prison",
+        "imprisoned_for_days": 6739,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-07-01 10:35:23",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2012-11-29 00:00:00",
+        "incarceration_date": "2012-11-29 00:00:00",
+        "release_date": "2016-04-11 00:00:00",
+        "sentenced_date": "2014-01-27 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "60 months federal prison. Transferred from prison to a halfway house on April 11, 2016; this endpoint marks departure from prison, not completion of all custodial restrictions."
+      },
+      "sources": [
+        "https://archives.fbi.gov/archives/portland/press-releases/2012/canadian-fugitive-surrenders-at-border-in-nations-largest-eco-terrorism-case",
+        "https://denverabc.wordpress.com/prisoners-dabc-supports/former-political-prisoners/rebecca-rubin/",
+        "https://toronto.citynews.ca/2014/01/28/canadian-woman-who-aided-ecoterror-firebombings-sentenced-to-5-years-in-prison/"
+      ],
+      "rationale": "Remove spurious 1966 arrest, 1967 admission and 1985 release. FBI contemporaneous custody announcement establishes November 29, 2012; prisoner-support notice establishes prison-to-halfway-house transfer April 11, 2016. AP report January 28 identifies Monday sentencing, January 27. This is not a 1960s case; it entered the inventory through corrupt dates. Preserve biography."
+    },
+    {
+      "prisoner_id": "fc8a0ea7-339f-4a41-bfad-d8dc23ad5179",
+      "name": "Sal Castro",
+      "slug": "sal-castro",
+      "case_id": "8a69314d-b8ba-4c90-8b6a-142b07992371",
+      "expected": {
+        "id": "8a69314d-b8ba-4c90-8b6a-142b07992371",
+        "prisoner_id": "fc8a0ea7-339f-4a41-bfad-d8dc23ad5179",
+        "institution_id": "bca5d10d-cb6f-4fd0-aaac-e33fb2def448",
+        "charges": "Conspiracy to disturb the peace and disrupt the operation of public schools (15 counts) — East L.A. Walkouts",
+        "arrest_date": "1968-05-30 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-05-30 00:00:00",
+        "release_date": "1969-12-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No — indictments dismissed by California Court of Appeals, 1970",
+        "imprisoned_for_days": 580,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-05-31 00:00:00",
+        "incarceration_date": "1968-05-31 00:00:00",
+        "release_date": "1968-06-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://escholarship.org/content/qt0w3394d5/qt0w3394d5.pdf",
+        "https://academeblog.org/2018/03/04/east-los-angeles-1968-a-student-walkout-to-commemorate-and-learn-from/",
+        "https://www.apr.org/politics-government/2018-05-30/what-gun-violence-protesters-can-learn-from-1968s-chicano-blowouts?_amp=true"
+      ],
+      "rationale": "UCLA dissertation page 154 explicitly dates arrest and jail admission May 31; NPR anniversary report corroborates arrest date. Historian Hank Reichman identifies June 2 bail release. Replace unsupported December 31, 1969 endpoint. Counter should be two elapsed days, not 580. No group-wide inference."
+    }
+  ]
+}
