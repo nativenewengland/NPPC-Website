@@ -1,0 +1,94 @@
+{
+  "batch": 508,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "b5154009-58e1-4ed8-b832-5bdd2ae5ba22",
+      "name": "Terence Damien Kirby",
+      "slug": "terence-damien-kirby",
+      "case_id": "a0731feb-5a33-4e74-abb4-9744df05689f",
+      "expected": {
+        "id": "a0731feb-5a33-4e74-abb4-9744df05689f",
+        "prisoner_id": "b5154009-58e1-4ed8-b832-5bdd2ae5ba22",
+        "institution_id": null,
+        "charges": "Held for extradition to the United Kingdom following the 1983 escape from the Maze prison.",
+        "arrest_date": "1994-02-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1994-02-01 00:00:00",
+        "release_date": "1996-01-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested in February 1994 and held until released on bail in January 1996, alongside Pol Brennan and Kevin Artt.",
+        "imprisoned_for_days": 701,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-27 18:32:24",
+        "updated_at": "2026-09-12 00:00:21",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1994-02-23 00:00:00",
+        "incarceration_date": "1994-02-23 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.upi.com/Archives/1994/02/23/Irish-terrorist-arrested-in-Northern-California/9276761979600/",
+        "https://www.upi.com/Archives/1994/02/24/FBI-Bay-area-underground-helped-IRA-fugitives/3898762066000/"
+      ],
+      "rationale": "Contemporary FBI reporting identifies Wednesday February 23, 1994 arrest and ensuing federal custody. Existing January 3, 1996 release preserved."
+    },
+    {
+      "prisoner_id": "8234df28-f62c-4697-909c-06e96d6a6f8a",
+      "name": "James Joseph Smyth",
+      "slug": "james-joseph-smyth",
+      "case_id": "e4079921-30f6-434e-bf60-0881d030b0bc",
+      "expected": {
+        "id": "e4079921-30f6-434e-bf60-0881d030b0bc",
+        "prisoner_id": "8234df28-f62c-4697-909c-06e96d6a6f8a",
+        "institution_id": null,
+        "charges": "Held for extradition to the United Kingdom following the 1983 escape from the Maze prison.",
+        "arrest_date": "1992-06-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1992-06-03 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held without bail throughout the extradition litigation, which began in 1992. No release date is documented in the available source.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-27 18:32:24",
+        "updated_at": "2026-08-04 06:14:57",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1996-08-18 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "custody_periods": "[{\"start\":\"1996-07-02\",\"end\":\"1996-08-18\"}]",
+        "sentence": "U.S. extradition detention included interrupted periods of custody and release on bail. The verified July 2-August 18, 1996 detention ended with extradition to British custody, not release to freedom. The counter includes only these 47 verified days; earlier U.S. custody beginning in June 1992 is not yet included because bail and return dates remain unresolved. Sources disagree on the earlier bail chronology. No continuous 1992-1996 imprisonment is asserted."
+      },
+      "sources": [
+        "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+        "https://www.sfgate.com/news/article/bay-area-datelines-3136117.php",
+        "https://m.openjurist.org/976/f2d/1535/extradition-smyth-united-states-v-smyth"
+      ],
+      "rationale": "July 2, 1996 return to custody and August 18 extradition confirmed. Explicit periods prevent counting bail gaps. Earlier intervals remain unresolved; 47 days is a partial total."
+    }
+  ]
+}
