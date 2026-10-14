@@ -1,0 +1,50 @@
+{
+  "batch": 523,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "fd6f7b39-68e9-4403-8636-695008d57b6f",
+      "name": "Patrick Croy",
+      "slug": "patrick-croy",
+      "case_id": "88140096-9ead-404b-9c78-a0e226d7a122",
+      "expected": {
+        "id": "88140096-9ead-404b-9c78-a0e226d7a122",
+        "prisoner_id": "fd6f7b39-68e9-4403-8636-695008d57b6f",
+        "institution_id": null,
+        "charges": "First-degree murder of a Yreka, California police officer (1978)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Approximately twelve years imprisoned (seven on death row) before acquittal\n\nVerdict as recorded: Convicted 1979 and sentenced to death; conviction overturned 1985; acquitted at 1990 retrial on self-defense grounds",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-07-29 17:05:28",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1990-05-31 00:00:00",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "sentence": "Approximately twelve years imprisoned (seven on death row) before acquittal\n\nVerdict as recorded: Convicted 1979 and sentenced to death; conviction overturned 1985; acquitted at 1990 retrial on self-defense grounds Released on May 31, 1990, according to the National Registry of Exonerations. This endpoint belongs to the original custody episode; the later probation-revocation imprisonment and March 2005 release are separate. The October 1990 resentencing described in later court findings should not extend this initial confinement. Exact initial admission remains unverified."
+      },
+      "sources": [
+        "https://exonerationregistry.org/cases/10372",
+        "https://www.latimes.com/archives/la-xpm-1990-06-24-tm-1167-story.html",
+        "https://www.govinfo.gov/content/pkg/USCOURTS-caed-2_97-cv-00664/pdf/USCOURTS-caed-2_97-cv-00664-2.pdf#page=4"
+      ],
+      "rationale": "NRE records May 31, 1990 release and later separate custody ending in 2005. The June 1990 contemporary report corroborates an earlier recognizance release before resentencing. The 2007 court footnote refers to October 1990 resentencing and subsequent release, but cannot establish continuous confinement through October against the contemporaneous account. Add the supported initial release endpoint; do not invent an admission day, combine later custody, or claim a new working counter."
+    }
+  ]
+}
