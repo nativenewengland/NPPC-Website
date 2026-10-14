@@ -1,0 +1,65 @@
+{
+  "batch": 515,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
+      "name": "Peter Lumsdaine",
+      "slug": "peter-lumsdaine",
+      "case_id": "83ed6f52-bf1c-53b5-b0e3-1e0b037f919c",
+      "expected_cases": [
+        {
+          "id": "9be007d2-ad0c-40e4-a651-f9ba2f655061",
+          "prisoner_id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
+          "institution_id": "4f255baa-f195-43bd-b46f-e6f7c5df8784",
+          "charges": "Rockwell satellite action — initial pretrial detention",
+          "arrest_date": "1992-05-10 00:00:00",
+          "indicted": null,
+          "convicted": "Jul 13th 1992",
+          "plead": "Guilty",
+          "sentenced_date": "1992-09-21 00:00:00",
+          "incarceration_date": "1992-05-10 00:00:00",
+          "release_date": "1992-06-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Initial detention from May 10, 1992 ended on bail in mid-June 1992, according to the Plowshares chronology, printed page 50. June 1 is a MONTH-precision storage placeholder, not the actual release day. Electronic monitoring followed. The two-year sentence imposed September 21, 1992 belongs to later custody; its separate federal endpoint was March 2, 1994. No continuous May 1992–March 1994 interval is asserted.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:15",
+          "updated_at": "2026-10-14 01:15:42",
+          "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "83ed6f52-bf1c-53b5-b0e3-1e0b037f919c",
+        "prisoner_id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
+        "institution_id": null,
+        "charges": "Rockwell satellite action — later federal sentence and custody endpoint",
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": "1994-03-02 00:00:00",
+        "sentenced_date": "1992-09-21 00:00:00",
+        "convicted": "Yes",
+        "sentence": "Two-year federal sentence imposed September 21, 1992. The Plowshares chronology documents earlier bail in June 1992 and transfer to a halfway house in December 1993. BOP register 94359-012 records actual federal release March 2, 1994, corroborating the chronology release month. This endpoint includes the later halfway-house phase; it is not the prison-to-halfway-house transfer date. Exact readmission after bail and exact December transfer day remain unverified. The initial detention is recorded separately; no uninterrupted May 1992–March 1994 duration is counted.",
+        "documented_imprisoned_for_days": null,
+        "date_precision": {
+          "sentenced_date": "day",
+          "release_date": "day"
+        }
+      },
+      "sources": [
+        "https://www.bop.gov/inmateloc/",
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.50 / PDF p.62.",
+        "https://kingsbayplowshares7.org/plowshares-history/",
+        "https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Arm%20the%20Spirit/510.arm.spirit.OctDec1992.pdf"
+      ],
+      "rationale": "Separate later federal endpoint from initial detention; preserve bail gap and distinguish halfway-house phase."
+    }
+  ]
+}
