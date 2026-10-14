@@ -1,0 +1,65 @@
+{
+  "batch": 535,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
+      "name": "Joan Baez",
+      "slug": "joan-baez",
+      "case_id": "8aea9fe7-8a36-5f70-a571-607b1cb6d3b9",
+      "expected_cases": [
+        {
+          "id": "5cab610f-b3f1-4b1c-8bad-dbef57e5cc01",
+          "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
+          "institution_id": null,
+          "charges": "Blocking entrance to Armed Forces Induction Center (civil disobedience)",
+          "arrest_date": "1967-10-16 00:00:00",
+          "indicted": null,
+          "convicted": "Arrested and jailed for blocking draft induction",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1967-10-16 00:00:00",
+          "release_date": "1967-10-26 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested in 1967 in Oakland during demonstrations at the Armed Forces Induction Center, where protesters sought to block draft processing. Served jail time as a consequence of the antiwar civil disobedience.",
+          "imprisoned_for_days": 10,
+          "in_exile_for_days": null,
+          "created_at": "2026-07-22 02:18:56",
+          "updated_at": "2026-10-14 23:19:36",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "8aea9fe7-8a36-5f70-a571-607b1cb6d3b9",
+        "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
+        "institution_id": null,
+        "charges": "Blocking the Oakland Armed Forces Induction Center during December 1967 anti-draft protests",
+        "arrest_date": "1967-12-01 00:00:00",
+        "incarceration_date": "1967-12-01 00:00:00",
+        "release_date": "1968-01-18 00:00:00",
+        "sentence": "Separate December 1967 anti-draft imprisonment at Santa Rita. The official chronology records a 90-day sentence with 45 days suspended. The Bay Area Television Archive describes her January 18, 1968 release press conference and separately reports 31 days served. The admission day is unresolved; December is recorded at month precision, and 31 days is the reported actual duration, not an inferred calendar interval. This is separate from the October 16-26, 1967 stay.",
+        "date_precision": {
+          "arrest_date": "month",
+          "incarceration_date": "month",
+          "release_date": "day"
+        },
+        "documented_imprisoned_for_days": 31
+      },
+      "expected_days": 31,
+      "sources": [
+        "https://www.joanbaez.com/bio/",
+        "https://diva.sfsu.edu/collections/sfbatv/bundles/238518",
+        "https://library.sfsu.edu/bata-db/joan-baez-2",
+        "https://diva.sfsu.edu/collections/sfbatv/bundles/238537"
+      ],
+      "rationale": "Add second stay separately. Official chronology and December film document rearrest; January 18 press-conference description establishes release, though library film-date field is January 19. January 22 archive description explicitly reports 31 days; its unrelated tax-lawsuit filing-year typo is not used. No exact December day inferred."
+    }
+  ]
+}
