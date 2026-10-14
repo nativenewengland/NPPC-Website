@@ -1,0 +1,91 @@
+{
+  "batch": 509,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "1766e8ba-1156-4eaf-9c1f-16ba27224f40",
+      "name": "Hasan Shakur",
+      "slug": "hasan-shakur",
+      "case_id": "ded78eca-6c00-4a10-b2ca-3107e1a701e5",
+      "expected": {
+        "id": "ded78eca-6c00-4a10-b2ca-3107e1a701e5",
+        "prisoner_id": "1766e8ba-1156-4eaf-9c1f-16ba27224f40",
+        "institution_id": null,
+        "charges": "Capital murder (1997 double murder; conviction contested — coerced confession, no physical evidence)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-01-01 00:00:00",
+        "release_date": "2006-08-31 00:00:00",
+        "death_in_custody_date": "2006-08-31 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death\n\nVerdict as recorded: Yes — executed August 31, 2006",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 02:29:57",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"incarceration_date\":\"year\",\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1997-06-01 00:00:00",
+        "incarceration_date": "1997-06-01 00:00:00",
+        "sentenced_date": "1998-10-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"month\",\"sentenced_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.clarkprosecutor.org/html/death/US/frazier1045.htm",
+        "https://www.tdcj.texas.gov/death_row/dr_info/frazierderrick.html"
+      ],
+      "rationale": "Prosecutorial compilation documents arrest after June 1997 killings and October 1998 death sentence. Use month precision: compiled accounts differ on sentencing day, and arrest day needs original record. TDCJ October 9, 1998 reception is not initial pretrial custody."
+    },
+    {
+      "prisoner_id": "49995fe3-0c85-4e23-bbbc-92dee350ed7a",
+      "name": "Gazi Ibrahim Abu Mezer",
+      "slug": "gazi-ibrahim-abu-mezer",
+      "case_id": "6d9a1e4f-0b59-4c9f-8ac4-c8c06ca0fbea",
+      "expected": {
+        "id": "6d9a1e4f-0b59-4c9f-8ac4-c8c06ca0fbea",
+        "prisoner_id": "49995fe3-0c85-4e23-bbbc-92dee350ed7a",
+        "institution_id": null,
+        "charges": "18 USC 2332a(a)(2) Conspiracy to Use a Weapon of Mass Destruction; 18 USC 924(c)(1) Use of a Firearm (pipe bomb) During a Crime of Violence - 1997 NYC subway pipe-bomb plot",
+        "arrest_date": "1997-07-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1999-03-01 00:00:00",
+        "incarceration_date": "1997-07-30 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life without parole",
+        "imprisoned_for_days": 10668,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1997-07-31 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://oig.justice.gov/sites/default/files/legacy/special/9803/brbrp1.htm"
+      ],
+      "rationale": "Justice Department Inspector General distinguishes July 30 tip from July 31 raid, arrest and custodial hospitalization. Correct one-day-early custody start; preserve arrest and sentence dates."
+    }
+  ]
+}

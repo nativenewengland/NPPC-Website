@@ -2141,9 +2141,27 @@
       "case_ids": [
         "e4079921-30f6-434e-bf60-0881d030b0bc"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 508,
+          "case_id": "e4079921-30f6-434e-bf60-0881d030b0bc",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "custody_periods",
+            "sentence"
+          ],
+          "sources": [
+            "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+            "https://www.sfgate.com/news/article/bay-area-datelines-3136117.php",
+            "https://m.openjurist.org/976/f2d/1535/extradition-smyth-united-states-v-smyth"
+          ],
+          "finding": "July 2, 1996 return to custody and August 18 extradition confirmed. Explicit periods prevent counting bail gaps. Earlier intervals remain unresolved; 47 days is a partial total."
+        }
+      ]
     },
     {
       "id": "824a5565-5a08-45fd-9c8a-2b87bd9d0e4e",
@@ -3120,9 +3138,25 @@
       "case_ids": [
         "a0731feb-5a33-4e74-abb4-9744df05689f"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 508,
+          "case_id": "a0731feb-5a33-4e74-abb4-9744df05689f",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.upi.com/Archives/1994/02/23/Irish-terrorist-arrested-in-Northern-California/9276761979600/",
+            "https://www.upi.com/Archives/1994/02/24/FBI-Bay-area-underground-helped-IRA-fugitives/3898762066000/"
+          ],
+          "finding": "Contemporary FBI reporting identifies Wednesday February 23, 1994 arrest and ensuing federal custody. Existing January 3, 1996 release preserved."
+        }
+      ]
     },
     {
       "id": "b6620861-3cfe-44de-a35c-d36063e517c3",
