@@ -8,4 +8,4 @@ Sources: https://www.bop.gov/inmateloc/ ; https://soaw-austin.org/POC1983_2012.p
 
 John Patrick Liteky lookup returned a later 2003 release; not applied to earlier cases. His conflicting 1998–2000 rows remain unresolved.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch513-live-verification.json.

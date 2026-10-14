@@ -1,0 +1,93 @@
+{
+  "batch": 514,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
+      "name": "Peter Lumsdaine",
+      "slug": "peter-lumsdaine",
+      "case_id": "9be007d2-ad0c-40e4-a651-f9ba2f655061",
+      "expected": {
+        "id": "9be007d2-ad0c-40e4-a651-f9ba2f655061",
+        "prisoner_id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
+        "institution_id": "4f255baa-f195-43bd-b46f-e6f7c5df8784",
+        "charges": null,
+        "arrest_date": "1992-05-10 00:00:00",
+        "indicted": null,
+        "convicted": "Jul 13th 1992",
+        "plead": "Guilty",
+        "sentenced_date": "1992-09-21 00:00:00",
+        "incarceration_date": "1992-05-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two-year federal prison sentence for the May 10, 1992 Rockwell satellite action, imposed September 21, 1992. Exact post-sentencing admission and release remain unverified; the previous June 1992 endpoint did not establish release from this sentence.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-09-19 14:21:22",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1992-06-01 00:00:00",
+        "charges": "Rockwell satellite action — initial pretrial detention",
+        "sentence": "Initial detention from May 10, 1992 ended on bail in mid-June 1992, according to the Plowshares chronology, printed page 50. June 1 is a MONTH-precision storage placeholder, not the actual release day. Electronic monitoring followed. The two-year sentence imposed September 21, 1992 belongs to later custody; its separate federal endpoint was March 2, 1994. No continuous May 1992–March 1994 interval is asserted.",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.50 / PDF p.62 (user-supplied book).",
+        "https://kingsbayplowshares7.org/plowshares-history/"
+      ],
+      "rationale": "Separate initial bail release from later sentence custody; exact June day remains unresolved."
+    },
+    {
+      "prisoner_id": "6fc76a2c-79ed-497f-9b1b-15d96f4de760",
+      "name": "Elmer Maas",
+      "slug": "elmer-maas",
+      "case_id": "321aa581-082d-4f4b-ae0a-efe450a1e10d",
+      "expected": {
+        "id": "321aa581-082d-4f4b-ae0a-efe450a1e10d",
+        "prisoner_id": "6fc76a2c-79ed-497f-9b1b-15d96f4de760",
+        "institution_id": null,
+        "charges": "Conspiracy to enter a naval reservation for an unlawful purpose — Thames River Plowshares, later sentence",
+        "arrest_date": "1989-09-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — December 19, 1989 jury verdict",
+        "plead": null,
+        "sentenced_date": "1990-03-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Judge Nevas",
+        "sentence": "60 days in prison; actual later admission and release dates not established",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-11 19:17:36",
+        "updated_at": "2026-10-11 19:17:36",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1990-04-30 00:00:00",
+        "sentence": "60 days in prison; actual later admission and release dates not established\n\nOfficial BOP register 10016-014 records actual federal release April 30, 1990, matching Elmer Maas. This is the later Thames River federal sentence endpoint, not release from the separate Pennsylvania Plowshares Eight case. Actual admission date remains unverified.",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.bop.gov/inmateloc/",
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.44 / PDF p.56."
+      ],
+      "rationale": "Federal endpoint after March 6, 1990 Thames River sentencing. Preserve unknown admission; do not back-calculate from60-day sentence."
+    }
+  ]
+}

@@ -4188,9 +4188,25 @@
       "case_ids": [
         "611f0ac7-037d-4282-b419-b697a3fd27a4"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 513,
+          "case_id": "611f0ac7-037d-4282-b419-b697a3fd27a4",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://soaw-austin.org/POC1983_2012.php"
+          ],
+          "finding": "Official Federal Bureau of Prisons inmate locator, register 86278-020, reports actual release July 29, 1996 (checked October 13, 2026). Admission date remains unverified; no continuous custody interval is inferred from the November 1995 arrest."
+        }
+      ]
     },
     {
       "id": "f62d1139-f925-4c54-9083-405b7756059d",
@@ -4416,9 +4432,25 @@
       "case_ids": [
         "4df01c56-2a44-40c7-a376-32bea1fc77dd"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 513,
+          "case_id": "4df01c56-2a44-40c7-a376-32bea1fc77dd",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://soaw-austin.org/POC1983_2012.php"
+          ],
+          "finding": "Official Federal Bureau of Prisons inmate locator, register 86281-020, reports actual release July 29, 1996 (checked October 13, 2026). Admission date remains unverified; no continuous custody interval is inferred from the November 1995 arrest."
+        }
+      ]
     },
     {
       "id": "fde3d460-97b9-49bc-9c00-bb416e2913a1",
