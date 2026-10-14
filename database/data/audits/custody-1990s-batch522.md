@@ -19,4 +19,4 @@ Contemporary report and spouse letter establish January 1996 return to prison fo
 
 Patrick Croy remains unresolved: the National Registry of Exonerations gives May 31, 1990, while Alford v Maddock (January 23, 2007), page 4 footnote 3, places release after October 1990 resentencing. Neither conflicting endpoint was written.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch522-live-verification.json.
