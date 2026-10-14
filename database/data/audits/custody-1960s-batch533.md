@@ -24,4 +24,4 @@ Official chronology dates October 16 arrest and ten-day imprisonment; October 26
 
 Inventory: 1,419 broadly decade-related profiles; 1,247 profiles/1,300 cases flagged by missing fields or partial precision. These are research candidates, not confirmed defects. Later cases mentioning the decade must be excluded manually. Carl Braden: existing 1961-1962 endpoints corroborated; no change. Other candidates remain pending.
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture passed, live preview matched, full profile/unrelated-field preservation checked, zero-change replay passed, public pages returned HTTP 200 and displayed the changes. See adjacent live-verification JSON.

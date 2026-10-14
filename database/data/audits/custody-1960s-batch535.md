@@ -7,4 +7,4 @@ Add second stay separately. Official chronology and December film document rearr
 - https://library.sfsu.edu/bata-db/joan-baez-2
 - https://diva.sfsu.edu/collections/sfbatv/bundles/238537
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture passed, live preview matched, full profile/unrelated-field preservation checked, zero-change replay passed, public pages returned HTTP 200 and displayed the changes. See adjacent live-verification JSON.

@@ -22,4 +22,4 @@ Sources:
 - https://law.justia.com/cases/federal/appellate-courts/F2/417/1002/190492/
 - https://www.newyorker.com/magazine/1970/03/14/acts-of-witness-priests-and-vietnam-war-protesters
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture passed, live preview matched, full profile/unrelated-field preservation checked, zero-change replay passed, public pages returned HTTP 200 and displayed the changes. See adjacent live-verification JSON.
