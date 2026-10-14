@@ -8,4 +8,4 @@ Historical roster visually verifies Kevin Artt at FDC Pleasanton with existing33
 - https://openjurist.org/106/f3d/855/united-states-v-kirby
 - https://www.sfgate.com/news/article/u-s-judge-won-t-block-extradition-of-3-irishmen-2813124.php
 
-Adds arrest, incarceration and initial bail-release endpoints. Later custody remains unresolved and is excluded. No biography changes. Validation/deployment pending.
+Adds arrest, incarceration and initial bail-release endpoints. Later custody remains unresolved and is excluded. No biography changes. Applied live and verified. Replay updated zero rows; see batch525-live-verification.json.
