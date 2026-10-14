@@ -1,0 +1,92 @@
+{
+  "batch": 510,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "2a80697b-4107-4dce-97af-6c04810f57b2",
+      "name": "Sanyika Shakur",
+      "slug": "sanyika-shakur",
+      "case_id": "a8c80a08-d41d-4d83-ab4c-d9bf445295ef",
+      "expected": {
+        "id": "a8c80a08-d41d-4d83-ab4c-d9bf445295ef",
+        "prisoner_id": "2a80697b-4107-4dce-97af-6c04810f57b2",
+        "institution_id": null,
+        "charges": "Attempted murder and related violent-offense charges resolved by plea agreement",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Convicted under a plea agreement",
+        "plead": null,
+        "sentenced_date": "1991-06-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Seven years; exact custody endpoints have not been established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 18:52:12",
+        "updated_at": "2026-09-26 18:52:12",
+        "date_precision": "{\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1995-09-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.laweekly.com/ghetto-star/",
+        "https://people.umass.edu/kastor/fallprogram/fall-shakur.html"
+      ],
+      "rationale": "LA Weekly reports September 1995 parole. Preserve missing start; subsequent parole-violation detentions are separate."
+    },
+    {
+      "prisoner_id": "15759e1f-e736-460c-a02c-59ae193b7a37",
+      "name": "John J. Ford",
+      "slug": "john-j-ford",
+      "case_id": "39811b24-b78c-42b4-a783-418280beaa1d",
+      "expected": {
+        "id": "39811b24-b78c-42b4-a783-418280beaa1d",
+        "prisoner_id": "15759e1f-e736-460c-a02c-59ae193b7a37",
+        "institution_id": "33f380b1-85b8-46bd-91fa-4c666e9e0f6c",
+        "charges": "New York state conspiracy and possession charges related to plot to deploy radium against Suffolk County officials",
+        "arrest_date": "1997-06-10 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-06-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Charged but not tried; civil commitment\n\nVerdict as recorded: No - found incompetent to stand trial",
+        "imprisoned_for_days": 10718,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1996-06-01 00:00:00",
+        "incarceration_date": "1996-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.upi.com/Archives/1996/06/14/LI-pol-kill-plot/3638834724800/",
+        "https://www.upi.com/Archives/1997/06/11/Guilty-plea-in-radiation-plot/7314866001600/",
+        "https://www.washingtonpost.com/archive/politics/1996/06/14/2-charged-in-plot-to-poison-long-island-gop-officials/ed5c576e-f2c1-4a30-bd92-56166dc7c2a2/"
+      ],
+      "rationale": "Contemporary reporting establishes June 1996 arrest and continuing pretrial detention by June 1997. Correct erroneous year; preserve month precision pending booking record."
+    }
+  ]
+}

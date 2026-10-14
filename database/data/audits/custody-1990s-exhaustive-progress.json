@@ -339,9 +339,26 @@
       "case_ids": [
         "ded78eca-6c00-4a10-b2ca-3107e1a701e5"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 509,
+          "case_id": "ded78eca-6c00-4a10-b2ca-3107e1a701e5",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.clarkprosecutor.org/html/death/US/frazier1045.htm",
+            "https://www.tdcj.texas.gov/death_row/dr_info/frazierderrick.html"
+          ],
+          "finding": "Prosecutorial compilation documents arrest after June 1997 killings and October 1998 death sentence. Use month precision: compiled accounts differ on sentencing day, and arrest day needs original record. TDCJ October 9, 1998 reception is not initial pretrial custody."
+        }
+      ]
     },
     {
       "id": "177987ed-ab0a-4605-9e4f-71f5f3cdd163",
@@ -1165,9 +1182,23 @@
       "case_ids": [
         "6d9a1e4f-0b59-4c9f-8ac4-c8c06ca0fbea"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 509,
+          "case_id": "6d9a1e4f-0b59-4c9f-8ac4-c8c06ca0fbea",
+          "fields": [
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://oig.justice.gov/sites/default/files/legacy/special/9803/brbrp1.htm"
+          ],
+          "finding": "Justice Department Inspector General distinguishes July 30 tip from July 31 raid, arrest and custodial hospitalization. Correct one-day-early custody start; preserve arrest and sentence dates."
+        }
+      ]
     },
     {
       "id": "49b3109a-e6e5-463b-a91b-d38bbe409eae",
