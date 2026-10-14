@@ -4674,9 +4674,31 @@
       "case_ids": [
         "3ee92230-1c35-4965-bcdc-2d9ef89a36c6"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Chronology describes June 21, 2000 release from a later 1999 return to custody. Do not pair this with original 1995 arrest; separate case/episode needed.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 528,
+          "case_id": "149aaa24-14cd-51df-a504-6ad1e1a72e0d",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_19_8_1.pdf#page=34",
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 58 (user-supplied PDF page 70)."
+          ],
+          "finding": "One-year term after revocation of supervision for returning to Jonah House. The September-October 1999 Earth First! roster reports return to prison in July 1999 at Western Tidewater Regional Jail. The Plowshares Disarmament Chronology, 1980-2003 (p. 58) reports actual release on June 21, 2000. Admission is known only to the month; no exact day or twelve-month actual time-served total is inferred. This is a separate custody episode from the 1995 action and its initial sentence."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {
@@ -4792,6 +4814,26 @@
             "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1991_Watermarked/Witness_19910701.pdf#page=5"
           ],
           "finding": "Four-month sentence for the January 17, 1991 Fort McCoy antiwar action. Day described remaining in Rock County Jail after arrest, then transfer to Dane County Jail following the March 26 verdict. His later first-person account identifies May 13, 1991 as his first day free after completing the term at Rock County Jail. The April 24 sentencing date was prospective in the earlier article and is not entered as a confirmed date. This interval does not include his other anti-nuclear protest cases."
+        },
+        {
+          "batch": 528,
+          "case_id": "68029b34-3a85-5fff-b350-bac925d031ee",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1995_Watermarked/Witness_19950501.pdf#page=21",
+            "https://www.laka.org/docu/magazines/nukewatch_pathfinder/1995-3-fall.pdf#page=7"
+          ],
+          "finding": "Six-month federal misdemeanor sentence for unlawful re-entry at Offutt Air Force Base. The Witness (May 1995, p. 21) reports continuous jail custody from the February 20 protest. Day describes the first two months in county jail and the remainder at Oxford Federal Prison Camp; the Fall 1995 Nukewatch Pathfinder (p. 6) confirms his August 18 release. These endpoints establish 179 elapsed days; the announced 180-day sentence is not used as an actual time-served total. This is separate from his 1991 Fort McCoy imprisonment."
         }
       ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",

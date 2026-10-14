@@ -1,0 +1,88 @@
+{
+  "batch": 529,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "60aac85d-199e-496e-8b7c-88b888765dbd",
+      "name": "Tahan K. Jones",
+      "slug": "tahan-k-jones",
+      "case_id": "67ef7c3a-44f8-4718-972d-c421290ca77a",
+      "expected": {
+        "id": "67ef7c3a-44f8-4718-972d-c421290ca77a",
+        "prisoner_id": "60aac85d-199e-496e-8b7c-88b888765dbd",
+        "institution_id": "420e0fd5-ec44-4328-b738-274148893927",
+        "charges": "Desertion / missing movement — refusal to deploy in the 1991 Gulf War as conscientious objector",
+        "arrest_date": "1991-01-09 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-07-29 17:05:28",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 7,
+        "sentence": "Jones reported seven months actually spent in the brig in his first-person candidate statement in the June 6, 2006 Green Party of Alameda County voter guide (p. 10). This is reported time served, not a sentence length. Exact admission and release dates remain unverified; no calendar endpoints are inferred from the seven-month total."
+      },
+      "sources": [
+        "https://acgreens.wordpress.com/wp-content/uploads/2008/09/gpac_vg0606.pdf#page=10"
+      ],
+      "rationale": "Visually checked original first-person statement individually identifying Jones and seven months in the brig. Fill documented time served; preserve unresolved dates and biography."
+    },
+    {
+      "prisoner_id": "aaa08338-7c82-4317-9b7a-8d67aedad632",
+      "name": "Michele Naar-Obed",
+      "slug": "michele-naar-obed",
+      "case_id": "3ee92230-1c35-4965-bcdc-2d9ef89a36c6",
+      "expected": {
+        "id": "3ee92230-1c35-4965-bcdc-2d9ef89a36c6",
+        "prisoner_id": "aaa08338-7c82-4317-9b7a-8d67aedad632",
+        "institution_id": null,
+        "charges": "Trespass / destruction of government property (Plowshares direct action)",
+        "arrest_date": "1995-08-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1996-09-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "On August 6, 1995 (Hiroshima Day), as part of the Jubilee Plowshares/East action, Naar-Obed and partners entered Newport News Shipbuilding and boarded the USS Greenville in dry dock, pouring blood and hammering areas associated with cruise-missile capability. Arrested and prosecuted; received 12 months in federal prison. Her probation was later revoked and she was returned to federal custody in July 1999.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "On August 6, 1995 (Hiroshima Day), as part of the Jubilee Plowshares/East action, Naar-Obed and partners entered Newport News Shipbuilding and boarded the USS Greenville in dry dock, pouring blood and hammering areas associated with cruise-missile capability. Arrested and prosecuted; received an 18-month federal prison sentence. The later one-year term for revocation of supervision is a separate episode, not the original sentence. Her probation was later revoked and she was returned to federal custody in July 1999."
+      },
+      "sources": [
+        "Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 58 (user-supplied PDF page 70).",
+        "https://www.washingtonpost.com/archive/local/1996/09/07/peace-activists-sentenced/bd02a7b3-339f-4450-aa1f-953489b48cf1/"
+      ],
+      "rationale": "The original sentence was eighteen months; keep it separate from the later one-year revocation term. Neither nominal term is stored as actual time served. All dates and other narrative preserved."
+    }
+  ]
+}

@@ -12,4 +12,4 @@ Michele Naar-Obed: One-year term after revocation of supervision for returning t
 - https://www.environmentandsociety.org/sites/default/files/key_docs/ef_19_8_1.pdf#page=34
 - Arthur J. Laffin, The Plowshares Disarmament Chronology, 1980-2003, printed page 58 (user-supplied PDF page 70).
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch528-live-verification.json.
