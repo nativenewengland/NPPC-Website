@@ -481,8 +481,8 @@
       "case_ids": [
         "5960b3c7-e630-4ac7-890e-9f5a29d5301e"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "OfficialBOP Martin Mullen results have ages67and72 inconsistent with1969-born Florida defendant; neither applied. Contemporary July28,1999 Independent reports Philadelphia arrest the previous day, conflicting with legacyJuly25. Need corroboration of July27; January2002 release placeholder remains unresolved. Source: https://www.independent.co.uk/news/seven-arrested-as-fears-grow-of-republican-arms-stockpile-1109103.html",
       "prior_sources": []
     },
     {
@@ -700,7 +700,7 @@
         "68347fa2-674f-4302-9353-3fed962b54f5"
       ],
       "status": "reviewed_unresolved",
-      "finding": "Official BOP lookup does not yet establish an endpoint for the selected 1990s case; later or earlier custody must not be conflated.",
+      "finding": "Official name search gives83275-020 with latest actual releaseApril3,2003; legacy83725-020 returns no record. Later release cannot resolve conflicting1998-2000 rows.1990 nine-month total alreadypresent. Number typo and custody endpoints require separate correction.",
       "prior_sources": []
     },
     {
@@ -758,7 +758,7 @@
         "60127083-cb9b-4d97-819d-f66fffbac820"
       ],
       "status": "reviewed_unresolved",
-      "finding": "Identity mismatch: federal locator name and age do not establish the Ohio state prisoner identity. Do not import the 2002 release. Existing register number requires separate correction.",
+      "finding": "Critical identity warning: legacy federalnumber16043-112 resolves to a67-year-old federal prisoner released2002, inconsistent with the Ohio death-row prisoner born1969. Do not use this locator result to assign release or custody dates. Number correction remains outside the applied date batches.",
       "prior_sources": []
     },
     {
@@ -1048,8 +1048,8 @@
       "case_ids": [
         "4a4548da-239a-4e3a-9434-2f322fc55a5e"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Prior research note used wrong slug scott-richard-seeley; retain actual profile slug scott-seclye. Exact dates remain unresolved.",
       "prior_sources": []
     },
     {
@@ -1828,8 +1828,8 @@
         "11268a32-6635-4f25-9c3a-391c68c65c14",
         "e9e668c2-ae3c-448d-bd7b-b47f5bd495e0"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "1995 retrial distinguished from1991 original custody. OhioSupremeCourt2017-Ohio-6962 confirms reversal1993 and retrial1995. April20,1991 is incident date, not independently established arrest day. February15,1995 legacy admission needs original DOC record; no unsupported date replacement. Sources: https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2017/2017-Ohio-6962.pdf ; https://www.supremecourt.ohio.gov/pdf_viewer/pdf_viewer.aspx?pdf=845305.pdf&source=DL_Clerk&subdirectory=2018-0464%5CDocketItems",
       "prior_sources": []
     },
     {
@@ -2088,8 +2088,8 @@
       "case_ids": [
         "2bf48793-fa0f-4c0f-95f7-976f2a708b12"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "SOAW roster confirms two-month sentence. OfficialBOP queries for Will and William Prior did not return a matching record; exact admission and release remain unresolved.",
       "prior_sources": []
     },
     {
@@ -2451,8 +2451,8 @@
       "case_ids": [
         "8f4dff10-fabb-483f-8b43-2068dc362c39"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "SOAW roster confirms two-month sentence. OfficialBOP Ray/Raymond Laporte queries yielded no matching record. No guessed custody endpoint entered.",
       "prior_sources": []
     },
     {
@@ -3215,8 +3215,8 @@
       "case_ids": [
         "8841e9f9-02a4-4678-b378-17cdf72a410c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "1994 release corroborated by Fordham2022 study and November1994 News&Letters. First-person2013 Sun interview says25years while contemporaryPrisonLife1996 says23years and about3years since leaving. Work-release and final parole may differ. No exactday or unsupported back-calculated admission entered. Sources: https://www.prisonlegalnews.org/media/publications/Decarcerations_Inside_Partners-2022.pdf ; https://www.marxists.org/history/etol/newspape/news-and-letters/1990s/1994-11.pdf ; https://www.thesunmagazine.org/articles/22598-the-run-on-sentence",
       "prior_sources": []
     },
     {
@@ -3518,9 +3518,25 @@
       "case_ids": [
         "c2b956dc-c8b2-4675-8641-237128b56c4d"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 517,
+          "case_id": "c2b956dc-c8b2-4675-8641-237128b56c4d",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://4strugglemag.org/wp-content/uploads/2010/03/4sm12collated.pdf",
+            "https://camron46justiceforall.blogspot.com/2009_07_19_archive.html"
+          ],
+          "finding": "The first-person Update: Ali Khalid Abdullah in4strugglemag issue12(Spring2009) explicitly dates actual release August1,2008. This supersedes the previously stored projected July2008 discharge month. Exact1990 admission and arrest day remain unresolved."
+        }
+      ]
     },
     {
       "id": "bb4f0999-bc77-42ce-9f74-d67a53ecfb1a",
@@ -3575,8 +3591,8 @@
       "case_ids": [
         "b0601ca7-f3ec-4631-8966-ccd4d20c3c93"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Release conflict remains unresolved: Jericho2019 newsletter specifically celebrates September24,1999 (20th anniversary), while his2023 first-person article says2000. Exact-name officialBOP query returned no record. Do not overwrite either chronology without identity-resolved prison record. Sources: https://www.jerichony.org/images31/NATIONAL_JERICHO_MOVEMENT_NEWSLETTER-Aug-Oct-2019_Vol-19.pdf ; https://jerichony.org/images39/New_Observations_Magazine_05-23.pdf",
       "prior_sources": []
     },
     {
