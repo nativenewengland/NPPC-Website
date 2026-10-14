@@ -1,0 +1,94 @@
+{
+  "batch": 524,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "c2da21c2-6dbb-410d-9f58-a2466ae514fd",
+      "name": "Donna Willmott",
+      "slug": "donna-willmott",
+      "case_id": "72c7d734-0c8e-4472-b2a9-5ca31d9fe261",
+      "expected": {
+        "id": "72c7d734-0c8e-4472-b2a9-5ca31d9fe261",
+        "prisoner_id": "c2da21c2-6dbb-410d-9f58-a2466ae514fd",
+        "institution_id": null,
+        "charges": "Conspiracy (plot to free Puerto Rican nationalist prisoners; Leavenworth breakout conspiracy)",
+        "arrest_date": "1994-12-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1995-01-01 00:00:00",
+        "incarceration_date": "1994-12-07 00:00:00",
+        "release_date": "1997-02-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Listed on the FBI Ten Most Wanted in the 1980s as a fugitive tied to Puerto Rican independence militancy. Willmott and Claude Marks surrendered in Chicago on December 7, 1994 after years underground and were held without bail. Both ultimately pleaded guilty in connection with a conspiracy to free FALN co-founder Oscar López Rivera from Leavenworth.",
+        "imprisoned_for_days": 814,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-13 23:16:07",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"year\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1995-05-09 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "incarceration_date": "1994-12-06 00:00:00",
+        "sentence": "Listed on the FBI Ten Most Wanted in the 1980s as a fugitive tied to Puerto Rican independence militancy. Willmott and Claude Marks surrendered in Chicago on December 6, 1994 after years underground and were held without bail. Both ultimately pleaded guilty in connection with a conspiracy to free FALN co-founder Oscar López Rivera from Leavenworth."
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4306.pdf#page=15",
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/0fa8abd4-c348-4604-8d93-9738976b3fd6/content#page=10",
+        "https://multimedia.fbi.gov/item?id=7748&type=image"
+      ],
+      "rationale": "Visually checked DOJ June1995 bulletin printed203 explicitly reports actual May9,1995 sentences, not a planned hearing. December7,1994 AP article printed10 reports both surrendered Tuesday and were jailed pending a hearing; FBI independently gives December6. Correct Donna admission and matching date in case sentence; all biography fields preserved."
+    },
+    {
+      "prisoner_id": "b99304e8-c0fa-462d-8821-3483ca9b1aef",
+      "name": "Claude Marks",
+      "slug": "claude-marks",
+      "case_id": "c5b7674b-bb25-4d19-86c6-29c0b1c62d4e",
+      "expected": {
+        "id": "c5b7674b-bb25-4d19-86c6-29c0b1c62d4e",
+        "prisoner_id": "b99304e8-c0fa-462d-8821-3483ca9b1aef",
+        "institution_id": null,
+        "charges": "Conspiracy to use explosives (plot to break Oscar López Rivera out of USP Leavenworth)",
+        "arrest_date": "1994-12-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1995-01-01 00:00:00",
+        "incarceration_date": "1994-12-06 00:00:00",
+        "release_date": "1998-11-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Named to the FBI Ten Most Wanted list on May 22, 1987 (fugitive #411). After more than seven years underground, surrendered with partner Donna Willmott in Chicago on December 6, 1994 and was taken into custody. Charged with conspiring to use explosives to break FALN co-founder Oscar López Rivera out of USP Leavenworth; pleaded guilty.",
+        "imprisoned_for_days": 1452,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-13 23:16:07",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"year\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1995-05-09 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab4306.pdf#page=15",
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/0fa8abd4-c348-4604-8d93-9738976b3fd6/content#page=10",
+        "https://multimedia.fbi.gov/item?id=7748&type=image"
+      ],
+      "rationale": "Visually checked DOJ June1995 bulletin printed203 explicitly reports actual May9,1995 sentences, not a planned hearing. December7,1994 AP article printed10 reports both surrendered Tuesday and were jailed pending a hearing; FBI independently gives December6. Correct Donna admission and matching date in case sentence; all biography fields preserved."
+    }
+  ]
+}
