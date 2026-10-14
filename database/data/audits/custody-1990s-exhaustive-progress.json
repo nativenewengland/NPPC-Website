@@ -1019,9 +1019,23 @@
       "case_ids": [
         "d451d132-c67d-4cf9-9b7d-da596690d4cd"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 507,
+          "case_id": "d451d132-c67d-4cf9-9b7d-da596690d4cd",
+          "fields": [
+            "sentenced_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://law.justia.com/cases/federal/appellate-courts/F2/995/1020/66559/"
+          ],
+          "finding": "Appellate opinion dates imposition of the original51-month Florida sentence June7,1991. Later1995 Arizona proceeding and custody boundaries remain separate research questions."
+        }
+      ]
     },
     {
       "id": "412b967c-45b0-4e01-87d7-1eaf81b66d6e",
@@ -4442,6 +4456,30 @@
             "https://newspaper.animalpeopleforum.org/1997/10/01/direct-action-crackdown/"
           ],
           "finding": "Contemporary October1997 reporting supplies this sentencing date. Walton is month precision only. Custody endpoints and conflicting March action dates remain unresolved; no sentence length is used to invent release."
+        }
+      ]
+    },
+    {
+      "id": "f0d63253-b9d3-4495-be9b-82487baf9c71",
+      "name": "Seamus Moley",
+      "slug": "seamus-moley",
+      "case_ids": [
+        "83662021-f207-48b8-933f-52c66ae44a33"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 507,
+          "case_id": "83662021-f207-48b8-933f-52c66ae44a33",
+          "fields": [
+            "sentenced_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://law.justia.com/cases/federal/appellate-courts/F2/995/1020/66559/"
+          ],
+          "finding": "Appellate opinion dates imposition of the original51-month Florida sentence June7,1991. Later1995 Arizona proceeding and custody boundaries remain separate research questions."
         }
       ]
     }
