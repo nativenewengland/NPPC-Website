@@ -246,11 +246,53 @@
       "case_ids": [
         "9be007d2-ad0c-40e4-a651-f9ba2f655061"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "1992 initial detention followed by bail in June; later imprisonment must not be merged across bail. Locator PETER ALLEN needs case-specific identity and custody-episode corroboration before attaching final endpoint.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [
         "https://www.latimes.com/archives/la-xpm-1992-06-16-me-518-story.html",
         "https://ickevald.net/plowshares/plowshares-chronology-1980-2018"
+      ],
+      "deployed": [
+        {
+          "batch": 514,
+          "case_id": "9be007d2-ad0c-40e4-a651-f9ba2f655061",
+          "fields": [
+            "release_date",
+            "charges",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.50 / PDF p.62 (user-supplied book).",
+            "https://kingsbayplowshares7.org/plowshares-history/"
+          ],
+          "finding": "Separate initial bail release from later sentence custody; exact June day remains unresolved."
+        },
+        {
+          "batch": 515,
+          "case_id": "83ed6f52-bf1c-53b5-b0e3-1e0b037f919c",
+          "fields": [
+            "id",
+            "prisoner_id",
+            "institution_id",
+            "charges",
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentenced_date",
+            "convicted",
+            "sentence",
+            "documented_imprisoned_for_days",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.50 / PDF p.62.",
+            "https://kingsbayplowshares7.org/plowshares-history/",
+            "https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Arm%20the%20Spirit/510.arm.spirit.OctDec1992.pdf"
+          ],
+          "finding": "Separate later federal endpoint from initial detention; preserve bail gap and distinguish halfway-house phase."
+        }
       ]
     },
     {
@@ -1953,9 +1995,25 @@
         "04a93af8-37e1-41e0-82fe-a80c734c5b28",
         "321aa581-082d-4f4b-ae0a-efe450a1e10d"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Official BOP lookup does not yet establish an endpoint for the selected 1990s case; later or earlier custody must not be conflated.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 514,
+          "case_id": "321aa581-082d-4f4b-ae0a-efe450a1e10d",
+          "fields": [
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.44 / PDF p.56."
+          ],
+          "finding": "Federal endpoint after March 6, 1990 Thames River sentencing. Preserve unknown admission; do not back-calculate from60-day sentence."
+        }
+      ]
     },
     {
       "id": "6ffebb5e-9ce5-4703-81ab-bc65ec30708e",

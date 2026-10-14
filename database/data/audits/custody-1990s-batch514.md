@@ -8,4 +8,4 @@ Sources: https://www.bop.gov/inmateloc/ ; Arthur J. Laffin, The Plowshares Disar
 
 BOP raw lookup archived locally in custody-1990s-exhaustive/bop-queue-results.json. Lumsdaine final1994 federal endpoint will be entered in a separate later-custody row so bail is not counted as imprisonment. No biographies changed.
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch514-live-verification.json.

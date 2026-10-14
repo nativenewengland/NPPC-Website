@@ -4,4 +4,4 @@ Peter Lumsdaine: add separate later sentence-service record, preserving the init
 
 Sources: https://www.bop.gov/inmateloc/ ; Arthur J. Laffin, The Plowshares Disarmament Chronology 1980-2003, printed p.50 / PDF p.62. ; https://kingsbayplowshares7.org/plowshares-history/ ; https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Arm%20the%20Spirit/510.arm.spirit.OctDec1992.pdf
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch515-live-verification.json.
