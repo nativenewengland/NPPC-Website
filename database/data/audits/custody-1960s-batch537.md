@@ -4,4 +4,4 @@ The participant-interview retrospective reports actual service of 9 months for M
 
 https://www.baltimoremagazine.com/section/historypolitics/50-years-ago-catonsville-nine-sparked-national-wave-of-vietnam-war-resistance/
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture passed, live preview matched, full profile/unrelated-field preservation checked, zero-change replay passed, public pages returned HTTP 200 and displayed the changes. See adjacent live-verification JSON.

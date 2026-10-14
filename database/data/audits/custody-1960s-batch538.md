@@ -22,4 +22,4 @@ Contemporary report confirms prison in 1970; prior bail and later surrender dist
 - https://www.newyorker.com/magazine/1970/03/14/acts-of-witness-priests-and-vietnam-war-protesters
 - https://jonahhouse.org/archive/catonsville40/Moylan.htm
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture passed, live preview matched, full profile/unrelated-field preservation checked, zero-change replay passed, public pages returned HTTP 200 and displayed the changes. See adjacent live-verification JSON.
