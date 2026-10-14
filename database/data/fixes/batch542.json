@@ -1,0 +1,50 @@
+{
+  "batch": 542,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "44e1a7bc-e330-47fb-81ec-c4d53216cbc7",
+      "name": "Keith Mather",
+      "slug": "keith-mather",
+      "case_id": "bb5b0ea4-215f-431d-9bd9-9bf2fd2d529a",
+      "expected": {
+        "id": "bb5b0ea4-215f-431d-9bd9-9bf2fd2d529a",
+        "prisoner_id": "44e1a7bc-e330-47fb-81ec-c4d53216cbc7",
+        "institution_id": "703b33dd-a62a-46cc-8301-b9f0403e48c1",
+        "charges": "Mutiny — for leading the October 1968 sit-down protest by prisoners at the Presidio stockade.",
+        "arrest_date": "1984-12-01 00:00:00",
+        "indicted": null,
+        "convicted": "Charged with mutiny; a fugitive in Canada 1968–1984, then court-martialed after his return.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1984-01-01 00:00:00",
+        "release_date": "1985-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Escaped the Presidio stockade on December 24, 1968 and lived in exile in Canada for about fifteen years; arrested on his 1984 return, court-martialed, and released from Fort Ord in 1985.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-07 00:42:23",
+        "updated_at": "2026-10-14 00:00:40",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\",\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1984-12-01 00:00:00",
+        "release_date": "1985-04-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.amnesty.org/fr/wp-content/uploads/2021/05/POL1000031986ENGLISH.pdf#page=210",
+        "https://www.sfgate.com/news/article/summer-of-love-40-years-later-keith-mather-2559482.php",
+        "https://couragetoresist.org/mather-presidio27-50-years-later/"
+      ],
+      "rationale": "Amnesty International annual report 1986 page 199 explicitly places military detention in December 1984 and release in April 1985. Contemporary AP photograph dated April 10, 1985 corroborates April. A later oral history says May 10; prefer contemporary sources for month, leave exact day unresolved. This later episode arises from the 1968 case. No exact duration is inferred."
+    }
+  ]
+}
