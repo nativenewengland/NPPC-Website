@@ -1,0 +1,169 @@
+{
+  "batch": 538,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "9463e492-f6a9-4f61-860b-8c774862506e",
+      "name": "Mary Moylan",
+      "slug": "mary-moylan",
+      "case_id": "f2917370-143b-5270-b79d-3d4e9dc19e3d",
+      "expected_cases": [
+        {
+          "id": "e8fdf4ea-993c-431e-b5b4-5a06bc115a2f",
+          "prisoner_id": "9463e492-f6a9-4f61-860b-8c774862506e",
+          "institution_id": "7dec17b0-b4c5-4220-a341-95d3e4e07e2f",
+          "charges": "Federal destruction of government property — May 17, 1968 Catonsville draft-board raid",
+          "arrest_date": "1968-05-17 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1968-05-17 00:00:00",
+          "release_date": "1968-05-24 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "2 years federal prison; surrendered after nearly 10 years underground\n\nVerdict as recorded: Yes — federal jury verdict, U.S. District Court for the District of Maryland, October 10, 1968\n\nThe dates on this case describe the initial pretrial detention, May 17-24, 1968, ending in release on bail. They do not span the later prison sentence. The counter includes only the verified pretrial period; later prison admission and release dates remain unresolved.",
+          "imprisoned_for_days": 7,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-14 23:26:23",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "f2917370-143b-5270-b79d-3d4e9dc19e3d",
+        "prisoner_id": "9463e492-f6a9-4f61-860b-8c774862506e",
+        "institution_id": null,
+        "charges": "Post-conviction custody for the May 17, 1968 Catonsville draft-record destruction",
+        "arrest_date": "1979-06-18 00:00:00",
+        "incarceration_date": "1979-06-18 00:00:00",
+        "release_date": null,
+        "sentence": "Moylan surrendered June 18, 1979. Exact release remains unverified. This later custody is separate from May 1968 pretrial detention.",
+        "date_precision": {
+          "incarceration_date": "day",
+          "arrest_date": "day"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://www.washingtonpost.com/archive/local/1979/06/21/viet-protester-surrenders/f69059ba-be4d-4969-b582-4c89db46dec9/"
+      ],
+      "rationale": "June 21, 1979 report dates surrender to Monday, June 18. No release or time-served total inferred. Later reminiscences conflict on duration."
+    },
+    {
+      "prisoner_id": "b52f20b7-cf86-41b2-8af7-418e87d66ad6",
+      "name": "George Mische",
+      "slug": "george-mische",
+      "case_id": "9ee3de28-8915-5b01-b0e1-7be29c57cf47",
+      "expected_cases": [
+        {
+          "id": "46f9ccb6-6bb7-41ad-8e6b-d83dbcfc6bc1",
+          "prisoner_id": "b52f20b7-cf86-41b2-8af7-418e87d66ad6",
+          "institution_id": null,
+          "charges": "Federal destruction of government property — May 17, 1968 Catonsville draft-board raid",
+          "arrest_date": "1968-05-17 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1968-05-17 00:00:00",
+          "release_date": "1968-05-24 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "3 years federal prison\n\nVerdict as recorded: Yes — federal jury verdict, U.S. District Court for the District of Maryland, October 10, 1968\n\nBaltimore Magazine’s 2018 retrospective, based on interviews with surviving participants, reports 25 months actually served for the Catonsville case. This reported case-level duration replaces the incomplete seven-day counter; the initial May 17-24, 1968 pretrial dates remain in the record. The seven pretrial days are not added again to the reported total. Exact later prison release dates remain unresolved; no calendar endpoint is calculated from the reported months.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-14 23:30:43",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": 25,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "9ee3de28-8915-5b01-b0e1-7be29c57cf47",
+        "prisoner_id": "b52f20b7-cf86-41b2-8af7-418e87d66ad6",
+        "institution_id": null,
+        "charges": "Post-conviction custody for the May 17, 1968 Catonsville draft-record destruction",
+        "arrest_date": "1970-05-01 00:00:00",
+        "incarceration_date": "1970-05-01 00:00:00",
+        "release_date": null,
+        "sentence": "Later imprisonment following the Catonsville conviction. Daniel Berrigan’s contemporary August 7, 1970 Commonweal essay dates Mische’s capture in Chicago to May. Day and release remain unverified. The reported 25-month case-level total is stored on the original Catonsville case and is not counted again here.",
+        "date_precision": {
+          "incarceration_date": "month",
+          "arrest_date": "month"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://www.commonwealmagazine.org/sites/default/files/imce/30047/Dan%20Berrigan%20how%20to%20make%20a%20difference.pdf"
+      ],
+      "rationale": "Contemporary participant account establishes May 1970 capture; no exact day or calculated release."
+    },
+    {
+      "prisoner_id": "8509bf61-8173-4b56-b47c-23375a759886",
+      "name": "Tom Melville",
+      "slug": "tom-melville",
+      "case_id": "135e9d10-635e-516e-90d9-ff54b403423b",
+      "expected_cases": [
+        {
+          "id": "4b3d2565-f241-4fb3-ac7a-01fd0a5c64d2",
+          "prisoner_id": "8509bf61-8173-4b56-b47c-23375a759886",
+          "institution_id": null,
+          "charges": "Federal destruction of government property — May 17, 1968 Catonsville draft-board raid",
+          "arrest_date": "1968-05-17 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1968-05-17 00:00:00",
+          "release_date": "1968-05-24 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "3 years federal prison\n\nVerdict as recorded: Yes — federal jury verdict, U.S. District Court for the District of Maryland, October 10, 1968\n\nBaltimore Magazine’s 2018 retrospective, based on interviews with surviving participants, reports 18 months actually served for the Catonsville case. This reported case-level duration replaces the incomplete seven-day counter; the initial May 17-24, 1968 pretrial dates remain in the record. The seven pretrial days are not added again to the reported total. Exact later prison release dates remain unresolved; no calendar endpoint is calculated from the reported months.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-14 23:30:43",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": 18,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "135e9d10-635e-516e-90d9-ff54b403423b",
+        "prisoner_id": "8509bf61-8173-4b56-b47c-23375a759886",
+        "institution_id": null,
+        "charges": "Post-conviction custody for the May 17, 1968 Catonsville draft-record destruction",
+        "arrest_date": null,
+        "incarceration_date": "1970-01-01 00:00:00",
+        "release_date": null,
+        "sentence": "Later imprisonment for the 1968 Catonsville action. Contemporary June 1970 Catholic Worker coverage identifies Melville as imprisoned after the appeal period. The available evidence supports the custody year but does not securely establish the admission day or month. The reported 18-month case-level total remains on the original case and is not counted again here.",
+        "date_precision": {
+          "incarceration_date": "year"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://catholicworker.org/501-html/",
+        "https://www.newyorker.com/magazine/1970/03/14/acts-of-witness-priests-and-vietnam-war-protesters",
+        "https://jonahhouse.org/archive/catonsville40/Moylan.htm"
+      ],
+      "rationale": "Contemporary report confirms prison in 1970; prior bail and later surrender distinguish this from 1968. No exact admission or release inferred. A later obituary says 1969, conflicting with contemporary chronology; do not use that year."
+    }
+  ]
+}
