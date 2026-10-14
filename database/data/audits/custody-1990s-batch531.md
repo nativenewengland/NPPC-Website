@@ -6,4 +6,4 @@ BOP full-name search and separate exact-register lookup agree on actual releaseM
 - https://www.latinamericanstudies.org/hijackers/enjoys-cuba.htm
 - https://dccrimeandpunishment.wordpress.com/tag/united-states-department-of-commerce/
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch531-live-verification.json.
