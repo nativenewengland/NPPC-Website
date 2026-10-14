@@ -1,0 +1,90 @@
+{
+  "batch": 506,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "eecd9852-5c85-43ad-a0da-6e743a53896d",
+      "name": "Jim Reale",
+      "slug": "jim-reale",
+      "case_id": "93b729ba-7002-5dab-bf87-e5e70809b920",
+      "expected_cases": [
+        {
+          "id": "9e4e23d4-a72b-480a-b62f-957db1b56d34",
+          "prisoner_id": "eecd9852-5c85-43ad-a0da-6e743a53896d",
+          "institution_id": "ac11e5e5-0253-4349-ad3b-3e7b763d89fa",
+          "charges": "Thames River Plowshares \u2014 initial arrest and overnight pretrial detention",
+          "arrest_date": "1989-09-04 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1989-09-04 00:00:00",
+          "release_date": "1989-09-05 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "One overnight stay; released on a promise to appear. Separate later sentence recorded independently.",
+          "imprisoned_for_days": 1,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-29 02:45:24",
+          "updated_at": "2026-10-11 19:17:36",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 1,
+          "custody_periods": null
+        },
+        {
+          "id": "caf55951-e643-4a48-8075-4cb7d942d16e",
+          "prisoner_id": "eecd9852-5c85-43ad-a0da-6e743a53896d",
+          "institution_id": null,
+          "charges": "Conspiracy to enter a naval reservation for an unlawful purpose \u2014 Thames River Plowshares, later sentence",
+          "arrest_date": "1989-09-04 00:00:00",
+          "indicted": null,
+          "convicted": "Yes \u2014 December 19, 1989 jury verdict",
+          "plead": null,
+          "sentenced_date": "1990-03-06 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": "Judge Nevas",
+          "sentence": "60 days in federal prison actually served, corroborated by his own film-producer biography; precise admission and release dates remain unknown",
+          "imprisoned_for_days": 60,
+          "in_exile_for_days": null,
+          "created_at": "2026-10-11 19:17:36",
+          "updated_at": "2026-10-11 19:24:30",
+          "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 60,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "93b729ba-7002-5dab-bf87-e5e70809b920",
+        "prisoner_id": "eecd9852-5c85-43ad-a0da-6e743a53896d",
+        "institution_id": null,
+        "charges": "Courthouse banner protest supporting the Prince of Peace Plowshares defendants; specific charge unverified",
+        "arrest_date": "1997-05-01 00:00:00",
+        "incarceration_date": "1997-05-01 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "convicted": null,
+        "sentence": "Five days actually served following a courthouse banner protest in May 1997; time-served disposition. Exact arrest, admission and release days are unverified. Source: https://www.laka.org/docu/magazines/nukewatch_pathfinder/1997-4-winter.pdf#page=5",
+        "date_precision": {
+          "arrest_date": "month",
+          "incarceration_date": "month"
+        },
+        "documented_imprisoned_for_days": 5,
+        "imprisoned_for_months": null
+      },
+      "sources": [
+        "https://www.laka.org/docu/magazines/nukewatch_pathfinder/1997-4-winter.pdf#page=5"
+      ],
+      "rationale": "Original Winter 1997 page 5 confirms five days jailed in May for the courthouse banner action, separate from the 1989 Thames River case. No exact day inferred."
+    }
+  ]
+}
