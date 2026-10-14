@@ -17,3 +17,5 @@ Sources: https://www.bop.gov/inmateloc/ ; https://www.soaw-austin.org/POC1983_20
 Identity checks: Linnehan full middle initial and1928 birth match BOPage98; Mercy middle initialO and1935 birth match91; O’Mara1922 birth matches104 andDanbury; DeBenedette79in2022 matches83now and1996SOA disposition. Will Prior and Ray Laporte yielded no matching BOP record; Martin Mullen results have wrong ages and were excluded.
 
 Validation/deployment pending.
+
+Fixture caught model precedence: stored rounded months suppress date-derived days. Claire’s rounded month field is cleared while its source text remains, allowing the verified59-day interval to display. Other profiles retain their month totals.
