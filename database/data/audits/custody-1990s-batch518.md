@@ -21,4 +21,4 @@ Court identifies underlying July 15, 1993 blockade arrest. Keep July 7, 1994 adm
 - https://hallapproved.com/id/cases/supreme/1999/1200243/
 - https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_7_sm_0.pdf#page=10
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch518-live-verification.json.

@@ -25,4 +25,4 @@ FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne
 - https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13
 - https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch521-live-verification.json.

@@ -22,4 +22,4 @@ Correct October 20 legacy release to October 19, corroborated by first-person ac
 - https://inquisitivemag.org/articles/the-heterodox-life/and-thats-why-i-went-to-jail/
 - https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_1_sm_0.pdf#page=9
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch520-live-verification.json.

@@ -29,4 +29,4 @@ Original contemporary journal identifies actual sentence admission and register 
 - https://www.environmentandsociety.org/sites/default/files/key_docs/ef_12_4_0.pdf#page=15
 - https://www.bop.gov/inmateloc/
 
-BOP results retained in custody-1990s-bop-earthfirst.json. Validation/deployment pending.
+BOP results retained in custody-1990s-bop-earthfirst.json. Applied live and verified. Replay updated zero rows; see batch519-live-verification.json.

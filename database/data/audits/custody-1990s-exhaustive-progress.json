@@ -65,8 +65,8 @@
       "case_ids": [
         "4f0911f4-6907-4b47-b4fc-a70d1323ebaf"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Individual name searches did not establish custody dates. Generic1999-2003 Vieques campaign paragraph is insufficient to assign1999 incarceration or typical30-90day term.",
       "prior_sources": []
     },
     {
@@ -235,9 +235,25 @@
       "case_ids": [
         "551d48c1-64ba-47b3-9b9c-6b6e40c3ce7f"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 518,
+          "case_id": "551d48c1-64ba-47b3-9b9c-6b6e40c3ce7f",
+          "fields": [
+            "arrest_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://hallapproved.com/id/cases/supreme/1999/1200243/",
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_7_sm_0.pdf#page=10"
+          ],
+          "finding": "Court identifies underlying July 15, 1993 blockade arrest. Keep July 7, 1994 admission for restitution-related custody; no continuous span or release inferred."
+        }
+      ]
     },
     {
       "id": "0e7a04b6-b6b7-4da1-8241-04df31312dc9",
@@ -515,9 +531,23 @@
         "c4defe85-ff1d-43d0-abb4-74fd37480176",
         "19947f30-f30e-45f2-9923-11f42bec9b89"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 518,
+          "case_id": "c4defe85-ff1d-43d0-abb4-74fd37480176",
+          "fields": [
+            "arrest_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://hallapproved.com/id/cases/supreme/1999/1200243/"
+          ],
+          "finding": "Idaho Supreme Court opinion individually identifies June 30, 1993 arrest while chained to the access gate. Add only to original blockade case; preserve separate 1994 probation custody and unresolved 1993 interval boundaries."
+        }
+      ]
     },
     {
       "id": "21ba0588-b77d-445f-98b0-cb2677fb543c",
@@ -905,8 +935,8 @@
       "case_ids": [
         "7c911c1e-ee97-44cd-bbee-613ef1e18052"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Existing researched live boundaries rechecked; no new corroborated date found in this follow-up. Do not repeat earlier additions.",
       "prior_sources": []
     },
     {
@@ -938,8 +968,8 @@
       "case_ids": [
         "72474b26-a32d-40f0-9aec-592a8e86a484"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "1980 pretrial stay and1990 resentencing to time served are separate chronology points. The1990 disposition is not an actual prison release; three-month pretrial duration already noted, exact discharge remains unverified.",
       "prior_sources": []
     },
     {
@@ -993,8 +1023,8 @@
       "case_ids": [
         "c6ffc50c-6041-41b1-9c93-7269b7250128"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Existing researched live boundaries rechecked; no new corroborated date found in this follow-up. Do not repeat earlier additions.",
       "prior_sources": []
     },
     {
@@ -1278,8 +1308,8 @@
       "case_ids": [
         "5bae45c7-c852-434a-87b3-8e067d2057e8"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Earth First Beltane1991 printed8 documents separate April18,1991 admission after Mount Graham action, not same event as existing1993/1994 forest case. Up-to70-day statement is sentence limit, not actual discharge. New episode requires duplicate review and endpoint research. Source: https://www.environmentandsociety.org/sites/default/files/key_docs/ef_11_5_1.pdf",
       "prior_sources": []
     },
     {
@@ -1394,8 +1424,8 @@
       "case_ids": [
         "0458d507-a92f-48a9-9b22-71a055322248"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "November1992 release month already stored. November25 newspaper refers to Wednesday but archive midnight timestamp makes same-day interpretation uncertain; no day promoted without further corroboration.",
       "prior_sources": []
     },
     {
@@ -1471,8 +1501,8 @@
       "case_ids": [
         "0f9317a9-23c1-45ff-878c-9d266598c209"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Broad 1990s text candidate refers to later1993 dismissal of1978-1980 proceedings. No additional1990s confinement established in this pass.",
       "prior_sources": []
     },
     {
@@ -1916,8 +1946,8 @@
       "case_ids": [
         "3a7dc329-c791-4819-ae98-2c7d178abb3c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "1996 Weep for Children trial resulted in community service; cannot identify generic Bay County Jail sabotage row as that event. Separate September2000 six-day Peterson AFB detention is outside1990s scope. Sources: https://kingsbayplowshares7.org/plowshares-history/; https://www.laka.org/docu/magazines/nukewatch_pathfinder/2000-4-winter.pdf",
       "prior_sources": []
     },
     {
@@ -1927,9 +1957,30 @@
       "case_ids": [
         "f540d096-5d98-4209-94de-aada117e4e9c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 521,
+          "case_id": "f540d096-5d98-4209-94de-aada117e4e9c",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "imprisoned_for_months",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+            "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/",
+            "https://www.browardpalmbeach.com/news/irish-sting-6323923/",
+            "https://www.independent.ie/news/from-us-stockbroker-to-ira-gun-runner/26044800.html"
+          ],
+          "finding": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported. July 19, 2001 interview reports January release; later first-person interview reports seventeen months in jail and a separate four-month halfway-house stay. Replace unsupported March 25 endpoint with January month precision and documented seventeen-month total. BOP name search returned no identity match; no exact release day inferred."
+        }
+      ]
     },
     {
       "id": "6c748e94-9127-43a0-961f-d760c0c52e25",
@@ -2496,9 +2547,39 @@
         "d7d5a70b-38bc-4dd4-a24e-747730623e5d",
         "b7fb77d1-7e1f-44f8-9c16-76a4fe436317"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 520,
+          "case_id": "d7d5a70b-38bc-4dd4-a24e-747730623e5d",
+          "fields": [
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.upi.com/Archives/1992/04/14/Protester-released-after-accosting-Reagan/2245703224000/"
+          ],
+          "finding": "Contemporary April 14 UPI report explicitly states judge freed Springer Tuesday on his own recognizance. Completes initial one-day detention and preserves the intervening bail gap."
+        },
+        {
+          "batch": 520,
+          "case_id": "b7fb77d1-7e1f-44f8-9c16-76a4fe436317",
+          "fields": [
+            "incarceration_date",
+            "imprisoned_for_months",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://openjurist.org/51/f3d/861/united-states-v-springer",
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_15_1_1.pdf#page=27"
+          ],
+          "finding": "Appellate opinion supplies August 9, 1993 arrest; contemporary interview reports thirteen months served and September 9, 1994 release. Verified original journal printed page 26. Existing rounded counter becomes an exact interval; not counted as a newly working counter."
+        }
+      ]
     },
     {
       "id": "8a5f764b-31a9-437a-acc1-952ba5475e24",
@@ -2701,9 +2782,38 @@
         "df3158bc-0c88-431d-819b-fe0c07815a60",
         "7a7bfa55-ac70-4366-b977-13d4a7f9c10d"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 519,
+          "case_id": "df3158bc-0c88-431d-819b-fe0c07815a60",
+          "fields": [
+            "incarceration_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_1_sm_0.pdf#page=9",
+            "https://www.physiology.org/docs/default-source/archive_tphys/the-physiologist-newsletter-1993-december.pdf"
+          ],
+          "finding": "Samhain 1993 journal printed page 8 explicitly gives October 5 admission. Preserve independently reported October 20 bail release; 15 elapsed days."
+        },
+        {
+          "batch": 519,
+          "case_id": "7a7bfa55-ac70-4366-b977-13d4a7f9c10d",
+          "fields": [
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_8_0.pdf#page=7"
+          ],
+          "finding": "Signed first-person release account visually verified on original page. Completes second interval. Together the two distinct intervals total 207 elapsed days."
+        }
+      ]
     },
     {
       "id": "96c1bfee-05e5-45ab-92ad-e0a09c0c86cf",
@@ -2999,8 +3109,8 @@
       "case_ids": [
         "4126705f-e7f6-4b2e-acb6-131f40a1cbc7"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Personal website corroborates April 1998 parole month already stored, not an exact day. No speculative refinement. Source: https://www.justonelook.org/natural/about-john/",
       "prior_sources": []
     },
     {
@@ -3043,8 +3153,8 @@
       "case_ids": [
         "17991d45-3266-41b9-b5d3-09b6203e0c57"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Reviewed contemporary Earth First reporting and official BOP exact-name search (no matches). October 3, 1991 admission already stored. Thirty-day sentence is not a verified discharge date. Source: https://www.environmentandsociety.org/sites/default/files/key_docs/ef_12_4_0.pdf; https://www.bop.gov/inmateloc/",
       "prior_sources": []
     },
     {
@@ -3352,9 +3462,24 @@
       "case_ids": [
         "f717607c-efdf-47d4-b2fb-09ab65fe850c"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 518,
+          "case_id": "f717607c-efdf-47d4-b2fb-09ab65fe850c",
+          "fields": [
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_7_sm_0.pdf#page=9"
+          ],
+          "finding": "First-person account identifies Monday July 18 release after exactly five months; original page rendered and visually verified. Existing February 18 admission preserved. This completes a 150-day interval."
+        }
+      ]
     },
     {
       "id": "b7c1018b-15ad-422c-9d15-01811e1ac084",
@@ -3396,8 +3521,8 @@
       "case_ids": [
         "49d5f81b-bcaa-423e-946c-5dad37cedf19"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Broad candidate refers to1998 offense prosecuted in2005. Structured custody is2005, outside1990s review. Existing2005 death/admission conflicts remain separate; not declared fixed.",
       "prior_sources": []
     },
     {
@@ -3665,9 +3790,25 @@
       "case_ids": [
         "013f8149-51e4-4e2e-b1b8-127389218b32"
       ],
-      "status": "reviewed_unresolved",
-      "finding": "Release sources disagree on October 18, 19 and 20; no speculative change. Missing arrest field is not automatically a gap for judicial civil-contempt custody.",
-      "prior_sources": []
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 520,
+          "case_id": "013f8149-51e4-4e2e-b1b8-127389218b32",
+          "fields": [
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://inquisitivemag.org/articles/the-heterodox-life/and-thats-why-i-went-to-jail/",
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_14_1_sm_0.pdf#page=9"
+          ],
+          "finding": "Correct October 20 legacy release to October 19, corroborated by first-person account and contemporary journal printed page 8. Preserve narrative inclusive count without shifting actual release day."
+        }
+      ]
     },
     {
       "id": "be78ce16-4216-4fdd-874d-26bce289dae7",
@@ -4309,8 +4450,8 @@
       "case_ids": [
         "3a958068-ec6e-4e1f-88ef-6a139ba54ecc"
       ],
-      "status": "pending_research",
-      "finding": "Not researched in this pass.",
+      "status": "reviewed_unresolved",
+      "finding": "Existing1998 case explicitly records probation/community service rather than prison. LaterSeptember2000 overnight detention is separate and already documented; no1998 incarceration inferred.",
       "prior_sources": []
     },
     {
@@ -4800,6 +4941,112 @@
             "https://law.justia.com/cases/federal/appellate-courts/F2/995/1020/66559/"
           ],
           "finding": "Appellate opinion dates imposition of the original51-month Florida sentence June7,1991. Later1995 Arizona proceeding and custody boundaries remain separate research questions."
+        }
+      ]
+    },
+    {
+      "id": "6fb2d781-de71-4bbb-9af9-cf5447dd13f0",
+      "name": "Mark Davis",
+      "slug": "mark-davis",
+      "case_ids": [
+        "21cd8e2a-0b70-4113-bccc-6269ca40c6d0"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 519,
+          "case_id": "21cd8e2a-0b70-4113-bccc-6269ca40c6d0",
+          "fields": [
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_12_4_0.pdf#page=29",
+            "https://www.bop.gov/inmateloc/"
+          ],
+          "finding": "Original contemporary journal identifies actual sentence admission and register number; ordinary BOP lookup matches that register and records actual release. Correct legacy admission and release rather than deriving served time from nominal sentence. Halfway-house placement remains within BOP custody."
+        }
+      ]
+    },
+    {
+      "id": "73df4ee9-89d1-4c2f-b98e-a58e7b85bc9d",
+      "name": "Peg Millett",
+      "slug": "peg-millett",
+      "case_ids": [
+        "d99baec5-66a2-4f64-9429-d38c34a13178"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 519,
+          "case_id": "d99baec5-66a2-4f64-9429-d38c34a13178",
+          "fields": [
+            "incarceration_date",
+            "release_date",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_12_4_0.pdf#page=15",
+            "https://www.bop.gov/inmateloc/"
+          ],
+          "finding": "Original contemporary journal identifies actual sentence admission and register number; ordinary BOP lookup matches that register and records actual release. Correct legacy admission and release rather than deriving served time from nominal sentence. Halfway-house placement remains within BOP custody."
+        }
+      ]
+    },
+    {
+      "id": "8976ebff-7376-496f-b0b8-90b9263c62a2",
+      "name": "Conor Claxton",
+      "slug": "conor-claxton",
+      "case_ids": [
+        "8ce413de-f382-4b1b-95a7-53610c7379f1"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 521,
+          "case_id": "8ce413de-f382-4b1b-95a7-53610c7379f1",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+            "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/"
+          ],
+          "finding": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported."
+        }
+      ]
+    },
+    {
+      "id": "001ec0e2-b3b9-4fda-9e17-c977fe2663c9",
+      "name": "Anthony Smyth",
+      "slug": "anthony-smyth",
+      "case_ids": [
+        "7d1c1d04-0ec0-46f8-8006-945abaa70999"
+      ],
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
+      "deployed": [
+        {
+          "batch": 521,
+          "case_id": "7d1c1d04-0ec0-46f8-8006-945abaa70999",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.fbi.gov/file-repository/stats-services-publications-terror_99.pdf#page=13",
+            "https://www.cbsnews.com/news/three-sought-in-ira-gun-ring/"
+          ],
+          "finding": "FBI annual report printed pages 7-8 explicitly records July 26 arrest for Browne, Claxton and Smyth; contemporary July 27 report confirms the three remained in federal custody without bond. Correct legacy July 25 arrest/admission; no change to later release unless individually supported."
         }
       ]
     }
