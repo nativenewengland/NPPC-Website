@@ -13,4 +13,4 @@ Chris Lamprecht: Live BOP register lookup resolves legacy release 2000-03-02 00:
 - https://www.bop.gov/inmateloc/
 - https://www.ussc.gov/sites/default/files/pdf/amendment-process/public-hearings-and-meetings/19960311/19960311_Testimony.pdf
 
-Validation/deployment pending.
+Applied live and verified. Replay updated zero rows; see batch526-live-verification.json.

@@ -3148,9 +3148,28 @@
       "case_ids": [
         "d100db6f-b150-4bd7-9593-8624c85655bb"
       ],
-      "status": "prior_review_remaining_gaps",
-      "finding": "Earlier individual source review recovered and linked; not counted as new research or as an exhausted case. Remaining date gaps persist.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 526,
+          "case_id": "d100db6f-b150-4bd7-9593-8624c85655bb",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.environmentandsociety.org/sites/default/files/key_docs/ef_19_7_1.pdf#page=34",
+            "https://www.marxists.org/history/etol/newspape/news-and-letters/2000s/2002-12.pdf#page=7",
+            "https://digitallibrary.un.org/record/496137/files/A_AC-109_2003_L-3-EN.pdf",
+            "https://groups.io/g/earthfirstalert/topics?after=1023321938000000000&page=1808"
+          ],
+          "finding": "Live BOP register lookup resolves legacy release 2003-01-01 00:00:00 to 2002-11-21. Contemporary roster visually matches full name and register; December2002release report corroborates exact day, UN report corroboratesmonth. Preserve admission/arrest and all profile fields. Endpoint is federal custody, not a verified earlier physical-prison departure."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {
@@ -6836,9 +6855,25 @@
       "case_ids": [
         "6751804f-aa22-4c26-b4c4-2c56ef89fca9"
       ],
-      "status": "prior_review_remaining_gaps",
-      "finding": "Earlier individual source review recovered and linked; not counted as new research or as an exhausted case. Remaining date gaps persist.",
+      "status": "partially_corrected_live",
+      "finding": "Supported changes applied and verified; remaining date/episode gaps are not declared resolved.",
       "prior_sources": [],
+      "deployed": [
+        {
+          "batch": 526,
+          "case_id": "6751804f-aa22-4c26-b4c4-2c56ef89fca9",
+          "fields": [
+            "release_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://www.bop.gov/inmateloc/",
+            "https://www.ussc.gov/sites/default/files/pdf/amendment-process/public-hearings-and-meetings/19960311/19960311_Testimony.pdf"
+          ],
+          "finding": "Live BOP register lookup resolves legacy release 2000-03-02 00:00:00 to 2000-03-03. Existing register and full-name BOP identity match; signed1996USSCletter also independently matches register. Preserve admission/arrest and all profile fields. Endpoint is federal custody, not a verified earlier physical-prison departure."
+        }
+      ],
       "earlier_research_audit": "database\\data\\audits\\1990s-enrichment-repeat-2026-10-12\\coverage-ledger.json",
       "earlier_research": [
         {
