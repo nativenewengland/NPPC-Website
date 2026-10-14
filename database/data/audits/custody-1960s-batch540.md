@@ -6,4 +6,4 @@ https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-
 
 The table names Billy Hays (William Hayes) and Stephen Rowland (Randy Rowland). Linden Blake is deliberately excluded: the table prints an impossible February 1968 escape, requiring corroboration.
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture, full-field preservation, zero-change replay, and HTTP 200 public pages displaying corrected dates. See adjacent verification JSON.

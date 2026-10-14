@@ -5,4 +5,4 @@ Fourteen case records incorrectly date the draft-board arrest to September 23, 1
 https://jimandnancyforest.com/2006/03/looking-back-on-the-milwaukee-14/
 https://www.flickr.com/photos/jimforest/1392202151/
 
-Validation/deployment pending.
+Applied live and verified: isolated fixture, full-field preservation, zero-change replay, and HTTP 200 public pages displaying corrected dates. See adjacent verification JSON.

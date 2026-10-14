@@ -1,0 +1,47 @@
+{
+  "batch": 541,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "e17255c2-83f0-4831-8544-88baf6efaeea",
+      "name": "Richard Bunch",
+      "slug": "richard-bunch",
+      "case_id": "f91f8724-285d-40aa-a1b9-cc48676639a5",
+      "expected": {
+        "id": "f91f8724-285d-40aa-a1b9-cc48676639a5",
+        "prisoner_id": "e17255c2-83f0-4831-8544-88baf6efaeea",
+        "institution_id": "63f8fe2d-2750-43de-b424-afeac9084234",
+        "charges": "Absence without leave (AWOL) (Presidio stockade)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Died in custody — shot in the back by a stockade guard on October 11, 1968.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-01-01 00:00:00",
+        "release_date": "1968-10-11 00:00:00",
+        "death_in_custody_date": "1968-10-11 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Shot and killed by a Presidio stockade guard on October 11, 1968.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-07 00:42:23",
+        "updated_at": "2026-10-14 00:00:40",
+        "date_precision": "{\"incarceration_date\":\"year\",\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1968-09-16 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt7/pdf/GPO-CRECB-1969-pt7-1-2.pdf#page=77"
+      ],
+      "rationale": "Army report reproduced in Congressional Record, April 2, 1969, page 8478, paragraph 3 explicitly identifies September 16, 1968 stockade confinement. Preserve October 11 death-in-custody endpoint and biography; elapsed duration 25 days."
+    }
+  ]
+}
