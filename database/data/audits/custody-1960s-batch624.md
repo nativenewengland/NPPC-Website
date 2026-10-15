@@ -10,4 +10,4 @@ Sources: https://journals.ku.edu/amsj/article/download/5035/8140/18257 ; https:/
 
 Unresolved: original 1965 sentencing days; precise April arrest days; Rice release day; separate early fruit-stand detentions. Daniel Hamm's existing fields are unchanged pending individual arrest verification. This is not completion of the decade review.
 
-Deployment: pending isolated fixture, guarded preview, apply, replay and public verification.
+Deployment: isolated fixture passed preview/apply/replay/concurrent-edit guard. Five cases applied live; all profile fields and unrelated case fields preserved; replay updated zero. All five public pages HTTP 200 and verified. Baker counter 2,888 days (7 Years 10 Months 27 Days); partial dates display at month precision without inventing exact-day counters.

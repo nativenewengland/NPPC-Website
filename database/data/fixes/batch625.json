@@ -1,0 +1,88 @@
+{
+  "batch": 625,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "bd5b0b4d-12ea-4421-9e53-02a54e129b3a",
+      "name": "Alprentice Bunchy Carter",
+      "slug": "alprentice-bunchy-carter",
+      "case_id": "45c22d96-6058-467f-a0e4-e779c06b4140",
+      "expected": {
+        "id": "45c22d96-6058-467f-a0e4-e779c06b4140",
+        "prisoner_id": "bd5b0b4d-12ea-4421-9e53-02a54e129b3a",
+        "institution_id": "70cb1b41-f722-4166-864f-5ef8a1161e43",
+        "charges": "Armed robbery",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A former Slauson gang leader who became a revolutionary while incarcerated at the Soledad (Correctional Training Facility) prison for armed robbery in the 1960s, before founding the Southern California chapter of the Black Panther Party. Shot to death Jan 17, 1969 on the UCLA campus (a US Organization confrontation provoked by FBI COINTELPRO) — a killing, not a custody event.\n\nVerdict as recorded: Yes — imprisoned prior to his political career",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1963-01-01 00:00:00",
+        "release_date": "1967-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "sources": [
+        "https://sfbayview.com/2017/11/they-called-him-bunchy-like-a-bunch-of-greens/"
+      ]
+    },
+    {
+      "prisoner_id": "757065c8-4740-4b86-a7d7-3f34073d1775",
+      "name": "Hugo Pinell",
+      "slug": "hugo-pinell",
+      "case_id": "203140ad-7fd7-4dd8-a6ea-752f0714ad94",
+      "expected": {
+        "id": "203140ad-7fd7-4dd8-a6ea-752f0714ad94",
+        "prisoner_id": "757065c8-4740-4b86-a7d7-3f34073d1775",
+        "institution_id": null,
+        "charges": "Underlying 1965 rape conviction; San Quentin Six trial for August 21, 1971 events at San Quentin",
+        "arrest_date": "1971-08-20 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": "2015-08-12 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life; 46 years in California state prison, almost all in solitary confinement; killed at New Folsom Aug 12, 2015\n\nVerdict as recorded: Yes - California state convictions including 1976 San Quentin Six trial",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-13 00:50:42",
+        "date_precision": "{\"death_in_custody_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1965-02-01 00:00:00",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "sentence": "Life; more than 50 years in California state prison, almost all in solitary confinement; killed at New Folsom Aug 12, 2015\n\nVerdict as recorded: Yes - California state convictions including 1976 San Quentin Six trial\n\nSpain v. Procunier, 408 F. Supp. 534, 539 (1976), records that the underlying prison sentence began in February 1965. The exact admission day remains unverified."
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf"
+      ]
+    }
+  ]
+}
