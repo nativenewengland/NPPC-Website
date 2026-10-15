@@ -1,0 +1,57 @@
+{
+  "batch": 643,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "1dab2bbb-aa3a-4d80-a8cb-69eefd35bb42",
+      "name": "William Lee Brent",
+      "slug": "william-lee-brent",
+      "case_id": "71275a35-b71c-4e80-96d6-303e6513219e",
+      "expected": {
+        "id": "71275a35-b71c-4e80-96d6-303e6513219e",
+        "prisoner_id": "1dab2bbb-aa3a-4d80-a8cb-69eefd35bb42",
+        "institution_id": "584a0dd3-c3d5-48a1-9ef0-72c9deea28ec",
+        "charges": "Draft Evasion",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": "Fugitive",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-14 00:00:25",
+        "date_precision": null,
+        "imprisoned_for_months": 22,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "institution_id": null,
+        "charges": "Cuban immigration detention following the June 17, 1969 aircraft hijacking",
+        "plead": null,
+        "arrest_date": "1969-06-17 00:00:00",
+        "incarceration_date": "1969-06-17 00:00:00",
+        "in_exile_since": "1969-06-17 00:00:00",
+        "end_of_exile": "2006-11-04 00:00:00",
+        "in_exile_for_days": 13654,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"in_exile_since\":\"day\",\"end_of_exile\":\"day\"}",
+        "sentence": "Detained in Cuba after arrival on June 17, 1969; the reported 22 months refers to Cuban immigration custody, not imprisonment at MCC Chicago or a draft-evasion sentence. Exact release date remains unresolved. He remained in Cuba until his death on November 4, 2006. His earlier San Francisco detention is a separate episode. The existing 22-month duration is preserved without manufacturing a release day."
+      },
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/William-Lee-Brent-former-Black-Panther-2466571.php",
+        "https://www.jstor.org/stable/10.7312/zoll19546",
+        "https://www.cbsnews.com/news/black-panther-william-lee-brent-dies/"
+      ],
+      "rationale": "Current case mislabeled draft evasion and assigned MCCChicago. Its documented22months actually describes Cuban immigration custody. Correct chronology and remove wrong institution; no fabricated Cuban release date."
+    }
+  ]
+}
