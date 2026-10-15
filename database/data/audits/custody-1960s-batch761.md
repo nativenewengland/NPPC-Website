@@ -4,3 +4,7 @@ Original CCCO January–February1968 page3 explicitly dates continuous confineme
 
 https://vva.vietnam.ttu.edu/images.php?img=/images/215/2150709021.pdf
 https://antiochcollege.edu/history/
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
