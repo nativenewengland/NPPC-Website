@@ -8,6 +8,6 @@ Sources:
 - https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab1006.pdf
 - https://www.congress.gov/87/crecb/1962/05/31/GPO-CRECB-1962-pt7-9.pdf
 
-Deployment pending.
+Applied live. Isolated fixture, guarded preview, unrelated-field preservation, zero-change replay and public HTTP 200 verification passed. The 1955 case remains unchanged.
 
 Corroboration: Twin Falls Times-News March 13, 1962 p.7, AP, Red Editor Given Stay in Sentence, describes postponed jailing and counsel seeking that Jackson remain free. https://tfpl.sfo2.digitaloceanspaces.com/Newspapers/Times-News_TF213/PDF/1962_03_13.pdf . An April3 Congressional speech loosely calls March9 jailing; the detailed contemporaneous DOJ chronology and AP account distinguish the stayed order from actual admission.

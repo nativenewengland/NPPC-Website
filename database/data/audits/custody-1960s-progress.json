@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 229,
-  "case_records_changed_or_added": 291,
+  "changed_profiles": 230,
+  "case_records_changed_or_added": 292,
   "status_counts": {
-    "not-yet-researched": 1122,
-    "partially-corrected-live": 229,
+    "not-yet-researched": 1121,
+    "partially-corrected-live": 230,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
@@ -2892,9 +2892,11 @@
       "gap_case_ids": [
         "206ccd51-a802-4f32-adb5-fcdadffaaee7"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        629
+      ],
+      "note": "1962 commitment stayed pending appeal; removed unsupported physical arrest/admission dates. 1955 case preserved. Actual 1962 custody unresolved."
     },
     {
       "prisoner_id": "c26abc08-978c-42f6-84a7-49efe0231eeb",
