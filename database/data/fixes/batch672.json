@@ -1,0 +1,88 @@
+{
+  "batch": 672,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Leslie Jackson",
+      "slug": "leslie-jackson",
+      "prisoner_id": "1768774a-3371-42f5-8d22-231992d015bf",
+      "case_id": "e7c24826-e085-43c3-8106-c6a4092eac03",
+      "expected": {
+        "id": "e7c24826-e085-43c3-8106-c6a4092eac03",
+        "prisoner_id": "1768774a-3371-42f5-8d22-231992d015bf",
+        "institution_id": "cc345a66-a129-4752-857b-4f7693963e37",
+        "charges": "Juvenile delinquency proceeding arising from Glenville Shootout.",
+        "arrest_date": "1968-07-23 00:00:00",
+        "indicted": null,
+        "convicted": "Adjudicated delinquent in juvenile court.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held until age 21 (~5 years) at Mansfield Youth Center.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 23:55:07",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": null,
+        "imprisoned_for_months": 60,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1968-07-23 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Contemporary commission study pp.56-57 describes removal from the Auburndale house to police headquarters on July23 evening, followed by formal charges next morning. Add initial detention date; do not infer release from maximum juvenile term.",
+      "sources": [
+        "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/ccpv10.pdf"
+      ]
+    },
+    {
+      "name": "John Hardrick",
+      "slug": "john-hardrick",
+      "prisoner_id": "e85d0548-a36f-47c7-bb2b-3d8540527aae",
+      "case_id": "143b1271-a05f-4e50-9c25-c041eb5582db",
+      "expected": {
+        "id": "143b1271-a05f-4e50-9c25-c041eb5582db",
+        "prisoner_id": "e85d0548-a36f-47c7-bb2b-3d8540527aae",
+        "institution_id": "cc345a66-a129-4752-857b-4f7693963e37",
+        "charges": "Juvenile delinquency proceeding arising from Glenville Shootout.",
+        "arrest_date": "1968-07-23 00:00:00",
+        "indicted": null,
+        "convicted": "Adjudicated delinquent in juvenile court.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held until age 21 at Mansfield Youth Center.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 23:55:07",
+        "updated_at": "2026-05-24 23:55:07",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1968-07-23 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Contemporary commission study pp.56-57 describes removal from the Auburndale house to police headquarters on July23 evening, followed by formal charges next morning. Add initial detention date; do not infer release from maximum juvenile term.",
+      "sources": [
+        "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/ccpv10.pdf"
+      ]
+    }
+  ]
+}
