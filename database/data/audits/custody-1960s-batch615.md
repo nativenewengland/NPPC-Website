@@ -18,4 +18,4 @@ https://www.casemine.com/judgement/us/5914998badd7b0493461601b
 
 https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-08-21-gi-press-service-vol-1-no-5.pdf
 
-Biographies and unrelated fields are preserved. Deployment pending.
+Biographies and unrelated fields are preserved. Applied live: two updates. Isolated fixture, no-write preview, replay, concurrent-edit guard and global preservation checks passed. Public pages HTTP 200; Miller displays 1 Year 10 Months and release year 1970; Levy displays August 6, 1969 release and June 3, 1967 sentencing. Levy admission date remains unverified, not claimed corrected.
