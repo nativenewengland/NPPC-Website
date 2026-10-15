@@ -22,3 +22,5 @@ Remove misplaced seventeen-day total, which his 1961 first-person account identi
 - https://www.genekeyes.com/CNVA/61-08-Spectator-article/1961-09-11-Spectator-4.jpg
 - https://www.crmvet.org/docs/nor/650317_cnva_news.pdf
 
+
+Applied live: three case updates. Fixture, full-table preservation, zero-change replay and public six-month and seventeen-day counters verified. The seventeen-day total now belongs only to the 1961 case.
