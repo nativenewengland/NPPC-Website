@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 260,
-  "case_records_changed_or_added": 333,
+  "changed_profiles": 262,
+  "case_records_changed_or_added": 335,
   "status_counts": {
-    "partially-corrected-live": 260,
+    "partially-corrected-live": 262,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1093,
+    "not-yet-researched": 1091,
     "research-incomplete": 5,
     "researched-unresolved": 38,
     "outside-decade-statute-match": 14
@@ -402,9 +402,11 @@
       "gap_case_ids": [
         "8841e9f9-02a4-4678-b378-17cdf72a410c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        651
+      ],
+      "note": "Batch 651 live and public verified; unrelated fields preserved. Exact release/other custody episodes remain under research."
     },
     {
       "prisoner_id": "af920809-3a7c-4f1e-aedc-51496bbf07e4",
@@ -881,9 +883,11 @@
       "gap_case_ids": [
         "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        651
+      ],
+      "note": "Batch 651 live and public verified; unrelated fields preserved. Exact release/other custody episodes remain under research."
     },
     {
       "prisoner_id": "05f2d66f-1d9b-498e-b27c-15d6b60bd745",

@@ -1,0 +1,66 @@
+{
+  "batch": 652,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
+      "name": "James Lawson",
+      "slug": "james-lawson",
+      "case_id": "5b889c8e-1430-5ecc-96b0-856ccf8c4c43",
+      "expected_cases": [
+        {
+          "id": "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2",
+          "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
+          "institution_id": "a4ede4d6-80c2-47dc-84d1-26f497b5be29",
+          "charges": "Conspiracy to violate Tennessee trade and commerce law during the Nashville sit-in campaign",
+          "arrest_date": "1960-03-04 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1960-03-04 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested at First Baptist Church in Nashville on March 4, 1960. Vanderbilt Divinity School faculty posted bail. The exact release date and disposition of this charge remain unresolved. This Nashville detention is separate from his 1951-1952 draft-refusal imprisonment and his May 1961 Freedom Ride detention.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-15 06:52:25",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "5b889c8e-1430-5ecc-96b0-856ccf8c4c43",
+        "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
+        "institution_id": null,
+        "arrest_date": "1961-05-24 00:00:00",
+        "incarceration_date": "1961-05-24 00:00:00",
+        "release_date": null,
+        "sentenced_date": "1961-05-26 00:00:00",
+        "documented_imprisoned_for_days": null,
+        "charges": "Breach of the peace during the Freedom Ride in Jackson, Mississippi",
+        "convicted": "Yes",
+        "judge": "James Spencer",
+        "sentence": "Arrested in Jackson on May 24, 1961. On May 26, the municipal court imposed a $200 fine and a suspended 60-day sentence. Contemporary reporting identifies Lawson among the defendants who remained in jail rather than posting bond or paying the fine. A suspended sentence is not a verified 60-day custody total; the individual release date remains unresolved.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://collections.library.vanderbilt.edu/repositories/2/archival_objects/427143",
+        "https://dailyiowan.lib.uiowa.edu/DI/1961/di1961-05-27.pdf"
+      ],
+      "rationale": "Vanderbilt papers identify May 24 arrest. May 27 AP report, p1 visually checked, identifies Lawson testifying and 27 riders remaining jailed following Friday May 26 judgment. Keep separate from Nashville 1960."
+    }
+  ]
+}
