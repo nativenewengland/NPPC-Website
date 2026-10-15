@@ -25,3 +25,7 @@ Southern Courier October 28–29, 1967, page 1, names Hayes and Fisher arrested 
 - https://crdl.usg.edu/record/aar_amg_103676
 
 Original Southern Courier front page visually inspected. October 30–November 3 dates concern King, Abernathy, Walker and A. D. King, not this group. Only missing arrest and admission dates added. Existing five-day documented duration is preserved, not newly verified as actual duration. Physical release day remains unresolved; sentence is not converted into a release date. All biographies and unrelated fields preserved.
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
