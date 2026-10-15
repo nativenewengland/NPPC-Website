@@ -8,4 +8,4 @@ https://www.crmvet.org/info/dc60.htm
 https://tile.loc.gov/storage-services/service/ndnp/dlc/batch_dlc_bergman_ver01/data/sn83045462/00280608907/1960080501/0221.pdf
 https://www.crmvet.org/nars/albany1.htm
 
-All existing cases and biographies preserved. Deployment pending.
+All existing cases and biographies preserved. Applied live; isolated fixture, guarded application, preservation, zero-change replay and public pages verified.

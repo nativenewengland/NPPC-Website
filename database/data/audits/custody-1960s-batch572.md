@@ -8,4 +8,4 @@ https://crrj.org/efforts/hollis-watkins-activist-and-advisor-honored-by-crrj/
 https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt5/pdf/GPO-CRECB-1963-pt5-1-3.pdf
 https://www.crmvet.org/nars/albany1.htm
 
-Biographies unchanged. Deployment pending.
+Biographies unchanged. Applied live; isolated fixture, guarded application, preservation, zero-change replay and public pages verified.

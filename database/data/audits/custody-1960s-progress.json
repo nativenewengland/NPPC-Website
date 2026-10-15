@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 116,
-  "case_records_changed_or_added": 142,
+  "changed_profiles": 119,
+  "case_records_changed_or_added": 147,
   "status_counts": {
-    "not-yet-researched": 1239,
-    "partially-corrected-live": 116,
+    "not-yet-researched": 1236,
+    "partially-corrected-live": 119,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 8,
     "outside-decade-statute-match": 14,
@@ -7552,9 +7552,11 @@
         "61b3e1e0-6d35-4a45-a855-ef3ad34fd795",
         "6dc95317-06a0-41b0-b7fe-9c020e99dea2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        573
+      ],
+      "note": "See batch research audit."
     },
     {
       "prisoner_id": "18ce8427-5870-4698-a0f3-68ed5b863f02",
@@ -7852,9 +7854,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        569
+        569,
+        572
       ],
-      "note": "Applied through batch 569; see audits for separate custody episodes and unresolved exact endpoints. Profiles and unrelated case fields preserved."
+      "note": "See batch research audit."
     },
     {
       "prisoner_id": "c7214ade-f2ec-4230-9ff9-0d2d42bdd6a8",
@@ -7878,9 +7881,12 @@
         "34760a11-c54c-494b-b508-4d6a79129f12"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        572,
+        573
+      ],
+      "note": "See batch research audit."
     },
     {
       "prisoner_id": "f4b69fa2-bb36-4b75-8c87-a226516a6512",
@@ -18635,9 +18641,11 @@
       "gap_case_ids": [
         "46924cc5-1a8c-4a14-9773-fa5fbac297d2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        573
+      ],
+      "note": "See batch research audit."
     },
     {
       "prisoner_id": "a45a7cb3-6999-4cac-ba18-db471f94d14a",
