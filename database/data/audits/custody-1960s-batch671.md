@@ -7,3 +7,5 @@ Sources:
 - https://law.justia.com/cases/new-york/court-of-appeals/1974/34-n-y-2d-992-2.html
 
 Prepared for guarded live application; verification follows.
+
+Applied live and verified: one case updated; all profile and unrelated case fields unchanged; isolated fixture and zero-change replay passed; public page HTTP 200 displays corrected sentence. Exact custody endpoints remain unresolved.

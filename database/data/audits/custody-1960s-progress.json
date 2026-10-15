@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 309,
-  "case_records_changed_or_added": 389,
+  "changed_profiles": 310,
+  "case_records_changed_or_added": 390,
   "status_counts": {
-    "partially-corrected-live": 309,
+    "partially-corrected-live": 310,
     "reviewed-selected-case-no-change": 23,
-    "not-yet-researched": 1016,
+    "not-yet-researched": 1015,
     "research-incomplete": 8,
     "researched-unresolved": 55,
     "outside-decade-custody": 2,
@@ -2412,9 +2412,11 @@
       "gap_case_ids": [
         "11deb5fe-a790-47eb-8a4e-2d05d2ec1aaf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        671
+      ],
+      "note": "Corrected subsequent 1971 sentence using appellate opinion; cancelled 1972 parole distinguished from actual 1974 release. Exact custody endpoints unresolved. Biography preserved."
     },
     {
       "prisoner_id": "b0f2bd6b-0791-462e-b569-406ec20a502f",
