@@ -4,4 +4,4 @@ Monica Ribar Cornell, “Tom Cornell’s Arrest,” Catholic Worker July–Augus
 
 https://merton.bellarmine.edu/files/original/f5794c46c9906da03a17e165e1fe3f0323d80a25.pdf
 
-Deployment pending.
+Applied live. Isolated fixture, full unrelated-field preservation, zero-change replay, and HTTP 200 public date verification passed. Public incarceration date: June 26, 1968. Release remains unknown.

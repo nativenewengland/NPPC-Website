@@ -1,0 +1,95 @@
+{
+  "batch": 590,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "79179486-f468-46af-8d50-af0b60929af4",
+      "name": "Martin Sostre",
+      "slug": "martin-sostre",
+      "case_id": "3016ad1d-0bf7-4370-8074-d40a288fc96f",
+      "expected": {
+        "id": "3016ad1d-0bf7-4370-8074-d40a288fc96f",
+        "prisoner_id": "79179486-f468-46af-8d50-af0b60929af4",
+        "institution_id": "b5cf5aef-b0f7-4c7d-8bd4-8b52eb907ba9",
+        "charges": "Political Prosecution False Statements Drug charges",
+        "arrest_date": "1967-07-13 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1968-03-18 00:00:00",
+        "incarceration_date": "1967-07-13 00:00:00",
+        "release_date": "1976-02-08 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 3132,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-05-10 06:33:17",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1967-07-15 00:00:00",
+        "incarceration_date": "1967-07-15 00:00:00",
+        "release_date": "1976-02-09 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "The NAACP papers archival guide places the bookstore raid shortly after midnight July 15, 1967, consistent with the Sostre Institute distinction between July 14 evening events and July 15 arrests. The existing July 13 is unsupported. Joseph Shapiro, who interviewed Sostre upon release, identifies February 9, 1976 as actual release; clemency in December 1975 was not release.",
+      "sources": [
+        "https://pq-static-content.proquest.com/collateral/media2/documents/100492_PapNAACPPt23SuppSerBSec2.pdf",
+        "https://www.martinsostre.com/geraldine-robinson-pointer",
+        "https://www.wusf.org/2017-04-14/how-one-inmate-changed-the-prison-system-from-the-inside",
+        "https://www.thebuffalocriterion.com/local-news-1/2ospmr3z608hyleh59hdpgz2cmhl10"
+      ]
+    },
+    {
+      "prisoner_id": "a9613776-1e5c-41fd-af32-6efe927e3632",
+      "name": "Geraldine Robinson",
+      "slug": "geraldine-robinson",
+      "case_id": "4ad2914f-ef91-48ae-aee7-77871178a1bc",
+      "expected": {
+        "id": "4ad2914f-ef91-48ae-aee7-77871178a1bc",
+        "prisoner_id": "a9613776-1e5c-41fd-af32-6efe927e3632",
+        "institution_id": null,
+        "charges": "Narcotics (alleged sale of heroin) — arrested with Martin Sostre at his Buffalo bookstore; the State's key witness later recanted",
+        "arrest_date": "1967-07-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A suspended term on the narcotics charge and a custodial term for interfering with an arrest. She spent a documented total of two years and nineteen days in custody.",
+        "imprisoned_for_days": 749,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 23:16:19",
+        "updated_at": "2026-09-26 03:53:40",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 749,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1967-07-15 00:00:00",
+        "incarceration_date": "1967-07-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "The archival guide and Sostre Institute place arrest and initial custody shortly after midnight July 15, 1967. Robinson was subsequently out on bail and later imprisoned again; preserve the existing documented aggregate 749 days, and leave the release endpoint unknown. Do not infer a continuous two-year stay from initial arrest.",
+      "sources": [
+        "https://pq-static-content.proquest.com/collateral/media2/documents/100492_PapNAACPPt23SuppSerBSec2.pdf",
+        "https://www.martinsostre.com/geraldine-robinson-pointer"
+      ]
+    }
+  ]
+}
