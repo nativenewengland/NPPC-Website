@@ -5,4 +5,4 @@ Peter Sterling: May30-June1,1961. Charles A. Haynie, Joe Henry Griffith and Paul
 https://ecommons.cornell.edu/bitstream/1813/27760/1/064_01.pdf
 https://archive.lib.msu.edu/DMC/state_news/1961/state_news_19610531.pdf
 
-Deployment pending.
+Applied live: four case updates, zero-change replay, full profile and unrelated-case preservation verified. Public pages HTTP200 show 9 days for Haynie/Griffith/Green and 2 days for Sterling. Isolated fixture and conflict guard passed before deployment. Batch identity typo was corrected before any live mutation.
