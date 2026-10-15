@@ -1,0 +1,99 @@
+{
+  "batch": 557,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "8ad5cd65-f384-4f61-ae0c-841810598437",
+      "name": "Bobby Seale",
+      "slug": "bobby-seale",
+      "case_id": "2b1f9d65-04fb-4b57-ac6c-2d4960764421",
+      "expected": {
+        "id": "2b1f9d65-04fb-4b57-ac6c-2d4960764421",
+        "prisoner_id": "8ad5cd65-f384-4f61-ae0c-841810598437",
+        "institution_id": "5cfa35c7-fcc3-4572-a724-86efcdf5e9dd",
+        "charges": "Murder, kidnapping, conspiracy (New Haven Black Panther trials, prosecution",
+        "arrest_date": "1969-08-18 00:00:00",
+        "indicted": null,
+        "convicted": "No — pending trial",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-08-18 00:00:00",
+        "release_date": "1972-03-20 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No conviction\n\nVerdict as recorded: No — hung jury, prosecution dropped May 1971; Seale held in pretrial detention more than two and a half years\n\nCharges as recorded: Murder, kidnapping, conspiracy (New Haven Black Panther trials, prosecution for the 1969 killing of Alex Rackley)",
+        "imprisoned_for_days": 945,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-08-19 00:00:00",
+        "incarceration_date": "1969-08-19 00:00:00",
+        "release_date": "1971-05-28 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "convicted": "No - hung jury; charges dismissed",
+        "sentence": "Held from August 19, 1969 until release on bond May 28, 1971. The New Haven prosecution ended after a hung jury and dismissal of charges in May 1971; release followed the posting of bond on the separate Chicago contempt case. The March 1972 date did not mark the end of this custody period."
+      },
+      "sources": [
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-08-23-black-panther-vol-3-no-18.pdf",
+        "https://digitalcommons.chapman.edu/upi_african_american/269/",
+        "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther18.pdf"
+      ],
+      "rationale": "Use individual arrest and actual release evidence; distinguish mistrial, dismissal, and release. Preserve biography and other cases."
+    },
+    {
+      "prisoner_id": "3acf38af-d2a4-4f44-b11f-f2085bedcb7c",
+      "name": "Ericka Huggins",
+      "slug": "ericka-huggins",
+      "case_id": "ee33d68d-d5b8-47ac-9899-51c96d1b5006",
+      "expected": {
+        "id": "ee33d68d-d5b8-47ac-9899-51c96d1b5006",
+        "prisoner_id": "3acf38af-d2a4-4f44-b11f-f2085bedcb7c",
+        "institution_id": "737e560a-25b9-4a57-82a6-2f7d4edf6823",
+        "charges": "Connecticut state murder, kidnapping, and conspiracy - May 1969 killing of Alex Rackley in New Haven",
+        "arrest_date": "1969-05-21 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-05-21 00:00:00",
+        "release_date": "1971-05-24 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held in pretrial detention 2 years\n\nVerdict as recorded: No - jury deadlocked 10-2 for acquittal; charges dismissed with prejudice May 25, 1971",
+        "imprisoned_for_days": 733,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-05-22 00:00:00",
+        "incarceration_date": "1969-05-22 00:00:00",
+        "release_date": "1971-05-25 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "convicted": "No - hung jury; charges dismissed",
+        "sentence": "Held in pretrial detention from May 22, 1969 until release May 25, 1971 following a hung jury and dismissal of charges. No sentence imposed in this case."
+      },
+      "sources": [
+        "https://ead-pdfs.library.yale.edu/996.pdf",
+        "https://www.flickr.com/photos/washington_area_spark/49066511847/in/photostream/"
+      ],
+      "rationale": "Use individual arrest and actual release evidence; distinguish mistrial, dismissal, and release. Preserve biography and other cases."
+    }
+  ]
+}

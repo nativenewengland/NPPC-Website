@@ -17,6 +17,6 @@ https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt3/pdf/GPO-CRECB-1970-pt3-3-
 https://www.fifthestate.org/archive/100-march-5-18-1970/bail/
 https://law2.umkc.edu/faculty/projects/ftrials/Chicago7/Sentencing.html
 
-Live validation pending.
+Applied live: seven updates. Full profile and unrelated case fields preserved; zero-change replay verified. All seven public pages return HTTP 200 and show the corrected 13-, 14-, or 24-day counters. Earlier booking dates remain unresolved.
 
 Substantive charge/acquittal verification: https://law.justia.com/cases/federal/appellate-courts/F2/472/340/368222/
