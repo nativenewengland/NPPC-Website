@@ -1,0 +1,95 @@
+{
+  "batch": 763,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Paul Salstrom",
+      "slug": "paul-salstrom",
+      "prisoner_id": "e82c7258-f4d2-40e1-9273-30be1f22492e",
+      "case_id": "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e",
+      "expected": {
+        "id": "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e",
+        "prisoner_id": "e82c7258-f4d2-40e1-9273-30be1f22492e",
+        "institution_id": null,
+        "charges": "Conscientious resistance to military conscription; individual statutory count unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1962-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "In a first-person account Salstrom dates his arrival at the Medical Center for Federal Prisoners near Springfield, Missouri, to1962 and describes two years incarcerated there. The December1964 Catholic Worker roster places him at Danbury. Two years refers to the Springfield portion, not a verified total sentence or total custody duration. Exact admission and release days remain unknown.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 03:00:34",
+        "updated_at": "2026-09-14 03:00:34",
+        "date_precision": "{\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1964-01-01 00:00:00",
+        "imprisoned_for_months": 24,
+        "sentence": "Salstrom dates his arrival at the Medical Center for Federal Prisoners near Springfield, Missouri, to 1962 and describes two years incarcerated there. Contemporary October and November 1964 reports establish that he completed this term and was then arrested again in October 1964. The later Danbury custody is a separate episode. Exact admission and release days for the initial term remain unverified.",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}"
+      },
+      "rationale": "Contemporary1964 sources explicitly establish release and re-arrest, resolving apparent continuous1962–65 stay. Two years actual initial imprisonment, not imposed sentence. Do not count later Danbury stay in24months. Release year only; May lead remains secondary.",
+      "sources": [
+        "https://thesparrowsnest.org.uk/collections/public_archive/17501.pdf",
+        "https://merton.bellarmine.edu/files/original/31442062f41d75fec1d0e17e717c679fe39bd661.pdf",
+        "https://citeseerx.ist.psu.edu/document?doi=5ec3bc6fd6114e3d7df51d4b7d530a69c1794a46&repid=rep1&type=pdf"
+      ]
+    },
+    {
+      "name": "Charles Koen",
+      "slug": "charles-koen",
+      "prisoner_id": "62bfc7b9-6dc3-4056-a014-363e40032600",
+      "case_id": "cabda0fc-e0c2-42cf-8ee5-31735b63a469",
+      "expected": {
+        "id": "cabda0fc-e0c2-42cf-8ee5-31735b63a469",
+        "prisoner_id": "62bfc7b9-6dc3-4056-a014-363e40032600",
+        "institution_id": "f504944b-be0a-4895-8673-c2e6ddda1490",
+        "charges": "Assault on a police officer (stemming from a September 1968 police beating of Koen and Leon Dent in Cairo, Illinois)",
+        "arrest_date": "1968-09-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-07-19 00:00:00",
+        "release_date": "1971-09-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months\n\nVerdict as recorded: Yes — convicted of assault; six-month sentence; paroled in 1971 after a protest water fast",
+        "imprisoned_for_days": 46,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 01:35:57",
+        "updated_at": "2026-09-18 22:07:06",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-09-13 00:00:00",
+        "charges": "Assault with intent to do great bodily harm without malice, arising from the September 13, 1968 arrest and confrontation with police in St. Louis, Missouri.",
+        "sentence": "Six months in the St. Louis city workhouse and a $100 fine. Conviction affirmed June 28, 1971 in State v. Koen, 468 S.W.2d 625. Paroled in 1971 after a protest water fast; existing verified custody dates preserved.",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "rationale": "Primary appellate opinion dates arrest September13 and specifies StLouis, not CairoIllinois. Correct case location/count and imposed sentence; preserve1971custodyendpoints and all biography fields. Opinion distinguishes contested prosecution and defense narratives; do not adopt allegations as independent facts.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/59149811add7b049345fe297",
+        "https://www.memphis.edu/benhooks/creative-works/pdfs/jolly.pdf"
+      ]
+    }
+  ]
+}

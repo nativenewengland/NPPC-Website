@@ -57,3 +57,7 @@ https://vva.vietnam.ttu.edu/images.php?img=/images/1451/14511002010.pdf
 Conflicting May18 vs May24 sentencing days across CCCO May–June and July–August1965: preserve month only. CCCO original p4 individually names William Cunningham, sentence One year, date 1965-05-01; visually checked agent-one-verify-14511002011.png.
 
 https://vva.vietnam.ttu.edu/images.php?img=/images/1451/14511002011.pdf
+
+## Live verification
+
+Applied 9 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
