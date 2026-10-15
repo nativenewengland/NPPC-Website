@@ -1,0 +1,170 @@
+{
+  "batch": 547,
+  "expected_count": 4,
+  "entries": [
+    {
+      "prisoner_id": "035ec416-6fb6-41cd-ba6b-e6cc8b96fe8b",
+      "name": "Richard Marino",
+      "slug": "richard-marino",
+      "case_id": "735f73a3-8379-4dfd-a6c8-2739c21abff4",
+      "expected": {
+        "id": "735f73a3-8379-4dfd-a6c8-2739c21abff4",
+        "prisoner_id": "035ec416-6fb6-41cd-ba6b-e6cc8b96fe8b",
+        "institution_id": "63f8fe2d-2750-43de-b424-afeac9084234",
+        "charges": "Mutiny for joining the October 14, 1968 peaceful sit-down by prisoners at the Presidio Stockade.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — court-martialed for mutiny; on June 30, 1970, the Court of Military Review dismissed the mutiny charge and convicted on the lesser offense of willful disobedience.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-10-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "15 months at hard labor imposed June 6, 1969; reduced on appeal to 8 months at hard labor.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 21:10:30",
+        "updated_at": "2026-09-26 21:10:30",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1969-06-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-6-1.pdf#page=49"
+      ],
+      "rationale": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
+    },
+    {
+      "prisoner_id": "9011adde-68fa-4b03-b892-baa0f91aeb11",
+      "name": "Alan Rupert",
+      "slug": "alan-rupert",
+      "case_id": "28692bc4-a7f7-47df-8ea8-e9c2ab3b96cf",
+      "expected": {
+        "id": "28692bc4-a7f7-47df-8ea8-e9c2ab3b96cf",
+        "prisoner_id": "9011adde-68fa-4b03-b892-baa0f91aeb11",
+        "institution_id": "63f8fe2d-2750-43de-b424-afeac9084234",
+        "charges": "Mutiny for joining the October 14, 1968 peaceful sit-down by prisoners at the Presidio Stockade.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — court-martialed for mutiny; on June 30, 1970, the Court of Military Review dismissed the mutiny charge and convicted on the lesser offense of willful disobedience.",
+        "plead": null,
+        "sentenced_date": "1969-06-01 00:00:00",
+        "incarceration_date": "1968-10-01 00:00:00",
+        "release_date": "1970-03-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months at hard labor imposed June 6, 1969; reduced on appeal to 7 months at hard labor. He received a commandant’s parole on March 3, 1970.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 21:10:31",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1969-06-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-6-1.pdf#page=49"
+      ],
+      "rationale": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
+    },
+    {
+      "prisoner_id": "0041c464-310c-47f0-8378-c4a77a26df84",
+      "name": "Patrick Wright",
+      "slug": "patrick-wright",
+      "case_id": "fb6b9bbb-89e9-4b03-b4d8-8605fdf2d585",
+      "expected": {
+        "id": "fb6b9bbb-89e9-4b03-b4d8-8605fdf2d585",
+        "prisoner_id": "0041c464-310c-47f0-8378-c4a77a26df84",
+        "institution_id": "63f8fe2d-2750-43de-b424-afeac9084234",
+        "charges": "Mutiny for joining the October 14, 1968 peaceful sit-down by prisoners at the Presidio Stockade.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — court-martialed for mutiny; on June 30, 1970, the Court of Military Review dismissed the mutiny charge and convicted on the lesser offense of willful disobedience.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-10-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months at hard labor imposed June 6, 1969; reduced on appeal to 7 months at hard labor.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 21:10:31",
+        "updated_at": "2026-09-26 21:10:31",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1969-06-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-6-1.pdf#page=49"
+      ],
+      "rationale": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
+    },
+    {
+      "prisoner_id": "ec3227e7-7315-438a-b817-bac387da3976",
+      "name": "Ricky Stevens",
+      "slug": "ricky-stevens",
+      "case_id": "aa496692-66eb-4f17-9dec-871d7a7abf0f",
+      "expected": {
+        "id": "aa496692-66eb-4f17-9dec-871d7a7abf0f",
+        "prisoner_id": "ec3227e7-7315-438a-b817-bac387da3976",
+        "institution_id": "63f8fe2d-2750-43de-b424-afeac9084234",
+        "charges": "Mutiny for joining the October 14, 1968 peaceful sit-down by prisoners at the Presidio Stockade.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — court-martialed for mutiny; on June 30, 1970, the Court of Military Review dismissed the mutiny charge and convicted on the lesser offense of willful disobedience.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-10-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months at hard labor imposed June 6, 1969; reduced on appeal to 7 months at hard labor.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 21:10:31",
+        "updated_at": "2026-09-26 21:10:31",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1969-06-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-6-1.pdf#page=49"
+      ],
+      "rationale": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
+    }
+  ]
+}
