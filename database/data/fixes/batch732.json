@@ -1,0 +1,51 @@
+{
+  "batch": 732,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Thomas Wansley",
+      "slug": "thomas-wansley",
+      "prisoner_id": "046731ee-d1e4-419d-9e9f-7674bd04bf4e",
+      "case_id": "087cf351-c6da-4ac4-8243-3d369c920db6",
+      "expected": {
+        "id": "087cf351-c6da-4ac4-8243-3d369c920db6",
+        "prisoner_id": "046731ee-d1e4-419d-9e9f-7674bd04bf4e",
+        "institution_id": null,
+        "charges": "Rape (Lynchburg, Virginia, 1962) — widely condemned as a racist frame-up and a discriminatory use of the capital rape charge against a Black teenager",
+        "arrest_date": "1962-12-08 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1963-02-01 00:00:00",
+        "incarceration_date": "1962-12-08 00:00:00",
+        "release_date": "1973-01-17 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death (as a youth), later commuted to life imprisonment\n\nVerdict as recorded: Yes — sentenced to death as a youth, later a life term; conviction overturned and released on bond January 1973; pardon denied",
+        "imprisoned_for_days": 3693,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 04:39:51",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1963-02-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "Sentenced to death for rape and twenty years for robbery on February 7, 1963 in the Annie Carter prosecution; those judgments were reversed on September 11, 1964. Following retrial, he received life imprisonment in 1967. He was released on $10,000 bond on January 17, 1973 after federal habeas relief. The Fourth Circuit reversed that relief on November 8, 1973, and contemporary reporting places his return to prison in mid-November 1973. The recorded release endpoint and counter cover the first custody period only; the later imprisonment endpoint remains unverified."
+      },
+      "rationale": "Primary Virginia judgment identifies February 7, 1963 final sentencing in the Carter case, refining existing February month. February 12 belongs to separate Fleshman case and must not be substituted. Preserve documented initial custody through January 17, 1973. Contemporary report confirms November 1973 return to prison; later endpoint unresolved and no invented additional duration. Preserve biography.",
+      "sources": [
+        "https://openjurist.org/205/va/419/wansley-v-commonwealth-1260010",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/487/90/81609/",
+        "https://texashistory.unt.edu/ark:/67531/metapth1052671/m1/1/",
+        "https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP02021974.pdf"
+      ]
+    }
+  ]
+}

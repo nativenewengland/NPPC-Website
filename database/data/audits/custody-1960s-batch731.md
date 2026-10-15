@@ -8,3 +8,7 @@ https://ldfrecollection.org/archives/archives-search/archives-item/c7c9c570-7e3b
 https://digitalcommons.fiu.edu/record/25268/files/FI14041002_00074_1975_11_13_TheGoodTimes.pdf
 https://law.justia.com/cases/florida/district-courts-of-appeal/1970/241-so-2d-399.html
 https://exonerationregistry.org/cases/4549
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
