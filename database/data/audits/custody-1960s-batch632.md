@@ -4,4 +4,4 @@ CORE September1960 p3, James R. Robinson firsthand account Jail Not Bail names T
 
 https://www.crmvet.org/docs/core/core6009.pdf
 
-Deployment pending.
+Applied live. Fixture, preview, global preservation, zero-addition replay and all three public pages passed. Roland and Lafayette counters now10days for this newly documented episode; Gaither aggregate40days includes existing Rock Hill custody. Other unresolved episodes remain unresolved.
