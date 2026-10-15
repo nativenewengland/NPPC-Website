@@ -1,0 +1,124 @@
+{
+  "batch": 639,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "c4b3fd57-bfa2-443e-ae68-6777a66bac52",
+      "name": "Al Bridges",
+      "slug": "al-bridges",
+      "case_id": "7a94ccbb-f8dc-5379-980d-eb68c648bd6b",
+      "expected_cases": [
+        {
+          "id": "751f5bc4-c1d9-40fb-a28a-c96f46391b4b",
+          "prisoner_id": "c4b3fd57-bfa2-443e-ae68-6777a66bac52",
+          "institution_id": null,
+          "charges": "State fishing-law violations arising from treaty-rights fish-ins at Frank’s Landing",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "Multiple convictions reported; case-by-case dispositions not located",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Repeatedly arrested and jailed during the 1960s fish-ins; exact custody episodes and durations not located.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-06-22 15:17:20",
+          "updated_at": "2026-09-26 20:07:01",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "7a94ccbb-f8dc-5379-980d-eb68c648bd6b",
+        "prisoner_id": "c4b3fd57-bfa2-443e-ae68-6777a66bac52",
+        "institution_id": null,
+        "arrest_date": "1965-10-13 00:00:00",
+        "incarceration_date": "1965-10-13 00:00:00",
+        "release_date": "1965-10-01 00:00:00",
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Obstructing a public officer during the October 13, 1965 Nisqually fish-in",
+        "convicted": "No — acquitted by jury in January 1969",
+        "sentence": "Arrested with Don and Janet McCloud, Maiselle Bridges, Susan Satiacum and Don George Jr. on October 13, 1965. Laura McCloud recalled that the group posted bail within hours. Release is recorded at October month precision rather than assigning an exact clock-based duration. The prosecution ended in jury acquittals in January 1969. This individual episode is separate from the retained overview of other fishing-rights arrests.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Firsthand account individually namesAlBridges among six jailed and bailed within hours; contemporaneous docket corroborates acquittal. Preserve aggregatecase rather than overwriting other potential custody.",
+      "sources": [
+        "https://historykeepshappening.wordpress.com/2020/03/22/is-the-trend-changing-laura-mccloud-1969/",
+        "https://digicoll.lib.berkeley.edu/record/222228/files/meik-14.pdf",
+        "https://content.govdelivery.com/accounts/WADEL/bulletins/3ba80c8"
+      ]
+    },
+    {
+      "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
+      "name": "Janet McCloud",
+      "slug": "janet-mccloud",
+      "case_id": "4e953f55-0db4-5c63-b5e0-40eadf4255c9",
+      "expected_cases": [
+        {
+          "id": "27db21be-dd05-43fb-955d-8f5401bdd95b",
+          "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
+          "institution_id": "2b2d1ca1-344a-4909-8359-bfbe7ae5b2f7",
+          "charges": "Obstructing a public officer during the October 13, 1965 Nisqually fish-in",
+          "arrest_date": "1965-10-13 00:00:00",
+          "indicted": null,
+          "convicted": "No — acquitted by jury in January 1969",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1965-10-13 00:00:00",
+          "release_date": "1965-10-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested October 13, 1965; acquitted by a jury in January 1969. Laura McCloud recalled that the defendants posted bail within hours of arrest, while the 2003 Seattle Post-Intelligencer obituary reports six days in jail and a hunger strike. These conflicting custody accounts remain unresolved; no exact release day or verified six-day total is assigned. October 1965 release is retained at month precision. Janet McCloud also described a separate 1966 arrest and hunger strike with Edith McCloud and Dick Gregory; that episode must not be conflated with this prosecution.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-10-15 05:52:05",
+          "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "4e953f55-0db4-5c63-b5e0-40eadf4255c9",
+        "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
+        "institution_id": null,
+        "arrest_date": "1966-01-01 00:00:00",
+        "incarceration_date": "1966-01-01 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Interfering with a police officer during a 1966 Nisqually fish-in with Dick Gregory",
+        "convicted": null,
+        "sentence": "Janet McCloud and Robert Casey described her arrest with Edith McCloud and Dick Gregory during a separate 1966 fish-in. She and Edith pleaded not guilty and awaited jury trials; all three remained in jail on hunger strike. The exact arrest and release dates, duration and final disposition of this separate episode are not established in the cited account.",
+        "date_precision": {
+          "arrest_date": "year",
+          "incarceration_date": "year"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Firsthand1967article p40–41documents separate1966actualjailcustody and hungerstrike. No exactday, duration, or October1965sixdaytotal transplanted.",
+      "sources": [
+        "https://ftp.unz.com/PDF/PERIODICAL/LeftRight-1967q1/29-54/",
+        "https://mises.org/left-and-right/last-indian-war"
+      ]
+    }
+  ]
+}
