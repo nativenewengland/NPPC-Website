@@ -1,0 +1,393 @@
+{
+  "batch": 679,
+  "expected_count": 9,
+  "entries": [
+    {
+      "name": "Lonnie McLucas",
+      "slug": "lonnie-mclucas",
+      "prisoner_id": "728a2aeb-e6ec-4e7f-9954-94a215df9392",
+      "case_id": "9a307f0f-3d2e-448b-af2a-2a116119dde0",
+      "expected": {
+        "id": "9a307f0f-3d2e-448b-af2a-2a116119dde0",
+        "prisoner_id": "728a2aeb-e6ec-4e7f-9954-94a215df9392",
+        "institution_id": null,
+        "charges": "Conspiracy to commit murder in the death of Alex Rackley (acquitted of kidnapping resulting in death, conspiracy to kidnap, and binding)",
+        "arrest_date": "1969-06-21 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": "Harold M. Mulvey",
+        "sentence": "12 to 15 years (sentenced September 18, 1970); served only a few years\n\nVerdict as recorded: Yes \u2014 convicted of conspiracy to commit murder; acquitted of the more serious charges",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-10-14 00:00:36",
+        "date_precision": "[]",
+        "imprisoned_for_months": 24,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-06-06 00:00:00",
+        "incarceration_date": "1969-06-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Court findings establish June 6 arrest and continuing custody through June 10 extradition and June 11 arraignment. Replace incorrect June 21 arrest. Release remains unresolved.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/5914c5e2add7b049347d724e"
+      ]
+    },
+    {
+      "name": "Frances Carter",
+      "slug": "frances-carter",
+      "prisoner_id": "43aaaf82-e038-44dd-89f4-593ab07f6a1d",
+      "case_id": "f9d00f53-da56-40d8-8cba-9d27df6cdc0f",
+      "expected": {
+        "id": "f9d00f53-da56-40d8-8cba-9d27df6cdc0f",
+        "prisoner_id": "43aaaf82-e038-44dd-89f4-593ab07f6a1d",
+        "institution_id": "9a9eb5ec-271e-41fd-ae5b-3d5d39942c38",
+        "charges": "Charges related to the death of Alex Rackley; later jailed",
+        "arrest_date": "1969-05-22 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Verdict as recorded: No \u2014 freed on bail for insufficient evidence; released after about 5.5 months once granted immunity\n\nCharges as recorded: Charges related to the death of Alex Rackley; later jailed for contempt of court for refusing to testify",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-05-22 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Contemporary accounts establish May 22 arrest, overnight detention and denial of bail. Carter later had separate bail and contempt periods; no continuous end date inferred.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2028%201-24%20jun%2013%201970.pdf",
+        "https://www.thecrimson.com/article/1970/4/28/the-trial-of-bobby-seale-psometime/"
+      ]
+    },
+    {
+      "name": "Margaret Hudgins",
+      "slug": "margaret-hudgins",
+      "prisoner_id": "8ab0d3a4-1501-4bf0-a861-5d3e0280c1fd",
+      "case_id": "c3f7cf9d-6aa4-4ee5-b6da-153bf3c53f39",
+      "expected": {
+        "id": "c3f7cf9d-6aa4-4ee5-b6da-153bf3c53f39",
+        "prisoner_id": "8ab0d3a4-1501-4bf0-a861-5d3e0280c1fd",
+        "institution_id": "9a9eb5ec-271e-41fd-ae5b-3d5d39942c38",
+        "charges": "Charges related to the death of Alex Rackley (from unlawful binding to kidnapping and murder)",
+        "arrest_date": "1969-05-22 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-05-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Verdict as recorded: No \u2014 charges dropped; never convicted",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-05-22 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "rationale": "Contemporary accounts establish May 22 arrest, overnight detention and denial of bail. Carter later had separate bail and contempt periods; no continuous end date inferred.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2028%201-24%20jun%2013%201970.pdf",
+        "https://www.thecrimson.com/article/1970/4/28/the-trial-of-bobby-seale-psometime/"
+      ]
+    },
+    {
+      "name": "Rose Marie Smith",
+      "slug": "rose-marie-smith",
+      "prisoner_id": "c446f946-630c-499d-95cb-6ce379aa864c",
+      "case_id": "f3f5ddb5-ee00-457a-a6eb-be1fb90992e3",
+      "expected": {
+        "id": "f3f5ddb5-ee00-457a-a6eb-be1fb90992e3",
+        "prisoner_id": "c446f946-630c-499d-95cb-6ce379aa864c",
+        "institution_id": "9a9eb5ec-271e-41fd-ae5b-3d5d39942c38",
+        "charges": "Kidnapping, conspiracy to kidnap, conspiracy to murder, and related charges; resolved by a plea to aggravated assault",
+        "arrest_date": "1969-05-22 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 guilty plea to the reduced charge of aggravated assault",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-05-22 00:00:00",
+        "release_date": "1970-10-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Suspended sentence after a guilty plea to aggravated assault; released in early October 1970 after approximately sixteen months jailed without bail.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-10-14 00:00:36",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": 16,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "rationale": "Refine existing May 22 custody start from month to day using contemporary account of arrest and detention. Preserve October 1970 month-only release.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2028%201-24%20jun%2013%201970.pdf",
+        "https://www.thecrimson.com/article/1970/4/28/the-trial-of-bobby-seale-psometime/"
+      ]
+    },
+    {
+      "name": "Loretta Luckes",
+      "slug": "loretta-luckes",
+      "prisoner_id": "4b14f5d8-e235-461c-9624-26bc30356dcb",
+      "case_id": "61b7f7e6-aa18-4731-b391-98ff27a20d6e",
+      "expected": {
+        "id": "61b7f7e6-aa18-4731-b391-98ff27a20d6e",
+        "prisoner_id": "4b14f5d8-e235-461c-9624-26bc30356dcb",
+        "institution_id": "9a9eb5ec-271e-41fd-ae5b-3d5d39942c38",
+        "charges": "Charges related to the death of Alex Rackley",
+        "arrest_date": "1969-05-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Verdict as recorded: Yes \u2014 pleaded guilty and testified for the state (parole not opposed)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-05-28 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "May 28 arrest followed by detention and May 29 remand without bail documented in contemporary reporting.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.thecrimson.com/article/1970/4/28/the-trial-of-bobby-seale-psometime/"
+      ]
+    },
+    {
+      "name": "Landon Williams",
+      "slug": "landon-williams",
+      "prisoner_id": "569613de-9ead-45dd-807e-349b1ac3a00f",
+      "case_id": "8a2029fe-cc7b-4b8c-b869-b87bbe1a2067",
+      "expected": {
+        "id": "8a2029fe-cc7b-4b8c-b869-b87bbe1a2067",
+        "prisoner_id": "569613de-9ead-45dd-807e-349b1ac3a00f",
+        "institution_id": null,
+        "charges": "Conspiracy to commit murder in the death of Alex Rackley",
+        "arrest_date": "1969-06-05 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Suspended sentence\n\nVerdict as recorded: Yes \u2014 pleaded guilty to conspiracy to commit murder (late 1971)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Denver jail confinement is established in June 1969. Sources differ among June 5 arrest, June 6 arrest and June 7 county-jail admission; retain month precision for incarceration and preserve existing arrest pending resolution.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2028%201-24%20jun%2013%201970.pdf",
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-07-19-black-panther-vol-3-no-13.pdf"
+      ]
+    },
+    {
+      "name": "Rory Hithe",
+      "slug": "rory-hithe",
+      "prisoner_id": "b1f9007b-caf9-4ee2-a4df-c46c415c2d95",
+      "case_id": "f8d0f3ca-8a77-4f3c-a7f4-ed7a7209fdf1",
+      "expected": {
+        "id": "f8d0f3ca-8a77-4f3c-a7f4-ed7a7209fdf1",
+        "prisoner_id": "b1f9007b-caf9-4ee2-a4df-c46c415c2d95",
+        "institution_id": null,
+        "charges": "Conspiracy to commit murder in the death of Alex Rackley",
+        "arrest_date": "1969-06-05 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": null,
+        "sentence": "Suspended sentence\n\nVerdict as recorded: Yes \u2014 pleaded guilty to conspiracy to commit murder (late 1971)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Denver jail confinement is established in June 1969. Sources differ among June 5 arrest, June 6 arrest and June 7 county-jail admission; retain month precision for incarceration and preserve existing arrest pending resolution.",
+      "sources": [
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2028%201-24%20jun%2013%201970.pdf",
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-07-19-black-panther-vol-3-no-13.pdf"
+      ]
+    },
+    {
+      "name": "Warren Kimbro",
+      "slug": "warren-kimbro",
+      "prisoner_id": "cefe0ac0-5610-4dab-bfc9-cd7760fce8ef",
+      "case_id": "da7cff7e-96c8-4bad-8b6f-aaa2173e51a6",
+      "expected": {
+        "id": "da7cff7e-96c8-4bad-8b6f-aaa2173e51a6",
+        "prisoner_id": "cefe0ac0-5610-4dab-bfc9-cd7760fce8ef",
+        "institution_id": null,
+        "charges": "Second-degree murder in the death of Alex Rackley",
+        "arrest_date": "1969-05-22 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": "Harold M. Mulvey",
+        "sentence": "Life (mandatory for second-degree murder); served about four years, granted educational parole in 1972\n\nVerdict as recorded: Yes \u2014 pleaded guilty to second-degree murder (turned state's evidence)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-10-14 00:00:36",
+        "date_precision": null,
+        "imprisoned_for_months": 48,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-05-01 00:00:00",
+        "sentenced_date": "1971-06-23 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Court stipulation records May 21 custody; contemporary accounts say May 22. Use May precision, preserve existing arrest, and add undisputed June 23, 1971 sentence. Do not convert parole eligibility into actual release.",
+      "sources": [
+        "https://case-law.vlex.com/vid/kimbro-v-manson-no-886023407",
+        "https://paperzz.com/doc/8028809/the-events-leading-up-to-the-trial",
+        "https://www.thecrimson.com/article/1970/4/28/the-trial-of-bobby-seale-psometime/"
+      ]
+    },
+    {
+      "name": "Elizabeth Just",
+      "slug": "elizabeth-just",
+      "prisoner_id": "0b971664-1b9f-42e3-8fe3-1945a8391a13",
+      "case_id": "fec4f13b-721c-4eaf-9746-e51d5ecfd336",
+      "expected": {
+        "id": "fec4f13b-721c-4eaf-9746-e51d5ecfd336",
+        "prisoner_id": "0b971664-1b9f-42e3-8fe3-1945a8391a13",
+        "institution_id": null,
+        "charges": "Refusing to take shelter",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days in the Women's House of Detention\n\nCharges as recorded: Refusing to take shelter during a civil-defense drill (NY Defense Emergency Act)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-04-28 00:00:00",
+        "incarceration_date": "1961-05-01 00:00:00",
+        "release_date": "1961-05-01 00:00:00",
+        "sentence": "Initially sentenced to thirty days for refusing to take shelter during the April 28, 1961 civil-defense drill. Released in May 1961 after a brief stay in the Women\u2019s House of Detention; the sentence was suspended. Reports differ on the release day and describe two or three days in custody.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "rationale": "Both contemporary reports establish May custody and release, but May 22 issue says parole two days after sentencing while June 12 says finally freed May 22 after three days. Do not manufacture an exact span or count the full thirty-day sentence.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-05-22-13-32-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-12-13-35-nat-guardian.pdf"
+      ]
+    }
+  ]
+}
