@@ -26,3 +26,7 @@ Contemporary movement newspaper explicitly reports arrest and jailing September 
 - https://www.fortunateson.us/chapter-13-black-panthers/
 
 No release inferred from completion of the resisting-officer sentences. No biography edits.
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

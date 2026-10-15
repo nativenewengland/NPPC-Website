@@ -1,0 +1,92 @@
+{
+  "batch": 685,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Max Stanford",
+      "slug": "max-stanford",
+      "prisoner_id": "05ed7465-9f9c-494c-94b5-04e832ba3d7c",
+      "case_id": "70ebc935-1d31-4a38-b946-60cd6c4fb201",
+      "expected": {
+        "id": "70ebc935-1d31-4a38-b946-60cd6c4fb201",
+        "prisoner_id": "05ed7465-9f9c-494c-94b5-04e832ba3d7c",
+        "institution_id": null,
+        "charges": "Incitement to riot, alleged (1967 RAM roundup; no conviction)",
+        "arrest_date": "1967-06-21 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No conviction resulted from the 1967 arrest",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-06-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentence": "Verdict as recorded: No conviction resulted from the 1967 arrest\n\nCustody chronology: detained after the June 21, 1967 arrest in Philadelphia, then released on bail. Extradited to New York in August 1967 and held at Queens House of Detention, where contemporary March 1968 reporting still placed him. The intervening bail period and final release dates remain unverified; these events should not be counted as one continuous jail stay."
+      },
+      "rationale": "March 1968 Inner City Voice p11 individually identifies June 21 arrest and bail, August extradition and continued Queens custody. Add initial custody start but no endpoint across bail gap.",
+      "sources": [
+        "https://www.marxists.org/history/erol/periodicals/ic-voice/ic-voice-1-6a.pdf",
+        "https://www.crmvet.org/docs/67_sncc_forman_tide.pdf"
+      ]
+    },
+    {
+      "name": "Donnell Thomas",
+      "slug": "donnell-thomas",
+      "prisoner_id": "4db89487-e602-4402-8006-7916354735fe",
+      "case_id": "cd1ea139-8f11-4a15-96c1-8cc25e0acd09",
+      "expected": {
+        "id": "cd1ea139-8f11-4a15-96c1-8cc25e0acd09",
+        "prisoner_id": "4db89487-e602-4402-8006-7916354735fe",
+        "institution_id": "1668cc71-2275-4f2f-bb8f-81b46b64bdde",
+        "charges": "First-degree murder, armed robbery, and conspiracy (the Oct. 3, 1969 hold-up killing of clerk Mason Branch at Crown Liquors, Tucson)",
+        "arrest_date": "1969-11-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Horton Weiss",
+        "judge": null,
+        "sentence": "Death (gas chamber)\n\nVerdict as recorded: Yes \u2014 convicted of first-degree murder",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 23:16:19",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-11-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentence": "Initially sentenced to death after conviction of first-degree murder. On November 7, 1973 the Arizona Supreme Court affirmed the conviction but reduced the death sentence to life imprisonment. Held in pretrial custody following the November 6, 1969 Oakland arrest and subsequently at Pima County Jail. Final release date remains unverified."
+      },
+      "rationale": "Arizona Supreme Court dates November 6, 1969 arrest; Ninth Circuit describes resulting pretrial incarceration. Correct obsolete death sentence to reflect November 7, 1973 reduction to life. Neither appellate decision establishes release.",
+      "sources": [
+        "https://law.justia.com/cases/arizona/supreme-court/1973/2199-0.html",
+        "https://hallapproved.com/us/cases/ca9/1980/380809/"
+      ]
+    }
+  ]
+}
