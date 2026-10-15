@@ -8,3 +8,7 @@ Contemporary Columbus legal report PDF pages 6-8 and LDF November 1964 docket PD
 - https://www.crmvet.org/docs/65_ms_contact.pdf
 
 No actual time-served total is inferred by adding two imposed one-day penalties. Release and final disposition of the underlying fingerprinting charge remain unverified. Later 2011 surrender and 2012 sentencing are distinct and are not joined into continuous custody from 1968.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
