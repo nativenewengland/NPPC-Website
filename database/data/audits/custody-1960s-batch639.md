@@ -9,3 +9,5 @@ Janet McCloud: separate1966jail/hunger strike with EdithMcCloud and DickGregory,
 DickGregory freshcheck showed February1966 and June–July1968episodes already corrected by earlier batches; no repeat changes.
 
 Validation pending.
+
+Validation: isolated preview/apply/replay/conflict tests passed. Live added two cases; replay added zero. Every existing profile and case preserved. Both public pages returned HTTP 200 and displayed the new 1965/1966 cases. Evidence: 639-{fixture,preview,applied,replay}.txt and 639-{before,after,public}.json.

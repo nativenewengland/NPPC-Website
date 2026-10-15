@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 244,
-  "case_records_changed_or_added": 309,
+  "changed_profiles": 245,
+  "case_records_changed_or_added": 311,
   "status_counts": {
-    "not-yet-researched": 1110,
-    "partially-corrected-live": 244,
+    "not-yet-researched": 1109,
+    "partially-corrected-live": 245,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 15,
     "outside-decade-statute-match": 14,
@@ -1961,16 +1961,19 @@
       "name": "Janet McCloud",
       "slug": "janet-mccloud",
       "case_ids": [
-        "27db21be-dd05-43fb-955d-8f5401bdd95b"
+        "27db21be-dd05-43fb-955d-8f5401bdd95b",
+        "4e953f55-0db4-5c63-b5e0-40eadf4255c9"
       ],
       "gap_case_ids": [
-        "27db21be-dd05-43fb-955d-8f5401bdd95b"
+        "27db21be-dd05-43fb-955d-8f5401bdd95b",
+        "4e953f55-0db4-5c63-b5e0-40eadf4255c9"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        638
+        638,
+        639
       ],
-      "note": "Batch638 live: correct obstruction charge and January1969acquittal. Custody length conflict remains(Laura eyewitness hours versus2003obituary6days). Removed disputed6dayoverride, preservedOctober1965month release. Separate1966hunger strike verified but endpoints unresolved."
+      "note": "Batch638 live: correct obstruction charge and January1969acquittal. Custody length conflict remains(Laura eyewitness hours versus2003obituary6days). Removed disputed6dayoverride, preservedOctober1965month release. Separate1966hunger strike verified but endpoints unresolved. Batch 639: added separately documented detention; existing cases preserved. Endpoints remain partial where sources do not establish an exact date."
     },
     {
       "prisoner_id": "d283306b-9e23-459f-afef-97496d7be10a",
@@ -5304,14 +5307,18 @@
       "name": "Al Bridges",
       "slug": "al-bridges",
       "case_ids": [
-        "751f5bc4-c1d9-40fb-a28a-c96f46391b4b"
+        "751f5bc4-c1d9-40fb-a28a-c96f46391b4b",
+        "7a94ccbb-f8dc-5379-980d-eb68c648bd6b"
       ],
       "gap_case_ids": [
-        "751f5bc4-c1d9-40fb-a28a-c96f46391b4b"
+        "751f5bc4-c1d9-40fb-a28a-c96f46391b4b",
+        "7a94ccbb-f8dc-5379-980d-eb68c648bd6b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        639
+      ],
+      "note": "Broad decade match; confirm actual case scope before editing. Batch 639: added separately documented detention; existing cases preserved. Endpoints remain partial where sources do not establish an exact date."
     },
     {
       "prisoner_id": "b750e14a-3a66-4bc6-aa8d-3ec3c9e1693a",
