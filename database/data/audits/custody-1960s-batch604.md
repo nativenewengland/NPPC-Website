@@ -12,4 +12,4 @@ James Forman: This umbrella record describes multiple short sentences, not unint
 
 https://blackfreedom.proquest.com/wp-content/uploads/2020/09/albany8.pdf
 
-Deployment pending.
+Applied live. Isolated fixture, conflict guard, preservation of all unrelated fields, zero-change replay and public HTTP 200 verified. Public Shuttlesworth release label is April 13, 1963; May 25, 1961 arrest appears. Forman unsupported 1308-day counter no longer appears; his exact total remains unresolved.

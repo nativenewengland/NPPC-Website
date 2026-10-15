@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 178,
-  "case_records_changed_or_added": 231,
+  "changed_profiles": 180,
+  "case_records_changed_or_added": 234,
   "status_counts": {
-    "not-yet-researched": 1174,
-    "partially-corrected-live": 178,
-    "research-incomplete": 6,
+    "not-yet-researched": 1173,
+    "partially-corrected-live": 180,
+    "research-incomplete": 5,
     "reviewed-selected-case-no-change": 11,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
@@ -817,9 +817,11 @@
       "gap_case_ids": [
         "48ec2996-0493-43b7-abfa-cead90476fad"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Priority: suspected false continuous 1961-1965 interval. Monroe August 27 chronology found; exact bail/release still requires research. No change yet."
+      "status": "partially-corrected-live",
+      "batches": [
+        604
+      ],
+      "note": "This umbrella record describes multiple short sentences, not uninterrupted 1961-1965 custody. FBI Albany report PDF pages 18 and 22-24 documents Forman freely leading demonstrations on August 1, 1962 before a new arrest, disproving the continuous interval. Clear unsupported continuous endpoints and derived 1308-day total. Preserve existing arrest field pending separate verification, all narrative fields and separate December 1961 case; exact total remains unknown."
     },
     {
       "prisoner_id": "b82850ed-4f8e-4947-aca4-807becf33511",
@@ -3047,9 +3049,11 @@
         "f36775f2-f825-428a-8e9e-514f7d2d7481",
         "427297f0-7cc5-41d9-836e-f880bc42715c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        604
+      ],
+      "note": "Deborah A. Roy, Journal of Supreme Court History 38(3), printed page 418 (PDF 140), explicitly dates bond release April 13, 1963; footnote 56 cites Diane McWhorter, Carry Me Home, page 347. Original page visually checked. Ninety-day sentence is not ninety days actually served. Preserve sentence and biography. Stanford King Papers editorial footnote 3 identifies Shuttlesworth among the May 25, 1961 Montgomery arrests. Fill missing arrest and charge; preserve custody start and unresolved release."
     },
     {
       "prisoner_id": "df45f34e-d6ec-43ce-a293-824c7c532c5c",
