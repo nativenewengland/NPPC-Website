@@ -5,4 +5,4 @@ King diary identifies Anderson among those arrested July 27, 1962; FBI report PD
 https://kinginstitute.stanford.edu/publications/autobiography-martin-luther-king-jr/chapter-16-albany-movement
 https://blackfreedom.proquest.com/wp-content/uploads/2020/09/albany8.pdf
 
-FBI original scan PDF page15 (printed page3, microfilm0030) explicitly names Anderson. Existing December case and biography preserved. Deployment pending.
+FBI original scan PDF page15 (printed page3, microfilm0030) explicitly names Anderson. Existing December case and biography preserved. Applied live; all original profile and case fields preserved; zero-change replay verified; public HTTP 200 and aggregate 3 Days confirmed.
