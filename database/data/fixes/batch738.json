@@ -1,0 +1,47 @@
+{
+  "batch": 738,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Mabel Williams",
+      "slug": "mabel-williams",
+      "prisoner_id": "4ddfe80b-5e19-4de1-8987-d7ac0bafb4ed",
+      "case_id": "c4103d25-72fd-46ff-8932-d70ee6e15c19",
+      "expected": {
+        "id": "c4103d25-72fd-46ff-8932-d70ee6e15c19",
+        "prisoner_id": "4ddfe80b-5e19-4de1-8987-d7ac0bafb4ed",
+        "institution_id": null,
+        "charges": "Political exile following the 1961 Monroe, North Carolina conflict; no charge against Mabel Williams established",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1961-08-27 00:00:00",
+        "end_of_exile": "1969-09-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No arrest or confinement established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-09-26 19:59:03",
+        "date_precision": "{\"end_of_exile\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "1969-08-01 00:00:00"
+      },
+      "rationale": "Correct return month from September to August 1969. September 12 contemporary report says Mabel returned a month earlier; appellate account independently places her arrival four weeks before early September. Exact day is unknown and month precision remains unchanged. No incarceration is asserted.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CHRG-91shrg45159p1/pdf/CHRG-91shrg45159p1.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/509/942/222824/"
+      ]
+    }
+  ]
+}
