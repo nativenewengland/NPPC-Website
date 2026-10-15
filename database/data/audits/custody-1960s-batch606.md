@@ -12,7 +12,7 @@ Charles Billups: National Guardian April18,1960 page8 dates the first Shuttleswo
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1960-04-18-12-27-nat-guardian.pdf
 
-Richard Frank Parker: SNCC Student Voice November1960 page2 reports Parker jailed August28 for Jacksonville sit-ins and released October27. Existing incarceration/release dates agree; fill missing arrest only.
+Richard Frank Parker: SNCC Student Voice November1960 page4 reports Parker jailed August28 for Jacksonville sit-ins and released October27. Original scan visually confirms August28 (OCR incorrectly reads26). Existing incarceration/release dates agree; fill missing arrest only.
 
 https://www.crmvet.org/docs/sv/sv6011.pdf
 
