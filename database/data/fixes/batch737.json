@@ -1,0 +1,50 @@
+{
+  "batch": 737,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Edward Sanders",
+      "slug": "edward-sanders",
+      "prisoner_id": "43ce9818-6adc-44bd-b8ef-5469fa4d14a4",
+      "case_id": "62f935b6-b82b-4ea3-958b-14010fbadfee",
+      "expected": {
+        "id": "62f935b6-b82b-4ea3-958b-14010fbadfee",
+        "prisoner_id": "43ce9818-6adc-44bd-b8ef-5469fa4d14a4",
+        "institution_id": null,
+        "charges": "Interfering with a naval vessel — antinuclear Polaris-submarine protest",
+        "arrest_date": "1961-08-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Seventy-seven days for breach of peace and resisting arrest, from the August 1961 Ethan Allen commissioning protest. The number of days he actually served is unconfirmed, so no custody span is entered.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-31 19:14:49",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-08-08 00:00:00",
+        "incarceration_date": "1961-08-08 00:00:00",
+        "release_date": "1961-08-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Seventy-seven days for breach of peace and resisting arrest, from the August 1961 Ethan Allen commissioning protest. The Ed Sanders archive catalog documents actual imprisonment at Montville State Jail in Uncasville, Connecticut, August 8–24, 1961; the imposed sentence is not treated as time served."
+      },
+      "rationale": "Granary Books Ed Sanders archive catalog, PDF page 77, explicitly documents arrest and imprisonment August 8–24, 1961. Refine August arrest to August 8 and add exact custody endpoints; retain imposed sentence separately from actual custody.",
+      "sources": [
+        "https://www.granarybooks.com/images/upload/edsandersarchive.pdf"
+      ]
+    }
+  ]
+}
