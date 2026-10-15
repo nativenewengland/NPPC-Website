@@ -1,0 +1,95 @@
+{
+  "batch": 553,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "d1a11a76-5fa0-4593-a441-ca13573b2859",
+      "name": "Afeni Shakur",
+      "slug": "afeni-shakur",
+      "case_id": "811af5ef-5ea8-435d-8a5d-e957b3ef7c14",
+      "expected": {
+        "id": "811af5ef-5ea8-435d-8a5d-e957b3ef7c14",
+        "prisoner_id": "d1a11a76-5fa0-4593-a441-ca13573b2859",
+        "institution_id": "eba4984e-64e0-4aa2-9e63-291861e3920b",
+        "charges": "Conspiracy to bomb New York City police stations, a railroad station, and Manhattan department stores (Panther 21 prosecution)",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held without bail approximately 11 months at the Womens House of Detention; bonded out February 1971; acquitted with the entire Panther 21 by New York jury on May 13, 1971 after deliberation of less than 45 minutes\n\nVerdict as recorded: No — acquitted on all 156 counts",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1970-01-30 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Initial Panther 21 pretrial detention ended with release on bail January 30, 1970. Later remand beginning February 8, 1971 was a separate custody period. Acquitted May 13, 1971."
+      },
+      "sources": [
+        "https://time.com/6282004/afeni-shakur-black-women-liberation-legacy/",
+        "https://www.aaihs.org/in-afenis-shadow-the-impact-of-trauma-on-a-revolutionary-life/",
+        "https://law.counselstack.com/opinion/people-ex-rel-bird-v-behagen-nysupct-1971"
+      ],
+      "rationale": "Remove false continuous detention through May 1971; January 30 bail supported by two histories. Court dates later remand February 8, not February 3 in some secondary sources. Separate remand case follows."
+    },
+    {
+      "prisoner_id": "68064a66-8bdb-4ec1-82fa-ce86d873cbc9",
+      "name": "Curtis Powell",
+      "slug": "curtis-powell",
+      "case_id": "31943a5e-a32c-42a2-b874-780aae894cc1",
+      "expected": {
+        "id": "31943a5e-a32c-42a2-b874-780aae894cc1",
+        "prisoner_id": "68064a66-8bdb-4ec1-82fa-ce86d873cbc9",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state conspiracy (156 counts) - Panther 21 indictment of April 2, 1969.",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention; acquitted by jury verdict, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971\n\nCharges as recorded: New York state conspiracy (156 counts) - Panther 21 indictment of April 2, 1969 for alleged plot to bomb NYPD precincts, the Bronx Botanical Garden, midtown department stores, and a railroad right-of-way.",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1971-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://archives.nypl.org/scm/22377"
+      ],
+      "rationale": "NYPL personal papers finding aid dates arrest April 2 and continued detention until May 1971 acquittal. May 12 endpoint predates May 13 verdict; use verified release month pending direct exact-day discharge evidence."
+    }
+  ]
+}
