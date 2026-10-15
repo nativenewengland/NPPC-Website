@@ -1,0 +1,48 @@
+{
+  "batch": 754,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Edward Bromberg",
+      "slug": "edward-bromberg",
+      "prisoner_id": "2209e2ed-d9fc-4b07-85eb-bb0d629093c5",
+      "case_id": "998ed602-9d0c-4857-9df7-b98d41b6851f",
+      "expected": {
+        "id": "998ed602-9d0c-4857-9df7-b98d41b6851f",
+        "prisoner_id": "2209e2ed-d9fc-4b07-85eb-bb0d629093c5",
+        "institution_id": null,
+        "charges": "Freedom Ride participation \u2014 Jackson, June 9, 1961.",
+        "arrest_date": "1961-06-09 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted; judgment reversed by the U.S. Supreme Court on April 26, 1965 (Thomas v. Mississippi, 380 U.S. 524).",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Municipal court imposed a suspended 60-day sentence and a $200 fine; the county-court retrial imposed four months and a $200 fine. These are sentences, not verified time served. The U.S. Supreme Court reversed the conviction on April 26, 1965. Individual custody endpoints remain separately documented or unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-10-15 16:42:12",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "The joint appeal printed page 23 individually dates Bromberg arrest to June 9, 1961 at 5:30 a.m.; page 9 confirms petitioners were arrested and jailed. This matches the archival booking photograph date. Printed page 7 groups him with June 20 arrests, but the individualized account and independent archival record resolve the initial date as June 9. Original printed page 23 scan inspected. Release remains unknown; existing reversal and sentencing details preserved.",
+      "sources": [
+        "https://www.crmvet.org/docs/640000_fr_appeal-r.pdf",
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-3-103-1-1-1"
+      ]
+    }
+  ]
+}

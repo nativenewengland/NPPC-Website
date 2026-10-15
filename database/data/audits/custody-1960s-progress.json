@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 484,
-  "case_records_changed_or_added": 607,
+  "changed_profiles": 486,
+  "case_records_changed_or_added": 609,
   "status_counts": {
-    "partially-corrected-live": 484,
+    "partially-corrected-live": 486,
     "reviewed-selected-case-no-change": 34,
     "research-incomplete": 40,
     "researched-unresolved": 76,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 776
+    "not-yet-researched": 774
   },
   "decade_complete": false,
   "rows": [
@@ -9301,9 +9301,11 @@
       "gap_case_ids": [
         "887dd1fe-f6cb-4f40-81c7-72b24f290b5b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        753
+      ],
+      "note": "The archival arrest record supplies May 28; fellow prisoner Mary Jean Smith identifies Simpson in her jail diary, and interview reporting confirms imprisonment following that arrest. Records initial Jackson custody, not a Parchman admission date. No exact release inferred."
     },
     {
       "prisoner_id": "022cd5db-633c-4171-ad90-92985cf693aa",
@@ -9331,9 +9333,11 @@
       "gap_case_ids": [
         "fef2ee51-7629-46ef-a3e8-ebac002a2814"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        753
+      ],
+      "note": "Big Spring Daily Herald, June 8, 1961, page 1, AP report names Gwendolyn Jenkins among the three St. Louis airport riders arrested Wednesday and reports the nine new riders held in Jackson jails Thursday. Original scan inspected. This corroborates immediate June 7 custody; release remains unknown."
     },
     {
       "prisoner_id": "a8541bf6-3681-438d-b324-74d49ce565e8",

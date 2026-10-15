@@ -16,3 +16,7 @@ Big Spring Daily Herald, June 8, 1961, page 1, AP report names Gwendolyn Jenkins
 - https://americanarchive.org/catalog/cpb-aacip-15-9c6rx9488w
 
 No biographies changed. No shared sentence, release date, or duration assigned from another rider. Charles Robert Jenkins is a different person and was excluded.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
