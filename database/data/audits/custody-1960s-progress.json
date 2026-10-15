@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 248,
-  "case_records_changed_or_added": 319,
+  "changed_profiles": 249,
+  "case_records_changed_or_added": 320,
   "status_counts": {
-    "not-yet-researched": 1105,
-    "partially-corrected-live": 248,
+    "partially-corrected-live": 249,
     "reviewed-selected-case-no-change": 16,
+    "not-yet-researched": 1104,
     "research-incomplete": 5,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
@@ -25,9 +25,11 @@
       "gap_case_ids": [
         "71275a35-b71c-4e80-96d6-303e6513219e"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        643
+      ],
+      "note": "Corrected false draft-evasion/MCC Chicago attribution: existing22months describe Cuban immigration detention from June17,1969; exact release unresolved. Exile dates now documented. Separate1968U.S.detention follows in644."
     },
     {
       "prisoner_id": "5fb150e8-e0ba-4baf-957a-8ef31d8496ab",

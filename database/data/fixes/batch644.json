@@ -1,0 +1,122 @@
+{
+  "batch": 644,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "1dab2bbb-aa3a-4d80-a8cb-69eefd35bb42",
+      "name": "William Lee Brent",
+      "slug": "william-lee-brent",
+      "case_id": "a1a7df34-ce79-5586-8358-a6602d5d54eb",
+      "expected_cases": [
+        {
+          "id": "71275a35-b71c-4e80-96d6-303e6513219e",
+          "prisoner_id": "1dab2bbb-aa3a-4d80-a8cb-69eefd35bb42",
+          "institution_id": null,
+          "charges": "Cuban immigration detention following the June 17, 1969 aircraft hijacking",
+          "arrest_date": "1969-06-17 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1969-06-17 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": "1969-06-17 00:00:00",
+          "end_of_exile": "2006-11-04 00:00:00",
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Detained in Cuba after arrival on June 17, 1969; the reported 22 months refers to Cuban immigration custody, not imprisonment at MCC Chicago or a draft-evasion sentence. Exact release date remains unresolved. He remained in Cuba until his death on November 4, 2006. His earlier San Francisco detention is a separate episode. The existing 22-month duration is preserved without manufacturing a release day.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": 13654,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-15 06:13:18",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"in_exile_since\":\"day\",\"end_of_exile\":\"day\"}",
+          "imprisoned_for_months": 22,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "a1a7df34-ce79-5586-8358-a6602d5d54eb",
+        "prisoner_id": "1dab2bbb-aa3a-4d80-a8cb-69eefd35bb42",
+        "institution_id": null,
+        "arrest_date": "1968-11-19 00:00:00",
+        "incarceration_date": "1968-11-19 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Detention as a suspect following the November 19, 1968 San Francisco shootout; precise filed charges unresolved",
+        "convicted": null,
+        "sentence": "The Chronicle archive identifies him among suspects photographed awaiting city-jail booking on November 19, 1968. The photograph appeared November 20; publication date is not substituted for arrest. The exact release and case disposition remain unresolved. Later sources establish bail before June 17, 1969, but not its date. This U.S. detention is separate from his Cuban custody.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Archival booking photograph supplies identity and detention date. Do not infer guilt, release or a duration.",
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/evidence-links-one-defendant-to-1971-killing-of-2621762.php",
+        "https://www.jstor.org/stable/10.7312/zoll19546"
+      ]
+    },
+    {
+      "prisoner_id": "dc9d8564-bd7e-4d21-8fbd-48079b931f7c",
+      "name": "Richard Brown",
+      "slug": "richard-brown",
+      "case_id": "7a736d22-8b57-5a08-87d4-692a40b5b4dd",
+      "expected_cases": [
+        {
+          "id": "8b9b9705-bd01-41d0-b32e-d3d464fdac88",
+          "prisoner_id": "dc9d8564-bd7e-4d21-8fbd-48079b931f7c",
+          "institution_id": "d47a3c48-15fd-4125-887c-74051246134c",
+          "charges": null,
+          "arrest_date": "2007-01-23 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "2007-01-23 00:00:00",
+          "release_date": "2007-08-30 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested and jailed January 23, 2007 in the San Francisco 8 prosecution. Released on bail 2007-08-30, as reported by Kiilu Nyasha in September 2007. This interval records the 2007 pretrial detention only.",
+          "imprisoned_for_days": 219,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:14",
+          "updated_at": "2026-09-18 23:57:04",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "7a736d22-8b57-5a08-87d4-692a40b5b4dd",
+        "prisoner_id": "dc9d8564-bd7e-4d21-8fbd-48079b931f7c",
+        "institution_id": null,
+        "arrest_date": "1968-11-19 00:00:00",
+        "incarceration_date": "1968-11-19 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Detention as a suspect following the November 19, 1968 San Francisco shootout; precise filed charges unresolved",
+        "convicted": null,
+        "sentence": "The Chronicle archive identifies him among suspects photographed awaiting city-jail booking on November 19, 1968. The photograph appeared November 20; publication date is not substituted for arrest. The exact release and case disposition remain unresolved.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Archival booking photograph supplies identity and detention date. Do not infer guilt, release or a duration.",
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/evidence-links-one-defendant-to-1971-killing-of-2621762.php",
+        "https://www.jstor.org/stable/10.7312/zoll19546"
+      ]
+    }
+  ]
+}
