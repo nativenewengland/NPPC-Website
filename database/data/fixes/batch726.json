@@ -1,0 +1,51 @@
+{
+  "batch": 726,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Peter Ackerberg",
+      "slug": "peter-ackerberg",
+      "prisoner_id": "a9c00c0d-09d4-42f7-9749-656ccada798c",
+      "case_id": "3a3b6bb2-2929-4de6-a5de-ae9518b099f7",
+      "expected": {
+        "id": "3a3b6bb2-2929-4de6-a5de-ae9518b099f7",
+        "prisoner_id": "a9c00c0d-09d4-42f7-9749-656ccada798c",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — Jackson, May 24, 1961.",
+        "arrest_date": "1961-05-24 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted; judgment reversed by the U.S. Supreme Court on April 26, 1965 (Thomas v. Mississippi, 380 U.S. 524).",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Municipal court imposed a suspended 60-day sentence and a $200 fine; the county-court retrial imposed four months and a $200 fine. These are sentences, not verified time served. The U.S. Supreme Court reversed the conviction on April 26, 1965. Individual custody endpoints remain separately documented or unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:52",
+        "updated_at": "2026-10-15 16:42:12",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-05-24 00:00:00",
+        "release_date": "1961-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "documented_imprisoned_for_days": 5,
+        "sentence": "Municipal court imposed a suspended 60-day sentence and a $200 fine; the county-court retrial imposed four months and a $200 fine. These are sentences, not verified time served. The U.S. Supreme Court reversed the conviction on April 26, 1965. Individual custody endpoints remain separately documented or unresolved. Interview reporting establishes five days served, followed by bail."
+      },
+      "rationale": "Add documented custody duration; leave the exact discharge day unknown. The month placeholder is not a literal release day. Preserve biography and the verified court disposition.",
+      "sources": [
+        "https://www.startribune.com/minnesota-freedom-rider-has-remained-true-to-the-cause/121608034",
+        "https://www.crmvet.org/docs/640000_fr_appeal-r.pdf"
+      ]
+    }
+  ]
+}
