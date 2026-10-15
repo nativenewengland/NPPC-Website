@@ -25,3 +25,7 @@ Original Hinds County Court disposition roster reproduced in the Freedom Riders 
 {"convicted": "Convicted September 15, 1961; directed verdict for the defendant on April 9, 1962.", "sentence": "Four months in jail and a $200 fine, imposed by the Jackson Municipal Court on September 15, 1961. A directed verdict for the defendant was entered on April 9, 1962; the episode later reached the Supreme Court as Pierson v. Ray. Released on appeal bond September 19, 1961.", "charges": "Episcopal-clergy Freedom Ride \u2014 challenged segregated facilities at the Trailways terminal, jailed September 13, 1961; convicted September 15, fined $200, four months; directed verdict for the defendant April 9, 1962."}
 
 Source: https://www.crmvet.org/docs/640000_fr_appeal-r.pdf appendix printed page 11. No court outcome is treated as a custody endpoint.
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
