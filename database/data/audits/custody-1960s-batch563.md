@@ -7,4 +7,4 @@ https://exhibits.episcopalarchives.org/files/original/e42af02a955b29ffc80a5be592
 https://paw.princeton.edu/article/lives-james-walker-evans-52
 https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1961-09-16.pdf
 
-Deployment pending.
+Applied live: 2 case records. Isolated preview/apply/replay/conflict fixture passed. Zero-change live replay and preservation of all profiles and unrelated cases verified. All selected public pages returned HTTP200 with expected counters (batch562: ten 6-day and two 16-day; batch563: two 6-day).
