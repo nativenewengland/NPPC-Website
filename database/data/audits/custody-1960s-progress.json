@@ -7,12 +7,12 @@
   "case_records_changed_or_added": 577,
   "status_counts": {
     "partially-corrected-live": 468,
-    "reviewed-selected-case-no-change": 30,
-    "research-incomplete": 38,
-    "researched-unresolved": 68,
+    "reviewed-selected-case-no-change": 31,
+    "research-incomplete": 39,
+    "researched-unresolved": 71,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 806
+    "not-yet-researched": 801
   },
   "decade_complete": false,
   "rows": [
@@ -3031,9 +3031,13 @@
       "gap_case_ids": [
         "16185743-cd23-4408-b833-34c40d9720b6"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "National Guardian August 23, 1954 prints her jail letter; December 13 reports she and Joseph already released on $5000 bail. Release is bounded within 1954 but month/day unresolved. No January 1 placeholder inserted before exact August 2 admission. Later appellate reversal is not physical release.",
+      "research_sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-23-6-44-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-12-13-7-8-nat-guardian.pdf"
+      ]
     },
     {
       "prisoner_id": "81105744-3183-41bd-b22a-8d78b35ccc8b",
@@ -3123,9 +3127,12 @@
       "gap_case_ids": [
         "42c2f7c0-0af9-4667-b501-520f4782cfa2"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "December 7, 1959 Guardian letter confirms one year in prison completed January 21, 1960, corroborating existing January 21, 1959 admission. Follow-up searches did not establish release. Five-year sentence not converted to release. Namesake inventor excluded. Prior batch477 research retained.",
+      "research_sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1959-12-07-12-8-nat-guardian.pdf"
+      ]
     },
     {
       "prisoner_id": "4bf7e3f3-9f87-4209-80c3-b4f08818092c",
@@ -3498,9 +3505,14 @@
       "gap_case_ids": [
         "4a936f95-7ecf-4b59-825b-27e610b423fd"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "1956 appellate opinion establishes original September 16, 1955 sentencing, but January 28, 1958 decision reverses and orders retrial; 1959 appeal concerns later conviction. Original sentencing is not assigned to later imprisonment. Guardian December 1961 gives Terre Haute mailing address without admission/release. Exact custody endpoints remain unverified.",
+      "research_sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/237/645/120232/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/251/951/296961/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-12-11-14-9-nat-guardian.pdf"
+      ]
     },
     {
       "prisoner_id": "3b656f63-4de0-4f06-95bb-d76eaf790372",
@@ -4041,9 +4053,12 @@
       "gap_case_ids": [
         "696bb57f-cefe-434c-90c6-811a22b9b1f4"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "February 26, 1961 Eugene Register-Guard report corroborates refused bail and actual Danbury pretrial custody; existing November 22, 1960 admission and June 19, 1961 sentence already recorded. Further name/CNVA/Ashland searches did not establish individual release. Do not use Youth Corrections Act maximum as actual duration.",
+      "research_sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042472/1961-02-26/ed-1/seq-16/"
+      ]
     },
     {
       "prisoner_id": "cb5e4b95-1cc3-4ad6-85b4-b025e5f89845",
@@ -5836,9 +5851,13 @@
       "gap_case_ids": [
         "b3ba55d6-2ba2-4751-bfa1-f07a828f1c66"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Live August 12–November 9, 1963 dates independently corroborated by Friends Journal October 1 and AP November 9 report reprinted from November 10 NYT. 90-day reported term versus 89 elapsed days reflects counting convention, not a missing day. Do not replace correct endpoints.",
+      "research_sources": [
+        "https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1963/HC12-50319.pdf",
+        "https://sniggle.net/TPL/index5.php?entry=09Nov10"
+      ]
     },
     {
       "prisoner_id": "e3eeb086-c03e-4318-a2d2-25db16e85e17",
