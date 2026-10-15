@@ -1,0 +1,64 @@
+{
+  "batch": 560,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "026c514c-9c82-4bbf-afb8-7b2a60ea43d5",
+      "name": "Marvin Allen Davidov",
+      "slug": "marvin-allen-davidov",
+      "case_id": "79412bfc-3066-56ec-8a7b-903ce58ea00e",
+      "expected_cases": [
+        {
+          "id": "028bb9e8-42b7-4545-9b8b-c13739525bbe",
+          "prisoner_id": "026c514c-9c82-4bbf-afb8-7b2a60ea43d5",
+          "institution_id": null,
+          "charges": "Trespass (Honeywell Project sit-ins at Honeywell HQ, Minneapolis, 1968–2002)",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "Misdemeanor trespass",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Individual custodial sentences and endpoints for the Honeywell campaign remain unresolved. The former October 23, 1983 arrest/admission dates were unsupported: the contemporary court opinion dates the mass action October 24 but does not individually establish Davidov's arrest or prison admission. The December 12, 1986 Nuclear Resister reports a separate recent trespass conviction and one day of community service, not one day in prison. Group acquittals, group jail totals, and community-service orders must not be counted as Davidov's custody.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-10-12 19:17:32",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "79412bfc-3066-56ec-8a7b-903ce58ea00e",
+        "prisoner_id": "026c514c-9c82-4bbf-afb8-7b2a60ea43d5",
+        "institution_id": null,
+        "charges": "Breach of the peace - June 11, 1961 Freedom Ride at the Jackson bus terminal",
+        "arrest_date": "1961-06-11 00:00:00",
+        "incarceration_date": "1961-06-11 00:00:00",
+        "sentenced_date": "1961-06-12 00:00:00",
+        "release_date": "1961-07-24 00:00:00",
+        "convicted": "Yes - breach of the peace; conviction appealed",
+        "sentence": "Sentenced to four months in jail following the June 11, 1961 Freedom Ride arrest. Initially jailed in Jackson, then transferred to Parchman. Released July 24, 1961 on appeal bond; the subsequent appeal was not continuous custody.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day",
+          "release_date": "day"
+        }
+      },
+      "expected_days": 43,
+      "sources": [
+        "https://www.mnhs.org/mnopedia/search/index/group/minnesota-freedom-riders"
+      ],
+      "rationale": "MNHS names Davidov among five male Minnesota riders detained June11 and released July24. New independent 1961 episode; preserve unrelated Honeywell case."
+    }
+  ]
+}
