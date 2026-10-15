@@ -1,0 +1,49 @@
+{
+  "batch": 648,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "William Worthy",
+      "slug": "william-worthy",
+      "prisoner_id": "c0db199c-a558-4b25-91d8-e5e1a45d4158",
+      "case_id": "88ebcd92-0dad-4b85-a81e-212dd933192b",
+      "expected": {
+        "id": "88ebcd92-0dad-4b85-a81e-212dd933192b",
+        "prisoner_id": "c0db199c-a558-4b25-91d8-e5e1a45d4158",
+        "institution_id": null,
+        "charges": "Passport Violation",
+        "arrest_date": "1962-04-25 00:00:00",
+        "indicted": "Apr 23rd 1962",
+        "convicted": "Aug 7th 1962",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months imprisonment and nine months probation originally imposed in the passport prosecution; judgment and sentence reversed February 20, 1964, with remand for discharge. No verified physical admission or release date is established. The unsupported November 14, 2013 sentence/admission and FCI Petersburg attribution have been removed; reversal is not encoded as a physical release.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-12 20:53:31",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1962-09-17 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "sentence": "Three months imprisonment and nine months probation originally imposed in the passport prosecution; judgment and sentence reversed February 20, 1964, with remand for discharge. No verified physical admission or release date is established. The unsupported November 14, 2013 sentence/admission and FCI Petersburg attribution have been removed; reversal is not encoded as a physical release. Sentenced September 17, 1962, according to contemporary reporting in The Militant (December 10, 1962, page 8), which also reported him free on an appeal bond. Sentencing is not a verified incarceration start."
+      },
+      "sources": [
+        "https://www.themilitant.com/1962/2645/MIL2645.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/328/386/418522/"
+      ],
+      "rationale": "Missing sentencing day established by contemporary newspaper. Do not turn sentence or reversal into custody endpoints."
+    }
+  ]
+}
