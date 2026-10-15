@@ -29,3 +29,7 @@ February 25, 1966 Minneapolis Star report, reprinted in Rebel Worker 6, establis
 
 - https://theanarchistlibrary.org/library/rebel-worker-group-rebel-worker-6
 - https://www.fifthestate.org/archive/8-may-1966/vietnam-newsletter/
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

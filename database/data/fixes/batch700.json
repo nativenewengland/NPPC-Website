@@ -1,0 +1,51 @@
+{
+  "batch": 700,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Roy Lisker",
+      "slug": "roy-lisker",
+      "prisoner_id": "4d95a33f-1f64-4e17-833e-10733028928a",
+      "case_id": "0ce05664-4307-44b9-91cb-9c8631d003a9",
+      "expected": {
+        "id": "0ce05664-4307-44b9-91cb-9c8631d003a9",
+        "prisoner_id": "4d95a33f-1f64-4e17-833e-10733028928a",
+        "institution_id": null,
+        "charges": "Destruction of a Selective Service registration certificate (the November 6, 1965 Union Square, NYC draft-card burning).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Three of the five (Cornell, Edelman, Lisker) were convicted — United States v. Edelman — and sentenced to six months.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 08:46:00",
+        "updated_at": "2026-07-22 08:46:00",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1972-08-01 00:00:00",
+        "release_date": "1972-12-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "sentence": "Six-month sentence for the 1965 draft-card protest; served in 1972. His first-person account describes four and a half months after good-time reduction, while his photographic autobiography rounds the term to five months. Incarceration dates are recorded at month precision."
+      },
+      "rationale": "Personal photographic autobiography explicitly identifies August-December 1972 federal custody. His first-person Hitch-hiking account independently specifies December 1972 release and four-and-a-half months after good time. Do not convert rounded months to exact days, infer arrest from the November 1965 protest, or treat appellate proceedings as continuous imprisonment.",
+      "sources": [
+        "https://www.fermentmagazine.org/photobiography/pictures",
+        "https://www.fermentmagazine.org/bio/Hitch1973.pdf",
+        "https://www.thenation.com/article/society/letters-434/"
+      ]
+    }
+  ]
+}
