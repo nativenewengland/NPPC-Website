@@ -1,0 +1,92 @@
+{
+  "batch": 739,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Robert Scoggin",
+      "slug": "robert-scoggin",
+      "prisoner_id": "e3eeb086-c03e-4318-a2d2-25db16e85e17",
+      "case_id": "57511faa-5e9b-4be6-9bc7-53a24f3b59cd",
+      "expected": {
+        "id": "57511faa-5e9b-4be6-9bc7-53a24f3b59cd",
+        "prisoner_id": "e3eeb086-c03e-4318-a2d2-25db16e85e17",
+        "institution_id": "8d8d9ece-5cce-4028-b0af-6af4802acba5",
+        "charges": "Contempt of Congress.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year in federal prison, served beginning April 1969 at the federal prison at La Tuna, Texas.\n\nVerdict as recorded: Yes — cited for contempt of Congress in 1966 and convicted; the conviction was upheld on appeal.\n\nCharges as recorded: Contempt of Congress — for refusing to produce the Ku Klux Klan’s membership and financial records subpoenaed by the House Un-American Activities Committee.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 16:11:49",
+        "updated_at": "2026-07-29 17:12:21",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-01-01 00:00:00",
+        "release_date": "1969-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "sentence": "Sentenced to one year in federal prison at La Tuna, Texas. Imprisoned and released in 1969. The admission month and exact release date are unresolved; the imposed one-year sentence is not a verified time-served total.\n\nVerdict as recorded: Yes — cited for contempt of Congress in 1966 and convicted; the conviction was upheld on appeal.\n\nCharges as recorded: Contempt of Congress — for refusing to produce the Ku Klux Klan’s membership and financial records subpoenaed by the House Un-American Activities Committee."
+      },
+      "rationale": "Evelyn Rich, Ku Klux Klan Ideology, 1954–1988 (Boston University dissertation, 1988), printed page 143 explicitly places release at the end of 1969. Pages 143–144 imply conflicting April/March admission months. Store only the common supported year for both endpoints, not January 1 as an actual date. Preserve biography and flag its April claim for separate reconciliation.",
+      "sources": [
+        "https://publiclibrary.cc/digitalcollections/files/original/4/469/burger0464-Rich-Evelyn-Ku-Klux-Klan.pdf"
+      ]
+    },
+    {
+      "name": "Bobby Hutton",
+      "slug": "bobby-hutton",
+      "prisoner_id": "53d71e2a-21ff-4288-b8f4-83b3219f7087",
+      "case_id": "b24b3baa-8c54-44b5-8083-edb70174ca6f",
+      "expected": {
+        "id": "b24b3baa-8c54-44b5-8083-edb70174ca6f",
+        "prisoner_id": "53d71e2a-21ff-4288-b8f4-83b3219f7087",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": "1967-05-02 00:00:00",
+        "indicted": null,
+        "convicted": "Held in juvenile custody after the adult Panthers were bailed out on May 4; free by May 22, 1967 — his confinement lasted at least about two days but fewer than twenty. No record of a later custodial sentence from the Capitol case has been located.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-05-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 06:40:56",
+        "updated_at": "2026-08-04 06:14:57",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1967-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "rationale": "The May 3 Sacramento Bee confirms juvenile detention after May 2 arrest. Bobby Seale recalls juveniles remaining after the adults were bailed. FBI contemporaneous account places Hutton accompanying Panthers freely to Oakland court and being arrested again May 23, 1967 (PDF page 66, internal page 7). Together these bound release from the first detention within May 1967. This is a month-level inference, not an exact May 1 release. Separate later arrest is not treated as continuous custody. Existing wording saying free by May 22 is preserved; the primary report establishes free by May 23.",
+      "sources": [
+        "https://www.njnics.com/assets/docs/library/007-The%20Mulford%20Act%20of%201967.pdf",
+        "https://paperzz.com/doc/8716226/seize-the-time--the-story-of-the-black-panther-party",
+        "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/blackpanther1.pdf"
+      ]
+    }
+  ]
+}
