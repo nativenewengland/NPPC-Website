@@ -8,4 +8,4 @@ https://friendship9.org/our-story/
 https://friendship9.org/day-2/
 https://friendship9.org/day-4/
 
-Deployment pending.
+Applied live and verified. Isolated fixture passed; production updated 1 cases; replay updated zero. Full profile and unrelated case fields preserved. Public pages returned HTTP 200 and displayed supported dates. Evidence: tmp/custody-1960s-audit/565-before.json, 565-after.json, 565-fixture.txt, 565-applied.txt, 565-replay.txt, 565-public.json.

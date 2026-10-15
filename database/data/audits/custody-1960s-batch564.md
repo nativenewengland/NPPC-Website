@@ -8,4 +8,4 @@ https://www.floridamemory.com/items/show/331246?id=1
 https://wfsu.org/local-routes/2024-05-01/exploring-tallahassees-may-history-day-by-day/
 https://www.floridamemory.com/items/show/331224
 
-Deployment pending.
+Applied live and verified. Isolated fixture passed; production updated 5 cases; replay updated zero. Full profile and unrelated case fields preserved. Public pages returned HTTP 200 and displayed supported dates. Evidence: tmp/custody-1960s-audit/564-before.json, 564-after.json, 564-fixture.txt, 564-applied.txt, 564-replay.txt, 564-public.json.

@@ -13,4 +13,4 @@ https://www.ubcpress.ca/freedom-rider-diary
 
 Biographies unchanged. Myers endpoint and Silver exact release remain unresolved; do not claim all three counters fixed.
 
-Deployment pending.
+Applied live and verified. Isolated fixture passed; production updated 3 cases; replay updated zero. Full profile and unrelated case fields preserved. Public pages returned HTTP 200 and displayed supported dates. Evidence: tmp/custody-1960s-audit/566-before.json, 566-after.json, 566-fixture.txt, 566-applied.txt, 566-replay.txt, 566-public.json.
