@@ -1,0 +1,25 @@
+{
+  "batch": 548,
+  "entries": 1,
+  "fixture": "B548-FIXTURE-OK: no-write preview, two updates, partial duration, preservation of partial precision, preservation, replay, conflict guard",
+  "application": "--- correct-1960s-custody-dates\nUpdating: Dick Gregory\nUpdating: Dick Gregory\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 1\nB548-OK\nBatch 548 complete.",
+  "replay": "--- correct-1960s-custody-dates\nAlready applied: Dick Gregory\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB548-OK\nBatch 548 complete.",
+  "public": [
+    {
+      "name": "Dick Gregory",
+      "url": "https://politicalprisonercoalition.org/prisoner/dick-gregory",
+      "http_status": 200,
+      "counters": [
+        "1 Day"
+      ],
+      "date_context": [
+        "Cases Charges: Illegal net fishing Arrested: Feb 16, 1966 Sentenced: Jan 12, 1967 Incarcerated: Feb 16, 1966 Released: Feb 17, 1966 Sentence: Ini",
+        "b 16, 1966 Sentenced: Jan 12, 1967 Incarcerated: Feb 16, 1966 Released: Feb 17, 1966 Sentence: Initial detention for a Nisqually treaty-rights fi",
+        "atch (e) {} }); })(); Dick Gregory Released Date of birth: 12. 10. 1932 Date of death: 19. 08. 2017 Age: 84 † Deceased Gender: Male Race: Black E",
+        "net fishing Arrested: Feb 16, 1966 Sentenced: Jan 12, 1967 Incarcerated: Feb 16, 1966 Released: Feb 17, 1966 Sentence: Initial detention for a Ni"
+      ]
+    }
+  ],
+  "biographies_and_unrelated_fields_preserved": true,
+  "limitation": "Counter counts only initial one elapsed day; later month-precision custody dates are visible but do not contribute an exact duration. Not a complete time-served total."
+}

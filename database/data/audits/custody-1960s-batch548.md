@@ -6,4 +6,4 @@ Sources:
 https://digicoll.lib.berkeley.edu/record/222227/files/meik-13.pdf?ln=en
 https://theanarchistlibrary.org/library/the-seattle-group-the-seattle-group-bulletins
 
-Live validation pending.
+Applied live and verified: preservation, replay and both episodes visible publicly. Counter currently includes only exact initial detention; later partial dates do not supply an exact total.

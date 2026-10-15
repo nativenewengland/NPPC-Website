@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 56,
-  "case_records_changed_or_added": 63,
+  "changed_profiles": 57,
+  "case_records_changed_or_added": 65,
   "status_counts": {
-    "not-yet-researched": 1304,
-    "partially-corrected-live": 56,
+    "not-yet-researched": 1303,
+    "partially-corrected-live": 57,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 2,
     "outside-decade-statute-match": 14,
@@ -356,14 +356,18 @@
       "name": "Dick Gregory",
       "slug": "dick-gregory",
       "case_ids": [
-        "87125247-e7a9-4185-a6af-9cf86ee0913e"
+        "87125247-e7a9-4185-a6af-9cf86ee0913e",
+        "d3889d89-ffd5-5eac-9be4-25dd4b456bed"
       ],
       "gap_case_ids": [
         "87125247-e7a9-4185-a6af-9cf86ee0913e"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        548,
+        549
+      ],
+      "note": "Separated February1966 pretrial detention from June-July1968 sentence service. June admission day disputed; no full time-served total. Other arrests remain to review."
     },
     {
       "prisoner_id": "ad7c8256-6321-4eaa-a16a-8f04841f3480",

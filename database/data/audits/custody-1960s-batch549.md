@@ -8,4 +8,4 @@ https://www.historylink.org/File/5462
 https://pauldorpat.com/wp-content/uploads/2021/07/04-02.pdf#page=20
 https://newspaperarchive.com/press-telegram-jul-05-1968-p-32/
 
-Live validation pending.
+Applied live and verified: preservation, replay and both episodes visible publicly. Counter currently includes only exact initial detention; later partial dates do not supply an exact total.
