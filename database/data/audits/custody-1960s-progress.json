@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 399,
-  "case_records_changed_or_added": 490,
+  "changed_profiles": 403,
+  "case_records_changed_or_added": 495,
   "status_counts": {
-    "partially-corrected-live": 399,
+    "partially-corrected-live": 403,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 900,
+    "not-yet-researched": 896,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -10049,9 +10049,11 @@
       "gap_case_ids": [
         "ecc7a441-6a47-421a-a7a8-7c5d8bb07b71"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        711
+      ],
+      "note": "Named in Silver diary release group, July 15, 1961 (chapter 9)."
     },
     {
       "prisoner_id": "770cfbbd-f2ce-4868-8cbc-47d845b71a76",
@@ -10063,9 +10065,11 @@
       "gap_case_ids": [
         "0fb6c1ce-1e85-4a53-976d-5bf4ec8ae986"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        711
+      ],
+      "note": "First-person account confirms Hinds County and Parchman imprisonment. Release date remains unresolved; the diary reference to Terry lacks a surname."
     },
     {
       "prisoner_id": "4a1bd05e-4244-47a1-a0cf-e21544ea8903",
@@ -11115,9 +11119,11 @@
       "gap_case_ids": [
         "fbd6b8a4-6a54-469e-8176-1f4330970e23"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        711
+      ],
+      "note": "Named in Silver diary release group, July 15, 1961 (chapter 9)."
     },
     {
       "prisoner_id": "0da6c0da-eb82-43d4-8ff8-2be15d490832",
@@ -12181,9 +12187,11 @@
       "gap_case_ids": [
         "8a253216-197e-4086-b74f-7cf8ac849b65"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        711
+      ],
+      "note": "Named in Silver diary release group, July 15, 1961 (chapter 9)."
     },
     {
       "prisoner_id": "9590693c-6216-4461-841f-3622922dd0d9",
@@ -12197,9 +12205,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        566
+        566,
+        711
       ],
-      "note": "Batch 566 applied live; guarded preservation and zero-change replay verified. See batch audit for evidence and unresolved fields."
+      "note": "Prefer dated diary release account (July 15) over archival summary (July 14). Do not infer an endpoint from rounded forty-day descriptions."
     },
     {
       "prisoner_id": "5c385cea-b389-466f-baff-4aef1b7a4f09",

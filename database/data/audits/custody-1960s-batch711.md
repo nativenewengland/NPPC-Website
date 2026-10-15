@@ -32,3 +32,7 @@ Prefer dated diary release account (July 15) over archival summary (July 14). Do
 First-person account confirms Hinds County and Parchman imprisonment. Release date remains unresolved; the diary reference to Terry lacks a surname.
 
 - https://www.crmvet.org/vet/hickersn.htm
+
+## Live verification
+
+Applied 5 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
