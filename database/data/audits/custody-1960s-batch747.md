@@ -5,3 +5,7 @@ CORE field secretary Edward S. Hollander report dated February 26, 1964, page 4,
 - https://www.crmvet.org/docs/640226_core_cantonreport.pdf
 
 Milton Esco is excluded: March 9 report says he was not held during that first arrest, conflicting with February 26 report. His separate February 28 custody warrants a separate case. No biographies changed.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

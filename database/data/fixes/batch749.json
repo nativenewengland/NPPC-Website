@@ -1,0 +1,81 @@
+{
+  "batch": 749,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "George Greene",
+      "slug": "george-greene",
+      "prisoner_id": "d6fca4c3-09eb-4277-b7a5-048b9eb0fcae",
+      "case_id": "a3cde4b6-721d-4bfb-a0fe-262e2ed1f1e3",
+      "expected_cases": [
+        {
+          "id": "579a5789-8ef2-402d-8a90-eace0631dc5a",
+          "prisoner_id": "d6fca4c3-09eb-4277-b7a5-048b9eb0fcae",
+          "institution_id": null,
+          "charges": "Arrest during a Greenwood demonstration; exact statutory charge unverified",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1963-01-01 00:00:00",
+          "release_date": "1963-01-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Six-month hard-labor sentence and $500 fine; the interview-based history reports 67 days actually served before his father obtained release. Custody included county farm and Parchman; exact endpoints unverified.",
+          "imprisoned_for_days": 67,
+          "in_exile_for_days": null,
+          "created_at": "2026-09-11 22:49:48",
+          "updated_at": "2026-09-29 01:16:51",
+          "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 67,
+          "custody_periods": null
+        },
+        {
+          "id": "6edd7e30-d89b-4d2c-8ccb-06da3aa9a004",
+          "prisoner_id": "d6fca4c3-09eb-4277-b7a5-048b9eb0fcae",
+          "institution_id": null,
+          "charges": "Initially held for auto-theft investigation; subsequently charged with speeding",
+          "arrest_date": "1964-02-01 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1964-02-01 00:00:00",
+          "release_date": "1964-01-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Thirty hours detained with MacArthur Cotton during voter-registration work in Natchez in late February 1964. Exact days and disposition unverified.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-09-11 22:49:48",
+          "updated_at": "2026-09-11 22:49:48",
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"year\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "charges": "Traffic allegation: making a U-turn (Jackson, Mississippi)",
+        "arrest_date": "1964-03-25 00:00:00",
+        "incarceration_date": "1964-03-25 00:00:00",
+        "release_date": "1964-03-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "SNCC WATS report dated March 26, 1964 records an overnight arrest in Jackson for making a U-turn, a $22 fine, and release on March 26. This is distinct from his February Natchez detention with MacArthur Cotton and his 1963 Parchman confinement."
+      },
+      "rationale": "March 26, 1964 SNCC WATS report, Jackson paragraph, dates arrest to the preceding night and release to the report day. Original single-page scan inspected. One elapsed calendar day, not a claim of 24 full hours. Existing episodes preserved.",
+      "sources": [
+        "https://www.crmvet.org/docs/wats/640326_sncc_wats3.pdf",
+        "https://www.crmvet.org/docs/wats/watshome.htm"
+      ]
+    }
+  ]
+}

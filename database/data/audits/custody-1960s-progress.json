@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 478,
-  "case_records_changed_or_added": 587,
+  "changed_profiles": 481,
+  "case_records_changed_or_added": 590,
   "status_counts": {
-    "partially-corrected-live": 478,
-    "reviewed-selected-case-no-change": 31,
+    "partially-corrected-live": 481,
+    "reviewed-selected-case-no-change": 33,
     "research-incomplete": 39,
     "researched-unresolved": 75,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 787
+    "not-yet-researched": 782
   },
   "decade_complete": false,
   "rows": [
@@ -4823,7 +4823,8 @@
       "name": "Stew Albert",
       "slug": "stew-albert",
       "case_ids": [
-        "40b30d86-1809-4ccb-9357-1d6866615d1b"
+        "40b30d86-1809-4ccb-9357-1d6866615d1b",
+        "974555bf-969d-4043-a667-4a618d69df82"
       ],
       "gap_case_ids": [
         "40b30d86-1809-4ccb-9357-1d6866615d1b"
@@ -6738,7 +6739,8 @@
       "name": "Ronald Bridgeforth",
       "slug": "ronald-bridgeforth",
       "case_ids": [
-        "37f6ad56-28fc-44c6-9627-c318b7db9151"
+        "37f6ad56-28fc-44c6-9627-c318b7db9151",
+        "f5e795c4-186c-4ef4-b6d2-885cb07b7ade"
       ],
       "gap_case_ids": [
         "37f6ad56-28fc-44c6-9627-c318b7db9151"
@@ -14629,9 +14631,12 @@
       "gap_case_ids": [
         "dc0fa1be-6230-4186-b865-f08e6a181cdb"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "CORE February 26, 1964 report independently reviewed. Existing January 23 arrest/custody, February 3 sentence and February release month are already present. Source says about February 5 (Meyers) or about February 6 (Chinn), not exact release; month precision retained. No new verified precision to add.",
+      "sources": [
+        "https://www.crmvet.org/docs/640226_core_cantonreport.pdf"
+      ]
     },
     {
       "prisoner_id": "ade1ea2e-04ac-480b-904e-8a74d76bf46e",
@@ -14691,9 +14696,12 @@
       "gap_case_ids": [
         "6a29b79f-fea1-479a-b5d9-49e326c99835"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "CORE February 26, 1964 report independently reviewed. Existing January 23 arrest/custody, February 3 sentence and February release month are already present. Source says about February 5 (Meyers) or about February 6 (Chinn), not exact release; month precision retained. No new verified precision to add.",
+      "sources": [
+        "https://www.crmvet.org/docs/640226_core_cantonreport.pdf"
+      ]
     },
     {
       "prisoner_id": "99822026-d6d0-4184-8dfb-4a65bafec163",
@@ -14753,9 +14761,11 @@
       "gap_case_ids": [
         "11fa079f-3767-4761-95b1-62621aeb4ad6"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        747
+      ],
+      "note": "CORE field secretary Edward S. Hollander report dated February 26, 1964, page 4, groups Pete Hewitt and Levi Jackson as released after two days. Original scan and bracketed name alignment inspected. This is reported actual custody, not an imposed sentence. Existing dates and January month-only release are preserved; no exact release date inferred."
     },
     {
       "prisoner_id": "35c501ef-bc59-4672-8451-22b831a17fc5",
@@ -14767,9 +14777,11 @@
       "gap_case_ids": [
         "cfb1d841-d535-423b-91b9-ceb94d37f10c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        748
+      ],
+      "note": "Hollander March 9, 1964 field report, page 1, explicitly dates February 28 arrest and county-jail confinement through March 6 hearing. Original scan inspected. A separate case is necessary because this followed the January leaflet arrest and court restriction. Unconfirmed belief that he was out is not treated as a verified March 6 release."
     },
     {
       "prisoner_id": "92f687e2-6efa-4e9e-965f-302aa0537f8e",
@@ -14781,9 +14793,11 @@
       "gap_case_ids": [
         "cbca52c3-862e-44b7-a64b-610e62a3034a"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        747
+      ],
+      "note": "CORE field secretary Edward S. Hollander report dated February 26, 1964, page 4, groups Pete Hewitt and Levi Jackson as released after two days. Original scan and bracketed name alignment inspected. This is reported actual custody, not an imposed sentence. Existing dates and January month-only release are preserved; no exact release date inferred."
     },
     {
       "prisoner_id": "c3fcdfcd-86f8-4486-b172-bd24cf6fb374",
