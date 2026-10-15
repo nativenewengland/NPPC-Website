@@ -1,0 +1,50 @@
+{
+  "batch": 545,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "a1f5c138-c56c-4630-ad5e-24cc04fff242",
+      "name": "Robert F. Williams",
+      "slug": "robert-f-williams",
+      "case_id": "94d8d703-1f73-4926-9146-3123524614af",
+      "expected": {
+        "id": "94d8d703-1f73-4926-9146-3123524614af",
+        "prisoner_id": "a1f5c138-c56c-4630-ad5e-24cc04fff242",
+        "institution_id": "562d7f0f-895d-4140-a216-62c9f8dd9b25",
+        "charges": "Kidnapping (state) — August 27, 1961 Monroe, NC (defendants long maintained the charge was a political frame-up; case dismissed 1976)",
+        "arrest_date": "1969-09-11 00:00:00",
+        "indicted": "Aug 27th 1961",
+        "convicted": "No — charges dismissed",
+        "plead": "Fugitive",
+        "sentenced_date": null,
+        "incarceration_date": "1969-09-11 00:00:00",
+        "release_date": "1969-12-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No — charges dismissed 1976",
+        "imprisoned_for_days": 111,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-09-12 00:00:00",
+        "incarceration_date": "1969-09-12 00:00:00",
+        "release_date": "1969-09-12 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CHRG-91shrg45159p1/pdf/CHRG-91shrg45159p1.pdf#page=64",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/509/942/222824/"
+      ],
+      "rationale": "Contemporary September13 1969 NYT report reproduced on Senate hearing p62 reports arrival, federal arrest/bail, county custody and recognizance release on September12. Court opinion independently confirms arrival September12 and preceding British custody. Replace false continuous September11-December31 US interval with same-day custody. Zero elapsed days does not mean no arrest. Do not fold British detention into US case."
+    }
+  ]
+}
