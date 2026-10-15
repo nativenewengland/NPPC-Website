@@ -6,3 +6,7 @@ Sources:
 - https://www.billyhansen.com/the-lynchburg-neighborhood/2020/6/10/pattersons-drugstore-sit-in
 - https://images.squarespace-cdn.com/content/v1/5c361611710699a5184bf6c2/1591805424747-81O8XBXC6FYP54ZSU79D/ViewScan_0011_Page_8.jpg
 - https://lynchburgliving.com/remembering-the-patterson-six/
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
