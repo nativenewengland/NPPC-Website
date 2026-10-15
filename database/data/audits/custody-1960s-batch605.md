@@ -12,4 +12,4 @@ UGA WSB newsfilm catalog identifies Forman among December10,1961 riders arrested
 
 https://crdl.usg.edu/record/ugabma_wsbn_wsbn44899
 
-Deployment pending.
+Applied live; preview, isolated fixture, preservation of all unrelated fields, zero-change replay and public date labels verified.

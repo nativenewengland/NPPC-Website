@@ -1,0 +1,173 @@
+{
+  "batch": 606,
+  "expected_count": 4,
+  "entries": [
+    {
+      "prisoner_id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+      "name": "J. S. Phifer",
+      "slug": "j-s-phifer",
+      "case_id": "355cb9a5-15df-4a56-8a0f-434870d3c32d",
+      "expected": {
+        "id": "355cb9a5-15df-4a56-8a0f-434870d3c32d",
+        "prisoner_id": "ab1ea330-b6f8-4711-8f2b-ec79b227ecb8",
+        "institution_id": null,
+        "charges": "Bus-segregation ordinance / conspiracy",
+        "arrest_date": "1958-10-20 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "$100 fine and a 60-day sentence\n\nVerdict as recorded: Convicted with Shuttlesworth\n\nCharges as recorded: Bus-segregation ordinance / conspiracy — the Birmingham bus protest",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 23:08:30",
+        "updated_at": "2026-10-12 13:47:46",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1962-01-25 00:00:00",
+        "release_date": "1962-03-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "King contemporary March31,1962 newspaper tribute explicitly identifies Phifer and Shuttlesworth, January25 surrender and March1 release. Fill actual service dates for existing 1958 bus case; preserve original arrest/sentence. Article counts36days inclusively; website elapsed-date calculation is35days.",
+      "sources": [
+        "https://kinginstitute.stanford.edu/king-papers/documents/people-action-most-abused-man-nation"
+      ]
+    },
+    {
+      "prisoner_id": "f6d764c3-8194-4cea-bb3d-a9b6601510f0",
+      "name": "Fred Shuttlesworth Jr.",
+      "slug": "fred-shuttlesworth-jr",
+      "case_id": "53b5f611-962c-4402-88e6-5495c9befda4",
+      "expected": {
+        "id": "53b5f611-962c-4402-88e6-5495c9befda4",
+        "prisoner_id": "f6d764c3-8194-4cea-bb3d-a9b6601510f0",
+        "institution_id": null,
+        "charges": "'Breach of the peace' / juvenile delinquency — sitting in the front of a segregated bus",
+        "arrest_date": "1960-08-16 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1960-08-16 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Indefinite juvenile probation (on appeal)\n\nVerdict as recorded: Convicted of delinquency (Gadsden, 1960)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1960-08-17 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "National Guardian September12,1960 page8 names all three children arrested August16 and released around noon the following day. Original scan checked. Sisters already have this release date; preserve their correct records.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-09-12-12-48-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "e25677d7-1acd-4c03-adca-40df4c67ac1c",
+      "name": "Charles Billups",
+      "slug": "charles-billups",
+      "case_id": "0a7ad7d1-4294-4fcc-a46e-c71b614c1565",
+      "expected": {
+        "id": "0a7ad7d1-4294-4fcc-a46e-c71b614c1565",
+        "prisoner_id": "e25677d7-1acd-4c03-adca-40df4c67ac1c",
+        "institution_id": null,
+        "charges": "Aiding and abetting sit-downs; vagrancy — Birmingham",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Sentenced April 4, 1960 (appealed)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "180 days in jail and a $100 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-06-17 01:59:50",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-04-02 00:00:00",
+        "incarceration_date": "1960-04-02 00:00:00",
+        "sentenced_date": "1960-04-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "National Guardian April18,1960 page8 dates the first Shuttlesworth arrest March31, next-day bond and meeting April1, then rearrest with Billups next day. Reports another overnight confinement and April4 sentence. Record April2 arrest/custody and April4 sentencing; do not invent an exact release from overnight wording.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-04-18-12-27-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "12b7651b-73b7-4a08-8483-917e49c58ec9",
+      "name": "Richard Frank Parker",
+      "slug": "richard-frank-parker",
+      "case_id": "6fa2bdf8-95b6-4df2-9b8f-e625f5407ae3",
+      "expected": {
+        "id": "6fa2bdf8-95b6-4df2-9b8f-e625f5407ae3",
+        "prisoner_id": "12b7651b-73b7-4a08-8483-917e49c58ec9",
+        "institution_id": null,
+        "charges": "Vagrancy — joining the Jacksonville lunch-counter sit-ins",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1960-08-28 00:00:00",
+        "release_date": "1960-10-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "90-day sentence (served 60 days)",
+        "imprisoned_for_days": 60,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-09-18 05:47:40",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-08-28 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "rationale": "SNCC Student Voice November1960 page2 reports Parker jailed August28 for Jacksonville sit-ins and released October27. Existing incarceration/release dates agree; fill missing arrest only.",
+      "sources": [
+        "https://www.crmvet.org/docs/sv/sv6011.pdf"
+      ]
+    }
+  ]
+}
