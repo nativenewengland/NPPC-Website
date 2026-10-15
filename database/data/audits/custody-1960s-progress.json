@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 359,
-  "case_records_changed_or_added": 447,
+  "changed_profiles": 360,
+  "case_records_changed_or_added": 448,
   "status_counts": {
-    "partially-corrected-live": 359,
+    "partially-corrected-live": 360,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 955,
+    "not-yet-researched": 954,
     "research-incomplete": 13,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -6769,9 +6769,11 @@
         "21cab171-5281-4b7b-ab7b-f578b3a9f9f9",
         "5c6c3b80-0536-4204-9496-3fe872a5d68e"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        693
+      ],
+      "note": "Participant interview establishes May 25 arrest, 1972 parole and two years served. George Anderson, Jesuits in Jail (1995), printed page 1/PDF page 15, explicitly dates Sandstone imprisonment 1970-1972. Year precision retained; no continuous custody inferred from the 1969 arrest."
     },
     {
       "prisoner_id": "7a51ef86-b497-4876-a68e-0cdb39482e89",

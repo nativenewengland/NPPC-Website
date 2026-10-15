@@ -7,3 +7,7 @@ George Anderson, Jesuits in Jail (1995), printed page 1 (PDF page 15), explicitl
 https://www.irishecho.com/2010/10/mulligan-links-faith-with-struggle-for-justice
 https://web.bc.edu/jsdc/jsl/ssj_19950901.pdf
 https://jonahhouse.org/archive/Mulligan%2CJoe.htm
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
