@@ -1,0 +1,52 @@
+{
+  "batch": 724,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Hezekiah Watkins",
+      "slug": "hezekiah-watkins",
+      "prisoner_id": "bc199d38-9a6f-4cbb-840b-f34664f93767",
+      "case_id": "dae3f8bc-b339-4a3b-bbce-379001d48870",
+      "expected": {
+        "id": "dae3f8bc-b339-4a3b-bbce-379001d48870",
+        "prisoner_id": "bc199d38-9a6f-4cbb-840b-f34664f93767",
+        "institution_id": null,
+        "charges": "Greyhound-terminal sit-in, Jackson — arrested July 7, 1961.",
+        "arrest_date": "1961-07-07 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-07-07. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-08-02 22:50:53",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-07-07 00:00:00",
+        "release_date": "1961-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentence": "Detained as a juvenile and held at Parchman following the July 1961 Jackson arrest. Returned to his mother in July 1961. Accounts disagree about the number of days held; a 2026 interview-based report dates release to July 13, while other accounts report three, five or eleven days. Release is recorded at month precision pending reconciliation with the original juvenile-court or prison record. No exact served total is inferred."
+      },
+      "rationale": "MDAH arrest documentation and the Orlando municipal speaker biography support July 7, 1961 custody. Interviews establish Parchman confinement and release that July. Conflicting duration accounts and the July 6 arrest date in the 2026 report prevent treating its July 13 release as independently reconciled; retain month precision and no exact total.",
+      "sources": [
+        "https://crdl.usg.edu/people/watkins_hezekiah",
+        "https://www.orlando.gov/files/sharedassets/public/departments/exo/human-relations/21_exo_civilrights-program-friday.pdf",
+        "https://www.alreporter.com/2026/05/06/the-freedom-riders-at-65/",
+        "https://www.govinfo.gov/content/pkg/CREC-2019-06-11/pdf/CREC-2019-06-11-pt1-PgE746-4.pdf"
+      ]
+    }
+  ]
+}

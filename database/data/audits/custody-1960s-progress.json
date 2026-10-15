@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 429,
-  "case_records_changed_or_added": 523,
+  "changed_profiles": 432,
+  "case_records_changed_or_added": 526,
   "status_counts": {
-    "partially-corrected-live": 429,
+    "partially-corrected-live": 432,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 850,
+    "not-yet-researched": 848,
     "research-incomplete": 36,
-    "researched-unresolved": 66,
+    "researched-unresolved": 65,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14
   },
@@ -4000,9 +4000,11 @@
       "gap_case_ids": [
         "54673aeb-6683-48f6-92d3-3ad0628967d1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        723
+      ],
+      "note": "Friends Journal, August 22, 1959, reports Swann’s August 10 re-arrest, same-day hearing and commitment on the original six-month sentence. Refine the year-only sentencing field to the day probation was revoked and the prison term activated. Existing incarceration and release fields are unchanged."
     },
     {
       "prisoner_id": "0be07374-94c6-44e8-9e85-42ee106f8aa8",
@@ -4357,9 +4359,11 @@
       "gap_case_ids": [
         "cae4c548-5205-4396-ab2f-9de8ef75a791"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        723
+      ],
+      "note": "Sullivan’s first-person account in The Catholic Worker, November 1961, page 1, dates arrest, trial and sentencing to June 6, 1961 and identifies Newell Weber in his party. Add the missing sentencing date. The account says four-and-a-half months including fine time were served, whereas page 7 summarizes four months; no exact duration or release date is computed from either statement."
     },
     {
       "prisoner_id": "b7712acb-f2da-4831-8897-1b276daa0ada",
@@ -9357,9 +9361,11 @@
       "gap_case_ids": [
         "ffa36b68-9489-460d-85fe-cd473bdfc886"
       ],
-      "status": "researched-unresolved",
-      "batches": [],
-      "note": "CORE-Lator June1961 p1 explicitly confirms Newell Weber jailed and hunger-striking from June6 arrest; current case already has that start. No individual release date established. Do not infer discharge from group bail dates.",
+      "status": "partially-corrected-live",
+      "batches": [
+        723
+      ],
+      "note": "Sullivan’s first-person account in The Catholic Worker, November 1961, page 1, dates arrest, trial and sentencing to June 6, 1961 and identifies Newell Weber in his party. Add the missing sentencing date. The account says four-and-a-half months including fine time were served, whereas page 7 summarizes four months; no exact duration or release date is computed from either statement.",
       "sources": [
         "https://www.crmvet.org/docs/core/core6106.pdf"
       ]

@@ -19,3 +19,7 @@ https://merton.bellarmine.edu/files/original/947bed9ce3ed7a7af25c23b7f75f89edfdd
 Friends Journal, August 22, 1959, reports Swann’s August 10 re-arrest, same-day hearing and commitment on the original six-month sentence. Refine the year-only sentencing field to the day probation was revoked and the prison term activated. Existing incarceration and release fields are unchanged.
 
 https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50202.pdf
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
