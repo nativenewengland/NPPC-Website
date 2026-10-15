@@ -1,0 +1,91 @@
+{
+  "batch": 736,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "James Thornwell",
+      "slug": "james-thornwell",
+      "prisoner_id": "f2c476a0-b529-450f-88fb-629ac1e5ea4c",
+      "case_id": "6d130da7-3b4f-47e9-b03b-bae266f3b7ce",
+      "expected": {
+        "id": "6d130da7-3b4f-47e9-b03b-bae266f3b7ce",
+        "prisoner_id": "f2c476a0-b529-450f-88fb-629ac1e5ea4c",
+        "institution_id": null,
+        "charges": "No formal charges — held in military investigative detention on suspicion of removing classified documents (1961)",
+        "arrest_date": "1961-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No — never charged; honorably discharged",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:00:52",
+        "updated_at": "2026-07-29 17:05:30",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-03-01 00:00:00",
+        "incarceration_date": "1961-03-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Thornwell was arrested and detained in March 1961. Exact release remains unverified; Army discharge is not treated as release.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/politics/1979/08/10/us-supports-17-million-for-victim-of-61-lsd-test/2d710427-7673-4d2d-91ac-67de78c46013/",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1980-pt3/pdf/GPO-CRECB-1980-pt3-9-1.pdf"
+      ]
+    },
+    {
+      "name": "Juan Antonio Corretjer",
+      "slug": "juan-antonio-corretjer",
+      "prisoner_id": "85af8f4f-52d6-40fd-8fbe-e8a75c6d6553",
+      "case_id": "cc12215f-f381-448c-8e94-b1682f6a677c",
+      "expected": {
+        "id": "cc12215f-f381-448c-8e94-b1682f6a677c",
+        "prisoner_id": "85af8f4f-52d6-40fd-8fbe-e8a75c6d6553",
+        "institution_id": null,
+        "charges": "Federal conspiracy charges targeting the Liga Socialista Puertorriqueña, which he co-founded in 1962 with his wife Consuelo Lee Tapia",
+        "arrest_date": "1969-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Charges dismissed in 1971\n\nVerdict as recorded: Charges dismissed in 1971 (no conviction)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-20 02:51:33",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1971-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Memorial newspaper page 5 explicitly dates imprisonment on the 1969 charges to June 1971. Release remains unknown; dismissal is not substituted for release.",
+      "sources": [
+        "https://freedomarchives.org/Documents/Finder/DOC38_scans/38.MLN.JuanAntonioNewspaper.pdf",
+        "https://acemla.com/composers/juan-antonio-corretjer/"
+      ]
+    }
+  ]
+}
