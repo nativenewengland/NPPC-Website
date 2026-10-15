@@ -1,0 +1,48 @@
+{
+  "batch": 719,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Pete O'Neal",
+      "slug": "pete-oneal",
+      "prisoner_id": "367cdb1c-f98b-45de-9f41-9206f58ae326",
+      "case_id": "40d0abe1-1c0e-4b81-ada9-d1c39505d19c",
+      "expected": {
+        "id": "40d0abe1-1c0e-4b81-ada9-d1c39505d19c",
+        "prisoner_id": "367cdb1c-f98b-45de-9f41-9206f58ae326",
+        "institution_id": null,
+        "charges": "Transporting a firearm across state lines (1969)",
+        "arrest_date": "1969-10-30 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1970-11-01 00:00:00",
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four-year sentence (fled to Algeria, then Tanzania, rather than serve it)\n\nVerdict as recorded: Convicted 1970, sentenced to four years; jumped bail while free on appeal and fled into exile",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-10-15 13:16:22",
+        "date_precision": "{\"in_exile_since\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1970-10-26 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"month\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "The federal district court factual background explicitly dates the four-year sentence to October 26, 1970 and confirms release on bail pending appeal. Prefer the court record over a secondary thesis giving October 29. This is a sentencing date, not a custody start or time-served total.",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp2/8/1272/2576630/",
+        "https://files.core.ac.uk/download/158301930.pdf"
+      ]
+    }
+  ]
+}

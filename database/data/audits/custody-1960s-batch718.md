@@ -5,3 +5,7 @@ Paul Magnarella’s account based on O’Neal’s recollections places the fligh
 Source: Black Panther in Exile, chapter 6, pp.103-127, opening passage. Existing arrest, sentence prose, photograph, biography and unrelated fields remain unchanged. Initial detention and bail dates remain unresolved.
 
 https://www.jstor.org/stable/j.ctvxkn630
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

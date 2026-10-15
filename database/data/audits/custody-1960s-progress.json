@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 417,
-  "case_records_changed_or_added": 509,
+  "changed_profiles": 418,
+  "case_records_changed_or_added": 510,
   "status_counts": {
-    "partially-corrected-live": 417,
+    "partially-corrected-live": 418,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 870,
+    "not-yet-researched": 869,
     "research-incomplete": 34,
     "researched-unresolved": 61,
     "outside-decade-custody": 2,
@@ -2819,9 +2819,11 @@
       "gap_case_ids": [
         "40d0abe1-1c0e-4b81-ada9-d1c39505d19c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        718
+      ],
+      "note": "Paul Magnarella’s account based on O’Neal’s recollections places the flight from New York to Sweden in early November 1970, probably November 9. Refine the existing year-only exile start to November, retaining uncertainty about the exact day. No four-year prison term is counted as served."
     },
     {
       "prisoner_id": "0fe1313f-f52e-4c5f-82a0-787dda8461df",
