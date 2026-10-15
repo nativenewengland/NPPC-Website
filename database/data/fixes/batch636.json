@@ -1,0 +1,99 @@
+{
+  "batch": 636,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "e4e9f047-f7b3-4312-80e8-784c1e2a201a",
+      "name": "Stokely Carmichael",
+      "slug": "stokely-carmichael",
+      "case_id": "a39b584a-0e37-4884-a7a9-1f2a868078c6",
+      "expected": {
+        "id": "a39b584a-0e37-4884-a7a9-1f2a868078c6",
+        "prisoner_id": "e4e9f047-f7b3-4312-80e8-784c1e2a201a",
+        "institution_id": "79fa7ac3-bd68-4b54-b959-cf6c8d0f0167",
+        "charges": "Breach of peace (Freedom Rides; refusing to leave segregated facilities)",
+        "arrest_date": "1961-06-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-06-03 00:00:00",
+        "release_date": "1961-07-22 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "49 days at Mississippi State Penitentiary (Parchman); first of more than 30 civil-rights-era arrests\n\nVerdict as recorded: Yes — Mississippi state court, 1961",
+        "imprisoned_for_days": 49,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-06-08 00:00:00",
+        "incarceration_date": "1961-06-08 00:00:00",
+        "release_date": "1961-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "sentence": "Arrested and jailed in Jackson on June 8, 1961 during the Freedom Rides; subsequently held at Parchman. Released in 1961. Published accounts differ between 49 and 53 days in custody. Neither a precise release date nor a reconciled exact time-served total is established by the sources reviewed here. The previous June 3 arrest and July 22 release are not supported by the archival arrest record."
+      },
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-3-83-1-1-1.html",
+        "https://15minutehistory.org/podcast/episode-90-stokely-carmichael-a-life/",
+        "https://www.courttheatre.org/about/blog/historical-background-dramaturgy-and-design-7/",
+        "https://www.usprisonculture.com/2012/06/02/parchman-farm-and-the-quelling-of-black-protest/"
+      ],
+      "rationale": "Archive mugshot metadata and historian Peniel Joseph establish June8 arrest. Conflicting49/53day accounts cannot establish an exact release; preserve release year1961 and remove false exact counter."
+    },
+    {
+      "prisoner_id": "21a19cff-95f8-41b9-a54e-eca7c97c4f10",
+      "name": "Hank Adams",
+      "slug": "hank-adams",
+      "case_id": "e6e61d35-d0d9-479d-9517-10b88ef6a4e2",
+      "expected": {
+        "id": "e6e61d35-d0d9-479d-9517-10b88ef6a4e2",
+        "prisoner_id": "21a19cff-95f8-41b9-a54e-eca7c97c4f10",
+        "institution_id": "2b2d1ca1-344a-4909-8359-bfbe7ae5b2f7",
+        "charges": "Illegal fishing in violation of Washington state regulations (multiple counts) — 1968-1971 treaty-rights fish-ins",
+        "arrest_date": "1969-12-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-12-31 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Multiple short jail terms",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-09-01 00:00:00",
+        "incarceration_date": "1968-09-01 00:00:00",
+        "release_date": "1968-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "charges": "Fishing-rights protest arrest during the September 1968 Nisqually River fish-ins.",
+        "sentence": "Arrested during the first days of the September 1968 fish-in campaign and released on bail by September 13, 1968. The exact arrest and bail-release days, and the eventual disposition of this individual arrest, remain unresolved. He faced other fishing-rights arrests between 1968 and 1971; those are not represented as one continuous term. A separate 30-day sentence beginning in January 1972 is documented in the Washington Secretary of State biography."
+      },
+      "sources": [
+        "https://depts.washington.edu/civilr/fish-ins.shtml",
+        "https://www2.sos.wa.gov/_assets/legacy/who-are-we/hank-adams-pdf.pdf"
+      ],
+      "rationale": "UW cites September9 and13,1968 contemporary Seattle Times reports establishing arrest and bail within September. Replace unsupportedDecember31,1969 chronology with the identified documented episode; do not turn bail-by13 into an exact release.1972term requires separate case."
+    }
+  ]
+}
