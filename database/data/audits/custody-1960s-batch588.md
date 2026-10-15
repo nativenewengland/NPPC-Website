@@ -36,4 +36,4 @@ https://law.counselstack.com/opinion/in-re-cleaver-calctapp-1968
 https://www.fifthestate.org/archive/56-june-19-july-1-1968/underground-incorporated/
 
 Existing arrest dates retained unless affirmatively corrected. Bevel arrest, Cornell arrest/release and Ferguson release need further source work. No bios changed. Trudell and Bevel lose fabricated continuous-duration counters, not their profiles or case records.
-Deployment pending.
+Applied live. Isolated fixture, full preservation, replay and all six public pages verified. Cornell start is superseded by batch589: contemporary spouse report identifies June26 custody, contradicting later August photo caption. George Jackson public template still labels the mirrored endpoint Released despite death_in_custody_date; no UI code changed.

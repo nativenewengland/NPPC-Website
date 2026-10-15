@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 152,
-  "case_records_changed_or_added": 190,
+  "changed_profiles": 158,
+  "case_records_changed_or_added": 196,
   "status_counts": {
-    "not-yet-researched": 1201,
-    "partially-corrected-live": 152,
+    "not-yet-researched": 1195,
+    "partially-corrected-live": 158,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 10,
     "outside-decade-statute-match": 14,
@@ -748,9 +748,11 @@
         "923736ec-a2d2-4480-bce7-acce4d119e1a"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "Court record establishes April 6, 1968 arrest and immediate custody; contemporary June 12 dispatch establishes physical release that afternoon. Preserve exile fields and all biographies."
     },
     {
       "prisoner_id": "33e7c360-9029-43d3-8ed8-c664fd79bdeb",
@@ -760,9 +762,11 @@
         "5ab94914-df7b-4af1-b93f-388e7277e888"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "This record summarizes separate protest-related cases, not continuous imprisonment from 1969 to 1979. His participation in the Alcatraz occupation was political organizing, not imprisonment there. Individual custody dates and time served require case-specific records."
     },
     {
       "prisoner_id": "e4e9f047-f7b3-4312-80e8-784c1e2a201a",
@@ -842,9 +846,11 @@
         "1c651aab-a3d1-4ed9-b8dd-f533244036c6"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "Multiple separate civil-rights cases; no continuous 1963-1968 imprisonment. His documented organizing during those years contradicts that span. The existing March 31, 1963 arrest date remains unverified; individual custody endpoints and durations remain unresolved."
     },
     {
       "prisoner_id": "bfc489bd-63b4-4e07-9c07-1fc4b44ae96b",
@@ -854,9 +860,11 @@
         "ed264992-5568-44d5-8c53-b57d73762ccb"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "Six-month sentence for draft-card burning; sentenced June 26, 1968 and surrendered in August 1968 after appeals. This was not continuous imprisonment beginning in November 1965. Exact release remains unverified. Sources differ on actual time served, so the sentence is not used as an exact duration."
     },
     {
       "prisoner_id": "f73409a3-755b-4461-b6e5-e6c24185ad9a",
@@ -878,9 +886,11 @@
         "ab796de0-da3a-4343-9d72-91dde28452a4"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "Correct death in custody endpoint to August 21, 1971, not a release on August 20. Mirror the death date in release_date as required by the existing model convention; preserve custody onset."
     },
     {
       "prisoner_id": "78790219-bee6-46e4-a228-117a2d4b3e15",
@@ -933,9 +943,11 @@
         "6e6e1507-58c6-4243-9eb7-90274c781c35"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        588
+      ],
+      "note": "Three and one-half to seven years for the 1968 conviction. Released on appeal bond before leaving for Guyana; returned April 6, 1989 and was immediately arrested, beginning sentence service April 7. This custody start covers the later return, not uninterrupted imprisonment from the original 1967 arrest. The pre-existing April 14, 1992 release date is retained but not independently verified by this review."
     },
     {
       "prisoner_id": "ad7c1438-de8f-45ad-8647-d3a1d0fcc0fe",
