@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 310,
-  "case_records_changed_or_added": 390,
+  "changed_profiles": 312,
+  "case_records_changed_or_added": 392,
   "status_counts": {
-    "partially-corrected-live": 310,
-    "reviewed-selected-case-no-change": 23,
-    "not-yet-researched": 1015,
-    "research-incomplete": 8,
-    "researched-unresolved": 55,
+    "partially-corrected-live": 312,
+    "reviewed-selected-case-no-change": 24,
+    "not-yet-researched": 1009,
+    "research-incomplete": 9,
+    "researched-unresolved": 57,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
   },
@@ -2126,9 +2126,11 @@
         "a2010120-e3b8-49f0-ae68-3b142b80bd18",
         "32996707-b0a6-4ea1-b9ca-530cedbf47b1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "reviewed-selected-case-no-change",
+      "batches": [
+        672
+      ],
+      "note": "April1964 WRL letter confirms four weeks Albany custody, already recorded as28days. Exact endpoints and1961release unresolved."
     },
     {
       "prisoner_id": "af5d57ec-e7b3-4a75-9b1e-7bfbc6b31763",
@@ -2540,9 +2542,11 @@
       "gap_case_ids": [
         "68467753-82e0-4c5c-bfd3-3450e64d1cf1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "researched-unresolved",
+      "batches": [
+        672
+      ],
+      "note": "Contemporary commission confirms July1968 prison-hospital detention, already month-recorded; precise fullspan/end unresolved."
     },
     {
       "prisoner_id": "f31899e6-fd2f-4abd-bfd1-b0f1f464ccad",
@@ -2554,9 +2558,11 @@
       "gap_case_ids": [
         "5e3a981a-e9a3-4fe5-8201-3cc3a6171729"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "researched-unresolved",
+      "batches": [
+        672
+      ],
+      "note": "Initial detention already recorded; hospital discharge endpoint unverified."
     },
     {
       "prisoner_id": "1768774a-3371-42f5-8d22-231992d015bf",
@@ -2568,9 +2574,11 @@
       "gap_case_ids": [
         "e7c24826-e085-43c3-8106-c6a4092eac03"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        672
+      ],
+      "note": "Added initial custody July23,1968. Exact release and existing 60-month total require further research."
     },
     {
       "prisoner_id": "e85d0548-a36f-47c7-bb2b-3d8540527aae",
@@ -2582,9 +2590,11 @@
       "gap_case_ids": [
         "143b1271-a05f-4e50-9c25-c041eb5582db"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        672
+      ],
+      "note": "Added initial custody July23,1968. Exact release unresolved."
     },
     {
       "prisoner_id": "288aa752-517d-44da-9d67-24e2d2b0ef4f",
@@ -2918,9 +2928,11 @@
       "gap_case_ids": [
         "3b559b65-9fee-4314-a494-c9cb85656a25"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "research-incomplete",
+      "batches": [
+        672
+      ],
+      "note": "1954 tentative parole differs from1964 release account; do not replace custody endpoint without resolving sequence."
     },
     {
       "prisoner_id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
