@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 250,
-  "case_records_changed_or_added": 322,
+  "changed_profiles": 252,
+  "case_records_changed_or_added": 325,
   "status_counts": {
-    "partially-corrected-live": 250,
+    "partially-corrected-live": 252,
     "reviewed-selected-case-no-change": 16,
-    "not-yet-researched": 1104,
+    "not-yet-researched": 1103,
     "research-incomplete": 5,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
@@ -1417,12 +1417,16 @@
       "name": "Richard Harris",
       "slug": "richard-harris",
       "case_ids": [
-        "3ff63ab0-2b7e-416b-aaf7-7eabd17e2ff5"
+        "3ff63ab0-2b7e-416b-aaf7-7eabd17e2ff5",
+        "75c61182-0c0b-58b3-819c-9d405f49dc56"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        645,
+        646
+      ],
+      "note": "Verified February1969 NJ detention at month precision. No fabricated endpoint. Harris unsupported Panther21 exact interval removed. Later NJ custody transitions remain unresolved."
     },
     {
       "prisoner_id": "8f9bad99-cfd5-4fc7-8d97-f448023ad8ef",
@@ -20367,6 +20371,20 @@
         644
       ],
       "note": "Added verified November 19, 1968 city-jail detention from original archival photo metadata; release and filed-charge details unresolved. Existing cases and profile fields preserved."
+    },
+    {
+      "prisoner_id": "5090d84e-4f64-4379-9319-c2ee7f398b2c",
+      "name": "Kuwasi Balagoon",
+      "slug": "kuwasi-balagoon",
+      "case_ids": [
+        "f651854e-69a8-5f94-a762-b349ea217991"
+      ],
+      "gap_case_ids": [],
+      "status": "partially-corrected-live",
+      "batches": [
+        646
+      ],
+      "note": "Verified February1969 NJ detention at month precision. No fabricated endpoint. Harris unsupported Panther21 exact interval removed. Later NJ custody transitions remain unresolved."
     }
   ],
   "additional_profiles_outside_initial_inventory": 2
