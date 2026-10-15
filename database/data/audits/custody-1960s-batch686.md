@@ -15,3 +15,7 @@ Interview-based account and reproduced contemporary correspondence establish one
 - https://www.crmvet.org/docs/viet/670915_win_news.pdf
 
 The September court ruling is not their jail-release date. August 1 storage value represents only the month, not a day before arrest. All bios preserved.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
