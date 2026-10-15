@@ -1,0 +1,91 @@
+{
+  "batch": 653,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Pete Seeger",
+      "slug": "pete-seeger",
+      "prisoner_id": "440e7e7a-523b-4238-b519-7c725856e6a9",
+      "case_id": "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50",
+      "expected": {
+        "id": "6ea9b5c6-c6f7-4dea-a8ac-91a2e7ef1a50",
+        "prisoner_id": "440e7e7a-523b-4238-b519-7c725856e6a9",
+        "institution_id": null,
+        "charges": "Contempt of Congress",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Cited for contempt 1956; prosecution referred to the Justice Department",
+        "plead": null,
+        "sentenced_date": "1961-04-04 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Faced up to a year and a $1,000 fine\n\nCharges as recorded: Contempt of Congress — for refusing to answer HUAC",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 15:28:25",
+        "updated_at": "2026-10-12 17:55:54",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-04-04 00:00:00",
+        "release_date": "1961-04-04 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Sentenced April 4, 1961 to concurrent one-year terms for contempt of Congress. He was remanded when the trial judge refused continued bail, then freed on $2,000 appeal bail. Smithsonian Folkways documents that this detention lasted only a few hours; it contributes no complete day to the counter. The sentence must not be counted as a year actually served."
+      },
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/afc/afc2014008/afc2014008_ms2511/afc2014008_ms2511.pdf",
+        "https://folkways-media.si.edu/docs/folkways/artwork/SFW40225.pdf"
+      ],
+      "rationale": "LOC brochure physical pages 18-19 documents April 4 sentencing and immediate appeal bail. Smithsonian liner notes establish only a few hours in jail; same-day interval. No arrest date inferred."
+    },
+    {
+      "name": "John T. Gojack",
+      "slug": "john-t-gojack",
+      "prisoner_id": "defc43e1-ede8-425c-861e-37865b31e863",
+      "case_id": "b1737e5c-43e0-4922-9810-9b8ff09cfce1",
+      "expected": {
+        "id": "b1737e5c-43e0-4922-9810-9b8ff09cfce1",
+        "prisoner_id": "defc43e1-ede8-425c-861e-37865b31e863",
+        "institution_id": null,
+        "charges": "Contempt of Congress",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — both convictions reversed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Nine months after the second conviction. The judgment was stayed during appeal, and the Supreme Court reversed the conviction on June 13, 1966; no imprisonment.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 15:28:25",
+        "updated_at": "2026-09-26 05:12:11",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "The initial nine-month sentence was stayed pending appeal; the first conviction was reversed in 1962. After retrial he received three months and a $200 fine, as recorded in Gojack v. United States, 384 U.S. 702, 705. The Supreme Court reversed that conviction on June 13, 1966. The reviewed court records do not establish individual physical custody dates; neither sentence is counted as time actually served."
+      },
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/384/702/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/280/678/263948/"
+      ],
+      "rationale": "Correct nine-month sentence incorrectly assigned to second conviction. First appeal explicitly stayed; no unsupported assertion that all proceedings involved zero custody."
+    }
+  ]
+}

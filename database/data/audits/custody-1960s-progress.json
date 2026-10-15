@@ -4,13 +4,13 @@
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
   "changed_profiles": 262,
-  "case_records_changed_or_added": 335,
+  "case_records_changed_or_added": 336,
   "status_counts": {
     "partially-corrected-live": 262,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1091,
+    "not-yet-researched": 1089,
     "research-incomplete": 5,
-    "researched-unresolved": 38,
+    "researched-unresolved": 40,
     "outside-decade-statute-match": 14
   },
   "decade_complete": false,
@@ -878,16 +878,18 @@
       "name": "James Lawson",
       "slug": "james-lawson",
       "case_ids": [
-        "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2"
+        "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2",
+        "5b889c8e-1430-5ecc-96b0-856ccf8c4c43"
       ],
       "gap_case_ids": [
         "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        651
+        651,
+        652
       ],
-      "note": "Batch 651 live and public verified; unrelated fields preserved. Exact release/other custody episodes remain under research."
+      "note": "Corrected Nashville March 4, 1960 arrest and added separate May 24, 1961 Freedom Ride detention with May 26 sentencing. Both live and verified; exact releases unresolved."
     },
     {
       "prisoner_id": "05f2d66f-1d9b-498e-b27c-15d6b60bd745",
@@ -3138,9 +3140,12 @@
       "gap_case_ids": [
         "f6bb2b8c-1ecc-4847-8941-997007661456"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Rechecked Supreme Court reversal and contemporary May 21, 1962 report: 30-day sentence, but no individual booking/release evidence. Reversal is not a release date.",
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/369/749/"
+      ]
     },
     {
       "prisoner_id": "01247ffd-cacc-466a-bd5d-6d0b49fe55f0",
@@ -3152,9 +3157,12 @@
       "gap_case_ids": [
         "a471e264-ffd0-4d7a-ade5-38c659b68153"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Rechecked 1960 appellate opinion and 1961 Supreme Court reversal. Neither establishes physical custody endpoints; no dates inferred.",
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/367/456/"
+      ]
     },
     {
       "prisoner_id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
