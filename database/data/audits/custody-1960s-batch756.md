@@ -49,3 +49,7 @@ Contemporary TIME November 24, 1967 reports stockade confinement immediately aft
 https://content.time.com/time/subscriber/article/0,33009,844148,00.html
 
 Guarded case-only updates. No biographies edited. No release dates inferred from sentence or duration arithmetic.
+
+## Live verification
+
+Applied 7 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
