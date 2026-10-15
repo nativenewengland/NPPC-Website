@@ -8,3 +8,7 @@ Sources:
 - https://hdl.handle.net/1813/27870
 - https://anotherchicagomagazine.net/2017/10/30/resister-a-story-of-protest-and-prison-during-the-vietnam-war-by-bruce-dancis/
 - https://doi.org/10.7591/cornell/9780801452420.003.0018
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
