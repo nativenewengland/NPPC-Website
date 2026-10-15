@@ -1,0 +1,49 @@
+{
+  "batch": 745,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Arthur Barber",
+      "slug": "arthur-barber",
+      "prisoner_id": "415ce55e-a736-4727-996b-4109b4adb948",
+      "case_id": "f98fff95-341e-4dfc-902e-5e38425e53a7",
+      "expected": {
+        "id": "f98fff95-341e-4dfc-902e-5e38425e53a7",
+        "prisoner_id": "415ce55e-a736-4727-996b-4109b4adb948",
+        "institution_id": null,
+        "charges": "Felony murder, attempted first-degree robbery and conspiracy",
+        "arrest_date": "1965-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Conviction invalidated; released unless retried",
+        "plead": "Not guilty",
+        "sentenced_date": "1969-12-02 00:00:00",
+        "incarceration_date": "1965-01-01 00:00:00",
+        "release_date": "1975-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment; released in 1975 after nearly ten years in custody when a federal court invalidated the coerced confession.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 19:45:17",
+        "updated_at": "2026-10-14 00:00:39",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"sentenced_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1965-12-19 00:00:00",
+        "incarceration_date": "1965-12-19 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "rationale": "Arnold H. Lubasch, New York Times September 11, 1975, page 47, transcribed by Victims of the State, explicitly reports police seized Barber December 19, 1965. Refines existing year-only arrest and custody start. Existing 1975 year-only release is retained but not independently verified: contemporaneous article gives a conditional release-or-retrial order, not physical discharge; Rosenbaum NYU law review page 811 cites January 9, 1976 dismissal certificate. Neither reversal nor dismissal is substituted for release.",
+      "sources": [
+        "https://vots.altervista.org/news/Barber.htm",
+        "https://socialchangenyu.com/wp-content/uploads/2017/12/Marty-I.-Rosenbaum_RLSC_18.3.pdf"
+      ]
+    }
+  ]
+}
