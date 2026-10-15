@@ -1,0 +1,136 @@
+{
+  "batch": 777,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Elizabeth McAlister",
+      "slug": "elizabeth-mcalister",
+      "prisoner_id": "a77984d3-268d-4a50-a06b-97419bc28168",
+      "case_id": "e6693dff-3168-4f81-97c0-6def0ac7cde9",
+      "expected": {
+        "id": "e6693dff-3168-4f81-97c0-6def0ac7cde9",
+        "prisoner_id": "a77984d3-268d-4a50-a06b-97419bc28168",
+        "institution_id": null,
+        "charges": "Conspiracy to kidnap Henry Kissinger and to bomb federal heating tunnels (Harrisburg 7 indictment, 1971; mistrial)",
+        "arrest_date": "1971-01-11 00:00:00",
+        "indicted": null,
+        "convicted": "Hung jury (conspiracy); Yes (letter-smuggling)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-01-11 00:00:00",
+        "release_date": "1972-04-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William S. Lynch",
+        "judge": "Hon. R. Dixon Herman",
+        "sentence": "Hung jury on conspiracy April 5, 1972; convicted only on letter-smuggling count.",
+        "imprisoned_for_days": 449,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-20 05:27:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1971-01-12 00:00:00",
+        "incarceration_date": "1971-01-12 00:00:00",
+        "release_date": "1971-01-13 00:00:00",
+        "sentence": "Released on bail January 13, 1971. Hung jury on conspiracy April 5, 1972; convicted only on letter-smuggling count. The trial endpoint was not the custody release date.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1971/di1971-01-14.pdf"
+      ],
+      "rationale": "Original January 14, 1971 AP report page 1 states she was released on bail Wednesday; caption identifies arrest Tuesday night in Newark. Thus January 12 arrest and January 13 bail release replace the false trial-length custody interval. Preserve the separate Kings Bay case."
+    },
+    {
+      "name": "Gary Tyler",
+      "slug": "gary-tyler",
+      "prisoner_id": "9defa7de-88ef-4a8a-b574-fc5bf63e16be",
+      "case_id": "f9fd1207-d91f-40c6-b833-78fcc9768334",
+      "expected": {
+        "id": "f9fd1207-d91f-40c6-b833-78fcc9768334",
+        "prisoner_id": "9defa7de-88ef-4a8a-b574-fc5bf63e16be",
+        "institution_id": "584a0dd3-c3d5-48a1-9ef0-72c9deea28ec",
+        "charges": "Murder",
+        "arrest_date": "1974-10-06 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1974-10-06 00:00:00",
+        "release_date": "2016-04-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 15180,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-05-10 06:33:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1974-10-07 00:00:00",
+        "incarceration_date": "1974-10-07 00:00:00",
+        "release_date": "2016-04-29 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://eji.org/news/gary-tyler-released-from-louisiana-prison-after-41-years/",
+        "https://portside.org/node/11491/printable/print"
+      ],
+      "rationale": "EJI dates arrest October 7, 1974 and reports continued imprisonment. Contemporary April 29, 2016 AP dispatch describes physical release that Friday; EJI independently says released that afternoon. Correct both one-day-early endpoints."
+    },
+    {
+      "name": "Eugene Allen",
+      "slug": "eugene-allen",
+      "prisoner_id": "84586de1-5135-4c68-b808-cfe41867b2fb",
+      "case_id": "ea95750c-478c-4c33-8058-856b10b06c43",
+      "expected": {
+        "id": "ea95750c-478c-4c33-8058-856b10b06c43",
+        "prisoner_id": "84586de1-5135-4c68-b808-cfe41867b2fb",
+        "institution_id": "a86f1d53-2f9f-4067-b293-3876090ad0c5",
+        "charges": "Murder of a prison guard at Deuel Vocational Institution",
+        "arrest_date": "1973-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1976-04-02 00:00:00",
+        "incarceration_date": "1973-11-27 00:00:00",
+        "release_date": "1981-03-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-10-14 00:00:33",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "sentence": "Acquitted of the Deuel prison-guard murder charge March 19, 1981. Contemporary reporting in May 1981 stated that Allen remained imprisoned on an earlier seven-years-to-life sentence; the acquittal did not establish physical release. Actual release date remains unverified.",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/torch-us/v8n5.pdf"
+      ],
+      "rationale": "Original Torch May 15-June 14, 1981 page 6 distinguishes Ernest Graham leaving after trial from Eugene Allen remaining in prison. Remove the unsupported March 1981 physical-release endpoint, preserving the known acquittal in case text. Existing incarceration start is not newly verified by this change."
+    }
+  ]
+}
