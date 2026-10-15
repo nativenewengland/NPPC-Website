@@ -4,4 +4,4 @@ Big Spring Daily Herald July13,1961 p1, Associated Press firsthand homecoming re
 
 Sources in payload. Biography preserved.
 
-Deployment pending.
+Applied live. Fixture, preview, preservation, zero-change replay and public HTTP200 verification passed. Public counter shows23 Days and release July1961.
