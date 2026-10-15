@@ -18,4 +18,4 @@ https://www.crmvet.org/docs/sv/sv6011.pdf
 
 No change: Patricia Ann and Ruby Fredericka Shuttlesworth already have verified August16-17,1960 custody dates.
 
-Deployment pending.
+Live deployment verified: four case updates. Isolated fixture, concurrent-edit guard, preservation of every profile field and unrelated case field, and zero-change replay passed. All four public pages returned HTTP200 and showed the new dates. Phifer: 1 Month 4 Days; Shuttlesworth Jr.: 1 Day; Parker: 60 Days. Billups release remains unresolved.
