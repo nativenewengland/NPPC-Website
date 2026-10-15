@@ -1,0 +1,51 @@
+{
+  "batch": 645,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Richard Harris",
+      "slug": "richard-harris",
+      "prisoner_id": "61e4a9b8-c29c-4064-9aa4-965937e5e59e",
+      "case_id": "3ff63ab0-2b7e-416b-aaf7-7eabd17e2ff5",
+      "expected": {
+        "id": "3ff63ab0-2b7e-416b-aaf7-7eabd17e2ff5",
+        "prisoner_id": "61e4a9b8-c29c-4064-9aa4-965937e5e59e",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial custody; case severed from the main 13-defendant trial.\n\nVerdict as recorded: No - case severed from the main Panther 21 trial",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{}",
+        "sentence": "The April 2, 1969 Panther 21 indictment occurred while Harris was already detained in New Jersey. His case was severed from the main trial. The former April 1, 1969 custody start and May 12, 1971 release were not supported as dates of this proceeding; no separate New York custody interval is established. The February 1969 New Jersey detention is recorded separately."
+      },
+      "sources": [
+        "https://theanarchistlibrary.org/library/kuwasi-balagoon-a-soldier-s-story",
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf"
+      ],
+      "rationale": "Already jailed before indictment; no evidence main-trial verdict represents Harris discharge. Remove false exact interval and add separately documented NJ detention next batch."
+    }
+  ]
+}
