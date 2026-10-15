@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 271,
-  "case_records_changed_or_added": 347,
+  "changed_profiles": 273,
+  "case_records_changed_or_added": 349,
   "status_counts": {
-    "partially-corrected-live": 271,
+    "partially-corrected-live": 273,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1080,
+    "not-yet-researched": 1078,
     "research-incomplete": 5,
     "researched-unresolved": 40,
     "outside-decade-statute-match": 14
@@ -636,9 +636,11 @@
       "gap_case_ids": [
         "de275616-d185-5f73-993c-d80e8f76d908"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        656
+      ],
+      "note": "Eyewitness September 1959 Catholic Worker report dates arrest, same-day sentence and immediate custody August 24. January 20 was an advance release announcement; biography says January 21, while February 1960 diary confirms he was free by late January. Preserve supported month, remove sentence-as-time-served override."
     },
     {
       "prisoner_id": "b98baa1c-63c1-4723-bbdf-c42cd44400a5",
@@ -2869,9 +2871,11 @@
       "gap_case_ids": [
         "a9a72d7a-f5cf-40e6-bff4-3a4adbcf62e2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        656
+      ],
+      "note": "Contemporary AP report, Friday November 4, explicitly reports Thursday surrender and imprisonment and names Payton. Refine November 1960 to November 3; July 1959 conviction already confirmed by the report. Release remains August 1961 month."
     },
     {
       "prisoner_id": "46261489-a1c2-4f49-8774-a3676e0f8242",
