@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 258,
-  "case_records_changed_or_added": 331,
+  "changed_profiles": 259,
+  "case_records_changed_or_added": 332,
   "status_counts": {
-    "partially-corrected-live": 258,
+    "partially-corrected-live": 259,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1095,
+    "not-yet-researched": 1094,
     "research-incomplete": 5,
     "researched-unresolved": 38,
     "outside-decade-statute-match": 14
@@ -1298,9 +1298,11 @@
         "a0d3ac0d-f948-4ba8-85b2-6d7640701307"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        649
+      ],
+      "note": "Verified archival March 1965-August 1973 custody months and court sentencing April 11, 1966; exact custody days unresolved. Live application and public display verified; unrelated fields preserved."
     },
     {
       "prisoner_id": "993dba81-af32-4ff1-8bfd-5c6963dfd544",

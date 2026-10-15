@@ -1,0 +1,49 @@
+{
+  "batch": 650,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Akil Al-Jundi",
+      "slug": "akil-al-jundi",
+      "prisoner_id": "b806349c-d32a-46e8-a37f-0266070eeb45",
+      "case_id": "3b20929e-f8b7-4aa7-84b8-95d0ab891817",
+      "expected": {
+        "id": "3b20929e-f8b7-4aa7-84b8-95d0ab891817",
+        "prisoner_id": "b806349c-d32a-46e8-a37f-0266070eeb45",
+        "institution_id": null,
+        "charges": "Murder",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-01-01 00:00:00",
+        "release_date": "1976-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment; sent to Attica, where he became a leader of the 1971 uprising. Paroled in 1976.\n\nVerdict as recorded: Yes — convicted of murder in 1961.",
+        "imprisoned_for_days": 5478,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-23 12:05:14",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1975-05-20 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+        "sentence": "Sentenced to 20 years to life after a 1961 murder conviction. His custody account preserved in New York State Archives records parole from Clinton Correctional Facility on May 20, 1975. The incarceration start is documented only to the year; an exact intake day remains unresolved."
+      },
+      "sources": [
+        "https://digitalcollections.archives.nysed.gov/media/collectiveaccess/images/1/0/6/5/92422_ca_object_representations_media_106586_original.pdf",
+        "https://revcom.us/en/a/v19/920-29/920/akil.htm"
+      ],
+      "rationale": "Archival physical PDF page 55 visually verified: parole May 20, 1975. Memorial supports 1961 imprisonment year. Removes unsupported January 1 precision and 1976 release. Biography remains unchanged; its 1976 parole claim is separately flagged for future biography review."
+    }
+  ]
+}
