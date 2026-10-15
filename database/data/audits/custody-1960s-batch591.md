@@ -24,4 +24,4 @@ Lloyd Barenblatt: AMS Notices June 1960 p325 reproduces February 5, 1960 editori
 https://community.ams.org/journals/notices/196006/196006FullIssue.pdf
 https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt3/pdf/GPO-CRECB-1961-pt3-2-2.pdf
 
-Deployment pending.
+Applied live: six case records, four profiles. Isolated fixture, full unrelated-field preservation, zero-change replay, and HTTP 200 public verification passed. Winston 1943 days, Green 1979 days, each overlapping term counted once. Partial-month endpoints do not produce an exact-day total; Barenblatt and Davis exact releases remain open.
