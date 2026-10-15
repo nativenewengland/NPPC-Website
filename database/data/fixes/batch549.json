@@ -1,0 +1,62 @@
+{
+  "batch": 549,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "1ef30c80-e76a-4332-ad20-e7418fb8e265",
+      "name": "Dick Gregory",
+      "slug": "dick-gregory",
+      "case_id": "d3889d89-ffd5-5eac-9be4-25dd4b456bed",
+      "expected_cases": [
+        {
+          "id": "87125247-e7a9-4185-a6af-9cf86ee0913e",
+          "prisoner_id": "1ef30c80-e76a-4332-ad20-e7418fb8e265",
+          "institution_id": null,
+          "charges": "Illegal net fishing",
+          "arrest_date": "1966-02-16 00:00:00",
+          "indicted": null,
+          "convicted": "Arrested and jailed for illegal net fishing during a treaty-rights 'fish-in'",
+          "plead": null,
+          "sentenced_date": "1967-01-12 00:00:00",
+          "incarceration_date": "1966-02-16 00:00:00",
+          "release_date": "1966-02-17 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Initial detention for a Nisqually treaty-rights fish-in: arrested February 16, 1966 and released on bail February 17. The Civil Liberties Docket describes two days in jail, counting calendar dates. Sentenced January 12, 1967; the later 1968 sentence service was separate from this pretrial detention.",
+          "imprisoned_for_days": 1,
+          "in_exile_for_days": null,
+          "created_at": "2026-07-22 02:18:55",
+          "updated_at": "2026-10-15 00:23:22",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "d3889d89-ffd5-5eac-9be4-25dd4b456bed",
+        "prisoner_id": "1ef30c80-e76a-4332-ad20-e7418fb8e265",
+        "institution_id": null,
+        "charges": "Illegal net fishing: later sentence service following the 1966 Nisqually fish-in",
+        "arrest_date": null,
+        "incarceration_date": "1968-06-01 00:00:00",
+        "release_date": "1968-07-16 00:00:00",
+        "sentence": "Later service of the fish-in sentence, after appeals. Began in June 1968; sources disagree between June 6 and June 7, so only the month is recorded. Released July 16, 1968 as a trustee at large to serve the remainder outside jail. This endpoint is release from physical confinement, not completion of the 90-day sentence. His hospital stay during the fast remained guarded custody. The February 1966 pretrial detention is recorded separately.",
+        "date_precision": {
+          "incarceration_date": "month",
+          "release_date": "day"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://www.historylink.org/File/5462",
+        "https://pauldorpat.com/wp-content/uploads/2021/07/04-02.pdf#page=20",
+        "https://newspaperarchive.com/press-telegram-jul-05-1968-p-32/"
+      ],
+      "rationale": "HistoryLink dates physical release July16; contemporary Helix volume4 issue2 p21 confirms trustee-at-large release on Tuesday and guarded hospital custody. June admission day conflicts, so retain month precision and do not calculate an exact total or count the full imposed90days."
+    }
+  ]
+}
