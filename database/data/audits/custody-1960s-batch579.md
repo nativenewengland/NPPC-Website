@@ -9,4 +9,4 @@ https://www.crmvet.org/nars/lall2.htm
 Rick Stanley Ogilvie Sheviakov: First-person account pages7-8 explicitly dates trial/sentence July31 and page15 says about45days actual custody. Approximate total is prose only, not an exact counter or calculated release day.
 https://www.crmvet.org/nars/sheviakov-fr.pdf
 
-No biography changes. Deployment pending.
+No biography changes. Applied live; isolated fixture, guarded preview/application, field preservation, zero-change replay and public pages verified. Existing Sheviakov 45-day override discovered and separately reviewed in batch580.
