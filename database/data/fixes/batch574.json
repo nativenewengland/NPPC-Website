@@ -1,0 +1,51 @@
+{
+  "batch": 574,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "63c69d8e-3e23-4e9b-b236-ae22181aa5b5",
+      "name": "Dion Tyrone Diamond",
+      "slug": "dion-diamond",
+      "case_id": "61b3e1e0-6d35-4a45-a855-ef3ad34fd795",
+      "expected": {
+        "id": "61b3e1e0-6d35-4a45-a855-ef3ad34fd795",
+        "prisoner_id": "63c69d8e-3e23-4e9b-b236-ae22181aa5b5",
+        "institution_id": null,
+        "charges": "Disturbing the peace after speaking to students at Southern University; an initial criminal-anarchy charge was dropped",
+        "arrest_date": "1962-02-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes, disturbing the peace",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1962-02-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Served sixty days in jail; the criminal-anarchy charge was dropped.",
+        "imprisoned_for_days": 60,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-09-26 20:03:47",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 60,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1962-03-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "documented_imprisoned_for_days": 59,
+        "sentence": "Held for 59 days under a $7,000 bond on the criminal-anarchy charge, according to the February 25, 1964 SNCC Student Voice. Released in March 1962; exact day unverified. The later sixty-day term following the unsuccessful appeal was served separately in 1964."
+      },
+      "rationale": "Separate the 59-day initial Louisiana detention reported by SNCC February25,1964 from the later sixty-day term ending May6,1964. LDF April17,1963 release establishes March1962 release month, not exact day. Do not calculate release date from duration.",
+      "sources": [
+        "https://www.crmvet.org/docs/sv/sv640225.pdf",
+        "https://www.crmvet.org/docs/sv/sv640519.pdf",
+        "https://ldfrecollection.org/archives/archives-search/archives-item/a994ac57-e70c-464b-bd2d-a66145917ff0/mississippi-transportation-and-louisiana-demonstration-cases-appealed-by-naacp-legal-defense-fund"
+      ]
+    }
+  ]
+}
