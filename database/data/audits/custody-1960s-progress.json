@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 455,
-  "case_records_changed_or_added": 560,
+  "changed_profiles": 456,
+  "case_records_changed_or_added": 561,
   "status_counts": {
-    "partially-corrected-live": 455,
+    "partially-corrected-live": 456,
     "reviewed-selected-case-no-change": 29,
     "research-incomplete": 35,
     "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 824
+    "not-yet-researched": 823
   },
   "decade_complete": false,
   "rows": [
@@ -5476,9 +5476,11 @@
       "gap_case_ids": [
         "087cf351-c6da-4ac4-8243-3d369c920db6"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        732
+      ],
+      "note": "Primary Virginia judgment identifies February 7, 1963 final sentencing in the Carter case, refining existing February month. February 12 belongs to separate Fleshman case and must not be substituted. Preserve documented initial custody through January 17, 1973. Contemporary report confirms November 1973 return to prison; later endpoint unresolved and no invented additional duration. Preserve biography."
     },
     {
       "prisoner_id": "ca0c834f-fb75-44bb-b78b-96f85ae8f5d6",

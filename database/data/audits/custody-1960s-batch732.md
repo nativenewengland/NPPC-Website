@@ -8,3 +8,7 @@ https://openjurist.org/205/va/419/wansley-v-commonwealth-1260010
 https://law.justia.com/cases/federal/appellate-courts/F2/487/90/81609/
 https://texashistory.unt.edu/ark:/67531/metapth1052671/m1/1/
 https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP02021974.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
