@@ -70,3 +70,5 @@ Both contemporary reports establish May custody and release, but May 22 issue sa
 
 
 Biographies and unrelated fields preserved. All unresolved release dates remain unresolved.
+
+Applied live: nine case updates. Isolated fixture, full-table preservation, zero-change replay and all nine public pages verified.
