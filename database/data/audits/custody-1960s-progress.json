@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 316,
-  "case_records_changed_or_added": 397,
+  "changed_profiles": 318,
+  "case_records_changed_or_added": 399,
   "status_counts": {
-    "partially-corrected-live": 316,
+    "partially-corrected-live": 318,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 1002,
+    "not-yet-researched": 1000,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -3270,9 +3270,11 @@
       "gap_case_ids": [
         "8cc0a467-b26d-4f95-b26c-8030ae35e298"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        675
+      ],
+      "note": "Recorded verified sentencing/outcome; reversal is not a custody endpoint. Actual imprisonment unresolved."
     },
     {
       "prisoner_id": "572a76d4-f86c-4623-95a1-fb2165be7b77",
@@ -4495,9 +4497,11 @@
       "gap_case_ids": [
         "c43732fd-14e9-4533-a109-a72abcf5de56"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        675
+      ],
+      "note": "Recorded verified sentencing/outcome; reversal is not a custody endpoint. Actual imprisonment unresolved."
     },
     {
       "prisoner_id": "2698d3ac-09aa-43b4-b6b5-970d43f58e97",
