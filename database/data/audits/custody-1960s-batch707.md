@@ -7,3 +7,7 @@ Held on peace-warrant complaints in Savannah in July 1963 and released on bond i
 - https://digicoll.lib.berkeley.edu/record/222221/files/meik-10_1.pdf
 - https://holocron.lib.auburn.edu/bitstream/handle/10415/4658/rice_rolundus_hosea_williams_auetd_20150424_revised_0513.pdf?isAllowed=y&sequence=2
 - https://blackfreedom.proquest.com/wp-content/uploads/2020/09/sitins3.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

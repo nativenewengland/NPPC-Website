@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 391,
-  "case_records_changed_or_added": 482,
+  "changed_profiles": 392,
+  "case_records_changed_or_added": 483,
   "status_counts": {
-    "partially-corrected-live": 391,
+    "partially-corrected-live": 392,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 908,
+    "not-yet-researched": 907,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -5965,9 +5965,11 @@
       "gap_case_ids": [
         "f6e5c761-2ed4-4b6c-9e50-f26720d1269a"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        707
+      ],
+      "note": "Civil Liberties Docket 10(1), p.19, and Rice dissertation pp.132-135 agree on July-to-August custody, but disagree on days. A July 12 contemporary demonstration report records July 9 arrest. Improve year-only dates to shared month precision; remove conflicting 65-day numeric total without substituting a calculated exact duration. Biography and unrelated fields preserved."
     },
     {
       "prisoner_id": "b5726669-e90e-4482-ba05-f8190c87c822",
