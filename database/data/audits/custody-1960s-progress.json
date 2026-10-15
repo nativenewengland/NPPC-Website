@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 465,
-  "case_records_changed_or_added": 574,
+  "changed_profiles": 466,
+  "case_records_changed_or_added": 575,
   "status_counts": {
-    "partially-corrected-live": 465,
+    "partially-corrected-live": 466,
     "reviewed-selected-case-no-change": 30,
     "research-incomplete": 38,
     "researched-unresolved": 68,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 809
+    "not-yet-researched": 808
   },
   "decade_complete": false,
   "rows": [
@@ -2742,9 +2742,11 @@
       "gap_case_ids": [
         "c4103d25-72fd-46ff-8932-d70ee6e15c19"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        738
+      ],
+      "note": "Correct return month from September to August 1969. September 12 contemporary report says Mabel returned a month earlier; the appellate factual summary explicitly states that the family flew from Tanzania to Detroit in August 1969. Exact day is unknown and month precision remains unchanged. No incarceration is asserted."
     },
     {
       "prisoner_id": "67b6ecad-03f2-411b-98e1-d38d1d63a1da",
