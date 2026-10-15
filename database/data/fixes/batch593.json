@@ -1,0 +1,49 @@
+{
+  "batch": 593,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "0ecc1c26-7c5a-4538-95f3-3857432e5419",
+      "name": "Junius Scales",
+      "slug": "junius-scales",
+      "case_id": "91415a04-9b0f-40d4-bffa-8c4ac0036b21",
+      "expected": {
+        "id": "91415a04-9b0f-40d4-bffa-8c4ac0036b21",
+        "prisoner_id": "0ecc1c26-7c5a-4538-95f3-3857432e5419",
+        "institution_id": "fbad2f29-e234-4a8b-aea0-2fca620a266f",
+        "charges": "Smith Act 1940 § 2385 — membership clause (only conviction under that clause to stand).",
+        "arrest_date": "1954-11-18 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1958-12-14 00:00:00",
+        "incarceration_date": "1961-10-02 00:00:00",
+        "release_date": "1962-12-24 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six years in federal prison. He was free pending litigation and appeals for nearly seven years after his arrest, and was ordered to surrender to the United States marshal in New York City at noon on October 2, 1961, after the Supreme Court affirmed the conviction. He served 448 days — fourteen months and twenty-two days, conventionally reported as fifteen months — at the United States Penitentiary at Lewisburg, Pennsylvania, until President John F. Kennedy commuted the remainder of the sentence on December 24, 1962 and he left Lewisburg that same Christmas Eve. The action was a commutation, not a pardon: the conviction remained legally intact. He was the last Smith Act prisoner released.\n\nVerdict as recorded: Yes. Convicted at Greensboro in 1955; REVERSED by the Supreme Court on October 14, 1957, after the solicitor general acknowledged an error connected with the government failing to provide relevant FBI witness materials. Retried and reconvicted in 1958, again sentenced to six years. The Supreme Court affirmed 5-4 on June 5, 1961 in Scales v. United States, 367 U.S. 203 — the only conviction under the Smith Act membership clause to stand.\n\nCharges as recorded: Smith Act 1940 § 2385 — membership clause (only conviction under that clause to stand). Scales v. United States, 367 U.S. 203 (1961). Last Smith Act prisoner.",
+        "imprisoned_for_days": 448,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1958-02-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "National Archives FBI file page 58 gives February 21, 1958 sentencing. December 1958 is Supreme Court review, not sentencing. Existing October 2, 1961 custody onset is independently confirmed on page 59; daughter Barbara confirms Christmas Eve 1962 homecoming. Custody dates and biography preserved.",
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/2018/docid-32989672.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/260/21/428262/",
+        "https://artsfuse.org/171402/fathers-day-feature-my-father-the-former-communist/"
+      ]
+    }
+  ]
+}

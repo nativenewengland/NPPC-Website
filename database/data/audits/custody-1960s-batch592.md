@@ -16,4 +16,4 @@ https://www.fbi.gov/history/cases-and-criminals/atom-spy-caserosenbergs
 https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt8/pdf/GPO-CRECB-1960-pt8-9.pdf
 https://texashistory.unt.edu/ark:/67531/metapth558737/m1/12/
 
-Biographies preserved. Deployment pending.
+Biographies preserved. Applied live and verified: three case updates, unchanged biographies and unrelated fields, zero-change replay. Public pages returned HTTP 200 and displayed corrected dates and counters: Sobell 18 years 4 months 27 days; Gold 15 years 11 months 25 days; Greenglass 10 years 5 months 1 day.
