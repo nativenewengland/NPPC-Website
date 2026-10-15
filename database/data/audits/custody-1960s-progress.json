@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 319,
-  "case_records_changed_or_added": 400,
+  "changed_profiles": 320,
+  "case_records_changed_or_added": 401,
   "status_counts": {
-    "partially-corrected-live": 319,
+    "partially-corrected-live": 320,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 999,
+    "not-yet-researched": 998,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -2668,9 +2668,11 @@
       "gap_case_ids": [
         "45653452-37e1-48dd-b093-364c52d2a271"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        677
+      ],
+      "note": "October11,1969jail start established; actualrelease still unresolved."
     },
     {
       "prisoner_id": "6d103d69-09bf-4e8e-b299-92d46c1db0df",
