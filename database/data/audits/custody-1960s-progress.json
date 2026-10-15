@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 483,
-  "case_records_changed_or_added": 592,
+  "changed_profiles": 484,
+  "case_records_changed_or_added": 593,
   "status_counts": {
-    "partially-corrected-live": 483,
+    "partially-corrected-live": 484,
     "reviewed-selected-case-no-change": 33,
     "research-incomplete": 39,
     "researched-unresolved": 75,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 780
+    "not-yet-researched": 779
   },
   "decade_complete": false,
   "rows": [
@@ -9310,9 +9310,11 @@
       "gap_case_ids": [
         "eceeaf4f-5bc7-416f-a5d3-540b7ddcc4e3"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        751
+      ],
+      "note": "Family memorial explicitly places immediate jailing on May 28, trial and sentence the next day, and release on bail in mid-July. Preserve July month precision; do not convert a 60-day sentence to time served. Original memorial scan inspected; Mary Jean Smith also identifies Frances Wilson as a cellmate."
     },
     {
       "prisoner_id": "cd8d7630-9aba-4097-8bd8-8b0c59f3872e",

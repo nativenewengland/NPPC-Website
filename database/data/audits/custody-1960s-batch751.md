@@ -7,3 +7,7 @@ Family memorial explicitly places immediate jailing on May 28, trial and sentenc
 - https://americanarchive.org/catalog/cpb-aacip-15-9c6rx9488w
 
 No biographies or unrelated fields changed. Month-only release cannot support an exact day counter.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
