@@ -63,3 +63,7 @@ Replace the inconsistent thirty-day sentence text; preserve existing documented 
 - https://gateway.okhistory.org/ark%3A/67531/metadc1845781/m1/3/
 
 Biographies preserved. Comfort biography repeats the erroneous 1967 attribution and requires separate editorial follow-up; this batch corrects the case fields only.
+
+## Live verification
+
+Applied eight guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. All seven public profiles returned HTTP 200; April 1968 precision and corrected Comfort case prose verified.
