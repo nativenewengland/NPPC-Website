@@ -10,4 +10,4 @@ https://crmvet.lib.duke.edu/nars/wedding.html
 David J. Dennis Sr.: His oral history describes immediate transport from the Jackson bus terminal to county jail and confinement in a holding cell. Individual release date remains unverified. Preserve existing archival arrest date; do not calculate a release date from approximate duration.
 https://www.crmvet.org/nars/dennisde.htm
 
-No biography changes. Deployment pending.
+No biography changes. Applied live. Fixture, guarded preview/application, preservation, zero-change replay and public pages verified. Accessible alternate Michaels source: https://www.crmvet.org/nars/wedding.htm
