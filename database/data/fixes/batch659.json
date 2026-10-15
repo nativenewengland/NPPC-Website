@@ -1,0 +1,134 @@
+{
+  "batch": 659,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Kenneth Martin Shilman",
+      "slug": "kenneth-martin-shilman",
+      "prisoner_id": "1a49146e-a2c5-4e0e-95be-f3c53eeef633",
+      "case_id": "03b976c3-48cf-4caf-979f-2f53c97774e8",
+      "expected": {
+        "id": "03b976c3-48cf-4caf-979f-2f53c97774e8",
+        "prisoner_id": "1a49146e-a2c5-4e0e-95be-f3c53eeef633",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — arrested Jackson, June 2, 1961.",
+        "arrest_date": "1961-06-02 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-02. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-08-02 22:50:53",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-02 00:00:00",
+        "release_date": "1961-06-24 00:00:00",
+        "sentence": "Confined after his June 2, 1961 Freedom Ride arrest, including at Mississippi State Penitentiary at Parchman. Released Saturday, June 24, 1961, according to his contemporaneous interview published in the Daily Iowan on June 27. The imposed sentence remains unverified.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "Daily Iowan June27,1961 p3 contemporary interview names Kenneth Shilman,18,Oceanside, reports three weeks imprisonment, and says released Saturday. Calendar resolves Saturday to June24. Existing June2 arrest matches approximately three-week custody; add custody start and exact discharge. Visual scan checked.",
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1961/di1961-06-27.pdf"
+      ]
+    },
+    {
+      "name": "Felix Singer",
+      "slug": "felix-singer",
+      "prisoner_id": "9bd23533-42dd-4501-a54a-24049f1c73f5",
+      "case_id": "f5a74c75-dde4-4db9-b8ad-d4e6946ae69b",
+      "expected": {
+        "id": "f5a74c75-dde4-4db9-b8ad-d4e6946ae69b",
+        "prisoner_id": "9bd23533-42dd-4501-a54a-24049f1c73f5",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride testing interstate desegregation",
+        "arrest_date": "1961-06-02 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed at Parchman; tortured for passive resistance\n\nVerdict as recorded: Convicted; jailed at Parchman (1961)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Contemporaneous Shilman interview places Felix Singer in Parchman during June1961. Fertig identifies Singer in June2 ride. Record June incarceration at month precision only; no exact intake or release day inferred.",
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1961/di1961-06-27.pdf",
+        "https://www.crmvet.org/nars/fertigr.htm"
+      ]
+    },
+    {
+      "name": "Miriam Feingold",
+      "slug": "miriam-feingold",
+      "prisoner_id": "e2fa557c-5987-44d4-af0c-5a4efb9a885e",
+      "case_id": "ade67e1d-26a4-42f4-b14b-e8c5046df424",
+      "expected": {
+        "id": "ade67e1d-26a4-42f4-b14b-e8c5046df424",
+        "prisoner_id": "e2fa557c-5987-44d4-af0c-5a4efb9a885e",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride testing interstate desegregation",
+        "arrest_date": "1961-06-21 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-06-21 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "31 days in two prisons\n\nVerdict as recorded: Convicted; jailed in Jackson/Parchman (1961)",
+        "imprisoned_for_days": 31,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-10-15 07:46:37",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 31,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": 40,
+        "sentence": "Four months and a $200 fine imposed, as recorded on her Hinds County admission slip. In her 2020 oral history she described spending 40 days in custody before leaving on bail with Judy Frieze and her parents. Exact release day remains unverified."
+      },
+      "rationale": "2020 first-person oral history pp28–29 explicitly describes staying40days and leaving with Judy Frieze; p22 reproduces/reads sentence slip. 2012 interview likewise reports40days before bail; APR review of Hollars corroborates40. Replace unsupported31-day total with source-reported40; do not back-calculate an exact release date or mistake projected December29 discharge for actual release.",
+      "sources": [
+        "https://www.crmvet.org/nars/real_student-20.pdf",
+        "https://www.crmvet.org/nars/mimi12.htm",
+        "https://www.apr.org/arts-life/2018-07-05/the-road-south-personal-stories-of-the-freedom-riders-by-b-j-hollars?_amp=true"
+      ]
+    }
+  ]
+}

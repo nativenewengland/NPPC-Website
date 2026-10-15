@@ -8,4 +8,4 @@ Miriam Feingold: Swarthmore oral-history transcript p8 captions her June21,1961 
 
 Price Chatham: CORE-Lator June1961 p1 explicitly identifies Chatham among riders who remained jailed and fasted since June2 arrest. July31 Guardian describes his completed term and forthcoming demonstration. Existing release description calls July11 probable rather than verified: retain July at month precision, no spurious39-day counter.
 
-All biography and unrelated fields preserved. Live validation pending.
+All biography and unrelated fields preserved. Applied live: fixture, no-write preview, four updates, preservation, zero-change replay and all four public pages HTTP 200 verified. Further Feingold duration research continues; no release date was inferred in this batch.
