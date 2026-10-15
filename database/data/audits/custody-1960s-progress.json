@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 212,
-  "case_records_changed_or_added": 270,
+  "changed_profiles": 213,
+  "case_records_changed_or_added": 271,
   "status_counts": {
-    "not-yet-researched": 1140,
-    "partially-corrected-live": 212,
+    "not-yet-researched": 1139,
+    "partially-corrected-live": 213,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -1769,9 +1769,11 @@
         "3381995f-3a71-4554-89fb-e8794fa9d0fc"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        620
+      ],
+      "note": "Batch 620 live: December 1959 parole month; removed unsupported continuous 1955–1960 imprisonment. Exact later admission and parole day unresolved."
     },
     {
       "prisoner_id": "a2a15692-914f-4aa3-b9c0-76ecdc8d965e",

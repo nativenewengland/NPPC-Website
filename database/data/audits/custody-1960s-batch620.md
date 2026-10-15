@@ -6,4 +6,4 @@ https://www.law.cornell.edu/supremecourt/text/396/64
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1955-06-27-7-36-nat-guardian.pdf
 
-Deployment pending.
+Applied live. Isolated fixture, no-write preview, preservation checks, zero-change replay, and public December 1959 release display verified. Unsupported five-year counter is absent.
