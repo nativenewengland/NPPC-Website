@@ -1,0 +1,49 @@
+{
+  "batch": 728,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Don Cox",
+      "slug": "don-cox",
+      "prisoner_id": "0fe1313f-f52e-4c5f-82a0-787dda8461df",
+      "case_id": "048840dc-1ebf-434b-afc1-30fbfea9d3ba",
+      "expected": {
+        "id": "048840dc-1ebf-434b-afc1-30fbfea9d3ba",
+        "prisoner_id": "0fe1313f-f52e-4c5f-82a0-787dda8461df",
+        "institution_id": null,
+        "charges": "Conspiracy — 1969 killing of suspected informant Eugene Leroy Anderson (Baltimore Black Panther case; fled before trial)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1970-04-16 00:00:00",
+        "end_of_exile": "2011-02-19 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Never tried. The exile period is counted from April 16, 1970, when Cox went into hiding after learning he faced prosecution. His memoir places his departure from the United States about two weeks later, in early May 1970, via London and Paris to Algiers. He remained abroad until his death on February 19, 2011.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 14919,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-09-24 01:58:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1970-01-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"day\"}",
+        "in_exile_for_days": null,
+        "sentence": "Never tried. Cox went into hiding in the United States on April 16, 1970. His memoir then describes waiting about two weeks before obtaining a passport and departing via London and Paris for Algiers. Overseas exile began later in 1970, not on the day he went into hiding; the precise departure date remains unverified. He remained abroad until his death on February 19, 2011."
+      },
+      "rationale": "Cox memoir chapter 11 distinguishes April 16 domestic hiding from subsequent overseas departure. Remove the unsupported exact exile start and derived 14,919-day total. Retain the supported year, avoiding calendar arithmetic based on the approximate two-week narrative. Preserve all profile fields.",
+      "sources": [
+        "https://www.thetedkarchive.com/library/don-cox-steve-wasserman-just-another-nigger"
+      ]
+    }
+  ]
+}

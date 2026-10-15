@@ -6,3 +6,7 @@ This record is within the broad 1960s case review because the charged act occurr
 
 - https://www.themilitant.com/1976/4028/MIL4028.pdf
 - https://www.csce.gov/wp-content/uploads/2016/10/Fulfilling-Our-Promises-The-United-States-and-the-Helsinki-Final-Act-1.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

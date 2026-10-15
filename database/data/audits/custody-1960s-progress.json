@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 449,
-  "case_records_changed_or_added": 553,
+  "changed_profiles": 450,
+  "case_records_changed_or_added": 554,
   "status_counts": {
-    "partially-corrected-live": 449,
+    "partially-corrected-live": 450,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 831,
     "research-incomplete": 36,
     "researched-unresolved": 65,
     "outside-decade-custody": 3,
-    "outside-decade-statute-match": 14
+    "outside-decade-statute-match": 14,
+    "not-yet-researched": 830
   },
   "decade_complete": false,
   "rows": [
@@ -241,9 +241,11 @@
       "gap_case_ids": [
         "22b046fe-7368-40bc-b208-b0598217cf94"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        727
+      ],
+      "note": "The Militant, July 16, 1976, page 2, separately reports Grant and Reddy obtaining bail in June 1976 and Parker having been paroled the preceding December. Correct the conflation of Parker with the later clemency of his co-defendants. Preserve existing start-date precision and do not infer an exact parole day."
     },
     {
       "prisoner_id": "7e142e48-ebcb-4fe5-872c-e372050cdb42",
