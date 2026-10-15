@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 289,
-  "case_records_changed_or_added": 367,
+  "changed_profiles": 290,
+  "case_records_changed_or_added": 368,
   "status_counts": {
-    "partially-corrected-live": 289,
+    "partially-corrected-live": 290,
     "reviewed-selected-case-no-change": 23,
-    "not-yet-researched": 1054,
+    "not-yet-researched": 1047,
     "research-incomplete": 6,
-    "researched-unresolved": 41,
+    "researched-unresolved": 47,
     "outside-decade-statute-match": 14
   },
   "decade_complete": false,
@@ -1849,9 +1849,11 @@
         "7c8476a7-1697-43e1-bc7d-dfebf25d8050"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        663
+      ],
+      "note": "Seth Rosenfeld documents June 30 sentencing and October 24 release from FBI records; FBI Vault October 26 airtel confirms release October 24. Preserve already separated custody periods and calculated duration; clarify sentence versus elapsed custody."
     },
     {
       "prisoner_id": "9a8e3125-1a87-4165-9277-ee0d7c490238",
@@ -3824,9 +3826,9 @@
       "gap_case_ids": [
         "6f9462da-68e7-40e6-ac48-1fbdf4224211"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "July 17, 1959 indictment confirmed by US Attorneys Bulletin 7/17 p508; September 5, 1960 National Guardian reports indefinitely postponed trial. No actual custody endpoint established. Existing uncertainty preserved."
     },
     {
       "prisoner_id": "b883f6c2-78cb-4917-9692-72da7dd31e02",
@@ -3838,9 +3840,9 @@
       "gap_case_ids": [
         "4332571c-f519-4870-8bc0-0f133c178614"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "July 17, 1959 indictment confirmed by US Attorneys Bulletin 7/17 p508; September 5, 1960 National Guardian reports indefinitely postponed trial. No actual custody endpoint established. Existing uncertainty preserved."
     },
     {
       "prisoner_id": "654ae50d-cf6c-4d05-8009-f9e40b51c002",
@@ -3852,9 +3854,9 @@
       "gap_case_ids": [
         "b8504895-f192-4ad4-a29c-3628c06e0264"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "July 17, 1959 indictment confirmed by US Attorneys Bulletin 7/17 p508; September 5, 1960 National Guardian reports indefinitely postponed trial. No actual custody endpoint established. Existing uncertainty preserved."
     },
     {
       "prisoner_id": "acf2ff4a-94e2-4049-9037-6cc4283c7df4",
@@ -3866,9 +3868,9 @@
       "gap_case_ids": [
         "088c6d66-9371-45b5-a2c7-c1ceb76a0592"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "303 F.2d724 confirms concurrent two-year sentences but not actual service dates. April 6, 1964 Supreme Court denial of certiorari is not a custody start. No unsupported dates added."
     },
     {
       "prisoner_id": "5041c9a6-f2e8-4727-971d-acbcdd2253b6",
@@ -3894,9 +3896,9 @@
       "gap_case_ids": [
         "cad03083-6bd0-48e2-adf0-24ef77c8594d"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "United States v. Grumman, 227 F.Supp.227, March 6, 1964, and Civil Liberties Docket 9/3 confirm acquittal after retrial. No actual imprisonment established; appellate/trial dates not treated as custody."
     },
     {
       "prisoner_id": "c38b3912-1f42-43d7-9ab0-323e94454e86",
@@ -3908,9 +3910,9 @@
       "gap_case_ids": [
         "4db6b0db-2595-4404-bf49-55a1fd43c6f7"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "United States v. Grumman, 227 F.Supp.227, March 6, 1964, and Civil Liberties Docket 9/3 confirm acquittal after retrial. No actual imprisonment established; appellate/trial dates not treated as custody."
     },
     {
       "prisoner_id": "1c8e7905-30c1-4404-9805-48e4b245c2f1",

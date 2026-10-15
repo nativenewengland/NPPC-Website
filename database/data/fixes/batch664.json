@@ -1,0 +1,49 @@
+{
+  "batch": 664,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Paul Rosenkrantz",
+      "slug": "paul-rosenkrantz",
+      "prisoner_id": "5041c9a6-f2e8-4727-971d-acbcdd2253b6",
+      "case_id": "60272c68-0463-4899-aecd-23c3430333ef",
+      "expected": {
+        "id": "60272c68-0463-4899-aecd-23c3430333ef",
+        "prisoner_id": "5041c9a6-f2e8-4727-971d-acbcdd2253b6",
+        "institution_id": null,
+        "charges": "Contempt of Congress",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1960-02-08 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months in jail\n\nVerdict as recorded: Convicted; jailed February 1960\n\nCharges as recorded: Contempt of Congress — refusing to name fellow Communists",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": 3,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1960-02-03 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "plead": "Nolo contendere; plea accepted December 9, 1959"
+      },
+      "rationale": "US Attorneys Bulletin volume8 number5 printed147 (PDF24), original scan visually checked: sentence February3,1960; nolo plea accepted December9,1959. Preserve existing February8 custody start; sentencing day is distinct. National Guardian August1,1960 confirms release by then but no individual release day/month.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0805.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-08-01-12-42-nat-guardian.pdf"
+      ]
+    }
+  ]
+}
