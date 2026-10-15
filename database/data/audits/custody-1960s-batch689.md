@@ -18,3 +18,7 @@ PBS documents entry into federal custody in 1969. Contemporary Daily Iowan June 
 - https://newspapers.digitalnc.org/lccn/sn97064600/1970-01-08/ed-1/seq-5.pdf
 
 Scoggin remains unresolved: secondary sources conflict on March versus April 1969 admission; no date changed. Aptheker exact July 2 start and derived August 16 end require further primary-source verification.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

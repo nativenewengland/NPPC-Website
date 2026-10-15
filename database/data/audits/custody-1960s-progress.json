@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 354,
-  "case_records_changed_or_added": 439,
+  "changed_profiles": 355,
+  "case_records_changed_or_added": 441,
   "status_counts": {
-    "partially-corrected-live": 354,
+    "partially-corrected-live": 355,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 964,
+    "not-yet-researched": 963,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -5714,9 +5714,11 @@
       "gap_case_ids": [
         "8f819016-faf2-4269-82a4-e713da3dc011"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        689
+      ],
+      "note": "PBS documents entry into federal custody in 1969. Contemporary Daily Iowan June 3, 1970 report explicitly documents release from Danbury in January 1970. Do not treat January 8 advance announcement of planned January 9 release as confirmed actual day. Do not turn one-year sentence into actual duration."
     },
     {
       "prisoner_id": "f8da09cd-86ac-4ec5-8f96-cbe206f8ec27",
@@ -5902,9 +5904,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        688
+        688,
+        689
       ],
-      "note": "FBI Chicago December 15, 1969 six-page daily-summary teletype, PDF pp5-7, states Satchel was released that day on $25,000 bond. Replace unsupported 1970 release year tied to charge dismissal; add actual raid custody start."
+      "note": "Additional FBI report on PDF page 58 conflicts with the December 15 daily summary: it explicitly states release December 13. Supersede batch 688 exact day with month precision; do not retain an exact duration from conflicting dates."
     },
     {
       "prisoner_id": "fc4f5f7e-3c49-4501-b539-1cad4aa374e4",
