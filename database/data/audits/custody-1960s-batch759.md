@@ -77,3 +77,7 @@ First-person Dartmouth oral history explicitly26days in Rockingham. Existing cas
 https://rcweb.dartmouth.edu/DDHI/histories/pacht_bruce/pacht_bruce_transcript_final.html
 
 Sentencing dates are not used as admission dates. Profiles and unrelated case fields preserved.
+
+## Live verification
+
+Applied 12 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

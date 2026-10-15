@@ -1,0 +1,335 @@
+{
+  "batch": 760,
+  "expected_count": 8,
+  "entries": [
+    {
+      "name": "Glenn Van Ornum",
+      "slug": "glenn-van-ornum",
+      "prisoner_id": "ef924023-f1e4-4b21-9a53-17a5c86a0378",
+      "case_id": "56e46f42-007a-49f0-b9e1-6d9836ed21b8",
+      "expected": {
+        "id": "56e46f42-007a-49f0-b9e1-6d9836ed21b8",
+        "prisoner_id": "ef924023-f1e4-4b21-9a53-17a5c86a0378",
+        "institution_id": null,
+        "charges": "Draft/conscientious-objection prosecution — exact individual count unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Documented in custody at Sandstone, Minnesota in both May–June and July–August 1968. Individual sentence length, actual time served and exact entry/release dates remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:58:30",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1967-05-03 00:00:00",
+        "charges": "Refusal of induction",
+        "convicted": "Yes",
+        "sentence": "Two-year imposed sentence, May 3, 1967. Documented in custody at Sandstone, Minnesota in May–June and July–August 1968. Actual custody admission and release dates remain unverified.",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=/images/1451/14511002032.pdf"
+      ],
+      "rationale": "Original CCCO May–June1967 page6 Court Reporter individually dates sentence May3. Visually checked. Do not infer prison admission from sentencing."
+    },
+    {
+      "name": "Bruce Beyer",
+      "slug": "bruce-beyer",
+      "prisoner_id": "7f7edc03-63be-4700-9de0-98605247b2bc",
+      "case_id": "9af504bd-3b08-44a5-babd-aa8d1fd9b8de",
+      "expected": {
+        "id": "9af504bd-3b08-44a5-babd-aa8d1fd9b8de",
+        "prisoner_id": "7f7edc03-63be-4700-9de0-98605247b2bc",
+        "institution_id": "2a811b2e-d875-488a-91d6-54cbf74c9117",
+        "charges": "Assault-related charges arising from the Buffalo Nine antiwar sanctuary protest",
+        "arrest_date": "1968-08-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes; sentence later reduced",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "John T. Curtin",
+        "sentence": "Originally three years; reduced after his 1977 return to thirty days, with nineteen days of custody in 1970 credited and eleven additional days served",
+        "imprisoned_for_days": 30,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 21:20:19",
+        "updated_at": "2026-09-23 22:31:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 30,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "1977-10-20 00:00:00",
+        "date_precision": "{\"end_of_exile\":\"day\"}"
+      },
+      "sources": [
+        "https://www.dailypublic.com/articles/10042017/bruce-beyer-reflects-50-years-activism"
+      ],
+      "rationale": "Own memoir and dated photograph explicitly identify return across Peace Bridge October20,1977. Preserve separate jail time and unknown exile start."
+    },
+    {
+      "name": "Gerry Condon",
+      "slug": "gerry-condon",
+      "prisoner_id": "25856535-a5f8-41cd-8f7a-641d0f9cf224",
+      "case_id": "4805b776-422b-4967-ae0b-44edfa8df4c7",
+      "expected": {
+        "id": "4805b776-422b-4967-ae0b-44edfa8df4c7",
+        "prisoner_id": "25856535-a5f8-41cd-8f7a-641d0f9cf224",
+        "institution_id": null,
+        "charges": "Refusal of military orders, refusal of deployment to Vietnam and desertion during court-martial proceedings.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1969-01-01 00:00:00",
+        "end_of_exile": "1975-01-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced in absentia to ten years at hard labor and a dishonorable discharge, later reduced to two years and a bad-conduct discharge; returned in 1975 and served no prison time.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 21:05:10",
+        "updated_at": "2026-09-26 21:05:10",
+        "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "1975-02-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\",\"end_of_exile\":\"month\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CHRG-94hhrg58201/pdf/CHRG-94hhrg58201.pdf#page=174"
+      ],
+      "rationale": "Own April18,1975 congressional testimony printed170 says returned beginning February. Prefer contemporary primary evidence over modern January claim. Month precision only; February1 is storage placeholder."
+    },
+    {
+      "name": "Charles Robert Jenkins",
+      "slug": "charles-robert-jenkins",
+      "prisoner_id": "259e378e-c6d7-4568-afe4-f7ec5155bb8d",
+      "case_id": "8337f185-5501-45ea-ae22-f4a45174d016",
+      "expected": {
+        "id": "8337f185-5501-45ea-ae22-f4a45174d016",
+        "prisoner_id": "259e378e-c6d7-4568-afe4-f7ec5155bb8d",
+        "institution_id": null,
+        "charges": "Desertion and aiding the enemy; additional solicitation and disloyalty counts were resolved through a plea agreement.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2004-11-03 00:00:00",
+        "incarceration_date": "2004-11-03 00:00:00",
+        "release_date": "2004-11-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1965-01-05 00:00:00",
+        "end_of_exile": "2004-07-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pleaded guilty on November 3, 2004; sentenced to 30 days, reduced to private, dishonorably discharged and released after 25 days for good behavior.",
+        "imprisoned_for_days": 25,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:58:03",
+        "updated_at": "2026-09-26 22:25:21",
+        "date_precision": "{\"end_of_exile\":\"month\",\"in_exile_since\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 25,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "2004-07-09 00:00:00",
+        "date_precision": "{\"end_of_exile\":\"day\",\"in_exile_since\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.japantimes.co.jp/news/2004/11/04/national/timeline-of-jenkins-saga/",
+        "https://www.cbsnews.com/news/emotional-reunion-in-indonesia/"
+      ],
+      "rationale": "Contemporary AP chronology dates departure from North Korea July9,2004. Refines existing July2004 event; does not reclassify as return to United States."
+    },
+    {
+      "name": "Donald Baty",
+      "slug": "donald-baty",
+      "prisoner_id": "3872ea06-3553-4a3e-ad0c-463b937448b1",
+      "case_id": "f462edee-84e8-45a9-bf17-6eac20a4aae2",
+      "expected": {
+        "id": "f462edee-84e8-45a9-bf17-6eac20a4aae2",
+        "prisoner_id": "3872ea06-3553-4a3e-ad0c-463b937448b1",
+        "institution_id": null,
+        "charges": "Refusal of induction",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1968-09-27 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Jacob Mishler",
+        "sentence": "CCCO lists Donald Baty at West Street federal detention in New York in July–August 1968 and Allenwood in November–December 1968. Four-year imposed sentence. Custody admission and release dates remain unverified. The imposed sentence is not actual time served.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:58:37",
+        "updated_at": "2026-10-15 20:04:02",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-06-13 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.digifind-it.com/elizabeth/data/newspapers/Daily%20Journal/dj1966-1991/1968/1968-07-20.pdf"
+      ],
+      "rationale": "Original AP report July20 page5 explicitly says carried from Washington Square church June13. No same-day custody admission or uninterrupted custody inferred."
+    },
+    {
+      "name": "Gary C. Hicks",
+      "slug": "gary-c-hicks",
+      "prisoner_id": "341c4f0a-4591-46c9-bc34-c928dd5488a4",
+      "case_id": "97e87e54-1392-4df8-9de2-d4b5e126ff6d",
+      "expected": {
+        "id": "97e87e54-1392-4df8-9de2-d4b5e126ff6d",
+        "prisoner_id": "341c4f0a-4591-46c9-bc34-c928dd5488a4",
+        "institution_id": null,
+        "charges": "Loitering and conduct likely to cause a breach of the peace during the Boston Army Base sit-in.",
+        "arrest_date": "1966-03-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1966-04-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Served 20 days after refusing a $20 fine; released April 19, 1966. Exact admission date is not independently established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 07:06:51",
+        "updated_at": "2026-10-14 00:00:47",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": 20
+      },
+      "sources": [
+        "https://www.thecrimson.com/article/1966/4/20/pacifist-released-from-jail-sets-draft/"
+      ],
+      "rationale": "Contemporary April20 Crimson individually names Hicks and Reed among seven released yesterday after20days. Existing narrative already records actual20days; fill missing duration field. Exact admission remains unknown."
+    },
+    {
+      "name": "David A. Reed",
+      "slug": "david-a-reed",
+      "prisoner_id": "deb7a704-917b-49d2-83af-d3737c1a0866",
+      "case_id": "5eb55ee4-86f7-4d75-a3ad-427a492dc19a",
+      "expected": {
+        "id": "5eb55ee4-86f7-4d75-a3ad-427a492dc19a",
+        "prisoner_id": "deb7a704-917b-49d2-83af-d3737c1a0866",
+        "institution_id": null,
+        "charges": "Loitering and conduct likely to cause a breach of the peace during the Boston Army Base sit-in.",
+        "arrest_date": "1966-03-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1966-04-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Served 20 days after refusing a $20 fine; released April 19, 1966. Exact admission date is not independently established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 07:06:51",
+        "updated_at": "2026-10-14 00:00:47",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": 20
+      },
+      "sources": [
+        "https://www.thecrimson.com/article/1966/4/20/pacifist-released-from-jail-sets-draft/"
+      ],
+      "rationale": "Contemporary April20 Crimson individually names Hicks and Reed among seven released yesterday after20days. Existing narrative already records actual20days; fill missing duration field. Exact admission remains unknown."
+    },
+    {
+      "name": "Mary Lucille Hamilton",
+      "slug": "mary-lucille-hamilton",
+      "prisoner_id": "9bbabe02-68a1-4cf9-ab9a-b847d9c0317d",
+      "case_id": "11702978-f936-4318-9949-521f538b7f47",
+      "expected": {
+        "id": "11702978-f936-4318-9949-521f538b7f47",
+        "prisoner_id": "9bbabe02-68a1-4cf9-ab9a-b847d9c0317d",
+        "institution_id": null,
+        "charges": "Contempt of court for refusing to answer until addressed as Miss Hamilton",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Convicted of contempt; the Alabama Supreme Court upheld the finding in September 1963.",
+        "plead": null,
+        "sentenced_date": "1963-06-25 00:00:00",
+        "incarceration_date": "1963-06-25 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Five days in jail and a $50 fine for contempt. The Alabama Supreme Court confirms that she served the five-day jail sentence. The exact release date remains unverified.",
+        "imprisoned_for_days": 5,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 19:56:34",
+        "updated_at": "2026-10-15 19:56:34",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 5,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "Convicted of contempt; upheld by the Alabama Supreme Court in September 1963, then reversed by the U.S. Supreme Court on March 30, 1964 (Hamilton v. Alabama, 376 U.S. 650)."
+      },
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/376/650/"
+      ],
+      "rationale": "Complete disposition with subsequent Supreme Court reversal. Original opinion verified. Preserve five days actually served and unknown release day."
+    }
+  ]
+}
