@@ -4,4 +4,4 @@ Stokely Carmichael: June8,1961 Jackson arrest confirmed by MDAH archive metadata
 
 Hank Adams: UW history cites contemporary Seattle Times reports September9 and13,1968. Arrest during initial September fish-ins, out on bail by13. Record all endpoints at month precision; no assumption that13was actual release day. Narrow former aggregate case to this identified event. Existing convicted flag preserved pending individual disposition research. Separate January1972 sentence found in WA Secretary of State biography p14; not merged into this pretrial term.
 
-All biographies and unrelated fields preserved. Sources and full guarded snapshots in payload. Validation pending.
+All biographies and unrelated fields preserved. Sources and full guarded snapshots in payload. Validation passed: isolated preview/apply/replay/conflict guard; live two updates, zero-change replay, full-table preservation. Both public pages HTTP200 show corrected dates and no fabricated exact counter. Evidence636-{fixture,preview,applied,replay}.txt and636-{before,after,public}.json.

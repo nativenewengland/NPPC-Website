@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 241,
-  "case_records_changed_or_added": 305,
+  "changed_profiles": 243,
+  "case_records_changed_or_added": 307,
   "status_counts": {
-    "not-yet-researched": 1114,
-    "partially-corrected-live": 241,
-    "research-incomplete": 5,
-    "reviewed-selected-case-no-change": 14,
+    "not-yet-researched": 1110,
+    "partially-corrected-live": 243,
+    "research-incomplete": 6,
+    "reviewed-selected-case-no-change": 15,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
   },
@@ -459,9 +459,9 @@
         "66395489-e69a-4ea7-a8a6-d84144b3b2b3"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Current Freedom Ride endpoints May24-July7,1961 corroborated by Jerry Mitchell reporting with Lewis recollections: https://mississippitoday.org/2020/07/20/john-lewis-stood-for-everything-that-is-good/ No selected-case date change needed. Does not claim all lifetime arrests inventoried."
     },
     {
       "prisoner_id": "9f70840e-cbde-4354-8081-7422a3daf7e4",
@@ -801,9 +801,11 @@
         "a39b584a-0e37-4884-a7a9-1f2a868078c6"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        636
+      ],
+      "note": "Archive mugshot metadata and historian Peniel Joseph establish June8 arrest. Conflicting49/53day accounts cannot establish an exact release; preserve release year1961 and remove false exact counter. Batch636 live and publicly verified; unrelated fields preserved."
     },
     {
       "prisoner_id": "e44e7d6a-268d-418e-8d50-4551a2d00532",
@@ -1945,9 +1947,11 @@
       "gap_case_ids": [
         "e6e61d35-d0d9-479d-9517-10b88ef6a4e2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        636
+      ],
+      "note": "UW cites September9 and13,1968 contemporary Seattle Times reports establishing arrest and bail within September. Replace unsupportedDecember31,1969 chronology with the identified documented episode; do not turn bail-by13 into an exact release.1972term requires separate case. Batch636 live and publicly verified; unrelated fields preserved."
     },
     {
       "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
@@ -1959,9 +1963,9 @@
       "gap_case_ids": [
         "27db21be-dd05-43fb-955d-8f5401bdd95b"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Conflict found: daughter Laura recollection says October13,1965 fish-in prisoners bailed after hours;1969trial. Existing6day1965term may conflate separate custody. https://www.ocr.org.uk/Images/490445-question-paper-unit-f984-01-using-historical-evidence-non-british-history.pdf p15; fuller account Native American Testimony. Resolve before edit."
     },
     {
       "prisoner_id": "d283306b-9e23-459f-afef-97496d7be10a",
