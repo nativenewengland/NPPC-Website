@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 456,
-  "case_records_changed_or_added": 561,
+  "changed_profiles": 458,
+  "case_records_changed_or_added": 563,
   "status_counts": {
-    "partially-corrected-live": 456,
+    "partially-corrected-live": 458,
     "reviewed-selected-case-no-change": 30,
     "research-incomplete": 38,
     "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 819
+    "not-yet-researched": 817
   },
   "decade_complete": false,
   "rows": [
@@ -4878,9 +4878,11 @@
         "aa5b557a-1b49-4d68-8824-dba7347ac3d7"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        733
+      ],
+      "note": "First-person account supports August 1967 only. Mark release month precision; do not present placeholder August 1 as known day. Existing arrest/start dates are preserved pending separate verification; uprising date is not automatically arrest date."
     },
     {
       "prisoner_id": "85af8f4f-52d6-40fd-8fbe-e8a75c6d6553",
@@ -5612,9 +5614,11 @@
       "gap_case_ids": [
         "d3c8ff4e-f241-431a-bde3-ae36d0c94712"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        733
+      ],
+      "note": "Biographical reporting places six-month imprisonment in 1972. Add year precision only; preserve existing documented six months, and leave release and arrest unresolved. Do not confuse 1969 appealed sentence with actual service."
     },
     {
       "prisoner_id": "b02daa53-367f-49a0-98b9-8a98e17dede1",

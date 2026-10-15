@@ -10,3 +10,7 @@ Blanca Canales: First-person account supports August 1967 only. Mark release mon
 https://www.peacehost.net/WhiteStar/Voces/canales.html
 
 All biography fields remain unchanged. Incarceration year is not an exact January 1 admission. Canales arrest remains unresolved; no speculative change.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
