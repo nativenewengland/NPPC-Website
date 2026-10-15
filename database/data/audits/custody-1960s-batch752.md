@@ -20,3 +20,7 @@ https://www.crmvet.org/docs/640000_fr_appeal-r.pdf
 - Joan Pleune: 1961-06-20
 
 Existing exact dates were skipped. No release date or actual custody duration inferred from a sentence. Edwards Bromberg is excluded because the petition date differs from the existing arrest date. Previous sentence and reversal research preserved.
+
+## Live verification
+
+Applied 14 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
