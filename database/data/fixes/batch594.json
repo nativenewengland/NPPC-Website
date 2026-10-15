@@ -1,0 +1,98 @@
+{
+  "batch": 594,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "697d8775-4a06-4d87-98f0-a28bb4090925",
+      "name": "Huey P. Newton",
+      "slug": "huey-p-newton",
+      "case_id": "70631393-337d-4bee-9b42-7cccb77a88a8",
+      "expected": {
+        "id": "70631393-337d-4bee-9b42-7cccb77a88a8",
+        "prisoner_id": "697d8775-4a06-4d87-98f0-a28bb4090925",
+        "institution_id": "4f2d7394-da91-41a3-8356-041730cec80d",
+        "charges": "First-degree murder of Oakland police officer John Frey",
+        "arrest_date": "1967-10-27 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1968-09-27 00:00:00",
+        "incarceration_date": "1967-10-27 00:00:00",
+        "release_date": "1970-08-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1970-08-04 00:00:00",
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two-to-fifteen years; conviction overturned on appeal; held approximately 33 months\n\nVerdict as recorded: Convicted of voluntary manslaughter, September 8, 1968; reversed by California Court of Appeal May 29, 1970; two retrials hung; charges dismissed December 1971",
+        "imprisoned_for_days": 1012,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1967-10-28 00:00:00",
+        "incarceration_date": "1967-10-28 00:00:00",
+        "release_date": "1970-08-05 00:00:00",
+        "in_exile_since": null,
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "Court opinion and PBS chronology place arrest October 28, 1967. Contemporary August 7 Crimson report and August 5 television footage establish release on bail August 5, 1970. This was release pending retrial in California, not departure into exile. Clear the erroneous exile onset copied from this release; the separate 1974-1977 exile case is preserved.",
+      "sources": [
+        "https://law.justia.com/cases/california/court-of-appeal/3d/8/359.html",
+        "https://www.pbs.org/hueypnewton/actions/actions_freehuey.html",
+        "https://www.thecrimson.com/article/1970/8/7/huey-newton-is-released-while-awaiting/?print=1",
+        "https://batv.quartexcollections.com/Documents/Detail/huey-p.-newton-freed/118"
+      ]
+    },
+    {
+      "prisoner_id": "10b25f01-08ab-4b75-bcfd-e3146186e287",
+      "name": "Mark Clark",
+      "slug": "mark-clark",
+      "case_id": "626c9bf3-287c-411f-9c9a-08e3c301c8b3",
+      "expected": {
+        "id": "626c9bf3-287c-411f-9c9a-08e3c301c8b3",
+        "prisoner_id": "10b25f01-08ab-4b75-bcfd-e3146186e287",
+        "institution_id": "8d73445d-a4a9-4b2f-9fbf-7f364b674d92",
+        "charges": "Killed in a December 4, 1969 raid by the Cook County States Attorneys office and the Chicago Police Department, conducted on FBI intelligence supplied by informant William ONeal",
+        "arrest_date": "1969-12-03 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-12-03 00:00:00",
+        "release_date": "1969-12-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Killed in the raid\n\nVerdict as recorded: No — killed before any prosecution",
+        "imprisoned_for_days": 0,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{}"
+      },
+      "rationale": "This case describes the fatal December 4, 1969 apartment raid, not a December 3 arrest, incarceration and release. National Archives distinguishes Clark and Hampton, killed in the apartment, from the seven survivors arrested afterward. Remove the false custody dates without deleting the historical event, profile, biography, or any other field. Do not convert killing during a raid into a prison death.",
+      "sources": [
+        "https://www.archives.gov/research/african-americans/individuals/fred-hampton",
+        "https://rediscovering-black-history.blogs.archives.gov/2019/12/04/fred-hampton-vanguard-revolutionary/",
+        "https://activistmarkclark.org/about-mark-clark/"
+      ]
+    }
+  ]
+}
