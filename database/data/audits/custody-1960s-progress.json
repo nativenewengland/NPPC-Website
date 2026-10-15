@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 450,
-  "case_records_changed_or_added": 554,
+  "changed_profiles": 451,
+  "case_records_changed_or_added": 555,
   "status_counts": {
-    "partially-corrected-live": 450,
+    "partially-corrected-live": 451,
     "reviewed-selected-case-no-change": 29,
     "research-incomplete": 36,
-    "researched-unresolved": 65,
+    "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 830
+    "not-yet-researched": 827
   },
   "decade_complete": false,
   "rows": [
@@ -2842,9 +2842,11 @@
       "gap_case_ids": [
         "048840dc-1ebf-434b-afc1-30fbfea9d3ba"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        728
+      ],
+      "note": "Cox memoir chapter 11 distinguishes April 16 domestic hiding from subsequent overseas departure. Remove the unsupported exact exile start and derived 14,919-day total. Retain the supported year, avoiding calendar arithmetic based on the approximate two-week narrative. Preserve all profile fields."
     },
     {
       "prisoner_id": "dfe82636-c1d7-457c-b46f-366278c7e32d",
@@ -3122,9 +3124,13 @@
       "gap_case_ids": [
         "4bda3344-6167-495e-b9e3-6c09f3420941"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "The Supreme Court opinion establishes concurrent five- and three-year sentences and the December 11, 1961 remand. It does not establish actual confinement, admission, or release. No custody endpoint or served total added. Final post-remand disposition remains unresolved.",
+      "research_sources": [
+        "https://www.law.cornell.edu/supremecourt/text/368/231",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-11-27-14-7-nat-guardian.pdf"
+      ]
     },
     {
       "prisoner_id": "936aa42b-0921-4283-93a0-5789f92978f7",
@@ -3375,9 +3381,13 @@
       "gap_case_ids": [
         "abcd9cd6-fb31-4175-972b-012a016fa6f7"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Justice Department contemporary reports confirm the December 15, 1959 verdict, concurrent 60-day sentences, and June 26, 1961 reversal/remand. None establishes actual jail service or a physical release date. Do not substitute the reversal date or sentence length for custody.",
+      "research_sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0802.pdf",
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0914.pdf"
+      ]
     },
     {
       "prisoner_id": "bb31bb7c-9abd-4e45-a91b-def5ccad2390",

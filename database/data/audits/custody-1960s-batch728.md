@@ -5,3 +5,7 @@ Cox memoir chapter 11 distinguishes April 16 domestic hiding from subsequent ove
 No exact departure day or month is supplied because the memoir is a relative chronology. The preexisting death endpoint is preserved, not newly researched.
 
 https://www.thetedkarchive.com/library/don-cox-steve-wasserman-just-another-nigger
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
