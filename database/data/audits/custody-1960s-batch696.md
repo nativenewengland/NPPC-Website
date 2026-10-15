@@ -4,3 +4,7 @@ Primary WFMT interview broadcast November 6, 1975: current Alderson imprisonment
 
 https://studsterkel.wfmt.com/programs/jane-kennedy-talks-about-her-anti-war-activism-crimes-and-experience-prison
 https://law.justia.com/cases/federal/appellate-courts/F2/528/276/178897/
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
