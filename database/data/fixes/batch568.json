@@ -1,0 +1,62 @@
+{
+  "batch": 568,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "d3862342-80d3-4fe7-99ff-e269b66db724",
+      "name": "Brenda Travis",
+      "slug": "brenda-travis",
+      "case_id": "ff9c5af4-e112-5643-bddd-86b8c41a311f",
+      "expected_cases": [
+        {
+          "id": "31bc08de-caa7-403a-a922-88084fd44a45",
+          "prisoner_id": "d3862342-80d3-4fe7-99ff-e269b66db724",
+          "institution_id": null,
+          "charges": "Sit-in / breach of peace — McComb bus-station desegregation",
+          "arrest_date": "1961-08-30 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-08-30 00:00:00",
+          "release_date": "1961-09-30 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Held after the August 30, 1961 bus-station sit-in; released on bond September 30, 1961, according to her contemporary autobiography. The later October arrest and Oakley confinement were a separate custody episode.",
+          "imprisoned_for_days": 31,
+          "in_exile_for_days": null,
+          "created_at": "2026-06-17 06:41:14",
+          "updated_at": "2026-10-15 01:21:49",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "ff9c5af4-e112-5643-bddd-86b8c41a311f",
+        "prisoner_id": "d3862342-80d3-4fe7-99ff-e269b66db724",
+        "institution_id": null,
+        "charges": "McComb school walkout and prayer protest following expulsion for civil-rights activism",
+        "arrest_date": "1961-10-04 00:00:00",
+        "incarceration_date": "1961-10-04 00:00:00",
+        "release_date": "1962-04-21 00:00:00",
+        "sentence": "Jailed following the October 4 protest and transferred to Oakley Training School on October 6, 1961. Released into a professor's custody on the Saturday before Easter 1962 (April 21), with a condition to leave Mississippi within 24 hours. This was separate from her August-September bus-station imprisonment.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "day"
+        }
+      },
+      "expected_days": 199,
+      "sources": [
+        "https://diaryofahistorian.com/2026/05/24/the-autobiography-of-brenda-lavern-travis-c-1961/",
+        "https://www.crmvet.org/nars/travisb.htm",
+        "https://www.census.gov/data/software/x13as/genhol/easter-dates.html"
+      ]
+    }
+  ]
+}
