@@ -9,4 +9,4 @@ https://newspaperarchive.com/bonham-daily-favorite-oct-11-1961-p-4/
 
 Robert Lawrence Heller: roster p545 documents nineteen days before bail. No record returned for either expected name slug; do not create a duplicate under this date review. Identity lookup remains open.
 
-Deployment pending.
+Applied live. Fixture, preview, preservation, zero-change replay and public HTTP 200 verification passed. Public counter displays 30 Days and incarceration displays August 1961. Release remains unknown.
