@@ -8,3 +8,7 @@ https://www.fbi.gov/wanted/topten/topten-history/hires_images/FBI-300-CameronDav
 https://law.justia.com/cases/federal/appellate-courts/F2/555/771/184493/
 https://www.hmflaw.com/wp-content/uploads/2022/09/Oral-History-of-Hal-Haddon.pdf
 https://www.freedomarchives.org/Documents/Finder/DOC516_scans/516.NI.071.5.13.1975.pdf
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

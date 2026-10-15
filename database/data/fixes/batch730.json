@@ -1,0 +1,54 @@
+{
+  "batch": 730,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Ralph W. Allen",
+      "slug": "ralph-w-allen",
+      "prisoner_id": "bd266cd8-4868-424f-9a26-d444a07d9c46",
+      "case_id": "c8679244-09ae-4044-adc8-96291cebb6ec",
+      "expected": {
+        "id": "c8679244-09ae-4044-adc8-96291cebb6ec",
+        "prisoner_id": "bd266cd8-4868-424f-9a26-d444a07d9c46",
+        "institution_id": null,
+        "charges": "Capital seditious conspiracy (Georgia), from the August 8, 1963 Americus demonstration — the capital charge was used to deny bail; also assault with intent to murder, on which an all-white jury convicted him November 6, 1963.",
+        "arrest_date": "1963-08-08 00:00:00",
+        "indicted": null,
+        "convicted": "The seditious-conspiracy charge was invalidated by a federal panel; convicted November 6, 1963 of assault with intent to murder, two years imposed pending appeal",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1963-08-08 00:00:00",
+        "release_date": "1963-11-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held without bail from August 8 to November 1, 1963 — approximately three months — until a three-judge federal panel invalidated the capital charge. The November 6 conviction carried two years pending appeal; whether he served it is not established in the catalog, so no further custody is entered.",
+        "imprisoned_for_days": 85,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1963-12-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"month\"}",
+        "charges": "Attempting to incite insurrection under Georgia law, arising from the August 8, 1963 Americus demonstration; also assault with intent to murder.",
+        "convicted": "The insurrection charge was invalidated by a federal panel. Convicted of assault with intent to murder in December 1963; judgment reversed by the Georgia Court of Appeals on July 7, 1964.",
+        "sentence": "Held without bail from August 8 to November 1, 1963. A two-year sentence followed the December 1963 assault conviction. The Georgia Court of Appeals reversed the judgment on July 7, 1964 because of racial exclusion from jury service and other trial errors. The assault charges were subsequently dropped, as reported by SNCC on December 5, 1964. Further custody following the initial detention remains unverified; the sentence is not counted as time served."
+      },
+      "rationale": "Multiple contemporary reports place sentencing in December 1963, contradicting existing November 6 case prose. Exact day disputed: SNCC December 11, News and Letters December 5, other bulletin December 10; record month only. Primary court establishes July 7, 1964 reversal (not July 9 or Supreme Court as some SNCC summaries say). Retain verified initial custody and do not infer additional custody from sentence. Preserve profile biography; its contradictory November 6 wording remains flagged.",
+      "sources": [
+        "https://www.crmvet.org/docs/pr/641127_sncc_pr_misc2.pdf",
+        "https://www.crmvet.org/docs/650000_sncc_americus.pdf",
+        "https://www.marxists.org/history/etol/newspape/news-and-letters/1960s/1963-12.pdf",
+        "https://law.justia.com/cases/georgia/court-of-appeals/1964/40728-0.html",
+        "https://www.crmvet.org/docs/pr/641205_sncc_pr_americus.pdf"
+      ]
+    }
+  ]
+}

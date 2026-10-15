@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 451,
-  "case_records_changed_or_added": 555,
+  "changed_profiles": 452,
+  "case_records_changed_or_added": 557,
   "status_counts": {
-    "partially-corrected-live": 451,
+    "partially-corrected-live": 452,
     "reviewed-selected-case-no-change": 29,
     "research-incomplete": 36,
     "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 827
+    "not-yet-researched": 826
   },
   "decade_complete": false,
   "rows": [
@@ -2717,9 +2717,11 @@
         "d3a15822-0106-4e96-89dc-250c4ae3421b",
         "bac7a102-ae74-41a6-b164-3d2f372faf3c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        729
+      ],
+      "note": "FBI and contemporary family letter independently establish March 12 arrest. Court ordered dismissal, not reduced charges. Attorney describes appeal bond and no service of prison sentence. Clear unsupported sentencing-as-incarceration start; do not equate arrest with a verified detention interval. Preserve biography and all unrelated fields. Both existing case records retained; possible duplicate flagged for separate review. FBI and contemporary family letter independently establish March 12 arrest. Court ordered dismissal, not reduced charges. Attorney describes appeal bond and no service of prison sentence. Clear unsupported sentencing-as-incarceration start; do not equate arrest with a verified detention interval. Preserve biography and all unrelated fields. Both existing case records retained; possible duplicate flagged for separate review."
     },
     {
       "prisoner_id": "4ddfe80b-5e19-4de1-8987-d7ac0bafb4ed",
