@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 234,
-  "case_records_changed_or_added": 298,
+  "changed_profiles": 236,
+  "case_records_changed_or_added": 300,
   "status_counts": {
-    "not-yet-researched": 1117,
-    "partially-corrected-live": 234,
+    "not-yet-researched": 1115,
+    "partially-corrected-live": 236,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
@@ -7990,9 +7990,11 @@
         "d5a9ef34-2b7a-4da9-b893-33f8d000e132",
         "87af5d27-f0d3-42e9-8c06-3a5bd2f31baa"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        633
+      ],
+      "note": "Refine the existing 1964 work-camp case to the individually documented February-May term. Preserve five-arrest context; do not count January through May as continuous custody or use the four-month sentence as actual time served. Affidavit has an internal weekday/date discrepancy for an April transfer; that disputed transfer is not used. Applied and publicly verified in batch633."
     },
     {
       "prisoner_id": "72449ac4-e783-4842-833a-0f157a573eb1",
@@ -11462,9 +11464,11 @@
       "gap_case_ids": [
         "ff887110-a861-43a5-8729-e9fb3b26ec2b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        633
+      ],
+      "note": "June detention follows June 2 arrest and June 5 conviction, established in habeas proceedings; do not turn the decision date into a release date. Preserve conflicting sentence accounts explicitly. Applied and publicly verified in batch633."
     },
     {
       "prisoner_id": "e6e404c5-1293-40cb-8ce8-6317cbc4d48d",

@@ -31,4 +31,4 @@ Refine the existing 1964 work-camp case to the individually documented February-
 https://www.crmvet.org/nars/aff/mbp_ps.htm
 https://crdl.usg.edu/people/stoner_peter_harry
 
-Full case snapshots guarded. All biographies and unrelated fields preserved. Live deployment pending.
+Full case snapshots guarded. All biographies and unrelated fields preserved. Applied live. Isolated fixture, preview, all-record preservation, replay and public HTTP verification passed. Stoner counter: 3 Months 15 Days / 105 days; Wyckoff correctly retains no counter without a verified endpoint.
