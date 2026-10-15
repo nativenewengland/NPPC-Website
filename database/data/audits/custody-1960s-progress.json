@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 352,
-  "case_records_changed_or_added": 437,
+  "changed_profiles": 354,
+  "case_records_changed_or_added": 439,
   "status_counts": {
-    "partially-corrected-live": 352,
+    "partially-corrected-live": 354,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 966,
+    "not-yet-researched": 964,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -5642,9 +5642,11 @@
       "gap_case_ids": [
         "0236524a-797f-4e99-ad90-6ab48b21009b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        688
+      ],
+      "note": "December 15 FBI teletype expressly identifies Deborah Johnson as already out of custody. Combined with December 4 detention this establishes December 1969 release month, not an exact day."
     },
     {
       "prisoner_id": "b806349c-d32a-46e8-a37f-0266070eeb45",
@@ -5898,9 +5900,11 @@
       "gap_case_ids": [
         "2d6a3f9d-376b-4745-82da-90b1036a10ac"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        688
+      ],
+      "note": "FBI Chicago December 15, 1969 six-page daily-summary teletype, PDF pp5-7, states Satchel was released that day on $25,000 bond. Replace unsupported 1970 release year tied to charge dismissal; add actual raid custody start."
     },
     {
       "prisoner_id": "fc4f5f7e-3c49-4501-b539-1cad4aa374e4",

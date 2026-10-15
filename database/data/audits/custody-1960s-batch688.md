@@ -15,3 +15,7 @@ December 15 FBI teletype expressly identifies Deborah Johnson as already out of 
 - https://vault.fbi.gov/Fred%20Hampton/Fred%20Hampton%20Part%2001/at_download/file#page=7
 
 Header PDF p5 is December 15; narrative p7 calls December 16 next, independently anchoring the report date. Release from criminal custody is distinguished from hospital care and subsequent case dismissal. Bios unchanged.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
