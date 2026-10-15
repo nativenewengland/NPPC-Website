@@ -1,0 +1,47 @@
+{
+  "batch": 671,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Daniel Hamm",
+      "slug": "daniel-hamm",
+      "prisoner_id": "c883fb80-5ea6-4304-93dc-25f7aa790b14",
+      "case_id": "11deb5fe-a790-47eb-8a4e-2d05d2ec1aaf",
+      "expected": {
+        "id": "11deb5fe-a790-47eb-8a4e-2d05d2ec1aaf",
+        "prisoner_id": "c883fb80-5ea6-4304-93dc-25f7aa790b14",
+        "institution_id": null,
+        "charges": "First-degree murder of Margit Sugar (April 29, 1964 Harlem clothing-store killing).",
+        "arrest_date": "1964-05-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1965-04-08 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1974-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 21:04:48",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Originally sentenced to life imprisonment. Resentenced on May 11, 1971: 10-20 years for first-degree manslaughter, consecutive to 5-15 years for first-degree attempted murder; a 5-15-year attempted-robbery term ran concurrently with the attempted-murder term. Combined sentence: 15-35 years. A planned December 14, 1972 parole release was rescinded before release. Released on parole in 1974; the exact release date remains unverified."
+      },
+      "rationale": "Appellate opinion supplies the subsequent sentence and distinguishes cancelled proposed parole from actual release. Preserve original sentencing date and release-year precision; do not infer exact custody endpoints.",
+      "sources": [
+        "https://calculators.law/caselaw/decisions/2XO3KLMKkNgz/hamm-v-regan",
+        "https://law.justia.com/cases/new-york/court-of-appeals/1974/34-n-y-2d-992-2.html"
+      ]
+    }
+  ]
+}
