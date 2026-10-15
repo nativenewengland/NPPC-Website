@@ -1,0 +1,136 @@
+{
+  "batch": 775,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "David Goldberg",
+      "slug": "david-goldberg",
+      "prisoner_id": "696c2ee1-c56f-4044-96e3-bfce6eb9fc93",
+      "case_id": "a888580f-e2c0-48e7-9c91-695734480845",
+      "expected": {
+        "id": "a888580f-e2c0-48e7-9c91-695734480845",
+        "prisoner_id": "696c2ee1-c56f-4044-96e3-bfce6eb9fc93",
+        "institution_id": null,
+        "charges": "Draft/conscientious-objection prosecution - individual statutory count unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Listed in custody at Danbury, Connecticut in September-October 1969 and at Danbury, Connecticut in the second quarter of 1970. Exact sentence, custody endpoints and actual time served remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:59:22",
+        "updated_at": "2026-09-14 02:59:22",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-06-16 00:00:00",
+        "release_date": "1971-01-11 00:00:00",
+        "sentenced_date": "1969-06-16 00:00:00",
+        "sentence": "Two years imposed June 16, 1969. In custody from June 16, 1969 to January 11, 1971, as documented in his statement reprinted in the Congressional Record.",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt15/pdf/GPO-CRECB-1971-pt15-1-3.pdf",
+        "https://engagedscholarship.csuohio.edu/crohc000/764/"
+      ],
+      "rationale": "Congressional Record June 10, 1971, printed page 19411 (PDF page 44), gives the explicit custody endpoints. His oral history independently confirms sentencing June 16, 1969 and immediate transfer to Norfolk County Jail. Do not use the inconsistent year in the statement heading to override its explicit custody interval."
+    },
+    {
+      "name": "Emily Harris",
+      "slug": "emily-harris",
+      "prisoner_id": "b6c41cc4-72b4-421e-beef-8c7b088fe55a",
+      "case_id": "c5c5faf7-47bb-400e-9d62-b7ab051c68a4",
+      "expected": {
+        "id": "c5c5faf7-47bb-400e-9d62-b7ab051c68a4",
+        "prisoner_id": "b6c41cc4-72b4-421e-beef-8c7b088fe55a",
+        "institution_id": "e972d6b6-35d5-47f1-840f-aa9c6ee00558",
+        "charges": "Kidnapping; murder; bank robbery; weapons and explosives possession (Symbionese Liberation Army prosecutions, 1973–2003)",
+        "arrest_date": "1975-09-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1975-09-17 00:00:00",
+        "release_date": "1983-05-26 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Eight years (kidnapping); eight additional years for 2003 Opsahl plea",
+        "imprisoned_for_days": 2808,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-20 05:27:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1975-09-18 00:00:00",
+        "incarceration_date": "1975-09-18 00:00:00",
+        "release_date": "1983-05-27 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://archives.fbi.gov/archives/news/pressrel/press-releases/arrest-of-james-william-kilgore",
+        "https://www.upi.com/Archives/1983/05/27/Emily-Harris-former-SLA-soldier-goes-free/7781422856000/"
+      ],
+      "rationale": "FBI names Emily among those arrested September 18, 1975. Contemporary UPI May 27, 1983 reports her physical departure at 12:14 a.m. PDT that Friday. Correct both one-day-early endpoints. Later 2003 custody remains outside this interval and unresolved."
+    },
+    {
+      "name": "Francis Kroncke",
+      "slug": "francis-kroncke",
+      "prisoner_id": "6d37d870-e3b5-41b2-9c78-ca79d7649946",
+      "case_id": "83cdb040-ef66-44be-a428-753aebdc6342",
+      "expected": {
+        "id": "83cdb040-ef66-44be-a428-753aebdc6342",
+        "prisoner_id": "6d37d870-e3b5-41b2-9c78-ca79d7649946",
+        "institution_id": null,
+        "charges": "Interfering with the Selective Service System (the July 1970 Minnesota draft-board raids).",
+        "arrest_date": "1970-07-10 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1973-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Convicted; most sentenced to five years and released July 1973.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 08:46:00",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1971-03-12 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.mnhs.org/mnopedia/search/index/group/minnesota-eight"
+      ],
+      "rationale": "Minnesota Historical Society chronology explicitly dates Kroncke and Therriault sentencing March 12, 1971. Sentencing alone does not establish incarceration admission; preserve unknown admission."
+    }
+  ]
+}
