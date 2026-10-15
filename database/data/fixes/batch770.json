@@ -1,0 +1,108 @@
+{
+  "batch": 770,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Landy McNair Jr.",
+      "slug": "landy-mcnair-jr",
+      "prisoner_id": "51c100b8-5273-4f02-b68d-4ebc0a302e5e",
+      "case_id": "f833a515-8ea0-47e6-a4ea-f551b0de5494",
+      "expected_cases": [
+        {
+          "id": "0c6e7c5b-a68d-48a0-8951-782007653c58",
+          "prisoner_id": "51c100b8-5273-4f02-b68d-4ebc0a302e5e",
+          "institution_id": null,
+          "charges": "Sit-in at the Jackson Greyhound terminal, July 6, 1961; CRDL Date of Original field says July 7 (likely processing date) — flagged.",
+          "arrest_date": "1961-07-06 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested 1961-07-06. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-02 22:50:53",
+          "updated_at": "2026-08-02 22:50:53",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "arrest_date": "1963-05-03 00:00:00",
+        "incarceration_date": "1963-05-03 00:00:00",
+        "release_date": "1963-05-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "charges": "Breach of the peace while accompanying the William Moore memorial march in Alabama",
+        "sentence": "Arrested May 3, 1963 after crossing the Georgia-Alabama border while accompanying the William Moore memorial march. Released from jail on $300 bond on May 4. The subsequent court disposition is unverified. This is separate from his 1961 Freedom Ride arrest."
+      },
+      "sources": [
+        "https://www.justice.gov/d9/crt/legacy/2011/06/14/119-ua-newspaper-part11.pdf",
+        "https://www.crmvet.org/docs/sv/630503_sncc_newsletter.pdf"
+      ],
+      "rationale": "NYT May6,1963 UPI dispatch dated FtPayne May5, original PDFpage16 visually verified: names McNair and Forman arrested Friday, released last night. May3-May4 exact. Existing1961case preserved.",
+      "expected_days": 1
+    },
+    {
+      "name": "Pablo \"Yoruba\" Guzmán",
+      "slug": "pablo-yoruba-guzman",
+      "prisoner_id": "b02daa53-367f-49a0-98b9-8a98e17dede1",
+      "case_id": "b348eb71-e173-444e-b11b-acf376d285bf",
+      "expected_cases": [
+        {
+          "id": "82dc1a7e-4528-4ad0-95d7-e07d6066b1b6",
+          "prisoner_id": "b02daa53-367f-49a0-98b9-8a98e17dede1",
+          "institution_id": null,
+          "charges": "Arrests in Young Lords direct actions (New York City, 1969–70)",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "Various; served short jail time",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Short terms",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-06-22 13:48:10",
+          "updated_at": "2026-06-22 13:48:10",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "incarceration_date": "1973-05-30 00:00:00",
+        "sentenced_date": "1973-05-30 00:00:00",
+        "release_date": "1974-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": 9,
+        "charges": "Federal draft-law violations",
+        "convicted": "Convicted; two concurrent two-year terms imposed",
+        "judge": "Charles M. Metzner",
+        "sentence": "Began serving two concurrent two-year federal sentences on May 30, 1973. Guzman later recalled serving nine months in 1973-74, including initial confinement in several institutions and imprisonment at Tallahassee. The precise release day and month remain unverified; 1974 is year precision. This is separate from his 1969-70 Young Lords arrests."
+      },
+      "sources": [
+        "https://medium.com/@yoruba69/mi-libro-f895f07f7cdb",
+        "https://medium.com/@yoruba69/brother-ray-a6d2bdfa9f96",
+        "https://www.govinfo.gov/content/pkg/CPRT-94SPRT66094/pdf/CPRT-94SPRT66094.pdf"
+      ],
+      "rationale": "First-person Mi Libro explicitly immediate sentence and handcuffing May30,1973; Senate report p8 corroborates final sentencing. Brother Ray reports nine months actually served in1973-74. Month total is documented, release day/month not inferred. Expected numeric days follow application Carbon month arithmetic, not a claimed endpoint.",
+      "expected_days": 276
+    }
+  ]
+}

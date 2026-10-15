@@ -1,0 +1,130 @@
+{
+  "batch": 769,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "James Gilbert",
+      "slug": "james-gilbert",
+      "prisoner_id": "48ee1137-4bd3-4186-b150-6f52323b6040",
+      "case_id": "b81e5f6f-c8c3-479f-90e0-f333691339b7",
+      "expected": {
+        "id": "b81e5f6f-c8c3-479f-90e0-f333691339b7",
+        "prisoner_id": "48ee1137-4bd3-4186-b150-6f52323b6040",
+        "institution_id": null,
+        "charges": "Disobedience of military orders in conscientious resistance",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The Civil Liberties Docket reports a 30-day sentence in December1965 and a six-month hard-labor sentence in January1966 following refusal of prisoner rehabilitation classes. A December1966 Berkeley Barb interview confirms isolation in the Treasure Island brig, transfer to another stockade, and subsequent discharge. Actual time served and the release date remain unknown.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 04:21:25",
+        "updated_at": "2026-09-14 04:21:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1965-12-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/222225/files/meik-11_2.pdf"
+      ],
+      "rationale": "Civil Liberties Docket May1966 item125.11, PDF page68 (zero67), explicitly dates arrest December10,1965 after refusal to remove peace insignia and jacket. Original indexed text verified. No custody endpoint or sentence-derived duration inferred."
+    },
+    {
+      "name": "Bernon F. Mitchell",
+      "slug": "bernon-f-mitchell",
+      "prisoner_id": "1f95ba65-08bc-49ab-9147-b39d84432e47",
+      "case_id": "19807aaa-1ff0-4e65-93d3-5bfff0b11c8b",
+      "expected": {
+        "id": "19807aaa-1ff0-4e65-93d3-5bfff0b11c8b",
+        "prisoner_id": "1f95ba65-08bc-49ab-9147-b39d84432e47",
+        "institution_id": null,
+        "charges": "Later indicted for disclosing classified National Security Agency information; no pending charge located before departure.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1960-06-01 00:00:00",
+        "end_of_exile": "2001-01-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Defected through Mexico and Cuba, publicly announced the defection in Moscow, and remained in the Soviet Union and Russia.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 19:19:46",
+        "updated_at": "2026-09-26 19:19:46",
+        "date_precision": "{\"in_exile_since\":\"month\",\"end_of_exile\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "2001-11-12 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"month\",\"end_of_exile\":\"day\"}"
+      },
+      "sources": [
+        "https://media.defense.gov/2021/Jun/29/2002752010/-1/-1/0/UPDATE_TO_MARTIN_AND_MITCHELL_ARTICLE.PDF"
+      ],
+      "rationale": "Official NSA update reports November12,2001 death based on American consul message citing his wife. Refines existing death-based exile endpoint from year to day."
+    },
+    {
+      "name": "Lowell Skinner",
+      "slug": "lowell-skinner",
+      "prisoner_id": "cd310bd7-e71d-4ffc-bfc2-5d1b447be7c3",
+      "case_id": "ec921def-c8dd-4a51-8b4d-440b182ced72",
+      "expected": {
+        "id": "ec921def-c8dd-4a51-8b4d-440b182ced72",
+        "prisoner_id": "cd310bd7-e71d-4ffc-bfc2-5d1b447be7c3",
+        "institution_id": null,
+        "charges": "Declined repatriation to the United States after captivity in the Korean War; no criminal conviction resulted from that decision.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1954-02-24 00:00:00",
+        "end_of_exile": "1963-01-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Dishonorably discharged by the U.S. Army after refusing repatriation and permitted to leave the neutral custody area for China.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:58:03",
+        "updated_at": "2026-09-26 20:58:03",
+        "date_precision": "{\"in_exile_since\":\"day\",\"end_of_exile\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "end_of_exile": "1963-08-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"day\",\"end_of_exile\":\"month\"}"
+      },
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042470/1963-08-31/ed-1/seq-2/ocr/",
+        "https://ufdcimages.uflib.ufl.edu/AA/00/06/15/88/02166/08-17-1963.pdf"
+      ],
+      "rationale": "AP Oregon Statesman August31,1963 p2 says Skinner returned earlier this month. UPI Hourglass August17 p3 interviews him in Akron. August1 is month placeholder, not an exact return date."
+    }
+  ]
+}
