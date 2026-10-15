@@ -6,4 +6,4 @@ Felix Singer: Contemporaneous Shilman interview places Felix Singer in Parchman 
 
 Miriam Feingold: 2020 first-person oral history pp28–29 explicitly describes staying40days and leaving with Judy Frieze; p22 reproduces/reads sentence slip. 2012 interview likewise reports40days before bail; APR review of Hollars corroborates40. Replace unsupported31-day total with source-reported40; do not back-calculate an exact release date or mistake projected December29 discharge for actual release.
 
-All biographies and unrelated fields preserved. Live validation pending.
+All biographies and unrelated fields preserved. Validation passed: fixture, live preview, 3 applied updates, unrelated-field preservation, zero-change replay, public HTTP 200 for all three. Shilman shows22Days, Feingold40days displayed1Month10Days, Singer June1961 month precision.

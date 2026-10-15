@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 282,
-  "case_records_changed_or_added": 358,
+  "changed_profiles": 284,
+  "case_records_changed_or_added": 361,
   "status_counts": {
-    "partially-corrected-live": 282,
+    "partially-corrected-live": 284,
     "reviewed-selected-case-no-change": 21,
-    "not-yet-researched": 1064,
+    "not-yet-researched": 1061,
     "research-incomplete": 6,
-    "researched-unresolved": 40,
+    "researched-unresolved": 41,
     "outside-decade-statute-match": 14
   },
   "decade_complete": false,
@@ -4215,9 +4215,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        658
+        658,
+        659
       ],
-      "note": "Swarthmore oral-history transcript p8 captions her June21,1961 arrest; her first-person account describes immediate Jackson booking and continuing prison custody. Release remains unresolved; 2012 interview generalizes 40 days whereas current record carries31. Preserve existing total pending original jail records; do not calculate a release day."
+      "note": "2020 first-person oral history pp28–29 explicitly describes staying40days and leaving with Judy Frieze; p22 reproduces/reads sentence slip. 2012 interview likewise reports40days before bail; APR review of Hollars corroborates40. Replace unsupported31-day total with source-reported40; do not back-calculate an exact release date or mistake projected December29 discharge for actual release."
     },
     {
       "prisoner_id": "9bd23533-42dd-4501-a54a-24049f1c73f5",
@@ -4229,9 +4230,11 @@
       "gap_case_ids": [
         "f5a74c75-dde4-4db9-b8ad-d4e6946ae69b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        659
+      ],
+      "note": "Contemporaneous Shilman interview places Felix Singer in Parchman during June1961. Fertig identifies Singer in June2 ride. Record June incarceration at month precision only; no exact intake or release day inferred."
     },
     {
       "prisoner_id": "d0793c5a-4106-4085-b38b-9903da9416f5",
@@ -8898,9 +8901,12 @@
       "gap_case_ids": [
         "ffa36b68-9489-460d-85fe-cd473bdfc886"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "CORE-Lator June1961 p1 explicitly confirms Newell Weber jailed and hunger-striking from June6 arrest; current case already has that start. No individual release date established. Do not infer discharge from group bail dates.",
+      "sources": [
+        "https://www.crmvet.org/docs/core/core6106.pdf"
+      ]
     },
     {
       "prisoner_id": "221dc582-d752-4acc-b105-1286ca2b60fe",
@@ -9631,9 +9637,11 @@
       "gap_case_ids": [
         "03b976c3-48cf-4caf-979f-2f53c97774e8"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        659
+      ],
+      "note": "Daily Iowan June27,1961 p3 contemporary interview names Kenneth Shilman,18,Oceanside, reports three weeks imprisonment, and says released Saturday. Calendar resolves Saturday to June24. Existing June2 arrest matches approximately three-week custody; add custody start and exact discharge. Visual scan checked."
     },
     {
       "prisoner_id": "94b55588-020c-4d36-903c-60fe005e5508",
