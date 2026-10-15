@@ -3,10 +3,10 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 249,
-  "case_records_changed_or_added": 320,
+  "changed_profiles": 250,
+  "case_records_changed_or_added": 322,
   "status_counts": {
-    "partially-corrected-live": 249,
+    "partially-corrected-live": 250,
     "reviewed-selected-case-no-change": 16,
     "not-yet-researched": 1104,
     "research-incomplete": 5,
@@ -20,16 +20,18 @@
       "name": "William Lee Brent",
       "slug": "william-lee-brent",
       "case_ids": [
-        "71275a35-b71c-4e80-96d6-303e6513219e"
+        "71275a35-b71c-4e80-96d6-303e6513219e",
+        "a1a7df34-ce79-5586-8358-a6602d5d54eb"
       ],
       "gap_case_ids": [
         "71275a35-b71c-4e80-96d6-303e6513219e"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        643
+        643,
+        644
       ],
-      "note": "Corrected false draft-evasion/MCC Chicago attribution: existing22months describe Cuban immigration detention from June17,1969; exact release unresolved. Exile dates now documented. Separate1968U.S.detention follows in644."
+      "note": "Added verified November 19, 1968 city-jail detention from original archival photo metadata; release and filed-charge details unresolved. Existing cases and profile fields preserved."
     },
     {
       "prisoner_id": "5fb150e8-e0ba-4baf-957a-8ef31d8496ab",
@@ -20351,6 +20353,20 @@
       ],
       "status": "partially-corrected-live",
       "note": "Batch635 live verified: December16,1966 arrest;1967 custody year;September5,1967 sentencing;1976 actual release year.1972 acquittal did not end imprisonment. Exact admission/release remain unresolved. Biography and death-date inconsistencies flagged, preserved."
+    },
+    {
+      "prisoner_id": "dc9d8564-bd7e-4d21-8fbd-48079b931f7c",
+      "name": "Richard Brown",
+      "slug": "richard-brown",
+      "case_ids": [
+        "7a736d22-8b57-5a08-87d4-692a40b5b4dd"
+      ],
+      "gap_case_ids": [],
+      "status": "partially-corrected-live",
+      "batches": [
+        644
+      ],
+      "note": "Added verified November 19, 1968 city-jail detention from original archival photo metadata; release and filed-charge details unresolved. Existing cases and profile fields preserved."
     }
   ],
   "additional_profiles_outside_initial_inventory": 2
