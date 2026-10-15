@@ -15,3 +15,7 @@ Memorial newspaper page 5 explicitly dates imprisonment on the 1969 charges to J
 - https://acemla.com/composers/juan-antonio-corretjer/
 
 Only selected dates and their precision change. Biographies, sentences, other cases and unknown release dates are preserved. Day 1 values represent month precision, not an asserted first-of-month event. Thornwell Congressional Record pp. 3749–3750 corroborates confinement by June 1961 but does not establish its endpoint. Corretjer source explicitly links June 1971 custody to 1969 charges; the case remains within the arrest-decade review. Consuelo has an existing 1969 custody assertion requiring further reconciliation before changes.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
