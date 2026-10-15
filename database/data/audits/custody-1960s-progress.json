@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 476,
-  "case_records_changed_or_added": 585,
+  "changed_profiles": 477,
+  "case_records_changed_or_added": 586,
   "status_counts": {
-    "partially-corrected-live": 476,
+    "partially-corrected-live": 477,
     "reviewed-selected-case-no-change": 31,
     "research-incomplete": 39,
-    "researched-unresolved": 73,
+    "researched-unresolved": 75,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 791
+    "not-yet-researched": 788
   },
   "decade_complete": false,
   "rows": [
@@ -6032,9 +6032,14 @@
       "gap_case_ids": [
         "2f8a7a41-930d-42ff-bb6a-b18249f31e87"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Congressional Record February 17, 1971 pages 2757-2758 reproduces New Yorker reporting: July 16 shooting, arrest and guarded hospital admission. Same account quotes Panther August report giving July 17; later sources also give July 14. Existing July 1969 month precision retained pending original booking evidence. September 20 Panther issue reportedly gives September 6 death, conflicting with current September 4 endpoint; no guessed replacement. Existing release field denotes death, not freedom; model handling needs separate verification.",
+      "sources": [
+        "https://www.congress.gov/92/crecb/1971/02/17/GPO-CRECB-1971-pt3-1-1.pdf",
+        "https://washingtonareaspark.com/wp-content/uploads/2022/03/1975-fred-hampton-vol-1-no-1.pdf",
+        "https://www.scribd.com/document/981865219/The-Black-Panther-09-20-1969"
+      ]
     },
     {
       "prisoner_id": "4779a5de-d259-4151-bb49-b2242a47c5dc",
@@ -6125,9 +6130,11 @@
       "gap_case_ids": [
         "f98fff95-341e-4dfc-902e-5e38425e53a7"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        745
+      ],
+      "note": "Arnold H. Lubasch, New York Times September 11, 1975, page 47, transcribed by Victims of the State, explicitly reports police seized Barber December 19, 1965. Refines existing year-only arrest and custody start. Existing 1975 year-only release is retained but not independently verified: contemporaneous article gives a conditional release-or-retrial order, not physical discharge; Rosenbaum NYU law review page 811 cites January 9, 1976 dismissal certificate. Neither reversal nor dismissal is substituted for release."
     },
     {
       "prisoner_id": "d270886b-e21f-465b-b5db-f0495a3e3ccb",
@@ -6689,9 +6696,14 @@
       "gap_case_ids": [
         "69200be7-aee3-4a8c-8067-57208d3a160d"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Tenth Circuit June 13, 1969 confirms civil contempt custody and requires release when grand jury ends but does not date actual discharge. CSU Transition May 2 and Black Panther August 23 (reporting August 8 rally) corroborate continued confinement, not release. April 3 start already present; no scheduled grand-jury expiry or later testimony substituted for release.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/59149914add7b0493460f0b3",
+        "https://api.mountainscholar.org/server/api/core/bitstreams/3bd96006-4453-41ae-990c-b28aeec1bcb3/content",
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-08-23-black-panther-vol-3-no-18.pdf"
+      ]
     },
     {
       "prisoner_id": "3415da32-f1f9-4ae8-a6bd-a8bbabb3e268",

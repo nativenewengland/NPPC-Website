@@ -6,3 +6,7 @@ Arnold H. Lubasch, New York Times September 11, 1975, page 47, transcribed by Vi
 - https://socialchangenyu.com/wp-content/uploads/2017/12/Marty-I.-Rosenbaum_RLSC_18.3.pdf
 
 Biography, existing sentencing and release fields preserved; no exact counter claimed. The actual release endpoint remains a research question.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
