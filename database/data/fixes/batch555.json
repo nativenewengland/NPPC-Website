@@ -1,0 +1,48 @@
+{
+  "batch": 555,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "ee8fd667-e2ba-47ed-a069-ac3528d9f105",
+      "name": "Jamal Joseph",
+      "slug": "jamal-joseph",
+      "case_id": "f761d146-1ac5-4060-b089-f8f150c7d329",
+      "expected": {
+        "id": "f761d146-1ac5-4060-b089-f8f150c7d329",
+        "prisoner_id": "ee8fd667-e2ba-47ed-a069-ac3528d9f105",
+        "institution_id": null,
+        "charges": "Panther 21 conspiracy prosecution",
+        "arrest_date": "1969-04-02 00:00:00",
+        "indicted": null,
+        "convicted": "No; youth case separated and the prosecution did not produce a conviction",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Rikers Island until supporters posted bail in March 1970; the exact release day has not been established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 18:43:45",
+        "updated_at": "2026-09-26 18:43:45",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1970-02-01 00:00:00",
+        "sentence": "Held after the April 2, 1969 Panther 21 arrest until release on bail in February 1970, as recalled in his memoir. The exact release day is not established; later custody is separate."
+      },
+      "sources": [
+        "https://www.bannedthought.net/USA/BPP/jamal_joseph-panther_baby-algonquin_books_2012_.pdf#page=89",
+        "https://www.2pac.com/story/birthday-hymn-for-afeni/"
+      ],
+      "rationale": "First-person memoir explicitly says release occurred February 1970, contradicting March in current sentence and derivative group summaries. Existing release precision already month; populate month without inventing day. His later 1982-1987 case remains untouched."
+    }
+  ]
+}
