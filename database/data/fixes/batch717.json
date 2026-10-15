@@ -1,0 +1,49 @@
+{
+  "batch": 717,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Diamond Kimm",
+      "slug": "diamond-kimm",
+      "prisoner_id": "ca60d02a-9a8e-4300-a81b-c523a5a23df1",
+      "case_id": "1e79f6fc-e3a8-4961-91d1-bf1f194b1d65",
+      "expected": {
+        "id": "1e79f6fc-e3a8-4961-91d1-bf1f194b1d65",
+        "prisoner_id": "ca60d02a-9a8e-4300-a81b-c523a5a23df1",
+        "institution_id": null,
+        "charges": "Civil deportation proceeding for remaining after expiration of student status",
+        "arrest_date": "1950-06-16 00:00:00",
+        "indicted": null,
+        "convicted": "Deportation order affirmed in 1959; Supreme Court denied relief June 13, 1960",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested for deportation on June 16, 1950; exact release date unresolved. Deported to North Korea in 1962.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:20:47",
+        "updated_at": "2026-09-26 20:54:21",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1962-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"in_exile_since\":\"month\"}",
+        "sentence": "Arrested for deportation on June 16, 1950; the detention and release dates remain unresolved. Left the United States in January 1962 under deportation proceedings, traveling through Czechoslovakia toward North Korea. The departure month is documented by archival scholarship; the exact day and endpoint of exile are not established."
+      },
+      "rationale": "Archival research dates Kimm and Fania Goorwitch-Bernstein’s departure from the United States to January 1962. Add month-level exile start only. Do not substitute the May 1961 visa approval or the January 24 correspondence date for the departure day. Later death/exile endpoint remains unverified.",
+      "sources": [
+        "https://www.researchgate.net/publication/318003326_Political_Migration_of_Korean_Activists_Through_Czechoslovakia_in_the_Post_World_War_2_Period",
+        "https://www.honorfirst.com/uploads/4/7/0/8/47087249/1962_ins_annual_report.pdf"
+      ]
+    }
+  ]
+}
