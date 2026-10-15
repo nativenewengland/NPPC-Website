@@ -1,0 +1,54 @@
+{
+  "batch": 638,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
+      "name": "Janet McCloud",
+      "slug": "janet-mccloud",
+      "case_id": "27db21be-dd05-43fb-955d-8f5401bdd95b",
+      "expected": {
+        "id": "27db21be-dd05-43fb-955d-8f5401bdd95b",
+        "prisoner_id": "cdfc2212-031a-4829-a17d-00426e2302cf",
+        "institution_id": "2b2d1ca1-344a-4909-8359-bfbe7ae5b2f7",
+        "charges": "Illegal fishing in violation of Washington state regulations — 1965 Nisqually fish-in",
+        "arrest_date": "1965-10-13 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1965-10-13 00:00:00",
+        "release_date": "1965-10-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "6 days county jail (1965 conviction); hunger strike",
+        "imprisoned_for_days": 6,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-09-16 23:47:42",
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 6,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Obstructing a public officer during the October 13, 1965 Nisqually fish-in",
+        "convicted": "No — acquitted by jury in January 1969",
+        "documented_imprisoned_for_days": null,
+        "sentence": "Arrested October 13, 1965; acquitted by a jury in January 1969. Laura McCloud recalled that the defendants posted bail within hours of arrest, while the 2003 Seattle Post-Intelligencer obituary reports six days in jail and a hunger strike. These conflicting custody accounts remain unresolved; no exact release day or verified six-day total is assigned. October 1965 release is retained at month precision. Janet McCloud also described a separate 1966 arrest and hunger strike with Edith McCloud and Dick Gregory; that episode must not be conflated with this prosecution."
+      },
+      "sources": [
+        "https://historykeepshappening.wordpress.com/2020/03/22/is-the-trend-changing-laura-mccloud-1969/",
+        "https://www.ocr.org.uk/Images/490445-question-paper-unit-f984-01-using-historical-evidence-non-british-history.pdf",
+        "https://digicoll.lib.berkeley.edu/record/222228/files/meik-14.pdf",
+        "https://content.govdelivery.com/accounts/WADEL/bulletins/3ba80c8",
+        "https://www.seattlepi.com/seattlenews/article/janet-mccloud-1934-2003-indian-activist-put-1130832.php",
+        "https://ftp.unz.com/PDF/PERIODICAL/LeftRight-1967q1/29-54/"
+      ],
+      "rationale": "Correct false conviction and illegal-fishing charge using contemporaneous docket and firsthand trial account. January1969 acquittal independently corroborated by HankAdams archive description republished by WAagency. Preserve release month shared by both conflicting accounts; remove disputed six-day exact override without inventing replacement."
+    }
+  ]
+}
