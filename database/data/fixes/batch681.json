@@ -1,0 +1,98 @@
+{
+  "batch": 681,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Cleveland Sellers",
+      "slug": "cleveland-sellers",
+      "prisoner_id": "095cf301-6136-45c2-8fb1-0868bf85b714",
+      "case_id": "ca602d94-843f-4922-94e5-18f20cd012a6",
+      "expected": {
+        "id": "ca602d94-843f-4922-94e5-18f20cd012a6",
+        "prisoner_id": "095cf301-6136-45c2-8fb1-0868bf85b714",
+        "institution_id": "c1401f30-5980-4efe-a8c3-eafb7887472b",
+        "charges": "Inciting to riot \u2014 Orangeburg Massacre, Feb 8 1968 (the only person prosecuted; pardoned 1993)",
+        "arrest_date": "1968-02-08 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-02-08 00:00:00",
+        "release_date": "1973-08-30 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1 year (served ~7 months)\n\nVerdict as recorded: Yes (pardoned July 20, 1993)",
+        "imprisoned_for_days": 2030,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "sentence": "Initial detention following the February 8, 1968 Orangeburg shooting. Released on $20,000 bail before trial; the exact bail-release date remains unverified. The later prison term was served in 1973 and is recorded separately.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "The 1968 arrest was incorrectly joined to a 1973 release, creating an unsupported five-year counter. Contemporary FBI record documents intervening $20,000 bail. Preserve initial arrest/start; clear the unrelated 1973 endpoint.",
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/docid-32989761.pdf",
+        "https://www.marxists.org/history/erol/periodicals/unity-struggle/bn-2-3.pdf",
+        "https://riseupnewark.com/wp-content/uploads/2020/09/Black-New-Ark-September-1973-Second-Edition-compressed.pdf",
+        "https://snccdigital.org/people/cleveland-sellers/",
+        "https://www.richlandlibrary.com/blog/2020-06-02/shameful-history"
+      ]
+    },
+    {
+      "name": "Cleveland Sellers",
+      "slug": "cleveland-sellers",
+      "prisoner_id": "095cf301-6136-45c2-8fb1-0868bf85b714",
+      "case_id": "4074e3c9-2e41-407a-b378-9eb2efc05df1",
+      "expected": {
+        "id": "4074e3c9-2e41-407a-b378-9eb2efc05df1",
+        "prisoner_id": "095cf301-6136-45c2-8fb1-0868bf85b714",
+        "institution_id": "c1401f30-5980-4efe-a8c3-eafb7887472b",
+        "charges": "Riot \u2014 Orangeburg Massacre (acquitted of the charges tied to the February 8, 1968 campus shooting; convicted on the count tied to an earlier protest)",
+        "arrest_date": "1968-02-08 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-02-01 00:00:00",
+        "release_date": "1973-08-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year (served about seven months in 1973)\n\nVerdict as recorded: Yes \u2014 convicted of riot (1970); pardoned July 20, 1993",
+        "imprisoned_for_days": 211,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": 7,
+        "sentence": "One-year sentence; served approximately seven months in 1973 before release. The prison term began in February 1973, after the earlier pretrial release on bail. Pardoned July 20, 1993."
+      },
+      "rationale": "Mark February 1973 start as month precision, rather than pretending February 1 is known. Contemporary September 1973 report and SNCC history support seven months actually served. Existing August 31 release retained, corroborated by the dated post-release press-conference archive.",
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/docid-32989761.pdf",
+        "https://www.marxists.org/history/erol/periodicals/unity-struggle/bn-2-3.pdf",
+        "https://riseupnewark.com/wp-content/uploads/2020/09/Black-New-Ark-September-1973-Second-Edition-compressed.pdf",
+        "https://snccdigital.org/people/cleveland-sellers/",
+        "https://www.richlandlibrary.com/blog/2020-06-02/shameful-history"
+      ]
+    }
+  ]
+}
