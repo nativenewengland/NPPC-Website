@@ -6,3 +6,7 @@ Hlásny and Jung, Seoul Journal of Korean Studies 30(1), 2017, p.59, dates the d
 
 https://www.researchgate.net/publication/318003326_Political_Migration_of_Korean_Activists_Through_Czechoslovakia_in_the_Post_World_War_2_Period
 https://www.honorfirst.com/uploads/4/7/0/8/47087249/1962_ins_annual_report.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
