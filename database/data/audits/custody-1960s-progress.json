@@ -8,11 +8,11 @@
   "status_counts": {
     "partially-corrected-live": 465,
     "reviewed-selected-case-no-change": 30,
-    "research-incomplete": 37,
-    "researched-unresolved": 67,
+    "research-incomplete": 38,
+    "researched-unresolved": 68,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 811
+    "not-yet-researched": 809
   },
   "decade_complete": false,
   "rows": [
@@ -2337,7 +2337,7 @@
       ],
       "status": "research-incomplete",
       "batches": [],
-      "note": "Batch670 research: conflicting historical dates; no unsupported precision added. Original custody/release record still needed."
+      "note": "Memorial newspaper explicitly places June 1971 imprisonment on 1969 charges. Existing 1969 incarceration may reflect separate initial detention. First-person interview confirms eventual weapons conviction; PRCC summary says dismissal in 1971, while 1978 declaration describes proceedings continuing nearly a decade. Do not replace existing custody year or assign release from dismissal without resolving intervals."
     },
     {
       "prisoner_id": "6fdab5ba-c736-4b6f-bc3b-4c358a42c4f5",
@@ -3466,9 +3466,9 @@
       "gap_case_ids": [
         "0b4aa328-6a7b-4fcf-8294-ec1b2aa7960a"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "First-person recollection reprinted by New Politics confirms the already-entered 25-day 1961 term. No exact release or sentencing date established. Do not calculate release by adding 25 days to arrest. Berkeley Docket PDF download returned empty; search index alone does not resolve dates. No change."
     },
     {
       "prisoner_id": "ca60d02a-9a8e-4300-a81b-c523a5a23df1",
@@ -4452,9 +4452,9 @@
       "gap_case_ids": [
         "bc3d2ba4-1364-4912-88fa-8fc452380b61"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "FSM archive and May 4, 1961 Congressional Record confirm May 13, 1960 arrest and May 3, 1961 acquittal. Civil Liberties Docket index instead says May 14 arrest, so preserve corroborated May 13. Jail admission and bail-release endpoint remain unverified. Acquittal cannot stand in for custody release."
     },
     {
       "prisoner_id": "38d928cb-804e-4594-959d-b385f4c8e946",
