@@ -26,4 +26,4 @@ https://nwtrcc.org/resist/consequences/war-tax-resisters-taken-court/
 
 Preserve all biography fields and all other case rows. No inference of sentence length as actual time served. Meyer identified in broad 1960s queue through unsupported dates; corrected tax case belongs to1971. Other individual cases remain separately reviewable.
 
-Deployment pending.
+Applied live and public HTTP200 pages verified. Isolated preview/apply/replay/conflict fixture passed. Global preservation digest confirmed all profile and unrelated case fields unchanged. Live replay updated zero records.

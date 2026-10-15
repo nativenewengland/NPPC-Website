@@ -8,4 +8,4 @@ https://archives.nd.edu/observer/2000-02-24_v33_090.pdf
 
 https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_61/42-t-7422575-20061704F-061-001-2016.pdf
 
-Deployment pending.
+Applied live and public HTTP200 pages verified. Isolated preview/apply/replay/conflict fixture passed. Global preservation digest confirmed all profile and unrelated case fields unchanged. Live replay updated zero records.
