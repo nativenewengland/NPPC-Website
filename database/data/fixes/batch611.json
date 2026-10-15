@@ -1,0 +1,90 @@
+{
+  "batch": 611,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "bb825e1f-d8e6-4977-a71b-384fedd8e01e",
+      "name": "Tom Lewis",
+      "slug": "tom-lewis",
+      "case_id": "c972231b-1ac7-480c-9518-2e04d21a37d7",
+      "expected": {
+        "id": "c972231b-1ac7-480c-9518-2e04d21a37d7",
+        "prisoner_id": "bb825e1f-d8e6-4977-a71b-384fedd8e01e",
+        "institution_id": null,
+        "charges": "Federal destruction of government property \u2014 Oct 27, 1967 Baltimore Custom House blood pouring (Baltimore 4) and May 17, 1968 Catonsville draft-board raid",
+        "arrest_date": "1968-05-16 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-05-16 00:00:00",
+        "release_date": "1972-10-08 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3.5 years federal prison\n\nVerdict as recorded: Yes \u2014 federal jury verdicts, U.S. District Court for the District of Maryland, 1968",
+        "imprisoned_for_days": 1606,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1968-05-17 00:00:00",
+        "incarceration_date": null
+      },
+      "sources": [
+        "https://www.catonsville9.org/resources/",
+        "https://www.historyisaweapon.com/defcon1/berrigancatonsvillenine.html"
+      ],
+      "reason": "Catonsville action/arrest May17,1968, not May16. Commemoration project describes 1969 portfolio produced between imprisonments, corroborating an appeal gap. Clear the unsupported continuous incarceration anchor on this combined Baltimore/Catonsville row; preserve existing endpoint pending individual release research, without using it to calculate uninterrupted time. Actual imprisonment occurred; duration and separate admissions remain unresolved."
+    },
+    {
+      "prisoner_id": "ad7c1438-de8f-45ad-8647-d3a1d0fcc0fe",
+      "name": "Robert Webb",
+      "slug": "robert-webb",
+      "case_id": "a56ad25a-d620-45f9-ac13-79317066dbe1",
+      "expected": {
+        "id": "a56ad25a-d620-45f9-ac13-79317066dbe1",
+        "prisoner_id": "ad7c1438-de8f-45ad-8647-d3a1d0fcc0fe",
+        "institution_id": "6a8c367e-2b95-441e-9bd5-88502c996444",
+        "charges": "Conspiracy to bomb New York City police stations, a railroad station, and Manhattan department stores (Panther 21 prosecution)",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held in pretrial detention approximately 23 months; killed three weeks before the Panther 21 acquittal verdict\n\nVerdict as recorded: No \u2014 killed before the May 13, 1971 acquittal of the Panther 21",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": null,
+        "release_date": null
+      },
+      "sources": [
+        "https://www.thecrimson.com/article/1971/3/23/newton-cleaver-rift-threatens-panthers-pspeaking-from/",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt11/pdf/GPO-CRECB-1970-pt11-4-3.pdf"
+      ],
+      "reason": "Contemporary Crimson March23,1971 reports Webb murdered in Harlem March8. Stored May12 release cannot be his. Congressional Record May11,1970 printed15036 lists Webb at Trinity College Dec12,1969, inconsistent with assumed continuous April1969-May1971 custody. Clear unsupported incarceration/release interval and computed771days. Do not replace with death as prison release; individual arrest/case attribution and narrative remain unresolved, not a confirmed no-custody finding."
+    }
+  ]
+}
