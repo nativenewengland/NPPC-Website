@@ -50,3 +50,7 @@ https://www.ocweekly.com/daniel-lynem-shares-his-journey-from-oc-black-panther-t
 Firsthand jointlybyHampton/Noldon p13 explicitlyAug1actionthenbookedcityprisonandjailed. Subsequently reached bailbondsman but exactreleaseunstated. Supportsincday only.
 
 https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-08-16-black-panther-vol-3-no-17.pdf
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
