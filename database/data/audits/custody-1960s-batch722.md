@@ -21,3 +21,7 @@ https://www.marxists.org/history/usa/pubs/black-panther/12%20no%206%201-24%20aug
 George Sams: August 7 arrest appears in the contemporary Yale student-strike chronology; the record currently says August 15. Other accounts disagree on Toronto versus Halifax. Exact U.S. admission and release remain unresolved; no speculative endpoint is entered. https://www.crmvet.org/docs/nor/705000_yale_strike.pdf
 
 George Edwards: the October 10, 1970 Black Panther says release was expected in the near future, not that it had already occurred. No release date added. https://www.marxists.org/history/usa/pubs/black-panther/05%20no%2015%201-20%20oct%2010%201970.pdf
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

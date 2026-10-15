@@ -1,0 +1,131 @@
+{
+  "batch": 723,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Terry Sullivan",
+      "slug": "terry-sullivan",
+      "prisoner_id": "d0793c5a-4106-4085-b38b-9903da9416f5",
+      "case_id": "cae4c548-5205-4396-ab2f-9de8ef75a791",
+      "expected": {
+        "id": "cae4c548-5205-4396-ab2f-9de8ef75a791",
+        "prisoner_id": "d0793c5a-4106-4085-b38b-9903da9416f5",
+        "institution_id": "f46b414c-ca61-4259-994f-533911e0ab79",
+        "charges": "Breach of the peace — the Jackson Freedom Rides prosecution, June 6, 1961.",
+        "arrest_date": "1961-06-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — served the full four-month sentence",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-06-06 00:00:00",
+        "release_date": "1961-10-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four months, served in full at Parchman, where he and Felix Singer were subjected to \"wrist breakers\" and an electric cattle prod for refusing orders. Contemporary Catholic Worker material places his return after release in approximately October 1961 — entered at month precision, as no exact discharge day has been located.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1961-06-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Sullivan’s first-person account in The Catholic Worker, November 1961, page 1, dates arrest, trial and sentencing to June 6, 1961 and identifies Newell Weber in his party. Add the missing sentencing date. The account says four-and-a-half months including fine time were served, whereas page 7 summarizes four months; no exact duration or release date is computed from either statement.",
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/947bed9ce3ed7a7af25c23b7f75f89edfddc1269.pdf"
+      ]
+    },
+    {
+      "name": "Ernest Newell Weber",
+      "slug": "ernest-newell-weber",
+      "prisoner_id": "f745ebbe-ec92-4d74-89d1-6114c42ddc1e",
+      "case_id": "ffa36b68-9489-460d-85fe-cd473bdfc886",
+      "expected": {
+        "id": "ffa36b68-9489-460d-85fe-cd473bdfc886",
+        "prisoner_id": "f745ebbe-ec92-4d74-89d1-6114c42ddc1e",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — Jackson, June 6, 1961.",
+        "arrest_date": "1961-06-06 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-06-06 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-06. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-09-18 00:29:41",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1961-06-06 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "convicted": "Yes — contemporary participant account documents trial and sentence",
+        "sentence": "Tried and sentenced on June 6, 1961. Terry Sullivan’s first-person November 1961 account identifies Newell Weber as his fellow rider and says both served their full sentence, described as four-and-a-half months including fine time. The exact release date and individual prison-transfer dates remain unverified."
+      },
+      "rationale": "Sullivan’s first-person account in The Catholic Worker, November 1961, page 1, dates arrest, trial and sentencing to June 6, 1961 and identifies Newell Weber in his party. Add the missing sentencing date. The account says four-and-a-half months including fine time were served, whereas page 7 summarizes four months; no exact duration or release date is computed from either statement.",
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/947bed9ce3ed7a7af25c23b7f75f89edfddc1269.pdf"
+      ]
+    },
+    {
+      "name": "Marjorie Swann",
+      "slug": "marjorie-swann",
+      "prisoner_id": "1c8e7905-30c1-4404-9805-48e4b245c2f1",
+      "case_id": "54673aeb-6683-48f6-92d3-3ad0628967d1",
+      "expected": {
+        "id": "54673aeb-6683-48f6-92d3-3ad0628967d1",
+        "prisoner_id": "1c8e7905-30c1-4404-9805-48e4b245c2f1",
+        "institution_id": "7dec17b0-b4c5-4220-a341-95d3e4e07e2f",
+        "charges": "Trespass at the Mead, Nebraska intercontinental-missile base (Omaha Action)",
+        "arrest_date": "1959-08-10 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1959-01-01 00:00:00",
+        "incarceration_date": "1959-08-10 00:00:00",
+        "release_date": "1960-01-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months for the 1959 Omaha Action protest at the Mead, Nebraska missile base. Committed August 10, 1959, taken to the federal womens prison at Alderson, West Virginia, and returned home January 11, 1960 — 154 days, five months and a day, the last of the seven jailed to be released.",
+        "imprisoned_for_days": 154,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-24 17:16:32",
+        "updated_at": "2026-10-13 00:30:56",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1959-08-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Friends Journal, August 22, 1959, reports Swann’s August 10 re-arrest, same-day hearing and commitment on the original six-month sentence. Refine the year-only sentencing field to the day probation was revoked and the prison term activated. Existing incarceration and release fields are unchanged.",
+      "sources": [
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1959/HC12-50202.pdf"
+      ]
+    }
+  ]
+}

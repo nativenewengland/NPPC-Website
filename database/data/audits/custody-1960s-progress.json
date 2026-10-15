@@ -3,15 +3,15 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 427,
-  "case_records_changed_or_added": 521,
+  "changed_profiles": 429,
+  "case_records_changed_or_added": 523,
   "status_counts": {
-    "partially-corrected-live": 427,
+    "partially-corrected-live": 429,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 858,
+    "not-yet-researched": 850,
     "research-incomplete": 36,
-    "researched-unresolved": 61,
-    "outside-decade-custody": 2,
+    "researched-unresolved": 66,
+    "outside-decade-custody": 3,
     "outside-decade-statute-match": 14
   },
   "decade_complete": false,
@@ -1684,9 +1684,13 @@
       "gap_case_ids": [
         "4fe80849-c9ff-455c-a423-2c3b6f036c92"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-custody",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Released October 1939; the 1961 event is a pardon, not a custody interval. Existing month precision preserves unresolved day conflict.",
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/122447",
+        "https://www.foundsf.org/San_Francisco%E2%80%99s_Haymarket%3A_A_Redemptive_Tale_of_Class_Struggle"
+      ]
     },
     {
       "prisoner_id": "b4172549-3fa3-49c5-8d17-656e34df0c47",
@@ -4106,9 +4110,13 @@
       "gap_case_ids": [
         "dbaf1e07-8674-4886-95ad-dd9f10daf53b"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "June 6, 1960 National Guardian reports May 25 permission to accept Cuban asylum. Permission is not actual departure; INS fiscal report identifies the wife’s removal but not Jose’s individual departure or return. No custody or exile date inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-06-06-12-34-nat-guardian.pdf",
+        "https://www.honorfirst.com/uploads/4/7/0/8/47087249/1960_ins_annual_report.pdf"
+      ]
     },
     {
       "prisoner_id": "4ff85827-4a5d-4623-8f07-6e5095f01eab",
@@ -4152,9 +4160,13 @@
       "gap_case_ids": [
         "7ec319fb-b43b-4574-8472-5782aa698cd7"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "National Guardian March 27, 1961 pages 1 and 10 names the three leaders jailed March 14. April CORE-lator corroborates the arrests but gives no individual release or sentencing day. Existing start retained; no endpoint inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-03-27-13-24-nat-guardian.pdf",
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
     },
     {
       "prisoner_id": "8d314dd4-8da8-4c79-938d-cd04fe0dd228",
@@ -4166,9 +4178,13 @@
       "gap_case_ids": [
         "f2fa4396-619f-4753-82b3-7ebf34291271"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "National Guardian March 27, 1961 pages 1 and 10 names the three leaders jailed March 14. April CORE-lator corroborates the arrests but gives no individual release or sentencing day. Existing start retained; no endpoint inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-03-27-13-24-nat-guardian.pdf",
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
     },
     {
       "prisoner_id": "ae48b87c-87c8-4d54-8f46-874a1de3f843",
@@ -4180,9 +4196,13 @@
       "gap_case_ids": [
         "bef3144e-658c-45f9-afe2-f2566e99aea4"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "National Guardian March 27, 1961 pages 1 and 10 names the three leaders jailed March 14. April CORE-lator corroborates the arrests but gives no individual release or sentencing day. Existing start retained; no endpoint inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-03-27-13-24-nat-guardian.pdf",
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
     },
     {
       "prisoner_id": "1c576733-7621-4140-b151-750a07b45fe6",
@@ -4880,9 +4900,11 @@
       "gap_case_ids": [
         "8b7c525a-5ef7-4080-ac97-dfc5428e69be"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        722
+      ],
+      "note": "Add the documented June 23, 1971 sentencing date and four years actually served, independently reported by UPI on December 17, 1975 and Connecticut Explored. Do not infer release date or use the conflicting Canadian arrest reports as a U.S. admission date."
     },
     {
       "prisoner_id": "43aaaf82-e038-44dd-89f4-593ab07f6a1d",
@@ -4958,9 +4980,12 @@
       "gap_case_ids": [
         "7715c2ea-b4ca-49ff-9c41-91abb18a55a6"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "October 10, 1970 Panther report anticipates release in the near future but does not establish its occurrence. No endpoint added.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/05%20no%2015%201-20%20oct%2010%201970.pdf"
+      ]
     },
     {
       "prisoner_id": "569613de-9ead-45dd-807e-349b1ac3a00f",
@@ -5445,9 +5470,11 @@
       "gap_case_ids": [
         "a0d6d27e-6c33-45a8-a2aa-32eedce30b25"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        722
+      ],
+      "note": "The Black Panther, August 31, 1974, page 9 reports the 1965 conviction and chain-gang custody, followed by escape and arrival in Philadelphia that year. Add year precision only. No calculated term and no release field inferred from an escape."
     },
     {
       "prisoner_id": "aa74de32-7e42-40a3-9798-a4662ee33b0c",
