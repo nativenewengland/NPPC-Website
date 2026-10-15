@@ -5,3 +5,7 @@ Granary Books Ed Sanders archive catalog, PDF page 77, explicitly documents arre
 Source: https://www.granarybooks.com/images/upload/edsandersarchive.pdf
 
 PDF page 77 was extracted and visually inspected. Identity matches the poet, antinuclear activist and author of Poem from Jail. August 8–24 establishes a 16-day elapsed span, not the 77-day sentence. The old unsupported uncertainty sentence is replaced with the documented custody interval. No biography or unrelated profile fields change. No institution is created or guessed.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

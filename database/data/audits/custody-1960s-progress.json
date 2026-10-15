@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 464,
-  "case_records_changed_or_added": 573,
+  "changed_profiles": 465,
+  "case_records_changed_or_added": 574,
   "status_counts": {
-    "partially-corrected-live": 464,
+    "partially-corrected-live": 465,
     "reviewed-selected-case-no-change": 30,
     "research-incomplete": 37,
     "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 812
+    "not-yet-researched": 811
   },
   "decade_complete": false,
   "rows": [
@@ -4760,9 +4760,11 @@
       "gap_case_ids": [
         "62f935b6-b82b-4ea3-958b-14010fbadfee"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        737
+      ],
+      "note": "Granary Books Ed Sanders archive catalog, PDF page 77, explicitly documents arrest and imprisonment August 8–24, 1961. Refine August arrest to August 8 and add exact custody endpoints; retain imposed sentence separately from actual custody."
     },
     {
       "prisoner_id": "902afe84-2f5e-44c9-9c11-dfe97daf813c",
