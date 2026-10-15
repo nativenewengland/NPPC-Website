@@ -1,0 +1,141 @@
+{
+  "batch": 680,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Jerry Wheeler",
+      "slug": "jerry-wheeler",
+      "prisoner_id": "2b07c51d-862e-4ef7-b90f-20c3bef2714f",
+      "case_id": "96a96192-20b5-44aa-ad10-b4cac3a3eb9c",
+      "expected": {
+        "id": "96a96192-20b5-44aa-ad10-b4cac3a3eb9c",
+        "prisoner_id": "2b07c51d-862e-4ef7-b90f-20c3bef2714f",
+        "institution_id": "ded56661-9fde-446e-b389-7917a06c13ac",
+        "charges": "Civil disobedience / trespass \u2014 antinuclear protest at an Air Force base",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Found guilty (1961)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months, for entering Davis-Monthan Air Force Base near Tucson \u2014 the sentence is firmly documented, and he wrote from the Pima County Jail after conviction, but no release record proves he served the entire term, so the six months is not recorded as time served. He later received further jail time connected with anti-nuclear actions in California.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-31 19:14:49",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-01-01 00:00:00",
+        "incarceration_date": "1961-01-01 00:00:00",
+        "release_date": "1961-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": 6,
+        "sentence": "Six months for entering Davis-Monthan Air Force Base near Tucson in January 1961. Contemporary reporting states that he served the six months at La Tuna federal prison in Texas. After release, he returned to Arizona and joined another action in July 1961; the exact release date is not established."
+      },
+      "rationale": "January walk log identifies arrest; February 3 jail letter confirms confinement. MANAS October 11, 1961 p11 explicitly reports the six months served at La Tuna and release before the July action. Store only January admission and 1961 release precision; use documented six-month total, not computed placeholder dates.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-04-03-13-25-nat-guardian.pdf",
+        "https://manasjournal.org/pdf_library/VolumeXIV_1961/XIV-41.pdf"
+      ]
+    },
+    {
+      "name": "Eugene Keyes",
+      "slug": "eugene-keyes",
+      "prisoner_id": "47c8fb5b-a41e-49a1-9240-f308f8ee53d9",
+      "case_id": "5722e3fa-f6b8-481c-8856-93d8bfc1eae1",
+      "expected": {
+        "id": "5722e3fa-f6b8-481c-8856-93d8bfc1eae1",
+        "prisoner_id": "47c8fb5b-a41e-49a1-9240-f308f8ee53d9",
+        "institution_id": null,
+        "charges": "Interfering with a naval vessel \u2014 antinuclear Polaris-submarine protest",
+        "arrest_date": "1961-08-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-08-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed after the August 1961 Ethan Allen commissioning protest; reported to have served seventeen days. His June 15, 1961 Thomas Edison swim ended in release within hours.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-09-26 23:54:46",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-08-08 00:00:00",
+        "incarceration_date": "1961-08-08 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "documented_imprisoned_for_days": 17,
+        "sentence": "Arrested and jailed during the August 8, 1961 Ethan Allen commissioning protest. His contemporary account reports conviction for breach of peace and resisting arrest, a $150 fine or seventy-five days in jail, remission of the fine, and release after seventeen days in jail. His June 15 Thomas Edison protest ended in release within hours."
+      },
+      "rationale": "First-person September 11, 1961 Spectator article establishes August 8 action, actual confinement and seventeen days served. This total belongs to the 1961 case, not the later 1964 contempt case. Exact release day not inferred by arithmetic.",
+      "sources": [
+        "https://www.genekeyes.com/CNVA/GK-NVA-PHOTOS-1.html",
+        "https://www.genekeyes.com/CNVA/61-08-Spectator-article/1961-09-11-Spectator-4.jpg"
+      ]
+    },
+    {
+      "name": "Eugene Keyes",
+      "slug": "eugene-keyes",
+      "prisoner_id": "47c8fb5b-a41e-49a1-9240-f308f8ee53d9",
+      "case_id": "07a9b4fe-0336-44bd-9228-b6b72261b22b",
+      "expected": {
+        "id": "07a9b4fe-0336-44bd-9228-b6b72261b22b",
+        "prisoner_id": "47c8fb5b-a41e-49a1-9240-f308f8ee53d9",
+        "institution_id": null,
+        "charges": "Contempt of court \u2014 solidarity with draft resister Russ Goddard, July 1964",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes \u2014 contempt",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to six months for contempt after demanding equal treatment with fellow draft resister Russ Goddard. The CNVA newsletter reports release from that sentence before arraignment on his own draft charge. Exact custody dates are unknown.\n\nSources: https://www.crmvet.org/docs/nor/650317_cnva_news.pdf#page=2",
+        "imprisoned_for_days": 17,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-13 14:41:05",
+        "updated_at": "2026-09-28 13:07:58",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 17,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": null,
+        "incarceration_date": "1964-07-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Remove misplaced seventeen-day total, which his 1961 first-person account identifies with the Polaris protest. CNVA March 17, 1965 p2 establishes July 1964 contempt imprisonment followed by release and a separate draft prosecution; no exact release day or duration inferred.",
+      "sources": [
+        "https://www.genekeyes.com/CNVA/GK-NVA-PHOTOS-1.html",
+        "https://www.genekeyes.com/CNVA/61-08-Spectator-article/1961-09-11-Spectator-4.jpg",
+        "https://www.crmvet.org/docs/nor/650317_cnva_news.pdf"
+      ]
+    }
+  ]
+}
