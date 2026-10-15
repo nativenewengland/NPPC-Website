@@ -26,3 +26,5 @@ Fields: release_date, date_precision
 
 https://themilitant.com/1973/3743/MIL3743.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.
