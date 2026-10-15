@@ -50,3 +50,7 @@ https://www.sfgate.com/bayarea/article/A-Big-Farewell-For-David-Richards-2727472
 May 18, 1962 Dispatcher page 1 explicitly dates conviction April 5 and sentencing May 4; bail continued during appeal. No actual imprisonment inferred.
 
 https://archive.ilwu.org/wp-content/uploads/2015/03/19620518.pdf
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
