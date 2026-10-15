@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 472,
-  "case_records_changed_or_added": 581,
+  "changed_profiles": 473,
+  "case_records_changed_or_added": 582,
   "status_counts": {
-    "partially-corrected-live": 472,
+    "partially-corrected-live": 473,
     "reviewed-selected-case-no-change": 31,
     "research-incomplete": 39,
-    "researched-unresolved": 71,
+    "researched-unresolved": 73,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 797
+    "not-yet-researched": 794
   },
   "decade_complete": false,
   "rows": [
@@ -4822,9 +4822,11 @@
       "gap_case_ids": [
         "40b30d86-1809-4ccb-9357-1d6866615d1b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        742
+      ],
+      "note": "FBI file 105-89231 section 2 part 2 page 17 confirms August 1, 1969 admission for sentences arising from three offense dates; section 3 page 16 explicitly records October 4, 1969 release. These are actual endpoints, not sentence arithmetic. Existing generic 1965–66 case is not overwritten."
     },
     {
       "prisoner_id": "203485bf-3a4c-4734-a107-b8ed52704c02",
@@ -4859,9 +4861,12 @@
       "gap_case_ids": [
         "d19f5e57-7d75-4d2a-bc22-09abd39e0566"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Native News Online December 3, 2020 obituary quotes Clyde Bellecourt memoir describing manslaughter imprisonment and states release preceded AIM founding in 1968. It does not establish admission or release date. Dennis Banks 1966–May1968 dates are not Benton-Banai dates. No guessed endpoints entered; the empty case cannot yet be allocated safely to a particular dated custody episode.",
+      "research_sources": [
+        "https://nativenewsonline.net/currents/aim-co-founder-eddie-benton-banai-remembered-for-his-contributions-to-native-culture/"
+      ]
     },
     {
       "prisoner_id": "95b5f691-85d8-4387-8205-1906c4b89de2",
@@ -6096,9 +6101,13 @@
       "gap_case_ids": [
         "3ee4f13b-3e49-42b5-8100-b63b6e45581f"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Court opinion confirms December 4, 1969 arrest and custody already recorded. December 21 release/bond reduction applies to several unnamed survivors, not demonstrably Brewer. Getty inquest photograph is dated only late 1969 or early 1970; January 1 metadata is not release. Individual physical release remains unverified; May 1970 dismissal is not substituted.",
+      "research_sources": [
+        "https://caselaw.findlaw.com/court/us-7th-circuit/118123832.html",
+        "https://www.gettyimages.co.uk/detail/news-photo/verlina-brewer-who-was-injured-and-survived-the-nighttime-news-photo/524500099"
+      ]
     },
     {
       "prisoner_id": "415ce55e-a736-4727-996b-4109b4adb948",
