@@ -4,4 +4,4 @@ King firsthand jail diary records his and Abernathy arrest July 27, continued sh
 
 https://kinginstitute.stanford.edu/publications/autobiography-martin-luther-king-jr/chapter-16-albany-movement
 
-Guard all existing cases and profile identity. Preserve biographies and all existing case records. Deployment pending.
+Guard all existing cases and profile identity. Preserve biographies and all existing case records. Applied live; all unrelated fields preserved, zero-change replay verified, public HTTP 200 confirmed.

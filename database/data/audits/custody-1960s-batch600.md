@@ -6,4 +6,4 @@ https://charlestoncurrents.com/2015/01/hospital-workers-strike/
 https://storiesofstruggle.com/timeline-charleston-hospital-strike-1969-black-women-demand-living-wage
 https://newspaperarchive.com/chanute-tribune-may-03-1969-p-1/
 
-NewspaperArchive accessible search excerpt corroborates release already occurred by May 3; full page unavailable. Exact dates are stated by named historians Hopkins and Brinson. Preserve biography and all unrelated fields. Separate June custody remains under review. Deployment pending.
+NewspaperArchive accessible search excerpt corroborates release already occurred by May 3; full page unavailable. Exact dates are stated by named historians Hopkins and Brinson. Preserve biography and all unrelated fields. Separate June custody remains under review. Applied live; all unrelated fields preserved, zero-change replay verified, public HTTP 200 confirmed.

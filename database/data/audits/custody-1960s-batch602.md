@@ -4,4 +4,4 @@ University of Georgia Civil Rights Digital Library explicitly documents William 
 
 https://crdl.usg.edu/people/anderson_william_g_1927
 
-No biography changes. Deployment pending.
+No biography changes. Applied live; all unrelated fields preserved, zero-change replay verified, public HTTP 200 confirmed.
