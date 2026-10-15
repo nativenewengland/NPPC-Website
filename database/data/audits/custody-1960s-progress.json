@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 418,
-  "case_records_changed_or_added": 511,
+  "changed_profiles": 421,
+  "case_records_changed_or_added": 515,
   "status_counts": {
-    "partially-corrected-live": 418,
+    "partially-corrected-live": 421,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 869,
+    "not-yet-researched": 866,
     "research-incomplete": 34,
     "researched-unresolved": 61,
     "outside-decade-custody": 2,
@@ -2946,9 +2946,11 @@
       "gap_case_ids": [
         "a2293cf2-0d5a-462b-8aa0-82c1b38c2497"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        720
+      ],
+      "note": "Contemporary United Press report dates departure aboard Batory to May 6, 1949. Correct the unsupported May 1 date and recalculate the existing exile duration to the unchanged March 21, 1968 endpoint. This exile continued into the 1960s."
     },
     {
       "prisoner_id": "3500f7af-e972-4709-9744-4d36a59461aa",
@@ -4070,9 +4072,11 @@
         "3db9b08c-a61f-4294-be03-56b21437eb77",
         "36daad2c-ea7b-42ab-9eb4-01f7e5218893"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        720
+      ],
+      "note": "Remove the misplaced four-month duration from the 1960 deportation-order case. Contemporary May 4, 1932 reporting attributes four months to Kentucky labor organizing; transfer that documented duration to her existing Kentucky case in this same transaction. Place the documented four months on the existing Kentucky labor-organizing case. May 4, 1932 Daily Worker reports she had recently been released after four months; no exact custody endpoints inferred."
     },
     {
       "prisoner_id": "8e30fe0e-df71-430b-bd26-792fc79c053c",
@@ -4084,9 +4088,11 @@
       "gap_case_ids": [
         "62e18652-baa8-4510-acf7-8cfd6f24aae5"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        720
+      ],
+      "note": "Contemporary AP reporting on November 19 describes deportation the previous evening; National Guardian November 6, 1961 explicitly gives November 18. Add the exile departure date, without inventing a detention start, release or exile endpoint."
     },
     {
       "prisoner_id": "9204c563-488a-48bf-b4da-6a9b178c0837",

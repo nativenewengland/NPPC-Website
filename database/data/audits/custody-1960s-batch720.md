@@ -27,3 +27,7 @@ https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n106-NY-may-04-19
 Place the documented four months on the existing Kentucky labor-organizing case. May 4, 1932 Daily Worker reports she had recently been released after four months; no exact custody endpoints inferred.
 
 https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n106-NY-may-04-1932-DW-LOC.pdf
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
