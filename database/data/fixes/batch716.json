@@ -1,0 +1,52 @@
+{
+  "batch": 716,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Bettina Aptheker",
+      "slug": "bettina-aptheker",
+      "prisoner_id": "732a87c3-3508-4b8e-840f-e24ebffd8b70",
+      "case_id": "14a9634a-809f-4947-b11a-ddda1d331082",
+      "expected": {
+        "id": "14a9634a-809f-4947-b11a-ddda1d331082",
+        "prisoner_id": "732a87c3-3508-4b8e-840f-e24ebffd8b70",
+        "institution_id": "e9862675-c0a8-4832-935a-e5e3b9ad97e2",
+        "charges": "Trespassing and resisting arrest — December 1964 Sproul Hall sit-in (Free Speech Movement), UC Berkeley",
+        "arrest_date": "1964-12-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-07-02 00:00:00",
+        "release_date": "1967-08-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Rupert Crittenden",
+        "sentence": "45 days at the Santa Rita Rehabilitation Center; surrendered to serve in late June/early July 1967 after appeals failed, while seven months pregnant. Exact entry and release days are not documented — the dates shown reflect the ~July 2, 1967 start (a photograph that day shows her preparing to serve) plus the 45-day term.\n\nVerdict as recorded: Yes — convicted 1965 in the Free Speech Movement mass trial",
+        "imprisoned_for_days": 45,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 12:35:03",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-01-01 00:00:00",
+        "release_date": "1967-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "documented_imprisoned_for_days": 45,
+        "sentence": "Served 45 days at Santa Rita in 1967 for the Free Speech Movement case while pregnant. A later newspaper profile preserved in the FBI Mario Savio file reports the 45-day imprisonment. The previously displayed July 2 admission and August 16 release were inferred rather than independently documented; exact entry and release dates remain unresolved.\n\nVerdict as recorded: Yes — convicted 1965 in the Free Speech Movement mass trial"
+      },
+      "rationale": "Replace explicitly inferred exact endpoints with year precision while preserving the reported 45-day actual term. The FBI file preserves a newspaper profile describing 45 days at Santa Rita; a separate sentencing clipping and Pacifica archive confirm the 1967 imprisonment. No exact release date is inferred from the sentence.",
+      "sources": [
+        "https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2009%20%28Final%29/at_download/file",
+        "https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2008/",
+        "https://pacificaradioarchives.org/recording/bb1303/"
+      ]
+    }
+  ]
+}

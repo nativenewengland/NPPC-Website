@@ -6,3 +6,7 @@ The existing case explicitly describes May 8 as a calculation. Keep the independ
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-12-13-35-nat-guardian.pdf
 https://www.marxists.org/history/usa/pubs/national-guardian/1961-05-22-13-32-nat-guardian.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

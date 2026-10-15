@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 414,
-  "case_records_changed_or_added": 506,
+  "changed_profiles": 415,
+  "case_records_changed_or_added": 507,
   "status_counts": {
-    "partially-corrected-live": 414,
+    "partially-corrected-live": 415,
     "reviewed-selected-case-no-change": 28,
-    "not-yet-researched": 876,
+    "not-yet-researched": 875,
     "research-incomplete": 32,
     "researched-unresolved": 61,
     "outside-decade-custody": 2,
@@ -4589,9 +4589,11 @@
         "f50089fa-a793-4e1d-a5f1-f27683fcaa16"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        715
+      ],
+      "note": "Preserve the contemporary documented eighteen days and exact May 26 release, but remove false day-level precision from the inferred incarceration start. A sentence of sixty days is not actual time served."
     },
     {
       "prisoner_id": "0b971664-1b9f-42e3-8fe3-1945a8391a13",
