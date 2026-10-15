@@ -1,0 +1,51 @@
+{
+  "batch": 712,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Elizabeth Catlett",
+      "slug": "elizabeth-catlett",
+      "prisoner_id": "d283306b-9e23-459f-afef-97496d7be10a",
+      "case_id": "fd6f78f8-93df-4b6d-ac14-4edd55e39270",
+      "expected": {
+        "id": "fd6f78f8-93df-4b6d-ac14-4edd55e39270",
+        "prisoner_id": "d283306b-9e23-459f-afef-97496d7be10a",
+        "institution_id": "dc2e26cd-ee1b-4fad-9c6e-7e76fed6f69a",
+        "charges": "Branded an undesirable alien and barred from returning to the United States.",
+        "arrest_date": "1959-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Barred from the United States; briefly detained in Mexico, 1959",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1959-01-01 00:00:00",
+        "end_of_exile": "1971-01-01 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Barred from setting foot in the United States until 1971, when the State Department lifted the prohibition. She was prevented from attending the funeral of her mother and became a Mexican citizen in 1962.\n\nCharges as recorded: Branded an undesirable alien and barred from returning to the United States during the McCarthy era; briefly arrested and held by Mexican authorities in 1959 during the crackdown on the railway workers strike and the Mexican Communist Party.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-09-27 00:00:24",
+        "date_precision": "{\"arrest_date\":\"year\",\"in_exile_since\":\"year\",\"end_of_exile\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1962-01-01 00:00:00",
+        "end_of_exile": "1971-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"in_exile_since\":\"year\",\"end_of_exile\":\"month\"}",
+        "sentence": "The United States barred her entry after she became a Mexican citizen in 1962. A visa granted in September 1971 enabled her return for the Studio Museum in Harlem exhibition. These dates describe exclusion from the United States, not imprisonment; the year-only start and month-only endpoint are not exact days. The separate Mexican detention date remains unresolved."
+      },
+      "rationale": "Museum scholarship dates the entry ban to 1962 and the return visa to September 1971. Catlett visited the United States in 1961, contradicting uninterrupted exclusion beginning in 1959. The arrest field is not changed: sources disagree about the separate Mexican detention year.",
+      "sources": [
+        "https://tfaoi.org/aa/6aa/6aa198a.htm",
+        "https://dokumen.pub/elizabeth-catlett-a-black-revolutionary-artist-and-all-that-it-implies-0226836576-9780226836577.html",
+        "https://www.nga.gov/stories/articles/who-elizabeth-catlett-12-things-know"
+      ]
+    }
+  ]
+}
