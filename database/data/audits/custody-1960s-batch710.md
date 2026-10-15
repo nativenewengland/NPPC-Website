@@ -31,3 +31,7 @@ CORE archive identifies Morton Slater and reproduces Daniel Stevens testimony of
 
 - https://www.corenyc.org/omeka/items/show/57
 - https://crdl.usg.edu/record/mus_sovcom_2-55-5-116-1-1-1
+
+## Live verification
+
+Applied 5 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
