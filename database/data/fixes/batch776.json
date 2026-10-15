@@ -1,0 +1,139 @@
+{
+  "batch": 776,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Anthony Russo",
+      "slug": "anthony-russo",
+      "prisoner_id": "5936fb11-6ff3-468e-9916-4e0c9d968f1d",
+      "case_id": "edc2b28b-8dd3-44f1-aae4-82a48af64034",
+      "expected": {
+        "id": "edc2b28b-8dd3-44f1-aae4-82a48af64034",
+        "prisoner_id": "5936fb11-6ff3-468e-9916-4e0c9d968f1d",
+        "institution_id": null,
+        "charges": "Espionage Act violations, theft of government property, conspiracy.",
+        "arrest_date": "1971-08-14 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-08-14 00:00:00",
+        "release_date": "1973-05-10 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "David R. Nissen",
+        "judge": "Hon. William Matthew Byrne Jr.",
+        "sentence": "Charges dismissed May 11, 1973 (47 days for contempt)",
+        "imprisoned_for_days": 635,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-16 08:00:57",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": null,
+        "release_date": null,
+        "sentence": "Criminal charges dismissed May 11, 1973. The separate 1971 civil-contempt detention is recorded in its own case; the criminal proceedings do not establish continuous custody through dismissal."
+      },
+      "sources": [
+        "https://www.congress.gov/92/crecb/1971/11/22/GPO-CRECB-1971-pt33-1-2.pdf",
+        "https://www.congress.gov/92/crecb/1972/02/07/GPO-CRECB-1972-pt3-3-2.pdf",
+        "https://www.themilitant.com/1971/3535/MIL3535.pdf"
+      ],
+      "rationale": "Remove the false continuous August 1971 to May 1973 imprisonment span, which conflates civil contempt with the later criminal prosecution. Record the supported 47 actual days only on the separate contempt case. Existing arrest date remains unverified and is not used as an incarceration endpoint."
+    },
+    {
+      "name": "Anthony Russo",
+      "slug": "anthony-russo",
+      "prisoner_id": "5936fb11-6ff3-468e-9916-4e0c9d968f1d",
+      "case_id": "17caf981-a882-41f2-bfaa-0515ba35d750",
+      "expected": {
+        "id": "17caf981-a882-41f2-bfaa-0515ba35d750",
+        "prisoner_id": "5936fb11-6ff3-468e-9916-4e0c9d968f1d",
+        "institution_id": null,
+        "charges": "Civil contempt",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Civil contempt (no underlying conviction; later indicted with Ellsberg, case dismissed 1973 for government misconduct)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed 47 days for civil contempt in 1971\n\nCharges as recorded: Civil contempt for refusing to testify before a federal grand jury investigating the Pentagon Papers leak",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:03",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1971-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "documented_imprisoned_for_days": 47
+      },
+      "sources": [
+        "https://www.congress.gov/92/crecb/1971/11/22/GPO-CRECB-1971-pt33-1-2.pdf",
+        "https://www.congress.gov/92/crecb/1972/02/07/GPO-CRECB-1972-pt3-3-2.pdf",
+        "https://www.themilitant.com/1971/3535/MIL3535.pdf"
+      ],
+      "rationale": "Congressional Record February 7, 1972 printed page 2958 reports 47 days in jail before indictment. November 22, 1971 court reprint says committed after August 17 affirmation, while contemporary Militant gives August 16. Use August month precision, retain unknown physical release day, and use documented actual 47 days rather than reconstructing an endpoint."
+    },
+    {
+      "name": "Eqbal Ahmad",
+      "slug": "eqbal-ahmad",
+      "prisoner_id": "9a7dc02d-c2de-4bbc-b684-bd5bba40f9b9",
+      "case_id": "4ae64c0d-8c2d-466f-bb84-e62cf45a5179",
+      "expected": {
+        "id": "4ae64c0d-8c2d-466f-bb84-e62cf45a5179",
+        "prisoner_id": "9a7dc02d-c2de-4bbc-b684-bd5bba40f9b9",
+        "institution_id": null,
+        "charges": "Conspiracy to kidnap Henry Kissinger and to bomb federal heating tunnels (Harrisburg 7 indictment, 1971; mistrial)",
+        "arrest_date": "1971-01-11 00:00:00",
+        "indicted": null,
+        "convicted": "Hung jury — effectively acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-01-11 00:00:00",
+        "release_date": "1972-04-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William S. Lynch",
+        "judge": "Hon. R. Dixon Herman",
+        "sentence": "Hung jury April 5, 1972; mistrial; government declined to retry.",
+        "imprisoned_for_days": 449,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-20 05:27:12",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1971-01-12 00:00:00",
+        "incarceration_date": "1971-01-12 00:00:00",
+        "release_date": "1971-01-13 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Released on $60,000 bond January 13, 1971. Hung jury April 5, 1972; mistrial; government declined to retry. The trial endpoint was not the custody release date."
+      },
+      "sources": [
+        "https://archives.nd.edu/Scholastic/VOL_0112/VOL_0112_ISSUE_0019.pdf",
+        "https://dailyiowan.lib.uiowa.edu/DI/1971/di1971-01-14.pdf"
+      ],
+      "rationale": "Contemporary Scholastic April 30, 1971 interview introduction explicitly dates FBI arrest January 12. AP Wirephoto in Daily Iowan January 14 page 1 shows him leaving Chicago federal building Wednesday January 13 after posting bond. Replace the false 449-day trial-length custody interval with the supported overnight custody."
+    }
+  ]
+}
