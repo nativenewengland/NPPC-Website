@@ -7,3 +7,7 @@ Existing prose explicitly acknowledged that the two days were inferred. July cli
 https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2009%20%28Final%29/at_download/file
 https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2008/
 https://pacificaradioarchives.org/recording/bb1303/
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

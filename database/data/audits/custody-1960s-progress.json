@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 415,
-  "case_records_changed_or_added": 507,
+  "changed_profiles": 416,
+  "case_records_changed_or_added": 508,
   "status_counts": {
-    "partially-corrected-live": 415,
-    "reviewed-selected-case-no-change": 28,
-    "not-yet-researched": 875,
-    "research-incomplete": 32,
+    "partially-corrected-live": 416,
+    "reviewed-selected-case-no-change": 29,
+    "not-yet-researched": 871,
+    "research-incomplete": 34,
     "researched-unresolved": 61,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
@@ -4273,9 +4273,12 @@
         "1675feca-faef-4586-a947-54ac67121c4c"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "State archive confirms August 3, 1964 admission and four-day term. Existing August 6 release needs register-image verification because post-release photograph is dated August 7. Photograph date is not automatically release date. Register page currently denies access.",
+      "research_sources": [
+        "https://www.floridamemory.com/items/show/340627"
+      ]
     },
     {
       "prisoner_id": "e2fa557c-5987-44d4-af0c-5a4efb9a885e",
@@ -5497,9 +5500,11 @@
         "14a9634a-809f-4947-b11a-ddda1d331082"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        716
+      ],
+      "note": "Replace explicitly inferred exact endpoints with year precision while preserving the reported 45-day actual term. The FBI file preserves a newspaper profile describing 45 days at Santa Rita; a separate sentencing clipping and Pacifica archive confirm the 1967 imprisonment. No exact release date is inferred from the sentence."
     },
     {
       "prisoner_id": "78d4a81e-8738-4385-a2b4-7e4a8d55cdb9",
@@ -8546,9 +8551,12 @@
         "c8679244-09ae-4044-adc8-96291cebb6ec"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Initial August 8-November 1, 1963 custody is corroborated. Existing November 6 conviction conflicts with repeated SNCC December 11 reports. Legal bulletin contains another date that needs full inspection; access failed. Appellate opinion establishes July 7, 1964 reversal but not initial conviction day. No new custody inferred from sentence or appellate outcome.",
+      "research_sources": [
+        "https://law.justia.com/cases/georgia/court-of-appeals/1964/40728-0.html"
+      ]
     },
     {
       "prisoner_id": "7fddf201-0664-46cc-bb08-5ca3cd0c4320",
@@ -8558,9 +8566,12 @@
         "23fd8eb1-0aa0-44d3-822c-14d885722b68"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "August 8-November 1, 1963 custody dates corroborated by SNCC July 9, 1964 release and SNCC Digital Gateway. Different inclusive-day counts (84/85/86/87) do not justify changing the verified endpoints.",
+      "research_sources": [
+        "https://www.crmvet.org/docs/pr/640709_sncc_pr_jury.pdf"
+      ]
     },
     {
       "prisoner_id": "da34d0bd-4cc8-420f-a897-195c7d9cf66a",
