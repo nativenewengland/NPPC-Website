@@ -11,4 +11,4 @@ https://www.archives.gov/research/african-americans/individuals/fred-hampton
 https://rediscovering-black-history.blogs.archives.gov/2019/12/04/fred-hampton-vanguard-revolutionary/
 https://activistmarkclark.org/about-mark-clark/
 
-Newton incarceration duration remains 1012 days because both boundaries move one day. Separate 1977 custody and 1974-1977 exile unchanged. Clark has no invented substitute custody interval. Deployment pending.
+Newton incarceration duration remains 1012 days because both boundaries move one day. Separate 1977 custody and 1974-1977 exile unchanged. Clark has no invented substitute custody interval. Applied live: two cases updated; biographies, profiles and unrelated cases preserved; zero-change replay. HTTP 200 public pages confirm Newton October 28, 1967 / August 5, 1970 dates, no 1970 exile onset, and Clark no false custody dates or counter. Newton aggregate incarceration counter includes the separate preserved 1977 interval.

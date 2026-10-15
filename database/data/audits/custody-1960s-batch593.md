@@ -6,4 +6,4 @@ https://www.archives.gov/files/research/jfk/releases/2018/docid-32989672.pdf
 https://law.justia.com/cases/federal/appellate-courts/F2/260/21/428262/
 https://artsfuse.org/171402/fathers-day-feature-my-father-the-former-communist/
 
-National Archives PDF pages 58 and 59 visually checked. Existing incarceration and release dates independently corroborated; no counter change needed. Deployment pending.
+National Archives PDF pages 58 and 59 visually checked. Existing incarceration and release dates independently corroborated; no counter change needed. Applied live; all unrelated fields and biographies unchanged; zero-change replay. Public HTTP 200 confirms February 21, 1958 sentencing and unchanged 1 year 2 months 22 days counter.
