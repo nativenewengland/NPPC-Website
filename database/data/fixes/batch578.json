@@ -1,0 +1,266 @@
+{
+  "batch": 578,
+  "expected_count": 6,
+  "entries": [
+    {
+      "prisoner_id": "30c1b71c-fc58-444b-8d28-af09ba23e8e0",
+      "name": "Lumumba Shakur",
+      "slug": "lumumba-shakur",
+      "case_id": "3245c838-30e0-4e36-aa33-7dd01bd57e47",
+      "expected": {
+        "id": "3245c838-30e0-4e36-aa33-7dd01bd57e47",
+        "prisoner_id": "30c1b71c-fc58-444b-8d28-af09ba23e8e0",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state conspiracy (156 counts) - charged with the other 20 defendants in the Panther 21 indictment of April 2, 1969.",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention at $100,000 bail; acquitted by jury verdict, New York Supreme Court, New York County, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971\n\nCharges as recorded: New York state conspiracy (156 counts) - charged with the other 20 defendants in the Panther 21 indictment of April 2, 1969 for an alleged plot to bomb NYPD precincts, the Bronx Botanical Garden, midtown department stores, and a railroad right-of-way. The prosecution case rested almost entirely on the testimony of three undercover NYPD officers; the jury deliberated approximately 90 minutes and acquitted all 13 defendants who went to trial of every count.",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844"
+      ]
+    },
+    {
+      "prisoner_id": "9ce5574a-2e41-4fd6-b71e-2537b8662222",
+      "name": "Robert Collier",
+      "slug": "robert-collier",
+      "case_id": "6f532145-055a-4e0a-abe2-6dde86bd38fb",
+      "expected": {
+        "id": "6f532145-055a-4e0a-abe2-6dde86bd38fb",
+        "prisoner_id": "9ce5574a-2e41-4fd6-b71e-2537b8662222",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention; acquitted by jury, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1971-05-13 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required. People v Collier85Misc2d529 explicitly records continuous incarceration until May13,1971 acquittal, establishing the individual endpoint rather than applying it to everyone.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844",
+        "https://case-law.vlex.com/vid/people-v-collier-886243188"
+      ]
+    },
+    {
+      "prisoner_id": "8f9bad99-cfd5-4fc7-8d97-f448023ad8ef",
+      "name": "Ali Bey Hassan",
+      "slug": "ali-bey-hassan",
+      "case_id": "5d93aed4-2d52-4a4b-85b1-e71742329424",
+      "expected": {
+        "id": "5d93aed4-2d52-4a4b-85b1-e71742329424",
+        "prisoner_id": "8f9bad99-cfd5-4fc7-8d97-f448023ad8ef",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention; acquitted by jury, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844"
+      ]
+    },
+    {
+      "prisoner_id": "0b2a11cc-e51e-417b-a4ac-a6a57ef43072",
+      "name": "Abayama Katara",
+      "slug": "abayama-katara",
+      "case_id": "a02c2a0e-a8a2-4248-b234-12c5b52db01c",
+      "expected": {
+        "id": "a02c2a0e-a8a2-4248-b234-12c5b52db01c",
+        "prisoner_id": "0b2a11cc-e51e-417b-a4ac-a6a57ef43072",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention; acquitted by jury, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844"
+      ]
+    },
+    {
+      "prisoner_id": "bd5585e9-fd87-4fcf-875a-a24f1b038394",
+      "name": "Baba Odinga",
+      "slug": "baba-odinga",
+      "case_id": "b0b0f8fa-26c1-4ae3-83f5-728f85c7a0f2",
+      "expected": {
+        "id": "b0b0f8fa-26c1-4ae3-83f5-728f85c7a0f2",
+        "prisoner_id": "bd5585e9-fd87-4fcf-875a-a24f1b038394",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention; acquitted by jury, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844"
+      ]
+    },
+    {
+      "prisoner_id": "94dc5c2b-0f60-4beb-9b99-9eeb9566b26f",
+      "name": "Lonnie Epps",
+      "slug": "lonnie-epps",
+      "case_id": "6216554d-a0d0-4e1f-b14b-253c80743d63",
+      "expected": {
+        "id": "6216554d-a0d0-4e1f-b14b-253c80743d63",
+        "prisoner_id": "94dc5c2b-0f60-4beb-9b99-9eeb9566b26f",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment); charges severed and ultimately dismissed without going to the jury.",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial detention; charges severed and dismissed.\n\nVerdict as recorded: No - charges severed and dismissed without conviction",
+        "imprisoned_for_days": 771,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Individual arrest roster in To Disrupt, Discredit and Destroy note370 identifies April2,1969 arrest/surrender. Correct imported April1 timestamps. Release date not newly verified by this onset correction; further individual endpoint research required.",
+      "sources": [
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf",
+        "https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844"
+      ]
+    }
+  ]
+}
