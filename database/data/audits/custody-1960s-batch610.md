@@ -10,4 +10,4 @@ https://www.leagle.com/decision/19701054309fsupp7451904
 https://openjurist.org/309/fsupp/829/united-states-v-melville
 https://archives.law.virginia.edu/dengrove/writeup/antiestablishment-bomber-patricia-swinton-acquitted
 
-Deployment pending.
+Live verified: two updates; isolated fixture and concurrent-edit guard passed; all unrelated profile/case fields preserved; replay zero. Public pages HTTP200; Melville Nov12,1969 and revised 670-day counter. Odinga retains separate1970s exile; false2014 case start cleared. Historical profile exile flag unchanged; saving-hook recurrence risk remains documented.

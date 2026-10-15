@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 191,
-  "case_records_changed_or_added": 248,
+  "changed_profiles": 193,
+  "case_records_changed_or_added": 250,
   "status_counts": {
-    "not-yet-researched": 1161,
-    "partially-corrected-live": 191,
+    "not-yet-researched": 1159,
+    "partially-corrected-live": 193,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -160,9 +160,11 @@
       "gap_case_ids": [
         "1765039f-42b4-4071-8d9f-459943ce3450"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        610
+      ],
+      "note": "Firsthand welcome-home reporting confirms November25,2014 release and subsequent Harlem welcome. Clear recurring false release-as-exile field on 1981 state case; preserve separate1970-1973 exile row and all custody dates. Existing sentence text already says this field was cleared. Model saving hook can regenerate it when historical in_exile profile flag is set; raw guarded update avoids that hook, but future model saves remain a recurrence risk. Live and public verified."
     },
     {
       "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
@@ -1247,9 +1249,11 @@
         "fb7d4117-e223-4aca-ba8f-79bd7a204451"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        610
+      ],
+      "note": "Contemporary federal opinions establish November12,1969 arrest and FBI custody through November13. Correct one-day error; preserve September13,1971 death-in-custody field and matching release endpoint used by the application. Live and public verified."
     },
     {
       "prisoner_id": "86803275-0ea3-440d-9b40-d796e9757a2f",
