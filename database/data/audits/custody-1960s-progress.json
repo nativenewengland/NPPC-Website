@@ -4,7 +4,7 @@
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
   "changed_profiles": 247,
-  "case_records_changed_or_added": 314,
+  "case_records_changed_or_added": 316,
   "status_counts": {
     "not-yet-researched": 1106,
     "partially-corrected-live": 247,
@@ -256,17 +256,20 @@
       "slug": "michael-tabor",
       "case_ids": [
         "858ad06a-ffdb-4a90-a246-2ee386ab85f0",
-        "ac33f172-4858-417f-8c0b-1c609ad5910b"
+        "ac33f172-4858-417f-8c0b-1c609ad5910b",
+        "cf7a0e95-b429-5064-a50a-e744c62d67d8"
       ],
       "gap_case_ids": [
         "858ad06a-ffdb-4a90-a246-2ee386ab85f0",
-        "ac33f172-4858-417f-8c0b-1c609ad5910b"
+        "ac33f172-4858-417f-8c0b-1c609ad5910b",
+        "cf7a0e95-b429-5064-a50a-e744c62d67d8"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        640
+        640,
+        641
       ],
-      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved."
+      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved. Batch641 separate later remand live and verified; exact endpoints unresolved."
     },
     {
       "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
@@ -1334,14 +1337,18 @@
       "name": "Joan Bird",
       "slug": "joan-bird",
       "case_ids": [
-        "e6ce8543-8d16-4fea-9c4a-a0cad44b3f6f"
+        "e6ce8543-8d16-4fea-9c4a-a0cad44b3f6f",
+        "537f4a5f-63e4-5efd-8326-8c70a290a311"
       ],
-      "gap_case_ids": [],
+      "gap_case_ids": [
+        "537f4a5f-63e4-5efd-8326-8c70a290a311"
+      ],
       "status": "partially-corrected-live",
       "batches": [
-        640
+        640,
+        641
       ],
-      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved."
+      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved. Batch641 separate later remand live and verified; exact endpoints unresolved."
     },
     {
       "prisoner_id": "9ce5574a-2e41-4fd6-b71e-2537b8662222",

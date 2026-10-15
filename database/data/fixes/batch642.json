@@ -1,0 +1,147 @@
+{
+  "batch": 642,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+      "name": "Timothy Leary",
+      "slug": "timothy-leary",
+      "case_id": "b5bbfc52-c562-4f3a-a64b-449934a85c85",
+      "expected": {
+        "id": "b5bbfc52-c562-4f3a-a64b-449934a85c85",
+        "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+        "institution_id": "4f255baa-f195-43bd-b46f-e6f7c5df8784",
+        "charges": "Drug charges",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1976-04-20 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-05-10 06:33:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1976-04-21 00:00:00",
+        "sentence": "Release endpoint corrected to April 21, 1976, as documented by the Harry Ransom Center collection biography. This generic overview overlaps the separately recorded post-recapture custody; no duplicate incarceration interval is added."
+      },
+      "sources": [
+        "https://beezone.com/allen-ginsberg/leary.html",
+        "https://www.buchfreund.de/de/d/p/117475756/memorandum-of-the-appellant-timothy-leary",
+        "https://law.justia.com/cases/california/court-of-appeal/3d/40/527.html",
+        "https://www.govinfo.gov/content/pkg/CPRT-94SPRT39242/pdf/CPRT-94SPRT39242.pdf",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00074&kw=leary&showrequest=0"
+      ],
+      "rationale": "Resolve conflicting release dates, add missing initial custody, distinguish arrest abroad from U.S. prison return and escape from departure into exile. Preserve biography and unrelated fields."
+    },
+    {
+      "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+      "name": "Timothy Leary",
+      "slug": "timothy-leary",
+      "case_id": "7a0af3fd-4f1c-4f46-b71c-47324e9a2d48",
+      "expected": {
+        "id": "7a0af3fd-4f1c-4f46-b71c-47324e9a2d48",
+        "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+        "institution_id": "e55d6fbc-9fa4-4d98-8e0e-0f297e2d2348",
+        "charges": "Marijuana possession (arrested December 26, 1968 in Laguna Beach, California).",
+        "arrest_date": "1968-12-26 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1970-09-13 00:00:00",
+        "end_of_exile": "1973-01-14 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Imprisoned at the California Men's Colony in early 1970; on September 12, 1970 he escaped with help from the Weather Underground and fled into exile — Algeria (where Eldridge Cleaver's exiled Black Panthers briefly held him), then Switzerland, Austria, and Afghanistan — until his capture at Kabul airport on January 14, 1973.\n\nVerdict as recorded: Yes — convicted in 1970 and sentenced to up to ten years.\n\nCharges as recorded: Marijuana possession (arrested December 26, 1968 in Laguna Beach, California). An earlier 1965 marijuana conviction at the Laredo, Texas border was overturned by the U.S. Supreme Court in Leary v. United States (1969).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 854,
+        "created_at": "2026-06-22 17:18:14",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1970-02-19 00:00:00",
+        "release_date": "1970-09-12 00:00:00",
+        "sentenced_date": "1970-03-16 00:00:00",
+        "in_exile_since": "1970-09-01 00:00:00",
+        "end_of_exile": "1973-01-18 00:00:00",
+        "in_exile_for_days": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\",\"in_exile_since\":\"month\",\"end_of_exile\":\"day\"}",
+        "sentence": "Custody began February 19, 1970, according to Leary's contemporaneous bail memorandum and Allen Ginsberg's account. The California appellate opinion records the March 16, 1970 judgment and prison sentence of six months to ten years, confinement at Chino and Vacaville, and transfer to California Men's Colony on May 13. He escaped September 12, 1970; the custody endpoint denotes escape, not an authorized release. Departure abroad is recorded only as September 1970, rather than treating the next day as a verified border crossing. The Senate chronology distinguishes arrest in Afghanistan on January 14, 1973 from return to the United States on January 18. The appellate opinion prints 1972 for that journey; the contemporary chronology establishes 1973. The earlier Laredo federal prosecution is distinct."
+      },
+      "sources": [
+        "https://beezone.com/allen-ginsberg/leary.html",
+        "https://www.buchfreund.de/de/d/p/117475756/memorandum-of-the-appellant-timothy-leary",
+        "https://law.justia.com/cases/california/court-of-appeal/3d/40/527.html",
+        "https://www.govinfo.gov/content/pkg/CPRT-94SPRT39242/pdf/CPRT-94SPRT39242.pdf",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00074&kw=leary&showrequest=0"
+      ],
+      "rationale": "Resolve conflicting release dates, add missing initial custody, distinguish arrest abroad from U.S. prison return and escape from departure into exile. Preserve biography and unrelated fields."
+    },
+    {
+      "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+      "name": "Timothy Leary",
+      "slug": "timothy-leary",
+      "case_id": "83478772-176a-44fa-a5da-c97d6f1d40c6",
+      "expected": {
+        "id": "83478772-176a-44fa-a5da-c97d6f1d40c6",
+        "prisoner_id": "a157991c-3057-446c-867f-a001f174278b",
+        "institution_id": "97869fd2-04f4-488f-bd32-de29dc1802a5",
+        "charges": "Returned to U.S. custody.",
+        "arrest_date": "1973-01-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-01-14 00:00:00",
+        "release_date": "1976-04-21 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Folsom and other California prisons after extradition; paroled on April 21, 1976.\n\nVerdict as recorded: Yes — returned to prison after recapture.\n\nCharges as recorded: Returned to U.S. custody after his January 14, 1973 capture at Kabul airport, Afghanistan, to serve the remainder of his sentence and answer for the 1970 escape.",
+        "imprisoned_for_days": 1193,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 17:18:14",
+        "updated_at": "2026-09-26 21:21:41",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1973-01-18 00:00:00",
+        "sentence": "Arrested in Afghanistan January 14, 1973; returned to U.S. prison custody January 18, 1973, as distinguished in the Senate Weather Underground report, appendix VI. The earlier arrest date is retained, but is not treated as California prison admission. Held in California prisons until April 21, 1976, the release date documented by the Harry Ransom Center. This interval excludes the preceding period abroad and remains separate from the 1970 imprisonment before escape."
+      },
+      "sources": [
+        "https://beezone.com/allen-ginsberg/leary.html",
+        "https://www.buchfreund.de/de/d/p/117475756/memorandum-of-the-appellant-timothy-leary",
+        "https://law.justia.com/cases/california/court-of-appeal/3d/40/527.html",
+        "https://www.govinfo.gov/content/pkg/CPRT-94SPRT39242/pdf/CPRT-94SPRT39242.pdf",
+        "https://research.hrc.utexas.edu/fasearch/findingaid.cfm?eadid=00074&kw=leary&showrequest=0"
+      ],
+      "rationale": "Resolve conflicting release dates, add missing initial custody, distinguish arrest abroad from U.S. prison return and escape from departure into exile. Preserve biography and unrelated fields."
+    }
+  ]
+}
