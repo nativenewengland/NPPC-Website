@@ -7,4 +7,4 @@ Ralph Abernathy: Stanford documents the May 25 Montgomery arrest. SCLC August 19
 https://kinginstitute.stanford.edu/king-papers/documents/press-conference-announcing-continuation-freedom-rides
 https://www.crmvet.org/docs/sclc/6108_sclc_newsletter.pdf
 
-Deployment pending. No biographies changed.
+Applied live; unrelated fields preserved, replay zero changes, both public pages HTTP 200. Walker displays May 25-29 and aggregate 8 Days. Abernathy start filled but individual endpoint remains unknown. No biographies changed.
