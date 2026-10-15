@@ -1,0 +1,49 @@
+{
+  "batch": 565,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "8f96c23f-56e5-4daa-826c-df613ff2cfed",
+      "name": "Thomas Gaither",
+      "slug": "thomas-gaither",
+      "case_id": "d06b579c-fd93-407f-a498-dc1eb383fe5a",
+      "expected": {
+        "id": "d06b579c-fd93-407f-a498-dc1eb383fe5a",
+        "prisoner_id": "8f96c23f-56e5-4daa-826c-df613ff2cfed",
+        "institution_id": "6c0bb5af-7f9b-40d9-8a53-f00658e44a10",
+        "charges": "Trespass — the January 31, 1961 sit-in at the McCrory's lunch counter in Rock Hill, South Carolina.",
+        "arrest_date": "1961-01-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — convicted February 1, 1961",
+        "plead": null,
+        "sentenced_date": "1961-02-01 00:00:00",
+        "incarceration_date": "1961-02-02 00:00:00",
+        "release_date": "1961-03-02 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Thirty days at hard labor, refused in favor of jail in the influential \"jail, no bail\" protest. Began the sentence at the York County Prison Farm on February 2, 1961 and was released March 2, 1961, two days before the nominal completion of the term.",
+        "imprisoned_for_days": 28,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-08-01 15:00:44",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-01-31 00:00:00",
+        "sentence": "Sentenced February 1, 1961 to thirty days at hard labor or a $100 fine. Refused to pay and remained in custody after the January 31 arrest and overnight detention at Rock Hill jail. Served the sentence at York County Prison Farm and was released March 2, 1961. The prison-farm transfer did not begin a separate custody episode."
+      },
+      "sources": [
+        "https://friendship9.org/our-story/",
+        "https://friendship9.org/day-2/",
+        "https://friendship9.org/day-4/"
+      ],
+      "rationale": "Participant organization explicitly documents overnight jail after January31 arrest, refusal of bail, direct transfer and March2 release. Count pretrial jail as well as prison farm; no bail gap. Existing sentence wording falsely implied hard labor was refused in favor of jail; correction distinguishes fine alternative."
+    }
+  ]
+}
