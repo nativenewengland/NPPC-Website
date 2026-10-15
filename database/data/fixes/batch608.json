@@ -1,0 +1,90 @@
+{
+  "batch": 608,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "04d4c109-d81a-4236-aae8-862e71cbd3df",
+      "name": "Barbara Broxton",
+      "slug": "barbara-broxton",
+      "case_id": "ac92d17b-57fc-4713-aa02-8cb1c048c39f",
+      "expected": {
+        "id": "ac92d17b-57fc-4713-aa02-8cb1c048c39f",
+        "prisoner_id": "04d4c109-d81a-4236-aae8-862e71cbd3df",
+        "institution_id": null,
+        "charges": "Sit-in / unlawful assembly \u2014 Tallahassee lunch-counter protest",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1960-03-18 00:00:00",
+        "release_date": "1960-05-05 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "48 days in jail\n\nVerdict as recorded: Convicted; jailed February 1960",
+        "imprisoned_for_days": 48,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-09-18 05:58:49",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-02-20 00:00:00"
+      },
+      "sources": [
+        "https://www.floridamemory.com/discover/historical_records/stephens_sisters/",
+        "https://oral.history.ufl.edu/wp-content/uploads/sites/214/civilrightssunshinestate1.pdf"
+      ],
+      "reason": "State archives and University of Florida exhibit identify Barbara among the February20,1960 sit-in defendants. Preserve existing March18-May5 imprisonment."
+    },
+    {
+      "prisoner_id": "41a62a1f-06fd-422f-8426-2cbdec852254",
+      "name": "Robert Shelton",
+      "slug": "robert-shelton",
+      "case_id": "7ea769c1-3f7b-469c-9612-61da358a753a",
+      "expected": {
+        "id": "7ea769c1-3f7b-469c-9612-61da358a753a",
+        "prisoner_id": "41a62a1f-06fd-422f-8426-2cbdec852254",
+        "institution_id": "f2bffa65-bd21-42b1-8283-3bf23f328f22",
+        "charges": "Contempt of Congress.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year in federal prison and a $1,000 fine; served nine months at the federal prison in Texarkana, Texas, in 1969.\n\nVerdict as recorded: Yes \u2014 cited for contempt of Congress in 1966 and convicted; the conviction was upheld on appeal.\n\nCharges as recorded: Contempt of Congress \u2014 for refusing to produce the Ku Klux Klan\u2019s membership and financial records subpoenaed by the House Un-American Activities Committee.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 16:11:49",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": null,
+        "imprisoned_for_months": 9,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-02-01 00:00:00",
+        "release_date": "1969-11-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://vault.fbi.gov/cointel-pro/White%20Hate%20Groups/COINTELPRO%20White%20Hate%20Groups%20Part%2006",
+        "https://www.ojp.gov/pdffiles1/Digitization/46433NCJRS.pdf"
+      ],
+      "reason": "FBI February25,1969 memorandum states February1969 prison admission. OJP archived study printedp28 establishes November1969 release. Month precision only; day01 is storage convention, not claimed actual date. Preserve documented nine months and biography."
+    }
+  ]
+}

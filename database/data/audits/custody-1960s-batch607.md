@@ -8,4 +8,4 @@ Black Dispatch May19,1961 p1 corroborates June7 arrest and describes successive 
 
 https://gateway.okhistory.org/ark:/67531/metadc2529662/m1/1/
 
-Deployment pending.
+Live deployment verified: two changes, all unrelated fields preserved, replay zero changes. Both public pages returned HTTP200 with June7 arrest/incarceration and 2 Days counters. Isolated fixture and concurrent-edit guard passed.
