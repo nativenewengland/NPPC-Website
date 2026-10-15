@@ -10,4 +10,4 @@ Updates: arrest and incarceration September 1952 MONTH precision; clear false re
 
 Unresolved: exact September arrest day, bail-release day, any later brief detention before deportation, exile endpoint. Decade review remains incomplete.
 
-Deployment pending fixture, preview/apply, preservation/replay and public checks.
+Deployed October 15, 2026. Isolated fixture, conflict guard and no-write preview passed. Live update changed one selected case, preserved every profile and unrelated case field, and replay changed zero. Public HTTP 200 shows September 1952 arrest/incarceration, with the false continuous counter absent. Local before/after/public evidence retained under tmp/custody-1960s-audit/626-*.
