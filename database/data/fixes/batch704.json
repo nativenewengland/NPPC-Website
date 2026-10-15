@@ -1,0 +1,92 @@
+{
+  "batch": 704,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "William Leons",
+      "slug": "william-leons",
+      "prisoner_id": "6e18662b-89c4-467e-be15-e184bf1c6d2d",
+      "case_id": "dde22fc6-69b1-476d-a7a7-bc4ddcd18dc4",
+      "expected": {
+        "id": "dde22fc6-69b1-476d-a7a7-bc4ddcd18dc4",
+        "prisoner_id": "6e18662b-89c4-467e-be15-e184bf1c6d2d",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride arrival at the Jackson Illinois Central terminal, July 30, 1961.",
+        "arrest_date": "1961-07-30 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-07-30. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-07-30 00:00:00",
+        "documented_imprisoned_for_days": 39,
+        "sentence": "Served 39 days in custody after the July 30, 1961 Freedom Ride arrest, as reported in Smithsonian coverage of his interview. Exact release date remains unverified.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Smithsonian explicitly identifies his individual incarceration as 39 days, rather than a generic rider duration. Retain CRDL July 30 arrest and record the documented total without manufacturing an endpoint.",
+      "sources": [
+        "https://www.smithsonianmag.com/history/the-freedom-riders-then-and-now-45351758/",
+        "https://crdl.usg.edu/people/leons_william_1935"
+      ]
+    },
+    {
+      "name": "Alan Kaufman",
+      "slug": "alan-kaufman",
+      "prisoner_id": "743eda45-7a6a-45d9-a0de-2b292a03cd86",
+      "case_id": "d1bd30dd-ddba-4d76-a060-e6e418893803",
+      "expected": {
+        "id": "d1bd30dd-ddba-4d76-a060-e6e418893803",
+        "prisoner_id": "743eda45-7a6a-45d9-a0de-2b292a03cd86",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride arrival at the Jackson Illinois Central terminal, July 30, 1961.",
+        "arrest_date": "1961-07-30 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-07-30. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-07-30 00:00:00",
+        "sentence": "Imprisoned following the July 30, 1961 Freedom Ride arrest and later bailed out through CORE. His 2019 public account reports 23 days at Parchman. Exact release date and total including any initial local detention remain unverified.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "The hosting Ethical Culture Society reports his first-person presentation and 23 days at Parchman. Record custody and the reported prison component, but do not assert it as the complete jail-plus-prison total.",
+      "sources": [
+        "https://ethicalfocus.org/freedom-rider/"
+      ]
+    }
+  ]
+}

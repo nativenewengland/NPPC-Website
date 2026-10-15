@@ -58,3 +58,7 @@ UCLA reporting confirms July 30 arrest and immediate local custody followed by P
 - https://www.crmvet.org/nars/1809heln.htm
 
 John Charles Taylor Jr.: MDAH AU974 interview reviewed in full; it does not establish confinement endpoints. No update from this interview.
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
