@@ -1,0 +1,91 @@
+{
+  "batch": 669,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "George Wright",
+      "slug": "george-wright",
+      "prisoner_id": "dfe82636-c1d7-457c-b46f-366278c7e32d",
+      "case_id": "772c1fe0-078f-4563-b8a4-a22ee2cb6734",
+      "expected": {
+        "id": "772c1fe0-078f-4563-b8a4-a22ee2cb6734",
+        "prisoner_id": "dfe82636-c1d7-457c-b46f-366278c7e32d",
+        "institution_id": null,
+        "charges": "Escape from a New Jersey state prison (1970) while serving time",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Convicted of the 1962 New Jersey murder (no-contest plea, 15 to 30 years); never tried for the hijacking — Portugal denied extradition",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1972-07-31 00:00:00",
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Escaped from the New Jersey prison at Leesburg with George Brown on August 22, 1970, while serving 15 to 30 years imposed on a no-contest plea to murder for the 1962 shooting of gas-station proprietor Walter Patterson. Hijacked Delta Air Lines Flight 841 on July 31, 1972 as Reverend Larry Darnell Burgess, dressed as a clergyman with a handgun concealed inside a hollowed-out Bible; survivor and investigative accounts generally identify him as the principal organizer aboard. In exile since the hijacking — Algeria, Guinea-Bissau, then Portugal as José Luís Jorge dos Santos, with Portuguese citizenship. The FBI continues to list him as wanted and living in Portugal; no verified death has been reported.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 19799,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-10-15 00:00:23",
+        "date_precision": "{\"in_exile_since\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1962-11-01 00:00:00",
+        "sentenced_date": "1963-02-15 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"day\",\"arrest_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Retired FBI investigator congressional testimony, printed p33, dates arrest within two days after November23,1962 and sentence February15,1963. Store arrest month only; no exact arrest day or admission inferred.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CHRG-112jhrg94519/pdf/CHRG-112jhrg94519.pdf"
+      ]
+    },
+    {
+      "name": "Patricia Swinton",
+      "slug": "patricia-swinton",
+      "prisoner_id": "332473d1-64f5-483f-95f8-cf812d357a6e",
+      "case_id": "fb854ab6-f9ce-4ac2-847f-19c22e4c72f7",
+      "expected": {
+        "id": "fb854ab6-f9ce-4ac2-847f-19c22e4c72f7",
+        "prisoner_id": "332473d1-64f5-483f-95f8-cf812d357a6e",
+        "institution_id": null,
+        "charges": "Conspiracy in the 1969 bombings of eight corporate and government buildings in New York City (the Sam Melville–Jane Alpert group).",
+        "arrest_date": "1975-03-12 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No — acquitted at trial in September 1975.\n\nCharges as recorded: Conspiracy in the 1969 bombings of eight corporate and government buildings in New York City (the Sam Melville–Jane Alpert group). Swinton spent more than five years as a fugitive before her March 12, 1975 capture in Vermont.\n\nTIME SERVED IS RECORDED AS A FLOOR. The source says more than five years without saying how much more, so 60 months is entered as the least the custody can have been rather than as its length. The record previously counted none of it.\n\nTIME SERVED IS RECORDED AS A FLOOR. The source says more than five years without saying how much more, so 60 months is entered as the least the custody can have been rather than as its length. The record previously counted none of it.\n\nTIME SERVED IS RECORDED AS A FLOOR. The source says more than five years without saying how much more, so 60 months is entered as the least the custody can have been rather than as its length. The record previously counted none of it.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 03:31:21",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": null,
+        "imprisoned_for_months": 60,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": null,
+        "sentence": "Captured in Vermont on March 12, 1975 after more than five years as a fugitive. Acquitted on September 26, 1975 of all charges in the bombing indictment. The fugitive period was not time imprisoned. Actual custody endpoints and total time served remain unverified.",
+        "convicted": "No — acquitted on September 26, 1975"
+      },
+      "rationale": "UVA archival account distinguishes five years hiding from custody; Second Circuit Hughey opinion dates acquittal. Remove unsupported60month time-served entry and duplicated editorial notes; do not equate acquittal with release.",
+      "sources": [
+        "https://archives.law.virginia.edu/dengrove/writeup/antiestablishment-bomber-patricia-swinton-acquitted",
+        "https://m.openjurist.org/571/f2d/111"
+      ]
+    }
+  ]
+}
