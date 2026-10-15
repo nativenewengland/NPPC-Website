@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 357,
-  "case_records_changed_or_added": 445,
+  "changed_profiles": 359,
+  "case_records_changed_or_added": 447,
   "status_counts": {
-    "partially-corrected-live": 357,
+    "partially-corrected-live": 359,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 961,
-    "research-incomplete": 9,
+    "not-yet-researched": 955,
+    "research-incomplete": 13,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
@@ -6699,9 +6699,11 @@
       "gap_case_ids": [
         "9c03df98-860a-46ff-a7af-dcd38ec9d29f"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        692
+      ],
+      "note": "Contemporary Washington Free Press individually identifies all nine and their pretrial incarceration. Appellate opinion distinguishes these two no-contest defendants from the seven appellants. No release assigned from anticipated April 2-7 bail window or appeal decision."
     },
     {
       "prisoner_id": "d4670e2f-4ddf-4205-add7-1ccfac72f7fe",
@@ -6713,9 +6715,11 @@
       "gap_case_ids": [
         "076580a4-b8ee-41d2-9cc0-48c93639b8b1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        692
+      ],
+      "note": "Contemporary Washington Free Press individually identifies all nine and their pretrial incarceration. Appellate opinion distinguishes these two no-contest defendants from the seven appellants. No release assigned from anticipated April 2-7 bail window or appeal decision."
     },
     {
       "prisoner_id": "840787d7-38a1-4b93-945d-36a0a50b4871",
@@ -8293,7 +8297,14 @@
       "batches": [
         586
       ],
-      "note": "The Civil Rights Digital Library confirms imprisonment at Parchman following the June 25, 1961 Freedom Ride arrest. The sentence length and individual release date remain unverified."
+      "note": "The Civil Rights Digital Library confirms imprisonment at Parchman following the June 25, 1961 Freedom Ride arrest. The sentence length and individual release date remain unverified.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-10-001.pdf",
+          "finding": "Original file corroborates June 25 arrest. No new release evidence; existing custody start retained."
+        }
+      ]
     },
     {
       "prisoner_id": "bd266cd8-4868-424f-9a26-d444a07d9c46",
@@ -9138,7 +9149,14 @@
       "batches": [
         559
       ],
-      "note": "MNHS individually identifies the six Minnesota riders, overnight detention following June11 arrest and next-day sentencing, and separate July3/July24 releases. OConnor additionally corroborated by contemporary October26 Minneapolis Spokesman p1."
+      "note": "MNHS individually identifies the six Minnesota riders, overnight detention following June11 arrest and next-day sentencing, and separate July3/July24 releases. OConnor additionally corroborated by contemporary October26 Minneapolis Spokesman p1.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-06-001.pdf",
+          "finding": "Reviewed original file. No supported replacement for separately sourced existing June 11-July 24, 1961 custody."
+        }
+      ]
     },
     {
       "prisoner_id": "96251317-5be6-4767-b617-ec4c42411251",
@@ -9310,9 +9328,16 @@
       "gap_case_ids": [
         "cd1e46ac-94f9-418f-b1c5-882e0a8c0076"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Broad decade match; confirm actual case scope before editing.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-03-001.pdf",
+          "finding": "Original FBI arrest-history entry corroborates June 25, 1961 Jackson arrest; no release or sixty-day actual-custody evidence in this file. Existing sixty-day documented-duration provenance requires further checking."
+        }
+      ]
     },
     {
       "prisoner_id": "626b44f3-c8ec-45e4-b803-e2d1fd4bb1e7",
@@ -9853,7 +9878,14 @@
       "batches": [
         630
       ],
-      "note": "June1961 confinement verified by June27 official report; month precision added. Release and exact admission unresolved."
+      "note": "June1961 confinement verified by June27 official report; month precision added. Release and exact admission unresolved.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-02-001.pdf",
+          "finding": "File records four-month sentence and later August public activity, not an exact release. Police political allegations are not adopted as facts. Exact endpoint requires further source work."
+        }
+      ]
     },
     {
       "prisoner_id": "362d4a7b-6f02-43dc-a813-9093ef1b0634",
@@ -9913,7 +9945,14 @@
       "batches": [
         632
       ],
-      "note": "CORE September1960 p3 firsthand account names seven held ten days August17 until August26 trial; suspended sentences and free to picket following day. Separate Miami custody absent from existing cases."
+      "note": "CORE September1960 p3 firsthand account names seven held ten days August17 until August26 trial; suspended sentences and free to picket following day. Separate Miami custody absent from existing cases.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-04-001.pdf",
+          "finding": "Original file corroborates June 20, 1961 arrest and earlier August 17, 1960 Miami arrest/August 26 probation. Does not establish individual 1961 release."
+        }
+      ]
     },
     {
       "prisoner_id": "a4d280e6-9897-40ed-8354-437b12571dba",
@@ -10481,9 +10520,16 @@
       "gap_case_ids": [
         "f785c853-8ddf-456b-b24e-6567ac2153b2"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Broad decade match; confirm actual case scope before editing.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-07-001.pdf",
+          "finding": "Original arrest-history entry corroborates July 9, 1961; July 17 catalog date is not the arrest. Disposition and release blank."
+        }
+      ]
     },
     {
       "prisoner_id": "f936496f-60aa-4347-a2b7-dd028347d672",
@@ -10609,9 +10655,16 @@
       "gap_case_ids": [
         "f34979e1-ba57-48ad-be32-2611e9aa56af"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Broad decade match; confirm actual case scope before editing.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-09-001.pdf",
+          "finding": "Original file records June 10 Jackson police arrest and June 19 sheriff receipt. The latter is a later agency receipt, not evidence of release or a replacement arrest date. Endpoint unresolved."
+        }
+      ]
     },
     {
       "prisoner_id": "245ab797-f8a0-496f-b56c-3ce21948aba1",
@@ -11625,7 +11678,14 @@
       "batches": [
         631
       ],
-      "note": "AP July13,1961:23 actual days; June20 admission and July release month added. Exact physical release day unresolved."
+      "note": "AP July13,1961:23 actual days; June20 admission and July release month added. Exact physical release day unresolved.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-05-001.pdf",
+          "finding": "Reviewed original file. No release refinement established beyond separately sourced July 1961 and twenty-three-day duration already applied."
+        }
+      ]
     },
     {
       "prisoner_id": "9e98b27a-7107-46aa-b1a3-55573059fbec",
@@ -11781,9 +11841,16 @@
       "gap_case_ids": [
         "6615d6b8-0d21-481e-981d-73ba164f58a1"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Broad decade match; confirm actual case scope before editing.",
+      "research_checks": [
+        {
+          "date": "2026-10-15",
+          "source": "https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-08-001.pdf",
+          "finding": "Original arrest-history entry corroborates June 2, 1961; June 14 file date is not the arrest. No release established."
+        }
+      ]
     },
     {
       "prisoner_id": "de317570-3ed9-4fe5-a542-2616a1bfa494",

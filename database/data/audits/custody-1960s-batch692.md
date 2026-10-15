@@ -6,3 +6,7 @@ United States v. Dougherty, 473 F.2d 1113, distinguishes the two no-contest plea
 
 https://washingtonareaspark.com/wp-content/uploads/2020/05/1969-04-01-wfp-vol-3-no-1.pdf
 https://law.justia.com/cases/federal/appellate-courts/F2/473/1113/226019/
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
