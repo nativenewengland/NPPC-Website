@@ -7,3 +7,7 @@ The court describes the arrest and imprisonment of the seven raid survivors on D
 - https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-12-13-black-panther-vol-4-no-2.pdf
 
 Only missing custody start and its day precision added. All biography and unrelated fields preserved. Existing 1970 year-only release is retained but NOT independently verified by this batch. May 8, 1970 dismissal must not be substituted for physical release. The appellate opinion gives December 21, 1969 for several unnamed survivors; that date is not assigned to Anderson or Brewer. No exact-day counter should be generated from the existing year-only endpoint.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
