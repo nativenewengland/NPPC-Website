@@ -4,4 +4,4 @@ Add the independently documented June11-July24,1961 custody episode, 43 elapsed 
 
 https://www.mnhs.org/mnopedia/search/index/group/minnesota-freedom-riders
 
-Deployment pending.
+One case added; zero-change replay; existing case and profile exactly preserved. Public page HTTP200 displays 43 elapsed days.

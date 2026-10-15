@@ -11,4 +11,4 @@ Police report pp1-3 explicitly names eight riders and says they were placed in j
 https://www.crmvet.org/docs/610709_fr_jax_police.pdf
 https://www.crmvet.org/docs/610717_fr_fbi.pdf
 
-Source scans visually inspected. Deployment pending.
+Source scans visually inspected. Five case updates applied; replay zero and all profiles/unrelated fields preserved. Public pages HTTP200 show new jail-entry dates; counters remain absent because releases remain unresolved.

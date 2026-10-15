@@ -11,4 +11,4 @@ MNHS narrative and chronology individually identify six riders, actual releases 
 https://www.mnhs.org/mnopedia/search/index/group/minnesota-freedom-riders
 https://tile.loc.gov/storage-services/service/ndnp/mnhi/batch_mnhi_hamlet_ver01/data/sn84025909/00542865313/1961102601/1266.pdf
 
-Deployment pending.
+Five case updates applied; replay zero and all profiles/unrelated fields preserved. Five public pages HTTP200 display 22 or 43 elapsed days.
