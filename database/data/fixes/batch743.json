@@ -1,0 +1,92 @@
+{
+  "batch": 743,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Clarence Senior",
+      "slug": "clarence-senior",
+      "prisoner_id": "10d7b26c-c251-4d2d-962e-315f42877e8e",
+      "case_id": "919572ae-63d3-41fb-865b-3d6eba19b75a",
+      "expected": {
+        "id": "919572ae-63d3-41fb-865b-3d6eba19b75a",
+        "prisoner_id": "10d7b26c-c251-4d2d-962e-315f42877e8e",
+        "institution_id": null,
+        "charges": "Sit-in / trespass — Atlanta desegregation protest",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed (1960)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed for the sit-ins; challenged the segregated court",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-06-17 01:59:50",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-03-01 00:00:00",
+        "incarceration_date": "1960-03-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "rationale": "Clarence H. Seniors personal university-hosted profile identifies his March 1960 sit-in arrest and jailing; San Antonio Register May 6, 1960 names the same Morris Brown student and March arrest. National Guardian June 13, 1960 reports he had been jailed and spoke in New York June 4, corroborating release before that appearance. Month precision used because the Register day is not visually verified; no group release day or retrospective publication day is assigned. Exact release unresolved.",
+      "sources": [
+        "https://blogs.shu.edu/clarenceseniors/",
+        "https://texashistory.unt.edu/ark:/67531/metapth399156/m1/1/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-06-13-12-35-nat-guardian.pdf"
+      ]
+    },
+    {
+      "name": "Martin Chancey",
+      "slug": "martin-chancey",
+      "prisoner_id": "2698d3ac-09aa-43b4-b6b5-970d43f58e97",
+      "case_id": "ba2d9716-3504-44c6-8ce0-5cbb01716929",
+      "expected": {
+        "id": "ba2d9716-3504-44c6-8ce0-5cbb01716929",
+        "prisoner_id": "2698d3ac-09aa-43b4-b6b5-970d43f58e97",
+        "institution_id": null,
+        "charges": "Smith Act (1956 conviction, reversed); renewed HUAC subpoena (1961)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Smith Act conviction reversed; later pursued by HUAC\n\nVerdict as recorded: Convicted 1956; conviction reversed 1958",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1953-11-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "rationale": "Contemporaneous United States Attorneys Bulletin volume 1 number 9 printed page 8 explicitly dates Martin Chancey arrest at Pittsburgh November 4, 1953, in the Smith Act prosecution already described by this profile. Original scan visually confirms 4; OCR incorrectly reads 11. This is the earlier prosecution, not a fabricated 1961 HUAC arrest. Admission and release remain unverified.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0109.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-05-13-34-nat-guardian.pdf"
+      ]
+    }
+  ]
+}
