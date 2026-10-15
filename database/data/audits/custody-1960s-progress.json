@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 312,
-  "case_records_changed_or_added": 392,
+  "changed_profiles": 314,
+  "case_records_changed_or_added": 395,
   "status_counts": {
-    "partially-corrected-live": 312,
-    "reviewed-selected-case-no-change": 24,
-    "not-yet-researched": 1009,
+    "partially-corrected-live": 314,
+    "reviewed-selected-case-no-change": 26,
+    "not-yet-researched": 1004,
     "research-incomplete": 9,
-    "researched-unresolved": 57,
+    "researched-unresolved": 58,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
   },
@@ -3096,9 +3096,11 @@
       "gap_case_ids": [
         "d2f6ffa6-fc4b-47a0-a34e-f8aa460c73ed"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "reviewed-selected-case-no-change",
+      "batches": [
+        673
+      ],
+      "note": "1961incarceration and18months corroborated; exact endpoints unresolved."
     },
     {
       "prisoner_id": "26172553-1e1e-4269-9ea8-10ff53c62b23",
@@ -3110,9 +3112,11 @@
       "gap_case_ids": [
         "647b24b8-8b03-4ad7-99e0-f49c08113366"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "researched-unresolved",
+      "batches": [
+        673
+      ],
+      "note": "May1961order deferred imprisonment until10days after wife release; no exact endpoints found. Existing18months needs actual-duration corroboration."
     },
     {
       "prisoner_id": "87ff4a27-ce34-4f31-9f35-60d08a6f4811",
@@ -3140,9 +3144,11 @@
       "gap_case_ids": [
         "78a0783d-4803-4edd-b9ac-fc00d99d8780"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        673
+      ],
+      "note": "1961 custody year established from surrender stay and December prison-address list; month/day/end unresolved."
     },
     {
       "prisoner_id": "f32a72bd-58f8-432b-89f8-251d1c256da7",
@@ -3154,9 +3160,11 @@
       "gap_case_ids": [
         "6c2c3ef0-dd59-415c-b990-daa43c40cc3d"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "reviewed-selected-case-no-change",
+      "batches": [
+        673
+      ],
+      "note": "December1961prison list confirmsTerreHaute; existing1961year preserved; no additionalexactendpoints located."
     },
     {
       "prisoner_id": "8323dee9-ae37-4ff0-9684-2719e3954e6f",
@@ -4353,9 +4361,11 @@
         "9887637a-c2d0-43d6-801c-9b5fad13f834"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        673
+      ],
+      "note": "Appellate opinion corroborates existingSep7-8,1961custody; removed contradictory unknown-release prose."
     },
     {
       "prisoner_id": "d3862342-80d3-4fe7-99ff-e269b66db724",
