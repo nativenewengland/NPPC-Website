@@ -13,4 +13,4 @@ https://www.crmvet.org/docs/core/core6104.pdf
 Doris Jean Castle: Contemporary CORElator April1961 page1 names this person among four picketers arrested April17 and remaining jailed after refusing bail. This predates and is distinct from the Jackson Freedom Ride.
 https://www.crmvet.org/docs/core/core6104.pdf
 
-Existing cases and biographies preserved. Deployment pending.
+Existing cases and biographies preserved. Applied live. Fixture, full case guards, preservation, zero-change replay and all four public April case displays verified. Smith counter includes30 documenteddays.
