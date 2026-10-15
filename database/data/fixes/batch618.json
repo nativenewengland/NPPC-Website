@@ -1,0 +1,96 @@
+{
+  "batch": 618,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",
+      "name": "Harold Reap",
+      "slug": "harold-reap",
+      "case_id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+      "expected": {
+        "id": "2612b816-a8a1-43e6-8c5c-2c3897807ba4",
+        "prisoner_id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",
+        "institution_id": null,
+        "charges": "Kidnapping (state)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed on high bail; tried October 1961",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed pending trial in the Monroe case\n\nCharges as recorded: Kidnapping (state) — the Monroe civil-rights frame-up",
+        "imprisoned_for_days": 64,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-10-13 17:46:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 64,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1964-02-28 00:00:00",
+        "convicted": "Convicted in February 1964; verdict and judgments vacated January 29, 1965 because the indicting grand jury was selected with racial discrimination.",
+        "sentence": "Jailed pending trial in the Monroe case\n\nCharges as recorded: Kidnapping (state) — the Monroe civil-rights frame-up\n\nSentenced February 28, 1964. Codefendant Mae Mallory contemporaneously reported a sentence of three to five years. The appellate record confirms trial in February 1964, not October 1961. Earlier release on bail occurred in September or October 1961; exact custody endpoints remain unverified. The stated sentence is not time served."
+      },
+      "sources": [
+        "https://www.crmvet.org/docs/650800_cpusa-crm.pdf",
+        "https://www.crmvet.org/info/mallory64.pdf",
+        "https://law.justia.com/cases/north-carolina/supreme-court/1965/263-n-c-536-0.html",
+        "https://www.casemine.com/judgement/us/5914c884add7b049347eaeef"
+      ],
+      "reason": "Correct unsupported October 1961 trial assertion to February 1964; add February 28 sentencing and January 29, 1965 vacatur. Contemporary Mallory participant account provides individual sentence range; later retrospective ranges conflict and are not substituted. Preserve prior documented duration for Reap. Do not convert legal decisions or bail papers into inferred physical release dates."
+    },
+    {
+      "prisoner_id": "19069cff-5361-4f1e-b396-9ad7b07ceede",
+      "name": "John Lowery",
+      "slug": "john-lowery",
+      "case_id": "5324465c-fb68-42ab-bf52-53de4cec672d",
+      "expected": {
+        "id": "5324465c-fb68-42ab-bf52-53de4cec672d",
+        "prisoner_id": "19069cff-5361-4f1e-b396-9ad7b07ceede",
+        "institution_id": null,
+        "charges": "Kidnapping (state)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed on high bail; tried October 1961",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed pending trial in the Monroe case\n\nCharges as recorded: Kidnapping (state) — the Monroe civil-rights frame-up",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1964-02-28 00:00:00",
+        "convicted": "Convicted in February 1964; verdict and judgments vacated January 29, 1965 because the indicting grand jury was selected with racial discrimination.",
+        "sentence": "Jailed pending trial in the Monroe case\n\nCharges as recorded: Kidnapping (state) — the Monroe civil-rights frame-up\n\nSentenced February 28, 1964. Codefendant Mae Mallory contemporaneously reported a sentence of one to three years. The appellate record confirms trial in February 1964, not October 1961. Earlier release on bail occurred in September or October 1961; exact custody endpoints remain unverified. The stated sentence is not time served."
+      },
+      "sources": [
+        "https://www.crmvet.org/docs/650800_cpusa-crm.pdf",
+        "https://www.crmvet.org/info/mallory64.pdf",
+        "https://law.justia.com/cases/north-carolina/supreme-court/1965/263-n-c-536-0.html",
+        "https://www.casemine.com/judgement/us/5914c884add7b049347eaeef"
+      ],
+      "reason": "Correct unsupported October 1961 trial assertion to February 1964; add February 28 sentencing and January 29, 1965 vacatur. Contemporary Mallory participant account provides individual sentence range; later retrospective ranges conflict and are not substituted. Preserve prior documented duration for Reap. Do not convert legal decisions or bail papers into inferred physical release dates."
+    }
+  ]
+}

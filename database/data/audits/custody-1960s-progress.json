@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 207,
-  "case_records_changed_or_added": 264,
+  "changed_profiles": 208,
+  "case_records_changed_or_added": 266,
   "status_counts": {
-    "not-yet-researched": 1145,
-    "partially-corrected-live": 207,
+    "not-yet-researched": 1144,
+    "partially-corrected-live": 208,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -1863,9 +1863,10 @@
       "gap_case_ids": [],
       "status": "partially-corrected-live",
       "batches": [
-        616
+        616,
+        617
       ],
-      "note": "Correct arrest to October 12, 1961; remove false uninterrupted September 1961-December 1969 incarceration. Contemporary accounts establish multiple bail gaps in 1963/1964 and court confirms appellate bond; neither conviction reversal nor dismissal is a physical release date. Preserve known transitions in case narrative while complete intervals remain unresolved. No biography changes."
+      "note": "Add February 28, 1964 sentencing established by contemporary civil-rights report and codefendant account. Court records confirm February 1964 trial and January 29, 1965 reversal; record physical release separately from legal decisions. Crowder sentence range varies in retrospective accounts; use contemporary participant seven-to-ten-year account, do not infer duration served. Mallory March 16, 1964 bond document is not assumed physical release."
     },
     {
       "prisoner_id": "2e3fe88b-e79e-43e0-bd62-2c6537b4b793",
@@ -4205,9 +4206,11 @@
       "gap_case_ids": [
         "62b39ebb-f7cb-4590-b89c-2d6e1cd8561e"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        617
+      ],
+      "note": "Add February 28, 1964 sentencing established by contemporary civil-rights report and codefendant account. Court records confirm February 1964 trial and January 29, 1965 reversal; record physical release separately from legal decisions. Crowder sentence range varies in retrospective accounts; use contemporary participant seven-to-ten-year account, do not infer duration served. Mallory March 16, 1964 bond document is not assumed physical release."
     },
     {
       "prisoner_id": "3715dc55-2478-4a1e-b74d-5c67bcae2a48",

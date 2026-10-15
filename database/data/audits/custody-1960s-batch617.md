@@ -24,4 +24,4 @@ https://law.justia.com/cases/north-carolina/supreme-court/1965/263-n-c-536-0.htm
 
 https://www.casemine.com/judgement/us/5914c884add7b049347eaeef
 
-No biographies changed. John Lowry identity and separate Monroe case require further confirmation before creation. Deployment pending.
+No biographies changed. John Lowry identity and separate Monroe case require further confirmation before creation. Applied live: two updates. Isolated fixture, no-write preview, replay, concurrent-edit guard and global preservation checks passed. Public pages HTTP 200 and both show February 28, 1964 sentencing. Physical custody endpoints remain unresolved.
