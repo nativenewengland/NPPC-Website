@@ -6,4 +6,4 @@ Gordon Lau Harris and Janice Louise Rogers: fill missing incarceration start Jun
 - Rogers: CRDL person authority confirms imprisonment at Parchman following June 25 arrest. https://crdl.usg.edu/people/rogers_janice_louise
 - John Dolan: no change in this batch. Later oral history says June 26; archival arrest record says June 25. His later August arrest remains a separate case. https://pluggerpublishing.com/civil-rights/background
 
-All biographies and unrelated fields preserved. Deployment validation pending.
+All biographies and unrelated fields preserved. Applied live. Isolated fixture, no-write preview, full-snapshot guards, global preservation verification, zero-change replay and public HTTP 200/date display checks passed. First live attempt did not apply; guarded retry succeeded after SQLite lock retries. Exact release dates remain unresolved and no duration counter was fabricated.
