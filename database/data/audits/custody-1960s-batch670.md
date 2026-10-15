@@ -7,3 +7,5 @@ Sources:
 - https://www.rpptl.org/uploads/2015%20CLSC%20Report%20Devil%20in%20the%20Grove%20150704.pdf
 
 Charles Greenlee: sources conflict between1960 and1962, and exact December14 not corroborated. Requires original parole records before revision. Consuelo Lee: sources document1969 arrest but distinguish1971 sentence/bail; exact admission/release unresolved. Daniel Hamm: distinct April17fruit-stand arrest and later murder prosecution must not be conflated. Continued research pending.
+
+LIVE verified: two case rows updated; isolated fixture and full-table preservation passed; replay zero changes; public HTTP200 shows Released: January1968 twice. No exact-day duration is manufactured.

@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 308,
-  "case_records_changed_or_added": 387,
+  "changed_profiles": 309,
+  "case_records_changed_or_added": 389,
   "status_counts": {
-    "partially-corrected-live": 308,
+    "partially-corrected-live": 309,
     "reviewed-selected-case-no-change": 23,
-    "not-yet-researched": 1019,
-    "research-incomplete": 6,
+    "not-yet-researched": 1016,
+    "research-incomplete": 8,
     "researched-unresolved": 55,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
@@ -2311,9 +2311,9 @@
       "gap_case_ids": [
         "b9d72b26-7196-49a9-ba5f-ef25267f470d"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Batch670 research: conflicting historical dates; no unsupported precision added. Original custody/release record still needed."
     },
     {
       "prisoner_id": "6fdab5ba-c736-4b6f-bc3b-4c358a42c4f5",
@@ -2931,9 +2931,11 @@
       "gap_case_ids": [
         "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        670
+      ],
+      "note": "Both release dates reconciled to January1968 MONTH precision; exact day unverified."
     },
     {
       "prisoner_id": "a7c6a694-56a9-4316-93f0-2c5c8ce3c976",
@@ -2946,9 +2948,9 @@
       "gap_case_ids": [
         "065c8cab-d8a4-4c2d-981f-ba4937f5bd63"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Batch670 research: conflicting historical dates; no unsupported precision added. Original custody/release record still needed."
     },
     {
       "prisoner_id": "d8074b8d-2788-4bc2-a672-03dcd2d184da",
