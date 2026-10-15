@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 432,
-  "case_records_changed_or_added": 526,
+  "changed_profiles": 433,
+  "case_records_changed_or_added": 527,
   "status_counts": {
-    "partially-corrected-live": 432,
+    "partially-corrected-live": 433,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 848,
+    "not-yet-researched": 847,
     "research-incomplete": 36,
     "researched-unresolved": 65,
     "outside-decade-custody": 3,
@@ -10381,9 +10381,11 @@
       "gap_case_ids": [
         "dae3f8bc-b339-4a3b-bbce-379001d48870"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        724
+      ],
+      "note": "MDAH arrest documentation and the Orlando municipal speaker biography support July 7, 1961 custody. Interviews establish Parchman confinement and release that July. Conflicting duration accounts and the July 6 arrest date in the 2026 report prevent treating its July 13 release as independently reconciled; retain month precision and no exact total."
     },
     {
       "prisoner_id": "5407a7e8-b49e-47b9-b7d7-34e916d67d21",
