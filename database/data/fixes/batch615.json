@@ -1,0 +1,95 @@
+{
+  "batch": 615,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "9a8e3125-1a87-4165-9277-ee0d7c490238",
+      "name": "David J. Miller",
+      "slug": "david-j-miller",
+      "case_id": "accc9905-9077-4a5c-9be0-80cdf4aa77b6",
+      "expected": {
+        "id": "accc9905-9077-4a5c-9be0-80cdf4aa77b6",
+        "prisoner_id": "9a8e3125-1a87-4165-9277-ee0d7c490238",
+        "institution_id": null,
+        "charges": "Destruction of Selective Service registration certificate (50 U.S.C.",
+        "arrest_date": "1965-10-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1965-10-17 00:00:00",
+        "release_date": "1969-12-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 months (served 22 months)\n\nCharges as recorded: Destruction of Selective Service registration certificate (50 U.S.C. App. § 462(b)(3)) — first prosecution under 1965 draft-card-burning amendment",
+        "imprisoned_for_days": 1536,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1965-10-18 00:00:00",
+        "incarceration_date": "1968-06-19 00:00:00",
+        "release_date": "1970-12-31 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": 22,
+        "sentence": "30 months (served 22 months)\n\nCharges as recorded: Destruction of Selective Service registration certificate (50 U.S.C. App. § 462(b)(3)) — first prosecution under 1965 draft-card-burning amendment\n\nInitially jailed overnight October 18-19, 1965 and released on bail. A later brief confinement was also interrupted by appellate bail. Returned to prison June 19, 1968; Miller recalled 22 months served and release in 1970. The exact release month and day remain unverified."
+      },
+      "sources": [
+        "https://reclaimingquarterly.org/82/rq-82-draftcard.html",
+        "https://eresources.nlb.gov.sg/newspapers/digitised/issue/easternsun19680621-1",
+        "User-supplied Crossing the Line, David Miller interview"
+      ],
+      "reason": "Replace false continuous October 1965-December 1969 custody with verified June 19, 1968 admission, 1970 year-only release, and self-reported 22 months. October 18 arrest and overnight bail corroborated by his memoir and oral history. Exact final release remains unresolved; do not derive it from 22 months."
+    },
+    {
+      "prisoner_id": "22d787a2-78f3-43f0-b99f-636c75099f87",
+      "name": "Howard Levy",
+      "slug": "howard-levy",
+      "case_id": "743cd879-542a-4cb0-abde-1568f3d0fc3b",
+      "expected": {
+        "id": "743cd879-542a-4cb0-abde-1568f3d0fc3b",
+        "prisoner_id": "22d787a2-78f3-43f0-b99f-636c75099f87",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Willful disobedience of a lawful order (UCMJ Art. 90); promoting disloyalty (Art. 134); conduct unbecoming an officer (Art. 133)",
+        "arrest_date": "1967-05-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-05-31 00:00:00",
+        "release_date": "1969-07-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3 years military prison (served 26 months)\n\nCharges as recorded: Willful disobedience of a lawful order (UCMJ Art. 90); promoting disloyalty (Art. 134); conduct unbecoming an officer (Art. 133) — refusing to train Green Beret medics",
+        "imprisoned_for_days": 792,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1967-06-03 00:00:00",
+        "release_date": "1969-08-06 00:00:00"
+      },
+      "sources": [
+        "https://www.casemine.com/judgement/us/5914998badd7b0493461601b",
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-08-21-gi-press-service-vol-1-no-5.pdf"
+      ],
+      "reason": "Court establishes June 3, 1967 sentencing; GI Press Service August 21, 1969 page 71 reports physical release on bond August 6. Distinguish from earlier bail order and scheduled August 14 discharge. Existing May 31 arrest/admission not independently verified in this pass; preserved pending research."
+    }
+  ]
+}

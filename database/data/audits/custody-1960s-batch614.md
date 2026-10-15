@@ -34,4 +34,4 @@ https://www.superstock.com/asset/eislers-leave-london-hanns-eisler-second-from-r
 
 No profiles removed or biographies changed. Remaining unresolved exact exile dates and unrelated arrest fields are not claimed verified.
 
-Deployment pending.
+Applied live and verified: four case updates; isolated fixture, concurrent-edit guard, full profile and unrelated-case preservation, and zero-change live replay passed. All four public pages returned HTTP 200. The three false prison counters are absent; Eisler shows 14 Years 5 Months 11 Days in exile. Remaining uncertainties above remain open.
