@@ -48,3 +48,9 @@ https://www.thecrimson.com/article/1966/4/20/pacifist-released-from-jail-sets-dr
 Complete disposition with subsequent Supreme Court reversal. Original opinion verified. Preserve five days actually served and unknown release day.
 
 https://supreme.justia.com/cases/federal/us/376/650/
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
+
+Validation note: the isolated fixture initially retained the prior batch count of twelve and reported a count assertion failure. The live batch independently guarded eight entries and applied successfully; after correcting the fixture expectation to eight, all isolated checks passed. Live preservation and zero-change replay also passed.

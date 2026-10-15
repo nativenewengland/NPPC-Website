@@ -1,0 +1,55 @@
+{
+  "batch": 761,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "DeCourcy Squire",
+      "slug": "decourcy-squire",
+      "prisoner_id": "c7d7cffc-0e66-4280-88f9-ccaf5aebbebe",
+      "case_id": "26e906e0-6380-45d1-8cc7-3be515bf5519",
+      "expected_cases": [
+        {
+          "id": "fdde18f6-1281-4423-a268-173601826f1b",
+          "prisoner_id": "c7d7cffc-0e66-4280-88f9-ccaf5aebbebe",
+          "institution_id": null,
+          "charges": "Raiding and destroying records at Rochester's Selective Service, FBI, and U.S. Attorney offices (September 6, 1970).",
+          "arrest_date": "1970-09-06 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": "1970-12-02 00:00:00",
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Verdict as recorded: Convicted; sentenced to terms ranging from about 17 to 30 months.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-07-22 08:46:00",
+          "updated_at": "2026-07-29 17:05:33",
+          "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "arrest_date": "1967-12-07 00:00:00",
+        "incarceration_date": "1967-12-07 00:00:00",
+        "release_date": "1968-02-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "charges": "Anti-draft protest in Cincinnati; sitting in front of a police vehicle. Exact statutory count unverified.",
+        "sentence": "Nine-month sentence reported. Confined from December 7, 1967 until release into her mother’s custody on February 9, 1968, according to the contemporary CCCO report. The imposed nine months is not counted as time served."
+      },
+      "expected_days": 64,
+      "rationale": "Original CCCO January–February1968 page3 explicitly dates continuous confinement December7 to February9. Antioch College confirms this distinct1967 arrest and Workhouse detention; preserve1970Rochester case. Later secondary photo caption gives February10, but contemporary individual report February9 is preferred. No statutory count inferred.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=/images/215/2150709021.pdf",
+        "https://antiochcollege.edu/history/"
+      ]
+    }
+  ]
+}
