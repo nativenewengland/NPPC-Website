@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 458,
-  "case_records_changed_or_added": 563,
+  "changed_profiles": 462,
+  "case_records_changed_or_added": 569,
   "status_counts": {
-    "partially-corrected-live": 458,
+    "partially-corrected-live": 462,
     "reviewed-selected-case-no-change": 30,
-    "research-incomplete": 38,
+    "research-incomplete": 37,
     "researched-unresolved": 67,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 817
+    "not-yet-researched": 814
   },
   "decade_complete": false,
   "rows": [
@@ -5102,9 +5102,11 @@
       "gap_case_ids": [
         "22cb1bb6-219b-48da-aeb6-79506ea736c5"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        734
+      ],
+      "note": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography. Primary remand opinion confirms custody during October 24 incident and later $200 fine. University archive identifies October 25 contemporary article reporting release on bail; record release month only, not an invented day. Preserve original sentence date and avoid treating the overturned sentence as service. Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography."
     },
     {
       "prisoner_id": "3d257d60-0c88-4af9-a2b5-8d199f232d6b",
@@ -5558,9 +5560,11 @@
       "gap_case_ids": [
         "9d45bfa4-8fd5-4ef2-b9e8-49b6f4bc8b4c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        734
+      ],
+      "note": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography."
     },
     {
       "prisoner_id": "0b15a961-4f45-48a3-b866-e639f9892dcb",
@@ -5572,9 +5576,11 @@
       "gap_case_ids": [
         "c8f7743b-c93b-4267-9aa5-f51b08d96d12"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        734
+      ],
+      "note": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography."
     },
     {
       "prisoner_id": "732a87c3-3508-4b8e-840f-e24ebffd8b70",
@@ -5750,9 +5756,11 @@
       "gap_case_ids": [
         "b29a6617-82e0-4911-b4ae-08277d05836d"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Research locates early February 1970 acquittal after nine-day trial, not a release two weeks after arrest. Existing June 14 arrest versus June 18 incarceration may reflect separate police encounters; original newspaper packet needs examination. No endpoint inferred from trial date.",
+      "status": "partially-corrected-live",
+      "batches": [
+        734
+      ],
+      "note": "Original August 1 issue page 12 visually verified. Distinguish bail release from later acquittal and correct unsupported $80,000 figure. Preserve documented 13 days and existing dates; do not derive exact endpoint by adding 13 to June 18.",
       "research_checks": [
         {
           "date": "2026-10-15",

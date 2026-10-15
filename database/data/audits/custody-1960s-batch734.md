@@ -27,3 +27,7 @@ https://www.themilitant.com/1969/3331/MIL3331.pdf
 https://www.themilitant.com/1969/3327/MIL3327.pdf
 
 Six case rows across four profiles. All biographies preserved. Court opinions distinguish conviction/reversal from custody; no later acquittal or reversal substituted for release.
+
+## Live verification
+
+Applied 6 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
