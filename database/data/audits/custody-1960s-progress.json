@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 243,
-  "case_records_changed_or_added": 308,
+  "changed_profiles": 244,
+  "case_records_changed_or_added": 309,
   "status_counts": {
     "not-yet-researched": 1110,
-    "partially-corrected-live": 243,
-    "research-incomplete": 6,
+    "partially-corrected-live": 244,
+    "research-incomplete": 5,
     "reviewed-selected-case-no-change": 15,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
@@ -1966,9 +1966,11 @@
       "gap_case_ids": [
         "27db21be-dd05-43fb-955d-8f5401bdd95b"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Conflict found: daughter Laura recollection says October13,1965 fish-in prisoners bailed after hours;1969trial. Existing6day1965term may conflate separate custody. https://www.ocr.org.uk/Images/490445-question-paper-unit-f984-01-using-historical-evidence-non-british-history.pdf p15; fuller account Native American Testimony. Resolve before edit."
+      "status": "partially-corrected-live",
+      "batches": [
+        638
+      ],
+      "note": "Batch638 live: correct obstruction charge and January1969acquittal. Custody length conflict remains(Laura eyewitness hours versus2003obituary6days). Removed disputed6dayoverride, preservedOctober1965month release. Separate1966hunger strike verified but endpoints unresolved."
     },
     {
       "prisoner_id": "d283306b-9e23-459f-afef-97496d7be10a",

@@ -2,4 +2,4 @@
 
 Janet McCloud: correct conviction to January1969jury acquittal and charge to obstructing public officer. Meiklejohn Civil Liberties Docket1969(604.13) corroborates verdict but givesJanuary28 whereas Laura account describes trialJanuary15–16; use month only. WAagency republishes HankAdams archive description confirmingJanuary1969acquittal. Laura account corroborated in OCRexcerpt says bail within hours; SeattlePI2003obituary says six days. Keep both claims qualified, remove contested exact duration override, retainOctober1965release month. Firsthand Janet account documents another1966arrest/hunger strike; research its endpoints separately. No biography or unrelated field changes.
 
-Validation pending.
+Validation passed isolated preview/apply/replay/conflict guard. Live one update; replay zero; all unrelated profile/case fields preserved. PublicHTTP200, corrected case text and no disputed six-day counter verified. Evidence638-{fixture,preview,applied,replay}.txt and638-{before,after,public}.json.
