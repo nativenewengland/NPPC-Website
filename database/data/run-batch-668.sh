@@ -40,7 +40,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 $payload = json_decode(File::get(base_path("database/data/fixes/batch668.json")), true, 668, JSON_THROW_ON_ERROR);
-if (($payload["batch"] ?? null) !== 368 || ($payload["expected_count"] ?? null) !== 3 || count($payload["entries"] ?? []) !== 3) { throw new \RuntimeException("Unexpected batch identity or count."); }
+if (($payload["batch"] ?? null) !== 668 || ($payload["expected_count"] ?? null) !== 3 || count($payload["entries"] ?? []) !== 3) { throw new \RuntimeException("Unexpected batch identity or count."); }
 $dry = getenv("NPPC_BATCH_DRY_RUN") === "1";
 $same = fn ($a,$b) => $a === null || $b === null ? $a === $b : (string) $a === (string) $b;
 for ($attempt = 1; $attempt <= 5; $attempt++) {
