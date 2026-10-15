@@ -12,4 +12,4 @@ https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt11/pdf/GPO-CRECB-1970-pt11-
 
 This is a partial correction, not a completed custody chronology. Biographies and all other fields preserved.
 
-Deployment pending.
+Applied live and public HTTP 200 pages verified. Neither unsupported counter is displayed. Isolated preview/apply/replay/concurrent-change tests passed; live global preservation digest passed; replay updated zero cases. Individual chronology remains incomplete as described above.

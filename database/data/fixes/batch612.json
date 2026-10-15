@@ -1,0 +1,52 @@
+{
+  "batch": 612,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "c967357a-332f-4a78-9a13-23e17e7a6311",
+      "name": "Preston King",
+      "slug": "preston-king",
+      "case_id": "2a601f5c-d107-43ad-a2f6-9d8f6838cb3a",
+      "expected": {
+        "id": "2a601f5c-d107-43ad-a2f6-9d8f6838cb3a",
+        "prisoner_id": "c967357a-332f-4a78-9a13-23e17e7a6311",
+        "institution_id": null,
+        "charges": "Draft evasion (Selective Service violation)",
+        "arrest_date": "1960-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Refused to submit to a draft physical after the Georgia draft board addressed him by first name rather than 'Mr.' Arrested in 1960, convicted of draft evasion by an all-white jury and sentenced to 18 months. Broke bail and lived in exile abroad for decades rather than serve.\n\nVerdict as recorded: Yes — found guilty by an all-white jury in 1960; later pardoned in 2000",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-12-01 00:00:00",
+        "sentenced_date": "1961-04-01 00:00:00",
+        "end_of_exile": "2000-02-23 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"month\",\"end_of_exile\":\"day\"}",
+        "sentence": "Refused to submit to a draft physical after the Georgia draft board addressed him by first name rather than 'Mr.' Arrested in 1960, convicted of draft evasion by an all-white jury and sentenced to 18 months. Broke bail and lived in exile abroad for decades rather than serve.\n\nVerdict as recorded: Yes — found guilty by an all-white jury in April 1961; later pardoned in 2000\n\nArrested in December 1960 and released on bail. Sentenced in April 1961; he did not serve the eighteen-month sentence. He left the United States in 1961 and returned on February 23, 2000, after receiving a presidential pardon on February 21. Exact initial detention and departure dates remain unverified."
+      },
+      "sources": [
+        "https://www.georgiaencyclopedia.org/articles/history-archaeology/preston-king-b-1936/",
+        "https://archives.nd.edu/observer/2000-02-24_v33_090.pdf",
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_61/42-t-7422575-20061704F-061-001-2016.pdf"
+      ],
+      "reason": "Refine arrest to December1960, add April1961 sentencing and February23,2000 return; correct conviction year without inventing imprisonment duration."
+    }
+  ]
+}
