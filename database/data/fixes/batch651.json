@@ -1,0 +1,94 @@
+{
+  "batch": 651,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Eddie Ellis",
+      "slug": "eddie-ellis",
+      "prisoner_id": "ad7c8256-6321-4eaa-a16a-8f04841f3480",
+      "case_id": "8841e9f9-02a4-4678-b378-17cdf72a410c",
+      "expected": {
+        "id": "8841e9f9-02a4-4678-b378-17cdf72a410c",
+        "prisoner_id": "ad7c8256-6321-4eaa-a16a-8f04841f3480",
+        "institution_id": "b6d05d19-7cc9-4211-bc05-104242a9e8ce",
+        "charges": "Murder",
+        "arrest_date": "1969-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1994-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "As a former Black Panther targeted by COINTELPRO, framed for a 1969 murder he did not commit and served 23 years in prison. While incarcerated (including at Green Haven) he earned graduate and undergraduate degrees and co-founded the prisoner Think Tank.\n\nVerdict as recorded: Yes — wrongfully convicted; framed via FBI COINTELPRO for a murder he did not commit",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-14 00:00:25",
+        "date_precision": "{\"arrest_date\":\"year\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": 276,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"release_date\":\"year\",\"incarceration_date\":\"year\"}"
+      },
+      "sources": [
+        "https://clinics.law.harvard.edu/plap/2011/11/09/",
+        "https://www.prisonlegalnews.org/news/publications/university-of-pennsylvania-decarcerations-inside-partners-march-2022/"
+      ],
+      "rationale": "Harvard event account places custody beginning in 1969. Add missing start at year precision. Preserve existing year-only 1994 release and documented 23-year total: work-release transition in 1992 is not automatically final discharge. Exact dates remain unresolved."
+    },
+    {
+      "name": "James Lawson",
+      "slug": "james-lawson",
+      "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
+      "case_id": "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2",
+      "expected": {
+        "id": "e8a24663-a0f1-4e62-8f08-0fb9d8a364d2",
+        "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
+        "institution_id": "a4ede4d6-80c2-47dc-84d1-26f497b5be29",
+        "charges": "Civil rights demonstration arrest — LBJ-era nonviolent direct action (sit-ins, marches, Freedom Rides aftermath, voter-registration organizing).",
+        "arrest_date": "1960-02-26 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1960-02-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Multiple short county-jail terms during 1960s civil-rights organizing\n\nVerdict as recorded: Yes — federal court, Ohio, 1951; multiple subsequent civil rights organizing convictions\n\nCharges as recorded: Civil rights demonstration arrest — LBJ-era nonviolent direct action (sit-ins, marches, Freedom Rides aftermath, voter-registration organizing). Multiple arrests across Mississippi, Alabama, Georgia, and the Carolinas, 1963-1968. Earlier Korean War draft refusal: 13 months federal prison, 1951-1952.\n\nThe 1952 release belongs to the separate Korean War draft-refusal imprisonment, not this civil-rights case. Release from this later custody remains unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-09-19 14:23:00",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1960-03-04 00:00:00",
+        "incarceration_date": "1960-03-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "convicted": null,
+        "charges": "Conspiracy to violate Tennessee trade and commerce law during the Nashville sit-in campaign",
+        "sentence": "Arrested at First Baptist Church in Nashville on March 4, 1960. Vanderbilt Divinity School faculty posted bail. The exact release date and disposition of this charge remain unresolved. This Nashville detention is separate from his 1951-1952 draft-refusal imprisonment and his May 1961 Freedom Ride detention."
+      },
+      "sources": [
+        "https://newsonline.library.vanderbilt.edu/2021/09/celebrating-james-lawson-jr-s-birthday/",
+        "https://news.vanderbilt.edu/2024/10/01/lawsons-legacy/"
+      ],
+      "rationale": "Vanderbilt archival photograph documents March 4 arrest, superseding unsupported February 26. Remove conflated 1951 conviction and generic 1963-1968 case text from this case only; preserve biography and institution pending check. No exact bail date inferred."
+    }
+  ]
+}

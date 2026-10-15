@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 259,
-  "case_records_changed_or_added": 332,
+  "changed_profiles": 260,
+  "case_records_changed_or_added": 333,
   "status_counts": {
-    "partially-corrected-live": 259,
+    "partially-corrected-live": 260,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1094,
+    "not-yet-researched": 1093,
     "research-incomplete": 5,
     "researched-unresolved": 38,
     "outside-decade-statute-match": 14
@@ -5481,9 +5481,11 @@
       "gap_case_ids": [
         "3b20929e-f8b7-4aa7-84b8-95d0ab891817"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        650
+      ],
+      "note": "Parole May 20, 1975 verified in archival account; 1961 start year precision. Live public display and preservation checked. Exact intake unresolved. Existing biography 1976 claim flagged, unchanged."
     },
     {
       "prisoner_id": "bffe44d6-fae3-44a1-8252-2b06a8086d11",
