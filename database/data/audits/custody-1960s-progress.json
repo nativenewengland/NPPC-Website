@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 210,
-  "case_records_changed_or_added": 268,
+  "changed_profiles": 212,
+  "case_records_changed_or_added": 270,
   "status_counts": {
-    "not-yet-researched": 1142,
-    "partially-corrected-live": 210,
+    "not-yet-researched": 1140,
+    "partially-corrected-live": 212,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -2518,9 +2518,11 @@
       "gap_case_ids": [
         "f31424dd-7a29-4d3b-92fa-8d3f74c5bc1f"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        619
+      ],
+      "note": "Batch 619 verified live: July 10, 1968 sentencing added; execution stayed pending appeal, no prison interval inferred."
     },
     {
       "prisoner_id": "f803c063-16f5-45ea-b153-5703f13bc884",
@@ -2532,9 +2534,11 @@
       "gap_case_ids": [
         "e75be5cb-4064-476a-ac96-3bc12121ca76"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        619
+      ],
+      "note": "Batch 619 verified live: July 10, 1968 sentencing added; execution stayed pending appeal, no prison interval inferred."
     },
     {
       "prisoner_id": "830586dd-fd49-4c3f-b911-eb79d286fc41",
