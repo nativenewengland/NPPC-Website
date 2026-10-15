@@ -1,0 +1,96 @@
+{
+  "batch": 551,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "d801b5c8-87fd-4797-850f-a8105b869b91",
+      "name": "Michael Cullen",
+      "slug": "michael-cullen",
+      "case_id": "039a3c85-5b75-470e-a52b-f3d0a7befda8",
+      "expected": {
+        "id": "039a3c85-5b75-470e-a52b-f3d0a7befda8",
+        "prisoner_id": "d801b5c8-87fd-4797-850f-a8105b869b91",
+        "institution_id": null,
+        "charges": "Wisconsin state burglary, arson, theft — September 24, 1968 Milwaukee 14 draft-board raid",
+        "arrest_date": "1968-09-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1969-06-05 00:00:00",
+        "incarceration_date": "1969-06-05 00:00:00",
+        "release_date": "1970-08-05 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "2 years Wisconsin state prison; paroled at 14 months; subsequently deported to Ireland 1974\n\nVerdict as recorded: Yes — Wisconsin state jury verdict, May 1969",
+        "imprisoned_for_days": 426,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-14 23:37:29",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1970-05-15 00:00:00",
+        "release_date": "1971-02-14 00:00:00",
+        "sentenced_date": "1970-01-01 00:00:00",
+        "charges": "Destruction of Selective Service records and interference with the Selective Service System (18 USC2071 and 50 App USC462(a))",
+        "sentence": "Sentenced in 1970 to one year in federal prison for the September24,1968 Milwaukee draft-board action. Father Don Ranly reported service at Sandstone from May15,1970 until release February14,1971. These dates describe that prison term; the earlier1968 pretrial detention is separate. The appellate decision upheld the federal convictions in December1971.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"year\"}"
+      },
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/51ba965f09a55c0b3d61cf6544562230b4571432.pdf#page=1",
+        "https://www.marquette.edu/library/archives/Mss/MDC/mdc-sc..php",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/454/386/438155/"
+      ],
+      "rationale": "Contemporary March-April1971 Catholic Worker report by visitor and biographer Don Ranly explicitly dates Sandstone admission May15 and release February14. Marquette archival biography verifies1970 one-year federal sentence. Replace erroneously copied1969 Wisconsin group sentence and1970 release; sentencing exact day remains unknown."
+    },
+    {
+      "prisoner_id": "dc950c2f-843d-40a1-82b1-6ecb4ddf4324",
+      "name": "Jim Forest",
+      "slug": "jim-forest",
+      "case_id": "c2cf28e0-2e4c-4c5a-924d-ef02e98a69e3",
+      "expected": {
+        "id": "c2cf28e0-2e4c-4c5a-924d-ef02e98a69e3",
+        "prisoner_id": "dc950c2f-843d-40a1-82b1-6ecb4ddf4324",
+        "institution_id": null,
+        "charges": "Wisconsin state burglary, arson, theft — September 24, 1968 Milwaukee 14 draft-board raid",
+        "arrest_date": "1968-09-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1969-06-06 00:00:00",
+        "incarceration_date": "1969-06-06 00:00:00",
+        "release_date": "1970-08-05 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "2 years Wisconsin state prison; paroled at 14 months\n\nVerdict as recorded: Yes — Wisconsin state jury verdict, May 1969",
+        "imprisoned_for_days": 425,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-15 00:28:54",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1970-01-01 00:00:00",
+        "sentence": "Two concurrent two-year Wisconsin prison terms for theft and arson, with the four-year burglary term stayed and probation to follow. Released in 1970, before publication of his July10,1970 Commonweal account of returning home. Exact release day and month are not established by that publication date.",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "sources": [
+        "https://jimandnancyforest.com/2019/07/the-return-of-the-felon/",
+        "https://www.jimandnancyforest.com/wp-content/uploads/2014/10/Milwaukee-14-abridged-trial-transcript-sm.pdf#page=215"
+      ],
+      "rationale": "Forest contemporary first-person July10,1970 published account proves he was already released before the stored August5 date. Year1970 retained with explicit year precision; do not back-calculate day or month from publication and less-than-two-weeks wording. Replace unsupported14-month parole claim with transcript sentence."
+    }
+  ]
+}
