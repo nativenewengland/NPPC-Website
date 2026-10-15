@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 344,
-  "case_records_changed_or_added": 429,
+  "changed_profiles": 346,
+  "case_records_changed_or_added": 431,
   "status_counts": {
-    "partially-corrected-live": 344,
+    "partially-corrected-live": 346,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 974,
+    "not-yet-researched": 972,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -4972,9 +4972,11 @@
       "gap_case_ids": [
         "70ebc935-1d31-4a38-b946-60cd6c4fb201"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        685
+      ],
+      "note": "March 1968 Inner City Voice p11 individually identifies June 21 arrest and bail, August extradition and continued Queens custody. Add initial custody start but no endpoint across bail gap."
     },
     {
       "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
@@ -5254,9 +5256,11 @@
       "gap_case_ids": [
         "cd1ea139-8f11-4a15-96c1-8cc25e0acd09"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        685
+      ],
+      "note": "Arizona Supreme Court dates November 6, 1969 arrest; Ninth Circuit describes resulting pretrial incarceration. Correct obsolete death sentence to reflect November 7, 1973 reduction to life. Neither appellate decision establishes release."
     },
     {
       "prisoner_id": "4647c962-f17e-497c-a500-5e08e66cbdff",

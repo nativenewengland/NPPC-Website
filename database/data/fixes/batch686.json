@@ -1,0 +1,92 @@
+{
+  "batch": 686,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Al McSurely",
+      "slug": "al-mcsurely",
+      "prisoner_id": "b26f09af-b4f0-44f7-b3da-870157b56160",
+      "case_id": "6b42cfd5-cc10-4d26-8426-9c580a3b0884",
+      "expected": {
+        "id": "6b42cfd5-cc10-4d26-8426-9c580a3b0884",
+        "prisoner_id": "b26f09af-b4f0-44f7-b3da-870157b56160",
+        "institution_id": null,
+        "charges": "Sedition under Kentucky law",
+        "arrest_date": "1967-08-11 00:00:00",
+        "indicted": null,
+        "convicted": "No; prosecution ended after the statute was held unconstitutional",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-08-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; jailed for one week before release on bail.",
+        "imprisoned_for_days": 7,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-09-26 19:33:42",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 7,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1967-08-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "documented_imprisoned_for_days": 7
+      },
+      "rationale": "Interview-based account and reproduced contemporary correspondence establish one week in jail before SCEF posted bail, within August 1967. Add release month rather than calculate an unsupported exact August 18 date; preserve actual documented seven-day total.",
+      "sources": [
+        "https://www.newyorker.com/magazine/1975/11/03/the-liberty-of-every-man",
+        "https://www.crmvet.org/docs/viet/670915_win_news.pdf"
+      ]
+    },
+    {
+      "name": "Margaret McSurely",
+      "slug": "margaret-mcsurely",
+      "prisoner_id": "acfc9400-d2b8-4319-bb29-5e9d7ec8b749",
+      "case_id": "22a7716a-b8bf-4873-80eb-4f0d575bcbad",
+      "expected": {
+        "id": "22a7716a-b8bf-4873-80eb-4f0d575bcbad",
+        "prisoner_id": "acfc9400-d2b8-4319-bb29-5e9d7ec8b749",
+        "institution_id": "28bd1c76-1a24-42b8-96bc-318ca0aa6db9",
+        "charges": "Sedition (Kentucky statute)",
+        "arrest_date": "1967-08-11 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-08-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No \u2014 statute held unconstitutional (McSurely v. Ratliff, 1967)\n\nCharges as recorded: Sedition (Kentucky statute) \u2014 for books and papers seized in the August 1967 raid on their Pike County home",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 15:49:57",
+        "updated_at": "2026-07-29 17:12:21",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1967-08-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "documented_imprisoned_for_days": 7
+      },
+      "rationale": "Interview-based account and reproduced contemporary correspondence establish one week in jail before SCEF posted bail, within August 1967. Add release month rather than calculate an unsupported exact August 18 date; preserve actual documented seven-day total.",
+      "sources": [
+        "https://www.newyorker.com/magazine/1975/11/03/the-liberty-of-every-man",
+        "https://www.crmvet.org/docs/viet/670915_win_news.pdf"
+      ]
+    }
+  ]
+}
