@@ -26,3 +26,5 @@ Fields: sentenced_date, sentence, date_precision
 
 https://law.justia.com/cases/federal/appellate-courts/F2/599/120/114012/
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.
