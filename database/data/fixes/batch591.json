@@ -1,0 +1,266 @@
+{
+  "batch": 591,
+  "expected_count": 6,
+  "entries": [
+    {
+      "prisoner_id": "92ad6631-dde2-49ce-940f-84dc6d14f964",
+      "name": "Chandler Davis",
+      "slug": "chandler-davis",
+      "case_id": "5ba9d48c-e209-43e7-a9a8-caf73e9faf77",
+      "expected": {
+        "id": "5ba9d48c-e209-43e7-a9a8-caf73e9faf77",
+        "prisoner_id": "92ad6631-dde2-49ce-940f-84dc6d14f964",
+        "institution_id": "59ad64ff-b3aa-4ec7-9bce-13c592b0a1c5",
+        "charges": "Contempt of Congress.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1957-07-01 00:00:00",
+        "incarceration_date": "1960-02-02 00:00:00",
+        "release_date": "1960-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A six-month sentence. He surrendered to a U.S. marshal in Grand Rapids, Michigan and began serving on February 2, 1960, and was released about six months later, in the summer of 1960.\n\nVerdict as recorded: Yes — convicted of contempt of Congress; he pressed a First Amendment challenge on appeal until the Supreme Court declined to hear his case in 1959.\n\nCharges as recorded: Contempt of Congress — for refusing, on First Amendment grounds, to answer the House Un-American Activities Committee (1954 Lansing, Michigan hearings) about his political beliefs and associations.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 12:27:30",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "A six-month sentence. He surrendered to a U.S. marshal in Grand Rapids, Michigan and began serving on February 2, 1960, and returned home in June 1960. Contemporary reporting describes about five months actually served. June 28 was the announced release date; a June 29 homecoming confirms he was free by then, but does not independently prove the exact release day.\n\nVerdict as recorded: Yes — convicted of contempt of Congress; he pressed a First Amendment challenge on appeal until the Supreme Court declined to hear his case in 1959.\n\nCharges as recorded: Contempt of Congress — for refusing, on First Amendment grounds, to answer the House Un-American Activities Committee (1954 Lansing, Michigan hearings) about his political beliefs and associations."
+      },
+      "rationale": "June 27 issue gives prospective June 28 release; August 1 issue p7 reports June 29 homecoming after five months. Preserve June month precision because arrival is not exact release. Correct conflicting sentence narrative only; biography preserved.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-06-27-12-37-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-08-01-12-42-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
+      "name": "Henry Winston",
+      "slug": "henry-winston",
+      "case_id": "48431265-e550-4be7-ba39-d0b8be3edb8d",
+      "expected": {
+        "id": "48431265-e550-4be7-ba39-d0b8be3edb8d",
+        "prisoner_id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
+        "institution_id": "bd62d257-c4c3-4835-ac75-ff14bfca6e3c",
+        "charges": "Conspiracy to advocate violent overthrow of the U.S. government and to organize the CPUSA to teach the same — Smith Act, 18 U.S.C. § 2385 (Foley Square / Dennis trial)",
+        "arrest_date": "1948-07-19 00:00:00",
+        "indicted": "Jun 28th 1948",
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-10-20 00:00:00",
+        "incarceration_date": "1949-10-20 00:00:00",
+        "release_date": "1961-06-29 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. Harold R. Medina",
+        "sentence": "5 years (jumped bail; surrendered 1956); commuted by JFK June 30, 1961 after he lost his eyesight in custody from untreated brain tumor",
+        "imprisoned_for_days": 4270,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-20 05:27:12",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1956-03-05 00:00:00",
+        "release_date": "1961-06-30 00:00:00",
+        "sentenced_date": "1949-10-21 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Correct the continuous prison term to surrender 1956-03-05 through release 1961-06-30. Supreme Court opinion establishes surrender and October 21, 1949 sentencing. Contemporary release account confirms endpoint. Both existing overlapping records receive consistent dates; no record deleted. Earlier trial detention and release on appeal bail are separate periods still needing full reconciliation, not continuous incarceration through the years in hiding.",
+      "sources": [
+        "https://www.law.cornell.edu/supremecourt/text/356/165",
+        "https://www.marxists.org/history/usa/pubs/political-affairs/1961-08-40-8-political-affairs.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
+      "name": "Henry Winston",
+      "slug": "henry-winston",
+      "case_id": "cf25ef91-aee7-4d0a-a55a-b4807b043cca",
+      "expected": {
+        "id": "cf25ef91-aee7-4d0a-a55a-b4807b043cca",
+        "prisoner_id": "9201900e-3c20-4dd0-9411-0a94db7c42d7",
+        "institution_id": null,
+        "charges": "Smith Act (18 U.S.C. § 2385) — conspiracy to teach and advocate the overthrow of the U.S. government by force and violence",
+        "arrest_date": "1948-07-20 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-10-21 00:00:00",
+        "incarceration_date": "1956-03-01 00:00:00",
+        "release_date": "1961-06-30 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "5 years plus additional time for bail-jumping",
+        "imprisoned_for_days": 1947,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-12 11:48:06",
+        "updated_at": "2026-10-12 19:34:06",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1956-03-05 00:00:00",
+        "release_date": "1961-06-30 00:00:00",
+        "sentenced_date": "1949-10-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "Correct the continuous prison term to surrender 1956-03-05 through release 1961-06-30. Supreme Court opinion establishes surrender and October 21, 1949 sentencing. Contemporary release account confirms endpoint. Both existing overlapping records receive consistent dates; no record deleted. Earlier trial detention and release on appeal bail are separate periods still needing full reconciliation, not continuous incarceration through the years in hiding.",
+      "sources": [
+        "https://www.law.cornell.edu/supremecourt/text/356/165",
+        "https://www.marxists.org/history/usa/pubs/political-affairs/1961-08-40-8-political-affairs.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
+      "name": "Gil Green",
+      "slug": "gil-green",
+      "case_id": "18d2e52b-e56e-4adb-b9ec-3847fd18e911",
+      "expected": {
+        "id": "18d2e52b-e56e-4adb-b9ec-3847fd18e911",
+        "prisoner_id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
+        "institution_id": "b5cf5aef-b0f7-4c7d-8bd4-8b52eb907ba9",
+        "charges": "Smith Act Conspiracy",
+        "arrest_date": null,
+        "indicted": "Jun 28th 1948",
+        "convicted": "Oct 13th 1949",
+        "plead": null,
+        "sentenced_date": "1949-10-13 00:00:00",
+        "incarceration_date": "1949-10-13 00:00:00",
+        "release_date": "1961-07-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 4306,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-05-10 06:33:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1956-02-27 00:00:00",
+        "release_date": "1961-07-29 00:00:00",
+        "sentenced_date": "1949-10-21 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Correct the continuous prison term to surrender 1956-02-27 through release 1961-07-29. Supreme Court opinion establishes surrender and October 21, 1949 sentencing. Contemporary release account confirms endpoint. Both existing overlapping records receive consistent dates; no record deleted. Earlier trial detention and release on appeal bail are separate periods still needing full reconciliation, not continuous incarceration through the years in hiding.",
+      "sources": [
+        "https://www.law.cornell.edu/supremecourt/text/356/165",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-08-07-13-43-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
+      "name": "Gil Green",
+      "slug": "gil-green",
+      "case_id": "62696997-00a3-449d-bf5b-47d31a2695d4",
+      "expected": {
+        "id": "62696997-00a3-449d-bf5b-47d31a2695d4",
+        "prisoner_id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
+        "institution_id": "f77d58f4-ad21-48df-8007-2f6424aed43f",
+        "charges": "Conspiracy to advocate violent overthrow of the U.S. government and to organize the CPUSA to teach the same — Smith Act, 18 U.S.C. § 2385 (Foley Square / Dennis trial)",
+        "arrest_date": "1948-07-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-10-20 00:00:00",
+        "incarceration_date": "1949-10-20 00:00:00",
+        "release_date": "1961-07-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. Harold R. Medina",
+        "sentence": "5 years + 3 years bail jumping",
+        "imprisoned_for_days": 4299,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-20 05:27:12",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1956-02-27 00:00:00",
+        "release_date": "1961-07-29 00:00:00",
+        "sentenced_date": "1949-10-21 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Correct the continuous prison term to surrender 1956-02-27 through release 1961-07-29. Supreme Court opinion establishes surrender and October 21, 1949 sentencing. Contemporary release account confirms endpoint. Both existing overlapping records receive consistent dates; no record deleted. Earlier trial detention and release on appeal bail are separate periods still needing full reconciliation, not continuous incarceration through the years in hiding.",
+      "sources": [
+        "https://www.law.cornell.edu/supremecourt/text/356/165",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-08-07-13-43-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "f1243d71-7671-435a-8239-de19dde3da37",
+      "name": "Lloyd Barenblatt",
+      "slug": "lloyd-barenblatt",
+      "case_id": "5e1a2af5-69de-45f1-94d3-2c1627a4ed12",
+      "expected": {
+        "id": "5e1a2af5-69de-45f1-94d3-2c1627a4ed12",
+        "prisoner_id": "f1243d71-7671-435a-8239-de19dde3da37",
+        "institution_id": "df689c4b-2900-4bb4-bb53-55fd5fd1abd7",
+        "charges": "Contempt of Congress",
+        "arrest_date": "1954-06-27 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1954-06-27 00:00:00",
+        "release_date": "1961-11-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "6 months federal prison\n\nVerdict as recorded: Yes — federal jury verdict; affirmed by U.S. Supreme Court 5–4 in Barenblatt v. United States, 360 U.S. 109 (1959)\n\nCharges as recorded: Contempt of Congress — refusing on First Amendment grounds to answer HUACs questions about Communist Party associations at the University of Michigan",
+        "imprisoned_for_days": 2697,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1959-11-10 00:00:00",
+        "release_date": "1960-04-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "rationale": "AMS Notices June 1960 p325 reproduces February 5, 1960 editorial identifying November 10 as prison entry. Congressional Record February 28, 1961 p2910 reports actual release in April 1960. Replace false 1954-1961 continuous span. April remains month precision; no exact day inferred. Existing arrest date remains unverified and untouched.",
+      "sources": [
+        "https://community.ams.org/journals/notices/196006/196006FullIssue.pdf",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt3/pdf/GPO-CRECB-1961-pt3-2-2.pdf"
+      ]
+    }
+  ]
+}

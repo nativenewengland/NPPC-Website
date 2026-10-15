@@ -10,4 +10,4 @@ Sources:
 - https://www.wusf.org/2017-04-14/how-one-inmate-changed-the-prison-system-from-the-inside
 - https://www.thebuffalocriterion.com/local-news-1/2ospmr3z608hyleh59hdpgz2cmhl10
 
-July 14 is used by several contemporary accounts to name the night of the raid. The NAACP archival guide and the Sostre Institute explicitly place the arrests after midnight, July 15; those more specific accounts take precedence. Biographies and other case fields are preserved. Deployment pending.
+July 14 is used by several contemporary accounts to name the night of the raid. The NAACP archival guide and the Sostre Institute explicitly place the arrests after midnight, July 15; those more specific accounts take precedence. Biographies and other case fields are preserved. Applied live: two case records. Fixture, full unrelated-field preservation, zero-change replay and public HTTP 200 date checks passed. Martin Sostre counter 3131 days; Robinson aggregate 749 days preserved.

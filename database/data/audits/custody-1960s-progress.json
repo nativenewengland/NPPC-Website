@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 158,
-  "case_records_changed_or_added": 197,
+  "changed_profiles": 160,
+  "case_records_changed_or_added": 199,
   "status_counts": {
-    "not-yet-researched": 1195,
-    "partially-corrected-live": 158,
+    "not-yet-researched": 1192,
+    "partially-corrected-live": 160,
     "research-incomplete": 6,
-    "reviewed-selected-case-no-change": 10,
+    "reviewed-selected-case-no-change": 11,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
   },
@@ -51,9 +51,11 @@
         "3016ad1d-0bf7-4370-8074-d40a288fc96f"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        590
+      ],
+      "note": "The NAACP papers archival guide places the bookstore raid shortly after midnight July 15, 1967, consistent with the Sostre Institute distinction between July 14 evening events and July 15 arrests. The existing July 13 is unsupported. Joseph Shapiro, who interviewed Sostre upon release, identifies February 9, 1976 as actual release; clemency in December 1975 was not release."
     },
     {
       "prisoner_id": "c3b36e4c-2731-4e31-904d-8612b68d1d6f",
@@ -2800,9 +2802,9 @@
       "gap_case_ids": [
         "67f1f60b-14ab-4da2-b0ed-83af22b00cd3"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Existing incarceration December 14, 1959 and actual release December 11, 1960 independently corroborated by National Guardian December 19, 1960 p9 and UPI in Medford Mail Tribune December 14, 1960 p3. No date change needed. Sentencing field not verified in this selected custody check."
     },
     {
       "prisoner_id": "440e7e7a-523b-4238-b519-7c725856e6a9",
@@ -4902,9 +4904,11 @@
       "gap_case_ids": [
         "4ad2914f-ef91-48ae-aee7-77871178a1bc"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        590
+      ],
+      "note": "The archival guide and Sostre Institute place arrest and initial custody shortly after midnight July 15, 1967. Robinson was subsequently out on bail and later imprisoned again; preserve the existing documented aggregate 749 days, and leave the release endpoint unknown. Do not infer a continuous two-year stay from initial arrest."
     },
     {
       "prisoner_id": "01a8141d-a553-46e0-a05d-5fb3d6efe414",
