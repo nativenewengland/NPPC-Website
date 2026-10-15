@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 144,
-  "case_records_changed_or_added": 175,
+  "changed_profiles": 146,
+  "case_records_changed_or_added": 178,
   "status_counts": {
-    "not-yet-researched": 1209,
-    "partially-corrected-live": 144,
+    "not-yet-researched": 1207,
+    "partially-corrected-live": 146,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 10,
     "outside-decade-statute-match": 14,
@@ -8022,14 +8022,17 @@
       "name": "George Marion Blevins",
       "slug": "george-marion-blevins",
       "case_ids": [
-        "221fce7b-a4cc-4d70-8021-4e0f3c064860"
+        "221fce7b-a4cc-4d70-8021-4e0f3c064860",
+        "6caee5d6-9a9d-5bce-901d-103287531194"
       ],
       "gap_case_ids": [
         "221fce7b-a4cc-4d70-8021-4e0f3c064860"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        582
+      ],
+      "note": "Separate New Orleans detention from the June Jackson Freedom Ride. Nelson testimony dates arrest August13; contemporary AP dispatch says Saturday night (August12). Store August month precision pending resolution, not either conflicting day. No release or actual duration inferred."
     },
     {
       "prisoner_id": "55fbea32-8b0c-4e55-a4c5-07855bf0c293",
@@ -8480,16 +8483,18 @@
       "name": "Frank Arthur Nelson",
       "slug": "frank-arthur-nelson",
       "case_ids": [
-        "d276a103-9204-4814-a4a5-27744a34f4a1"
+        "d276a103-9204-4814-a4a5-27744a34f4a1",
+        "ce270d35-430e-5627-8623-ed714686b3f9"
       ],
       "gap_case_ids": [
         "d276a103-9204-4814-a4a5-27744a34f4a1"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        581
+        581,
+        582
       ],
-      "note": "Sheila Michaels recounts his jailing in Jackson following the Freedom Ride. The individual release date remains unverified; later New Orleans and Poplarville arrests require separate case records. Preserve existing archival arrest date; do not calculate a release date from approximate duration."
+      "note": "Separate New Orleans detention from the June Jackson Freedom Ride. Nelson testimony dates arrest August13; contemporary AP dispatch says Saturday night (August12). Store August month precision pending resolution, not either conflicting day. No release or actual duration inferred."
     },
     {
       "prisoner_id": "3c0fa54e-180b-4d16-bab6-2c3c4b429e08",
@@ -10834,14 +10839,17 @@
       "name": "John Luther Dolan",
       "slug": "john-luther-dolan",
       "case_ids": [
-        "a45cb69c-76a8-45a6-b5e2-9cdcbf67f849"
+        "a45cb69c-76a8-45a6-b5e2-9cdcbf67f849",
+        "d005bdf5-5853-59fb-8891-6113fa8c4490"
       ],
       "gap_case_ids": [
         "a45cb69c-76a8-45a6-b5e2-9cdcbf67f849"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        582
+      ],
+      "note": "Separate New Orleans detention from the June Jackson Freedom Ride. Nelson testimony dates arrest August13; contemporary AP dispatch says Saturday night (August12). Store August month precision pending resolution, not either conflicting day. No release or actual duration inferred."
     },
     {
       "prisoner_id": "0fe0d51c-1af2-417f-ad33-1a8ca60b1d75",

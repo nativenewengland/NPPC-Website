@@ -12,4 +12,4 @@ Frank Arthur Nelson: Separate New Orleans detention from the June Jackson Freedo
 https://www.crmvet.org/docs/62_core_justice.pdf
 https://oregonnews.uoregon.edu/lccn/sn85042470/1961-08-14/ed-1/seq-16/ocr/
 
-All existing profiles and cases preserved. Deployment pending.
+All existing profiles and cases preserved. Applied live; fixture, guard preview/application, full-field preservation, zero-change replay and all three public August case displays verified.

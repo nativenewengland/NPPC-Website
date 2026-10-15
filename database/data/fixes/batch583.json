@@ -1,0 +1,227 @@
+{
+  "batch": 583,
+  "expected_count": 4,
+  "entries": [
+    {
+      "prisoner_id": "ac4944eb-565b-4f8d-a2c7-fca9396f3c9c",
+      "name": "Jerome H. Smith",
+      "slug": "jerome-h-smith",
+      "case_id": "f81dd3fa-a6f9-5a18-b17b-8e6f90cf2567",
+      "expected_cases": [
+        {
+          "id": "d4f9d370-891e-48b6-be82-f0da0722c109",
+          "prisoner_id": "ac4944eb-565b-4f8d-a2c7-fca9396f3c9c",
+          "institution_id": null,
+          "charges": "Breach of the peace — Freedom Ride arrival in Jackson, May 25, 1961.",
+          "arrest_date": "1961-05-25 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested May 25, 1961 in Jackson. The Civil Rights Digital Library establishes the arrest but not the disposition, any transfer, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-01 20:19:09",
+          "updated_at": "2026-08-01 20:19:09",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "f81dd3fa-a6f9-5a18-b17b-8e6f90cf2567",
+        "prisoner_id": "ac4944eb-565b-4f8d-a2c7-fca9396f3c9c",
+        "institution_id": null,
+        "charges": "Obstructing traffic while picketing segregated Canal Street stores in New Orleans",
+        "arrest_date": "1961-04-17 00:00:00",
+        "incarceration_date": "1961-04-17 00:00:00",
+        "release_date": null,
+        "sentence": "Refused bail and remained jailed after the April 17, 1961 picketing arrest. Exact release date unverified. Smith subsequently testified that he served thirty days for the April picketing.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        },
+        "documented_imprisoned_for_days": 30
+      },
+      "expected_days": 30,
+      "rationale": "Contemporary CORElator April1961 page1 names this person among four picketers arrested April17 and remaining jailed after refusing bail. This predates and is distinct from the Jackson Freedom Ride. Smith testimony in Justice? printedpage19 documents thirty actual days; retain unknown release rather than derive it.",
+      "sources": [
+        "https://www.crmvet.org/docs/core/core6104.pdf",
+        "https://www.crmvet.org/docs/62_core_justice.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "be28819f-4e7e-41ea-9b43-63054601d5c6",
+      "name": "David J. Dennis Sr.",
+      "slug": "david-j-dennis-sr",
+      "case_id": "14916e0a-667f-5429-bcd9-27ea8b10ce9c",
+      "expected_cases": [
+        {
+          "id": "125353db-905a-43ac-a2e8-8217bd79545c",
+          "prisoner_id": "be28819f-4e7e-41ea-9b43-63054601d5c6",
+          "institution_id": null,
+          "charges": "Freedom Ride participation — rode from Montgomery, arrested Jackson, May 24, 1961.",
+          "arrest_date": "1961-05-24 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-05-24 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "His oral history describes immediate transport from the Jackson bus terminal to county jail and confinement in a holding cell. Individual release date remains unverified.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-02 22:50:52",
+          "updated_at": "2026-10-15 02:03:42",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "14916e0a-667f-5429-bcd9-27ea8b10ce9c",
+        "prisoner_id": "be28819f-4e7e-41ea-9b43-63054601d5c6",
+        "institution_id": null,
+        "charges": "Obstructing traffic while picketing segregated Canal Street stores in New Orleans",
+        "arrest_date": "1961-04-17 00:00:00",
+        "incarceration_date": "1961-04-17 00:00:00",
+        "release_date": null,
+        "sentence": "Refused bail and remained jailed after the April 17, 1961 picketing arrest. Exact release date unverified.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        },
+        "documented_imprisoned_for_days": null
+      },
+      "expected_days": null,
+      "rationale": "Contemporary CORElator April1961 page1 names this person among four picketers arrested April17 and remaining jailed after refusing bail. This predates and is distinct from the Jackson Freedom Ride.",
+      "sources": [
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "7c23c5b7-c030-4841-bb5d-91384ca7ddfc",
+      "name": "Julia Aaron Humbles",
+      "slug": "julia-aaron-humbles",
+      "case_id": "ed6cf1e4-26ab-532a-adf9-c392a537aa5c",
+      "expected_cases": [
+        {
+          "id": "60898bda-0b98-4580-aaa4-4e80d9dd9b48",
+          "prisoner_id": "7c23c5b7-c030-4841-bb5d-91384ca7ddfc",
+          "institution_id": null,
+          "charges": "Freedom Ride participation — challenging segregation in interstate transportation, arrested Jackson, May 24, 1961.",
+          "arrest_date": "1961-05-24 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested 1961-05-24. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-02 22:50:53",
+          "updated_at": "2026-08-02 22:50:53",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "ed6cf1e4-26ab-532a-adf9-c392a537aa5c",
+        "prisoner_id": "7c23c5b7-c030-4841-bb5d-91384ca7ddfc",
+        "institution_id": null,
+        "charges": "Obstructing traffic while picketing segregated Canal Street stores in New Orleans",
+        "arrest_date": "1961-04-17 00:00:00",
+        "incarceration_date": "1961-04-17 00:00:00",
+        "release_date": null,
+        "sentence": "Refused bail and remained jailed after the April 17, 1961 picketing arrest. Exact release date unverified.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        },
+        "documented_imprisoned_for_days": null
+      },
+      "expected_days": null,
+      "rationale": "Contemporary CORElator April1961 page1 names this person among four picketers arrested April17 and remaining jailed after refusing bail. This predates and is distinct from the Jackson Freedom Ride.",
+      "sources": [
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "18ce8427-5870-4698-a0f3-68ed5b863f02",
+      "name": "Doris Jean Castle",
+      "slug": "doris-jean-castle",
+      "case_id": "968a1b08-9ef5-59ec-92e8-74d564dddd45",
+      "expected_cases": [
+        {
+          "id": "818b7183-518e-488c-90f1-cde86b804780",
+          "prisoner_id": "18ce8427-5870-4698-a0f3-68ed5b863f02",
+          "institution_id": null,
+          "charges": "Breach of the peace — Freedom Ride arrival in Jackson, May 25, 1961.",
+          "arrest_date": "1961-05-25 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-05-25 00:00:00",
+          "release_date": "1961-05-27 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested May 25, 1961 and released on bond May 27, 1961.",
+          "imprisoned_for_days": 2,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-01 20:19:09",
+          "updated_at": "2026-09-26 02:35:09",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": "[{\"start\":\"1961-05-25\",\"end\":\"1961-05-27\"}]"
+        }
+      ],
+      "case": {
+        "id": "968a1b08-9ef5-59ec-92e8-74d564dddd45",
+        "prisoner_id": "18ce8427-5870-4698-a0f3-68ed5b863f02",
+        "institution_id": null,
+        "charges": "Obstructing traffic while picketing segregated Canal Street stores in New Orleans",
+        "arrest_date": "1961-04-17 00:00:00",
+        "incarceration_date": "1961-04-17 00:00:00",
+        "release_date": null,
+        "sentence": "Refused bail and remained jailed after the April 17, 1961 picketing arrest. Exact release date unverified.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day"
+        },
+        "documented_imprisoned_for_days": null
+      },
+      "expected_days": null,
+      "rationale": "Contemporary CORElator April1961 page1 names this person among four picketers arrested April17 and remaining jailed after refusing bail. This predates and is distinct from the Jackson Freedom Ride.",
+      "sources": [
+        "https://www.crmvet.org/docs/core/core6104.pdf"
+      ]
+    }
+  ]
+}
