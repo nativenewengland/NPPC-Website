@@ -1,0 +1,49 @@
+{
+  "batch": 602,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "0d676997-9b93-40ae-9402-a7986c3981b3",
+      "name": "W. G. Anderson",
+      "slug": "w-g-anderson",
+      "case_id": "283af236-79b7-40cf-96d3-eb09f6527ec2",
+      "expected": {
+        "id": "283af236-79b7-40cf-96d3-eb09f6527ec2",
+        "prisoner_id": "0d676997-9b93-40ae-9402-a7986c3981b3",
+        "institution_id": null,
+        "charges": "Civil-rights demonstration arrests — the Albany Movement",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Arrested December 1961",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed in the Albany Movement mass arrests",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-06-17 06:41:14",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-12-16 00:00:00",
+        "incarceration_date": "1961-12-16 00:00:00",
+        "release_date": "1961-12-18 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "University of Georgia Civil Rights Digital Library explicitly documents William G. Anderson jailed December 16, 1961 and bailed out December 18. Existing case identifies December 1961, so fill its missing endpoints without merging subsequent Albany arrests.",
+      "sources": [
+        "https://crdl.usg.edu/people/anderson_william_g_1927"
+      ]
+    }
+  ]
+}
