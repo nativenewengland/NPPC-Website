@@ -11,3 +11,5 @@ The February 16 reporting order is not treated as proof of actual admission that
 - https://riseupnewark.com/wp-content/uploads/2020/09/Black-New-Ark-September-1973-Second-Edition-compressed.pdf
 - https://snccdigital.org/people/cleveland-sellers/
 - https://www.richlandlibrary.com/blog/2020-06-02/shameful-history
+
+Applied live: two case updates. Fixture, full-table preservation, zero-change replay and seven-month public counter verified. Initial pretrial bail release remains undated.

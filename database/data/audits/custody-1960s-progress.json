@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 331,
-  "case_records_changed_or_added": 414,
+  "changed_profiles": 332,
+  "case_records_changed_or_added": 416,
   "status_counts": {
-    "partially-corrected-live": 331,
+    "partially-corrected-live": 332,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 987,
+    "not-yet-researched": 986,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -4956,9 +4956,11 @@
         "4074e3c9-2e41-407a-b378-9eb2efc05df1"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        681
+      ],
+      "note": "Removed false continuous 1968–1973 span; preserved initial detention, added month precision to 1973 admission and documented seven-month total. Initial bail date unresolved."
     },
     {
       "prisoner_id": "05ed7465-9f9c-494c-94b5-04e832ba3d7c",
