@@ -1,0 +1,186 @@
+{
+  "batch": 662,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Diane Nash",
+      "slug": "diane-nash",
+      "prisoner_id": "b82850ed-4f8e-4947-aca4-807becf33511",
+      "case_id": "0e729e61-7269-540f-b3aa-08c4dbc7850b",
+      "expected_cases": [
+        {
+          "id": "d7a7ad93-3c70-48fe-9bbd-774781ff062a",
+          "prisoner_id": "b82850ed-4f8e-4947-aca4-807becf33511",
+          "institution_id": "5ede854e-f432-4652-992c-0f0dae6a284e",
+          "charges": "Contributing to the delinquency of minors (teaching nonviolence to Mississippi students under 21) — 1962 Mississippi conviction",
+          "arrest_date": "1962-04-30 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1962-04-30 00:00:00",
+          "release_date": "1962-05-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "10 days county jail (1962); multiple sit-in arrests prior\n\nVerdict as recorded: Yes — Mississippi, 1961 and 1962",
+          "imprisoned_for_days": 10,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-09-18 18:47:20",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 10,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "0e729e61-7269-540f-b3aa-08c4dbc7850b",
+        "prisoner_id": "b82850ed-4f8e-4947-aca4-807becf33511",
+        "institution_id": null,
+        "arrest_date": "1961-02-06 00:00:00",
+        "incarceration_date": "1961-02-06 00:00:00",
+        "release_date": "1961-03-01 00:00:00",
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": 30,
+        "charges": "Trespassing during the February 6, 1961 Rock Hill lunch-counter sit-in",
+        "convicted": "Convicted; served a 30-day term",
+        "sentence": "Served 30 days after refusing bail following the Rock Hill sit-in. The March 1961 Student Voice confirms completion of the term. A contemporary announcement anticipated release on March 8; release is recorded at month precision because the actual day has not been independently confirmed.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": 30,
+      "rationale": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day.",
+      "sources": [
+        "https://www.crmvet.org/docs/6102_rockhill-pr.pdf",
+        "https://www.crmvet.org/docs/sv/sv6103.pdf",
+        "https://www.crmvet.org/info/rockhill.htm"
+      ]
+    },
+    {
+      "name": "Ruby Doris Smith Robinson",
+      "slug": "ruby-doris-smith-robinson",
+      "prisoner_id": "87570651-dc44-4898-88ce-3e1172a2b614",
+      "case_id": "b4c8327e-b037-58c1-91a2-eaa718ec3c2c",
+      "expected_cases": [
+        {
+          "id": "5ba503ce-dc50-4d7b-8603-b568fb54c80f",
+          "prisoner_id": "87570651-dc44-4898-88ce-3e1172a2b614",
+          "institution_id": null,
+          "charges": "Breach of the peace — Freedom Ride arrival at the Jackson Trailways terminal, June 2, 1961.",
+          "arrest_date": "1961-06-02 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-06-02 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Served a documented 45-day jail term following the 1961 Freedom Ride arrest, including confinement at Parchman Penitentiary. The exact release date remains unverified.",
+          "imprisoned_for_days": 45,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-01 20:19:09",
+          "updated_at": "2026-10-15 08:07:57",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 45,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "b4c8327e-b037-58c1-91a2-eaa718ec3c2c",
+        "prisoner_id": "87570651-dc44-4898-88ce-3e1172a2b614",
+        "institution_id": null,
+        "arrest_date": "1961-02-06 00:00:00",
+        "incarceration_date": "1961-02-06 00:00:00",
+        "release_date": "1961-03-01 00:00:00",
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": 30,
+        "charges": "Trespassing during the February 6, 1961 Rock Hill lunch-counter sit-in",
+        "convicted": "Convicted; served a 30-day term",
+        "sentence": "Served 30 days after refusing bail following the Rock Hill sit-in. The March 1961 Student Voice confirms completion of the term. A contemporary announcement anticipated release on March 8; release is recorded at month precision because the actual day has not been independently confirmed.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": 30,
+      "rationale": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day.",
+      "sources": [
+        "https://www.crmvet.org/docs/6102_rockhill-pr.pdf",
+        "https://www.crmvet.org/docs/sv/sv6103.pdf",
+        "https://www.crmvet.org/info/rockhill.htm"
+      ]
+    },
+    {
+      "name": "Charles Joseph Jones",
+      "slug": "charles-joseph-jones",
+      "prisoner_id": "1159e817-49b1-4dd7-b1bf-3e40b7b756cd",
+      "case_id": "d76fc567-f0ca-543f-ba81-522d9bf529d0",
+      "expected_cases": [
+        {
+          "id": "dc580c83-2c2d-46f3-a29f-b493e942d6a7",
+          "prisoner_id": "1159e817-49b1-4dd7-b1bf-3e40b7b756cd",
+          "institution_id": null,
+          "charges": "Arrested in Montgomery, Alabama, May 25, 1961, during the Freedom Ride crisis; the charge as recorded is not specified in the catalog.",
+          "arrest_date": "1961-05-25 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-05-25 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested May 25, 1961 in Montgomery (Montgomery County Sheriff's Department photograph of that date). He was later jailed twice with Martin Luther King Jr. during the Albany Movement; those episodes' dates are unresolved. The Civil Rights Digital Library establishes the arrest but not the disposition, any transfer, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-01 20:19:09",
+          "updated_at": "2026-08-01 20:19:09",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "d76fc567-f0ca-543f-ba81-522d9bf529d0",
+        "prisoner_id": "1159e817-49b1-4dd7-b1bf-3e40b7b756cd",
+        "institution_id": null,
+        "arrest_date": "1961-02-06 00:00:00",
+        "incarceration_date": "1961-02-06 00:00:00",
+        "release_date": "1961-03-01 00:00:00",
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": 30,
+        "charges": "Trespassing during the February 6, 1961 Rock Hill lunch-counter sit-in",
+        "convicted": "Convicted; served a 30-day term",
+        "sentence": "Served 30 days after refusing bail following the Rock Hill sit-in. The March 1961 Student Voice confirms completion of the term. A contemporary announcement anticipated release on March 8; release is recorded at month precision because the actual day has not been independently confirmed.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": 30,
+      "rationale": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day.",
+      "sources": [
+        "https://www.crmvet.org/docs/6102_rockhill-pr.pdf",
+        "https://www.crmvet.org/docs/sv/sv6103.pdf",
+        "https://www.crmvet.org/info/rockhill.htm"
+      ]
+    }
+  ]
+}

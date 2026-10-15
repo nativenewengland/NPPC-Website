@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 286,
-  "case_records_changed_or_added": 363,
+  "changed_profiles": 287,
+  "case_records_changed_or_added": 364,
   "status_counts": {
-    "partially-corrected-live": 286,
+    "partially-corrected-live": 287,
     "reviewed-selected-case-no-change": 21,
-    "not-yet-researched": 1059,
+    "not-yet-researched": 1058,
     "research-incomplete": 6,
     "researched-unresolved": 41,
     "outside-decade-statute-match": 14
@@ -7193,9 +7193,11 @@
       "gap_case_ids": [
         "5ba503ce-dc50-4d7b-8603-b568fb54c80f"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        661
+      ],
+      "note": "SNCC Digital Gateway and the Atlanta University Center archival collection biography identify an actual 45-day jail term. Record documented time served without calculating an unsupported release date."
     },
     {
       "prisoner_id": "fec1133c-66ae-4a2e-a610-e58116470759",
