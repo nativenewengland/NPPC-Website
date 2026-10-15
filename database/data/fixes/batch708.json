@@ -1,0 +1,48 @@
+{
+  "batch": 708,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Lula Mae White",
+      "slug": "lula-mae-white",
+      "prisoner_id": "8e00c2a2-a759-4ab1-b487-1bde2f88d1cd",
+      "case_id": "b1a9ebe3-6bd7-44ff-85ea-15b42dc38ebf",
+      "expected": {
+        "id": "b1a9ebe3-6bd7-44ff-85ea-15b42dc38ebf",
+        "prisoner_id": "8e00c2a2-a759-4ab1-b487-1bde2f88d1cd",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — traveled from Montgomery, refused to comply with terminal segregation, arrested at the Jackson Trailways terminal, July 9, 1961.",
+        "arrest_date": "1961-07-09 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-07-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-07-09. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:53",
+        "updated_at": "2026-08-02 22:50:53",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 1,
+        "sentence": "Sentenced to four months following the July 9, 1961 Freedom Ride arrest. The New Haven Register reports that she actually served one month. Her exact release date remains unverified."
+      },
+      "rationale": "The newspaper distinguishes the four-month sentence from one month actually served. Add the documented month total without constructing a release date. Preserve all biography fields.",
+      "sources": [
+        "https://www.nhregister.com/news/article/Lula-Mae-White-Freedom-Rider-from-New-Haven-to-14905610.php",
+        "https://crdl.usg.edu/people/white_lula_mae_1938"
+      ]
+    }
+  ]
+}

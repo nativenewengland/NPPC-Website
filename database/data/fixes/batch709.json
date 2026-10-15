@@ -1,0 +1,74 @@
+{
+  "batch": 709,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Luvaghn Brown",
+      "slug": "luvaghn-brown",
+      "prisoner_id": "7382028c-5380-4e1d-a25e-e8ddebf2ddd6",
+      "case_id": "6746dce7-d95e-540a-a876-4771f4cb430d",
+      "expected_cases": [
+        {
+          "id": "27181c42-ce18-4b5e-a71c-9423bd1f2916",
+          "prisoner_id": "7382028c-5380-4e1d-a25e-e8ddebf2ddd6",
+          "institution_id": null,
+          "charges": "Sit-in at a Jackson Walgreens lunch counter — arrested at sixteen, July 11, 1961; a later 1961 arrest picketing outside the Jackson fairgrounds also noted.",
+          "arrest_date": "1961-07-11 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested 1961-07-11. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-02 22:50:53",
+          "updated_at": "2026-08-02 22:50:53",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "new_case": {
+        "id": "6746dce7-d95e-540a-a876-4771f4cb430d",
+        "prisoner_id": "7382028c-5380-4e1d-a25e-e8ddebf2ddd6",
+        "institution_id": null,
+        "charges": "Contempt of court for refusing to leave a bench reserved for white spectators during the Diane Nash Bevel proceedings in Jackson.",
+        "arrest_date": "1962-05-21 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1962-05-21 00:00:00",
+        "release_date": "1962-07-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 30 days at hard labor and a $100 fine. The Mississippi Free Press reported his May 21 arrest and release from the Hinds County prison farm on the evening of July 3, 1962. This is a separate detention from the July 1961 sit-in arrest.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": null,
+        "updated_at": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "rationale": "Mississippi Free Press July 14, 1962, page 4, explicitly names Luvaghn Brown, dates arrest May 21 and release evening July 3. Add a separate case, preserving the original 1961 arrest. The imposed 30-day sentence is not substituted for the observed 43-day elapsed custody.",
+      "sources": [
+        "https://www.crmvet.org/docs/mfp/620714_mfp.pdf",
+        "https://www.crmvet.org/docs/6305_sncc_cong_abuses.pdf",
+        "https://www.crmvet.org/nars/brownl22.htm"
+      ]
+    }
+  ]
+}
