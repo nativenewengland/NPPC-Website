@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 240,
-  "case_records_changed_or_added": 304,
+  "changed_profiles": 241,
+  "case_records_changed_or_added": 305,
   "status_counts": {
     "not-yet-researched": 1114,
-    "partially-corrected-live": 240,
+    "partially-corrected-live": 241,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
@@ -20304,7 +20304,23 @@
         634
       ],
       "note": "Court p540 explicitly dates continuous prison custody August5,1968. Remove unsupportedAugust20,1971 arrest; retain 1993 release at existing year precision and sentencing date. Applied and publicly verified in batch634."
+    },
+    {
+      "prisoner_id": "85c2f9c1-fdb2-4499-ab12-542de885825e",
+      "name": "Fleeta Drumgo",
+      "slug": "fleeta-drumgo",
+      "case_ids": [
+        "d0502405-5d32-46d2-9d2f-d6e293e893c4"
+      ],
+      "gap_case_ids": [
+        "d0502405-5d32-46d2-9d2f-d6e293e893c4"
+      ],
+      "batches": [
+        635
+      ],
+      "status": "partially-corrected-live",
+      "note": "Batch635 live verified: December16,1966 arrest;1967 custody year;September5,1967 sentencing;1976 actual release year.1972 acquittal did not end imprisonment. Exact admission/release remain unresolved. Biography and death-date inconsistencies flagged, preserved."
     }
   ],
-  "additional_profiles_outside_initial_inventory": 1
+  "additional_profiles_outside_initial_inventory": 2
 }

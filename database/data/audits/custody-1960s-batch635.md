@@ -4,4 +4,4 @@ Fleeta Drumgo: court opinion establishes December 16, 1966 arrest, 1967 Youth Au
 
 Sources and full before/after fields are in the payload. Preserve all profile fields, including biography. Biography implication of release in 1972 and apparently conflicting death date are separately flagged for future profile research, not silently changed by this custody-only batch. Exact admission and release dates remain unresolved.
 
-Validation: pending isolated preview/apply/replay/conflict checks, live application, all-field preservation and public-page verification.
+Validation complete: isolated no-write preview, apply/replay and conflict guard passed. Live update changed one case; replay changed zero. Full-table preservation verified all profile and unrelated case fields. Public HTTP200 displays arrest December16,1966;sentence September5,1967;custody1967;release1976, with no false exact counter. Evidence: local635-{fixture,preview,applied,replay}.txt,635-{before,after,public}.json.
