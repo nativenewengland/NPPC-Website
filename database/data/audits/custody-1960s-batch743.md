@@ -16,3 +16,7 @@ Contemporaneous United States Attorneys Bulletin volume 1 number 9 printed page 
 - https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-05-13-34-nat-guardian.pdf
 
 No biographies or unrelated fields changed. Seniors name spelling and possible birthdate are research leads outside this custody-only write. Chancey biography says charges dismissed in 1958, while contemporary June 1961 reporting gives August 1959; biography preserved and discrepancy recorded here. No release endpoint inferred from reversal or dismissal.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
