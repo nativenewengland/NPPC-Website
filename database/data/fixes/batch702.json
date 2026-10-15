@@ -1,0 +1,48 @@
+{
+  "batch": 702,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Suzanne Goldberg Savio",
+      "slug": "suzanne-goldberg-savio",
+      "prisoner_id": "65ae9450-37a6-4353-be15-6d6164cd0d8b",
+      "case_id": "a0217357-4388-4576-a2c3-952e75333db5",
+      "expected": {
+        "id": "a0217357-4388-4576-a2c3-952e75333db5",
+        "prisoner_id": "65ae9450-37a6-4353-be15-6d6164cd0d8b",
+        "institution_id": null,
+        "charges": "Trespass — the December 2-3, 1964 Sproul Hall sit-in",
+        "arrest_date": "1964-12-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "45 days",
+        "imprisoned_for_days": 45,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-18 20:42:47",
+        "updated_at": "2026-09-28 13:07:58",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 45,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": null,
+        "sentence": "A 45-day jail sentence was later excused; she received two years of probation and a fine. The December 3, 1964 arrest remains documented, but the length of initial detention is unresolved. The suspended term is not counted as time served."
+      },
+      "rationale": "FBI Mario Savio Part 08, Identification Record section, cites Daily Californian October 27, 1967 page 3 reporting Suzanne excused from the 45-day jail term. Seth Rosenfeld separately reports suspension to care for her chronically ill child. Remove the unsupported 45-day actual-custody total; retain arrest, conviction and profile. Do not treat the newspaper publication date as release or assert zero initial detention.",
+      "sources": [
+        "https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2008/at_download/file",
+        "https://www.sfgate.com/bayarea/article/Mario-Savio-s-FBI-Odyssey-How-the-man-who-2718306.php"
+      ]
+    }
+  ]
+}

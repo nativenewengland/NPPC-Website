@@ -7,3 +7,7 @@ Berkeley Barb inaugural issue, August 13, 1965, page 1 reports six defendants ch
 - https://www.latimes.com/archives/la-xpm-1992-12-28-vw-2064-story.html
 
 Related lead: David Lance Goines is also named on August 13, 1965. His existing case specifies 1967 custody, so the periods require reconciliation before changing endpoints. Four other named defendants were not found by candidate public slugs; this is not a complete identity search.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
