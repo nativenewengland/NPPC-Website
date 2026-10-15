@@ -41,3 +41,5 @@ https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt30/pdf/GPO-CRECB-1970-pt30-
 https://diva.sfsu.edu/collections/sfbatv/bundles/190205
 https://heraldphotos.blogspot.com/2009/02/cesar-chavez-released-from-jail-1970.html
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

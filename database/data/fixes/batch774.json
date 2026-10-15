@@ -1,0 +1,177 @@
+{
+  "batch": 774,
+  "expected_count": 4,
+  "entries": [
+    {
+      "name": "Brad Beneke",
+      "slug": "brad-beneke",
+      "prisoner_id": "b02e9bd9-8885-4a48-9409-f8b3349049c4",
+      "case_id": "63cb6dac-98f1-4100-823f-93aebcef11ad",
+      "expected": {
+        "id": "63cb6dac-98f1-4100-823f-93aebcef11ad",
+        "prisoner_id": "b02e9bd9-8885-4a48-9409-f8b3349049c4",
+        "institution_id": null,
+        "charges": "Interfering with the Selective Service System (the July 1970 Minnesota draft-board raids).",
+        "arrest_date": "1970-07-10 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1973-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Convicted; most sentenced to five years and released July 1973.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 08:46:00",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1970-12-28 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.mnhs.org/mnopedia/search/index/group/minnesota-eight"
+      ],
+      "rationale": "MNHS chronology names Beneke among those sentenced December 28, 1970. This is sentencing only; do not equate with prison admission."
+    },
+    {
+      "name": "Charles Muse",
+      "slug": "charles-muse",
+      "prisoner_id": "c8e5cde0-b558-4573-99e5-a069cc10e2ba",
+      "case_id": "2713389b-f28e-4459-b295-07e4fd9947d4",
+      "expected": {
+        "id": "2713389b-f28e-4459-b295-07e4fd9947d4",
+        "prisoner_id": "c8e5cde0-b558-4573-99e5-a069cc10e2ba",
+        "institution_id": null,
+        "charges": "Selective Service violation arising from refusal to cooperate with military conscription",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Served a federal prison term at Allenwood and was released in December 1968. The original sentence and exact custody endpoints remain unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 04:33:02",
+        "updated_at": "2026-09-26 04:33:02",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1968-12-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.nybooks.com/articles/1969/09/25/the-ultra-resistance/"
+      ],
+      "rationale": "Contemporary September 1969 report says Muse left Allenwood last December. Fill December 1968 month on the separate draft-refusal case, preserving Chicago Fifteen case. Day 1 is storage placeholder."
+    },
+    {
+      "name": "Carlos Feliciano",
+      "slug": "carlos-feliciano",
+      "prisoner_id": "d8603615-054e-45d2-bf20-f85fbb96fe69",
+      "case_id": "b8c8f7f4-0871-4394-817c-f9c119ba3b42",
+      "expected": {
+        "id": "b8c8f7f4-0871-4394-817c-f9c119ba3b42",
+        "prisoner_id": "d8603615-054e-45d2-bf20-f85fbb96fe69",
+        "institution_id": null,
+        "charges": "Pretrial detention in the New York explosives prosecution",
+        "arrest_date": "1970-05-21 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1972-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sixteen months of pretrial imprisonment reported by the archival finding aid; released on bail in 1972. A later conviction and prison term are recorded separately.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 13:48:10",
+        "updated_at": "2026-10-14 00:00:37",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": 16,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1970-05-16 00:00:00",
+        "incarceration_date": "1970-05-16 00:00:00",
+        "release_date": "1971-09-29 00:00:00",
+        "imprisoned_for_months": null,
+        "sentence": "Held in pretrial detention from May 16, 1970 until release on bail September 29, 1971. Contemporary reporting summarized this as sixteen months. A later conviction and prison term are recorded separately.",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.themilitant.com/1971/3533/MIL3533.pdf",
+        "https://www.themilitant.com/1971/3537/MIL3537.pdf"
+      ],
+      "rationale": "Original September 17 page 16 explicitly held since May 16, 1970; October 15 page 2 explicitly physical bail release September 29, 1971. Both visually verified. Correct misleading 1972 endpoint and May 21 arrest; use exact interval instead of rounded sixteen months. Later 1973 case untouched."
+    },
+    {
+      "name": "Carter Camp",
+      "slug": "carter-camp",
+      "prisoner_id": "be839185-497b-4ea1-b062-9daed49ab972",
+      "case_id": "b93e11dd-350b-4ce9-b205-78a319bb9b16",
+      "expected": {
+        "id": "b93e11dd-350b-4ce9-b205-78a319bb9b16",
+        "prisoner_id": "be839185-497b-4ea1-b062-9daed49ab972",
+        "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+        "charges": "Assault on a United States Marshal at Wounded Knee",
+        "arrest_date": "1973-05-08 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1975-09-01 00:00:00",
+        "release_date": "1977-09-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3 years imposed; conviction later reversed on appeal (1976). Accounts of time actually served at Leavenworth vary (obituaries cite roughly two to three years).\n\nVerdict as recorded: Convicted 1975 (Cedar Rapids), but the conviction was reversed on appeal in 1976 — United States v. Camp, 541 F.2d 737 (8th Cir.) — for a defective indictment",
+        "imprisoned_for_days": 731,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-12 13:21:52",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1976-01-01 00:00:00",
+        "imprisoned_for_months": 14,
+        "sentence": "3 years imposed; conviction later reversed on appeal (1976). Accounts of time actually served at Leavenworth vary (obituaries cite roughly two to three years).\n\nVerdict as recorded: Convicted 1975 (Cedar Rapids), but the conviction was reversed on appeal in 1976 — United States v. Camp, 541 F.2d 737 (8th Cir.) — for a defective indictment\n\nContemporary reporting on November 4, 1976 described his recent release after fourteen months in federal prison. The exact release month and day remain unverified.",
+        "date_precision": "{\"release_date\":\"year\"}"
+      },
+      "sources": [
+        "https://www.fordlibrarymuseum.gov/library/document/0142/6789398.pdf"
+      ],
+      "rationale": "Original Daily Oklahoman November 4, 1976 clipping, Ford Library PDF page 53 visually checked: Camp recently released after fourteen months and attended public rally Wednesday. Current September 1977 endpoint contradicted. Use 1976 year only and actual fourteen months, without inferring admission or precise release date."
+    }
+  ]
+}
