@@ -1,0 +1,137 @@
+{
+  "batch": 613,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "779f68eb-d9d4-4a63-8a5b-fef8c4dec9a0",
+      "name": "Abraham Bolden",
+      "slug": "abraham-bolden",
+      "case_id": "ec5ba1d2-fc22-4223-924b-6a4b56949558",
+      "expected": {
+        "id": "ec5ba1d2-fc22-4223-924b-6a4b56949558",
+        "prisoner_id": "779f68eb-d9d4-4a63-8a5b-fef8c4dec9a0",
+        "institution_id": null,
+        "charges": "Political Prosecution",
+        "arrest_date": "1964-05-18 00:00:00",
+        "indicted": null,
+        "convicted": "Jul 10th 1964",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1966-06-26 00:00:00",
+        "release_date": "1969-09-25 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 1187,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-09-18 00:13:35",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1964-08-12 00:00:00",
+        "convicted": "Aug 12th 1964",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.bitsavers.org/magazines/Computers_And_Automation/197106.pdf",
+        "https://cook-county.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&GUID=9BC6B19A-39DA-43B3-B0A3-FF5430F48218&ID=5687972"
+      ],
+      "reason": "Contemporary June1971 report p41 gives August12,1964 sentencing; Cook County resolution confirms second trial ended August12. July10 was during mistrial proceedings, not conviction. Existing custody dates preserved."
+    },
+    {
+      "prisoner_id": "b98baa1c-63c1-4723-bbdf-c42cd44400a5",
+      "name": "Pedro Albizu Campos",
+      "slug": "pedro-albizu-campos",
+      "case_id": "ced4edef-5ca9-4dbb-b419-0981fb024a73",
+      "expected": {
+        "id": "ced4edef-5ca9-4dbb-b419-0981fb024a73",
+        "prisoner_id": "b98baa1c-63c1-4723-bbdf-c42cd44400a5",
+        "institution_id": "a820d0a3-eb93-4299-800c-5d1438d6057b",
+        "charges": "Pardon revoked",
+        "arrest_date": "1954-03-05 00:00:00",
+        "indicted": null,
+        "convicted": "Pardon revoked, original 80-year sentence reinstated",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1954-03-05 00:00:00",
+        "release_date": "1964-11-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Continuing service of original sentence; pardoned again November 15, 1964 in failing health\n\nCharges as recorded: Pardon revoked after the March 1, 1954 Capitol attack carried out by Nationalist Party members",
+        "imprisoned_for_days": 3907,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1964-11-15 00:00:00"
+      },
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/DOC29_scans/29.PRB.ImagenDePedroAlbizuCampos.pdf",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/albizu-campos-pedro-c-1891-1965"
+      ],
+      "reason": "Photo archive captions printed47-48 identify second pardon November15,1964, corroborated historical encyclopedia. Correct off-by-one endpoint; remained hospitalized, released from police custody not necessarily discharged from hospital."
+    },
+    {
+      "prisoner_id": "7ca2f12c-07e1-4410-84a7-7f4ec8f45e4d",
+      "name": "Karl Meyer",
+      "slug": "karl-meyer",
+      "case_id": "364aaa82-b1dc-4ee8-9f11-02c20f38afc7",
+      "expected": {
+        "id": "364aaa82-b1dc-4ee8-9f11-02c20f38afc7",
+        "prisoner_id": "7ca2f12c-07e1-4410-84a7-7f4ec8f45e4d",
+        "institution_id": "7caf6b95-37de-494a-9111-993036f4c524",
+        "charges": "Willful failure to file/pay federal income tax (26 U.S.C. § 7203); contempt",
+        "arrest_date": "1968-01-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-01-14 00:00:00",
+        "release_date": "1972-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "2 years federal prison (tax resistance) plus 20+ shorter jail stints across decades\n\nVerdict as recorded: Yes — willful failure to file/pay federal income tax\n\nCharges as recorded: Willful failure to file/pay federal income tax (26 U.S.C. § 7203); contempt for refusing to comply with IRS summons (war tax resistance)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-14 00:00:25",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": "1971-05-21 00:00:00",
+        "release_date": "1972-02-16 00:00:00",
+        "sentenced_date": "1971-05-21 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "charges": "Filing false or fraudulent W-4 income-tax withholding exemption certificates (war tax resistance).",
+        "sentence": "Two consecutive one-year terms and a total $1,000 fine, imposed May 21, 1971 after a nolo contendere plea to two W-4 counts. Taken into custody from court that day, initially held in Cook County Jail before transfer to Sandstone. Released February 16, 1972. This tax imprisonment is separate from his numerous other protest arrests and jail terms."
+      },
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/870df39d1062fdcbae7841994ec28d98a3825fd5.pdf",
+        "https://nwtrcc.org/resist/consequences/war-tax-resisters-taken-court/"
+      ],
+      "reason": "Catholic Worker June1971 p3 firsthand David Finke report establishes May21 immediate custody; remained free until sentencing. NWTRCC gives February16,1972 actual release. Remove unsupported January1968 arrest and custody anchors and distinguish W-4 charge from failure to file/pay."
+    }
+  ]
+}
