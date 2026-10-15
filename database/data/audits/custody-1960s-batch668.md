@@ -29,3 +29,5 @@ Breines: inspected all 18 pages of Baylor oral history; confirms Parchman but su
 Greenberg: Maryland report pp40-41 supports imposed sentence; its training chronology is internally inconsistent and is not used for dates. MDAH collection establishes actual Parchman custody independently.
 
 Donna Sage Garde: arrest documented by CRDL. Reunion photo caption reprint suggests Parchman, but individual release/duration not established. No update in this batch.
+
+Live: three cases applied; no-write preview, isolated fixture, full-table preservation and zero-change replay passed. Public pages return HTTP200 and show July21,1961 incarceration. Unknown endpoints remain blank.
