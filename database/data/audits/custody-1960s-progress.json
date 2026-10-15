@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 205,
-  "case_records_changed_or_added": 262,
+  "changed_profiles": 207,
+  "case_records_changed_or_added": 264,
   "status_counts": {
-    "not-yet-researched": 1147,
-    "partially-corrected-live": 205,
+    "not-yet-researched": 1145,
+    "partially-corrected-live": 207,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -1675,9 +1675,11 @@
         "c23a788c-43a3-43a3-815f-571b18e5c112"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        616
+      ],
+      "note": "Court chronology establishes October 27, 1967 action/arrest, not October 26 preparation; contemporary May 24 report establishes sentencing. The Witness documents April 21, 1970 capture after appellate bail. Replace false four-year continuous custody and unsupported April 14, 1972 endpoint with self-reported 21 months. His wife recalls 18 months in StoryCorps; preserve this discrepancy in audit and do not infer exact release from either total. Original three-year sentence was later reported as two years; exact reduction date unresolved."
     },
     {
       "prisoner_id": "45a3a17e-2d63-4699-8734-473317128e58",
@@ -1859,9 +1861,11 @@
         "1a7d0df4-5c54-46e9-8b6b-6a85ba6c8b31"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        616
+      ],
+      "note": "Correct arrest to October 12, 1961; remove false uninterrupted September 1961-December 1969 incarceration. Contemporary accounts establish multiple bail gaps in 1963/1964 and court confirms appellate bond; neither conviction reversal nor dismissal is a physical release date. Preserve known transitions in case narrative while complete intervals remain unresolved. No biography changes."
     },
     {
       "prisoner_id": "2e3fe88b-e79e-43e0-bd62-2c6537b4b793",

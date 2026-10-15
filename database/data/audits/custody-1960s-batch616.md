@@ -24,4 +24,4 @@ https://law.justia.com/cases/north-carolina/supreme-court/1965/266-n-c-31-0.html
 
 Additional discrepancy source: https://archive.storycorps.org/interviews/david-eberhardt-and-cathy-permut/ (wife recalls 18 months; subject repeatedly reports 21).
 
-Deployment pending.
+Applied live: two updates. Isolated fixture, no-write preview, replay, concurrent-edit guard and global preservation checks passed. Public pages HTTP 200; Eberhardt displays 1 Year 9 Months and verified arrest/sentencing/admission dates. Mallory false continuous counter is absent. Exact final releases remain unresolved. January 1964 newspaper page 1 visually inspected from downloaded original.
