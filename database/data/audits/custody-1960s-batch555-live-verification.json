@@ -1,0 +1,25 @@
+{
+  "batch": 555,
+  "entries": 1,
+  "fixture": "B555-FIXTURE-OK: no-write preview, two updates, partial duration, preservation of partial precision, preservation, replay, conflict guard\n",
+  "application": "--- correct-1960s-custody-dates\nUpdating: Jamal Joseph\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 1\nB555-OK\nBatch 555 complete.\n",
+  "replay": "--- correct-1960s-custody-dates\nAlready applied: Jamal Joseph\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB555-OK\nBatch 555 complete.\n",
+  "public": [
+    {
+      "name": "Jamal Joseph",
+      "url": "https://politicalprisonercoalition.org/prisoner/jamal-joseph",
+      "http_status": 200,
+      "counters": [
+        "5 Years 8 Months 28 Days"
+      ],
+      "date_context": [
+        "obbery for harboring Mutulu Shakur Arrested: Mar 26, 1982 Sentenced: Feb 15, 1984 Incarcerated: Mar 26, 1982 Released: Dec 24, 1987 Sentence: Twe",
+        "r 26, 1982 Sentenced: Feb 15, 1984 Incarcerated: Mar 26, 1982 Released: Dec 24, 1987 Sentence: Twelve and one-half years; released December 24, 1",
+        "ard Lawrence Joseph / J.R. / Jamal Released Date of birth: 10. 01. 1953 Age: 73 Gender: Male Race: Black Era: 1980s State: New York Time Imprison",
+        "tulu Shakur Arrested: Mar 26, 1982 Sentenced: Feb 15, 1984 Incarcerated: Mar 26, 1982 Released: Dec 24, 1987 Sentence: Twelve and one-half years;"
+      ]
+    }
+  ],
+  "unrelated_fields_preserved": true,
+  "additional_public_checks": "February 1970 release visible in second case; partial precision means this period is not added to exact displayed total. Biography still says March; preserved under current no-bio-change scope and recorded for later correction."
+}

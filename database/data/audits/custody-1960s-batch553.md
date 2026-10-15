@@ -8,4 +8,4 @@ https://law.counselstack.com/opinion/people-ex-rel-bird-v-behagen-nysupct-1971
 Curtis Powell: NYPL personal papers finding aid dates arrest April 2 and continued detention until May 1971 acquittal. May 12 endpoint predates May 13 verdict; use verified release month pending direct exact-day discharge evidence.
 https://archives.nypl.org/scm/22377
 
-Live validation pending. Biographies and unrelated fields preserved.
+Applied live; fixture, preservation, idempotent replay and public profile checks passed. Biographies and unrelated fields preserved.

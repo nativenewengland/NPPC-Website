@@ -7,4 +7,4 @@ https://cdn.penguin.co.uk/dam-assets/books/9781804946411/9781804946411-sample.pd
 https://cdn.penguin.co.uk/dam-assets/books/9781804946411/9781804946411-sample.pdf#page=38
 https://www.themilitant.com/1971/3518/MIL3518.pdf
 
-Expected 84 additional custody days; initial term303 days yields387 total. Live validation pending.
+Expected 84 additional custody days; initial term303 days yields387 total. Applied live; fixture, preservation, idempotent replay and public profile checks passed.

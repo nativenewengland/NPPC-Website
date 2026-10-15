@@ -5,4 +5,4 @@ First-person memoir explicitly says release occurred February 1970, contradictin
 https://www.bannedthought.net/USA/BPP/jamal_joseph-panther_baby-algonquin_books_2012_.pdf#page=89
 https://www.2pac.com/story/birthday-hymn-for-afeni/
 
-Live validation pending.
+Applied live; fixture, preservation, idempotent replay and public profile checks passed.
