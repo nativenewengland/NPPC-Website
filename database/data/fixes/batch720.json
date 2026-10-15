@@ -1,0 +1,171 @@
+{
+  "batch": 720,
+  "expected_count": 4,
+  "entries": [
+    {
+      "name": "Gerhart Eisler",
+      "slug": "gerhart-eisler",
+      "prisoner_id": "46261489-a1c2-4f49-8774-a3676e0f8242",
+      "case_id": "a2293cf2-0d5a-462b-8aa0-82c1b38c2497",
+      "expected": {
+        "id": "a2293cf2-0d5a-462b-8aa0-82c1b38c2497",
+        "prisoner_id": "46261489-a1c2-4f49-8774-a3676e0f8242",
+        "institution_id": null,
+        "charges": "Contempt of Congress.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — left the country while free on appeal",
+        "plead": null,
+        "sentenced_date": "1947-06-27 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1948-03-06 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1949-05-01 00:00:00",
+        "end_of_exile": "1968-03-21 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year for contempt of Congress and three years in a separate passport case. Released on appeal bonds without serving those sentences; separately detained in immigration proceedings until bail was granted March 6, 1948. The detention start date remains unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 6899,
+        "created_at": "2026-07-06 16:11:49",
+        "updated_at": "2026-10-12 21:02:46",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1949-05-06 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\",\"in_exile_since\":\"day\"}",
+        "in_exile_for_days": 6894
+      },
+      "rationale": "Contemporary United Press report dates departure aboard Batory to May 6, 1949. Correct the unsupported May 1 date and recalculate the existing exile duration to the unchanged March 21, 1968 endpoint. This exile continued into the 1960s.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn90051770/1949-06-04/ed-1/seq-1.pdf",
+        "https://oregonnews.uoregon.edu/lccn/sn85042470/1949-05-18/ed-1/seq-1/ocr/"
+      ]
+    },
+    {
+      "name": "Hamish Scott MacKay",
+      "slug": "hamish-scott-mackay",
+      "prisoner_id": "8e30fe0e-df71-430b-bd26-792fc79c053c",
+      "case_id": "62e18652-baa8-4510-acf7-8cfd6f24aae5",
+      "expected": {
+        "id": "62e18652-baa8-4510-acf7-8cfd6f24aae5",
+        "prisoner_id": "8e30fe0e-df71-430b-bd26-792fc79c053c",
+        "institution_id": null,
+        "charges": "Deportation based on alleged former Communist Party membership",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Deportation order sustained",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held for deportation during the proceedings and deported to Canada in November 1960; exact detention dates not located.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:51",
+        "updated_at": "2026-09-26 20:07:01",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1960-11-18 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"day\"}"
+      },
+      "rationale": "Contemporary AP reporting on November 19 describes deportation the previous evening; National Guardian November 6, 1961 explicitly gives November 18. Add the exile departure date, without inventing a detention start, release or exile endpoint.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042470/1960-11-19/ed-1/seq-1/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-11-06-14-4-nat-guardian.pdf"
+      ]
+    },
+    {
+      "name": "June Croll Gordon",
+      "slug": "june-croll-gordon",
+      "prisoner_id": "18c94b99-bf87-4cd8-915d-797c4dd14f72",
+      "case_id": "c90eb7b0-a576-4689-883a-342bd664fb08",
+      "expected": {
+        "id": "c90eb7b0-a576-4689-883a-342bd664fb08",
+        "prisoner_id": "18c94b99-bf87-4cd8-915d-797c4dd14f72",
+        "institution_id": null,
+        "charges": "Immigration and Naturalization Service deportation order based on alleged unlawful entry after a 1928 trip to Canada",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No criminal conviction",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Deportation order issued August 6, 1960; no custody established in this proceeding.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:51",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": null,
+        "imprisoned_for_months": 4,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": null
+      },
+      "rationale": "Remove the misplaced four-month duration from the 1960 deportation-order case. Contemporary May 4, 1932 reporting attributes four months to Kentucky labor organizing; transfer that documented duration to her existing Kentucky case in this same transaction.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n106-NY-may-04-1932-DW-LOC.pdf"
+      ]
+    },
+    {
+      "name": "June Croll Gordon",
+      "slug": "june-croll-gordon",
+      "prisoner_id": "18c94b99-bf87-4cd8-915d-797c4dd14f72",
+      "case_id": "3db9b08c-a61f-4294-be03-56b21437eb77",
+      "expected": {
+        "id": "3db9b08c-a61f-4294-be03-56b21437eb77",
+        "prisoner_id": "18c94b99-bf87-4cd8-915d-797c4dd14f72",
+        "institution_id": null,
+        "charges": "Labor organizing in support of Kentucky miners",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Disposition not located",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Detained in a Kentucky prison for four months and released by May 1932; exact custody dates not located.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:03:47",
+        "updated_at": "2026-09-26 20:03:47",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 4
+      },
+      "rationale": "Place the documented four months on the existing Kentucky labor-organizing case. May 4, 1932 Daily Worker reports she had recently been released after four months; no exact custody endpoints inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n106-NY-may-04-1932-DW-LOC.pdf"
+      ]
+    }
+  ]
+}

@@ -6,3 +6,7 @@ https://law.justia.com/cases/federal/district-courts/FSupp2/8/1272/2576630/
 https://files.core.ac.uk/download/158301930.pdf
 
 Biography and all existing dates preserved. Initial detention and bail dates remain unresolved.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
