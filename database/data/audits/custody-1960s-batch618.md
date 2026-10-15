@@ -24,4 +24,4 @@ https://law.justia.com/cases/north-carolina/supreme-court/1965/263-n-c-536-0.htm
 
 https://www.casemine.com/judgement/us/5914c884add7b049347eaeef
 
-No biographies changed. Possible Lowry/Lowery duplicate identity flagged for separate review; no merge performed. Deployment pending.
+No biographies changed. Possible Lowry/Lowery duplicate identity flagged for separate review; no merge performed. Applied live: two updates. Isolated fixture, preview, replay, concurrent-edit guard and global preservation passed. Public pages HTTP 200, both show February 28, 1964 sentencing; Reap documented 64-day total preserved.
