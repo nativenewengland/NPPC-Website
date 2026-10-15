@@ -1,0 +1,50 @@
+{
+  "batch": 663,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Mario Savio",
+      "slug": "mario-savio",
+      "prisoner_id": "0af42bfe-406b-4bb8-aad0-a739fe97455f",
+      "case_id": "7c8476a7-1697-43e1-bc7d-dfebf25d8050",
+      "expected": {
+        "id": "7c8476a7-1697-43e1-bc7d-dfebf25d8050",
+        "prisoner_id": "0af42bfe-406b-4bb8-aad0-a739fe97455f",
+        "institution_id": "b13ca26c-1f5c-40ea-9153-1b3e5b58e38a",
+        "charges": "Trespass, resisting arrest, unlawful assembly — December 2, 1964 Sproul Hall sit-in (FSM)",
+        "arrest_date": "1964-12-03",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1964-12-03 00:00:00",
+        "release_date": "1967-10-24",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "120 days actually served; released October 24, 1967, with the remaining 80 days of an aggregate 200-day jail sentence suspended.",
+        "imprisoned_for_days": 117,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-09-18 04:13:02",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": "[{\"start\":\"1964-12-03\",\"end\":\"1964-12-04\"},{\"start\":\"1967-06-30\",\"end\":\"1967-10-24\"}]"
+      },
+      "updates": {
+        "sentenced_date": "1967-06-30 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "Sentenced on June 30, 1967 to 120 days for the Sproul Hall sit-in; released October 24, 1967. The remaining 80 days of the aggregate 200-day sentence were suspended. The recorded custody periods distinguish the initial December 1964 detention from the June–October 1967 term; the imposed 120 days is not substituted for elapsed custody."
+      },
+      "rationale": "Seth Rosenfeld documents June 30 sentencing and October 24 release from FBI records; FBI Vault October 26 airtel confirms release October 24. Preserve already separated custody periods and calculated duration; clarify sentence versus elapsed custody.",
+      "sources": [
+        "https://www.sfchronicle.com/bayarea/article/Mario-Savio-s-FBI-Odyssey-How-the-man-who-2718306.php",
+        "https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2008/",
+        "https://pacificaradioarchives.org/recording/bb1303/"
+      ]
+    }
+  ]
+}

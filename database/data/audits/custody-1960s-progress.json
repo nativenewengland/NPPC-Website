@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 287,
-  "case_records_changed_or_added": 364,
+  "changed_profiles": 289,
+  "case_records_changed_or_added": 367,
   "status_counts": {
-    "partially-corrected-live": 287,
-    "reviewed-selected-case-no-change": 21,
-    "not-yet-researched": 1058,
+    "partially-corrected-live": 289,
+    "reviewed-selected-case-no-change": 23,
+    "not-yet-researched": 1054,
     "research-incomplete": 6,
     "researched-unresolved": 41,
     "outside-decade-statute-match": 14
@@ -867,14 +867,17 @@
       "name": "Diane Nash",
       "slug": "diane-nash",
       "case_ids": [
-        "d7a7ad93-3c70-48fe-9bbd-774781ff062a"
+        "d7a7ad93-3c70-48fe-9bbd-774781ff062a",
+        "0e729e61-7269-540f-b3aa-08c4dbc7850b"
       ],
       "gap_case_ids": [
         "d7a7ad93-3c70-48fe-9bbd-774781ff062a"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Existing ten documented days retained. Exact May 1962 release not established; do not infer by adding ten to admission."
+      "status": "partially-corrected-live",
+      "batches": [
+        662
+      ],
+      "note": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day."
     },
     {
       "prisoner_id": "6f114a76-bc41-40bb-95e9-20a7cc899ac0",
@@ -3651,9 +3654,9 @@
         "0191f74f-ffd9-4aeb-81f9-688c1098176a"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Existing March 18–May 5, 1960 period agrees with Freedom Facts and Firsts chronology and Florida Memory indexed March 18 event. No new missing date established. March 17 conviction distinguished from custody."
     },
     {
       "prisoner_id": "10d7b26c-c251-4d2d-962e-315f42877e8e",
@@ -3707,9 +3710,9 @@
         "7f217e53-df66-4784-abe0-397e016f815a"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Own Atlanta Student Movement timeline supports October 19 arrests and October 23 group release, but individual bail timing requires reconciliation with reports that leaders posted bail to continue organizing. Existing record preserved pending individual evidence."
     },
     {
       "prisoner_id": "02d5591f-d982-40b6-bcfd-ca9b84de946e",
@@ -3719,9 +3722,9 @@
         "860add37-73a6-42fc-849c-213f44531677"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Stanford King Papers identifies her October 19 arrest and October 22 letter from jail; Lonnie King participant timeline documents October 23 student release. Existing dates preserved; no additional date located."
     },
     {
       "prisoner_id": "255926b1-9d76-42aa-822d-a4d753b15b19",
@@ -7188,16 +7191,18 @@
       "name": "Ruby Doris Smith Robinson",
       "slug": "ruby-doris-smith-robinson",
       "case_ids": [
-        "5ba503ce-dc50-4d7b-8603-b568fb54c80f"
+        "5ba503ce-dc50-4d7b-8603-b568fb54c80f",
+        "b4c8327e-b037-58c1-91a2-eaa718ec3c2c"
       ],
       "gap_case_ids": [
         "5ba503ce-dc50-4d7b-8603-b568fb54c80f"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        661
+        661,
+        662
       ],
-      "note": "SNCC Digital Gateway and the Atlanta University Center archival collection biography identify an actual 45-day jail term. Record documented time served without calculating an unsupported release date."
+      "note": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day."
     },
     {
       "prisoner_id": "fec1133c-66ae-4a2e-a610-e58116470759",
@@ -8185,14 +8190,17 @@
       "name": "Charles Joseph Jones",
       "slug": "charles-joseph-jones",
       "case_ids": [
-        "dc580c83-2c2d-46f3-a29f-b493e942d6a7"
+        "dc580c83-2c2d-46f3-a29f-b493e942d6a7",
+        "d76fc567-f0ca-543f-ba81-522d9bf529d0"
       ],
       "gap_case_ids": [
         "dc580c83-2c2d-46f3-a29f-b493e942d6a7"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        662
+      ],
+      "note": "SNCC February 6 arrest press release plus March Student Voice completed-term report independently establish a separate 30-day custody episode. March release month only; do not promote advance March 8 announcement to actual release day."
     },
     {
       "prisoner_id": "69069cb4-6998-435d-a01c-7217acb6f09c",
