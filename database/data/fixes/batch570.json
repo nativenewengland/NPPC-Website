@@ -1,0 +1,119 @@
+{
+  "batch": 570,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "c2b76202-4f80-4f7d-9c4e-0273c7105f4a",
+      "name": "Robert Zellner",
+      "slug": "robert-zellner",
+      "case_id": "128d8bb1-079b-5c82-bc94-d741cc740267",
+      "expected_cases": [
+        {
+          "id": "28e6b557-5476-41c1-b13c-e855724f2de8",
+          "prisoner_id": "c2b76202-4f80-4f7d-9c4e-0273c7105f4a",
+          "institution_id": null,
+          "charges": "Breach of the peace; contributing to the delinquency of minors — McComb demonstration",
+          "arrest_date": "1961-10-04 00:00:00",
+          "indicted": null,
+          "convicted": "Arrested Oct. 1961; released on $300 bond",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1961-10-04 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Jailed and charged for the McComb protest",
+          "imprisoned_for_days": 2,
+          "in_exile_for_days": null,
+          "created_at": "2026-06-17 06:41:14",
+          "updated_at": "2026-09-28 13:07:58",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": 2,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "128d8bb1-079b-5c82-bc94-d741cc740267",
+        "prisoner_id": "c2b76202-4f80-4f7d-9c4e-0273c7105f4a",
+        "institution_id": null,
+        "charges": "Breach of the peace - McComb school-walkout prosecution, post-trial custody",
+        "arrest_date": "1961-10-04 00:00:00",
+        "incarceration_date": "1961-10-31 00:00:00",
+        "sentenced_date": "1961-10-31 00:00:00",
+        "release_date": "1961-12-01 00:00:00",
+        "sentence": "Sentenced to four months on October 31, 1961. Released on appeal bond in December 1961; exact discharge day unverified. Separate from the initial October 4 arrest and bail episode.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://sgsnow.wordpress.com/wp-content/uploads/2008/12/the-making-of-black-revolutionaries.pdf",
+        "https://snccdigital.org/events/sncc-leaves-mccomb/"
+      ]
+    },
+    {
+      "prisoner_id": "e44e7d6a-268d-418e-8d50-4551a2d00532",
+      "name": "Bob Moses",
+      "slug": "bob-moses",
+      "case_id": "9a37bcfc-0fe8-55ab-b759-aa6ec0186d03",
+      "expected_cases": [
+        {
+          "id": "d6c363cc-e2e6-482f-b9d5-a6633d2e263c",
+          "prisoner_id": "e44e7d6a-268d-418e-8d50-4551a2d00532",
+          "institution_id": "625667e1-4dd5-4174-82f0-739faa62d269",
+          "charges": "Breach of the peace - October 4, 1961 McComb school-walkout protest",
+          "arrest_date": "1961-10-04 00:00:00",
+          "indicted": null,
+          "convicted": "Convicted at the October 31, 1961 McComb trial; appeal followed",
+          "plead": null,
+          "sentenced_date": "1961-10-31 00:00:00",
+          "incarceration_date": "1961-10-31 00:00:00",
+          "release_date": "1961-12-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "The October 4 McComb march arrest was followed by release on bail. The dates here describe the later imprisonment following the October 31, 1961 trial, not continuous custody from the march. Released on appeal bond in December 1961; exact discharge day remains unverified. Other civil-rights arrests were separate episodes with individual custody dates still unresolved.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-15 01:26:34",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "9a37bcfc-0fe8-55ab-b759-aa6ec0186d03",
+        "prisoner_id": "e44e7d6a-268d-418e-8d50-4551a2d00532",
+        "institution_id": null,
+        "charges": "Interfering with an officer in the discharge of his duties - assisting voter registration in Amite County",
+        "arrest_date": "1961-08-15 00:00:00",
+        "incarceration_date": "1961-08-15 00:00:00",
+        "sentenced_date": "1961-08-15 00:00:00",
+        "release_date": "1961-08-01 00:00:00",
+        "sentence": "Ninety-day suspended sentence and $5 court costs after the August 15 voter-registration trip. Jailed after refusing the costs, then bailed out later in August after a brief stay, according to his first-person account. The suspended 90-day sentence was not time served.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day",
+          "release_date": "month"
+        }
+      },
+      "expected_days": null,
+      "sources": [
+        "https://www.crmvet.org/info/700100_moses_liberation.pdf"
+      ]
+    }
+  ]
+}
