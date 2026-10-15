@@ -6,4 +6,4 @@ Source: https://seafarerslog.org/archives/files/original/afe2a019d273414128ba3a3
 
 Payton already has August 1961 month-level release in the audit snapshot and is not changed by this batch. His admission day remains a separate follow-up. Individual arrest dates and exact parole days remain unresolved for Gore and Auslander.
 
-Deployment pending.
+Deployed October 15, 2026. Two updates applied; full unrelated-field preservation verified, zero-change replay passed. Isolated fixture, conflict guard and preview passed. Both public pages HTTP 200 show August 1961 release. Local evidence retained in 628-before/after/public.json and 628-applied/replay/fixture/preview.txt.
