@@ -1,0 +1,186 @@
+{
+  "batch": 634,
+  "expected_count": 4,
+  "entries": [
+    {
+      "prisoner_id": "8c77ed50-1598-44e0-a6cf-7bb0eb438b21",
+      "name": "Johnny Spain",
+      "slug": "johnny-spain",
+      "case_id": "0e6000fa-7d20-4762-bb86-7549b2e39ab0",
+      "expected": {
+        "id": "0e6000fa-7d20-4762-bb86-7549b2e39ab0",
+        "prisoner_id": "8c77ed50-1598-44e0-a6cf-7bb0eb438b21",
+        "institution_id": null,
+        "charges": "Underlying 1967 California state murder conviction (life); 1976 San Quentin Six conviction of two counts of murder of guards Frank DeLeon and Jere Graham (overturned 9th Cir 1985)",
+        "arrest_date": "1967-03-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-03-31 00:00:00",
+        "release_date": "1988-03-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life; San Quentin Six conviction overturned 1985; paroled 1988\n\nVerdict as recorded: Yes - 1976 California state conviction (overturned 1985)",
+        "imprisoned_for_days": 7654,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-05-05 00:00:00",
+        "release_date": "1988-03-01 00:00:00",
+        "sentence": "Life on the underlying murder conviction; the federal court records the state-prison term beginning May 5, 1967. Released on bail in March 1988, pending proceedings on the San Quentin Six conviction. That conviction was overturned in 1986; the reversal was upheld in August 1989. The exact physical release day is not established by the cited report.",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf",
+        "https://www.upi.com/amp/Archives/1989/08/22/Court-upholds-reversal-of-Johnny-Spain-conviction/4681619761600/"
+      ],
+      "rationale": "Court p539 gives actual state-prison term start. UPI establishes March 1988 release; remove unsupported March14 day precision. Existing arrest date has not been independently resolved and is not changed in this batch."
+    },
+    {
+      "prisoner_id": "2507f5fa-0a01-4887-a24a-c897ddd9541a",
+      "name": "Luis Talamantez",
+      "slug": "luis-talamantez",
+      "case_id": "e0b66813-ef11-45ae-b7bf-362b67b57817",
+      "expected": {
+        "id": "e0b66813-ef11-45ae-b7bf-362b67b57817",
+        "prisoner_id": "2507f5fa-0a01-4887-a24a-c897ddd9541a",
+        "institution_id": null,
+        "charges": "San Quentin Six trial (1976) - acquitted on all counts",
+        "arrest_date": "1971-08-20 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-08-20 00:00:00",
+        "release_date": "1976-08-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held in pretrial detention; acquitted at 1976 trial\n\nVerdict as recorded: No - acquitted on all counts at the 1976 San Quentin Six trial",
+        "imprisoned_for_days": 1818,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": "1965-01-01 00:00:00",
+        "release_date": "1976-08-20 00:00:00",
+        "charges": "Underlying armed-robbery convictions; later San Quentin Six prosecution, acquitted in August 1976.",
+        "sentence": "The federal court records two consecutive five-years-to-life terms beginning in 1965. Subsequently detained in the San Quentin Adjustment Center and prosecuted in the San Quentin Six case; acquitted August 12, 1976. Contemporary Associated Press reporting confirms physical release Friday, August 20, 1976. The original arrest day and admission month remain unresolved.",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf",
+        "https://gateway.okhistory.org/ark:/67531/metadc2550547/m1/8/"
+      ],
+      "rationale": "Court p540 places original sentence service in1965; some later summaries say1966, so retain court-supported year with no invented month/day. AP August22 says he leftFriday. August20,1971 is neither original admission nor supported arrest and precedes the incident. Expand case label to reflect continuous underlying custody."
+    },
+    {
+      "prisoner_id": "20dc2033-1a50-4c6e-b6af-78474aee9909",
+      "name": "Willie Tate",
+      "slug": "willie-tate",
+      "case_id": "df2cec1a-ebe2-40e8-80dc-41ab90181ad1",
+      "expected": {
+        "id": "df2cec1a-ebe2-40e8-80dc-41ab90181ad1",
+        "prisoner_id": "20dc2033-1a50-4c6e-b6af-78474aee9909",
+        "institution_id": null,
+        "charges": "San Quentin Six trial (1976) - acquitted on all counts",
+        "arrest_date": "1971-08-20 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-08-20 00:00:00",
+        "release_date": "1976-08-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held in pretrial detention; acquitted at 1976 trial\n\nVerdict as recorded: No - acquitted on all counts at the 1976 San Quentin Six trial",
+        "imprisoned_for_days": 1818,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": "1965-01-01 00:00:00",
+        "release_date": "1975-01-14 00:00:00",
+        "charges": "1965 assault-with-a-deadly-weapon conviction while already in custody; later San Quentin Six prosecution, acquitted in August 1976.",
+        "sentence": "The federal court records a 1965 sentence of six months to ten years, imposed while Tate was already in custody. This entry dates that documented prison term at year precision; his earlier juvenile custody began before it. After the prison term ended, he remained in Marin County jail until his release on $100,000 bail on January 14, 1975. The August 1976 acquittal was not his release from custody.",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf",
+        "https://www.marxists.org/history/usa/pubs/black-panther/12%20no%2027%201-24%20jan%2025%201975.pdf"
+      ],
+      "rationale": "Court p540 and contemporary Panther January25 p5 corroborate January14,1975 bail release. Court p541 contains an apparent1974 typo; preceding page and contemporary report resolve it.1965 marks documented adult term, not claimed beginning of all custody. Remove unsupported1971arrest and1976release."
+    },
+    {
+      "prisoner_id": "b81f714e-77c8-40e8-87c7-b17b1174e25f",
+      "name": "David Johnson",
+      "slug": "david-johnson",
+      "case_id": "63feaf32-1c0c-44ba-afe5-949c783a70eb",
+      "expected": {
+        "id": "63feaf32-1c0c-44ba-afe5-949c783a70eb",
+        "prisoner_id": "b81f714e-77c8-40e8-87c7-b17b1174e25f",
+        "institution_id": null,
+        "charges": "San Quentin Six trial - acquitted of murder, convicted of assault on correctional officers",
+        "arrest_date": "1971-08-20 00:00:00",
+        "indicted": null,
+        "convicted": "Partial - acquitted of murder, convicted of assault on correctional officers",
+        "plead": null,
+        "sentenced_date": "1976-10-01 00:00:00",
+        "incarceration_date": "1971-08-20 00:00:00",
+        "release_date": "1993-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Conviction added to prior state sentence",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": "{\"release_date\":\"year\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": "1968-08-05 00:00:00",
+        "charges": "Underlying second-degree burglary conviction; San Quentin Six prosecution - acquitted of murder, convicted of assault on correctional officers.",
+        "sentence": "Six months to fifteen years for the underlying second-degree burglary conviction; the federal court records continuous imprisonment beginning August 5, 1968. The later San Quentin Six assault conviction was added to the prior state sentence. The existing 1993 release year is preserved; its exact month and day remain unresolved.",
+        "date_precision": "{\"release_date\":\"year\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf"
+      ],
+      "rationale": "Court p540 explicitly dates continuous prison custody August5,1968. Remove unsupportedAugust20,1971 arrest; retain 1993 release at existing year precision and sentencing date."
+    }
+  ]
+}
