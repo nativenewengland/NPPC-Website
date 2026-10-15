@@ -1,0 +1,50 @@
+{
+  "batch": 715,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Allan Hoffman",
+      "slug": "allan-hoffman",
+      "prisoner_id": "f4a587c3-577f-4784-a8fb-58c32cd79e11",
+      "case_id": "f50089fa-a793-4e1d-a5f1-f27683fcaa16",
+      "expected": {
+        "id": "f50089fa-a793-4e1d-a5f1-f27683fcaa16",
+        "prisoner_id": "f4a587c3-577f-4784-a8fb-58c32cd79e11",
+        "institution_id": null,
+        "charges": "Refusing to take shelter",
+        "arrest_date": "1961-04-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-05-08 00:00:00",
+        "release_date": "1961-05-26 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sixty days in the workhouse \u2014 then the harshest term ever imposed under the New York Defense Emergency Act \u2014 for refusing to take shelter during the April 28, 1961 civil-defense drill. He served eighteen days and was released on May 26, 1961 on one hundred dollars bail pending appeal, so the sixty days is NOT recorded as time served. The May 8 incarceration date is derived by counting the eighteen reported days back from the documented May 26 release.",
+        "imprisoned_for_days": 18,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-07-31 19:14:49",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}",
+        "documented_imprisoned_for_days": 18,
+        "sentence": "Sentenced to sixty days in the workhouse for refusing to take shelter during the April 28, 1961 civil-defense drill. Contemporary reporting records eighteen days actually served and release on $100 bail on May 26, 1961 pending appeal. The incarceration start is documented only to May 1961; the formerly displayed May 8 was calculated backward from the reported duration, not independently established."
+      },
+      "rationale": "Preserve the contemporary documented eighteen days and exact May 26 release, but remove false day-level precision from the inferred incarceration start. A sentence of sixty days is not actual time served.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-12-13-35-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-05-22-13-32-nat-guardian.pdf"
+      ]
+    }
+  ]
+}
