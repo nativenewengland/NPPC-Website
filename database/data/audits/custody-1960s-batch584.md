@@ -8,4 +8,4 @@ David J. Dennis Sr.: CORE December15 minutes explicitly identify this person in 
 https://www.crmvet.org/docs/6112_core_minutes.pdf
 https://www.crmvet.org/docs/62_core_justice.pdf
 
-Existing profiles and cases preserved. Deployment pending.
+Existing profiles and cases preserved. Applied live. Fixture, full-snapshot guards, preservation, zero-change replay and public case dates/counters verified.
