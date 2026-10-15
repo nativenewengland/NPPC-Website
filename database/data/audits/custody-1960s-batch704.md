@@ -14,3 +14,7 @@ The hosting Ethical Culture Society reports his first-person presentation and 23
 - https://ethicalfocus.org/freedom-rider/
 
 Winston Fuller: 2011 Pittsburgh Courier reports six-month sentence, conflicting with MDAH account of four months for the July 30 group; neither establishes an individual release. No unsupported duration entered.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

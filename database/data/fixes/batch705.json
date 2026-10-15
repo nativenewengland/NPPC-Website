@@ -1,0 +1,138 @@
+{
+  "batch": 705,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Elnora R. Price",
+      "slug": "elnora-r-price",
+      "prisoner_id": "b0adab7f-4287-45eb-ac98-4bfa34038aa5",
+      "case_id": "71d833f7-d718-4e28-9390-b113081e6dea",
+      "expected": {
+        "id": "71d833f7-d718-4e28-9390-b113081e6dea",
+        "prisoner_id": "b0adab7f-4287-45eb-ac98-4bfa34038aa5",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride arrival at the Jackson Trailways terminal, June 23, 1961.",
+        "arrest_date": "1961-06-23 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-23. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-23 00:00:00",
+        "sentence": "Held in Jackson city jail after the June 23, 1961 Freedom Ride arrest. Mary Harrison Lee described sharing the jail cell with the other woman in the Tougaloo Four. An individual release date for Price remains unverified.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "Armstrong identifies the four by name, including the two women Harrison and Price; Harrison describes being jailed together after June 23. Add confirmed custody start without assigning her own bond date automatically to Price.",
+      "sources": [
+        "https://www.crmvet.org/mem/priceer.htm",
+        "https://da.mdah.ms.gov/series-files/speaknow/pdf/AU991_108937.pdf"
+      ]
+    },
+    {
+      "name": "Thomas Madison Armstrong III",
+      "slug": "thomas-madison-armstrong-iii",
+      "prisoner_id": "5f084a22-6674-4430-bd88-3e9899194039",
+      "case_id": "b1dcec8d-af8e-49a7-a7d0-38c762f943ef",
+      "expected": {
+        "id": "b1dcec8d-af8e-49a7-a7d0-38c762f943ef",
+        "prisoner_id": "5f084a22-6674-4430-bd88-3e9899194039",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — breach-of-peace context per his oral history; arrested Jackson, June 23, 1961.",
+        "arrest_date": "1961-06-23 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-23. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:52",
+        "updated_at": "2026-08-02 22:50:52",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-23 00:00:00",
+        "sentence": "Held in Jackson city jail and then Hinds County jail after the June 23, 1961 arrest. In his MDAH oral history he recalled a four-month sentence and $400 fine, followed by bail arranged by the Tougaloo president on his fourth day in custody, June 26.",
+        "release_date": "1961-06-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "AU976 transcript pages 2-3 explicitly dates arrest June 23 and release on the fourth custody day, resolving to June 26 with inclusive day counting. Mary Harrison independently dates the cohort bond hearing to that Monday. The imposed four months are not actual time served.",
+      "sources": [
+        "https://da.mdah.ms.gov/series/conversations/speaknow/thomas-armstrong/detail/823015",
+        "https://da.mdah.ms.gov/series-files/speaknow/pdf/AU976_108841.pdf",
+        "https://da.mdah.ms.gov/series-files/speaknow/pdf/AU991_108937.pdf"
+      ]
+    },
+    {
+      "name": "Mary Magdalene Harrison",
+      "slug": "mary-magdalene-harrison",
+      "prisoner_id": "428f94c4-3837-48e3-b142-a5d29ddc7ba2",
+      "case_id": "68c0c825-0f4d-423f-b76a-5b9bde970b38",
+      "expected": {
+        "id": "68c0c825-0f4d-423f-b76a-5b9bde970b38",
+        "prisoner_id": "428f94c4-3837-48e3-b142-a5d29ddc7ba2",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — arrested Jackson, June 23, 1961.",
+        "arrest_date": "1961-06-23 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-23. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:51:07",
+        "updated_at": "2026-08-02 22:51:07",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-23 00:00:00",
+        "sentence": "Held in Jackson city jail after the June 23, 1961 arrest. Her MDAH oral history places trial and bond release on Monday immediately after Sunday June 25, establishing June 26, 1961.",
+        "release_date": "1961-06-26 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "AU991 transcript pages 1-2 explicitly identifies Sunday the 25th, then trial and bond the next Monday. June 26 resolves that calendar description; it is not calculated from a sentence. Preserve biography.",
+      "sources": [
+        "https://da.mdah.ms.gov/series/conversations/speaknow/mary-harrison-lee/detail/823030",
+        "https://da.mdah.ms.gov/series-files/speaknow/pdf/AU991_108937.pdf"
+      ]
+    }
+  ]
+}
