@@ -1,0 +1,98 @@
+{
+  "batch": 683,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "George Merritt Jr.",
+      "slug": "george-merritt-jr",
+      "prisoner_id": "7aae2318-8743-476f-bf71-0561815fdf77",
+      "case_id": "c02d9d81-5b37-483c-a0fa-98c450832faf",
+      "expected": {
+        "id": "c02d9d81-5b37-483c-a0fa-98c450832faf",
+        "prisoner_id": "7aae2318-8743-476f-bf71-0561815fdf77",
+        "institution_id": "09b1ca52-b139-4084-892a-99d6fe78d13b",
+        "charges": "First-degree murder of Police Officer John V.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment; served roughly twelve years before the 1980 exoneration\n\nVerdict as recorded: Yes \u2014 convicted Dec. 1968 (life); reversed and retried repeatedly; conviction overturned and indictment dismissed via federal habeas in 1980 (recognized as an exoneree)\n\nCharges as recorded: First-degree murder of Police Officer John V. Gleason Jr. (Plainfield rebellion, July 1967)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 19:57:13",
+        "updated_at": "2026-10-14 00:00:36",
+        "date_precision": null,
+        "imprisoned_for_months": 144,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1968-12-23 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+        "release_date": "1980-02-01 00:00:00",
+        "imprisoned_for_months": null,
+        "sentence": "Life imprisonment imposed December 23, 1968. The conviction was reversed in 1971, followed by release on bail before retrial; later convictions followed in 1974 and 1977. Released on bail in February 1980 after federal habeas relief; the indictment was dismissed April 25, 1980. Contemporary reporting describes almost ten years actually imprisoned, with intervening bail, rather than twelve continuous years. Exact admission and bail-period boundaries remain unverified."
+      },
+      "rationale": "Contemporary defense report dates sentence December 23, 1968; April 27, 1980 television interview identifies February release and almost ten years actual custody. Remove unsupported exact 144 months. Do not turn the 1968 sentence and 1980 release into continuous imprisonment across bail.",
+      "sources": [
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-09-06-black-panther-vol-3-no-20.pdf",
+        "https://exonerationregistry.org/cases/4522",
+        "https://law.justia.com/cases/federal/district-courts/FSupp/339/779/1460741/",
+        "https://americanarchive.org/catalog/cpb-aacip-259-pg1hm90s?term=RUTGERS"
+      ]
+    },
+    {
+      "name": "Gail Madden",
+      "slug": "gail-madden",
+      "prisoner_id": "ea08d964-573b-4a07-8602-9add26c6cc63",
+      "case_id": "25e42015-f9c6-48cd-84a5-753f393a1a35",
+      "expected": {
+        "id": "25e42015-f9c6-48cd-84a5-753f393a1a35",
+        "prisoner_id": "ea08d964-573b-4a07-8602-9add26c6cc63",
+        "institution_id": "2766e5d2-c23d-49b4-a576-b09794da27c5",
+        "charges": "First-degree murder of Police Officer John V.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment (reversed on appeal)\n\nVerdict as recorded: Yes \u2014 convicted Dec. 1968 (life); conviction reversed (State v. Madden, N.J. Supreme Court, 1972) and remanded for retrial\n\nCharges as recorded: First-degree murder of Police Officer John V. Gleason Jr. (Plainfield rebellion, July 1967)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 19:57:13",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1968-12-23 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "sentence": "Life imprisonment imposed December 23, 1968. The first conviction was reversed and a retrial ordered; released on bail pending retrial. Convicted again in February 1974 and again sentenced to life. That conviction remained in effect after the 1976 appeal; a sentence-reduction appeal was rejected in November 1982 and parole denied in early 1983. Actual custody admission and release dates remain unverified."
+      },
+      "rationale": "Add individually dated sentence, distinguish reversal of the first conviction from later reconviction. Library archival guide documents continuing imprisonment into 1983; do not infer release from the 1972 appellate decision.",
+      "sources": [
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-09-06-black-panther-vol-3-no-20.pdf",
+        "https://exonerationregistry.org/cases/4522",
+        "https://law.justia.com/cases/federal/district-courts/FSupp/339/779/1460741/",
+        "https://www.plainfieldlibrarynj.org/pdf/LH/FA_Frost.pdf"
+      ]
+    }
+  ]
+}
