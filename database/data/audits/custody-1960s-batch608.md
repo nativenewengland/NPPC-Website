@@ -10,4 +10,4 @@ Robert Shelton: FBI February25,1969 memorandum states February1969 prison admiss
 https://vault.fbi.gov/cointel-pro/White%20Hate%20Groups/COINTELPRO%20White%20Hate%20Groups%20Part%2006
 https://www.ojp.gov/pdffiles1/Digitization/46433NCJRS.pdf
 
-Deployment pending.
+Live verified: two updates, unrelated fields preserved, zero-change replay, isolated fixture/conflict guard passed. Public pages HTTP200: Broxton Feb20 arrest and existing counter preserved; Shelton displays February1969-November1969 and 9 Months, without fabricated day precision.
