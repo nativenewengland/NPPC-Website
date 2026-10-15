@@ -1,0 +1,50 @@
+{
+  "batch": 750,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Mary Lane",
+      "slug": "mary-lane",
+      "prisoner_id": "90ff367f-d4fa-49b8-9a53-fba7b18cd5b4",
+      "case_id": "fdf4dcaa-8b37-4a83-ac2b-4b9af44a241c",
+      "expected": {
+        "id": "fdf4dcaa-8b37-4a83-ac2b-4b9af44a241c",
+        "prisoner_id": "90ff367f-d4fa-49b8-9a53-fba7b18cd5b4",
+        "institution_id": null,
+        "charges": "Imprisonment following Greenwood civil-rights organizing; individual statutory charge unverified",
+        "arrest_date": "1963-06-25 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1963-01-01 00:00:00",
+        "release_date": "1963-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Forty-eight days actually spent at Parchman in 1963. Exact custody endpoints and imposed sentence remain unverified.",
+        "imprisoned_for_days": 48,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:49:48",
+        "updated_at": "2026-09-18 05:17:46",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 48,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1963-06-25 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "charges": "Creating a disturbance in a public place during voter-registration work at the Greenwood courthouse",
+        "convicted": "Found guilty by Judge C. C. Williamson",
+        "sentence": "Four months in jail and a $200 fine, according to the SNCC chronology of the June 25, 1963 Greenwood arrests. The existing record documents 48 days actually spent at Parchman; the exact release date remains unverified."
+      },
+      "rationale": "SNCC chronology, printed page 15 (PDF page 15), names Mary Lane in the June 25, 1963 courthouse arrest and conviction group. Refines existing year-only custody start to the already recorded arrest date, adds reported charge and imposed sentence, preserves documented 48 days and year-only release. No release inferred by sentence arithmetic.",
+      "sources": [
+        "https://snccdigital.org/wp-content/uploads/digitalcollections/sncc_ms_violence.pdf"
+      ]
+    }
+  ]
+}

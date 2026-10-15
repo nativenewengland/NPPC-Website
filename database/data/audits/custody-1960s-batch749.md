@@ -6,3 +6,7 @@ March 26, 1964 SNCC WATS report, Jackson paragraph, dates arrest to the precedin
 - https://www.crmvet.org/docs/wats/watshome.htm
 
 No dates borrowed from separate Ruleville harassment or Natchez detention. Existing 67-day documented 1963 total is preserved; new nonoverlapping episode contributes one elapsed day. Biography unchanged.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

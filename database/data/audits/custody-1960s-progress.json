@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 481,
-  "case_records_changed_or_added": 590,
+  "changed_profiles": 482,
+  "case_records_changed_or_added": 591,
   "status_counts": {
-    "partially-corrected-live": 481,
+    "partially-corrected-live": 482,
     "reviewed-selected-case-no-change": 33,
     "research-incomplete": 39,
     "researched-unresolved": 75,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 782
+    "not-yet-researched": 781
   },
   "decade_complete": false,
   "rows": [
@@ -14611,15 +14611,18 @@
       "slug": "george-greene",
       "case_ids": [
         "579a5789-8ef2-402d-8a90-eace0631dc5a",
-        "6edd7e30-d89b-4d2c-8ccb-06da3aa9a004"
+        "6edd7e30-d89b-4d2c-8ccb-06da3aa9a004",
+        "a3cde4b6-721d-4bfb-a0fe-262e2ed1f1e3"
       ],
       "gap_case_ids": [
         "579a5789-8ef2-402d-8a90-eace0631dc5a",
         "6edd7e30-d89b-4d2c-8ccb-06da3aa9a004"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        749
+      ],
+      "note": "March 26, 1964 SNCC WATS report, Jackson paragraph, dates arrest to the preceding night and release to the report day. Original single-page scan inspected. One elapsed calendar day, not a claim of 24 full hours. Existing episodes preserved."
     },
     {
       "prisoner_id": "cb8b7c01-11e6-4b3a-a573-0f11dd71fdc5",
@@ -14772,7 +14775,8 @@
       "name": "Milton Esco",
       "slug": "milton-esco",
       "case_ids": [
-        "cfb1d841-d535-423b-91b9-ceb94d37f10c"
+        "cfb1d841-d535-423b-91b9-ceb94d37f10c",
+        "0eb889b2-d99c-49d5-9e98-50c226999ba3"
       ],
       "gap_case_ids": [
         "cfb1d841-d535-423b-91b9-ceb94d37f10c"
