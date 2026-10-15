@@ -6,4 +6,4 @@ Source: https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-19
 
 Francis Sirocho and Ernest Triefenstein require name-variant reconciliation against Francis Schiro and Ernest Trefethen before further updates. Existing narrative has June6 but this batch does not assume identities from similar names alone.
 
-Live validation pending.
+Applied live; fixture, no-write preview, database readback, unrelated-field preservation, zero-change replay, and public page verification passed.

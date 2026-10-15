@@ -5,4 +5,4 @@ Contemporary September13 1969 NYT report reproduced on Senate hearing p62 report
 https://www.govinfo.gov/content/pkg/CHRG-91shrg45159p1/pdf/CHRG-91shrg45159p1.pdf#page=64
 https://law.justia.com/cases/federal/appellate-courts/F2/509/942/222824/
 
-Live validation pending.
+Applied live; fixture, no-write preview, database readback, unrelated-field preservation, zero-change replay, and public page verification passed.

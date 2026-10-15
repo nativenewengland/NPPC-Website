@@ -6,4 +6,4 @@ Source: https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt22/pdf/GPO-CRECB-19
 
 Both profiles retain biographies. Exact admission unresolved; no precise elapsed-day counter is claimed.
 
-Live validation pending.
+Applied live; fixture, no-write preview, database readback, unrelated-field preservation, zero-change replay, and public page verification passed.

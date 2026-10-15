@@ -3,13 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 49,
-  "case_records_changed_or_added": 56,
+  "changed_profiles": 56,
+  "case_records_changed_or_added": 63,
   "status_counts": {
-    "not-yet-researched": 1324,
-    "partially-corrected-live": 49,
-    "research-incomplete": 7,
+    "not-yet-researched": 1304,
+    "partially-corrected-live": 56,
+    "research-incomplete": 6,
     "reviewed-selected-case-no-change": 2,
+    "outside-decade-statute-match": 14,
     "researched-unresolved": 37
   },
   "decade_complete": false,
@@ -328,9 +329,11 @@
       "gap_case_ids": [
         "ba47eb14-d80d-445f-9e4a-03cd336136c1"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Marine court-martial: later release still unverified."
+      "status": "partially-corrected-live",
+      "batches": [
+        546
+      ],
+      "note": "Contemporary CALCAV newsletter reproduced Congressional Record October14 1969 p29877 explicitly gives September3 release pending appeal and 25 months served. Existing December1967 admission conflates later court-martial chronology with earlier custody and is incompatible with the reported duration. Retain only 1967 precision; do not calculate an admission date backward from rounded months. Preserve biography."
     },
     {
       "prisoner_id": "cf7442e5-52de-4872-91ef-d3056d37eed8",
@@ -342,9 +345,11 @@
       "gap_case_ids": [
         "3943638d-a36b-4d9d-a4e5-998b6cd89c36"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Marine court-martial: later release still unverified."
+      "status": "partially-corrected-live",
+      "batches": [
+        546
+      ],
+      "note": "Contemporary CALCAV newsletter reproduced Congressional Record October14 1969 p29877 explicitly gives September3 release pending appeal and 25 months served. Existing December1967 admission conflates later court-martial chronology with earlier custody and is incompatible with the reported duration. Retain only 1967 precision; do not calculate an admission date backward from rounded months. Preserve biography."
     },
     {
       "prisoner_id": "1ef30c80-e76a-4332-ad20-e7418fb8e265",
@@ -414,9 +419,11 @@
         "94d8d703-1f73-4926-9146-3123524614af"
       ],
       "gap_case_ids": [],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Existing September11-December31 1969 custody interval needs correction. Contemporary Fifth Estate October2-15 1969 reports bond release but prints a September5 press conference date inconsistent with return chronology. Michigan Supreme Court extradition opinion concerns later warrant proceedings, not initial release. Need contemporary airport arrest/bail report; no date inferred. Sources: https://www.fifthestate.org/archive/89-october-2-15-1969/the-wheel-of-the-law-turns-without-pause/ and https://law.justia.com/cases/michigan/supreme-court/1975/55037-2.html"
+      "status": "partially-corrected-live",
+      "batches": [
+        545
+      ],
+      "note": "Contemporary September13 1969 NYT report reproduced on Senate hearing p62 reports arrival, federal arrest/bail, county custody and recognizance release on September12. Court opinion independently confirms arrival September12 and preceding British custody. Replace false continuous September11-December31 US interval with same-day custody. Zero elapsed days does not mean no arrest. Do not fold British detention into US case."
     },
     {
       "prisoner_id": "779f68eb-d9d4-4a63-8a5b-fef8c4dec9a0",
@@ -1372,9 +1379,9 @@
         "bcf70a4d-660e-45c2-adac-8b74368691ba"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "5ca1782a-b493-46f8-bd0b-805f3004a0db",
@@ -1384,9 +1391,9 @@
         "f6a6f7bc-10f0-4d6b-9d98-20f9181b6c10"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "9d759eb8-3dd6-40fa-96d2-e6d465450574",
@@ -1398,9 +1405,9 @@
       "gap_case_ids": [
         "58be0a3e-2968-4c7e-9670-1de4f4d7fd04"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "29812a12-e96b-4b98-a032-706fcae2c255",
@@ -1412,9 +1419,9 @@
       "gap_case_ids": [
         "660be9a3-e37c-4049-be1c-f7e18e318dce"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "10104e3b-1ccb-49b0-bea0-9c5383e31a44",
@@ -1424,9 +1431,9 @@
         "346d70ac-2760-4756-9a88-032fc6852efc"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "d1de2fe1-07ad-4515-ac3f-afcfe20409a7",
@@ -1436,9 +1443,9 @@
         "b1e0e4ec-aa90-4df6-b6c0-b4af297ee601"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "dc950c2f-843d-40a1-82b1-6ecb4ddf4324",
@@ -1910,9 +1917,9 @@
       "gap_case_ids": [
         "0b48e9f6-4bb6-4b4c-a818-59a689938968"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "2f4cc9a9-aaaf-4a24-a3ea-581df48fee88",
@@ -1924,9 +1931,9 @@
       "gap_case_ids": [
         "7149e57b-6708-429a-b009-49a56fa3b860"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "47adb430-1138-4a40-8542-5512830903e6",
@@ -1938,9 +1945,9 @@
       "gap_case_ids": [
         "4f91f067-9e00-4f7e-a5cd-39d68c630811"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "b5e1dd7b-75e4-41d7-848c-74c2cc7f25f5",
@@ -1952,9 +1959,9 @@
       "gap_case_ids": [
         "178d2d3e-5ded-4e42-bfb3-59a8470b9bd9"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "bbc8b162-69e2-49a1-a2a3-2448420f6e37",
@@ -1966,9 +1973,9 @@
       "gap_case_ids": [
         "9f3f67a5-1359-4d3b-861d-645d7c4b7ee0"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "945e8776-dbe0-4f06-b5e4-c5ea7f8df1a8",
@@ -1980,9 +1987,9 @@
       "gap_case_ids": [
         "cdb7413c-cd03-4f27-82a7-6b2c98969479"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "4531444e-a171-4a15-b244-2400a291b416",
@@ -1994,9 +2001,9 @@
       "gap_case_ids": [
         "cb3dfe6e-fae8-4fc1-8b6c-c318910123fe"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "91e0bdad-fbf7-4ccb-ae60-c80b661f273b",
@@ -2008,9 +2015,9 @@
       "gap_case_ids": [
         "f1c5780b-a776-4bf4-a3ed-65666de31c0c"
       ],
-      "status": "not-yet-researched",
+      "status": "outside-decade-statute-match",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Inventory matched 18 USC 1962, a statute number rather than a year. Selected record is a 2000s/2010s RICO proceeding. No live changes; not counted as researched 1960s custody."
     },
     {
       "prisoner_id": "5cfc4bf6-8aca-401c-92ba-9d1a33a1b889",
@@ -18201,9 +18208,11 @@
       "gap_case_ids": [
         "735f73a3-8379-4dfd-a6c8-2739c21abff4"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        547
+      ],
+      "note": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
     },
     {
       "prisoner_id": "9011adde-68fa-4b03-b892-baa0f91aeb11",
@@ -18215,9 +18224,11 @@
       "gap_case_ids": [
         "28692bc4-a7f7-47df-8ea8-e9c2ab3b96cf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        547
+      ],
+      "note": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
     },
     {
       "prisoner_id": "47f5e925-fe5e-44a9-8045-1c5c85b4f462",
@@ -18229,9 +18240,9 @@
       "gap_case_ids": [
         "1d6c3b79-9fb7-486b-83d1-6c5569643462"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Individual June6 sentencing text exists, but original Congressional Record scan spells names Francis Schiro and Ernest Trefethen. Search OCR inconsistently reproduces profile spellings. Need independent roster identity reconciliation; no update from OCR alone."
     },
     {
       "prisoner_id": "891a107c-f47d-4e94-ab52-acead2a885af",
@@ -18243,9 +18254,9 @@
       "gap_case_ids": [
         "2555cce2-2b2e-4654-a90a-0f30bb79a07b"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Individual June6 sentencing text exists, but original Congressional Record scan spells names Francis Schiro and Ernest Trefethen. Search OCR inconsistently reproduces profile spellings. Need independent roster identity reconciliation; no update from OCR alone."
     },
     {
       "prisoner_id": "0041c464-310c-47f0-8378-c4a77a26df84",
@@ -18257,9 +18268,11 @@
       "gap_case_ids": [
         "fb6b9bbb-89e9-4b03-b4d8-8605fdf2d585"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        547
+      ],
+      "note": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
     },
     {
       "prisoner_id": "ec3227e7-7315-438a-b817-bac387da3976",
@@ -18271,9 +18284,11 @@
       "gap_case_ids": [
         "aa496692-66eb-4f17-9dec-871d7a7abf0f"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        547
+      ],
+      "note": "Congressional Record August6 1970 pp27642-27643 individual disposition table explicitly records June6 1969 sentencing. Populate structured field consistent with existing case text. Do not infer release from sentence length or appellate reduction."
     },
     {
       "prisoner_id": "a5418390-449f-4432-af36-14725ad45c8b",
