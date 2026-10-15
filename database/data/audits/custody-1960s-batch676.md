@@ -5,3 +5,5 @@ Correct October 13, 1969 to June 11, 1969. His contemporaneous prison letter exp
 - https://faculty.chass.ncsu.edu/slatta/hi216/documents/tejerina.htm
 - https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt4/pdf/GPO-CRECB-1971-pt4-3-3.pdf
 - https://latinopia.com/latino-history/timeline-1970-1976/
+
+Applied live; one update. All profile and unrelated case fields preserved, fixture passed, replay zero changes. Public page HTTP200, June11 start and 2 Years 1 Month 15 Days counter verified.

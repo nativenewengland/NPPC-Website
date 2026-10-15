@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 318,
-  "case_records_changed_or_added": 399,
+  "changed_profiles": 319,
+  "case_records_changed_or_added": 400,
   "status_counts": {
-    "partially-corrected-live": 318,
+    "partially-corrected-live": 319,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 1000,
+    "not-yet-researched": 999,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -2299,9 +2299,11 @@
       "gap_case_ids": [
         "dd9c492b-c98c-4bee-b4e7-052773350e27"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        676
+      ],
+      "note": "June11,1969 actual custody replaces October13;775days verified. Separate state-case endpoints unresolved."
     },
     {
       "prisoner_id": "ca1f0b55-ce3a-4c6b-9ab6-8010f879e576",
