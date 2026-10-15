@@ -1,0 +1,257 @@
+{
+  "batch": 734,
+  "expected_count": 6,
+  "entries": [
+    {
+      "name": "Amiri Baraka",
+      "slug": "amiri-baraka",
+      "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+      "case_id": "4d54b890-7fcb-4781-ab14-ff27c6e1d7b8",
+      "expected": {
+        "id": "4d54b890-7fcb-4781-ab14-ff27c6e1d7b8",
+        "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+        "institution_id": "b7d9f423-ff91-4bf2-9884-82f9d5462041",
+        "charges": "Unlawful possession of two revolvers; resisting arrest (Newark rebellion, July 1967)",
+        "arrest_date": "1967-07-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-07-14 00:00:00",
+        "release_date": "1967-07-22 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Leon W. Kapp",
+        "sentence": "Arrest detention: held 8 days after the July 14, 1967 arrest, then released on bail July 22, 1967 (pre-trial).\n\nVerdict as recorded: Yes — convicted November 6, 1967; conviction reversed on appeal April 21, 1969",
+        "imprisoned_for_days": 8,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Arrest detention: held 8 days after the July 14, 1967 arrest, then released on bail July 22, 1967 (pre-trial).\n\nVerdict as recorded: Yes — convicted November 6, 1967; conviction reversed on appeal December 23, 1968",
+        "convicted": "Convicted November 6, 1967; weapons conviction reversed December 23, 1968 and new trial ordered."
+      },
+      "rationale": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography.",
+      "sources": [
+        "https://law.justia.com/cases/new-jersey/appellate-division-published/1968/104-n-j-super-57-0.html"
+      ]
+    },
+    {
+      "name": "Amiri Baraka",
+      "slug": "amiri-baraka",
+      "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+      "case_id": "22cb1bb6-219b-48da-aeb6-79506ea736c5",
+      "expected": {
+        "id": "22cb1bb6-219b-48da-aeb6-79506ea736c5",
+        "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+        "institution_id": "b7d9f423-ff91-4bf2-9884-82f9d5462041",
+        "charges": "Criminal contempt of court (summary contempt",
+        "arrest_date": "1967-10-24 00:00:00",
+        "indicted": null,
+        "convicted": "Adjudged guilty of criminal contempt November 6, 1967; reversed on appeal (State v. Jones, 1969)",
+        "plead": null,
+        "sentenced_date": "1967-11-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Leon W. Kapp",
+        "sentence": "30 days in the Essex County Jail, imposed November 6, 1967 by Judge Leon W. Kapp immediately after the verdict; reversed on appeal\n\nCharges as recorded: Criminal contempt of court (summary contempt during the 1967 Newark weapons trial)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 11:55:30",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-10-24 00:00:00",
+        "release_date": "1967-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "charges": "Criminal contempt of court during the 1967 Newark weapons trial",
+        "convicted": "Initial November 6, 1967 contempt judgment set aside on appeal. On April 21, 1969, acquitted of the October 17 allegation and convicted of the October 24 allegation; fined $200.",
+        "sentence": "Taken into custody during the October 24, 1967 courtroom incident and released on bail by the October 25 newspaper report. The release is recorded to October 1967 only. The original 30-day contempt sentence imposed November 6, 1967 was set aside on appeal. The subsequent April 21, 1969 ruling resulted in a $200 fine, not a new jail term. The 30-day sentence is not treated as verified time served."
+      },
+      "rationale": "Primary remand opinion confirms custody during October 24 incident and later $200 fine. University archive identifies October 25 contemporary article reporting release on bail; record release month only, not an invented day. Preserve original sentence date and avoid treating the overturned sentence as service.",
+      "sources": [
+        "https://law.justia.com/cases/new-jersey/appellate-division-published/1969/105-n-j-super-493-0.html",
+        "https://static.lib.umn.edu/pdf/givens/GivensEphemera.pdf"
+      ]
+    },
+    {
+      "name": "Amiri Baraka",
+      "slug": "amiri-baraka",
+      "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+      "case_id": "1ae95f01-abe3-4870-b3f0-468fe6678bdf",
+      "expected": {
+        "id": "1ae95f01-abe3-4870-b3f0-468fe6678bdf",
+        "prisoner_id": "583d67f7-2323-48f3-8e7f-f75301eba796",
+        "institution_id": "b7d9f423-ff91-4bf2-9884-82f9d5462041",
+        "charges": "Unlawful possession of two revolvers — post-conviction incarceration (sentence vacated on appeal)",
+        "arrest_date": "1967-07-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1968-01-04 00:00:00",
+        "incarceration_date": "1968-01-04 00:00:00",
+        "release_date": "1968-01-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Leon W. Kapp",
+        "sentence": "2½ to 3 years plus a $1,000 fine; jailed at sentencing on January 4, 1968 and released on $25,000 bail January 9, 1968 pending appeal. Conviction reversed April 21, 1969 — the full sentence was never served.\n\nVerdict as recorded: Convicted November 6, 1967; reversed on appeal April 21, 1969",
+        "imprisoned_for_days": 5,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 12:02:58",
+        "updated_at": "2026-09-19 14:24:47",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "2½ to 3 years plus a $1,000 fine; jailed at sentencing on January 4, 1968 and released on $25,000 bail January 9, 1968 pending appeal. Conviction reversed December 23, 1968 — the full sentence was never served.\n\nVerdict as recorded: Convicted November 6, 1967; reversed on appeal December 23, 1968",
+        "convicted": "Convicted November 6, 1967; weapons conviction reversed December 23, 1968 and new trial ordered."
+      },
+      "rationale": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography.",
+      "sources": [
+        "https://law.justia.com/cases/new-jersey/appellate-division-published/1968/104-n-j-super-57-0.html"
+      ]
+    },
+    {
+      "name": "Charles McCray",
+      "slug": "charles-mccray",
+      "prisoner_id": "0b15a961-4f45-48a3-b866-e639f9892dcb",
+      "case_id": "c8f7743b-c93b-4267-9aa5-f51b08d96d12",
+      "expected": {
+        "id": "c8f7743b-c93b-4267-9aa5-f51b08d96d12",
+        "prisoner_id": "0b15a961-4f45-48a3-b866-e639f9892dcb",
+        "institution_id": "b7d9f423-ff91-4bf2-9884-82f9d5462041",
+        "charges": "Unlawful possession of weapons (N.J.S. 2A:151-41) — arrested in the July 1967 Newark rebellion and tried with LeRoi Jones (Amiri Baraka)",
+        "arrest_date": "1967-07-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Yes — convicted November 6, 1967 with LeRoi Jones; conviction reversed on appeal in 1969 (State v. Jones), new trial ordered",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 12:11:16",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Verdict as recorded: Yes — convicted November 6, 1967 with LeRoi Jones; conviction reversed on appeal December 23, 1968 (State v. Jones), new trial ordered",
+        "convicted": "Convicted November 6, 1967; weapons conviction reversed December 23, 1968 and new trial ordered."
+      },
+      "rationale": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography.",
+      "sources": [
+        "https://law.justia.com/cases/new-jersey/appellate-division-published/1968/104-n-j-super-57-0.html"
+      ]
+    },
+    {
+      "name": "Barry Wynn",
+      "slug": "barry-wynn",
+      "prisoner_id": "86014cad-d860-4f80-b478-9a7e2636fb7f",
+      "case_id": "9d45bfa4-8fd5-4ef2-b9e8-49b6f4bc8b4c",
+      "expected": {
+        "id": "9d45bfa4-8fd5-4ef2-b9e8-49b6f4bc8b4c",
+        "prisoner_id": "86014cad-d860-4f80-b478-9a7e2636fb7f",
+        "institution_id": "b7d9f423-ff91-4bf2-9884-82f9d5462041",
+        "charges": "Unlawful possession of weapons (N.J.S. 2A:151-41) — arrested in the July 1967 Newark rebellion and tried with LeRoi Jones (Amiri Baraka)",
+        "arrest_date": "1967-07-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Yes — convicted November 6, 1967 with LeRoi Jones; conviction reversed on appeal in 1969 (State v. Jones), new trial ordered",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 12:11:16",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Verdict as recorded: Yes — convicted November 6, 1967 with LeRoi Jones; conviction reversed on appeal December 23, 1968 (State v. Jones), new trial ordered",
+        "convicted": "Convicted November 6, 1967; weapons conviction reversed December 23, 1968 and new trial ordered."
+      },
+      "rationale": "Correct reversal date from primary appellate opinion: December 23, 1968, not April 21, 1969. Preserve custody endpoints and biography.",
+      "sources": [
+        "https://law.justia.com/cases/new-jersey/appellate-division-published/1968/104-n-j-super-57-0.html"
+      ]
+    },
+    {
+      "name": "Kent Ford",
+      "slug": "kent-ford",
+      "prisoner_id": "914e44f4-dedb-4afa-b90b-9cedc9dbb2d5",
+      "case_id": "b29a6617-82e0-4911-b4ae-08277d05836d",
+      "expected": {
+        "id": "b29a6617-82e0-4911-b4ae-08277d05836d",
+        "prisoner_id": "914e44f4-dedb-4afa-b90b-9cedc9dbb2d5",
+        "institution_id": null,
+        "charges": "Inciting a riot (Portland, 1969)",
+        "arrest_date": "1969-06-14 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-06-18 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held roughly two weeks pretrial on $80,000 bail before a nine-day trial ended in acquittal\n\nCharges as recorded: Inciting a riot (Portland, 1969), arising from his Black Panther organizing",
+        "imprisoned_for_days": 13,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 15:42:40",
+        "updated_at": "2026-09-18 07:13:52",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 13,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Held for 13 days during the June 1969 Portland prosecutions, according to a contemporary interview published August 1, 1969. The report states that bail was reduced from $40,000 to $20,000 and raised to secure his release before the July 21 interview. An earlier report describes bail after his June 14 arrest and a separate June 18 rearrest. He was later acquitted. The exact release date remains unverified; the documented 13-day total is retained."
+      },
+      "rationale": "Original August 1 issue page 12 visually verified. Distinguish bail release from later acquittal and correct unsupported $80,000 figure. Preserve documented 13 days and existing dates; do not derive exact endpoint by adding 13 to June 18.",
+      "sources": [
+        "https://www.themilitant.com/1969/3331/MIL3331.pdf",
+        "https://www.themilitant.com/1969/3327/MIL3327.pdf"
+      ]
+    }
+  ]
+}
