@@ -1,0 +1,50 @@
+{
+  "batch": 627,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "87ff4a27-ce34-4f31-9f35-60d08a6f4811",
+      "name": "Eric Reinthaler",
+      "slug": "eric-reinthaler",
+      "case_id": "eb4abc70-9a2e-4e8a-9e41-e181ff18c4af",
+      "expected": {
+        "id": "eb4abc70-9a2e-4e8a-9e41-e181ff18c4af",
+        "prisoner_id": "87ff4a27-ce34-4f31-9f35-60d08a6f4811",
+        "institution_id": null,
+        "charges": "Conspiracy to cause the filing of false Taft-Hartley non-Communist affidavits",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Convicted January 29, 1958; conviction affirmed on appeal",
+        "plead": null,
+        "sentenced_date": "1958-02-19 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Eighteen months in federal prison and a $2,500 fine; the prison term was served after appeals ended in 1961.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 21:35:10",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": 18,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-01-01 00:00:00",
+        "release_date": "1962-07-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"year\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "sentence": "Sentenced to eighteen months in federal prison and a $2,500 fine. Imprisoned at Milan in 1961 and released in July 1962. The Congressional Record of July 22, 1964, p. 16594 describes fifteen months served beginning in April 1961; a contemporary April 26, 1964 newspaper report reprinted February 26, 1969 places the start in March 1961. The conflicting start month remains unresolved; the eighteen-month sentence is not used as verified time served."
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt13/pdf/GPO-CRECB-1964-pt13-1-2.pdf",
+        "https://www.congress.gov/91/crecb/1969/02/26/GPO-CRECB-1969-pt4-3-1.pdf"
+      ]
+    }
+  ]
+}
