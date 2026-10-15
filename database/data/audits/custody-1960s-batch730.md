@@ -9,3 +9,7 @@ https://www.crmvet.org/docs/650000_sncc_americus.pdf
 https://www.marxists.org/history/etol/newspape/news-and-letters/1960s/1963-12.pdf
 https://law.justia.com/cases/georgia/court-of-appeals/1964/40728-0.html
 https://www.crmvet.org/docs/pr/641205_sncc_pr_americus.pdf
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

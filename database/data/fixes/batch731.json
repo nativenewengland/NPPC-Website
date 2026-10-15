@@ -1,0 +1,97 @@
+{
+  "batch": 731,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Freddie Pitts",
+      "slug": "freddie-pitts",
+      "prisoner_id": "d270886b-e21f-465b-b5db-f0495a3e3ccb",
+      "case_id": "7071ea25-3c07-4cbe-b944-d03e57729a11",
+      "expected": {
+        "id": "7071ea25-3c07-4cbe-b944-d03e57729a11",
+        "prisoner_id": "d270886b-e21f-465b-b5db-f0495a3e3ccb",
+        "institution_id": "6b7a097c-6941-44dc-834f-923a150cfe5a",
+        "charges": "Kidnapping, robbery, and the murder of two white gas-station attendants (Port St. Joe, Florida, August 1963) — convicted on beaten confessions, with no material evidence",
+        "arrest_date": "1963-08-02 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1963-08-28 00:00:00",
+        "incarceration_date": "1963-08-02 00:00:00",
+        "release_date": "1975-09-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death (later pardoned)\n\nVerdict as recorded: Yes — sentenced to death (1968; re-convicted 1972); pardoned by Gov. Reubin Askew in 1975 after another man confessed",
+        "imprisoned_for_days": 4423,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 03:36:04",
+        "updated_at": "2026-09-17 04:45:04",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1975-09-19 00:00:00",
+        "convicted": "Convicted in 1963 and again in 1972; pardoned and released September 19, 1975",
+        "sentence": "Originally sentenced to death on August 28, 1963; sentenced to death again following retrial on March 15, 1972. Pardoned and released September 19, 1975. The September 11 date marks the governor signing the pardon, before the remaining required cabinet signatures and actual release."
+      },
+      "rationale": "Original LDF September 16 announcement explicitly says release will be Friday September 19 and explains sequential cabinet signatures after governor signed previous Thursday. Contemporary FIU November 13 report quotes Lee confirming September 19 release. Prefer these direct contemporary accounts over NRE retrospective conflation of September 11 pardon signature with release. Court records establish August 1963 custody, including Lee August 3 release and August 6 rearrest; exclude that gap. Correct case-prose first conviction year 1968 to 1963. Preserve biographies and unrelated fields.",
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/c7c9c570-7e3b-4153-986e-15534737b491/freddie-lee-pitts-and-wilbert-lee-pardoned-after-12-years-in-florida-prison",
+        "https://digitalcommons.fiu.edu/record/25268/files/FI14041002_00074_1975_11_13_TheGoodTimes.pdf",
+        "https://law.justia.com/cases/florida/district-courts-of-appeal/1970/241-so-2d-399.html",
+        "https://exonerationregistry.org/cases/4549"
+      ]
+    },
+    {
+      "name": "Wilbert Lee",
+      "slug": "wilbert-lee",
+      "prisoner_id": "bc486883-46bc-4dcf-962e-8028bde6ec94",
+      "case_id": "e7a7799d-1497-4a49-87e7-5dae3ac6e236",
+      "expected": {
+        "id": "e7a7799d-1497-4a49-87e7-5dae3ac6e236",
+        "prisoner_id": "bc486883-46bc-4dcf-962e-8028bde6ec94",
+        "institution_id": "6b7a097c-6941-44dc-834f-923a150cfe5a",
+        "charges": "Kidnapping, robbery, and the murder of two white gas-station attendants (Port St. Joe, Florida, August 1963) — convicted on beaten confessions, with no material evidence",
+        "arrest_date": "1963-08-02 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1972-03-15 00:00:00",
+        "incarceration_date": "1963-08-02 00:00:00",
+        "release_date": "1975-09-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death (later pardoned)\n\nVerdict as recorded: Yes — sentenced to death (1968; re-convicted 1972); pardoned by Gov. Reubin Askew in 1975 after another man confessed",
+        "imprisoned_for_days": 4423,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 03:36:04",
+        "updated_at": "2026-09-17 04:45:04",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1975-09-19 00:00:00",
+        "convicted": "Convicted in 1963 and again in 1972; pardoned and released September 19, 1975",
+        "sentence": "Originally sentenced to death on August 28, 1963; sentenced to death again following retrial on March 15, 1972. Pardoned and released September 19, 1975. The September 11 date marks the governor signing the pardon, before the remaining required cabinet signatures and actual release. Lee was initially detained August 2, 1963, released August 3, and arrested again August 6. The custody total excludes the intervening time at liberty.",
+        "custody_periods": "[{\"start\":\"1963-08-02\",\"end\":\"1963-08-03\"},{\"start\":\"1963-08-06\",\"end\":\"1975-09-19\"}]"
+      },
+      "rationale": "Original LDF September 16 announcement explicitly says release will be Friday September 19 and explains sequential cabinet signatures after governor signed previous Thursday. Contemporary FIU November 13 report quotes Lee confirming September 19 release. Prefer these direct contemporary accounts over NRE retrospective conflation of September 11 pardon signature with release. Court records establish August 1963 custody, including Lee August 3 release and August 6 rearrest; exclude that gap. Correct case-prose first conviction year 1968 to 1963. Preserve biographies and unrelated fields.",
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/c7c9c570-7e3b-4153-986e-15534737b491/freddie-lee-pitts-and-wilbert-lee-pardoned-after-12-years-in-florida-prison",
+        "https://digitalcommons.fiu.edu/record/25268/files/FI14041002_00074_1975_11_13_TheGoodTimes.pdf",
+        "https://law.justia.com/cases/florida/district-courts-of-appeal/1970/241-so-2d-399.html",
+        "https://exonerationregistry.org/cases/4549"
+      ]
+    }
+  ]
+}
