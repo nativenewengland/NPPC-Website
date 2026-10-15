@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 71,
-  "case_records_changed_or_added": 93,
+  "changed_profiles": 73,
+  "case_records_changed_or_added": 95,
   "status_counts": {
-    "not-yet-researched": 1289,
-    "partially-corrected-live": 71,
+    "not-yet-researched": 1287,
+    "partially-corrected-live": 73,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 2,
     "outside-decade-statute-match": 14,
@@ -722,9 +722,11 @@
         "90223cc8-1b28-40b7-ab84-7be6ffab6527"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        557
+      ],
+      "note": "Use individual arrest and actual release evidence; distinguish mistrial, dismissal, and release. Preserve biography and other cases."
     },
     {
       "prisoner_id": "697d8775-4a06-4d87-98f0-a28bb4090925",
@@ -1179,9 +1181,11 @@
         "ee33d68d-d5b8-47ac-9899-51c96d1b5006"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        557
+      ],
+      "note": "Use individual arrest and actual release evidence; distinguish mistrial, dismissal, and release. Preserve biography and other cases."
     },
     {
       "prisoner_id": "8c77ed50-1598-44e0-a6cf-7bb0eb438b21",

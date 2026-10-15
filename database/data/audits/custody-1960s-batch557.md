@@ -13,4 +13,4 @@ https://www.flickr.com/photos/washington_area_spark/49066511847/in/photostream/
 
 Primary August 23, 1969 Panther newspaper p2 identifies Seale arrest August 19 at approximately 9:30pm; dated UPI photograph shows actual freedom May 28, 1971. Yale defense-attorney collection finding aid p4 and release photograph establish Huggins dates. Preserve biographies (including their unresolved prose discrepancies) and other cases. Neither mistrial nor dismissal is a jury acquittal.
 
-Deployment pending.
+Applied live: two case updates; full profile and unrelated case preservation verified. Replay changed zero records. Both public pages return HTTP 200 and display corrected dates. Seale aggregate includes his preserved 1967 period; Huggins remains 733 elapsed days because both endpoints shifted one day.
