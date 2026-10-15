@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 466,
-  "case_records_changed_or_added": 575,
+  "changed_profiles": 468,
+  "case_records_changed_or_added": 577,
   "status_counts": {
-    "partially-corrected-live": 466,
+    "partially-corrected-live": 468,
     "reviewed-selected-case-no-change": 30,
     "research-incomplete": 38,
     "researched-unresolved": 68,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 808
+    "not-yet-researched": 806
   },
   "decade_complete": false,
   "rows": [
@@ -5850,9 +5850,11 @@
       "gap_case_ids": [
         "57511faa-5e9b-4be6-9bc7-53a24f3b59cd"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        739
+      ],
+      "note": "Evelyn Rich, Ku Klux Klan Ideology, 1954–1988 (Boston University dissertation, 1988), printed page 143 explicitly places release at the end of 1969. Pages 143–144 imply conflicting April/March admission months. Store only the common supported year for both endpoints, not January 1 as an actual date. Preserve biography and flag its April claim for separate reconciliation."
     },
     {
       "prisoner_id": "b78bdaf2-1e66-4e6c-9ff2-8fabe2fd6ac4",
@@ -5952,9 +5954,11 @@
       "gap_case_ids": [
         "b24b3baa-8c54-44b5-8083-edb70174ca6f"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        739
+      ],
+      "note": "The May 3 Sacramento Bee confirms juvenile detention after May 2 arrest. Bobby Seale recalls juveniles remaining after the adults were bailed. FBI contemporaneous account places Hutton accompanying Panthers freely to Oakland court and being arrested again May 23, 1967 (PDF page 66, internal page 7). Together these bound release from the first detention within May 1967. This is a month-level inference, not an exact May 1 release. Separate later arrest is not treated as continuous custody. Existing wording saying free by May 22 is preserved; the primary report establishes free by May 23."
     },
     {
       "prisoner_id": "acfc9400-d2b8-4319-bb29-5e9d7ec8b749",

@@ -16,3 +16,7 @@ The May 3 Sacramento Bee confirms juvenile detention after May 2 arrest. Bobby S
 
 No exact duration is calculated from partial dates. No biography or unrelated fields change. Scoggin PDF page 76 was visually inspected. Hutton FBI PDF page 66 read through indexed full text; visual fetch failed with cache miss and HTTP 406. Maia Scherrer release in 1954 is supported by December 13 National Guardian but month/day unresolved; do not insert a January placeholder earlier than her exact August admission. Arthur Evans existing August 12–November 9, 1963 endpoints corroborated; no change.
 
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
