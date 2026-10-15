@@ -21,3 +21,7 @@ AU991 transcript pages 1-2 explicitly identifies Sunday the 25th, then trial and
 
 - https://da.mdah.ms.gov/series/conversations/speaknow/mary-harrison-lee/detail/823030
 - https://da.mdah.ms.gov/series-files/speaknow/pdf/AU991_108937.pdf
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

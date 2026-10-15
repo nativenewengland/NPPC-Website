@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 385,
-  "case_records_changed_or_added": 476,
+  "changed_profiles": 388,
+  "case_records_changed_or_added": 479,
   "status_counts": {
-    "partially-corrected-live": 385,
+    "partially-corrected-live": 388,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 914,
+    "not-yet-researched": 911,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -7621,9 +7621,11 @@
       "gap_case_ids": [
         "71d833f7-d718-4e28-9390-b113081e6dea"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        705
+      ],
+      "note": "Armstrong identifies the four by name, including the two women Harrison and Price; Harrison describes being jailed together after June 23. Add confirmed custody start without assigning her own bond date automatically to Price."
     },
     {
       "prisoner_id": "50a24a61-b63e-4f55-8f6b-0c1096152329",
@@ -8744,9 +8746,11 @@
       "gap_case_ids": [
         "b1dcec8d-af8e-49a7-a7d0-38c762f943ef"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        705
+      ],
+      "note": "AU976 transcript pages 2-3 explicitly dates arrest June 23 and release on the fourth custody day, resolving to June 26 with inclusive day counting. Mary Harrison independently dates the cohort bond hearing to that Monday. The imposed four months are not actual time served."
     },
     {
       "prisoner_id": "be28819f-4e7e-41ea-9b43-63054601d5c6",
@@ -11727,9 +11731,11 @@
       "gap_case_ids": [
         "68c0c825-0f4d-423f-b76a-5b9bde970b38"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        705
+      ],
+      "note": "AU991 transcript pages 1-2 explicitly identifies Sunday the 25th, then trial and bond the next Monday. June 26 resolves that calendar description; it is not calculated from a sentence. Preserve biography."
     },
     {
       "prisoner_id": "9bbabe02-68a1-4cf9-ab9a-b847d9c0317d",
