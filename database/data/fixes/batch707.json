@@ -1,0 +1,53 @@
+{
+  "batch": 707,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Hosea Williams",
+      "slug": "hosea-williams",
+      "prisoner_id": "bd83e829-36e1-499f-8976-f0f2b47091de",
+      "case_id": "f6e5c761-2ed4-4b6c-9e50-f26720d1269a",
+      "expected": {
+        "id": "f6e5c761-2ed4-4b6c-9e50-f26720d1269a",
+        "prisoner_id": "bd83e829-36e1-499f-8976-f0f2b47091de",
+        "institution_id": null,
+        "charges": "Peace-warrant complaints arising during the 1963 Savannah desegregation campaign",
+        "arrest_date": "1963-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "No conviction documented",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1963-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sixty-five days in jail before release was arranged by local business leaders.",
+        "imprisoned_for_days": 65,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-09-26 19:51:35",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 65,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1963-07-01 00:00:00",
+        "incarceration_date": "1963-07-01 00:00:00",
+        "release_date": "1963-08-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "documented_imprisoned_for_days": null,
+        "sentence": "Held on peace-warrant complaints in Savannah in July 1963 and released on bond in August 1963. Sources disagree on the exact days: contemporary reporting places the arrest on July 9, while Civil Liberties Docket lists July 11 and an August 17 release. Rolundus Rice cites an August 10 newspaper report of release and explicitly questions the retrospective 65-66-day account. Month precision is retained pending reconciliation; no exact total is asserted."
+      },
+      "rationale": "Civil Liberties Docket 10(1), p.19, and Rice dissertation pp.132-135 agree on July-to-August custody, but disagree on days. A July 12 contemporary demonstration report records July 9 arrest. Improve year-only dates to shared month precision; remove conflicting 65-day numeric total without substituting a calculated exact duration. Biography and unrelated fields preserved.",
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/222221/files/meik-10_1.pdf",
+        "https://holocron.lib.auburn.edu/bitstream/handle/10415/4658/rice_rolundus_hosea_williams_auetd_20150424_revised_0513.pdf?isAllowed=y&sequence=2",
+        "https://blackfreedom.proquest.com/wp-content/uploads/2020/09/sitins3.pdf"
+      ]
+    }
+  ]
+}
