@@ -15,3 +15,7 @@ LDF appellate brief printedp3 footnote2, retrieved indexed original OCR, explici
 https://ldfrecollection.org/archives/archives-search/archives-item/c71b64d8-8243-4b4e-b236-da4495c8317b/groppi-v-wisconsin-briefs-and-appendix
 https://archive.lib.msu.edu/DMC/state_news/1969/state_news_19691028.pdf
 https://supreme.justia.com/cases/federal/us/400/505/
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

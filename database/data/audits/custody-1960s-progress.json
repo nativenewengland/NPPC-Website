@@ -3,15 +3,15 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 533,
-  "case_records_changed_or_added": 665,
+  "changed_profiles": 534,
+  "case_records_changed_or_added": 667,
   "status_counts": {
-    "partially-corrected-live": 533,
+    "partially-corrected-live": 534,
     "reviewed-selected-case-no-change": 34,
     "researched-unresolved": 340,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "research-incomplete": 40,
+    "research-incomplete": 39,
     "not-yet-researched": 464
   },
   "decade_complete": false,
@@ -18985,16 +18985,18 @@
       "name": "Paul Salstrom",
       "slug": "paul-salstrom",
       "case_ids": [
-        "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e"
+        "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e",
+        "fe81598d-9c48-4b94-a80d-c37926611508"
       ],
       "gap_case_ids": [
         "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        763
+        763,
+        764
       ],
-      "note": "Contemporary1964 sources explicitly establish release and re-arrest, resolving apparent continuous1962–65 stay. Two years actual initial imprisonment, not imposed sentence. Do not count later Danbury stay in24months. Release year only; May lead remains secondary.",
+      "note": "Contemporary October and November1964 articles explicitly distinguish rearrest from completed initial term. Preserve initial24months; no duplicate numeric custody duration for later Danbury stay.",
       "parallel_research_audit": "custody-1960s-parallel-research-2026-10-15.json"
     },
     {
@@ -19371,12 +19373,15 @@
       "name": "James Groppi",
       "slug": "james-groppi",
       "case_ids": [
-        "5b0868d1-712b-4483-91e8-d08830f9754e"
+        "5b0868d1-712b-4483-91e8-d08830f9754e",
+        "acb5cbfc-88d4-458b-92f1-9570a9e73f67"
       ],
       "gap_case_ids": [],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "Individual source check recorded; wider research remains. Read-only live refresh confirms only Oct1–11 legislative contempt case exists. Separate probation-revocation case missing. LDF brief p3 footnote2 explicit Oct11 arrest/Oct17 activation/sixdays credit/Oct27 release order; AP Oct28 search text says happy to be out. Original AP or court record visual confirmation of actual release recommended before precise release assignment. Do not modify prior legislative case; preserve bios. Original1968 suspended-sentence order dated Feb12, convictionFeb9; October17 is activation.",
+      "status": "partially-corrected-live",
+      "batches": [
+        764
+      ],
+      "note": "LDF appellate brief printedp3 footnote2, retrieved indexed original OCR, explicitly dates October11rearrest and October17activation with sixdays credit. Contemporary AP corroborates activation and October27release order. Release order is not proof actual discharge; no release endpoint or full duration inferred. October17 field records activation, not original1968suspended sentence. SupremeCourt outcome separately verified.",
       "parallel_research_audit": "custody-1960s-parallel-research-2026-10-15.json"
     },
     {
