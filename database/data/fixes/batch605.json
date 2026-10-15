@@ -1,0 +1,130 @@
+{
+  "batch": 605,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
+      "name": "Fred Shuttlesworth",
+      "slug": "fred-shuttlesworth",
+      "case_id": "86e2cdb7-981f-4c8d-9379-37035dfe97fc",
+      "expected": {
+        "id": "86e2cdb7-981f-4c8d-9379-37035dfe97fc",
+        "prisoner_id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
+        "institution_id": "363e466b-e4a3-4dee-8f97-6f7533344f7a",
+        "charges": "Vagrancy and aiding and abetting others to break the law — arrested March 31, 1960.",
+        "arrest_date": "1960-03-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1960-04-04 00:00:00",
+        "incarceration_date": "1960-03-31 00:00:00",
+        "release_date": "1960-09-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "180 days at hard labor plus a $100 fine. Actual time served is not documented; the conviction was overturned.\n\nVerdict as recorded: Yes — convicted April 4, 1960; the conviction was reversed by the U.S. Supreme Court in 1963.\n\nCharges as recorded: Vagrancy and aiding and abetting others to break the law — arrested March 31, 1960 during the Birmingham sit-in campaign and again on April 2 (Shuttlesworth & Billups v. City of Birmingham).",
+        "imprisoned_for_days": 180,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-07 20:30:31",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1960-04-01 00:00:00"
+      },
+      "rationale": "National Guardian, April 18, 1960, page 8 reports March 31 arrest, overnight jail and release on bond the next day. Replace sentence-derived September 27 endpoint for this first detention. A separate April 2 rearrest is reported; its endpoint remains unresolved and must not be merged into continuous six-month custody.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1960-04-18-12-27-nat-guardian.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
+      "name": "Fred Shuttlesworth",
+      "slug": "fred-shuttlesworth",
+      "case_id": "6a8f9fb9-e38d-4433-bb04-df39d13ef57b",
+      "expected": {
+        "id": "6a8f9fb9-e38d-4433-bb04-df39d13ef57b",
+        "prisoner_id": "9f25627d-6507-4af7-9c27-5bc23d9efbda",
+        "institution_id": "363e466b-e4a3-4dee-8f97-6f7533344f7a",
+        "charges": "Interfering with a police officer — arrested.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-05-01 00:00:00",
+        "release_date": "1961-10-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "180 days at hard labor; actual time served not documented (conviction reversed).\n\nVerdict as recorded: Yes — convicted; the conviction was reversed by the Supreme Court in 1964.\n\nCharges as recorded: Interfering with a police officer — arrested during the Freedom Rides after objecting when Commissioner Bull Connor ordered the riders arrested.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-07 20:30:31",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-05-17 00:00:00",
+        "incarceration_date": "1961-05-17 00:00:00",
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "LDF Supreme Court petitioner brief, October Term 1963 No.168, printed pages4 and7 (PDF10 and13), dates arrest May17,1961 and transport to city jail. Footnote1 documents appeal bond. Existing October28 endpoint is exactly180days after a May1 placeholder, not a verified release. Clear that unsupported endpoint; do not borrow another detainee 12-hour release in footnote2. Separate June2-3 contempt custody preserved.",
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/8707aaad-03de-4a0b-8f60-5a386895b935/shuttlesworth-v-birmingham-al-petitioner-brief"
+      ]
+    },
+    {
+      "prisoner_id": "0f7f9fa8-9943-40f7-93ac-68cd5561fe46",
+      "name": "James Forman",
+      "slug": "james-forman",
+      "case_id": "48ec2996-0493-43b7-abfa-cead90476fad",
+      "expected": {
+        "id": "48ec2996-0493-43b7-abfa-cead90476fad",
+        "prisoner_id": "0f7f9fa8-9943-40f7-93ac-68cd5561fe46",
+        "institution_id": null,
+        "charges": "Disorderly conduct, obstructing traffic, and failure to obey an officer — the December 10, 1961 Albany, Georgia train-station Freedom Ride.",
+        "arrest_date": "1961-12-10 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Taken to Albany police headquarters after the December 10, 1961 arrests; release date and disposition unresolved in the catalog record.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-12-10 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "rationale": "UGA WSB newsfilm catalog identifies Forman among December10,1961 riders arrested and taken to police headquarters; fill custody start, leave individual release unresolved.",
+      "sources": [
+        "https://crdl.usg.edu/record/ugabma_wsbn_wsbn44899"
+      ]
+    }
+  ]
+}
