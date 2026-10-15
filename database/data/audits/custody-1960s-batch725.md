@@ -33,3 +33,7 @@ Sources:
 - Carolyn Yvonne Reed
 - Alexander Mattahan Anderson
 - William E. Harbour
+
+## Live verification
+
+Applied 25 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
