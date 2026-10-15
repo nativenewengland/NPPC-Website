@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 270,
-  "case_records_changed_or_added": 345,
+  "changed_profiles": 271,
+  "case_records_changed_or_added": 347,
   "status_counts": {
-    "partially-corrected-live": 270,
+    "partially-corrected-live": 271,
     "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1081,
+    "not-yet-researched": 1080,
     "research-incomplete": 5,
     "researched-unresolved": 40,
     "outside-decade-statute-match": 14
@@ -2313,9 +2313,11 @@
       "gap_case_ids": [
         "34b7e086-903d-4010-9026-e8f415c4f8b2"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        655
+      ],
+      "note": "Reconciled both case release dates to July 28, 2023 from memorial program, restored March 22, 1963 custody start to original case, corrected September 2, 1965 sentence and removed unrelated 1963 placeholder from 1970 case. Public counter verified 60 Years 4 Months 6 Days. Unrelated fields preserved."
     },
     {
       "prisoner_id": "c013bc4e-9f4d-4161-93a4-98f527c5a835",
