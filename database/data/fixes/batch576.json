@@ -1,0 +1,50 @@
+{
+  "batch": 576,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "86aa6f36-1c07-48ae-bc72-999b77814396",
+      "name": "James Farmer",
+      "slug": "james-farmer",
+      "case_id": "2f7c5bc6-cd25-4aa0-a4db-dbb58dcbcddc",
+      "expected": {
+        "id": "2f7c5bc6-cd25-4aa0-a4db-dbb58dcbcddc",
+        "prisoner_id": "86aa6f36-1c07-48ae-bc72-999b77814396",
+        "institution_id": null,
+        "charges": "Breach of the peace — Freedom Ride testing interstate desegregation",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1961-05-24 00:00:00",
+        "release_date": "1961-07-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "39 days in jail\n\nVerdict as recorded: Convicted; jailed in Jackson/Parchman (1961)",
+        "imprisoned_for_days": 40,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 06:41:14",
+        "updated_at": "2026-09-18 06:09:26",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1961-05-24 00:00:00",
+        "sentenced_date": "1961-05-26 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Fill missing arrest May24,1961 (contemporary CORE newsletter and Halstead account) and sentencing May26,1961 (FBI archival records summary). Preserve existing May24-July3 interval and biography. FBI documents same-day appeal bond January24,1962, not continuous custody through appeal. Existing narrative39days differs from40elapsed date interval; no invented endpoint correction.",
+      "sources": [
+        "https://vault.fbi.gov/james-farmer/James%20Farmer%20Part%2006/at_download/file",
+        "https://www.marxists.org/history/etol/writers/halstead/1962/xx/freedom.htm",
+        "https://corenyc.org/omeka/files/original/58e5f33415535a19a706bc2a5606817d.pdf"
+      ]
+    }
+  ]
+}
