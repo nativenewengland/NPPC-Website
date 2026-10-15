@@ -1,0 +1,51 @@
+{
+  "batch": 600,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "9a737580-fb28-4bdb-ba13-0e0c9cab966f",
+      "name": "Ralph Abernathy",
+      "slug": "ralph-abernathy",
+      "case_id": "b409fffe-cdca-481c-b2f0-89efd168c766",
+      "expected": {
+        "id": "b409fffe-cdca-481c-b2f0-89efd168c766",
+        "prisoner_id": "9a737580-fb28-4bdb-ba13-0e0c9cab966f",
+        "institution_id": null,
+        "charges": "Charleston hospital workers strike, Charleston, South Carolina",
+        "arrest_date": "1969-04-30 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-30 00:00:00",
+        "release_date": "1969-05-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "About seven days in jail.",
+        "imprisoned_for_days": 7,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-21 09:43:38",
+        "updated_at": "2026-07-21 09:43:38",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-25 00:00:00",
+        "incarceration_date": "1969-04-25 00:00:00",
+        "release_date": "1969-05-02 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "rationale": "George W. Hopkins South Carolina Encyclopedia account identifies April 25 arrest and May 2 release on bond. Claudia Smith Brinson independently dates the release May 2; contemporary May 3 Chanute Tribune reports he has been released after a week. Existing April 30-May 7 interval is incorrect. This does not represent his separate June 20 arrest.",
+      "sources": [
+        "https://charlestoncurrents.com/2015/01/hospital-workers-strike/",
+        "https://storiesofstruggle.com/timeline-charleston-hospital-strike-1969-black-women-demand-living-wage",
+        "https://newspaperarchive.com/chanute-tribune-may-03-1969-p-1/"
+      ]
+    }
+  ]
+}
