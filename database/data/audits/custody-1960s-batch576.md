@@ -6,4 +6,4 @@ https://vault.fbi.gov/james-farmer/James%20Farmer%20Part%2006/at_download/file
 https://www.marxists.org/history/etol/writers/halstead/1962/xx/freedom.htm
 https://corenyc.org/omeka/files/original/58e5f33415535a19a706bc2a5606817d.pdf
 
-FBI PDF indexed text accessible; direct file request returned403. CORE-hosted archival file accessible but lacks text layer. Only two supported missing dates changed. Deployment pending.
+FBI PDF indexed text accessible; direct file request returned403. CORE-hosted archival file accessible but lacks text layer. Only two supported missing dates changed. Applied live; isolated fixture, guarded application, preservation, zero-change replay and public pages verified.

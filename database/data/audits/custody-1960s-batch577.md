@@ -26,4 +26,4 @@ https://www.themilitant.com/1970/3410/MIL3410.pdf
 https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844
 https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf
 
-Original Militant statement extracted from full PDF. No biography changes. Deployment pending.
+Original Militant statement extracted from full PDF. No biography changes. Applied live; fixture, guarded preview and application, unrelated-field preservation, zero-change replay and public pages verified.

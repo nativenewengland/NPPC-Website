@@ -25,4 +25,4 @@ Lonnie Epps: Individual arrest roster in To Disrupt, Discredit and Destroy note3
 https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf
 https://case-law.vlex.com/vid/state-ex-rel-shakur-886165844
 
-No biography changes. Deployment pending.
+No biography changes. Applied live; fixture, guarded preview and application, unrelated-field preservation, zero-change replay and public pages verified.

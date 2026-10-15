@@ -5,4 +5,4 @@ SNCC May19,1964 page3 explicitly gives May6 release and60days. OnWisconsin Fall2
 https://www.crmvet.org/docs/sv/sv640519.pdf
 https://onwisconsin.uwalumni.com/a-freedom-riders-perilous-path/
 
-Original SNCC scan visually verified; no biography or existing case changes. Deployment pending.
+Original SNCC scan visually verified; no biography or existing case changes. Applied live; isolated fixture, guarded application, preservation, zero-change replay and public pages verified.
