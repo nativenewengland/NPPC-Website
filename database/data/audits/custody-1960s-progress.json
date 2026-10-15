@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 245,
-  "case_records_changed_or_added": 311,
+  "changed_profiles": 247,
+  "case_records_changed_or_added": 314,
   "status_counts": {
-    "not-yet-researched": 1109,
-    "partially-corrected-live": 245,
+    "not-yet-researched": 1106,
+    "partially-corrected-live": 247,
+    "reviewed-selected-case-no-change": 16,
     "research-incomplete": 5,
-    "reviewed-selected-case-no-change": 15,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
   },
@@ -67,9 +67,9 @@
       "gap_case_ids": [
         "f8f3f8e0-93a8-40c7-9a7e-ba6f2836b499"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Fresh live snapshot640 already contains September1969 month-precision custody with September22-24 bounds, documented BOP January25,1983 endpoint and July6,1970 sentencing. Re-read Ervin v Lanier 404FSupp15 and confirmed allegations are accurately qualified. Do not repeat previous corrections or invent precise continuous-start date. No live change in this review."
     },
     {
       "prisoner_id": "8be82f89-5b6d-4069-981d-1f74f8504e11",
@@ -262,9 +262,11 @@
         "858ad06a-ffdb-4a90-a246-2ee386ab85f0",
         "ac33f172-4858-417f-8c0b-1c609ad5910b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        640
+      ],
+      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved."
     },
     {
       "prisoner_id": "cd9fd5f5-939f-42c3-b097-dadcf1645c7c",
@@ -1335,9 +1337,11 @@
         "e6ce8543-8d16-4fea-9c4a-a0cad44b3f6f"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        640
+      ],
+      "note": "Batch640 corrects false continuous custody across bail freedom. Later remands being entered separately; earlier JoanBird custody endpoints unresolved."
     },
     {
       "prisoner_id": "9ce5574a-2e41-4fd6-b71e-2537b8662222",
