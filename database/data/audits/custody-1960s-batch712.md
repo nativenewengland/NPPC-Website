@@ -7,3 +7,7 @@ The 2024 National Gallery of Art/Brooklyn Museum catalogue, chronology p. 264, d
 - https://tfaoi.org/aa/6aa/6aa198a.htm
 - https://dokumen.pub/elizabeth-catlett-a-black-revolutionary-artist-and-all-that-it-implies-0226836576-9780226836577.html
 - https://www.nga.gov/stories/articles/who-elizabeth-catlett-12-things-know
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

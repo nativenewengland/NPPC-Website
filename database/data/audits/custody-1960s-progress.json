@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 403,
-  "case_records_changed_or_added": 495,
+  "changed_profiles": 404,
+  "case_records_changed_or_added": 496,
   "status_counts": {
-    "partially-corrected-live": 403,
-    "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 896,
-    "research-incomplete": 28,
-    "researched-unresolved": 58,
+    "partially-corrected-live": 404,
+    "reviewed-selected-case-no-change": 28,
+    "not-yet-researched": 886,
+    "research-incomplete": 32,
+    "researched-unresolved": 61,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
   },
@@ -623,9 +623,12 @@
       "gap_case_ids": [
         "bf912391-23a2-414d-a101-ea248b2dc431"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "First-person Barbara Deming account describes April 21, 1966 airport detention awaiting expulsion, but no overnight duration or discharge time. No invented multi-day term.",
+      "research_sources": [
+        "https://www.radicalforpeace.org/a-j-in-his-own-words/"
+      ]
     },
     {
       "prisoner_id": "1c45f8ce-206b-4f38-9540-65ceae2978ae",
@@ -1807,9 +1810,12 @@
         "854088b5-75cb-4edb-9c2d-339ea8482ecb"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Existing case concerns WWII imprisonment. Memoir describes restricted residence at Mountain Spring during deportation proceedings; restriction endpoints need research before adding a 1960s custody episode.",
+      "research_sources": [
+        "https://www.dsp-rsp.org/sites/default/files/documents/the-party-the-socialist-workers-party-1960-1988-volume-1-barry-sheppard-2005.pdf"
+      ]
     },
     {
       "prisoner_id": "7bad7e21-643c-437a-9591-19ef350aeab6",
@@ -2034,9 +2040,11 @@
       "gap_case_ids": [
         "fd6f78f8-93df-4b6d-ac14-4edd55e39270"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        712
+      ],
+      "note": "Museum scholarship dates the entry ban to 1962 and the return visa to September 1971. Catlett visited the United States in 1961, contradicting uninterrupted exclusion beginning in 1959. The arrest field is not changed: sources disagree about the separate Mexican detention year."
     },
     {
       "prisoner_id": "ba29bf9f-dc8b-4612-89d5-4f779586233e",
@@ -2062,9 +2070,12 @@
       "gap_case_ids": [
         "360b172d-eeba-4696-9872-23eb7f12835f"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Playbill obituary corroborates 1964 return; no exact or month arrival date established. Existing year-level exile endpoint retained.",
+      "research_sources": [
+        "https://playbill.com/article/john-berry-director-who-helmed-fugard-work-in-nyc-and-on-film-dead-at-82-com-85993"
+      ]
     },
     {
       "prisoner_id": "659c8ab3-b509-4331-87fe-df149062b4cf",
@@ -2268,9 +2279,12 @@
         "22321013-3881-4780-ade6-6a5205796241",
         "aeaa04a8-7cd3-457e-80ed-f09b5a424337"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Court opinion confirms separate raid prosecution, bail, flight and December 8, 1970 rearrest. No verified initial bail date; do not join 1969 detention to later continuous imprisonment.",
+      "research_sources": [
+        "https://law.justia.com/cases/california/court-of-appeal/3d/112/795.html"
+      ]
     },
     {
       "prisoner_id": "bd5b0b4d-12ea-4421-9e53-02a54e129b3a",
@@ -2345,9 +2359,12 @@
         "d854d6ee-c5ae-4197-8c2d-3c8b55044896"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Family statement corroborates March 28, 2021 death while imprisoned; both existing cases already have death-in-custody and custody endpoints. Sentencing date remains unverified; no case merged.",
+      "research_sources": [
+        "https://www.leftvoice.org/rest-in-power-chip-fitzgerald-statement-on-behalf-of-the-family-and-committee-to-free-chip-fitzgerald"
+      ]
     },
     {
       "prisoner_id": "836b35ba-990f-499a-b266-626ba3d6347c",
@@ -2357,9 +2374,12 @@
         "f3b32860-ec1c-46d6-8120-ebb51e395371"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Existing exact custody and sentencing fields retained. University narrative supports July 24, 1968 surrender, May 12, 1969 sentence and February 25, 1978 death; heading has conflicting February 27. Death-in-custody field already populated.",
+      "research_sources": [
+        "https://case.edu/ech/articles/e/evans-fred-ahmed"
+      ]
     },
     {
       "prisoner_id": "ec00944f-0c12-41fb-a9c4-9a9cbe74de4a",
@@ -2371,9 +2391,12 @@
       "gap_case_ids": [
         "16a21698-afc1-4c04-98ec-6e881d43e88d"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Previously reviewed in batch672. Governor also reversed parole in 2013; suitability decisions do not establish release. Individual endpoint still unresolved.",
+      "research_sources": [
+        "https://archive.gov.ca.gov/archive/gov39/wp-content/uploads/2017/09/2013_Executive_Report_on_Parole_Review_Decisions.pdf"
+      ]
     },
     {
       "prisoner_id": "2da7dc42-6076-4ad6-8d70-fce23ed173b6",
@@ -5995,9 +6018,12 @@
       "gap_case_ids": [
         "b3626a9e-9e68-4740-ac1b-679377948046"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "December 22, 1965 court-martial date located, but it does not independently establish initial confinement date. Existing month-level release retained.",
+      "research_sources": [
+        "https://gipressproject.wordpress.com/2011/04/03/the-gi-movement-in-texas-act-1-lt-henry-howe/"
+      ]
     },
     {
       "prisoner_id": "51cafa0b-3460-4a4b-80dd-2d76014bae66",
@@ -6009,9 +6035,12 @@
       "gap_case_ids": [
         "61bb46b2-cdbb-405b-a47e-b80aebd903c4"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Accounts conflict between 13 months and about two years actual custody; sentence length cannot resolve this. No replacement duration.",
+      "research_sources": [
+        "https://www.worldofcannabis.museum/post/radical-law"
+      ]
     },
     {
       "prisoner_id": "44e1a7bc-e330-47fb-81ec-c4d53216cbc7",
