@@ -1,0 +1,92 @@
+{
+  "batch": 722,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "George Sams Jr.",
+      "slug": "george-sams-jr",
+      "prisoner_id": "d4c3fe36-4e6c-43a7-b08a-6cd1e5616e93",
+      "case_id": "8b7c525a-5ef7-4080-ac97-dfc5428e69be",
+      "expected": {
+        "id": "8b7c525a-5ef7-4080-ac97-dfc5428e69be",
+        "prisoner_id": "d4c3fe36-4e6c-43a7-b08a-6cd1e5616e93",
+        "institution_id": null,
+        "charges": "Second-degree murder in the death of Alex Rackley",
+        "arrest_date": "1969-08-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "State's Attorney Arnold Markle",
+        "judge": "Harold M. Mulvey",
+        "sentence": "Life; sentenced June 23, 1971 by Judge Mulvey; paroled in 1974\n\nVerdict as recorded: Yes — pleaded guilty to second-degree murder (turned state's evidence)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-21 04:11:21",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1971-06-23 00:00:00",
+        "imprisoned_for_months": 48,
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "rationale": "Add the documented June 23, 1971 sentencing date and four years actually served, independently reported by UPI on December 17, 1975 and Connecticut Explored. Do not infer release date or use the conflicting Canadian arrest reports as a U.S. admission date.",
+      "sources": [
+        "https://ratical.org/ratville/JFK/COINTELPROpapers.pdf",
+        "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1975-12-17.pdf",
+        "https://ctexplored.org/wp-content/uploads/2016/04/Black-Panther-Trials-CT-Explored-1330L.pdf"
+      ]
+    },
+    {
+      "name": "Woodrow Wilson Gillis",
+      "slug": "woodrow-wilson-gillis",
+      "prisoner_id": "ca0c834f-fb75-44bb-b78b-96f85ae8f5d6",
+      "case_id": "a0d6d27e-6c33-45a8-a2aa-32eedce30b25",
+      "expected": {
+        "id": "a0d6d27e-6c33-45a8-a2aa-32eedce30b25",
+        "prisoner_id": "ca0c834f-fb75-44bb-b78b-96f85ae8f5d6",
+        "institution_id": null,
+        "charges": "Assault on a white couple (Kinston, North Carolina, 1965) — in self-defense",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "18 to 20 years on a chain gang\n\nVerdict as recorded: Yes — convicted of assault; escaped a North Carolina chain gang and fought extradition from Pennsylvania in 1974\n\nCharges as recorded: Assault on a white couple (Kinston, North Carolina, 1965) — in self-defense, after the white man pulled a knife on him",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 04:39:51",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1965-01-01 00:00:00",
+        "sentenced_date": "1965-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"sentenced_date\":\"year\"}"
+      },
+      "rationale": "The Black Panther, August 31, 1974, page 9 reports the 1965 conviction and chain-gang custody, followed by escape and arrival in Philadelphia that year. Add year precision only. No calculated term and no release field inferred from an escape.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/12%20no%206%201-24%20aug%2031%201974.pdf"
+      ]
+    }
+  ]
+}
