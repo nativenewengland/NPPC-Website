@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 482,
-  "case_records_changed_or_added": 591,
+  "changed_profiles": 483,
+  "case_records_changed_or_added": 592,
   "status_counts": {
-    "partially-corrected-live": 482,
+    "partially-corrected-live": 483,
     "reviewed-selected-case-no-change": 33,
     "research-incomplete": 39,
     "researched-unresolved": 75,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 781
+    "not-yet-researched": 780
   },
   "decade_complete": false,
   "rows": [
@@ -14583,9 +14583,11 @@
       "gap_case_ids": [
         "fdf4dcaa-8b37-4a83-ac2b-4b9af44a241c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        750
+      ],
+      "note": "SNCC chronology, printed page 15 (PDF page 15), names Mary Lane in the June 25, 1963 courthouse arrest and conviction group. Refines existing year-only custody start to the already recorded arrest date, adds reported charge and imposed sentence, preserves documented 48 days and year-only release. No release inferred by sentence arithmetic."
     },
     {
       "prisoner_id": "29351e6d-af5b-431f-ae6d-4fdfe9b2fac6",

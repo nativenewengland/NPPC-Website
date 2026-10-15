@@ -1,0 +1,52 @@
+{
+  "batch": 751,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Frances Lee Wilson Canty",
+      "slug": "frances-lee-wilson-canty",
+      "prisoner_id": "022cd5db-633c-4171-ad90-92985cf693aa",
+      "case_id": "eceeaf4f-5bc7-416f-a5d3-540b7ddcc4e3",
+      "expected": {
+        "id": "eceeaf4f-5bc7-416f-a5d3-540b7ddcc4e3",
+        "prisoner_id": "022cd5db-633c-4171-ad90-92985cf693aa",
+        "institution_id": "f46b414c-ca61-4259-994f-533911e0ab79",
+        "charges": "Breach of the peace \u2014 entered the segregated white waiting room during a Freedom Ride, Jackson, May 28, 1961.",
+        "arrest_date": "1961-05-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 convicted of breach of the peace May 29, 1961, per a family obituary",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A $200 fine and 60 days, per a family obituary, with transfer to the Mississippi State Penitentiary at Parchman; the exact discharge date is not documented.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-02 22:50:52",
+        "updated_at": "2026-08-02 22:50:52",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-05-28 00:00:00",
+        "sentenced_date": "1961-05-29 00:00:00",
+        "release_date": "1961-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+        "sentence": "A $200 fine and 60-day sentence, according to her family memorial. Taken to Jackson city jail immediately after her May 28, 1961 arrest, tried the following day, and later transferred to Parchman. Released on bail in mid-July 1961; the exact discharge day and actual custody total remain unverified."
+      },
+      "rationale": "Family memorial explicitly places immediate jailing on May 28, trial and sentence the next day, and release on bail in mid-July. Preserve July month precision; do not convert a 60-day sentence to time served. Original memorial scan inspected; Mary Jean Smith also identifies Frances Wilson as a cellmate.",
+      "sources": [
+        "https://d1rjyex4ui0ya6.cloudfront.net/obituaries/media/6582/1459697-FrancesCantytri.12222.pdf",
+        "https://www.tributearchive.com/obituaries/26420643/frances-l-canty",
+        "https://americanarchive.org/catalog/cpb-aacip-15-9c6rx9488w"
+      ]
+    }
+  ]
+}

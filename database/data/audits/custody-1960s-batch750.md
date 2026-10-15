@@ -5,3 +5,7 @@ SNCC chronology, printed page 15 (PDF page 15), names Mary Lane in the June 25, 
 Source: https://snccdigital.org/wp-content/uploads/digitalcollections/sncc_ms_violence.pdf
 
 Original scan visually inspected. Other named people were not conflated with this record. George Greene has a conflicting earlier sentence description; his 1963 episode needs separate research before changing it. Biography and unrelated fields preserved.
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
