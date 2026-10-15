@@ -1,0 +1,48 @@
+{
+  "batch": 678,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Brian Flanagan",
+      "slug": "brian-flanagan",
+      "prisoner_id": "d4ded98f-70de-47df-9a1d-526ee72e0d38",
+      "case_id": "45653452-37e1-48dd-b093-364c52d2a271",
+      "expected": {
+        "id": "45653452-37e1-48dd-b093-364c52d2a271",
+        "prisoner_id": "d4ded98f-70de-47df-9a1d-526ee72e0d38",
+        "institution_id": null,
+        "charges": "Attempted murder of Chicago city attorney Richard Elrod (Days of Rage, October 11, 1969).",
+        "arrest_date": "1969-10-11 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 acquitted",
+        "plead": null,
+        "sentenced_date": "1971-02-01 00:00:00",
+        "incarceration_date": "1969-10-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Acquitted.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-25 02:12:22",
+        "updated_at": "2026-10-15 09:48:45",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": null,
+        "convicted": "No \u2014 acquitted in August 1970.",
+        "sentence": "Acquitted of all charges in August 1970; no sentence imposed."
+      },
+      "rationale": "TIME dated August 31, 1970 reports the jury acquitted him the preceding week. Remove the incompatible February 1, 1971 sentencing date; acquittal does not establish an actual jail release date.",
+      "sources": [
+        "https://time.com/archive/6814488/nation-home-to-the-wars/"
+      ]
+    }
+  ]
+}
