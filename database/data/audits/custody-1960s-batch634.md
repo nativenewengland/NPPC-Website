@@ -60,4 +60,4 @@ Court p540 explicitly dates continuous prison custody August5,1968. Remove unsup
 
 https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf
 
-Court source and contemporary release scans reviewed. Full snapshots guarded; preserve biographies and unrelated fields. Deployment pending.
+Court source and contemporary release scans reviewed. Full snapshots guarded; preserve biographies and unrelated fields. Applied live. Fixture, preview, global unrelated-field preservation, zero-update replay and all four public pages verified. Partial endpoints correctly do not produce a falsely exact counter. Separate follow-up: Spain profile birth/death identity fields appear inconsistent with contemporary reporting; not changed in this case-only batch.

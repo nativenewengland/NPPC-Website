@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 236,
-  "case_records_changed_or_added": 300,
+  "changed_profiles": 240,
+  "case_records_changed_or_added": 304,
   "status_counts": {
-    "not-yet-researched": 1115,
-    "partially-corrected-live": 236,
+    "not-yet-researched": 1114,
+    "partially-corrected-live": 240,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
@@ -1251,9 +1251,11 @@
         "0e6000fa-7d20-4762-bb86-7549b2e39ab0"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        634
+      ],
+      "note": "Court p539 gives actual state-prison term start. UPI establishes March 1988 release; remove unsupported March14 day precision. Existing arrest date has not been independently resolved and is not changed in this batch. Applied and publicly verified in batch634."
     },
     {
       "prisoner_id": "b156eed1-96b8-4dc1-a330-36642b200d23",
@@ -20254,6 +20256,54 @@
       ],
       "status": "partially-corrected-live",
       "note": "Batch606 live and publicly verified; see source-specific batch606 audit. Preserve unresolved release dates."
+    },
+    {
+      "prisoner_id": "2507f5fa-0a01-4887-a24a-c897ddd9541a",
+      "name": "Luis Talamantez",
+      "slug": "luis-talamantez",
+      "case_ids": [
+        "e0b66813-ef11-45ae-b7bf-362b67b57817"
+      ],
+      "gap_case_ids": [
+        "e0b66813-ef11-45ae-b7bf-362b67b57817"
+      ],
+      "status": "partially-corrected-live",
+      "batches": [
+        634
+      ],
+      "note": "Court p540 places original sentence service in1965; some later summaries say1966, so retain court-supported year with no invented month/day. AP August22 says he leftFriday. August20,1971 is neither original admission nor supported arrest and precedes the incident. Expand case label to reflect continuous underlying custody. Applied and publicly verified in batch634."
+    },
+    {
+      "prisoner_id": "20dc2033-1a50-4c6e-b6af-78474aee9909",
+      "name": "Willie Tate",
+      "slug": "willie-tate",
+      "case_ids": [
+        "df2cec1a-ebe2-40e8-80dc-41ab90181ad1"
+      ],
+      "gap_case_ids": [
+        "df2cec1a-ebe2-40e8-80dc-41ab90181ad1"
+      ],
+      "status": "partially-corrected-live",
+      "batches": [
+        634
+      ],
+      "note": "Court p540 and contemporary Panther January25 p5 corroborate January14,1975 bail release. Court p541 contains an apparent1974 typo; preceding page and contemporary report resolve it.1965 marks documented adult term, not claimed beginning of all custody. Remove unsupported1971arrest and1976release. Applied and publicly verified in batch634."
+    },
+    {
+      "prisoner_id": "b81f714e-77c8-40e8-87c7-b17b1174e25f",
+      "name": "David Johnson",
+      "slug": "david-johnson",
+      "case_ids": [
+        "63feaf32-1c0c-44ba-afe5-949c783a70eb"
+      ],
+      "gap_case_ids": [
+        "63feaf32-1c0c-44ba-afe5-949c783a70eb"
+      ],
+      "status": "partially-corrected-live",
+      "batches": [
+        634
+      ],
+      "note": "Court p540 explicitly dates continuous prison custody August5,1968. Remove unsupportedAugust20,1971 arrest; retain 1993 release at existing year precision and sentencing date. Applied and publicly verified in batch634."
     }
   ],
   "additional_profiles_outside_initial_inventory": 1
