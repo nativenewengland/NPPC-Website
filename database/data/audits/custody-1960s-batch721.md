@@ -45,3 +45,7 @@ https://archivesautonomies.org/IMG/pdf/nonfrenchpublications/italian/adunata-dei
 https://bibdig.biblioteca.unesp.br/bitstreams/ea834f13-bba9-4d59-beef-81066c0de523/download
 
 Harold Stallings and Evan Yoes: Civil Liberties Docket VIII(2), entry252.53 reports sentences served, but does not resolve the initial detention or individual release dates. No dates inferred for them. https://digicoll.lib.berkeley.edu/record/222215/files/meik-08_2.pdf
+
+## Live verification
+
+Applied 6 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

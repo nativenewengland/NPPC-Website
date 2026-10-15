@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 421,
-  "case_records_changed_or_added": 515,
+  "changed_profiles": 427,
+  "case_records_changed_or_added": 521,
   "status_counts": {
-    "partially-corrected-live": 421,
+    "partially-corrected-live": 427,
     "reviewed-selected-case-no-change": 29,
-    "not-yet-researched": 866,
-    "research-incomplete": 34,
+    "not-yet-researched": 858,
+    "research-incomplete": 36,
     "researched-unresolved": 61,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
@@ -3423,9 +3423,11 @@
       "gap_case_ids": [
         "d6607b71-7b5f-5030-9d9b-f43f4f4bcc47"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "May 28, 1962 AP report explicitly says Lazar was jailed overnight after the Saturday seizure and appeared Sunday, May 27, refusing bail. Add the verified initial custody start only. No assumption of uninterrupted custody or calculated release date."
     },
     {
       "prisoner_id": "49ca0921-285a-4cf7-838d-6eefc009a524",
@@ -13295,9 +13297,14 @@
       "gap_case_ids": [
         "cd96b4c2-b0cb-4875-89f1-4bcbd53101c3"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Civil Liberties Docket VIII(2), entry 252.53, reports sentences served but does not resolve initial custody or individual release dates. June 7 sentencing and June 9 imprisonment reports require reconciliation; no computed endpoint entered.",
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/222215/files/meik-08_2.pdf",
+        "https://digicoll.lib.berkeley.edu/record/222214/files/meik-08_1.pdf",
+        "https://files.libcom.org/files/Scan5919.pdf"
+      ]
     },
     {
       "prisoner_id": "ac390903-98d4-49b8-8057-f855068628a7",
@@ -13309,9 +13316,14 @@
       "gap_case_ids": [
         "cd27dc71-131e-4ec9-8baa-deada4d2ba85"
       ],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Civil Liberties Docket VIII(2), entry 252.53, reports sentences served but does not resolve initial custody or individual release dates. June 7 sentencing and June 9 imprisonment reports require reconciliation; no computed endpoint entered.",
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/222215/files/meik-08_2.pdf",
+        "https://digicoll.lib.berkeley.edu/record/222214/files/meik-08_1.pdf",
+        "https://files.libcom.org/files/Scan5919.pdf"
+      ]
     },
     {
       "prisoner_id": "4aa60a33-7627-4006-8727-4c2faf162b13",
@@ -13335,9 +13347,11 @@
       "gap_case_ids": [
         "fbf72a58-a0b0-4ab9-9572-2333b7a17d24"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "L’Adunata dei Refrattari, July 26, 1962, page 2 explicitly names all five defendants and dates their six-month sentencing to July 11. Refine the existing July sentencing month to that day. This does not establish entry into custody or release. The article appears to conflate the Everyman boat designations, so no voyage or arrest date is imported from it."
     },
     {
       "prisoner_id": "1581df1c-051b-4bfe-ba3c-f0e8764c891c",
@@ -13349,9 +13363,11 @@
       "gap_case_ids": [
         "bbf58308-4aa3-4da0-a4eb-00673810c2cb"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "L’Adunata dei Refrattari, July 26, 1962, page 2 explicitly names all five defendants and dates their six-month sentencing to July 11. Refine the existing July sentencing month to that day. This does not establish entry into custody or release. The article appears to conflate the Everyman boat designations, so no voyage or arrest date is imported from it."
     },
     {
       "prisoner_id": "32a1977d-724f-482a-8786-1baa9375d277",
@@ -13363,9 +13379,11 @@
       "gap_case_ids": [
         "4b2e33da-6513-4fe2-b984-a071c7011513"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "L’Adunata dei Refrattari, July 26, 1962, page 2 explicitly names all five defendants and dates their six-month sentencing to July 11. Refine the existing July sentencing month to that day. This does not establish entry into custody or release. The article appears to conflate the Everyman boat designations, so no voyage or arrest date is imported from it."
     },
     {
       "prisoner_id": "3fb06b1c-3e4a-4ace-a990-531447460be8",
@@ -13377,9 +13395,11 @@
       "gap_case_ids": [
         "850e5b77-93a8-4bd4-b88f-2ac801ddd37c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "L’Adunata dei Refrattari, July 26, 1962, page 2 explicitly names all five defendants and dates their six-month sentencing to July 11. Refine the existing July sentencing month to that day. This does not establish entry into custody or release. The article appears to conflate the Everyman boat designations, so no voyage or arrest date is imported from it."
     },
     {
       "prisoner_id": "67e8ffd9-3661-4100-8909-64f7866fd141",
@@ -13391,9 +13411,11 @@
       "gap_case_ids": [
         "62805e48-7e53-447c-b9c4-0db8ac218555"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        721
+      ],
+      "note": "L’Adunata dei Refrattari, July 26, 1962, page 2 explicitly names all five defendants and dates their six-month sentencing to July 11. Refine the existing July sentencing month to that day. This does not establish entry into custody or release. The article appears to conflate the Everyman boat designations, so no voyage or arrest date is imported from it."
     },
     {
       "prisoner_id": "48f6fac8-7310-4f03-a02a-08fe1d974209",
