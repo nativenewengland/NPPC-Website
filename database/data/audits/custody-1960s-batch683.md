@@ -19,3 +19,7 @@ Add individually dated sentence, distinguish reversal of the first conviction fr
 - https://www.plainfieldlibrarynj.org/pdf/LH/FA_Frost.pdf
 
 Biographies unchanged. No continuous incarceration span or exact total inferred.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

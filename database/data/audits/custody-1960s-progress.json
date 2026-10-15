@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 339,
-  "case_records_changed_or_added": 424,
+  "changed_profiles": 341,
+  "case_records_changed_or_added": 426,
   "status_counts": {
-    "partially-corrected-live": 339,
+    "partially-corrected-live": 341,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 979,
+    "not-yet-researched": 977,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -5188,9 +5188,11 @@
       "gap_case_ids": [
         "c02d9d81-5b37-483c-a0fa-98c450832faf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        683
+      ],
+      "note": "Contemporary defense report dates sentence December 23, 1968; April 27, 1980 television interview identifies February release and almost ten years actual custody. Remove unsupported exact 144 months. Do not turn the 1968 sentence and 1980 release into continuous imprisonment across bail."
     },
     {
       "prisoner_id": "ea08d964-573b-4a07-8602-9add26c6cc63",
@@ -5202,9 +5204,11 @@
       "gap_case_ids": [
         "25e42015-f9c6-48cd-84a5-753f393a1a35"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        683
+      ],
+      "note": "Add individually dated sentence, distinguish reversal of the first conviction from later reconviction. Library archival guide documents continuing imprisonment into 1983; do not infer release from the 1972 appellate decision."
     },
     {
       "prisoner_id": "32080da8-35c8-4b02-9125-9f926359d670",
