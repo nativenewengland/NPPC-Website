@@ -7,4 +7,4 @@ https://www.crmvet.org/nars/travisb.htm
 
 Replace the misplaced reform-school sentence in this first case with its actual custody and bond outcome; prepare later case separately. Biography unchanged.
 
-Deployment pending.
+Applied live; isolated fixture passed, replay changed zero, unrelated profiles/cases preserved. Public verification after batch 568 shows both terms and 7 Months 17 Days (230 elapsed days). First term August 30-September 30, 1961; second October 4, 1961-April 21, 1962. Evidence retained in tmp/custody-1960s-audit/567-before.json, 567-after.json, 567-fixture.txt, 567-replay.txt, and 568-public.json.

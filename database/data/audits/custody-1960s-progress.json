@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 111,
-  "case_records_changed_or_added": 133,
+  "changed_profiles": 112,
+  "case_records_changed_or_added": 135,
   "status_counts": {
-    "not-yet-researched": 1244,
-    "partially-corrected-live": 111,
+    "not-yet-researched": 1243,
+    "partially-corrected-live": 112,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 8,
     "outside-decade-statute-match": 14,
@@ -4025,9 +4025,12 @@
       "gap_case_ids": [
         "31bc08de-caa7-403a-a922-88084fd44a45"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        567,
+        568
+      ],
+      "note": "Separate McComb and Oakley terms verified live; 31 + 199 elapsed days; four-day liberty gap excluded. Exact later adjudication remains unresolved."
     },
     {
       "prisoner_id": "c2b76202-4f80-4f7d-9c4e-0273c7105f4a",

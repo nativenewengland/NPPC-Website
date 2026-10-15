@@ -8,4 +8,4 @@ https://www.census.gov/data/software/x13as/genhol/easter-dates.html
 
 Exact adjudication date and legal disposition wording remain unresolved; do not invent sentencing date from transfer. Do not invent end of enforced exile.
 
-Deployment pending.
+Applied live; isolated fixture passed, replay changed zero, unrelated profiles/cases preserved. Public verification after batch 568 shows both terms and 7 Months 17 Days (230 elapsed days). First term August 30-September 30, 1961; second October 4, 1961-April 21, 1962. Evidence retained in tmp/custody-1960s-audit/568-before.json, 568-after.json, 568-fixture.txt, 568-replay.txt, and 568-public.json.
