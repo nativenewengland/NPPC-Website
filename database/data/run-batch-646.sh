@@ -56,7 +56,7 @@ $count=DB::transaction(function()use($payload,$dry,$same){
   foreach($e["expected_cases"] as $old){$row=(array)($rows[$old["id"]]??[]);foreach($old as $k=>$v){if(!array_key_exists($k,$row)||!$same($row[$k],$v)){throw new RuntimeException("Existing case changed");}}}
   $data=$e["case"];
   if($data["prisoner_id"]!==$p->id||$data["id"]!==$e["case_id"]){throw new RuntimeException("Invalid case owner");}
-  if(!in_array($data["incarceration_date"],["1968-11-19 00:00:00"],true)||$data["documented_imprisoned_for_days"]!==null){throw new RuntimeException("Invalid custody scope");}
+  if(!in_array($data["incarceration_date"],["1969-02-01 00:00:00"],true)||$data["documented_imprisoned_for_days"]!==null){throw new RuntimeException("Invalid custody scope");}
   $candidate=new PrisonerCase();$candidate->forceFill($data);$candidate->setRelation("prisoner",$p);
   $days=$candidate->computeImprisonedForDays();
   if($days!==$e["expected_days"]){throw new RuntimeException("Unexpected duration");}
