@@ -8,4 +8,4 @@ https://ecms.newportbeachca.gov/Web/0/edoc/1207321/1967-10-31%20-%20Newport%20Be
 http://southerncourier.org/low-res/Vol3_No46_1967_11_11.pdf
 https://crdl.usg.edu/record/aar_peppler_4516
 
-Southern Courier p1 visually checked; report distinguishes actual early release from five-day sentence. Fills three empty intervals and corrects King release calculation. A. D. King separate Atlanta case contains a demonstrably impossible 1918 date and remains under research. No biographies changed. Deployment pending.
+Southern Courier p1 visually checked; report distinguishes actual early release from five-day sentence. Fills three empty intervals and corrects King release calculation. A. D. King separate Atlanta case contains a demonstrably impossible 1918 date and remains under research. No biographies changed. Applied live; all four guarded updates verified, unrelated profiles and cases preserved, replay made zero changes. Public pages confirmed. A. D. King retained an old twelve-month override, addressed separately in batch 597.
