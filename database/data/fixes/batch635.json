@@ -1,0 +1,56 @@
+{
+  "batch": 635,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "85c2f9c1-fdb2-4499-ab12-542de885825e",
+      "name": "Fleeta Drumgo",
+      "slug": "fleeta-drumgo",
+      "case_id": "d0502405-5d32-46d2-9d2f-d6e293e893c4",
+      "expected": {
+        "id": "d0502405-5d32-46d2-9d2f-d6e293e893c4",
+        "prisoner_id": "85c2f9c1-fdb2-4499-ab12-542de885825e",
+        "institution_id": "0099e875-fa60-48ba-930e-a0f9a20479e5",
+        "charges": "Murder of Soledad guard John Mills (Soledad Brothers prosecution)",
+        "arrest_date": "1970-02-14 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1970-02-15 00:00:00",
+        "release_date": "1972-03-26 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Acquitted by jury after more than two years held in pretrial custody at San Quentin\n\nVerdict as recorded: No — acquitted by California state jury on March 27, 1972",
+        "imprisoned_for_days": 770,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1966-12-16 00:00:00",
+        "incarceration_date": "1967-01-01 00:00:00",
+        "sentenced_date": "1967-09-05 00:00:00",
+        "release_date": "1976-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"year\",\"sentenced_date\":\"day\",\"release_date\":\"year\"}",
+        "charges": "Underlying second-degree burglary conviction; subsequent Soledad Brothers murder prosecution and San Quentin Six prosecution (acquitted in both prison prosecutions).",
+        "convicted": "Yes — underlying burglary; acquitted in the Soledad Brothers and San Quentin Six prosecutions",
+        "sentence": "Arrested December 16, 1966. Initially committed to the California Youth Authority in 1967; on September 5, 1967, the court reduced the burglary conviction to second degree and imposed a state-prison sentence. The exact initial institutional admission date remains unresolved. Acquitted in the Soledad Brothers trial on March 27, 1972, but remained imprisoned and faced the San Quentin Six prosecution. Acquitted in that prosecution in August 1976 and released in 1976. Contemporary August reporting announced an August 25 release; a subsequent September report confirms release, but an actual release day has not been independently established here. The 1972 acquittal was not release from prison."
+      },
+      "sources": [
+        "https://law.justia.com/cases/california/court-of-appeal/2d/269/479.html",
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/2925.pdf",
+        "https://gateway.okhistory.org/ark:/67531/metadc2371828/m1/5/",
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n9.pdf"
+      ],
+      "rationale": "Correct a false 1972 release and false custody start. Preserve year precision for admission and confirmed release rather than treating scheduled release or publication as the actual date. Expand case label to distinguish underlying conviction from later acquittals."
+    }
+  ]
+}
