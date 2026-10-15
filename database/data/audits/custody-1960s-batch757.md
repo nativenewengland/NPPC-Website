@@ -56,3 +56,7 @@ WRL organizational memorial states he burned draft card in1966 and was jailed th
 https://www.warresisters.org/peter-kiger-1938-2019/
 
 No biography changes; unknown endpoints preserved. Court outcomes not treated as release dates.
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

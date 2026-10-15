@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 493,
-  "case_records_changed_or_added": 621,
+  "changed_profiles": 500,
+  "case_records_changed_or_added": 629,
   "status_counts": {
-    "partially-corrected-live": 493,
+    "partially-corrected-live": 500,
     "reviewed-selected-case-no-change": 34,
-    "research-incomplete": 40,
+    "research-incomplete": 39,
     "researched-unresolved": 76,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 767
+    "not-yet-researched": 761
   },
   "decade_complete": false,
   "rows": [
@@ -6191,9 +6191,11 @@
       "gap_case_ids": [
         "b3626a9e-9e68-4740-ac1b-679377948046"
       ],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "December 22, 1965 court-martial date located, but it does not independently establish initial confinement date. Existing month-level release retained.",
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "April4,1966 Militant frontpage box Antiwar Army Officer Paroled explicitly reports releaseFortLeavenworth onparoleMarch24 afterthree months. Originalpage visuallyverified agent-three-howe-p1.png. CorrectsnapshotApril1966MONTH release; do not derive exactadmission fromthree months. ExistingincDec22precisionYEAR remains unclear. Sentence prose shouldreplaceearlyApril withMarch24.",
       "research_sources": [
         "https://gipressproject.wordpress.com/2011/04/03/the-gi-movement-in-texas-act-1-lt-henry-howe/"
       ]
@@ -7901,9 +7903,11 @@
       "gap_case_ids": [
         "2eac1c44-7ff5-4314-a665-04e4f749bf44"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "CongressionalRecordprinted15249 reproduceseditorial that explicitly says jailedJacksonJuly15. Hostilepoliticalcharacterizations not adopted. ArrestcorroboratedCRDL. Verifyoriginalpagebeforeapply. Original printed page 15249 visually verified in two-rose-record.png; hostile editorial is evidence only of the reported jail date, not of its political claims."
     },
     {
       "prisoner_id": "9cab7b75-a1d8-4e1c-8815-bbb21785a159",
@@ -9106,9 +9110,11 @@
       "gap_case_ids": [
         "4783193f-b387-4e59-88db-769650ec8ccf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "May27 firstperson HindsCountyjailletter describes continuous custody fromarrival, trialMay26. SupremeCourt originalappendixprinted6a listsJohnHMoodyMay24group. Smithsonian namesJohnP.Moody; originalcourtJohnH. same30yoHowardFreedomRider. Releaseunknown; preserve biography."
     },
     {
       "prisoner_id": "ce08b88b-7eaa-4ea6-9e0e-8bd3623ee8c6",
@@ -9365,9 +9371,11 @@
       "gap_case_ids": [
         "4b3e142a-d4b9-483d-b142-975daaa42c36"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "Responseappendix printed10/PDFpage141 originalimage visuallyreviewed two-daniel-disposition.png. Courtclerkcertifieddocket statement clearly individualDecember28,1961 disposition. Not a release date."
     },
     {
       "prisoner_id": "98b4faae-331d-4327-b582-cc651e525218",
@@ -12011,9 +12019,11 @@
       "gap_case_ids": [
         "5836c4b2-9765-4843-8110-98f3870d82c1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "Hamilton same-ride group immediate Jackson City Jail arrest/bookings pp3-4; Louise own account starts p22 and confirms adjacent Hinds County cells; pp30-32 explicitly Parchman departure August4, bail bond Hinds County, travel NewOrleansFridayAugust4. Original page30 visually verified agent-one-inghram-release.png; selectedpages agent-one-inghram-keypages.pdf. Authority identifies same June25,1961 IllinoisCentral ride arrest."
     },
     {
       "prisoner_id": "a522eb45-59b8-4858-a69c-eabc3219601b",
@@ -14906,9 +14916,11 @@
         "6cb8ba25-dd81-49bb-a5f1-d897c4b04eab",
         "bd7b6df2-608c-4bb5-9686-c0bcafdda615"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "WRL organizational memorial states he burned draft card in1966 and was jailed three months in1969. Current narrative already records served three months but numeric months null. Endpoints remain unresolved. Separate1961 alternative-service case has documented12months already; preserve, exact endpoints uncertain."
     },
     {
       "prisoner_id": "483f6790-8fee-45fa-a23e-b538a0c34b97",
@@ -15780,9 +15792,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        756
+        756,
+        757
       ],
-      "note": "Contemporary TIME November 24, 1967 reports stockade confinement immediately after September refusal. Contemporary reports differ on exact September day, so only September month precision is stored. Existing sentence and unknown release preserved."
+      "note": "TIME Nov24 1967 reports Sept13 press conference and stockade a day later. Young Socialist Oct1967 printed23 reports arrest Sept15; APNov14 also refusal Sept15. Month is certain; day disputed. Actual release unknown; preserve sentence and November13 sentencing."
     },
     {
       "prisoner_id": "c23b9ad5-c8b9-4471-8aa1-889aae833a2d",
@@ -15906,9 +15919,11 @@
       "gap_case_ids": [
         "94b469e4-1357-48dd-879c-d3ef475fd53c"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        757
+      ],
+      "note": "CCCOJuly-Aug1968 p2 sanctuary account: arrested bodilyMay22 after SupremeCourtdeclinedreview3-yearsentence. May23APphoto confirms yesterdayremoval, laterCCCOPetersburgcustody. Releaseunknown. Original CCCO page 2 visually verified in two-talmanson-ccco.png."
     },
     {
       "prisoner_id": "3872ea06-3553-4a3e-ad0c-463b937448b1",
