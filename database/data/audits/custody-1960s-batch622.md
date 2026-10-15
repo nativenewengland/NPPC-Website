@@ -58,4 +58,4 @@ Mailer: court sentencing date added, historical timeline confirms October 22 rec
 
 Rice: court contains contradictory April 29 confession/April 30 arrest chronology; defer exact correction pending corroboration. No unsupported dates applied.
 
-Deployment pending.
+Applied live. Isolated fixture, guarded preview, all-profile and unrelated-case preservation, zero-change replay, and public pages verified.

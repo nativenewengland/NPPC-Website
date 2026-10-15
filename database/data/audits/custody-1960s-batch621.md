@@ -6,4 +6,4 @@ https://www.marxists.org/history/etol/newspape/themilitant/1959/1959-pathfinder/
 
 https://www.marxists.org/history/usa/pubs/political-affairs/1961-03-40-3-political-affairs.pdf
 
-Deployment pending.
+Applied live. Isolated fixture, guarded preview, all-profile and unrelated-case preservation, zero-change replay, and public pages verified.
