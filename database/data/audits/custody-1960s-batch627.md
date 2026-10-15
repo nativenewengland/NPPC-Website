@@ -10,4 +10,4 @@ Sources:
 
 Add incarceration YEAR 1961 and release MONTH July 1962. Remove the unsupported eighteen-month actual-custody override, retaining eighteen months as the sentence. Do not substitute a precise fifteen-month counter while the start month is disputed. Preserve biography and all other profile fields. Exact admission/release days remain unresolved. July 19 in a secondary report is an unconfirmed lead only.
 
-Deployment pending.
+Deployed October 15, 2026. Isolated fixture, no-write preview, conflict guard, live preservation verification and zero-change replay passed. HTTP 200 public page shows 1961 incarceration and July 1962 release; no unsupported eighteen-month counter. Evidence retained under tmp/custody-1960s-audit/627-*.

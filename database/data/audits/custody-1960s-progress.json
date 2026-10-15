@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 226,
-  "case_records_changed_or_added": 288,
+  "changed_profiles": 227,
+  "case_records_changed_or_added": 289,
   "status_counts": {
-    "not-yet-researched": 1125,
-    "partially-corrected-live": 226,
+    "not-yet-researched": 1124,
+    "partially-corrected-live": 227,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
@@ -3020,9 +3020,11 @@
       "gap_case_ids": [
         "eb4abc70-9a2e-4e8a-9e41-e181ff18c4af"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        627
+      ],
+      "note": "Batch 627 verified live: 1961 incarceration YEAR, July 1962 release MONTH; removed sentence-based eighteen-month counter. Historical sources disagree March/April admission; exact days unresolved. See sourced audit627."
     },
     {
       "prisoner_id": "746d4e60-848d-4b8c-be9b-bd7d09ad09f3",
