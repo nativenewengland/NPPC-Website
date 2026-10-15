@@ -11,4 +11,4 @@ https://www.fifthestate.org/archive/12-august-15-1966/those-who-refused/
 https://www.themilitant.com/1968/3243/MIL3243.pdf
 https://findingaids.library.nyu.edu/tamwag/photos_223_001/contents/aspace_ref12105/
 
-September 17 scan visually checked. Biographies unchanged. Deployment pending.
+September 17 scan visually checked. Biographies unchanged. Applied live, all unrelated fields preserved, replay changed zero rows, all three public HTTP 200 pages display corrected sentencing dates.
