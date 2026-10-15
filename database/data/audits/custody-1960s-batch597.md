@@ -6,4 +6,4 @@ https://kinginstitute.stanford.edu/king-alfred-daniel-williams
 The existing 12-month duration override blocks calculation from the verified October 30-November 3, 1967 custody interval. Contemporary Southern Courier confirms early release after less than four days of a five-day sentence, not one year. Remove the unsupported override and recalculate.
 http://southerncourier.org/low-res/Vol3_No46_1967_11_11.pdf
 
-This follows batch596 live verification, which exposed the existing 12-month override still taking precedence over the new exact dates. Profiles, biographies, and other cases preserved. Deployment pending.
+This follows batch596 live verification, which exposed the existing 12-month override still taking precedence over the new exact dates. Profiles, biographies, and other cases preserved. Applied live: two case corrections, all unrelated fields preserved, replay zero changes. Public page HTTP 200 shows 4 Days and October 30-November 3, 1967; impossible 1918 date absent.
