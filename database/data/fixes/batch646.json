@@ -1,0 +1,122 @@
+{
+  "batch": 646,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "61e4a9b8-c29c-4064-9aa4-965937e5e59e",
+      "name": "Richard Harris",
+      "slug": "richard-harris",
+      "case_id": "75c61182-0c0b-58b3-819c-9d405f49dc56",
+      "expected_cases": [
+        {
+          "id": "3ff63ab0-2b7e-416b-aaf7-7eabd17e2ff5",
+          "prisoner_id": "61e4a9b8-c29c-4064-9aa4-965937e5e59e",
+          "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+          "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment).",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "No",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "The April 2, 1969 Panther 21 indictment occurred while Harris was already detained in New Jersey. His case was severed from the main trial. The former April 1, 1969 custody start and May 12, 1971 release were not supported as dates of this proceeding; no separate New York custody interval is established. The February 1969 New Jersey detention is recorded separately.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-15 06:22:38",
+          "date_precision": "{}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "75c61182-0c0b-58b3-819c-9d405f49dc56",
+        "prisoner_id": "61e4a9b8-c29c-4064-9aa4-965937e5e59e",
+        "institution_id": null,
+        "arrest_date": "1969-02-01 00:00:00",
+        "incarceration_date": "1969-02-01 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Bank-robbery charges in Newark, New Jersey (February 1969 detention)",
+        "convicted": null,
+        "sentence": "Detained in Newark in February 1969, before the Panther 21 indictment. The precise arrest day, subsequent custody transitions, and release date for this episode remain unverified.",
+        "date_precision": {
+          "arrest_date": "month",
+          "incarceration_date": "month"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Umoja documents the February1969 arrest; separate NJ custody from NY indictment. Do not infer a continuous interval through later prison events.",
+      "sources": [
+        "https://theanarchistlibrary.org/library/kuwasi-balagoon-a-soldier-s-story",
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf"
+      ]
+    },
+    {
+      "prisoner_id": "5090d84e-4f64-4379-9319-c2ee7f398b2c",
+      "name": "Kuwasi Balagoon",
+      "slug": "kuwasi-balagoon",
+      "case_id": "f651854e-69a8-5f94-a762-b349ea217991",
+      "expected_cases": [
+        {
+          "id": "b0973d21-aba6-4a20-ae00-7fb6ad2533e6",
+          "prisoner_id": "5090d84e-4f64-4379-9319-c2ee7f398b2c",
+          "institution_id": null,
+          "charges": "Murder; armed robbery (felony murder, 1981 Brink's robbery)",
+          "arrest_date": "1982-01-20 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": "1983-10-06 00:00:00",
+          "incarceration_date": "1982-01-20 00:00:00",
+          "release_date": "1986-12-13 00:00:00",
+          "death_in_custody_date": "1986-12-13 00:00:00",
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Custody began with his January 20, 1982 capture in the Bronx, recorded by the New York State Criminal Justice Institute under Donald Weems (Kuwasi Balagoon). His own trial statement reports that he never obtained bail or parole once captured. This custody-start date includes pretrial detention, not a separately verified state-prison admission day. The state report dates the Brink's verdict September 14, 1983 and the seventy-five-years-to-life sentence October 6, 1983 (printed page 72). Died in custody December 13, 1986. The existing release field mirrors death in custody and is not a discharge to freedom. Any model-derived day interval covers this case's continuous custody, not all his earlier imprisonment.",
+          "imprisoned_for_days": 1788,
+          "in_exile_for_days": null,
+          "created_at": "2026-07-22 02:18:55",
+          "updated_at": "2026-10-13 00:00:17",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\",\"death_in_custody_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "f651854e-69a8-5f94-a762-b349ea217991",
+        "prisoner_id": "5090d84e-4f64-4379-9319-c2ee7f398b2c",
+        "institution_id": null,
+        "arrest_date": "1969-02-01 00:00:00",
+        "incarceration_date": "1969-02-01 00:00:00",
+        "release_date": null,
+        "sentenced_date": null,
+        "documented_imprisoned_for_days": null,
+        "charges": "Bank-robbery charges in Newark, New Jersey (February 1969 detention)",
+        "convicted": null,
+        "sentence": "Detained in Newark in February 1969, before the Panther 21 indictment. The precise arrest day, subsequent custody transitions, and release date for this episode remain unverified.",
+        "date_precision": {
+          "arrest_date": "month",
+          "incarceration_date": "month"
+        }
+      },
+      "expected_days": null,
+      "rationale": "Umoja documents the February1969 arrest; separate NJ custody from NY indictment. Do not infer a continuous interval through later prison events.",
+      "sources": [
+        "https://theanarchistlibrary.org/library/kuwasi-balagoon-a-soldier-s-story",
+        "https://propagandhi.com/wp-content/empires/Ward_Churchill.pdf"
+      ]
+    }
+  ]
+}
