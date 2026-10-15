@@ -1,0 +1,88 @@
+{
+  "batch": 733,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Bobby Rush",
+      "slug": "bobby-rush",
+      "prisoner_id": "9b4c8fff-63de-439e-896a-2fd8664c24e3",
+      "case_id": "d3c8ff4e-f241-431a-bde3-ae36d0c94712",
+      "expected": {
+        "id": "d3c8ff4e-f241-431a-bde3-ae36d0c94712",
+        "prisoner_id": "9b4c8fff-63de-439e-896a-2fd8664c24e3",
+        "institution_id": null,
+        "charges": "Unlawful use of a weapon",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months (1972)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 13:48:10",
+        "updated_at": "2026-10-14 00:00:37",
+        "date_precision": null,
+        "imprisoned_for_months": 6,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1972-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\"}"
+      },
+      "rationale": "Biographical reporting places six-month imprisonment in 1972. Add year precision only; preserve existing documented six months, and leave release and arrest unresolved. Do not confuse 1969 appealed sentence with actual service.",
+      "sources": [
+        "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/rush-bobby-1946",
+        "https://www.cbsnews.com/news/coronavirus-100-federal-prison-inmates-covid-deaths/"
+      ]
+    },
+    {
+      "name": "Blanca Canales",
+      "slug": "blanca-canales",
+      "prisoner_id": "1b849de5-7936-466b-a557-41fc376b99d1",
+      "case_id": "aa5b557a-1b49-4d68-8824-dba7347ac3d7",
+      "expected": {
+        "id": "aa5b557a-1b49-4d68-8824-dba7347ac3d7",
+        "prisoner_id": "1b849de5-7936-466b-a557-41fc376b99d1",
+        "institution_id": null,
+        "charges": "Killing a police officer; wounding three others; burning the town post office (October 30, 1950 Jayuya Uprising)",
+        "arrest_date": "1950-10-30 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1950-10-30 00:00:00",
+        "release_date": "1967-08-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment plus sixty years; held at the Alderson Federal Prison Camp (West Virginia) and the women's prison at Vega Alta, Puerto Rico, until a full pardon by Governor Roberto Sánchez Vilella in August 1967 (about seventeen years served; the exact day of release is not documented)\n\nVerdict as recorded: Yes — convicted in connection with the Jayuya Uprising",
+        "imprisoned_for_days": 6119,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-20 01:30:54",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "rationale": "First-person account supports August 1967 only. Mark release month precision; do not present placeholder August 1 as known day. Existing arrest/start dates are preserved pending separate verification; uprising date is not automatically arrest date.",
+      "sources": [
+        "https://www.peacehost.net/WhiteStar/Voces/canales.html"
+      ]
+    }
+  ]
+}
