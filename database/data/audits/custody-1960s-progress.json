@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 223,
-  "case_records_changed_or_added": 285,
+  "changed_profiles": 225,
+  "case_records_changed_or_added": 287,
   "status_counts": {
-    "not-yet-researched": 1129,
-    "partially-corrected-live": 223,
+    "not-yet-researched": 1126,
+    "partially-corrected-live": 225,
     "research-incomplete": 5,
-    "reviewed-selected-case-no-change": 13,
+    "reviewed-selected-case-no-change": 14,
     "outside-decade-statute-match": 14,
     "researched-unresolved": 37
   },
@@ -204,9 +204,11 @@
       "gap_case_ids": [
         "203140ad-7fd7-4dd8-a6ea-752f0714ad94"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        625
+      ],
+      "note": "Batch 625 live/public verified: Pinell February 1965 admission month; Carter 1963-1967 year precision. Exact dates remain unresolved."
     },
     {
       "prisoner_id": "38fba923-b7c3-4ab1-a602-38680e28811c",
@@ -2184,9 +2186,9 @@
         "bb7ecd06-43ce-45bb-a1f6-cceea222d300"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "December 3-8, 1969 custody verified by PBS and contemporary Fifth Estate December 8 report. Additional 1968-related imprisonment warrants separate follow-up; not claimed exhaustive."
     },
     {
       "prisoner_id": "ce13abcb-433b-4a66-b7c6-4c4e606f428d",
@@ -2214,9 +2216,11 @@
       "gap_case_ids": [
         "45c22d96-6058-467f-a0e4-e779c06b4140"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        625
+      ],
+      "note": "Batch 625 live/public verified: Pinell February 1965 admission month; Carter 1963-1967 year precision. Exact dates remain unresolved."
     },
     {
       "prisoner_id": "5dd65e4d-1736-495a-8f53-66fd174e92ae",

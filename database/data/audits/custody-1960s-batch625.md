@@ -6,4 +6,4 @@ Alprentice Bunchy Carter: 1963 imprisonment and 1967 release, both YEAR precisio
 
 Related research: David Hilliard December 3-8, 1969 dates confirmed by PBS profile and contemporary December 11-24, 1969 Fifth Estate (San Francisco December 8 report). https://www.pbs.org/hueypnewton/people/people_hilliard.html ; https://www.fifthestate.org/archive/94-december-11-24-1969/law-and-order-murder/ . No date change needed for that selected case. Additional 1968-related 1971 imprisonment remains a separate follow-up.
 
-Deployment pending fixture, guarded preview/apply, preservation/replay and public checks. Decade remains incomplete.
+Deployment: isolated fixture passed; two guarded live updates succeeded, full profile/unrelated-case preservation confirmed, replay zero changes. Both public pages HTTP 200 and expected partial dates verified. Decade remains incomplete.
