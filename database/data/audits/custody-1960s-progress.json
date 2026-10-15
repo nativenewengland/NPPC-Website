@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 531,
-  "case_records_changed_or_added": 663,
+  "changed_profiles": 533,
+  "case_records_changed_or_added": 665,
   "status_counts": {
-    "partially-corrected-live": 531,
+    "partially-corrected-live": 533,
     "reviewed-selected-case-no-change": 34,
-    "researched-unresolved": 341,
+    "researched-unresolved": 340,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
     "research-incomplete": 40,
-    "not-yet-researched": 465
+    "not-yet-researched": 464
   },
   "decade_complete": false,
   "rows": [
@@ -5472,9 +5472,11 @@
       "gap_case_ids": [
         "cabda0fc-e0c2-42cf-8ee5-31735b63a469"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        763
+      ],
+      "note": "Primary appellate opinion dates arrest September13 and specifies StLouis, not CairoIllinois. Correct case location/count and imposed sentence; preserve1971custodyendpoints and all biography fields. Opinion distinguishes contested prosecution and defense narratives; do not adopt allegations as independent facts."
     },
     {
       "prisoner_id": "d9495285-1628-40e9-9c3e-93c28f4b7866",
@@ -18988,9 +18990,11 @@
       "gap_case_ids": [
         "7e8ba665-6e7e-4583-ba57-eb1cc4b9683e"
       ],
-      "status": "researched-unresolved",
-      "batches": [],
-      "note": "Individual source check recorded; wider research remains. Limited roster review; wider individual research required, not exhausted. Publication date not usable as custody endpoint.",
+      "status": "partially-corrected-live",
+      "batches": [
+        763
+      ],
+      "note": "Contemporary1964 sources explicitly establish release and re-arrest, resolving apparent continuous1962–65 stay. Two years actual initial imprisonment, not imposed sentence. Do not count later Danbury stay in24months. Release year only; May lead remains secondary.",
       "parallel_research_audit": "custody-1960s-parallel-research-2026-10-15.json"
     },
     {

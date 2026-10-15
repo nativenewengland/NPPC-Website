@@ -14,3 +14,7 @@ Primary appellate opinion dates arrest September13 and specifies StLouis, not Ca
 
 https://www.casemine.com/judgement/us/59149811add7b049345fe297
 https://www.memphis.edu/benhooks/creative-works/pdfs/jolly.pdf
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
