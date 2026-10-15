@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 392,
-  "case_records_changed_or_added": 483,
+  "changed_profiles": 394,
+  "case_records_changed_or_added": 485,
   "status_counts": {
-    "partially-corrected-live": 392,
+    "partially-corrected-live": 394,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 907,
+    "not-yet-researched": 905,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -10949,9 +10949,11 @@
       "gap_case_ids": [
         "b1a9ebe3-6bd7-44ff-85ea-15b42dc38ebf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        708
+      ],
+      "note": "The newspaper distinguishes the four-month sentence from one month actually served. Add the documented month total without constructing a release date. Preserve all biography fields."
     },
     {
       "prisoner_id": "7382028c-5380-4e1d-a25e-e8ddebf2ddd6",
@@ -10963,9 +10965,11 @@
       "gap_case_ids": [
         "27181c42-ce18-4b5e-a71c-9423bd1f2916"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        709
+      ],
+      "note": "Mississippi Free Press July 14, 1962, page 4, explicitly names Luvaghn Brown, dates arrest May 21 and release evening July 3. Add a separate case, preserving the original 1961 arrest. The imposed 30-day sentence is not substituted for the observed 43-day elapsed custody."
     },
     {
       "prisoner_id": "ace3b51a-a31b-48fb-b554-130d072bef83",

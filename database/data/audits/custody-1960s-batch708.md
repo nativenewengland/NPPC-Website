@@ -4,3 +4,7 @@ The newspaper distinguishes the four-month sentence from one month actually serv
 
 - https://www.nhregister.com/news/article/Lula-Mae-White-Freedom-Rider-from-New-Haven-to-14905610.php
 - https://crdl.usg.edu/people/white_lula_mae_1938
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
