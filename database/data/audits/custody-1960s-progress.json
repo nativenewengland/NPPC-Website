@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 314,
-  "case_records_changed_or_added": 395,
+  "changed_profiles": 316,
+  "case_records_changed_or_added": 397,
   "status_counts": {
-    "partially-corrected-live": 314,
+    "partially-corrected-live": 316,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 1004,
+    "not-yet-researched": 1002,
     "research-incomplete": 9,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -3997,9 +3997,11 @@
       "gap_case_ids": [
         "02cb49ea-aa2c-44f6-a0ed-db9caeea9edf"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        674
+      ],
+      "note": "May3,1960arrest and May6sentence verified; May-only incarceration. Release unresolved."
     },
     {
       "prisoner_id": "64e2ca26-3f01-4719-b058-c62cacf3a316",
@@ -4011,9 +4013,11 @@
       "gap_case_ids": [
         "8c196c07-3623-4bed-a41a-a119f27595f1"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        674
+      ],
+      "note": "May3,1960arrest and May6sentence verified; May-only incarceration. Release unresolved."
     },
     {
       "prisoner_id": "18c94b99-bf87-4cd8-915d-797c4dd14f72",

@@ -5,3 +5,5 @@ Lucia Shapiro and Anne Morrissett: add May 3, 1960 arrest, May 6 sentencing, and
 Sources:
 - https://www.stanleymeisler.com/article/charade-of-civil-defense
 - https://www.marxists.org/history/usa/pubs/national-guardian/1960-05-16-12-31-nat-guardian.pdf (page 22)
+
+Applied live; two updates. Isolated fixture, field-preservation checks, zero-change replay, and public date rendering verified. Release dates remain unresolved.
