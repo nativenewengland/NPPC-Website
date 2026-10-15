@@ -4,3 +4,7 @@ The joint appeal printed page 23 individually dates Bromberg arrest to June 9, 1
 
 - https://www.crmvet.org/docs/640000_fr_appeal-r.pdf
 - https://crdl.usg.edu/record/mus_sovcom_2-55-3-103-1-1-1
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
