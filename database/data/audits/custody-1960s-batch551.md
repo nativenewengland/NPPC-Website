@@ -9,4 +9,4 @@ Jim Forest: Forest contemporary first-person July10,1970 published account prove
 https://jimandnancyforest.com/2019/07/the-return-of-the-felon/
 https://www.jimandnancyforest.com/wp-content/uploads/2014/10/Milwaukee-14-abridged-trial-transcript-sm.pdf#page=215
 
-Live validation pending.
+Applied live; fixture, no-write preview, readback, preservation, zero-change replay and public verification passed. Other dates not changed by this batch remain under review.

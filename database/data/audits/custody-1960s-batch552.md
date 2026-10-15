@@ -17,4 +17,4 @@ https://tarpon-lobster-amns.squarespace.com/press/historical-marker-planned-for-
 https://www.jstor.org/stable/jj.24299185
 https://www.crmvet.org/nars/guyoteop.htm
 
-Live validation pending.
+Applied live. Isolated fixture, guarded application, zero-change replay and unchanged unrelated fields verified. All four public profiles return HTTP 200 and display June 9-12, 1963 with 3 Days counters.

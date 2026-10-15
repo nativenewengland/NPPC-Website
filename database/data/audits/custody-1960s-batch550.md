@@ -6,4 +6,4 @@ https://www.jimandnancyforest.com/wp-content/uploads/2014/10/Milwaukee-14-abridg
 
 Profiles: Don Cotton, Robert Cunnane, Bob Graf, James Harney, Alfred Janicke, Doug Marvy, Anthony Mullaney, Fred Ojile, Jim Forest, Lawrence Rosebaugh, Edmund Basil O'Leary.
 
-Live validation pending.
+Applied live; fixture, no-write preview, readback, preservation, zero-change replay and public verification passed. Other dates not changed by this batch remain under review.
