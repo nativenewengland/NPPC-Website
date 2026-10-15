@@ -1,0 +1,63 @@
+{
+  "batch": 554,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "d1a11a76-5fa0-4593-a441-ca13573b2859",
+      "name": "Afeni Shakur",
+      "slug": "afeni-shakur",
+      "case_id": "81c53844-59ed-506a-be08-4d06194cf3ce",
+      "expected_cases": [
+        {
+          "id": "811af5ef-5ea8-435d-8a5d-e957b3ef7c14",
+          "prisoner_id": "d1a11a76-5fa0-4593-a441-ca13573b2859",
+          "institution_id": "eba4984e-64e0-4aa2-9e63-291861e3920b",
+          "charges": "Conspiracy to bomb New York City police stations, a railroad station, and Manhattan department stores (Panther 21 prosecution)",
+          "arrest_date": "1969-04-02 00:00:00",
+          "indicted": null,
+          "convicted": "No — acquitted",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1969-04-02 00:00:00",
+          "release_date": "1970-01-30 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Initial Panther 21 pretrial detention ended with release on bail January 30, 1970. Later remand beginning February 8, 1971 was a separate custody period. Acquitted May 13, 1971.",
+          "imprisoned_for_days": 303,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-10-15 00:39:17",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "81c53844-59ed-506a-be08-4d06194cf3ce",
+        "prisoner_id": "d1a11a76-5fa0-4593-a441-ca13573b2859",
+        "institution_id": "eba4984e-64e0-4aa2-9e63-291861e3920b",
+        "charges": "Panther 21 conspiracy prosecution: separate remand after revocation of bail",
+        "arrest_date": null,
+        "incarceration_date": "1971-02-08 00:00:00",
+        "release_date": "1971-05-03 00:00:00",
+        "sentence": "Returned to custody February 8, 1971 after bail was revoked. Released May 3, 1971 pending the verdict; acquitted May 13. This remand is separate from the initial April 1969-January 1970 detention and excludes the intervening period on bail.",
+        "date_precision": {
+          "incarceration_date": "day",
+          "release_date": "day"
+        }
+      },
+      "expected_days": 84,
+      "sources": [
+        "https://law.counselstack.com/opinion/people-ex-rel-bird-v-behagen-nysupct-1971",
+        "https://cdn.penguin.co.uk/dam-assets/books/9781804946411/9781804946411-sample.pdf#page=34",
+        "https://cdn.penguin.co.uk/dam-assets/books/9781804946411/9781804946411-sample.pdf#page=38",
+        "https://www.themilitant.com/1971/3518/MIL3518.pdf"
+      ],
+      "rationale": "Contemporaneous judicial opinion dates remand February 8, overriding February 3 in secondary histories. Authorized biography pp17/21 confirms February 8 and May 3 actual departure home; May14 Militant contemporaneous report corroborates May3 release before acquittal. No duplicate counting of the bail gap."
+    }
+  ]
+}
