@@ -1,0 +1,100 @@
+{
+  "batch": 563,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "0b32333a-9bc5-43e7-afa6-74ca840c92ff",
+      "name": "Vernon Powell Woodward",
+      "slug": "vernon-powell-woodward",
+      "case_id": "ecee525a-d0f5-55de-ae4d-4a567cb47655",
+      "expected_cases": [
+        {
+          "id": "452b8ff6-289d-432d-b681-558579c146d2",
+          "prisoner_id": "0b32333a-9bc5-43e7-afa6-74ca840c92ff",
+          "institution_id": null,
+          "charges": "Freedom Ride participation — challenging segregation in interstate transportation facilities, Jackson, late July 1961; exact arrest date unresolved.",
+          "arrest_date": "1961-07-30 00:00:00",
+          "indicted": null,
+          "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested 1961-07-30. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-08-02 22:50:53",
+          "updated_at": "2026-08-02 22:50:53",
+          "date_precision": "{\"arrest_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "ecee525a-d0f5-55de-ae4d-4a567cb47655",
+        "prisoner_id": "0b32333a-9bc5-43e7-afa6-74ca840c92ff",
+        "institution_id": null,
+        "charges": "Breach of the peace - Episcopal Prayer Pilgrimage at the Jackson Trailways terminal",
+        "arrest_date": "1961-09-13 00:00:00",
+        "incarceration_date": "1961-09-13 00:00:00",
+        "sentenced_date": "1961-09-15 00:00:00",
+        "release_date": "1961-09-19 00:00:00",
+        "convicted": "Convicted September 15, 1961; prosecution subsequently dismissed",
+        "sentence": "Sentenced to four months in jail and a $200 fine. Released on appeal bond September 19, 1961 after six elapsed days in custody. The later appeal was not continuous incarceration.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day",
+          "release_date": "day"
+        }
+      },
+      "expected_days": 6,
+      "sources": [
+        "https://exhibits.episcopalarchives.org/files/original/5daa0e2700d401d179181013055bf2bc87cd5814.pdf",
+        "https://exhibits.episcopalarchives.org/files/original/e42af02a955b29ffc80a5be5926db32b26883b59.pdf",
+        "https://paw.princeton.edu/article/lives-james-walker-evans-52",
+        "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1961-09-16.pdf"
+      ],
+      "rationale": "Arsenault names James Walker Evans and dates release September19. Woodward signed the release statement for the fifteen; the identified exceptions Jones/Taylor stayed until September29. Separate September episode; preserve Woodward July case."
+    },
+    {
+      "prisoner_id": "54833487-4523-4817-87bd-1d7e5f43c1d6",
+      "name": "James Walker Evans",
+      "slug": "james-walker-evans",
+      "case_id": "d9b5546b-7b44-5d54-9690-da0fbbb56e75",
+      "expected_cases": [],
+      "case": {
+        "id": "d9b5546b-7b44-5d54-9690-da0fbbb56e75",
+        "prisoner_id": "54833487-4523-4817-87bd-1d7e5f43c1d6",
+        "institution_id": null,
+        "charges": "Breach of the peace - Episcopal Prayer Pilgrimage at the Jackson Trailways terminal",
+        "arrest_date": "1961-09-13 00:00:00",
+        "incarceration_date": "1961-09-13 00:00:00",
+        "sentenced_date": "1961-09-15 00:00:00",
+        "release_date": "1961-09-19 00:00:00",
+        "convicted": "Convicted September 15, 1961; prosecution subsequently dismissed",
+        "sentence": "Sentenced to four months in jail and a $200 fine. Released on appeal bond September 19, 1961 after six elapsed days in custody. The later appeal was not continuous incarceration.",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "sentenced_date": "day",
+          "release_date": "day"
+        }
+      },
+      "expected_days": 6,
+      "sources": [
+        "https://exhibits.episcopalarchives.org/files/original/5daa0e2700d401d179181013055bf2bc87cd5814.pdf",
+        "https://exhibits.episcopalarchives.org/files/original/e42af02a955b29ffc80a5be5926db32b26883b59.pdf",
+        "https://paw.princeton.edu/article/lives-james-walker-evans-52",
+        "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1961-09-16.pdf"
+      ],
+      "rationale": "Arsenault names James Walker Evans and dates release September19. Woodward signed the release statement for the fifteen; the identified exceptions Jones/Taylor stayed until September29. Separate September episode; preserve Woodward July case."
+    }
+  ]
+}
