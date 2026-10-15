@@ -28,3 +28,7 @@ https://www.themilitant.com/1964/2801/MIL2801.pdf
 https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1963-12-26.pdf
 
 Entire previous case sets guarded and preserved, biographies preserved. Individual custody totals do not infer unknown release days.
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

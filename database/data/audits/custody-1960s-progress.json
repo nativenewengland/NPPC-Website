@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 500,
-  "case_records_changed_or_added": 629,
+  "changed_profiles": 503,
+  "case_records_changed_or_added": 633,
   "status_counts": {
-    "partially-corrected-live": 500,
+    "partially-corrected-live": 503,
     "reviewed-selected-case-no-change": 34,
-    "research-incomplete": 39,
     "researched-unresolved": 76,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
-    "not-yet-researched": 761
+    "research-incomplete": 38,
+    "not-yet-researched": 759
   },
   "decade_complete": false,
   "rows": [
@@ -252,12 +252,15 @@
       "name": "John Sinclair",
       "slug": "john-sinclair",
       "case_ids": [
-        "8d3dd69d-48a5-4c37-8130-94f9caee7269"
+        "8d3dd69d-48a5-4c37-8130-94f9caee7269",
+        "1657b8b6-1a89-4101-a183-5e0be52d0182"
       ],
       "gap_case_ids": [],
-      "status": "research-incomplete",
-      "batches": [],
-      "note": "December13 1971 release corroborated by AP obituary and University of Delaware collection summary. Existing date preserved. Full arrest/admission review unfinished. https://apnews.com/article/82a88b0420656561e708ea36c4050a21"
+      "status": "partially-corrected-live",
+      "batches": [
+        758
+      ],
+      "note": "Own1971essay paragraphs116–121 explicitly served sixmonths, lockedupFebruary andoutAugust1966."
     },
     {
       "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
@@ -9058,14 +9061,17 @@
       "name": "Frank George Holloway",
       "slug": "frank-george-holloway",
       "case_ids": [
-        "7bc2298c-2bdc-462e-b804-afe7b97bda21"
+        "7bc2298c-2bdc-462e-b804-afe7b97bda21",
+        "19751310-1421-475c-8dd8-c8b06ea03183"
       ],
       "gap_case_ids": [
         "7bc2298c-2bdc-462e-b804-afe7b97bda21"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        758
+      ],
+      "note": "Student Voice Dec19,1962 pp1,3: Holloway arrested second wave Nov28; individual release Dec7, distinct from other prisoners Dec4. Original printed page3 visually verified in holloway1962-page3.png."
     },
     {
       "prisoner_id": "76029e9c-78a3-4d42-8392-d76cbb378801",
@@ -12088,16 +12094,18 @@
       "name": "Mary Lucille Hamilton",
       "slug": "mary-lucille-hamilton",
       "case_ids": [
-        "119b67d9-96e5-4570-857e-32e10ddf9651"
+        "119b67d9-96e5-4570-857e-32e10ddf9651",
+        "11702978-f936-4318-9949-521f538b7f47"
       ],
       "gap_case_ids": [
         "119b67d9-96e5-4570-857e-32e10ddf9651"
       ],
       "status": "partially-corrected-live",
       "batches": [
-        756
+        756,
+        758
       ],
-      "note": "Hamilton own account pp3-8 describes arrival Sunday, arrest, immediate Jackson City Jail booking, next-day trial and Hinds County Jail transfer; pp13-17 Parchman; p19 explicitly says released July25. Archival authority identifies June25,1961 arrest."
+      "note": "Ex parte Hamilton156So2d926(Ala1963): five-day jail sentence plus$50fine; explicitly states she has served jail sentence. Habeas hearing June25th; contempt finding and remand to jail; release after five days on appeal."
     },
     {
       "prisoner_id": "05183796-3a6c-4730-a662-bcab38e2c09f",
@@ -13434,12 +13442,15 @@
       "name": "Fred Moore",
       "slug": "fred-moore",
       "case_ids": [
-        "8516c67b-3599-4bcd-a44d-cc755c2b2c36"
+        "8516c67b-3599-4bcd-a44d-cc755c2b2c36",
+        "8849f1f7-93f2-4a1b-8b11-5e0381260ace"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        758
+      ],
+      "note": "Live read-only refresh confirms only Albany December23-25,1963 case, no draft case; all Moore-name profiles queried no second Fred. Identity link: Militant Albany report names Fred Moore Jr; AP places Voluntown resident with CNVA; contemporary Post interview names Fred Moore Jr of Arlington formerly CNVA Voluntown, Cuba-walk participant. Post Oct21,1965 three-hour trial immediate sentence, then began prison almost immediately (not enough exact admission); April1967 actual release explicit. Do not derive17months from24minus7 and do not modify Albany case."
     },
     {
       "prisoner_id": "40e3957c-6e5a-4ed2-94e6-ddeec6ee6255",
