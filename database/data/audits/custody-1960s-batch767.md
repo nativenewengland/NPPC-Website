@@ -27,3 +27,7 @@ New original clipping refines previous one-month account: FridayJuly4 newspaper 
 
 https://www.ocweekly.com/daniel-lynem-shares-his-journey-from-oc-black-panther-to-pastor/
 https://ocweekly.com/wp-content/uploads/2019/02/santa_ana_register_lynem-e1550777100201-1024x780.jpg
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

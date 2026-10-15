@@ -3,16 +3,16 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 550,
-  "case_records_changed_or_added": 683,
+  "changed_profiles": 552,
+  "case_records_changed_or_added": 687,
   "status_counts": {
-    "partially-corrected-live": 550,
+    "partially-corrected-live": 552,
     "reviewed-selected-case-no-change": 34,
     "researched-unresolved": 340,
     "outside-decade-custody": 3,
     "outside-decade-statute-match": 14,
     "research-incomplete": 39,
-    "not-yet-researched": 448
+    "not-yet-researched": 446
   },
   "decade_complete": false,
   "rows": [
@@ -9602,9 +9602,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        723
+        723,
+        767
       ],
-      "note": "Sullivan’s first-person account in The Catholic Worker, November 1961, page 1, dates arrest, trial and sentencing to June 6, 1961 and identifies Newell Weber in his party. Add the missing sentencing date. The account says four-and-a-half months including fine time were served, whereas page 7 summarizes four months; no exact duration or release date is computed from either statement.",
+      "note": "FBI report dated October 23, 1961, PDF page47, individually names Ernest Newell Weber as released that day on sentence expiration. Original visually verified.",
       "sources": [
         "https://www.crmvet.org/docs/core/core6106.pdf"
       ]
@@ -12517,9 +12518,11 @@
       "gap_case_ids": [
         "12e82810-f599-4094-96d7-5b57aae78b39"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        767
+      ],
+      "note": "Holloway firsthand account names Andrews throughout the journey, imprisonment and joint appeal-bond release. May24 booking already independently established; release not dated."
     },
     {
       "prisoner_id": "8d78d07b-908c-49c5-ad13-b0b8249bd7aa",
@@ -13057,9 +13060,11 @@
       "gap_case_ids": [
         "12e89d3e-5cbb-47c0-8148-8b768aaf00d3"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        767
+      ],
+      "note": "April6 Seattle Times page28 names Miller among those physically released shortly after4pm the previous day. Initial detention only; not a claim of full case duration including later July remand."
     },
     {
       "prisoner_id": "3ebc8994-b5b0-48f0-8954-c0bb0ff506d8",
@@ -13087,9 +13092,10 @@
       ],
       "status": "partially-corrected-live",
       "batches": [
-        766
+        766,
+        767
       ],
-      "note": "Interview dates arrest the day after June 4, 1969 and reports one month jailed. July 4 newspaper headline alone does not establish physical release date; leave endpoint unresolved."
+      "note": "New original clipping refines previous one-month account: FridayJuly4 newspaper reports Thursdaydismissal/release and Lynem says glad he gotout. June5arrest in samearticle. Replace roundedmonth with exact28-day interval."
     },
     {
       "prisoner_id": "34f99cbb-6846-4e61-9738-0f2e0241a2c0",
