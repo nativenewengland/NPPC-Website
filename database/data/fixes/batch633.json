@@ -1,0 +1,97 @@
+{
+  "batch": 633,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "15475aea-c8e5-4189-9620-e46901292f25",
+      "name": "Elizabeth Porter Wyckoff",
+      "slug": "elizabeth-porter-wyckoff",
+      "case_id": "ff887110-a861-43a5-8729-e9fb3b26ec2b",
+      "expected": {
+        "id": "ff887110-a861-43a5-8729-e9fb3b26ec2b",
+        "prisoner_id": "15475aea-c8e5-4189-9620-e46901292f25",
+        "institution_id": null,
+        "charges": "Freedom Ride participation — arrested Jackson, June 2, 1961.",
+        "arrest_date": "1961-06-02 00:00:00",
+        "indicted": null,
+        "convicted": "Unresolved — the arrest is documented; the disposition is not established in the CRDL record",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested 1961-06-02. The Civil Rights Digital Library establishes the arrest and the identification photograph but not the disposition, any transfer to Parchman, or the release date — unresolved pending court, jail, or penitentiary records.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-05 09:35:53",
+        "updated_at": "2026-08-05 09:35:53",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1961-06-01 00:00:00",
+        "sentenced_date": "1961-06-05 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "convicted": "Yes - breach of the peace",
+        "sentence": "The Fifth Circuit account reproduced in Bailey v. Patterson records a June 5, 1961 sentence of two months suspended and a $200 fine. Her habeas proceedings confirm actual detention in Hinds County jail; the district-court account describes a four-month commitment. These reported sentence terms are not treated as time served. Incarceration is recorded at June 1961 month precision; the exact admission and release dates remain unresolved."
+      },
+      "sources": [
+        "https://clearinghouse-umich-production.s3.amazonaws.com/media/doc/138614.pdf",
+        "https://openjurist.org/196/fsupp/515/in-re-wyckoff-8750617"
+      ],
+      "rationale": "June detention follows June 2 arrest and June 5 conviction, established in habeas proceedings; do not turn the decision date into a release date. Preserve conflicting sentence accounts explicitly."
+    },
+    {
+      "prisoner_id": "eecd3a54-85b4-4de3-976b-1bd883cc1fbf",
+      "name": "Peter Harry Stoner",
+      "slug": "peter-harry-stoner",
+      "case_id": "87af5d27-f0d3-42e9-8c06-3a5bd2f31baa",
+      "expected": {
+        "id": "87af5d27-f0d3-42e9-8c06-3a5bd2f31baa",
+        "prisoner_id": "eecd3a54-85b4-4de3-976b-1bd883cc1fbf",
+        "institution_id": "ae267f0f-b709-4155-8a75-d5bf2445bf09",
+        "charges": "Five arrests during 1964 voter-registration organizing in Hattiesburg, Mississippi; the individual charges are not specified in the catalog.",
+        "arrest_date": "1964-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted at least once — he served several months in the Forrest County work camp",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "During 1964 he was arrested five times in Hattiesburg and spent several months in the Forrest County work camp, performing road construction and suffering beatings. The year is entered at year precision; the individual arrest and release dates are unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-01 20:19:09",
+        "updated_at": "2026-08-01 20:19:09",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1964-02-05 00:00:00",
+        "incarceration_date": "1964-02-06 00:00:00",
+        "release_date": "1964-05-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "charges": "Disturbing the peace, profanity and resisting arrest; contempt of court added at trial, following the February 5, 1964 arrest during Hattiesburg voter-registration organizing.",
+        "sentence": "Four months plus a $391 fine. In his sworn affidavit, Stoner dates his arrest to February 5, 1964, his transfer to the Forrest County work camp to February 6, and his release after payment of the fine to May 21. The incarceration interval starts with the documented work-camp admission. His separate arrests during 1964 are not included in this interval; archival records report five arrests during the Hattiesburg campaign and beatings during custody."
+      },
+      "sources": [
+        "https://www.crmvet.org/nars/aff/mbp_ps.htm",
+        "https://crdl.usg.edu/people/stoner_peter_harry"
+      ],
+      "rationale": "Refine the existing 1964 work-camp case to the individually documented February-May term. Preserve five-arrest context; do not count January through May as continuous custody or use the four-month sentence as actual time served. Affidavit has an internal weekday/date discrepancy for an April transfer; that disputed transfer is not used."
+    }
+  ]
+}
