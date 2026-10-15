@@ -1,0 +1,94 @@
+{
+  "batch": 546,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "975b5dd8-cb01-41a8-9ba0-7eb94415064d",
+      "name": "George Daniels",
+      "slug": "george-daniels",
+      "case_id": "ba47eb14-d80d-445f-9e4a-03cd336136c1",
+      "expected": {
+        "id": "ba47eb14-d80d-445f-9e4a-03cd336136c1",
+        "prisoner_id": "975b5dd8-cb01-41a8-9ba0-7eb94415064d",
+        "institution_id": "e3ee5083-1428-455b-9904-fb43b2ea9503",
+        "charges": "Advising/urging insubordination and refusal of duty; disloyal statements",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-12-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "U.S. Marine convicted by court-martial for privately calling Vietnam a 'white man's war'; charged with advising, urging and attempting to cause insubordination, disloyalty and refusal of duty. Sentenced to about 10 years at hard labor (combined with William Harvey's term totaling ~16 years).\n\nVerdict as recorded: Yes — convicted by court-martial (Dec. 1967)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-01-01 00:00:00",
+        "release_date": "1969-09-03 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": 25,
+        "sentence": "U.S. Marine convicted by court-martial for privately calling Vietnam a 'white man's war'; charged with advising, urging and attempting to cause insubordination, disloyalty and refusal of duty. Sentenced to about 10 years at hard labor (combined with William Harvey's term totaling ~16 years).\n\nVerdict as recorded: Yes — convicted by court-martial (Dec. 1967)\n\nReleased pending appeal September 3, 1969. A contemporary Clergy and Laymen Concerned newsletter reports twenty-five months actually spent in prison. This reported duration supplies the counter; the exact initial confinement date remains unresolved, so the admission year is retained without an invented day or month."
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt22/pdf/GPO-CRECB-1969-pt22-3-1.pdf#page=84"
+      ],
+      "rationale": "Contemporary CALCAV newsletter reproduced Congressional Record October14 1969 p29877 explicitly gives September3 release pending appeal and 25 months served. Existing December1967 admission conflates later court-martial chronology with earlier custody and is incompatible with the reported duration. Retain only 1967 precision; do not calculate an admission date backward from rounded months. Preserve biography."
+    },
+    {
+      "prisoner_id": "cf7442e5-52de-4872-91ef-d3056d37eed8",
+      "name": "William Harvey",
+      "slug": "william-harvey",
+      "case_id": "3943638d-a36b-4d9d-a4e5-998b6cd89c36",
+      "expected": {
+        "id": "3943638d-a36b-4d9d-a4e5-998b6cd89c36",
+        "prisoner_id": "cf7442e5-52de-4872-91ef-d3056d37eed8",
+        "institution_id": "e3ee5083-1428-455b-9904-fb43b2ea9503",
+        "charges": "Making disloyal statements",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1967-12-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Black Marine convicted in December 1967 of 'disloyal statements' for privately opposing the Vietnam War. Sentenced to about 6 years (6 to 10 years) at hard labor, held at Camp Pendleton, for words alone.\n\nVerdict as recorded: Yes — convicted by court-martial (Dec. 1967)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": "{\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1967-01-01 00:00:00",
+        "release_date": "1969-09-03 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": 25,
+        "sentence": "Black Marine convicted in December 1967 of 'disloyal statements' for privately opposing the Vietnam War. Sentenced to about 6 years (6 to 10 years) at hard labor, held at Camp Pendleton, for words alone.\n\nVerdict as recorded: Yes — convicted by court-martial (Dec. 1967)\n\nReleased pending appeal September 3, 1969. A contemporary Clergy and Laymen Concerned newsletter reports twenty-five months actually spent in prison. This reported duration supplies the counter; the exact initial confinement date remains unresolved, so the admission year is retained without an invented day or month."
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1969-pt22/pdf/GPO-CRECB-1969-pt22-3-1.pdf#page=84"
+      ],
+      "rationale": "Contemporary CALCAV newsletter reproduced Congressional Record October14 1969 p29877 explicitly gives September3 release pending appeal and 25 months served. Existing December1967 admission conflates later court-martial chronology with earlier custody and is incompatible with the reported duration. Retain only 1967 precision; do not calculate an admission date backward from rounded months. Preserve biography."
+    }
+  ]
+}
