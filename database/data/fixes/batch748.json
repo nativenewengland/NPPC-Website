@@ -1,0 +1,53 @@
+{
+  "batch": 748,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Milton Esco",
+      "slug": "milton-esco",
+      "prisoner_id": "35c501ef-bc59-4672-8451-22b831a17fc5",
+      "case_id": "0eb889b2-d99c-49d5-9e98-50c226999ba3",
+      "expected_cases": [
+        {
+          "id": "cfb1d841-d535-423b-91b9-ceb94d37f10c",
+          "prisoner_id": "35c501ef-bc59-4672-8451-22b831a17fc5",
+          "institution_id": null,
+          "charges": "Distributing leaflets without a permit",
+          "arrest_date": "1964-01-23 00:00:00",
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1964-01-23 00:00:00",
+          "release_date": "1964-01-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Released after two days without bail. Juvenile hearing February 5, 1964; subsequent good-behavior release. Exact January release day unverified.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-09-11 22:49:53",
+          "updated_at": "2026-09-11 22:49:53",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "charges": "Alleged violation of a juvenile court restriction on civil-rights activity",
+        "arrest_date": "1964-02-28 00:00:00",
+        "incarceration_date": "1964-02-28 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "sentence": "Arrested outside the Canton Freedom House on February 28, 1964 and held in the county jail through a March 6 juvenile hearing, according to CORE field secretary Edward S. Hollander. His March 9 report says local staff believed Esco had been released but had not verified the hearing outcome. No exact release date or final sentence is established."
+      },
+      "rationale": "Hollander March 9, 1964 field report, page 1, explicitly dates February 28 arrest and county-jail confinement through March 6 hearing. Original scan inspected. A separate case is necessary because this followed the January leaflet arrest and court restriction. Unconfirmed belief that he was out is not treated as a verified March 6 release.",
+      "sources": [
+        "https://www.crmvet.org/lets/640309_core_report.pdf",
+        "https://www.crmvet.org/docs/core/core6403.pdf"
+      ]
+    }
+  ]
+}
