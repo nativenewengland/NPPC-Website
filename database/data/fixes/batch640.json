@@ -1,0 +1,146 @@
+{
+  "batch": 640,
+  "expected_count": 3,
+  "entries": [
+    {
+      "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
+      "name": "Michael Tabor",
+      "slug": "michael-tabor",
+      "case_id": "858ad06a-ffdb-4a90-a246-2ee386ab85f0",
+      "expected": {
+        "id": "858ad06a-ffdb-4a90-a246-2ee386ab85f0",
+        "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment); fled to Algeria in February 1971 during trial.",
+        "arrest_date": "1969-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-01 00:00:00",
+        "release_date": "1971-02-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1971-02-01 00:00:00",
+        "end_of_exile": "2010-10-17 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held about twenty-two months before release on bail. Fled to Algeria in February 1971; acquitted in absentia with the other Panther 21 defendants on May 13, 1971. Later settled in Zambia and remained abroad until his death on October 17, 2010.",
+        "imprisoned_for_days": 677,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-09-26 21:21:41",
+        "date_precision": "{\"in_exile_since\":\"month\",\"end_of_exile\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-02 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1970-08-01 00:00:00",
+        "convicted": "No — acquitted in absentia, May 13, 1971",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\",\"in_exile_since\":\"month\",\"end_of_exile\":\"day\"}",
+        "sentence": "Pretrial detention beginning April 2, 1969; released on $50,000 bail in August 1970, as reported in The Black Panther, January 2, 1971, page 2. That report also documents a separate remand on December 29, 1970. The exact later bail-release date remains unverified, but Tabor was free before failing to appear on February 8, 1971. His February 1971 flight is not a prison-release date. Acquitted in absentia May 13, 1971; later exile information is preserved."
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/05%20no%2027%201-11%20jan%202%201971.pdf",
+        "https://sites.google.com/brown.edu/songsofacagedbird/about-the-story",
+        "https://www.casemine.com/judgement/us/5914c76dadd7b049347e29db",
+        "https://en.wikipedia.org/wiki/Michael_Tabor_%28activist%29"
+      ],
+      "rationale": "Replace false continuous April1969-February1971 custody with the initial interval ending August1970; contemporary party paper directly establishes bail interruption. Later remand will be recorded separately; no false exact total."
+    },
+    {
+      "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
+      "name": "Michael Tabor",
+      "slug": "michael-tabor",
+      "case_id": "ac33f172-4858-417f-8c0b-1c609ad5910b",
+      "expected": {
+        "id": "ac33f172-4858-417f-8c0b-1c609ad5910b",
+        "prisoner_id": "151781f1-8487-488e-8853-c0aa5850aac9",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "Conspiracy to bomb police stations, department stores and the New York Botanical Garden",
+        "arrest_date": "1969-04-02 00:00:00",
+        "indicted": null,
+        "convicted": "Jumped bail; charges ultimately dismissed after co-defendants' acquittal",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-12 13:21:52",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "No — acquitted in absentia, May 13, 1971"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/05%20no%2027%201-11%20jan%202%201971.pdf",
+        "https://sites.google.com/brown.edu/songsofacagedbird/about-the-story",
+        "https://www.casemine.com/judgement/us/5914c76dadd7b049347e29db",
+        "https://en.wikipedia.org/wiki/Michael_Tabor_%28activist%29"
+      ],
+      "rationale": "Correct duplicate case disposition; records refer to the same prosecution, not later dismissal. Do not add duplicate custody dates."
+    },
+    {
+      "prisoner_id": "836a246b-d9a6-4f97-9c94-5bd2bb1cfef3",
+      "name": "Joan Bird",
+      "slug": "joan-bird",
+      "case_id": "e6ce8543-8d16-4fea-9c4a-a0cad44b3f6f",
+      "expected": {
+        "id": "e6ce8543-8d16-4fea-9c4a-a0cad44b3f6f",
+        "prisoner_id": "836a246b-d9a6-4f97-9c94-5bd2bb1cfef3",
+        "institution_id": "c9293221-454b-4f1c-a39b-c946957f5a41",
+        "charges": "New York state attempted murder (Jan 17, 1969 Harlem police-shootout incident) and Panther 21 conspiracy counts (April 2, 1969 indictment).",
+        "arrest_date": "1969-01-16 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-01-16 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2 years pretrial detention at the Womens House of Detention; acquitted by jury, May 13, 1971.\n\nVerdict as recorded: No - acquitted by jury, New York Supreme Court, May 13, 1971",
+        "imprisoned_for_days": 846,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-01-17 00:00:00",
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1970-07-07 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Initially arrested January 17, 1969 in the Harlem incident; earlier custody and bail breaks are not included in this measured interval. This interval covers the Panther 21 detention from April 2, 1969 to July 7, 1970. NYU archives identify photographs of Bird leaving the Women's House of Detention on July 7, corroborating the dated release reported in The Spokeswoman. A Fifth Estate report instead says the fundraising effort paid off July 6; the actual exit date is supported by the photographic record. Bird was remanded again on February 8, 1971, as established by People ex rel. Bird v. Behagen; that later stay is separate. Acquitted May 13, 1971."
+      },
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/26c37d74-c0ac-4baf-84ca-a4eb4f31a303/united-states-v-caldwell-brief-amius-curiae",
+        "https://findingaids.library.nyu.edu/tamwag/photos_223_001/contents/aspace_ref12105/",
+        "https://www.bibliotechecivichepadova.it/sites/default/files/opera/documenti/sezione-6-serie-10-294.pdf",
+        "https://www.fifthestate.org/archive/109-july-9-22-1970/who-is-joan-bird/",
+        "https://law.counselstack.com/opinion/people-ex-rel-bird-v-behagen-nysupct-1971",
+        "https://sites.google.com/brown.edu/songsofacagedbird/about-the-story"
+      ],
+      "rationale": "Separate documented detention from bail freedom. January17 arrest independently in contemporary litigation appendix. April2-April1969 custody corroborated by archival party newspaper and Brown University history. July7 actual prison exit documented in NYU photograph archive; February8 recommitment is a different interval."
+    }
+  ]
+}
