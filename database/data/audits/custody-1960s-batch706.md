@@ -26,3 +26,7 @@ Individual custody testimony corroborates imprisonment following the recorded ar
 
 - https://www.smithsonianmag.com/history/the-freedom-riders-then-and-now-45351758/
 - https://crdl.usg.edu/people/thompson_jean_c_jean_catherine_1942
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
