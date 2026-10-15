@@ -14,4 +14,4 @@ Edward Yellin: DOJ US Attorneys Bulletin printedp201 explicitly dates sentence M
 https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0807.pdf
 https://www.marxists.org/history/usa/pubs/national-guardian/1960-03-21-12-23-nat-guardian.pdf
 
-Deployment pending.
+Live verified: three updates; isolated fixture and conflict guard passed; all unrelated fields preserved and replay zero. Public pages HTTP200 with Jan10,1961 / Dec2,1960 / Mar11,1960 sentencing labels respectively. No unsupported incarceration counters created.

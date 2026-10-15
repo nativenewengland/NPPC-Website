@@ -1,0 +1,91 @@
+{
+  "batch": 610,
+  "expected_count": 2,
+  "entries": [
+    {
+      "prisoner_id": "ec4bbbe7-1e06-479b-9f12-7d245a869f7c",
+      "name": "Sekou Odinga",
+      "slug": "sekou-odinga",
+      "case_id": "eb366557-25cf-4ea4-812f-4057d6f6529f",
+      "expected": {
+        "id": "eb366557-25cf-4ea4-812f-4057d6f6529f",
+        "prisoner_id": "ec4bbbe7-1e06-479b-9f12-7d245a869f7c",
+        "institution_id": null,
+        "charges": "New York state attempted-murder case arising from the October1981 police confrontation; distinct from the federal RICO prosecution",
+        "arrest_date": "1981-10-23 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1981-10-23 00:00:00",
+        "release_date": "2014-11-25 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "2014-11-25 00:00:00",
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The state25years-to-life sentence is distinguished from the federal40year RICO term and fines. Existing October23,1981 initial-custody date is retained, not newly characterized as state-prison receipt. Supporter release announcement and firsthand reporting of the2015welcome-home event both give November25,2014 parole release, correcting November24. Parole is not exile; erroneous release-as-exile field cleared without changing the separate1970s exile row. Exact state formal sentence/admission and custody-transfer dates remain unresolved. No12085day uninterrupted state-prison counter retained across mixed federal/state custody.",
+        "imprisoned_for_days": 12086,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-13 00:00:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"in_exile_since\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": null,
+        "in_exile_for_days": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://africainharlem.nyc/en/american-activist-sekou-odinga-welcomed-harlem-open-arms-le-militant-americain-sekou-odinga-accueilli-bras-ouverts-harlem/"
+      ],
+      "reason": "Firsthand welcome-home reporting confirms November25,2014 release and subsequent Harlem welcome. Clear recurring false release-as-exile field on 1981 state case; preserve separate1970-1973 exile row and all custody dates. Existing sentence text already says this field was cleared. Model saving hook can regenerate it when historical in_exile profile flag is set; raw guarded update avoids that hook, but future model saves remain a recurrence risk."
+    },
+    {
+      "prisoner_id": "b156eed1-96b8-4dc1-a330-36642b200d23",
+      "name": "Sam Melville",
+      "slug": "sam-melville",
+      "case_id": "fb7d4117-e223-4aca-ba8f-79bd7a204451",
+      "expected": {
+        "id": "fb7d4117-e223-4aca-ba8f-79bd7a204451",
+        "prisoner_id": "b156eed1-96b8-4dc1-a330-36642b200d23",
+        "institution_id": "138b0801-2907-4f4a-ba3f-042b81842add",
+        "charges": "Federal bombing and sabotage - 1969 New York City bombings of corporate and military targets",
+        "arrest_date": "1969-11-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-11-11 00:00:00",
+        "release_date": "1971-09-13 00:00:00",
+        "death_in_custody_date": "1971-09-13 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "18 years federal prison; killed in the September 13, 1971 New York State Police retaking of Attica\n\nVerdict as recorded: Yes - federal guilty plea, U.S. District Court for the Southern District of New York, 1970",
+        "imprisoned_for_days": 671,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-11-12 00:00:00",
+        "incarceration_date": "1969-11-12 00:00:00"
+      },
+      "sources": [
+        "https://www.leagle.com/decision/19701054309fsupp7451904",
+        "https://openjurist.org/309/fsupp/829/united-states-v-melville",
+        "https://archives.law.virginia.edu/dengrove/writeup/antiestablishment-bomber-patricia-swinton-acquitted"
+      ],
+      "reason": "Contemporary federal opinions establish November12,1969 arrest and FBI custody through November13. Correct one-day error; preserve September13,1971 death-in-custody field and matching release endpoint used by the application."
+    }
+  ]
+}
