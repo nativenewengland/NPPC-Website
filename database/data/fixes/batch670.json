@@ -1,0 +1,90 @@
+{
+  "batch": 670,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Walter Irvin",
+      "slug": "walter-irvin",
+      "prisoner_id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
+      "case_id": "940440b7-73f8-45ba-a57b-14355f6e3514",
+      "expected": {
+        "id": "940440b7-73f8-45ba-a57b-14355f6e3514",
+        "prisoner_id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
+        "institution_id": "1b759d9a-2f30-47d0-859c-c766d2b25a63",
+        "charges": "Florida state rape (alleged).",
+        "arrest_date": "1949-07-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-09-14 00:00:00",
+        "incarceration_date": "1949-09-14 00:00:00",
+        "release_date": "1968-06-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Jesse Hunter",
+        "judge": "Hon. Truman G. Futch",
+        "sentence": "Death (commuted to life 1955); paroled 1968",
+        "imprisoned_for_days": 6848,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1968-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "rationale": "Orlando Magazine family-interview feature explicitly dates parole to January1968. Reconcile both duplicate case rows at month precision; no January1 exact date asserted. June14 contradicts documented month.",
+      "sources": [
+        "https://www.orlandomagazine.com/committed-to-memory/?amp=1",
+        "https://www.rpptl.org/uploads/2015%20CLSC%20Report%20Devil%20in%20the%20Grove%20150704.pdf"
+      ]
+    },
+    {
+      "name": "Walter Irvin",
+      "slug": "walter-irvin",
+      "prisoner_id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
+      "case_id": "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5",
+      "expected": {
+        "id": "fa2d8c7d-9478-40cc-ba7c-08394e19b7b5",
+        "prisoner_id": "9ced0d8f-49b1-4025-862c-26192b5faf1c",
+        "institution_id": null,
+        "charges": "Rape of a white woman in Groveland, Florida (1949).",
+        "arrest_date": "1949-07-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-09-01 00:00:00",
+        "incarceration_date": "1949-07-01 00:00:00",
+        "release_date": "1968-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death, later commuted to life; paroled 1968. Shot and wounded by Sheriff McCall while handcuffed in 1951.\n\nVerdict as recorded: Convicted and sentenced to death; conviction reversed by the Supreme Court (1951), reconvicted at retrial; death sentence commuted to life.\n\nCharges as recorded: Rape of a white woman in Groveland, Florida (1949) — a capital conviction by an all-white jury on coerced confessions, the Civil Rights Congress's emblematic racial frame-up.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 21:40:23",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"month\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1968-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "rationale": "Orlando Magazine family-interview feature explicitly dates parole to January1968. Reconcile both duplicate case rows at month precision; no January1 exact date asserted. June14 contradicts documented month.",
+      "sources": [
+        "https://www.orlandomagazine.com/committed-to-memory/?amp=1",
+        "https://www.rpptl.org/uploads/2015%20CLSC%20Report%20Devil%20in%20the%20Grove%20150704.pdf"
+      ]
+    }
+  ]
+}
