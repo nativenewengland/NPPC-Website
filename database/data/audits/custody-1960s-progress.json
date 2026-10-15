@@ -3,15 +3,15 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 257,
-  "case_records_changed_or_added": 330,
+  "changed_profiles": 258,
+  "case_records_changed_or_added": 331,
   "status_counts": {
-    "partially-corrected-live": 257,
-    "reviewed-selected-case-no-change": 16,
-    "not-yet-researched": 1098,
+    "partially-corrected-live": 258,
+    "reviewed-selected-case-no-change": 17,
+    "not-yet-researched": 1095,
     "research-incomplete": 5,
-    "outside-decade-statute-match": 14,
-    "researched-unresolved": 37
+    "researched-unresolved": 38,
+    "outside-decade-statute-match": 14
   },
   "decade_complete": false,
   "rows": [
@@ -226,9 +226,9 @@
       "gap_case_ids": [
         "cbe50a85-f818-4e77-bee0-f252af6666d7"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Existingmalecki-custody.json alreadyrecordsNov11,1969-March1972 withcontemporarysources. Later27monthrecollection doesnotjustifyoverwritingstrongerendpoints."
     },
     {
       "prisoner_id": "b23b69aa-418e-4bee-91ec-e58e89778628",
@@ -320,9 +320,13 @@
       "gap_case_ids": [
         "14497f96-1b72-487e-940b-7830f391b434"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Court417F2d1009 reports custodialstudycommitment; laterCNS2020interview reports probation. No exact admission/discharge established. Probationlengthconflicts3vs5years; retained pendingjudgment.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/417/1009/190524/",
+        "https://thecentralminnesotacatholic.org/catholic-who-was-60s-peace-activist-reflects-on-floyds-death-aftermath/"
+      ]
     },
     {
       "prisoner_id": "bb825e1f-d8e6-4977-a71b-384fedd8e01e",
@@ -538,9 +542,11 @@
       "gap_case_ids": [
         "88ebcd92-0dad-4b85-a81e-212dd933192b"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        648
+      ],
+      "note": "SentencingSeptember17,1962 verified contemporaryMilitantDecember10p8 and addedlive. Physicalcustody endpoints remain unresolved; appealbond documented."
     },
     {
       "prisoner_id": "288f5bb0-ee9b-403b-b890-885e4fa4064a",
