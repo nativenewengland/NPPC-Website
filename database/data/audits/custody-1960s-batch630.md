@@ -4,4 +4,4 @@ MDAH Department of Public Safety Commissioner files, Katherine Pleune arrest fil
 
 Sources: https://da.mdah.ms.gov/series/dps/series2985/detail/1061989 and https://da.mdah.ms.gov/series-files/dps/s2985/pdf/173108-02-001.pdf
 
-Deployment pending.
+Applied live; isolated fixture, preview, full preservation checks, zero-change replay and both public pages verified. June displays at month precision; no unsupported duration counter.
