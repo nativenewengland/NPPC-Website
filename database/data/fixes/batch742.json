@@ -1,0 +1,55 @@
+{
+  "batch": 742,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Stew Albert",
+      "slug": "stew-albert",
+      "prisoner_id": "850b4ee8-ad9b-47fc-a8a9-d942ef21a2b3",
+      "case_id": "974555bf-969d-4043-a667-4a618d69df82",
+      "expected_cases": [
+        {
+          "id": "40b30d86-1809-4ccb-9357-1d6866615d1b",
+          "prisoner_id": "850b4ee8-ad9b-47fc-a8a9-d942ef21a2b3",
+          "institution_id": null,
+          "charges": "Anti-draft / anti-war protest",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "Jailed during the Vietnam Day Committee anti-draft protests (1965-66)",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Incarceration during the Oakland anti-draft protests\n\nCharges as recorded: Anti-draft / anti-war protest — the Vietnam Day Committee demonstrations, Oakland, California",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-06-18 01:17:01",
+          "updated_at": "2026-07-29 17:12:20",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "charges": "Local convictions (combined sentence service)",
+        "incarceration_date": "1969-08-01 00:00:00",
+        "release_date": "1969-10-04 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Served combined local sentences at Alameda County Rehabilitation Center, Santa Rita, beginning August 1, 1969; released October 4, 1969 with early-release credit. The contemporaneous FBI file says the sentences concerned offenses on three separate dates. This entry records that combined custody period, not a separate additional term for each offense. The existing undated 1965–66 protest record is preserved.",
+        "convicted": "Yes — local convictions"
+      },
+      "rationale": "FBI file 105-89231 section 2 part 2 page 17 confirms August 1, 1969 admission for sentences arising from three offense dates; section 3 page 16 explicitly records October 4, 1969 release. These are actual endpoints, not sentence arithmetic. Existing generic 1965–66 case is not overwritten.",
+      "sources": [
+        "https://judygumbo.com/wp-content/uploads/2022/06/9231-2-2.pdf",
+        "https://judygumbo.com/fbi-files/9231-3.pdf",
+        "https://judygumbo.com/fbi/"
+      ]
+    }
+  ]
+}
