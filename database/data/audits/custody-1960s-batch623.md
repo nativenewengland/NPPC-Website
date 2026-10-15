@@ -34,4 +34,4 @@ https://www.casemine.com/judgement/us/5914c28dadd7b049347c0796
 
 https://digitalcollections.ric.edu/record/5532/files/wn2004_04_21.pdf
 
-No biographies or unrelated fields changed. Deployment pending.
+No biographies or unrelated fields changed. Applied live; isolated fixture asserted 6689 and 5272 days, preview, preservation, and zero-change replay passed. Public counters verified: Carter 18 Years 3 Months 28 Days; Artis 14 Years 5 Months 10 Days. Both separate intervals are displayed.

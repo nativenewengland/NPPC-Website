@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 220,
-  "case_records_changed_or_added": 278,
+  "changed_profiles": 222,
+  "case_records_changed_or_added": 280,
   "status_counts": {
-    "not-yet-researched": 1132,
-    "partially-corrected-live": 220,
+    "not-yet-researched": 1130,
+    "partially-corrected-live": 222,
     "research-incomplete": 5,
     "reviewed-selected-case-no-change": 13,
     "outside-decade-statute-match": 14,
@@ -2734,9 +2734,11 @@
       "gap_case_ids": [
         "fe2a0cce-c963-4bdd-b9ef-51f540e54075"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        623
+      ],
+      "note": "Batch 623: two verified custody periods applied; 1976 bail excluded. Public counters and all unrelated fields verified. Sentencing-day discrepancy remains unresolved."
     },
     {
       "prisoner_id": "1597c1f6-7b29-49f9-a936-8136ec3e9ba9",
@@ -2748,9 +2750,11 @@
       "gap_case_ids": [
         "46665499-858d-4357-afac-c9517cc1d289"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        623
+      ],
+      "note": "Batch 623: two verified custody periods applied; 1976 bail excluded. Public counters and all unrelated fields verified. Sentencing-day discrepancy remains unresolved."
     },
     {
       "prisoner_id": "332473d1-64f5-483f-95f8-cf812d357a6e",
