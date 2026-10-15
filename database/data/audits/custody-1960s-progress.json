@@ -3,14 +3,14 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 306,
-  "case_records_changed_or_added": 385,
+  "changed_profiles": 308,
+  "case_records_changed_or_added": 387,
   "status_counts": {
-    "partially-corrected-live": 306,
+    "partially-corrected-live": 308,
     "reviewed-selected-case-no-change": 23,
-    "not-yet-researched": 1023,
+    "not-yet-researched": 1019,
     "research-incomplete": 6,
-    "researched-unresolved": 53,
+    "researched-unresolved": 55,
     "outside-decade-custody": 2,
     "outside-decade-statute-match": 14
   },
@@ -1880,9 +1880,9 @@
       "gap_case_ids": [
         "86578ea1-ba01-4143-9097-5d2224c3e1e9"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Batch669 sources confirm existing arrest/sentence; continuous custody endpoints remain unresolved. No inferred dates added."
     },
     {
       "prisoner_id": "22d787a2-78f3-43f0-b99f-636c75099f87",
@@ -2594,9 +2594,9 @@
       "gap_case_ids": [
         "a8194c07-3891-4424-b067-e11a8b2a12f5"
       ],
-      "status": "not-yet-researched",
+      "status": "researched-unresolved",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Batch669 sources confirm existing arrest/sentence; continuous custody endpoints remain unresolved. No inferred dates added."
     },
     {
       "prisoner_id": "566b92a5-6d6d-462f-80a2-9ecdea312263",
@@ -2806,9 +2806,11 @@
       "gap_case_ids": [
         "772c1fe0-078f-4563-b8a4-a22ee2cb6734"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        669
+      ],
+      "note": "Retired FBI investigator congressional testimony, printed p33, dates arrest within two days after November23,1962 and sentence February15,1963. Store arrest month only; no exact arrest day or admission inferred."
     },
     {
       "prisoner_id": "6e817118-39e9-4dfc-a859-5f4debbf3d6c",
@@ -2852,9 +2854,11 @@
       "gap_case_ids": [
         "fb854ab6-f9ce-4ac2-847f-19c22e4c72f7"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        669
+      ],
+      "note": "UVA archival account distinguishes five years hiding from custody; Second Circuit Hughey opinion dates acquittal. Remove unsupported60month time-served entry and duplicated editorial notes; do not equate acquittal with release."
     },
     {
       "prisoner_id": "7872ef21-1227-4210-9d47-d9c397295cc1",
