@@ -1,0 +1,52 @@
+{
+  "batch": 649,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Frank Big Black Smith",
+      "slug": "frank-big-black-smith",
+      "prisoner_id": "86803275-0ea3-440d-9b40-d796e9757a2f",
+      "case_id": "a0d3ac0d-f948-4ba8-85b2-6d7640701307",
+      "expected": {
+        "id": "a0d3ac0d-f948-4ba8-85b2-6d7640701307",
+        "prisoner_id": "86803275-0ea3-440d-9b40-d796e9757a2f",
+        "institution_id": "138b0801-2907-4f4a-ba3f-042b81842add",
+        "charges": "Underlying NYC dice-game robbery (10-15 yrs); central organizer of the September 9-13, 1971 Attica rebellion; tortured by guards in the aftermath",
+        "arrest_date": "1965-04-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1965-04-14 00:00:00",
+        "release_date": "1973-10-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "10-15 years; paroled 1973 after 8.5 years\n\nVerdict as recorded: Yes - New York state robbery conviction",
+        "imprisoned_for_days": 3105,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1965-03-01 00:00:00",
+        "incarceration_date": "1965-03-01 00:00:00",
+        "release_date": "1973-08-01 00:00:00",
+        "sentenced_date": "1966-04-11 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "sentence": "Sentenced to 10-15 years on April 11, 1966, as recorded in Smith v. Regan, 583 F.2d 72. His account preserved in New York State Archives describes continuous detention from March 1965 until release in August 1973, including pretrial custody and transfers. Exact booking and release days remain unresolved. The former April 14, 1965 and October 14, 1973 endpoints were unsupported."
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/583/72/189852/",
+        "https://digitalcollections.archives.nysed.gov/media/collectiveaccess/images/1/0/6/5/92422_ca_object_representations_media_106586_original.pdf"
+      ],
+      "rationale": "Archive physicalPDF20-21 gives March1965 and August1973. Court gives sentencingApril11,1966; arrest paragraph prints1975 despite1965trial, so do not infer exactMarch10. Preservebiography/othercase."
+    }
+  ]
+}
