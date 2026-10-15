@@ -13,4 +13,4 @@ https://snccdigital.org/events/sncc-leaves-mccomb/
 https://sgsnow.wordpress.com/wp-content/uploads/2008/12/the-making-of-black-revolutionaries.pdf
 https://irma.nps.gov/DataStore/DownloadFile/707793
 
-Deployment pending.
+Applied live; isolated fixture, full preservation comparison, zero-change replay passed. Public HTTP 200 and supported dates verified. Evidence: tmp/custody-1960s-audit/569-before.json, 569-after.json, 569-fixture.txt, 569-replay.txt and 569-public.json.

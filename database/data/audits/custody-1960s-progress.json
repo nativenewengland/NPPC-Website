@@ -3,11 +3,11 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 112,
-  "case_records_changed_or_added": 135,
+  "changed_profiles": 116,
+  "case_records_changed_or_added": 142,
   "status_counts": {
-    "not-yet-researched": 1243,
-    "partially-corrected-live": 112,
+    "not-yet-researched": 1239,
+    "partially-corrected-live": 116,
     "research-incomplete": 6,
     "reviewed-selected-case-no-change": 8,
     "outside-decade-statute-match": 14,
@@ -784,9 +784,12 @@
         "d6c363cc-e2e6-482f-b9d5-a6633d2e263c"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        569,
+        570
+      ],
+      "note": "Applied through batch 570; see audits for separate custody episodes and unresolved exact endpoints. Profiles and unrelated case fields preserved."
     },
     {
       "prisoner_id": "0f7f9fa8-9943-40f7-93ac-68cd5561fe46",
@@ -3743,9 +3746,12 @@
       "gap_case_ids": [
         "90d8d9f1-064b-4328-95d0-51c064fa4fef"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        569,
+        571
+      ],
+      "note": "Applied through batch 571; see audits for separate custody episodes and unresolved exact endpoints. Profiles and unrelated case fields preserved."
     },
     {
       "prisoner_id": "8f96c23f-56e5-4daa-826c-df613ff2cfed",
@@ -4042,9 +4048,12 @@
       "gap_case_ids": [
         "28e6b557-5476-41c1-b13c-e855724f2de8"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        570,
+        571
+      ],
+      "note": "Applied through batch 571; see audits for separate custody episodes and unresolved exact endpoints. Profiles and unrelated case fields preserved."
     },
     {
       "prisoner_id": "657a4328-4170-49ea-ac92-0f0cc30c7a58",
@@ -7841,9 +7850,11 @@
       "gap_case_ids": [
         "29bba8c7-10f0-4d59-bf00-fd92a8895376"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        569
+      ],
+      "note": "Applied through batch 569; see audits for separate custody episodes and unresolved exact endpoints. Profiles and unrelated case fields preserved."
     },
     {
       "prisoner_id": "c7214ade-f2ec-4230-9ff9-0d2d42bdd6a8",

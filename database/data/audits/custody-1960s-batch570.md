@@ -8,4 +8,4 @@ https://sgsnow.wordpress.com/wp-content/uploads/2008/12/the-making-of-black-revo
 https://snccdigital.org/events/sncc-leaves-mccomb/
 https://www.crmvet.org/info/700100_moses_liberation.pdf
 
-Deployment pending.
+Applied live; isolated fixture, full preservation comparison, zero-change replay passed. Public HTTP 200 and supported dates verified. Evidence: tmp/custody-1960s-audit/570-before.json, 570-after.json, 570-fixture.txt, 570-replay.txt and 570-public.json.

@@ -5,4 +5,4 @@ Mississippi Free Press March 10, 1962 p1 explicitly dates arrest February 18 and
 https://www.crmvet.org/docs/mfp/620310_mfp.pdf
 https://digitalcoll.skidmore.edu/record/806/files/0_complete_object.pdf
 
-Deployment pending.
+Applied live; isolated fixture, full preservation comparison, zero-change replay passed. Public HTTP 200 and supported dates verified. Evidence: tmp/custody-1960s-audit/571-before.json, 571-after.json, 571-fixture.txt, 571-replay.txt and 571-public.json.
