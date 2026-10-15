@@ -14,3 +14,7 @@ First-person Mi Libro explicitly immediate sentence and handcuffing May30,1973; 
 https://medium.com/@yoruba69/mi-libro-f895f07f7cdb
 https://medium.com/@yoruba69/brother-ray-a6d2bdfa9f96
 https://www.govinfo.gov/content/pkg/CPRT-94SPRT66094/pdf/CPRT-94SPRT66094.pdf
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

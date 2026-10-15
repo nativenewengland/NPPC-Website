@@ -18,3 +18,7 @@ AP Oregon Statesman August31,1963 p2 says Skinner returned earlier this month. U
 
 https://oregonnews.uoregon.edu/lccn/sn85042470/1963-08-31/ed-1/seq-2/ocr/
 https://ufdcimages.uflib.ufl.edu/AA/00/06/15/88/02166/08-17-1963.pdf
+
+## Live verification
+
+Applied 3 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

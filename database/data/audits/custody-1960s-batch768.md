@@ -48,3 +48,7 @@ https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-12-20-black-pant
 December20,1969 BlackPanther pp10–11 individually identifies participant in December8 raid and subsequent jail custody. Original scan verified. Release and duration unresolved.
 
 https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-12-20-black-panther-vol-4-no-3.pdf
+
+## Live verification
+
+Applied 8 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
