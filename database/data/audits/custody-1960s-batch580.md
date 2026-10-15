@@ -33,4 +33,4 @@ https://www.crmvet.org/nars/sheviakov-fr.pdf
 https://studylib.net/doc/8428782/appendix--roster-of-freedom-riders
 https://www.crmvet.org/nars/sheviakov_2020.pdf
 
-No biographies changed. Deployment pending.
+No biographies changed. Applied live. Isolated fixture, full-snapshot guards, preservation hashes, zero-change replay and all eight public pages verified. Pabel displays 2 Days; uncertain-duration counters remain absent.
