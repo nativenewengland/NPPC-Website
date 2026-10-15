@@ -16,4 +16,4 @@ Ralph Abernathy: Stanford establishes June 11 restaurant arrest with King. SCLC 
 https://kinginstitute.stanford.edu/st-augustine-florida
 https://www.crmvet.org/docs/sclc/6406_sclc_newsletter.pdf
 
-Deployment pending. All biographies preserved.
+Applied live: five date additions, all unrelated fields preserved, replay zero changes. Public HTTP 200 pages explicitly checked for each of the five added date labels. All biographies preserved.
