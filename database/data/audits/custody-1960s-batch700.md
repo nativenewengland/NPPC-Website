@@ -7,3 +7,7 @@ No numeric duration invented from fractional/rounded months. Biographies and oth
 - https://www.fermentmagazine.org/photobiography/pictures
 - https://www.fermentmagazine.org/bio/Hitch1973.pdf
 - https://www.thenation.com/article/society/letters-434/
+
+## Live verification
+
+Applied 1 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

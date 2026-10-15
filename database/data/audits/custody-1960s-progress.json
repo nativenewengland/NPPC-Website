@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 372,
-  "case_records_changed_or_added": 463,
+  "changed_profiles": 373,
+  "case_records_changed_or_added": 464,
   "status_counts": {
-    "partially-corrected-live": 372,
+    "partially-corrected-live": 373,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 927,
+    "not-yet-researched": 926,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -7204,9 +7204,11 @@
       "gap_case_ids": [
         "0ce05664-4307-44b9-91cb-9c8631d003a9"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        700
+      ],
+      "note": "Personal photographic autobiography explicitly identifies August-December 1972 federal custody. His first-person Hitch-hiking account independently specifies December 1972 release and four-and-a-half months after good time. Do not convert rounded months to exact days, infer arrest from the November 1965 protest, or treat appellate proceedings as continuous imprisonment."
     },
     {
       "prisoner_id": "c4f5fd26-be7c-43f5-9c3d-ba5c6fc21472",
