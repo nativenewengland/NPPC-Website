@@ -13,3 +13,7 @@ https://newspapers.swco.ttu.edu/server/api/core/bitstreams/7457fbc2-2216-4cad-a1
 https://law.justia.com/cases/new-jersey/appellate-division-published/1968/104-n-j-super-57-0.html
 
 January 5, 1968 AP article visually checked in original newspaper. Its erroneous June 13 arrest reference is rejected in favor of the contemporaneous July 1967 statement and primary appellate court July 14 chronology. No biographies or race fields changed.
+
+## Live verification
+
+Applied 2 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.
