@@ -1,0 +1,63 @@
+{
+  "batch": 637,
+  "expected_count": 1,
+  "entries": [
+    {
+      "prisoner_id": "21a19cff-95f8-41b9-a54e-eca7c97c4f10",
+      "name": "Hank Adams",
+      "slug": "hank-adams",
+      "case_id": "9ed6f341-99cc-5d78-af55-298c63c1c56b",
+      "expected_cases": [
+        {
+          "id": "e6e61d35-d0d9-479d-9517-10b88ef6a4e2",
+          "prisoner_id": "21a19cff-95f8-41b9-a54e-eca7c97c4f10",
+          "institution_id": "2b2d1ca1-344a-4909-8359-bfbe7ae5b2f7",
+          "charges": "Fishing-rights protest arrest during the September 1968 Nisqually River fish-ins.",
+          "arrest_date": "1968-09-01 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1968-09-01 00:00:00",
+          "release_date": "1968-09-01 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Arrested during the first days of the September 1968 fish-in campaign and released on bail by September 13, 1968. The exact arrest and bail-release days, and the eventual disposition of this individual arrest, remain unresolved. He faced other fishing-rights arrests between 1968 and 1971; those are not represented as one continuous term. A separate 30-day sentence beginning in January 1972 is documented in the Washington Secretary of State biography.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-10-15 05:44:47",
+          "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "id": "9ed6f341-99cc-5d78-af55-298c63c1c56b",
+        "prisoner_id": "21a19cff-95f8-41b9-a54e-eca7c97c4f10",
+        "institution_id": "2b2d1ca1-344a-4909-8359-bfbe7ae5b2f7",
+        "charges": "Fishing-rights protest conviction — separate January 1972 sentence-service episode following the 1968 prosecution",
+        "arrest_date": null,
+        "incarceration_date": "1972-01-01 00:00:00",
+        "release_date": null,
+        "convicted": "Yes — fishing conviction; appellate court upheld count 1 and reversed count 2",
+        "sentenced_date": null,
+        "sentence": "Began serving a 30-day sentence at Thurston County Jail in mid-January 1972, as documented by the Washington Secretary of State biography. Exact admission and release days and actual total served remain unverified; the sentence length is not treated as a verified time-served total. The underlying September 1968 fishing prosecution was partly affirmed and partly reversed on appeal in December 1970. The September 1968 bail period is recorded separately, avoiding a false continuous 1968–1972 imprisonment.",
+        "date_precision": {
+          "incarceration_date": "month"
+        },
+        "documented_imprisoned_for_days": null
+      },
+      "expected_days": null,
+      "rationale": "WA official biography p14 explicitly documents actual sentence service beginning midJanuary1972. Separate term absent from existing September1968bail case. Do not infer release from a30day sentence.",
+      "sources": [
+        "https://www2.sos.wa.gov/_assets/legacy/who-are-we/hank-adams-pdf.pdf",
+        "https://law.justia.com/cases/washington/court-of-appeals/1970/3-wash-app-849.html"
+      ]
+    }
+  ]
+}
