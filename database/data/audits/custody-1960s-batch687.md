@@ -29,3 +29,7 @@ UW project confirms April 4 detention at bond hearing; HistoryLink dates release
 - https://historylink.org/File/1515
 
 Biographies and unrelated fields preserved. Seattle post-sentencing custody remains unresolved.
+
+## Live verification
+
+Applied 4 guarded case updates. All profile fields and unrelated case fields preserved. Replay changed zero records. Public profiles returned HTTP 200 and corrected fields were checked.

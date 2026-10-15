@@ -1,0 +1,93 @@
+{
+  "batch": 688,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Ronald Satchel",
+      "slug": "ronald-satchel",
+      "prisoner_id": "8a9b38b3-d634-4105-8752-d5c51f03e62e",
+      "case_id": "2d6a3f9d-376b-4745-82da-90b1036a10ac",
+      "expected": {
+        "id": "2d6a3f9d-376b-4745-82da-90b1036a10ac",
+        "prisoner_id": "8a9b38b3-d634-4105-8752-d5c51f03e62e",
+        "institution_id": null,
+        "charges": "Attempted murder; weapons charges (indicted, later dropped)",
+        "arrest_date": "1969-12-04 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1970-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Shot four times but survived the Dec 4, 1969 police raid on Fred Hampton's apartment. Attempted-murder and weapons indictments against him were dropped after falsified police lab evidence was exposed; he became a plaintiff in the $47.7 million civil-rights suit.\n\nVerdict as recorded: No \u2014 attempted-murder and weapons indictments dropped after police lab evidence was shown to be falsified",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-14 00:00:39",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-12-04 00:00:00",
+        "release_date": "1969-12-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Wounded and taken into custody following the December 4, 1969 raid on the Chicago apartment where Fred Hampton and Mark Clark were killed. Released on $25,000 bond December 15, 1969, according to the same-day FBI teletype recording Chicago police information. The later dismissal of the indictments in 1970 was not his custody-release date."
+      },
+      "rationale": "FBI Chicago December 15, 1969 six-page daily-summary teletype, PDF pp5-7, states Satchel was released that day on $25,000 bond. Replace unsupported 1970 release year tied to charge dismissal; add actual raid custody start.",
+      "sources": [
+        "https://vault.fbi.gov/Fred%20Hampton/Fred%20Hampton%20Part%2001/at_download/file#page=5",
+        "https://vault.fbi.gov/Fred%20Hampton/Fred%20Hampton%20Part%2001/at_download/file#page=7"
+      ]
+    },
+    {
+      "name": "Akua Njeri",
+      "slug": "akua-njeri",
+      "prisoner_id": "a6f229ce-7f56-4a43-8e4c-dd53e41926dd",
+      "case_id": "0236524a-797f-4e99-ad90-6ab48b21009b",
+      "expected": {
+        "id": "0236524a-797f-4e99-ad90-6ab48b21009b",
+        "prisoner_id": "a6f229ce-7f56-4a43-8e4c-dd53e41926dd",
+        "institution_id": null,
+        "charges": "Attempted murder and aggravated assault, brought",
+        "arrest_date": "1969-12-04 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-12-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "None served; held briefly on bail after arrest, then released\n\nVerdict as recorded: No \u2014 charges dropped in 1970 after forensic evidence discredited the state's case\n\nCharges as recorded: Attempted murder and aggravated assault, brought after the December 1969 COINTELPRO raid that killed Fred Hampton",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 15:42:40",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1969-12-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "sentence": "Detained after the December 4, 1969 raid and released during December 1969. The December 15 FBI daily summary identifies Deborah Johnson as already out of custody; the exact release day remains unverified. The indictments were dismissed later, in 1970."
+      },
+      "rationale": "December 15 FBI teletype expressly identifies Deborah Johnson as already out of custody. Combined with December 4 detention this establishes December 1969 release month, not an exact day.",
+      "sources": [
+        "https://vault.fbi.gov/Fred%20Hampton/Fred%20Hampton%20Part%2001/at_download/file#page=5",
+        "https://vault.fbi.gov/Fred%20Hampton/Fred%20Hampton%20Part%2001/at_download/file#page=7"
+      ]
+    }
+  ]
+}
