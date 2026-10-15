@@ -3,12 +3,12 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 374,
-  "case_records_changed_or_added": 465,
+  "changed_profiles": 375,
+  "case_records_changed_or_added": 466,
   "status_counts": {
-    "partially-corrected-live": 374,
+    "partially-corrected-live": 375,
     "reviewed-selected-case-no-change": 26,
-    "not-yet-researched": 925,
+    "not-yet-researched": 924,
     "research-incomplete": 28,
     "researched-unresolved": 58,
     "outside-decade-custody": 2,
@@ -6457,9 +6457,11 @@
       "gap_case_ids": [
         "a0217357-4388-4576-a2c3-952e75333db5"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        702
+      ],
+      "note": "FBI Mario Savio Part 08, Identification Record section, cites Daily Californian October 27, 1967 page 3 reporting Suzanne excused from the 45-day jail term. Seth Rosenfeld separately reports suspension to care for her chronically ill child. Remove the unsupported 45-day actual-custody total; retain arrest, conviction and profile. Do not treat the newspaper publication date as release or assert zero initial detention."
     },
     {
       "prisoner_id": "de126423-8441-44da-9c1d-1ef3460a44ff",
