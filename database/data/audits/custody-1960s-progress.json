@@ -3,13 +3,13 @@
   "snapshot_time": "2026-10-14T23:14:24+00:00",
   "profiles_in_inventory": 1419,
   "profiles_with_flagged_gaps": 1247,
-  "changed_profiles": 273,
-  "case_records_changed_or_added": 349,
+  "changed_profiles": 278,
+  "case_records_changed_or_added": 354,
   "status_counts": {
-    "partially-corrected-live": 273,
-    "reviewed-selected-case-no-change": 17,
-    "not-yet-researched": 1078,
-    "research-incomplete": 5,
+    "partially-corrected-live": 278,
+    "reviewed-selected-case-no-change": 21,
+    "not-yet-researched": 1068,
+    "research-incomplete": 6,
     "researched-unresolved": 40,
     "outside-decade-statute-match": 14
   },
@@ -1829,9 +1829,14 @@
         "84e1ce61-0f23-47b2-bb76-98a6da4fe111"
       ],
       "gap_case_ids": [],
-      "status": "not-yet-researched",
+      "status": "research-incomplete",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Individual false-statement case and separate Mine-Mill conspiracy prosecution must be distinguished. Sources establish 1955 and 1958 trials and Jan16,1961 venue reversal, but not stored June14,1959–June14,1961 custody. March1960 union report explicitly continues bail for conspiracy case. Need original individual-case custody/sentence record before replacement; current dates remain unverified.",
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/364/631/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/269/928/316251/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-01-30-13-16-nat-guardian.pdf"
+      ]
     },
     {
       "prisoner_id": "0af42bfe-406b-4bb8-aad0-a739fe97455f",
@@ -3403,9 +3408,11 @@
       "gap_case_ids": [
         "96aa7b27-212d-4120-94d8-89a8eea28192"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        657
+      ],
+      "note": "U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 explicitly dates November 7, 1963 sentences for the six retrial defendants. Scan visually verified because OCR omits the day. Supreme Court Dennis opinion identifies these five plus Maurice Travis. Refine sentencing month only; no incarceration or release date inferred."
     },
     {
       "prisoner_id": "a65afbc9-0317-4a61-9e50-56ec45f98aaf",
@@ -3417,9 +3424,11 @@
       "gap_case_ids": [
         "e87ed572-4faa-4ea7-bb1a-1099e9609b06"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        657
+      ],
+      "note": "U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 explicitly dates November 7, 1963 sentences for the six retrial defendants. Scan visually verified because OCR omits the day. Supreme Court Dennis opinion identifies these five plus Maurice Travis. Refine sentencing month only; no incarceration or release date inferred."
     },
     {
       "prisoner_id": "25dcf21a-32e8-4c9e-b55a-53546b7d18d7",
@@ -3431,9 +3440,11 @@
       "gap_case_ids": [
         "54626738-3d4f-4949-b486-867b0215b6ba"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        657
+      ],
+      "note": "U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 explicitly dates November 7, 1963 sentences for the six retrial defendants. Scan visually verified because OCR omits the day. Supreme Court Dennis opinion identifies these five plus Maurice Travis. Refine sentencing month only; no incarceration or release date inferred."
     },
     {
       "prisoner_id": "9009b1a1-5dad-4346-b449-95aa1f885d44",
@@ -3445,9 +3456,13 @@
       "gap_case_ids": [
         "7a8d8add-3db8-4058-8108-57ba80a74bcf"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "1962 appellate opinion directs dismissal as to Durkin and Powers; March 25, 1960 Dispatcher p5 confirms continued bail pending appeal. No verified incarceration endpoint to add. Existing no-imprisonment qualification preserved; 1962 reversal is not a prison release date.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/302/5/131779/",
+        "https://archive.ilwu.org/wp-content/uploads/2015/03/19600325.pdf"
+      ]
     },
     {
       "prisoner_id": "b9132544-870d-4279-a704-c846cde56edc",
@@ -3459,9 +3474,13 @@
       "gap_case_ids": [
         "3dc129fc-1061-438d-9880-4e38c7e82aa8"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "1962 appellate opinion directs dismissal as to Durkin and Powers; March 25, 1960 Dispatcher p5 confirms continued bail pending appeal. No verified incarceration endpoint to add. Existing no-imprisonment qualification preserved; 1962 reversal is not a prison release date.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/302/5/131779/",
+        "https://archive.ilwu.org/wp-content/uploads/2015/03/19600325.pdf"
+      ]
     },
     {
       "prisoner_id": "0151a8c7-7833-43cc-819f-31986458a677",
@@ -3473,9 +3492,11 @@
       "gap_case_ids": [
         "9aed765f-efbd-4fe2-8683-b51b10fb8729"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        657
+      ],
+      "note": "U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 explicitly dates November 7, 1963 sentences for the six retrial defendants. Scan visually verified because OCR omits the day. Supreme Court Dennis opinion identifies these five plus Maurice Travis. Refine sentencing month only; no incarceration or release date inferred."
     },
     {
       "prisoner_id": "8c306c5b-4524-4268-a083-aadf32adf65e",
@@ -3487,9 +3508,11 @@
       "gap_case_ids": [
         "38137a77-d596-45cd-96d2-2551db775557"
       ],
-      "status": "not-yet-researched",
-      "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "status": "partially-corrected-live",
+      "batches": [
+        657
+      ],
+      "note": "U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 explicitly dates November 7, 1963 sentences for the six retrial defendants. Scan visually verified because OCR omits the day. Supreme Court Dennis opinion identifies these five plus Maurice Travis. Refine sentencing month only; no incarceration or release date inferred."
     },
     {
       "prisoner_id": "a26a4c72-33fd-4e83-92e5-935067b429db",
@@ -3501,9 +3524,12 @@
       "gap_case_ids": [
         "a17658f5-1b9a-4a7a-b040-0b9db89fe9ee"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Justice Department U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 visually verifies February 24, 1964 three-year probation. Current case already records this and no custody counter; no new dates required.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab1205.pdf"
+      ]
     },
     {
       "prisoner_id": "b9e28d06-db3b-4d10-a465-1678f9b0201f",
@@ -3515,9 +3541,12 @@
       "gap_case_ids": [
         "119e4a03-ce6f-4c12-bcb0-35839ad08ab6"
       ],
-      "status": "not-yet-researched",
+      "status": "reviewed-selected-case-no-change",
       "batches": [],
-      "note": "Broad decade match; confirm actual case scope before editing."
+      "note": "Justice Department U.S. Attorneys Bulletin March 6, 1964, printed p125 / physical p22 visually verifies February 24, 1964 three-year probation. Current case already records this and no custody counter; no new dates required.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab1205.pdf"
+      ]
     },
     {
       "prisoner_id": "8fdac7d6-4fe8-45b6-a6eb-17c20afa23c8",
