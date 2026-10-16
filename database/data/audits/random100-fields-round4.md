@@ -5,7 +5,7 @@ Eligible pool after excluding the previous 300: 8617.
 
 Every selected profile individually researched. This is not a claim that every archive was exhausted.
 
-Prepared: 21 case records across 20 profiles; 4 portraits; 21 distinct profiles updated.
+Applied live: 21 case records across 20 profiles; 4 portraits; 21 distinct profiles updated.
 
 Biographies and existing portraits preserved. Nonempty fields preserved except documented partial-date refinements. Month precision retained; no release calculated from sentence length.
 
