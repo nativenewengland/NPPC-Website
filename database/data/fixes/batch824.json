@@ -1,0 +1,585 @@
+{
+  "batch": 824,
+  "expected_count": 14,
+  "entries": [
+    {
+      "name": "Pablo Garcia",
+      "slug": "pablo-garcia",
+      "prisoner_id": "175d51a0-018b-4d25-b026-4ac1dfa4b82d",
+      "case_id": "83913ad9-b6d9-449d-834e-183acc16bad1",
+      "expected": {
+        "id": "83913ad9-b6d9-449d-834e-183acc16bad1",
+        "prisoner_id": "175d51a0-018b-4d25-b026-4ac1dfa4b82d",
+        "institution_id": null,
+        "charges": "Smith Act — conspiracy to advocate the overthrow of the government",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Arrested October 1954; awaiting trial in Puerto Rico",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Faced a mainland prison term if convicted",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 15:00:29",
+        "updated_at": "2026-06-16 15:00:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1954-10-20 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1955-12-26-8-10-nat-guardian.pdf"
+      ],
+      "rationale": "Garcia identifies himself as one of the eleven defendants and gives October 20, 1954 as their arrest date (page 4). No continuous custody or release inferred."
+    },
+    {
+      "name": "Erik Gillard",
+      "slug": "erik-gillard",
+      "prisoner_id": "ce58439f-f0f0-4b60-bbe7-d77026a8839b",
+      "case_id": "9135622a-67c9-42cc-ab41-f3ef3ac2d661",
+      "expected": {
+        "id": "9135622a-67c9-42cc-ab41-f3ef3ac2d661",
+        "prisoner_id": "ce58439f-f0f0-4b60-bbe7-d77026a8839b",
+        "institution_id": null,
+        "charges": "Failure to disperse during the July 6, 2010 Kibby Wind Power Project blockade",
+        "arrest_date": "2010-07-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2011-06-21 00:00:00",
+        "incarceration_date": "2011-06-21 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "10 days in jail and a $500 fine.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:07:45",
+        "updated_at": "2026-09-25 14:01:36",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Michaela Murphy",
+        "prosecutor": "James Andrews"
+      },
+      "sources": [
+        "https://www.bangordailynews.com/2011/06/21/news/2-wind-protesters-enter-pleas-2-go-to-trial-in-kibby-mountain-case/"
+      ],
+      "rationale": "Contemporary trial report identifies the presiding judge and assistant district attorney. Applies to the 2011 prosecution row, not the separate initial detention."
+    },
+    {
+      "name": "Krystal Martinez-DiPippa",
+      "slug": "krystal-martinez-dipippa",
+      "prisoner_id": "9f462fc7-2451-4cd6-9c4b-af25c9343d3a",
+      "case_id": "baae5564-1b1c-48bd-a26a-78183fef0320",
+      "expected": {
+        "id": "baae5564-1b1c-48bd-a26a-78183fef0320",
+        "prisoner_id": "9f462fc7-2451-4cd6-9c4b-af25c9343d3a",
+        "institution_id": null,
+        "charges": "Conspiracy and obstruction of law enforcement during a civil disorder; the conspiracy count did not result in her guilty plea.",
+        "arrest_date": "2023-05-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — by guilty plea.",
+        "plead": "Guilty to obstruction of law enforcement during a civil disorder.",
+        "sentenced_date": "2025-01-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2023-06-30 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three years of probation, community service, and joint restitution; no custodial sentence.",
+        "imprisoned_for_days": 0,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:15:58",
+        "updated_at": "2026-09-26 20:15:58",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": "[{\"start\":\"2023-05-19\",\"end\":\"2023-05-19\"},{\"start\":\"2023-06-30\",\"end\":\"2023-06-30\"}]"
+      },
+      "updates": {
+        "indicted": "June 28, 2023.",
+        "judge": "J. Nicholas Ranjan"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USCOURTS-pawd-2_23-cr-00146/pdf/USCOURTS-pawd-2_23-cr-00146-1.pdf"
+      ],
+      "rationale": "District court memorandum dated April 3, 2024, page 1, identifies both defendants, indictment date and judge. Existing short custody periods preserved."
+    },
+    {
+      "name": "Gary Tyler",
+      "slug": "gary-tyler",
+      "prisoner_id": "9defa7de-88ef-4a8a-b574-fc5bf63e16be",
+      "case_id": "f9fd1207-d91f-40c6-b833-78fcc9768334",
+      "expected": {
+        "id": "f9fd1207-d91f-40c6-b833-78fcc9768334",
+        "prisoner_id": "9defa7de-88ef-4a8a-b574-fc5bf63e16be",
+        "institution_id": "584a0dd3-c3d5-48a1-9ef0-72c9deea28ec",
+        "charges": "Murder",
+        "arrest_date": "1974-10-07 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1974-10-07 00:00:00",
+        "release_date": "2016-04-29 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 15180,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-16 00:00:30",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Lauren Lemmon (2016 plea and resentencing)",
+        "plead": "Guilty to manslaughter on April 29, 2016.",
+        "convicted": "Originally convicted of murder in 1975; resolved by a manslaughter guilty plea on April 29, 2016.",
+        "sentence": "Originally sentenced to death in 1975, later changed to life imprisonment. On April 29, 2016, received a 21-year manslaughter sentence with credit for time served and was released."
+      },
+      "sources": [
+        "https://www.freegarytyler.com/2016/04/29/gary-tyler-finally-released/"
+      ],
+      "rationale": "Contemporary St. Charles Herald Guide report reproduced by his support organization identifies the 2016 disposition and judge. Existing custody dates preserved; a single sentencing date is not used to erase the earlier sentence."
+    },
+    {
+      "name": "Ben Joldersma",
+      "slug": "ben-joldersma",
+      "prisoner_id": "dcabfd0b-0eaf-43df-b3dd-4f0b41b1ed80",
+      "case_id": "9af276fa-cf9c-412f-88bc-7fcb905e3621",
+      "expected": {
+        "id": "9af276fa-cf9c-412f-88bc-7fcb905e3621",
+        "prisoner_id": "dcabfd0b-0eaf-43df-b3dd-4f0b41b1ed80",
+        "institution_id": null,
+        "charges": "Aiding and abetting felony criminal damage to property; conspiracy.",
+        "arrest_date": "2016-10-11 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-19 23:49:56",
+        "updated_at": "2026-07-16 08:00:57",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Robert Tiffany",
+        "prosecutor": "Al Rogalla",
+        "convicted": "No — acquitted October 9, 2018.",
+        "sentence": "No sentence imposed; acquitted October 9, 2018."
+      },
+      "sources": [
+        "https://www.mprnews.org/story/2018/10/09/judge-acquits-enbridge-pipeline-protesters"
+      ],
+      "rationale": "MPR names all three defendants, prosecutor and judge, and reports their acquittal on the publication date. Acquittal is not entered as a release date."
+    },
+    {
+      "name": "Ben Joldersma",
+      "slug": "ben-joldersma",
+      "prisoner_id": "dcabfd0b-0eaf-43df-b3dd-4f0b41b1ed80",
+      "case_id": "29624191-e6f1-421d-a224-cf0889080cb4",
+      "expected": {
+        "id": "29624191-e6f1-421d-a224-cf0889080cb4",
+        "prisoner_id": "dcabfd0b-0eaf-43df-b3dd-4f0b41b1ed80",
+        "institution_id": "a721190f-8d79-4f86-84bb-673a1b9a73d4",
+        "charges": "Aiding/abetting criminal damage to critical energy infrastructure (support role, Oct 11 2016)",
+        "arrest_date": "2016-10-11 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: No — acquitted October 2018",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-29 00:24:37",
+        "updated_at": "2026-07-29 17:05:28",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Robert Tiffany",
+        "prosecutor": "Al Rogalla"
+      },
+      "sources": [
+        "https://www.mprnews.org/story/2018/10/09/judge-acquits-enbridge-pipeline-protesters"
+      ],
+      "rationale": "Same prosecution is represented by two existing rows. Fill only missing court officials; preserve both rows and their existing dispositions."
+    },
+    {
+      "name": "Semaj Pigram",
+      "slug": "semaj-pigram",
+      "prisoner_id": "9c48a308-3321-472c-956e-e6c41e478b4a",
+      "case_id": "22ef3324-a0f7-4c2c-9fad-0c4b9480f596",
+      "expected": {
+        "id": "22ef3324-a0f7-4c2c-9fad-0c4b9480f596",
+        "prisoner_id": "9c48a308-3321-472c-956e-e6c41e478b4a",
+        "institution_id": null,
+        "charges": "Weapon possession (loaded stolen handgun) in the Buffalo protest SUV incident, June 2020",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "7 years state prison",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 06:35:06",
+        "updated_at": "2026-07-03 06:35:06",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty on September 23, 2022, to second-degree criminal possession of a weapon.",
+        "convicted": "Yes — by guilty plea on September 23, 2022."
+      },
+      "sources": [
+        "https://www4.erie.gov/da/press/buffalo-woman-sentenced-injuring-state-trooper-while-driving-through-police-blockade-protest"
+      ],
+      "rationale": "District attorney explicitly dates Pigram's plea. The June 22, 2023 sentencing date in the headline concerns Davis, not Pigram, and is not copied."
+    },
+    {
+      "name": "Devarian Haynes",
+      "slug": "devarian-haynes",
+      "prisoner_id": "a3e049e1-714d-4551-9ca1-e208f7ce4b56",
+      "case_id": "a65902a4-80d4-4330-9802-590006d74457",
+      "expected": {
+        "id": "a65902a4-80d4-4330-9802-590006d74457",
+        "prisoner_id": "a3e049e1-714d-4551-9ca1-e208f7ce4b56",
+        "institution_id": null,
+        "charges": "Federal civil disorder; burning of a Las Vegas police SUV (2020)",
+        "arrest_date": "2020-06-03 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2022-06-22 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "2 years federal prison",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 04:13:58",
+        "updated_at": "2026-07-03 04:13:58",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Andrew Gordon",
+        "plead": "Guilty in March 2022 to civil disorder.",
+        "convicted": "Yes — by guilty plea in March 2022."
+      },
+      "sources": [
+        "https://www.fox5vegas.com/2022/06/23/man-gets-prison-las-vegas-police-suv-fire-amid-2020-protests/"
+      ],
+      "rationale": "Associated Press identifies the judge and plea month. He appeared from home and was allowed 30 days to surrender, so sentencing is not used as prison admission."
+    },
+    {
+      "name": "Judith Berkan",
+      "slug": "judith-berkan",
+      "prisoner_id": "9a130dca-ff2b-422d-bc74-5ac0e4eac7bb",
+      "case_id": "580fd192-6ace-48bc-b68f-c3d481cca452",
+      "expected": {
+        "id": "580fd192-6ace-48bc-b68f-c3d481cca452",
+        "prisoner_id": "9a130dca-ff2b-422d-bc74-5ac0e4eac7bb",
+        "institution_id": null,
+        "charges": "Unauthorized entry onto military property during the May 19, 1979 Vieques protest (18 U.S.C. § 1382)",
+        "arrest_date": "1979-05-19 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted at trial; conviction reversed by the First Circuit on May 19, 1981",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-19 00:26:47",
+        "updated_at": "2026-09-19 00:26:47",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Juan R. Torruella",
+        "prosecutor": "José A. Quiles"
+      },
+      "sources": [
+        "https://www.leagle.com/decision/1980527502fsupp251523",
+        "https://ccrjustice.org/home/what-we-do/our-cases/united-states-v-berkan"
+      ],
+      "rationale": "Published district court order identifies Torruella and counsel for the United States. Individual sentence and physical custody endpoints remain unresolved."
+    },
+    {
+      "name": "José Molina Encarnación",
+      "slug": "jose-molina-encarnacion",
+      "prisoner_id": "86713274-7719-4723-af90-19dabc1183bf",
+      "case_id": "b7c70b8f-8df8-409f-8fe2-ef0d47de7fa5",
+      "expected": {
+        "id": "b7c70b8f-8df8-409f-8fe2-ef0d47de7fa5",
+        "prisoner_id": "86713274-7719-4723-af90-19dabc1183bf",
+        "institution_id": "6b9be730-8fa7-4cd1-9278-5837c426c47f",
+        "charges": "Trespass on a military installation (18 U.S.C. § 1382); conviction reversed on appeal",
+        "arrest_date": "2001-04-27 00:00:00",
+        "indicted": null,
+        "convicted": "June 5, 2001 conviction reversed May 8, 2002",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-09 23:27:20",
+        "updated_at": "2026-10-09 23:27:20",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Juan M. Pérez-Giménez"
+      },
+      "sources": [
+        "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/01-1869-01A.pdf"
+      ],
+      "rationale": "First Circuit opinion cover identifies Molina-Encarnación and the district judge. Reversal date is not used as physical release."
+    },
+    {
+      "name": "Lázaro Gutiérrez de Lara",
+      "slug": "lazaro-gutierrez-de-lara",
+      "prisoner_id": "ca4b899b-7342-45a2-bb66-33ace29553a7",
+      "case_id": "e4fa6488-db0a-446f-8a94-77cfd6215c64",
+      "expected": {
+        "id": "e4fa6488-db0a-446f-8a94-77cfd6215c64",
+        "prisoner_id": "ca4b899b-7342-45a2-bb66-33ace29553a7",
+        "institution_id": null,
+        "charges": "Jailed as a PLM associate; later immigration detention",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1907-09-27 00:00:00",
+        "release_date": "1908-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed from September 27, 1907, and released after 104 days around January 1908; in October 1909 immigration officials seized him again as an alleged anarchist for an unclear duration.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-21 12:53:25",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1907-09-27 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://en.wikisource.org/wiki/Barbarous_Mexico/Chapter_15"
+      ],
+      "rationale": "John Kenneth Turner explicitly dates the taking to jail to September 27, 1907. Preserve the existing month-level release; do not calculate a date from 104 days."
+    },
+    {
+      "name": "Lotfi Raissi",
+      "slug": "lotfi-raissi",
+      "prisoner_id": "7317f219-a43a-4f0a-ac52-e9cf41459cf5",
+      "case_id": "3f517bab-bb03-47de-8b26-09a22681a6f6",
+      "expected": {
+        "id": "3f517bab-bb03-47de-8b26-09a22681a6f6",
+        "prisoner_id": "7317f219-a43a-4f0a-ac52-e9cf41459cf5",
+        "institution_id": "9adfb6b9-53af-41b8-a78d-4434c5bb07ec",
+        "charges": "Political Prosecution Immigration Offenses",
+        "arrest_date": "2001-09-21 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2001-09-21 00:00:00",
+        "release_date": "2002-02-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Arvinder Sambei",
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 144,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-05-10 06:33:15",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Timothy Workman",
+        "sentence": "No custodial sentence imposed in these extradition proceedings; the extradition request was rejected April 24, 2002.",
+        "convicted": "No — extradition proceedings ended without conviction."
+      },
+      "sources": [
+        "https://newspapers.swco.ttu.edu/bitstreams/d42e2a10-2938-4e6d-a285-ba62d40e62fc/download",
+        "https://committees.parliament.uk/writtenevidence/53121/html/"
+      ],
+      "rationale": "AP report published April 25, 2002 describes the previous day's dismissal; parliamentary evidence confirms the presiding magistrate. Existing February bail-release date retained."
+    },
+    {
+      "name": "George Ward",
+      "slug": "george-ward",
+      "prisoner_id": "42db672e-f996-498f-8b8c-9a1a8eb96b13",
+      "case_id": "f24dc647-4bbe-409b-ae75-ab45ae8ec463",
+      "expected": {
+        "id": "f24dc647-4bbe-409b-ae75-ab45ae8ec463",
+        "prisoner_id": "42db672e-f996-498f-8b8c-9a1a8eb96b13",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "10 months of confinement; later clemency",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 23:04:21",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": null,
+        "imprisoned_for_months": 6,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Desertion (Marine Corps prosecution arising from refusal to deploy during the Gulf War)."
+      },
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1991/di1991-06-19.pdf"
+      ],
+      "rationale": "Contemporary Daily Iowan page 1 individually identifies George Ward as facing desertion charges. No individual missing-movement count or custody endpoint inferred from fellow defendants."
+    },
+    {
+      "name": "Frank Guido",
+      "slug": "frank-guido",
+      "prisoner_id": "34191262-c0f5-4a95-b031-6aad69661986",
+      "case_id": "47269f64-852e-4699-8a8f-6a44ef08b1bd",
+      "expected": {
+        "id": "47269f64-852e-4699-8a8f-6a44ef08b1bd",
+        "prisoner_id": "34191262-c0f5-4a95-b031-6aad69661986",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held and beaten at the Tampa police station without charges, then handed to a masked group of American Legionnaires at two in the morning.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 22:29:28",
+        "updated_at": "2026-10-14 00:51:50",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "No charge was filed, according to the contemporary account of his detention."
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/labordefender/1932/v08n07-jul-1932-LD.pdf"
+      ],
+      "rationale": "Labor Defender July 1932, printed page 132 (PDF page 13), interview with attorney Bernard Ades by David Lowy, specifically says Guido and Comas were detained without a charge. The nearby November 7 reference describes a different demonstration; no arrest date inferred."
+    }
+  ]
+}
