@@ -1,0 +1,53 @@
+{
+  "batch": 796,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Robert Robideau",
+      "slug": "robert-robideau",
+      "prisoner_id": "00d456ec-bf58-4c4e-bb6d-6ea69e11fef4",
+      "case_id": "788ab914-bdcc-4980-a573-41e4536ebeba",
+      "expected": {
+        "id": "788ab914-bdcc-4980-a573-41e4536ebeba",
+        "prisoner_id": "00d456ec-bf58-4c4e-bb6d-6ea69e11fef4",
+        "institution_id": null,
+        "charges": "Federal first-degree murder of FBI agents Jack Coler and Ronald Williams — June 26, 1975 firefight at the Jumping Bull compound, Pine Ridge Reservation",
+        "arrest_date": "1975-09-09 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1975-09-09 00:00:00",
+        "release_date": "1976-07-15 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held in pretrial detention 10 months; acquitted on self-defense grounds\n\nVerdict as recorded: No — acquitted, U.S. District Court for the Northern District of Iowa, July 1976",
+        "imprisoned_for_days": 310,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "date_precision": "{}",
+        "sentence": "Held in pretrial detention in the FBI-agent murder prosecution and acquitted on self-defense grounds in U.S. District Court for the Northern District of Iowa on July 16, 1976. The acquittal did not end his physical custody: contemporary reporting on July 19 stated that he returned to jail while serving a separate sentence for interstate transportation of explosives. His final physical release date is not established by these sources."
+      },
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1976/di1976-07-19.pdf",
+        "https://www.themilitant.com/1976/4030/MIL4030.pdf"
+      ],
+      "rationale": "Daily Iowan July 19, 1976 front-page trial report explicitly says both Butler and Robideau went back to jail after acquittal and describes Robideau serving a separate explosives sentence. Militant July 30 p3 explicitly dates acquittal July 16. The existing July 15 release predates acquittal and is not physical release. Remove unsupported endpoint, preserve unrelated fields and existing arrest pending further source verification. Both originals visually verified. Do not derive a release from the reported remaining sentence.",
+      "visual_evidence": [
+        "agent-three-butler-iowan1.png",
+        "agent-three-butler-mil3.png"
+      ]
+    }
+  ]
+}
