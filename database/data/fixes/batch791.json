@@ -1,0 +1,261 @@
+{
+  "batch": 791,
+  "expected_count": 6,
+  "entries": [
+    {
+      "name": "Ronald Humphrey",
+      "slug": "ronald-humphrey",
+      "prisoner_id": "536f970a-49a2-4314-b3a4-2faa95cddfcb",
+      "case_id": "db33d69c-a796-4850-9b98-46cc356e4e10",
+      "expected": {
+        "id": "db33d69c-a796-4850-9b98-46cc356e4e10",
+        "prisoner_id": "536f970a-49a2-4314-b3a4-2faa95cddfcb",
+        "institution_id": null,
+        "charges": "Six counts including conspiracy, espionage, theft of classified information, and failing to register as an agent of a foreign government.",
+        "arrest_date": "1978-01-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1978-01-31 00:00:00",
+        "release_date": "1990-02-20 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "15 years in federal prison — began serving in 1982; paroled in 1986.\n\nVerdict as recorded: Yes — convicted in May 1978 in the U.S. District Court for the Eastern District of Virginia; sentenced in July 1978 to 15 years. Conviction upheld in United States v. Truong Dinh Hung, 629 F.2d 908 (4th Cir. 1980); the Supreme Court declined review in January 1982.",
+        "imprisoned_for_days": 3178,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 02:05:47",
+        "updated_at": "2026-09-19 19:12:36",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": "[{\"start\":\"1978-01-31\",\"end\":\"1978-09-18\"},{\"start\":\"1982-01-25\",\"end\":\"1990-02-20\"}]"
+      },
+      "updates": {
+        "sentence": "15 years in federal prison — began serving in 1982.\n\nVerdict as recorded: Yes — convicted in May 1978 in the U.S. District Court for the Eastern District of Virginia; sentenced in July 1978 to 15 years. Conviction upheld in United States v. Truong Dinh Hung, 629 F.2d 908 (4th Cir. 1980); the Supreme Court declined review in January 1982.",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}"
+      },
+      "sources": [
+        "https://www.washingtonpost.com/archive/local/1986/08/28/prison-frees-vietnam-spy-after-delay/ea63332e-4f56-4c00-91b5-0d2bb56efddd/"
+      ],
+      "rationale": "1986 release concerned Truong; Humphrey remained imprisoned. Existing split custody periods already correct; preserve all dates."
+    },
+    {
+      "name": "Howard Norton Machtinger",
+      "slug": "howard-norton-machtinger",
+      "prisoner_id": "cd2f6a9a-7d81-4665-9cca-b6003c1be02e",
+      "case_id": "a37e997f-c308-4e89-851e-84cd7d57a659",
+      "expected": {
+        "id": "a37e997f-c308-4e89-851e-84cd7d57a659",
+        "prisoner_id": "cd2f6a9a-7d81-4665-9cca-b6003c1be02e",
+        "institution_id": null,
+        "charges": "Federal Anti-Riot Act / explosives conspiracy.",
+        "arrest_date": "1973-09-18 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-09-18 00:00:00",
+        "release_date": "1978-05-10 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Federal charges dismissed for lack of court-ordered electronic surveillance.",
+        "imprisoned_for_days": 1695,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "sentence": "Federal charges dismissed for lack of court-ordered electronic surveillance. Following his September 1973 arrest, he was released on bail and went underground again; the exact bail-release date remains unverified."
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CPRT-94SPRT39242/pdf/CPRT-94SPRT39242.pdf"
+      ],
+      "rationale": "Printed page 87 (PDF page 93) explicitly establishes bail before return underground in October 1973. Remove disproved May 1978 release endpoint; retain existing arrest/start pending exact-day research."
+    },
+    {
+      "name": "John Clutchette",
+      "slug": "john-clutchette",
+      "prisoner_id": "5615e2cd-03fc-4dc6-8145-e7cb2f860a41",
+      "case_id": "9b10bb66-bbc7-42f8-b2d2-82e44db43cfb",
+      "expected": {
+        "id": "9b10bb66-bbc7-42f8-b2d2-82e44db43cfb",
+        "prisoner_id": "5615e2cd-03fc-4dc6-8145-e7cb2f860a41",
+        "institution_id": "a86f1d53-2f9f-4067-b293-3876090ad0c5",
+        "charges": "Murder of correctional officer John Mills",
+        "arrest_date": "1970-02-14 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1972-03-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-12 13:21:52",
+        "updated_at": "2026-10-14 00:00:33",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "convicted": "No — acquitted March 27, 1972",
+        "sentence": "Acquittal did not end his imprisonment on the earlier burglary conviction. The parole board subsequently set a November 13, 1972 parole date; the precise physical-release date has not been independently verified."
+      },
+      "sources": [
+        "https://law.justia.com/cases/california/court-of-appeal/3d/39/561.html"
+      ],
+      "rationale": "Court chronology distinguishes acquittal from subsequent parole decision. Do not insert scheduled parole as physical release or copy earlier unrelated reception into this case."
+    },
+    {
+      "name": "Mary Cain Scoblick",
+      "slug": "mary-cain-scoblick",
+      "prisoner_id": "fc4c13b6-e2d2-47ce-98e0-5bf2abbc9d56",
+      "case_id": "52f4fea0-bf62-4ac5-a263-d86169c203b9",
+      "expected": {
+        "id": "52f4fea0-bf62-4ac5-a263-d86169c203b9",
+        "prisoner_id": "fc4c13b6-e2d2-47ce-98e0-5bf2abbc9d56",
+        "institution_id": null,
+        "charges": "Conspiracy to kidnap Henry Kissinger and to bomb federal heating tunnels (Harrisburg 7 indictment, 1971; mistrial)",
+        "arrest_date": "1971-01-11 00:00:00",
+        "indicted": null,
+        "convicted": "Hung jury",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-01-11 00:00:00",
+        "release_date": "1972-04-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William S. Lynch",
+        "judge": "Hon. R. Dixon Herman",
+        "sentence": "Hung jury; mistrial; no retrial.",
+        "imprisoned_for_days": 449,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-20 05:27:12",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "incarceration_date": null,
+        "release_date": "1971-05-25 00:00:00",
+        "date_precision": "{\"release_date\": \"day\"}",
+        "sentence": "Hung jury; mistrial; no retrial. At her first arraignment on May 25, 1971, she was released on personal recognizance; the start of any physical custody has not been verified."
+      },
+      "sources": [
+        "https://repository.stu.edu/ulma/va/3005/1971/05-28-1971.pdf"
+      ],
+      "rationale": "The Voice May 28, 1971 page 3, original visually verified, explicitly identifies her first arraignment and recognizance release on May 25. January 11 start and April 4, 1972 end cannot represent continuous custody; clear unsupported start instead of fabricating a duration."
+    },
+    {
+      "name": "Russell Means",
+      "slug": "russell-means",
+      "prisoner_id": "e866dd73-5328-4045-ad6c-282f32be502c",
+      "case_id": "52da4097-f161-4d5c-beb0-3854eb6b9675",
+      "expected": {
+        "id": "52da4097-f161-4d5c-beb0-3854eb6b9675",
+        "prisoner_id": "e866dd73-5328-4045-ad6c-282f32be502c",
+        "institution_id": null,
+        "charges": "Conspiracy, assault, larceny, possession of firearms, interfering with federal officers (Wounded Knee occupation); plus subsequent South Dakota state prosecution",
+        "arrest_date": "1973-05-07 00:00:00",
+        "indicted": null,
+        "convicted": "Wounded Knee charges dismissed September 16, 1974 by Chief Judge Fred Nichol citing FBI perjury, evidence tampering, and illegal surveillance; later convicted in South Dakota state court for the Sioux Falls courthouse protest",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-05-07 00:00:00",
+        "release_date": "1980-11-30 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held briefly during initial arrests and pretrial detention; later served approximately one year at South Dakota State Penitentiary, Sioux Falls (1979–1980) on the state Sioux Falls protest conviction\n\nCharges as recorded: Conspiracy, assault, larceny, possession of firearms, interfering with federal officers (Wounded Knee occupation); plus subsequent South Dakota state prosecution for the 1974 Sioux Falls courthouse protest",
+        "imprisoned_for_days": 2764,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1978-07-01 00:00:00",
+        "release_date": "1979-07-27 00:00:00",
+        "date_precision": "{\"incarceration_date\": \"month\", \"release_date\": \"day\"}",
+        "sentence": "Four-year sentence in the South Dakota state prosecution. The Justice Department reported actual imprisonment in July 1978 after appeals were exhausted; he entered work release in November 1978 and was paroled July 27, 1979. These custody dates describe the state sentence, not continuous imprisonment from the 1973 Wounded Knee arrest."
+      },
+      "sources": [
+        "https://files.eric.ed.gov/fulltext/ED183446.pdf"
+      ],
+      "rationale": "Helsinki Commission report printed page 66 (PDF page 70), original visually verified. It gives November 1977 in opening narrative but expressly quotes DOJ actual July 1978 imprisonment after appeals; preserve that distinction. Replace false 1973–1980 continuous span, keeping existing earlier arrest/charges."
+    },
+    {
+      "name": "Imari Obadele",
+      "slug": "imari-obadele",
+      "prisoner_id": "ded28f1d-a793-411a-b24b-20a164b30205",
+      "case_id": "1b68822e-84e7-4148-8de1-7a832402ab84",
+      "expected": {
+        "id": "1b68822e-84e7-4148-8de1-7a832402ab84",
+        "prisoner_id": "ded28f1d-a793-411a-b24b-20a164b30205",
+        "institution_id": "8e57c233-158b-451d-aef0-705bf0e66351",
+        "charges": "Murder; assault; treason (Mississippi state court, RNA-11 case, August 18, 1971 Jackson raid)",
+        "arrest_date": "1971-08-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-08-17 00:00:00",
+        "release_date": "1980-03-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 years federal prison (federal conspiracy conviction 1973); served ~5-7; original Mississippi murder charges dropped.",
+        "imprisoned_for_days": 3149,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1971-08-18 00:00:00",
+        "incarceration_date": "1971-08-18 00:00:00",
+        "release_date": "1973-04-01 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"month\"}",
+        "sentence": "Released on bail in April 1973 following the August 18, 1971 arrest. Subsequently sentenced to 12 years in the related federal case and released on an appeal bond. The dates here describe the initial detention; later federal imprisonment was a separate custody period whose endpoints remain unverified."
+      },
+      "sources": [
+        "https://lsa.umich.edu/content/dam/sid-assets/SID%20Docs/_The%20Struggle%20of%20the%20RNA_.pdf"
+      ],
+      "rationale": "Obadele own June 1974 account, printed pages 32–33 and 36, reports April 1973 bail after nearly 20 months, then federal conviction and appeal bond. Correct initial arrest one day; do not count liberty between state detention and later federal imprisonment. Existing March 31, 1980 endpoint not corroborated. No new federal case yet to avoid duplication; aggregate existing convicted field retained for federal outcome."
+    }
+  ]
+}
