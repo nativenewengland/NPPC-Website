@@ -1019,4 +1019,3 @@ Individual Spanish-name and case searches did not verify a portrait or actual cu
 Unresolved: Unverified fields remain unchanged. Individual review is not proof that no further archival evidence exists.
 
 https://archive.law.upenn.edu/journals/jil/articles/volume29/issue2/Torruella29U.Pa.J.Int%27lL.283%282007%29.pdf
-

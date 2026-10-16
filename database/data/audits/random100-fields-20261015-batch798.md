@@ -86,4 +86,3 @@ Fields: incarceration_date, date_precision
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1951-01-24-3-14-nat-guardian.pdf
 https://www.digifind-it.com/elizabeth/data/newspapers/Daily%20Journal/dj1936-1965/1951/1951-01-22.pdf
-

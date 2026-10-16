@@ -47,4 +47,3 @@ https://www.sdhspress.com/journal/south-dakota-history-27-3/conrad-kornmann-germ
 Printed caption identifies Conrad Kornmann alone; original PDF page inspected.
 
 Exact rectangular crop from rendered archival page; no generative editing.
-
