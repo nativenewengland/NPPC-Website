@@ -1,0 +1,142 @@
+{
+  "batch": 783,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Patty Hearst",
+      "slug": "patty-hearst",
+      "prisoner_id": "5f7623e8-2434-45c5-881f-2e4d123f76ef",
+      "case_id": "306e522e-aef1-4e5e-8232-1150498aeb83",
+      "expected": {
+        "id": "306e522e-aef1-4e5e-8232-1150498aeb83",
+        "prisoner_id": "5f7623e8-2434-45c5-881f-2e4d123f76ef",
+        "institution_id": "bc388de2-90a0-4cb9-aac1-56c43eb2969f",
+        "charges": "Federal armed bank robbery and use of a firearm in commission of a felony - April 15, 1974 SLA Hibernia Bank robbery in San Francisco (defense: action under captivity coercion)",
+        "arrest_date": "1975-09-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1976-09-23 00:00:00",
+        "incarceration_date": "1976-09-23 00:00:00",
+        "release_date": "1979-01-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "7 years federal prison; commuted by President Carter January 29, 1979 after 22 months; full pardon by President Clinton January 20, 2001\n\nVerdict as recorded: Yes - federal jury verdict, U.S. District Court for the Northern District of California, March 20, 1976",
+        "imprisoned_for_days": 857,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1975-09-18 00:00:00",
+        "sentenced_date": "1976-09-24 00:00:00",
+        "incarceration_date": "1975-09-18 00:00:00",
+        "release_date": "1979-02-01 00:00:00",
+        "custody_periods": "[{\"start\": \"1975-09-18\", \"end\": \"1976-11-19\"}, {\"start\": \"1978-05-15\", \"end\": \"1979-02-01\"}]",
+        "sentence": "7 years federal prison; commuted by President Carter January 29, 1979 after 22 months; full pardon by President Clinton January 20, 2001\n\nVerdict as recorded: Yes - federal jury verdict, U.S. District Court for the Northern District of California, March 20, 1976 Custody comprises two periods, separated by release on bail; the counter excludes that interval.",
+        "date_precision": "{\"arrest_date\": \"day\", \"sentenced_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}"
+      },
+      "sources": [
+        "https://www.fbi.gov/history/cases-and-criminals/patty-hearst",
+        "https://law.justia.com/cases/federal/district-courts/FSupp/424/318/1444742/",
+        "https://www.history.com/this-day-in-history/november-19/patty-hearst-out-on-bail",
+        "https://www.nytimes.com/1976/11/20/archives/miss-hearst-is-released-in-custody-of-parents-on-bail-of-15-million.html",
+        "https://www.washingtonpost.com/archive/politics/1979/02/02/elated-patty-hearst-leaves-calif-prison/962f6824-a388-44b1-86de-9622743d56ed/"
+      ],
+      "rationale": "Replace false continuous span with two verified custody intervals; preserve biography. Existing 857-day calculated duration should be recomputed from intervals, not retained as a documented total. Do not apply outer dates without custody periods excluding bail."
+    },
+    {
+      "name": "Joyce Tillerson",
+      "slug": "joyce-tillerson",
+      "prisoner_id": "907c081e-ec45-401f-9276-ae3effcae938",
+      "case_id": "00b08f48-2094-44fd-8ef9-56f9baac91ab",
+      "expected": {
+        "id": "00b08f48-2094-44fd-8ef9-56f9baac91ab",
+        "prisoner_id": "907c081e-ec45-401f-9276-ae3effcae938",
+        "institution_id": "1cc7d256-2757-420b-a105-cf0da8919b66",
+        "charges": "Air piracy.",
+        "arrest_date": "1976-05-26 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — convicted by the Paris Assize Court, November 24, 1978; France tried the case rather than extradite",
+        "plead": null,
+        "sentenced_date": "1978-11-24 00:00:00",
+        "incarceration_date": "1976-05-26 00:00:00",
+        "release_date": "1978-11-24 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1972-07-31 00:00:00",
+        "end_of_exile": "2000-04-15 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Five years, two years suspended — imposed by the Paris Assize Court on November 24, 1978, for the July 31, 1972 hijacking of Delta Air Lines Flight 841. Having spent approximately two and a half years at Fleury-Mérogis Prison since her May 26, 1976 arrest in Paris, she was released within days of the verdict, having already served nearly the entire custodial portion. The French proceedings reportedly did not establish that she or Jean McNair had personally carried a weapon.",
+        "imprisoned_for_days": 912,
+        "in_exile_for_days": 10120,
+        "created_at": "2026-06-26 06:48:06",
+        "updated_at": "2026-08-02 03:54:09",
+        "date_precision": "{\"in_exile_since\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\",\"end_of_exile\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "sentence": "Five years, two years suspended — imposed by the Paris Assize Court on November 24, 1978, for the July 31, 1972 hijacking of Delta Air Lines Flight 841. Having spent approximately two and a half years at Fleury-Mérogis Prison since her May 26, 1976 arrest in Paris, she remained imprisoned as of December 8, 1978, when the United States embassy reported that parole consideration had been postponed. Her actual release date remains unresolved. The French proceedings reportedly did not establish that she or Jean McNair had personally carried a weapon.",
+        "date_precision": "{\"in_exile_since\": \"day\", \"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"sentenced_date\": \"day\", \"end_of_exile\": \"day\"}"
+      },
+      "sources": [
+        "https://wikileaks.org/plusd/cables/1978PARIS40378_d.html"
+      ],
+      "rationale": "November 24, 1978 is conviction date, not release. December 8 embassy cable explicitly confirms parole consideration still pending and describes documents she will receive when released. Clear disproved endpoint and calculated total; preserve released status. Actual endpoint unresolved. May 5, 1979 is merely projected sentence expiry and must not be inserted."
+    },
+    {
+      "name": "Mahan Vanover",
+      "slug": "mahan-vanover",
+      "prisoner_id": "89f5817b-780c-4bbd-a5ae-54af46df98ae",
+      "case_id": "8cb5e638-6a15-46e0-844d-d06e94ad12df",
+      "expected": {
+        "id": "8cb5e638-6a15-46e0-844d-d06e94ad12df",
+        "prisoner_id": "89f5817b-780c-4bbd-a5ae-54af46df98ae",
+        "institution_id": null,
+        "charges": "Criminal contempt.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1977-01-01 00:00:00",
+        "incarceration_date": "1977-01-01 00:00:00",
+        "release_date": "1977-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months in jail (1977) for contempt of a picket-limit order.\n\nVerdict as recorded: Convicted of contempt during the Stearns, Kentucky coal strike and sentenced to six months.\n\nCharges as recorded: Criminal contempt for violating a court order limiting pickets during the United Mine Workers (UMWA) recognition strike against the Blue Diamond Coal Company's Justus mine in Stearns, Kentucky (1976–79).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 06:41:22",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": "{\"release_date\":\"year\",\"incarceration_date\":\"year\",\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1977-10-01 00:00:00",
+        "sentenced_date": "1977-10-01 00:00:00",
+        "documented_imprisoned_for_days": 56,
+        "date_precision": "{\"release_date\": \"year\", \"incarceration_date\": \"month\", \"sentenced_date\": \"month\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/workersvanguard/1977/0184_02_12_1977.pdf",
+        "https://www.washingtonpost.com/archive/politics/1979/05/02/would-be-union-bitterly-awaits-the-end/9312efb1-d3ff-451b-83cf-1c542d6fd95d/"
+      ],
+      "rationale": "Original reports establish October1977 contempt imprisonment; retain year-only release because medical leave and group December22 release cannot be equated. Later contemporary reporting gives actual56 days; not an inferred sentence duration."
+    }
+  ]
+}
