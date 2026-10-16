@@ -1,0 +1,179 @@
+{
+  "batch": 779,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Bernardine Dohrn",
+      "slug": "bernardine-dohrn",
+      "prisoner_id": "40abcf2a-a203-40ab-9a03-50ea89acf25b",
+      "case_id": "da1239b0-2e5b-4563-8b7e-57bc25c91162",
+      "expected_cases": [
+        {
+          "id": "6386d361-7a43-4550-8303-57b4ba28bc33",
+          "prisoner_id": "40abcf2a-a203-40ab-9a03-50ea89acf25b",
+          "institution_id": null,
+          "charges": "Bail-jumping and aggravated battery arising from the 1969 Days of Rage protests.",
+          "arrest_date": "1980-12-03 00:00:00",
+          "indicted": null,
+          "convicted": "Misdemeanor (federal charges dropped)",
+          "plead": null,
+          "sentenced_date": "1981-01-13 00:00:00",
+          "incarceration_date": null,
+          "release_date": "1980-12-03 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Surrendered December 3, 1980 and was released on bail the same day. Sentenced January 13, 1981 to three years of probation and a $1,500 fine. The separate 1982 civil-contempt confinement is recorded separately.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-10-16 00:04:38",
+          "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "expected_days": null,
+      "updates": {
+        "charges": "Civil contempt for refusing court-ordered handwriting exemplars to a federal grand jury.",
+        "incarceration_date": "1982-05-19 00:00:00",
+        "release_date": "1982-12-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": 7,
+        "sentence": "Seven months of confinement at the Metropolitan Correctional Center, according to the court. A two-day marriage furlough interrupted custody. Furloughed shortly before Christmas 1982 pending the January 4, 1983 release order, amended January 5. The December endpoint records departure on furlough, not the later formal order."
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/560/179/1481765/"
+      ],
+      "rationale": "The court explicitly dates confinement May 19, describes seven months actually confined, and records both furloughs in footnotes 3 and 8. Use December month precision and documented months without manufacturing exact days or uninterrupted custody. Separate from the 1980 surrender and 1981 probation case corrected in batch778."
+    },
+    {
+      "name": "Eldridge Cleaver",
+      "slug": "eldridge-cleaver",
+      "prisoner_id": "ba5f7ca1-1bff-4e85-8fd5-8f596111d4a3",
+      "case_id": "86c87f77-b303-45f3-83e5-0d5c55621f65",
+      "expected_cases": [
+        {
+          "id": "923736ec-a2d2-4480-bce7-acce4d119e1a",
+          "prisoner_id": "ba5f7ca1-1bff-4e85-8fd5-8f596111d4a3",
+          "institution_id": "4f2d7394-da91-41a3-8356-041730cec80d",
+          "charges": "Attempted murder of Oakland police officers (April 6, 1968 shootout); parole violation",
+          "arrest_date": "1968-04-06 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1968-04-06 00:00:00",
+          "release_date": "1968-06-12 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": "1968-11-24 00:00:00",
+          "end_of_exile": "1975-11-18 00:00:00",
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Served approximately 8 years on the run in Cuba, Algeria, and France; minor probation after surrender\n\nVerdict as recorded: Pleaded guilty to lesser charges after voluntary 1975 return from exile",
+          "imprisoned_for_days": 67,
+          "in_exile_for_days": 2550,
+          "created_at": "2026-05-10 06:33:17",
+          "updated_at": "2026-10-15 02:30:10",
+          "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "expected_days": 269,
+      "updates": {
+        "charges": "Parole violation following return from exile, with assault charges from the April 6, 1968 Oakland confrontation pending.",
+        "arrest_date": "1975-11-18 00:00:00",
+        "incarceration_date": "1975-11-18 00:00:00",
+        "release_date": "1976-08-13 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Jailed on returning to the United States November 18, 1975. Released on $100,000 bail August 13, 1976 after parole discharge made bail available; the assault trial remained pending."
+      },
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/Black%20Liberation%20Disk/Black%20Power%21/SugahData/Journals/Crusader.S.pdf",
+        "https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/284683/Big_Spring_Herald_1976_08_15.pdf?isAllowed=y&sequence=1"
+      ],
+      "rationale": "Kathleen Cleaver contemporary Crusader account PDF104 explicitly dates surrender and jail admission November18,1975. AP Wirephoto in August15,1976 BigSpringHerald page2 shows physical bail release Friday August13 and says held since November. Add the absent second period, preserving 1968 custody and exile."
+    },
+    {
+      "name": "Anna Mae Pictou Aquash",
+      "slug": "anna-mae-pictou-aquash",
+      "prisoner_id": "aa6fac35-f5ba-4973-8635-bc10df91906b",
+      "case_id": "c2e645e7-a4c9-494f-913b-b6a0ef9783b1",
+      "expected_cases": [
+        {
+          "id": "a5382f5c-7bdb-4631-9e8e-5ccee84fa3c6",
+          "prisoner_id": "aa6fac35-f5ba-4973-8635-bc10df91906b",
+          "institution_id": "46655cc5-ff3e-43ae-bab2-6e81c6526d5b",
+          "charges": "Weapons and explosives charges",
+          "arrest_date": "1975-09-04 00:00:00",
+          "indicted": null,
+          "convicted": "Held in pretrial federal custody before release on bond; never tried",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1975-09-04 00:00:00",
+          "release_date": "1975-09-08 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Several days at Pennington County Jail on the September 1975 charges; further brief custody after the November 1975 Oregon arrest; killed shortly after her second release in unresolved circumstances on or about December 12, 1975\n\nCharges as recorded: Weapons and explosives charges arising from the September 5, 1975 federal raid on the AIM property at Pine Ridge; later additional charges in Oregon",
+          "imprisoned_for_days": 4,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:16",
+          "updated_at": "2026-07-29 17:12:19",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        },
+        {
+          "id": "e0897043-4edd-4c17-9fc8-35d67618951c",
+          "prisoner_id": "aa6fac35-f5ba-4973-8635-bc10df91906b",
+          "institution_id": null,
+          "charges": "Weapons charges, federal grand jury subpoenas (Pine Ridge / Peltier-era investigations)",
+          "arrest_date": "1975-09-05 00:00:00",
+          "indicted": null,
+          "convicted": "No",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Murdered December 12, 1975 on Pine Ridge Reservation; body found February 24, 1976\n\nVerdict as recorded: No — killed before any trial",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-12 17:14:52",
+          "updated_at": "2026-07-29 17:05:27",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "expected_days": 10,
+      "updates": {
+        "charges": "Custody after the November 1975 Oregon arrest and return to South Dakota on a bench warrant in the pending weapons prosecution.",
+        "arrest_date": "1975-11-14 00:00:00",
+        "incarceration_date": "1975-11-14 00:00:00",
+        "release_date": "1975-11-24 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "Arrested near Ontario, Oregon November 14, 1975, held in Oregon and returned to South Dakota on a bench warrant. Released on bond November 24, 1975; this was a distinct period from the September detention."
+      },
+      "sources": [
+        "https://efiles.portlandoregon.gov/Record/11790962/File/Document",
+        "https://www.grahamdefense.org/courtdocs/arlo-looking-cloud20040908government-appellate-brief.pdf"
+      ],
+      "rationale": "Portland Police archived report PDF4 names Aquash among November14 arrests. Government appellate brief PDF16 recounts custody and attorney testimony that she was released on bond November24; subsequent hotel departure corroborates physical liberty. Preserve September cases pending their separate date discrepancy."
+    }
+  ]
+}
