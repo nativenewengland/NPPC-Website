@@ -1,0 +1,55 @@
+{
+  "batch": 799,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Timothy Reed",
+      "slug": "timothy-reed",
+      "prisoner_id": "468cc37a-3b5d-4242-a7e2-9efc6d6753fc",
+      "expected_cases": [
+        {
+          "id": "ee0b24ac-731f-4061-89b8-8d965a552721",
+          "prisoner_id": "468cc37a-3b5d-4242-a7e2-9efc6d6753fc",
+          "institution_id": "b250b4e4-dd72-4e06-b09a-90aab60df9fc",
+          "charges": "Armed Robbery",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": "1992-05-05 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Concurrent terms of up to twenty-five years imprisonment.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-10 06:33:15",
+          "updated_at": "2026-05-10 06:33:15",
+          "date_precision": "{\"release_date\":\"day\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "updates": {
+        "charges": "Detention on an Ohio parole-violation warrant pending extradition proceedings in New Mexico",
+        "arrest_date": "1996-11-17 00:00:00",
+        "incarceration_date": "1996-11-17 00:00:00",
+        "release_date": "1996-12-16 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}",
+        "documented_imprisoned_for_days": 30,
+        "sentence": "Held at Bernalillo County Detention Center for thirty days, November 17 to December 16, 1996, on an Ohio parole-violation warrant. This records the distinct New Mexico detention, not a new criminal sentence or the earlier Ohio prison term."
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F3/236/588/510983/"
+      ],
+      "rationale": "Scull v New Mexico 236 F.3d 588 individually records both custody endpoints and actual thirty days. Entire existing cases array guarded; preserve 1992-ending case.",
+      "case_id": "594ea26c-09c6-5741-b18a-b3feb6b6def3",
+      "expected_days": 29
+    }
+  ]
+}
