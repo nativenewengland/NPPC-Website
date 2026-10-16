@@ -1,0 +1,435 @@
+{
+  "verified_at": "2026-10-16T16:39:45.505219+00:00",
+  "reviewed": 100,
+  "updated_profiles": 20,
+  "case_records_updated": 20,
+  "portraits_added": 2,
+  "batches": {
+    "818": {
+      "fixture": "B818-FIXTURE-OK: no-write preview, expected updates, preservation, replay, conflict guard\n",
+      "applied": "--- correct-random-sample-custody-dates\nUpdating: Chris Lamprecht\nUpdating: Kate Winston\nUpdating: Margo Pelletier\nUpdating: George Ostensen\nUpdating: Mary Winsor\nUpdating: William Eagles\nUpdating: Ura V. Aschliman\nUpdating: Kelsey Donnel Jackson\nUpdating: Maurice L. Snitken\nUpdating: Victor Agosto\nUpdating: Raymond Dennis\nUpdating: Frank J. Howenstine\nUpdating: Demetrio Perez\nUpdating: Jogues Egan\nUpdating: Richard Eells\nUpdating: Barrett Brown\nUpdating: Cheryl Todd\nUpdating: Jay Anthony Villarreal\nUpdating: Joseph Patrick Doherty\nUpdating: Saul Grossman\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 20\nB818-OK\nBatch 818 complete.\n",
+      "replay": "--- correct-random-sample-custody-dates\nAlready applied: Chris Lamprecht\nAlready applied: Kate Winston\nAlready applied: Margo Pelletier\nAlready applied: George Ostensen\nAlready applied: Mary Winsor\nAlready applied: William Eagles\nAlready applied: Ura V. Aschliman\nAlready applied: Kelsey Donnel Jackson\nAlready applied: Maurice L. Snitken\nAlready applied: Victor Agosto\nAlready applied: Raymond Dennis\nAlready applied: Frank J. Howenstine\nAlready applied: Demetrio Perez\nAlready applied: Jogues Egan\nAlready applied: Richard Eells\nAlready applied: Barrett Brown\nAlready applied: Cheryl Todd\nAlready applied: Jay Anthony Villarreal\nAlready applied: Joseph Patrick Doherty\nAlready applied: Saul Grossman\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB818-OK\nBatch 818 complete.\n",
+      "public": [
+        {
+          "name": "Chris Lamprecht",
+          "url": "https://politicalprisonercoalition.org/prisoner/chris-lamprecht",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Sam Sparks"
+              ]
+            },
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "January 1995",
+                "Jan 1995"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Kate Winston",
+          "url": "https://politicalprisonercoalition.org/prisoner/kate-winston",
+          "http_status": 200,
+          "field_display_checks": {
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "January 1919",
+                "Jan 1919"
+              ]
+            },
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "Jan 12, 1919",
+                "January 12, 1919",
+                "1919-01-12"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Margo Pelletier",
+          "url": "https://politicalprisonercoalition.org/prisoner/margo-pelletier",
+          "http_status": 200,
+          "field_display_checks": {
+            "imprisoned_for_months": {
+              "found": true,
+              "expected_variants": [
+                "6"
+              ]
+            }
+          }
+        },
+        {
+          "name": "George Ostensen",
+          "url": "https://politicalprisonercoalition.org/prisoner/george-ostensen",
+          "http_status": 200,
+          "field_display_checks": {
+            "indicted": {
+              "found": true,
+              "expected_variants": [
+                "August 20, 1987 — two felony sabotage counts"
+              ]
+            },
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "September 1989",
+                "Sep 1989"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Mary Winsor",
+          "url": "https://politicalprisonercoalition.org/prisoner/mary-winsor",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "September 1917",
+                "Sep 1917"
+              ]
+            }
+          }
+        },
+        {
+          "name": "William Eagles",
+          "url": "https://politicalprisonercoalition.org/prisoner/william-eagles",
+          "http_status": 200,
+          "field_display_checks": {
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "Nov 15, 1971",
+                "November 15, 1971",
+                "1971-11-15"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Ura V. Aschliman",
+          "url": "https://politicalprisonercoalition.org/prisoner/ura-v-aschliman",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Sep 16, 1918",
+                "September 16, 1918",
+                "1918-09-16"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Not guilty (court-martial record dated September 16, 1918)."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Kelsey Donnel Jackson",
+          "url": "https://politicalprisonercoalition.org/prisoner/kelsey-donnel-jackson",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Richard M. Gergel"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Emily Limehouse and Nathan Williams (Assistant U.S. Attorneys)"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Guilty to maliciously damaging a police vehicle by means of fire."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Maurice L. Snitken",
+          "url": "https://politicalprisonercoalition.org/prisoner/maurice-l-snitken",
+          "http_status": 200,
+          "field_display_checks": {
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "Jun 23, 1918",
+                "June 23, 1918",
+                "1918-06-23"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Victor Agosto",
+          "url": "https://politicalprisonercoalition.org/prisoner/victor-agosto",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Captain Santos (summary court-martial presiding officer, August 5, 2009)"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Guilty to disobeying a lawful order."
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Yes — summary court-martial, August 5, 2009."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Raymond Dennis",
+          "url": "https://politicalprisonercoalition.org/prisoner/raymond-dennis",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Alfred A. Arraj"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "L. E. Broome"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Frank J. Howenstine",
+          "url": "https://politicalprisonercoalition.org/prisoner/frank-j-howenstine",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "June 1918",
+                "Jun 1918"
+              ]
+            },
+            "sentence": {
+              "found": true,
+              "expected_variants": [
+                "Ten years at McNeil Island Penitentiary and a $5,000 fine; sentence commuted to three years on October 28, 1920."
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Convicted in the United States District Court for the Southern District of California of conspiracy to violate sections 3 and 4 of the Espionage Act."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Demetrio Perez",
+          "url": "https://politicalprisonercoalition.org/prisoner/demetrio-perez",
+          "http_status": 200,
+          "field_display_checks": {
+            "charges": {
+              "found": true,
+              "expected_variants": [
+                "Desertion with intent to shirk hazardous duty; missing movement."
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Convicted at a Marine Corps court-martial for resisting deployment to the Persian Gulf War."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Jogues Egan",
+          "url": "https://politicalprisonercoalition.org/prisoner/jogues-egan",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "R. Dixon Herman"
+              ]
+            },
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Jan 26, 1971",
+                "January 26, 1971",
+                "1971-01-26"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Richard Eells",
+          "url": "https://politicalprisonercoalition.org/prisoner/richard-eells",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "August 1842",
+                "Aug 1842"
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Stephen A. Douglas"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Barrett Brown",
+          "url": "https://politicalprisonercoalition.org/prisoner/barrett-brown",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Jan 22, 2015",
+                "January 22, 2015",
+                "2015-01-22"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Pleaded guilty on April 29, 2014, to transmitting a threat, accessory after the fact to unauthorized computer access, and interfering with execution of a search warrant."
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Sam A. Lindsay"
+              ]
+            },
+            "sentence": {
+              "found": true,
+              "expected_variants": [
+                "63 months in federal prison and $890,250 in restitution."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Cheryl Todd",
+          "url": "https://politicalprisonercoalition.org/prisoner/cheryl-todd",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "James B. O’Connor"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Phil West (District Attorney)"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Jay Anthony Villarreal",
+          "url": "https://politicalprisonercoalition.org/prisoner/jay-anthony-villarreal",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Fred Biery"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Mark Roomberg and Kirk Mangels (Assistant U.S. Attorneys)"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Joseph Patrick Doherty",
+          "url": "https://politicalprisonercoalition.org/prisoner/joseph-patrick-doherty",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Jun 12, 1981",
+                "June 12, 1981",
+                "1981-06-12"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Saul Grossman",
+          "url": "https://politicalprisonercoalition.org/prisoner/saul-grossman",
+          "http_status": 200,
+          "field_display_checks": {
+            "indicted": {
+              "found": true,
+              "expected_variants": [
+                "Indicted in 1953 on three counts of contempt of Congress."
+              ]
+            }
+          }
+        }
+      ],
+      "preservation_verified": true,
+      "payload_sha256": "303b3a5d897f9b264ab5c81ae880863fd321160f8c81c57acc95c29ad0115837"
+    },
+    "819": {
+      "fixture": "B819-FIXTURE-OK: preview, verified photos, preservation, replay, existing photo guard\n",
+      "applied": "--- fill-missing-portraits\nFilling photo: Jogues Egan\nFilling photo: Jay Anthony Villarreal\nUpdated rows: 2\nB819-OK\n",
+      "replay": "--- fill-missing-portraits\nPreserved existing photo: Jogues Egan\nPreserved existing photo: Jay Anthony Villarreal\nUpdated rows: 0\nB819-OK\n",
+      "public": [
+        {
+          "name": "Jogues Egan",
+          "profile": "https://politicalprisonercoalition.org/prisoner/jogues-egan",
+          "photo": "https://politicalprisonercoalition.org/storage/prisoners/jogues-egan-batch819.png",
+          "status": 200,
+          "sha256": "4f6463ac560c166dde7dd130b91ea0019157cbadc8f978c5dc241ea8ed6b1fea"
+        },
+        {
+          "name": "Jay Anthony Villarreal",
+          "profile": "https://politicalprisonercoalition.org/prisoner/jay-anthony-villarreal",
+          "photo": "https://politicalprisonercoalition.org/storage/prisoners/jay-anthony-villarreal-batch819.png",
+          "status": 200,
+          "sha256": "4ef29edf5a3e80896837210da1a833333ce959ea22767ab9a97254f996293a30"
+        }
+      ],
+      "preservation_verified": true,
+      "payload_sha256": "cb69658057a9f5e44598c73d662b9985f7b011e5e59c4122d2455e4c37abafd4"
+    }
+  }
+}
