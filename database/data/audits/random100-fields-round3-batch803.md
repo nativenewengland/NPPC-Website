@@ -133,4 +133,3 @@ Court opinion identifies prosecution counsel on appeal. Wrong-age Ohio inmate an
 Fields: prosecutor
 
 https://law.justia.com/cases/ohio/fifth-district-court-of-appeals/2017/16ca80.html
-

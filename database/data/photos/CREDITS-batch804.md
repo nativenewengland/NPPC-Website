@@ -90,4 +90,3 @@ Original caption explicitly identifies Lureida Torres in the center walking with
 Exact rectangular crop (720,185,930,620) of the original PDF page rendered1772x2500; retained pixels unchanged. Low-resolution historical halftone.
 
 No explicit free license identified; historical press photograph with attribution.
-
