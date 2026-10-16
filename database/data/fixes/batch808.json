@@ -1,0 +1,953 @@
+{
+  "batch": 808,
+  "expected_count": 23,
+  "entries": [
+    {
+      "name": "Harold Stallings",
+      "slug": "harold-stallings",
+      "prisoner_id": "944668c9-fe0b-440a-b0b8-a9699b25d33b",
+      "case_id": "cd96b4c2-b0cb-4875-89f1-4bcbd53101c3",
+      "expected": {
+        "id": "cd96b4c2-b0cb-4875-89f1-4bcbd53101c3",
+        "prisoner_id": "944668c9-fe0b-440a-b0b8-a9699b25d33b",
+        "institution_id": null,
+        "charges": "Contempt of court for the Everyman I voyage toward the Pacific nuclear-testing area.",
+        "arrest_date": "1962-05-26 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1962-06-07 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced June 7, 1962 to 30 days for contempt. Swann, who helped organize the voyage, confirms the three sailors spent an extended period in jail. The complete custody total and release date remain unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 07:06:51",
+        "updated_at": "2026-09-10 07:06:51",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Cecil Poole"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab1013.pdf"
+      ],
+      "rationale": "DOJ bulletin page 378 names Stallings, Toes and Lazar, May 26 Coast Guard custody and June contempt sentence. Adds identified prosecution only; does not infer continuous confinement between arrest and sentencing."
+    },
+    {
+      "name": "Dorothy Day",
+      "slug": "dorothy-day",
+      "prisoner_id": "28c32269-1251-4e4a-bd1f-5bcdc6e09a6a",
+      "case_id": "3ac77c7b-d252-48e8-8740-339a9cd0a83a",
+      "expected": {
+        "id": "3ac77c7b-d252-48e8-8740-339a9cd0a83a",
+        "prisoner_id": "28c32269-1251-4e4a-bd1f-5bcdc6e09a6a",
+        "institution_id": "4215f44a-c7a5-4c9a-a07b-a025ed857003",
+        "charges": "Picketing the U.S. Atomic Energy Commission",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1958-05-06 00:00:00",
+        "release_date": "1958-05-06 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested May 6, 1958 while picketing the Atomic Energy Commission; held several hours and released with a suspended sentence.\n\nVerdict as recorded: Convicted; sentence suspended",
+        "imprisoned_for_days": 0,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-24 15:30:54",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Kenneth Phipps"
+      },
+      "sources": [
+        "https://catholicworker.org/740-html/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-07-22-9-40-nat-guardian.pdf"
+      ],
+      "rationale": "Own June 1958 column names Judge Kenneth Phipps and suspended 30-day sentence. July 22, 1957 contemporary report says all ten, expressly including Day, pleaded guilty. Missing judge and plea can be added. Duplicate 1917 cases noted, no deletion or date overwrite."
+    },
+    {
+      "name": "Dorothy Day",
+      "slug": "dorothy-day",
+      "prisoner_id": "28c32269-1251-4e4a-bd1f-5bcdc6e09a6a",
+      "case_id": "dbf45ce7-6360-4d5e-a9f8-0d72c74ea762",
+      "expected": {
+        "id": "dbf45ce7-6360-4d5e-a9f8-0d72c74ea762",
+        "prisoner_id": "28c32269-1251-4e4a-bd1f-5bcdc6e09a6a",
+        "institution_id": "78fb0d35-73f5-4769-a48a-a3291f657e5a",
+        "charges": "Refusing to take shelter",
+        "arrest_date": "1957-07-12 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1957-07-13 00:00:00",
+        "incarceration_date": "1957-07-12 00:00:00",
+        "release_date": "1957-08-06 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed July 12, 1957 and released about August 5-6 after serving roughly 25 days of a 30-day sentence for the Operation Alert protest.\n\nVerdict as recorded: Convicted; sentenced to 30 days\n\nCharges as recorded: Refusing to take shelter during the Operation Alert civil-defense drill",
+        "imprisoned_for_days": 25,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-24 15:30:54",
+        "updated_at": "2026-10-12 19:34:06",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty"
+      },
+      "sources": [
+        "https://catholicworker.org/740-html/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-07-22-9-40-nat-guardian.pdf"
+      ],
+      "rationale": "Own June 1958 column names Judge Kenneth Phipps and suspended 30-day sentence. July 22, 1957 contemporary report says all ten, expressly including Day, pleaded guilty. Missing judge and plea can be added. Duplicate 1917 cases noted, no deletion or date overwrite."
+    },
+    {
+      "name": "Bernard Silber",
+      "slug": "bernard-silber",
+      "prisoner_id": "c38b3912-1f42-43d7-9ab0-323e94454e86",
+      "case_id": "4db6b0db-2595-4404-bf49-55a1fd43c6f7",
+      "expected": {
+        "id": "4db6b0db-2595-4404-bf49-55a1fd43c6f7",
+        "prisoner_id": "c38b3912-1f42-43d7-9ab0-323e94454e86",
+        "institution_id": null,
+        "charges": "Contempt of Congress for refusing HUAC questions about alleged Communist association",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Convicted; reversed by the Supreme Court in 1962; acquitted on retrial March 6, 1964",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four months in jail and a $100 fine were imposed, but no actual confinement was established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-09-26 20:12:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Joseph C. McGarraghy",
+        "prosecutor": "William Hitz"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0808.pdf",
+        "https://www.law.cornell.edu/supremecourt/text/370/717"
+      ],
+      "rationale": "DOJ bulletin reports March 23, 1960 bench conviction before Joseph C. McGarraghy with sentencing deferred; identifies AUSA William Hitz. Supreme Court reversal does not establish custody. Add judge/prosecutor; no incarceration inference."
+    },
+    {
+      "name": "John Kaminsky",
+      "slug": "john-kaminsky",
+      "prisoner_id": "a03ce4ff-0225-478d-bb0c-d44c95d79a52",
+      "case_id": "e292a0fa-cce1-4cbd-8df1-4ffe3cd5a706",
+      "expected": {
+        "id": "e292a0fa-cce1-4cbd-8df1-4ffe3cd5a706",
+        "prisoner_id": "a03ce4ff-0225-478d-bb0c-d44c95d79a52",
+        "institution_id": "740c1868-3b6b-4da9-813a-3f3a1146d31d",
+        "charges": "Conspiracy (July 1922 Cliftonville, W.Va. mine battle)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1922-01-01 00:00:00",
+        "release_date": "1926-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ten years at Moundsville. Released in 1926; exact month remains disputed between contemporary September reporting and a later October account. Recorded at year precision, not as an exact January 1 release. No exact custody-day total is inferred.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 16:17:50",
+        "updated_at": "2026-10-14 00:38:58",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Not guilty, entered by the court after he declined to enter a plea"
+      },
+      "sources": [
+        "https://fortvance.org/wp-content/uploads/2020/08/Cliftonville_Mine_Riot_of_1922.pdf"
+      ],
+      "rationale": "Local history pages 28-29 describes John Kaminsky refusing plea; judge entered not guilty, then ten-year conspiracy sentence. Add accurate plea description only. Previously conflicting 1926 release precision remains held."
+    },
+    {
+      "name": "Howard Overman",
+      "slug": "howard-overman",
+      "prisoner_id": "e64214b8-406d-4654-b09e-dd14dad081a2",
+      "case_id": "044704c1-46c9-4a33-ae9a-ffbcfbc10376",
+      "expected": {
+        "id": "044704c1-46c9-4a33-ae9a-ffbcfbc10376",
+        "prisoner_id": "e64214b8-406d-4654-b09e-dd14dad081a2",
+        "institution_id": null,
+        "charges": "Dynamite-conspiracy and related charges arising from the 1934 Burlington textile strike.",
+        "arrest_date": "1934-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1934-12-04 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Cranmer",
+        "sentence": "Five to six years. The North Carolina Supreme Court ordered a new trial on November 20, 1935, excluding his involuntary confession.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-04 07:53:37",
+        "updated_at": "2026-10-12 16:21:52",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Not guilty"
+      },
+      "sources": [
+        "https://www.casemine.com/judgement/us/5914cc94add7b0493480b9f6"
+      ],
+      "rationale": "State v Anderson recounts defendants other than Furlough pleading not guilty; confirms Overman was defendant and confession involuntary. Add missing plea only. Retrial order does not prove release; separate narcotics defendant not assumed same person."
+    },
+    {
+      "name": "Juan Bernardo Lebron",
+      "slug": "juan-bernardo-lebron",
+      "prisoner_id": "54dc314e-7333-4328-8a1f-81ea04770d3c",
+      "case_id": "80ec17d2-928f-4b69-a8f0-f8e1305de193",
+      "expected": {
+        "id": "80ec17d2-928f-4b69-a8f0-f8e1305de193",
+        "prisoner_id": "54dc314e-7333-4328-8a1f-81ea04770d3c",
+        "institution_id": null,
+        "charges": "Seditious conspiracy under 18 U.S.C. § 2384",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — convicted in October 1954",
+        "plead": null,
+        "sentenced_date": "1954-01-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six years in federal prison",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 05:54:18",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": "{\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": 72,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "1954-05-25 00:00:00",
+        "prosecutor": "J. Edward Lumbard; Julio E. Nunez; James Canavan; William Hundley"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0213.pdf"
+      ],
+      "rationale": "June 25, 1954 DOJ bulletin explicitly lists Juan Bernardo Lebron in May 25 indictment and prosecution staff. Add missing indictment date and prosecutor names; six-year sentence not assumed actual time served."
+    },
+    {
+      "name": "Katherine Christianson",
+      "slug": "katherine-christianson",
+      "prisoner_id": "4973cee1-938a-477c-b274-eaa0d6bd24cb",
+      "case_id": "f1216171-dbe6-46b8-8f20-809ccff57881",
+      "expected": {
+        "id": "f1216171-dbe6-46b8-8f20-809ccff57881",
+        "prisoner_id": "4973cee1-938a-477c-b274-eaa0d6bd24cb",
+        "institution_id": null,
+        "charges": "Willful injury to government property — July 20, 2000 ELF-claimed Rhinelander, Wisconsin Forest Service property destruction",
+        "arrest_date": "2008-07-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2009-02-19 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2010-12-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two years federal imprisonment imposed February 19, 2009 following a December 4, 2008 guilty plea. July 2008 arrest is documented at month precision; exact prison admission remains unverified. BOP custody ended December 14, 2010.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-13 00:09:05",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty (December 4, 2008)",
+        "judge": "Barbara B. Crabb"
+      },
+      "sources": [
+        "https://archives.fbi.gov/archives/milwaukee/press-releases/2009/mw022609a-1.htm",
+        "https://cases.justia.com/federal/appellate-courts/ca7/09-1526/09-1526-2009-11-09-opinion-2011-02-25.pdf?ts=1411037373"
+      ],
+      "rationale": "Official FBI/USAO release gives December 4, 2008 guilty plea; primary appeal identifies district judge Barbara B. Crabb. Adds missing plea and judge; no custody start inferred from sentence."
+    },
+    {
+      "name": "Jeremiah Dean Colcleasure",
+      "slug": "jeremiah-dean-colcleasure",
+      "prisoner_id": "28ee8827-4432-4db9-bcf8-499843c454bf",
+      "case_id": "d7729c5d-b205-4e88-9422-a7471e4b4c25",
+      "expected": {
+        "id": "d7729c5d-b205-4e88-9422-a7471e4b4c25",
+        "prisoner_id": "28ee8827-4432-4db9-bcf8-499843c454bf",
+        "institution_id": null,
+        "charges": "Federal conspiracy to commit arson and attempted arson - 2004 ELF-claimed firebombing attempts at Lincoln and Auburn California housing developments",
+        "arrest_date": "2005-05-09 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2005-05-09 00:00:00",
+        "release_date": "2007-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "24 months federal prison",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2006-05-01 00:00:00",
+        "date_precision": "{\"release_date\":\"year\",\"sentenced_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.scribd.com/document/105920831/AJ140th2012"
+      ],
+      "rationale": "Publisher-uploaded Auburn Journal 140th anniversary issue, September 13, 2012, explicitly reports Colcleasure sentenced to two years in May 2006. March 18, 2006 contemporary Sacramento Bee reprint distinguishes other defendants sentenced March 17 from Colcleasure scheduled in May. Add month only. No verified portrait or actual release day found."
+    },
+    {
+      "name": "Dorothy Eber",
+      "slug": "dorothy-eber",
+      "prisoner_id": "f61fdfa9-02dd-4093-9746-701648e87b91",
+      "case_id": "5d57447e-87ec-4f29-8a71-28e42225d315",
+      "expected": {
+        "id": "5d57447e-87ec-4f29-8a71-28e42225d315",
+        "prisoner_id": "f61fdfa9-02dd-4093-9746-701648e87b91",
+        "institution_id": "824584b7-15a3-4b74-90a6-1e4615ffccdc",
+        "charges": "Entering a Minuteman nuclear missile installation in Missouri, in the Missouri Peace Planting campaign against the silos.",
+        "arrest_date": "1988-08-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — serving a two-year federal sentence as of early February 1989.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two years in federal prison. Contemporary syndicated coverage describes her as a 64-year-old anti-nuclear activist from suburban Chicago and places her at the federal prison at Lexington, Kentucky by early February 1989. Original campaign reporting establishes her first Missouri Peace Planting arrest on August 15, 1988, followed by later actions and prosecution. A November 9, 1988 letter records her out on bond awaiting sentencing; exact bond-release, sentencing, federal-admission and final-release dates remain unknown.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-08-18 16:57:36",
+        "updated_at": "2026-10-11 23:19:58",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Joseph Stevens"
+      },
+      "sources": [
+        "https://mchistory.org/assets/post-amerikan/volume-17/volume-17-number-4.pdf"
+      ],
+      "rationale": "Contemporary Post Amerikan December 1988-January 1989, printed page 12, individually identifies Dorothy Eber at October 31 trial before U.S. District Court Judge Joseph Stevens. Fill missing judge only. Trial date does not establish sentencing or admission. Existing November 9 bond letter prevents assuming continuous imprisonment from August arrest."
+    },
+    {
+      "name": "Micah Legnon",
+      "slug": "micah-legnon",
+      "prisoner_id": "c18168dc-1355-4dfd-acb7-113b69a4a260",
+      "case_id": "3cc7c81d-184d-483e-bb73-a18336cf6155",
+      "expected": {
+        "id": "3cc7c81d-184d-483e-bb73-a18336cf6155",
+        "prisoner_id": "c18168dc-1355-4dfd-acb7-113b69a4a260",
+        "institution_id": "d7047f51-de8f-449e-8da6-e7896411fa8b",
+        "charges": "Threatening ICE (Immigration and Customs Enforcement) officers — federal criminal complaint, Western District of Louisiana",
+        "arrest_date": "2025-12-13 00:00:00",
+        "indicted": null,
+        "convicted": "No — pending trial",
+        "plead": "Arrested December 13, 2025 on a federal criminal complaint; taken into federal custody pending further proceedings in the U.S. District Court for the Western District of Louisiana.",
+        "sentenced_date": null,
+        "incarceration_date": "2025-12-13 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 307,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-13 03:14:51",
+        "updated_at": "2026-10-16 00:00:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "David C. Joseph",
+        "prosecutor": "Zachary A. Keller and John Nickel"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-wdla/pr/former-marine-and-new-iberia-police-officer-pleads-guilty-terrorism-conspiracy"
+      ],
+      "rationale": "Official DOJ September 9, 2026 report names Judge David C. Joseph and prosecutors Zachary A. Keller and John Nickel. Add missing personnel only. September 8 guilty plea makes populated pending-trial text stale, flagged for separate reconciliation. December 11 sentencing is scheduled, not completed; do not add as actual sentence date."
+    },
+    {
+      "name": "Nick Mottern",
+      "slug": "nick-mottern",
+      "prisoner_id": "cf6df6ce-43f9-42ac-a89c-8eddfedfdc09",
+      "case_id": "2c73e29b-6e19-43ff-b5e1-3e42df057019",
+      "expected": {
+        "id": "2c73e29b-6e19-43ff-b5e1-3e42df057019",
+        "prisoner_id": "cf6df6ce-43f9-42ac-a89c-8eddfedfdc09",
+        "institution_id": null,
+        "charges": "Blocking a roadway — Holloman Air Force Base / Otero County",
+        "arrest_date": "2026-04-08 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2026-04-08 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Released shortly after processing because of a medical condition. Newsletter #208 reports a May conditional dismissal, subject to no new charges within 90 days. No longer detention interval is assigned.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-13 09:40:50",
+        "updated_at": "2026-09-13 09:40:50",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2026-04-08 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.nukeresister.org/2026/04/09/five-arrested-at-new-mexico-drone-base/"
+      ],
+      "rationale": "Toby Blome reports that all five protesters were taken to Otero County jail on April 8. Mottern was released shortly after processing for a medical condition. Same-day admission only; the other four protesters stayed three days."
+    },
+    {
+      "name": "Charles Stearns",
+      "slug": "charles-stearns",
+      "prisoner_id": "c88930bf-01df-46e8-ab9a-476a42c9f888",
+      "case_id": "55253ae6-c7a5-4b63-8382-75a5ee3005f6",
+      "expected": {
+        "id": "55253ae6-c7a5-4b63-8382-75a5ee3005f6",
+        "prisoner_id": "c88930bf-01df-46e8-ab9a-476a42c9f888",
+        "institution_id": null,
+        "charges": "Refusing militia service on nonresistance principle.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Jailed for his refusal.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Imprisoned for declining militia duty.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:53:56",
+        "updated_at": "2026-07-06 14:53:56",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1840-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://voluntaryist.com/avpg/intro.html"
+      ],
+      "rationale": "Carl Watner explicitly dates Hartford imprisonment to January 1840 and cites the jail letter in The Liberator, February 14, 1840, p.4. Peter Brock corroborates the imprisonment episode. Month supported by cited historical research; original newspaper not directly retrieved. Release unknown. Physician namesake images rejected."
+    },
+    {
+      "name": "Brian Vaillancourt",
+      "slug": "brian-vaillancourt",
+      "prisoner_id": "c7f0ce29-a1b0-4068-af2b-7234a7c9f95c",
+      "case_id": "7bc068df-a5ea-4f6a-807c-b5d56d8873e7",
+      "expected": {
+        "id": "7bc068df-a5ea-4f6a-807c-b5d56d8873e7",
+        "prisoner_id": "c7f0ce29-a1b0-4068-af2b-7234a7c9f95c",
+        "institution_id": null,
+        "charges": "Arson",
+        "arrest_date": "2013-02-09 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2013-02-09 00:00:00",
+        "release_date": "2020-09-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-13 00:00:17",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty",
+        "sentence": "Nine years imposed for arson; this is the sentence, not a verified actual time-served total."
+      },
+      "sources": [
+        "https://animalliberationpressoffice.org/NAALPO/wp-content/uploads/2017/03/2017-Guide-to-Political-Prisoners-1.pdf",
+        "https://nycabc.wordpress.com/wp-content/uploads/2019/06/updates-25-jun-2019.pdf"
+      ],
+      "rationale": "NYC ABC entry M42889 identifies the guilty plea and nine-year sentence. Its June 25, 2019 newsletter corroborates the imposed term. The reported February 2013 sentencing month was not promoted without stronger contemporary confirmation. No actual duration derived."
+    },
+    {
+      "name": "William O. Myers",
+      "slug": "william-o-myers",
+      "prisoner_id": "2b0e455a-6479-42f0-ad87-ae100d22c1da",
+      "case_id": "1d3186da-7106-4431-81b1-51964059c3de",
+      "expected": {
+        "id": "1d3186da-7106-4431-81b1-51964059c3de",
+        "prisoner_id": "2b0e455a-6479-42f0-ad87-ae100d22c1da",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Fort Leavenworth.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1918-06-10 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/5be04bdc-fece-47ae-9231-db75c20cafe7/content"
+      ],
+      "rationale": "Wichita Weekly Times, June 14, 1918, printed p.3 (PDF13), San Antonio June 10 dateline: sentences passed that day; William O. Myers is named. Life sentences reduced to 25 years; men held in stockade pending transfer. Original visually checked in myers-article.png. Admission predates or equals reporting but remains unspecified. Existing sentence text preserved."
+    },
+    {
+      "name": "Michael Rodriguez",
+      "slug": "michael-rodriguez",
+      "prisoner_id": "475a7b82-f39c-422c-b5b2-c1918d664856",
+      "case_id": "ba96c3d7-b112-4e38-b0a8-99f9bc66359c",
+      "expected": {
+        "id": "ba96c3d7-b112-4e38-b0a8-99f9bc66359c",
+        "prisoner_id": "475a7b82-f39c-422c-b5b2-c1918d664856",
+        "institution_id": "73f28da8-cf1a-43ad-b42a-37a3435920c5",
+        "charges": "Attempting to damage government property by fire",
+        "arrest_date": "2020-06-11 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2020-06-11 00:00:00",
+        "release_date": "2020-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Homeless man accused of setting fire to a vehicle bearing an NYPD placard on a residential Brooklyn block; charges later dropped after he was found to have been misidentified.\n\nVerdict as recorded: No — charges dropped (misidentified as the perpetrator)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-07-29 17:05:27",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2020-06-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.fox5ny.com/news/feds-release-suspect-in-torching-of-nypd-car.amp"
+      ],
+      "rationale": "AP, June 15, 2020, explicitly reports Rodriguez released from federal custody Monday; Thursday jailing agrees with June 11. Refine release to June 15. The article’s alleged-arsonist illustration is not verified as Rodriguez and must not be used for him."
+    },
+    {
+      "name": "Yoshito Kuromiya",
+      "slug": "yoshito-kuromiya",
+      "prisoner_id": "9e40dcad-71d7-4d94-a3dd-5984cec723d4",
+      "case_id": "65e6ef5d-ed2a-4c01-9877-3c0f1ce04107",
+      "expected": {
+        "id": "65e6ef5d-ed2a-4c01-9877-3c0f1ce04107",
+        "prisoner_id": "9e40dcad-71d7-4d94-a3dd-5984cec723d4",
+        "institution_id": "2046afc9-8ed7-4879-8f7a-b703237476a8",
+        "charges": "Violation of the Selective Training and Service Act — Heart Mountain draft resistance",
+        "arrest_date": "1944-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1944-06-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3 years imposed. Served time at McNeil Island in Washington. Actual release date has not been established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 08:35:46",
+        "updated_at": "2026-10-14 00:00:47",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": 36,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1946-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://discovernikkei.org/en/journal/2023/3/31/beyond-the-betrayal/",
+        "https://heartmountain.org/draft-resisters-hub/kuromiya-yoshito/"
+      ],
+      "rationale": "JANM Discover Nikkei memoir review explicitly reports July 1946 actual release. The Heart Mountain Foundation profile confirms jail before the June 1944 trial. July 1946 release is newly established; exact day and admission month remain unresolved. The preexisting sentence note is retained under the fill-missing-only scope."
+    },
+    {
+      "name": "Ellis Rece Jr.",
+      "slug": "ellis-rece-jr",
+      "prisoner_id": "d68fb528-4257-4455-a9b2-bfc0b3d8f37a",
+      "case_id": "74cc2e18-19c7-415c-9d8a-b62323c4e33f",
+      "expected": {
+        "id": "74cc2e18-19c7-415c-9d8a-b62323c4e33f",
+        "prisoner_id": "d68fb528-4257-4455-a9b2-bfc0b3d8f37a",
+        "institution_id": null,
+        "charges": "Filing a false or fraudulent W-4 withholding form in war tax resistance",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1972-05-26 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "NWTRCC dates sentencing to May26,1972 and reports one and one-half months actually served. Friends Journal reports a one-year sentence with320days suspended. Sources differ on the fine: Friends Journal gives$500 and NWTRCC$5,000; unresolved. Exact prison, admission and release dates remain unknown.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:59:54",
+        "updated_at": "2026-09-18 00:29:41",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "October 1971",
+        "convicted": "Guilty — May 22, 1972"
+      },
+      "sources": [
+        "https://nwtrcc.org/resist/consequences/war-tax-resisters-taken-court/"
+      ],
+      "rationale": "NWTRCC’s individual row gives October 1971 indictment, May 22, 1972 guilty finding and May 26 sentencing. Friends Journal confirms the sentence structure but differs on the fine. Admission and release unresolved. The Emory photograph is Ellis Heber Rece Sr., born 1900, not verified as Rece Jr.; rejected."
+    },
+    {
+      "name": "Ramanan Mylvaganam",
+      "slug": "ramanan-mylvaganam",
+      "prisoner_id": "3bd91e43-d8ed-4ed9-954d-f9575f1d6fc4",
+      "case_id": "db5a5d01-7c79-4fa9-aac8-dce3e531d962",
+      "expected": {
+        "id": "db5a5d01-7c79-4fa9-aac8-dce3e531d962",
+        "prisoner_id": "3bd91e43-d8ed-4ed9-954d-f9575f1d6fc4",
+        "institution_id": "c3068605-3613-49c1-8b95-04f1ada17302",
+        "charges": "material support",
+        "arrest_date": "2006-08-22 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2012-05-14 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2012-05-15 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Time served imposed May 14, 2012. Official BOP register 77608-053 identifies Ramanan Mylvaganam, age 50, noncustody as of May 15, 2012. This is the federal criminal-custody endpoint, not proof of any later immigration detention or return to Canada. Exact US admission and intervening Canadian bail phases remain unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-13 02:12:37",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty — February 8, 2012",
+        "judge": "Raymond J. Dearie",
+        "prosecutor": "Ali Kazemi"
+      },
+      "sources": [
+        "https://archives.fbi.gov/archives/newyork/press-releases/2012/canadian-man-pleads-guilty-to-conspiring-to-provide-material-support-to-the-liberation-tigers-of-tamil-eelam"
+      ],
+      "rationale": "Official FBI/EDNY announcement, February 8, 2012, identifies guilty plea before Raymond J. Dearie and prosecutor Ali Kazemi. Ontario appellate reasons document a separate Canadian bail period. Fill missing legal details. Canadian bail and 2009 extradition year do not establish exact U.S. admission."
+    },
+    {
+      "name": "Marimar Martinez",
+      "slug": "marimar-martinez",
+      "prisoner_id": "cda71654-1658-4f60-ad6d-6abdb7785dfe",
+      "case_id": "acdad1e8-bd26-455d-804c-4ab383842319",
+      "expected": {
+        "id": "acdad1e8-bd26-455d-804c-4ab383842319",
+        "prisoner_id": "cda71654-1658-4f60-ad6d-6abdb7785dfe",
+        "institution_id": null,
+        "charges": "Assaulting, resisting, or impeding a federal officer with a deadly or dangerous weapon.",
+        "arrest_date": "2025-10-04 00:00:00",
+        "indicted": null,
+        "convicted": "No — charge dismissed with prejudice.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-10-04 00:00:00",
+        "release_date": "2025-10-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held from October 4 until her release following the October 7 detention proceeding.",
+        "imprisoned_for_days": 3,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 06:08:59",
+        "updated_at": "2026-09-27 06:08:59",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Georgia N. Alexakis"
+      },
+      "sources": [
+        "https://cst.brightspotcdn.com/66/83/35a330864d80aac093712b4a4f4b/usavmartinezresponse.pdf",
+        "https://capitolcitynow.com/news/248842-judge-rules-to-release-evidence-in-border-patrol-shooting-of-marimar-martinez/"
+      ],
+      "rationale": "Caption-identifed CNI photograph verified and exact crop ready. Court filing caption identifies Georgia N. Alexakis as judge in25CR636; add missing judge, preserve existing dates."
+    },
+    {
+      "name": "Anderson Chamapuro Dogirama",
+      "slug": "anderson-chamapuro-dogirama",
+      "prisoner_id": "dde063fa-bb45-48b5-8fce-7953a0de140c",
+      "case_id": "a5f24700-351d-4073-84bd-bc953073c045",
+      "expected": {
+        "id": "a5f24700-351d-4073-84bd-bc953073c045",
+        "prisoner_id": "dde063fa-bb45-48b5-8fce-7953a0de140c",
+        "institution_id": null,
+        "charges": "Conspiracy to take hostages and hostage taking arising from the April 4, 2008 kidnapping of U.S. citizen Cecilio Juan Padrón in Panama.",
+        "arrest_date": "2009-12-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2011-10-24 00:00:00",
+        "incarceration_date": "2009-12-03 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ten years in federal prison, three years of supervised release, and $3 million restitution.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-09-25 15:39:49",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":null}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jed S. Rakoff",
+        "prosecutor": "Rebecca M. Ricigliano; Jeffrey A. Brown"
+      },
+      "sources": [
+        "https://www.justice.gov/archive/usao/nys/pressreleases/November11/ortizedilbertoberriosentencingpr.pdf"
+      ],
+      "rationale": "DOJ sentencing announcement expressly identifies Jed S. Rakoff and prosecutors Rebecca M. Ricigliano/Jeffrey A. Brown. Add those missing details. December2009 arrest occurred in Colombia; actual US extradition start remains a separate unresolved issue, no replacement made."
+    },
+    {
+      "name": "Jeanette Renee Wallace",
+      "slug": "jeanette-renee-wallace",
+      "prisoner_id": "316d3799-67b6-4f47-b1f2-44dd146b485f",
+      "case_id": "49305d22-79c3-4c5b-bbc0-be631a412174",
+      "expected": {
+        "id": "49305d22-79c3-4c5b-bbc0-be631a412174",
+        "prisoner_id": "316d3799-67b6-4f47-b1f2-44dd146b485f",
+        "institution_id": "41beed84-e6ca-4c99-ac7f-e69e0cf6ffb8",
+        "charges": "Depredation of U.S. government property",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "36 months federal prison for depredation of federal property; damage exceeded $70,000 during the May 30, 2020 Las Vegas protest where demonstrators later gathered at the federal building and threatened a security guard. Identified via facial recognition and Facebook.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-07-22 01:32:18",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Lisa Cartier-Giroux; Kimberly Sokolich"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-nv/pr/fourth-defendant-pleads-guilty-damaging-us-courthouse-during-may-2020-protest-las-vegas"
+      ],
+      "rationale": "DOJ May10,2021 announcement lists Wallace awaiting trial and names AUSAs Lisa Cartier-Giroux/Kimberly Sokolich prosecuting these cases. Add prosecutors only. Judge Dorsey is expressly associated with Avalos and not assigned to Wallace."
+    },
+    {
+      "name": "Rocky Chau",
+      "slug": "rocky-chau",
+      "prisoner_id": "65b1ff1c-acea-4440-a3c9-a3223f788fbb",
+      "case_id": "c9d8ab71-727b-46c7-8ebd-6cb2081d19e5",
+      "expected": {
+        "id": "c9d8ab71-727b-46c7-8ebd-6cb2081d19e5",
+        "prisoner_id": "65b1ff1c-acea-4440-a3c9-a3223f788fbb",
+        "institution_id": null,
+        "charges": "False imprisonment, obstruction of a thoroughfare, unlawful assembly",
+        "arrest_date": "2024-04-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "August 21, 2026: 30 days, split between jail and a work program; six months probation. Jail stayed pending appeal; outstanding charges dismissed. Four pretrial days credited. Sources: https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown ; https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/ ; https://www.nbcbayarea.com/news/local/jury-decision-golden-gate-bridge-pro-palestinian-protesters/4108045/ .",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-05 02:27:56",
+        "updated_at": "2026-10-05 02:27:56",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2026-08-21 00:00:00",
+        "judge": "Teresa Caffese",
+        "prosecutor": "Angela Roze",
+        "documented_imprisoned_for_days": 4,
+        "date_precision": "{\"arrest_date\": \"day\", \"sentenced_date\": \"day\"}"
+      },
+      "sources": [
+        "https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown",
+        "https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/"
+      ],
+      "rationale": "KQED August21,2026 report identifies Rocky among seven sentenced that day, Judge Teresa Caffese and prosecutor Angela Roze. Richmondside reports four actual pretrial jail days for each. Add sentencing/judge/prosecutor and documented4days; stayed future sentence not counted as served."
+    }
+  ]
+}
