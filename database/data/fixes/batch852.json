@@ -1,0 +1,153 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Red Fawn Fallis",
+      "slug": "red-fawn-fallis",
+      "expected": {
+        "id": "d23074bf-06fe-40b3-9443-1dedd696c02f",
+        "prisoner_id": "f7788546-e023-470a-ab55-634a455156b6",
+        "institution_id": "407ef5c5-50a0-4905-b07b-b390e9698c04",
+        "charges": "Civil Disorder Firearms Violation",
+        "arrest_date": "2016-10-26 00:00:00",
+        "indicted": "Nov 27th 2016",
+        "convicted": "Jan 16th 2018",
+        "plead": "Guilty",
+        "sentenced_date": "2018-11-19 00:00:00",
+        "incarceration_date": "2018-11-19 00:00:00",
+        "release_date": "2020-11-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Christopher C. Myer",
+        "judge": "Daniel L. Hovland",
+        "sentence": null,
+        "imprisoned_for_days": 731,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-05-10 12:52:31",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "57 months in federal prison, followed by 3 years of supervised release"
+      },
+      "source": "Water Protector Legal Collective contemporary brochure: https://waterprotectorlegal-org.nyc3.cdn.digitaloceanspaces.com/production/app/uploads/2019/02/2019.02.25-WPLC-Brochure.pdf ; courtroom reporting July 11, 2018: https://www.kfyrtv.com/content/news/Red-Fawn-Fallis-sentenced-in-DAPL-protest-case-487950011.html . Concurrent terms, not consecutive. Existing November 19 sentencing day conflicts with actual July 11 report: populated date not overwritten in this missing-fields pass; flagged for separate correction. No actual time served derived from imposed term."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Omar Abdi Mohamed",
+      "slug": "omar-abdi-mohamed",
+      "expected": {
+        "id": "6ddb1a3b-bd3d-4ad1-9c74-99c2de41fcb6",
+        "prisoner_id": "d4680d9c-9096-4808-810f-d22af9a09756",
+        "institution_id": "be98ca8e-5ca4-453a-bfab-4e922ffcddc4",
+        "charges": "immigration violations",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2005-12-20 00:00:00",
+        "incarceration_date": "2005-12-19 00:00:00",
+        "release_date": "2006-12-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1 Year and 6 Months\n\nVerdict as recorded: Yes — federal conviction; sentenced to 1 Year and 6 Months",
+        "imprisoned_for_days": 365,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2004-01-20 00:00:00",
+        "judge": "Houston (U.S. District Court, Southern District of California)",
+        "prosecutor": "Steven R. Cook; John N. Parmley",
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "source": "FBI March 1, 2004 memorandum explicitly records January 20, 2004 arrest for immigration fraud: https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040/documents-responsive-to-executive-order-14040-section-2-b-i-part-02-of-02/ . U.S. v. Mohamed, 410 F.Supp.2d 913 (S.D.Cal. January 26, 2005), case 03CR3433 JAH, identifies Judge Houston and government counsel: https://www.leagle.com/decision/20051323410fsupp2d91311235 . No continuous January 2004 to December 2006 imprisonment inferred; existing prison-entry and discharge dates preserved for separate verification."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lamar Taylor",
+      "slug": "lamar-taylor",
+      "expected": {
+        "id": "388e400c-3323-464c-a545-760018f8ba44",
+        "prisoner_id": "0701510c-0e47-44ae-9d23-4535761c7881",
+        "institution_id": "81c3f208-168e-474e-896c-0e8707e541ef",
+        "charges": "Arson",
+        "arrest_date": "2021-02-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2022-12-20 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 26 months federal prison. Taylor, 23, was charged with arson after allegedly setting fire to a Chicago Transit Authority van during a 2020 protest over the death of George Floyd.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-07-29 17:05:27",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Gary Feinerman",
+        "plead": "Guilty — May 2022, arson conspiracy and civil disobedience, as reported at sentencing"
+      },
+      "source": "Contemporary sentencing report, Chicago Sun-Times, December 20, 2022: https://chicago.suntimes.com/crime/2022/12/20/23519136/lamar-taylor-setenced-fire-cta-van-downtown-chicago-protests-george-floyd-murder . Names judge and May guilty plea. Wording follows report; no inferred prison-entry or discharge date. Twenty-two months reported pretrial detention is not converted into an exact admission day."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Al M. Talaga",
+      "slug": "al-m-talaga",
+      "expected": {
+        "id": "25d16299-d652-4216-a9e1-c5937a198079",
+        "prisoner_id": "e4a33469-44ff-4db8-a07a-4c9e020360f1",
+        "institution_id": null,
+        "charges": "Felon in possession of a firearm",
+        "arrest_date": "2020-09-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2021-08-10 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two loaded handguns (one stolen) found in his impounded vehicle after a June 1, 2020 break-in report at a Seattle sneaker store; barred from firearms by a 2005 King County second-degree robbery conviction. Sentenced to 24 months federal prison.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:17",
+        "updated_at": "2026-07-22 01:32:17",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "James L. Robart",
+        "prosecutor": "Kate Crisham"
+      },
+      "source": "DOJ charging release identifies prosecutor: https://www.justice.gov/usao-wdwa/pr/auburn-washington-man-charged-being-felon-possession-firearms . Sentencing case report, 2:20-cr-00163-JLR: https://www.morelaw.com/verdicts/2-20-cr-00163-jlr/WA/155314/ identifies presiding judge and confirms prosecutor. September 16 charging release refers to arrest both today and late yesterday, so no exact arrest day substituted. Case report date August 13 differs from existing August 10 sentencing field; not overwritten."
+    }
+  ]
+}
