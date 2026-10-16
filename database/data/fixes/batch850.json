@@ -1,0 +1,116 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Graham",
+      "slug": "john-graham",
+      "expected": {
+        "id": "c6958e63-4e47-41b1-b4a6-fc29dc388017",
+        "prisoner_id": "08a9ee06-3e75-4431-ad91-e7a345ba667e",
+        "institution_id": null,
+        "charges": "Murder",
+        "arrest_date": "2003-12-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2011-01-24 00:00:00",
+        "incarceration_date": "2007-06-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 7052,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-16 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Life imprisonment without parole",
+        "judge": "John J. Delaney",
+        "convicted": "Guilty of felony murder; acquitted of premeditated murder"
+      },
+      "source": "South Dakota Supreme Court, State v. Graham, 2012 SD 42, docket 25899, May 30, 2012: https://law.justia.com/cases/south-dakota/supreme-court/2012/25899.html . Caption identifies trial judge; paragraph 9 states verdicts and life without parole. Retain separate initial Canadian extradition detention; no continuous custody inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Henry Kyle Frese",
+      "slug": "henry-kyle-frese",
+      "expected": {
+        "id": "b5177168-4bcb-4b28-89a4-d7826d7c1528",
+        "prisoner_id": "473dd464-d43c-4946-97cb-d3dbd166c503",
+        "institution_id": null,
+        "charges": "Willful transmission of classified national defense information (Espionage Act, 18 U.S.C. §793(d) and (e)).",
+        "arrest_date": "2019-10-09 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2020-06-18 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2022-10-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 months federal prison.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 22:15:51",
+        "updated_at": "2026-10-13 22:59:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Leonie M. Brinkema",
+        "prosecutor": "Danya E. Atiyeh; W. Neil Hammerstrom Jr.; Jennifer Kennedy Gellie",
+        "plead": "Guilty — February 20, 2020, willful transmission of national defense information"
+      },
+      "source": "DOJ February 20, 2020 plea release: https://www.justice.gov/archives/opa/pr/former-dia-employee-pleads-guilty-leaking-classified-national-defense-information-journalists ; June 18, 2020 sentencing release: https://www.justice.gov/archives/opa/pr/former-dia-analyst-sentenced-leaking-classified-information-journalists . Filed plea agreement identifies presiding judge and full prosecutor names: https://sgp.fas.org/news/2020/02/frese-plea.pdf . Existing sentencing and release dates retained. No admission date inferred from arrest or sentencing. Existing biography incorrectly says June plea; correcting populated biography is outside this missing-fields pass, so flagged separately."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lucy Grace Nelson",
+      "slug": "lucy-grace-nelson",
+      "expected": {
+        "id": "b6f625e1-14eb-4136-a4db-8188a1580d9a",
+        "prisoner_id": "a275c6c0-22fb-432e-8f54-bdfb14205efb",
+        "institution_id": null,
+        "charges": "Two counts of possessing unregistered destructive devices and attempted malicious destruction of property.",
+        "arrest_date": "2025-02-27 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-02-27 00:00:00",
+        "release_date": "2025-03-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Released on a personal-recognizance bond after five days in federal custody.",
+        "imprisoned_for_days": 5,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 06:08:59",
+        "updated_at": "2026-09-27 06:08:59",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "N. Reid Neureiter (initial appearance)"
+      },
+      "source": "DOJ February 27, 2025 charging release explicitly names initial-appearance magistrate: https://www.justice.gov/usao-co/pr/lyons-resident-charged-connection-series-incidents-loveland-tesla-dealership . Role is identified; no sentencing judge or conviction inferred."
+    }
+  ]
+}
