@@ -5,7 +5,7 @@ Eligible pool after excluding the previous 100: 8817.
 
 Every selected profile individually researched. This is not a claim that every archive was exhausted.
 
-Prepared: 18 case records across 17 profiles; 2 portraits; 18 distinct profiles updated.
+Applied live: 18 case records across 17 profiles; 2 portraits; 18 distinct profiles updated.
 
 Biographies and existing portraits preserved. Nonempty fields preserved except documented partial-date refinements. Month precision retained; no release calculated from sentence length.
 
@@ -269,7 +269,7 @@ No verified addition applied.
 
 Individually matched Zimmer entry. Downloaded and viewed membership card; it contains no portrait. No identified photo found.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://kenyonzimmer.com/red-scare-deportees/supino-to-tabenko/
 
@@ -279,7 +279,7 @@ No verified addition applied.
 
 Multiple distinct arrests August 23, September, December 1907 and May 1908. Existing unscoped libel case cannot safely receive a continuous custody span. December arrest/January 2 release chronology requires original verification and separate episode matching.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://archivomagon.net/it/diccionario-biografico/?dir=2&name_directory_startswith=D&trp-form-language=en
 
@@ -289,7 +289,7 @@ No verified addition applied.
 
 Exact-name and John Rabus/flag searches found no independently matched custody endpoint or portrait. Existing six-month sentence is not proof of actual time served.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 29. Henry C. Evans
@@ -298,7 +298,7 @@ No verified addition applied.
 
 Silent Defense reproduction describes group December 1917 arrests but does not establish Evans individual admission. Existing October 30/31 death conflict remains; no group date substituted.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://weneverforget.org/tag/sacramento-iww-class-war-prisoners/page/2/
 
@@ -308,7 +308,7 @@ No verified addition applied.
 
 Fresh linked Swarthmore spreadsheet individually matches Laub: drafted 1917, June 5 draft registration, February 14 1919 board interview, twenty-year sentence. None establishes missing arrest or actual release; no portrait.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www1.swarthmore.edu/library/peace/conscientiousobjection/WWI.COs.coverpage.htm
 
@@ -318,7 +318,7 @@ No verified addition applied.
 
 Fresh Swarthmore spreadsheet individually matches Curtis Coggins, Berkeley address, socialist, five-year sentence. No actual custody endpoints. Sentence not converted to served duration.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www1.swarthmore.edu/library/peace/conscientiousobjection/WWI.COs.coverpage.htm
 
@@ -328,7 +328,7 @@ Batch 801: judge
 
 July 6 jailing followed by appellate bail reported July 10; later July 25 bail decision. Cannot make July 6-February 26 continuous. Missing judge supported; custody reconstruction held.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://wjcash.org/WJCash19/Charlotte.News.Articles/7-10-51.htm
 
@@ -338,7 +338,7 @@ Batch 801: arrest_date, incarceration_date
 
 Original first page visually verified: Soderberg expressly named among men arrested Tuesday November 17 and lodged in Tombs. Refine existing pretrial month only; no acquittal/sentencing substituted for release.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/etol/newspape/youngspart/YS1931-32/jan1932.pdf
 
@@ -348,7 +348,7 @@ No verified addition applied.
 
 Identifies Santiago as U.S. citizen and wife JoAnn immigration appeal. Does not establish his arrest or incarceration; exile must not be treated as jail.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1960-01-11-12-13-nat-guardian.pdf
 
@@ -358,7 +358,7 @@ No verified addition applied.
 
 Exact Gus Schader and prosecution searches did not resolve actual custody. Existing May 25 1918 thirty-day sentence does not establish admission/release.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 36. Louis Miller
@@ -367,7 +367,7 @@ No verified addition applied.
 
 Named JAFRC defendant; June 7 1950 imprisonment is already present. No distinct missing arrest date verified.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://oregonnews.uoregon.edu/lccn/sn85042472/1950-06-07/ed-1/seq-14/ocr/
 
@@ -377,7 +377,7 @@ Batch 801: indicted, judge, prosecutor
 
 Original NARA M2022 guide, printed page 2 visually verified, names Wallberg among Wichita defendants indicted September 24 1918, tried December 1-18 1919 by Judge John C. Pollock, prosecutors Fred Robertson and Col. S. B. Amidon. Existing release conflicts with bio; not changed without release evidence.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://twelvekey.com/wp-content/uploads/2025/06/m2022.pdf
 
@@ -387,7 +387,7 @@ Batch 801: judge; Batch 802: identified portrait
 
 Official Lancaster DA article identifies separate Dylan Davis photo and judge Merrill Spahn. Original image downloaded/viewed, branding retained; no new custody endpoint.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://crimewatch.net/us/pa/lancaster/da/11617/post/superior-court-rejects-%E2%80%9Cpeaceful%E2%80%9D-protest-appeal-claims-two-convicted-rioters-2020
 
@@ -397,7 +397,7 @@ Batch 801: arrest_date
 
 November 2013 Whitcomb entry explicitly places her among 41 arrested November 10 1917. Arrest only; contradictory abbreviated sentencing chronology not adopted.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://suffragistmemorial.org/suffragist-month-2013/
 
@@ -407,7 +407,7 @@ No verified addition applied.
 
 Official marker confirms July 17 1906 capture already present in first of overlapping cases. Not proof of exact institutional admission; duplicate-case reconciliation outside missing-field update.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://philhistoricsites.nhcp.gov.ph/registry_database/macario-sakay-1870-1907/
 
@@ -417,7 +417,7 @@ No verified addition applied.
 
 Oklahoma Historical Society Enfield collection contains prison correspondence but finding aid does not supply admission/release. Contemporary June 1918 reports establish sentence, not actual served duration. Undigitized files remain lead.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.okhistory.org/research/findingaid?id=001czh
 
@@ -427,7 +427,7 @@ Batch 801: arrest_date
 
 Printed page 8 visually verified: George Loh and Elmer Lockner arrested at German Day picnic week ago Sunday and immediately released on $300 bail each. July 31 defense meeting corroborates July month. Refine arrest to month, do not invent exact day or prolonged imprisonment.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n187-NY-aug-05-1936-DW-Q.pdf
 
@@ -437,7 +437,7 @@ No verified addition applied.
 
 Fresh Zimmer entry individually matched David Davidovich Zimmerman; no portrait in his section. No image from adjacent people assigned.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://kenyonzimmer.com/red-scare-deportees/zharko-to-______/
 
@@ -447,7 +447,7 @@ Batch 801: charges
 
 Contemporary report explicitly identifies Richard Brown facing murder and conspiracy charges. Fill blank charges for 2007 case; leave unresolved 1968 release alone.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.sfgate.com/bayarea/article/Ex-militants-charged-in-S-F-police-officer-s-71-2654930.php
 
@@ -457,7 +457,7 @@ No verified addition applied.
 
 July 2000 opinion individually names Jose Rafael Bas Garcia but does not establish individual jail endpoints. Unmatched genealogy not accepted for photo or identity dates.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://law.justia.com/cases/federal/district-courts/FSupp2/129/424/2471396/
 
@@ -467,7 +467,7 @@ No verified addition applied.
 
 1970 criminal arrest concerns underlying case, not the administrative segregation episode. Isolation sources do not bound the whole period. Examined original article pictures identify Charles Ganss and Phyllis Lynn Hill, not Futch; rejected.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://openjurist.org/447/pa/389/commonwealth-v-futch
 
@@ -477,7 +477,7 @@ No verified addition applied.
 
 Family account confirms September 17 1952 arrest already recorded. No fresh arrest for later sentence case and no missing endpoint established.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://jimandnancyforest.com/2006/08/jff/
 
@@ -487,7 +487,7 @@ No verified addition applied.
 
 Individually matched fresh Zimmer entry for Ignatz Konoval has no portrait. Adjacent deportee images not assigned.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://kenyonzimmer.com/red-scare-deportees/konyakin-to-korostyshevsky/
 
@@ -497,7 +497,7 @@ No verified addition applied.
 
 Individually named Pless Thomas in Harlan discussion, ill with tuberculosis pending trial. No actual release date. Same-name genealogy lacks identity bridge and rejected.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://iris.unito.it/retrieve/e27ce42d-77d2-2581-e053-d805fe0acbaa/2016_Anni_Trenta_Scarpino_PUB_LEDI.pdf
 
@@ -507,7 +507,7 @@ No verified addition applied.
 
 Individually named Olympia protester; Olympia Rafah organizer and Vimeo interview are leads, but no downloaded original still sufficiently verified and suitable for portrait assignment.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.indybay.org/newsitems/2014/02/18/18751149.php
 
@@ -517,7 +517,7 @@ No verified addition applied.
 
 Compared duplicate cases; conflicting existing 1973 starts require original arrest record. No new missing date established.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://veronza.org
 
@@ -527,7 +527,7 @@ No verified addition applied.
 
 March6 speech and appeal dates do not establish arrest; existing custody endpoints retained.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://openjurist.org/56/mont/108/state-v-kahn
 
@@ -537,7 +537,7 @@ No verified addition applied.
 
 Split thirty-day sentence already recorded; approximate second release needs jail discharge documentation.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.nukeresister.org/wp-content/uploads/2024/12/NR205-final.pdf
 
@@ -547,7 +547,7 @@ No verified addition applied.
 
 December7 arrest already present. Rohwer ending August1945 alone does not establish final release. No portrait on individual page.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://incarceration.jcchawaii.org/internees/miyagi-genyei
 
@@ -557,7 +557,7 @@ No verified addition applied.
 
 Exact-name 1936/1937 searches did not locate additional individual custody evidence. Atlanta transfer is not release.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 56. John Hunn
@@ -566,7 +566,7 @@ No verified addition applied.
 
 Civil damages proceedings, not verified imprisonment. Do not turn civil judgment into criminal sentence or custody.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.nps.gov/articles/000/trial-of-john-hunn.htm
 
@@ -576,7 +576,7 @@ No verified addition applied.
 
 Named GulfWar resister; transport under restraint described but no individual custody endpoints verified.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://fifthestate.anarchistlibraries.net/library/337-late-summer-1991-thousands-said-no-to-gulf-war
 
@@ -586,7 +586,7 @@ Batch 801: sentenced_date
 
 Archival biography explicitly dates California three-month sentence October1916; supports missing sentencing month. Does not establish custody endpoints.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.bfscollezionidigitali.org/entita/15497-scali-giuseppe
 
@@ -596,7 +596,7 @@ No verified addition applied.
 
 Contemporary report describes arrest and defense campaign, no precise release; existing January dates retained.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.historyworm.com/gazete/daily_worker/1930-01-07/1
 
@@ -606,7 +606,7 @@ No verified addition applied.
 
 June6 trial, June7 guilty verdict and anticipated June21 sentencing; scheduled sentencing not entered as actual. Portrait lead in May23,1968 Manchester newspaper. Newspaper original fetch blocked403; no unverified crop submitted. Downloaded and visually inspected peacebuttons identified arrest image three-talmanson-original.jpg: face not visible/usable, rejected as portrait. Identified1966 press-photo listing found, original scan inaccessible403 and no visual verification; held.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.crmvet.org/docs/nor/670619_cnva_news.pdf
 https://www.peacebuttons.info/E-News/peacehistorymay.htm
@@ -618,7 +618,7 @@ No verified addition applied.
 
 Exact-name WWI sedition/espionage searches yielded no independently matched date or portrait. NCLB listing needs individual court corroboration.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 62. José Luis Romero Burgos
@@ -627,7 +627,7 @@ No verified addition applied.
 
 Consolidated Vieques opinion names defendant but group April-June period cannot supply individual custody dates.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/00-2146-01A.pdf
 
@@ -637,7 +637,7 @@ No verified addition applied.
 
 January23,1975 sentence already present. Continuous prior custody must not be duplicated on later Marin case.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.themilitant.com/1975/3904/MIL3904.pdf
 
@@ -647,7 +647,7 @@ No verified addition applied.
 
 Exact-name deportation/photo searches yielded no new verified portrait. Existing April6-Nov4,1918 custody dates retained.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 65. Jeremy David Rosenbloom
@@ -656,7 +656,7 @@ No verified addition applied.
 
 AP August13,2002 explicitly reports Rosenbloom arrested previous day. Existing May31,2001 start is inconsistent. Hold correction outside missing-only scope; root notified. No release derived from41months.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.seattlepi.com/news/article/2-arrested-2-sought-in-year-old-Eagle-Creek-arson-1093477.php
 
@@ -666,7 +666,7 @@ No verified addition applied.
 
 Exact-name and punctuation variants did not locate independently identified sources; questionable January27,1919 release remains unresolved.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 
 ## 67. Leon Mabille
@@ -675,7 +675,7 @@ No verified addition applied.
 
 February16 report proves prior deportation but omits event date. Last jail letter says eight months, not full completed custody duration; do not enter as total.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n041-NY-feb-16-1931-DW-LOC.pdf
 
@@ -685,7 +685,7 @@ No verified addition applied.
 
 June19 sentence already entered. Pre-action November1960 reporting does not prove individual arrest/custody.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/usa/pubs/national-guardian/1961-07-03-13-38-nat-guardian.pdf
 
@@ -695,7 +695,7 @@ No verified addition applied.
 
 May31 arrest and June15 recognizance release already entered. Arrest photo caption identifies JohnStephens but face visibility needs inspection. Original photo visually checked: face obscured; unsuitable portrait.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.crmvet.org/docs/nor/670619_cnva_news.pdf
 
@@ -705,7 +705,7 @@ No verified addition applied.
 
 Official sentence announcement confirms existing2011sentence. No verified missing date or identified portrait located.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.dea.gov/press-releases/2011/09/19/former-farc-guerilla-sentenced-15-years-prison-providing-material-support
 
@@ -715,7 +715,7 @@ No verified addition applied.
 
 Identified as GiovanniBalloniFruzzetti. Sanchini May16 date cannot be transferred to Fruzzetti; no additional verified field.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://oldlaborhall.org/wp-content/uploads/2023/04/Barre-anarchists.pdf
 
@@ -725,7 +725,7 @@ No verified addition applied.
 
 TeresaPizarro-Cruz in Vieques proceeding; general case events do not establish individual admission/release.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://law.justia.com/cases/federal/district-courts/FSupp2/129/424/2471396/
 
@@ -735,7 +735,7 @@ No verified addition applied.
 
 April1942 arrest already recorded. SantaFe October1945 end and November Hawaii return are distinct; no exact release established. Existing photo preserved.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://incarceration.jcchawaii.org/internees/ueoka-isamu-isami
 
@@ -745,7 +745,7 @@ No verified addition applied.
 
 Original September1929 biography gives July24,1900 birth; currently null. In-jail statement lacks exact admission/release. Inspecting original for visual verification. Original visually verified PDFpage25 printed186; DOB recommendation kept separate because root limits current deployment to cases/photos.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.marxists.org/history/usa/pubs/labordefender/1929/v04n09-sep-1929-LD.pdf
 
@@ -755,7 +755,7 @@ No verified addition applied.
 
 Consolidated Vieques opinion names GarcíaArroyo but no individual endpoints. Same-name author photo not established as defendant.
 
-Unresolved: 
+Unresolved: See research findings above.
 
 https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/00-2146-01A.pdf
 
@@ -1010,4 +1010,3 @@ https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionag
 ## Additional research lead
 
 Delmar Hampton DOB July 24, 1900 is supported by original Labor Defender, printed page 186. Documented separately; not included in this case/photo batch.
-

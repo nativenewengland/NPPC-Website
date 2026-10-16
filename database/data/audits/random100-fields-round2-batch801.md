@@ -150,4 +150,3 @@ Fields: arrest_date, incarceration_date, sentenced_date, judge, prosecutor, date
 https://www.justice.gov/usao-mdfl/pr/tampa-man-arrested-burning-building-during-civil-disturbance-tampa
 https://ottawa.citynews.ca/2021/07/28/5-years-prison-for-florida-man-in-arson-at-racial-protest/
 https://www.justice.gov/usao-mdfl/pr/tampa-man-who-set-fire-champs-store-during-civil-disturbance-sentenced-five-years
-

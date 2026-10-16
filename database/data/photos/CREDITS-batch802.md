@@ -25,4 +25,3 @@ Official article image filename and separate attribution identify Dylan Davis; d
 None. Original photograph and visible DA/CRIMEWATCH branding retained.
 
 No explicit free license identified; official source attribution retained.
-
