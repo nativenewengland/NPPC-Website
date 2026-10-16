@@ -1,0 +1,139 @@
+{
+  "batch": 786,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Frances Crowe",
+      "slug": "frances-crowe",
+      "prisoner_id": "559e588e-1633-4ef4-9a4a-6ad617f691b5",
+      "case_id": "3d295f8d-d783-45a4-a8bd-6158ffb229f6",
+      "expected": {
+        "id": "3d295f8d-d783-45a4-a8bd-6158ffb229f6",
+        "prisoner_id": "559e588e-1633-4ef4-9a4a-6ad617f691b5",
+        "institution_id": "a5cf4cd3-8635-4d66-817f-e9c0a18426ba",
+        "charges": "Multiple counts of trespass and civil disobedience",
+        "arrest_date": "1972-03-31 00:00:00",
+        "indicted": null,
+        "convicted": "Multiple convictions for trespass and civil disobedience across more than 15 arrests",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1972-03-31 00:00:00",
+        "release_date": "2018-10-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Several short jail terms, mostly at Hampshire County Jail (Northampton, MA); cumulative time in custody totaling several weeks across her life\n\nCharges as recorded: Multiple counts of trespass and civil disobedience over five decades — draft resistance, anti-nuclear, anti-war, and anti-pipeline actions in Massachusetts and elsewhere",
+        "imprisoned_for_days": 17015,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{}"
+      },
+      "sources": [
+        "https://journals.sagepub.com/doi/pdf/10.1177/0096340214555076",
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1977/HC12-50625.pdf",
+        "https://manchesterhistory.org/News/Manchester%20Evening%20Hearld_1984-02-06.pdf"
+      ],
+      "rationale": "Aggregate multi-action case cannot represent uninterrupted imprisonment1972-2018. First-person2014 interview explicitly documents intermittent arrests and separate short incarcerations. Preserve biography and aggregate narrative; remove false continuous counter."
+    },
+    {
+      "name": "Lonnie Epps",
+      "slug": "lonnie-epps",
+      "prisoner_id": "94dc5c2b-0f60-4beb-9b99-9eeb9566b26f",
+      "case_id": "6216554d-a0d0-4e1f-b14b-253c80743d63",
+      "expected": {
+        "id": "6216554d-a0d0-4e1f-b14b-253c80743d63",
+        "prisoner_id": "94dc5c2b-0f60-4beb-9b99-9eeb9566b26f",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment); charges severed and ultimately dismissed without going to the jury.",
+        "arrest_date": "1969-04-02 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-02 00:00:00",
+        "release_date": "1971-05-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial detention; charges severed and dismissed.\n\nVerdict as recorded: No - charges severed and dismissed without conviction",
+        "imprisoned_for_days": 770,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-15 01:51:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1969-04-03 00:00:00",
+        "incarceration_date": "1969-04-03 00:00:00",
+        "release_date": "1969-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"year\"}"
+      },
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/48dd1735-2e06-4871-9538-a165d055277d/united-states-v-mcgrath-brief-amicus-curiae",
+        "https://www.themilitant.com/1969/3316/MIL3316.pdf",
+        "https://www.marxists.org/history/usa/pubs/black-panther/03n09-jun%2021%201969.pdf"
+      ],
+      "rationale": "Original legal brief explicitly says surrendered April3, unlike April2 roundup. Contemporary June21 report confirms already released on bail; year1969 endpoint only, not1971 acquittal. Clear calculated770 days. Subsequent1970 courtroom rearrest is separate and unresolved."
+    },
+    {
+      "name": "Dennis Banks",
+      "slug": "dennis-banks",
+      "prisoner_id": "eb0b43dd-fcdc-497e-bf81-ce705a96f660",
+      "case_id": "8dba460e-2c51-40c6-acde-955397864b56",
+      "expected": {
+        "id": "8dba460e-2c51-40c6-acde-955397864b56",
+        "prisoner_id": "eb0b43dd-fcdc-497e-bf81-ce705a96f660",
+        "institution_id": null,
+        "charges": "Conspiracy, assault, larceny, possession of firearms, interfering with federal officers (Wounded Knee occupation); plus separate South Dakota state prosecution",
+        "arrest_date": "1973-05-07 00:00:00",
+        "indicted": null,
+        "convicted": "Wounded Knee charges dismissed by Chief Judge Fred Nichol on September 16, 1974; convicted in South Dakota state court for the Custer protest, served sentence after surrendering in 1984",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-05-07 00:00:00",
+        "release_date": "1986-03-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held briefly during initial 1973 arrest and pretrial detention; later served 18 months at South Dakota State Penitentiary (1984–1986) on the state Custer protest conviction\n\nCharges as recorded: Conspiracy, assault, larceny, possession of firearms, interfering with federal officers (Wounded Knee occupation); plus separate South Dakota state prosecution for the 1973 Custer County courthouse protest",
+        "imprisoned_for_days": 4711,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": null,
+        "release_date": null,
+        "date_precision": "{}",
+        "sentence": "The initial 1973 detention was separate from state custody beginning September 13, 1984. By September 1985 Banks lived outside prison under work release. No continuous 1973-1986 custody is established.\n\nCharges as recorded: Conspiracy, assault, larceny, possession of firearms, interfering with federal officers (Wounded Knee occupation); plus separate South Dakota state prosecution for the 1973 Custer County courthouse protest"
+      },
+      "sources": [
+        "https://www.washingtonpost.com/archive/politics/1984/09/14/indian-movement-leader-surrenders-after-9-year-flight/2b5c8907-d2e4-435f-99fb-f33851feb2ff/",
+        "https://www.washingtonpost.com/archive/national/1985/09/28/indian-leader-dennis-banks-freed/6ef8f6f2-4d9a-4eb0-8f5e-cd19d74e19a7/"
+      ],
+      "rationale": "Combined case incorrectly counts1973–1986 as continuous; original1984 reporting demonstrates nine years at liberty before September13 surrender and physical confinement. Remove false aggregate counter; create separate state-custody interval below. Preserve1973 arrest and all unrelated fields; initial1973 detention duration remains unresolved."
+    }
+  ]
+}
