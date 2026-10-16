@@ -1,0 +1,584 @@
+{
+  "verified_at": "2026-10-16T17:25:02.116469+00:00",
+  "reviewed": 100,
+  "updated_profiles": 27,
+  "case_records_updated": 28,
+  "portraits_added": 1,
+  "batches": {
+    "822": {
+      "fixture": "B822-FIXTURE-OK: no-write preview, expected updates, preservation, replay, conflict guard\n",
+      "applied": "--- correct-random-sample-custody-dates\nUpdating: Henry Matthews\nUpdating: Thomas Oliver Maguire\nUpdating: Terrence McGuckin\nUpdating: Dorothy Rose Blumberg\nUpdating: Dorothy Rose Blumberg\nUpdating: Sean Cardenas\nUpdating: Sam Weinstein\nUpdating: Sam Weinstein\nUpdating: Thirunavukkarasu Varatharasa\nUpdating: Albert Barr\nUpdating: Douglas DeBoer\nUpdating: Erma Lee Horne\nUpdating: John D. Apel\nUpdating: Gregory Vandenberg\nUpdating: Donald Perdue\nUpdating: Geneva Red Feather\nUpdating: Graham Dolan\nUpdating: Joe Graber\nUpdating: Henry Storey\nUpdating: Antonia Sentner\nUpdating: Leo Laukki\nUpdating: Clarence Hamel\nUpdating: John Daly Burk\nUpdating: Baltazar Aburto Gutiérrez\nUpdating: Henry Matlin\nUpdating: Alice Burke\nUpdating: Dennis Southward\nUpdating: Abraham Unger\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 28\nB822-OK\nBatch 822 complete.\n",
+      "replay": "--- correct-random-sample-custody-dates\nAlready applied: Henry Matthews\nAlready applied: Thomas Oliver Maguire\nAlready applied: Terrence McGuckin\nAlready applied: Dorothy Rose Blumberg\nAlready applied: Dorothy Rose Blumberg\nAlready applied: Sean Cardenas\nAlready applied: Sam Weinstein\nAlready applied: Sam Weinstein\nAlready applied: Thirunavukkarasu Varatharasa\nAlready applied: Albert Barr\nAlready applied: Douglas DeBoer\nAlready applied: Erma Lee Horne\nAlready applied: John D. Apel\nAlready applied: Gregory Vandenberg\nAlready applied: Donald Perdue\nAlready applied: Geneva Red Feather\nAlready applied: Graham Dolan\nAlready applied: Joe Graber\nAlready applied: Henry Storey\nAlready applied: Antonia Sentner\nAlready applied: Leo Laukki\nAlready applied: Clarence Hamel\nAlready applied: John Daly Burk\nAlready applied: Baltazar Aburto Gutiérrez\nAlready applied: Henry Matlin\nAlready applied: Alice Burke\nAlready applied: Dennis Southward\nAlready applied: Abraham Unger\nPreservation verified: all profile fields and all unrelated case fields unchanged\nUpdated: 0\nB822-OK\nBatch 822 complete.\n",
+      "public": [
+        {
+          "name": "Henry Matthews",
+          "url": "https://politicalprisonercoalition.org/prisoner/henry-matthews",
+          "http_status": 200,
+          "field_display_checks": {
+            "death_in_custody_date": {
+              "found": true,
+              "expected_variants": [
+                "Feb 10, 1955",
+                "February 10, 1955",
+                "1955-02-10"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Thomas Oliver Maguire",
+          "url": "https://politicalprisonercoalition.org/prisoner/thomas-oliver-maguire",
+          "http_status": 200,
+          "field_display_checks": {
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "No — acquitted April 26, 1994"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Terrence McGuckin",
+          "url": "https://politicalprisonercoalition.org/prisoner/terrence-mcguckin",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Lisa Richette (August 2000 bail reduction)"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Dorothy Rose Blumberg",
+          "url": "https://politicalprisonercoalition.org/prisoner/dorothy-rose-blumberg",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "W. Calvin Chesnut"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Bernard J. Flynn, U.S. Attorney; Frederick J. Green Jr., Assistant U.S. Attorney"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Dorothy Rose Blumberg",
+          "url": "https://politicalprisonercoalition.org/prisoner/dorothy-rose-blumberg",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "W. Calvin Chesnut"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Bernard J. Flynn, U.S. Attorney; Frederick J. Green Jr., Assistant U.S. Attorney"
+              ]
+            },
+            "charges": {
+              "found": true,
+              "expected_variants": [
+                "Conspiracy to violate the Smith Act"
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Yes — convicted April 1952; subsequently reversed on appeal"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Sean Cardenas",
+          "url": "https://politicalprisonercoalition.org/prisoner/sean-cardenas",
+          "http_status": 200,
+          "field_display_checks": {
+            "indicted": {
+              "found": true,
+              "expected_variants": [
+                "January 12, 2021"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Guilty (2022; initially not guilty January 14, 2021)"
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Iain D. Johnston (sentencing); Steven C. Seeger (January 2021 arraignment)"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Jessica S. Maveus"
+              ]
+            },
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 26, 2022",
+                "July 26, 2022",
+                "2022-07-26"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Sam Weinstein",
+          "url": "https://politicalprisonercoalition.org/prisoner/sam-weinstein",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 19, 1932",
+                "July 19, 1932",
+                "1932-07-19"
+              ]
+            },
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "February 1933",
+                "Feb 1933"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Sam Weinstein",
+          "url": "https://politicalprisonercoalition.org/prisoner/sam-weinstein",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 19, 1932",
+                "July 19, 1932",
+                "1932-07-19"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Thirunavukkarasu Varatharasa",
+          "url": "https://politicalprisonercoalition.org/prisoner/thirunavukkarasu-varatharasa",
+          "http_status": 200,
+          "field_display_checks": {
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Guilty — May 10, 2007"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Albert Barr",
+          "url": "https://politicalprisonercoalition.org/prisoner/albert-barr",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Dec 18, 1919",
+                "December 18, 1919",
+                "1919-12-18"
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "John C. Pollock"
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Yes — found guilty of conspiracy against the government in the Kansas City, Kansas IWW trial, December 18, 1919."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Douglas DeBoer",
+          "url": "https://politicalprisonercoalition.org/prisoner/douglas-deboer",
+          "http_status": 200,
+          "field_display_checks": {
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Guilty to desertion in exchange for a fifteen-month confinement sentence."
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Yes — court-martial conviction; bad-conduct discharge."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Erma Lee Horne",
+          "url": "https://politicalprisonercoalition.org/prisoner/erma-lee-horne",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 10, 1961",
+                "July 10, 1961",
+                "1961-07-10"
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Not guilty (October 24, 1961 county-court trial transcript)."
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Russel D. Moore III (Hinds County Court trial, October 24, 1961)"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "J. A. Travis (Hinds County Court trial, October 24, 1961)"
+              ]
+            }
+          }
+        },
+        {
+          "name": "John D. Apel",
+          "url": "https://politicalprisonercoalition.org/prisoner/john-d-apel",
+          "http_status": 200,
+          "field_display_checks": {
+            "charges": {
+              "found": true,
+              "expected_variants": [
+                "Probation violation following a trespass conviction arising from the August 8, 2015 Vandenberg Air Force Base protest."
+              ]
+            },
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Pleaded guilty to trespassing on March 17, 2016."
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Louise A. LaMothe"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Gregory Vandenberg",
+          "url": "https://politicalprisonercoalition.org/prisoner/gregory-vandenberg",
+          "http_status": 200,
+          "field_display_checks": {
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Grant Gardner, Richard Williams, and Joni Stahl"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Donald Perdue",
+          "url": "https://politicalprisonercoalition.org/prisoner/donald-perdue",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Winston E. Arnow"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Geneva Red Feather",
+          "url": "https://politicalprisonercoalition.org/prisoner/geneva-red-feather",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Andrew W. Bogue"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Keith L. Uhl"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Graham Dolan",
+          "url": "https://politicalprisonercoalition.org/prisoner/graham-dolan",
+          "http_status": 200,
+          "field_display_checks": {
+            "plead": {
+              "found": true,
+              "expected_variants": [
+                "Pleaded nolo contendere (no contest) in October 1959."
+              ]
+            },
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Alfred A. Arraj"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Joe Graber",
+          "url": "https://politicalprisonercoalition.org/prisoner/joe-graber",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Kenesaw Mountain Landis"
+              ]
+            },
+            "convicted": {
+              "found": true,
+              "expected_variants": [
+                "Yes — convicted in 1918 in the federal IWW prosecution in Chicago."
+              ]
+            }
+          }
+        },
+        {
+          "name": "Henry Storey",
+          "url": "https://politicalprisonercoalition.org/prisoner/henry-storey",
+          "http_status": 200,
+          "field_display_checks": {
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "John Hudson, Assistant Solicitor General"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Antonia Sentner",
+          "url": "https://politicalprisonercoalition.org/prisoner/antonia-sentner",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "Oct 6, 1949",
+                "October 6, 1949",
+                "1949-10-06"
+              ]
+            },
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "Oct 6, 1949",
+                "October 6, 1949",
+                "1949-10-06"
+              ]
+            },
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "October 1949",
+                "Oct 1949"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Leo Laukki",
+          "url": "https://politicalprisonercoalition.org/prisoner/leo-laukki",
+          "http_status": 200,
+          "field_display_checks": {
+            "indicted": {
+              "found": true,
+              "expected_variants": [
+                "September 28, 1917 — federal indictment in Chicago"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Clarence Hamel",
+          "url": "https://politicalprisonercoalition.org/prisoner/clarence-hamel",
+          "http_status": 200,
+          "field_display_checks": {
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "Oct 20, 1944",
+                "October 20, 1944",
+                "1944-10-20"
+              ]
+            }
+          }
+        },
+        {
+          "name": "John Daly Burk",
+          "url": "https://politicalprisonercoalition.org/prisoner/john-daly-burk",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 6, 1798",
+                "July 6, 1798",
+                "1798-07-06"
+              ]
+            },
+            "indicted": {
+              "found": true,
+              "expected_variants": [
+                "Early July 1798 — seditious libel indictment in the U.S. Circuit Court for the District of New York"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Baltazar Aburto Gutiérrez",
+          "url": "https://politicalprisonercoalition.org/prisoner/baltazar-aburto-gutierrez",
+          "http_status": 200,
+          "field_display_checks": {
+            "arrest_date": {
+              "found": true,
+              "expected_variants": [
+                "Nov 27, 2017",
+                "November 27, 2017",
+                "2017-11-27"
+              ]
+            },
+            "incarceration_date": {
+              "found": true,
+              "expected_variants": [
+                "Nov 27, 2017",
+                "November 27, 2017",
+                "2017-11-27"
+              ]
+            },
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "January 2018",
+                "Jan 2018"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Henry Matlin",
+          "url": "https://politicalprisonercoalition.org/prisoner/henry-matlin",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Willis (Los Angeles criminal syndicalism trial, 1921)"
+              ]
+            },
+            "prosecutor": {
+              "found": true,
+              "expected_variants": [
+                "Turney and McCartney, Deputy District Attorneys"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Alice Burke",
+          "url": "https://politicalprisonercoalition.org/prisoner/alice-burke",
+          "http_status": 200,
+          "field_display_checks": {
+            "release_date": {
+              "found": true,
+              "expected_variants": [
+                "Jul 24, 1933",
+                "July 24, 1933",
+                "1933-07-24"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Dennis Southward",
+          "url": "https://politicalprisonercoalition.org/prisoner/dennis-southward",
+          "http_status": 200,
+          "field_display_checks": {
+            "sentenced_date": {
+              "found": true,
+              "expected_variants": [
+                "December 1968",
+                "Dec 1968"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Abraham Unger",
+          "url": "https://politicalprisonercoalition.org/prisoner/abraham-unger",
+          "http_status": 200,
+          "field_display_checks": {
+            "judge": {
+              "found": true,
+              "expected_variants": [
+                "Edward Weinfeld"
+              ]
+            }
+          }
+        }
+      ],
+      "preservation_verified": true,
+      "payload_sha256": "3fe889249657352d39449e1b2d793612432737c83e1018d40887d7b7c2fef872"
+    },
+    "823": {
+      "fixture": "B823-FIXTURE-OK: preview, verified photos, preservation, replay, existing photo guard\n",
+      "applied": "--- fill-missing-portraits\nFilling photo: Hisashi Fukuhara\nUpdated rows: 1\nB823-OK\n",
+      "replay": "--- fill-missing-portraits\nPreserved existing photo: Hisashi Fukuhara\nUpdated rows: 0\nB823-OK\n",
+      "public": [
+        {
+          "name": "Hisashi Fukuhara",
+          "profile": "https://politicalprisonercoalition.org/prisoner/hisashi-fukuhara",
+          "photo": "https://politicalprisonercoalition.org/storage/prisoners/hisashi-fukuhara-batch823.png",
+          "status": 200,
+          "sha256": "dc88e9b3814b0079e50199463154d627ad1bfe9e9d6ed02e034645c07de9450c"
+        }
+      ],
+      "preservation_verified": true,
+      "payload_sha256": "d681f0f400006a92e699adec0bfd3eb8e78c1fffda4b066dad62cf415ed8b32e"
+    }
+  }
+}
