@@ -1,0 +1,56 @@
+{
+  "batch": 784,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "Scott Camil",
+      "slug": "scott-camil",
+      "prisoner_id": "0b82d26b-2ce8-407a-9aa8-c0b03454b3e2",
+      "case_id": "89c9e7fa-0b7c-499d-9e6b-fdfe0ec7c675",
+      "expected_cases": [
+        {
+          "id": "190a8596-e013-43c5-a5a9-820c8e6742be",
+          "prisoner_id": "0b82d26b-2ce8-407a-9aa8-c0b03454b3e2",
+          "institution_id": "9a4d7aaf-d9eb-489a-89a5-9692d14efd7e",
+          "charges": "Conspiracy to incite a riot at the 1972 Republican National Convention",
+          "arrest_date": "1972-07-10 00:00:00",
+          "indicted": "Yes",
+          "convicted": "No — acquitted",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": "Jack Carrouth",
+          "judge": "Winston Arnow",
+          "sentence": "Verdict as recorded: No — acquitted by jury August 31, 1973",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-05-12 13:21:51",
+          "updated_at": "2026-09-08 16:59:03",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "expected_days": 10,
+      "updates": {
+        "charges": "Kidnapping (January 1972 prosecution; charges dismissed)",
+        "arrest_date": "1972-01-01 00:00:00",
+        "incarceration_date": "1972-01-01 00:00:00",
+        "release_date": null,
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "documented_imprisoned_for_days": 10,
+        "convicted": "No — charges dismissed",
+        "sentence": "Scott Camil recalled ten days in jail without bond in January 1972 before attorney Larry Turner obtained his release on bond. He said the kidnapping charges were subsequently dismissed. This case is separate from the Gainesville Eight conspiracy prosecution. Exact arrest and discharge days are unresolved."
+      },
+      "sources": [
+        "https://ufdcimages.uflib.ufl.edu/UF/00/07/38/60/00140/01-2024.pdf"
+      ],
+      "rationale": "University of Florida oral-history interview conducted2005, reprinted IguanaJanuary/February2024p22, explicitly establishes January1972 jailing,10days andbond."
+    }
+  ]
+}
