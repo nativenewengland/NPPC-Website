@@ -1,0 +1,130 @@
+# Random 100 missing-fields research — round 27
+
+100 existing profiles selected excluding rounds 1–26. Name/context searches covered the sample, followed by targeted checks of promising leads. This is a bounded research pass, not exhaustive archival research. Seven profiles receive twelve substantive missing fields, including one portrait, plus a separate photo-credit section. Existing biographies and populated fields preserved.
+
+Seed: NPPC-random100-round27-after-batch843
+
+| # | Profile | Selected gaps | Outcome |
+|---|---|---|---|
+| 1 | [R. V. Lewis](https://politicalprisonercoalition.org/prisoner/r-v-lewis) | photo, arrest_date, sentence | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 2 | [David Watson](https://politicalprisonercoalition.org/prisoner/david-watson) | arrest_date | Add judge and district attorney from contemporary report naming Watson. Surrender to custody is not assumed to be his first arrest. |
+| 3 | [Mikail Rosnak](https://politicalprisonercoalition.org/prisoner/mikail-rosnak) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 4 | [Randolph Gaston Payne](https://politicalprisonercoalition.org/prisoner/randolph-gaston-payne) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 5 | [Glenn Michael Souther](https://politicalprisonercoalition.org/prisoner/glenn-michael-souther) | arrest_date, incarceration_date | Defected before prosecution; no United States imprisonment established, so no arrest or incarceration invented. |
+| 6 | [E. Douglass](https://politicalprisonercoalition.org/prisoner/e-douglass) | photo, arrest_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 7 | [William MacQueen](https://politicalprisonercoalition.org/prisoner/william-macqueen) | arrest_date | Bail, departure and return to trial interrupt chronology; no exact arrest date verified. |
+| 8 | [Steve Baggarly](https://politicalprisonercoalition.org/prisoner/steve-baggarly) | arrest_date, incarceration_date, release_date | Multiple peace actions must be distinguished; no endpoint transferred between cases. |
+| 9 | [Edward J. Fitzgerald](https://politicalprisonercoalition.org/prisoner/edward-j-fitzgerald) | arrest_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 10 | [Timothy Jacobs](https://politicalprisonercoalition.org/prisoner/timothy-jacobs) | arrest_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 11 | [Deborah Stout](https://politicalprisonercoalition.org/prisoner/deborah-stout) | photo, arrest_date | Contempt hearing and grand-jury appearance are not necessarily arrest dates. |
+| 12 | [Catherine Bournes](https://politicalprisonercoalition.org/prisoner/catherine-bournes) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 13 | [Abdullah Webster](https://politicalprisonercoalition.org/prisoner/abdullah-webster) | photo | Amnesty and UN sources corroborate existing release; no identified portrait found. Same-name modern photographer is a different person. |
+| 14 | [Frank Royer](https://politicalprisonercoalition.org/prisoner/frank-royer) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 15 | [Noel](https://politicalprisonercoalition.org/prisoner/noel) | photo, arrest_date, incarceration_date, sentence | Single-name identification insufficient to attach an individual portrait. |
+| 16 | [Frank Cox](https://politicalprisonercoalition.org/prisoner/frank-cox) | photo | Add historical San Quentin number 37701. December 29, 1925 roster conflicts with populated year-only release; preserve date and flag. |
+| 17 | [Masako Fujimura](https://politicalprisonercoalition.org/prisoner/masako-fujimura) | photo | JCCH custody transfers already documented; no identity-confirmed retrievable portrait established. |
+| 18 | [Christopher Reynolds](https://politicalprisonercoalition.org/prisoner/christopher-reynolds) | release_date | Indictment/action date is not evidence of physical discharge. |
+| 19 | [Alfred Thomas](https://politicalprisonercoalition.org/prisoner/alfred-thomas) | photo, release_date | Psychiatric commitment is distinct from criminal conviction and release; no endpoint invented. |
+| 20 | [Ella Winter](https://politicalprisonercoalition.org/prisoner/ella-winter) | incarceration_date, release_date | Political exile and travel do not independently establish imprisonment. |
+| 21 | [Raymundo Manalo](https://politicalprisonercoalition.org/prisoner/raymundo-manalo) | photo, release_date | Transfer to Manila does not establish release. |
+| 22 | [Ismael Guadalupe](https://politicalprisonercoalition.org/prisoner/ismael-guadalupe) | incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 23 | [Mary Crow Dog](https://politicalprisonercoalition.org/prisoner/mary-crow-dog) | arrest_date, incarceration_date, charges, release_date | Memoir excerpts distinguish Pine Ridge custody and transfer to Rapid City; no complete exact individual interval verified. |
+| 24 | [Floyd Tyson](https://politicalprisonercoalition.org/prisoner/floyd-tyson) | photo, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 25 | [Agnes Chase](https://politicalprisonercoalition.org/prisoner/agnes-chase) | arrest_date | January watchfire term still lacks individual exact dates; do not borrow January 13 from adjacent biography in appendix. |
+| 26 | [Joshua Schwartz](https://politicalprisonercoalition.org/prisoner/joshua-schwartz) | photo, incarceration_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 27 | [Gainnel Hayes](https://politicalprisonercoalition.org/prisoner/gainnel-hayes) | incarceration_date, release_date | Booking photograph confirms arrest but does not establish actual release. |
+| 28 | [Agustin Calvillo](https://politicalprisonercoalition.org/prisoner/agustin-calvillo) | photo, release_date | Acquittal followed by immigration detention; acquittal day is not assumed release. |
+| 29 | [Anthony Bryant](https://politicalprisonercoalition.org/prisoner/anthony-bryant) | incarceration_date, release_date | Cuban release and immediate United States rearrest are separate episodes; no Cuban time counted as United States imprisonment. |
+| 30 | [Richard Cool](https://politicalprisonercoalition.org/prisoner/richard-cool) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 31 | [Shakir Hamoodi](https://politicalprisonercoalition.org/prisoner/shakir-hamoodi) | arrest_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 32 | [Fred J. McCord](https://politicalprisonercoalition.org/prisoner/fred-j-mccord) | photo, arrest_date, incarceration_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 33 | [Fred Shearer](https://politicalprisonercoalition.org/prisoner/fred-shearer) | incarceration_date, charges, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 34 | [William Andrés Trevathan](https://politicalprisonercoalition.org/prisoner/william-andres-trevathan) | photo, incarceration_date, sentence, release_date | Appellate reversal is not actual custody endpoint. Family-obituary lead for William André Trevathan requires stronger identity linkage; no dates/photo attached. |
+| 35 | [Richard Lee Haley](https://politicalprisonercoalition.org/prisoner/richard-lee-haley) | release_date | Booking catalog discrepancy remains; no release inferred. |
+| 36 | [Edizon Ramirez Gamboa](https://politicalprisonercoalition.org/prisoner/edizon-ramirez-gamboa) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 37 | [Kamile Dincsoy](https://politicalprisonercoalition.org/prisoner/kamile-dincsoy) | photo, arrest_date, incarceration_date, release_date | Warrant and missed arraignment do not prove an actual arrest. |
+| 38 | [William Wheeler](https://politicalprisonercoalition.org/prisoner/william-wheeler) | photo, arrest_date, release_date | Add November 1, 1845 sentencing and court officials from Maryland State Archives. Legislative authorization is not proof of commutation. |
+| 39 | [Christopher Alan West](https://politicalprisonercoalition.org/prisoner/christopher-alan-west) | incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 40 | [Elton Rankin](https://politicalprisonercoalition.org/prisoner/elton-rankin) | arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 41 | [Harry Wicks](https://politicalprisonercoalition.org/prisoner/harry-wicks) | incarceration_date, release_date | Do not confuse American Harry M. Wicks with British communist Harry Wicks. |
+| 42 | [Pedro Aviles Vargas](https://politicalprisonercoalition.org/prisoner/pedro-aviles-vargas) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 43 | [Frank Nikolaev](https://politicalprisonercoalition.org/prisoner/frank-nikolaev) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 44 | [Daniel Drayton](https://politicalprisonercoalition.org/prisoner/daniel-drayton) | arrest_date | Attempted escape, capture and return to Washington jail have distinct dates; no arrest inferred without individual chronology. |
+| 45 | [Bruce Friedrich](https://politicalprisonercoalition.org/prisoner/bruce-friedrich) | release_date | Scheduled January 1995 release is a forecast, not verified actual discharge. |
+| 46 | [Cody Michael Tarner](https://politicalprisonercoalition.org/prisoner/cody-michael-tarner) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 47 | [Chi Ossé](https://politicalprisonercoalition.org/prisoner/chi-osse) | incarceration_date | Protest arrest alone does not establish multi-day imprisonment. |
+| 48 | [Thomas Laffey](https://politicalprisonercoalition.org/prisoner/thomas-laffey) | photo, arrest_date | Commons photograph identifies mathematician Thomas J. Laffey, not the Fort Worth defendant; rejected. |
+| 49 | [Juan Robles](https://politicalprisonercoalition.org/prisoner/juan-robles) | photo, incarceration_date | Held on conspiracy counts; not identified among direct-arson defendants. No admission inferred from offense date. |
+| 50 | [Armando Garnica](https://politicalprisonercoalition.org/prisoner/armando-garnica) | photo | Need individually identified source portrait; arrest reports do not independently identify every person in group images. |
+| 51 | [Leonard Brown](https://politicalprisonercoalition.org/prisoner/leonard-brown) | photo | New Orleans seaman is not Australian escaped prisoner or same-name government official. |
+| 52 | [G. D. Brewer](https://politicalprisonercoalition.org/prisoner/g-d-brewer) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 53 | [Thomas Coleman Hawkins](https://politicalprisonercoalition.org/prisoner/thomas-coleman-hawkins) | release_date | Add December 11, 1917 death-in-custody endpoint; no release date invented. |
+| 54 | [John Gaston](https://politicalprisonercoalition.org/prisoner/john-gaston) | photo, arrest_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 55 | [Peter Urkevich](https://politicalprisonercoalition.org/prisoner/peter-urkevich) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 56 | [Jean G. Ford](https://politicalprisonercoalition.org/prisoner/jean-g-ford) | arrest_date | Civil contempt episode requires individual physical custody evidence, not grand-jury subpoena date. |
+| 57 | [Earl Leverette](https://politicalprisonercoalition.org/prisoner/earl-leverette) | release_date | Jumping bail and overseas proceedings must be distinguished from actual United States confinement. |
+| 58 | [Gus Alonen](https://politicalprisonercoalition.org/prisoner/gus-alonen) | photo, arrest_date, incarceration_date, sentence, release_date | Migration Institute study found; no exact new endpoints verified in this pass. |
+| 59 | [A. C. Braucher](https://politicalprisonercoalition.org/prisoner/a-c-braucher) | photo, arrest_date, release_date | Fine-only source does not establish a prison term. |
+| 60 | [Fay P. Rumsey](https://politicalprisonercoalition.org/prisoner/fay-p-rumsey) | arrest_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 61 | [Bill Tilton](https://politicalprisonercoalition.org/prisoner/bill-tilton) | incarceration_date | Law-firm biography confirms just over twenty months served, but no exact admission supplied. No back-calculation from partial release. |
+| 62 | [Larry Pratt](https://politicalprisonercoalition.org/prisoner/larry-pratt) | photo, arrest_date, incarceration_date, release_date | Avoid same-name gun-rights lobbyist; prisoner roster alone has no identified portrait. |
+| 63 | [Roberto Iván Aponte](https://politicalprisonercoalition.org/prisoner/roberto-ivan-aponte) | arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 64 | [Kikuno Miyagi](https://politicalprisonercoalition.org/prisoner/kikuno-miyagi) | photo, arrest_date | Family wartime confinement must not be relabeled criminal arrest. |
+| 65 | [C. L. Smith](https://politicalprisonercoalition.org/prisoner/c-l-smith) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 66 | [Lucille Shields](https://politicalprisonercoalition.org/prisoner/lucille-shields) | arrest_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 67 | [Martha Scarborough](https://politicalprisonercoalition.org/prisoner/martha-scarborough) | photo | Search portrait belongs to Mississippi Methodist Foundation executive, not established Los Angeles Catholic Worker; rejected. |
+| 68 | [Sam Colbus](https://politicalprisonercoalition.org/prisoner/sam-colbus) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 69 | [Marvin Smith](https://politicalprisonercoalition.org/prisoner/marvin-smith) | photo, arrest_date, incarceration_date, sentence, release_date | Maximum-security custody and acquittal do not identify original admission or ultimate release. |
+| 70 | [Joseph Aceto](https://politicalprisonercoalition.org/prisoner/joseph-aceto) | incarceration_date | Arrest, cooperation and later sentencing require episode-level chronology. |
+| 71 | [Lenni Brenner](https://politicalprisonercoalition.org/prisoner/lenni-brenner) | arrest_date, incarceration_date, release_date | January 22, 1968 release lead traced to Garson newspaper article, JSTOR community.28043928. Original retrieval returned an HTML access page; exact date not added from a derivative citation alone. |
+| 72 | [Jesse Merel Cannon](https://politicalprisonercoalition.org/prisoner/jesse-merel-cannon) | arrest_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 73 | [Benjamin Lewis](https://politicalprisonercoalition.org/prisoner/benjamin-lewis) | no_cases | Military recall refusal followed by discharge without penalties; no prison case manufactured. |
+| 74 | [Ciaron O'Reilly](https://politicalprisonercoalition.org/prisoner/ciaron-oreilly) | charges | Fill missing pretrial-case charges from O’Reilly interview; preserve existing separate detention intervals. |
+| 75 | [Nikolai Elkevich](https://politicalprisonercoalition.org/prisoner/nikolai-elkevich) | photo | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 76 | [Kazuto Taketa](https://politicalprisonercoalition.org/prisoner/kazuto-taketa) | release_date | Return to Hawaii is not necessarily release from all custody/parole. |
+| 77 | [A. M. Blumberg](https://politicalprisonercoalition.org/prisoner/a-m-blumberg) | arrest_date | Mass-trial commitment is distinct from initial individual arrest. |
+| 78 | [Hymen Schlesinger](https://politicalprisonercoalition.org/prisoner/hymen-schlesinger) | release_date | Charge quashed does not establish physical release day or exclude bail. |
+| 79 | [Marjorie Chodorov](https://politicalprisonercoalition.org/prisoner/marjorie-chodorov) | arrest_date | Contempt indictment and appeal are distinct from physical arrest. |
+| 80 | [Norris Tucker](https://politicalprisonercoalition.org/prisoner/norris-tucker) | photo, arrest_date, incarceration_date, sentence, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 81 | [Masashi Tanimoto](https://politicalprisonercoalition.org/prisoner/masashi-tanimoto) | photo, sentence, release_date | University life-science researcher with same name is not the wartime detainee; portrait rejected. |
+| 82 | [Javon Hardy](https://politicalprisonercoalition.org/prisoner/javon-hardy) | photo | Add sentencing judge, prosecutor and guilty plea from DOJ. No release inferred from twelve-month sentence. |
+| 83 | [Charles Andrews](https://politicalprisonercoalition.org/prisoner/charles-andrews) | photo, arrest_date, incarceration_date, sentence, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 84 | [James A. Chance](https://politicalprisonercoalition.org/prisoner/james-a-chance) | photo, arrest_date, incarceration_date, release_date | No additional verified missing field or identity-confirmed retrievable portrait established in this pass; unchanged. |
+| 85 | [Shoyu Kitajima](https://politicalprisonercoalition.org/prisoner/shoyu-kitajima) | release_date | Mainland-to-Hawaii repatriation does not independently establish discharge. |
+| 86 | [Modesto de Ocampo](https://politicalprisonercoalition.org/prisoner/modesto-de-ocampo) | photo, release_date | Manila transfer is not release. |
+| 87 | [Randolph Jennings](https://politicalprisonercoalition.org/prisoner/randolph-jennings) | photo, incarceration_date | FBI report says still in prison January 1973; six-year total and newspaper publication date do not identify precise admission. |
+| 88 | [Peter Siniavski](https://politicalprisonercoalition.org/prisoner/peter-siniavski) | photo | Deportation roster contains no identified portrait. |
+| 89 | [Esteban Consortes](https://politicalprisonercoalition.org/prisoner/esteban-consortes) | photo, arrest_date | Group Guam release policy does not establish this individual’s exact endpoint. |
+| 90 | [George Wisegarver](https://politicalprisonercoalition.org/prisoner/george-wisegarver) | photo, arrest_date | Capture and Philadelphia commitment differ; narrow bail window remains unresolved. |
+| 91 | [Stanley J. Clark](https://politicalprisonercoalition.org/prisoner/stanley-j-clark) | arrest_date, incarceration_date | Texas sedition prosecution may differ from Chicago IWW mass case; no earlier jail interval merged. |
+| 92 | [Hugo Gellert](https://politicalprisonercoalition.org/prisoner/hugo-gellert) | incarceration_date, release_date | March 1928 arrest and other leaflet-dropping arrest are separate actions; no release transferred. |
+| 93 | [Kit Havice](https://politicalprisonercoalition.org/prisoner/kit-havice) | photo | Attach visually inspected interview portrait using exact original-pixel crop; do not alter existing dates based on retrospective fifty-day narrative. |
+| 94 | [Ojore Lutalo](https://politicalprisonercoalition.org/prisoner/ojore-lutalo) | arrest_date, sentence | November 1975, December 1975 and 1981 arrests are separate proceedings; no date borrowed between them. |
+| 95 | [J. C. Crenshaw](https://politicalprisonercoalition.org/prisoner/j-c-crenshaw) | photo, incarceration_date | Booked and bonded same day; no multi-day interval invented. |
+| 96 | [Emanuel Blum](https://politicalprisonercoalition.org/prisoner/emanuel-blum) | photo, incarceration_date, release_date | Bond reduction alone does not prove physical release. |
+| 97 | [Waldo C. Lea](https://politicalprisonercoalition.org/prisoner/waldo-c-lea) | photo, arrest_date, incarceration_date | Commutation effective date is not proof of physical departure. |
+| 98 | [Terry McDonald](https://politicalprisonercoalition.org/prisoner/terry-mcdonald) | photo, incarceration_date | Cooperation/witness appearance does not necessarily end custody. |
+| 99 | [Florence Yoshiko Nakamura](https://politicalprisonercoalition.org/prisoner/florence-yoshiko-nakamura) | photo, arrest_date, release_date | Child wartime confinement and repatriation are not criminal arrest/release records. |
+| 100 | [Charles Savannah Fattig](https://politicalprisonercoalition.org/prisoner/charles-savannah-fattig) | photo, arrest_date, release_date | Distinguish Charles from brother Alfred; no brother’s prison dates transferred. |
+
+## Sources for additions
+
+David Watson: https://www2.oberlin.edu/external/EOG/Oberlin-Wellington_Rescue/ClevelandHerald/The%20Cleveland%20Daily%20Herald%2004-15-1859%20The%20Thirtyseven%20in%20the%20Hands%20of%20the%20Marshal.htm — Cleveland Daily Herald, April 15, 1859, identifies David Watson among those in court and names the judge and district attorney. Names retained as printed, without unverified expansion. April 15 surrender/commitment is not substituted for an independently unresolved earlier arrest.
+
+Frank Cox: https://www.marxists.org/history/usa/pubs/dailyworker/1925/1925-ny/v02b-n297-NYE-dec-29-1925-DW-LOC.pdf — Daily Worker December 29, 1925 prisoner roster identifies Frank Cox at San Quentin, number 37701. Historical state prison number, not a BOP number. The roster also conflicts with the populated year-only 1925 release; existing endpoint preserved and flagged.
+
+William Wheeler: https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/015100/015156/html/015156bio.html — Maryland State Archives cites contemporary Charles County Court reporting. It explicitly dates death sentencing November 1, 1845 and names both presiding judges and prosecutor. Later law authorizes imprisonment in the event of commutation; it is not proof of actual release or commutation. Populated fields unchanged.
+
+Thomas Coleman Hawkins: https://justiceforthe24th.org/soldier/pfc-thomas-c-hawkins/ — individual military-history account identifies Hawkins, his December 11, 1917 execution, and final letter. Death in custody endpoint, not release. Existing prisoner death date and all other fields preserved.
+
+Ciaron O'Reilly: https://www.greenleft.org.au/1993/119/world/when-ploughshares-met-us-air-force — October 20, 1993 interview with O’Reilly expressly distinguishes the two indicted charges from sabotage, which was not charged. Fill missing charges on pretrial-detention case only, matching the same action already represented by the sentencing case; do not merge or extend separate custody intervals.
+
+Javon Hardy: https://www.justice.gov/usao-wdny/pr/rochester-man-who-pleaded-guilty-rioting-going-prison-burning-mobile-office-trailer — March 19, 2021 DOJ sentencing announcement names judge, prosecutor and plea. Existing sentence and dates preserved; sentence length does not independently prove the populated release date.
+
+Kit Havice: https://thechampionnewspaper.com/civil-rights-activist-returns-to-a-changed-south/
+
+
+## Research leads retained without changes
+Lenni Brenner: https://www.jstor.org/stable/community.28043928 — Marvin Garson, first issue of San Francisco Express Times, January 1968, pages 1 and 3. Secondary citation reports January 22 release, but original scan could not be inspected.
+William Andrés Trevathan: https://www.chadwickmckinney.com/obituaries/william-trevathan/ reports November 6, 1931–April 15, 2024 for William André Trevathan of Philadelphia. Related diocesan rosters list an Episcopal priest of that name in Philadelphia; original complete obituary inaccessible, and direct linkage to Vieques defendant remains unresolved.
+Frank Cox: December 29, 1925 San Quentin roster conflicts with populated year-only 1925 release. Preserve pending discharge-record verification.
