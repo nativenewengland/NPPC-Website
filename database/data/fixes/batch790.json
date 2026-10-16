@@ -1,0 +1,272 @@
+{
+  "batch": 790,
+  "expected_count": 6,
+  "entries": [
+    {
+      "name": "Willie Earl Vereen",
+      "slug": "willie-earl-vereen",
+      "prisoner_id": "81cc2a6f-9c6f-409e-b267-685af8075e18",
+      "case_id": "4431e106-8965-4a7c-b555-df06f1db6f49",
+      "expected": {
+        "id": "4431e106-8965-4a7c-b555-df06f1db6f49",
+        "prisoner_id": "81cc2a6f-9c6f-409e-b267-685af8075e18",
+        "institution_id": "badb4751-4dcb-48ab-956f-c0ab4ee459ce",
+        "charges": "Arson; conspiracy (Wilmington Ten case, 1971 firebombing of Mike's Grocery; convictions overturned 1980, pardoned 2012)",
+        "arrest_date": "1972-02-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1972-10-16 00:00:00",
+        "incarceration_date": "1972-10-16 00:00:00",
+        "release_date": "1978-06-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Jay Stroud (Asst. District Attorney) — later exposed for \"KKK OK\" jury notes",
+        "judge": "Robert Martin (NC Superior Court)",
+        "sentence": "29 years; paroled 1978; convictions vacated 1980; pardoned 2012.\n\nVerdict as recorded: Yes (1972; convictions vacated by 4th Circuit December 4, 1980)",
+        "imprisoned_for_days": 2067,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1976-02-01 00:00:00",
+        "release_date": "1978-07-01 00:00:00",
+        "sentence": "29 years; convictions vacated 1980; pardoned 2012. Following release on bail during the appeals, he returned to prison in February 1976 and was released on parole in July 1978. These dates describe the final prison term; the separate earlier custody intervals remain unresolved.",
+        "date_precision": "{\"incarceration_date\": \"month\", \"release_date\": \"month\"}"
+      },
+      "sources": [
+        "https://www.themilitant.com/1978/4232/MIL4232.pdf",
+        "https://www.themilitant.com/Intercontinental_Press/1977/IP1534.pdf",
+        "https://files.eric.ed.gov/fulltext/ED183446.pdf"
+      ],
+      "rationale": "Contemporary Sept1 Militant individually names Vereen among three actually freed late July. 1977 IP report identifies all ten including Vereen and explains release on bail1972/1973 then February1976 reincarceration. Correct false continuous1972–1978 span; no inferred exactday. US CSCE report PDFp59 independently confirms February1976 start."
+    },
+    {
+      "name": "Howard Gresham Hawkins III",
+      "slug": "howard-gresham-hawkins-iii",
+      "prisoner_id": "ff57e21d-0ac6-48c9-8100-1d71b474b5fd",
+      "case_id": "cec00cf4-9d76-49cd-8ff8-81ade2475a11",
+      "expected": {
+        "id": "cec00cf4-9d76-49cd-8ff8-81ade2475a11",
+        "prisoner_id": "ff57e21d-0ac6-48c9-8100-1d71b474b5fd",
+        "institution_id": null,
+        "charges": "Criminal trespass (April 30 – May 1, 1977 mass occupation of the Seabrook Nuclear Power Plant construction site, NH)",
+        "arrest_date": "1977-04-29 00:00:00",
+        "indicted": null,
+        "convicted": "Misdemeanor (most charges later dismissed)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1977-04-29 00:00:00",
+        "release_date": "1977-05-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held without bail in NH National Guard armory ~13 days; criminal trespass charges most dismissed.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-14 00:00:29",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1977-05-01 00:00:00",
+        "incarceration_date": "1977-05-01 00:00:00",
+        "sentence": "Arrested during the May 1, 1977 Seabrook occupation and released early because of a shortage of beds. The exact release day and duration of his detention have not been established.",
+        "date_precision": "{\"release_date\": \"month\", \"arrest_date\": \"day\", \"incarceration_date\": \"day\"}"
+      },
+      "sources": [
+        "https://www.gp.org/patience_and_tenacity_in_the_green_party"
+      ],
+      "rationale": "Own interview explicitly May Day arrest and early release, not13days. Mayrelease already month precision; preserve. No actualnumeric toclear in snapshot."
+    },
+    {
+      "name": "George Young",
+      "slug": "george-young",
+      "prisoner_id": "41ba5271-5ad8-4baf-89a3-1c01c54b74ae",
+      "case_id": "7f9a11b7-5ea4-409d-9d3a-1eea2914b542",
+      "expected": {
+        "id": "7f9a11b7-5ea4-409d-9d3a-1eea2914b542",
+        "prisoner_id": "41ba5271-5ad8-4baf-89a3-1c01c54b74ae",
+        "institution_id": null,
+        "charges": "Charged in connection with the death of Marian Pyszko, a white autoworker beaten to death by a crowd during the July 1975 Livernois–Fenkell rebellion in Detroit.",
+        "arrest_date": "1975-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1975-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "None — acquitted after roughly eleven months in custody awaiting and standing trial.\n\nVerdict as recorded: No — held for about eleven months and tried three times; all five defendants were acquitted and released.\n\nCharges as recorded: Charged in connection with the death of Marian Pyszko, a white autoworker beaten to death by a crowd during the July 1975 Livernois–Fenkell rebellion in Detroit — one of five young Black men rounded up in a police dragnet that critics condemned as a racist sweep of anyone who could be tied to the area, even as the white bar owner whose killing of Obie Wynn set off the rebellion faced only a misdemeanor.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 06:14:26",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": 11,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": null,
+        "convicted": "No — charges dismissed",
+        "sentence": "Charges dismissed before trial. Contemporary reporting distinguishes Young and Douglas Lane, who were freed earlier, from Peoples, Henderson and Jordan, who remained jailed through the third trial. Young's exact custody endpoints and actual duration remain unresolved.",
+        "date_precision": "{\"arrest_date\": \"year\", \"incarceration_date\": \"year\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n2.pdf",
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n6.pdf",
+        "https://citeseerx.ist.psu.edu/document?doi=d0f6d3e31e1a675c869700d4cdbacd00233888e1&repid=rep1&type=pdf"
+      ],
+      "rationale": "Primary February1976 Torch says Young charges dropped before case tried; June1976 thirdtrial onlyPeoples/Henderson/Jordan. Elevenmonthtotal wrongly generalized toYoung; clear, preserve1975yearstart."
+    },
+    {
+      "name": "Tom Dostou",
+      "slug": "tom-dostou",
+      "prisoner_id": "55bab393-a00d-4b2f-b501-e40c1c166528",
+      "case_id": "c76102ff-0c74-452b-9313-bf79c15e0390",
+      "expected": {
+        "id": "c76102ff-0c74-452b-9313-bf79c15e0390",
+        "prisoner_id": "55bab393-a00d-4b2f-b501-e40c1c166528",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": "1970-02-13 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Not documented",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 13:48:10",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "sentence": "A February 13, 1970 fundraiser flyer sought support for Tom Dostou after his detention. The flyer date does not establish the arrest date; precise custody dates and charges remain unresolved.",
+        "date_precision": "{}"
+      },
+      "sources": [
+        "https://archives.newberry.org/repositories/2/archival_objects/332934"
+      ],
+      "rationale": "Newberry metadata identifies February13 as creation/date of Ransom Party flyer, not arrest. Earlier January Connecticut Thomas Dostou drug case may be distinct and is not substituted. Preserve biography; no custodydate inference."
+    },
+    {
+      "name": "Wayne Moore",
+      "slug": "wayne-moore",
+      "prisoner_id": "f0855cf0-6024-4177-9242-1fc19ab6e82a",
+      "case_id": "b78ba4c9-6145-4bfd-a67d-d275b3932e62",
+      "expected": {
+        "id": "b78ba4c9-6145-4bfd-a67d-d275b3932e62",
+        "prisoner_id": "f0855cf0-6024-4177-9242-1fc19ab6e82a",
+        "institution_id": "badb4751-4dcb-48ab-956f-c0ab4ee459ce",
+        "charges": "Arson; conspiracy (Wilmington Ten case, 1971 firebombing of Mike's Grocery; convictions overturned 1980, pardoned 2012)",
+        "arrest_date": "1972-02-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1972-10-16 00:00:00",
+        "incarceration_date": "1972-10-16 00:00:00",
+        "release_date": "1978-06-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Jay Stroud (Asst. District Attorney) — later exposed for \"KKK OK\" jury notes",
+        "judge": "Robert Martin (NC Superior Court)",
+        "sentence": "29 years; paroled 1978; convictions vacated 1980; pardoned 2012.\n\nVerdict as recorded: Yes (1972; convictions vacated by 4th Circuit December 4, 1980)",
+        "imprisoned_for_days": 2067,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1976-02-01 00:00:00",
+        "release_date": "1978-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\": \"month\", \"release_date\": \"year\"}",
+        "sentence": "29 years; convictions vacated 1980; pardoned 2012. After release on bail during the appeals, he returned to prison in February 1976 and was paroled in 1978. These dates describe the final prison term; the earlier custody intervals and exact parole date remain unresolved."
+      },
+      "sources": [
+        "https://files.eric.ed.gov/fulltext/ED183446.pdf",
+        "https://www.themilitant.com/Intercontinental_Press/1977/IP1534.pdf",
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/69e56a5b-1d49-4635-bfc6-633f4c7c06d9/content"
+      ],
+      "rationale": "1979 US Commission on Security and Cooperation report PDFpp59–60 explicitly February1976 sentence-service start and all eight youths released1978. Contemporary Jan24 AP sets Moore parole eligibility September, contradicting June14 copieddate. Use verifiedyear pending preciseactualexit source; Sept18Jonestown newsreading only a lead, not used. Remove false continuous1972–1978 interval."
+    },
+    {
+      "name": "Stephen Donaldson",
+      "slug": "stephen-donaldson",
+      "prisoner_id": "1193a649-9bc9-4f2f-b010-57523e8cf5e7",
+      "case_id": "7d4de85a-ec81-4761-80ad-3c0b6a9d4c33",
+      "expected": {
+        "id": "7d4de85a-ec81-4761-80ad-3c0b6a9d4c33",
+        "prisoner_id": "1193a649-9bc9-4f2f-b010-57523e8cf5e7",
+        "institution_id": null,
+        "charges": "Arrest at 1973 Quaker peace protest at the White House; exact statutory charge unverified",
+        "arrest_date": "1973-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1973-01-01 00:00:00",
+        "release_date": "1973-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed in Washington, D.C. after the 1973 peace protest. Beth Taylor’s account describes refusal to pay $10 and later release with help from the local Quaker meeting. No imposed prison term, exact arrest or release date, conviction for this protest, or total time served is established in the reviewed sources. Custody dates remain unset rather than assigning an invented day within 1973. Sexual assault in custody is documented by NYPL and his later advocacy organization. Later criminal custody is separate. Sources: https://archives.nypl.org/mss/824 ; https://cds.library.brown.edu/projects/WritingVietnam/bethspeech.html ; https://justdetention.org/who-we-are/our-history/",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-06 00:58:14",
+        "updated_at": "2026-10-09 13:36:14",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1973-08-14 00:00:00",
+        "incarceration_date": "1973-08-14 00:00:00",
+        "release_date": "1973-08-23 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}",
+        "sentence": "Pretrial custody in District of Columbia Jail from August 14 through August 23, 1973 after the White House pray-in and refusal to post $10 bail. Released eight hours after Lucy Witt paid bail on August 23. Tried September 28 and acquitted October 1, 1973. This case excludes his separate overnight detention following the August 9 White House protest. No prison sentence imposed in this proceeding.",
+        "convicted": "No — acquitted October 1, 1973"
+      },
+      "sources": [
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1974/HC12-50565.pdf",
+        "https://archives.nypl.org/mss/824"
+      ],
+      "rationale": "Primary first-person account by Bob Martin (Donaldson legal name established by NYPL), Friends Journal October 1, 1974, printed pp487–488, explicitly verifies August14 detention and actual August23 release. Printed495 reports October1 acquittal. Original pp487–488 visually verified in agent-three-donaldson-07.png and -08.png. Existing case describes this $10-bail episode; earlier August9–10 overnight custody is distinct."
+    }
+  ]
+}
