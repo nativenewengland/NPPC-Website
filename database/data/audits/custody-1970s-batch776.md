@@ -31,3 +31,5 @@ Fields: arrest_date, incarceration_date, release_date, date_precision, sentence
 https://archives.nd.edu/Scholastic/VOL_0112/VOL_0112_ISSUE_0019.pdf
 https://dailyiowan.lib.uiowa.edu/DI/1971/di1971-01-14.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

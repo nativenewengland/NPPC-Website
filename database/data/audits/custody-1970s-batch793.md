@@ -20,3 +20,5 @@ Fields: release_date, incarceration_date, sentence, date_precision
 https://files.libcom.org/files/Anarchist-Black-Dragon-Vol-1-No-9.pdf
 https://www.marxists.org/history/etol/newspape/news-and-letters/1980s/1981-07.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

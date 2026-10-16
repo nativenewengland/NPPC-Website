@@ -57,3 +57,5 @@ Fields: arrest_date, incarceration_date, release_date, date_precision, sentence,
 https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1974/HC12-50565.pdf
 https://archives.nypl.org/mss/824
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

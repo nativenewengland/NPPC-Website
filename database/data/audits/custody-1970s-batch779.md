@@ -22,3 +22,5 @@ Portland Police archived report PDF4 names Aquash among November14 arrests. Gove
 https://efiles.portlandoregon.gov/Record/11790962/File/Document
 https://www.grahamdefense.org/courtdocs/arlo-looking-cloud20040908government-appellate-brief.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

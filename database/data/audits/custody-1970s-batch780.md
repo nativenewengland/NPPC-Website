@@ -27,3 +27,5 @@ Fields: release_date, date_precision, sentence
 
 https://www.archives.nysed.gov/research/topic-attica-timeline
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

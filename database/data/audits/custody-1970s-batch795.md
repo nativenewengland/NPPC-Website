@@ -10,3 +10,5 @@ Fields: release_date, convicted, sentence
 
 https://law.justia.com/cases/california/court-of-appeal/3d/39/561.html
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

@@ -36,3 +36,5 @@ Fields: arrest_date, incarceration_date, date_precision
 
 https://law.justia.com/cases/pennsylvania/supreme-court/1977/475-pa-345-0.html
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

@@ -31,3 +31,5 @@ Fields: incarceration_date, sentenced_date, documented_imprisoned_for_days, date
 https://www.marxists.org/history/etol/newspape/workersvanguard/1977/0184_02_12_1977.pdf
 https://www.washingtonpost.com/archive/politics/1979/05/02/would-be-union-bitterly-awaits-the-end/9312efb1-d3ff-451b-83cf-1c542d6fd95d/
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

@@ -27,3 +27,5 @@ Fields: release_date, sentence, date_precision
 
 https://www.marxists.org/history/etol/newspape/torch-us/v8n5.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

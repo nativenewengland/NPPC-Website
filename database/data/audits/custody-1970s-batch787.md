@@ -126,3 +126,5 @@ Fields: incarceration_date, documented_imprisoned_for_days, date_precision
 
 https://www.researchgate.net/publication/256056313_Donna_Coker_Lindsay_Harrison_The_Story_of_Wanrow_The_Reasonable_Woman_and_the_Law_of_Self-Defense_in_Criminal_Law_Stories_Coker_Weisberg_eds_2013
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

@@ -19,3 +19,5 @@ Fields: arrest_date, date_precision
 
 https://law.justia.com/cases/massachusetts/supreme-court/volumes/370/370mass746.html
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

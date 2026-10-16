@@ -5,3 +5,5 @@ University of Florida oral-history interview conducted2005, reprinted IguanaJanu
 https://ufdcimages.uflib.ufl.edu/UF/00/07/38/60/00140/01-2024.pdf
 
 Original p22 visually verified. New case guarded against all existing cases; no profile changes.
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

@@ -28,3 +28,5 @@ Fields: arrest_date, incarceration_date, release_date, documented_imprisoned_for
 
 https://hoover.mcdaniel.edu/archives/Newspapers/TheGoldBug1971-72.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

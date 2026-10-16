@@ -28,3 +28,5 @@ Fields: sentenced_date, date_precision
 
 https://www.mnhs.org/mnopedia/search/index/group/minnesota-eight
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

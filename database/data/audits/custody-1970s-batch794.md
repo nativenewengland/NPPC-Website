@@ -85,3 +85,5 @@ Fields: incarceration_date, date_precision, sentence
 
 https://www.amnesty.org/en/wp-content/uploads/2021/06/nws210091977en.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

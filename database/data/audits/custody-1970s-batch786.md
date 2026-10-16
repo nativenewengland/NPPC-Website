@@ -31,3 +31,5 @@ Fields: incarceration_date, release_date, date_precision, sentence
 https://www.washingtonpost.com/archive/politics/1984/09/14/indian-movement-leader-surrenders-after-9-year-flight/2b5c8907-d2e4-435f-99fb-f33851feb2ff/
 https://www.washingtonpost.com/archive/national/1985/09/28/indian-leader-dennis-banks-freed/6ef8f6f2-4d9a-4eb0-8f5e-cd19d74e19a7/
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

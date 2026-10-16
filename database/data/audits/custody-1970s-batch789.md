@@ -40,3 +40,5 @@ Missing distinct1974 custody episode; existing case only May1978. Month precisio
 https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP09071974.pdf
 https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP09141974.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

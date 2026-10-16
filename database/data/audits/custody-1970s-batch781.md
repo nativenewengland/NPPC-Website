@@ -27,3 +27,5 @@ Fields: arrest_date, incarceration_date, date_precision
 https://freedomarchives.org/Documents/Finder/DOC513_scans/Dhoruba_Bin-Wahad/513.Dhoruba.statement.3.15.1990.pdf
 https://nlgnyc.org/wp-content/uploads/2023/10/NLG-NYC-News-Fall2023.2.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

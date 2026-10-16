@@ -35,3 +35,5 @@ Fields: release_date, imprisoned_for_months, sentence, date_precision
 
 https://www.fordlibrarymuseum.gov/library/document/0142/6789398.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

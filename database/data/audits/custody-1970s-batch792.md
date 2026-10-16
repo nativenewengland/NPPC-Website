@@ -38,3 +38,5 @@ Fields: release_date, date_precision, sentence
 https://dailyiowan.lib.uiowa.edu/DI/1976/di1976-07-19.pdf
 https://www.themilitant.com/1976/4030/MIL4030.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

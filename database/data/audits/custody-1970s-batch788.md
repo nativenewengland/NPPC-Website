@@ -90,3 +90,5 @@ Fields: arrest_date, incarceration_date, release_date, date_precision
 https://history.house.gov/Exhibitions-and-Publications/1954-Shooting/Essays/March-1/
 https://www.themilitant.com/1979/4345/MIL4345.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.

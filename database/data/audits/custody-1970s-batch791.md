@@ -50,3 +50,5 @@ Fields: arrest_date, incarceration_date, release_date, date_precision, sentence
 
 https://lsa.umich.edu/content/dam/sid-assets/SID%20Docs/_The%20Struggle%20of%20the%20RNA_.pdf
 
+
+Applied live. Profile and unrelated case fields preserved, replay made zero changes, public pages checked.
