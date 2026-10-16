@@ -1,0 +1,665 @@
+{
+  "batch": 826,
+  "expected_count": 16,
+  "entries": [
+    {
+      "name": "Emil Hansen",
+      "slug": "emil-hansen",
+      "prisoner_id": "91b259d8-4125-4a7f-883b-9c6c92676c9c",
+      "case_id": "df4f7896-4559-49a9-8811-484ecb306c83",
+      "expected": {
+        "id": "df4f7896-4559-49a9-8811-484ecb306c83",
+        "prisoner_id": "91b259d8-4125-4a7f-883b-9c6c92676c9c",
+        "institution_id": null,
+        "charges": "Smith Act of 1940 — conspiracy to advocate the overthrow of the U.S. government by force or violence.",
+        "arrest_date": "1941-07-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1941-12-08 00:00:00",
+        "incarceration_date": "1943-12-31 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months federal imprisonment.\n\nVerdict as recorded: Yes — upheld by 8th Circuit; SCOTUS denied cert.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-25 02:12:22",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1945-01-24 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.themilitant.com/1945/0905/MIL0905.pdf"
+      ],
+      "rationale": "February 3, 1945 issue, page 1, explicitly identifies Hansen in the group released January 24. Existing sentence-length conflict is flagged separately; no existing sentence overwritten."
+    },
+    {
+      "name": "Rose Winslow",
+      "slug": "rose-winslow",
+      "prisoner_id": "c8466139-3df4-4ee5-b39e-9bd164424588",
+      "case_id": "2c59e63b-3857-4cca-863f-6c68f45164de",
+      "expected": {
+        "id": "2c59e63b-3857-4cca-863f-6c68f45164de",
+        "prisoner_id": "c8466139-3df4-4ee5-b39e-9bd164424588",
+        "institution_id": "0684ebc7-754d-4beb-b40b-bbbb842113b4",
+        "charges": "Arrested for picketing the Wilson White House for woman suffrage.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1917-10-15 00:00:00",
+        "release_date": "1917-11-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Seven months in the District of Columbia Jail; joined the hunger strike and was repeatedly force-fed. Released after about six weeks.",
+        "imprisoned_for_days": 43,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 16:55:28",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1917-10-15 00:00:00",
+        "sentenced_date": "1917-10-16 00:00:00",
+        "judge": "Mullowney (District of Columbia Police Court)",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://feminist.org/news/founding-feminists-november-15-1917/"
+      ],
+      "rationale": "Dates the arrest and initial six-month sentence separately. Additional thirty-day sentence followed October 22. Preserve existing custody dates."
+    },
+    {
+      "name": "Robert “Nashua” Chantal",
+      "slug": "robert-chantal",
+      "prisoner_id": "f6c9eb08-6c80-46ce-87ed-4fcf3e0810c5",
+      "case_id": "430d86a6-0785-4a34-b951-8e8ce05f399a",
+      "expected": {
+        "id": "430d86a6-0785-4a34-b951-8e8ce05f399a",
+        "prisoner_id": "f6c9eb08-6c80-46ce-87ed-4fcf3e0810c5",
+        "institution_id": null,
+        "charges": "Federal trespass during the November 2004 School of the Americas Watch vigil at Fort Benning, Georgia",
+        "arrest_date": "2004-11-21 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2005-06-10 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ninety days in federal prison and a $500 fine; released June 10, 2005",
+        "imprisoned_for_days": 90,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-03 20:39:04",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 90,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2005-03-15 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr137.pdf"
+      ],
+      "rationale": "Nuclear Resister 137 retrospective report explicitly includes Nashua Chantal among nine whose terms began March 15, 2005; not inferred from sentence length."
+    },
+    {
+      "name": "Anne Walsh",
+      "slug": "anne-walsh",
+      "prisoner_id": "afb10889-db3d-4d1f-b1c2-1c6af6d19678",
+      "case_id": "887694c0-a067-43e2-abc3-1e03832b5d13",
+      "expected": {
+        "id": "887694c0-a067-43e2-abc3-1e03832b5d13",
+        "prisoner_id": "afb10889-db3d-4d1f-b1c2-1c6af6d19678",
+        "institution_id": null,
+        "charges": "Civil contempt",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Civil contempt (no underlying criminal charge)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed for civil contempt in 1971\n\nCharges as recorded: Civil contempt for refusing to testify before the Harrisburg federal grand jury investigating the Catholic antiwar movement",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:03",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Robert L. Keuch (counsel for the government on appeal)"
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/450/231/266916/"
+      ],
+      "rationale": "Opinion identifies appellate counsel. Remand is not treated as physical release; trial judge and custody endpoints remain open."
+    },
+    {
+      "name": "Richard Moses",
+      "slug": "richard-moses",
+      "prisoner_id": "28ae16e3-cd75-4b0f-877a-2f9127de4e9f",
+      "case_id": "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92",
+      "expected": {
+        "id": "6bdcfbac-85f7-4537-88a9-ae0b1b4eba92",
+        "prisoner_id": "28ae16e3-cd75-4b0f-877a-2f9127de4e9f",
+        "institution_id": null,
+        "charges": "Violating the New York State Defense Emergency Act",
+        "arrest_date": "1957-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Arrested and sentenced July 1957",
+        "plead": null,
+        "sentenced_date": "1957-07-15 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days\n\nCharges as recorded: Violating the New York State Defense Emergency Act — refusing to take shelter / protesting the civil-defense drill",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 21:35:10",
+        "updated_at": "2026-10-12 14:09:50",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1957-07-12 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-07-22-9-40-nat-guardian.pdf"
+      ],
+      "rationale": "July 22 issue, page 2, describes Richard and Jane Moses among the July 12 Operation Alert arrests; July 15 is the sentencing hearing, not presumed admission."
+    },
+    {
+      "name": "Martina White Bear",
+      "slug": "martina-white-bear",
+      "prisoner_id": "c6ca6427-357f-4462-ae94-8a0833e2a319",
+      "case_id": "65d1ffb4-99e8-437b-ae30-ce2f2a31db84",
+      "expected": {
+        "id": "65d1ffb4-99e8-437b-ae30-ce2f2a31db84",
+        "prisoner_id": "c6ca6427-357f-4462-ae94-8a0833e2a319",
+        "institution_id": null,
+        "charges": "Interfering with U.S. Marshals and FBI agents",
+        "arrest_date": "1973-04-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Not recorded in the appellate record\n\nVerdict as recorded: Convicted; conviction affirmed (United States v. Red Feather, 541 F.2d 1275, 8th Cir. 1976)\n\nCharges as recorded: Interfering with U.S. Marshals and FBI agents during a civil disorder — bringing weapons/ammunition through the federal perimeter at the 1973 Wounded Knee occupation (18 U.S.C. § 231(a)(3))",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-19 04:02:45",
+        "updated_at": "2026-07-29 17:12:20",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Bruce M. Van Sickle"
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/541/1275/139002/"
+      ],
+      "rationale": "Trial judge explicitly identified in footnote 1. Appellate judges are not entered as trial judges. Custody dates remain unresolved."
+    },
+    {
+      "name": "Kenneth Loud Hawk",
+      "slug": "kenneth-loud-hawk",
+      "prisoner_id": "2f7cb7d4-e4db-4d28-a6f9-0a28d8915ef6",
+      "case_id": "66c0947b-b023-4a9e-8e96-9c351b366507",
+      "expected": {
+        "id": "66c0947b-b023-4a9e-8e96-9c351b366507",
+        "prisoner_id": "2f7cb7d4-e4db-4d28-a6f9-0a28d8915ef6",
+        "institution_id": null,
+        "charges": "Federal weapons and explosives charges.",
+        "arrest_date": "1975-11-14 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No conviction; the federal prosecution was dismissed in 1988 on speedy-trial grounds after roughly twelve years.\n\nVerdict as recorded: No — after some twelve years of litigation (including United States v. Loud Hawk, 474 U.S. 302), the charges were dismissed in 1988 for violation of the defendants' right to a speedy trial.\n\nCharges as recorded: Federal weapons and explosives charges stemming from the November 14, 1975 stop of two vehicles near Ontario, Oregon, days after the Pine Ridge shootout — a prosecution that lasted roughly twelve years and was hobbled when Oregon authorities destroyed the dynamite said to be the central evidence.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 06:14:24",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "November 25, 1975; superseding indictment December 22, 1975.",
+        "judge": "James A. Redden (1983 dismissal proceedings)"
+      },
+      "sources": [
+        "https://app.midpage.ai/document/united-states-v-loud-hawk-1407675",
+        "https://openjurist.org/474/us/302/united-states-v-loud-hawk"
+      ],
+      "rationale": "Published district and Supreme Court opinions date the indictments. The case-specific judge label distinguishes the 1983 proceedings; neither dismissal is treated as release."
+    },
+    {
+      "name": "Alfred Wagenknecht",
+      "slug": "alfred-wagenknecht",
+      "prisoner_id": "e0c86b60-c4ee-4ec4-b0e2-d967242e5b61",
+      "case_id": "81baa22a-53b4-4d25-a645-94641acff8cf",
+      "expected": {
+        "id": "81baa22a-53b4-4d25-a645-94641acff8cf",
+        "prisoner_id": "e0c86b60-c4ee-4ec4-b0e2-d967242e5b61",
+        "institution_id": "aadca8ac-1b1c-47d0-af5e-f25bbe6acf4e",
+        "charges": "Obstructing the draft (Selective Service Act)",
+        "arrest_date": "1917-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1918-12-02 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Indicted with fellow Ohio socialists (including Charles Ruthenberg and Charles Baker) for obstructing the draft during WWI; convicted 1917 and sentenced to a year, upheld by the Supreme Court, and served the term at the workhouse in Canton\n\nVerdict as recorded: Convicted 1917; conviction upheld by the U.S. Supreme Court",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-10-14 00:00:26",
+        "date_precision": "{\"arrest_date\":\"year\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1917-07-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/parties/cpusa/1940/0000-wag-johnsoninterview.pdf"
+      ],
+      "rationale": "Edited Wagenknecht interview, note 2, dates sentencing July 21. The sentence was appealed while defendants were on bail, so no admission date is inferred."
+    },
+    {
+      "name": "Thomas Bottolene",
+      "slug": "thomas-bottolene",
+      "prisoner_id": "d0553842-7856-477d-9f2a-2267564de961",
+      "case_id": "7bc702e5-806e-478d-80ce-567b18cd493b",
+      "expected": {
+        "id": "7bc702e5-806e-478d-80ce-567b18cd493b",
+        "prisoner_id": "d0553842-7856-477d-9f2a-2267564de961",
+        "institution_id": null,
+        "charges": "Trespass at U.S. Army School of the Americas, Fort Benning",
+        "arrest_date": "1999-11-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2000-06-08 00:00:00",
+        "incarceration_date": null,
+        "release_date": "2000-11-02 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months in prison and a $2,500 fine for the November 1999 Fort Benning protest. Sentenced June 8, 2000 and allowed to return home awaiting a reporting order. Actual admission date remains unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:00:27",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Hugh Lawson",
+        "convicted": "Yes — re-entry trespass at Fort Benning."
+      },
+      "sources": [
+        "https://www.nukeresister.org/static/nr120/nr120soa.html"
+      ],
+      "rationale": "Contemporary report names the sentencing judge. July 31 is a prospective reporting order only, so the missing admission date is held."
+    },
+    {
+      "name": "Oscar Simons",
+      "slug": "oscar-simons",
+      "prisoner_id": "a4c44fcd-edfc-4262-9774-fb3c60da46f9",
+      "case_id": "33c679c3-ce84-43ba-b9da-868ffe30196b",
+      "expected": {
+        "id": "33c679c3-ce84-43ba-b9da-868ffe30196b",
+        "prisoner_id": "a4c44fcd-edfc-4262-9774-fb3c60da46f9",
+        "institution_id": null,
+        "charges": "Contempt of court — violating the anti-picketing injunction during the 1924 Chicago garment strike",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1926-06-01 00:00:00",
+        "release_date": "1926-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The July 15, 1926 report identifies a completed thirty-day term in Cook County Jail and describes the reception after release.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:07:33",
+        "updated_at": "2026-10-14 00:00:48",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1926-07-12 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-nat/v03-n153-NAT-jul-12-1926-DW-RIAZ-op.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n156-NY-jul-15-1926-DW-LOC.pdf"
+      ],
+      "rationale": "July 12 page 2 names Simons among those completing their terms that afternoon; July 15 confirms the group left jail. Refines the existing July release month; admission is not back-calculated."
+    },
+    {
+      "name": "Don Beisswenger",
+      "slug": "don-beisswenger",
+      "prisoner_id": "928417b8-e358-4049-8adf-e2071bfbd176",
+      "case_id": "3652edf4-458f-4dac-961e-b201fad420be",
+      "expected": {
+        "id": "3652edf4-458f-4dac-961e-b201fad420be",
+        "prisoner_id": "928417b8-e358-4049-8adf-e2071bfbd176",
+        "institution_id": null,
+        "charges": "Federal trespass during a School of the Americas Watch protest at Fort Benning, Georgia (2003)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2004-01-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Don Beisswenger, 73, of Nashville, TN- six months federal prison, $1,000 fine. Source: https://www.soaw-austin.org/POC1983_2012.php",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 19:22:56",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": "{\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": 6,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2003-11-23 00:00:00",
+        "incarceration_date": "2004-04-06 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.nashvillescene.com/news/letters-from-a-kentucky-prison/article_5cfd8e85-c111-54b0-a8eb-f516d272a1b6.html",
+        "https://soaw-austin.org/POC1983_2012.php"
+      ],
+      "rationale": "His own April 6 journal entry records reporting to prison that day; the introduction identifies the November 23 action. October 1 is only an anticipated release and is not entered."
+    },
+    {
+      "name": "Joseph Wagner",
+      "slug": "joseph-wagner",
+      "prisoner_id": "a7dfff82-6e7a-4e49-a3a7-c7bb2b2f4f9c",
+      "case_id": "3e5d1f4f-fe15-43d5-be9b-9c7b00abfd6b",
+      "expected": {
+        "id": "3e5d1f4f-fe15-43d5-be9b-9c7b00abfd6b",
+        "prisoner_id": "a7dfff82-6e7a-4e49-a3a7-c7bb2b2f4f9c",
+        "institution_id": null,
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:58",
+        "updated_at": "2026-10-14 00:00:32",
+        "date_precision": "[]",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1923-04-01 00:00:00",
+        "sentence": "Four years.",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "rationale": "Stephen M. Kohn, p.168. Preserve month precision; release unverified."
+    },
+    {
+      "name": "Phillip Mellman",
+      "slug": "phillip-mellman",
+      "prisoner_id": "ddae1575-e76c-4cb7-8555-96ecb9c67ee9",
+      "case_id": "c91990ec-6095-4596-b436-7b8e79aff57a",
+      "expected": {
+        "id": "c91990ec-6095-4596-b436-7b8e79aff57a",
+        "prisoner_id": "ddae1575-e76c-4cb7-8555-96ecb9c67ee9",
+        "institution_id": "a86f1d53-2f9f-4067-b293-3876090ad0c5",
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:58",
+        "updated_at": "2026-10-14 00:00:32",
+        "date_precision": "[]",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1923-03-01 00:00:00",
+        "sentence": "Four years.",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "rationale": "Stephen M. Kohn, p.164. Preserve month precision; release unverified."
+    },
+    {
+      "name": "R. Quackenbush",
+      "slug": "r-quackenbush",
+      "prisoner_id": "451df0c7-32ee-4cbf-9470-6d46e9413ead",
+      "case_id": "dffcd123-ccc4-4fe0-b559-715d68b30fbd",
+      "expected": {
+        "id": "dffcd123-ccc4-4fe0-b559-715d68b30fbd",
+        "prisoner_id": "451df0c7-32ee-4cbf-9470-6d46e9413ead",
+        "institution_id": null,
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:59",
+        "updated_at": "2026-05-11 15:06:59",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Six months to ten years."
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "rationale": "Stephen M. Kohn, p.171. No custody endpoint inferred."
+    },
+    {
+      "name": "Jim Roe",
+      "slug": "jim-roe",
+      "prisoner_id": "f9ae25b4-50a3-4d25-a47a-80146d63335e",
+      "case_id": "406e8171-bed2-4c0b-b513-3ac2c799abd9",
+      "expected": {
+        "id": "406e8171-bed2-4c0b-b513-3ac2c799abd9",
+        "prisoner_id": "f9ae25b4-50a3-4d25-a47a-80146d63335e",
+        "institution_id": null,
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1921-12-26 00:00:00",
+        "release_date": "1924-12-26 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:58",
+        "updated_at": "2026-10-14 00:00:32",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "One to fourteen years."
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "rationale": "Stephen M. Kohn, p.166. Existing dates preserved."
+    },
+    {
+      "name": "H. M. Edwards",
+      "slug": "h-m-edwards",
+      "prisoner_id": "6f4df775-c631-4bab-8eb0-09dcc1720b52",
+      "case_id": "a84631c1-4b95-4851-8c65-e9ed1cac1ef2",
+      "expected": {
+        "id": "a84631c1-4b95-4851-8c65-e9ed1cac1ef2",
+        "prisoner_id": "6f4df775-c631-4bab-8eb0-09dcc1720b52",
+        "institution_id": "a86f1d53-2f9f-4067-b293-3876090ad0c5",
+        "charges": "California criminal-syndicalism prosecution arising from IWW membership admitted while testifying in the Casdorf-Firey trial.",
+        "arrest_date": "1922-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1923-08-25 00:00:00",
+        "release_date": "1925-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:58",
+        "updated_at": "2026-10-14 00:10:42",
+        "date_precision": "{\"release_date\":\"year\",\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Four years."
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "rationale": "Stephen M. Kohn, p.160. Existing release-year conflict remains flagged."
+    }
+  ]
+}
