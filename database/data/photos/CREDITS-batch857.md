@@ -1,0 +1,5 @@
+# Batch 857
+
+Everett Public Library, Rebel Faces / Everett Massacre Collection. November 5, 1916 booking photograph, prisoner 4902. Photographer not identified; repository rights field states Ownership Everett Public Library 2002. No open license asserted. Exact rectangular crop (0, 0, 310, 427) retains original pixels; original image archived as h-sokol-everett-source-b857.jpg. Source: https://epls.contentdm.oclc.org/digital/collection/EvrtMassacre/id/69 Crop SHA-256: f0401077f0d49b07cdb9653ce52be7d2a2099f7c186fbcde513449c7d56f6f43
+
+Everett Public Library, Rebel Faces / Everett Massacre Collection. November 5, 1916 booking photograph, prisoner 4835. Photographer not identified; repository rights field states Ownership Everett Public Library 2002. No open license asserted. Exact rectangular crop (332, 0, 640, 422) retains original pixels; original image archived as john-rawlings-everett-source-b857.jpg. Source: https://epls.contentdm.oclc.org/digital/collection/EvrtMassacre/id/21 Crop SHA-256: 74d7579f1229d82e59987ce4e81fbd43c966e7de4c31d67aa4915dc7f2fb70b2
