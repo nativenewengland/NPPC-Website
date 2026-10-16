@@ -1,0 +1,138 @@
+{
+  "batch": 782,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Leonard Peltier",
+      "slug": "leonard-peltier",
+      "prisoner_id": "4839976c-01b6-49e6-9cbb-e11e6370011d",
+      "case_id": "9bbb7570-56f5-477d-b8bd-16f2ba6415d9",
+      "expected": {
+        "id": "9bbb7570-56f5-477d-b8bd-16f2ba6415d9",
+        "prisoner_id": "4839976c-01b6-49e6-9cbb-e11e6370011d",
+        "institution_id": "5b051a4c-b8a9-44a4-931a-fe377bbefac6",
+        "charges": "Murder Political Prosecution",
+        "arrest_date": "1976-02-05 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "1977-05-31 00:00:00",
+        "incarceration_date": "1977-05-31 00:00:00",
+        "release_date": "2025-02-18 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life sentence, commuted to home confinement. Released from federal prison February 18, 2025 to return to the Turtle Mountain reservation. Home confinement is distinct from an unconditional pardon or completed sentence. Source: https://ndncollective.org/leonard-peltier-released-from-49-years-of-wrongful-incarceration/",
+        "imprisoned_for_days": 17430,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-09-13 12:31:40",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1976-02-06 00:00:00",
+        "sentenced_date": "1977-06-01 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"sentenced_date\": \"day\"}"
+      },
+      "sources": [
+        "https://www.fbi.gov/wanted/topten/topten-history/hires_images/FBI-335-LeonardPeltier.jpg/view",
+        "https://www.fbi.gov/history/cases-and-criminals/resmurs-case-reservation-murders"
+      ],
+      "rationale": "FBI explicitly identifies actual RCMP arrest February6,1976 and sentencing June1,1977. Currentfields are one day early. Custody-period correction pending because1979escape interrupts continuity; avoid changing continuouscounter until periods verified."
+    },
+    {
+      "name": "Lolita Lebrón",
+      "slug": "lolita-lebron",
+      "prisoner_id": "edb258a5-8aa0-4698-a529-3ed6edef5151",
+      "case_id": "5a238366-5a83-4b41-bbf3-32852c1b085e",
+      "expected": {
+        "id": "5a238366-5a83-4b41-bbf3-32852c1b085e",
+        "prisoner_id": "edb258a5-8aa0-4698-a529-3ed6edef5151",
+        "institution_id": "7dec17b0-b4c5-4220-a341-95d3e4e07e2f",
+        "charges": "Assault with intent to kill (5 counts).",
+        "arrest_date": "1954-02-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1954-07-08 00:00:00",
+        "incarceration_date": "1954-02-28 00:00:00",
+        "release_date": "1979-09-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Alexander Holtzoff (assault); Lawrence E. Walsh (seditious conspiracy)",
+        "sentence": "16 to 50 years assault + 6 years seditious conspiracy (~56 years total)\n\nCharges as recorded: Assault with intent to kill (5 counts) for the March 1, 1954 armed attack on the U.S. House of Representatives, in which four Puerto Rican Nationalists fired ~30 rounds from the Ladies' Gallery, wounding five congressmen. Additional 6-year sentence under Smith Act for seditious conspiracy (October 1954). Defendants refused parole conditions requiring renunciation of Puerto Rican independence. Sentences commuted by President Carter in 1977-1979.",
+        "imprisoned_for_days": 9324,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1954-03-01 00:00:00",
+        "incarceration_date": "1954-03-01 00:00:00",
+        "release_date": "1979-09-10 00:00:00",
+        "date_precision": "{\"sentenced_date\": \"day\", \"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}"
+      },
+      "sources": [
+        "https://history.house.gov/Exhibitions-and-Publications/1954-Shooting/Essays/March-1/",
+        "https://www.washingtonpost.com/archive/politics/1979/09/11/puerto-rican-terrorists-retain-nationalist-zeal-after-25-yers-in-prison/599c7324-f132-4e7d-b91f-94bf98296d93/"
+      ],
+      "rationale": "House original historical account gives March1 attack and immediate detention. Contemporary September10 datelined report explicitly states Lebron actually freed that morning. All threecurrentdates one day early. Preserve bios and sentence."
+    },
+    {
+      "name": "Neil McLaughlin",
+      "slug": "neil-mclaughlin",
+      "prisoner_id": "13ccfb16-9fe1-4a6c-a254-12f87ea8d52b",
+      "case_id": "8aecd8ad-89f0-4c02-b59f-75d7b84d4807",
+      "expected": {
+        "id": "8aecd8ad-89f0-4c02-b59f-75d7b84d4807",
+        "prisoner_id": "13ccfb16-9fe1-4a6c-a254-12f87ea8d52b",
+        "institution_id": null,
+        "charges": "Conspiracy to kidnap Henry Kissinger and to bomb federal heating tunnels (Harrisburg 7 indictment, 1971; mistrial)",
+        "arrest_date": "1971-01-11 00:00:00",
+        "indicted": null,
+        "convicted": "Hung jury",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-01-11 00:00:00",
+        "release_date": "1972-04-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William S. Lynch",
+        "judge": "Hon. R. Dixon Herman",
+        "sentence": "Hung jury April 5, 1972; mistrial; no retrial.",
+        "imprisoned_for_days": 449,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-20 05:27:12",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1971-01-12 00:00:00",
+        "incarceration_date": "1971-01-12 00:00:00",
+        "release_date": "1971-01-01 00:00:00",
+        "documented_imprisoned_for_days": 6,
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"month\"}",
+        "sentence": "Hung jury April 5, 1972; mistrial; no retrial. His September 1971 account states that he was arrested January 12, 1971 and freed on bail after six days. The April 1972 trial outcome was not the end of uninterrupted pretrial imprisonment; the exact January release day remains unresolved."
+      },
+      "sources": [
+        "https://hoover.mcdaniel.edu/archives/Newspapers/TheGoldBug1971-72.pdf"
+      ],
+      "rationale": "First-person account establishes January 12 arrest and police lockup, six days before bail. January month precision only for release; do not derive January18 from duration. This corrects false continuous 449 days to April1972 trial outcome. Other duplicate case has correct arrest and no duration; preserve it pending duplicate review."
+    }
+  ]
+}
