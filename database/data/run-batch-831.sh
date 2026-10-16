@@ -39,7 +39,7 @@ $q=Illuminate\Support\Facades\DB::table("prisoners")->where("id",$p["expected"][
 foreach($p["expected"] as $k=>$v){if($already&&($k==="updated_at"||array_key_exists($k,$p["updates"]))){continue;}if($r[$k]!==$v){throw new RuntimeException("Concurrent change: ".$k);}}
 if($already){echo "Already applied\n";return;}if($dry){echo "Would update portrait and credit\n";return;}
 $path=$p["updates"]["photo"];if($disk->exists($path)&&hash("sha256",$disk->get($path))!==$p["sha256"]){throw new RuntimeException("Asset collision");}
-if(!$disk->put($path,$b,"public")){throw new RuntimeException("Copy failed");}$q->update($p["updates"]+["updated_at"=>now()->format("Y-m-d H:i:s")]);$after=(array)$q->first();foreach($r as $k=>$v){if($k!=="updated_at"&&$after[$k]!==($p["updates"][$k]??$v)){throw new RuntimeException("Preservation failure");}}echo "Updated portrait and credit\n";
+if(!$disk->put($path,$b,"public")){throw new RuntimeException("Copy failed");}$q->update($p["updates"]+["updated_at"=>now()->format("Y-m-d H:i:s")]);$after=(array)Illuminate\Support\Facades\DB::table("prisoners")->where("id",$p["expected"]["id"])->first();foreach($r as $k=>$v){if($k!=="updated_at"&&$after[$k]!==($p["updates"][$k]??$v)){throw new RuntimeException("Preservation failure");}}echo "Updated portrait and credit\n";
 });if(!$dry){Illuminate\Support\Facades\Cache::forget(App\Http\Controllers\Api\PrisonerApiController::cacheKey());}echo "B831-OK\n";
 '
 run portrait B831-OK "$ADD_CODE" || exit 1
