@@ -5,13 +5,13 @@ Deterministic random seed: `NPPC-random100-2026-10-15-after-batch797`.
 
 Eligibility: missing photo, missing case, or selected missing case fields. No era filter. This is a review of the selected 100, not an exhaustive search of every possible archive.
 
-Prepared verified additions for 14 distinct profiles: 10 existing cases, 1 separate case, 4 portraits. Live deployment results are recorded separately.
+Applied and verified live additions for 14 distinct profiles: 10 existing cases, 1 separate case, 4 portraits. All three batches applied successfully; public pages, portrait file hashes, unrelated-field preservation, and zero-change replays verified.
 
 Existing biographies and nonempty fields preserved, except explicitly supported refinement of Sumida month dates to the missing day. Unverified endpoints and image identities remain unresolved.
 
 ## 1. Michael J. Mandel
 
-No verified addition prepared.
+No verified addition applied.
 
 Mandel archival record identifies draft registration and military board interviews, not a missing arrest or actual release date.
 
@@ -22,7 +22,7 @@ https://mla.bethelks.edu/ml-archive/pre2000/1989dec.pdf
 
 ## 2. Michael Thurman
 
-No verified addition prepared.
+No verified addition applied.
 
 Thurman identified as conscientious objector with honorable discharge.
 
@@ -33,7 +33,7 @@ https://eastbayexpress.com/an-oakland-mans-fight-to-save-bradley-manning-1/
 
 ## 3. Nilak Butler
 
-No verified addition prepared.
+No verified addition applied.
 
 Butler personal testimony describes weekend detention and bail, followed by acquittal.
 
@@ -43,7 +43,7 @@ https://archive.mpr.org/stories/1977/03/02/highlights-of-the-minnesota-citizens-
 
 ## 4. Leon Blum
 
-No verified addition prepared.
+No verified addition applied.
 
 Bronx organizer Blum already imprisoned weeks before May12 sentence; October wife letter says six months since arrest.
 
@@ -54,7 +54,7 @@ https://www.marxists.org/history/usa/pubs/dailyworker/1933/v10-n237-oct-03-1933-
 
 ## 5. J. McNichols
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual J. McNichols name/custody search and local amnesty roster review identify Idaho prisoner and sentence, but no additional arrest date.
 
@@ -63,7 +63,7 @@ Unresolved: Initial unresolved; no identity-confirmed portrait. Local source tmp
 
 ## 6. Charles Coder
 
-No verified addition prepared.
+No verified addition applied.
 
 Coder survived alleged police killing; contemporary correction distinguishes later arrest from February25 demonstration.
 
@@ -75,7 +75,7 @@ https://www.casemine.com/judgement/us/5914a5f1add7b049346d2d5c
 
 ## 7. Santiago O'Leary
 
-No verified addition prepared.
+No verified addition applied.
 
 O’Leary identified as San Patricio officer and wounded in battle.
 
@@ -86,7 +86,7 @@ https://www.memoriapoliticademexico.org/Textos/2ImpDictadura/San_Patricio.pdf
 
 ## 8. Will Bradbury
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual Will Bradbury draft/prison searches did not locate additional identity-confirmed evidence beyond existing CCCO roster.
 
@@ -95,7 +95,7 @@ Unresolved: Roster establishes custody presence only; admission/release and phot
 
 ## 9. Robert E. Edmondson
 
-No verified addition prepared.
+No verified addition applied.
 
 Edmondson identified in sedition prosecution material.
 
@@ -105,7 +105,7 @@ https://vault.fbi.gov/rosenberg-case/o.-john-rogge/O.%20John%20Rogge%20Part%2002
 
 ## 10. Sid Welsh
 
-No verified addition prepared.
+No verified addition applied.
 
 Sid Welsh report describes January1,1976 arrest, first conviction and scheduled November1977 retrial.
 
@@ -128,7 +128,7 @@ https://sfstandard.com/2026/04/30/golden-gate-bridge-protester-trial-felonies/
 
 ## 12. Eugene Balthazar
 
-No verified addition prepared.
+No verified addition applied.
 
 Eugene Balthazar named in Richmond arrests; narrative includes Gloria booking details.
 
@@ -138,7 +138,7 @@ https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20ma
 
 ## 13. Lenore Yarger
 
-No verified addition prepared.
+No verified addition applied.
 
 Yarger August6,2001 action report says arrested, cited, released.
 
@@ -149,7 +149,7 @@ https://quakerspeak.com/video/gi-rights-hotline/
 
 ## 14. Mike Tkach
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual Mike Tkach deportation/portrait searches found no identity-confirmed image.
 
@@ -158,7 +158,7 @@ Unresolved: Existing dates retained; unrelated modern professionals rejected.
 
 ## 15. Sue Leon Africa
 
-No verified addition prepared.
+No verified addition applied.
 
 Sue Leon Africa identified in MOVE sources; 1993 prisoner roster potentially conflicts with existing 1992 release.
 
@@ -169,7 +169,7 @@ https://s3.us-west-1.wasabisys.com/luminist/PR/BREAKTHROUGH_1993_1.pdf
 
 ## 16. Troy Desson
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual Troy Desson espionage/custody search found no adequately identified source.
 
@@ -178,7 +178,7 @@ Unresolved: Do not conflate Leonard Joseph Desson, airman associated with Troy N
 
 ## 17. David Lock
 
-No verified addition prepared.
+No verified addition applied.
 
 David Lock named in Whiskey Rebellion pardon/exception records.
 
@@ -189,7 +189,7 @@ https://wardepartmentpapers.org/document/48746/
 
 ## 18. John Wills
 
-No verified addition prepared.
+No verified addition applied.
 
 John Wills named as British Greenpeace Vandenberg defendant.
 
@@ -200,7 +200,7 @@ https://www.theguardian.com/world/2002/jan/07/usa.duncancampbell
 
 ## 19. William H. Treseler
 
-No verified addition prepared.
+No verified addition applied.
 
 William R Douglas Minnesota History article identifies Treseler among eight March11,1918 court-martials (printed page298); release May6,1919 (page300) matches existing.
 
@@ -210,7 +210,7 @@ https://storage.googleapis.com/mnhs-org-support/mn_history_articles/55/v55i07p28
 
 ## 20. Albert Lowery Grabill
 
-No verified addition prepared.
+No verified addition applied.
 
 Albert Lowery Grabill archival row names Altoona conscientious objector and sentence.
 
@@ -220,7 +220,7 @@ https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlS
 
 ## 21. Raymond Johnson
 
-No verified addition prepared.
+No verified addition applied.
 
 Raymond Johnson hijacking records located; FBI file references photograph enclosure and FBI402410G.
 
@@ -231,7 +231,7 @@ https://documents3.theblackvault.com/documents/jfkfiles/NARA-Oct2017/NARA-Nov17-
 
 ## 22. Diego Vargas
 
-No verified addition prepared.
+No verified addition applied.
 
 Diego Vargas signed June10,2021 guilty plea in civil disorder prosecution.
 
@@ -241,7 +241,7 @@ https://www.justice.gov/usao-ndil/press-release/file/1403466/dl
 
 ## 23. Forrest Hostetler
 
-No verified addition prepared.
+No verified addition applied.
 
 Forrest Hostetler court-martial archival listing identifies file115722.
 
@@ -251,7 +251,7 @@ https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-co
 
 ## 24. Tony Stafford
 
-No verified addition prepared.
+No verified addition applied.
 
 Tony Stafford miner imprisoned and deported July1925; later relief item names wife.
 
@@ -272,7 +272,7 @@ https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionag
 
 ## 26. Siobhan Browne
 
-No verified addition prepared.
+No verified addition applied.
 
 Existing custody narrative already captures January 2001 release month and documented seventeen months. Search photograph results included unrelated sports namesake, rejected. No new verified missing field.
 
@@ -283,7 +283,7 @@ https://www.irishtimes.com/culture/ira-still-have-nine-in-prison-1.299925
 
 ## 27. Abby Rampone
 
-No verified addition prepared.
+No verified addition applied.
 
 Her first-person Holy Week account corroborates Creech action context; no evidence of transported prison admission. Existing cite-and-release account preserved.
 
@@ -293,7 +293,7 @@ https://loveincommunity.substack.com/p/i-am-the-dance-and-i-still-go-on
 
 ## 28. Ida Craddock
 
-No verified addition prepared.
+No verified addition applied.
 
 First-person final letter and historical account do not supply new exact release day. Federal prosecution ended before sentencing; do not manufacture imprisonment there.
 
@@ -304,7 +304,7 @@ https://firstamendment.mtsu.edu/article/ida-craddock/
 
 ## 29. Justin Raymond Colby
 
-No verified addition prepared.
+No verified addition applied.
 
 Contemporary report confirms March 2013 county jail custody and sentence; projected nine months and clemency opportunity do not establish completed release.
 
@@ -314,7 +314,7 @@ https://www.nukeresister.org/2013/03/27/military-refuser-justin-colby-jailed-9-m
 
 ## 30. Pablo Paredes
 
-No verified addition prepared.
+No verified addition applied.
 
 May 2005 conviction report does not establish missing physical custody. Existing no-confinement sentence preserved; sentencing precision already nonempty and not replaced.
 
@@ -324,7 +324,7 @@ https://www.jurist.org/news/2005/05/sailor-turned-anti-war-activist/
 
 ## 31. John W. Penrod
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual exact-name and Penrod/conscientious searches produced namesake genealogical material, not a matched custody source or photograph. Held unresolved.
 
@@ -333,7 +333,7 @@ Unresolved: No nonempty fields or biographies changed. Unverified exact endpoint
 
 ## 32. Evgraf Kovalenko
 
-No verified addition prepared.
+No verified addition applied.
 
 Individually read historian profile confirms May 1919 arrest and December 21 deportation already stored. No portrait in individual section; later Russian exile is undated and not inserted as a US custody date.
 
@@ -343,7 +343,7 @@ https://kenyonzimmer.com/red-scare-deportees/korotkov-to-kovalenko/
 
 ## 33. Jim Forest
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual release search did not improve existing 1970 release precision. Do not turn July publication date into physical release.
 
@@ -353,7 +353,7 @@ https://jimandnancyforest.com/category/jim-forest-speaking/page/2/
 
 ## 34. Néstor Cruz Crespo
 
-No verified addition prepared.
+No verified addition applied.
 
 Official consolidated opinion individually names Cruz-Crespo but gives April–June 2000 arrest range for collective appellants, not his exact admission/release. No individual term inferred.
 
@@ -373,7 +373,7 @@ https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0807.pdf
 
 ## 36. Ben Thomas
 
-No verified addition prepared.
+No verified addition applied.
 
 Contemporary named hunger-strike account and archive caption corroborate arrest context. Group thirty-day sentence is not individual actual release; no portrait safely isolated or dates inferred.
 
@@ -404,7 +404,7 @@ https://commons.wikimedia.org/wiki/File:Hannah_Einbinder_at_the_2026_Cannes_Film
 
 ## 39. Harry Lux
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual searches confirm Nebraska farm organizer but no new missing exact sentencing date or identified usable portrait in inspected material.
 
@@ -415,7 +415,7 @@ https://history.nebraska.gov/wp-content/uploads/2017/12/doc_publications_NH1966L
 
 ## 40. A. G. Graham
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact initials/name and Shelby textile-strike/fifteen-day searches did not yield an individually usable endpoint or portrait. Existing fifteen-day account retained, no release arithmetic.
 
@@ -424,7 +424,7 @@ Unresolved: No nonempty fields or biographies changed. Unverified exact endpoint
 
 ## 41. Arthur Majid Barnes
 
-No verified addition prepared.
+No verified addition applied.
 
 Named Sing Sing roster and inmate number confirm presence in 1989 already described. Directory publication date is not admission; no newly verified endpoint or portrait.
 
@@ -434,7 +434,7 @@ https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Insurgent/510.insu
 
 ## 42. Everett R. Fisher
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact-name conscientious-objector and Leavenworth searches returned unrelated modern namesakes; no verified missing sentence date or identity-matched portrait. Existing endpoints retained.
 
@@ -443,7 +443,7 @@ Unresolved: No nonempty fields or biographies changed. Unverified exact endpoint
 
 ## 43. Mikhail Yakovlev
 
-No verified addition prepared.
+No verified addition applied.
 
 Individually read historian profile confirms January 8, 1920 arrest and January 22, 1921 deportation already stored. No photo in his section. Modern athlete and Soviet dissident namesakes excluded.
 
@@ -453,7 +453,7 @@ https://kenyonzimmer.com/red-scare-deportees/wilckens-to-yanish/
 
 ## 44. Tony J. Adams
 
-No verified addition prepared.
+No verified addition applied.
 
 Official Bulletin names Adams among conscientious objectors considered for release. A release recommendation/administrative process is not individually verified physical discharge; hold endpoints.
 
@@ -473,7 +473,7 @@ https://law.justia.com/cases/federal/appellate-courts/F3/236/588/510983/
 
 ## 46. John Pacheta
 
-No verified addition prepared.
+No verified addition applied.
 
 NARA identifies inmate 12902; hearing table records June 1919 transfer to St Elizabeths, not liberty. Existing sentence date not admission. No missing endpoint or photo verified.
 
@@ -484,7 +484,7 @@ https://upload.wikimedia.org/wikipedia/commons/7/75/Amnesty_and_pardon_for_polit
 
 ## 47. Ignatz Mizher
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact-name 1926 ILD notice located but does not establish missing arrest/admission for earlier criminal-anarchy case; no photograph verified.
 
@@ -494,7 +494,7 @@ https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n156-NY-j
 
 ## 48. Willow Cordes-Eklund
 
-No verified addition prepared.
+No verified addition applied.
 
 Campaign confirms August 25, 2011 admission already stored. Ten-day sentence and request to write before release are prospective, not completed release evidence.
 
@@ -504,7 +504,7 @@ https://earthfirstnews.wordpress.com/2011/08/29/write-a-letter-to-willow-cordes-
 
 ## 49. Carl Marzani
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual historical research gives March 1949 prison entry; existing two cases contain conflicting intervals. Missing-only instruction means do not replace nonempty dates. Flag duplicate/conflict for separate correction; photo already present.
 
@@ -515,7 +515,7 @@ https://www.erudit.org/fr/revues/cine/2014-v24-n2-3-cine01417/1025151ar.pdf
 
 ## 50. Irving Aarons
 
-No verified addition prepared.
+No verified addition applied.
 
 Named organizer in contemporary strike prosecution article. Collective arrest/bail totals do not establish his exact incarceration/release date. No identified portrait located.
 
@@ -525,7 +525,7 @@ https://www.marxists.org/history/usa/pubs/dailyworker/1935/v12-n298-NAT-dec-11-D
 
 ## 51. Fermin Ocampo-Tellez
 
-No verified addition prepared.
+No verified addition applied.
 
 DOJ confirms existing arrest; co-defendant Vargas plea is not Ocampo-Tellez sentencing. No individual endpoint found.
 
@@ -535,7 +535,7 @@ https://www.justice.gov/usao-ndil/pr/three-individuals-charged-trying-steal-cash
 
 ## 52. Stanley Magruder
 
-No verified addition prepared.
+No verified addition applied.
 
 Archive catalog and court-martial document list reviewed. Original images fail HTTP406 in web and direct downloads, so trial/document dates are not promoted to sentence or custody dates.
 
@@ -545,7 +545,7 @@ https://missourioverthere.org/explore/collections/nara-court-martial-files/h-sta
 
 ## 53. Art Laffin
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual search found 1998 White House arrest, distinct from existing Thames River sentence; no 1990 admission/release established.
 
@@ -555,7 +555,7 @@ https://www.criteriononline.com/files/1998/pdfs/19980213.pdf
 
 ## 54. Stephen Reid
 
-No verified addition prepared.
+No verified addition applied.
 
 Allenwood draft-resister search returned unrelated Canadian bank robber/writer. Reject identity conflation and photograph.
 
@@ -565,7 +565,7 @@ https://library.mcmaster.ca/finding-aid/reid
 
 ## 55. Anthony Valentino
 
-No verified addition prepared.
+No verified addition applied.
 
 Original contemporary union report says conviction overturned September1953; distinct from actual release. Existing narrative nonempty preserved.
 
@@ -575,7 +575,7 @@ https://archive.ilwu.org/wp-content/uploads/2015/02/19530918.pdf
 
 ## 56. Carolyn DeLoatch
 
-No verified addition prepared.
+No verified addition applied.
 
 AJC individual interview says held August1963, father obtained release after several days; group September release cannot be applied to her. Start month uncertain.
 
@@ -585,7 +585,7 @@ https://www.ajc.com/news/state--regional/leesburg-legacy/VJ665jMdNmoTkeaZiKF9kM/
 
 ## 57. Edward Stevenson
 
-No verified addition prepared.
+No verified addition applied.
 
 Archive identifies Kentucky minister. Commons portrait depicts different Mormon missionary; rejected. Existing populated birth/death left intact.
 
@@ -595,7 +595,7 @@ https://www.fromthepage.com/tennessee-state-library-archives/early-governors-pap
 
 ## 58. William Hockett
 
-No verified addition prepared.
+No verified addition applied.
 
 Accounts conflict May30 versus June8 conscription/removal; no exact arrest proposed until resolved.
 
@@ -605,7 +605,7 @@ https://upload.wikimedia.org/wikipedia/commons/f/fb/Memories_of_Stanley_Pumphrey
 
 ## 59. José Humberto Santos
 
-No verified addition prepared.
+No verified addition applied.
 
 Located court opinion naming Jose Humberto Santos-Vazquez; no personal endpoint identified.
 
@@ -615,7 +615,7 @@ https://law.justia.com/cases/federal/district-courts/FSupp2/129/424/2471396/
 
 ## 60. Nazael Montalvo Rodríguez
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual exact-name/2001/Vieques searches found archival surveillance and later advocacy, not missing sentencing date or verified portrait.
 
@@ -625,7 +625,7 @@ https://www.80grados.net/declaracion-en-oposicion-al-traslado-de-confinados-a-es
 
 ## 61. Walter Marks
 
-No verified addition prepared.
+No verified addition applied.
 
 Florida opinion names him among jailed contempt petitioners; appellate order does not prove physical release date.
 
@@ -645,7 +645,7 @@ https://newspapers.swco.ttu.edu/server/api/core/bitstreams/dc873b88-8891-4a57-b8
 
 ## 63. Federico Cintrón-Fiallo
 
-No verified addition prepared.
+No verified addition applied.
 
 1983 contemporary report distinguishes grand-jury proceedings from custody. Existing1984-85 interval already documented; no earlier endpoint inferred.
 
@@ -655,7 +655,7 @@ https://www.themilitant.com/PM/pm_pdfs/1983/pm0707.pdf
 
 ## 64. Geoffrey Parsons
 
-No verified addition prepared.
+No verified addition applied.
 
 Contemporary county-jail reporting confirms existing arrest and booking; no individual release found.
 
@@ -665,7 +665,7 @@ https://www.atlantanewsfirst.com/2023/01/19/six-people-arrested-metro-atlanta-do
 
 ## 65. George E. Elstun
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact-name WWI conscientious-objector search produced no additional identity-secure source. Existing dates retained; generic genealogical hits not matched.
 
@@ -684,7 +684,7 @@ https://www.themilitant.com/1945/0904/MIL0904.pdf
 
 ## 67. Matthew Lee Comiskey
 
-No verified addition prepared.
+No verified addition applied.
 
 Article image depicts Boebert, not Comiskey; rejected. Existing dates already populated.
 
@@ -694,7 +694,7 @@ https://www.yahoo.com/news/threatened-u-rep-lauren-boebert-091214461.html
 
 ## 68. Bhavika Anandpura
 
-No verified addition prepared.
+No verified addition applied.
 
 Bay City News individually captioned photograph located; four credited days are not necessarily four actual days and do not fix custody endpoints. Image download blocked by site challenge; caption alone cannot provide a verified local crop. Hold photo.
 
@@ -704,7 +704,7 @@ https://www.sfgate.com/news/bayarea/article/sf-7-sentenced-for-2024-protest-that
 
 ## 69. Dwight Freeman
 
-No verified addition prepared.
+No verified addition applied.
 
 Contemporary June1953 bail report precedes existing July custody; cannot use as July release endpoint.
 
@@ -726,7 +726,7 @@ https://www.upr.edu/cayey/wp-content/uploads/sites/10/2016/01/Revista-Cayey-93.p
 
 ## 71. Ray Edmerson
 
-No verified addition prepared.
+No verified addition applied.
 
 Original Panther article matches existing January7 arrest; no missing exact release established.
 
@@ -736,7 +736,7 @@ https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20ma
 
 ## 72. Simon Engle
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact-name sedition/1918 searches failed to locate individually verifiable further record. Genealogy Simon Engle Poff is not an established match.
 
@@ -745,7 +745,7 @@ Unresolved: Only missing-field additions authorized; no nonempty field or biogra
 
 ## 73. Bryan Centa
 
-No verified addition prepared.
+No verified addition applied.
 
 Located own habeas case and contemporary reporting of forcible military deployment; need distinguish military service from imprisonment before adding dates.
 
@@ -755,7 +755,7 @@ https://law.justia.com/cases/federal/district-courts/FSupp/755/197/1428130/
 
 ## 74. Lotta Burke
 
-No verified addition prepared.
+No verified addition applied.
 
 Historical research describes her facing prison, not actual admission for second case. Existing first custody dates retained.
 
@@ -765,7 +765,7 @@ https://resources.ohiohistory.org/ohj/search/display.php?ipp=20&page=7&pages=104
 
 ## 75. Luis A. Amely Martínez
 
-No verified addition prepared.
+No verified addition applied.
 
 2012 campaign page identifies Luis Amely Martinez as former Vieques prisoner; does not identify missing sentence date or portrait.
 
@@ -786,7 +786,7 @@ https://www.digifind-it.com/elizabeth/data/newspapers/Daily%20Journal/dj1936-196
 
 ## 77. Joseph Brinton “Brint” Dillingham
 
-No verified addition prepared.
+No verified addition applied.
 
 Appeal and misdemeanor outcomes do not establish physical jail dates; arrest counts alone cannot supply custody endpoints.
 
@@ -796,7 +796,7 @@ https://www.flickr.com/photos/washington_area_spark/53466170249/
 
 ## 78. Lehman Brightman
 
-No verified addition prepared.
+No verified addition applied.
 
 January 24 arrest corroborated; no sufficiently individual physical confinement endpoint found.
 
@@ -816,7 +816,7 @@ https://www.sdhspress.com/journal/south-dakota-history-27-3/conrad-kornmann-germ
 
 ## 80. James Albert McGlynn
 
-No verified addition prepared.
+No verified addition applied.
 
 Collie history gives December 1918 habeas release but lacks an inspected underlying court order; hold pending primary corroboration.
 
@@ -836,7 +836,7 @@ https://incarceration.jcchawaii.org/documents/Sumida_Shinzaburo.pdf
 
 ## 82. Bill Wahl
 
-No verified addition prepared.
+No verified addition applied.
 
 Memorial confirms jail history but does not establish missing endpoints for the selected cases.
 
@@ -846,7 +846,7 @@ https://www.gzcenter.org/wp-content/uploads/2020/04/April-2020-newsletter-for-we
 
 ## 83. Peter Urgel
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual name and deportation searches did not establish an attributable portrait. Existing case dates preserved.
 
@@ -856,7 +856,7 @@ https://www.forumdaily.com/en/sovetskij-kovcheg-kak-100-let-nazad-rossiyan-depor
 
 ## 84. Peter Grimm
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual searches produced unrelated later German namesake; no verified portrait or missing custody endpoints.
 
@@ -865,7 +865,7 @@ Unresolved: Unverified fields remain unchanged. Individual review is not proof t
 
 ## 85. Tom Kellog
 
-No verified addition prepared.
+No verified addition applied.
 
 Kellog and Kellogg searches with Lompoc and draft terms did not verify missing dates or portrait; prison-list publication dates are not admission dates.
 
@@ -874,7 +874,7 @@ Unresolved: Unverified fields remain unchanged. Individual review is not proof t
 
 ## 86. Pete Carbonay
 
-No verified addition prepared.
+No verified addition applied.
 
 Dispatcher March16,1951 p8 photo caption explicitly identifies pictured five left to right as Casimiro Absolar, Ernesto Mangaoang, Chris Mensalves, Joe Prudencio and Ponce Torres. It then separately names Pete Carbonay among others also facing proceedings; he is not pictured. No crop is safe for Carbonay.
 
@@ -884,7 +884,7 @@ https://archive.ilwu.org/wp-content/uploads/2015/02/19510316.pdf
 
 ## 87. J. C. Garland
 
-No verified addition prepared.
+No verified addition applied.
 
 Initials and coal-war searches did not establish a verified portrait or actual confinement endpoints. Flight/arrest allegations are not sufficient.
 
@@ -893,7 +893,7 @@ Unresolved: Unverified fields remain unchanged. Individual review is not proof t
 
 ## 88. Albert Lannon
 
-No verified addition prepared.
+No verified addition applied.
 
 Existing cases duplicate Smith Act history. FBI report supports remand but additional source inspection needed to distinguish hearing date from motion date; do not copy dates from duplicate records as independent evidence.
 
@@ -903,7 +903,7 @@ https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2010%20%28Final%
 
 ## 89. Martin Gunderson
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual IWW and deportation searches did not verify a portrait or missing arrest/admission endpoints. Existing departure is not a new incarceration date.
 
@@ -922,7 +922,7 @@ https://www.sfgate.com/bayarea/article/no-pleas-entered-for-2-charged-in-71-offi
 
 ## 91. Tamako Matano
 
-No verified addition prepared.
+No verified addition applied.
 
 JCCH family confinement record does not establish individual arrest; husband photograph and arrest cannot be assigned to her.
 
@@ -932,7 +932,7 @@ https://incarceration.jcchawaii.org/internees/matano-tamako
 
 ## 92. James Eddie Austin
 
-No verified addition prepared.
+No verified addition applied.
 
 Archive arrest-photo catalog supports already recorded action date, not an unrecorded duration or release.
 
@@ -942,7 +942,7 @@ https://crdl.usg.edu/records.html?f%5Bsubject_facet%5D%5B%5D=African+American+me
 
 ## 93. Howard Hairston
 
-No verified addition prepared.
+No verified addition applied.
 
 Official Martinsville Seven history corroborates existing execution endpoint. Existing arrest precedes reported offense and needs separate reconciliation; do not propagate that date as incarceration.
 
@@ -952,7 +952,7 @@ https://www.lva.virginia.gov/events/exhibitions/200-years-200-stories/stories/15
 
 ## 94. Mariah Bailey
 
-No verified addition prepared.
+No verified addition applied.
 
 Exact-name Akron and Jayland Walker searches did not produce a reliably identified photograph.
 
@@ -972,7 +972,7 @@ https://suffragistmemorial.org/november-12-1917/
 
 ## 96. Sidor Drankovich
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual name and deportation searches did not yield a reliably identified portrait.
 
@@ -981,7 +981,7 @@ Unresolved: Unverified fields remain unchanged. Individual review is not proof t
 
 ## 97. Teruo Konishi
 
-No verified addition prepared.
+No verified addition applied.
 
 JCCH lists subsequent Crystal City confinement after Tule Lake interval, so March 1946 cannot safely be treated as final release; no identified portrait found.
 
@@ -991,7 +991,7 @@ https://incarceration.jcchawaii.org/internees/konishi-teruo
 
 ## 98. T. Luesse
 
-No verified addition prepared.
+No verified addition applied.
 
 Contemporary sentencing coverage and Indiana history do not establish a missing individual arrest date for the recorded term.
 
@@ -1002,7 +1002,7 @@ https://blog.history.in.gov/tag/jim-moore/
 
 ## 99. Burt Lorton
 
-No verified addition prepared.
+No verified addition applied.
 
 Federal sentence-list source does not establish missing arrest date; do not substitute a raid date or copy admission.
 
@@ -1012,7 +1012,7 @@ https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERI
 
 ## 100. Jesús M. Balzac
 
-No verified addition prepared.
+No verified addition applied.
 
 Individual Spanish-name and case searches did not verify a portrait or actual custody endpoints; judicial sentence alone does not establish time served.
 
