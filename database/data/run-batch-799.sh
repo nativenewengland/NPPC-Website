@@ -45,7 +45,14 @@ $dry = getenv("NPPC_BATCH_DRY_RUN") === "1";
 $same = fn ($a,$b) => $a === null || $b === null ? $a === $b : (string) $a === (string) $b;
 for ($attempt = 1; $attempt <= 5; $attempt++) {
 try {
+if (DB::connection()->getDriverName() === "sqlite") { DB::statement("PRAGMA busy_timeout=15000"); }
 $result = DB::transaction(function () use ($payload,$dry,$same) {
+    // Reserve the SQLite writer before reading preservation snapshots.
+    // This matches no rows and changes no data; it avoids read-to-write upgrade collisions.
+    if (! $dry && DB::connection()->getDriverName() === "sqlite") {
+        DB::table("prisoner_cases")->whereRaw("0=1")->update(["updated_at"=>null]);
+    }
+
     $plans = [];
     $allowed = ["judge","institution_id","plead","arrest_date","incarceration_date","release_date","sentenced_date","date_precision","sentence","charges","convicted","imprisoned_for_months","documented_imprisoned_for_days","in_exile_since","in_exile_for_days","end_of_exile","custody_periods"];
     foreach ($payload["entries"] as $entry) {
@@ -107,5 +114,5 @@ if (! $dry && $result > 0) { Cache::forget(PrisonerApiController::cacheKey()); }
 echo ($dry ? "Would update: " : "Updated: "),$result,"\n";
 echo "B799-OK\n";
 '
-run "correct-1970s-custody-dates" "B799-OK" "$ADD_CODE" || exit 1
+run "add-documented-custody-case" "B799-OK" "$ADD_CODE" || exit 1
 echo "Batch 799 complete."

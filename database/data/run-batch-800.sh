@@ -79,7 +79,14 @@ foreach ($payload["entries"] as $entry) {
     }
     $assets[$entry["id"]] = ["path" => "prisoners/".$filename, "bytes" => $bytes];
 }
+if (DB::connection()->getDriverName() === "sqlite") { DB::statement("PRAGMA busy_timeout=15000"); }
 $changed = DB::transaction(function () use ($payload, $dryRun, $disk, $assets) {
+    // Reserve the SQLite writer before reading preservation snapshots.
+    // This matches no rows and changes no data; it avoids read-to-write upgrade collisions.
+    if (! $dryRun && DB::connection()->getDriverName() === "sqlite") {
+        DB::table("prisoner_cases")->whereRaw("0=1")->update(["updated_at"=>null]);
+    }
+
     $plans = [];
     foreach ($payload["entries"] as $entry) {
         $record = Prisoner::withoutGlobalScopes()->where("slug", $entry["slug"])->lockForUpdate()->sole();
