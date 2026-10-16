@@ -1,0 +1,93 @@
+{
+  "batch": 793,
+  "expected_count": 2,
+  "entries": [
+    {
+      "name": "Rita Silk Nauni",
+      "slug": "rita-silk-nauni",
+      "prisoner_id": "468ddba7-c59e-4613-9f9a-4c5692847fbd",
+      "case_id": "56351b17-1270-4e47-9fe3-0e0f1ce364c9",
+      "expected": {
+        "id": "56351b17-1270-4e47-9fe3-0e0f1ce364c9",
+        "prisoner_id": "468ddba7-c59e-4613-9f9a-4c5692847fbd",
+        "institution_id": "fad3a4b9-beac-4f37-a532-76eb6d7f2145",
+        "charges": "First-degree murder of a police officer, assault",
+        "arrest_date": "1979-09-19 00:00:00",
+        "indicted": null,
+        "convicted": "First-degree manslaughter and shooting with intent to kill",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One hundred years for manslaughter and fifty years for shooting with intent to kill, affirmed in 1983. Actual custody intervals unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-09-23 23:25:58",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1981-03-27 00:00:00",
+        "sentence": "One hundred years for manslaughter and fifty years for shooting with intent to kill, affirmed in 1983. This entry records custody before her March 27, 1981 release on appeal bond. The initial admission date remains unresolved. After the bond was revoked she surrendered on April 4 and was again released April 30; that separate interval is recorded in her other case entry. These were interim bail releases, not completion of the sentence.",
+        "date_precision": "{\"arrest_date\": \"day\", \"release_date\": \"day\"}"
+      },
+      "sources": [
+        "https://files.libcom.org/files/Anarchist-Black-Dragon-Vol-1-No-9.pdf",
+        "https://www.marxists.org/history/etol/newspape/news-and-letters/1980s/1981-07.pdf"
+      ],
+      "rationale": "Contemporary Black Dragon printed6 Nancy Fithian report explicitly actual March27 release, April4 surrender and April30 release. Visually verified image agent-one-nauni-p6.png. July1981 News&Letters independently confirms both releases and intervening return. Map existing duplicate prosecution entries to distinct documented intervals, keeping original1979 arrest as prosecution arrest; do not infer initial continuous custody from arrest or final discharge. No biography changes."
+    },
+    {
+      "name": "Rita Silk Nauni",
+      "slug": "rita-silk-nauni",
+      "prisoner_id": "468ddba7-c59e-4613-9f9a-4c5692847fbd",
+      "case_id": "7c47c9c9-8c06-464b-8328-2ab9e3d14c9f",
+      "expected": {
+        "id": "7c47c9c9-8c06-464b-8328-2ab9e3d14c9f",
+        "prisoner_id": "468ddba7-c59e-4613-9f9a-4c5692847fbd",
+        "institution_id": null,
+        "charges": "Manslaughter (the shooting of an Oklahoma City airport security officer, September 1979)",
+        "arrest_date": "1979-09-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "150 years (later reduced); released after a sustained defense campaign\n\nVerdict as recorded: Convicted of manslaughter (1980)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-22 23:08:43",
+        "updated_at": "2026-09-23 23:25:58",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1981-04-30 00:00:00",
+        "incarceration_date": "1981-04-04 00:00:00",
+        "sentence": "150-year sentence in the 1979 prosecution. This entry records the distinct April 4–30, 1981 custody interval: she surrendered after revocation of appeal bond and was released again when the bond was reinstated. Her earlier March 27 release is recorded separately. Later custody and final discharge remain unresolved.",
+        "date_precision": "{\"arrest_date\": \"day\", \"release_date\": \"day\", \"incarceration_date\": \"day\"}"
+      },
+      "sources": [
+        "https://files.libcom.org/files/Anarchist-Black-Dragon-Vol-1-No-9.pdf",
+        "https://www.marxists.org/history/etol/newspape/news-and-letters/1980s/1981-07.pdf"
+      ],
+      "rationale": "Contemporary Black Dragon printed6 Nancy Fithian report explicitly actual March27 release, April4 surrender and April30 release. Visually verified image agent-one-nauni-p6.png. July1981 News&Letters independently confirms both releases and intervening return. Map existing duplicate prosecution entries to distinct documented intervals, keeping original1979 arrest as prosecution arrest; do not infer initial continuous custody from arrest or final discharge. No biography changes."
+    }
+  ]
+}
