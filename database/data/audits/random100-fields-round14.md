@@ -4,7 +4,7 @@ Seed: NPPC-random100-round14-after-batch825
 Eligible after excluding all prior 1300: 7617.
 
 100 profiles reviewed; this is a bounded research pass, not exhaustion of every archive.
-Prepared: 16 case records in 16 profiles. No portraits accepted this round.
+Applied and verified live: 16 case records in 16 profiles. No portraits accepted this round.
 
 Bios, existing photos and unrelated fields preserved. Missing values filled and supported partial dates refined. Unresolved conflicts remain listed below.
 
@@ -40,7 +40,7 @@ https://www.upi.com/Archives/1988/04/04/Bond-set-for-peace-activists/54385761296
 
 ## 5. Joseph Wagner
 
-prepared: incarceration_date, sentence, date_precision
+updated-live: incarceration_date, sentence, date_precision
 Stephen M. Kohn, p.168. Preserve month precision; release unverified.
 Unresolved / limits: Existing generic federal-charge wording needs separate review against the state case; not overwritten.
 
@@ -63,7 +63,7 @@ https://incarceration.jcchawaii.org/internees/kitajima-yoshio
 
 ## 8. Emil Hansen
 
-prepared: release_date, date_precision
+updated-live: release_date, date_precision
 February 3, 1945 issue, page 1, explicitly identifies Hansen in the group released January 24. Existing sentence-length conflict is flagged separately; no existing sentence overwritten.
 Unresolved / limits: Existing twelve-month sentence conflicts with the contemporary account of the longer-term group. Sentence preserved and flagged; release independently verified.
 
@@ -107,7 +107,7 @@ https://crrj.org/wp-content/uploads/2023/09/Sharecroppers.pdf
 
 ## 14. Rose Winslow
 
-prepared: arrest_date, sentenced_date, judge, date_precision
+updated-live: arrest_date, sentenced_date, judge, date_precision
 Dates the arrest and initial six-month sentence separately. Additional thirty-day sentence followed October 22. Preserve existing custody dates.
 Unresolved / limits: Existing incarceration day differs from the account of sentence commencement; preserved pending separate reconciliation.
 
@@ -138,7 +138,7 @@ https://ccrjustice.org/sites/default/files/attach/2018/11/1%20Complaint%202018.1
 
 ## 18. Robert “Nashua” Chantal
 
-prepared: incarceration_date, date_precision
+updated-live: incarceration_date, date_precision
 Nuclear Resister 137 retrospective report explicitly includes Nashua Chantal among nine whose terms began March 15, 2005; not inferred from sentence length.
 Unresolved / limits: Existing documented ninety-day total preserved; admission independently sourced.
 
@@ -192,7 +192,7 @@ https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.3.
 
 ## 25. Anne Walsh
 
-prepared: prosecutor
+updated-live: prosecutor
 Opinion identifies appellate counsel. Remand is not treated as physical release; trial judge and custody endpoints remain open.
 Unresolved / limits: Reversal and remand do not prove physical release.
 
@@ -253,7 +253,7 @@ https://tridentploughshares.org/wp-content/uploads/2013/03/News-index-1999.pdf
 
 ## 33. Richard Moses
 
-prepared: arrest_date, date_precision
+updated-live: arrest_date, date_precision
 July 22 issue, page 2, describes Richard and Jane Moses among the July 12 Operation Alert arrests; July 15 is the sentencing hearing, not presumed admission.
 Unresolved / limits: No continuous incarceration or release calculated from the thirty-day sentence.
 
@@ -261,7 +261,7 @@ https://www.marxists.org/history/usa/pubs/national-guardian/1957-07-22-9-40-nat-
 
 ## 34. Phillip Mellman
 
-prepared: incarceration_date, sentence, date_precision
+updated-live: incarceration_date, sentence, date_precision
 Stephen M. Kohn, p.164. Preserve month precision; release unverified.
 Unresolved / limits: Existing generic federal-charge wording needs separate state-case review; preserved.
 
@@ -277,7 +277,7 @@ https://vieques.iac.gatech.edu/ohms-viewer/index.php?cachefile=Interview56325.xm
 
 ## 36. Martina White Bear
 
-prepared: judge
+updated-live: judge
 Trial judge explicitly identified in footnote 1. Appellate judges are not entered as trial judges. Custody dates remain unresolved.
 Unresolved / limits: Appellate opinion confirms arrest already held; no new discharge date established.
 
@@ -300,7 +300,7 @@ Unresolved / limits: Military detention without trial must not be assigned an in
 
 ## 39. Kenneth Loud Hawk
 
-prepared: indicted, judge
+updated-live: indicted, judge
 Published district and Supreme Court opinions date the indictments. The case-specific judge label distinguishes the 1983 proceedings; neither dismissal is treated as release.
 Unresolved / limits: Dismissal and appeal chronology are not continuous imprisonment; custody endpoints held.
 
@@ -409,7 +409,7 @@ Unresolved / limits: Possible Louis Kramer match needs stronger identity linkage
 
 ## 54. R. Quackenbush
 
-prepared: sentence
+updated-live: sentence
 Stephen M. Kohn, p.171. No custody endpoint inferred.
 Unresolved / limits: Individual custody dates still missing; no sentence arithmetic used.
 
@@ -507,7 +507,7 @@ Unresolved / limits: Brief IWW source entry does not identify dates or length.
 
 ## 67. Alfred Wagenknecht
 
-prepared: sentenced_date, date_precision
+updated-live: sentenced_date, date_precision
 Edited Wagenknecht interview, note 2, dates sentencing July 21. The sentence was appealed while defendants were on bail, so no admission date is inferred.
 Unresolved / limits: Contemporary release account supports existing December 2; later December 8 summaries not substituted.
 
@@ -537,7 +537,7 @@ Unresolved / limits: Deportee search did not locate an identified portrait.
 
 ## 71. Thomas Bottolene
 
-prepared: judge, convicted
+updated-live: judge, convicted
 Contemporary report names the sentencing judge. July 31 is a prospective reporting order only, so the missing admission date is held.
 Unresolved / limits: Prospective reporting order is not verified actual admission.
 
@@ -575,7 +575,7 @@ Unresolved / limits: Fine-only disposition is not evidence of incarceration.
 
 ## 76. Jim Roe
 
-prepared: sentence
+updated-live: sentence
 Stephen M. Kohn, p.166. Existing dates preserved.
 Unresolved / limits: No missing arrest verified.
 
@@ -605,7 +605,7 @@ Unresolved / limits: Arrest and deportation are not automatically one continuous
 
 ## 80. Oscar Simons
 
-prepared: release_date, date_precision
+updated-live: release_date, date_precision
 July 12 page 2 names Simons among those completing their terms that afternoon; July 15 confirms the group left jail. Refines the existing July release month; admission is not back-calculated.
 Unresolved / limits: Release refinement corroborated by subsequent report; admission remains month-only.
 
@@ -731,7 +731,7 @@ Unresolved / limits: CCCO roster months do not establish admission or release.
 
 ## 97. H. M. Edwards
 
-prepared: sentence
+updated-live: sentence
 Stephen M. Kohn, p.160. Existing release-year conflict remains flagged.
 Unresolved / limits: Source's release year differs from existing record; not overwritten in this missing-fields pass.
 
@@ -739,7 +739,7 @@ https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionag
 
 ## 98. Don Beisswenger
 
-prepared: arrest_date, incarceration_date, date_precision
+updated-live: arrest_date, incarceration_date, date_precision
 His own April 6 journal entry records reporting to prison that day; the introduction identifies the November 23 action. October 1 is only an anticipated release and is not entered.
 Unresolved / limits: Projected October release not promoted to confirmed discharge.
 
@@ -761,4 +761,3 @@ Identity/context search and existing record reviewed; no sufficiently supported 
 Unresolved / limits: Appearance-ticket date is not imprisonment; no new admission inferred.
 
 https://thebuffalocontrarian.substack.com/p/the-arrest-of-the-zell-no-artist
-

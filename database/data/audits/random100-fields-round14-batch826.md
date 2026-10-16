@@ -132,4 +132,3 @@ Stephen M. Kohn, p.160. Existing release-year conflict remains flagged.
 Fields: sentence
 
 https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html
-
