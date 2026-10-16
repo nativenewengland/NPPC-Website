@@ -1,0 +1,1644 @@
+{
+  "seed": "NPPC-random100-round9-after-batch815",
+  "eligible_profiles": 8117,
+  "reviewed": 100,
+  "updated_profiles": 33,
+  "deployment": "Prepared",
+  "findings": [
+    {
+      "prisoner_id": "2d4e0c53-2b5f-4516-bafc-165795511ce9",
+      "name": "Abraham Goertz",
+      "case_ids": [
+        "af028dd2-1f60-4a55-a705-de1b6938230e"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm",
+        "https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf"
+      ],
+      "evidence": "Individual Goertz row confirms existing November19,1918 admission/January27,1919 release. October29 court-martial is not independently established sentencing date; no portrait identified.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "b27aa976-ba56-48f6-a853-06a243ce4388",
+      "name": "Elliott James Barkley",
+      "case_ids": [
+        "e0aea98e-3e2f-45f1-94c4-be80a2ea8049"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://digitalcollections.archives.nysed.gov/media/collectiveaccess/images/1/0/6/8/17863_ca_object_representations_media_106869_original.pdf"
+      ],
+      "evidence": "Contemporary AP Buffalo Evening News clipping dated October14,1971 explicitly says paroled January1970, freedom revoked August that year and sent first Attica, then Elmira, then Attica November. Supports August1970 incarceration month for existing parole-violation case. Original page visually checked; saved barkley.pdf and barkley-page.png.",
+      "suggested_updates": [
+        {
+          "incarceration_date": "1970-08-01 00:00:00",
+          "date_precision": "{\"incarceration_date\": \"month\"}"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: incarceration_date"
+      ]
+    },
+    {
+      "prisoner_id": "2f7c58ca-9e53-4b85-9299-948ad76b0dcf",
+      "name": "Frank Moran",
+      "case_ids": [
+        "eda83bde-8453-4a22-9c27-3c0a1b2c20b6"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://openjurist.org/56/mont/94/state-v-moran"
+      ],
+      "evidence": "Search produced FrankMoran false-pretenses case, not securely same person as federal Leavenworth prisoner; rejected. Existing portrait and1919-20 custody preserved. No safe missing dates.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "39a35d6a-10f5-4748-aa67-9286b4c85b1b",
+      "name": "Peter Dolgay",
+      "case_ids": [
+        "b37329f1-570d-4dc3-9e97-734723783805"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Dolgay/Dolgag/Dowhay individual searches and existing Zimmer source record reviewed; existing August1919 arrest and December21deportation already present. No identified portrait or end-of-exile evidence.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "2fbab0fd-d120-42cf-a1d6-2080df207fc3",
+      "name": "John Mullally",
+      "case_ids": [
+        "8989e118-2a70-487f-9da8-e0fb28264c67"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://revolutionsnewsstand.com/2024/05/06/1932-1934-from-the-daily-worker/"
+      ],
+      "evidence": "Contemporary June28report individually names Mullally among four released on bail after June22arrest. Supports June1932 first-release month. July1rearrest and rebail are separate later episode already described in preserved sentence text; no continuous June-July interval inferred.",
+      "suggested_updates": [
+        {
+          "release_date": "1932-06-01 00:00:00",
+          "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"indicted\": \"day\", \"release_date\": \"month\"}"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: release_date"
+      ]
+    },
+    {
+      "prisoner_id": "d72864ce-010b-4efb-94f2-406ccae06b54",
+      "name": "Michael \"Rattler\" Markus",
+      "case_ids": [
+        "59ed01e9-ef91-46a1-b28e-ed16e65a38f0"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.waterprotectorlegal.org/post/rattler-reaches-non-cooperating-plea-agreement",
+        "https://unicornriot.ninja/2018/nodapl-water-protector-michael-rattler-markus-sentenced-to-federal-prison/"
+      ],
+      "evidence": "Defense statement and actual sentencing report establish DanielHovland and non-cooperating civil-disorder guilty plea. Add judge/plea only; scheduled surrender and scheduled plea hearing not used as actual custody dates. Existing photo preserved.",
+      "suggested_updates": [
+        {
+          "judge": "Daniel L. Hovland",
+          "plead": "Guilty to civil disorder under a non-cooperating plea agreement"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: judge, plead"
+      ]
+    },
+    {
+      "prisoner_id": "4d7374ff-db32-4c27-a84b-6f7ef22248fa",
+      "name": "Alrik Swenson",
+      "case_ids": [
+        "213c6eed-6892-4bc0-af18-711001996a4d"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf"
+      ],
+      "evidence": "Swenson individually appears in deportee context; existing October31,1919 departure preserved. No individual admission or portrait identified. Publication date does not establish custody.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "7cc5928c-7c88-441e-8d86-4b1325db09d8",
+      "name": "William Combs",
+      "case_ids": [
+        "980bdcb9-1d1c-411a-ab18-6e0ab80678f9"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php"
+      ],
+      "evidence": "Individual WilliamCombs entry confirms January27,2003 three-month imposed term and self-report instruction. No actual admission/release established; not converted into served duration. Wrestling coach photograph is unrelated identity and rejected.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "355ba8d6-f624-43ce-80da-7f82381197f6",
+      "name": "Clark Santee",
+      "case_ids": [
+        "4b08f940-c98a-46f7-8ceb-d501773a003c"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://earthfirstnews.wordpress.com/2012/08/06/jail-support-needed-for-ramps-arrestees/"
+      ],
+      "evidence": "Named RAMPS jail-support roster identifies Santee; no individual release/hearing day. Existing July28-August2012 precision preserved. Film producer identity not established; no portrait adopted.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "47ef8a29-b155-4783-aa1a-f32b57046747",
+      "name": "Marian Alice Kendall",
+      "case_ids": [
+        "40a1c4e7-3e2d-4c62-8583-fbdf4ece350e"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://crdl.usg.edu/records.html?page=7&per_page=96&q=%28+integration%29%22Photographs%22&search_field=both&view=gallery"
+      ],
+      "evidence": "Individual Kendall police-photo catalog confirms existing June25arrest, no new detention or release evidence. Existing photo retained.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "1da7428c-e858-4f87-bb14-218af049e523",
+      "name": "Ricky Clousing",
+      "case_ids": [
+        "bd625cb3-53d9-447d-adda-06ab7b3311cb"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.jurist.org/news/2006/10/us-soldier-disputing-iraq-war-legality/",
+        "https://www.taipeitimes.com/News/world/archives/2006/12/25/2003341897",
+        "https://couragetoresist.org/clousing-ricky/"
+      ],
+      "evidence": "Contemporary reports confirm guilty plea and AWOL finding October12,2006. APDecember25 reports freed Saturday, corroborating existing December23release. Add missing plea/conviction only; surrender not assumed prison admission.",
+      "suggested_updates": [
+        {
+          "plead": "Guilty to absence without leave — October 12, 2006",
+          "convicted": "Yes — absence without leave, October 12, 2006"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: plead, convicted"
+      ]
+    },
+    {
+      "prisoner_id": "a95ec1b8-74b7-481c-bcf7-373604f04b70",
+      "name": "John Mandeville",
+      "case_ids": [
+        "c804e2d0-7f32-418f-a203-4a7829979ea0"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ll/llst/005/005.pdf",
+        "https://www2.oberlin.edu/external/EOG/Oberlin-Wellington_Rescue/ClevelandHerald/The%20Cleveland%20Daily%20Herald%2004-05-1859%20Rescue%20Case%20-%20First%20Day%20Morning.htm"
+      ],
+      "evidence": "Primary court-journal entry explicitly names Mandeville May6,1859 withdrawal of not-guilty plea, no-contest plea and24hour sentence. Add missing sentencing/plea; nominal city-limits custody already described, no extra time added.",
+      "suggested_updates": [
+        {
+          "sentenced_date": "1859-05-06 00:00:00",
+          "date_precision": "{\"sentenced_date\": \"day\"}",
+          "plead": "Nolo contendere — May 6, 1859"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: sentenced_date, plead"
+      ]
+    },
+    {
+      "prisoner_id": "16d17d0d-d41e-42eb-8d57-e809f572d6ba",
+      "name": "George Speed",
+      "case_ids": [
+        "04b4d7df-ddf3-4e66-8524-ae95e46302cf"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://archive.iww.org/history/biography/GeorgeSpeed/",
+        "https://revolutionsnewsstand.com/2026/06/03/report-of-the-general-defense-committee-by-william-d-haywood-from-industrial-worker-vol-new-1-nos-58-59-may-29-june-5-1920/"
+      ],
+      "evidence": "Individual IWW sources located but current generic one-year case conflicts with accounts of Chicago20year sentence. No alternate proceeding merged; bail order not physical release. Existing portrait preserved.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "0856a071-e3f4-46d4-98b8-f28d038fcfb6",
+      "name": "Steve Bratich",
+      "case_ids": [
+        "58f54ae8-442c-4f10-9c49-7e7f1c62c77b"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/labordefender/1928/v03n01-jan-1928-LD.pdf"
+      ],
+      "evidence": "Contemporary January1928 report names Bradich among recently convicted Woodlawn defendants, but does not give exact sentencing day or actual imprisonment. Existing statement sentence never served preserved; no inferred detention or portrait.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "44dc9212-0557-450e-988f-82859de23ebe",
+      "name": "Miriam Stevenson",
+      "case_ids": [
+        "3966fc04-d5d8-4786-bff5-ddc84c8b1284"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.lipad.ca/full/1963/11/14/2/",
+        "https://historyofrights.ca/wp-content/uploads/documents/BCCLA_media.pdf"
+      ],
+      "evidence": "Canadian1963deportation question identifies activist MiriamStevenson aged53; this is later different proceeding from current US1950-51 detention. MissUniverse1933-born namesake photos rejected. No new endpoint for existing case.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "d96d4d42-c619-4243-b921-6fc8b84d1809",
+      "name": "Melvin “Rema” Kearney",
+      "case_ids": [
+        "bd7ed6de-a79c-4871-b05c-8b83a11593f2"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.tauproject.net/black-liberation-army-bla.html",
+        "https://www.freedomarchives.org/Documents/Finder/DOC516_scans/516.NI.071.5.13.1975.pdf",
+        "https://s3.us-west-1.wasabisys.com/luminist/PR/OSA_1975_2.pdf"
+      ],
+      "evidence": "Accounts disagree September12/17 on earlier arrest; memorial confirms death already present. No exact start inferred from1973allegations or1974prison snapshot. Existing identified portrait retained.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "c38b91ed-af8b-4fa3-928f-24cc0b2f2e9c",
+      "name": "Bonnie Klein",
+      "case_ids": [
+        "53585d75-2d22-4287-a734-5b4ca23bd4d6"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://catholicworker.substack.com/p/youre-never-too-old-for-civil-disobedience",
+        "https://www.nukeresister.org/2026/03/28/pentagon-witness-celebrates-patrick-oneills-70th-birthday/"
+      ],
+      "evidence": "First-person BonnieKlein account confirms existing Pentagon arrest; images are not individually identified as her. Canadian filmmaker BonnieSherrKlein rejected as namesake. No court disposition newly established.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "38337f5b-0a67-42d4-887c-c78561aad659",
+      "name": "Harry McKee",
+      "case_ids": [
+        "b7693a04-83e4-46b9-8daf-97b1f3a1f6b8"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://revolutionsnewsstand.com/2025/05/26/men-defy-the-corrupt-court-by-mortimer-downing-from-industrial-worker-vol-4-no-21-august-15-1912/",
+        "https://www.casemine.com/judgement/us/5914a974add7b04934710c58",
+        "https://www.cschs.org/wp-content/uploads/2014/04/Sloane-FINAL.pdf"
+      ],
+      "evidence": "Contemporary sentencing account names JudgeSloan; California court memorial establishes WilliamA.Sloane as SanDiegoSuperiorCourt judge of period. Add judge; conflicting imposed durations and physical release remain unresolved. No portrait matched.",
+      "suggested_updates": [
+        {
+          "judge": "William A. Sloane"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: judge"
+      ]
+    },
+    {
+      "prisoner_id": "217d4afa-1b45-4b8f-8ebf-fc873a23b9eb",
+      "name": "Fred Mindinger",
+      "case_ids": [
+        "c6ad0ff9-bd4c-41ed-9496-b2700a3529e2"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Mindinger/sedition searches yielded no reliable endpoint or image. Original NCLB-derived source row retains only30day imposed sentence; do not treat as served. County and court remain unresolved.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "7229a339-fab5-4ca8-861c-1c530600f0b1",
+      "name": "Paul Yuditch",
+      "case_ids": [
+        "018963e2-23fd-4fd2-ad61-00dd95f78bba"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/jewish-life/vol-5/v05n06-apr-1951-JL.pdf",
+        "https://www.marxists.org/history/usa/pubs/jewish-life/vol-5/v05n08-jun-1951-JL.pdf"
+      ],
+      "evidence": "Contemporary account names SamuelH.Kaufman as habeas/bail judge; add phase-qualified judge.17days already documented. Bail-order date and actual release not conflated; no date calculated by arithmetic.",
+      "suggested_updates": [
+        {
+          "judge": "Samuel H. Kaufman (habeas corpus and bail proceeding)"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: judge"
+      ]
+    },
+    {
+      "prisoner_id": "0d4c810a-1f1a-4d16-9ed4-26600825afa8",
+      "name": "Samuel Kadatsky",
+      "case_ids": [
+        "69ed25d5-37a6-4394-97ec-75d79f8a16f0"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Kadatsky/Kodatsky searches and existing Zimmer record reviewed. January1920 arrest/December23deportation already present. No new endpoint or identifiable portrait; INS file remains next lead.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "31f1d1d9-7846-4ad3-8f42-a09d7c48c365",
+      "name": "Charles E. Olson",
+      "case_ids": [
+        "6ec0a856-6157-480c-8fec-fcf4b49bf3d6"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual CharlesE.Olson wartime searches and Senate transcription checked without secure row/date mapping. Existing eight-month-derived release potentially needs source audit, but no unsupported overwrite. No name-matched portrait.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "9db21523-7e8b-4e18-a489-3ad7c5610947",
+      "name": "Toby Blomé",
+      "case_ids": [
+        "44756240-1a3e-4533-8a36-059150c41081",
+        "05985bff-a644-4061-89bb-884953a348b7",
+        "17e7eea9-9cb1-49fc-9005-b6ae7a74b1c8"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://popularresistance.org/grandmother-arrested-at-drone-base-while-distributing-leaflets-with-photos-of-children-killed-in-attack/",
+        "https://www.mprnews.org/story/2006/07/31/midmorning1",
+        "https://www.codepink.org/you_do_not_have_our_consent"
+      ],
+      "evidence": "Caption explicitly identifies TobyBlome outsideBeale; downloaded visually inspected and exact cropped. Existing2024-26case dates already populated. Additional2017/2021actions not merged into those cases.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 817: identified portrait"
+      ]
+    },
+    {
+      "prisoner_id": "3c4502fb-9189-46d6-ab96-236935ec3a9c",
+      "name": "Yoel Alonso Leal",
+      "case_ids": [
+        "0eab41ba-8c97-490c-af39-4745b3f8cf85"
+      ],
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://scalawagmagazine.org/2019/09/hyatt-hotel-protest-new-orleans/",
+        "https://truthout.org/articles/yoel-alonso-leal-is-facing-deportation-doctors-say-he-may-die-on-the-plane/"
+      ],
+      "evidence": "Original reporting confirms existing October2018entry/month, September12,2019deportation. No exact admission day; existing photo preserved.",
+      "suggested_updates": [],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "72a0d817-8c68-43a6-bac3-c44a6b4bbc91",
+      "name": "Esaw Booker",
+      "case_ids": [
+        "b86b4f0a-c62c-49b5-bdd7-65ca7830579c"
+      ],
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://exonerationregistry.staging.peaceworks.ca/cases/12911",
+        "https://www.law.umich.edu/special/exoneration/Documents/March%202021%202020%20Annual%20Report.pdf"
+      ],
+      "evidence": "Registry identifies BrianRobbins as2000federal habeas judge. Add expressly qualified judge only. Five-year report is approximate alongside registry4.7years, so no exact60months total.1992conviction not prison admission;1997parole preserved.",
+      "suggested_updates": [
+        {
+          "judge": "Brian Robbins (federal habeas proceeding, 2000)"
+        }
+      ],
+      "research_scope": "Individual name/case searches and available identified source review; no claim every archival collection exhausted.",
+      "planned_changes": [
+        "Batch 816: judge"
+      ]
+    },
+    {
+      "prisoner_id": "4bce6af8-231f-40e1-bb5d-28af6d366774",
+      "name": "Clifford Turner",
+      "slug": "clifford-turner",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F178%2F1780845002.pdf"
+      ],
+      "evidence": "Individually searched Clifford Turner with conscientious objection and Marion. CCCO roster names him but supplies no actual admission or release; Marine obituary namesake rejected.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "7f884c66-8c4d-4396-b01b-444cd015290f",
+      "name": "Ann Huntwork",
+      "slug": "ann-huntwork",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://emoregon.org/pdfs/Voice/PeaceResourceGuide.PDF"
+      ],
+      "evidence": "Ecumenical Ministries of Oregon 2003 Peace Resource Guide, Cost of peacemaking, identifies Ann Huntwork, 71, wife of Bruce, currently at Dublin prison and arrested in November of last year. Supports November 2002 arrest month. Early October 2003 release is prospective, not evidence of actual release.",
+      "suggested_updates": [
+        {
+          "case_id": "7c2183bb-7730-412c-b824-4f28dbcd9ab8",
+          "updates": {
+            "arrest_date": "2002-11-01 00:00:00",
+            "date_precision": "{\"arrest_date\":\"month\"}"
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: arrest_date"
+      ]
+    },
+    {
+      "prisoner_id": "1364e0fb-3f26-41c5-9c8b-624034ae3b1e",
+      "name": "Matthew De Wolfe",
+      "slug": "matthew-de-wolfe",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ll/llst/005/005.pdf"
+      ],
+      "evidence": "Oberlin-Wellington Rescue trial record, PDF pages 464 and 472–475, May 12, 1859 proceedings: Matthew De Wolfe entered nolle contendere and received 24 hours and a fine. George W. Belden was district attorney. Sherlock J. Andrews was defense counsel, not judge. No individual arrest date or identified portrait found.",
+      "suggested_updates": [
+        {
+          "case_id": "cd73b5fc-4925-483f-a2f6-7637fcfc3877",
+          "updates": {
+            "sentenced_date": "1859-05-12 00:00:00",
+            "plead": "No contest (recorded as nolle contendere), May 12, 1859.",
+            "prosecutor": "George W. Belden (U.S. district attorney)",
+            "date_precision": "{\"sentenced_date\":\"day\"}"
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: sentenced_date, plead, prosecutor"
+      ]
+    },
+    {
+      "prisoner_id": "dfdcca71-2e95-4a34-8255-81edeca4618d",
+      "name": "Enos Melvin Hooley",
+      "slug": "enos-melvin-hooley",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us"
+      ],
+      "evidence": "Enos Melvin Hooley individually searched. Archive lists Enos N. Hooley court-martial 115677 but does not expose original proceedings. Existing March 28, 1918–January 27, 1919 dates retained. Family archive lists Enos Melvin and Mary Chambers; no authenticated portrait located.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "46bf9bb1-1851-4263-9944-6a49b8c93f2d",
+      "name": "Erin Sieber",
+      "slug": "erin-sieber",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.nukeresister.org/static/nr125/125whitehouse.html"
+      ],
+      "evidence": "Contemporary Nuclear Resister individually identifies Erin Leitner-Sieber with Scott Kenji Warren, convicted July 20, 2001 for throwing blood at the Pentagon, six months imposed for Erin. Good Friday action conflicts with existing April 14 date; preserve populated dates and flag rather than infer release.",
+      "suggested_updates": [
+        {
+          "case_id": "2644f52f-bd62-4e2f-adc3-57e83c2c30d5",
+          "updates": {
+            "convicted": "Yes — convicted July 20, 2001, for throwing blood at the Pentagon."
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: convicted"
+      ]
+    },
+    {
+      "prisoner_id": "3e52e085-72fd-429b-97a3-e917aa1ce870",
+      "name": "Demetrius Ppapgeorge",
+      "slug": "demetrius-ppapgeorge",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www1.swarthmore.edu/library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      ],
+      "evidence": "Demetrius Ppapgeorge individually searched including conscientious-objector archive. Remission August 20, 1919 is not necessarily actual release. No new securely matched endpoint or finer admission date established; existing portrait preserved.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "111d52a3-800f-4369-bb48-c167c0f2f64d",
+      "name": "Thomas Hammerschmidt",
+      "slug": "thomas-hammerschmidt",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://supreme.justia.com/cases/federal/us/265/182/",
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "evidence": "Supreme Court Hammerschmidt v. United States, May 26, 1924, reversed convictions and ordered indictment quashed. Kohn individual entry reports fifteen months imposed at Atlanta. June 12, 1917 arrest lead currently rests on another NPPC profile and is not independent evidence; withheld.",
+      "suggested_updates": [
+        {
+          "case_id": "453c0b82-e10e-47bd-8229-430f447b56ff",
+          "updates": {
+            "convicted": "Conviction reversed by the U.S. Supreme Court on May 26, 1924; indictment ordered quashed.",
+            "sentence": "Fifteen months imposed; Atlanta Penitentiary. Conviction later reversed; actual custody endpoints remain unresolved."
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: convicted, sentence"
+      ]
+    },
+    {
+      "prisoner_id": "74bff604-d33b-4c2e-8129-2aae168c73be",
+      "name": "Torazo Sato",
+      "slug": "torazo-sato",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "evidence": "Kohn p130 individually records Torazo Sato sentenced to thirteen months for entering without a passport and starting McNeil October 4, 1920. Fill missing imposed sentence only. Existing twelve-month duration and generic charge are preserved; no release arithmetic. Executed Japanese namesake rejected.",
+      "suggested_updates": [
+        {
+          "case_id": "51c640f3-0d40-4ebb-8cd8-ff53ff354d28",
+          "updates": {
+            "sentence": "Thirteen months imposed for entering the United States without a passport; actual release date remains unresolved."
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: sentence"
+      ]
+    },
+    {
+      "prisoner_id": "e2b75345-6d7e-4f02-bb19-a9778452b319",
+      "name": "Johan Johanson",
+      "slug": "johan-johanson",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "evidence": "Johan Johanson individually searched with Spokane arrest and deportation. Existing September 1919 arrest and August 14, 1920 deportation preserved. Deportation does not establish uninterrupted custody or end of exile; existing portrait preserved.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "049d535e-d4b7-4f1a-a4da-d47fac1072d5",
+      "name": "Mark Tucci",
+      "slug": "mark-tucci",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.justice.gov/usao-edpa/pr/philadelphia-man-sentenced-33-months-prison-violent-threats-cyberstalking-civil-rights"
+      ],
+      "evidence": "DOJ December 2, 2025 individual sentencing release identifies District Judge Gerald A. McHugh. Sentence and guilty plea already populated. Illustrator namesake images rejected.",
+      "suggested_updates": [
+        {
+          "case_id": "79fcbb1b-d03e-46f5-b91d-d30509772c0c",
+          "updates": {
+            "judge": "Gerald A. McHugh (December 2, 2025 sentencing)"
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: judge"
+      ]
+    },
+    {
+      "prisoner_id": "f2c9534d-3d55-4aee-8475-a4c46b7a4fed",
+      "name": "Orville B. Luster",
+      "slug": "orville-b-luster",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://usfblogs.usfca.edu/sfchangemakers/2020/07/02/orville-luster/"
+      ],
+      "evidence": "Orville B. Luster individually researched with Freedom Ride and Jackson airport. Existing July 21, 1961 arrest preserved. No actual individual release or disposition established. Fictional Lawman character of same name rejected.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "63549bfe-2dd8-487d-bca1-e946631589b1",
+      "name": "Henry D. Niles",
+      "slug": "henry-d-niles",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ll/llst/005/005.pdf"
+      ],
+      "evidence": "Oberlin-Wellington Rescue record PDF pages 337–338: Henry D. Niles and three others withdrew not guilty and entered nolle contendere; court journal Friday May 6, 1859 imposed 24 hours and twenty dollars. George W. Belden district attorney. Group photograph does not identify Niles.",
+      "suggested_updates": [
+        {
+          "case_id": "e8833d43-ad53-4a9f-a0bb-0f7fd7144b24",
+          "updates": {
+            "sentenced_date": "1859-05-06 00:00:00",
+            "plead": "No contest (recorded as nolle contendere), May 6, 1859.",
+            "prosecutor": "George W. Belden (U.S. district attorney)",
+            "date_precision": "{\"sentenced_date\":\"day\"}"
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: sentenced_date, plead, prosecutor"
+      ]
+    },
+    {
+      "prisoner_id": "e0ed91d3-27cd-4e34-af8c-d2f9f3178b5a",
+      "name": "Raymond McSurley",
+      "slug": "raymond-mcsurley",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Raymond McSurley individually searched with Moundsville, strike and manslaughter. Genealogical William Raymond McSurley not securely connected. No reliable finer custody dates or portrait identified.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "6192aca3-3c8b-4e8e-b46c-eaf7fe03dff6",
+      "name": "Casimiro Berenguer",
+      "slug": "casimiro-berenguer",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://law.counselstack.com/opinion/pueblo-v-berenguer-prsupreme-1941"
+      ],
+      "evidence": "Casimiro Berenguer individually researched. 59 P.R. Dec. 81 concerns distinct 1938 murder prosecution, not current 1937 Ponce custody. Do not apply that sentence or dates to current case. Current Wikipedia image is a tomb, not a portrait; historical photograph lead not recovered.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "b0f11881-212e-477e-83bf-61eee39283e4",
+      "name": "Ileana Carrión Maldonado",
+      "slug": "ileana-carrion-maldonado",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://rumboalterno.net/2025/02/la-represion-durante-la-decada-de-los-setenta-ochenta-y-la-jornada-de-lucha-por-la-salida-de-la-marina-de-vieques/"
+      ],
+      "evidence": "Ileana Carrion Maldonado first-person account individually checked. Existing May 1979 initial detention retained; May 19 cohort cannot establish her exact date. Existing photograph preserved.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "324e241d-5d39-43ee-9930-54ecf6a23520",
+      "name": "Fedor Buhay",
+      "slug": "fedor-buhay",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "evidence": "Fedor Buhay individually searched with April 14, 1920 deportation. Canadian family obituary namesake not connected. No actual detention start or authenticated portrait found.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "285eeb79-e06e-4d07-aa79-4d446f1bebdd",
+      "name": "E. J. Parker Sage",
+      "slug": "e-j-parker-sage",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://books.google.com/books?id=3lYEAAAAMBAJ"
+      ],
+      "evidence": "E. J. Parker Sage individually researched with 1944 sedition trial. LIFE January 17, 1944 p15 is a possible portrait source, but downloaded page returned image-not-available placeholder; no image recommended. Congressional account of night employment during trial precludes assumption of continuous detention. No missing endpoint verified.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "9cad6bb5-0f99-44ea-b336-b75013fe1931",
+      "name": "Jeffrey Scott Hamm Jr.",
+      "slug": "jeffrey-scott-hamm-jr",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.justice.gov/usao-ndny/pr/broome-county-man-pleads-guilty-sending-threats-kill-and-injure-federal-officials"
+      ],
+      "evidence": "DOJ October 2, 2026 release explicitly states Jeffrey Scott Hamm Jr. pleaded guilty September 16, 2026; prosecutor Stephen C. Green, district judge Elizabeth C. Coombe. January 20, 2027 sentencing is scheduled, not completed. Earlier February 27 complaint identifies detention magistrate Miroslav Lovric. Existing awaiting-trial status now stale but left unchanged under missing-field scope.",
+      "suggested_updates": [
+        {
+          "case_id": "5c9fa809-f7fd-47a7-b338-70ab4eefb710",
+          "updates": {
+            "plead": "Guilty on September 16, 2026, to transmitting threats in interstate commerce.",
+            "convicted": "Yes — guilty plea on September 16, 2026; sentencing scheduled for January 20, 2027.",
+            "judge": "Elizabeth C. Coombe (district judge); Miroslav Lovric (February 27, 2026 detention magistrate)",
+            "prosecutor": "Stephen C. Green (Assistant U.S. Attorney)"
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: plead, convicted, judge, prosecutor"
+      ]
+    },
+    {
+      "prisoner_id": "a25927f8-4e37-4d15-8d55-f503663e0ab1",
+      "name": "A. Gross",
+      "slug": "a-gross",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "evidence": "Kohn p103 identifies A. Gross, Centralia IWW, twenty-eight months imposed; McNeil January 26, 1920 to December 1921, followed by deportation. Existing custody endpoints preserved; no exact deportation date or portrait established.",
+      "suggested_updates": [
+        {
+          "case_id": "fb7708ca-af7c-4588-95e3-9fe8447d1def",
+          "updates": {
+            "sentence": "Twenty-eight months imposed. McNeil Island imprisonment documented January 26, 1920 through December 1921."
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: sentence"
+      ]
+    },
+    {
+      "prisoner_id": "bfb85db5-4e2e-4c7e-b6be-51e072651bf6",
+      "name": "Paul Cinat",
+      "slug": "paul-cinat",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1953-11-16-6-4-nat-guardian.pdf"
+      ],
+      "evidence": "Paul Cinat individually matched contemporary report: Clinton Corners Yugoslav resident and AFL foundry worker. Existing November 1953 arrest month retained. No individual custody endpoint. Genealogical birth-year discrepancy prevents namesake portrait attribution.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "f96b6d27-a434-4afc-895e-89cc876b8cfd",
+      "name": "Greg Dawson",
+      "slug": "greg-dawson",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.bannedthought.net/USA/RCP/RW/1992/RW639-English.pdf"
+      ],
+      "evidence": "Greg Dawson individually checked against January 19, 1992 Revolutionary Worker and May 1, 1991 Workers Advocate. Sources establish imprisonment and release by publication, not exact admission or release. Nine months imposed is not converted into dates. Journalist and broker namesakes rejected.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "e4be013e-2b2a-48c1-bdf2-fea69e42cf2f",
+      "name": "Ivan Barnes",
+      "slug": "ivan-barnes",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n293-NY-dec-25-actually-n293-NAT-dec-26-1926-DW-LOC.pdf"
+      ],
+      "evidence": "Kohn p158 records Ivan Barnes four-year imposed sentence and San Quentin entry October 29, 1923. Missing sentence can be filled. Contemporary December 26, 1926 Daily Worker roster still lists Ivan Barnes 38530 at San Quentin, conflicting with existing 1925 release; populated date held for separate correction review.",
+      "suggested_updates": [
+        {
+          "case_id": "95ff2120-b78b-47c6-bfa7-432afe6439c6",
+          "updates": {
+            "sentence": "Four years imposed; entered San Quentin October 29, 1923. Actual release date requires further reconciliation."
+          }
+        }
+      ],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": [
+        "Batch 816: sentence"
+      ]
+    },
+    {
+      "prisoner_id": "51c40581-e898-4b23-baf8-e1251518b2ba",
+      "name": "Aaron Fox",
+      "slug": "aaron-fox",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.fifthestate.org/archive/106-may-28-june-10-1970/detroit-riot-1943/"
+      ],
+      "evidence": "Aaron Fox individually matched Detroit 1943 case, seventeen-year-old sentenced to twenty-five years and cleared after approximately two years. Retrospective does not support precise admission date. Existing exact dates and photo preserved; Cleveland Marine namesake rejected.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "36968c9b-a3a0-48fd-ac55-b5d18bbd1542",
+      "name": "B. Kwaku Duren",
+      "slug": "b-kwaku-duren",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://en.wikipedia.org/wiki/B._Kwaku_Duren"
+      ],
+      "evidence": "B. Kwaku Duren individually searched with political arrests, Panther organizing and Cuba. Earlier 1966–1970 robbery imprisonment cannot supply dates for current political-arrest case. No verified finer dates; existing portrait preserved.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "713b2463-60d4-40c9-a8b9-6df9e16d0468",
+      "name": "Ulibarri",
+      "slug": "ulibarri",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://brigadaparaleerenlibertad.com/documents/public/books_file/gJEi5Z36WS8KsQsZvmOZkxjM5Z8pgFysAHhFRIKE.pdf"
+      ],
+      "evidence": "La Revolucion Magonista chronology names printer Fidel Ulibarri with Federico Arizmendez, February 3, 1908 re-arrest and late May 1908 later imprisonment/release. A separate French account places libel arrest November 1907. Current undated case could describe different episodes; no dates assigned without matching. First-name identity lead retained, no profile overwrite or portrait attribution.",
+      "suggested_updates": [],
+      "unresolved": "Unfilled dates and portrait gaps remain unresolved; conflicts and source limitations are described in evidence.",
+      "scope": "Individual public-source research pass, not exhaustive archival review.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "03de0a44-cbfb-4913-9dc9-33ea33c9b56a",
+      "name": "Raissa Browder",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.tapatalk.com/groups/soyosunset/earl-browder-our-communist-next-door-t6294.html"
+      ],
+      "evidence": "Contemporary September 1952 newspaper leads match the naturalization prosecution. A reproduced Herald Statesman clipping was located but original photograph download failed.",
+      "holds": [
+        "Exact arrest refinement and custody endpoint require original clipping confirmation."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "9489ec12-ec28-4e79-adea-f3742b3c8b0a",
+      "name": "Charles H. Waters",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual name and WWI conscientious-objector searches did not locate a new independently verifiable endpoint or portrait.",
+      "holds": [
+        "Existing January 27, 1919 release retained; sentence is not actual duration."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "7447b7ba-bb42-4235-98a3-3387b4262198",
+      "name": "Frank Minnick",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual searches produced no identity-matched additional custody documentation.",
+      "holds": [
+        "Existing December 1919 release retained; similarly named people are not this Pennsylvania objector."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "aa9d2533-8d1e-4f52-8f2d-c4a65d139491",
+      "name": "Will Sanders",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/001159fd-fb54-4ff6-bf15-8abf0fbee7bd/content"
+      ],
+      "evidence": "Contemporary reporting confirms the already recorded March 3, 1933 execution.",
+      "holds": [
+        "No verified earlier arrest or sentencing date; conflicting reported ages not resolved."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "586e69f3-aa80-4afc-972a-2066c3306d36",
+      "name": "Thomas Welnicki",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.leparisien.fr/faits-divers/new-york-un-septuagenaire-qui-menacait-de-tuer-donald-trump-arrete-10-01-2022-LNVUEMRLBVEIFHTLUVXHC5OP24.php"
+      ],
+      "evidence": "AFP reporting dates arrest January 10, 2022; this conflicts with populated January 6 dates. Bail reporting names Vera Scanlon.",
+      "holds": [
+        "No populated dates replaced; bail authorization is not proof of release."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "730014b3-7fe9-45c0-8fb7-95c7e342d570",
+      "name": "Omar José Colón",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Vieques name searches did not identify a reliable personal release record or portrait.",
+      "holds": [
+        "Nuclear Resister 121 roster lead requires individual dated custody evidence."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "015e4607-2800-4b35-82d7-2c0233e79e90",
+      "name": "Francis Galt",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/0482e764eec85f6fec19cbf76b331818b359fb5e.pdf"
+      ],
+      "evidence": "Catholic Worker archival material matches the objector name but does not establish additional exact custody boundaries.",
+      "holds": [
+        "Roster presence does not establish admission or release date."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "e6fa4d28-8267-4731-8d01-74f989c835f0",
+      "name": "Yakov Sinov",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual deportee searches did not resolve the conflict between recorded 1919 exile and January 1921 deportation.",
+      "holds": [
+        "Do not infer physical exile from deportation proceedings."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "a2a15692-914f-4aa3-b9c0-76ecdc8d965e",
+      "name": "Maurice E. Travis",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File:Maurice_Travis_1949.jpg",
+        "https://www.ueunion.org/ue-news-feature/2022/them-and-us-unionism-in-the-deep-south-mine-mill-bessemer-alabama"
+      ],
+      "evidence": "Identified Maurice Travis portrait from 1949 Newsweek via Commons; visually inspected.",
+      "holds": [
+        "1954 arrest reporting conflicts with populated 1956 case date and was not applied."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": [
+        "Batch 817: identified portrait"
+      ]
+    },
+    {
+      "prisoner_id": "fd08fa34-e88a-402d-b215-a048e2dda298",
+      "name": "Edward Brand",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Missouri WWI objector searches did not yield a securely identified additional source.",
+      "holds": [
+        "Namesakes rejected; ten-year sentence does not establish served custody."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "948dcf87-3498-473e-8506-1dcce1557ffe",
+      "name": "Antonio Suares",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.themilitant.com/1977/4113/MIL4113.pdf"
+      ],
+      "evidence": "Contemporary Militant describes the March 26 conviction and bail; this does not establish admission.",
+      "holds": [
+        "April 14 sentencing was prospective; illustrator portrait and prosecutor spelling require further confirmation."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "94b4c284-7038-478b-a920-e4471e7c7f45",
+      "name": "Rachel Wenham",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://tridentploughshares.org/wp-content/uploads/2013/03/News-index-1999.pdf",
+        "https://tridentploughshares.org/wp-content/uploads/2013/01/4.pdf"
+      ],
+      "evidence": "Trident Ploughshares contemporary chronology gives February 1, 1999 action and February 2 remand; later bail contradicts an uninterrupted span.",
+      "holds": [
+        "Existing February 9 start and long continuous span need separate correction review; paired portrait identification not certain."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "10c0cf1f-97df-4f67-a568-c936fddb924f",
+      "name": "Anthony Salamanca",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://digital.auraria.edu/downloads/abqtx-rd289/asdc_archives_E_184_M5_G169_v2_no6.pdf"
+      ],
+      "evidence": "El Gallo contemporary coverage identifies the Biltmore defendant.",
+      "holds": [
+        "No verified individual release or original identified portrait found."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "8d821823-e3f1-40ec-926f-3c0d9db11243",
+      "name": "John Mark Dougan",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://www.newsguardtech.com/special-reports/john-mark-dougan-russian-disinformation-network/"
+      ],
+      "evidence": "NewsGuard describes the 2016 departure and Russian activity.",
+      "holds": [
+        "Russia arrival does not establish exact US exit; existing photograph retained."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "88d37191-f288-418d-a460-3f223a785420",
+      "name": "Ronald J. Smith",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Ronald J. Smith draft-resister searches did not establish new identity-matched dates.",
+      "holds": [
+        "Common-name matches insufficient; Lewisburg roster does not prove boundaries."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "66ecad1e-a308-47a7-b6b0-6a16958994b9",
+      "name": "Benedict Prieth",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/7e/The_Editor_and_Publisher_1918-09-14-_Vol_51_Iss_14_%28IA_sim_editor-publisher_1918-09-14_51_14%29.pdf",
+        "https://wipsg.org/wp-content/uploads/Journal_BCPSG/Issues/BCPJ_201204_J243.pdf"
+      ],
+      "evidence": "Contemporary Editor and Publisher identifies October 4, 1917 arrest. Philatelic Journal identifies the newspaper editor and captions his 1893 portrait, extracted without redrawing.",
+      "holds": [
+        "Arrest does not establish uninterrupted incarceration. Existing conviction narrative may conflict with hung-jury reporting and is preserved."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "suggested_updates": {
+        "arrest_date": "1917-10-04 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "planned_changes": [
+        "Batch 816: arrest_date",
+        "Batch 817: identified portrait"
+      ]
+    },
+    {
+      "prisoner_id": "44803e9e-63c1-434a-ac87-bb8168e7f265",
+      "name": "Jacob Popich",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Nebraska deportee searches did not establish a new secure source.",
+      "holds": [
+        "Do not fill incarceration merely from arrest; existing deportation retained."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "5f437c27-0228-4484-8b36-23810da6e11c",
+      "name": "Emmanuel Quinones",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.justice.gov/usao-ndtx/pr/man-who-brandished-assault-rifle-protest-pleads-guilty",
+        "https://www.justice.gov/usao-ndtx/pr/man-who-brandished-assault-rifle-black-lives-matter-protest-sentenced-46-months"
+      ],
+      "evidence": "DOJ identifies September 11, 2020 guilty plea, June 2020 indictment, Judge Hendrix and prosecutor Haag.",
+      "holds": [
+        "No exact release or continuous post-arrest custody established."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "suggested_updates": {
+        "plead": "Pleaded guilty to interstate threatening communications on September 11, 2020.",
+        "indicted": "Indicted in June 2020.",
+        "judge": "James Wesley Hendrix",
+        "prosecutor": "Assistant U.S. Attorney Jeff Haag"
+      },
+      "planned_changes": [
+        "Batch 816: plead, indicted, judge, prosecutor"
+      ]
+    },
+    {
+      "prisoner_id": "a27256fc-3b25-40b8-b933-a5d87e391af7",
+      "name": "William Denton",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual Michigan WWI objector searches produced namesakes without secure identity.",
+      "holds": [
+        "Three-year sentence cannot supply actual custody endpoints."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "696c2ee1-c56f-4044-96e3-bfce6eb9fc93",
+      "name": "David Goldberg",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt15/pdf/GPO-CRECB-1971-pt15-1-3.pdf"
+      ],
+      "evidence": "Congressional Record reproduces Goldberg statement explicitly dating conviction June 16, 1969 in Boston.",
+      "holds": [
+        "Custody dates already present; no additional endpoint change."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "suggested_updates": {
+        "convicted": "Convicted in Boston, Massachusetts, on June 16, 1969, of violating the Selective Service Act."
+      },
+      "planned_changes": [
+        "Batch 816: convicted"
+      ]
+    },
+    {
+      "prisoner_id": "d103f3ed-19ea-411e-a92f-1ccb04ee903a",
+      "name": "Ruby Chiyo Harrison",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/harrison-ruby-chiyo"
+      ],
+      "evidence": "JCCH confirms June 1944 release and approximate one-month detention; no portrait displayed.",
+      "holds": [
+        "Do not derive May admission by subtracting approximate duration."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "dfb317a7-f456-40d8-953b-a6541bef75cc",
+      "name": "Xaelyn Dunbar",
+      "status": "reviewed-additions-prepared",
+      "sources": [
+        "https://www.expressnews.com/news/article/teen-accused-posting-threats-toward-charlie-kirk-21065721.php"
+      ],
+      "evidence": "Express-News explicitly identifies BCSO booking portrait; downloaded and visually inspected.",
+      "holds": [
+        "Reported Thursday arrest implies September 18, conflicting with stored September 23; no populated dates overwritten."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": [
+        "Batch 817: identified portrait"
+      ]
+    },
+    {
+      "prisoner_id": "09c49fc0-2e60-49be-8672-7c1678e63a5d",
+      "name": "Abigail Miller",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://wri-irg.org/sites/default/files/public_files/pfp02-en.pdf"
+      ],
+      "evidence": "WRI November 2002 prisoner list gives prospective December 10 release.",
+      "holds": [
+        "Projected release is not actual release confirmation."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "d4b77867-a959-4d39-9e03-345830ffa81d",
+      "name": "Rebecca Winsor Evans",
+      "status": "reviewed-no-supported-addition",
+      "sources": [],
+      "evidence": "Individual suffrage searches did not locate a new personal discharge record; existing narrative already reports January 8 sentencing.",
+      "holds": [
+        "No source-independent refinement proposed; nominal five days not actual release."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "287b510c-071c-439a-83a4-4e241aa22754",
+      "name": "Jeanne F. Friedman",
+      "status": "reviewed-no-supported-addition",
+      "sources": [
+        "https://dspace.sunyconnect.suny.edu/bitstreams/dc74db94-f59c-4d1f-9a02-0b0b4d63b7dc/download"
+      ],
+      "evidence": "SUNY archival reporting matches the 1969 student prosecution and continuing confinement.",
+      "holds": [
+        "March 28 release remains conditional; unrelated Jeanne Friedman portraits rejected."
+      ],
+      "research_scope": "Individual name and case-context web/archival searches; limited available sources, not an exhaustive archival conclusion.",
+      "planned_changes": []
+    },
+    {
+      "prisoner_id": "2df11139-7ea6-4a90-87ab-e52578895846",
+      "name": "Daniel Bennett",
+      "case_ids": [
+        "498aed47-d7ee-4b3f-85a1-ebf2aeb33383"
+      ],
+      "sources": [
+        "https://www1.swarthmore.edu/Library/peace/"
+      ],
+      "evidence": "CCCO 1969 prisoner-list identity at Fort Dix confirmed in existing record. Individual searches found no precise admission/release or identified portrait; unrelated modern military namesakes excluded.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "87d5f9d0-870f-4571-94e2-706f37e2f5f2",
+      "name": "Mark R. Thomas",
+      "case_ids": [
+        "bd7bad44-bb55-4f18-b38f-3c36e58081fb"
+      ],
+      "sources": [
+        "https://palni.contentdm.oclc.org/digital/api/collection/gopplow/id/2029/download",
+        "https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      ],
+      "evidence": "Archival deceased-CO list identifies prisoner 13723, Mark R. Thomas of Vandergrift, death at Leavenworth October 15, 1918. Independent Swarthmore individual row corroborates date, IBSA affiliation and court-martial 113676. Fill death in custody, not release. Exact admission remains unknown; existing documented duration preserved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: death_in_custody_date"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "f6c4860c-6aa8-4ed8-a383-9c767aaace5d",
+      "name": "Irving Feiner",
+      "case_ids": [
+        "7bd73abd-b4bd-4512-8182-919b1de3071c"
+      ],
+      "sources": [
+        "https://journalism-history.org/2019/08/06/gutterman-essay-feiner-and-the-hecklers-veto/",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1951-01-24-3-14-nat-guardian.pdf"
+      ],
+      "evidence": "Existing arrest and documented 30-day imprisonment supported. No exact jail admission/release or additional identified photo needed; appeal decision is not prison entry.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "7213a543-8591-47f7-bc5b-54d20a229908",
+      "name": "Harry M. Clave",
+      "case_ids": [
+        "cf3e6ac8-05b6-472f-b1d5-c7944c940a22"
+      ],
+      "sources": [
+        "https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      ],
+      "evidence": "Individual Harry M. Clave archival row reviewed. November 5, 1917 is arrival at Camp Meade, not proven prison admission. Board and judge-advocate dates are not sentencing dates. Existing December 1919 release retained; sentence discrepancy 2 versus 2.5 years held for reconciliation.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "bf128a1a-ac8d-4490-be10-88272c57058b",
+      "name": "Irving Peress",
+      "case_ids": [
+        "f19f057b-6946-4689-b6d1-f670ce7f38f1"
+      ],
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn97071090/1955-03-24/ed-1/seq-1/ocr/"
+      ],
+      "evidence": "Contemporary report confirms discharge without court martial. No verified incarceration; military discharge must not be a jail release. Existing qualification preserved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "a30c6f88-0468-4627-894e-7d6d41606ecc",
+      "name": "Sam Scarlett",
+      "case_ids": [
+        "f3d9edfe-5eb3-4f1d-9997-23e3025fa889"
+      ],
+      "sources": [
+        "https://www.scottishlegal.com/articles/our-legal-heritage-revealed-the-scots-deported-in-america-s-first-red-scare",
+        "https://rdrlibrary.org/wp-content/uploads/2024/07/Seeing-Reds.pdf"
+      ],
+      "evidence": "Sam Scarlett identity and IWW prosecution corroborated. Exact individual 1917 arrest not established; group-trial chronology not copied automatically. Existing custody endpoints and portrait retained.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "4fc22cef-cecc-446f-8789-7e95276ee253",
+      "name": "T. Dixon",
+      "case_ids": [
+        "4dc2f412-74e4-40b7-8d63-1507462490e9"
+      ],
+      "sources": [
+        "https://www.gutenberg.org/ebooks/14977"
+      ],
+      "evidence": "T. Dixon appears in Ida B. Wells Elaine prisoner material. Initial-only identity prevents safe portrait match; group sentence range does not establish his exact term or release.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "5dd38606-3e1c-4d36-a891-4f3f50f9f50b",
+      "name": "Eric Hayes",
+      "case_ids": [
+        "06bc94d5-ef6b-455a-8822-5c00e7b5b3b6"
+      ],
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/40375171-23a4-4d8d-a8cd-b77d79c6b05d/content",
+        "https://fifthestate.anarchistlibraries.net/library/337-late-summer-1991-thousands-said-no-to-gulf-war",
+        "https://www.indexoncensorship.org/1992/05/a-matter-of-conscience/"
+      ],
+      "evidence": "December 17, 1990 Pampa News AP story confirms Hayes already in brig; contemporary Fifth Estate confirms December dormitory arrest followed by Camp Lejeune confinement. First-person interview supports guilty plea. Use month precision only; syndicated Thursday reference does not securely identify the day. Preserve existing sentence/release.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: plead, arrest_date, incarceration_date"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "596041da-8199-4264-bd42-e1120d148821",
+      "name": "Charles Smolikoff",
+      "case_ids": [
+        "c077dd6d-275e-4b27-a2a9-5696ae0f8080"
+      ],
+      "sources": [
+        "https://ujpfo.org/wp-content/uploads/2023/12/JL_DEC_54.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-08-02-6-41-nat-guardian.pdf",
+        "https://law.justia.com/cases/florida/supreme-court/1954/76-so-2d-798.html"
+      ],
+      "evidence": "Contemporary Jewish Life and National Guardian identify George E. Holt as contempt judge and George A. Brautigam as state attorney. July 7 sentence already present. Expected bail release is not proof it occurred, so no release date added; no stronger incarceration-day refinement asserted.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: judge, prosecutor"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "e51e2685-ae71-417f-a8b0-a6d15d3c5a21",
+      "name": "Héctor Xavier Otero",
+      "case_ids": [
+        "a3ba5e94-0bfe-4287-b79f-35eb077410a9"
+      ],
+      "sources": [
+        "https://www.nukeresister.org/"
+      ],
+      "evidence": "Hector Xavier Otero Vieques prisoner-list identity retained. Accent and unaccented searches did not establish exact individual admission/release; no matching portrait identified.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "8d443c65-3679-4c6e-b3b4-8631e2fc94b4",
+      "name": "Zachary Shardov",
+      "case_ids": [
+        "86b52173-1402-4799-9054-6a42e366817b"
+      ],
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "evidence": "Zachary Shardov deportee identity reviewed; no captioned portrait independently matched. Existing case information retained.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "322d1214-f91d-4cc6-ac26-f6c37c2e5395",
+      "name": "Norma Ortiz Gusmán",
+      "case_ids": [
+        "dd5c9317-5d57-4150-b053-6fdda9dc90f3"
+      ],
+      "sources": [
+        "https://www.nukeresister.org/"
+      ],
+      "evidence": "Norma Ortiz Gusman Vieques record reviewed with name variants. No reliable individual custody endpoint or captioned portrait found; no group-date inference applied.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "d9ce63ec-4192-463c-9dde-ddf0f9624fbf",
+      "name": "Mark Roman",
+      "case_ids": [
+        "0ebac097-96e6-4f54-870a-3977bbf27e84"
+      ],
+      "sources": [
+        "https://www.pressherald.com/2016/11/14/incendiary-campaign-doesnt-deter-protesters/",
+        "https://www.nukeresister.org/2026/03/28/pentagon-witness-celebrates-patrick-oneills-70th-birthday/"
+      ],
+      "evidence": "Caption identifies Lynne Harwood and Mark Roman at Skowhegan peace protest; Roman is visible at right, with middle participant obscured by sign. Same Solon peace activist as existing profile. Add exact rectangular portrait crop. Earlier Bath protests are different cases and were not merged into the 2026 Pentagon case.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 817: identified portrait"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "8626ef48-1ad1-4394-8cf8-9b4d2e0f67f2",
+      "name": "Haki Malik Abdullah",
+      "case_ids": [
+        "ae889f3c-0c9b-4f3d-859e-976b8bf7fb0e"
+      ],
+      "sources": [
+        "https://www.prisonlegalnews.org/media/publications/10.%20Political%20Prisoners%20in%20the%20United%20States%2C%20ICCPR%20Coalition%20Report.pdf"
+      ],
+      "evidence": "Haki Malik Abdullah alias Michael Green and CDC C56123 identify the record, but no original disposition or release found. Common-name matches rejected. Existing November 10, 1982 incarceration preserved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "774c32cb-fa99-4261-9a76-56fbbe1a51f7",
+      "name": "Ragnar Johanson",
+      "case_ids": [
+        "47b70d59-a354-42da-adfb-9a5f5df44d2e"
+      ],
+      "sources": [
+        "https://revolutionsnewsstand.com/2026/06/03/report-of-the-general-defense-committee-by-william-d-haywood-from-industrial-worker-vol-new-1-nos-58-59-may-29-june-5-1920/",
+        "https://revolutionsnewsstand.com/2025/02/26/the-duluth-scandinavian-local-from-truth-1918-1920/"
+      ],
+      "evidence": "Contemporary IWW report confirms Johanson at liberty lecturing in 1919. Multiple alleged custody spans not independently resolved. Do not turn separated periods into one continuous 1917-1923 interval; existing portrait preserved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "36d1f4b5-89cc-4b67-835e-13067344523d",
+      "name": "Emile de Antonio",
+      "case_ids": [
+        "c025f825-f96c-4566-b5b1-b5c034100bce"
+      ],
+      "sources": [
+        "https://wcftr.commarts.wisc.edu/index.php/exhibits/emile-de-antonio/emile-de-antonios-political-activism/",
+        "https://independent-magazine.org/wp-content/uploads/sites/41/2014/09/independent05foun.pdf"
+      ],
+      "evidence": "Subpoena and threatened contempt are documented, not established imprisonment. No custody dates fabricated; preserve existing qualifications.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "19181c2d-171f-4c7c-b2e0-e567b4ade49a",
+      "name": "Stanley M. Gue",
+      "case_ids": [
+        "502e9e99-08b9-415d-9b38-7c22a11f19a3"
+      ],
+      "sources": [
+        "https://museumofprotest.org/portfolio/early-arrest-record-for-stanley-m-gue-iww-activist/"
+      ],
+      "evidence": "Original San Diego police booking card names Stanley McGregor Gue, criminal conspiracy, March 21, 1912, number 847. Existing arrest date matches. Add exact crop of frontal portrait from cached source original; no retouching. No further verified case-date gap resolved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 817: identified portrait"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "c315d941-c0a3-460a-9c4a-fcaa21835dbe",
+      "name": "Simon Bagatchuk",
+      "case_ids": [
+        "029b7816-d198-4ef1-8069-e4f8d318e1ca"
+      ],
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "evidence": "Simon Bagatchuk deportation identity reviewed. Narrative refers to separated January and November arrests; without primary corroboration no exact-day refinement or continuous-custody assumption. No captioned portrait identified.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "a8b4a767-b5fe-4915-9d51-8c2280edf29f",
+      "name": "Amost L. Hitchcock",
+      "case_ids": [
+        "93411cfa-3d6f-4c95-a710-11b08a653ba6"
+      ],
+      "sources": [
+        "https://sniggle.net/TPL/index5.php?entry=27Jan08",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-GP3-b31a8cba5e20083be0a2369dab8402eb/pdf/GOVPUB-GP3-b31a8cba5e20083be0a2369dab8402eb.pdf"
+      ],
+      "evidence": "Sources suggest Amos L. Hitchcock spelling rather than Amost. April 1918 arrest reporting and DOJ charge-to-jury record found, but exact individual arrest day not established. Existing June 28 incarceration and documented duration preserved; no name overwrite.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "3f8bf2f8-ea7c-4e61-969b-91e4dcf94698",
+      "name": "Louis Truelock",
+      "case_ids": [
+        "591516dc-988f-4285-9e11-9500b304fe08"
+      ],
+      "sources": [
+        "https://hallapproved.com/us/cases/ca7/1979/8921213/"
+      ],
+      "evidence": "Hampton v. Hanrahan, 600 F.2d 600, identifies Truelock among three unwounded survivors and says those three were incarcerated in Cook County Jail immediately after December 4, 1969 raid. Supports missing incarceration start. Several survivors held until December 21 does not identify Truelock release, so endpoint remains unknown.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: incarceration_date"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "9419b9cc-ca08-4be7-8100-ec62e34de1a2",
+      "name": "Mariel Torres Lara",
+      "case_ids": [
+        "593b9407-4f59-4d90-af13-41df0ebca5ec"
+      ],
+      "sources": [
+        "https://dts.poderjudicial.pr/ta/2025/TA2025RA00391-12122025.PDF"
+      ],
+      "evidence": "Official Puerto Rico appeal found for Mariel Torres Lara discussing a 2002 federal Vieques conviction. Existing case refers to January 2003; mapping not resolved, so no dates overwritten. No sufficiently identified portrait.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "7062d7d6-0ae8-4aca-a417-01d3df2dc7ad",
+      "name": "Philip C. Nies",
+      "case_ids": [
+        "8030a1f3-ddd8-48f8-925f-ce166c84de46"
+      ],
+      "sources": [
+        "https://www.thecrimson.com/article/1969/10/30/mann-weathermen-released-after-arrests-for/"
+      ],
+      "evidence": "Contemporary Crimson identifies Charles I. Taylor as October 25 bail judge and Reuben A. Lurie as October 29 release judge for Boston English charges. Edward M. Viola handled separate CFIA proceeding and is not assigned to this case. Existing dates preserved.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: judge"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "82db8012-be2c-4f80-8d0e-15654119454e",
+      "name": "Michael Nukk",
+      "case_ids": [
+        "7a3b3262-542c-4794-bdcc-34783f4613bd"
+      ],
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "evidence": "Michael Nukk editor/deportation-threat identity reviewed. No verified custody dates or clearly identified historical portrait found. Modern same-name businessperson excluded.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [],
+      "status": "reviewed-no-supported-addition"
+    },
+    {
+      "prisoner_id": "1f37cfc2-a7a2-47de-ba8b-25d0b17882ae",
+      "name": "Dennis Rivera",
+      "case_ids": [
+        "58cd319c-4e12-4cc4-879b-cadf36348c56"
+      ],
+      "sources": [
+        "https://www.gettyimages.com.au/detail/news-photo/robert-kennedy-jr-unfurls-a-vieques-flag-as-he-sails-with-news-photo/51093340?slot=1",
+        "https://www.latinamericanstudies.org/puertorico/kennedy-vieques.htm",
+        "https://www.outsideonline.com/outdoor-adventure/why-are-we-vieques/?scope=anon"
+      ],
+      "evidence": "Dated August 1, 2001 agency caption explicitly says Rivera and Kennedy were released hours earlier: refine existing August release month to exact day. AP trial report and Kennedy first-person account establish judge Hector Laffitte and prosecutor Peter Strasser. Do not infer prison admission from sentence date; no additional admission date applied.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: judge, prosecutor, release_date"
+      ],
+      "status": "reviewed-additions-prepared"
+    },
+    {
+      "prisoner_id": "19f937e5-a8ee-4bc3-8c69-b778ba01e50b",
+      "name": "Seth Luther",
+      "case_ids": [
+        "ca9721d0-ec59-49d3-9d0e-58940aac65d5"
+      ],
+      "sources": [
+        "https://www.nps.gov/people/seth-luther.htm",
+        "https://www.rihs.org/assetts/files/publications/1974_May.pdf"
+      ],
+      "evidence": "NPS gives June 1842 arrest and August 25 indictment. Rhode Island History 1974 pp.50-52 establishes immediate imprisonment and March 1843 release after petition, free by March 22. Use June entry and March release at month precision, not March 22 exact; refine existing 1843 year-only endpoint.",
+      "research_scope": "Individual name and case source review; no claim that every archive was exhausted.",
+      "planned_changes": [
+        "Batch 816: indicted, arrest_date, incarceration_date, release_date"
+      ],
+      "status": "reviewed-additions-prepared"
+    }
+  ]
+}
