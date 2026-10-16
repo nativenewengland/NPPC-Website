@@ -1,0 +1,131 @@
+{
+  "batch": 781,
+  "expected_count": 3,
+  "entries": [
+    {
+      "name": "Sam Bell",
+      "slug": "sam-bell",
+      "prisoner_id": "424cb4f3-5d05-47fa-b170-1dafab1dc803",
+      "case_id": "5803c427-fa4d-491a-b244-1e6d7a7be6ba",
+      "expected": {
+        "id": "5803c427-fa4d-491a-b244-1e6d7a7be6ba",
+        "prisoner_id": "424cb4f3-5d05-47fa-b170-1dafab1dc803",
+        "institution_id": "32d7a10a-3b22-4e78-9cc0-37961a98e4ff",
+        "charges": "Charge arising from defending his family during racist attacks (self-defense)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Imprisoned",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Imprisoned at the Deer Island House of Correction for defending himself and his baby daughter during a wave of white racist attacks on Black families in East Boston; paper reports police jailed the Black victims rather than their attackers.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-07-22 02:18:55",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 3,
+        "arrest_date": "1975-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/workersvanguard/1976/0136_03_12_1976.pdf"
+      ],
+      "rationale": "Original December3,1976 WorkersVanguard page3 identifies Bell among summer1975 arrests and explicitly says he spent three months at DeerIsland before release. Use yearprecision for summer, no invented admission or release day."
+    },
+    {
+      "name": "Lee Berry",
+      "slug": "lee-berry",
+      "prisoner_id": "ff466e43-b079-4e6b-9efa-d9b06c7a5662",
+      "case_id": "fad2a222-6201-4331-8db5-3bd5a45891e4",
+      "expected": {
+        "id": "fad2a222-6201-4331-8db5-3bd5a45891e4",
+        "prisoner_id": "ff466e43-b079-4e6b-9efa-d9b06c7a5662",
+        "institution_id": "74315670-1a2b-4953-90e6-441fa9cf85bb",
+        "charges": "New York state Panther 21 conspiracy counts (April 2, 1969 indictment); charges severed on medical grounds and ultimately dismissed.",
+        "arrest_date": "1969-04-03 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-04-03 00:00:00",
+        "release_date": "1970-05-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial custody; charges severed and dismissed.\n\nVerdict as recorded: No - charges severed (medical) and dismissed without conviction",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-15 01:49:01",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2023%201-24%20may%209%201970.pdf"
+      ],
+      "rationale": "Original BlackPanther May9,1970 page7 article by Zayd-MalikShakur explicitly dates return to supporters and hospital after bail FridayMay1. Upgrade existing release Maymonth to exactday; storeddate value alreadyMay1."
+    },
+    {
+      "name": "Dhoruba bin Wahad",
+      "slug": "dhoruba-bin-wahad",
+      "prisoner_id": "99bccd62-7659-4a82-9de6-20ee987f1302",
+      "case_id": "f25579ae-7715-43ee-8a14-29dd82c122e0",
+      "expected": {
+        "id": "f25579ae-7715-43ee-8a14-29dd82c122e0",
+        "prisoner_id": "99bccd62-7659-4a82-9de6-20ee987f1302",
+        "institution_id": null,
+        "charges": "New York state attempted murder of two NYPD officers, May 19, 1971; conviction vacated 1990 after FBI COINTELPRO Brady-evidence disclosure",
+        "arrest_date": "1971-06-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-06-04 00:00:00",
+        "release_date": "1990-03-22 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "25 years to life; vacated after 19 years\n\nVerdict as recorded: Yes - New York state jury verdict, March 1973 (vacated March 1990)",
+        "imprisoned_for_days": 6866,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:27",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1971-06-05 00:00:00",
+        "incarceration_date": "1971-06-05 00:00:00",
+        "date_precision": "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://freedomarchives.org/Documents/Finder/DOC513_scans/Dhoruba_Bin-Wahad/513.Dhoruba.statement.3.15.1990.pdf",
+        "https://nlgnyc.org/wp-content/uploads/2023/10/NLG-NYC-News-Fall2023.2.pdf"
+      ],
+      "rationale": "Defense case statement and attorney Bob Boyle recollection explicitly date June5,1971 arrest. Correct one-day-early broad-case admission/arrest to match corroborated date, retaining March22,1990 release. Preserve separate overlapping case and exile records; do not merge them."
+    }
+  ]
+}
