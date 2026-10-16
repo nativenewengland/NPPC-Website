@@ -1,0 +1,5 @@
+# Batch 856
+
+Everett Public Library, Rebel Faces / Everett Massacre Collection. November 5, 1916 booking photograph, prisoner 4894. Photographer not identified; repository rights field states Ownership Everett Public Library 2002. No open license asserted. Exact rectangular crop (0, 0, 286, 427) retains original pixels; original image archived as charles-black-everett-source-b856.jpg. Source: https://epls.contentdm.oclc.org/digital/collection/EvrtMassacre/id/40 Crop SHA-256: ddf40f05d21c806348c2eb6d931002a87c304c4fb60382f0892658dd024728b7
+
+Everett Public Library, Rebel Faces / Everett Massacre Collection. November 5, 1916 booking photograph, prisoner 4883. Photographer not identified; repository rights field states Ownership Everett Public Library 2002. No open license asserted. Exact rectangular crop (355, 0, 640, 417) retains original pixels; original image archived as laurence-manning-everett-source-b856.jpg. Source: https://epls.contentdm.oclc.org/digital/collection/EvrtMassacre/id/65 Crop SHA-256: 9462dde28a7a5585a737f427e382d720348046e1e798fe3642f574aaeb314bf1
