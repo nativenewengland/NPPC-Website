@@ -1,6 +1,6 @@
 # Profiles changed during the 1970s custody audit
 
-Final live verification: 2026-10-16 01:00:17 UTC. **96 profiles; 104 distinct cases; 106 operations; batches 771–796.** Fields below combine changes across each profile’s cases. A changed date may be corrected, newly supplied, reduced in precision, or cleared because unsupported. Bios were preserved.
+Final live verification: 2026-10-16 01:06:16 UTC. **97 profiles; 105 distinct cases; 107 operations; batches 771–797.** Fields below combine changes across each profile’s cases. A changed date may be corrected, newly supplied, reduced in precision, or cleared because unsupported. Bios were preserved.
 
 | Profile | Changed case fields | Batches |
 | --- | --- | --- |
@@ -100,3 +100,4 @@ Final live verification: 2026-10-16 01:00:17 UTC. **96 profiles; 104 distinct ca
 | [William Wright Jr.](https://politicalprisonercoalition.org/prisoner/william-wright-jr) | date precision, incarceration date, release date, sentence/custody explanation | 794 |
 | [Willie Earl Vereen](https://politicalprisonercoalition.org/prisoner/willie-earl-vereen) | date precision, incarceration date, release date, sentence/custody explanation | 790, 794 |
 | [Yvonne Wanrow](https://politicalprisonercoalition.org/prisoner/yvonne-wanrow) | date precision, documented days served, incarceration date | 787 |
+| [Charles A. Tuller](https://politicalprisonercoalition.org/prisoner/charles-a-tuller) | death in custody year, date precision | 797 |

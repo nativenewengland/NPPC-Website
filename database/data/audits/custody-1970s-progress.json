@@ -3876,14 +3876,16 @@
       "gap_case_ids": [
         "55dc3835-56af-4c87-bbc8-d47043418c41"
       ],
-      "status": "individual-review-recorded",
-      "batches": [],
-      "research_status": "supported-update",
+      "status": "partially-corrected-live",
+      "batches": [
+        797
+      ],
+      "research_status": "verified-correction-applied",
       "research_sources": [
         "https://www.washingtonpost.com/archive/local/1993/10/30/man-convicted-in-fatal-robbery-pleads-guilty-to-plane-hijacking/7799bec3-8aa7-40e7-8106-965202fb2bd9/"
       ],
-      "research_finding": "Contemporary1993 report states CharlesTuller died in prison1987. Supports deathincustodyyear; exactdate needs additional source.",
-      "unresolved_questions": "Limited individual source review; exact unsupported endpoints remain unknown.",
+      "research_finding": "Original report confirms death in prison in 1987; year precision applied in batch 797.",
+      "unresolved_questions": "Exact death date remains unverified.",
       "research_evidence": "Contemporary1993 report states CharlesTuller died in prison1987. Supports deathincustodyyear; exactdate needs additional source.",
       "individual_research_pass_complete": true
     },
@@ -27491,11 +27493,11 @@
     }
   ],
   "status_counts": {
-    "individual-review-recorded": 1056,
-    "partially-corrected-live": 96
+    "individual-review-recorded": 1055,
+    "partially-corrected-live": 97
   },
-  "changed_profiles": 96,
-  "case_operations": 106,
+  "changed_profiles": 97,
+  "case_operations": 107,
   "individually_reviewed": 784,
   "not_yet_individually_reviewed": 368,
   "reviewed_profiles": 1152,
@@ -27539,6 +27541,44 @@
     "profiles": 96,
     "distinct_cases": 104,
     "case_operations": 106,
+    "all_changed_fields_verified": true,
+    "all_profile_fields_preserved": true,
+    "all_batches_replay_zero": true
+  },
+  "final_live_verification": {
+    "verified_at": "2026-10-16T01:06:16+00:00",
+    "batches": [
+      771,
+      772,
+      773,
+      774,
+      775,
+      776,
+      777,
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796,
+      797
+    ],
+    "profiles": 97,
+    "distinct_cases": 105,
+    "case_operations": 107,
     "all_changed_fields_verified": true,
     "all_profile_fields_preserved": true,
     "all_batches_replay_zero": true

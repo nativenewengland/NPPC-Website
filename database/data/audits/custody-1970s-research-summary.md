@@ -18,6 +18,6 @@ Examples of held issues include Tom Stevens’s exact arrest-day lead awaiting o
 
 ## Verified live changes
 
-Final verification at **2026-10-16 01:00:17 UTC** confirmed **96 profiles, 104 distinct cases, and 106 case operations** across **26 batches (771–796)**. Every changed field matched its final intended value, unrelated profile fields were preserved, and every batch replayed with zero changes. These counts include Robert Robideau’s correction in batch 796.
+Final verification at **2026-10-16 01:06:16 UTC** confirmed **97 profiles, 105 distinct cases, and 107 case operations** across **27 batches (771–797)**. Every changed field matched its final intended value, unrelated profile fields were preserved, and every batch replayed with zero changes. These counts include Robert Robideau’s correction in batch 796 and Charles Tuller’s death-in-custody year in batch 797.
 
 `custody-1970s-final-live-verification.json` records the final checks. `custody-1970s-changed-profiles.md` lists the affected profiles, changed fields, and batches. The progress ledger now marks the individual research pass complete while retaining unresolved findings; completion does not mean that every missing date was found or every archive exhausted.
