@@ -1,0 +1,48 @@
+{
+  "batch": 795,
+  "expected_count": 1,
+  "entries": [
+    {
+      "name": "John Cluchette",
+      "slug": "john-cluchette",
+      "prisoner_id": "e0be0d85-1231-4af5-b70e-da35372ac572",
+      "case_id": "2fa98ddd-f342-4a1b-9f76-708e82b39128",
+      "expected": {
+        "id": "2fa98ddd-f342-4a1b-9f76-708e82b39128",
+        "prisoner_id": "e0be0d85-1231-4af5-b70e-da35372ac572",
+        "institution_id": "0099e875-fa60-48ba-930e-a0f9a20479e5",
+        "charges": "Murder of Soledad guard John Mills (Soledad Brothers prosecution)",
+        "arrest_date": "1970-02-15 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1970-02-15 00:00:00",
+        "release_date": "1972-03-26 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Acquitted by jury after more than two years held in pretrial custody at San Quentin\n\nVerdict as recorded: No — acquitted by California state jury on March 27, 1972",
+        "imprisoned_for_days": 770,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:05:25",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": null,
+        "convicted": "No — acquitted March 27, 1972",
+        "sentence": "Acquittal did not end his imprisonment on the earlier burglary conviction. The parole board subsequently set a November 13, 1972 parole date; the precise physical-release date has not been independently verified."
+      },
+      "sources": [
+        "https://law.justia.com/cases/california/court-of-appeal/3d/39/561.html"
+      ],
+      "rationale": "Duplicate spelling record individually matched by Soledad Brothers co-defendants George Jackson and Fleeta Drumgo, victim John Mills, and March 27, 1972 acquittal. Same court chronology applies. March 26 release contradicts continuing original sentence; remove it. No profile merge or biographical edits; exact initial case arrest day not resolved."
+    }
+  ]
+}
