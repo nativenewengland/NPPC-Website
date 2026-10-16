@@ -1,0 +1,176 @@
+{
+  "batch": 785,
+  "expected_count": 4,
+  "entries": [
+    {
+      "name": "Chester Jackson",
+      "slug": "chester-jackson",
+      "prisoner_id": "e915f523-eca6-4ab7-94a8-37dc32b11a10",
+      "case_id": "cd83bc42-ba5c-401a-9dea-b2182a653d87",
+      "expected": {
+        "id": "cd83bc42-ba5c-401a-9dea-b2182a653d87",
+        "prisoner_id": "e915f523-eca6-4ab7-94a8-37dc32b11a10",
+        "institution_id": "c7df581b-f3ce-4cd9-8f97-d61446ed7b15",
+        "charges": "Charged in the April 1972 killing of Angola guard Brent Miller; trial severed",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Unknown",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Verdict as recorded: Unknown — expected to be tried on a lesser charge; disposition not located\n\nCharges as recorded: Charged in the April 1972 killing of Angola guard Brent Miller; trial severed after he became the prosecution's witness against Wallace and Montegut",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 20:24:56",
+        "updated_at": "2026-07-29 17:12:22",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty to manslaughter on October 29, 1974",
+        "convicted": "Yes; manslaughter plea October 29, 1974",
+        "sentence": "Pleaded guilty to manslaughter on October 29, 1974 and received a twenty-one-year prison sentence. Actual custody endpoints remain unresolved.\n\nCharges as recorded: Charged in the April 1972 killing of Angola guard Brent Miller; trial severed after he became the prosecution's witness against Wallace and Montegut"
+      },
+      "sources": [
+        "https://law.counselstack.com/opinion/wallace-v-prince-lamd-2013"
+      ],
+      "rationale": "Wallace v Prince court footnote8 explicitly says Chester Jackson pleaded guilty to manslaughter October29,1974. Existing unknown outcome can be corrected without inferring actual release."
+    },
+    {
+      "name": "Madonna Thunder Hawk",
+      "slug": "madonna-thunder-hawk",
+      "prisoner_id": "3eed76c1-1539-4a88-9c03-6604f2aa9dbc",
+      "case_id": "9db18ec8-e2f0-40bd-afc5-9b9c49734707",
+      "expected": {
+        "id": "9db18ec8-e2f0-40bd-afc5-9b9c49734707",
+        "prisoner_id": "3eed76c1-1539-4a88-9c03-6604f2aa9dbc",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": "1973-02-27 00:00:00",
+        "indicted": null,
+        "convicted": "Jailed about four to five nights, then released; returned to the occupation as a medic",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "About 4–5 nights in jail",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-20 00:57:44",
+        "updated_at": "2026-07-20 05:27:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1973-02-27 00:00:00",
+        "date_precision": "{\"incarceration_date\": \"day\"}"
+      },
+      "sources": [
+        "https://nativenewsonline.net/opinion/madonna-thunder-hawk-a-firsthand-personal-account-of-wounded-knee-1973/"
+      ],
+      "rationale": "First-person account explicitly February27,1973 night arrest and four or five nights jailed. Existing arrest already correct; incarceration missing. Preserve uncertainty of exact release and actual duration rather than selecting four or five."
+    },
+    {
+      "name": "Rafael Cancel Miranda",
+      "slug": "rafael-cancel-miranda",
+      "prisoner_id": "a642eba1-0ce6-470e-9130-985e7383cbac",
+      "case_id": "96065abd-ab35-4128-92c1-a5ce19e4391a",
+      "expected": {
+        "id": "96065abd-ab35-4128-92c1-a5ce19e4391a",
+        "prisoner_id": "a642eba1-0ce6-470e-9130-985e7383cbac",
+        "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+        "charges": "Assault with intent to kill (5 counts).",
+        "arrest_date": "1954-02-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1954-07-08 00:00:00",
+        "incarceration_date": "1954-02-28 00:00:00",
+        "release_date": "1979-09-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Alexander Holtzoff; Lawrence E. Walsh",
+        "sentence": "75 years (assault) + 6 years (sedition) = 81 years\n\nCharges as recorded: Assault with intent to kill (5 counts) for the March 1, 1954 armed attack on the U.S. House of Representatives, in which four Puerto Rican Nationalists fired ~30 rounds from the Ladies' Gallery, wounding five congressmen. Additional 6-year sentence under Smith Act for seditious conspiracy (October 1954). Defendants refused parole conditions requiring renunciation of Puerto Rican independence. Sentences commuted by President Carter in 1977-1979.",
+        "imprisoned_for_days": 9324,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-08-04 19:34:51",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1954-03-01 00:00:00",
+        "incarceration_date": "1954-03-01 00:00:00",
+        "release_date": "1979-09-10 00:00:00",
+        "date_precision": "{\"sentenced_date\": \"day\", \"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}"
+      },
+      "sources": [
+        "https://history.house.gov/Exhibitions-and-Publications/1954-Shooting/Essays/March-1/",
+        "https://www.themilitant.com/1979/4345/MIL4345.pdf",
+        "https://www.washingtonpost.com/archive/politics/1979/09/11/puerto-rican-terrorists-retain-nationalist-zeal-after-25-yers-in-prison/599c7324-f132-4e7d-b91f-94bf98296d93/"
+      ],
+      "rationale": "Official House history identifies March1,1954 Capitol shooting and arrests same day; contemporary1979 report individually identifies Rafael among four physically released Sept10,1979. Existing dates Feb28/Sept9 are one day early."
+    },
+    {
+      "name": "Robert Joyner",
+      "slug": "robert-joyner",
+      "prisoner_id": "fca146ec-20ca-4b4d-bc8d-3c5efe63a7a2",
+      "case_id": "3e4f16d0-8bea-4771-adf8-a92227adff48",
+      "expected": {
+        "id": "3e4f16d0-8bea-4771-adf8-a92227adff48",
+        "prisoner_id": "fca146ec-20ca-4b4d-bc8d-3c5efe63a7a2",
+        "institution_id": "4904a387-8cce-48f5-bfcc-c7cbb0c21bca",
+        "charges": "Murder, attempted murder, and explosives offenses arising from the August 29, 1970 Cobbs Creek confrontation with Philadelphia police.",
+        "arrest_date": "1970-08-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1970-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment plus a consecutive five-to-ten-year term for explosives offenses.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 20:15:58",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1970-08-30 00:00:00",
+        "incarceration_date": "1970-08-30 00:00:00",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\"}"
+      },
+      "sources": [
+        "https://law.justia.com/cases/pennsylvania/supreme-court/1977/475-pa-345-0.html"
+      ],
+      "rationale": "Court explicitly states arrest1:40pm August30,1970, police detention/interrogation overnight and arraignment2pm August31. CurrentAug29arrest is event date;1970year admission can be refined to actualAug30 initial detention."
+    }
+  ]
+}
