@@ -11,8 +11,9 @@ final class ImprisonmentDuration
      * Count a single prisoner's stored custody durations without counting
      * overlapping dated spans twice. This never writes to the case records.
      *
-     * The stored duration remains authoritative: documented months, manual
-     * durations and the model's eligibility rules are not recomputed here.
+     * Existing stored durations remain authoritative. A missing duration with
+     * a closed custody interval is calculated using the model's rules, so a
+     * direct date import does not require an overnight job to show a counter.
      * An ordinary arrest alone does not locate a custody span. Durations with
      * no incarceration date remain additive; documented months may use the
      * arrest anchor used by PrisonerCase::computeImprisonedForDays().
@@ -22,7 +23,7 @@ final class ImprisonmentDuration
      * not become one stay just because both dates are stored as January 1.
      *
      * @param  iterable<\App\Models\PrisonerCase>  $cases
-     * @return array{days: int, start: ?CarbonInterface, months: ?int}
+     * @return array{days: int, start: ?CarbonInterface, months: ?int, components: ?array{months: int, days: int}}
      */
     public static function summarize(iterable $cases): array
     {
@@ -31,37 +32,82 @@ final class ImprisonmentDuration
         $unplacedMonths = 0;
         $rawDays = 0;
         $rawMonths = 0;
+        $monthDays = 0;
         $allMonths = true;
         $preciseStarts = true;
-        $earliest = null;
         $monthSpans = [];
 
         foreach ($cases as $case) {
-            $days = (int) ($case->imprisoned_for_days ?? 0);
+            if ($case->custody_periods !== null) {
+                // Partial endpoints belong to the bounded display, not exact statistics.
+                if (CustodyPeriods::hasPartial($case->custody_periods)) {
+                    continue;
+                }
+                foreach (CustodyPeriods::normalize($case->custody_periods) ?? [] as $period) {
+                    $start = Carbon::parse($period['start'])->startOfDay();
+                    $end = Carbon::parse($period['end'])->startOfDay();
+                    $days = (int) $start->diffInDays($end);
+                    if ($days > 0) {
+                        $intervals[] = [$start, $end];
+                        $rawDays += $days;
+                        $allMonths = false;
+                    }
+                }
+                continue;
+            }
+
+            $days = $case->imprisoned_for_days;
+            if ($days === null && (
+                $case->documented_imprisoned_for_days !== null
+                || $case->imprisoned_for_months > 0
+                || ($case->incarceration_date && ($case->release_date || $case->death_in_custody_date))
+            )) {
+                $days = $case->computeImprisonedForDays();
+            }
+            $days = (int) ($days ?? 0);
+            $months = (int) ($case->imprisoned_for_months ?? 0);
             if ($days <= 0) {
+                // A source-stated month count has no exact day equivalent.
+                // Retain its units without inventing dates or day totals.
+                if ($months > 0) {
+                    $rawMonths += $months;
+                    $unplacedMonths += $months;
+                }
                 continue;
             }
             $rawDays += $days;
-            $months = (int) ($case->imprisoned_for_months ?? 0);
             $allMonths = $allMonths && $months > 0;
             $rawMonths += max(0, $months);
-            $field = $case->incarceration_date ? 'incarceration_date' : ($months > 0 && $case->arrest_date ? 'arrest_date' : null);
+            if ($months > 0) {
+                $monthDays += $days;
+            }
+            $startField = $case->incarceration_date ? 'incarceration_date' : 'arrest_date';
+            $endField = $case->death_in_custody_date ? 'death_in_custody_date' : 'release_date';
+            $dateDerived = $case->documented_imprisoned_for_days === null
+                && $months === 0
+                && $case->{$startField}
+                && ($startField === 'arrest_date' || $case->datePrecisionFor($startField) !== 'day'
+                    || ($case->{$endField} && $case->datePrecisionFor($endField) !== 'day'));
+            $field = $case->incarceration_date
+                ? 'incarceration_date'
+                : (($months > 0 || $dateDerived) && $case->arrest_date ? 'arrest_date' : null);
             if ($field === null) {
                 $unplacedDays += $days;
                 $unplacedMonths += max(0, $months);
                 continue;
             }
 
-            $start = Carbon::parse($case->{$field})->startOfDay();
-            if ($earliest === null || $start->lessThan($earliest)) {
-                $earliest = $start->copy();
-            }
-            [$first, $last] = match ($case->datePrecisionFor($field)) {
-                'month' => [$start->copy()->startOfMonth(), $start->copy()->endOfMonth()->startOfDay()],
-                'year' => [$start->copy()->startOfYear(), $start->copy()->endOfYear()->startOfDay()],
-                'circa' => [$start->copy()->subYear()->startOfYear(), $start->copy()->addYear()->endOfYear()->startOfDay()],
-                default => [$start->copy(), $start->copy()],
-            };
+            $start = $dateDerived
+                ? PartialImprisonmentDuration::assumedDate($case, $field)
+                : Carbon::parse($case->{$field})->startOfDay();
+            [$first, $last] = $dateDerived
+                ? [$start->copy(), $start->copy()]
+                : match ($case->datePrecisionFor($field)) {
+                    'month' => [$start->copy()->startOfMonth(), $start->copy()->endOfMonth()->startOfDay()],
+                    'year' => [$start->copy()->startOfYear(), $start->copy()->endOfYear()->startOfDay()],
+                    'circa' => [$start->copy()->subYear()->startOfYear(), $start->copy()->addYear()->endOfYear()->startOfDay()],
+                    default => [$start->copy(), $start->copy()],
+                };
             $preciseStarts = $preciseStarts && $first->equalTo($last);
             $end = $first->copy()->addDays($days);
             $coreDays = $end->greaterThan($last) ? (int) $last->diffInDays($end) : 0;
@@ -90,7 +136,7 @@ final class ImprisonmentDuration
         }
 
         $months = null;
-        if ($rawDays > 0 && $allMonths) {
+        if (($rawDays > 0 || $rawMonths > 0) && $allMonths) {
             if ($total === $rawDays) {
                 // Preserve source-stated units when no overlap was removed.
                 $months = $rawMonths;
@@ -114,7 +160,30 @@ final class ImprisonmentDuration
             }
         }
 
-        return ['days' => $total, 'start' => $earliest, 'months' => $months];
+        // Calendar units require one continuous, precisely placed span.
+        // Unknown starts and separate stays must not borrow a placeholder
+        // date or move days across a gap merely to produce months and years.
+        $calendarStart = $preciseStarts && $unplacedDays === 0 && count($merged) === 1
+            ? $merged[0][0]->copy()
+            : null;
+
+        // A month-only report cannot supply an exact day count for a mixed
+        // total. Preserve its units when no overlapping time was removed.
+        $components = $rawMonths > 0 && ! $allMonths && $total === $rawDays
+            ? ['months' => $rawMonths, 'days' => $rawDays - $monthDays]
+            : null;
+
+        return ['days' => $total, 'start' => $calendarStart, 'months' => $months, 'components' => $components];
+    }
+
+    public static function mixedPhrase(array $summary): ?string
+    {
+        $parts = $summary['components'] ?? null;
+        if ($parts === null) {
+            return null;
+        }
+
+        return self::phrase(null, 0, $parts['months']).' + '.self::phrase(null, $parts['days']);
     }
 
     /** @param iterable<\App\Models\PrisonerCase> $cases Cases for one prisoner. */
@@ -141,9 +210,11 @@ final class ImprisonmentDuration
      * Anchoring to the real start date and letting Carbon walk the calendar
      * (instead of dividing by fixed 365-day years and 30-day months) means a
      * span such as May 13 → Dec 13 reads as exactly 7 months, not the
-     * "7 months 4 days" you get from 214 ÷ 30. When no start date is known we
-     * anchor at today minus the span, so the result is still real calendar
-     * units rather than a 30-day-month fiction.
+     * "7 months 4 days" you get from 214 ÷ 30. Without a known start, use
+     * conventional 365-day years and average Gregorian months for the
+     * remainder at every duration. Separate custody periods cannot share
+     * one calendar anchor, but their combined time still uses years, months
+     * and days in the public display. The stored day total is unchanged.
      *
      * @param  CarbonInterface|string|null  $start
      * @return array{years:int,months:int,days:int}
@@ -154,7 +225,16 @@ final class ImprisonmentDuration
             return ['years' => 0, 'months' => 0, 'days' => 0];
         }
 
-        $start = $start ? Carbon::parse($start)->startOfDay() : Carbon::today()->subDays($days);
+        if (! $start) {
+            $years = intdiv($days, 365);
+            $remainder = $days % 365;
+            $months = min(11, (int) floor($remainder / 30.436875));
+            $remainingDays = (int) round($remainder - ($months * 30.436875));
+
+            return ['years' => $years, 'months' => $months, 'days' => $remainingDays];
+        }
+
+        $start = Carbon::parse($start)->startOfDay();
         $diff = $start->diff($start->copy()->addDays($days));
 
         return ['years' => $diff->y, 'months' => $diff->m, 'days' => $diff->d];
@@ -165,9 +245,8 @@ final class ImprisonmentDuration
      * to breakdown().
      *
      * Returns a figure only when EVERY case that contributes time documents it
-     * in months. A record mixing a months-only case with a date-derived one has
-     * no honest single unit, so it keeps the day breakdown rather than silently
-     * rounding the dated case into months.
+     * in months. For mixed records, mixedPhrase() preserves the separate source
+     * units instead of converting the month-only contribution to exact days.
      *
      * @param  iterable<\App\Models\PrisonerCase>  $cases
      */
@@ -208,7 +287,9 @@ final class ImprisonmentDuration
         if ($m > 0) {
             $parts[] = $m.' '.($m === 1 ? 'Month' : 'Months');
         }
-        $parts[] = $d.' '.($d === 1 ? 'Day' : 'Days');
+        if ($d > 0 || $parts === []) {
+            $parts[] = $d.' '.($d === 1 ? 'Day' : 'Days');
+        }
 
         return implode(' ', $parts);
     }

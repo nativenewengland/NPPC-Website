@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Herbert Mahler",
+      "slug": "herbert-mahler",
+      "expected": {
+        "id": "ca51a534-f59f-4ca4-a805-5579adaa88ab",
+        "prisoner_id": "6670d16d-23bd-4e15-a120-e9078ea0cf32",
+        "institution_id": null,
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918 (mass IWW trial in Chicago).",
+        "arrest_date": "1917-09-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes; mass IWW trial in Chicago",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1922-05-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Five years imposed and a $30,000 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:56",
+        "updated_at": "2026-10-17 03:18:58",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1917-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "custody_periods": "[{\"start\":\"1917-09\",\"end\":\"1918-03\"},{\"start\":\"1918-09\",\"end\":\"1922-05-14\"}]",
+        "imprisoned_for_months": null
+      },
+      "source": "Stephen M. Kohn, American Political Prisoners (1994), page 115: https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html . Two explicitly separate custody periods, September 1917-March 1918 and September 1918-May 14, 1922. First admission is month precision, not September 1. No exact total can be established; unsupported 12-month total cleared at user request. Biography, photo, existing exact arrest day, final release and imposed sentence preserved."
+    }
+  ]
+}

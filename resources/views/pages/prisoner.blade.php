@@ -219,6 +219,14 @@
 
                 $imprisonment = ImprisonmentDuration::summarize($prisoner->cases);
                 $totalDays = $imprisonment['days'];
+                $partialBounds = ($prisoner->under_review || ! $prisoner->in_custody) ? null : \App\Support\PartialImprisonmentDuration::bounds(
+                    $prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial)
+                );
+                if ($partialBounds !== null) {
+                    $totalDays = 0;
+                }
+                $partialImprisonment = $prisoner->under_review ? null
+                    : \App\Support\PartialImprisonmentDuration::phrase($prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial));
 
                 // Cases may describe overlapping custody or exile periods.
                 $totalExileDays = ExileDuration::totalDays($prisoner->cases);
@@ -233,14 +241,17 @@
                 // date arithmetic. Null for the ordinary record.
                 $servedMonths = $imprisonment['months'];
 
-                $renderCounter = function ($start, int $totalDays, string $label, ?int $months = null) {
-                    if ($totalDays <= 0) return '';
+                $renderCounter = function ($start, int $totalDays, string $label, ?int $months = null, ?string $mixedPhrase = null) {
+                    if ($totalDays <= 0 && !($months > 0)) return '';
                     return '<div class="prisoner-counter-label">' . e($label) . ':</div>' .
-                           '<div class="prisoner-counter-nums">' . e(ImprisonmentDuration::phrase($start, $totalDays, $months)) . '</div>';
+                           '<div class="prisoner-counter-nums">' . e($mixedPhrase ?? ImprisonmentDuration::phrase($start, $totalDays, $months)) . '</div>';
                 };
             @endphp
-            @if($totalDays > 0)
-                {!! $renderCounter($imprisonStart, $totalDays, 'Time Imprisoned', $servedMonths) !!}
+            @if($partialImprisonment)
+                <div class="prisoner-counter-label">Time Imprisoned:</div>
+                <div class="prisoner-counter-nums">{{ $partialImprisonment }}</div>
+            @elseif($totalDays > 0 || $servedMonths > 0)
+                {!! $renderCounter($imprisonStart, $totalDays, 'Time Imprisoned', $servedMonths, ImprisonmentDuration::mixedPhrase($imprisonment)) !!}
             @endif
             @if($totalExileDays > 0)
                 {!! $renderCounter($exileStart, $totalExileDays, 'Time in Exile') !!}
@@ -336,8 +347,15 @@
                         @if($case->charges)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Charges: </span><span class="prisoner-case-field-value">{{ $case->charges }}</span></div>@endif
                         @if($case->arrest_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Arrested: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('arrest_date') }}</span></div>@endif
                         @if($case->sentenced_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Sentenced: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('sentenced_date') }}</span></div>@endif
-                        @if($case->incarceration_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Incarcerated: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('incarceration_date') }}</span></div>@endif
-                        @if($case->release_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Released: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('release_date') }}</span></div>@endif
+                        @if($case->custody_periods !== null)
+                            @foreach(\App\Support\CustodyPeriods::normalize($case->custody_periods) ?? [] as $period)
+                                <div class="prisoner-case-field"><span class="prisoner-case-field-label">Incarcerated: </span><span class="prisoner-case-field-value">{{ \App\Support\CustodyPeriods::formatDate($period['start']) }}</span></div>
+                                <div class="prisoner-case-field"><span class="prisoner-case-field-label">Released: </span><span class="prisoner-case-field-value">{{ \App\Support\CustodyPeriods::formatDate($period['end']) }}</span></div>
+                            @endforeach
+                        @else
+                            @if($case->incarceration_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Incarcerated: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('incarceration_date') }}</span></div>@endif
+                            @if($case->release_date)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Released: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('release_date') }}</span></div>@endif
+                        @endif
                         @if($case->in_exile_since)<div class="prisoner-case-field"><span class="prisoner-case-field-label">In exile since: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('in_exile_since') }}</span></div>@endif
                         @if($case->end_of_exile)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Exile ended: </span><span class="prisoner-case-field-value">{{ $case->formatPartialDate('end_of_exile') }}</span></div>@endif
                         @if($case->sentence)<div class="prisoner-case-field"><span class="prisoner-case-field-label">Sentence: </span><span class="prisoner-case-field-value">{{ $case->sentence }}</span></div>@endif
