@@ -1,0 +1,117 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Rahmanullah Lakanwal",
+      "slug": "rahmanullah-lakanwal",
+      "expected": {
+        "id": "aa6804b8-48f5-495b-95c2-103fb42b4bef",
+        "prisoner_id": "2361af0e-7e47-479f-8ae9-a7a8db236386",
+        "institution_id": null,
+        "charges": "Federal and District of Columbia charges arising from the ambush shooting, including first-degree murder while armed, assault with intent to kill while armed, and firearm offenses.",
+        "arrest_date": "2025-11-26 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not guilty.",
+        "sentenced_date": null,
+        "incarceration_date": "2025-11-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held without bond pending trial.",
+        "imprisoned_for_days": 325,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 18:32:04",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Amit P. Mehta",
+        "indicted": "Superseding indictment filed June 16, 2026 (17 counts)"
+      },
+      "source": "https://www.justice.gov/usao-dc/pr/afghan-national-accused-ambush-killing-national-guard-member-near-white-house-indicted",
+      "research_note": "DOJ June16,2026 explicitly identifies superseding indictment filed that day and arraignment before Mehta. Existing plea preserved. No sentence or release inferred; individual trial prosecutors not named in announcement."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mohammad Sharifullah",
+      "slug": "mohammad-sharifullah",
+      "expected": {
+        "id": "371f5f10-5f92-4ae7-b3df-d6d1388ed271",
+        "prisoner_id": "ab466db2-da1d-4a48-b601-256a66e0eddf",
+        "institution_id": null,
+        "charges": "Providing material support and resources to a designated foreign terrorist organization.",
+        "arrest_date": "2025-03-02 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — convicted by a federal jury in April 2026.",
+        "plead": null,
+        "sentenced_date": "2026-09-16 00:00:00",
+        "incarceration_date": "2025-03-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty years in federal prison.",
+        "imprisoned_for_days": 594,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 18:34:08",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "John T. Gibbs; Avi Panth; Reed Sawyers; Ryan D. White"
+      },
+      "source": "https://www.justice.gov/usao-edva/pr/isis-k-terrorist-sentenced-20-years-prison-role-abbey-gate-and-other-terror-attacks",
+      "research_note": "DOJ September16,2026 sentencing announcement names three AUSAs and Counterterrorism trial attorney White. Existing sentence/date preserved. Complaint March2 does not alone prove exact physical arrest; no populated custody date overwritten."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Luis Dalhet Hipolito",
+      "slug": "luis-dalhet-hipolito",
+      "expected": {
+        "id": "bf73ca7e-bf2a-46eb-ac3a-d49e45cf7245",
+        "prisoner_id": "b1277120-65b7-4c8b-9cc3-fcbf6f93e5a5",
+        "institution_id": null,
+        "charges": "Initial complaint: assault on a federal officer, 18 U.S.C. § 111(a)(1). July 15, 2025 indictment: assault on a federal officer resulting in bodily injury.",
+        "arrest_date": "2025-06-24 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-06-24 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; acquitted by a federal jury. Released on $10,000 bond before trial; exact release date not established. Sources: https://www.nacdl.org/getattachment/f45a6e8b-7027-4bf2-916f-92f103dd76ef/1-gov-uscourts-cacd-979964-1-0.pdf (criminal complaint, 2:25-mj-03896-DUTY); https://www.rsn.org/001/documenting-ice-agents-brutal-use-of-force-in-la-immigration-raids.html ; https://www.univision.com/local/los-angeles-kmex/golpeo-a-agentes-de-ice-y-fue-declarado-inocente-en-un-caso-que-marca-precedente-video Additional source: https://www.nacdl.org/getattachment/96bcbe1b-d52b-4d40-851a-1e42e4890cef/gov-uscourts-cacd-979964-63-0.pdf (government trial memorandum, page 5, confirming July 15 indictment).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-05 08:09:34",
+        "updated_at": "2026-10-05 08:29:01",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Steven V. Wilson",
+        "prosecutor": "Jason C. Pang; Johnpaul Lecedre"
+      },
+      "source": "https://www.nacdl.org/getattachment/e40a1c67-161a-40a1-9b9e-c773f9b2f9f7/gov-uscourts-cacd-979964-57-0.pdf",
+      "research_note": "Primary filed joint jury instructions document57 pages1-2 identifies Wilson courtroom and named signing AUSAs Pang/Lecedre. Boilerplate paragraph additionally mentions Solomon Kim inconsistently, so only signing counsel added. Acquittal and existing bail-release uncertainty preserved; filing/trial-date typography not used as custody dates."
+    }
+  ]
+}
