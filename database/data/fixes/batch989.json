@@ -1,0 +1,82 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Hadi Matar",
+      "slug": "hadi-matar",
+      "expected": {
+        "id": "25b52053-9541-4421-87ad-6518914f09de",
+        "prisoner_id": "47415e8f-d79f-4e77-8dd1-6608fd98193a",
+        "institution_id": null,
+        "charges": "Attempted murder and assault in state court, with parallel federal terrorism-related charges.",
+        "arrest_date": "2022-08-12 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 attempted murder and assault in New York state court.",
+        "plead": null,
+        "sentenced_date": "2025-05-16 00:00:00",
+        "incarceration_date": "2022-08-12 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty-five years in state prison; parallel federal proceedings followed.",
+        "imprisoned_for_days": 1527,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "David Foley",
+        "prosecutor": "Jason Schmidt"
+      },
+      "source": [
+        "https://www.nhpr.org/2025-05-16/man-who-attacked-author-salman-rushdie-is-sentenced-to-25-years-in-prison",
+        "https://chautauquacountyny.gov/district-attorney/news/post-sentencing-press-conference-da-schmidt-public-defender-barone-speak"
+      ]
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Loay Abdel Fattah Alnaji",
+      "slug": "loay-abdel-fattah-alnaji",
+      "expected": {
+        "id": "43eba065-cd0a-413b-a7fa-14db4bcdc6b9",
+        "prisoner_id": "f6d3cbfd-6578-4968-956e-a7d5c5602d86",
+        "institution_id": null,
+        "charges": "Felony involuntary manslaughter and felony battery causing serious bodily injury.",
+        "arrest_date": "2023-11-16 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 guilty plea entered.",
+        "plead": "Guilty on May 5, 2026.",
+        "sentenced_date": "2026-06-30 00:00:00",
+        "incarceration_date": "2026-08-07 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "One year in Ventura County Jail followed by two years of felony probation.",
+        "imprisoned_for_days": 71,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-30 01:04:45",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Derek Malan"
+      },
+      "source": [
+        "https://www.reutersconnect.com/item/judge-derek-malan-sentenced-loay-alnaji-of-moorpark-to-one-year-in-jail-and-two-years-of-probation-in-ventura-county-superior/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMjkzMDE0NjU"
+      ]
+    }
+  ]
+}
