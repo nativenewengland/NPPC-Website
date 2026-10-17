@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:11 profiles updated live through batch1026;0 bounded reviews without additions;89 pending. Not100 completed.
+Progress:14 profiles updated live through batch1027;0 bounded reviews without additions;86 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -82,11 +82,11 @@ Progress:11 profiles updated live through batch1026;0 bounded reviews without ad
 - Christian Frazee — pending
 - Keonne Rodriguez — verified_addition_live_batch1023
 - Nicolas Maduro Moros — pending
-- Mohammed Azharuddin Chhipa — pending
-- Mahmoud Amin Ya'qub Al-Muhtadi — pending
+- Mohammed Azharuddin Chhipa — verified_addition_live_batch1027
+- Mahmoud Amin Ya'qub Al-Muhtadi — verified_addition_live_batch1027
 - Kwame Shakur — pending
 - Eric Hafner — pending
-- Luis Felipe Moreno Godoy — pending
+- Luis Felipe Moreno Godoy — verified_addition_live_batch1027
 - Jamil Abdullah al-Amin — pending
 - Daniel Edmund Duggan — pending
 - Fornandous Henderson — pending
