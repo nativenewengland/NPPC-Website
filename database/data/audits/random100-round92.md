@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:14 profiles updated live through batch1027;0 bounded reviews without additions;86 pending. Not100 completed.
+Progress:16 profiles updated live through batch1028;1 bounded review without additions;83 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -44,7 +44,7 @@ Progress:14 profiles updated live through batch1027;0 bounded reviews without ad
 - Fran Thompson — pending
 - Irving Aarons — pending
 - Salvador Tió — pending
-- Thomas Weir Pauken II — pending
+- Thomas Weir Pauken II — bounded_review_no_verified_addition_batch1028
 - Kyle Calvert — verified_addition_live_batch1025
 - Jordan W. Rincker — pending
 - Siobhan Browne — pending
@@ -61,7 +61,7 @@ Progress:14 profiles updated live through batch1027;0 bounded reviews without ad
 - Troy Desson — pending
 - Meagan Morris — pending
 - Emilia Rodríguez — pending
-- David Annarelli — pending
+- David Annarelli — verified_addition_live_batch1028
 - Roland Freeman — pending
 - Vance Boelter — pending
 - Siddique Abdullah Hasan — pending
@@ -85,7 +85,7 @@ Progress:14 profiles updated live through batch1027;0 bounded reviews without ad
 - Mohammed Azharuddin Chhipa — verified_addition_live_batch1027
 - Mahmoud Amin Ya'qub Al-Muhtadi — verified_addition_live_batch1027
 - Kwame Shakur — pending
-- Eric Hafner — pending
+- Eric Hafner — verified_addition_live_batch1028
 - Luis Felipe Moreno Godoy — verified_addition_live_batch1027
 - Jamil Abdullah al-Amin — pending
 - Daniel Edmund Duggan — pending
