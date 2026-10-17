@@ -6,4 +6,4 @@ Fill missinginstitution link toexisting FCISandstone UUID3fca9a18-b4c1-449c-8670
 
 Source: https://bibdig.biblioteca.unesp.br/server/api/core/bitstreams/3936d2a7-465d-4e0d-a19d-d88d3a029de9/content#page=5
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. All unrelated attributes preserved. Public HTML not separately verified.
