@@ -1,0 +1,117 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "David Michael Ansberry",
+      "slug": "david-michael-ansberry",
+      "expected": {
+        "id": "b3e1f0d5-869b-4425-837f-22aeb22c5a97",
+        "prisoner_id": "36c741aa-f810-49c2-8ee2-1c4c8124a996",
+        "institution_id": null,
+        "charges": "Federal use of an explosive device against a government building; possession of an unregistered destructive device - October 2016 Nederland CO police-station bombing attempt",
+        "arrest_date": "2016-10-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": "Guilty",
+        "sentenced_date": "2019-01-29 00:00:00",
+        "incarceration_date": "2016-10-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "324 months federal prison",
+        "imprisoned_for_days": 3655,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Christine Arguello",
+        "prosecutor": "Gregory Holloway; David Tonini; Jennifer Levy"
+      },
+      "source": "https://www.justice.gov/usao-co/pr/nederland-bomber-sentenced-27-years-federal-prison",
+      "research_note": "DOJ identifies original judge/prosecutors. Existing Jan29,2019 sentence conflicts with explicit Jan25,2019 actual sentence in Jan28 release; Oct14 arrest conflicts with Oct16 report. Later2020appeal/2022resentencing requires separate review; existing populated dates not overwritten."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Cliver Antonio Alcala Cordero",
+      "slug": "cliver-antonio-alcala-cordero",
+      "expected": {
+        "id": "3263db7b-0dff-4df1-8fd2-1e1f7cb42e9f",
+        "prisoner_id": "37edb2c1-178c-4b4b-b8d2-855ee6394d6a",
+        "institution_id": "ca8b0519-2e6b-4772-8efc-99f7442d3c0e",
+        "charges": "21 USC 960a narco-terrorism conspiracy - March 2020 SDNY indictment, surrendered to DEA March 27 2020",
+        "arrest_date": "2020-03-27 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2024-04-08 00:00:00",
+        "incarceration_date": "2020-03-27 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. Alvin K. Hellerstein (S.D.N.Y.)",
+        "sentence": "260 months federal prison; 3 years supervised release",
+        "imprisoned_for_days": 2395,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Nicholas S. Bradley; Kaylan E. Lasky; Kevin T. Sullivan; Kyle A. Wirshba",
+        "plead": "Guilty (June 29, 2023)"
+      },
+      "source": "https://www.justice.gov/usao-sdny/pr/former-venezuelan-general-sentenced-260-months-prison-providing-material-support-farc",
+      "research_note": "DOJ April8,2024 states June29,2023 plea and names prosecuting attorneys. Existing judge/sentence preserved. Profile surname Cordero differs from source Cordones; identity matches specific case/sentence, name not changed."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Keonne Rodriguez",
+      "slug": "keonne-rodriguez",
+      "expected": {
+        "id": "a28e5e20-2560-47aa-835d-cb65336cad5c",
+        "prisoner_id": "bbdac863-3b3b-4d6f-ae85-1f85a6606ca5",
+        "institution_id": null,
+        "charges": "Conspiracy to operate an unlicensed money-transmitting business and money-laundering conspiracy.",
+        "arrest_date": "2024-04-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2025-11-06 00:00:00",
+        "incarceration_date": "2025-11-06 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Judge Denise L. Cote",
+        "sentence": "5 years in federal prison and a $250,000 fine.\n\nVerdict as recorded: Pleaded guilty (July 2025) to operating an unlicensed money-transmitting business",
+        "imprisoned_for_days": 345,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-29 17:57:58",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Andrew K. Chan; David R. Felton; Cecilia Vogel"
+      },
+      "source": "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-sentenced-five-and-four-years",
+      "research_note": "DOJ Nov19,2025 names prosecution team. Existing Nov6 incarceration may conflate sentencing and later surrender; no custody date inferred or changed. Current release not established."
+    }
+  ]
+}
