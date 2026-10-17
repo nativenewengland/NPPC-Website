@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Bhavika Anandpura",
+      "slug": "bhavika-anandpura",
+      "expected": {
+        "id": "6c335363-eb31-4e61-9485-4b3383f6cd70",
+        "prisoner_id": "6f1cbdeb-6ab2-4997-a8c6-8a6029cd2995",
+        "institution_id": null,
+        "charges": "False imprisonment, obstruction of a thoroughfare, unlawful assembly",
+        "arrest_date": "2024-04-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2026-08-21 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "August 21, 2026: 30 days, split between jail and a work program; six months probation. Jail stayed pending appeal; outstanding charges dismissed. Four pretrial days credited. Sources: https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown ; https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/ ; https://www.nbcbayarea.com/news/local/jury-decision-golden-gate-bridge-pro-palestinian-protesters/4108045/ .",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-05 02:27:56",
+        "updated_at": "2026-10-05 02:27:56",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Teresa Caffese",
+        "prosecutor": "Angela Roze",
+        "documented_imprisoned_for_days": 4
+      },
+      "source": "https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown",
+      "research_note": "KQED actual sentencing report identifies Judge Teresa Caffese and trial prosecutor Angela Roze. Richmondside August25,2026 expressly reports each defendant credited four actual pretrial days, corroborating existing sentence text: https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/ . Added missing documented actual days, not thirty-day imposed term. No April19 release guessed by arithmetic; post-sentence custody stayed pending appeal, so no new incarceration or future release assigned. All populated fields and biography preserved."
+    }
+  ]
+}
