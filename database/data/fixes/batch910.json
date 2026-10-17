@@ -1,0 +1,79 @@
+{
+  "batch": 910,
+  "expected_count": 2,
+  "entries": [
+    {
+      "match_names": [
+        "James Rolf Bjerkan",
+        "James Bjerkan"
+      ],
+      "prisoner": {
+        "name": "James Rolf Bjerkan",
+        "first_name": "James",
+        "middle_name": "Rolf",
+        "last_name": "Bjerkan",
+        "slug": "james-rolf-bjerkan",
+        "description": "James Rolf Bjerkan was a conscientious objector imprisoned for refusing induction during the Vietnam War. He began federal custody on January 4, 1974, when his three-year sentence was reduced to eighteen months, and was held at Sandstone, Minnesota. He was later furloughed through the presidential clemency program and received a full, unconditional pardon on December 28, 1974. The pardon date was later than his departure from custody.",
+        "state": "Minnesota",
+        "era": "1970s",
+        "ideologies": [
+          "Anti-War"
+        ],
+        "released": true,
+        "in_custody": false,
+        "awaiting_trial": false,
+        "in_exile": false,
+        "currently_in_exile": false,
+        "body": "<p>Sources: <a href=\"https://law.justia.com/cases/federal/appellate-courts/F2/529/125/386962/\">Bjerkan v. United States, 529 F.2d 125 (1975)</a>; <a href=\"https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511007004.pdf\">CCCO News Notes, volume 26, number 2 (1974), page 1</a>.</p>"
+      },
+      "case": {
+        "charges": "Refusing to report for induction, 50 U.S.C. App. section 462(a).",
+        "convicted": "Conviction affirmed March 9, 1973; full unconditional presidential pardon December 28, 1974.",
+        "incarceration_date": "1974-01-04 00:00:00",
+        "date_precision": {
+          "incarceration_date": "day"
+        },
+        "sentence": "Three years, reduced to eighteen months on January 4, 1974. Held at the federal correctional institution at Sandstone, Minnesota. Furloughed before the November 6, 1974 habeas ruling; exact departure date unverified. The December 28 pardon is not the custody endpoint."
+      }
+    },
+    {
+      "match_names": [
+        "Arthur Banks"
+      ],
+      "prisoner": {
+        "name": "Arthur Banks",
+        "first_name": "Arthur",
+        "last_name": "Banks",
+        "slug": "arthur-banks",
+        "description": "Arthur Banks was a Black draft resister from Georgia imprisoned during the Vietnam War. While in federal custody he challenged discriminatory treatment of prisoners and faced an additional prosecution for assaulting prison officers. Attorney William Kunstler represented him. In 1974, Judge Miles Lord ordered his release while considering habeas relief. A later contemporary report distinguished this temporary release from his eventual permanent release and reported a no-contest plea to the guard-assault charge with no additional sentence.",
+        "state": "Georgia",
+        "era": "1970s",
+        "ideologies": [
+          "Anti-War"
+        ],
+        "released": true,
+        "in_custody": false,
+        "awaiting_trial": false,
+        "in_exile": false,
+        "currently_in_exile": false,
+        "body": "<p>Sources: <a href=\"https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511007004.pdf\">CCCO News Notes, volume 26, number 2 (1974), page 7</a>; <a href=\"https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511007006.pdf\">News Notes, volume 26, number 5 (1974)</a>; <a href=\"https://www.insd.uscourts.gov/sites/insd/files/Cale_James_Holder.pdf\">Southern District of Indiana history of Judge Cale J. Holder</a>.</p>"
+      },
+      "case": {
+        "charges": "Draft refusal; subsequent prosecution for assaulting federal corrections officers.",
+        "sentence": "Five-year federal draft-refusal sentence, including custody at Terre Haute. Released in 1974 following habeas proceedings before Judge Miles Lord; permanent release was reported later that year. The exact custody start and release days remain unverified.",
+        "plead": "Nolo contendere to the guard-assault charge; no additional sentence reported."
+      }
+    }
+  ],
+  "sources_reviewed": [
+    "tmp/banks-free.pdf, pages 1 and 7 visually verified",
+    "Bjerkan v United States 529 F2d125 primary opinion",
+    "CCCO News Notes 1974 issue5",
+    "US District Court institutional judicial history"
+  ],
+  "limitations": [
+    "No birth dates, portraits, arrest days or exact release days verified.",
+    "Ashley not added: canceled jail sentence does not prove actual custody.",
+    "Stephen Held declaration confirms same-night release; not a new multi-day prisoner."
+  ]
+}
