@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:26 profiles updated live through batch1000;7 bounded reviews without additions;67 pending. Not100 completed.
+Progress:29 profiles updated live through batch1001;9 bounded reviews without additions;62 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -13,7 +13,7 @@ Progress:26 profiles updated live through batch1000;7 bounded reviews without ad
 - Dwight Freeman — verified_addition_live_batch1000
 - Jesús M. Balzac — pending
 - Brian DiPippa — bounded_review_conflict_requires_followup_batch986
-- John J. Ford — pending
+- John J. Ford — bounded_review_no_addition_batch1001
 - Tony Stafford — pending
 - Marquon Clark — pending
 - Luis A. Amely Martínez — pending
@@ -67,7 +67,7 @@ Progress:26 profiles updated live through batch1000;7 bounded reviews without ad
 - Mohammad Baqer Saad Dawood Al-Saadi — pending
 - Bill Wahl — pending
 - Geoffrey Parsons — pending
-- Audrey Carroll — pending
+- Audrey Carroll — verified_addition_live_batch1001
 - Sharon Williams — pending
 - Mike Tkach — pending
 - Barney Lee Ross — pending
@@ -76,7 +76,7 @@ Progress:26 profiles updated live through batch1000;7 bounded reviews without ad
 - Sofia DeFerrari — pending
 - Yorie von Kahl — pending
 - Elias Rodriguez — pending
-- Lenore Yarger — pending
+- Lenore Yarger — bounded_review_no_addition_batch1001
 - Bartolomeo Vanzetti — pending
 - Ignatz Mizher — verified_addition_live_batch993
 - Peter Grimm — pending
@@ -92,13 +92,13 @@ Progress:26 profiles updated live through batch1000;7 bounded reviews without ad
 - A. G. Graham — pending
 - Andrew Mickel — verified_addition_live_batch991
 - Alex Harrison — pending
-- Charles A. Tuller — pending
+- Charles A. Tuller — verified_addition_live_batch1001
 - Regan Darby Prater — verified_addition_live_batch986
 - James Albert McGlynn — bounded_review_no_verified_addition_batch994
 - Rev. Joy Powell — pending
 - Hridindu Roychowdhury — verified_addition_live_batch985
 - Conrad Kornmann — verified_addition_live_batch994
-- Zachary Page — pending
+- Zachary Page — verified_addition_live_batch1001
 - Loay Abdel Fattah Alnaji — verified_addition_live_batch989
 - Diego Vargas — pending
 - Diego Alfonso Navarrete Beltran — pending
