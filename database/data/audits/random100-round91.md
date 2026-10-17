@@ -1,0 +1,106 @@
+# Random100 round91
+
+Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
+
+Progress:2 profiles updated live in batch985;98 pending. Not100 completed.
+
+- Cameron Monte Smith — pending
+- Victor Devon Edwards — pending
+- Floyd Lee Corkins II — pending
+- James McInerney — pending
+- Charles Nusser — pending
+- Alexander Stokes Contompasis — pending
+- Dwight Freeman — pending
+- Jesús M. Balzac — pending
+- Brian DiPippa — pending
+- John J. Ford — pending
+- Tony Stafford — pending
+- Marquon Clark — pending
+- Luis A. Amely Martínez — pending
+- Tyler Robinson — pending
+- Byron Chubbuck — pending
+- J. C. Garland — pending
+- Susan Kent — pending
+- Lehman Brightman — pending
+- Mikhail Yakovlev — pending
+- Simon Engle — pending
+- Michael Sam Teekaye Jr. — pending
+- Ben Thomas — pending
+- Shukri Abu-Baker — pending
+- Maricela Rueda — pending
+- Robert E. Edmondson — pending
+- Jason Watson — pending
+- Hadi Matar — pending
+- Malik El-Amin — pending
+- Gazi Ibrahim Abu Mezer — pending
+- John Wills — pending
+- Mohamed Sabry Soliman — pending
+- Pete Carbonay — pending
+- Donta Betts — pending
+- Everett R. Fisher — pending
+- Roberto Rivera — pending
+- Ronald Reed — pending
+- Roman Sterlingov — pending
+- Sidor Drankovich — pending
+- Joseph Shine White Stewart — pending
+- Peter Urgel — pending
+- Jeffrey A. Paterson — pending
+- Michael J. Mandel — pending
+- Hanif Shabazz Bey — pending
+- Willow Cordes-Eklund — pending
+- J. McNichols — pending
+- Lourdes Santana Melecio — pending
+- Paul Hyon Kim — pending
+- Isaih Houston — pending
+- Carolyn DeLoatch — pending
+- John Pacheta — pending
+- Stephen Reid — pending
+- Dr. Aafia Siddiqui — pending
+- Seth Sikes — pending
+- Mike Sun — verified_addition_live_batch985
+- Asif William Rahman — pending
+- Henry Parker — pending
+- Elpidio Reyna — pending
+- Joy Gibson — pending
+- Joseph Brinton “Brint” Dillingham — pending
+- George E. Elstun — pending
+- Mohammad Baqer Saad Dawood Al-Saadi — pending
+- Bill Wahl — pending
+- Geoffrey Parsons — pending
+- Audrey Carroll — pending
+- Sharon Williams — pending
+- Mike Tkach — pending
+- Barney Lee Ross — pending
+- Monzer Al Kassar — pending
+- Kamau Sadiki — pending
+- Sofia DeFerrari — pending
+- Yorie von Kahl — pending
+- Elias Rodriguez — pending
+- Lenore Yarger — pending
+- Bartolomeo Vanzetti — pending
+- Ignatz Mizher — pending
+- Peter Grimm — pending
+- Alex Saab — pending
+- Will Bradbury — pending
+- Raymond Johnson — pending
+- John W. Penrod — pending
+- Francisco Silva — pending
+- Francisco Javier Roman-Bardales — pending
+- Arthur Majid Barnes — pending
+- T. Luesse — pending
+- Peter Karasev — pending
+- A. G. Graham — pending
+- Andrew Mickel — pending
+- Alex Harrison — pending
+- Charles A. Tuller — pending
+- Regan Darby Prater — pending
+- James Albert McGlynn — pending
+- Rev. Joy Powell — pending
+- Hridindu Roychowdhury — verified_addition_live_batch985
+- Conrad Kornmann — pending
+- Zachary Page — pending
+- Loay Abdel Fattah Alnaji — pending
+- Diego Vargas — pending
+- Diego Alfonso Navarrete Beltran — pending
+- Robert Joyner — pending
+- John Thomas — pending
