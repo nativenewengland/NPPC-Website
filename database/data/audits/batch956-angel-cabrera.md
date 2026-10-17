@@ -4,4 +4,4 @@ Original Daily Worker November30,1932 pp1/3, first-person interview at Raiford, 
 
 Source: https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n286-NY-nov-30-1932-DW-LOC.pdf#page=3
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. All unrelated case and prisoner fields preserved. Public page rendering not separately verified.
