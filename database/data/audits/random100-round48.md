@@ -1,0 +1,123 @@
+# Random100 review — round48
+
+All100 fresh sampled profiles received bounded name/context searches; actionable leads received targeted checks. This is not exhaustive archival research. Added 15 missing case fields, two identifiers, one approximate birth year and one portrait across 10 profiles. Existing biographies,photos and populated fields preserved. No custody endpoint calculated from a sentence.
+
+Seed: NPPC-random100-round48-after-batch866
+
+| # | Profile | Outcome |
+|---|---|---|
+| 1 | [George Takao Matsuda](https://politicalprisonercoalition.org/prisoner/george-takao-matsuda) | Known camp transfer dates not final release; return voyage not assumed discharge. Identified face not retrieved. |
+| 2 | [Granville Martin](https://politicalprisonercoalition.org/prisoner/granville-martin) | Thirty-day term established but no exact admission or discharge found. |
+| 3 | [James White](https://politicalprisonercoalition.org/prisoner/james-white) | Primary verdict confirms conviction; pardon not assumed physical release. |
+| 4 | [Adam Charles Palermo](https://politicalprisonercoalition.org/prisoner/adam-charles-palermo) | Added actual-plea conviction detail,judge,prosecutors and court-calendar BOP number. Scheduled sentence not actual imposition. |
+| 5 | [Gerhart Eisler](https://politicalprisonercoalition.org/prisoner/gerhart-eisler) | Added primary contempt indictment. February4,1947 arrest and February2,1948 immigration detention distinct. Existing endpoint is bail grant,so no continuous counter created. |
+| 6 | [Patrick Croy](https://politicalprisonercoalition.org/prisoner/patrick-croy) | Registry confirms May31,1990 initial release already present and separate2005 discharge after probation imprisonment. Initial shootout night not exact arrest. Named photo download blocked. |
+| 7 | [Howard Mechanic](https://politicalprisonercoalition.org/prisoner/howard-mechanic) | Oral history and NARA pardon packet confirm separate1970 county imprisonment and February10,2000 federal return. Combined original case cannot receive one continuous interval without further restructuring; final physical discharge unresolved. |
+| 8 | [Edgecomb Pincho](https://politicalprisonercoalition.org/prisoner/edgecomb-pincho) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 9 | [Csaba John Csukas](https://politicalprisonercoalition.org/prisoner/csaba-john-csukas) | Named personal pages not sufficient identity match to case portrait; no unrelated profile image assigned. |
+| 10 | [G. Kowalski](https://politicalprisonercoalition.org/prisoner/g-kowalski) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 11 | [Samuel Yudkin](https://politicalprisonercoalition.org/prisoner/samuel-yudkin) | Appellate reversal not proof of discharge; sentence imposition not actual admission. |
+| 12 | [Julius Firestone](https://politicalprisonercoalition.org/prisoner/julius-firestone) | Camp death not proof of initial arrest or formal individual criminal sentence. |
+| 13 | [Tom Forcade](https://politicalprisonercoalition.org/prisoner/tom-forcade) | Explosives acquittal year already described; exact confinement endpoints unresolved. |
+| 14 | [John Cresswell](https://politicalprisonercoalition.org/prisoner/john-cresswell) | Australian JohnCresswell is unrelated to WhiskeyRebellion detainee. |
+| 15 | [Saundra Pratt](https://politicalprisonercoalition.org/prisoner/saundra-pratt) | Added exact-pixel crop from individually captioned historical photograph. Arrest already present; confinement day not guessed. |
+| 16 | [Masafumi Imai](https://politicalprisonercoalition.org/prisoner/masafumi-imai) | Museum arrest and release dates already present; draft sentence not admission. |
+| 17 | [Carl Ross](https://politicalprisonercoalition.org/prisoner/carl-ross) | LOC1938 named portrait found but direct asset requests blocked; no photograph assigned.1954 handcuff photo caption also found; exact discharge unresolved. |
+| 18 | [Francis Mel Madden](https://politicalprisonercoalition.org/prisoner/francis-mel-madden) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 19 | [James T. Rowland](https://politicalprisonercoalition.org/prisoner/james-t-rowland) | Roster confirms Lompoc confinement but no individual entry or exit day. |
+| 20 | [Robert Telles](https://politicalprisonercoalition.org/prisoner/robert-telles) | SleepyLagoon appeal reversal not exact prison admission. Different first/second-degree descriptions in sources flagged,not overwritten. |
+| 21 | [Israel Medina Colón](https://politicalprisonercoalition.org/prisoner/israel-medina-colon) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 22 | [Rachel Montgomery](https://politicalprisonercoalition.org/prisoner/rachel-montgomery) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 23 | [Gerry McGeough](https://politicalprisonercoalition.org/prisoner/gerry-mcgeough) | German arrest,May1992 extradition and1994 sentenced custody distinct; existing second-case endpoint precedes its start and needs separate correction audit. |
+| 24 | [Otis Kent](https://politicalprisonercoalition.org/prisoner/otis-kent) | Roster confirms military confinement but no exact interval. |
+| 25 | [Warren E. Sumlin, Sr.](https://politicalprisonercoalition.org/prisoner/warren-e-sumlin-sr) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 26 | [Andrew Gorby](https://politicalprisonercoalition.org/prisoner/andrew-gorby) | Administrative conscientious discharge not prison custody; no case manufactured. |
+| 27 | [Otho Grayson Bell](https://politicalprisonercoalition.org/prisoner/otho-grayson-bell) | Return-to-US military arrest distinct from POW captivity; exact initial release unresolved. |
+| 28 | [Robert Woods](https://politicalprisonercoalition.org/prisoner/robert-woods) | SanQuentin dates already populated; no namesake portrait used. |
+| 29 | [Crisanto Biadoy](https://politicalprisonercoalition.org/prisoner/crisanto-biadoy) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 30 | [John McRae](https://politicalprisonercoalition.org/prisoner/john-mcrae) | Added three-year imposed term. State syndicalism context conflicts with federal charge label; no expiration arithmetic. |
+| 31 | [I. Adamson Thomas](https://politicalprisonercoalition.org/prisoner/i-adamson-thomas) | Maryland legislator not master gunner ThomasAdamson; no portrait identity established. |
+| 32 | [Joshua Simpson](https://politicalprisonercoalition.org/prisoner/joshua-simpson) | Named JoshSimpson protest image found but no individual arrest established; no confinement dates invented. |
+| 33 | [Ruchelle Ogden](https://politicalprisonercoalition.org/prisoner/ruchelle-ogden) | Group sentencing range not individual sentence; no speculative portrait. |
+| 34 | [Bert Hanson](https://politicalprisonercoalition.org/prisoner/bert-hanson) | Farmer portrait not established from generic BertHanson sources. |
+| 35 | [Petra Barreras del Río](https://politicalprisonercoalition.org/prisoner/petra-barreras-del-rio) | Museum curator exact name found but portrait/custody identity match remains unresolved. |
+| 36 | [John Subleski](https://politicalprisonercoalition.org/prisoner/john-subleski) | Added actual judge and prosecution team. Primary July2021 time-served sentence conflicts with populated2022release; preserved and flagged. |
+| 37 | [Chioke Auden Fugate](https://politicalprisonercoalition.org/prisoner/chioke-auden-fugate) | Contemporary arrest/explosives reports found; no verified individual portrait retrieved. |
+| 38 | [Edward Woodworth](https://politicalprisonercoalition.org/prisoner/edward-woodworth) | Primary appellate opinion confirms prison execution of sentence but no discharge day. |
+| 39 | [Nobuyuki Yoshimoto](https://politicalprisonercoalition.org/prisoner/nobuyuki-yoshimoto) | JCCH parole and release-from-parole dates distinct; existing custody interval preserved. |
+| 40 | [Samuel D. Levine](https://politicalprisonercoalition.org/prisoner/samuel-d-levine) | Probation sentence not proof of imprisonment; no new interval. |
+| 41 | [Wilson W. Sánchez](https://politicalprisonercoalition.org/prisoner/wilson-w-sanchez) | Generic Vieques roster remains without individual custodial endpoints. |
+| 42 | [Zenzo Kisada](https://politicalprisonercoalition.org/prisoner/zenzo-kisada) | SantaFe departure and returnvoyage not final discharge proof. |
+| 43 | [Harry Belafonte](https://politicalprisonercoalition.org/prisoner/harry-belafonte) | Brief embassy processing not automatically overnight incarceration; arrest already present. |
+| 44 | [Héctor Guillermo Diaz](https://politicalprisonercoalition.org/prisoner/hector-guillermo-diaz) | Colombian lawyer HectorGuillermoDiaz is namesake,not identified Vieques defendant. |
+| 45 | [Armando Torres Ortíz](https://politicalprisonercoalition.org/prisoner/armando-torres-ortiz) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 46 | [Charles F. Zademack](https://politicalprisonercoalition.org/prisoner/charles-f-zademack) | No retrievable individually identified photo or exact arrest established. |
+| 47 | [Edmund W. Sehon](https://politicalprisonercoalition.org/prisoner/edmund-w-sehon) | Methodist mission references lack verified individual military admission/release. |
+| 48 | [Enoch Reed](https://politicalprisonercoalition.org/prisoner/enoch-reed) | Conviction and death before sentence do not establish complete jail interval. |
+| 49 | [Julius Soich](https://politicalprisonercoalition.org/prisoner/julius-soich) | No additional verified missing field or retrievable identity-confirmed portrait established in bounded search; unchanged. |
+| 50 | [Joshua Ames Cartrette](https://politicalprisonercoalition.org/prisoner/joshua-ames-cartrette) | Actual misdemeanor complaint found; modern earlier criminal matters not same protest case. |
+| 51 | [Eva Harding](https://politicalprisonercoalition.org/prisoner/eva-harding) | Actual acquittal does not prove jail departure; no imposed sentence added. |
+| 52 | [James K. Holley](https://politicalprisonercoalition.org/prisoner/james-k-holley) | Initial search collision with SouthCarolina geologist rejected; KansasCityPanther identity still needs individual custody proof. |
+| 53 | [William H. Johnson](https://politicalprisonercoalition.org/prisoner/william-h-johnson) | Sit-in participant not automatically1961FreedomRider namesake; no custody inference. |
+| 54 | [Norma Gist](https://politicalprisonercoalition.org/prisoner/norma-gist) | Added shooting-with-intent-to-kill charge and December11,1970 arrest from individual court opinion. Initial cell custody not assumed continuous through appeal bond. |
+| 55 | [Eugene Dennis](https://politicalprisonercoalition.org/prisoner/eugene-dennis) | Added March1955 MONTH release to SmithAct case only; contempt and unservedCalifornia cases preserved. |
+| 56 | [Ollie Dawson](https://politicalprisonercoalition.org/prisoner/ollie-dawson) | Union-frame-up claim not exact conviction/admission proof. |
+| 57 | [Eugene Jessup](https://politicalprisonercoalition.org/prisoner/eugene-jessup) | AnthonyEugeneJessup Massachusetts defendant not confirmed as draft resister EugeneJessup. |
+| 58 | [Larry Roberson](https://politicalprisonercoalition.org/prisoner/larry-roberson) | July11,14,16,17 contradictory shootout dates in secondary sources; no exact arrest chosen. |
+| 59 | [Hugh Hazlett](https://politicalprisonercoalition.org/prisoner/hugh-hazlett) | Added December19,1864 discharge,November12,1858 sentence,register5324 andcirca1831 birth. Pardon applicationNovember21 not release. ExistingYEAR custody preserved. |
+| 60 | [Morris White](https://politicalprisonercoalition.org/prisoner/morris-white) | Conviction reversal not prison-release proof; no individual departure found. |
+| 61 | [Anthony Smyth](https://politicalprisonercoalition.org/prisoner/anthony-smyth) | Irish taxlawyer AnthonySmyth portrait rejected as unrelated to IRA defendant. |
+| 62 | [Artell Lancaster](https://politicalprisonercoalition.org/prisoner/artell-lancaster) | Existing eighteen-month narrative conflicts with actualrecorded endpoints; no unverified photo or newdate added. |
+| 63 | [Lawrence E. Mitchener](https://politicalprisonercoalition.org/prisoner/lawrence-e-mitchener) | Archive file index confirms identity but no individually dated prison interval retrieved. |
+| 64 | [Dorothy Holmes Schultz](https://politicalprisonercoalition.org/prisoner/dorothy-schultz) | Directed acquittal not proof of prison custody; no interval invented. |
+| 65 | [John Ruggles](https://politicalprisonercoalition.org/prisoner/john-ruggles) | Three-month imposed blasphemy term not arithmetic release date. |
+| 66 | [William Bryan](https://politicalprisonercoalition.org/prisoner/william-bryan) | Added four-year imposed term and qualified state conviction; existing identifier preserved,charge-label conflict flagged. |
+| 67 | [Peter Siepka](https://politicalprisonercoalition.org/prisoner/peter-siepka) | Camp assignment not confinement endpoint; no portrait from unnamed group. |
+| 68 | [Rebecca Ann Folley](https://politicalprisonercoalition.org/prisoner/rebecca-ann-folley) | Actual sentence/custody already recorded; no named original photo retrieved. |
+| 69 | [Julio Pinto Gandia](https://politicalprisonercoalition.org/prisoner/julio-pinto-gandia) | Ponce1937 proceedings distinct from later nationalist leadership conspiracy prosecutions; charges not transplanted. |
+| 70 | [Brad Gaskins](https://politicalprisonercoalition.org/prisoner/brad-gaskins) | Transfer to WalterReed medical care not proof of stockade imprisonment; no jail interval fabricated. |
+| 71 | [Johnny Baranski](https://politicalprisonercoalition.org/prisoner/johnny-baranski) | Multiple distinct nuclear-resistance cases and transfers; no single inferred release. |
+| 72 | [John Copeland Rogers](https://politicalprisonercoalition.org/prisoner/john-copeland-rogers) | FreedomRide arrest already present; no exact individual exit found. |
+| 73 | [Lucino Almeida](https://politicalprisonercoalition.org/prisoner/lucino-almeida) | Guam military-commission lead needs original-record date verification. |
+| 74 | [Toru Ino](https://politicalprisonercoalition.org/prisoner/toru-ino) | Museum confirms existing arrest and release; sentenced date not actual prison admission. |
+| 75 | [Melvin D. Hoit](https://politicalprisonercoalition.org/prisoner/melvin-d-hoit) | Later Spokane attorney MelvinHoit potentially same person but identity match not sufficient for portrait assignment. |
+| 76 | [Louis Lavine](https://politicalprisonercoalition.org/prisoner/louis-lavine) | Early1917 incident versus federal wartime label uncertain; no continuous custody guessed. |
+| 77 | [James True](https://politicalprisonercoalition.org/prisoner/james-true) | 1944 sedition indictment not proof of confinement; no propaganda-site portrait imported. |
+| 78 | [Matti Tenhunen](https://politicalprisonercoalition.org/prisoner/matti-tenhunen) | Helsinki Finnish arrest not US immigration custody; no US prison dates added. |
+| 79 | [Carlos E. Marrero](https://politicalprisonercoalition.org/prisoner/carlos-e-marrero) | PuertoRico physician CarlosMarrero not established as same activist; no personal contact data used. |
+| 80 | [George Tamaccio](https://politicalprisonercoalition.org/prisoner/george-tamaccio) | Contemporary conscientious-resister roster confirms Allenwood but no dates. |
+| 81 | [Philip D'Onofrio](https://politicalprisonercoalition.org/prisoner/philip-donofrio) | Actor VincentPhilipDOnofrio not the Salem peace activist; no namesake image. |
+| 82 | [Jorge Andrés Santiago](https://politicalprisonercoalition.org/prisoner/jorge-andres-santiago) | Initial probation and subsequent federal imprisonment distinct; existing December10,2004 endpoint preserved. |
+| 83 | [F.K. Boles](https://politicalprisonercoalition.org/prisoner/fk-boles) | Camp/month confinement already recorded; registration not arrest. |
+| 84 | [Waldemar J. Adams](https://politicalprisonercoalition.org/prisoner/waldemar-j-adams) | OCR Noy9,1017 not sufficient to assert exact sentencingday without original verification. |
+| 85 | [George Raymond Jr.](https://politicalprisonercoalition.org/prisoner/george-raymond-jr) | Arrest already present; GeorgeRaymondDevine Kansas criminal defendant unrelated. |
+| 86 | [Harry Drew](https://politicalprisonercoalition.org/prisoner/harry-drew) | Primary roster identifies HarryDrew sentence December18,1919 already reflected in custody; no exact arrest found. |
+| 87 | [Frank Collier](https://politicalprisonercoalition.org/prisoner/frank-collier) | Bail order and indictment not proof of multi-day imprisonment; author FrankCollier namesake rejected. |
+| 88 | [Gil W. Fowler](https://politicalprisonercoalition.org/prisoner/gil-w-fowler) | Pressmen strike action not automatically each defendants arrest date. |
+| 89 | [Casey Brezik](https://politicalprisonercoalition.org/prisoner/casey-brezik) | January24 support notice says home by then; not exact discharge day. |
+| 90 | [David Gilbert](https://politicalprisonercoalition.org/prisoner/david-gilbert) | Added original75years-to-life and clemency/parole qualification from counsel source. No sentence-to-duration substitution. |
+| 91 | [Wilfredo Toledo](https://politicalprisonercoalition.org/prisoner/wilfredo-toledo) | Newsphotographer detention narrative not exact duration or imposed criminalterm. |
+| 92 | [Sarah Tosi](https://politicalprisonercoalition.org/prisoner/sarah-tosi) | Named indictment biography but no individually identified retrievable portrait. |
+| 93 | [Thomas Patterson](https://politicalprisonercoalition.org/prisoner/thomas-patterson) | Philadelphia1777 exile distinct from Virginia Revolutionary soldier namesakes. |
+| 94 | [Patrick Moley](https://politicalprisonercoalition.org/prisoner/patrick-moley) | April1994 acquittal not exact physical release day. |
+| 95 | [Samuel Sterenstein](https://politicalprisonercoalition.org/prisoner/samuel-sterenstein) | Draft registration and court-martial defiance dates not assumed prison admission. |
+| 96 | [Barbara Easley-Cox](https://politicalprisonercoalition.org/prisoner/barbara-easley-cox) | DonaldCox fugitive charge not BarbaraEasleyCox personal arrest; no charge or US custody fabricated. |
+| 97 | [Morris Falk](https://politicalprisonercoalition.org/prisoner/morris-falk) | Draft registration not incarceration; no exact interval established. |
+| 98 | [Lisa Savage](https://politicalprisonercoalition.org/prisoner/lisa-savage) | Arrest and same-day release already present; no unsupported overnight interval. |
+| 99 | [Joseph Manning](https://politicalprisonercoalition.org/prisoner/joseph-manning) | Everett roster gives28yearold Pennsylvaniaborn automobile repairer; no exact birthday or identified portrait established. |
+| 100 | [Barry Cooper](https://politicalprisonercoalition.org/prisoner/barry-cooper) | Multiple2010 arrests on distinct allegations; generic blank case cannot safely receive one episode without identifying intended proceeding. |
+
+## Sources and qualifications
+
+Adam Charles Palermo: Primary DOJ April29,2026 actual plea report: https://www.justice.gov/usao-cdca/pr/six-california-men-plead-guilty-federal-charges-stemming-violence-against-chp-officers . April27 court calendar independently names judge and register number: https://apps.cacd.uscourts.gov/JpsApi/file/6b6dabc2-b12e-4e36-258e-08dea2101009 . Awaiting sentence; twenty-year maximum not imposed term. Existing August2025 MONTH custody preserved.
+Adam Charles Palermo: Primary US DistrictCourt April27,2026 calendar,case CR25-731(C)-JFW,AdamCharlesPalermo in custody: https://apps.cacd.uscourts.gov/JpsApi/file/6b6dabc2-b12e-4e36-258e-08dea2101009 . Register number printed04156-512. Scheduled guilty plea corroborated by actual DOJ report; no admission day inferred.
+Gerhart Eisler: Primary Eisler v.United States,170F.2d273: https://law.justia.com/cases/federal/appellate-courts/F2/170/273/1567880/ . Contempt indictment distinguished from February4,1947 immigration arrest and February2,1948 immigration detention. Existing March6,1948 endpoint described as bail grant; physical departure not independently established,so no start paired with it.
+John McRae: Stephen M.Kohn,American Political Prisoners(1994): https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html . Page164 identifies JohnMcRae of Eureka and SanQuentin entry April27,1924. Term expiration not a specific release day. Existing generic federal charge conflicts with state criminal-syndicalism context; preserved and flagged.
+John Subleski: Primary DOJ actual July27,2021 sentence: https://www.justice.gov/usao-wdky/pr/louisville-man-sentenced-riot-act . Time-served sentence and five-month custody conflict with populated February8,2022 release and description of probation instead of supervised release. Existing values preserved; no later endpoint asserted or calculated.
+Norma Gist: Primary Gist v.State,509P.2d149(OklaCrimApp1973): https://case-law.vlex.com/vid/gist-v-state-no-895247753 . Individual NormaJeanSpagnerGist,McCurtainCounty CRF70-210,ten-year sentence. Opinion gives December11,1970 surrender and ensuing cell confinement,not proof of custody continuity through later appeal bond. No incarceration interval invented; modern obituary namesake rejected.
+Eugene Dennis: Contemporary party memorial,Political Affairs March1961,states Dennis released from Atlanta in March1955 after five-year SmithAct sentence: https://www.marxists.org/history/usa/pubs/political-affairs/1961-03-40-3-political-affairs.pdf . MONTH precision only. Distinct1950contempt term and unservedCalifornia sentence unchanged. No invented exact day.
+Hugh Hazlett: Maryland StateArchives court-based case study gives November12,1858 Dorchester decision and December19,1864 pardon: https://msa.maryland.gov/megafile/msa/speccol/sc5300/sc5339/000053/000000/000017/unrestricted/00073.html . Penitentiary discharge register transcription explicitly records HowDischarged=Pardoned December19,1864,prisoner5324: https://enduringconnections.salisbury.edu/md_penitentary_records_msa/records . November21,1864 pardon application is not release. Existing1858YEAR admission preserved; November18register date not substituted for initial confinement.
+Hugh Hazlett: Maryland StateArchives biography explicitly says born in Ireland around1831: https://msa.maryland.gov/megafile/msa/speccol/sc5400/sc5496/003300/003387/html/003387bio.html . CIRCA YEAR only,not an exact birthday. Penitentiary register transcription gives prisoner5324: https://enduringconnections.salisbury.edu/md_penitentary_records_msa/records .
+William Bryan: Stephen M.Kohn,American Political Prisoners(1994): https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html . Page158 individually identifies WilliamBryan of Eureka,four-year term and April27,1924 entry. Existing39344 identifier preserved. State context does not match populated generic federal charge; no overwrite. No release inferred from imposed term.
+David Gilbert: CUNY SchoolofLaw SecondLookProject client table identifies DavidGilbert original75years-to-life sentence and clemency/parole outcome: https://www.law.cuny.edu/secondlookproject/our-clients/ . Clinic clemency announcement: https://www.law.cuny.edu/newsroom_post/clemency-granted-for-seven-defender-clinic-clients/ . Imposed term not time actually served; existing endpoint preserved.
+Saundra Pratt: BlackAugustArchives SouthCentralLA historical-sites document,page3,explicit SaundraRedPratt caption identifying GeronimoPratt wife and SouthernCaliforniaBPP member: https://www.blackaugustarchives.com/_files/ugd/330216_9d580ddb20e74dd1aa86782ca9a23be0.pdf . Embedded479x383 original image extracted; exact crop(280,80,450,300),retaining original pixels. Photographer uncredited; no open license asserted. Source PDF and caption retained locally. No biography or case date changed.
