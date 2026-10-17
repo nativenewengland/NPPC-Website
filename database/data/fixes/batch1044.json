@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Siobhan Browne",
+      "slug": "siobhan-browne",
+      "expected": {
+        "id": "f540d096-5d98-4209-94de-aada117e4e9c",
+        "prisoner_id": "6b64b89c-586e-4f3a-8fab-0d68a0580caf",
+        "institution_id": null,
+        "charges": "22 USC 2778 Arms Export Control Act; 18 USC 371 Conspiracy to Mail Weapons - 1999 IRA gun purchase",
+        "arrest_date": "1999-07-26 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2000-08-01 00:00:00",
+        "incarceration_date": "1999-07-26 00:00:00",
+        "release_date": "2001-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "20 months federal prison. Arrested and detained July 26, 1999; released from Tallahassee federal prison in January 2001. The release day is unverified: January 1 is a month-precision storage placeholder. A later interview reports seventeen months actually spent in jail, distinct from a later four-month halfway-house stay for a supervision violation. The displayed total uses that documented rounded duration, not the twenty-month sentence or a guessed release day.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 03:09:59",
+        "date_precision": "{\"release_date\":\"month\",\"sentenced_date\":\"month\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": 17,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Wilkie Ferguson",
+        "plead": "Guilty, March 2000"
+      },
+      "source": "https://www.independent.ie/irish-news/florida-court-jails-woman-for-ira-gun-running-role/26111591.html",
+      "research_note": "Contemporary courtroom report by Marianne Armshaw explicitly names sentencing judge Wilkie Ferguson and March plea. Corroborated by Guardian May2,2000 courtroom account and LA Times August16 sentencing report. Existing month-precision sentence/release and documented actual duration preserved; no exact release day inferred."
+    }
+  ]
+}
