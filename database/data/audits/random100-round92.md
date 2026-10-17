@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:37 profiles updated live through batch1038;1 bounded review without additions;62 pending. Not100 completed.
+Progress:40 profiles updated live through batch1039;1 bounded review without additions;59 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -32,7 +32,7 @@ Progress:37 profiles updated live through batch1038;1 bounded review without add
 - Evgraf Kovalenko — pending
 - William Lonergan Hill — verified_addition_live_batch1024
 - Teruo Konishi — pending
-- Jessica Bowie — pending
+- Jessica Bowie — verified_addition_live_batch1039
 - Joshua Schulte — verified_addition_live_batch1026
 - Hashem Younis Hashem Hnaihen — verified_addition_live_batch1024
 - Timothy Reed — pending
@@ -46,7 +46,7 @@ Progress:37 profiles updated live through batch1038;1 bounded review without add
 - Salvador Tió — pending
 - Thomas Weir Pauken II — bounded_review_no_verified_addition_batch1028
 - Kyle Calvert — verified_addition_live_batch1025
-- Jordan W. Rincker — pending
+- Jordan W. Rincker — verified_addition_live_batch1039
 - Siobhan Browne — pending
 - Bhavika Anandpura — pending
 - Walter Marks — pending
@@ -55,7 +55,7 @@ Progress:37 profiles updated live through batch1038;1 bounded review without add
 - Carl Marzani — verified_addition_live_batch1034
 - Joshua Williams — pending
 - Abu Agila Mohammad Mas’ud Kheir Al-Marimi — pending
-- Michael Alan Thomas — pending
+- Michael Alan Thomas — verified_addition_live_batch1039
 - Martin Gunderson — pending
 - Ed Poindexter — verified_addition_live_batch1034
 - Troy Desson — pending
