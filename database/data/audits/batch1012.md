@@ -7,3 +7,5 @@ Roberto Rivera: https://theridgewoodblog.net/nj/occupy-wall-street/
 Robert E. Edmondson: https://text-message.blogs.archives.gov/2013/08/28/a-glimpse-into-the-sedition-case-of-1944/
 
 Corroboration Rogge: https://rijha.org/wp-content/uploads/voiceandherald/volumes-1944/04.28.1944.pdf . Rivera 2019sentence already populated, death not converted torelease; oldimmigrationorothernamesakes excluded.
+
+Live October17: dry run, apply, idempotent replay and full raw preservation verified. Public HTML not checked.
