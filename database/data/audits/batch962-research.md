@@ -4,4 +4,4 @@ Read the complete contemporary November17,2009 Quad-City Times courtroom report 
 
 Fills missing custody/arrest event date November17,2009, Judge John Jarvey and prosecutor Cliff Cronk. This was civil-contempt commitment after refusing grand-jury testimony, not an arrest or conviction for the underlying laboratory action. Existing commitment and release dates, sentence, biography and photograph are preserved. Full raw snapshot guards and idempotent replay.
 
-Deployment verification pending.
+Applied live October17,2026. Dry run, actual run and idempotent replay succeeded. Fresh raw readback verified every prisoner field and unrelated case field unchanged, including both custody endpoints and the existing 122-day total.
