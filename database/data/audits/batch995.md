@@ -7,3 +7,5 @@ VictorDevonEdwards: fill missing sentencing date December29,2021 and JudgePatric
 https://www.justice.gov/usao-nd/pr/us-attorneys-office-announce-canadian-man-sentenced-25-years-federal-prison-destruction
 
 https://www.justice.gov/usao-mn/pr/st-paul-man-sentenced-100-months-prison-arson-and-riot-during-august-2020-riots-downtown ; AP December30,2021 via CourtTV: sentenced Wednesday. https://www.courttv.com/latest-news/page/301/
+
+Live October17,2026: dry run, application, idempotent replay and full raw readback passed. Unrelated fields preserved; public HTML not independently verified.
