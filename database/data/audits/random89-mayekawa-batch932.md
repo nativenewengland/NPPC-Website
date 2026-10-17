@@ -6,7 +6,7 @@ Source: https://commons.wikimedia.org/wiki/File:No._4959_USA_vs_Masao_Mayekawa_-
 
 NARA senior archivist Ken House describes the original McNeil intake register and identifies receipt July 10, 1944: https://discovernikkei.org/en/journal/2013/6/22/nara-seattle-2/ . This is later than documented Marshal custody; do not substitute the transfer for an initial custody date. His article says WWII McNeil inmate photos/files were destroyed. No portrait identified; unrelated businessman Masao Maekawa excluded. Existing July 1946 release month preserved, not newly corroborated.
 
-Updated exact sentencing, prosecutor and supporting case note only. Full raw guard, no biography/portrait/custody-endpoint changes. Deployment pending. The 100-profile external review is unfinished.
+Updated exact sentencing, prosecutor and supporting case note only. Full raw guard, no biography/portrait/custody-endpoint changes. Applied live: dry run, write, idempotent replay and independent raw database readback passed. Entire prisoner record and all unrelated case fields preserved. Public page rendering remains unverified. The 100-profile external review is unfinished.
 
 Additional source checks: Nasser Ahmed existing endpoints already match previously recorded congressional testimony; ACLU November 1999 press release names judge Donn Livingston, but no judge change prepared in this batch. Jean Montrevil dates match contemporary DWN statement; a later complaint contains conflicting January 9 versus January 16 deportation date, so no endpoint change. Keteltas scholarly sources suggest March 1796 imprisonment but original legislative record not located; no new exact endpoint inferred. Leacock contemporary clemency report confirms six months already recorded; no new exact endpoint.
 
