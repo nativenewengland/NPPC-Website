@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:58 profiles updated live through batch1019;28 bounded reviews without additions;14 pending. Not100 completed.
+Progress:59 profiles updated live through batch1020;28 bounded reviews without additions;13 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -84,7 +84,7 @@ Progress:58 profiles updated live through batch1019;28 bounded reviews without a
 - Will Bradbury — bounded_review_no_verified_addition_co_rosters
 - Raymond Johnson — verified_addition_live_batch1008
 - John W. Penrod — bounded_review_no_verified_addition_batch994
-- Francisco Silva — pending
+- Francisco Silva — verified_addition_live_batch1020
 - Francisco Javier Roman-Bardales — verified_addition_live_batch1003
 - Arthur Majid Barnes — bounded_review_no_verified_addition_batch1017
 - T. Luesse — verified_addition_live_batch1015
