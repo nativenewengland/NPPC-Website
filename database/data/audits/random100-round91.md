@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:56 profiles updated live through batch1017;17 bounded reviews without additions;27 pending. Not100 completed.
+Progress:56 profiles updated live through batch1017;21 bounded reviews without additions;23 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -22,7 +22,7 @@ Progress:56 profiles updated live through batch1017;17 bounded reviews without a
 - J. C. Garland — pending
 - Susan Kent — verified_addition_live_batch998
 - Lehman Brightman — bounded_review_no_verified_addition_batch990
-- Mikhail Yakovlev — pending
+- Mikhail Yakovlev — bounded_review_no_verified_addition_deportees
 - Simon Engle — pending
 - Michael Sam Teekaye Jr. — verified_addition_live_batch1002
 - Ben Thomas — pending
@@ -41,9 +41,9 @@ Progress:56 profiles updated live through batch1017;17 bounded reviews without a
 - Roberto Rivera — verified_addition_live_batch1012
 - Ronald Reed — verified_addition_live_batch1004
 - Roman Sterlingov — verified_addition_live_batch997
-- Sidor Drankovich — pending
+- Sidor Drankovich — bounded_review_no_verified_addition_deportees
 - Joseph Shine White Stewart — pending
-- Peter Urgel — pending
+- Peter Urgel — bounded_review_no_verified_addition_deportees
 - Jeffrey A. Paterson — verified_addition_live_batch990
 - Michael J. Mandel — pending
 - Hanif Shabazz Bey — verified_addition_live_batch1013
@@ -69,7 +69,7 @@ Progress:56 profiles updated live through batch1017;17 bounded reviews without a
 - Geoffrey Parsons — pending
 - Audrey Carroll — verified_addition_live_batch1001
 - Sharon Williams — pending
-- Mike Tkach — pending
+- Mike Tkach — bounded_review_no_verified_addition_deportees
 - Barney Lee Ross — pending
 - Monzer Al Kassar — verified_addition_live_batch988
 - Kamau Sadiki — verified_addition_live_batch1006
