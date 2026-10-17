@@ -4,4 +4,4 @@ Original Chicago Daily Socialist October21,1909 page1, “To Investigate Murray 
 
 Source: https://www.marxists.org/history/usa/pubs/chicago-daily-socialist/1909/091021-chicagodailysocialist-v03n303.pdf#page=1
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. All unrelated prisoner and case fields preserved. Public page rendering not separately verified.
