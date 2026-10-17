@@ -1,0 +1,77 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Dr. Aafia Siddiqui",
+      "slug": "dr-aafia-siddiqui",
+      "expected": {
+        "id": "5aaacb4a-b392-461b-a266-4bae24277a3b",
+        "prisoner_id": "989a6d02-9ba3-41d2-b23a-4c345474d5c2",
+        "institution_id": null,
+        "charges": "Terrorism",
+        "arrest_date": "2008-07-17 00:00:00",
+        "indicted": "Sep 1st 2008",
+        "convicted": "Feb 2nd 2010",
+        "plead": null,
+        "sentenced_date": "2010-09-23 00:00:00",
+        "incarceration_date": "2008-08-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "86 years in federal prison, imposed September 23, 2010. U.S. pretrial detention began in August 2008; exact prison admission day remains unverified. The August 4 transfer to the United States is distinct from July 17 Afghan police detention and subsequent guarded hospital custody.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-13 23:08:28",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Richard M. Berman",
+        "prosecutor": "Christopher L. Lavigne; David M. Rody; Jenna M. Dabbs"
+      },
+      "source": "https://archives.fbi.gov/archives/newyork/press-releases/2010/nyfo092310.htm"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Elpidio Reyna",
+      "slug": "elpidio-reyna",
+      "expected": {
+        "id": "c55bacef-a0da-46f5-962a-b32ccee3194f",
+        "prisoner_id": "a0ab6d73-c4ac-4258-a70f-77ddd576c4ef",
+        "institution_id": null,
+        "charges": "Assault on a federal officer with a deadly or dangerous weapon resulting in bodily injury.",
+        "arrest_date": "2025-07-23 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 guilty plea entered.",
+        "plead": "Guilty on February 17, 2026.",
+        "sentenced_date": "2026-09-11 00:00:00",
+        "incarceration_date": "2025-07-23 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Fernando L. Aenlle-Rocha",
+        "sentence": "Thirty-six months in federal prison.",
+        "imprisoned_for_days": 451,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-30 01:04:45",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Brenda N. Galv\u00e1n"
+      },
+      "source": "https://www.justice.gov/usao-cdca/pr/compton-man-sentenced-3-years-federal-prison-injuring-federal-officer-during-anti"
+    }
+  ]
+}
