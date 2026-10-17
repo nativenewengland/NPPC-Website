@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Diego Alfonso Navarrete Beltran",
+      "slug": "diego-alfonso-navarrete-beltran",
+      "expected": {
+        "id": "7d734ece-f072-409a-a0d8-9d2964fa12c5",
+        "prisoner_id": "f9d97bf4-b813-4150-97b6-dec04e49fae6",
+        "institution_id": null,
+        "charges": "18 USC 1203 conspiracy to commit hostage-taking; 18 USC 924(c); 18 USC 2339A, 2339B material support",
+        "arrest_date": "2010-12-13 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2015-11-10 00:00:00",
+        "incarceration_date": "2010-12-13 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "324 months federal prison + 2 years supervised release",
+        "imprisoned_for_days": 5787,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Royce C. Lamberth",
+        "prosecutor": "Kenneth Kohl; Fernando Campoamor-Sanchez; David Cora",
+        "plead": "Guilty on August 26, 2015 to three counts of hostage-taking.",
+        "indicted": "February 2011 \u2014 superseding federal indictment (month precision)."
+      },
+      "source": "https://www.justice.gov/usao-dc/pr/member-colombian-terrorist-organization-sentenced-27-years-prison-hostage-taking-three-us"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Michael Sam Teekaye Jr.",
+      "slug": "michael-sam-teekaye-jr",
+      "expected": {
+        "id": "1ee71a58-4865-47b5-8ca6-c17faafb0996",
+        "prisoner_id": "39ae693f-3d9e-4580-bde4-e77c633d54d7",
+        "institution_id": null,
+        "charges": "Attempting to provide material support to ISIS.",
+        "arrest_date": "2024-10-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes.",
+        "plead": "Guilty.",
+        "sentenced_date": "2026-07-08 00:00:00",
+        "incarceration_date": "2024-10-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Fifteen years in federal prison followed by lifetime supervised release.",
+        "imprisoned_for_days": 733,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Adam B. Abelson",
+        "prosecutor": "Christina Hoffman, assisted by Elisa Poteat",
+        "indicted": "October 24, 2024 \u2014 federal grand jury, District of Maryland; attempted material support to ISIS and assaulting a federal officer."
+      },
+      "source": "https://www.justice.gov/opa/pr/maryland-man-sentenced-attempting-provide-material-support-isis"
+    }
+  ]
+}
