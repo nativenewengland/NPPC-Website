@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:22 profiles updated live through batch1031;1 bounded review without additions;77 pending. Not100 completed.
+Progress:23 profiles updated live through batch1032;1 bounded review without additions;76 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -91,7 +91,7 @@ Progress:22 profiles updated live through batch1031;1 bounded review without add
 - Daniel Edmund Duggan — pending
 - Fornandous Henderson — pending
 - Lotta Burke — pending
-- Theodore Kaczynski — pending
+- Theodore Kaczynski — verified_addition_live_batch1032
 - Dante Gaffield — pending
 - Jim Forest — pending
 - Hugo Carvajal — pending
