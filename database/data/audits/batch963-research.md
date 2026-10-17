@@ -4,4 +4,4 @@ Helen Woodson: original Nukewatch Pathfinder Fall2002 printed4/PDF5, introductio
 
 Larry Medley: FBI Vault Part34 indexed contemporary report explicitly places return after appeal bond in late January1973. Month precision only, no day inferred. The live PDF text confirms actual sentence custody by February8,1973; direct download and screenshots were unavailable. State v. Jennings,192 S.E.2d46, identifies State appellate counsel and appeal dates. No continuous custody since1971 assumed; release unresolved.
 
-Biographies and unrelated fields preserved. Deployment verification pending.
+Biographies and unrelated fields preserved. Applied live October17,2026; dry run, application and idempotent replay passed. Fresh raw readback verified both biographies and all unrelated prisoner/case fields unchanged. Partial dates retain their precision; no exact duration inferred.
