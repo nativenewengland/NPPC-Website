@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Samuel Lippman",
+      "slug": "samuel-lippman",
+      "expected": {
+        "id": "b76222cd-8a0a-4b8e-afe1-e7f30dae86db",
+        "prisoner_id": "f8a442ad-1f7f-4684-94bf-2f8e37a23021",
+        "institution_id": null,
+        "charges": "Federal prosecution under the Espionage Act of 1917 and/or the Sedition Act of 1918.",
+        "arrest_date": "1918-08-23 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1921-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty-year sentence in the Abrams prosecution, not five years. Initially arrested August 23, 1918 and held at the Tombs; later released on bail. Steimer learned in January 1920 that Lipman had been recaptured attempting to reach Mexico; the men were subsequently imprisoned in Atlanta. The former 1919 admission year and Leavenworth assignment are not supported by this account. The exact start of the final custody period remains unresolved. Deportation to Russia followed in November 1921; the existing year-level release remains conservative.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:56",
+        "updated_at": "2026-10-15 02:19:33",
+        "date_precision": "{\"release_date\":\"year\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1918-10-25 00:00:00",
+        "judge": "Henry D. Clayton",
+        "date_precision": "{\"release_date\":\"year\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "MilwaukeeLeader October26,1918 printed1 contemporary report, transcribed by TimDavenport: explicitly names SamuelLippman among defendants sentenced lateFridayOctober25 and JudgeHenryD.Clayton. https://www.marxists.org/history/usa/parties/spusa/1918/1026-leader-russiansjailed.pdf"
+    }
+  ]
+}
