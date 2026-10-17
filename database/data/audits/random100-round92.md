@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:27 profiles updated live through batch1034;1 bounded review without additions;72 pending. Not100 completed.
+Progress:29 profiles updated live through batch1035;1 bounded review without additions;70 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -69,7 +69,7 @@ Progress:27 profiles updated live through batch1034;1 bounded review without add
 - Harry Lux — pending
 - Pascale Cecile Veronique Ferrier — verified_addition_live_batch1026
 - Tina Lai — pending
-- Matthew Hale — pending
+- Matthew Hale — verified_addition_live_batch1035
 - Mohammad Sharifullah — pending
 - Leon Blum — pending
 - Ray Edmerson — pending
@@ -94,7 +94,7 @@ Progress:27 profiles updated live through batch1034;1 bounded review without add
 - Theodore Kaczynski — verified_addition_live_batch1032
 - Dante Gaffield — pending
 - Jim Forest — verified_addition_live_batch1033
-- Hugo Carvajal — pending
+- Hugo Carvajal — verified_addition_live_batch1035
 - Ida Craddock — pending
 - Burt Lorton — pending
 - William Hockett — pending
