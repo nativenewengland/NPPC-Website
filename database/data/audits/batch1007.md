@@ -7,3 +7,5 @@ Dr. Aafia Siddiqui: https://archives.fbi.gov/archives/newyork/press-releases/201
 Elpidio Reyna: https://www.justice.gov/usao-cdca/pr/compton-man-sentenced-3-years-federal-prison-injuring-federal-officer-during-anti
 
 Rahman: https://www.justice.gov/opa/pr/former-cia-analyst-sentenced-over-three-years-prison-unlawfully-transmitting-top-secret
+
+Live October17: dry run, apply, idempotent replay and full raw preservation readback passed, including unchanged Rahman record. Public HTML not checked.
