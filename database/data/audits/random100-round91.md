@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:58 profiles updated live through batch1019;25 bounded reviews without additions;17 pending. Not100 completed.
+Progress:58 profiles updated live through batch1019;28 bounded reviews without additions;14 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -45,7 +45,7 @@ Progress:58 profiles updated live through batch1019;25 bounded reviews without a
 - Joseph Shine White Stewart — pending
 - Peter Urgel — bounded_review_no_verified_addition_deportees
 - Jeffrey A. Paterson — verified_addition_live_batch990
-- Michael J. Mandel — pending
+- Michael J. Mandel — bounded_review_no_verified_addition_co_rosters
 - Hanif Shabazz Bey — verified_addition_live_batch1013
 - Willow Cordes-Eklund — bounded_review_no_addition_batch1011
 - J. McNichols — pending
@@ -54,7 +54,7 @@ Progress:58 profiles updated live through batch1019;25 bounded reviews without a
 - Isaih Houston — pending
 - Carolyn DeLoatch — bounded_review_no_addition_batch1011
 - John Pacheta — verified_addition_live_batch992
-- Stephen Reid — pending
+- Stephen Reid — bounded_review_no_verified_addition_co_rosters
 - Dr. Aafia Siddiqui — verified_addition_live_batch1007
 - Seth Sikes — verified_addition_live_batch998
 - Mike Sun — verified_addition_live_batch985
@@ -81,7 +81,7 @@ Progress:58 profiles updated live through batch1019;25 bounded reviews without a
 - Ignatz Mizher — verified_addition_live_batch993
 - Peter Grimm — pending
 - Alex Saab — verified_addition_live_batch1016
-- Will Bradbury — pending
+- Will Bradbury — bounded_review_no_verified_addition_co_rosters
 - Raymond Johnson — verified_addition_live_batch1008
 - John W. Penrod — bounded_review_no_verified_addition_batch994
 - Francisco Silva — pending
