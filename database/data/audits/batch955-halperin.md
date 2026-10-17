@@ -6,4 +6,4 @@ Preserve biography and all prisoner fields. Biography’s December1955 Sovietmov
 
 Source: https://www.congress.gov/86/crecb/1960/08/26/GPO-CRECB-1960-pt13-7-1.pdf#page=54
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. Biography and unrelated fields were identical. Public HTML not separately verified.
