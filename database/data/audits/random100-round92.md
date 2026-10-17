@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:25 profiles updated live through batch1033;1 bounded review without additions;74 pending. Not100 completed.
+Progress:27 profiles updated live through batch1034;1 bounded review without additions;72 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -52,12 +52,12 @@ Progress:25 profiles updated live through batch1033;1 bounded review without add
 - Walter Marks — pending
 - Trenten Edward Barker — pending
 - Justin Raymond Colby — pending
-- Carl Marzani — pending
+- Carl Marzani — verified_addition_live_batch1034
 - Joshua Williams — pending
 - Abu Agila Mohammad Mas’ud Kheir Al-Marimi — pending
 - Michael Alan Thomas — pending
 - Martin Gunderson — pending
-- Ed Poindexter — pending
+- Ed Poindexter — verified_addition_live_batch1034
 - Troy Desson — pending
 - Meagan Morris — pending
 - Emilia Rodríguez — pending
