@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Alex Saab",
+      "slug": "alex-saab",
+      "expected": {
+        "id": "b246ce51-5d53-44cd-a355-4aa8ca87b38f",
+        "prisoner_id": "cc10e8a9-ed3f-40d3-bcd0-06474195f78d",
+        "institution_id": "74f4f7e2-1be8-4dca-8911-9b5a618d4302",
+        "charges": "Money laundering and conspiracy to commit money laundering (18 U.S.C. §§ 1956, 1957) — 8 counts in S.D.",
+        "arrest_date": "2020-06-11 00:00:00",
+        "indicted": "Jun 11th 2020",
+        "convicted": "No",
+        "plead": "Not-Guilty",
+        "sentenced_date": null,
+        "incarceration_date": "2020-06-11 00:00:00",
+        "release_date": "2023-12-20 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence imposed. Detained ~3.5 years total: ~16 months in Cape Verde (June 2020 - Oct 2021) before extradition to FDC Miami (Oct 16, 2021 - Dec 20, 2023). Released to Venezuela in exchange for 10 Americans.\n\nVerdict as recorded: No — released Dec 20, 2023 via Presidential clemency in U.S.-Venezuela prisoner swap\n\nCharges as recorded: Money laundering and conspiracy to commit money laundering (18 U.S.C. §§ 1956, 1957) — 8 counts in S.D. Fla. Alleged $350M moved out of Venezuela through U.S.-controlled accounts via fraudulent affordable-housing contracts. Pleaded not guilty; case ended via clemency.",
+        "imprisoned_for_days": 1287,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Robert N. Scola, Jr.",
+        "prosecutor": "Alexander Kramer; Kurt K. Lunkenheimer"
+      },
+      "source": "https://www.govinfo.gov/content/pkg/USCOURTS-flsd-1_19-cr-20450/pdf/USCOURTS-flsd-1_19-cr-20450-0.pdf",
+      "additional_source": "https://www.justice.gov/archives/opa/pr/colombian-businessman-charged-money-laundering-extradited-united-states-cabo-verde",
+      "research_note": "Original2019 prosecution: March18,2021 signed order identifies district judge Scola; Oct18,2021 DOJ identifies prosecuting attorneys Kramer and Lunkenheimer. Do not attach these officials to separate2026 case. Existing June11,2020 indictment/arrest conflict with original order July25,2019 indictment and June12,2020 CapeVerde detention flagged for reconciliation, not overwritten in missing-only pass."
+    }
+  ]
+}
