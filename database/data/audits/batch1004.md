@@ -9,3 +9,5 @@ Peter Karasev: https://www.justice.gov/opa/pr/engineer-sentenced-10-years-prison
 Mohamed Sabry Soliman: https://yellowscene.com/2026/05/07/man-pleads-guilty-to-all-charges-in-boulder-pearl-street-attack/
 
 Karasev unresolved material conflicts: DOJ December17,2025 says sentenced yesterday (December16) to120months, immediately remanded; database says126months and April28,2025 sentencing/incarceration. Do not equate earlier state/federal arrest to continuous confinement without docket review. Needs guarded factual correction after reconciling proceedings.
+
+Live October17: dry run, apply, idempotent replay and full raw preservation verified. Public HTML not checked.
