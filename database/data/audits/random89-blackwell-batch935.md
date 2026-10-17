@@ -8,6 +8,6 @@ Archived HTML retained at tmp/pdf-review-all/blackwell-decnotes.html. Its exact 
 
 Other bounded checks: John Vargo search returns unrelated sports/genealogy namesakes, no matching new custody endpoint. Otto Passow broad hits unrelated; retained unresolved. George Watt arrest supported by existing original DOJ bulletin, sentencing already populated; no initial/continuous custody endpoint newly verified. No changes for these three.
 
-Full case row guard; biography and all unrelated fields preserved. Deployment pending. Full100externalreview remains unfinished.
+Full case row guard; biography and all unrelated fields preserved. Dry run, live write, idempotent replay and independent full raw readback passed. All unrelated fields preserved across four queried profiles, including existing six actual months. Public page rendering not verified. Full100externalreview remains unfinished.
 
 Source HTML SHA256: 32472145f87ddcb93a2dc2e475dd5b6deea0c4902c0bf5714682606a4542a895
