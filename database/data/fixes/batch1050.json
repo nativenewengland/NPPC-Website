@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Sid Welsh",
+      "slug": "sid-welsh",
+      "expected": {
+        "id": "85872c0d-be5a-49a6-96b3-90b0d993b9b3",
+        "prisoner_id": "1ad1c6eb-f326-4ae0-861f-56c17d2ad730",
+        "institution_id": "cd75631e-cc3d-493c-a74e-01277506d637",
+        "charges": "Possession of blasting caps / explosives",
+        "arrest_date": "1976-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-09-23 23:25:58",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "Initial jury conviction; retrial granted, according to contemporary defense reports. Final disposition unverified."
+      },
+      "source": "https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.6.spr.1979.pdf",
+      "research_note": "Spring 1979 Breakthrough p28 explicitly reports initial conviction and right to retrial, corroborating October 1977 p58 defense statement. Populated missing procedural outcome with attribution and unresolved final disposition, not a claim of final conviction. No custody duration, imposed sentence or release inferred. Existing January 1, 1976 arrest and all biographies preserved. https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.3.oct.1977.pdf"
+    }
+  ]
+}
