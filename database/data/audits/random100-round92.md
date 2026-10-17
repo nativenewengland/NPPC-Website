@@ -2,14 +2,14 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:65 profiles updated live through batch1053;9 bounded reviews without additions;26 pending. Not100 completed.
+Progress:66 profiles updated live through batch1054;11 bounded reviews without additions;23 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — bounded_review_no_addition
 - Esmond Adams — bounded_review_no_addition
 - Zachary Evetts — verified_addition_live_batch1030
 - Yaakub Ira Vijandre — pending
-- Dwight Parker — pending
+- Dwight Parker — bounded_review_no_addition
 - Salem Seleiman — verified_addition_live_batch1045
 - Albert Lowery Grabill — pending
 - Pablo Paredes — verified_addition_live_batch1036
@@ -74,7 +74,7 @@ Progress:65 profiles updated live through batch1053;9 bounded reviews without ad
 - Leon Blum — pending
 - Ray Edmerson — pending
 - Luis Dalhet Hipolito — verified_addition_live_batch1041
-- Brian Simpson — pending
+- Brian Simpson — verified_addition_live_batch1054
 - Cody Balmer — verified_addition_live_batch1029
 - Jamison Wagner — verified_addition_live_batch1031
 - Tamako Matano — pending
@@ -88,7 +88,7 @@ Progress:65 profiles updated live through batch1053;9 bounded reviews without ad
 - Eric Hafner — verified_addition_live_batch1028
 - Luis Felipe Moreno Godoy — verified_addition_live_batch1027
 - Jamil Abdullah al-Amin — verified_addition_live_batch1043
-- Daniel Edmund Duggan — pending
+- Daniel Edmund Duggan — bounded_review_no_addition
 - Fornandous Henderson — verified_addition_live_batch1038
 - Lotta Burke — verified_addition_live_batch1033
 - Theodore Kaczynski — verified_addition_live_batch1032
@@ -120,3 +120,8 @@ Forrest Hostetler: Reviewed Waterloo Mennonite Archives primary court-martial fi
 Shaka Shakur: Reviewed primary Indiana Court of Appeals 2007 postconviction opinion and 2024 civil appeal. January 7, 2002 incident already recorded. Thomas Stefaniak is expressly the postconviction judge, not independently established original sentencing judge; July 25, 2003 is Pendleton transfer, not proven sentence hearing or initial incarceration. Separate 2005 dangerous-device plea not conflated with the 2002 attempted-murder prosecution. No exact missing sentence or actual release verified. https://law.justia.com/cases/indiana/court-of-appeals/2007/45a05-0702-pc-96-1.html ; https://cases.justia.com/indiana/court-of-appeals/2024-23a-ct-01564.pdf?ts=1713464001
 
 José Humberto Santos and Albert Lowery Grabill remain pending; no independently verified additions found in this pass.
+
+
+Dwight Parker: Reviewed official appellate decision 2025NYSlipOp02108. Existing Ackerman judge and June23,2022 judgment already present. Actual appellate decision April10,2025 conflicts stored February2025 prose; retained populated text and flagged reconciliation. Lee Kindlon/Emily Schultz are appellate representatives, not verified original trial prosecutors; no exact release proven. https://www.nycourts.gov/reporter/3dseries/2025/2025_02108.htm
+
+Daniel Edmund Duggan: Reviewed current DOJ pilot-training announcement. September2017 charges mentioned conflict with other reporting of 2016 indictment; no original indictment inspected, so not assigning a date. Beau Barnes/Sean Heiden are prosecutors of Brown in that release, not independently established Duggan counsel. Australian judicial-review dismissal is not criminal trial or release. Existing exact October21,2022 arrest remains. https://www.justice.gov/opa/pr/former-us-air-force-pilot-arrested-providing-defense-services-chinese-military
