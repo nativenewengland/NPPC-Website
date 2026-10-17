@@ -1,0 +1,106 @@
+# Random100 round92
+
+Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
+
+Progress:3 profiles updated live through batch1023;0 bounded reviews without additions;97 pending. Not100 completed.
+
+- Mildred Martínez — pending
+- Shaka Shakur — pending
+- Esmond Adams — pending
+- Zachary Evetts — pending
+- Yaakub Ira Vijandre — pending
+- Dwight Parker — pending
+- Salem Seleiman — pending
+- Albert Lowery Grabill — pending
+- Pablo Paredes — pending
+- Sid Welsh — pending
+- Christopher Tindal — pending
+- Abdul Azeez — pending
+- Rahmanullah Lakanwal — pending
+- José Humberto Santos — pending
+- Abdullah Ezzeldin Taha Mohamed Hassan — pending
+- Wayne Pharr — pending
+- Rebecca Morgan — pending
+- Casey Goonan — pending
+- Montez Terriel Lee Jr. — pending
+- Mumia Abu-Jamal — pending
+- Eugene Balthazar — pending
+- Savanna Batten — pending
+- David Michael Ansberry — verified_addition_live_batch1023
+- Forrest Hostetler — pending
+- Cliver Antonio Alcala Cordero — verified_addition_live_batch1023
+- Evgraf Kovalenko — pending
+- William Lonergan Hill — pending
+- Teruo Konishi — pending
+- Jessica Bowie — pending
+- Joshua Schulte — pending
+- Hashem Younis Hashem Hnaihen — pending
+- Timothy Reed — pending
+- Michael Kimble — pending
+- Jesse Van Camp — pending
+- Wilfredo Vélez Hernández — pending
+- Alexander Justin White — pending
+- Ricardo Palmera — pending
+- Fran Thompson — pending
+- Irving Aarons — pending
+- Salvador Tió — pending
+- Thomas Weir Pauken II — pending
+- Kyle Calvert — pending
+- Jordan W. Rincker — pending
+- Siobhan Browne — pending
+- Bhavika Anandpura — pending
+- Walter Marks — pending
+- Trenten Edward Barker — pending
+- Justin Raymond Colby — pending
+- Carl Marzani — pending
+- Joshua Williams — pending
+- Abu Agila Mohammad Mas’ud Kheir Al-Marimi — pending
+- Michael Alan Thomas — pending
+- Martin Gunderson — pending
+- Ed Poindexter — pending
+- Troy Desson — pending
+- Meagan Morris — pending
+- Emilia Rodríguez — pending
+- David Annarelli — pending
+- Roland Freeman — pending
+- Vance Boelter — pending
+- Siddique Abdullah Hasan — pending
+- Shamim Mafi — pending
+- Harry Lux — pending
+- Pascale Cecile Veronique Ferrier — pending
+- Tina Lai — pending
+- Matthew Hale — pending
+- Mohammad Sharifullah — pending
+- Leon Blum — pending
+- Ray Edmerson — pending
+- Luis Dalhet Hipolito — pending
+- Brian Simpson — pending
+- Cody Balmer — pending
+- Jamison Wagner — pending
+- Tamako Matano — pending
+- Abby Rampone — pending
+- Christian Frazee — pending
+- Keonne Rodriguez — verified_addition_live_batch1023
+- Nicolas Maduro Moros — pending
+- Mohammed Azharuddin Chhipa — pending
+- Mahmoud Amin Ya'qub Al-Muhtadi — pending
+- Kwame Shakur — pending
+- Eric Hafner — pending
+- Luis Felipe Moreno Godoy — pending
+- Jamil Abdullah al-Amin — pending
+- Daniel Edmund Duggan — pending
+- Fornandous Henderson — pending
+- Lotta Burke — pending
+- Theodore Kaczynski — pending
+- Dante Gaffield — pending
+- Jim Forest — pending
+- Hugo Carvajal — pending
+- Ida Craddock — pending
+- Burt Lorton — pending
+- William Hockett — pending
+- Sue Leon Africa — pending
+- Lynette Sharp — pending
+- Matthew Lee Comiskey — pending
+- Gilbert Parker — pending
+- Edward Stevenson — pending
+- Carter Miles Ledoux — pending
