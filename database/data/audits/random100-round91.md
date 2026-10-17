@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:44 profiles updated live through batch1009;11 bounded reviews without additions;45 pending. Not100 completed.
+Progress:46 profiles updated live through batch1010;12 bounded reviews without additions;42 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -11,7 +11,7 @@ Progress:44 profiles updated live through batch1009;11 bounded reviews without a
 - Charles Nusser — pending
 - Alexander Stokes Contompasis — verified_addition_live_batch999
 - Dwight Freeman — verified_addition_live_batch1000
-- Jesús M. Balzac — pending
+- Jesús M. Balzac — bounded_review_no_addition_batch1010
 - Brian DiPippa — bounded_review_conflict_requires_followup_batch986
 - John J. Ford — bounded_review_no_addition_batch1001
 - Tony Stafford — pending
@@ -77,7 +77,7 @@ Progress:44 profiles updated live through batch1009;11 bounded reviews without a
 - Yorie von Kahl — pending
 - Elias Rodriguez — verified_addition_live_batch1005
 - Lenore Yarger — bounded_review_no_addition_batch1001
-- Bartolomeo Vanzetti — pending
+- Bartolomeo Vanzetti — verified_addition_live_batch1010
 - Ignatz Mizher — verified_addition_live_batch993
 - Peter Grimm — pending
 - Alex Saab — pending
@@ -95,7 +95,7 @@ Progress:44 profiles updated live through batch1009;11 bounded reviews without a
 - Charles A. Tuller — verified_addition_live_batch1001
 - Regan Darby Prater — verified_addition_live_batch986
 - James Albert McGlynn — bounded_review_no_verified_addition_batch994
-- Rev. Joy Powell — pending
+- Rev. Joy Powell — verified_addition_live_batch1010
 - Hridindu Roychowdhury — verified_addition_live_batch985
 - Conrad Kornmann — verified_addition_live_batch994
 - Zachary Page — verified_addition_live_batch1001

@@ -9,3 +9,5 @@ Bartolomeo Vanzetti: https://www.mass.gov/info-details/sacco-vanzetti-the-trial
 Powell verified conflict: charges stored Immigration Offenses; appellate opinion confirms two counts first-degree burglary and one count second-degree assault. Preserved in missing-only pass, needs separate correction.
 
 Balzac bounded review without addition: Supreme Court opinion confirms five and four month imposed terms already stored. No actual admission/release or concurrent/consecutive ruling located; nine-month total is not proved time served. No dates added. https://supreme.justia.com/cases/federal/us/258/298/
+
+Live October17: dry run, application, idempotent replay and full raw preservation verified, including unchanged Balzac. Public HTML not checked.
