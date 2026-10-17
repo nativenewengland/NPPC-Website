@@ -13,3 +13,5 @@ Bounded follow-up checks, no additions:
 https://kenyonzimmer.com/red-scare-deportees/index-of-deportees/
 
 No biographies, existing photos, custody dates or status flags replaced. No estimated release or current exile duration asserted.
+
+Applied live October17,2026. Dry run, application and idempotent replay passed; complete raw readback verifies both additions and unchanged unrelated fields, biographies, photos, custody endpoints and case counts. Initial Git save failed because C: was full; no deploy occurred before successful retry. Removed only five generated preview PNGs from round90 (about9.1MiB), preserving source PDFs. Public HTML rendering not independently verified.
