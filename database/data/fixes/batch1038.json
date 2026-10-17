@@ -1,0 +1,80 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Christopher Tindal",
+      "slug": "christopher-tindal",
+      "expected": {
+        "id": "4f0659b9-e2df-408e-bc7e-70d5a81dc2be",
+        "prisoner_id": "1b91b7c1-3466-4cfc-b3ab-d27f3b6d4070",
+        "institution_id": "5d38faa9-0301-4a46-b518-8969da7ed6f3",
+        "charges": "Riot — arson of a Rochester, New York police car",
+        "arrest_date": "2020-05-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2020-05-29 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "5 years federal prison\n\nVerdict as recorded: Yes — guilty plea to riot count\n\nCharges as recorded: Riot — arson of a Rochester, New York police car during the protests following the police murder of George Floyd",
+        "imprisoned_for_days": 2332,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Charles J. Siragusa"
+      },
+      "source": "https://www.justice.gov/usao-wdny/pr/rochester-man-who-failed-appear-sentencing-riot-charge-pleads-guilty",
+      "research_note": "DOJ May3,2023 announcement explicitly identifies Siragusa as judge for April19,2022 riot sentencing at which Tindal failed to appear. Failure-to-appear guilty plea and prosecutor belong to separate offense, so not inserted into riot case. GPS release and March28,2022 absconding show existing continuous May2020 custody needs reconciliation; no dates overwritten."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Fornandous Henderson",
+      "slug": "fornandous-henderson",
+      "expected": {
+        "id": "8de88697-6fcb-45ed-b143-b3da49e8bdd3",
+        "prisoner_id": "d5e0349d-07ac-4151-a9ef-c82b09e4b956",
+        "institution_id": null,
+        "charges": "Molotov arson of Dakota County government building (2020)",
+        "arrest_date": "2020-05-29 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2020-12-09 00:00:00",
+        "incarceration_date": "2020-05-29 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "78 months federal prison",
+        "imprisoned_for_days": 2332,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 04:02:59",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Susan Richard Nelson",
+        "prosecutor": "Alexander D. Chiquoine; Chelsea A. Walcker",
+        "plead": "Guilty, August 26, 2020"
+      },
+      "source": "https://www.justice.gov/usao-mn/pr/savage-man-sentenced-more-6-years-prison-arson-dakota-county-government-building",
+      "research_note": "DOJ December9,2020 actual sentencing announcement names judge, both prosecutors and August26 guilty plea. Existing May29 arrest/incarceration may conflate offense date: June1 warrant has blank execution return. Dates preserved for separate verification; no release inferred from78-month sentence."
+    }
+  ]
+}
