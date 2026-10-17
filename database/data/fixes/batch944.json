@@ -1,0 +1,78 @@
+{
+  "batch": 944,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Henry Shields",
+      "slug": "henry-shields",
+      "expected": {
+        "id": "613eb5de-608d-4b48-9f1e-f580714539c7",
+        "prisoner_id": "ff6b50e2-2509-4622-8439-90802c98ec34",
+        "institution_id": null,
+        "charges": "Murder (conviction based on a confession extracted by torture)",
+        "arrest_date": "1934-04-01 00:00:00",
+        "indicted": "Indicted for murder on April 4, 1934.",
+        "convicted": "Yes — murder conviction reversed; no-contest manslaughter plea on remand",
+        "plead": "No contest to manslaughter after the original murder conviction was reversed.",
+        "sentenced_date": "1934-04-06 00:00:00",
+        "incarceration_date": "1934-04-01 00:00:00",
+        "release_date": "1939-02-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "John C. Stennis",
+        "judge": null,
+        "sentence": "Initially sentenced to death on April 6, 1934. Following reversal and remand, received a five-year manslaughter sentence with credit for time already served; discharged in February 1939.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-04 00:08:26",
+        "updated_at": "2026-10-14 05:57:31",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "J. I. Sturdivant"
+      },
+      "source": "https://ldfrecollection.org/archives/archives-search/archives-item/3c462323-8ec8-4429-bac1-a3989927060d/brown-v-mississippi-transcript-of-record"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Terry Buckalew",
+      "slug": "terry-buckalew",
+      "expected": {
+        "id": "aad70a79-3c35-4f3c-b820-f28114e88ad3",
+        "prisoner_id": "428ce312-3020-40c3-9e83-1e83935b17ce",
+        "institution_id": null,
+        "charges": "Conspiracy and destruction of Selective Service records (the August 22, 1971 Camden, NJ draft-board raid).",
+        "arrest_date": "1971-08-22 00:00:00",
+        "indicted": null,
+        "convicted": "No — acquitted",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-08-22 00:00:00",
+        "release_date": "1971-09-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence — acquitted with all seventeen trial defendants on May 20, 1973. About three weeks of pretrial custody in August-September 1971 under the collective bail strategy (most defendants refused release until everyone could make bail); individual release date unresolved.",
+        "imprisoned_for_days": 16,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 08:45:59",
+        "updated_at": "2026-09-18 23:05:11",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Clarkson S. Fisher",
+        "prosecutor": "Herbert J. Stern; John J. Barry; Marc L. Dembling; David Hinden; Robert A. White; M. Carolyn Ellis"
+      },
+      "source": "https://law.justia.com/cases/federal/district-courts/FSupp/356/1311/1892560/"
+    }
+  ]
+}
