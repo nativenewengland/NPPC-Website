@@ -1,0 +1,3 @@
+# Batch 860
+
+Donnie Thornsbury, leftmost of four Kentucky miners. Photograph reproduced by World Socialist Web Site February 4, 2013. Identity cross-checked against the same photograph and explicit left-to-right caption in Workers Vanguard No.447, February 26, 1988, page12. Photographer uncredited; rights status unconfirmed, no open license asserted. Exact crop (35,35,250,325), retained pixels unchanged. Original JPEG archived as donnie-thornsbury-miners-source-b860.jpg. SHA-256: 453c251a6ae1223adbbd2c11ab5b5150a080580f8f9218ee994c9939a8a83293
