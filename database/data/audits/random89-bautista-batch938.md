@@ -8,4 +8,4 @@ Added missing BOP register, judge, prosecutor and guilty plea. Corrected U.S. ad
 
 Sources: https://www.justice.gov/archive/opa/pr/2007/October/07_crm_862.html ; https://www.bop.gov/inmateloc/
 
-Deployment pending. Full100profile external review unfinished. No evidence PDF deleted.
+Dry run, live write, idempotent replay and independent full raw readback passed. Verified U.S. interval counter394days; unrelated fields preserved except intended derived total. Public profile rendering unverified. Full100profile external review unfinished. No evidence PDF deleted.
