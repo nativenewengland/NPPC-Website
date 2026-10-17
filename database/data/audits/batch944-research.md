@@ -6,4 +6,4 @@ Terry Buckalew: United States v.Anderson356F.Supp.1311, February7,1973 actual co
 
 Robert Smith: search encounters Philadelphia Robert M.Smith and other namesakes, with no proof of identity for the sparse Beale record. No photo or dates assigned.
 
-Biographies unchanged; full raw guards. Deployment pending.
+Biographies unchanged; full raw guards. Applied live; dry run/replay passed. Strict full readback verified only the authorized court-personnel fields and updated_at changed across all five queried profiles. No public rendering check.
