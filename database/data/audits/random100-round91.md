@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:25 profiles updated live through batch999;7 bounded reviews without additions;68 pending. Not100 completed.
+Progress:26 profiles updated live through batch1000;7 bounded reviews without additions;67 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -10,7 +10,7 @@ Progress:25 profiles updated live through batch999;7 bounded reviews without add
 - James McInerney — verified_addition_live_batch999
 - Charles Nusser — pending
 - Alexander Stokes Contompasis — verified_addition_live_batch999
-- Dwight Freeman — pending
+- Dwight Freeman — verified_addition_live_batch1000
 - Jesús M. Balzac — pending
 - Brian DiPippa — bounded_review_conflict_requires_followup_batch986
 - John J. Ford — pending
