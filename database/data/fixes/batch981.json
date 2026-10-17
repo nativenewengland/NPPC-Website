@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Tina Lowe",
+      "slug": "tina-lowe",
+      "expected": {
+        "id": "26dfbee5-f9c5-4f54-b282-93e9526d3fdf",
+        "prisoner_id": "1e219b61-2fee-4b36-b9a2-8d2b8b3ddd43",
+        "institution_id": null,
+        "charges": "Trespass at the Trident submarine base, Bangor, Washington.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1981-11-16 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1982-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months, imposed November 16, 1981; documented in custody at FCI Pleasanton in the January 17, 1982 report. Exact admission and release dates unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-17 07:45:00",
+        "updated_at": "2026-10-17 07:53:01",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "institution_id": "f32a5382-6d86-4c57-a485-ccb5cb750fc8"
+      },
+      "institution_identity": {
+        "id": "f32a5382-6d86-4c57-a485-ccb5cb750fc8",
+        "name": "FCI Pleasanton",
+        "city": "Pleasanton",
+        "state": "California"
+      },
+      "source": "National No-Nukes Prison Support Collective, January 17, 1982 page2 and April15,1982 page2 current prisoner address listing. https://media.nukeresister.org/wp-content/uploads/2026/08/NR010_19820117small.pdf#page=2"
+    }
+  ]
+}
