@@ -1,0 +1,115 @@
+{
+  "batch": 925,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "E.H. Daniels",
+      "slug": "eh-daniels",
+      "expected": {
+        "id": "fa6dd699-deac-4a16-9ab7-242dad2f68b1",
+        "prisoner_id": "16c02196-9b3a-487e-a191-5294150ab210",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 10 years in prison, reduced to 2. Held at Fort Leavenworth; Fort Douglas.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:27:59",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Sentenced to ten years, reduced to two and a half years. Confined at Fort Douglas; the archive marks Fort Leavenworth with a question mark. This is sentence length, not actual time served. Exact custody endpoints remain unresolved. Source: https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit (Daniels row415), linked by https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      },
+      "source": "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William F. Pinard",
+      "slug": "william-f-pinard",
+      "expected": {
+        "id": "a2751994-85d9-4a74-9c4d-0edd5724a1e3",
+        "prisoner_id": "b97ed87e-9c65-4764-8302-44886efc6048",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 30 years, reduced to 1. Held at Fort Leavenworth.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Sentenced to thirty years, reduced to one and a half years. Confined at Fort Leavenworth. This is sentence length, not actual time served. Exact custody endpoints remain unresolved; June5,1917 is draft registration, not jail admission. Source: https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit (Pinard row1593), linked by https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      },
+      "source": "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Elbert H. Hostetler",
+      "slug": "elbert-h-hostetler",
+      "expected": {
+        "id": "832f24e3-2166-436f-9de3-aa0717f77a63",
+        "prisoner_id": "19197f08-734f-45b6-977a-ec0a8c21c336",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1917-09-22 00:00:00",
+        "release_date": "1918-12-18 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 20 years of hard labor in prison. Held at Fort Leavenworth. Released 1918 (Dec. 18).",
+        "imprisoned_for_days": 452,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:27:59",
+        "updated_at": "2026-07-29 17:05:31",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1918-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"day\",\"bounds\":{\"incarceration_date\":{\"earliest\":\"1918-06-24\",\"latest\":\"1918-07-15\"}}}",
+        "sentence": "Twenty-year hard-labor sentence. Archive distinguishes September22,1917 draft date from Leavenworth imprisonment in1918, giving June29 with alternatives as early as June24 or late as July15. Store1918YEAR precision with those explicit bounds; January1 is a placeholder, not admission. A November2,1918 pardon and return to CampCody are not independently proved final physical release. ExistingDecember18,1918 endpoint is preserved as archival military release, without newly asserting a full uninterrupted prison span. Source: https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit (Hostetler row949), linked by https://www1.swarthmore.edu/Library/peace/conscientiousobjection/WWI.COs.coverpage.htm"
+      },
+      "source": "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit"
+    }
+  ]
+}
