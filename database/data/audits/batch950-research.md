@@ -4,4 +4,4 @@ JeannieWilson: original BlackPanther December20,1969 PDF3 visually checked. Arti
 
 WilliamJackson: congressional history search lead confirms group names but no new individual discharge; no write. RonaldCarter:1972-deceasedBLA namesake rejected for Atlanta1972/1973profile. AngelCabrera:1932solitary/transfer dates are not initial admission; no inferred endpoint. These remain unresolved.
 
-Original newspaper retained. Deployment pending.
+Original newspaper retained. Applied live; dry run/replay passed. Full raw comparison verified only authorized birthdate/date_precision/sentence fields and updated_at changed across four queried profiles. Biography, photo and all custody dates preserved. Public rendering not checked.
