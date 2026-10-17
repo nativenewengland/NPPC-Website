@@ -4,4 +4,4 @@ Original Nuclear Resister27 December3,1984 PDF10/printed9 visually inspected. Fo
 
 Exact custody endpoints unresolved. Release year1984 supported by completed imprisonment described contemporaneously; January1 storage placeholder is marked YEAR precision. No invented admission or arrest day. No jail time attributed from nearby suspended Montana sentences, Vancouver collective sentencing, or unnamed contempt defendants. Preserve Douglass existing generic unresolved episode,1972case and1982boat detention; no unsupported merger. Preserve all existing biographies/photos.
 
-Next100PDFs indexing underway; indexing is not full historical review. No historical PDFs deleted. Guarded deployment/readback pending.
+Next100PDFs indexed; indexing is not full historical review. No historical PDFs deleted. Dry run, live apply, replay and independent readback passed. Live duration service returns30days each for Greenwald/Steppleton and90days for Douglass. Douglass retains all three previous cases, biography and portrait. All transactional preservation checks passed. Fresh public George Greenwald request timed out after12seconds; public rendering is not claimed verified.
