@@ -1,0 +1,115 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Casey Goonan",
+      "slug": "casey-goonan",
+      "expected": {
+        "id": "04437cdc-97ca-4ae6-991c-3e60f8399d03",
+        "prisoner_id": "29c55140-bb77-403a-aa99-104fcebc87f6",
+        "institution_id": null,
+        "charges": "Malicious damage to property owned or possessed by an institution receiving federal financial assistance by means of fire or explosive (18 U.S.C. § 844(f)(1))",
+        "arrest_date": "2024-06-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — guilty plea",
+        "plead": "Guilty in April 2025",
+        "sentenced_date": "2025-09-23 00:00:00",
+        "incarceration_date": "2024-06-17 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Jeffrey S. White",
+        "sentence": "235 months in federal prison, 15 years of supervised release, and $94,267.51 restitution",
+        "imprisoned_for_days": 852,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Nikhil Bhagat"
+      },
+      "source": "https://www.justice.gov/usao-ndca/pr/domestic-terrorist-sentenced-more-19-years-prison-firebombing-university-police-car",
+      "research_note": "DOJ Sep23,2025 names AUSA NikhilBhagat; TinaRosenbaum described as assistance, not assigned prosecutor. Existing continuous June17,2024 custody corroborated; no date changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Alexander Justin White",
+      "slug": "alexander-justin-white",
+      "expected": {
+        "id": "9bb9e27b-6691-4d18-bfbb-14249014ef55",
+        "prisoner_id": "502be95f-4ba6-4927-82d9-4814b336a5a0",
+        "institution_id": null,
+        "charges": "Conspiracy and attempt to provide material support to ISIS.",
+        "arrest_date": "2024-12-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — conspiracy and attempt to provide material support to a designated foreign terrorist organization.",
+        "plead": "Guilty.",
+        "sentenced_date": "2026-06-22 00:00:00",
+        "incarceration_date": "2024-12-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Eight years in federal prison.",
+        "imprisoned_for_days": 682,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Richard E. Myers II"
+      },
+      "source": "https://www.justice.gov/usao-ednc/pr/durham-man-sentenced-8-years-federal-prison-conspiring-provide-support-isis-terrorists",
+      "research_note": "DOJ identifies sentencing judge MyersII. June22 announcement date does not explicitly say sentence today, while docket lead indicates June12 hearing; existing June22 date needs actualjudgment verification, not overwritten."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Kyle Calvert",
+      "slug": "kyle-benjamin-douglas-calvert",
+      "expected": {
+        "id": "6d9f74a0-bd35-477a-86a3-0c459b3c2cc9",
+        "prisoner_id": "68e40dc3-1690-478f-a92a-230a47e3fe46",
+        "institution_id": null,
+        "charges": "18 USC 844(i) Malicious Use of an Explosive; 26 USC 5861(d) Possession of an Unregistered Firearm/Destructive Device; 18 USC 844(i) Arson - Feb 2024 Alabama AG Office bombing",
+        "arrest_date": "2024-04-10 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": "Pleaded guilty to malicious use of an explosive, August 23, 2024",
+        "sentenced_date": "2024-11-21 00:00:00",
+        "incarceration_date": "2024-04-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "108 months (9 years) in federal prison plus 3 years of supervised release (sentenced November 21, 2024, U.S. District Court, Middle District of Alabama); also sentenced January 17, 2025 in Montgomery County to 10 years in Alabama state prison for second-degree arson and possession of an explosive device, to run concurrently",
+        "imprisoned_for_days": 920,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Russell T. Duraski; Brett J. Talley (federal case)"
+      },
+      "source": "https://www.justice.gov/usao-mdal/pr/man-sentenced-nine-years-federal-prison-detonating-explosive-device-outside-alabama",
+      "research_note": "DOJ Nov21,2024 names federal prosecutors. State JudgeGregGriffin pertains separateJan2025 state sentence, not assigned as federaljudge. Existing dates and plea preserved."
+    }
+  ]
+}
