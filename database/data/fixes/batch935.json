@@ -1,0 +1,45 @@
+{
+  "batch": 935,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Marcus Blackwell",
+      "slug": "marcus-blackwell",
+      "expected": {
+        "id": "51805fe6-d8d8-4295-95ba-a3e5a867c40b",
+        "prisoner_id": "d2895365-13c3-4e83-8c73-30e8735cb751",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "16 months of confinement; later clemency",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 23:04:20",
+        "updated_at": "2026-10-14 00:00:49",
+        "date_precision": null,
+        "imprisoned_for_months": 6,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1991-10-25 00:00:00",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "charges": "Desertion and missing troop movements (Gulf War conscientious resistance)",
+        "convicted": "Yes",
+        "sentence": "16 months of confinement; later clemency. A War Resisters League military project update dated October 29, 1991 reports actual release from Camp Lejeune brig on October 25, 1991, following clemency. This is distinct from the forecast November 1 releases of other Marines. Exact initial arrest and admission dates remain unverified. Source: https://decnotes.datacellar.net/showtopic.php?conf=850&topic=1073747402&userno=77336"
+      },
+      "source": "https://decnotes.datacellar.net/showtopic.php?conf=850&topic=1073747402&userno=77336"
+    }
+  ]
+}
