@@ -1,0 +1,80 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Xavier Nolley-Hall",
+      "slug": "xavier-nolley-hall",
+      "expected": {
+        "id": "7b105ae8-0491-4d96-a421-5124363f34e2",
+        "prisoner_id": "63704ecb-5f60-46b8-b633-91124aed1bc4",
+        "institution_id": null,
+        "charges": "18 USC 2113(a) Entering a Bank With Intent to Commit a Felony; 18 USC 1001(a)(2) False Statements - May 31 2020 Philadelphia Wells Fargo",
+        "arrest_date": "2020-08-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2020-08-24 00:00:00",
+        "release_date": "2022-11-24 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "45 days federal prison",
+        "imprisoned_for_days": 822,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Mark A. Kearney",
+        "plead": "Guilty on November2,2020."
+      },
+      "source": "Original November19,2020 memorandum, UnitedStatesvXavierNolley-Hall20-256-2, page3 records guilty pleaNovember2; authoredJudgeKearney. https://www.govinfo.gov/content/pkg/USCOURTS-paed-2_20-cr-00256/pdf/USCOURTS-paed-2_20-cr-00256-0.pdf . Existing custody interval conflicts with source and needs further reconciliation; this operation does not validate those dates."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jeff Keith",
+      "slug": "jeff-keith",
+      "expected": {
+        "id": "f479b9d8-3f4c-49ea-a765-a880232eb293",
+        "prisoner_id": "2b185e72-51b3-4e30-a27b-6b35e418ff0f",
+        "institution_id": null,
+        "charges": "Conscientious-objection prosecution; individual statutory count unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The December 1965 Catholic Worker lists Keith in custody at Petersburg federal prison. The Swarthmore College Peace Collection finding aid describes his 1970 Prison Memoirs as recounting imprisonment as a conscientious objector at Lewisburg and Petersburg in 1965-1966. Exact admission and release dates, sentence length and total time served remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 03:00:38",
+        "updated_at": "2026-09-14 03:00:38",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1965-04-01 00:00:00",
+        "release_date": "1966-05-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "sentence": "The December 1965 Catholic Worker lists Keith in custody at Petersburg federal prison. The Swarthmore College Peace Collection finding aid describes his 1970 Prison Memoirs as recounting imprisonment as a conscientious objector at Lewisburg and Petersburg in 1965-1966. Exact admission and release dates, sentence length and total time served remain unverified. Subsequent source resolves the months: Adam Waxman review of Inmate31114, Friends Journal January2007 printedpage36, explicitly states imprisonment April1965 to May1966. First-of-month values are storage placeholders; exact days and exact total remain unverified. https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/2007/HC12-51051.pdf#page=36"
+      },
+      "source": "Memoir review, FriendsJournal January2007p36, downloaded/extracted/visually verified. Month precision only; no imposed sentence inferred."
+    }
+  ]
+}
