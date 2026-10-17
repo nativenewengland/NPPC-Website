@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:36 profiles updated live through batch1004;9 bounded reviews without additions;55 pending. Not100 completed.
+Progress:37 profiles updated live through batch1005;9 bounded reviews without additions;54 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -75,7 +75,7 @@ Progress:36 profiles updated live through batch1004;9 bounded reviews without ad
 - Kamau Sadiki — pending
 - Sofia DeFerrari — pending
 - Yorie von Kahl — pending
-- Elias Rodriguez — pending
+- Elias Rodriguez — verified_addition_live_batch1005
 - Lenore Yarger — bounded_review_no_addition_batch1001
 - Bartolomeo Vanzetti — pending
 - Ignatz Mizher — verified_addition_live_batch993
