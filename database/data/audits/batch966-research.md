@@ -6,4 +6,4 @@ James Rolf Bjerkan: original appellate opinion529F.2d125 confirms sentence reduc
 
 Joe Varela: bounded follow-up finds original1925/1926 birthday rosters but no birth year or custody endpoints; modern attorney/obituary namesakes rejected. No unsupported dates or portrait added.
 
-All biographies preserved. Deployment verification pending.
+All biographies preserved. Applied live October17,2026. Dry run, actual application and replay succeeded. Full raw readback verified every authorized field, unchanged case sets and preservation of all unrelated fields, biographies and custody endpoints.
