@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:10 profiles updated live through batch990;3 bounded reviews without additions;87 pending. Not100 completed.
+Progress:11 profiles updated live through batch991;3 bounded reviews without additions;86 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -90,7 +90,7 @@ Progress:10 profiles updated live through batch990;3 bounded reviews without add
 - T. Luesse — pending
 - Peter Karasev — pending
 - A. G. Graham — pending
-- Andrew Mickel — pending
+- Andrew Mickel — verified_addition_live_batch991
 - Alex Harrison — pending
 - Charles A. Tuller — pending
 - Regan Darby Prater — verified_addition_live_batch986
