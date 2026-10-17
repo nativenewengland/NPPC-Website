@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Kris Selvig",
+      "slug": "kris-selvig",
+      "expected": {
+        "id": "b4e21c19-5033-4117-9bac-633d34618ce0",
+        "prisoner_id": "8c9b8024-d78e-4c31-b3a1-942e13089cb8",
+        "institution_id": null,
+        "charges": "Contempt of court for violating an injunction against trespass at Rocky Flats.",
+        "arrest_date": "1981-12-25 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1981-12-25 00:00:00",
+        "release_date": "1982-03-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Zita Weinshienk",
+        "sentence": "Pretrial detention: jailed from December 25, 1981 and remanded again January 8, 1982 after declining bond. March 1 trial scheduled. Final disposition and release date not established by this issue.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-17 07:44:58",
+        "updated_at": "2026-10-17 07:53:01",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1982-03-01 00:00:00",
+        "convicted": "Convicted March 1, 1982 of violating the federal injunction against trespassing at Rocky Flats.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "National No-Nukes Prison Support Collective newsletter, April 15, 1982, page3. https://media.nukeresister.org/wp-content/uploads/2026/08/NR011_19820415small.pdf#page=3"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Ann Clune",
+      "slug": "ann-clune",
+      "expected": {
+        "id": "aa74b25e-5e3f-4345-a08f-24673e167684",
+        "prisoner_id": "4a5c28d7-5def-4bcc-acd5-aabc66d9714e",
+        "institution_id": null,
+        "charges": "Pentagon blood-pouring protest; exact statutory charge unverified.",
+        "arrest_date": "1981-12-28 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1982-01-15 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days imposed January 15, 1982. Actual detention at D.C. Detention Center documented January 17, 1982. Continuous custody from arrest and exact release date not verified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-17 07:45:01",
+        "updated_at": "2026-10-17 07:53:01",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 30,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1982-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "source": "National No-Nukes Prison Support Collective newsletter, April 15, 1982, page2. https://media.nukeresister.org/wp-content/uploads/2026/08/NR011_19820415small.pdf#page=2"
+    }
+  ]
+}
