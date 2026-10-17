@@ -1,0 +1,80 @@
+{
+  "batch": 928,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Schonchin John",
+      "slug": "schonchin-john",
+      "expected": {
+        "id": "e78b69d3-037c-4957-90bc-c0742f234fa2",
+        "prisoner_id": "fea31de2-db51-4d4e-a51d-3aff658fa56c",
+        "institution_id": "c42d5fd7-4d5e-453c-a219-064f7771a6f0",
+        "charges": "Murder \u2014 role in the killing of Gen.",
+        "arrest_date": "1873-06-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1873-07-09 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1873-10-03 00:00:00",
+        "death_in_custody_date": "1873-10-03 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death by hanging; executed at Fort Klamath.\n\nVerdict as recorded: Yes \u2014 by U.S. military commission.\n\nCharges as recorded: Murder \u2014 role in the killing of Gen. Edward Canby and Rev. Eleazar Thomas during peace negotiations, April 11, 1873.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 21:04:47",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1873-05-31 00:00:00",
+        "incarceration_date": "1873-05-31 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "Death by hanging; executed at Fort Klamath.\n\nVerdict as recorded: Yes \u2014 by U.S. military commission.\n\nCharges as recorded: Murder \u2014 role in the killing of Gen. Edward Canby and Rev. Eleazar Thomas during peace negotiations, April 11, 1873. Individual custody start corrected to May31,1873: Thompson chapter10 describes May30 negotiations and SchonchinJohn surrendering to troops early the next day, before CaptainJack surrendered June1. The previousJune1date conflated different individuals. This records military capture/detention, not a claimed FortKlamath arrival day. Existing execution endpoint retained. Source: https://www.npshistory.com/publications/labe/thompson/chap10.htm"
+      },
+      "source": "https://www.npshistory.com/publications/labe/thompson/chap10.htm"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Larry Gara",
+      "slug": "larry-gara",
+      "expected": {
+        "id": "713bddec-111b-451a-bfcc-4151c9f15b00",
+        "prisoner_id": "c00fad03-1965-4a77-a760-338c72d9662a",
+        "institution_id": null,
+        "charges": "Counseling refusal of draft registration \u2014 Selective Service Act (1949)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to prison for draft counseling; served about fifteen months.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 07:31:17",
+        "updated_at": "2026-10-14 00:00:38",
+        "date_precision": null,
+        "imprisoned_for_months": 7,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Sentenced to prison for draft counseling; served about fifteen months. Imposed term was eighteen months, as explicitly reported in the contemporary1951Historian article ReligiousFreedominAmericanHistory. This is not eighteen months actually served. The SixthCircuit opinion independently identifies the counseling conviction under50U.S.C.App.462(a), affirmedNovember28,1949; appeal disposition is not a jail admission or discharge date. Exact custody endpoints remain unresolved. Sources: https://www.tandfonline.com/doi/abs/10.1111/j.1540-6563.1951.tb00126.x ; https://law.justia.com/cases/federal/appellate-courts/F2/178/38/16056/"
+      },
+      "source": "https://www.tandfonline.com/doi/abs/10.1111/j.1540-6563.1951.tb00126.x"
+    }
+  ]
+}

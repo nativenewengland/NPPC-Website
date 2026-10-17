@@ -1,0 +1,7 @@
+# Round89 historical follow-up batch928
+
+SchonchinJohn: Thompson ModocWar chapter10 fulltext read and cached. May30negotiations followed by individually named SchonchinJohn surrender nextmorning establishMay31,1873military detention. Distinguish CaptainJack June1surrender; prior record conflatedgroupdate. Fill incarceration_date and correct arrest; keep trial/execution endpoints. Corroborative BLM GerberBlock historical report explicitly givesMay31, contemporaryMay31dispatch identifiesSchonchin amongcaptives. No FortKlamath transferday inferred.
+
+LarryGara: contemporary1951Historian ReligiousFreedominAmericanHistory explicitly reports18monthsentence for draftcounseling. Supplement existingcase, preserve approximately15actualmonths prose without convertingnominalterm toactual. Primary SixthCircuit1949opinion confirms statutorycounselingconviction and Nov28appealaffirmance but providesnoactualcustody endpoints. Opinion text mistakenly saysFirstWorldWar for Gara despite his1922birth; do notcopythisapparenterror. AAUPautobiography403blocked; no conclusions madefromunreadfullarticle. WWIIrelease remainsunresolved. No new dates calculated fromterm.
+
+No biographies/photos touched. Source research on next100notfinished. Guarded deployment/readback pending.
