@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Sofia DeFerrari",
+      "slug": "sofia-deferrari",
+      "expected": {
+        "id": "437f503a-846b-4095-b329-d1a6cff59f75",
+        "prisoner_id": "c04eeb4d-fa27-45fe-8705-bd52c72b9964",
+        "institution_id": "8d01dcc2-5f50-4f4f-85bb-e2ae18bc51b5",
+        "charges": "Riot and Criminal Mischief in the First Degree (the November 4, 2020 Portland riot), and Robbery in the First Degree (the armed robbery of a Beaverton 7-Eleven), all resolved by plea and running concurrently.",
+        "arrest_date": "2020-11-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2021-06-22 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ninety months, the Measure 11 mandatory minimum, all counts concurrent, with a HARD RELEASE DATE OF DECEMBER 22, 2028 — a projection, which is why it lives here in the text and not in the release field: this record previously carried it as its release date and, the list running newest-first, sat at sort position 1 above every actual current case in the archive. The incarceration date of June 22, 2021 is RECONSTRUCTED: Measure 11 time runs day for day with no earned-time reduction, so the documented hard release minus the ninety-month term fixes the start of custody credit exactly. She was arrested November 4, 2020; whether and how long she was out between arrest and the start of the term is not documented, so no custody is claimed for that gap. She remains in custody at Coffee Creek, and the counter runs to the present.\n\nVerdict as recorded: Yes — by plea. Riot and Criminal Mischief in the First Degree on the Portland matter, with about 11,000 dollars in restitution; the 90-month mandatory minimum under Oregon Measure 11 (ORS 137.700) on the Beaverton robbery.",
+        "imprisoned_for_days": 1943,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 19:37:07",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Resolved by plea agreements (support-site account; formal plea wording and dates unverified)"
+      },
+      "source": "https://freesofiadeferrari.noblogs.org/about-sofia/",
+      "research_note": "Personal support account explicitly reports accepted plea agreements for Portland riot/criminal mischief and Beaverton robbery; no precise plea date or guilty versus no-contest wording supplied, so field describes only documented resolution. Existing reconstructed incarceration June22,2021 is not independently verified by this source and must not be treated as an independently established actual admission; future December22,2028 date is prospective. Existing dates/text left unchanged in missing-only pass; primary Oregon court/DOC records still needed."
+    }
+  ]
+}
