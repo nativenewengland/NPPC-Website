@@ -1,0 +1,12 @@
+# George Ryan identity split — batch 904
+
+Requested correction: one profile conflated the San Quentin IWW prisoner with Civil War civilian George W. Ryan. Original profile retained at /prisoner/george-ryan; new civilian profile at /prisoner/george-w-ryan.
+
+Sources:
+- Stephen M. Kohn, American Political Prisoners (1994), p.166, individual George Ryan entry in the state criminal-syndicalism chapter: https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html . Five-year imposed term; actual San Quentin span November1921–January1926 at MONTH precision. Adjacent R.J.Sanchez passage was OCR spillover, removed from Ryans biography.
+- Contemporary New Leader July18,1925 and Daily Worker December29,1925 San Quentin rosters identify George Ryan35567: https://www.marxists.org/history/usa/pubs/new-leader/1925/v02n29-jul-18-1925-NL.pdf ; https://www.marxists.org/history/usa/pubs/dailyworker/1925/1925-ny/v02b-n297-NYE-dec-29-1925-DW-LOC.pdf . Existing June25 birthday mention retained without inventing birthyear/daydatefield.
+- Isaac W. K. Handy, United States Bonds (1874), p.517, August22,1864 diary: https://archive.org/details/unitedstatesbond00hand . Local primary transcription tmp/findagrave-20260914/handy-bonds.txt inspected: George W. Ryan named among Leesburg hostages for civilians captured by Mosby. Transfer from the Fort yesterday is not independently an initial-arrest date.
+
+Changes: split biographies; remove civilian middle initial/state/era from IWW profile; retain IWW affiliation/inmate35567 and original slug/ID; change generic federal placeholder charge to state criminal-syndicalism prosecution; add verified month-only San Quentin interval/institution and imposedterm. New civilian profile gets Virginia/1860s, no IWW affiliation or inmate number. Existing Civil War case ID, institution and all dates/fields preserved, only reassigned to the new civilian. Its August21,1864 arrest and June1865 release are inherited stored data, not newly verified endpoints in this identity correction. No cases deleted or duplicated.
+
+Live inspection found exactly two original cases and no calendar or podcast links. Guards verify full old snapshots and unrelated Ryan profiles. Atomic transaction must increase prisoner count by one, preserve total case count, produce one original case on each identity and refuse slug/name collisions. Idempotent replay verifies both resulting identities. Public/API cache forgotten afterward. No photos invented.
