@@ -1,0 +1,77 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Rev. Joy Powell",
+      "slug": "rev-joy-powell",
+      "expected": {
+        "id": "b57598e2-91ad-45c6-bf2a-5f91b03334c9",
+        "prisoner_id": "edc5678d-7f57-4cf2-8a78-4cf92ff8f5db",
+        "institution_id": "9adfb6b9-53af-41b8-a78d-4434c5bb07ec",
+        "charges": "Immigration Offenses",
+        "arrest_date": "2006-10-08 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "2007-06-12 00:00:00",
+        "incarceration_date": "2006-10-08 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sixteen years for burglary and seven years for assault, concurrent; imposed June 12, 2007.",
+        "imprisoned_for_days": 7314,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Francis A. Affronti"
+      },
+      "source": "https://www.nycourts.gov/REPORTER/3dseries/2010/2010_09790.htm"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Bartolomeo Vanzetti",
+      "slug": "bartolomeo-vanzetti",
+      "expected": {
+        "id": "86b6714e-51e9-45d1-a12f-2c14520c4602",
+        "prisoner_id": "c3e5dc5b-ffa5-4412-8f47-db1fa76534f8",
+        "institution_id": null,
+        "charges": "Murder Armed Robbery",
+        "arrest_date": "1920-05-05 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1927-04-09 00:00:00",
+        "incarceration_date": "1920-05-05 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1927-08-23 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death sentence; held from his arrest on May 5, 1920, until his execution on August 23, 1927",
+        "imprisoned_for_days": 2666,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-14 04:07:34",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": "[{\"start\":\"1920-05-05\",\"end\":\"1927-08-23\"}]"
+      },
+      "updates": {
+        "judge": "Webster Thayer",
+        "prosecutor": "Frederick G. Katzmann"
+      },
+      "source": "https://www.mass.gov/info-details/sacco-vanzetti-the-trial"
+    }
+  ]
+}
