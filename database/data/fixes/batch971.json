@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Kevin Benderman",
+      "slug": "kevin-benderman",
+      "expected": {
+        "id": "4e458f89-99f0-4f21-b6c6-2b5d359b460e",
+        "prisoner_id": "fcc4252f-f9df-4d6d-ba44-5bd77790d0d3",
+        "institution_id": null,
+        "charges": "Missing movement (Article 87, UCMJ); desertion (Article 85, UCMJ — acquitted)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2005-07-28 00:00:00",
+        "incarceration_date": "2005-01-01 00:00:00",
+        "release_date": "2006-08-18 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Fifteen months' confinement, reduction to private, and dishonorable discharge; convicted of missing movement and acquitted of desertion",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-14 00:00:27",
+        "date_precision": "{\"incarceration_date\":\"year\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2005-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.amnesty.org/en/wp-content/uploads/2021/06/amr511422006en.pdf Amnesty International release update dated September 5, 2006 explicitly records imprisonment since August 1, 2005 and release August 18, 2006. Refine year-only placeholder; do not infer an arrest date from sentencing."
+    }
+  ]
+}
