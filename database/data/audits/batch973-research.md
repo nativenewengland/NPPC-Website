@@ -17,3 +17,5 @@ Bounded reviews, unresolved gaps:
 - ÁngelRubénSantiagoAponte, LuisFigueroaFélix and RamónDíazRivera: name/context searches did not yield verified portraits or individual custody endpoints. Do not import unrelated CostaRican/legal namesakes. Existing appeal roster alone does not prove actual custody length.
 
 No biographies or existing dates replaced. Bounded review does not establish archive exhaustion or absence of future sources.
+
+Applied live October17,2026. Dry run, application and replay passed. Full raw readback verified one new case with stableID and102days plus Balcom additions. All pre-existing cases and prisoner fields, including both biographies/photos and Griggs exile dates, preserved. Public HTML rendering not independently verified.
