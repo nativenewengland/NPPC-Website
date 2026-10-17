@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "T. Luesse",
+      "slug": "t-luesse",
+      "expected": {
+        "id": "8478f539-d24c-4293-acd7-e395090ec26b",
+        "prisoner_id": "d4876b81-3229-42da-8220-1899b143b1c6",
+        "institution_id": null,
+        "charges": "Resisting the eviction of a Black family in Indianapolis.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1931-05-25 00:00:00",
+        "release_date": "1933-03-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Frank P. Baker",
+        "sentence": "One year at the Indiana State Penal Farm and a $500 fine; held beyond the prison term to work off the fine at $1 per day. Entered the farm on May 25, 1931, and was released on March 3, 1933.",
+        "imprisoned_for_days": 648,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 21:53:48",
+        "updated_at": "2026-10-12 12:58:17",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1931-05-22 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n110-NY-may-09-1932-DW-LOC.pdf",
+      "research_note": "Daily Worker May 9, 1932, page4, Nat Boss, Indiana Plans a Second State Hunger March, explicitly dates sentence May22 following May1931 hunger march. Corroboration June1,1932 Daily Worker says year served May22; Indiana History Bureau cites Kokomo Tribune May23,1931 sentence report. Farm entry May25 preserved separately; no arrest date inferred."
+    }
+  ]
+}
