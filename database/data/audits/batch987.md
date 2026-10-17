@@ -5,3 +5,5 @@ Floyd Lee Corkins II: DOJ contemporaneous indictment, plea and actual sentencing
 https://www.justice.gov/archive/usao/dc/news/2012/aug/12-299.html
 https://www.justice.gov/usao-dc/pr/virginia-man-pleads-guilty-charges-shooting-security-guard-family-research-council
 https://www.justice.gov/usao-dc/pr/virginia-man-sentenced-25-years-prison-shooting-security-guard-family-research
+
+Applied live October17,2026. Dry run, application, idempotent replay and full raw readback passed. Unrelated fields preserved; public HTML not independently verified.

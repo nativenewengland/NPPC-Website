@@ -2,11 +2,11 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:4 profiles updated live through batch986;1 bounded review with conflicts;95 pending. Not100 completed.
+Progress:5 profiles updated live through batch987;1 bounded review with conflicts;94 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
-- Floyd Lee Corkins II — pending
+- Floyd Lee Corkins II — verified_addition_live_batch987
 - James McInerney — pending
 - Charles Nusser — pending
 - Alexander Stokes Contompasis — pending
