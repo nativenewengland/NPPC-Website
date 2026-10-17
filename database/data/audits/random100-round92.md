@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:6 profiles updated live through batch1024;0 bounded reviews without additions;94 pending. Not100 completed.
+Progress:9 profiles updated live through batch1025;0 bounded reviews without additions;91 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -21,7 +21,7 @@ Progress:6 profiles updated live through batch1024;0 bounded reviews without add
 - Abdullah Ezzeldin Taha Mohamed Hassan — pending
 - Wayne Pharr — pending
 - Rebecca Morgan — pending
-- Casey Goonan — pending
+- Casey Goonan — verified_addition_live_batch1025
 - Montez Terriel Lee Jr. — verified_addition_live_batch1024
 - Mumia Abu-Jamal — pending
 - Eugene Balthazar — pending
@@ -39,13 +39,13 @@ Progress:6 profiles updated live through batch1024;0 bounded reviews without add
 - Michael Kimble — pending
 - Jesse Van Camp — pending
 - Wilfredo Vélez Hernández — pending
-- Alexander Justin White — pending
+- Alexander Justin White — verified_addition_live_batch1025
 - Ricardo Palmera — pending
 - Fran Thompson — pending
 - Irving Aarons — pending
 - Salvador Tió — pending
 - Thomas Weir Pauken II — pending
-- Kyle Calvert — pending
+- Kyle Calvert — verified_addition_live_batch1025
 - Jordan W. Rincker — pending
 - Siobhan Browne — pending
 - Bhavika Anandpura — pending
