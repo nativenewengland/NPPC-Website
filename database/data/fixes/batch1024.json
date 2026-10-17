@@ -1,0 +1,119 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Montez Terriel Lee Jr.",
+      "slug": "montez-lee",
+      "expected": {
+        "id": "bf2185a7-dc00-4c30-b2fa-bc26e8252ccf",
+        "prisoner_id": "2a225653-a582-43b7-b5c4-d8ff1053412a",
+        "institution_id": "407ef5c5-50a0-4905-b07b-b390e9698c04",
+        "charges": "Arson of the Max It Pawn Shop in Minneapolis on May 28, 2020",
+        "arrest_date": "2020-06-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": "Guilty",
+        "sentenced_date": "2022-01-14 00:00:00",
+        "incarceration_date": "2020-06-15 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "120 months in federal prison followed by three years of supervised release",
+        "imprisoned_for_days": 2315,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Wilhelmina M. Wright",
+        "prosecutor": "Thomas Calhoun-Lopez"
+      },
+      "source": "https://www.justice.gov/usao-mn/pr/rochester-man-sentenced-10-years-prison-arson-minneapolis-pawn-shop-resulted-death-man",
+      "research_note": "DOJ Jan14,2022 sentencing announcement names trial judge and prosecutor; existing sentence and dates preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Hashem Younis Hashem Hnaihen",
+      "slug": "hashem-younis-hashem-hnaihen",
+      "expected": {
+        "id": "681483de-63a5-4518-b35d-d1ba478fa6fb",
+        "prisoner_id": "40cf2193-2afb-4c1d-af95-b40024741e56",
+        "institution_id": null,
+        "charges": "18 USC 844(e) Threatened Use of Explosive [4 counts]; 18 USC 1366(a) Destruction of an Energy Facility - June 2024 Orlando solar facility damage and bomb threats",
+        "arrest_date": "2024-07-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2024-08-06 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "72 months federal prison",
+        "imprisoned_for_days": 802,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Richard Varadan; Ryan White; George Kraehe"
+      },
+      "source": "https://www.justice.gov/opa/pr/jordanian-national-sentenced-threatening-use-explosives-and-attacking-energy-facility",
+      "research_note": "DOJ identifies prosecuting attorneys. Header April30,2025 today wording differs from AP May1,2025 Thursday sentencing account; exact day unresolved pending docket, so do not fill sentencing date from ambiguous publication metadata."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William Lonergan Hill",
+      "slug": "william-lonergan-hill",
+      "expected": {
+        "id": "59a8a469-bf8f-4ae8-8a59-0c7aa5900d82",
+        "prisoner_id": "3d88081c-6426-4451-a2d9-5ad5e4f2a670",
+        "institution_id": null,
+        "charges": "Conspiracy to operate an unlicensed money-transmitting business and money-laundering conspiracy.",
+        "arrest_date": "2024-04-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-11-19 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Judge Denise L. Cote",
+        "sentence": "4 years in federal prison and a $250,000 fine.\n\nVerdict as recorded: Pleaded guilty (July 2025) to operating an unlicensed money-transmitting business",
+        "imprisoned_for_days": 332,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-29 17:57:58",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2025-11-19 00:00:00",
+        "plead": "Guilty (July 30, 2025)",
+        "prosecutor": "Andrew K. Chan; David R. Felton; Cecilia Vogel",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-sentenced-five-and-four-years",
+      "research_note": "DOJ Nov19,2025 explicitly dates Hill sentencing November19 and names prosecution. DOJ Aug6 announcement explicitly states July30,2025 plea: https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-plead-guilty . Existing incarceration date not independently revalidated by sentencing date; no release inferred."
+    }
+  ]
+}
