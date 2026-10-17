@@ -8,4 +8,4 @@ Carberry arrest-to-sentence continuity unresolved; locator gives endpoint, not a
 
 Local PDF corpus scan across100sampled names produced102passages/26names. These are researchleads, not100completedreviews; commonnames/namesakes require filtering. Source checks continue.
 
-Guarded deployment/readback pending. Public rendering remains affected byprior server timeouts.
+Dry run, live apply, idempotent replay and independent database readback passed for all4operations. Unrelated fields preserved; bios/photos/statusflags unchanged. Public rendering remains affected byprior server timeouts.
