@@ -1,0 +1,121 @@
+{
+  "batch": 914,
+  "expected_count": 1,
+  "entries": [
+    {
+      "match_names": [
+        "Sally Kearsley",
+        "Sally Kearsely"
+      ],
+      "prisoner": {
+        "name": "Sally Kearsley",
+        "first_name": "Sally",
+        "last_name": "Kearsley",
+        "slug": "sally-kearsley",
+        "description": "Sally Kearsley was jailed during the 1981 anti-nuclear actions at the White House. The December 12, 1981 National No-Nukes Prison Support Collective newsletter identifies her among six Jonah House protesters held at the D.C. Detention Center and reports a thirty-day sentence connected with holding anti-nuclear banners. Her exact admission and release dates remain unverified.",
+        "state": "District of Columbia",
+        "era": "1980s",
+        "ideologies": [
+          "Anti-War"
+        ],
+        "in_custody": false,
+        "released": false,
+        "awaiting_trial": false,
+        "in_exile": false,
+        "currently_in_exile": false,
+        "body": "<p>Source: <a href=\"https://media.nukeresister.org/wp-content/uploads/2026/08/NR009_19811212small.pdf#page=1\">National No-Nukes Prison Support Collective newsletter, December 12, 1981, page1</a>. Historical custody is confirmed; present custody is not claimed.</p>"
+      },
+      "case": {
+        "charges": "White House anti-nuclear banner protest; exact statutory charge unverified.",
+        "sentence": "Thirty-day sentence; actual custody at D.C. Detention Center reported December 12, 1981. Exact admission and release days and actual total served remain unverified."
+      }
+    }
+  ],
+  "case_additions": [
+    {
+      "name": "Louie DeBenedette",
+      "slug": "louie-debenedette",
+      "expected_prisoner": {
+        "id": "c5b6862e-69c5-48b6-9459-092a2681b961",
+        "name": "Louie DeBenedette",
+        "sort_order": 26170,
+        "photo": "prisoners/louie-benedette-crop.jpg",
+        "description": "Louie DeBenedette : 4 months. This custody record is documented by the SOA Watch Austin prisoner chronology: https://www.soaw-austin.org/POC1983_2012.php",
+        "years_in_prison": null,
+        "state": null,
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Louie",
+        "middle_name": null,
+        "last_name": "DeBenedette",
+        "aka": null,
+        "race": null,
+        "gender": null,
+        "birthdate": null,
+        "death_date": "2022-10-22 00:00:00",
+        "age": null,
+        "ideologies": "[\"Anti-War\"]",
+        "era": "1990s",
+        "affiliation": "[\"School of the Americas Watch (SOA Watch)\"]",
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-09-27 19:22:56",
+        "updated_at": "2026-09-27 19:22:56",
+        "slug": "louie-debenedette",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"death_date\":\"day\"}",
+        "minor_case": 0
+      },
+      "expected_cases": [
+        {
+          "id": "9891ba54-0096-4b9a-bf80-9f2922c32404",
+          "prisoner_id": "c5b6862e-69c5-48b6-9459-092a2681b961",
+          "institution_id": null,
+          "charges": "Federal trespass during a School of the Americas Watch protest at Fort Benning, Georgia (1996)",
+          "arrest_date": "1995-11-15 00:00:00",
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": "1996-10-18 00:00:00",
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Louie DeBenedette : 4 months. Source: https://www.soaw-austin.org/POC1983_2012.php\n\nBOP register 86277-020 confirms actual release 1996-10-18; identity matched by full name and age against movement or biographical sources. Existing sentence total preserved; no admission inferred from sentence length.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-09-27 19:22:56",
+          "updated_at": "2026-10-14 01:23:08",
+          "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+          "imprisoned_for_months": 4,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "charges": "1981 White House anti-nuclear banner protest; exact statutory charge unverified.",
+        "incarceration_date": "1981-01-01 00:00:00",
+        "release_date": "1981-01-01 00:00:00",
+        "date_precision": {
+          "incarceration_date": "year",
+          "release_date": "year"
+        },
+        "sentence": "Four months imposed for the 1981 White House banner protest. Actual confinement at D.C. Detention Center confirmed December12,1981; next issue reports release during the Christmas season. Both endpoint years are known only as1981. January1 values are storage placeholders, not exact days; no continuous exact span or actual four-month total is inferred. Sources: https://media.nukeresister.org/wp-content/uploads/2026/08/NR009_19811212small.pdf#page=1 ; https://media.nukeresister.org/wp-content/uploads/2026/08/NR010_19820117small.pdf#page=2"
+      }
+    }
+  ]
+}
