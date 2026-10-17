@@ -1,0 +1,83 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Paul Hyon Kim",
+      "slug": "paul-hyon-kim",
+      "expected": {
+        "id": "1d9f975e-3c44-4314-98e2-28b7ee8a8201",
+        "prisoner_id": "8533406c-a497-4202-a391-7c82460ada3d",
+        "institution_id": null,
+        "charges": "Two counts of arson of property used in interstate commerce, attempted arson, and unlawful possession of an unregistered destructive device.",
+        "arrest_date": "2025-03-26 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Guilty.",
+        "sentenced_date": null,
+        "incarceration_date": "2025-03-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Remained in federal custody pending sentencing after pleading guilty.",
+        "imprisoned_for_days": 570,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 06:08:59",
+        "updated_at": "2026-10-17 00:00:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2026-10-14 00:00:00",
+        "judge": "Jennifer A. Dorsey",
+        "prosecutor": "Jake Operskalski and Dan Cowhig",
+        "convicted": "Guilty plea, February 2026.",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "Remained in federal custody pending sentencing after pleading guilty.\n\nUpdate, October 14, 2026: sentenced to 60 months in prison followed by three years of supervised release. The prior pending-sentencing statement describes the earlier stage of this case."
+      },
+      "source": "https://www.justice.gov/usao-nv/pr/las-vegas-man-sentenced-5-years-prison-tesla-collision-center-arson"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Regan Darby Prater",
+      "slug": "regan-darby-prater",
+      "expected": {
+        "id": "5a86c508-ce73-4eed-8f52-660d4fdfa3c5",
+        "prisoner_id": "e0dc086c-8bf0-494b-8d47-ebfe1848fb56",
+        "institution_id": null,
+        "charges": "Arson and explosives offenses arising from the fire at the Highlander Research and Education Center.",
+        "arrest_date": null,
+        "indicted": "Yes \u2014 federal indictment.",
+        "convicted": "No conviction established; case pending.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-05-08 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; detained pending trial.",
+        "imprisoned_for_days": 527,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty, April 13, 2026.",
+        "judge": "Thomas A. Varlan",
+        "prosecutor": "Casey T. Arrowood and Kyle J. Wilson, assisted by Katherine McCallister and Justin Sher"
+      },
+      "source": "https://www.justice.gov/usao-edtn/pr/tennessee-man-pleads-guilty-arson-and-attempting-provide-material-support-foreign"
+    }
+  ]
+}
