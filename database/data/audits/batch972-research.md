@@ -11,3 +11,5 @@ Bounded checks without additions:
 - Ann Zook, Thad Coffin, Rev. Bill Hogan: targeted name/context searches did not yield verified portraits. Existing record sources remain follow-up leads; not a claim that portraits do not exist. Ann Zook legacy March1982 release may reflect a scheduled trial rather than actual discharge and remains unresolved.
 
 No biographies edited. All approximate birth years explicitly retain circa precision. All first-of-month values use month precision. Batch changes no custody endpoint except adding the existing documented Cornstalk seizure month to the missing arrest field.
+
+Applied live October17,2026: all five operations across four profiles passed dry run, application and idempotent replay. Full raw before/after comparison verifies every change and preservation of unrelated fields, biographies, existing photos, case IDs/counts and unresolved endpoints. Public HTML rendering not independently verified.
