@@ -4,4 +4,4 @@ Read the primary court opinion’s accessible counsel list, UnitedStatesv.McWill
 
 Source: https://case-law.vlex.com/vid/united-states-v-mcwilliams-886698831
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. All unrelated prisoner and case attributes preserved. Public HTML not separately verified.
