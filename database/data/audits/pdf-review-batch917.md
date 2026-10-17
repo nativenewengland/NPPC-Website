@@ -4,4 +4,4 @@ Eighth100 PDFs screened; this is not completed historical review. NuclearResiste
 
 Other listed Livermore sentence-service starts include future dates and require individual follow-up before treating them as actual custody; not added from prospective listing. ExistingTerryMessman1983case already has verifiedMay29start and deliberatelyunresolvedactualrelease; preserved.
 
-Payload/source cites committed before apply. Dryrun/apply/replay/readback pending. UsefulPDFs retained.
+Payload/source cites committed before apply. Dry run, apply, replay and fresh readback passed:2profiles/2cases. Existingprofile/case preservation verified and older1894WilliamHogan preserved. AdmissionmonthApril1983 and releaseMay23,1983 verified in readback. Publiccheck result: {"error": "HTTP Error 502: Bad Gateway", "verified": false}. UsefulPDFs retained.
