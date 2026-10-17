@@ -5,3 +5,5 @@ Angela Nance: State Archives of Florida explicitly identifies her among the eigh
 State Archives of Florida, Stephens Sisters Jail-In Papers, 1960: https://www.floridamemory.com/discover/historical_records/stephens_sisters/
 
 Albert Eberlie bounded check: National Archives Leavenworth index confirms inmate 12031, already recorded. No additional custody dates established by the index. https://www.archives.gov/kansas-city/finding-aids/leavenworth-penitentiary/inmates-d-e.html
+
+Applied live October 17, 2026. Dry run, write, idempotent replay and full raw readback passed. All unrelated prisoner and case fields preserved. Public HTML not independently verified.

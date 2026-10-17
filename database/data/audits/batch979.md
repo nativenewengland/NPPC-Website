@@ -5,3 +5,5 @@ John Loll: fill missing indictment information. The appellate opinion footnote e
 United States v. Chase, 468 F.2d 141 (7th Cir. 1972), footnote 1: https://law.justia.com/cases/federal/appellate-courts/F2/468/141/284039/
 
 Bounded review: Sherrie Andre remains without a verified release date. Uprise RI March 20, 2020 confirms ongoing custody, not discharge; a nominal thirty-day sentence is not an exact release record. https://upriseri.com/2020-03-20-bristil-county-fang-ice
+
+Applied live October 17, 2026. Dry run, write, idempotent replay and full raw readback passed. All unrelated prisoner and case fields preserved. Public HTML not independently verified.
