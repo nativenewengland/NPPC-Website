@@ -10,4 +10,4 @@ Corey Donahue: December7,2011 Westword account independently confirms existing N
 
 Filippo Salamone: online obituary born1922 and mafia-case namesakes rejected as different people. No new verified endpoint or photo.
 
-Biographies unchanged; full snapshots guarded. Deployment verification pending.
+Biographies unchanged; full snapshots guarded. Applied live; dry run/replay passed. Strict readback verified only authorized case fields and updated_at changed across all five queried profiles; biographies unchanged. Public page rendering not checked.
