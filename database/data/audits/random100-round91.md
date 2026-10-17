@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:5 profiles updated live through batch987;1 bounded review with conflicts;94 pending. Not100 completed.
+Progress:7 profiles updated live through batch988;1 bounded review with conflicts;92 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -26,7 +26,7 @@ Progress:5 profiles updated live through batch987;1 bounded review with conflict
 - Simon Engle — pending
 - Michael Sam Teekaye Jr. — pending
 - Ben Thomas — pending
-- Shukri Abu-Baker — pending
+- Shukri Abu-Baker — verified_addition_live_batch988
 - Maricela Rueda — pending
 - Robert E. Edmondson — pending
 - Jason Watson — pending
@@ -71,7 +71,7 @@ Progress:5 profiles updated live through batch987;1 bounded review with conflict
 - Sharon Williams — pending
 - Mike Tkach — pending
 - Barney Lee Ross — pending
-- Monzer Al Kassar — pending
+- Monzer Al Kassar — verified_addition_live_batch988
 - Kamau Sadiki — pending
 - Sofia DeFerrari — pending
 - Yorie von Kahl — pending
