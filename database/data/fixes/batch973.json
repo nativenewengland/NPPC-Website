@@ -1,0 +1,133 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Frederick O. Balcom",
+      "slug": "frederick-o-balcom",
+      "expected": {
+        "id": "cb6f4511-7209-438d-9f44-e18fcc3e072b",
+        "prisoner_id": "ab4153cb-708c-4631-b38a-eb1a506d7bc0",
+        "institution_id": null,
+        "charges": "Alleged seditious utterances.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1 year.\n\nVerdict as recorded: Yes — listed in the NCLB 1919 report \"War-Time Prosecutions and Mob Violence.\"",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 16:43:53",
+        "updated_at": "2026-07-29 17:05:32",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Harvey A. Baker (U.S. Attorney; counsel for the United States on the 1919 appeal)",
+        "sentence": "1 year.\n\nVerdict as recorded: Yes — listed in the NCLB 1919 report \"War-Time Prosecutions and Mob Violence.\"\n\nThe First Circuit affirmed the Rhode Island conviction on June 18, 1919 (259 F. 779, docket1390). Supreme Court certiorari was denied October20,1919 (250 U.S.669, docket515). These are appellate procedural dates, not physical custody endpoints. Sources: https://case-law.vlex.com/vid/balcom-v-united-states-893015633 ; https://www.govinfo.gov/content/pkg/USREPORTS-250/pdf/USREPORTS-250-BackMatter-4.pdf"
+      },
+      "source": "Original appellate opinion259F779 identifies prosecutor HarveyA.Baker and affirmance; original SupremeCourt report250US669 identifies certiorari denial. No arrest or admission date inferred."
+    }
+  ],
+  "new_cases": [
+    {
+      "name": "Lewis Wayne Griggs",
+      "expected_prisoner": {
+        "id": "c310e968-b5aa-4c22-bf20-243e083603ea",
+        "name": "Lewis Wayne Griggs",
+        "sort_order": 58847,
+        "photo": "prisoners/lewis-wayne-griggs-lamb-county-leader-batch450.png",
+        "description": "Lewis Wayne Griggs was a U.S. Army soldier and one of 21 American Korean War prisoners who refused repatriation. He crossed into China on February 24, 1954 and was assigned to a collective farm with Otho Bell and William Cowart. The three returned in July 1955, were arrested and then released because their dishonorable discharges had ended military jurisdiction. Griggs later earned a sociology degree from Stephen F. Austin State University.",
+        "years_in_prison": null,
+        "state": "Texas",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Lewis",
+        "middle_name": "Wayne",
+        "last_name": "Griggs",
+        "aka": null,
+        "race": null,
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": "1984-01-01 00:00:00",
+        "age": null,
+        "ideologies": "[]",
+        "era": "1950s",
+        "affiliation": "[\"United States Army\"]",
+        "in_custody": 0,
+        "released": 0,
+        "in_exile": 1,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-09-26 20:58:03",
+        "updated_at": "2026-10-12 16:04:48",
+        "slug": "lewis-wayne-griggs",
+        "body": "",
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"death_date\":\"year\"}",
+        "minor_case": 0
+      },
+      "expected_cases": [
+        {
+          "id": "1d66a399-e854-4f91-8c98-57cc62b4a497",
+          "prisoner_id": "c310e968-b5aa-4c22-bf20-243e083603ea",
+          "institution_id": null,
+          "charges": "Declined repatriation to the United States after captivity in the Korean War; no criminal conviction resulted from that decision.",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": null,
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": null,
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": "1954-02-24 00:00:00",
+          "end_of_exile": "1955-07-01 00:00:00",
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "Dishonorably discharged by the U.S. Army after refusing repatriation and permitted to leave the neutral custody area for China.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-09-26 20:58:03",
+          "updated_at": "2026-09-26 20:58:03",
+          "date_precision": "{\"in_exile_since\":\"day\",\"end_of_exile\":\"month\"}",
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "attributes": {
+        "id": "334bf122-5d31-5ab5-903e-8f6a8dd40957",
+        "prisoner_id": "c310e968-b5aa-4c22-bf20-243e083603ea",
+        "charges": "Military charges alleging aiding the enemy and informing on fellow prisoners during Korean War captivity; held after return to the United States.",
+        "arrest_date": "1955-07-29 00:00:00",
+        "incarceration_date": "1955-07-29 00:00:00",
+        "release_date": "1955-11-08 00:00:00",
+        "convicted": "No military trial: released after military jurisdiction over discharged civilians was rejected.",
+        "sentence": "Pretrial confinement at Fort Baker Stockade, California, after Army arrest in San Francisco on July29,1955. Released November8,1955 under a federal judge order following the Supreme Court ruling concerning military jurisdiction over discharged civilians. No prison sentence or conviction is asserted. This interval is separate from the existing1954–1955 China/exile record. Sources: Big Spring Daily Herald November7,1955 printed1 (retrospective July29arrest); November9,1955 printed8 (Army released the three men yesterday). https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/12814/The_Big_Spring_Daily_Herald__1955-11-07.pdf?isAllowed=y&sequence=3 ; https://newspapers.swco.ttu.edu/bitstreams/e7f85e7c-606c-4ea8-ba4e-d26a63508d89/download#page=8",
+        "date_precision": {
+          "arrest_date": "day",
+          "incarceration_date": "day",
+          "release_date": "day"
+        },
+        "imprisoned_for_days": 102
+      }
+    }
+  ]
+}
