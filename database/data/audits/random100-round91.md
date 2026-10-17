@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:46 profiles updated live through batch1010;12 bounded reviews without additions;42 pending. Not100 completed.
+Progress:47 profiles updated live through batch1011;14 bounded reviews without additions;39 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -47,12 +47,12 @@ Progress:46 profiles updated live through batch1010;12 bounded reviews without a
 - Jeffrey A. Paterson — verified_addition_live_batch990
 - Michael J. Mandel — pending
 - Hanif Shabazz Bey — pending
-- Willow Cordes-Eklund — pending
+- Willow Cordes-Eklund — bounded_review_no_addition_batch1011
 - J. McNichols — pending
 - Lourdes Santana Melecio — pending
 - Paul Hyon Kim — verified_addition_live_batch986
 - Isaih Houston — pending
-- Carolyn DeLoatch — pending
+- Carolyn DeLoatch — bounded_review_no_addition_batch1011
 - John Pacheta — verified_addition_live_batch992
 - Stephen Reid — pending
 - Dr. Aafia Siddiqui — verified_addition_live_batch1007
@@ -64,7 +64,7 @@ Progress:46 profiles updated live through batch1010;12 bounded reviews without a
 - Joy Gibson — verified_addition_live_batch998
 - Joseph Brinton “Brint” Dillingham — bounded_review_no_verified_addition_batch990
 - George E. Elstun — bounded_review_no_verified_addition_batch994
-- Mohammad Baqer Saad Dawood Al-Saadi — pending
+- Mohammad Baqer Saad Dawood Al-Saadi — verified_addition_live_batch1011
 - Bill Wahl — pending
 - Geoffrey Parsons — pending
 - Audrey Carroll — verified_addition_live_batch1001
