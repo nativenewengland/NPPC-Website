@@ -10,6 +10,6 @@ Separate1973 OllieAdams murder proceeding in Paradise1985 appellate opinion is n
 
 Source: https://www.marxists.org/history/usa/pubs/black-panther/13%20no%203%201-28%20mar%208%201975.pdf#page=11
 
-Seven requested names yielded eight fresh profiles because alias search also returned LateefahCarter. No updates to other six profiles. Their remaining date leads unresolved. Deployment pending. Full100externalreview unfinished.
+Seven requested names yielded eight fresh profiles because alias search also returned LateefahCarter. No updates to other six profiles. Their remaining date leads unresolved. Dry run, live write, idempotent replay and independent full raw readback passed. All unrelated fields preserved across eight queried profiles, including all custody endpoints and biographies. Public rendering unverified. Full100externalreview unfinished.
 
 Original PDF SHA256: 30ae0cd0e80ed07d311a881e7fa0ebe29161592c79e5e015dffdb43046763020
