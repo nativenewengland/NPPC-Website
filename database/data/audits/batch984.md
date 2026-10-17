@@ -6,3 +6,5 @@ Ann Clune: same issue page2 explicitly says Ann and Jim have been released after
 
 https://media.nukeresister.org/wp-content/uploads/2026/08/NR011_19820415small.pdf#page=2
 https://media.nukeresister.org/wp-content/uploads/2026/08/NR011_19820415small.pdf#page=3
+
+Applied live October17,2026. Dry run, application, idempotent replay and full raw readback passed. Ann Clune counter now30days using pre-existing documented total, not date arithmetic. Every unrelated field preserved across seven profiles and their cases. Public HTML not independently verified.
