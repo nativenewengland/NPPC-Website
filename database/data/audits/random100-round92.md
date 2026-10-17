@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:58 profiles updated live through batch1048;4 bounded reviews without additions;38 pending. Not100 completed.
+Progress:58 profiles updated live through batch1048;7 bounded reviews without additions;35 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -66,7 +66,7 @@ Progress:58 profiles updated live through batch1048;4 bounded reviews without ad
 - Vance Boelter — verified_addition_live_batch1042
 - Siddique Abdullah Hasan — verified_addition_live_batch1046
 - Shamim Mafi — verified_addition_live_batch1040
-- Harry Lux — pending
+- Harry Lux — bounded_review_no_addition
 - Pascale Cecile Veronique Ferrier — verified_addition_live_batch1026
 - Tina Lai — verified_addition_live_batch1042
 - Matthew Hale — verified_addition_live_batch1035
@@ -95,12 +95,20 @@ Progress:58 profiles updated live through batch1048;4 bounded reviews without ad
 - Dante Gaffield — verified_addition_live_batch1042
 - Jim Forest — verified_addition_live_batch1033
 - Hugo Carvajal — verified_addition_live_batch1035
-- Ida Craddock — pending
+- Ida Craddock — bounded_review_no_addition
 - Burt Lorton — verified_addition_live_batch1048
-- William Hockett — pending
+- William Hockett — bounded_review_no_addition
 - Sue Leon Africa — pending
 - Lynette Sharp — verified_addition_live_batch1037
 - Matthew Lee Comiskey — verified_addition_live_batch1031
 - Gilbert Parker — pending
 - Edward Stevenson — pending
 - Carter Miles Ledoux — verified_addition_live_batch1040
+
+### Additional bounded reviews, October 17
+
+Ida Craddock: Reviewed historical accounts and fresh full case snapshot. Chicago guilty plea already populated, so attempted payload construction halted on missing-field guard; no batch1049 created and no live mutation. No verified additional workhouse release day or original trial judge found. https://womensenews.org/2006/09/craddock-battled-censorship-the-very-end/ . Kept separate state, federal, suspended-sentence and brief-arrest proceedings.
+
+William Hockett: Reviewed reproduced contemporary Quaker narrative and journal-derived account. June 8, 1863 farewell/arrest in Newman/Quaker narrative conflicts with May 30 conscription in later Civil War study quoting Cartland diary. These may describe different custody stages; not enough to select a first arrest or refine existing year-only incarceration. Fort Delaware release after modified allegiance affirmation lacks exact day/month. No new dates assigned. https://sniggle.net/TPL/index5.php?entry=16Jun08 ; https://upload.wikimedia.org/wikipedia/commons/f/fb/Memories_of_Stanley_Pumphrey%2C_by_Henry_Stanley_Newman_%28IA_memoriesofstanle01newm%29.pdf ; https://dokumen.pub/conscientious-objectors-in-the-civil-war-9781512819427.html
+
+Harry Lux: Reviewed Nebraska History article pp300-301 and later court-reference passage. Existing March 14 arrest, April 29 bond release and Judge Proudfit already match. Text also says forty-two days, inconsistent with that date interval, so did not replace actual date endpoints with reported total. Later appeal/conviction passage lacks individual sentence hearing day or prosecutor. No missing field filled. https://history.nebraska.gov/wp-content/uploads/2017/12/doc_publications_NH1966LoupCity.pdf
