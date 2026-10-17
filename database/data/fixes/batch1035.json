@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Matthew Hale",
+      "slug": "matthew-hale",
+      "expected": {
+        "id": "2de7f4ab-e67f-4ebc-9432-76a247feec0e",
+        "prisoner_id": "aa0a5ca5-5ced-44a2-8a73-3b1eac69dd00",
+        "institution_id": null,
+        "charges": "Material support",
+        "arrest_date": "2003-01-07 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": null,
+        "incarceration_date": "2003-01-07 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "40 years imprisonment",
+        "imprisoned_for_days": 8684,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "James T. Moody",
+        "sentenced_date": "2005-04-06 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://www.jurist.org/news/2005/04/white-supremacist-sentenced-for/",
+      "research_note": "Contemporary April6,2005 sentencing report names Moody; Seventh Circuit primary opinion https://law.justia.com/cases/federal/appellate-courts/ca7/11-3868/11-3868-2013-03-05.html corroborates full judge name and solicitation/obstruction convictions. Existing generic Material support charge appears inconsistent and requires separate correction; preserved under missing-only scope."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Hugo Carvajal",
+      "slug": "hugo-carvajal",
+      "expected": {
+        "id": "58e1a5e2-34b1-4289-baa6-6989f6daddcc",
+        "prisoner_id": "debcd3ab-24ad-4959-bc08-8a59a4bf47dc",
+        "institution_id": null,
+        "charges": "21 USC 960a narco-terrorism; 21 USC 963 international cocaine importation conspiracy; 18 USC 924(c) firearms in furtherance of drug trafficking; 18 USC 2339B material support to FARC - 2011/2019 SDNY indictments, extradited from Spain July 19 2023",
+        "arrest_date": "2019-04-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2019-04-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. Alvin K. Hellerstein (S.D.N.Y.)",
+        "sentence": "-\n\nVerdict as recorded: Yes — guilty plea June 25, 2025",
+        "imprisoned_for_days": 2746,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty, June 25, 2025",
+        "prosecutor": "Nicholas S. Bradley; Kaylan E. Lasky; Kevin T. Sullivan; Kevin Nunnally"
+      },
+      "source": "https://www.justice.gov/usao-sdny/pr/former-venezuelan-general-pleads-guilty-narco-terrorism-weapons-and-drug-trafficking",
+      "research_note": "DOJ contemporaneous release explicitly dates plea and names three AUSAs plus assisting Counterterrorism trial attorney Nunnally. October29,2025 sentencing was only scheduled in this release and is not inserted as actual. Existing 2019 arrest/continuous custody needs separate review of foreign bail/fugitive period and July19,2023 extradition; no dates overwritten."
+    }
+  ]
+}
