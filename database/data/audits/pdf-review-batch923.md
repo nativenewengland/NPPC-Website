@@ -4,4 +4,4 @@ NR26PDF2 original visually inspected. Add separate1984GEcase to existing ErnestB
 
 Add missing ThadCoffin and separate May15trespass case: May28conviction, June5sentence and direct jail transport on stretcher. June21fainting during fast; explicit release nextday establishesJune22. Do not derive release from30day sentence, or infer continuous custody from initialApril/Mayarrests. KevinMcGee May15/May17 arrest chronology conflicts within source; not added without further proof of multi-day custody beyond initial arrest.
 
-Guarded deployment pending; originals retained.
+Dry run, live apply and idempotent replay passed. Independent readback confirms exact discharge dates and expected case counts; older cases and profiles preserved by transaction guards. Public rendering remains unverified due to observed server timeouts; originals retained.

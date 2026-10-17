@@ -6,4 +6,4 @@ Add2separate cases to existing Appleby profile; entire biography, portrait and p
 
 Runner baseline guard excludes only the two batch-specific charges when comparing original case list, allowing sequential additions to same profile. Each existing batch case independently verified on replay; per-insertion full-table digest preserves every previous case. Other original case list and full profile remain guarded. No code or migrations changed.
 
-Guarded dry run/apply/replay/readback pending. Historical sources retained.
+Dry run, live apply and idempotent replay passed. Independent readback confirms Appleby now has3cases and duration service27days; prior case/profile preserved. Historical sources retained.
