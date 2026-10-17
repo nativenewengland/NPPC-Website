@@ -2,10 +2,10 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:59 profiles updated live through batch1049;7 bounded reviews without additions;34 pending. Not100 completed.
+Progress:59 profiles updated live through batch1049;9 bounded reviews without additions;32 pending. Not100 completed.
 
 - Mildred Martínez — pending
-- Shaka Shakur — pending
+- Shaka Shakur — bounded_review_no_addition
 - Esmond Adams — bounded_review_no_addition
 - Zachary Evetts — verified_addition_live_batch1030
 - Yaakub Ira Vijandre — pending
@@ -27,7 +27,7 @@ Progress:59 profiles updated live through batch1049;7 bounded reviews without ad
 - Eugene Balthazar — pending
 - Savanna Batten — verified_addition_live_batch1037
 - David Michael Ansberry — verified_addition_live_batch1023
-- Forrest Hostetler — pending
+- Forrest Hostetler — bounded_review_no_addition
 - Cliver Antonio Alcala Cordero — verified_addition_live_batch1023
 - Evgraf Kovalenko — pending
 - William Lonergan Hill — verified_addition_live_batch1024
@@ -112,3 +112,11 @@ Ida Craddock: Reviewed historical accounts and fresh full case snapshot. Chicago
 William Hockett: Reviewed reproduced contemporary Quaker narrative and journal-derived account. June 8, 1863 farewell/arrest in Newman/Quaker narrative conflicts with May 30 conscription in later Civil War study quoting Cartland diary. These may describe different custody stages; not enough to select a first arrest or refine existing year-only incarceration. Fort Delaware release after modified allegiance affirmation lacks exact day/month. No new dates assigned. https://sniggle.net/TPL/index5.php?entry=16Jun08 ; https://upload.wikimedia.org/wikipedia/commons/f/fb/Memories_of_Stanley_Pumphrey%2C_by_Henry_Stanley_Newman_%28IA_memoriesofstanle01newm%29.pdf ; https://dokumen.pub/conscientious-objectors-in-the-civil-war-9781512819427.html
 
 Harry Lux: Reviewed Nebraska History article pp300-301 and later court-reference passage. Existing March 14 arrest, April 29 bond release and Judge Proudfit already match. Text also says forty-two days, inconsistent with that date interval, so did not replace actual date endpoints with reported total. Later appeal/conviction passage lacks individual sentence hearing day or prosecutor. No missing field filled. https://history.nebraska.gov/wp-content/uploads/2017/12/doc_publications_NH1966LoupCity.pdf
+
+### Further bounded reviews, October 17
+
+Forrest Hostetler: Reviewed Waterloo Mennonite Archives primary court-martial finding aid (CF115722) and January 23, 1919 Official U.S. Bulletin naming Hostetler among conscientious objectors considered for release. Archival case-file number is not an inmate register number; announcement/recommendation is not physical release. Existing October 4, 1918 admission and January 27, 1919 exact release preserved. Second overlapping case gives only January 1919; flagged probable duplicate for reconciliation rather than inventing a second period. No verified photo with individual identification found. https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us ; https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf
+
+Shaka Shakur: Reviewed primary Indiana Court of Appeals 2007 postconviction opinion and 2024 civil appeal. January 7, 2002 incident already recorded. Thomas Stefaniak is expressly the postconviction judge, not independently established original sentencing judge; July 25, 2003 is Pendleton transfer, not proven sentence hearing or initial incarceration. Separate 2005 dangerous-device plea not conflated with the 2002 attempted-murder prosecution. No exact missing sentence or actual release verified. https://law.justia.com/cases/indiana/court-of-appeals/2007/45a05-0702-pc-96-1.html ; https://cases.justia.com/indiana/court-of-appeals/2024-23a-ct-01564.pdf?ts=1713464001
+
+José Humberto Santos and Albert Lowery Grabill remain pending; no independently verified additions found in this pass.
