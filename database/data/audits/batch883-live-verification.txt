@@ -1,0 +1,36 @@
+No syntax errors detected in /var/www/NPPC-Website/storage/framework/custody-precision-test/CustodyPeriods.php.candidate
+
+No syntax errors detected in /var/www/NPPC-Website/storage/framework/custody-precision-test/ImprisonmentDuration.php.candidate
+
+No syntax errors detected in /var/www/NPPC-Website/storage/framework/custody-precision-test/PartialImprisonmentDuration.php.candidate
+
+app/Support/CustodyPeriods.php: deployed committed bytes; previous live hash verified
+app/Support/ImprisonmentDuration.php: deployed committed bytes; previous live hash verified
+app/Support/PartialImprisonmentDuration.php: deployed committed bytes; previous live hash verified
+resources/views/pages/prisoner.blade.php: deployed committed bytes; previous live hash verified
+
+--- mahler-separate-custody-periods
+Would update: Herbert Mahler
+B883-OK
+
+--- mahler-separate-custody-periods
+Updated: Herbert Mahler
+B883-OK
+
+--- mahler-separate-custody-periods
+Already applied: Herbert Mahler
+B883-OK
+
+
+   INFO  Compiled views cleared successfully.  
+
+
+PASS 25 custody precision checks; Mahler range 1474–1562 days
+
+Public page verified: September 1917
+Public page verified: March 1918
+Public page verified: September 1918
+Public page verified: May 14, 1922
+Public page verified: Estimated 1474–1562 days
+Case update passed full-row preservation and no-write replay checks. No new case or prisoner created. Biographies and photos preserved. Exact counts stay null for partial intervals.
+Independent post-deploy snapshot: prisoner fields exactly unchanged; one case retained; both exact-day and unsupported month totals null; September 1917 confirmed in rendered Incarcerated field.
