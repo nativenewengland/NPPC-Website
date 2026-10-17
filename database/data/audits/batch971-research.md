@@ -8,3 +8,5 @@ https://www.bop.gov/inmateloc/
 
 Frank Wensil: inspected National Archives M2022 guide printed page 2. He is not named among its 29 trial defendants; do not transfer that guide's judge/prosecutors to him based solely on a general Wichita description. Photo and arrest date remain unresolved.
 https://twelvekey.com/wp-content/uploads/2025/06/m2022.pdf#page=3
+
+Applied live October 17, 2026. Dry run, application and idempotent replay passed. Full raw readback verified the incarceration date, day precision and 382-day derived interval. Biography and every unrelated field preserved; case count unchanged. Public HTML rendering not independently verified.
