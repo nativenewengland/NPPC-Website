@@ -1,0 +1,82 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Cameron Monte Smith",
+      "slug": "cameron-monte-smith",
+      "expected": {
+        "id": "4f43ac46-c07a-4d41-82bb-1d570bd67e49",
+        "prisoner_id": "04f5d9b1-dacc-4bc1-a0f9-d7997eec5da7",
+        "institution_id": null,
+        "charges": "18 USC 922(g)(5)(A) possession of firearm by an illegal alien; 18 USC 924(a)(8) possession of ammunition by an illegal alien; 18 USC 1366(a) destruction of an energy facility - 2022 Keystone Pipeline (Carpenter SD) and 2023 Wheelock Substation (Ray ND) attacks",
+        "arrest_date": "2023-07-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2025-03-10 00:00:00",
+        "incarceration_date": "2023-07-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "-",
+        "imprisoned_for_days": 1194,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Two consecutive 150-month prison terms, totaling 25 years, followed by three years of supervised release; $2,124,974.38 restitution.",
+        "plead": "Guilty, September 11, 2024.",
+        "judge": "Daniel M. Traynor",
+        "prosecutor": "David D. Hagler, Jonathan J. O\u2019Konek and Jeremy Jehangiri, assisted by Jacob Warren and Justin Sher"
+      },
+      "source": "https://www.justice.gov/usao-nd/pr/us-attorneys-office-announce-canadian-man-sentenced-25-years-federal-prison-destruction"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Victor Devon Edwards",
+      "slug": "victor-devon-edwards",
+      "expected": {
+        "id": "2a9cbc95-673f-4ff2-b064-9c2481be06a7",
+        "prisoner_id": "09551b76-ef03-4c56-9de0-617cb410deab",
+        "institution_id": "55cffe35-0ca7-423c-b669-69d99e86da62",
+        "charges": "Arson (conspiracy)",
+        "arrest_date": "2020-12-10 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2020-12-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Charged in a conspiracy with Shador T.C. Jackson and Leroy L.P. Williams for fires set inside Target's world headquarters in Minneapolis on August 26, 2020; in the mailroom Edwards added liquid accelerant to a fire Jackson had started. Sentenced to 60 months on count 1 and 100 months on count 2, served concurrently.",
+        "imprisoned_for_days": 2137,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2021-12-29 00:00:00",
+        "judge": "Patrick J. Schiltz",
+        "prosecutor": "Nathan H. Nelson and Chelsea A. Walcker",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://www.justice.gov/usao-mn/pr/st-paul-man-sentenced-100-months-prison-arson-and-riot-during-august-2020-riots-downtown ; AP December30,2021 via CourtTV: sentenced Wednesday. https://www.courttv.com/latest-news/page/301/"
+    }
+  ]
+}
