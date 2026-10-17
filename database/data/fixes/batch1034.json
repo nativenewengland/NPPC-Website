@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Ed Poindexter",
+      "slug": "ed-poindexter",
+      "expected": {
+        "id": "0cd1860f-1298-4e3e-bc82-2cef2513c07b",
+        "prisoner_id": "8c477a59-69b4-4b94-8cbd-dccd69c1228e",
+        "institution_id": "b0fd4e12-5962-4ada-babd-44aa92ccd1e7",
+        "charges": "Murder (bombing death of a policeman)",
+        "arrest_date": "1970-08-21 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": "Not-Guilty",
+        "sentenced_date": null,
+        "incarceration_date": "1970-08-21 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "2023-12-07 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life. Convicted with David Rice of the 1970 bombing death of an Omaha policeman on the testimony of a 15-year-old who admitted planting the bomb; one of the 'Omaha Two,' remained imprisoned for decades.",
+        "imprisoned_for_days": 19466,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-09-27 18:44:33",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1971-04-17 00:00:00",
+        "date_precision": "{\"arrest_date\":\"year\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://corrections.nebraska.gov/rtc-inmate-death-14",
+      "research_note": "NDCS official December 8,2023 death notice identifies #27767 and April17,1971 sentence commencement; contemporary conviction/sentence date corroborated by Omaha trial reporting. Existing August1970 pretrial custody and December7,2023 death-in-custody preserved; no release date inserted."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Carl Marzani",
+      "slug": "carl-marzani",
+      "expected": {
+        "id": "ab06c45e-6411-47f9-ac8f-824c71722311",
+        "prisoner_id": "793aa345-e02b-4340-b472-e8c1d16c4373",
+        "institution_id": "cbe5f67e-97ff-40a8-96f7-1be4adb0b6e5",
+        "charges": "False statements to a federal agency (18 U.S.C. § 80, predecessor to § 1001), 11 counts — concealing CPUSA membership while on government payroll under President Truman's Loyalty Order EO 9835.",
+        "arrest_date": "1947-01-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1947-06-21 00:00:00",
+        "incarceration_date": "1947-06-21 00:00:00",
+        "release_date": "1950-08-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. James M. Proctor (D.D.C.)",
+        "sentence": "36 months federal prison; served 32 months\n\nCharges as recorded: False statements to a federal agency (18 U.S.C. § 80, predecessor to § 1001), 11 counts — concealing CPUSA membership while on government payroll under President Truman's Loyalty Order EO 9835. First conviction under Truman Loyalty Program.",
+        "imprisoned_for_days": 1150,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "John M. Kelley Jr."
+      },
+      "source": "https://newspapers.swco.ttu.edu/bitstreams/7b97492d-b7f9-4365-b24f-8a1e67261b86/download",
+      "research_note": "May22,1947 contemporary Associated Press trial report names Kelley as government prosecutor; full name confirmed by published appeal168F2d133 https://law.justia.com/cases/federal/appellate-courts/F2/168/133/1544858/. Two existing cases appear to duplicate prosecution with conflicting1947-1950 and1949-1951 custody; no dates overwritten or duplicate removed in this missing-fields pass. Prosecutor added to existing detailed11-count record only."
+    }
+  ]
+}
