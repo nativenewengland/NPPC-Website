@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Dwight Freeman",
+      "slug": "dwight-freeman",
+      "expected": {
+        "id": "c0c8282e-8883-4324-aa8d-2be469285e79",
+        "prisoner_id": "144f9589-5c0d-4405-8a3b-f0c60d1015e0",
+        "institution_id": null,
+        "charges": "Conspiracy to advocate the overthrow of the U.S. government (Smith Act)",
+        "arrest_date": "1951-08-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1953-07-03 00:00:00",
+        "incarceration_date": "1953-07-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "5 years in prison and a $10,000 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 02:45:51",
+        "updated_at": "2026-10-12 04:13:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jon Wiig",
+        "indicted": "August 29, 1951 \u2014 federal grand jury, District of Hawaii; Smith Act conspiracy, United States v. Fujimoto et al."
+      },
+      "source": "https://law.resource.org/pub/us/case/reporter/F2/260/260.F2d.189.15109.html",
+      "additional_source": "https://www.neochart.com/catalog/cases/f-supp/volume_105/0727_01/index.html"
+    }
+  ]
+}
