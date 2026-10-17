@@ -1,0 +1,7 @@
+# Round89: Naomi Burns and John L.Rinker
+
+NaomiBurns: original Stop the Grand Jury leaflet PDF2 visually inspected. Endorsement roster says grand-jury resister1975. It does not supply individual incarceration or release. Contemporary MatterofBurns50A.D.2d527(Nov6,1975) identifies subpoena challenge and vacated stay; not confinement. Namesake healthcare/academic portraits rejected. No dates/photos added. Original leaflet retained. Sources: https://freedomarchives.org/Documents/Finder/DOC37_scans/37.StoptheGrandJury.pdf#page=2 ; https://www.leagle.com/decision/197557750ad2d5271453
+
+JohnL.Rinker: retained Handy UnitedStatesBonds original text printed517 read in context, after Sabbath21st. It lists him among hostages transferred from the Fort to the barracks the previous day; this is not proof of initial arrest. LincolnLoreJune1984 indexed study reports earlier hostage arrests by Augur beforeJune4. Its original PDF returned403; original military correspondence should resolve initial date and possible repeated custody. Existing August21date not newly endorsed as arrest. No endpoint change or total calculated from an unresolved span. No individual portrait verified. Sources: Handy printed517; https://www.friendsofthelincolncollection.org/wp-content/uploads/2018/11/LL_1984-06.pdf
+
+Both are bounded individual checks with unresolved gaps. No production mutation. No batch950created/deployed. No historical PDFdeleted.
