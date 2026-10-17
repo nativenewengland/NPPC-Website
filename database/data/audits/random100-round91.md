@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:18 profiles updated live through batch997;7 bounded reviews without additions;75 pending. Not100 completed.
+Progress:22 profiles updated live through batch998;7 bounded reviews without additions;71 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -20,7 +20,7 @@ Progress:18 profiles updated live through batch997;7 bounded reviews without add
 - Tyler Robinson — pending
 - Byron Chubbuck — pending
 - J. C. Garland — pending
-- Susan Kent — pending
+- Susan Kent — verified_addition_live_batch998
 - Lehman Brightman — bounded_review_no_verified_addition_batch990
 - Mikhail Yakovlev — pending
 - Simon Engle — pending
@@ -56,12 +56,12 @@ Progress:18 profiles updated live through batch997;7 bounded reviews without add
 - John Pacheta — verified_addition_live_batch992
 - Stephen Reid — pending
 - Dr. Aafia Siddiqui — pending
-- Seth Sikes — pending
+- Seth Sikes — verified_addition_live_batch998
 - Mike Sun — verified_addition_live_batch985
 - Asif William Rahman — pending
 - Henry Parker — pending
 - Elpidio Reyna — pending
-- Joy Gibson — pending
+- Joy Gibson — verified_addition_live_batch998
 - Joseph Brinton “Brint” Dillingham — bounded_review_no_verified_addition_batch990
 - George E. Elstun — bounded_review_no_verified_addition_batch994
 - Mohammad Baqer Saad Dawood Al-Saadi — pending
@@ -103,4 +103,4 @@ Progress:18 profiles updated live through batch997;7 bounded reviews without add
 - Diego Vargas — pending
 - Diego Alfonso Navarrete Beltran — pending
 - Robert Joyner — pending
-- John Thomas — pending
+- John Thomas — verified_addition_live_batch998

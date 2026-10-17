@@ -5,3 +5,5 @@ Four profiles: Seth Sikes, John Thomas, Susan Kent, Joy Gibson. Fill absent guil
 Sources:
 https://www.justice.gov/opa/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice
 https://prairielanddefendants.com/court-notes/federal-sentencing-day-2-seven-more-prairieland-defendants-sentenced-22-months-to-50-years/
+
+Live October17: dry run, application, idempotent replay and complete raw readback passed. Biographies, custody endpoints, unrelated fields and namesake profiles preserved. Public HTML not independently verified.
