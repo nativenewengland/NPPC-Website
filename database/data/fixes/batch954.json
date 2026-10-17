@@ -1,0 +1,43 @@
+{
+  "batch": 954,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Murray",
+      "slug": "john-murray",
+      "expected": {
+        "id": "1ebecd52-0938-4e4b-a75c-fe6a6e41cfd1",
+        "prisoner_id": "a28aa8f4-8775-4421-8952-1773863e83c5",
+        "institution_id": null,
+        "charges": "[\"Arrested for fundraising for the prisoners' defense; later neutrality prosecution\"]",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested by Secret Service agents for raising money for the Mexican prisoners' defense and later prosecuted in a neutrality case; exact detention dates were not preserved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-21 12:53:25",
+        "updated_at": "2026-09-27 00:18:20",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1909-10-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "sentence": "Arrested by Secret Service agents for raising money for the Mexican prisoners' defense and later prosecuted in a neutrality case; exact detention dates were not preserved.\n\nThe Chicago Daily Socialist of October 21, 1909, page1, reports the arrest of John Murray, secretary of the Political Refugee Defense League, at San Antonio during President Taft’s visit that month. The League planned to investigate. This establishes the arrest month, not its exact day, duration or release. Source: https://www.marxists.org/history/usa/pubs/chicago-daily-socialist/1909/091021-chicagodailysocialist-v03n303.pdf#page=1"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/chicago-daily-socialist/1909/091021-chicagodailysocialist-v03n303.pdf#page=1"
+    }
+  ]
+}
