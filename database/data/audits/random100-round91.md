@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:11 profiles updated live through batch991;3 bounded reviews without additions;86 pending. Not100 completed.
+Progress:12 profiles updated live through batch992;3 bounded reviews without additions;85 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -53,7 +53,7 @@ Progress:11 profiles updated live through batch991;3 bounded reviews without add
 - Paul Hyon Kim — verified_addition_live_batch986
 - Isaih Houston — pending
 - Carolyn DeLoatch — pending
-- John Pacheta — pending
+- John Pacheta — verified_addition_live_batch992
 - Stephen Reid — pending
 - Dr. Aafia Siddiqui — pending
 - Seth Sikes — pending

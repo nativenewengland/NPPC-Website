@@ -6,3 +6,5 @@ National Archives, Name Index to Leavenworth Federal Penitentiary Inmate Case Fi
 
 Further leads retained, not applied: 1921Senate Amnesty table includes a June9,1919 StElizabeths transfer near Pacheta, but row alignment must be visually checked before attribution. IgnatzMizher December20,1922Laisve roster lists Auburn while existing biography says SingSing: may be transfer history, not grounds to overwrite. No release/admission inferred from roster observation.
 https://www.spauda2.org/laisve/archive/1922/1922-12-20-LAISVE.pdf
+
+Live October17,2026: dry run, write, idempotent replay and full raw readback passed. All unrelated prisoner fields and all cases preserved. Public HTML not independently verified.
