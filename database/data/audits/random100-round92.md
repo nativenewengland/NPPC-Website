@@ -2,9 +2,9 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:66 profiles updated live through batch1054;11 bounded reviews without additions;23 pending. Not100 completed.
+Progress:66 profiles updated live through batch1054;15 bounded reviews without additions;19 pending. Not100 completed.
 
-- Mildred Martínez — pending
+- Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
 - Esmond Adams — bounded_review_no_addition
 - Zachary Evetts — verified_addition_live_batch1030
@@ -38,12 +38,12 @@ Progress:66 profiles updated live through batch1054;11 bounded reviews without a
 - Timothy Reed — pending
 - Michael Kimble — pending
 - Jesse Van Camp — verified_addition_live_batch1051
-- Wilfredo Vélez Hernández — pending
+- Wilfredo Vélez Hernández — bounded_review_no_addition
 - Alexander Justin White — verified_addition_live_batch1025
 - Ricardo Palmera — verified_addition_live_batch1042
 - Fran Thompson — verified_addition_live_batch1046
 - Irving Aarons — pending
-- Salvador Tió — pending
+- Salvador Tió — bounded_review_no_addition
 - Thomas Weir Pauken II — bounded_review_no_verified_addition_batch1028
 - Kyle Calvert — verified_addition_live_batch1025
 - Jordan W. Rincker — verified_addition_live_batch1039
@@ -60,7 +60,7 @@ Progress:66 profiles updated live through batch1054;11 bounded reviews without a
 - Ed Poindexter — verified_addition_live_batch1034
 - Troy Desson — pending
 - Meagan Morris — verified_addition_live_batch1037
-- Emilia Rodríguez — pending
+- Emilia Rodríguez — bounded_review_no_addition
 - David Annarelli — verified_addition_live_batch1028
 - Roland Freeman — pending
 - Vance Boelter — verified_addition_live_batch1042
@@ -125,3 +125,13 @@ José Humberto Santos and Albert Lowery Grabill remain pending; no independently
 Dwight Parker: Reviewed official appellate decision 2025NYSlipOp02108. Existing Ackerman judge and June23,2022 judgment already present. Actual appellate decision April10,2025 conflicts stored February2025 prose; retained populated text and flagged reconciliation. Lee Kindlon/Emily Schultz are appellate representatives, not verified original trial prosecutors; no exact release proven. https://www.nycourts.gov/reporter/3dseries/2025/2025_02108.htm
 
 Daniel Edmund Duggan: Reviewed current DOJ pilot-training announcement. September2017 charges mentioned conflict with other reporting of 2016 indictment; no original indictment inspected, so not assigning a date. Beau Barnes/Sean Heiden are prosecutors of Brown in that release, not independently established Duggan counsel. Australian judicial-review dismissal is not criminal trial or release. Existing exact October21,2022 arrest remains. https://www.justice.gov/opa/pr/former-us-air-force-pilot-arrested-providing-defense-services-chinese-military
+
+### Vieques bounded reviews
+
+Wilfredo Vélez Hernández: Reviewed NCR June18,1999 interview report explicitly saying Eunice Santana husband spent four months in U.S. prison after 1979 Vieques action. Fresh snapshot already has imprisoned_for_months=4; missing-field guard stopped proposed duplicate addition, no batch1055 or live write. No actual prison admission or release day found. https://natcath.org/NCR_Online/archives2/1999b/061899/061899c.htm
+
+Salvador Tió: Reviewed firsthand congressional testimony describing May19,1979 Bahia de la Chiva arrest, six-month/$500 judgment and appeal/remand; existing case already records arrest and subsequent reversal. Did not treat imposed sentence as actual imprisonment or import general judge reference from Parrilla separately tried case. No independently verified custody endpoint or individual judge found. https://ufdcimages.uflib.ufl.edu/AA/00/06/28/68/00001/AA00062868_NAVAL_TRAINING_ACTIVITIES.pdf ; https://law.counselstack.com/opinion/united-states-v-parrilla-bonilla-ca1-1981
+
+Mildred Martínez: Reviewed contemporary police intelligence archive notice scheduling February4,1980 return to Puerto Rico and prisoner-status petition recording six-month sentence. Arrival home is not a verified physical prison release date; no dates assigned by subtracting six months. May19 arrest already present. Exact birth, admission and release remain unverified. https://archipielagohistorico.com/wp-content/uploads/2024/12/5_-_nov_-_79_l_1_-_agosto_-_80_l_vol_37.pdf ; https://freedomarchives.org/Documents/Finder/DOC33_scans/33.FreePOWPP.UN.PowStatus.Petition.pdf
+
+Emilia Rodríguez: Reviewed prisoner-status petition explicitly recording six-month sentence and transfer to U.S. prison, and contemporary solidarity bulletin naming Emilia among May19,1979 Vieques defendants. Fresh case already stores six-month actual-duration field; neither source establishes exact executed admission/release or individual trial judge. No additions made and no generic group trial date imported. https://freedomarchives.org/Documents/Finder/DOC33_scans/33.FreePOWPP.UN.PowStatus.Petition.pdf ; https://freedomarchives.org/Documents/Finder/DOC41_scans/41.bulletin.JanFeb.1980.pdf
