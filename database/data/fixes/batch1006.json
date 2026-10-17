@@ -1,0 +1,112 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Kamau Sadiki",
+      "slug": "kamau-sadiki",
+      "expected": {
+        "id": "46ddc10c-5c6e-44d7-ac54-04b164ee86eb",
+        "prisoner_id": "bf65e630-60cf-4cb2-92d1-c88dacfcefea",
+        "institution_id": "5109c532-2c77-4b46-a8ba-f12cd2c4b296",
+        "charges": "Georgia state murder of Atlanta police officer James Green, November 3, 1971 (cold case prosecuted 30 years later)",
+        "arrest_date": "2002-10-20 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2003-11-09 00:00:00",
+        "incarceration_date": "2003-11-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life plus 10 years consecutive\n\nVerdict as recorded: Yes - Fulton County Superior Court jury verdict, November 10, 2003",
+        "imprisoned_for_days": 8378,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Stephanie Manis"
+      },
+      "source": "https://brothermalcolm.net/TRANSFORMED/PDF/Crossroad-Volume12_Number2-2004.pdf"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Marquon Clark",
+      "slug": "marquon-clark",
+      "expected": {
+        "id": "4aeaa866-b00b-4312-b910-dec27ac88d9d",
+        "prisoner_id": "175c4a51-bc43-4812-8f8a-cff451ba4141",
+        "institution_id": "8ec9109c-48d0-408b-9788-6746945de840",
+        "charges": "Federal arson (18 U.S.C. \u00a7 844(i)) \u2014 threw projectiles through windows and ignited fire in Madison City-County Building (which contained 250+ occupants including 182 in county jail above) during George Floyd protests, June 24, 2020",
+        "arrest_date": "2020-06-30 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2021-06-02 00:00:00",
+        "incarceration_date": "2021-06-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "U.S. District Judge James D. Peterson, Western District of Wisconsin",
+        "sentence": "7 years federal prison (concurrent with 5 years 8 months Wisconsin state sentence for prior unrelated convictions)\n\nVerdict as recorded: Yes \u2014 guilty plea (January 2021)",
+        "imprisoned_for_days": 1963,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-02 13:02:47",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty to federal arson; confirmed in DOJ June 2, 2021 sentencing announcement."
+      },
+      "source": "https://www.justice.gov/usao-wdwi/pr/man-sentenced-7-years-arson-during-june-2020-civil-unrest-madison"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Wills",
+      "slug": "john-wills",
+      "expected": {
+        "id": "2d79c227-e9e8-4750-a410-0bb66ab2e1df",
+        "prisoner_id": "49d480ef-da2c-4150-91cf-7f7ab9e3f567",
+        "institution_id": null,
+        "charges": "Conspiracy to trespass \u2014 misdemeanor plea following Vandenberg missile-test protest",
+        "arrest_date": "2001-07-14 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2001-07-14 00:00:00",
+        "release_date": "2001-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Still held several days after arrest; later released on bail. A 2002 misdemeanor plea resolved the felony prosecution. Post-release travel restrictions and probation are not jail time.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:08:11",
+        "updated_at": "2026-09-11 22:08:11",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty to misdemeanor conspiracy to enter a military base, reported January 8, 2002; felony charges dropped."
+      },
+      "source": "https://www.irishexaminer.com/world/arid-30035786.html"
+    }
+  ]
+}
