@@ -1,0 +1,113 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Brandon Aaron Miller-Castillo",
+      "slug": "brandon-aaron-miller-castillo",
+      "expected": {
+        "id": "a1543f02-58ef-4870-b66c-4a61fa49990b",
+        "prisoner_id": "8ca526c5-ab65-4ca8-b982-d8a612af9738",
+        "institution_id": null,
+        "charges": "18 USC 231(a)(3) civil disorder; 18 USC 844(h) use of fire to commit a federal felony - October 27, 2016 Backwater Bridge barricade fire",
+        "arrest_date": "2017-02-28 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2017-02-28 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Charged but not tried\n\nVerdict as recorded: No - charged but not tried",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Gary Delorme",
+        "indicted": "Indictment unsealed February8,2017: civil disorder and use of fire to commit a federal crime."
+      },
+      "source": "Original DOJ February8,2017 release names individual and prosecutor. https://www.justice.gov/usao-nd/pr/unsealed-indictment-reveals-four-more-defendants-face-federal-charges-related-dapl . Unsealing not arrest date; release unresolved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Charlie Henry Newkirk",
+      "slug": "charlie-henry-newkirk",
+      "expected": {
+        "id": "aaaf0414-2b24-45b5-9755-3fb4611db429",
+        "prisoner_id": "b78a094e-ced1-40d2-84b5-824ae0727f7f",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Fort Leavenworth.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Held at Fort Leavenworth. Judge Advocate General card-file decision September10,1918 approved conviction for refusal to work on Saturday as the Sabbath, court-martial119539. This is a decision date, not an arrest or admission date. Actual sentence length and release remain unresolved. Source: Swarthmore College Peace Collection World War I conscientious objectors database, individual Newkirk row citing RG153 and March10,1919 Mininger roster."
+      },
+      "source": "Individually read Swarthmore CSV row. Existing convicted Yes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lester G. Ott",
+      "slug": "lester-g-ott",
+      "expected": {
+        "id": "f668a307-5ff4-4e61-a846-a041b97e7da8",
+        "prisoner_id": "c5ef16fe-61e8-4edb-adc7-183b8b78da4d",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1919-12-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to death. Held at Fort Leavenworth. Released 1919 (Dec.).",
+        "imprisoned_for_days": 1,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-09-28 23:16:39",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 1,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Sentenced to death. Held at Fort Leavenworth. Released 1919 (Dec.). Death sentence reduced to six years, scheduled to expire September3,1923. Actual release was December1919 just before Christmas, separately documented; scheduled expiration is not actual release. Source: Swarthmore College Peace Collection World War I conscientious objectors database, Lester G. Ott row."
+      },
+      "source": "Individually read Swarthmore CSV row cites ACLU report, AFSC correspondence and archival sources; scheduled sentence expiration not an actual discharge."
+    }
+  ]
+}
