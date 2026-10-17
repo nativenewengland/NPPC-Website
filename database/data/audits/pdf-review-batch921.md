@@ -1,0 +1,7 @@
+# PDF source follow-up batch921
+
+Original NR25 PDF7/printed6 and NR26 PDF3/printed2 visually checked. Missing names checked against live name and aliases, including Seibert/Thomas Ennis variants. Rick Seiber, Pat Seiber and Tom Ennis: April19,1984 Moorestown RCA anti-nuclear trespass action; actual jail custody confirmed by group letter and explicit May8release. Fourteen days is imposed sentence, not stored as actual time. No admission day back-calculated and earlier probation-only action not added as imprisonment.
+
+Sunshine Appleby: May22,1984 Electric Boat blood-pouring action, held on$100bond for ten days until charges dropped. Exact arrest/admission May22; actual10days documented. Release year1984 only, no calculated day. Distinct from Josephine Sunshine Overaker, who has no verified custody. Other Appleby1983Pentagon and1984Baltimore episodes identified for subsequent guarded addition; not yet added here. Unknown namesake biographical dates and portraits left unresolved.
+
+No existing biography or portrait replaced. Full guarded dryrun/apply/replay/readback pending. Next100PDFs being indexed, not fully researched. Historical originals retained.
