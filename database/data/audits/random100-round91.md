@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:57 profiles updated live through batch1018;23 bounded reviews without additions;20 pending. Not100 completed.
+Progress:58 profiles updated live through batch1019;25 bounded reviews without additions;17 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -49,7 +49,7 @@ Progress:57 profiles updated live through batch1018;23 bounded reviews without a
 - Hanif Shabazz Bey — verified_addition_live_batch1013
 - Willow Cordes-Eklund — bounded_review_no_addition_batch1011
 - J. McNichols — pending
-- Lourdes Santana Melecio — pending
+- Lourdes Santana Melecio — bounded_review_no_verified_addition_batch1019
 - Paul Hyon Kim — verified_addition_live_batch986
 - Isaih Houston — pending
 - Carolyn DeLoatch — bounded_review_no_addition_batch1011
@@ -70,10 +70,10 @@ Progress:57 profiles updated live through batch1018;23 bounded reviews without a
 - Audrey Carroll — verified_addition_live_batch1001
 - Sharon Williams — pending
 - Mike Tkach — bounded_review_no_verified_addition_deportees
-- Barney Lee Ross — pending
+- Barney Lee Ross — bounded_review_no_verified_addition_batch1019
 - Monzer Al Kassar — verified_addition_live_batch988
 - Kamau Sadiki — verified_addition_live_batch1006
-- Sofia DeFerrari — pending
+- Sofia DeFerrari — verified_addition_live_batch1019
 - Yorie von Kahl — verified_addition_live_batch1014
 - Elias Rodriguez — verified_addition_live_batch1005
 - Lenore Yarger — bounded_review_no_addition_batch1001
