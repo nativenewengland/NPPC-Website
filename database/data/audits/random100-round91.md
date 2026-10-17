@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:53 profiles updated live through batch1014;14 bounded reviews without additions;33 pending. Not100 completed.
+Progress:54 profiles updated live through batch1015;16 bounded reviews without additions;30 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -18,7 +18,7 @@ Progress:53 profiles updated live through batch1014;14 bounded reviews without a
 - Marquon Clark — verified_addition_live_batch1006
 - Luis A. Amely Martínez — pending
 - Tyler Robinson — verified_addition_live_batch1009
-- Byron Chubbuck — pending
+- Byron Chubbuck — bounded_review_conflict_requires_followup_batch1015
 - J. C. Garland — pending
 - Susan Kent — verified_addition_live_batch998
 - Lehman Brightman — bounded_review_no_verified_addition_batch990
@@ -87,7 +87,7 @@ Progress:53 profiles updated live through batch1014;14 bounded reviews without a
 - Francisco Silva — pending
 - Francisco Javier Roman-Bardales — verified_addition_live_batch1003
 - Arthur Majid Barnes — pending
-- T. Luesse — pending
+- T. Luesse — verified_addition_live_batch1015
 - Peter Karasev — verified_addition_live_batch1004
 - A. G. Graham — pending
 - Andrew Mickel — verified_addition_live_batch991
@@ -102,5 +102,5 @@ Progress:53 profiles updated live through batch1014;14 bounded reviews without a
 - Loay Abdel Fattah Alnaji — verified_addition_live_batch989
 - Diego Vargas — verified_addition_live_batch1003
 - Diego Alfonso Navarrete Beltran — verified_addition_live_batch1002
-- Robert Joyner — pending
+- Robert Joyner — bounded_review_no_verified_addition_batch1015
 - John Thomas — verified_addition_live_batch998
