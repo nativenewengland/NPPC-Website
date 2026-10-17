@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Abdul Azeez",
+      "slug": "abdul-azeez",
+      "expected": {
+        "id": "446e7efb-3692-41c6-b45b-efd3c0adc712",
+        "prisoner_id": "1ce0c78b-afef-4acf-ba56-0ea764840c7e",
+        "institution_id": "6293d22d-c3ac-40cf-b14c-5dd2cf1c1469",
+        "charges": "Fountain Valley case: eight murder counts, four first-degree assault counts and two robbery counts",
+        "arrest_date": "1972-09-12 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1973-08-13 00:00:00",
+        "incarceration_date": "1972-09-12 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Eight consecutive life sentences plus ninety years",
+        "imprisoned_for_days": 19758,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Warren Young",
+        "prosecutor": "Julio A. Brady"
+      },
+      "source": "https://case-law.vlex.com/vid/gov-t-of-the-893814669",
+      "research_note": "District Court primary opinion, Government v. Gereau, Crim.97-1972, September 24, 1973, identifies Warren Ballentine among defendants, Young as trial court judge and Julio Brady as plaintiff counsel. Contemporary August 5 trial report corroborates full judge name: https://vi3.org/blog/case-goes-to-jury/ . Added only to detailed Fountain Valley case, not separate harboring record. Appellate attorneys John Barry and Richard Zackin not assumed trial prosecutors. Existing dates and biography preserved; overlapping harboring case not resolved."
+    }
+  ]
+}
