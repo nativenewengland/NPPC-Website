@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:62 profiles updated live through batch1022;33 bounded reviews without additions;5 pending. Not100 completed.
+Progress:62 profiles updated live through batch1022;35 bounded reviews without additions;3 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -25,7 +25,7 @@ Progress:62 profiles updated live through batch1022;33 bounded reviews without a
 - Mikhail Yakovlev — bounded_review_no_verified_addition_deportees
 - Simon Engle — bounded_review_no_verified_addition_wartime
 - Michael Sam Teekaye Jr. — verified_addition_live_batch1002
-- Ben Thomas — pending
+- Ben Thomas — bounded_review_no_verified_addition_labor
 - Shukri Abu-Baker — verified_addition_live_batch988
 - Maricela Rueda — verified_addition_live_batch999
 - Robert E. Edmondson — verified_addition_live_batch1012
@@ -89,7 +89,7 @@ Progress:62 profiles updated live through batch1022;33 bounded reviews without a
 - Arthur Majid Barnes — bounded_review_no_verified_addition_batch1017
 - T. Luesse — verified_addition_live_batch1015
 - Peter Karasev — verified_addition_live_batch1004
-- A. G. Graham — pending
+- A. G. Graham — bounded_review_no_verified_addition_labor
 - Andrew Mickel — verified_addition_live_batch991
 - Alex Harrison — bounded_review_identity_requires_followup_historical_followup
 - Charles A. Tuller — verified_addition_live_batch1001
