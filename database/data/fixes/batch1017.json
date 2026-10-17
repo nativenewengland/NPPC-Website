@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Charles Nusser",
+      "slug": "charles-nusser",
+      "expected": {
+        "id": "2c02b8fe-c789-4021-aae2-a2e79af7fbe7",
+        "prisoner_id": "0c0e9e94-8f1d-4f47-833c-bc574967ca32",
+        "institution_id": null,
+        "charges": "Violating a 1918 New Jersey anti-subversive statute.",
+        "arrest_date": "1951-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Arrested and prosecuted; charges contested.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1951-01-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held on bail; faced up to two years.\n\nCharges as recorded: Violating a 1918 New Jersey anti-subversive statute — for distributing Korean War peace leaflets.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 21:40:23",
+        "updated_at": "2026-10-16 02:22:01",
+        "date_precision": "{\"arrest_date\": \"day\", \"incarceration_date\": \"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "John L. McGuire (January 10, 1951 bail proceeding)",
+        "prosecutor": "Raymond Leahey (city attorney, January 10, 1951 proceeding)"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/national-guardian/1951-01-24-3-14-nat-guardian.pdf",
+      "research_note": "National Guardian January24,1951 page6, N.J. digs for legal fossils to harass CP explicitly identifies Magistrate John L. McGuire and city attorney Raymond Leahey at January10 proceeding. Officials qualified to that proceeding, not represented as later trial officials. Article confirms NewYearsDay arrest, immediate bail, January10 jailing, later bail release and January18 rearrest. No exact intermediate release or final disposition established; custody segmentation needs separate reconciliation."
+    }
+  ]
+}
