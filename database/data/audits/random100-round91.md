@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:62 profiles updated live through batch1022;35 bounded reviews without additions;3 pending. Not100 completed.
+Progress:100 profiles received a bounded review:62 profiles updated live through batch1022;38 without verified additions;0 pending initial review. Unresolved research and date conflicts remain; this is not100 corrected profiles or exhaustive archival research.. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -16,10 +16,10 @@ Progress:62 profiles updated live through batch1022;35 bounded reviews without a
 - John J. Ford — bounded_review_no_addition_batch1001
 - Tony Stafford — bounded_review_conflict_requires_followup_historical_followup
 - Marquon Clark — verified_addition_live_batch1006
-- Luis A. Amely Martínez — pending
+- Luis A. Amely Martínez — bounded_review_unresolved_final_round91
 - Tyler Robinson — verified_addition_live_batch1009
 - Byron Chubbuck — bounded_review_conflict_requires_followup_batch1015
-- J. C. Garland — pending
+- J. C. Garland — bounded_review_unresolved_final_round91
 - Susan Kent — verified_addition_live_batch998
 - Lehman Brightman — bounded_review_no_verified_addition_batch990
 - Mikhail Yakovlev — bounded_review_no_verified_addition_deportees
@@ -42,7 +42,7 @@ Progress:62 profiles updated live through batch1022;35 bounded reviews without a
 - Ronald Reed — verified_addition_live_batch1004
 - Roman Sterlingov — verified_addition_live_batch997
 - Sidor Drankovich — bounded_review_no_verified_addition_deportees
-- Joseph Shine White Stewart — pending
+- Joseph Shine White Stewart — bounded_review_unresolved_final_round91
 - Peter Urgel — bounded_review_no_verified_addition_deportees
 - Jeffrey A. Paterson — verified_addition_live_batch990
 - Michael J. Mandel — bounded_review_no_verified_addition_co_rosters
