@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:56 profiles updated live through batch1017;21 bounded reviews without additions;23 pending. Not100 completed.
+Progress:57 profiles updated live through batch1018;23 bounded reviews without additions;20 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -29,7 +29,7 @@ Progress:56 profiles updated live through batch1017;21 bounded reviews without a
 - Shukri Abu-Baker — verified_addition_live_batch988
 - Maricela Rueda — verified_addition_live_batch999
 - Robert E. Edmondson — verified_addition_live_batch1012
-- Jason Watson — pending
+- Jason Watson — verified_addition_live_batch1018
 - Hadi Matar — verified_addition_live_batch989
 - Malik El-Amin — verified_addition_live_batch1013
 - Gazi Ibrahim Abu Mezer — verified_addition_live_batch1014
@@ -65,8 +65,8 @@ Progress:56 profiles updated live through batch1017;21 bounded reviews without a
 - Joseph Brinton “Brint” Dillingham — bounded_review_no_verified_addition_batch990
 - George E. Elstun — bounded_review_no_verified_addition_batch994
 - Mohammad Baqer Saad Dawood Al-Saadi — verified_addition_live_batch1011
-- Bill Wahl — pending
-- Geoffrey Parsons — pending
+- Bill Wahl — bounded_review_no_verified_addition_batch1018
+- Geoffrey Parsons — bounded_review_conflict_requires_followup_batch1018
 - Audrey Carroll — verified_addition_live_batch1001
 - Sharon Williams — pending
 - Mike Tkach — bounded_review_no_verified_addition_deportees
