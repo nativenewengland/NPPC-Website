@@ -6,4 +6,4 @@ Cason: quoted April22,1918DailyMissoulian states April21speech followed within m
 
 JosephGeier primary-government-report search lead supports fifteen-month sentence, but fullsource failed browser size limit and alternateHTML is a generic404 page. Do not treat search snippet or404page as full verification; sentence not added this batch. MauktWand sentence likewise pending original confirmation. These unresolved profiles do not count as completed additions.
 
-Two existing profiles updated, not100completed reviews. Guarded deployment/readback pending. No PDFdeleted.
+Two existing profiles updated, not100completed reviews. Dry run, live apply, idempotent replay and independent database readback passed. Unrelated fields preserved. Public rendering remains unverified due to observed server timeouts. No PDFdeleted.
