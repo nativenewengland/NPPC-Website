@@ -6,4 +6,4 @@ GE Three: issue19 page6 confirms Judge Philip Federico reduced year sentence to3
 
 Karol Schulkin dates already present and preserved. Shelley Douglass August28 release is only prospective in this issue and remains unresolved. Other co-defendants checked separately; no common release inferred for Karen Stricklin, whose August23 date is prospective. Ninth and tenth extraction sets are indexing, not completed substantive review. Useful historical PDFs retained.
 
-Guarded deployment/readback pending.
+Dry run, live apply and idempotent replay passed. Independent live database readback confirms Baranski now has five separate cases, exact August12/20 endpoints and documented eight days. All three GE cases retain endpoints and now include the supported judge and reduced nominal sentence. Transactional preservation checks passed. Public rendering remains unverified because of previously observed upstream timeouts.
