@@ -1,0 +1,7 @@
+# PDF follow-up batch920
+
+Original Nuclear Resister27 December3,1984 PDF10/printed9 visually inspected. Follow-up to July1984 White Train journey explicitly states George Greenwald and Ellen Steppleton served30days each, Jim Douglass90days. These are actual served totals, not inferred sentences. Add absent George/Ellen profiles and separate1984 Bangor case to James W. Douglass. Search includes name/alias variants Greenwald/Greenwold and Steppleton/Stepleton; existing Lynne Greenwald is distinct and preserved.
+
+Exact custody endpoints unresolved. Release year1984 supported by completed imprisonment described contemporaneously; January1 storage placeholder is marked YEAR precision. No invented admission or arrest day. No jail time attributed from nearby suspended Montana sentences, Vancouver collective sentencing, or unnamed contempt defendants. Preserve Douglass existing generic unresolved episode,1972case and1982boat detention; no unsupported merger. Preserve all existing biographies/photos.
+
+Next100PDFs indexing underway; indexing is not full historical review. No historical PDFs deleted. Guarded deployment/readback pending.
