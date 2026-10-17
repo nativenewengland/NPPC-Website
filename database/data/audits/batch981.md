@@ -10,3 +10,5 @@ https://www.environmentandsociety.org/sites/default/files/key_docs/ef_21_5_0.pdf
 https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-ny/v04-n193-NY-aug-27-1927-DW-LOC.pdf
 https://files.libcom.org/files/No.26.pdf
 https://files.libcom.org/files/No.27.pdf
+
+Live October17,2026: dry run, application and idempotent replay passed. Full raw readback confirms institution link and preserves all unrelated prisoner/case fields. Public HTML not independently verified.
