@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:59 profiles updated live through batch1020;31 bounded reviews without additions;10 pending. Not100 completed.
+Progress:59 profiles updated live through batch1020;33 bounded reviews without additions;8 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -23,7 +23,7 @@ Progress:59 profiles updated live through batch1020;31 bounded reviews without a
 - Susan Kent — verified_addition_live_batch998
 - Lehman Brightman — bounded_review_no_verified_addition_batch990
 - Mikhail Yakovlev — bounded_review_no_verified_addition_deportees
-- Simon Engle — pending
+- Simon Engle — bounded_review_no_verified_addition_wartime
 - Michael Sam Teekaye Jr. — verified_addition_live_batch1002
 - Ben Thomas — pending
 - Shukri Abu-Baker — verified_addition_live_batch988
@@ -79,7 +79,7 @@ Progress:59 profiles updated live through batch1020;31 bounded reviews without a
 - Lenore Yarger — bounded_review_no_addition_batch1001
 - Bartolomeo Vanzetti — verified_addition_live_batch1010
 - Ignatz Mizher — verified_addition_live_batch993
-- Peter Grimm — pending
+- Peter Grimm — bounded_review_no_verified_addition_wartime
 - Alex Saab — verified_addition_live_batch1016
 - Will Bradbury — bounded_review_no_verified_addition_co_rosters
 - Raymond Johnson — verified_addition_live_batch1008
