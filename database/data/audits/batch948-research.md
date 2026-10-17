@@ -6,4 +6,4 @@ Conflicts unresolved: current releaseDecember15,1922 versus scholarly chapterDec
 
 George Schwartzwalder: entire individual entry read, INS54616/107 and FBI211405/346328 cited. Existing February/March1919 month-level episodes and January7,1920deportation already capture sourced dates. Entry contains no image or additional exact day. No write warranted.
 
-Source pages retained locally. No historicalPDFdeleted. Deployment pending.
+Source pages retained locally. No historicalPDFdeleted. Applied live; dry run and replay passed. Full raw readback verified only authorized verdict/sentence fields and updated_at changed across three queried profiles. Biographies, photos, all dates and other case fields preserved. Public profile rendering not checked.
