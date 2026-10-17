@@ -6,4 +6,4 @@ Retaincurrentcustodydates,photoandbiography. December18,1919trialconclusiondoesn
 
 Source: https://twelvekey.com/wp-content/uploads/2025/06/m2022.pdf#page=3
 
-Live verification pending.
+Live application, idempotent replay and strict raw-field readback passed. All unrelated attributes preserved. Public HTML not separately verified.
