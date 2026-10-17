@@ -9,3 +9,5 @@ Maricela Rueda: https://www.justice.gov/opa/pr/leader-antifa-cell-members-north-
 James McInerney: https://oregonnews.uoregon.edu/lccn/2024240273/1920-03-19/ed-1/seq-2.pdf
 
 Unresolved Contompasis conflicts: official appellate judgment gives November17,2022 vs database November16 sentencing; contemporaneous October7 conviction report says remanded that day, earlier than stored November16 incarceration. Preserve existing dates pending reconciliation. Appellate prosecutor Daniel Young is not substituted for trial prosecutors Perlanski and Olsen.
+
+Live October17: dry run, application, idempotent replay and full raw readback passed. All unrelated fields preserved. Public HTML not independently verified.
