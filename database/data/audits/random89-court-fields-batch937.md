@@ -8,4 +8,6 @@ Fresh live rows checked before preparation. Missing-only judge/prosecutor/plea f
 
 Other three queried cohort profiles have unresolved leads. JorgeBautistaMartinez's18year legacy span despite3year sentence requires investigation; no assumed endpoint written. GregoMarcanoVazquez and RobertoGandaraBarnett individual custody dates require further source work. No new date or duration inferred from sentence, group account or appeal decision.
 
-Deployment pending. This is three updated profiles, not100completed additions. Full external cohort review unfinished.
+Live write, dry run, idempotent replay and independent full raw readback passed. All unrelated fields preserved across six queried profiles. Public rendering unverified. This is three updated profiles, not100completed additions. Full external cohort review unfinished.
+
+The DOJ export summary original was downloaded and its PDF26 individually checked. Defense.gov original download returned403; its complete3page text was read via web PDF extraction, which confirms January30,2007 guilty plea. No access controls bypassed.
