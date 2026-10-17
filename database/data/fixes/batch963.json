@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Helen Woodson",
+      "slug": "helen-woodson",
+      "expected": {
+        "id": "b5d190b9-f9b8-4d62-9739-3a995f730a5b",
+        "prisoner_id": "af3947d6-5760-479b-835b-c8276e498e59",
+        "institution_id": null,
+        "charges": "Sabotage, destruction of government property, conspiracy and military-site trespass — November1984 Silo Pruning Hooks N5 missile-silo action.",
+        "arrest_date": "1984-11-09 00:00:00",
+        "indicted": null,
+        "convicted": "Convictions reported in United States v. Kabat,797F.2d580.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1984-11-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Original sentence: consecutive nine-year terms on sabotage and property-destruction counts, concurrent six-month trespass term, and five years probation after unconditional release. Imposed sentence is not actual time served. November1984 MONTH precision: appellate narrative gives November9, but its later custody discussion and contemporary Nuclear Resister give November12. November9 is the earliest bound, not a verified exact day. Original sources establish arrest and continued detention; no release day or actual duration inferred. Sources: https://media.nukeresister.org/wp-content/uploads/2026/08/NR027_19841203small.pdf#page=2 ; https://law.justia.com/cases/federal/appellate-courts/F2/797/580/104857/",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-17 09:07:23",
+        "updated_at": "2026-10-17 09:07:23",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"bounds\":{\"arrest_date\":{\"earliest\":\"1984-11-09\",\"latest\":\"1984-11-12\"},\"incarceration_date\":{\"earliest\":\"1984-11-09\",\"latest\":\"1984-11-12\"}}}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1993-06-14 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"bounds\":{\"arrest_date\":{\"earliest\":\"1984-11-09\",\"latest\":\"1984-11-12\"},\"incarceration_date\":{\"earliest\":\"1984-11-09\",\"latest\":\"1984-11-12\"}},\"release_date\":\"day\"}",
+        "sentence": "Original sentence: consecutive nine-year terms on sabotage and property-destruction counts, concurrent six-month trespass term, and five years probation after unconditional release. Imposed sentence is not actual time served. November1984 MONTH precision: appellate narrative gives November9, but its later custody discussion and contemporary Nuclear Resister give November12. November9 is the earliest bound, not a verified exact day. Original sources establish arrest and continued detention; no release day or actual duration inferred. Sources: https://media.nukeresister.org/wp-content/uploads/2026/08/NR027_19841203small.pdf#page=2 ; https://law.justia.com/cases/federal/appellate-courts/F2/797/580/104857/ Subsequent source: Nukewatch Pathfinder, Fall2002, printed page4 (PDF5), editorial introduction to a letter from Helen Woodson, explicitly records parole June14,1993. https://www.laka.org/docu/magazines/nukewatch_pathfinder/2002-3-fall.pdf#page=5 . This is the end of the original custody interval, before later separate proceedings."
+      },
+      "source": "Original Nukewatch Pathfinder Fall2002 printed4, visually verified; also Kings Bay Plowshares action chronology https://kingsbayplowshares7.org/plowshares-history/"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Larry Medley",
+      "slug": "larry-medley",
+      "expected": {
+        "id": "fa953c86-7d08-409e-8a76-7e49b6702ef6",
+        "prisoner_id": "52272636-0d21-42f8-ae39-0bd3756ba5ac",
+        "institution_id": null,
+        "charges": "Assault and conspiracy allegations following the February 10, 1971 raid.",
+        "arrest_date": "1971-02-10 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted of assault with a deadly weapon with intent to kill.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Seven to ten years imposed; actual time served unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 03:54:17",
+        "updated_at": "2026-09-10 03:54:17",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1973-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "prosecutor": "Robert Morgan; James E. Magner; Rolf F. Haskell (State counsel on appeal)",
+        "sentence": "Seven to ten years imposed; actual time served unverified. FBI monthly summary reports return to sentence custody in late January1973 after appeal bond; January1 is a month-only storage placeholder. Earlier pretrial detention is separate and is not counted as continuous from the 1971 arrest. Release date remains unresolved. State v. Jennings,192 S.E.2d46 (1972), affirmed October25,1972; appeal dismissed December5,1972. Sources: https://vault.fbi.gov/Black%20Panther%20Party%20/Black%20Panther%20Party%20Part%2034%20%28Final%29 ; https://law.justia.com/cases/north-carolina/court-of-appeals/1972/7218sc626-1.html"
+      },
+      "source": "FBI Vault Black Panther Party Part34 contemporary monthly summary, indexed individual Medley/Lilley/Jennings passage; appellate opinion counsel list. Missing endpoints left unresolved."
+    }
+  ]
+}
