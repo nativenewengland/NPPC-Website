@@ -1,0 +1,43 @@
+{
+  "batch": 930,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Meldon Acheson",
+      "slug": "meldon-acheson",
+      "expected": {
+        "id": "5c4f41dd-e89b-4ed4-b348-9f4245301eed",
+        "prisoner_id": "2a54f471-12bd-453f-ac89-0b98c7ea6768",
+        "institution_id": null,
+        "charges": "Draft/conscientious-objection prosecution \u2014 exact individual count unverified",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Documented in custody at McNeil Island, Washington in both May\u2013June and July\u2013August 1968. Individual sentence length, actual time served and exact entry/release dates remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:58:30",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1967-08-14 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "sentence": "Two concurrent three-year sentences for non-cooperation, imposed August14,1967. Original CCCONewsNotes September\u2013October1967CourtReporter table individually names Acheson and lists him currently imprisoned at McNeilIsland. Exact admission/release and actual time served remain unresolved; sentencing and publication dates are not assigned as custody endpoints. This supplements later1968custody rosters. Source: https://vva.vietnam.ttu.edu/images.php?img=/images/1451/14511002034.pdf#page=4"
+      },
+      "source": "https://vva.vietnam.ttu.edu/images.php?img=/images/1451/14511002034.pdf#page=4"
+    }
+  ]
+}
