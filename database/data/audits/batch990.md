@@ -7,3 +7,5 @@ Jeff Paterson firsthand interview, Revolutionary Worker, January2001: https://re
 Bounded reviews: LehmanBrightman existing birth/death dates match family memorial; no additional individual confinement endpoint verified, and DennisBanks bail is not Brightman discharge. Dillingham appellate opinion verifies already recorded arrest/reversal; appellate counsel not assumed trial prosecutor, cartoon subject JudgePugh not assumed trial judge; no served six-month term inferred.
 https://actionnetwork.org/events/celebrating-dr-lehman-brightmans-96th-birthday
 https://law.justia.com/cases/maryland/court-of-special-appeals/1970/314-september-term-1969-0.html
+
+Live October17,2026: dry run, application, idempotent replay and full raw readback passed. Unrelated fields preserved; public HTML not independently verified.

@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:9 profiles updated live through batch989;1 bounded review with conflicts;90 pending. Not100 completed.
+Progress:10 profiles updated live through batch990;3 bounded reviews without additions;87 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -21,7 +21,7 @@ Progress:9 profiles updated live through batch989;1 bounded review with conflict
 - Byron Chubbuck — pending
 - J. C. Garland — pending
 - Susan Kent — pending
-- Lehman Brightman — pending
+- Lehman Brightman — bounded_review_no_verified_addition_batch990
 - Mikhail Yakovlev — pending
 - Simon Engle — pending
 - Michael Sam Teekaye Jr. — pending
@@ -44,7 +44,7 @@ Progress:9 profiles updated live through batch989;1 bounded review with conflict
 - Sidor Drankovich — pending
 - Joseph Shine White Stewart — pending
 - Peter Urgel — pending
-- Jeffrey A. Paterson — pending
+- Jeffrey A. Paterson — verified_addition_live_batch990
 - Michael J. Mandel — pending
 - Hanif Shabazz Bey — pending
 - Willow Cordes-Eklund — pending
@@ -62,7 +62,7 @@ Progress:9 profiles updated live through batch989;1 bounded review with conflict
 - Henry Parker — pending
 - Elpidio Reyna — pending
 - Joy Gibson — pending
-- Joseph Brinton “Brint” Dillingham — pending
+- Joseph Brinton “Brint” Dillingham — bounded_review_no_verified_addition_batch990
 - George E. Elstun — pending
 - Mohammad Baqer Saad Dawood Al-Saadi — pending
 - Bill Wahl — pending
