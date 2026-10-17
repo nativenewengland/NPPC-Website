@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Salem Seleiman",
+      "slug": "salem-seleiman",
+      "expected": {
+        "id": "82f357d6-3518-492a-a3ff-bb81e8f78235",
+        "prisoner_id": "1318fe55-422f-4f1c-87a5-36da830bfae4",
+        "institution_id": null,
+        "charges": "NY PEN Assault in the Second Degree (Felony); Assault in the Third Degree as a Hate Crime (Felony) - May 20 2021 Times Square assault",
+        "arrest_date": "2025-09-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2025-12-03 00:00:00",
+        "incarceration_date": "2025-12-03 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "24 months New York state prison",
+        "imprisoned_for_days": 318,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:12",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Constantine Coritsidis; Jonathon Junig",
+        "plead": "Guilty, September 29, 2025"
+      },
+      "source": "https://manhattanda.org/d-a-bragg-announces-sentencing-of-salem-seleiman-for-2021-antisemitic-hate-crime-in-times-square/",
+      "research_note": "Official Manhattan DA December5,2025 announcement explicitly names handling prosecutor Coritsidis, assisting ADA Junig and September29 plea. Actual sentencing explicitly December4, contrasting stored December3 sentence/incarceration; populated dates preserved for separate reconciliation. No release inferred from two-year term."
+    }
+  ]
+}
