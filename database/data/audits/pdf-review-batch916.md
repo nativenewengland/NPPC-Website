@@ -1,0 +1,5 @@
+# PDF review batch916
+
+Seventh100 PDFs screened, not completed research. Issue15PDF12/printed10 and issue17PDF4 visually verified. CarolMarkarian/MargaretFarren/ScottDuffy absent in live name and alias search; add historical profiles and GTEWestboro cases. ArrestDecember28,1982, convictionJanuary27,1983, sentenceJanuary28; release year1983only. Actual10days explicitly established only for Carol/Margaret. Do not infer Scott/Theresa actual30days from announced sentence. Add separate GTEepisode to existing TheresaGuisti(source ThereseGuisti), preserving1981Pentagoncase. Add separate1982Offutt case to RevCarlKabat, preserving2007case. ActualearlyMay1983release overrides earlier projectedJuly only in newcase; no oldcase changes.
+
+No continuous custody assumed from initial arrest to final release where intervening release/admission is unresolved. Payload commits full guards and references. Existing-case transaction generalized to multiple additions; acquiresSQLite write reservation before guarded reads. All biographies preserved. Deploy/verification pending. UsefulPDFs retained.
