@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:59 profiles updated live through batch1020;28 bounded reviews without additions;13 pending. Not100 completed.
+Progress:59 profiles updated live through batch1020;31 bounded reviews without additions;10 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -14,7 +14,7 @@ Progress:59 profiles updated live through batch1020;28 bounded reviews without a
 - Jesús M. Balzac — bounded_review_no_addition_batch1010
 - Brian DiPippa — bounded_review_conflict_requires_followup_batch986
 - John J. Ford — bounded_review_no_addition_batch1001
-- Tony Stafford — pending
+- Tony Stafford — bounded_review_conflict_requires_followup_historical_followup
 - Marquon Clark — verified_addition_live_batch1006
 - Luis A. Amely Martínez — pending
 - Tyler Robinson — verified_addition_live_batch1009
@@ -35,7 +35,7 @@ Progress:59 profiles updated live through batch1020;28 bounded reviews without a
 - Gazi Ibrahim Abu Mezer — verified_addition_live_batch1014
 - John Wills — verified_addition_live_batch1006
 - Mohamed Sabry Soliman — verified_addition_live_batch1004
-- Pete Carbonay — pending
+- Pete Carbonay — bounded_review_no_verified_addition_historical_followup
 - Donta Betts — verified_addition_live_batch996
 - Everett R. Fisher — bounded_review_no_verified_addition_batch994
 - Roberto Rivera — verified_addition_live_batch1012
@@ -91,7 +91,7 @@ Progress:59 profiles updated live through batch1020;28 bounded reviews without a
 - Peter Karasev — verified_addition_live_batch1004
 - A. G. Graham — pending
 - Andrew Mickel — verified_addition_live_batch991
-- Alex Harrison — pending
+- Alex Harrison — bounded_review_identity_requires_followup_historical_followup
 - Charles A. Tuller — verified_addition_live_batch1001
 - Regan Darby Prater — verified_addition_live_batch986
 - James Albert McGlynn — bounded_review_no_verified_addition_batch994
