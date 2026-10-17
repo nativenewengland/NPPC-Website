@@ -9,3 +9,5 @@ Bounded reviews: Karl S. Robinson, Samuel Sterenstein and John Schmidt rechecked
 Dave Ingar: government prosecutions report confirms August30,1918 sentencing already present; May14,1922 is expressly prospective term expiry in that report, not independent proof of discharge. No duplicate addition. Government report: https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERIALSET-07987_00_00-063-0159-0000.pdf
 
 George Winski: One Big Union Monthly March1920 roster says indicted Omaha September21,1918, conflicting with existing no-indictment case narrative. Existing period is based on a prior record; no overwrite from roster alone. Distinct proceedings/identity require docket reconciliation. https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf
+
+Applied live October17,2026. Dry run, application, idempotent replay and full raw readback passed. All unrelated prisoner and case fields preserved; public HTML not independently verified.
