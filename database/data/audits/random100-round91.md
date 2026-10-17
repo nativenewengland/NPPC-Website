@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:12 profiles updated live through batch992;3 bounded reviews without additions;85 pending. Not100 completed.
+Progress:13 profiles updated live through batch993;3 bounded reviews without additions;84 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -78,7 +78,7 @@ Progress:12 profiles updated live through batch992;3 bounded reviews without add
 - Elias Rodriguez — pending
 - Lenore Yarger — pending
 - Bartolomeo Vanzetti — pending
-- Ignatz Mizher — pending
+- Ignatz Mizher — verified_addition_live_batch993
 - Peter Grimm — pending
 - Alex Saab — pending
 - Will Bradbury — pending
