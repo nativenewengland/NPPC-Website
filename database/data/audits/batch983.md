@@ -6,3 +6,5 @@ Bounded checks: Goldie Waldman DailyWorker June5,1933 repeats prior arrest witho
 https://www.marxists.org/history/usa/pubs/dailyworker/1933/v010-n134-NY-jun-05-1933-DW-LOC.pdf
 https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/pp021034/pp021034.pdf
 https://www.sos.wa.gov/sites/default/files/2025-05/SL_IWWProceedings10thConvention.pdf
+
+Live October17,2026: dry run, application and idempotent replay passed. Full raw readback confirms photo and preserves all unrelated fields and cases. Public static photo HTTP200 and SHA256 verified; profile HTML not independently verified.
