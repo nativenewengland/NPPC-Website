@@ -8,4 +8,4 @@ JulianDombrouski and JulianDumbrouski both exist as separate profiles. Archive e
 
 Round89profiles51–100 baseline read; external research not complete for all100. Many remaining gaps need individual records, not inferred dates from draft registration, prospective release or sentence length. This batch corrects3existingprofiles; no invented portraits or dates.
 
-Guarded deployment/readback pending.
+Dry run, live apply, idempotent replay and independent live database readback passed for all3cases. Unrelated case fields preserved; biographies never written. Hostetler day counter recalculated by live model from partial admission precision; no exact-day total asserted. Public rendering remains unverified due to observed server timeouts.
