@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Brian Simpson",
+      "slug": "brian-simpson",
+      "expected": {
+        "id": "ffb34435-0720-48f5-a1bb-f835b436a248",
+        "prisoner_id": "b31f33fd-e744-489f-a2c0-9079713f18ec",
+        "institution_id": null,
+        "charges": "Assault in the second degree",
+        "arrest_date": "2024-06-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2024-06-19 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "70 months\n\nCharges as recorded: Assault in the second degree — for defending himself against a coworker's racist attack",
+        "imprisoned_for_days": 850,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 02:29:54",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Pat Wolke",
+        "prosecutor": "Olivia Mendez"
+      },
+      "source": "https://www.pbs.org/video/justice-for-hakiym-j5enuj/",
+      "research_note": "Southern Oregon PBS Us As We Are, Justice for Hakiym, season6 episode1 transcript expressly identifies trial judge Pat Wolke and Josephine County prosecutor Olivia Mendez, and interviews defense lawyer Eric Fournier. August13,2024 is the start of trial, not a sentencing or release day. Added missing officials only, preserving existing custody dates, sentence and biography. Earlier unsupported social-media judge lead now independently corroborated by documentary reporting."
+    }
+  ]
+}
