@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:54 profiles updated live through batch1045;2 bounded reviews without additions;44 pending. Not100 completed.
+Progress:56 profiles updated live through batch1046;2 bounded reviews without additions;42 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -41,7 +41,7 @@ Progress:54 profiles updated live through batch1045;2 bounded reviews without ad
 - Wilfredo Vélez Hernández — pending
 - Alexander Justin White — verified_addition_live_batch1025
 - Ricardo Palmera — verified_addition_live_batch1042
-- Fran Thompson — pending
+- Fran Thompson — verified_addition_live_batch1046
 - Irving Aarons — pending
 - Salvador Tió — pending
 - Thomas Weir Pauken II — bounded_review_no_verified_addition_batch1028
@@ -64,7 +64,7 @@ Progress:54 profiles updated live through batch1045;2 bounded reviews without ad
 - David Annarelli — verified_addition_live_batch1028
 - Roland Freeman — pending
 - Vance Boelter — verified_addition_live_batch1042
-- Siddique Abdullah Hasan — pending
+- Siddique Abdullah Hasan — verified_addition_live_batch1046
 - Shamim Mafi — verified_addition_live_batch1040
 - Harry Lux — pending
 - Pascale Cecile Veronique Ferrier — verified_addition_live_batch1026
