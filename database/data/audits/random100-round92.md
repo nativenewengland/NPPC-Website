@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:59 profiles updated live through batch1049;9 bounded reviews without additions;32 pending. Not100 completed.
+Progress:60 profiles updated live through batch1050;9 bounded reviews without additions;31 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — bounded_review_no_addition
@@ -13,7 +13,7 @@ Progress:59 profiles updated live through batch1049;9 bounded reviews without ad
 - Salem Seleiman — verified_addition_live_batch1045
 - Albert Lowery Grabill — pending
 - Pablo Paredes — verified_addition_live_batch1036
-- Sid Welsh — pending
+- Sid Welsh — verified_addition_live_batch1050
 - Christopher Tindal — verified_addition_live_batch1038
 - Abdul Azeez — verified_addition_live_batch1049
 - Rahmanullah Lakanwal — verified_addition_live_batch1041
