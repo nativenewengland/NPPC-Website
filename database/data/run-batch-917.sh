@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Batch 917: two verified missing draft resisters from retained PDF evidence.
+# Batch 917: two verified LaSalle anti-nuclear protest prisoners.
 # Includes under-review records in identity preflight; replay preserves existing records.
 # Uses normal curated sort placement; no existing biographies or cases are changed.
 set -uo pipefail
