@@ -15,3 +15,5 @@ Bounded checks without verified additions:
 - AndyOgando: unrelated Dominican/baseball matches rejected; no new custody endpoints/photo verified.
 
 No biographies edited. No source PDFs deleted. Disk filled during preparation; removed five generatedPNGpreviews from tmp/pdf-review-all (about14.5MiB), all path-checked within workspace. No deploy preceded successful save/commit.
+
+Applied live October17,2026. Dry run, application and idempotent replay passed. Full raw readback verifies sentencing date/judge/precision and preservation of all other fields, biography, existing custody dates, counter and case count. Public HTML rendering not independently verified.
