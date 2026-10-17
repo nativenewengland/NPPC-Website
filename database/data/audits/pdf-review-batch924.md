@@ -6,4 +6,4 @@ LarryCloud-Morgan existing N5 case incorrectly asserts exact November11,1984. Co
 
 TridentII five already have initial October1–24,1984cases; no new duplicate created. LeoSchiff has two existing rows covering that same episode, flagged for reconciliation separately; no deletion undertaken in this batch. PaulKabat already appropriately records partialNovember1984 date and is preserved. JohnPenley release lead remains unresolved, no namesake match inferred.
 
-Guarded deployment/readback pending. Source PDFs retained. This is substantive follow-up, not another100completed profile reviews.
+Dry run, live apply and idempotent replay passed. Independent database readback verifies case counts Helen2/Carl3/Larry1 and MONTH precision with November9–12bounds. Larry original discharge remains unchanged. Per-field/table preservation checks passed. Public rendering remains unverified due to prior server timeouts. Source PDFs retained. This is substantive follow-up, not another100completed profile reviews.
