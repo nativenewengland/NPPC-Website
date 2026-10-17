@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Theodore Kaczynski",
+      "slug": "theodore-kaczynski",
+      "expected": {
+        "id": "f4dedb01-d937-4c8b-b0b9-de27cc336449",
+        "prisoner_id": "d6d093ba-1d62-490a-9f16-237650b8bd23",
+        "institution_id": "f040b93c-8fe0-401a-9e61-222f52928788",
+        "charges": "18 USC 844(d) Transporting an Explosive in Interstate Commerce With Intent to Kill or Injure [4 counts]; 18 USC 1716 Mailing an Explosive Device [3 counts]; 18 USC 924(c) Use of a Destructive Device During a Crime of Violence [3 counts] - 1978-1995 Unabomber mail-bombing campaign",
+        "arrest_date": "1996-04-03 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1998-05-04 00:00:00",
+        "incarceration_date": "1996-04-03 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "2023-06-10 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four life sentences plus 30 years; no parole",
+        "imprisoned_for_days": 9929,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-16 00:37:34",
+        "date_precision": "{\"sentenced_date\": \"day\", \"arrest_date\": \"day\", \"incarceration_date\": \"day\", \"death_in_custody_date\": \"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Garland E. Burrell Jr.",
+        "plead": "Guilty, January 22, 1998",
+        "indicted": "June 18, 1996 (Sacramento federal indictment)"
+      },
+      "source": "https://law.justia.com/cases/federal/appellate-courts/F3/183/949/529834/",
+      "research_note": "Ninth Circuit published opinion 183 F.3d 949 identifies Burrell as presiding trial judge and January 22, 1998 guilty plea. DOJ June 18, 1996 announcement https://www.justice.gov/archive/opa/pr/1996/Jun96/283crm.htm establishes Sacramento indictment date. Existing custody, death and sentence fields preserved. No release inserted for death in custody."
+    }
+  ]
+}
