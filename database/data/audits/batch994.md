@@ -4,3 +4,5 @@ Conrad Kornmann: fill NULL indictment information from LaVernJ.Rippley, SouthDak
 https://paperzz.com/doc/9130651/conrad-kornmann--german---south-dakota-historical-society...
 
 Bounded checks: EverettR.Fisher, GeorgeE.Elstun and JohnW.Penrod reread in Swarthmore WWI CO CSV. Fisher/Elstun admission and January27,1919 release already populated. Board/psychologist observation not sentencing date; no exact arrest established. Penrod row has no admission/release date; March10,1919 roster publication is not either endpoint. Modern namesakes rejected. JamesAlbertMcGlynn genealogy/breeder pages conflict on birth and identity; no DOB/DOD attached without original evidence.
+
+Live October17,2026: dry run, application, idempotent replay and full raw readback passed. Unrelated fields preserved; public HTML not independently verified.

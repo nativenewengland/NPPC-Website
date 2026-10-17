@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:13 profiles updated live through batch993;3 bounded reviews without additions;84 pending. Not100 completed.
+Progress:14 profiles updated live through batch994;7 bounded reviews without additions;79 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -37,7 +37,7 @@ Progress:13 profiles updated live through batch993;3 bounded reviews without add
 - Mohamed Sabry Soliman — pending
 - Pete Carbonay — pending
 - Donta Betts — pending
-- Everett R. Fisher — pending
+- Everett R. Fisher — bounded_review_no_verified_addition_batch994
 - Roberto Rivera — pending
 - Ronald Reed — pending
 - Roman Sterlingov — pending
@@ -63,7 +63,7 @@ Progress:13 profiles updated live through batch993;3 bounded reviews without add
 - Elpidio Reyna — pending
 - Joy Gibson — pending
 - Joseph Brinton “Brint” Dillingham — bounded_review_no_verified_addition_batch990
-- George E. Elstun — pending
+- George E. Elstun — bounded_review_no_verified_addition_batch994
 - Mohammad Baqer Saad Dawood Al-Saadi — pending
 - Bill Wahl — pending
 - Geoffrey Parsons — pending
@@ -83,7 +83,7 @@ Progress:13 profiles updated live through batch993;3 bounded reviews without add
 - Alex Saab — pending
 - Will Bradbury — pending
 - Raymond Johnson — pending
-- John W. Penrod — pending
+- John W. Penrod — bounded_review_no_verified_addition_batch994
 - Francisco Silva — pending
 - Francisco Javier Roman-Bardales — pending
 - Arthur Majid Barnes — pending
@@ -94,10 +94,10 @@ Progress:13 profiles updated live through batch993;3 bounded reviews without add
 - Alex Harrison — pending
 - Charles A. Tuller — pending
 - Regan Darby Prater — verified_addition_live_batch986
-- James Albert McGlynn — pending
+- James Albert McGlynn — bounded_review_no_verified_addition_batch994
 - Rev. Joy Powell — pending
 - Hridindu Roychowdhury — verified_addition_live_batch985
-- Conrad Kornmann — pending
+- Conrad Kornmann — verified_addition_live_batch994
 - Zachary Page — pending
 - Loay Abdel Fattah Alnaji — verified_addition_live_batch989
 - Diego Vargas — pending
