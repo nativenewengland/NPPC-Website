@@ -10,4 +10,4 @@ Sources:
 - https://archivomagon.net/obras-completas/articulos-periodisticos/ap1914/
 - https://www.marxists.org/history/usa/pubs/isr/v10n01-jul-1909-ISR-gog.pdf#page=88
 
-Live verification pending.
+Live application, idempotent replay and strict full-field readback passed. Only authorized fields and updated_at changed. Public page rendering not separately verified.
