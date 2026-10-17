@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jeffrey A. Paterson",
+      "slug": "jeffrey-a-paterson",
+      "expected": {
+        "id": "44d5c839-7827-42b7-baaa-54eea43e5ea2",
+        "prisoner_id": "6e2a16da-f440-4a50-b420-5fbd78fa6b2a",
+        "institution_id": null,
+        "charges": "Unauthorized absence and missing movement",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Court-martial charges dropped under a discharge agreement",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1990-08-01 00:00:00",
+        "release_date": "1990-09-21 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Administrative discharge; no court-martial prison sentence",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 22:53:49",
+        "updated_at": "2026-10-16 02:22:01",
+        "date_precision": "{\"incarceration_date\": \"month\", \"release_date\": \"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1990-08-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"arrest_date\":\"month\"}"
+      },
+      "source": "Jeff Paterson firsthand interview, Revolutionary Worker, January2001: https://revcom.us/a/v22/1080-89/1087/jeff_paterson.htm"
+    }
+  ]
+}
