@@ -4,4 +4,4 @@ Michael Daniels: original NationalGuardian June22,1959 printed5/PDF5 visually re
 
 JohnParson: secondary account’s eighteen-month claim conflicts with existing shorter endpoints; no endpoint changed without an original individual jail/release record. JoeKatz: contemporary1929retrial lead does not establish new individual custody. Both remain pending further verification.
 
-Original PDF retained. Biographies unchanged. Deployment pending.
+Original PDF retained. Biographies unchanged. Applied live; dry run/replay passed. Strict raw readback verified only authorized birthdate/date_precision/incarceration_date/sentence fields and updated_at changed across all three queried profiles. Biographies/photos/unrelated fields preserved. Public profile rendering not checked.
