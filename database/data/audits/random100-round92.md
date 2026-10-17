@@ -2,11 +2,11 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:57 profiles updated live through batch1047;3 bounded reviews without additions;40 pending. Not100 completed.
+Progress:58 profiles updated live through batch1048;4 bounded reviews without additions;38 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
-- Esmond Adams — pending
+- Esmond Adams — bounded_review_no_addition
 - Zachary Evetts — verified_addition_live_batch1030
 - Yaakub Ira Vijandre — pending
 - Dwight Parker — pending
@@ -96,7 +96,7 @@ Progress:57 profiles updated live through batch1047;3 bounded reviews without ad
 - Jim Forest — verified_addition_live_batch1033
 - Hugo Carvajal — verified_addition_live_batch1035
 - Ida Craddock — pending
-- Burt Lorton — pending
+- Burt Lorton — verified_addition_live_batch1048
 - William Hockett — pending
 - Sue Leon Africa — pending
 - Lynette Sharp — verified_addition_live_batch1037
