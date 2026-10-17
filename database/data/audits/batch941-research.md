@@ -8,4 +8,4 @@ John Brophy: contemporary March7,1928 newspaper search lead says already at libe
 
 Naomi Burns: congressional material lists subpoenaed witnesses, not individual custody; no confinement inferred. Follow-up remains open.
 
-Sources are recorded per operation. Biographies and all unrelated fields preserved. Deployment pending.
+Sources are recorded per operation. Biographies and all unrelated fields preserved. Applied live; dry run and replay passed. Full raw comparison verified only authorized case fields and updated_at changed; all four queried profiles and other case fields preserved. Public page rendering not checked.
