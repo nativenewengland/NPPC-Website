@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Christian Frazee",
+      "slug": "christian-frazee",
+      "expected": {
+        "id": "2acef3e4-9821-4cb2-85d3-b3df5ff77574",
+        "prisoner_id": "bbcd91a8-ec0d-4a1f-acf9-ac232910f6f3",
+        "institution_id": null,
+        "charges": "Illinois state attempted terrorism; possession of explosive or incendiary device [2 counts]; conspiracy to commit terrorism - June 2020 Lombard IL police Molotov plot",
+        "arrest_date": "2020-06-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2022-04-27 00:00:00",
+        "incarceration_date": "2020-05-31 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "120 months Illinois state prison",
+        "imprisoned_for_days": 2330,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Michael Reidy",
+        "prosecutor": "Bernie Murray; Lee Roupas",
+        "plead": "Guilty (April 27, 2022)"
+      },
+      "source": "https://www.bobberlin.com/news/lombard-man-sentenced-terrorism",
+      "research_note": "Original prosecutor statement names JudgeReidy, prosecutionteam and plea. Explicit initial Jun1,2020custody, Jun30,2020bondrelease, Dec24,2020rearrest/continuouslatercustody. ExistingMay31incarceration wrongly precedesJun1arrest and spans bailgap; separate custodyperiod reconciliation required, not silently overwritten. DOB sourceApr6,1995 also available for later comparison."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Cody Balmer",
+      "slug": "cody-balmer",
+      "expected": {
+        "id": "8d46c54d-e636-4259-8b86-62564a94c9d1",
+        "prisoner_id": "b36087c8-bf81-4b86-824b-4d6501f54d12",
+        "institution_id": null,
+        "charges": "Attempted murder, aggravated arson, burglary, terrorism, and related offenses.",
+        "arrest_date": "2025-04-13 00:00:00",
+        "indicted": null,
+        "convicted": "Yes.",
+        "plead": "Guilty.",
+        "sentenced_date": "2025-10-14 00:00:00",
+        "incarceration_date": "2025-04-13 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty-five to fifty years in Pennsylvania state prison.",
+        "imprisoned_for_days": 552,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 06:08:59",
+        "updated_at": "2026-10-17 00:00:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Deborah E. Curcillo",
+        "prosecutor": "Fran Chardo"
+      },
+      "source": "https://crimewatch.net/us/pa/dauphin/da/310/cases/balmer-pleads-guilty-charged-and-receives-state-prison-sentence-25-50-years",
+      "research_note": "Original DA statement datedOct14,2025 identifies actualjudge/prosecutor and pleaagreement. ParoleeligibilityApril13,2050 not actualrelease; no future endpoint added. Existingplea/date/sentence preserved."
+    }
+  ]
+}
