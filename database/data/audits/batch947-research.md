@@ -4,4 +4,4 @@ Leopold Bergman: original New York Call May24,1909 front page visually checked, 
 
 GarlandL.Alderman: broad case sources found but no individual actual confinement endpoint or identified portrait verified; no new field inferred. JohnL.Rinker: similarly named Confederate soldiers rejected; no new fact established. Both remain pending further research.
 
-Original six-page newspaper retained. Full profile guard. Deployment pending.
+Original six-page newspaper retained. Full profile guard. Applied live; dry run/replay passed. Full raw comparison verified only birthdate, date_precision and updated_at changed; all case rows and other queried profiles preserved. Public profile rendering not checked.
