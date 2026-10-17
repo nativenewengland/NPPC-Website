@@ -10,4 +10,4 @@ Sources:
 - https://upload.wikimedia.org/wikipedia/commons/7/75/Amnesty_and_pardon_for_political_prisoners_-_hearings_.._%28IA_amnestypardonfor00unit%29.pdf#page=106
 - https://www.marxists.org/archive/eastman/1918/wilson.htm
 
-Original Senate PDF retained at tmp/random-counters-497/amnesty.pdf. No historical PDF deleted. Charles Krieger and Thomas Yarkineas source leads remain unresolved; no speculative custody endpoints. No existing biography or portrait changed. Deployment pending. Full external100profile review unfinished.
+Original Senate PDF retained at tmp/random-counters-497/amnesty.pdf. No historical PDF deleted. Charles Krieger and Thomas Yarkineas source leads remain unresolved; no speculative custody endpoints. No existing biography or portrait changed. Live application, dry run, idempotent replay, and independent full raw readback passed. All unrelated fields preserved across four queried profiles. Public rendering not verified. Full external100profile review unfinished.
