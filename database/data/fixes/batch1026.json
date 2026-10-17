@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Joshua Schulte",
+      "slug": "joshua-schulte",
+      "expected": {
+        "id": "0bdb9f15-30c4-42d4-a29c-5b3923ba9ec4",
+        "prisoner_id": "3fb81315-eea1-431c-84b9-348c9f9db051",
+        "institution_id": "5b051a4c-b8a9-44a4-931a-fe377bbefac6",
+        "charges": "Espionage Act Hacking False Statements Child exploitation",
+        "arrest_date": "2017-08-24 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2024-02-01 00:00:00",
+        "incarceration_date": "2017-12-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Forty years in federal prison and lifetime supervised release, imposed February 1, 2024. The original district-court opinion expressly establishes MCC incarceration beginning December 14, 2017 after an earlier bail release. The Second Circuit's May 3, 2022 summary order independently confirms that remand day. This records the documented federal confinement phase; earlier brief custody and bail-release endpoints remain unverified.",
+        "imprisoned_for_days": 3229,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jesse M. Furman",
+        "prosecutor": "David W. Denton Jr.; Michael D. Lockard; Nicholas S. Bradley"
+      },
+      "source": "https://www.justice.gov/archives/opa/pr/former-cia-officer-joshua-adam-shulte-sentenced-40-years-prison-espionage-and-child",
+      "research_note": "DOJ Feb1,2024 names prosecution. Original Feb21,2024 opinion by Furman confirms40-year sentence earlierthatmonth: https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2021cv04042/561468/64/ . Existing verified Dec14,2017 confinement phase preserved; no plea inferred from jury convictions."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Pascale Cecile Veronique Ferrier",
+      "slug": "pascale-cecile-veronique-ferrier",
+      "expected": {
+        "id": "92f5aaad-eba1-4096-a925-2bc262ea7c3f",
+        "prisoner_id": "a87a0928-3fec-4480-8554-6c27b60cfe14",
+        "institution_id": null,
+        "charges": "18 USC 175(a) Prohibitions With Respect to Biological Weapons [9 charges]; 18 USC 871(a) Threatening to Kill or Injure the President - September 2020 ricin letters",
+        "arrest_date": "2020-09-19 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2023-08-16 00:00:00",
+        "incarceration_date": "2023-08-16 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "262 months federal prison + lifetime supervised release",
+        "imprisoned_for_days": 1158,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Dabney L. Friedrich",
+        "plead": "Guilty (January 25, 2023)",
+        "prosecutor": "Michael J. Friedman; Rob Jones; David Coronado; David Lindenmuth; David Smith"
+      },
+      "source": "https://www.justice.gov/usao-dc/pr/foreign-national-pleads-guilty-mailing-ricin-president-united-states-2020",
+      "research_note": "DOJ Jan25,2023 explicitly dates plea, judge and combinedDC/Texas prosecution team. Actual arrest Sep20,2020 with continuous detention conflicts with storedSep19 arrest and2023incarceration; sentencingAug17 news conflicts withstoredAug16. Keep existing dates pending primary judgment reconciliation; scheduledApr26 not actual sentencing."
+    }
+  ]
+}
