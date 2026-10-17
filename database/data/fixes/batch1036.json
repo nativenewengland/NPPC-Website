@@ -1,0 +1,78 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Nicolas Maduro Moros",
+      "slug": "nicolas-maduro-moros",
+      "expected": {
+        "id": "d06b2fcb-4faa-4505-8d91-7ef6ad7a349a",
+        "prisoner_id": "bd20694d-33b4-437a-88a4-3763b4d60af8",
+        "institution_id": "c3068605-3613-49c1-8b95-04f1ada17302",
+        "charges": "Narco-terrorism conspiracy (21 U.S.C. § 960a); conspiracy to import cocaine (21 U.S.C. §§ 963, 959(a), 960(b)(1)(B)); possession of machineguns and destructive devices in furtherance of drug trafficking (18 U.S.C. § 924(c)); conspiracy to possess machineguns (18 U.S.C. § 924(o)) — U.S. v. Maduro Moros, S.D.N.Y.",
+        "arrest_date": "2026-01-02 00:00:00",
+        "indicted": "Mar 25th 2020",
+        "convicted": "No — pending trial",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2026-01-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "U.S. Attorney's Office for the Southern District of New York (Geoffrey S. Berman, U.S. Attorney at filing)",
+        "judge": "Hon. Alvin K. Hellerstein (S.D.N.Y.)",
+        "sentence": "Pending\n\nVerdict as recorded: Pending — pleaded not guilty Jan 5, 2026",
+        "imprisoned_for_days": 288,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:12",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Not guilty, January 5, 2026"
+      },
+      "source": "https://www.everycrsreport.com/reports/LSB11401.html",
+      "research_note": "Congressional Research Service legal report confirms January5,2026 arraignment and not-guilty plea. Existing January2 arrest/incarceration conflicts with January3 capture reporting; recorded for separate reconciliation, not overwritten. Existing prosecution and judge fields preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Pablo Paredes",
+      "slug": "pablo-paredes",
+      "expected": {
+        "id": "112a3f76-88d0-4cb2-8354-780e040b1fc8",
+        "prisoner_id": "18854f29-f0f3-43a5-ad40-a610e3506dfd",
+        "institution_id": null,
+        "charges": "Missing movement",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2005-05-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months of hard labor without confinement and reduction in rank; no jail sentence",
+        "imprisoned_for_days": 0,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-18 23:45:18",
+        "updated_at": "2026-09-18 23:45:18",
+        "date_precision": "{\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 0,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Lt. Cmdr. Robert Klant"
+      },
+      "source": "https://apacikradyo.com.tr/navy-judge-finds-war-protest-reasonable",
+      "research_note": "Contemporary May13,2005 account by trial expert witness Marjorie Cohn identifies presiding military judge Robert Klant. No confinement dates added: sentence was hard labor without confinement and restriction, not a jail term. Existing month-precision sentence date preserved."
+    }
+  ]
+}
