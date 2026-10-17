@@ -1,0 +1,80 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Eric Hafner",
+      "slug": "eric-hafner",
+      "expected": {
+        "id": "8ff53bd6-3dfb-4e7b-bd17-8a593325245c",
+        "prisoner_id": "c8c5cac3-f133-4022-8ce8-b1b568e6cfee",
+        "institution_id": "28393f27-5acb-49de-8534-c40179b495dd",
+        "charges": "Thirty-three counts in the October 31, 2019 federal indictment — nine counts of extortionate threats, eighteen counts of transmitting threats in interstate commerce and six counts of conveying false bomb threats —.",
+        "arrest_date": "2019-09-28 00:00:00",
+        "indicted": "October 31, 2019 — thirty-three counts.",
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2023-12-07 00:00:00",
+        "incarceration_date": "2019-09-28 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "240 months — twenty years — in federal prison plus three years of supervised release, imposed December 7, 2023, NOT in December 2022: the earlier date belongs to the guilty plea year and had been carried onto the sentencing by mistake. Projected release from the Bureau of Prisons is October 12, 2036. He was arrested on Saipan and held without bail from his first New Jersey appearance on October 23, 2019, and has been in continuous custody since, which is why the sentence computation credits time from 2019. Some Justice Department publicity and news reports give the arrest as September 27; a federal district-court opinion gives September 28, which is the date used here, the discrepancy apparently reflecting the local date across the date line or the moment authorities first took him into custody. His initial appearance in the Northern Mariana Islands on September 30, 2019 was before Chief U.S. District Judge Ramona V. Manglona, and the detention order was entered by Magistrate Judge Tonianne J. Bongiovanni; neither sentenced him, and no source in hand names the sentencing judge, so that field is left empty.\n\nCharges as recorded: Thirty-three counts in the October 31, 2019 federal indictment — nine counts of extortionate threats, eighteen counts of transmitting threats in interstate commerce and six counts of conveying false bomb threats — over messages threatening to kill or injure New Jersey elected officials, police officers, attorneys and judges and their families. The case began with a complaint filed under seal on October 6, 2016 charging a single count of transmitting threatening communications under 18 U.S.C. section 875(c).",
+        "imprisoned_for_days": 2576,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-29 13:13:36",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Zahid N. Quraishi",
+        "plead": "Guilty (three counts; subsequent motion to withdraw plea denied)"
+      },
+      "source": "https://law.justia.com/cases/federal/appellate-courts/ca3/23-3258/23-3258-2026-02-27.html",
+      "research_note": "Original ThirdCircuit Feb27,2026 opinion names districtjudgeQuraishi and guiltyplea to3counts, deniedwithdrawal. Existing sentence text incorrectly suggests no source names sentencingjudge; missing judge field nowfilled, existingtext untouched per scope. No plea date inferred from trial date."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "David Annarelli",
+      "slug": "david-annarelli",
+      "expected": {
+        "id": "5303ecca-aa5e-4675-966a-0c3500f099f7",
+        "prisoner_id": "966dc969-8108-4523-aefc-412e36769cdb",
+        "institution_id": null,
+        "charges": "Malicious wounding of a law enforcement officer",
+        "arrest_date": "2016-09-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — no-contest plea",
+        "plead": null,
+        "sentenced_date": "2017-08-15 00:00:00",
+        "incarceration_date": "2016-09-24 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty years imposed at the August 15, 2017 sentencing hearing, with five years suspended (fifteen active years). Written sentencing order signed August 22, 2017. Actual release not established.",
+        "imprisoned_for_days": 3675,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Judge Long (Floyd County Circuit Court)",
+        "plead": "No contest"
+      },
+      "source": "https://law.justia.com/cases/federal/district-courts/virginia/vawdce/7:2020cv00025/117813/15/",
+      "research_note": "Original federalhabeas opinion quotes actual sentencing colloquy identifying JudgeLong and nolo/no-contest plea. Federal reviewingJudgeDillon not assigned as state trialjudge. Existing sentence/date distinctions preserved; full first/middle name not inferred."
+    }
+  ]
+}
