@@ -4,4 +4,4 @@ Alec Stewart: firsthand interview by Shane Burley in Waging Nonviolence, August2
 
 Captioned Minnesota Women’s Press image inspected and original retained with exact crop. Existing photo null; do not replace an existing portrait.
 
-Fresh full snapshots guarded. Biographies unchanged. Deployment verification pending.
+Fresh full snapshots guarded. Biographies unchanged. Applied live; dry run/replay passed. Full raw readback verified only authorized fields and updated_at changed across all five queried profiles. Public stored portrait returned HTTP200 and matching SHA256. Public profile rendering not checked.
