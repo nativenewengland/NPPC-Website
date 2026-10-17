@@ -1,0 +1,78 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Hanif Shabazz Bey",
+      "slug": "hanif-shabazz-bey",
+      "expected": {
+        "id": "e09b65ec-eab4-47c5-aab5-9faf5d8fb176",
+        "prisoner_id": "71ef2964-e288-4042-9e3a-ef1e597cfbe1",
+        "institution_id": "25ba5819-e76c-4083-8c81-bbfa4725d236",
+        "charges": "Murder Armed Robbery Assault",
+        "arrest_date": "1972-09-08 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "1973-08-13 00:00:00",
+        "incarceration_date": "1972-09-08 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life",
+        "imprisoned_for_days": 19762,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Warren Young"
+      },
+      "source": "https://law.resource.org/pub/us/case/reporter/F2/502/502.F2d.914.html",
+      "additional_source": "https://vi3.org/about/"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Malik El-Amin",
+      "slug": "malik-el-amin",
+      "expected": {
+        "id": "e68155c6-ef5d-4138-a64c-a1c6b8a961cd",
+        "prisoner_id": "49569ed0-7db8-416c-a53f-6661c3d5ad4b",
+        "institution_id": "f1574633-2fd1-41e3-bf2b-897a7b80feef",
+        "charges": "Fountain Valley case: eight murder counts, four first-degree assault counts and two robbery counts",
+        "arrest_date": "1972-09-07 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1973-08-13 00:00:00",
+        "incarceration_date": "1972-09-07 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Eight consecutive life sentences plus ninety years",
+        "imprisoned_for_days": 19763,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-26 11:48:25",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Warren Young"
+      },
+      "source": "https://law.resource.org/pub/us/case/reporter/F2/502/502.F2d.914.html",
+      "additional_source": "https://vi3.org/about/"
+    }
+  ]
+}
