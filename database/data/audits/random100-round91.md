@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:51 profiles updated live through batch1013;14 bounded reviews without additions;35 pending. Not100 completed.
+Progress:53 profiles updated live through batch1014;14 bounded reviews without additions;33 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -32,7 +32,7 @@ Progress:51 profiles updated live through batch1013;14 bounded reviews without a
 - Jason Watson — pending
 - Hadi Matar — verified_addition_live_batch989
 - Malik El-Amin — verified_addition_live_batch1013
-- Gazi Ibrahim Abu Mezer — pending
+- Gazi Ibrahim Abu Mezer — verified_addition_live_batch1014
 - John Wills — verified_addition_live_batch1006
 - Mohamed Sabry Soliman — verified_addition_live_batch1004
 - Pete Carbonay — pending
@@ -74,7 +74,7 @@ Progress:51 profiles updated live through batch1013;14 bounded reviews without a
 - Monzer Al Kassar — verified_addition_live_batch988
 - Kamau Sadiki — verified_addition_live_batch1006
 - Sofia DeFerrari — pending
-- Yorie von Kahl — pending
+- Yorie von Kahl — verified_addition_live_batch1014
 - Elias Rodriguez — verified_addition_live_batch1005
 - Lenore Yarger — bounded_review_no_addition_batch1001
 - Bartolomeo Vanzetti — verified_addition_live_batch1010
