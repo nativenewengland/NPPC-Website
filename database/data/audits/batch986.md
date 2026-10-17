@@ -8,3 +8,5 @@ https://www.justice.gov/usao-edtn/pr/tennessee-man-pleads-guilty-arson-and-attem
 
 BrianDiPippa bounded check: DOJ sentencing source names JudgeJ.NicholasRanjan, whereas existing case names W.ScottHardy. Plea field also conflicts with existing narrative. Record requires proceedings-level reconciliation, not an additional custody day guessed from sentencing.
 https://www.justice.gov/usao-wdpa/pr/pittsburgh-couple-sentenced-obstructing-law-enforcement-during-campus-protest
+
+Applied live October17,2026: dry run, application, idempotent replay and full raw readback passed; unrelated fields preserved. Public HTML not independently verified.

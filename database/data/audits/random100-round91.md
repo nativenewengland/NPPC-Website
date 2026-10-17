@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:2 profiles updated live in batch985;98 pending. Not100 completed.
+Progress:4 profiles updated live through batch986;1 bounded review with conflicts;95 pending. Not100 completed.
 
 - Cameron Monte Smith — pending
 - Victor Devon Edwards — pending
@@ -12,7 +12,7 @@ Progress:2 profiles updated live in batch985;98 pending. Not100 completed.
 - Alexander Stokes Contompasis — pending
 - Dwight Freeman — pending
 - Jesús M. Balzac — pending
-- Brian DiPippa — pending
+- Brian DiPippa — bounded_review_conflict_requires_followup_batch986
 - John J. Ford — pending
 - Tony Stafford — pending
 - Marquon Clark — pending
@@ -50,7 +50,7 @@ Progress:2 profiles updated live in batch985;98 pending. Not100 completed.
 - Willow Cordes-Eklund — pending
 - J. McNichols — pending
 - Lourdes Santana Melecio — pending
-- Paul Hyon Kim — pending
+- Paul Hyon Kim — verified_addition_live_batch986
 - Isaih Houston — pending
 - Carolyn DeLoatch — pending
 - John Pacheta — pending
@@ -93,7 +93,7 @@ Progress:2 profiles updated live in batch985;98 pending. Not100 completed.
 - Andrew Mickel — pending
 - Alex Harrison — pending
 - Charles A. Tuller — pending
-- Regan Darby Prater — pending
+- Regan Darby Prater — verified_addition_live_batch986
 - James Albert McGlynn — pending
 - Rev. Joy Powell — pending
 - Hridindu Roychowdhury — verified_addition_live_batch985
