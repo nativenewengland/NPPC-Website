@@ -1,0 +1,78 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Zachary Evetts",
+      "slug": "zachary-evetts",
+      "expected": {
+        "id": "badeff56-1908-4a46-b01b-db709d610e9b",
+        "prisoner_id": "0839fd99-a474-488c-93cc-ef1205c3e4f8",
+        "institution_id": "3b976d7c-60fe-4f91-b96b-41514b028f21",
+        "charges": "Riot; providing material support to terrorists; conspiracy to use and carry an explosive; using and carrying an explosive",
+        "arrest_date": "2025-07-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2026-06-23 00:00:00",
+        "incarceration_date": "2025-07-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Reed O’Connor",
+        "sentence": "50 years\n\nVerdict as recorded: Yes — convicted at trial (federal jury, Northern District of Texas; verdict March 13, 2026)",
+        "imprisoned_for_days": 470,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:12",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Frank Gatto; Shawn Smith; Matt Capoccia"
+      },
+      "source": "https://www.justice.gov/opa/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice",
+      "research_note": "DOJ June 23, 2026 sentencing release explicitly names the three trial prosecutors; existing dates and judge preserved. Indictment press page is dated November 14, not the October date suggested in search results; no indictment date inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Abdullah Ezzeldin Taha Mohamed Hassan",
+      "slug": "abdullah-ezzeldin-taha-mohamed-hassan",
+      "expected": {
+        "id": "25e45b0d-130f-49f1-a3a0-78b706d956f5",
+        "prisoner_id": "25fc8942-85f5-4253-9398-901f69e57581",
+        "institution_id": null,
+        "charges": "Distribution of information relating to explosives and alleged direction of an ISIS-inspired attack plot.",
+        "arrest_date": "2024-12-16 00:00:00",
+        "indicted": null,
+        "convicted": "No conviction established; case pending.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2024-12-16 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; remanded pending trial.",
+        "imprisoned_for_days": 670,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Gavin R. Tisdale"
+      },
+      "source": "https://www.investigativeproject.org/case_docs/us-v-hassan/4897/motion-to-seal-complaint.pdf",
+      "research_note": "Filed December 16, 2024 government motion, document 5 page 3, signed by AUSA Gavin R. Tisdale. Arrest warrant return document 12 explicitly records December 17 arrest, contradicting populated December 16 arrest/incarceration fields; retained existing dates for separate reconciliation. No release established."
+    }
+  ]
+}
