@@ -1,0 +1,79 @@
+{
+  "batch": 952,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Brophy",
+      "slug": "john-brophy",
+      "expected": {
+        "id": "16f121c4-79cf-4738-b8c2-623b48b28822",
+        "prisoner_id": "b8a83c9d-c8b3-41f7-b859-a16369785fea",
+        "institution_id": null,
+        "charges": "Inciting a riot and unlawful assembly (contemporary March 7 report); later described as riot and inciting to riot.",
+        "arrest_date": "1928-03-06 00:00:00",
+        "indicted": null,
+        "convicted": "Arrested, March 1928",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1928-03-06 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed at the miners' meeting (a brief arrest amid the strike prosecutions).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 18:28:35",
+        "updated_at": "2026-10-14 20:13:57",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Jailed at the miners' meeting (a brief arrest amid the strike prosecutions). A contemporary March 7, 1928 report states that Brophy and Patrick Toohey were already at liberty on $1,000 bond each after the previous day’s arrest. This establishes release by March 7, but not an exact discharge day or an overnight stay. Source: Manchester Evening Herald, March 7, 1928. https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1928-03-07.pdf"
+      },
+      "source": "https://cdn.manchesterhistory.org/News/Manchester%20Evening%20Hearld_1928-03-07.pdf"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John J. Warner",
+      "slug": "john-j-warner",
+      "expected": {
+        "id": "fdd4cc73-957d-4384-b6be-d71e72a198a3",
+        "prisoner_id": "d1ec7437-7a95-4793-942c-8d385e11b5d2",
+        "institution_id": null,
+        "charges": "Detention during the 1845 Anti-Rent War crackdown; formal charge not established",
+        "arrest_date": "1845-08-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Confined in the Brimstone church during the August 1845 crackdown, then held at Schoharie for a week, according to his daughter's recollection published in 1906. The week refers to the Schoharie confinement, not the total including the church. Exact arrest and release days, the formal charge and any imposed sentence remain unverified.",
+        "imprisoned_for_days": 7,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 19:47:35",
+        "updated_at": "2026-09-28 13:07:58",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 7,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1845-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"year\"}",
+        "sentence": "Confined in the Brimstone church during the August 1845 crackdown, then held at Schoharie for a week, according to his daughter's recollection published in 1906. The week refers to the Schoharie confinement, not the total including the church. Exact arrest and release days, the formal charge and any imposed sentence remain unverified. Source: Albert C. Mayham, The Anti-Rent War on Blenheim Hill (1906), pp. 83–84, recollection of Mrs. N. K. Hoagland, his daughter. https://archive.org/download/cu31924030043131/cu31924030043131_djvu.txt The incarceration year is recorded with year precision; January 1 is a storage placeholder, not an established admission day."
+      },
+      "source": "https://archive.org/download/cu31924030043131/cu31924030043131_djvu.txt"
+    }
+  ]
+}
