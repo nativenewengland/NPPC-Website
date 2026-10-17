@@ -6,4 +6,4 @@ Guard fullprisoner andall6rawcases; stableUUID identifiesreplay; Eloquentwithout
 
 Source: https://couragetoresist.org/podcast-jim-albertini/
 
-Live verification pending.
+Live creation, idempotent replay and independent raw-field readback passed: exactly one case added; all six existing cases and every prisoner attribute identical. New custody endpoints/duration counters remain null. Public HTML not separately verified.
