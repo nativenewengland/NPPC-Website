@@ -1,0 +1,41 @@
+{
+  "batch": 946,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Russell Ford",
+      "slug": "russell-ford",
+      "expected": {
+        "id": "ce8484f7-1bc6-4f1b-8870-edec478d266d",
+        "prisoner_id": "70c7ac2c-391a-44a5-9dae-4c54c082b0c7",
+        "institution_id": null,
+        "charges": "Failure to register",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — draft-registration conviction; subsequent sentence credited pretrial time served",
+        "plead": null,
+        "sentenced_date": "1983-06-06 00:00:00",
+        "incarceration_date": "1982-08-10 00:00:00",
+        "release_date": "1982-09-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The originalTorchOctober15–November14,1982 printed6 establishes jailing afterAugust10 arraignment and release afterSeptember14bond agreement, replacing unsupportedAugust9 admission. ContemporaryUPISeptember15indexedreport independently states releasedTuesdaySeptember14 fromDanbury where sentAugust10. Exact separate arrestday remains unverified; neither indictment nor arraignment is automatically that day. The originalJune7,1983DailyGazette p1 UPI brief reports no new jailterm the previousday; Becker's1985individual table explicitly dates June6time-served sentencing. September14,1982 is pretrial release, not June1983 release or end of all supervision. BOPRussellF.Fordnamequery returns0; absence doesnotnegate contemporary documentedcustody. No sentence-era imprisonment or durationcounter manufactured.",
+        "imprisoned_for_days": 35,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-13 00:00:21",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "Indicted July 30, 1982, in Hartford, Connecticut."
+      },
+      "source": "https://contentdm.macalester.edu/digital/api/collection/p16903coll12/id/2920/download#page=1"
+    }
+  ]
+}
