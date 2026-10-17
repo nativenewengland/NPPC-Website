@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Mumia Abu-Jamal",
+      "slug": "mumia-abu-jamal",
+      "expected": {
+        "id": "68fa5f50-2ea4-40cb-8152-b700788275e9",
+        "prisoner_id": "32cb4ca6-42ed-468a-bccd-7947327370c7",
+        "institution_id": null,
+        "charges": "Murder",
+        "arrest_date": "1981-12-09 00:00:00",
+        "indicted": null,
+        "convicted": "Jul 2nd 1982",
+        "plead": "Not-Guilty",
+        "sentenced_date": "1983-05-25 00:00:00",
+        "incarceration_date": "1981-12-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Police arrest/custody began December9,1981, including hospital treatment; this start is not a verified state-prison reception date. Jury conviction July2,1982, jury death-penalty verdict July3,1982, and formal judicial imposition May25,1983 are distinct. The sentence field dates formal original sentencing, not conviction. Death penalty later vacated and life without parole imposed in2012. Release remainsNULL: neither penalty vacatur nor resentencing was discharge. Unsupported December8 arrest/indictment and July2 admission/sentencing corrected; no exact indictment inferred from arraignment.",
+        "imprisoned_for_days": 16383,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Albert F. Sabo (original trial)",
+        "prosecutor": "Joseph McGill (original trial)"
+      },
+      "source": "https://www.inquirer.com/philly/hot_topics/ABU-JAMAL_CANNOT_DEFEND_SELF.html",
+      "research_note": "Contemporary trial reporting republished by Philadelphia Inquirer identifies trial judge Sabo and prosecutor Joseph McGill; role explicitly original trial rather than later resentencing or appeals. Transcript indexed by LDF corroborates full Albert F.Sabo name. Existing dates/biography preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jamil Abdullah al-Amin",
+      "slug": "jamil-abdullah-al-amin",
+      "expected": {
+        "id": "5aabe54d-9e81-4a04-97a1-f78b8c8b59f8",
+        "prisoner_id": "d2c1f534-ae32-4045-adcd-52eb9e702e6c",
+        "institution_id": "3c053f31-dc67-4c09-b9d2-9943cb68d9e5",
+        "charges": "Murder of Fulton County sheriff's deputy Ricky Kinchen; aggravated assault on deputy Aldranon English",
+        "arrest_date": "2000-03-20 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2000-03-20 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "2025-11-23 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life without parole",
+        "imprisoned_for_days": 9379,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-13 12:29:29",
+        "updated_at": "2026-09-29 00:00:05",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2002-03-13 00:00:00",
+        "indicted": "March 28, 2000 (13-count indictment)",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://law.justia.com/cases/georgia/supreme-court/2004/s04a0151-1.html",
+      "research_note": "Georgia Supreme Court opinion footnote1 explicitly identifies indictment March28,2000 and actual sentencing March13,2002 following March9 verdict. Existing generic Firearms Violation case appears to duplicate this prosecution but stores March12 sentence: conflicting case left unchanged, flagged for reconciliation. Only missing fields in detailed murder case filled; custody and death dates preserved."
+    }
+  ]
+}
