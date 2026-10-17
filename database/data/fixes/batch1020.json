@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Francisco Silva",
+      "slug": "francisco-silva",
+      "expected": {
+        "id": "43ad19da-35d5-4249-aab5-dba6783e6360",
+        "prisoner_id": "d15f3f82-d747-4871-b7e4-bc3b16fba97a",
+        "institution_id": null,
+        "charges": "Civil immigration detention following a bond review and prior DUI convictions; political motivation unproven.",
+        "arrest_date": "2019-08-23 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2019-08-23",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-09 01:35:22",
+        "updated_at": "2026-10-09 01:35:22",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "imprisoned_for_months": 8,
+        "sentence": "Civil immigration detention, not a criminal prison sentence. OCAD reports eight months at McHenry detention center and release during the COVID-19 pandemic; exact release date remains unverified."
+      },
+      "source": "https://www.organizedcommunities.org/campaigns",
+      "research_note": "OCAD own campaign explicitly reports8months atMcHenry and release duringCOVID19. Store reported month-total without deriving release day/month by adding8months to arrest. Spanish companion confirms release. Petition describes multiple earlier proceedings, so January2020 cancellation judge and older November5DUI plea not blindly attached as officials/plea of2019detention. Political-retaliation uncertainty remains preserved."
+    }
+  ]
+}
