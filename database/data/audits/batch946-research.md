@@ -6,4 +6,4 @@ Julian Dumbrouski/Dombrouski: spelling/duplicate question remains unresolved. No
 
 Calixto Guerra: contemporary Turner roster and a later Mexican government publication differ on dismissal versus conviction; no individual term inferred from group ranges. JohnMurray publisher citations in cached PDFs are unrelated namesakes and not evidence about the PLM supporter.
 
-Original roster PDF retained. Biographies unchanged. Deployment pending.
+Original roster PDF retained. Biographies unchanged. Applied live; dry run/replay passed. Strict readback verified only indicted and updated_at changed; both queried profiles and every unrelated case field preserved. Public profile rendering not checked.
