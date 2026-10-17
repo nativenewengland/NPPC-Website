@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:64 profiles updated live through batch1052;9 bounded reviews without additions;27 pending. Not100 completed.
+Progress:65 profiles updated live through batch1053;9 bounded reviews without additions;26 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — bounded_review_no_addition
@@ -48,7 +48,7 @@ Progress:64 profiles updated live through batch1052;9 bounded reviews without ad
 - Kyle Calvert — verified_addition_live_batch1025
 - Jordan W. Rincker — verified_addition_live_batch1039
 - Siobhan Browne — verified_addition_live_batch1044
-- Bhavika Anandpura — pending
+- Bhavika Anandpura — verified_addition_live_batch1053
 - Walter Marks — verified_addition_live_batch1051
 - Trenten Edward Barker — verified_addition_live_batch1040
 - Justin Raymond Colby — bounded_review_no_addition
