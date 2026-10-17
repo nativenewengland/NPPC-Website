@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "J. McNichols",
+      "slug": "j-mcnichols",
+      "expected": {
+        "id": "c50d17ee-466c-42d5-a6c1-daab9e0f94a2",
+        "prisoner_id": "734937bc-27fa-4fb1-a92b-70be4902f2ff",
+        "institution_id": null,
+        "charges": "Espionage Act (Title I), Section 3.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1918-06-11 00:00:00",
+        "release_date": "1919-06-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months.\n\nVerdict as recorded: Yes — listed in the 1921 Senate \"Amnesty and Pardon for Political Prisoners\" hearing.",
+        "imprisoned_for_days": 365,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 20:46:20",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1918-06-11 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://archive.org/download/amnestypardonfor00unit/amnestypardonfor00unit.pdf",
+      "research_note": "Original1921 Amnesty and Pardon hearings printedp90/PDFpage96 Idaho row McNicholsJ explicitly lists date of sentence June11,1918 and12months. Layout extraction preserves row alignment. Remarks say commuted to expire at once April22,1919; this is clemency disposition, not independently actual physical release. Stored June11,1919 release conflicts with commutation and requires reconciliation; not replaced by guessed actual release. Existing custody fields and biography unchanged in missing-only addition."
+    }
+  ]
+}
