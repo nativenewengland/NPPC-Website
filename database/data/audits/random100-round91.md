@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:16 profiles updated live through batch995;7 bounded reviews without additions;77 pending. Not100 completed.
+Progress:17 profiles updated live through batch996;7 bounded reviews without additions;76 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -36,7 +36,7 @@ Progress:16 profiles updated live through batch995;7 bounded reviews without add
 - John Wills — pending
 - Mohamed Sabry Soliman — pending
 - Pete Carbonay — pending
-- Donta Betts — pending
+- Donta Betts — verified_addition_live_batch996
 - Everett R. Fisher — bounded_review_no_verified_addition_batch994
 - Roberto Rivera — pending
 - Ronald Reed — pending
