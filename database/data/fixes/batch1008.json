@@ -1,0 +1,40 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Raymond Johnson",
+      "slug": "raymond-johnson",
+      "expected": {
+        "id": "cc0633b5-c7c4-495e-8708-d07c884ad46c",
+        "prisoner_id": "cea993cc-b51c-46a6-8b20-01060cfb2e6f",
+        "institution_id": null,
+        "charges": "Kidnapping arising from the November 4, 1968 diversion of National Airlines Flight 186; aircraft-piracy count dismissed",
+        "arrest_date": "1986-09-11 00:00:00",
+        "indicted": null,
+        "convicted": "Yes; original sentence vacated and remanded",
+        "plead": "Guilty to kidnapping",
+        "sentenced_date": null,
+        "incarceration_date": "1986-09-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": "1968-11-04 00:00:00",
+        "end_of_exile": "1986-09-11 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Initially sentenced to 25 years; the Fifth Circuit vacated the sentence and remanded for resentencing. He also reported four years in a Cuban prison. Final U.S. release date not located.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 6520,
+        "created_at": "2026-07-17 16:59:17",
+        "updated_at": "2026-10-16 00:00:28",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"end_of_exile\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "June 1969 \u2014 two-count federal indictment charging aircraft piracy and kidnapping (month precision); aircraft-piracy count later dismissed under plea agreement."
+      },
+      "source": "https://openjurist.org/823/f2d/840/united-states-v-johnson"
+    }
+  ]
+}
