@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:16 profiles updated live through batch1028;1 bounded review without additions;83 pending. Not100 completed.
+Progress:18 profiles updated live through batch1029;1 bounded review without additions;81 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -75,11 +75,11 @@ Progress:16 profiles updated live through batch1028;1 bounded review without add
 - Ray Edmerson — pending
 - Luis Dalhet Hipolito — pending
 - Brian Simpson — pending
-- Cody Balmer — pending
+- Cody Balmer — verified_addition_live_batch1029
 - Jamison Wagner — pending
 - Tamako Matano — pending
 - Abby Rampone — pending
-- Christian Frazee — pending
+- Christian Frazee — verified_addition_live_batch1029
 - Keonne Rodriguez — verified_addition_live_batch1023
 - Nicolas Maduro Moros — pending
 - Mohammed Azharuddin Chhipa — verified_addition_live_batch1027
