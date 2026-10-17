@@ -6,4 +6,4 @@ XavierNolley-Hall: original court memorandum November19,2020, No20-256-2, confir
 https://www.govinfo.gov/content/pkg/USCOURTS-paed-2_20-cr-00256/pdf/USCOURTS-paed-2_20-cr-00256-0.pdf
 https://www.inquirer.com/news/lowes-west-philadelphia-park-west-center-derrick-weatherbe-20210629.html
 
-No biographies edited. Deployment verification pending.
+No biographies edited. Applied live October17,2026. Dry run, application and idempotent replay passed. Full raw readback confirms all additions and preservation of unrelated fields, biographies and case counts. Keith partial endpoints retain month precision; no exact day total asserted. Nolley-Hall legacy custody conflict remains unresolved.
