@@ -1,0 +1,115 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Ronald Reed",
+      "slug": "ronald-reed",
+      "expected": {
+        "id": "176e7327-c147-4bfc-a805-a47e9ef45482",
+        "prisoner_id": "5f1b538a-9fb7-4499-8187-edf8f044c60c",
+        "institution_id": "85109683-db28-41b6-83dc-c4cc86549c31",
+        "charges": "Murder",
+        "arrest_date": "2005-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes \u2014 March 1, 2006",
+        "plead": null,
+        "sentenced_date": "2006-03-01 00:00:00",
+        "incarceration_date": "2005-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-14 00:00:24",
+        "date_precision": "{\"incarceration_date\":\"month\",\"arrest_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Gregg Johnson",
+        "prosecutor": "Susan Hudson (trial prosecutor)"
+      },
+      "source": "https://www.mprnews.org/story/2006/03/01/sackettverdict"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Peter Karasev",
+      "slug": "peter-karasev",
+      "expected": {
+        "id": "0bc95760-6331-43b4-be37-ded6f3ca078a",
+        "prisoner_id": "d5ffa07a-0632-4c49-8984-351c0c3203cc",
+        "institution_id": null,
+        "charges": "18 USC 1366(a) Destruction of an Energy Facility [2 counts]; 18 USC 844(h) Use of Fire or Explosive to Commit a Federal Felony - 2022-2023 San Jose energy facility bombings",
+        "arrest_date": "2023-10-18 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2025-04-28 00:00:00",
+        "incarceration_date": "2025-04-28 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Beth Labson Freeman",
+        "sentence": "126 months federal prison",
+        "imprisoned_for_days": 537,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Anne C. Hsieh",
+        "plead": "Guilty on April 29, 2025 to two counts of willful destruction of an energy facility."
+      },
+      "source": "https://www.justice.gov/opa/pr/engineer-sentenced-10-years-prison-bombings-pge-transformers-causing-property-damage-and"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mohamed Sabry Soliman",
+      "slug": "mohamed-sabry-soliman",
+      "expected": {
+        "id": "b681571e-da60-4fe9-85e9-73b758cde5f1",
+        "prisoner_id": "4b9caabc-c65a-4403-af4f-e5c5830c1637",
+        "institution_id": null,
+        "charges": "Multiple counts of attempted murder, assault, and use of incendiary devices in an attack on a political demonstration.",
+        "arrest_date": "2025-06-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes.",
+        "plead": null,
+        "sentenced_date": "2026-05-07 00:00:00",
+        "incarceration_date": "2025-06-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life without parole plus 2,128 years in Colorado state prison.",
+        "imprisoned_for_days": 503,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 06:08:59",
+        "updated_at": "2026-10-17 00:00:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Nancy Woodruff Salomone (Colorado state case)",
+        "plead": "Guilty on May 7, 2026 to 101 substantive Colorado state charges; separate federal case not included."
+      },
+      "source": "https://yellowscene.com/2026/05/07/man-pleads-guilty-to-all-charges-in-boulder-pearl-street-attack/"
+    }
+  ]
+}
