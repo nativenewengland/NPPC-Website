@@ -1,0 +1,77 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Shukri Abu-Baker",
+      "slug": "shukri-abu-baker",
+      "expected": {
+        "id": "6c1f5282-4d7e-4679-a847-c18b3c1b0604",
+        "prisoner_id": "4005d016-629e-4f13-b9d9-9b42cc172911",
+        "institution_id": "0099e875-fa60-48ba-930e-a0f9a20479e5",
+        "charges": "Material support",
+        "arrest_date": "2004-07-27 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": "2009-05-27 00:00:00",
+        "incarceration_date": "2009-05-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "65 years in federal prison",
+        "imprisoned_for_days": 6353,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jorge A. Solis",
+        "prosecutor": "James T. Jacks, Barry Jonas and Elizabeth J. Shapiro"
+      },
+      "source": "https://www.justice.gov/archives/opa/pr/federal-judge-hands-downs-sentences-holy-land-foundation-case"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Monzer Al Kassar",
+      "slug": "monzer-al-kassar",
+      "expected": {
+        "id": "d1b7e6f3-ed69-4a8a-9151-93836f331014",
+        "prisoner_id": "bbe4187d-284e-4ce5-aabe-02413fc50b00",
+        "institution_id": "67c9660a-481b-49d4-abb7-f1e245f8c470",
+        "charges": "18 USC 2332(b) conspiracy to kill U.S. citizens; 18 USC 1114, 1117 conspiracy to kill U.S. officers/employees; 18 USC 2332g conspiracy to acquire and export SAMs; 18 USC 2339B material support; 18 USC 1956 money laundering",
+        "arrest_date": "2007-06-07 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2009-02-24 00:00:00",
+        "incarceration_date": "2007-06-21 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "360 months federal prison",
+        "imprisoned_for_days": 7058,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jed S. Rakoff"
+      },
+      "source": "https://www.justice.gov/archive/usao/nys/pressreleases/February09/kassarsentencingpr.pdf"
+    }
+  ]
+}
