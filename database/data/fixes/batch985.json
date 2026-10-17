@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Hridindu Roychowdhury",
+      "slug": "hridindu-roychowdhury",
+      "expected": {
+        "id": "4629794f-2bfe-4d4b-b54b-263f0ce397c5",
+        "prisoner_id": "edcced30-24da-4dc5-9cbd-6e8594162cb7",
+        "institution_id": null,
+        "charges": "18 USC 844(i) Destruction of Building Used in Interstate Commerce by Fire - May 8 2022 Wisconsin Family Action arson",
+        "arrest_date": "2023-03-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2024-04-10 00:00:00",
+        "incarceration_date": "2023-03-27 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "90 months federal prison",
+        "imprisoned_for_days": 1300,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "William M. Conley",
+        "prosecutor": "Elizabeth Altman and Justin Sher; Amanda Beck handled the initial Boston appearance.",
+        "plead": "Guilty, December 1, 2023"
+      },
+      "source": "https://www.justice.gov/usao-wdwi/pr/madison-man-sentenced-7-12-years-prison-attempted-firebombing-madison-building-2022"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mike Sun",
+      "slug": "mike-sun",
+      "expected": {
+        "id": "48db9288-4a1b-4f47-af6b-0816fc7cab76",
+        "prisoner_id": "9b422175-4642-489b-9b87-9e20a9294805",
+        "institution_id": "d950106e-2c03-48e2-9242-f20b07bb92c5",
+        "charges": "Acting as an unregistered agent of a foreign government (18 U.S.C. \u00a7 951); conspiracy",
+        "arrest_date": "2024-12-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2026-02-09 00:00:00",
+        "incarceration_date": "2026-02-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "U.S. Attorney's Office, Central District of California; DOJ National Security Division",
+        "judge": "R. Gary Klausner (U.S.D.J., C.D. Cal.)",
+        "sentence": "48 months federal prison",
+        "imprisoned_for_days": 249,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-14 12:48:58",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "Guilty plea to one count of acting as an illegal agent of a foreign government, October 2025.",
+        "plead": "Guilty, October 2025"
+      },
+      "source": "https://www.justice.gov/usao-cdca/pr/political-operative-sentenced-4-years-federal-prison-acting-covert-agent-peoples"
+    }
+  ]
+}
