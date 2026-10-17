@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Matthew Lee Comiskey",
+      "slug": "matthew-lee-comiskey",
+      "expected": {
+        "id": "a87b1efd-ca2a-47bb-ae83-f57b5861ba92",
+        "prisoner_id": "f439ec8f-2faf-4d17-b480-bb7ac87909a7",
+        "institution_id": null,
+        "charges": "18 USC 875(c) interstate communications threats [5 counts] - 2021 tweets threatening Rep. Boebert",
+        "arrest_date": "2022-05-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2023-06-08 00:00:00",
+        "incarceration_date": "2022-05-25 00:00:00",
+        "release_date": "2024-05-23 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "15 months federal prison",
+        "imprisoned_for_days": 729,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-07-29 17:05:26",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Robin L. Rosenberg",
+        "plead": "Guilty, October 2022"
+      },
+      "source": "https://www.yahoo.com/news/threatened-u-rep-lauren-boebert-091214461.html",
+      "research_note": "Palm Beach Post contemporary hearing report identifies Judge Robin L. Rosenberg and October 2022 guilty plea. Report states voluntary surrender scheduled August 2023; existing May 2022 continuous incarceration needs separate custody-period reconciliation. No release inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jamison Wagner",
+      "slug": "jamison-wagner",
+      "expected": {
+        "id": "01058dcf-1c03-4150-82e8-283d4182084d",
+        "prisoner_id": "b52856e0-e028-452b-8a50-bab5bce3a591",
+        "institution_id": "dbfc0311-54b8-481b-8c11-7e13830a7592",
+        "charges": "Two counts of malicious damage or destruction of property by fire (18 U.S.C. § 844(i)); February 9, 2025 Tesla showroom arson (Santa Ana Pueblo, NM) and March 30, 2025 Republican Party of New Mexico headquarters arson (Albuquerque)",
+        "arrest_date": "2025-04-12 00:00:00",
+        "indicted": null,
+        "convicted": "No — pending trial",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-04-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Not yet sentenced; faces 5–20 years per count on two counts\n\nVerdict as recorded: No — awaiting trial (trial set September 14, 2026)",
+        "imprisoned_for_days": 551,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-02 03:50:19",
+        "updated_at": "2026-10-17 00:00:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Maria Elena Stiteler; Nicholas Mote; Patrick Cashman"
+      },
+      "source": "https://www.justice.gov/opa/pr/albuquerque-man-charged-connection-arson-attacks-tesla-dealership-and-republican-party-new",
+      "research_note": "DOJ April 14, 2025 expressly names Stiteler, Mote and Cashman as prosecuting counsel. No current trial outcome or actual release established; populated dates preserved."
+    }
+  ]
+}
