@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:9 profiles updated live through batch1025;0 bounded reviews without additions;91 pending. Not100 completed.
+Progress:11 profiles updated live through batch1026;0 bounded reviews without additions;89 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -33,7 +33,7 @@ Progress:9 profiles updated live through batch1025;0 bounded reviews without add
 - William Lonergan Hill — verified_addition_live_batch1024
 - Teruo Konishi — pending
 - Jessica Bowie — pending
-- Joshua Schulte — pending
+- Joshua Schulte — verified_addition_live_batch1026
 - Hashem Younis Hashem Hnaihen — verified_addition_live_batch1024
 - Timothy Reed — pending
 - Michael Kimble — pending
@@ -67,7 +67,7 @@ Progress:9 profiles updated live through batch1025;0 bounded reviews without add
 - Siddique Abdullah Hasan — pending
 - Shamim Mafi — pending
 - Harry Lux — pending
-- Pascale Cecile Veronique Ferrier — pending
+- Pascale Cecile Veronique Ferrier — verified_addition_live_batch1026
 - Tina Lai — pending
 - Matthew Hale — pending
 - Mohammad Sharifullah — pending
