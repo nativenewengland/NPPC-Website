@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:46 profiles updated live through batch1041;1 bounded review without additions;53 pending. Not100 completed.
+Progress:50 profiles updated live through batch1042;1 bounded review without additions;49 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -40,7 +40,7 @@ Progress:46 profiles updated live through batch1041;1 bounded review without add
 - Jesse Van Camp — pending
 - Wilfredo Vélez Hernández — pending
 - Alexander Justin White — verified_addition_live_batch1025
-- Ricardo Palmera — pending
+- Ricardo Palmera — verified_addition_live_batch1042
 - Fran Thompson — pending
 - Irving Aarons — pending
 - Salvador Tió — pending
@@ -63,12 +63,12 @@ Progress:46 profiles updated live through batch1041;1 bounded review without add
 - Emilia Rodríguez — pending
 - David Annarelli — verified_addition_live_batch1028
 - Roland Freeman — pending
-- Vance Boelter — pending
+- Vance Boelter — verified_addition_live_batch1042
 - Siddique Abdullah Hasan — pending
 - Shamim Mafi — verified_addition_live_batch1040
 - Harry Lux — pending
 - Pascale Cecile Veronique Ferrier — verified_addition_live_batch1026
-- Tina Lai — pending
+- Tina Lai — verified_addition_live_batch1042
 - Matthew Hale — verified_addition_live_batch1035
 - Mohammad Sharifullah — verified_addition_live_batch1041
 - Leon Blum — pending
@@ -92,7 +92,7 @@ Progress:46 profiles updated live through batch1041;1 bounded review without add
 - Fornandous Henderson — verified_addition_live_batch1038
 - Lotta Burke — verified_addition_live_batch1033
 - Theodore Kaczynski — verified_addition_live_batch1032
-- Dante Gaffield — pending
+- Dante Gaffield — verified_addition_live_batch1042
 - Jim Forest — verified_addition_live_batch1033
 - Hugo Carvajal — verified_addition_live_batch1035
 - Ida Craddock — pending
