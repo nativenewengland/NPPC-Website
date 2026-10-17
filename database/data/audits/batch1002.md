@@ -7,3 +7,5 @@ Diego Alfonso Navarrete Beltran: https://www.justice.gov/usao-dc/pr/member-colom
 Michael Sam Teekaye Jr.: https://www.justice.gov/opa/pr/maryland-man-sentenced-attempting-provide-material-support-isis
 
 Beltran unresolved: stored December13,2010 incarceration predates November2014 extradition to United States. Source establishes extradition month, not Colombian arrest day or continuous US incarceration since2010. Do not reclassify foreign custody as US custody.
+
+Live October17: dry run, apply, idempotent replay and full raw preservation verified. Public HTML not checked.
