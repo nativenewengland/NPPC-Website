@@ -6,4 +6,4 @@ Devin Montgomery: original DOJ arrest/sentencing reports identify prosecutor Sha
 
 Brian Thomas Mettenbrink: missing judge Gary Allen Feess, contemporary sentencing report corroborated by Associated Press. No admission date inferred from sentencing or release.
 
-All bios and unrelated fields preserved. Deployment verification pending.
+All bios and unrelated fields preserved. Applied live October17,2026. Dry run, application and replay succeeded. Raw readback verified all updated fields and preservation of all unrelated fields, biographies and case counts. Public portrait URL returned HTTP200 with exact expected SHA256.
