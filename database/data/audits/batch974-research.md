@@ -14,3 +14,5 @@ Bounded reviews with unresolved gaps:
 - DonaldStephens: search turned up Malaysian politician and unrelated records; WWIconscientious-objector archival record still needs individual file research.
 
 No biographies, dates, counters or photos changed. Only two missing institution foreign keys filled, with identity guards for the referenced records. All other gaps remain unresolved.
+
+Applied live October17,2026. Dry run, application and idempotent replay passed. Full raw readback verifies both institution links and preservation of all unrelated fields, biographies, dates, counters, photos and case counts. Public HTML rendering not independently verified.
