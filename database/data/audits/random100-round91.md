@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:49 profiles updated live through batch1012;14 bounded reviews without additions;37 pending. Not100 completed.
+Progress:51 profiles updated live through batch1013;14 bounded reviews without additions;35 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -31,7 +31,7 @@ Progress:49 profiles updated live through batch1012;14 bounded reviews without a
 - Robert E. Edmondson — verified_addition_live_batch1012
 - Jason Watson — pending
 - Hadi Matar — verified_addition_live_batch989
-- Malik El-Amin — pending
+- Malik El-Amin — verified_addition_live_batch1013
 - Gazi Ibrahim Abu Mezer — pending
 - John Wills — verified_addition_live_batch1006
 - Mohamed Sabry Soliman — verified_addition_live_batch1004
@@ -46,7 +46,7 @@ Progress:49 profiles updated live through batch1012;14 bounded reviews without a
 - Peter Urgel — pending
 - Jeffrey A. Paterson — verified_addition_live_batch990
 - Michael J. Mandel — pending
-- Hanif Shabazz Bey — pending
+- Hanif Shabazz Bey — verified_addition_live_batch1013
 - Willow Cordes-Eklund — bounded_review_no_addition_batch1011
 - J. McNichols — pending
 - Lourdes Santana Melecio — pending
