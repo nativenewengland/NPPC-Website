@@ -9,4 +9,4 @@ RobertW.Minton and PeterRandolph: bounded exact-name/context searches found no s
 
 SamuelSterenstein: Swarthmore row confirms existing December1919 release month and identifies July28,1918 court-martial, but does not establish exact initial custody date. Original diary follow-up remains pending.
 
-Deployment verification pending.
+Applied live October17,2026; dry run, application and replay passed. Fresh full raw readback verifies added judge and preservation of every unrelated field, biographies, custody dates and case counts. Readback also confirms unchanged Hershberger/Sterenstein records.
