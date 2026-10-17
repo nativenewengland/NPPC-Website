@@ -1,0 +1,83 @@
+{
+  "batch": 926,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Morris Trasken",
+      "slug": "morris-trasken",
+      "expected": {
+        "id": "7fa947d5-b218-4990-8cff-aaf76f355ff1",
+        "prisoner_id": "c19235b7-d608-4e6f-bac1-22d45aa1c510",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1917-01-01 00:00:00",
+        "release_date": "1918-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentenced to 25 years in prison, reduced to 1 year. Held at Fort Leavenworth.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:01",
+        "updated_at": "2026-10-14 00:00:40",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1917-09-27 00:00:00",
+        "incarceration_date": "1917-09-27 00:00:00",
+        "release_date": null,
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}",
+        "sentence": "Sentenced to twenty-five years, reduced to one year. The archive explicitly records arrival at CampMeade September27,1917, conscientious objection declaration and immediate arrest that day. This is the start of military detention, not a separately verified Leavenworth transfer date. Actual release date and total confinement remain unresolved; the prior1918year endpoint was not corroborated and is not calculated from a nominal one-year sentence. Source: https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit (MorrisTrasken,row2085)."
+      },
+      "source": "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "David R. Troyes",
+      "slug": "david-r-troyes",
+      "expected": {
+        "id": "7fc19c70-1044-4245-8081-171b4a866690",
+        "prisoner_id": "1158cca8-e89b-42d7-9851-e4bc46c276b4",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1919-01-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Fort Leavenworth. Released 1919 (Jan. 27?).",
+        "imprisoned_for_days": 1,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:01",
+        "updated_at": "2026-09-28 23:16:39",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 1,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1919-01-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "sentence": "Held at FortLeavenworth. The archive lists release1919(Jan.27?) and identifies Troyes in Group2released inJanuary1919. RetainJanuary1919MONTH precision; January1 is a storage placeholder, not an asserted discharge day. The question-marked27th is not treated as exact. Admission and actual duration unresolved. Source: https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit (DavidR.Troyes,row2110)."
+      },
+      "source": "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit"
+    }
+  ]
+}
