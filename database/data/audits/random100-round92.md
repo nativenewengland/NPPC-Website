@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:31 profiles updated live through batch1036;1 bounded review without additions;68 pending. Not100 completed.
+Progress:35 profiles updated live through batch1037;1 bounded review without additions;64 pending. Not100 completed.
 
 - Mildred Martínez — pending
 - Shaka Shakur — pending
@@ -20,12 +20,12 @@ Progress:31 profiles updated live through batch1036;1 bounded review without add
 - José Humberto Santos — pending
 - Abdullah Ezzeldin Taha Mohamed Hassan — verified_addition_live_batch1030
 - Wayne Pharr — pending
-- Rebecca Morgan — pending
+- Rebecca Morgan — verified_addition_live_batch1037
 - Casey Goonan — verified_addition_live_batch1025
 - Montez Terriel Lee Jr. — verified_addition_live_batch1024
 - Mumia Abu-Jamal — pending
 - Eugene Balthazar — pending
-- Savanna Batten — pending
+- Savanna Batten — verified_addition_live_batch1037
 - David Michael Ansberry — verified_addition_live_batch1023
 - Forrest Hostetler — pending
 - Cliver Antonio Alcala Cordero — verified_addition_live_batch1023
@@ -59,7 +59,7 @@ Progress:31 profiles updated live through batch1036;1 bounded review without add
 - Martin Gunderson — pending
 - Ed Poindexter — verified_addition_live_batch1034
 - Troy Desson — pending
-- Meagan Morris — pending
+- Meagan Morris — verified_addition_live_batch1037
 - Emilia Rodríguez — pending
 - David Annarelli — verified_addition_live_batch1028
 - Roland Freeman — pending
@@ -99,7 +99,7 @@ Progress:31 profiles updated live through batch1036;1 bounded review without add
 - Burt Lorton — pending
 - William Hockett — pending
 - Sue Leon Africa — pending
-- Lynette Sharp — pending
+- Lynette Sharp — verified_addition_live_batch1037
 - Matthew Lee Comiskey — verified_addition_live_batch1031
 - Gilbert Parker — pending
 - Edward Stevenson — pending
