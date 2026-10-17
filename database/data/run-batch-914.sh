@@ -61,6 +61,7 @@ echo "Added: ",$record->name,"; existing profile and case preservation verified\
 }
 });
 DB::transaction(function()use($p,$dry){
+if(!$dry){DB::table("prisoner_cases")->whereRaw("0=1")->update(["updated_at"=>null]);}
 $e=$p["case_additions"][0];$id=$e["expected_prisoner"]["id"];$profile=(array)DB::table("prisoners")->where("id",$id)->first();
 foreach($e["expected_prisoner"] as $k=>$v){if($k!=="sort_order"&&$profile[$k]!==$v){throw new RuntimeException("Existing profile changed: ".$k);}}
 $existing=DB::table("prisoner_cases")->where("prisoner_id",$id)->where("charges",$e["case"]["charges"])->get();
