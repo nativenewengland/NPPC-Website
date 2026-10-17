@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jason Watson",
+      "slug": "jason-watson",
+      "expected": {
+        "id": "0d340e63-f639-460f-9b66-d3c344b8a7ed",
+        "prisoner_id": "45605dbd-13a3-4138-8677-520a1d51f844",
+        "institution_id": null,
+        "charges": "UCMJ Article 88: three specifications of contempt toward officials; Article 92: five specifications of disobeying orders; Article 133: two specifications of conduct unbecoming an officer.",
+        "arrest_date": "2026-08-18 00:00:00",
+        "indicted": "Military charges preferred August 24, 2026. Article 32 preliminary hearing held September 18, 2026; final court-martial referral not confirmed in retrieved reporting.",
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2026-08-18 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial confinement; no sentence imposed or conviction reported as of October 12, 2026. The July Capitol arrest and subsequent base restriction are not treated as continuous imprisonment from July 1.",
+        "imprisoned_for_days": 60,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-13 06:16:49",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Lt. Col. Chris Dunn (government counsel, September 18, 2026 Article 32 hearing)"
+      },
+      "source": "https://www.stripes.com/branches/air_force/2026-09-18/jason-watson-preliminary-hearing-uscmj-charges-22894019.html",
+      "research_note": "Firsthand hearing report identifies government counsel Lt.Col.ChrisDunn. Qualified to Article32 hearing only; preliminary hearing officer Maj.JoshuaWendell is not represented as trial judge. No trial sentence, plea or future release inferred. Oct10 Defenders of Our Republic update reports court-martial referral, with February trial only anticipated/unconfirmed; existing populated indictment narrative remains untouched in missing-only pass."
+    }
+  ]
+}
