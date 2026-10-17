@@ -1,0 +1,81 @@
+{
+  "batch": 927,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Leo Reno",
+      "slug": "leo-reno",
+      "expected": {
+        "id": "bf96291d-afd6-4da0-baac-32e9f12d4e98",
+        "prisoner_id": "79e0c945-f22a-40b7-8970-2ac9e2c7e630",
+        "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+        "charges": "Montana state sedition prosecution, Lewis & Clark County, case 1459.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "10\u201320 years. Admitted to Deer Lodge January 16, 1919; transferred to Warm Springs April 14, 1921; died there April 23, 1921. Earlier county-jail confinement included an escape and recapture.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 04:54:16",
+        "updated_at": "2026-10-15 04:54:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1919-01-16 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "sentence": "10\u201320 years. Admitted to Deer Lodge January 16, 1919; transferred to Warm Springs April 14, 1921; died there April 23, 1921. Earlier county-jail confinement included an escape and recapture. Source confirms January16,1919 as DeerLodge admission, not initial county-jail detention. No release date inferred from the hospital transfer or death; earlier county confinement remains outside this prison-start anchor. Source: https://clcowgill.wordpress.com/photo-gallery/ (LeoReno/LeopoldRheno,case1459)."
+      },
+      "source": "https://clcowgill.wordpress.com/photo-gallery/"
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Tom Cason",
+      "slug": "tom-cason",
+      "expected": {
+        "id": "f467ee56-2b52-4e84-b9e2-397c232e87dd",
+        "prisoner_id": "cc2f6e21-43f9-49c4-8ebb-bba2ed1ec27d",
+        "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+        "charges": "Montana state sedition prosecution, Missoula County, case 1134.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1918-06-15 00:00:00",
+        "release_date": "1920-10-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1.5 \u2013 3",
+        "imprisoned_for_days": 841,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 04:54:16",
+        "updated_at": "2026-10-15 04:54:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1918-04-21 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": "1.5 \u2013 3 years imposed. Contemporary April22,1918DailyMissoulian account quoted by the project describes immediate county-jail arrest after the April21statement. Existing June15,1918DeerLodge admission and October3,1920release remain separate from that earlier arrest; county-jail-to-prison continuity is not inferred. Source: https://clcowgill.wordpress.com/photo-gallery/ (TomCason,case1134)."
+      },
+      "source": "https://clcowgill.wordpress.com/photo-gallery/"
+    }
+  ]
+}
