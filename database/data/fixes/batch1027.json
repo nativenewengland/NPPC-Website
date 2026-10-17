@@ -1,0 +1,115 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Mohammed Azharuddin Chhipa",
+      "slug": "mohammed-azharuddin-chhipa",
+      "expected": {
+        "id": "f1303060-4588-494c-8fe3-e3dc6072050c",
+        "prisoner_id": "bd9501e7-e7f3-4ede-95a4-7b1bf16419c3",
+        "institution_id": null,
+        "charges": "Conspiracy and substantive counts of providing or attempting to provide material support to ISIS.",
+        "arrest_date": "2023-05-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes — convicted by a federal jury.",
+        "plead": null,
+        "sentenced_date": "2025-05-07 00:00:00",
+        "incarceration_date": "2023-05-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three hundred sixty-four months in federal prison.",
+        "imprisoned_for_days": 1262,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Anthony T. Aminoff; Amanda St. Cyr; Andrew John Dixon; Andrea Broach"
+      },
+      "source": "https://www.justice.gov/opa/pr/man-sentenced-over-30-years-prison-crypto-terror-financing-scheme",
+      "research_note": "DOJ May8,2025 names current/former prosecution attorneys and explicitly states sentenced yesterday, corroborating existing May7 date; no custody endpoint inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mahmoud Amin Ya'qub Al-Muhtadi",
+      "slug": "mahmoud-amin-yaqub-al-muhtadi",
+      "expected": {
+        "id": "40674a2d-7e28-46fa-849a-90de6bc66e36",
+        "prisoner_id": "c2c266b8-8978-4e75-8e3c-32dc8f6a68a3",
+        "institution_id": null,
+        "charges": "Providing material support to a foreign terrorist organization and visa fraud arising from alleged participation in the October 7 attack.",
+        "arrest_date": "2025-10-16 00:00:00",
+        "indicted": "Yes — federal charges filed.",
+        "convicted": "No conviction established; case pending.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-10-16 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; detained pending trial.",
+        "imprisoned_for_days": 366,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 22:31:09",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "John Nickel; A.J. Dixon; Andrew Sigler; Alicia Cook; Zoe Bedell"
+      },
+      "source": "https://www.justice.gov/opa/pr/gaza-man-arrested-alleged-involvement-october-7-2023-terrorist-attacks",
+      "research_note": "DOJ Oct17,2025 names prosecuting team; MarkAziz only international-assistance attorney not assigned prosecutor. Allegations remain allegations; no plea/conviction/sentence inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Luis Felipe Moreno Godoy",
+      "slug": "luis-felipe-moreno-godoy",
+      "expected": {
+        "id": "a9e208e4-995d-4c70-9956-7cd05fbdd222",
+        "prisoner_id": "cb406e52-7599-47b1-8377-41511c61fe0a",
+        "institution_id": null,
+        "charges": "18 USC 2332(b) conspiracy; 18 USC 2332g SAMs conspiracy; 18 USC 2339B material support; 18 USC 1956 money laundering",
+        "arrest_date": "2007-06-07 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2009-02-24 00:00:00",
+        "incarceration_date": "2007-06-21 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "300 months federal prison",
+        "imprisoned_for_days": 7058,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jed S. Rakoff"
+      },
+      "source": "https://cases.justia.com/federal/appellate-courts/ca2/09-1051/09-1051_opn-2011-09-30.pdf",
+      "research_note": "Original SecondCircuit appeal explicitly identifies Rakoff district jury trials. Appeal counsel not assigned as trial prosecutors. Source says USextradition October2007, whereas storedJune21incarceration needs foreign-vs-US custody reconciliation; no date overwritten."
+    }
+  ]
+}
