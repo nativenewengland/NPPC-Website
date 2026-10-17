@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Andrew Mickel",
+      "slug": "andrew-mickel",
+      "expected": {
+        "id": "611acdd8-505b-4c48-92da-45399fdef221",
+        "prisoner_id": "d7d9d0e3-6792-46b4-a637-4146c3d6818e",
+        "institution_id": "fa41463f-2367-4abf-9aaf-8b02f8d5fd74",
+        "charges": "First-degree murder of Red Bluff, California police officer David Mobilio (November 19, 2002)",
+        "arrest_date": "2002-11-25 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2002-11-25 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death \u2014 held on Death Row at San Quentin\n\nVerdict as recorded: Yes \u2014 Tehama County, California jury verdict, April 2005",
+        "imprisoned_for_days": 8727,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-17 00:00:15",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2005-04-27 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "source": "California Habeas Corpus Resource Center official active death judgments list, page9 (PDF index8), Andrew Hampton Mickel, judgment April27,2005. https://www.hcrc.ca.gov/4.561/HCRC_4.561-list.pdf#page=9"
+    }
+  ]
+}
