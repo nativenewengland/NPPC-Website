@@ -1,0 +1,93 @@
+{
+  "batch": 911,
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Arthur Burghardt Banks",
+      "slug": "arthur-burghardt-banks",
+      "expected": {
+        "id": "55af6e1a-c808-4ce3-b46f-0f47601f7761",
+        "prisoner_id": "146e8b93-2092-44fc-b431-ca2163062359",
+        "institution_id": null,
+        "charges": "Refusal of military induction after denial of conscientious-objector status",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-11-10 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The Catholic Peace Fellowship reports actual prison entry on November 10, 1971 after appeals of a 1968 conviction, to serve a five-year sentence. He was held at Danbury and later Terre Haute, including solitary confinement following prison protests. The sentence is not recorded as actual time served. Release date and final outcome remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 02:59:56",
+        "updated_at": "2026-09-14 02:59:56",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1974-01-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"year\"}"
+      },
+      "source": "CCCO News Notes volume26 issue2 (1974) p7 reports temporary release; issue5 (1974) reports permanent release. Only release year verified. January1 is the storage placeholder, not a claimed exact date."
+    },
+    {
+      "table": "prisoners",
+      "name": "Arthur Burghardt Banks",
+      "slug": "arthur-burghardt-banks",
+      "expected": {
+        "id": "146e8b93-2092-44fc-b431-ca2163062359",
+        "name": "Arthur Burghardt Banks",
+        "sort_order": 34200,
+        "photo": null,
+        "description": "Arthur Burghardt Banks was a Black actor and playwright imprisoned after refusing military induction on conscientious grounds. During his confinement he protested prison working conditions and racial discrimination.",
+        "years_in_prison": null,
+        "state": "Indiana",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Arthur",
+        "middle_name": "Burghardt",
+        "last_name": "Banks",
+        "aka": "Arthur Burghardt; Arthur Burghardt-Banks",
+        "race": null,
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": null,
+        "era": "1970s",
+        "affiliation": "[]",
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-09-14 02:59:56",
+        "updated_at": "2026-10-05 14:26:52",
+        "slug": "arthur-burghardt-banks",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "race": "Black"
+      },
+      "source": "CCCO News Notes volume26 issue2 (1974) p7 explicitly identifies Banks as a Black draft resister."
+    }
+  ]
+}
