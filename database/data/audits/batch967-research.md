@@ -7,4 +7,4 @@ https://itsgoingdown.org/in-contempt-22/
 
 EarlierFOX17 charge report describes her still sought and age24 in2020; support report gives25 in2022. Do not infer birthyear from these inconsistent ages. Exact arrest remains unresolved. Display name, biography and all unrelated fields preserved.
 
-Deployment verification pending.
+Applied live October17,2026. Dry run, actual application and idempotent replay passed. Fresh raw readback verified all added case fields and every unrelated field, biography, name and case count unchanged.
