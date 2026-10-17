@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:59 profiles updated live through batch1020;33 bounded reviews without additions;8 pending. Not100 completed.
+Progress:61 profiles updated live through batch1021;33 bounded reviews without additions;6 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -51,7 +51,7 @@ Progress:59 profiles updated live through batch1020;33 bounded reviews without a
 - J. McNichols — pending
 - Lourdes Santana Melecio — bounded_review_no_verified_addition_batch1019
 - Paul Hyon Kim — verified_addition_live_batch986
-- Isaih Houston — pending
+- Isaih Houston — verified_addition_live_batch1021
 - Carolyn DeLoatch — bounded_review_no_addition_batch1011
 - John Pacheta — verified_addition_live_batch992
 - Stephen Reid — bounded_review_no_verified_addition_co_rosters
@@ -68,7 +68,7 @@ Progress:59 profiles updated live through batch1020;33 bounded reviews without a
 - Bill Wahl — bounded_review_no_verified_addition_batch1018
 - Geoffrey Parsons — bounded_review_conflict_requires_followup_batch1018
 - Audrey Carroll — verified_addition_live_batch1001
-- Sharon Williams — pending
+- Sharon Williams — verified_addition_live_batch1021
 - Mike Tkach — bounded_review_no_verified_addition_deportees
 - Barney Lee Ross — bounded_review_no_verified_addition_batch1019
 - Monzer Al Kassar — verified_addition_live_batch988
