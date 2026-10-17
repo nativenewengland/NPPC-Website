@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Carrie Feldman",
+      "slug": "carrie-feldman",
+      "expected": {
+        "id": "7bfb4335-e002-4975-9c0b-403578818d4c",
+        "prisoner_id": "f7a6363b-791c-411b-85a0-885915324a54",
+        "institution_id": null,
+        "charges": "Civil contempt of court",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Civil contempt (no underlying criminal conviction)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2009-11-17 00:00:00",
+        "release_date": "2010-03-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Jailed approximately four months for civil contempt\n\nCharges as recorded: Civil contempt of court for refusing to testify before a federal grand jury",
+        "imprisoned_for_days": 122,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 03:54:50",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2009-11-17 00:00:00",
+        "judge": "John Jarvey",
+        "prosecutor": "Cliff Cronk",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "source": "Contemporary Quad-City Times November 17, 2009 courtroom report, reproduced November 18: https://breakallchains.blogspot.com/2009/11/two-taken-into-custody-after-refusing.html . Immediate civil-contempt custody after hearing; arrest field represents this civil commitment, not arrest for underlying laboratory action."
+    }
+  ]
+}
