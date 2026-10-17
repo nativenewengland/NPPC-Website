@@ -1,0 +1,40 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Loll",
+      "slug": "john-loll",
+      "expected": {
+        "id": "36b9d8b9-1d87-46fc-af0b-cf11ccce7225",
+        "prisoner_id": "16e4dbae-8753-42af-bf26-903ca897952d",
+        "institution_id": null,
+        "charges": "Destruction of government property, mutilation of records, interfering with the Selective Service System, and conspiracy (the May 25, 1969 Chicago draft-record burning).",
+        "arrest_date": "1969-05-25 00:00:00",
+        "indicted": null,
+        "convicted": "No verified conviction \u2014 failed to appear and case severed May 5, 1970",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence verified. The case was severed when the defendant did not appear for trial.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 08:46:00",
+        "updated_at": "2026-09-26 04:27:36",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "Indicted June 3, 1969 in the Chicago draft-record prosecution. His case was severed May 5, 1970 after he did not appear for trial."
+      },
+      "source": "United States v. Chase, 468 F.2d 141 (7th Cir. 1972), footnote 1: https://law.justia.com/cases/federal/appellate-courts/F2/468/141/284039/"
+    }
+  ]
+}
