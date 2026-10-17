@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:37 profiles updated live through batch1005;9 bounded reviews without additions;54 pending. Not100 completed.
+Progress:40 profiles updated live through batch1006;9 bounded reviews without additions;51 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -15,7 +15,7 @@ Progress:37 profiles updated live through batch1005;9 bounded reviews without ad
 - Brian DiPippa — bounded_review_conflict_requires_followup_batch986
 - John J. Ford — bounded_review_no_addition_batch1001
 - Tony Stafford — pending
-- Marquon Clark — pending
+- Marquon Clark — verified_addition_live_batch1006
 - Luis A. Amely Martínez — pending
 - Tyler Robinson — pending
 - Byron Chubbuck — pending
@@ -33,7 +33,7 @@ Progress:37 profiles updated live through batch1005;9 bounded reviews without ad
 - Hadi Matar — verified_addition_live_batch989
 - Malik El-Amin — pending
 - Gazi Ibrahim Abu Mezer — pending
-- John Wills — pending
+- John Wills — verified_addition_live_batch1006
 - Mohamed Sabry Soliman — verified_addition_live_batch1004
 - Pete Carbonay — pending
 - Donta Betts — verified_addition_live_batch996
@@ -72,7 +72,7 @@ Progress:37 profiles updated live through batch1005;9 bounded reviews without ad
 - Mike Tkach — pending
 - Barney Lee Ross — pending
 - Monzer Al Kassar — verified_addition_live_batch988
-- Kamau Sadiki — pending
+- Kamau Sadiki — verified_addition_live_batch1006
 - Sofia DeFerrari — pending
 - Yorie von Kahl — pending
 - Elias Rodriguez — verified_addition_live_batch1005
