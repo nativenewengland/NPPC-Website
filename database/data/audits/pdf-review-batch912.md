@@ -6,4 +6,4 @@ January17,1982 National No-Nukes Prison Support Collective newsletter pages1–3
 
 Existing Jennifer Haines, Lawrence Rosebaugh, Ladon Sheats and Craig Simpson cases already retain source information. Unknown historical current status is represented by neither in_custody nor released rather than falsely claiming present imprisonment or a verified release. No birthday, death date, photo or release day inferred. Source links belong in source body, not personal-support website field.
 
-Dry run, creation, replay, preservation and public verification pending.
+Dry run, creation and replay passed. Nine new profiles and nine cases created; existing profile and case preservation assertions passed for each insertion. Replay preserved all nine with no additional records. Public HTTP checks encountered timeouts and 502 responses; public-page verification remains incomplete. No historical source PDF deleted. Commit d3f44f40 pushed without a PR.
