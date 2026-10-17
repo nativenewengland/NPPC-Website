@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jim Forest",
+      "slug": "jim-forest",
+      "expected": {
+        "id": "c2cf28e0-2e4c-4c5a-924d-ef02e98a69e3",
+        "prisoner_id": "dc950c2f-843d-40a1-82b1-6ecb4ddf4324",
+        "institution_id": null,
+        "charges": "Wisconsin state burglary, arson, theft — September 24, 1968 Milwaukee 14 draft-board raid",
+        "arrest_date": "1968-09-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1969-06-06 00:00:00",
+        "incarceration_date": "1969-06-06 00:00:00",
+        "release_date": "1970-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two concurrent two-year Wisconsin prison terms for theft and arson, with the four-year burglary term stayed and probation to follow. Released in 1970, before publication of his July10,1970 Commonweal account of returning home. Exact release day and month are not established by that publication date.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-15 00:31:09",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Charles Larson",
+        "prosecutor": "Allen Samson; Harold Jackson Jr."
+      },
+      "source": "https://www.nybooks.com/articles/1969/09/25/the-ultra-resistance/",
+      "research_note": "Francine du Plessix Gray contemporary eyewitness courtroom account identifies Larson, Samson and Jackson for the Wisconsin state trial. Federal case and later Pledge of Resistance record not conflated. Existing dates and biography preserved; exact 1970 release remains unknown. Participant transcript download returned HTTP403; not claimed reviewed."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lotta Burke",
+      "slug": "lotta-burke",
+      "expected": {
+        "id": "bfb4edc3-c363-49ef-967d-46152c489462",
+        "prisoner_id": "d65ee028-63f9-4951-9542-092dbb31d2df",
+        "institution_id": null,
+        "charges": "Arrested on a treason allegation for ordering anti-conscription handbills, Cincinnati, Ohio.",
+        "arrest_date": "1917-06-12 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1917-06-25 00:00:00",
+        "release_date": "1917-07-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No conviction on this arrest. Held in a Dayton, Ohio jail after a preliminary hearing on June 25, 1917 and released on July 16 on a $3,000 bond, a stay of about three weeks.",
+        "imprisoned_for_days": 21,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:54",
+        "updated_at": "2026-07-31 14:55:56",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Joseph Adler (U.S. Commissioner, June 25, 1917 preliminary hearing)"
+      },
+      "source": "https://nkytribune.com/2017/06/our-rich-history-world-war-i-in-cincinnati-the-case-of-lotta-burke-and-free-speech/",
+      "research_note": "Historian Paul Tenkotte identifies Adler as preliminary-hearing commissioner, explicitly labeled by role rather than represented as trial judge. Birth year remains disputed (1869 versus contemporary age45 in1917); no birth year added. Separate conspiracy case and all existing dates preserved."
+    }
+  ]
+}
