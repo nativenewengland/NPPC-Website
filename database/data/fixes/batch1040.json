@@ -1,0 +1,116 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Shamim Mafi",
+      "slug": "shamim-mafi",
+      "expected": {
+        "id": "38bbcd37-09f2-4688-8002-ce80b560f0ac",
+        "prisoner_id": "9b1c9ca2-64c2-4e8a-bfb0-989d6436028b",
+        "institution_id": "9e613ec6-ea72-4e20-8574-097a31b2c238",
+        "charges": "Violation of the International Emergency Economic Powers Act (IEEPA), 50 U.S.C. §1705 — allegedly brokering the sale of Iranian-made drones, bombs, bomb fuses, and millions of rounds of ammunition to Sudan.",
+        "arrest_date": "2026-04-18 00:00:00",
+        "indicted": null,
+        "convicted": "No — pending trial",
+        "plead": "Not entered (pretrial)",
+        "sentenced_date": null,
+        "incarceration_date": "2026-04-18 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "U.S. Attorney Bilal Essayli (Central District of California)",
+        "judge": "U.S. District Court, Central District of California (Los Angeles)",
+        "sentence": "Faces statutory maximum of 20 years federal if convicted\n\nVerdict as recorded: No — pending trial in C.D. Cal.\n\nCharges as recorded: Violation of the International Emergency Economic Powers Act (IEEPA), 50 U.S.C. §1705 — allegedly brokering the sale of Iranian-made drones, bombs, bomb fuses, and millions of rounds of ammunition to Sudan during the Sudanese civil war.",
+        "imprisoned_for_days": 182,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-16 23:50:02",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "Indictment filed May 1, 2026 (2:26-cr-00266-MCS, document 17)"
+      },
+      "source": "https://nordicmonitor.com/wp-content/uploads/2026/05/gov.uscourts.cacd_.1018730.17.0_1.pdf",
+      "research_note": "Primary filed indictment page1 docket stamp establishes May1 filing, explicitly labeled filing date rather than grand-jury session date. Existing generic prosecutor/judge preserved; DOJ identifies Bhatia,Lachman,Geary but those populated fields require separate correction, not replacement in this pass."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Trenten Edward Barker",
+      "slug": "trenten-edward-barker",
+      "expected": {
+        "id": "a3c056dc-4c83-4eef-a198-590852b27478",
+        "prisoner_id": "74e133e4-1b13-487d-bf28-7dee3c191347",
+        "institution_id": "24eb0f87-abf9-4747-acb7-36e19304fbee",
+        "charges": "Arson (federal, 18 U.S.C. §844(f)) — throwing a lit highway flare at the Portland ICE facility gate.",
+        "arrest_date": "2025-09-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2026-02-10 00:00:00",
+        "incarceration_date": "2026-04-30 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "18 months federal prison.",
+        "imprisoned_for_days": 170,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-25 02:32:13",
+        "updated_at": "2026-10-17 00:00:16",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty, November 19, 2025",
+        "indicted": "Charged by information October 22, 2025 (not a grand-jury indictment)"
+      },
+      "source": "https://www.justice.gov/usao-or/pr/portland-man-pleads-guilty-arson-immigration-and-customs-enforcement-building",
+      "research_note": "DOJ actual November19 guilty plea and October22 information explicitly reported. Charging instrument labeled accurately. Scheduled March4,2026 sentencing versus reported March5 and stored February10 unresolved; no sentence date overwritten. Existing April30 custody start retained."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Carter Miles Ledoux",
+      "slug": "carter-miles-ledoux",
+      "expected": {
+        "id": "853bce8c-f5a2-4d00-a10e-b7c89e4ffbb9",
+        "prisoner_id": "febeffca-0a08-44fb-b692-799f6c8b927f",
+        "institution_id": null,
+        "charges": "Conspiracy, stalking, threats, swatting, and a separate charge of possessing child sexual abuse material.",
+        "arrest_date": "2026-02-04 00:00:00",
+        "indicted": "Yes — two federal indictments returned February 18, 2026.",
+        "convicted": "No conviction established; cases pending.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2026-02-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; detained pending trial.",
+        "imprisoned_for_days": 255,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-30 01:45:46",
+        "updated_at": "2026-10-17 00:00:19",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Thomas Johnson"
+      },
+      "source": "https://www.justice.gov/usao-wdla/pr/lake-charles-resident-and-participant-nihilistic-violent-extremist-group-indicted",
+      "research_note": "DOJ February19 announcement identifies AUSA Thomas Johnson as prosecutor; Fifth Circuit docket26-30130 corroborates counsel. May19 appeal affirmance concerns pretrial detention, not conviction or sentence; no sentence/release date inferred."
+    }
+  ]
+}
