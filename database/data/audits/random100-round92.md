@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:66 profiles updated live through batch1054;15 bounded reviews without additions;19 pending. Not100 completed.
+Progress:67 profiles updated live through batch1055;15 bounded reviews without additions;18 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -42,7 +42,7 @@ Progress:66 profiles updated live through batch1054;15 bounded reviews without a
 - Alexander Justin White — verified_addition_live_batch1025
 - Ricardo Palmera — verified_addition_live_batch1042
 - Fran Thompson — verified_addition_live_batch1046
-- Irving Aarons — pending
+- Irving Aarons — verified_addition_live_batch1055
 - Salvador Tió — bounded_review_no_addition
 - Thomas Weir Pauken II — bounded_review_no_verified_addition_batch1028
 - Kyle Calvert — verified_addition_live_batch1025
