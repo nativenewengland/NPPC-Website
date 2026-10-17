@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Irving Aarons",
+      "slug": "irving-aarons",
+      "expected": {
+        "id": "c469f3ec-c508-4ba0-85fc-7e0c7bca8dec",
+        "prisoner_id": "6312a4a5-e3a2-44d1-a4e6-a76b351e48fb",
+        "institution_id": null,
+        "charges": "Conspiracy arising from the May's Department Store strike; charge changed to coercion on April 1, 1936.",
+        "arrest_date": "1935-11-01 00:00:00",
+        "indicted": null,
+        "convicted": "Indicted / held, 1935",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held under $1,000 bail during the union prosecution.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-04 13:22:41",
+        "updated_at": "2026-10-13 03:30:19",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "William F. X. Geoghan (Brooklyn District Attorney’s office)",
+        "indicted": "April 1, 1936 — coercion indictment replacing conspiracy charges"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n081-NY-apr-03-1936-DW-Q.pdf",
+      "research_note": "Contemporary April3,1936 Daily Worker p1 identifies Brooklyn DA William F. X. Geoghan responsible for May store strike prosecution and Wednesday coercion indictments naming Aarons, matching existing April1 charge-change account. Hiram Todd is special prosecutor asked to investigate grand-jury conduct, not assumed prosecutor of Aarons. May12 newspaper lists scheduled Special Sessions panel but no completed hearing verified, so judge field left empty. Preserved existing arrest-month, sentence and biography; no custody dates inferred."
+    }
+  ]
+}
