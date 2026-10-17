@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round91-20261017 from live missing-photo/custody-field candidates. One hundred IDs absent from earlier random100-fields-round sample files; this means not previously sampled in those files, not never researched by any other task. Round90 excluded.
 
-Progress:43 profiles updated live through batch1008;11 bounded reviews without additions;46 pending. Not100 completed.
+Progress:44 profiles updated live through batch1009;11 bounded reviews without additions;45 pending. Not100 completed.
 
 - Cameron Monte Smith — verified_addition_live_batch995
 - Victor Devon Edwards — verified_addition_live_batch995
@@ -17,7 +17,7 @@ Progress:43 profiles updated live through batch1008;11 bounded reviews without a
 - Tony Stafford — pending
 - Marquon Clark — verified_addition_live_batch1006
 - Luis A. Amely Martínez — pending
-- Tyler Robinson — pending
+- Tyler Robinson — verified_addition_live_batch1009
 - Byron Chubbuck — pending
 - J. C. Garland — pending
 - Susan Kent — verified_addition_live_batch998
