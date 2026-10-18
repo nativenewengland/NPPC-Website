@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Troy Desson",
+      "slug": "troy-desson",
+      "expected": {
+        "id": "5be19ba0-30f8-4194-b613-4a46d8a1c936",
+        "prisoner_id": "8dc01c6c-96f3-45fe-8d9b-426e05cab4bd",
+        "institution_id": null,
+        "charges": "Violation of the Espionage Act.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Sentence not stated.\n\nVerdict as recorded: Yes — Sentence commuted (per the 1921 Senate \"Amnesty and Pardon for Political Prisoners\" hearing).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 20:46:20",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1918-03-08 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://archive.org/details/amnestypardonfor00unit/page/185/mode/1up",
+      "research_note": "Visually verified original printed page185 of1921 Amnesty and Pardon hearing (Internet Archive scan n190). Row spells name Troy Deason, Texas western district, March8,1918 sentence eighteen months at Leavenworth. Appeal affirmed; Supreme Court certiorari denied March24,1919; committed April22,1919; sentence commuted May24,1919 to one year and one day. Added missing sentencing date only. Existing Desson spelling and sentence-not-stated prose flagged for separate correction; did not treat commutation as actual release or equate sentencing with custody admission."
+    }
+  ]
+}
