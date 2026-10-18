@@ -1,0 +1,1 @@
+Shirley Herlth: Break de Chains (1976), named caption printed page40/PDF43, Freedom Archives. https://freedomarchives.org/Documents/Finder/DOC510_scans/Prisons_Women/510.PrisonWomen.BreakdeChains.pdf Embedded original360x296photo; exact crop(8,0,355,275), no AI alteration.
