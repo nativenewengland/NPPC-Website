@@ -1,0 +1,158 @@
+{
+  "profiles_reviewed": 100,
+  "profiles_updated_this_continuation": 20,
+  "public": [
+    {
+      "name": "Frederick Urban",
+      "url": "https://politicalprisonercoalition.org/prisoner/frederick-urban",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Lucia Shapiro",
+      "url": "https://politicalprisonercoalition.org/prisoner/lucia-shapiro",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Ruth Small",
+      "url": "https://politicalprisonercoalition.org/prisoner/ruth-small",
+      "status": 200,
+      "counter": "1 Day"
+    },
+    {
+      "name": "Héctor García Mendoza",
+      "url": "https://politicalprisonercoalition.org/prisoner/hector-garcia-mendoza",
+      "status": 200,
+      "counter": "2 Months 6 Days"
+    },
+    {
+      "name": "John McKenzie",
+      "url": "https://politicalprisonercoalition.org/prisoner/john-mckenzie",
+      "status": 200,
+      "counter": "3 Years 4 Months"
+    },
+    {
+      "name": "Brandon Michael Althof Long",
+      "url": "https://politicalprisonercoalition.org/prisoner/brandon-michael-althof-long",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Christopher M. Perry",
+      "url": "https://politicalprisonercoalition.org/prisoner/christopher-m-perry",
+      "status": 200,
+      "counter": "2 Months 1 Day"
+    },
+    {
+      "name": "Darryl King",
+      "url": "https://politicalprisonercoalition.org/prisoner/darryl-king",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "William Weinstone",
+      "url": "https://politicalprisonercoalition.org/prisoner/william-weinstone",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Theodore Hiller",
+      "url": "https://politicalprisonercoalition.org/prisoner/theodore-hiller",
+      "status": 200,
+      "counter": "1 Year"
+    },
+    {
+      "name": "Trev Poulson",
+      "url": "https://politicalprisonercoalition.org/prisoner/trev-poulson",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Giovanni Fruzzetti",
+      "url": "https://politicalprisonercoalition.org/prisoner/giovanni-fruzzetti",
+      "status": 200,
+      "counter": "1 Year 1 Month"
+    },
+    {
+      "name": "Ernesto Mangaoang",
+      "url": "https://politicalprisonercoalition.org/prisoner/ernesto-mangaoang",
+      "status": 200,
+      "counter": "3 Months 3 Days"
+    },
+    {
+      "name": "George Voyzey",
+      "url": "https://politicalprisonercoalition.org/prisoner/george-voyzey",
+      "status": 200,
+      "counter": "0 months"
+    },
+    {
+      "name": "Bernhard E. Fast",
+      "url": "https://politicalprisonercoalition.org/prisoner/bernhard-e-fast",
+      "status": 200,
+      "counter": "1 Month"
+    },
+    {
+      "name": "Shirley Herlth",
+      "url": "https://politicalprisonercoalition.org/prisoner/shirley-herlth",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Teri Rainelli",
+      "url": "https://politicalprisonercoalition.org/prisoner/teri-rainelli",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Alex Chessman",
+      "url": "https://politicalprisonercoalition.org/prisoner/alex-chessman",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Sandra Loranger",
+      "url": "https://politicalprisonercoalition.org/prisoner/sandra-loranger",
+      "status": 200,
+      "counter": null
+    },
+    {
+      "name": "Samuel Rowland Fisher",
+      "url": "https://politicalprisonercoalition.org/prisoner/samuel-rowland-fisher",
+      "status": 200,
+      "counter": "2 Years 24 Days"
+    }
+  ],
+  "preservation": "All targetedupdates match. All unrelatedfields preserved except concurrent external BrandonLong vital/bio update, which these batches did not modify or overwrite.",
+  "external_changes_preserved": [
+    {
+      "name": "Brandon Michael Althof Long",
+      "table": "prisoners",
+      "field": "birthdate",
+      "before": null,
+      "after": "1997-01-01 00:00:00"
+    },
+    {
+      "name": "Brandon Michael Althof Long",
+      "table": "prisoners",
+      "field": "updated_at",
+      "before": "2026-10-18 20:15:22",
+      "after": "2026-10-18 20:37:55"
+    },
+    {
+      "name": "Brandon Michael Althof Long",
+      "table": "prisoners",
+      "field": "body",
+      "before": null,
+      "after": "<h2>Birth-year evidence</h2><p>Original DOJ announcement June 5, 2020 identifies Brandon Michael Althof Long, age 23, Erie Pennsylvania, arrested that morning. Permits June 6, 1996 through June 5, 1997. Circa 1997, not exact birthday. Sources: <a href=\"https://www.justice.gov/usao-ndoh/pr/two-erie-pennsylvania-men-arrested-and-charged-traveling-cleveland-commit-acts-violence\">Source 1</a>. Birth is recorded approximately, not as a verified exact birthday; possible years: 1996, 1997.</p>"
+    },
+    {
+      "name": "Brandon Michael Althof Long",
+      "table": "prisoners",
+      "field": "date_precision",
+      "before": null,
+      "after": "{\"birthdate\":\"circa\"}"
+    }
+  ],
+  "replays": "All five batches idempotent"
+}

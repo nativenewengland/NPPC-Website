@@ -1,0 +1,346 @@
+{
+  "profiles": [
+    {
+      "name": "John Waubanascum Jr.",
+      "prisoner_id": "0300867b-33b2-4e4b-b548-7b803bcd1ca7",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Rechecked contemporary Militant March19,1976 and Workers Vanguard February20,1976 death reports alongside existing firsthand statement. Both identify Feb3,1976 death and pending1975 prosecution; neither establishes bond-release date. Modern same-name defendants excluded. No endpoint invented.",
+      "sources": [
+        "https://www.themilitant.com/1976/4011/MIL4011.pdf",
+        "https://www.marxists.org/history/etol/newspape/workersvanguard/1976/0097_20_02_1976.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter J. Unruh",
+      "prisoner_id": "17ff7cf6-3138-41d5-b058-f13d481dfc02",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Reviewed original Swarthmore CSV record: Ringwood Oklahoma, GeneralConferenceMennonite; sources list Mininger March10,1919 prisoner roster and Proceedings GeneralCourtMartial CampTravis June7,1918. Neither CSV date field contains admission/release. June7 is proceedings reference and cannot be treated as individual sentencing without original proceedings. Same-name family genealogies not bridged.",
+      "sources": [
+        "https://www.swarthmore.edu/peace-collection/conscientious-objection-and-draft-resistance"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Helen LaValley",
+      "prisoner_id": "228fd759-8f5a-4f51-b0d1-88e6f38d1bc7",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Rechecked October1992 Witness EasterVigilersImprisoned report. Six months incarceration sentence for Wurtsmith bunker action; separate Jan17,1991 probation case. Existing sabotage case remains insufficiently matched; no admission or actual release endpoint established. Preserve chronology uncertainty.",
+      "sources": [
+        "https://digitalarchives.episcopalarchives.org/the_witness/pdf/1992_Watermarked/Witness_19921001.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/957/1309/1788/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles \"Butch\" Lewis",
+      "prisoner_id": "252494a2-d974-43e9-ad95-83f4b6a74d5d",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "CTPublic obituary and Shoeleather eyewitness history confirm identity, deathSep9,2015 and repeated jail/bail, but no individual confinement endpoints. Distinct boxingpromoter excluded; existing portrait present. No new source-supported date.",
+      "sources": [
+        "https://www.ctpublic.org/news/2015-09-22/longtime-hartford-activist-charles-butch-lewis-dies-at-71",
+        "https://shoeleatherhistoryproject.com/2015/09/29/remembering-butch-lewis-2/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Giovanni Fruzzetti",
+      "prisoner_id": "363fea07-6ee5-45b9-b63d-69d905d0e005",
+      "source_review_status": "verified_fix_ready",
+      "research_note": "Fetched historian original entry. Named portrait caption credits Ancestry family photograph; downloaded662x882 original and visually inspected. Custody dates already match May1918 andJune24,1919. No additional exactdate found.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/fraser-to/",
+        "https://kenyonzimmer.com/wp-content/uploads/2020/02/Screenshot-2025-12-01-at-8.06.17-AM.png"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "363fea07-6ee5-45b9-b63d-69d905d0e005",
+          "updates": {
+            "photo": "prisoners/giovanni-fruzzetti-zimmer.png"
+          },
+          "local_asset": "tmp\\random100-fields-round94\\giovanni-fruzzetti-zimmer-agent2.png",
+          "source_credit": "Kenyon Zimmer, Faces of the First Red Scare, named Giovanni Fruzzetti portrait, credited to Ancestry family tree113565859/person210112210983."
+        }
+      ]
+    },
+    {
+      "name": "Teri Rainelli",
+      "prisoner_id": "47a3949e-6f3a-425b-89cf-6fb3c9e9ad3f",
+      "source_review_status": "verified_fix_ready",
+      "research_note": "Contemporary CiaronApr11,2008 reproduces SOAW update: sentencedJanuary28,2008, reported lastweek;90days underBOP93552-020. NuclearResisterApr8,2008 nr148 lists90days/out7/1scheduled; July3nr149 lists RELEASED. Thus inheritedJan27start/July27endpoint and6monthsentence unsupported. No exactadmissiondate derived. ProposedApril2008month admission (lastweek ofApr11),July2008month release onlyifcombinedscheduledJuly1andJuly3releasedlist accepted. Exact actualrelease remains unresolved. NRoriginalURLsnow404 redesign but indexed text remains. BaltimoreNonviolenceCenter2008report corroboratesNovember18,2007 action/arrest and judgeG.MalonFaircloth,90days+$500. CORRECTION: Apr11 lastweek can includeMar31, so Apriladmissionmonthnotestablished. WithdrawAprilproposal; clearunsupportedJan27admission andJuly27release ratherthaninventmonth.",
+      "sources": [
+        "https://ciaron.wordpress.com/2008/04/11/folks-in-prison-for-nonviolent-resistance-to-soa-writeem-a-letter/",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr149.pdf",
+        "https://baltimorenonviolencecenter.blogspot.com/2009/02/national-campaign-for-nonviolent.html?m=0"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "81ed6ee4-d506-4976-a657-36eec71cb3ac",
+          "updates": {
+            "sentence": "90 days; $500 fine",
+            "sentenced_date": "2008-01-28 00:00:00",
+            "arrest_date": "2007-11-18 00:00:00",
+            "incarceration_date": null,
+            "release_date": null,
+            "imprisoned_for_days": null,
+            "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+          },
+          "caution": "No exact or month admission/release established. Clear inherited unsupported dates;90days remains sentence only. July3releasedlist givesupperbound, scheduledJuly1notactualreleaseproof."
+        }
+      ]
+    },
+    {
+      "name": "Prokofen Savach",
+      "prisoner_id": "4bbd0c4a-8cc2-4cd0-a724-d0e4c1bb8b0f",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Read original Zimmer SastretoScali entry. Jan22,1921deportation confirmed but arrest/admission not given. Existingdate matches; no portrait appears underhisheading. NearbySavchuk/Savitsky membershipimages belongtootherpeople.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/sastre-to-scali/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jose Calderon",
+      "prisoner_id": "53fe2fd6-0d8a-4e7c-a62a-64ffab9274ad",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Reviewed federal appellate opinion655F2d1037 confirmingAug5,1980 incident and30dayssentence. Noactualrelease oradditional individualdate beyondexisting; didnotderive30dayendpoint.",
+      "sources": [
+        "https://law.counselstack.com/opinion/united-states-v-jose-calderon-ca10-1981"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Raymond Sumter",
+      "prisoner_id": "5590d313-6624-44ea-988d-a37ed657e037",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Individual exactname/contextsearches didnotproduce another identifiable Atticadefendant source beyond inherited Panthercitation. Nochargesdismissal-to-release inference; originalunderlyingoffense custodystart remainsunknown.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Shirley Herlth",
+      "prisoner_id": "645d8f23-de85-44a2-bee0-468114eafc7a",
+      "source_review_status": "verified_fix_ready",
+      "research_note": "Downloaded and read original1976 BreakdeChains. Printedp40/PDF43 has named ShirleyHerlth portrait; extracted original360x296JPEG and croppedretainedpixels(8,0,355,275) toPNG. Printedp21 names TarishiTamaaMaisha s/nShirleyJ.Herlth #90956-OS. Printedp9 says838days but essay undated; cannot deriveadmission. Originalprisonperiod may predatesassaultprosecution.",
+      "sources": [
+        "https://freedomarchives.org/Documents/Finder/DOC510_scans/Prisons_Women/510.PrisonWomen.BreakdeChains.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "645d8f23-de85-44a2-bee0-468114eafc7a",
+          "updates": {
+            "photo": "prisoners/shirley-herlth-break-de-chains.png",
+            "aka": "Tarishi Tamaa Maisha; Tarishi Maisha; Shirley J. Herlth"
+          },
+          "local_asset": "tmp\\random100-fields-round94\\shirley-herlth-break-de-chains-crop-agent2.png",
+          "source_credit": "Break de Chains of Legalized U.S. Slavery (1976), printedp40/PDFpage43, namedportrait; FreedomArchives. Originalpixelsretained; rectangle(8,0,355,275)."
+        }
+      ]
+    },
+    {
+      "name": "Henry Pollack",
+      "prisoner_id": "6932f779-1fd0-4f05-b343-b6b0551f9d3d",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Read original Swarthmore CSV. Drafted1917, interviewatLeavenworthFeb14,1919,10yearsentence reduced2years, listedFortDouglas. NoDateReleasedvalue anddraftyear isnotprovenadmission. Existing1917-1919yearspan not independentlyverified; no finerdateorDOB safelyadded.",
+      "sources": [
+        "https://www.swarthmore.edu/peace-collection/conscientious-objection-and-draft-resistance"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Knops",
+      "prisoner_id": "6b38f896-d63c-44a2-a492-164d9952373d",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Reviewed WisconsinSupremeCourt1971 primaryopinion49Wis2d647; corroborates contemptcase and confidentialsource refusal. SecondcontemptjudgmentSept23,1970 distinctfromAugust28initialcase. Do not replaceAugust28withSept23orcounttwooverlappingterms. Existingdaydatesnotimproved.",
+      "sources": [
+        "https://law.justia.com/cases/wisconsin/supreme-court/1971/state-146-4.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Samuel Goz",
+      "prisoner_id": "7fdeaf2f-48a7-4e79-829b-8d8921ea9ffb",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Fetched originalZimmerGoldmantoGrau entry; nameSamuelGoz/SamGordon andJan1920arrest/Feb26,1921deportation already present. No namedportraitunderhisheading. OtherSamGoz genealogy1899/1908 excluded.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/goldman-to-grau-i-jassans/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gerard Anthony Brannigan",
+      "prisoner_id": "852fa545-d519-4f7a-bf0b-2cb9eb855d64",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ContemporaryNov13,1992 remandreport identifiesMagistrateTheodoreKatz but nottrialjudgeoractualbailrelease. ExistingMarch10,1993release remainsunverified; do not inferfrombailgrant orApril1994acquittal. WashingtonPosthas25wordderivedlimit; retainbriefclaimonly.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/national/1992/11/13/ira-aid-suspects-held/eea7ced7-4001-4540-851b-a93c43743ef3/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dustin Scott Beisell",
+      "prisoner_id": "95216100-8d30-49e5-939d-f172fa382b31",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Reviewed officialgovinfo2026Santcase identity andCivilRightsLitigationClearinghouse docket. Releaseconditionsmotions establishrelease status, notphysicalreleaseday; individualinitialappearance/releaseorderneedsreading before exactcustodyinterval. Samefullnamed1983Billboardbirthannouncementnotbridgedtodefendant; noDOBinferred.",
+      "sources": [
+        "https://www.govinfo.gov/app/details/USCOURTS-mnd-0_26-cr-00115/USCOURTS-mnd-0_26-cr-00115-0",
+        "https://clearinghouse.net/case/48394/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Amendo Morantes",
+      "prisoner_id": "9db04432-572f-4341-af53-eaa15352135c",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Read contemporaryJohnKennethTurner BarbarousMexico p294primarylist: namedamongPLMrefugees prosecutedunderneutralitylaw; group-levelmostheldmonths doesnotestablishindividualdatesorduration. NoidentitybridgeforvariantsAmadoMorantes.",
+      "sources": [
+        "https://www.pascuayaqui-nsn.gov/wp-content/uploads/PDF/Education/barbarousmexico_jkt.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Douglas DeBoer",
+      "prisoner_id": "a7102483-b31c-4dba-a52a-49b427ca60fb",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Rechecked legalrepresentativesKuby/Kunstler EnduringtheStorm1991account: earlyspringCampLejeune COhearing,15monthplea,6monthsservedclemencyalreadyrecorded. No exactphysicaladmission/releasedates identified. Do notuseinvestigatingofficerEdwardHealeyastrialjudge.",
+      "sources": [
+        "https://paperzz.com/doc/8156773/enduring-the-storm--conscientious-objectors-in-the-persia..."
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joe Paskvam",
+      "prisoner_id": "acc6c115-cc52-46fb-9a57-e95134692d90",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ExactnameandOklahoma1934reliefprosecutionsearches yieldednoindividualrelease/admissionrecord. Existingabout1yearstatementnotconvertedtoexact12monthsnewly; spellingPaskvanunverified. Noaddeddate.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Brian Barrett",
+      "prisoner_id": "b5d22109-0b1a-47fc-bfa2-26f232388bd0",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ExactnameVieques2001 searches yielded no independently identifiableindividualcustodyendpoint. ModernNYjailguard andMinnesotaofficer same-names excluded. InheritedMay14,2001arrest doesnotestablishrelease; no shortsentence interpretedasduration.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gil Green",
+      "prisoner_id": "b71961c8-101c-4851-ac5e-db1afbbe4dac",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "OriginalNationalGuardianAug7,1961p4 confirmsJuly29,1961Leavenworthreleaseandrearrestand$5000bail. ExistingmaincustodyintervalalreadyendsJuly29. Do notaddone-dayepisodewithout actualbailpostingday. Duplicatemaincasesidentifiedbutnotremovedunderthisrequest.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-08-07-13-43-nat-guardian.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rufus Douglas",
+      "prisoner_id": "bcd3da3a-5309-4292-af9e-33c647352c5b",
+      "source_review_status": "verified_fix_ready",
+      "research_note": "ContemporaryUnitedPressDec5,1957 reportsTexonRufusDouglas diedJune1954. LIFEJune28,1954p31 confirmsChineseRedCrossdeathreportandnamedphoto. Refinementyear1954toJune1954supported, exactdaynotfound. AstroDataBank birthcertificateclaimedMarch21,1927requiresoriginalinspectionbeforeDOBaddition.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn97071090/1957-12-05/ed-1/seq-11.pdf",
+        "https://www.siamcostumes.com/cutters_guides/pdf/life-by-time-inc-published-june-28-1954.pdf",
+        "https://www.astro.com/astro-databank/Douglas%2C_Rufus"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "death_date": "1954-06-01 00:00:00",
+            "date_precision": "{\"death_date\":\"month\"}"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "c7a149fa-e40f-4e8e-aae2-30da548bec9e",
+          "updates": {
+            "end_of_exile": "1954-06-01 00:00:00",
+            "date_precision": "{\"in_exile_since\":\"day\",\"end_of_exile\":\"month\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gabriella Oropesa",
+      "prisoner_id": "c4438c87-39e8-4d5b-b93e-d4ec8a608861",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "Read officialMDFltrialorderFeb21,2025 and11thCircuitNov20,2025opinion. Conviction/sentencealreadyrecorded; noactualadmissiondategiven. TrialdocketVMC-AEPidentifiesjudgeviaofficialsignedorder; parentmayfillVirginiaM.HernandezCovingtonifvisuallysignatureverified. No120daysbackcalculationfromrelease.",
+      "sources": [
+        "https://ecf.flmd.uscourts.gov/cgi-bin/show_public_doc?2023-00025-354-8-cr=",
+        "https://media.ca11.uscourts.gov/opinions/pub/files/202510928.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Héctor García Mendoza",
+      "prisoner_id": "c9c8ba09-5703-43ce-a67b-2469558d4d38",
+      "source_review_status": "verified_fix_applied_by_parent",
+      "research_note": "ContemporaryNCRMay22,2020 explicitlystatesMarch13,2020detention. Complaintp34corroboratesMarchmonth; appellateopinionconfirmsMay19removal. Parentreportedbatch1174appliedMarch13dayprecision.",
+      "sources": [
+        "https://www.ncronline.org/news/vigil-draws-attention-class-action-suit-behalf-detained-immigrants",
+        "https://www.law.nyu.edu/sites/default/files/FreeThemAll%20EDC%20Class%20Action%20AS%20FILED.pdf",
+        "https://law.justia.com/cases/federal/appellate-courts/ca3/20-2521/20-2521-2021-11-16.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6bdb4ee0-4cb5-434a-a9f8-82c538cd998d",
+          "updates": {
+            "incarceration_date": "2020-03-13 00:00:00",
+            "date_precision": "{\"release_date\":\"day\",\"incarceration_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Otis L. Hairston Jr.",
+      "prisoner_id": "da34d0bd-4cc8-420f-a897-195c7d9cf66a",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ReviewedCivilRightsDigitalLibrarycatalogandfamilyobituary. Jr1945photographerdistinctSrminister; sourcesnoexactarrest/releaseforJr. ExistingbiofirstBlackcitycouncilmemberappearsincorrect(WilliamHamptonheld1940sseat),butnoBIOchangesauthorizedforbatch. DidnotassignSrMay1963committeenewsdate toJrarrest.",
+      "sources": [
+        "https://crdl.usg.edu/people/hairston_otis_l_1945",
+        "https://www.legacy.com/us/obituaries/legacyremembers/otis-hairston-obituary?id=21216238"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gregory Felix",
+      "prisoner_id": "e63e1753-7f1f-4026-8120-0b9d8dd2a12b",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "SearchedexactnamewithOakland1979/NAACP/MelvinBlackcontext. Noindependentcustodyendpointoridentifiableportraitfound; basketballplayerNoelGregoryFelixborn1981excluded. ExistingcontemporaryPantherreportneedsfollowupcasefilebeforedatefill.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "G. A. Fanning",
+      "prisoner_id": "edf9d90b-8a12-4df5-b044-76c46a99e0f3",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ReviewedpriorSenatehearingandNARAidentityreferences. Missingstructuredsentence18months+$500finecanberestoredfromexistingprimarytable,butadmissionMarch4isdocumentedsentencingonly. Noarrestdayfound; do notderiveDOBfromstoredage40withoutdatedagecitation.",
+      "sources": [
+        "https://archive.org/details/amnestypardonfor00unit/page/96/mode/2up",
+        "https://catalog.archives.gov/id/117719715"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mihail Jolnerovitz",
+      "prisoner_id": "fa84de9f-e199-44a6-a437-1d5d9c6b09f8",
+      "source_review_status": "reviewed_unresolved",
+      "research_note": "ExactnameandDimtroJolnerovichsearches andZimmerindexlookup didnotlocateadditionaldatedcustodyrecord. ExistingFeb23,1920/Mar18,1921alreadydayprecision; noDOBexactday,deathorimageidentityadded. Do notassignsame-namegenealogy.",
+      "sources": [],
+      "proposed_updates": []
+    }
+  ],
+  "status": "All 27 individually reviewed; unresolved entries remain explicitly unresolved, no live mutations by this agent.",
+  "counts": {
+    "reviewed": 27,
+    "verified_fix_profiles": 5,
+    "unresolved_profiles": 22
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "reviewed_at": "2026-10-18",
+  "profiles": [
+    {
+      "name": "Albert Brown",
+      "slug": "albert-brown",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Downloaded and extracted the original July 31, 1930 Daily Worker. The article names Brown, Burlak and Carl Miller among pending sedition cases, but gives no release date or continuous-custody evidence. It places that item in Camden, New Jersey, so it cannot safely resolve the distinct Bethlehem detention. The January 30 scheduled-trial report also does not prove physical release. No dates added.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v07-n183-NY-jul-31-1930-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Debbie Hands",
+      "slug": "debbie-hands",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Downloaded and extracted original Contact, May 7, 1975. It names Debbie Hands, age 22, among six jailed without bond, but supplies no individual admission/release, judge or expanded legal name. Existing March 8–14 custody interval preserved. Deborah alias and Moynahan judge lead remain secondary and unverified; no additions proposed.",
+      "sources": [
+        "https://www.houstonlgbthistory.org/Houston80s/Voice/Contact/contact_19750507.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "B. M. Murphy",
+      "slug": "b-m-murphy",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Exact-name1918/espionage and1921Senate-roster searches did not locate independent custody records. Stored start equals sentencing, end exactly90days later; provenance concern remains, no unsupported replacement dates supplied.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Brandon Michael Althof Long",
+      "slug": "brandon-michael-althof-long",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "Primary November16,2020 suppression opinion identifies judge Patricia A. Gaughan. DOJ June12 names prosecutor Duncan Brown. June5 DOJ report explicitly identifies second federal arrest at6AM Erie, separate from May30 Cleveland detention. March2021 dismissal is not proof of physical release; no continuous May30–March custody inferred.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/5fbb55a54653d07a51f93096",
+        "https://www.justice.gov/usao-ndoh/pr/two-pennsylvania-men-indicted-rioting-and-firearms-charges",
+        "https://www.justice.gov/usao-ndoh/pr/two-erie-pennsylvania-men-arrested-and-charged-traveling-cleveland-commit-acts-violence"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "Patricia A. Gaughan",
+            "prosecutor": "Duncan Brown"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Curtis Jones Jr.",
+      "slug": "curtis-jones-jr",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "June7,1977 contemporary AP report confirms22-year-old Marine Curtis Jones of Russell Alabama, defense attorney Mark Rosenbaum withdrawal, trial still pending. No exact admission/discharge established; unrelated Indiana child-molesting prisoner excluded. Existing eight-month account is not an endpoint.",
+      "sources": [
+        "https://archive.newportbeachlibrary.org/NBPL/0/edoc/1233871/1977-06-07%20-%20Orange%20Coast%20Pilot.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gregorio Riel",
+      "slug": "gregorio-riel",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Visually inspected original NARA scan012 manuscript10 row22: Escaped3/20, matching stored March20,1901. Secondary transcription3/27 is incorrect. Scan011 manuscript9 row69 confirms Jan8capture and Feb18Balayan confinement/transfer; no secondperson inferred from Riol variant. No changes needed.",
+      "sources": [
+        "https://catalog.archives.gov/medialz/dc-metro/rg-395/3725192/3725192_011.jpg",
+        "https://catalog.archives.gov/medialz/dc-metro/rg-395/3725192/3725192_012.jpg"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bernhard E. Fast",
+      "slug": "bernhard-e-fast",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "Retrieved full current Swarthmore archivist CSV: explicitly sentenced Oct26,1918 to40years,reduced10. Add missing sentencing date only. Dec10 versus Dec24Leavenworth admission remains source ambiguity, existing Decemberprecision preserved; Jan27,1919 release alreadypresent.1893Apr25–1957Mar2 obituary matches name/Medford but roster doctor versus obituary farmer identity bridge unresolved; do not add vital dates yet.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit?usp=sharing",
+        "https://mla.bethelks.edu/mediawiki/index.php/Fast%2C_Bernhard_E._%281893-1957%29"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "sentenced_date": "1918-10-26 00:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Juan Villanueva",
+      "slug": "juan-villanueva",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Rechecked existing Zimmer-derived entry and exact TucsonSeptember1919 surname searches. Already has Sep19–Dec3,1919 interval; October1926/June1928returns do not establish exile end because intermediate movements unknown. No independently identified portrait or additional exact vital date found.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emil Nygard",
+      "slug": "emil-nygard",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Full Swarthmore CSV says2328West3rdStreetDuluth, disobedience,2years,noncitizen,COstatusquestioned; no custody endpoints. Excluded KarlEmilNygard1906–1984Communistmayor as too young for1917draft registration. No same-name vital dates/photo imported.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit?usp=sharing",
+        "https://mn.electionarchives.lib.umn.edu/candidate/emil-nygard/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Clifton Watrous",
+      "slug": "clifton-watrous",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Full Swarthmore CSV reports1919remission by Aug26Kregerletter, not actualphysicalrelease day. Haverfordfindingaid lists C.Watrous andEverettS.Watrous. Genealogy1891CliftonStephen not securely linked to CO. No exact endpoints or DOB added.",
+      "sources": [
+        "https://docs.google.com/spreadsheets/d/1pW6wsZo4it4CTtGmn_P-dwg1L0arJBfJEhwcIZlSZNQ/edit?usp=sharing",
+        "https://findingaids.library.upenn.edu/records/HAVERFORD_HC.MC.1249"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "M. H. Powers",
+      "slug": "m-h-powers",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "MaryDalton1935first-person retrospective gives initial April21,1930 arrest, weekheld theninsurrection charge; conflicts existingMarchprecision. Contemporary July26,1930report gives jaildescription, no actualreleaseday. Two-month retrospective versus differing six-weeksecondary accounts insufficient exactcounter. Leave dates pending original1930Aprilreport.",
+      "sources": [
+        "https://www.marxists.org/archive/herndon/1935/oct-10-1935-DW.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v07-n179-NY-jul-26-1930-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Richard B. Cley",
+      "slug": "richard-b-cley",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Original CCCOMayJune1968newsletter namesRichardB.Cley amongLewisburgprisoners; publication is presence-asof, notadmissiondate. No personalcase,release,vitals,portrait reliablyidentified.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F215%2F2150711006.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Cody Beau Porter",
+      "slug": "cody-beau-porter",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Original federalprosecution table identifies3:20cr00211 assault18USC111(a)(1), dismissedinformation. Contemporary namedbooking portrait alreadyattached. No individualadmission/releaseday established by accessiblecase table; avoid importingFaulkner/Carubis laserincidentdates.",
+      "sources": [
+        "https://s3.documentcloud.org/documents/21180438/judd-138-1-portland-protest-cases.pdf?t=1642350531975",
+        "https://threadreaderapp.com/thread/1280453428171309057.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Darryl King",
+      "slug": "darryl-king",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "Contemporary November28,2001 report explicitly says1995release and identifiesofficer-murdercase,25yearsserved,FifthAvenueCommitteepropertymanager. NYU/FAC co-researcher report independentlyidentifies25-yearunfoundedmurderconviction. Add1995releaseyearprecision; do notclaimrounded25yearsexactelapsed. ExcludedFlorida/Ohio/Australianandmotocross namesakes.",
+      "sources": [
+        "https://prospect.org/2001/11/28/justice-peace/",
+        "https://wagner.nyu.edu/files/leadership/FAC.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "release_date": "1995-01-01 00:00:00",
+            "date_precision_add": {
+              "release_date": "year"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Theodore Narusheff",
+      "slug": "theodore-narusheff",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Original NationalGuardianMar28,1951 confirms convictionpreviousmonth and1946strikeindictment; no incarceration orsentence imposed specified. OtherstrikerJamesLustigpriorjailmustnotbeassignedtoNarusheff. No custodydatesadded.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1951-03-28-3-23-nat-guardian.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Alex Chessman",
+      "slug": "alex-chessman",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "Downloaded, extracted and visually checked the original Daily Worker, August 15, 1928, page 4, jail-visit interview. It explicitly says Chessman was sentenced to 10 years on a bombing charge connected to the 1925 coal strike. Add sentence only; this does not establish actual time served or an exact admission or release date. March 19, 1930 source confirms continued presence at Moundsville. No portrait identified.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1928/1928-ny/v05-n193-NY-aug-15-1928-DW-LOC.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v06-n322-NY-mar-19-1930-DW-LOC.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "sentence": "10 years"
+          }
+        }
+      ],
+      "local_evidence": [
+        "tmp/random100-fields-round94/chessman-aug15.pdf",
+        "tmp/random100-fields-round94/chessman-page4.png"
+      ]
+    },
+    {
+      "name": "Herbert Newton",
+      "slug": "herbert-newton",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "ContemporaryJuly18,1930DailyWorker says recentlyreleasedonbailAtlanta; noexactday/monthfromrecentlyalone.1935MaryDaltonfirstperson saysgroupreleasedaftertwomonths, conflicts sixweeksecondary. OriginalAug1930LaborDefender age26 vs1932AtlantaDailyWorldage26 conflict prevents unqualifiedbirthyear. No endpointguessed.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v07-n172-NY-jul-18-1930-DW-LOC.pdf",
+        "https://www.marxists.org/archive/herndon/1935/oct-10-1935-DW.pdf",
+        "https://revolutionsnewsstand.com/2025/04/05/76326/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joe Clohessy",
+      "slug": "joe-clohessy",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "ExactJoe/JosephClohessy1923Folsom/IWWsearch did notlocateindependentrelease day. ExistingJuly12,1923admission preserved; five-yearsentence doesnotproveJuly1928release. Twoexistingcase rowsmayoverlapsamecase; flaggednotdeleted.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ryan Stewart",
+      "slug": "ryan-stewart",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "525487EarthFirstroster identitysearch andoriginalmovement alliedprisonerslistreview didnotestablishadmission/releaseorpoliticalnature. MichiganMDOC525487 remains bestlookupkey. No unrelatedsame-nameportraitorDOBassigned.",
+      "sources": [
+        "https://earthfirstnews.wordpress.com/ef-prisoner-support/allies/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James “Ashante” Sullivan",
+      "slug": "james-ashante-sullivan",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "OriginalPublici2008PARCroster repeatsFebruary2005material andAF6772; doesnotestablishFeb2005admission. Exactnamealias searchesdidnotlocatecourtcaseoractualrelease. Storedadmissionisprovenanceconcern, no replacementdate guessed.",
+      "sources": [
+        "https://publici.ucimc.org/2008/04/you-can%E2%80%99t-jail-the-spirit-us-political-prisoners-and-pows/",
+        "https://oldpublici.ucimc.org/apr08.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frederick Urban",
+      "slug": "frederick-urban",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "OfficialATF2024complaint explicitly linksApril11,1995arrest andprior57-monthsentence. Fillmissingsentence57months only, notactualtime-served. Original1998appeal confirmsApril18,1995indictment. NoexactreleaseorindependentApril17admissionestablished.",
+      "sources": [
+        "https://www.justice.gov/usao-nm/media/1363551/dl?inline=",
+        "https://law.justia.com/cases/federal/appellate-courts/F3/140/229/605731/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "sentence": "57 months"
+          }
+        }
+      ]
+    },
+    {
+      "name": "David Paul O'Brien",
+      "slug": "david-paul-obrien",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "OriginalSupremeCourtopinion confirmsMarch31,1966arrest andYouthCorrectionsActmaximum6yearcustodyandsupervision, not6yearactualprison. Noactualadmission/releaseestablished. Existingidentifiedportraitpreserved.",
+      "sources": [
+        "https://www.law.cornell.edu/supremecourt/text/391/367"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Michael Siptroth",
+      "slug": "michael-siptroth",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Reviewedown2016trialstatement and2014Kitsapjailreport: existingMay10,2014bookingreleasealreadyrecorded.2017Maydemonstrationcitedandreleasedwithinanhour; threatofweekendjailnotactualcustody.1987appealaffirmedwithoutcustodydates;1988StansellcodefendantSiptrothacquitted. Noadditionnecessarytoproducecounter.",
+      "sources": [
+        "https://www.gzcenter.org/wp-content/uploads/2016/04/Michael-Siptroth-Trial-Statement-2016-4-1.pdf",
+        "https://olywip.org/wp-content/uploads/2023/11/WIP-2014-06.pdf",
+        "https://www.kitsapdailynews.com/2017/05/15/14-cited-in-mothers-day-demonstration-at-naval-base-kitsap-bangor/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sandra Loranger",
+      "slug": "sandra-loranger",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "OriginalJuly9,1989UPIreports45daysentenceJuly6,scheduledJuly13admissionwithprojected30daysdueovercrowding. Notactualendpoint.2014activistaccount20daysconflictdoesnotjustifyinventingdates. Noexactcustodystart/endfound. Missingformal45daysentencecanreplacepublicresearchnarrativewithoutcasenotewrite.",
+      "sources": [
+        "https://www.latimes.com/archives/la-xpm-1989-07-09-mn-5373-story.html",
+        "https://www.indybay.org/newsitems/2014/12/10/18765364.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "sentence": "45 days"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yakov Sinov",
+      "slug": "yakov-sinov",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Existing Zimmer-derived source description identifies January 22, 1921 deportation. December 21, 1919 was his roommate Roman Mosichuk’s Buford departure, raising a likely erroneous stored exile start. Current source retrieval failed, so this is flagged for verification rather than deployed solely from an old derivative data file. No independent custodial admission or release update supplied.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emanuel Baltzer",
+      "slug": "emanuel-baltzer",
+      "source_review_status": "reviewed_bounded_unresolved",
+      "research_note": "Reviewedoriginal1919CongressionalRecord andHolmesdissentresearch:groupconviction/reversalknown, sentencesrangeone–fiveyears. Noindividualduration/admission/releasedateidentified. Groupmaximumand1919dismissalnotactualcustodyinterval. No newcounteroverride.",
+      "sources": [
+        "https://www.congress.gov/66/crecb/1919/06/24/GPO-CRECB-1919-pt2-v58-10.pdf",
+        "https://supremecourthistory.org/wp-content/uploads/2025/02/Volume-39-Number-1-2014.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Christopher M. Perry",
+      "slug": "christopher-m-perry",
+      "source_review_status": "reviewed_supported_updates",
+      "research_note": "OfficialDOJAug28,2026 confirmsprosecutorElliotWong andongoingfederalcustody; Aug31arraignmentbeforemagistrateSeanCRiordanwasprospective,notmeritsjudge. KCRAAug31reportsactualnotguiltypleaandAug17booking,existingstartpreserved. Addprosecutoronlyusingprimarysource.",
+      "sources": [
+        "https://www.justice.gov/usao-edca/pr/rocklin-man-implicated-plot-attack-white-house-ufc-event-indicted-firearms-possession",
+        "https://www.kcra.com/article/rocklin-man-charged-in-connection-with-drone-attack-plot-for-ufc-event-at-white-house/73548468"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Elliot Wong"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Bounded individual review; unresolved is not claimed exhaustive. No live mutations by agent. Parent must obtain fresh guards and verify deployment.",
+  "summary": {
+    "individually_reviewed": 27,
+    "profiles_with_proposed_supported_updates": 7,
+    "profiles_without_new_verified_update": 20,
+    "not_live_applied_by_this_agent": true,
+    "exhaustive_research_claimed": false
+  }
+}
