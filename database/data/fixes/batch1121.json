@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Nora Conklin",
+      "slug": "nora-conklin",
+      "expected": {
+        "id": "654ae1c3-3215-4fe3-81d6-7ffc56a16643",
+        "prisoner_id": "1af64e7b-ad03-421e-a649-0acb2af57502",
+        "institution_id": null,
+        "charges": "Indicted for criminal syndicalism at Sacramento for leading the California agricultural workers' union.",
+        "arrest_date": "1934-07-01 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted April 1, 1935; judgment reversed on appeal September 28, 1937.",
+        "plead": null,
+        "sentenced_date": "1935-04-11 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Dal M. Lemmon",
+        "sentence": "One to fourteen years, imposed April 11, 1935. The prison board later fixed the term at five years. Conviction reversed September 28, 1937.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 23:10:17",
+        "updated_at": "2026-10-12 16:54:26",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1934-07-01 00:00:00",
+        "prosecutor": "Neil R. McAllister",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "sentence": "One to fourteen years, imposed April 11, 1935. The prison board later fixed the term at five years. Conviction reversed September 28, 1937. Herbert Solow’s August 1935 pamphlet, Union-Smashing in Sacramento, page 13, identifies Conklin among the workers arrested and jailed in July 1934. This records the documented initial custody month, not an exact day or proof of uninterrupted custody thereafter. Page 15 identifies prosecutor Neil R. McAllister. Her physical release date remains unverified; the appellate reversal is not substituted for release. Source: https://dai.mun.ca/PDFs/radical/UnionSmashinginSacramento.pdf"
+      },
+      "source": "https://dai.mun.ca/PDFs/radical/UnionSmashinginSacramento.pdf",
+      "research_note": "Visually checked printed pp13 and15. July1934 physical jailing is explicit, not inferred from arrest alone. No release or served duration inferred. Separate 90-day relief-demonstration sentence reported in New Masses August28,1934 requires overlap/endpoint verification before new interval."
+    }
+  ]
+}
