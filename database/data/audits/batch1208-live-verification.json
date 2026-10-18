@@ -1,0 +1,47 @@
+{
+  "batch": 1208,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1208-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "f0d63253-b9d3-4495-be9b-82487baf9c71",
+      "name": "Seamus Moley",
+      "changes": {
+        "description": [
+          "Seamus Moley was an Irish national swept into a series of U.S. investigations targeting alleged IRA-linked arms procurement operations. The underlying allegations reflected a strategic focus on anti-aircraft capability—weaponry intended to threaten British military aircraft—rather than small-arms shipments alone.\n\nMoley was arrested in January 1990 in the same Stinger-missile undercover operation that ensnared McKinley and others. He later entered a plea agreement in March 1995 on arms-smuggling charges and was sentenced to 19 months in federal prison in June 1995. He was released from custody and deported to Ireland in July 1996.",
+          "Seamus Moley was an Irish national prosecuted in two U.S. arms-procurement cases connected to the Provisional IRA. Arrested in Florida on January 12, 1990 during an undercover Stinger-missile operation, he was convicted and initially sentenced to 51 months on June 7, 1991; the appeals court subsequently vacated the sentences and ordered resentencing. In a separate Arizona prosecution concerning the purchase of detonators, he pleaded guilty in 1995 and received a 19-month sentence on June 30. He was released from U.S. custody and deported to Ireland on July 17, 1996."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:54:51"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "83662021-f207-48b8-933f-52c66ae44a33",
+      "name": "Seamus Moley",
+      "changes": {
+        "release_date": [
+          "1996-07-15 00:00:00",
+          "1996-07-17"
+        ],
+        "imprisoned_for_days": [
+          2376,
+          2378
+        ],
+        "updated_at": [
+          "2026-10-18 18:32:24",
+          "2026-10-18 23:54:51"
+        ],
+        "date_precision": [
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+        ]
+      }
+    }
+  ]
+}
