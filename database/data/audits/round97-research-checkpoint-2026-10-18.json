@@ -1,0 +1,1242 @@
+{
+  "profiles": [
+    {
+      "name": "Cedric Belfrage",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Currentcaseconflates1953and1955. OriginalJune13report saysMay13arrestandunbrokenprison; August15issueanticipatedsailingandFBIfilecitesAug16NYTconfirmsactualAug15deportation. Existingfinalsegmentcanbe corrected; separate1953segmentrequiresfirstarrestverification. Separate1953caseadded1184 May15–June11,27days.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1955-06-13-7-34-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1955-08-15-7-43-nat-guardian.pdf",
+        "https://documents3.theblackvault.com/documents/jfkfiles/NARA-Oct2017/NARA-Dec15-2017/docid-32989474.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "1955-05-13 00:00:00",
+            "incarceration_date": "1955-05-13 00:00:00",
+            "release_date": "1955-08-15 00:00:00",
+            "date_precision": "{\"in_exile_since\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Estella Eylward",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual archival-based biography and primary Stevens appendix reviewed. Existing February1919 arrest, sentence and birth year corroborated. No individually verified charge, death day or finer birthday found; do not infer charge solely from watchfire activity.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1008297962",
+        "https://omeka.hsp.org/files/original/123/971/Transcription_HSP_17084.pdf"
+      ]
+    },
+    {
+      "name": "Scott Anderson",
+      "source_review_status": "verified_update_applied",
+      "research_note": "OriginalDistrictJudgeJordan2004opinionparagraph3 recallsMay2002individualprosecutionUnitedStatesvDombowskyet al02-20470-Cr-Jordan, pleasguiltyornocontest, timeservedplusfines100–500. Individualfineamount andsentencingdaynotassigned. ExistingApril12–15custody unchanged.",
+      "sources": [
+        "https://openjurist.org/314/fsupp2d/1252/united-states-v-greenpeace-inc-2470983"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Boarding a vessel before arrival (18 U.S.C. § 2279)",
+            "sentence": "Time served and a fine",
+            "judge": "Adalberto Jordan",
+            "convicted": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Aziz Abdul Naji",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualoriginalJTFassessmentandICJreview; heldwithoutcriminalcharge. TransferdateJuly19vsJuly20referenceconflictnotresolved, nofakecharge.",
+      "sources": [
+        "https://www.wikileaks.org/gitmo/pdf/ag/us9ag-000744dp.pdf",
+        "https://www.icj.org/wp-content/uploads/2013/05/E-Bulletin-Jul10-Final.pdf"
+      ]
+    },
+    {
+      "name": "Morris Sigman",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Cornell Kheel Center original trial reconstruction identifies DA Charles A. Perkins for 1915 prosecution. Contemporary JTA July 21 says death yesterday, while New Leader July 25 says Sunday (July 19); death day unresolved. Bail setting not actual discharge.",
+      "sources": [
+        "https://ilgwu.ilr.cornell.edu/announcements/8.html",
+        "https://www.jta.org/archive/morris-sigman-jewish-labor-leader-dies-suddenly-at-51",
+        "https://www.marxists.org/history/usa/pubs/new-leader/1931/v13n04-jul-25-1931-NL.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Charles A. Perkins"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Charles A. Perkins",
+            "convicted": "No — acquitted"
+          }
+        }
+      ]
+    },
+    {
+      "name": "J. E. Houlihan.",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original trialaccount namesHoulihan defendantwitness; initialsJ.D.inonepassageconflictJ.E.roster. No exactindividualrelease orvitaldate established. No criminalsentencebecauseonlyTracytried.",
+      "sources": [
+        "https://archive.iww.org/PDF/history/library/WCSmith/EverettVII.pdf"
+      ]
+    },
+    {
+      "name": "Timofey Pavlovich Bukhanov",
+      "source_review_status": "verified_update_applied",
+      "research_note": "HistorianentrycitesINS54709/647,FBI382170andRussianlibrarycase; explicitlydiedNovember1942. Russianlaterfiveyearsentence notcopiedtoUSdeportationcase.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/bukhanov-to-butskevich/",
+        "https://visz.nlr.ru/person/show/264430"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "death_date": "1942-11-01 00:00:00",
+            "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"month\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John H. Reagan",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Official House biography establishes death March 6, 1905, refining year. No criminal sentence inferred from administrative detention.",
+      "sources": [
+        "https://history.house.gov/People/Detail/20204"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "death_date": "1905-03-06 00:00:00",
+            "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "David Maksimovich Elak-Berman",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original INS/FBI research confirms1919PalmerRaiddetention andDecember21deportation; death1941alreadyrecorded. No finerarrestday orimposedcriminalsentence.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/elia-to-faggi/"
+      ]
+    },
+    {
+      "name": "Mariah De Los Santos",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualnamedGreenpeace2019roster reviewed. Noimposedsentenceestablished; statutorymaxnotactualsentence. Existingreleaseintervalleftunchanged.",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php",
+        "https://abc13.com/PhotoGallery/5537918/"
+      ]
+    },
+    {
+      "name": "Ewart Layne",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Official IACHR merits decision reproduces U.S. military cable explicitly names Layne among six held aboard ships until November 5, 1983 transfer to direct CPF control. Individual arrest day still unresolved. Foreign criminal sentence not assigned to U.S. military custody case.",
+      "sources": [
+        "https://cidh.oas.org/annualrep/99eng/Merits/UnitedStates10.951.htm"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "release_date": "1983-11-05 00:00:00",
+            "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "C. D. McLennan",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualEverett prisoner identity searched; no independently verifiablefinerMay1917release orbirth/deathdate. Existingrosterderivedageyear retained, no groupacquittalday assumed asrelease.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml"
+      ]
+    },
+    {
+      "name": "Charles McDew",
+      "source_review_status": "verified_update_applied",
+      "research_note": "CarsonscholarlySNCC history explicitlynamesMcDewOct1961fourmonthsentence200fine. Adultchargecontributingdelinquencyalsoidentified. February1962separatecase nofixedsentenceestablished.",
+      "sources": [
+        "https://dokumen.pub/in-struggle-sncc-and-the-black-awakening-of-the-1960s-9780674447271-9780674447257-9780674447264.html"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "sentence": "Four months; $200 fine"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Beto Coral",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary July16 Colombian reporting confirms scheduled removal after roughly month detention, already captured by existing dates. No criminal conviction or judicial sentence established by immigration custody. No new supported field.",
+      "sources": [
+        "https://www.lasillavacia.com/en-vivo/beto-coral-detenido-por-ice-en-ee-uu-sera-deportado-a-colombia/",
+        "https://telecafe.gov.co/el-activista-beto-coral-sera-deportado-a-colombia-tras-proceso-migratorio-en-estados-unidos/"
+      ]
+    },
+    {
+      "name": "Alireza Doroudi",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Courtfiling confirmsMarch25arrest. AttorneyquotedJune2confirms remained jailed intoMay, physicallyleftfacilityweekendMay31/June1 beforeJune1departure. StoredApril14endpointfalse; noexactphysicalreleaseday established. Do not equate voluntarydepartureMay8order withrelease.",
+      "sources": [
+        "https://kfai-documents.s3.amazonaws.com/documents/45ba0fec9e/show_temp--1-.pdf",
+        "https://www.yahoo.com/news/alireza-doroudi-flies-back-iran-155838175.html"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "2025-03-25 00:00:00",
+            "incarceration_date": "2025-03-25 00:00:00",
+            "release_date": null,
+            "imprisoned_for_days": null,
+            "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kiyoshi James Yonemura",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualJCCHoriginalrecord confirmsmonthprecisiondates alreadyfilled; wartimecivilianadministrativedetention noindividualcriminalcharge. Photoalreadyidentifiedsource.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/yonemura-kiyoshi-james"
+      ]
+    },
+    {
+      "name": "Janet Fotheringham",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Individual Turning Point biography explicitly says July 17 conviction of obstructing traffic, corroborated by contemporary group report. Birth year 1896 conflicts with stated age26 and should be verified against original vital record, not changed by inference.",
+      "sources": [
+        "https://tpsuffragistmemorial.org/category/suffragist-spotlight/page/4/",
+        "https://cooperative-individualism.org/the-public-1917-jul-27.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Obstructing traffic",
+            "sentenced_date": "1917-07-17 00:00:00",
+            "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kanji Tanaka",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "JCCH individualrecordreviewed: October1942arrest,lastSantaFeOctober1945, November1945Hawaiihomecoming. No exactphysicalrelease day; homecomingnotassumedprisonexit. Criminalcharges/sentencelegitimatelyblank.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/tanaka-kanji"
+      ]
+    },
+    {
+      "name": "Anna Kelton Wiley",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Purdueexhibitioncitesoriginal1963biographyfromHarveyWileypapersMSF416Box1Folder3; explicitlyobstructingtraffic,1917. Existing15dayssentencealreadyfilled.",
+      "sources": [
+        "https://collections.lib.purdue.edu/womens-suffrage/PurdueSuffragists.php",
+        "https://www.documents.alexanderstreet.com/d/1009054727"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Obstructing traffic"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Colville McBarnette",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Firsthand comrades memorial explicitly states April 22, 1956 to January 15, 2020. Official IACHR confirms U.S. detention but does not individually identify him in the six November 5 transfers; do not assign group endpoint to him.",
+      "sources": [
+        "https://nowgrenada.com/2021/01/in-loving-memory-of-kamau-mcbarnette/",
+        "https://cidh.oas.org/annualrep/99eng/Merits/UnitedStates10.951.htm"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "birthdate": "1956-04-22",
+            "death_date": "2020-01-15 00:00:00",
+            "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Markus Naumovich Oradovsky",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original INS54616/115Aresearch confirmsJuly2–December21,1919already. Sovietrepressionindexleadbirth1894conflicts1895USfile andlacksviewedoriginaldeathproof; no vitals correction.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/ochrimuk-to-oradovsky/"
+      ]
+    },
+    {
+      "name": "Bob Lederer",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Ownsigned2019messageconfirms3monthsserved, notfixedcriminalsentence. ContemporaryJune1985order surrenderJuly7 conflictscurrentJuly8butnotphysicaladmissionproof. Nullsentencelegitcivilcoercivecontempt. Nochange.",
+      "sources": [
+        "https://groups.google.com/g/noprideinoccupation/c/b38teoIEGEI",
+        "https://independent.academia.edu/BLederer",
+        "https://infoaldesnudo.com/wp-content/uploads/2022/07/Luis-Rogelio-Torres-Tesis-doctoral-Copia-Institucional-pdf.pdf"
+      ]
+    },
+    {
+      "name": "Pearl Brown",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Congressional recognition individually identifies Pearl Brown as deceased by March2015, but no specific death date or birth year. Stockade detention without charges, so null charge appropriate.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CREC-2015-03-26/pdf/CREC-2015-03-26.pdf"
+      ]
+    },
+    {
+      "name": "Heidi Nybroten",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary individuallynamedGreenpeace2019reportreviewed;September12–14custodyalready. No finer missingdate orsentenceestablished.",
+      "sources": [
+        "https://www.click2houston.com/news/2019/09/13/these-are-the-greenpeace-activists-who-were-charged-in-fred-hartman-bridge-protest/"
+      ]
+    },
+    {
+      "name": "John Ventour",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "USmilitarycustodydistinctfromGrenadian1986deathsentenceand2008physicalrelease. Notamongnamed6November5transfers; cannotassignother4November2withoutindividualproof. NoGrenadianconvictioncopiedtoUSsegment.",
+      "sources": [
+        "https://cidh.oas.org/annualrep/93eng/REPORT14-94.pdf",
+        "https://www.legal-tools.org/doc/2e8872/pdf/",
+        "https://www.dailyherald.com/20081218/news/grenada-releases-3-coup-prisoners/"
+      ]
+    },
+    {
+      "name": "Karl Soehnlein",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "First-person ACT UP oral history confirms Albany overnight detention but does not securely date that individual event to March28. Full birthdate only in derivative biographies; no original vital source. No unsupported exact date added.",
+      "sources": [
+        "https://actuporalhistory.org/s/018-Karl-Soehnlein.pdf",
+        "https://www.lgbtqnation.com/2023/02/heres-how-an-army-of-lovers-fought-aids-changed-health-care-in-america/"
+      ]
+    },
+    {
+      "name": "Charles Auspos",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "ContemporaryFebruary28,1917jailinterviewandEveretttrialwitnessaccountconfirmidentity. Becomingprosecutionwitnessdoesnotproveexactrelease. ExistingMaymonthpreserved.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn83025138/1917-03-01/ed-1/seq-4/"
+      ]
+    },
+    {
+      "name": "Alba Galeotti",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individualentryreviewed: 1923detention/hungerstrike33days, deportJan10,1924. No namedcriminalcharge; hungerstriketermnotfullcustody. Noexactstartfound.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/galeotti-to-gazeyog/"
+      ]
+    },
+    {
+      "name": "Benjamin Nowain",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Direct eyewitness Shasta Scout and meeting summary reviewed; arrest and same-day return match existing dates. No named statutory charge or conviction established. No sentence invented.",
+      "sources": [
+        "https://shastascout.org/activist-benjamin-nowain-arrested-at-shasta-county-board-meeting/",
+        "https://www.shastaunfiltered.com/post/debates-over-committee-appointments-teamsters-upset-about-cuts-to-medical-benefits-and-another-arr"
+      ]
+    },
+    {
+      "name": "Shozo Takahashi",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "JCCH distinguishesbriefspring1942detention fromMarch1943–March1944Honouliuli andFebruary1945paroletermination. Existingmonthdatesalreadycorrect; paroleterminationnotphysicalcustodyendpoint.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/takahashi-shozo"
+      ]
+    },
+    {
+      "name": "Tom Tracy",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "MAJORidentitymergeflag: originalroster hasTomTracy30,Pennsylvania,cranedriver ANDThomasH.Tracy36,Nebraska,teamster. Currentprofilehasbothbios/twocases. Needseparaterecordreconstruction beforedatechanges; no sentencebecauseacquittal.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ]
+    },
+    {
+      "name": "Wesley Everest",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary Newberg newspaper and UW original historical research reviewed. Existing April5 birthday conflicts with later December29 date; original birth evidence needed. Lynching was not a judicial sentence and castration allegation is historically disputed; no new bio or inferred sentence.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn96088233/1919-11-20/ed-1/seq-1/ocr/",
+        "https://files.libcom.org/files/Wesley%20Everest%2C%20IWW%20martyr.pdf"
+      ]
+    },
+    {
+      "name": "Alvin Joseph",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Officialpolice June2lateevening events andovernightarrestJune2/3disproveMay31start. OfficialDAstate(notfederal) convictiontwoattemptedarsoncounts March8,2022;10yearsfirst5confinementJudgeTadiaWhitner. Currentbiofederal/guiltypleafalse; no biochange authorized here. ExistingJuly2025releaseunverified.",
+      "sources": [
+        "https://www.gwinnettcounty.com/-/news-events/news-releases/news-details/gwinnett-district-attorney-s-office-annouces-convictions-in-six-cases",
+        "https://www.gwinnettcounty.com/-/news-events/news-releases/news-details/damage-of-police-cars-at-officers-homes"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "2020-06-01 00:00:00",
+            "incarceration_date": "2020-06-01 00:00:00",
+            "sentence": "Ten years, with the first five years in confinement",
+            "judge": "Tadia Whitner",
+            "charges": "Two counts of criminal attempt to commit arson",
+            "imprisoned_for_days": null,
+            "date_precision": "{\"sentenced_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Julie A. McElvain",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualnamedGreenpeace2019roster reviewed. Noimposedsentenceestablished; statutorymaxnotactualsentence. Existingreleaseintervalleftunchanged.",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php",
+        "https://abc13.com/PhotoGallery/5537918/"
+      ]
+    },
+    {
+      "name": "William Davis",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett booking inventory and contemporary massacre history reviewed. Existing November5 arrest corroborated; no exact May release day or sentence after dismissal established. Do not equate Tracy acquittal with individual physical discharge.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf",
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ]
+    },
+    {
+      "name": "James Marsicano",
+      "source_review_status": "verified_update_applied",
+      "research_note": "OriginalAugust14,2025dismissalorder identifiesJudgeGregoryA.Adams andprosecutorDeputyAGJohnFowler. CustodyMarch5–24already; no endpointinferredfromdismissal.",
+      "sources": [
+        "https://weelauneethefree.org/wp-content/uploads/2025/08/8-14-2025-Order-Dismiss-DT-Charge-Marsicano.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "Gregory A. Adams",
+            "prosecutor": "John Fowler",
+            "charges": "Domestic terrorism"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John Briggs",
+      "source_review_status": "verified_update_applied",
+      "research_note": "ScottCamiloriginaloralhistory: Briggssubpoenaed/refusedtestify/jailed/releasedTHENOctoberindicted. Septembercasewasgrandjurycontempt, notlaterconspiracytrial. AlsoBriggsnotveteranorVVAWmember;bioflagonly.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1541%2F15410114001b.pdf",
+        "https://www.vvaw.org/veteran/article/?hilite=&id=928"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Civil contempt for refusing to testify before a grand jury"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Calistus Bernard",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Official IACHR individually names him in U.S. custody group but does not identify precise capture or individual transfer day. Later Grenadian murder sentence is different jurisdiction, not entered as U.S. detention sentence.",
+      "sources": [
+        "https://cidh.oas.org/annualrep/99eng/Merits/UnitedStates10.951.htm",
+        "https://www.legal-tools.org/doc/2e8872/pdf/"
+      ]
+    },
+    {
+      "name": "Gary Lescallett",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original KPIXNovember8,1970filmingidentifiesGaryatCountyJailafterpreviousdayacquittal. CannotassumephysicalreleaseNov7; currentNovembermonthretained. Excludedunrelated2024Lescallettmurderdefendant.",
+      "sources": [
+        "https://diva.sfsu.edu/collections/sfbatv/bundles/237204"
+      ]
+    },
+    {
+      "name": "F. O. Watson",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individualrosterentryreviewed. No convictedsentence; nulllegitimate. May8groupreleasecaptionnotindividualdischargeproof. Age-derivedbirthyearalreadyfilled.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://reuther231.lib.wayne.edu/node/11377"
+      ]
+    },
+    {
+      "name": "Isaac W. K. Handy",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Searched individually for original Fort Delaware diary and custody endpoints. Located original diary title but no accessible page proving a new date during bounded follow-up. Existing exact dates not independently improved; no sentence invented for detention without trial.",
+      "sources": [
+        "https://www.mightyape.com.au/ma/buy/mighty-ape-united-states-bonds-or-duress-by-federal-authority-a-journal-of-current-events-during-an-imprisonment-of-fifteen-months-at-fort-delaware-1874-9439249/"
+      ]
+    },
+    {
+      "name": "Badar Khan Suri",
+      "source_review_status": "verified_update_applied",
+      "research_note": "OfficialSCOTUSpetition appendixD reproducesMay14,2025bondhearingbeforeDistrictJudgePatriciaTolliverGiles. ExistingMarch17–May14custodymatchesphysicalreleaseAPreport; no criminalcharge invented.",
+      "sources": [
+        "https://www.supremecourt.gov/DocketPDF/26/26-380/424997/20260921121357872_Trump%20v.%20Suri.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "Patricia Tolliver Giles"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bartolomeo Massullo",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Researchercitesactualimmigrationfile; independentAltreitalie46p76alsoNovember12,1917arrest. No namedcriminalchargeinferredfromadministrativeanarchismfinding.",
+      "sources": [
+        "https://www.louisecrowleylibrary.org/bartolomeo-massullo",
+        "https://www.altreitalie.org/kdocs/1974045/altreitalie46_per_sito.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "1917-11-12 00:00:00",
+            "incarceration_date": "1917-11-12 00:00:00",
+            "date_precision": "{\"arrest_date\":\"day\",\"in_exile_since\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"end_of_exile\":\"year\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hudson Austin",
+      "source_review_status": "verified_update_applied",
+      "research_note": "IACHR reproduces U.S. contemporaneous cable explicitly naming Austin among six transferred from U.S. ships to CPF control November 5, 1983. Facts on File records October 30 capture. Local funeral reporting establishes September 24, 2022 death. Foreign criminal sentence must not be entered on U.S. military detention case.",
+      "sources": [
+        "https://cidh.oas.org/annualrep/99eng/Merits/UnitedStates10.951.htm",
+        "https://web.stanford.edu/group/tomzgroup/pmwiki/uploads/3058-1983-11-02-FoF-b-LIZ.pdf",
+        "https://www.thenewtodaygrenada.com/local-news/general-hudson-austin-the-final-chapter-of-the-former-army-commander/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "1983-10-30 00:00:00",
+            "incarceration_date": "1983-10-30 00:00:00",
+            "release_date": "1983-11-05 00:00:00",
+            "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+          }
+        },
+        {
+          "table": "prisoners",
+          "updates": {
+            "death_date": "2022-09-24 00:00:00",
+            "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tetsuo Tanaka",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "JCCH individualadministrativeinternmentchronologyalreadyrepresentedMarch1942–December1945months. Separateparole/revocationepisodesneedexactfilebeforecustodybreaks; no criminalsentence invented.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/tanaka-tetsuo"
+      ]
+    },
+    {
+      "name": "Giuseppe Solari",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualentryINS54241/22,CPC4857: anti-draftagitationeventnotnamedcriminalcharge; May17,1918-June24,1919alreadyfilled. No chargeinvented.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/solari-to/"
+      ]
+    },
+    {
+      "name": "Manuel Rodríguez Orellana",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary annual chronology confirms August arrest and more than40days detention before September release but not exact individual discharge. Other report concerns Ruben Berrios and must not be assigned to Orellana. Fine/bail distinction unresolved.",
+      "sources": [
+        "https://puertoricoherald.com/issues/2001/vol5n02/Year2000-en.html",
+        "https://credo.library.umass.edu/media/mums1156-s01-i119.reference.pdf"
+      ]
+    },
+    {
+      "name": "Mitsuye Endo",
+      "source_review_status": "verified_update_applied",
+      "research_note": "OriginalSupremeCourt opinionp288 says SacramentoAssemblyCenteradmissionMay15,1942. StoredMay19was general restrictiveorderdate, not admission. Administrativearrestdate corrected tosamephysicalcustodystart. January2,1945release unchanged; generalendofexclusion not necessarily herpersonalrelease, needsindividualdepartureproof.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USREPORTS-323/pdf/USREPORTS-323-283.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "arrest_date": "1942-05-15 00:00:00",
+            "incarceration_date": "1942-05-15 00:00:00",
+            "imprisoned_for_days": null,
+            "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Existingseparate2daypretrialandJuly30daysentencecasesread. Nullsentenceforpretriallegitimate; do notduplicateconvictionsentence. Targeteddatequerydidnotfindnewprimaryrefinement.",
+      "sources": [
+        "https://www.justice.gov/"
+      ]
+    },
+    {
+      "name": "Alexander Chernov",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Zimmer individual INS/FBI reconstruction explicitly records Espionage Act violation and six-month sentence. Later propaganda activity after release means stored March-to-December continuous incarceration is unsupported; flag custody segmentation unresolved, no guessed release day.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/canle-to-cesco/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Violation of the Espionage Act",
+            "sentence": "Six months"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Manuel Cuevas Diaz",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "ContemporaryfamilyinterviewconfirmsSeptember1952arrest andstillEllisIslandDecember1953. ExistingFebruary1954departuremonthnotrefined; UNAMGuatemalanasylumlistJune–August1954matchesidentitybutnotUSrelease.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-01-04-6-11-nat-guardian.pdf"
+      ]
+    },
+    {
+      "name": "Charles Moyer",
+      "source_review_status": "verified_update_applied",
+      "research_note": "July31primarypaperBoiseJuly30datelineactualreleaseLATETONIGHT after36hourbond-delay; July30daytimeAPconfirmsbondstillbeingprepared. July29earlywirepremature. ExistingJanuary1908endpointwaslaterchargedismissal, notphysicalrelease.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn96088115/1907-07-31/ed-1/seq-1/ocr/",
+        "https://newspapers.swco.ttu.edu/bitstream/handle/20.500.12255/221294/Wichita_Daily_Times_1907_07_30.pdf?isAllowed=y&sequence=1"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "release_date": "1907-07-30 00:00:00"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bonaiuto Giusto",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original Zimmer INS/CPC entry confirms May1918 arrest, unlawful-entry civil removal basis and December20,1919 deportation. Later Italian arrests with acquittals are separate; no judicial sentence or additional exact dates established.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/geray-to-giusto/"
+      ]
+    },
+    {
+      "name": "Jeff Hogg",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Contemporary localreport identifiesMichaelHogan orderedMay18civilcontemptdetention. ExistingNovember15releaseunchanged; no criminalsentenceimposed.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/2024240314/2006-08-17/ed-1/seq-8/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "Michael R. Hogan"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Salvatore Zumpano",
+      "source_review_status": "verified_update_applied",
+      "research_note": "IndividualentryINS54235/39,FBI21993,CPC5611: sentenced1yearfailuretoregisterdraft; separateIWWindictmentdroppedafter6months, Aug15,1918criminalreleaseimmediatelyimmigrationrearrest. Overalldeportendpointunchanged, nofakefreedays.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/zharko-to-______/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Failure to register for the draft",
+            "sentence": "One year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Irene Kim",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Official DOJ names individual defendant and Assistant U.S. Attorney Mark McIntyre as prosecutor. Null sentence appropriate after dismissed charges.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sami al-Hajj",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "OriginalUN NGOsubmission corroboratesDecember15,2001Pakistanarrest,January7,2002UStransfer alreadyrecorded. Interview2009has2002/2003one-yeartranscriptionerrors, notbasisoverwrite. No criminalcharges imposed.",
+      "sources": [
+        "https://digitallibrary.un.org/record/613296/files/A_HRC_6_NGO_61-EN.pdf"
+      ]
+    },
+    {
+      "name": "Francis Key Howard",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Princetoncentennialclasshistoryp50namesexactSeptember13,1861-November27,1862custodyalreadyfilled. No formalcharge/trialso nosentence.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8f/Class_of_1847%2C_the_centennial_class%2C_College_of_New_Jersey%2C_now_Princeton_University_%28IA_classof1847cente00prin%29.pdf"
+      ]
+    },
+    {
+      "name": "Priscilla Grim",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary Indypendent May2023 issue says actual release April6 versus storedApril5. First-person later interview does not specify endpoint; flag original jail discharge record needed to resolve one-day discrepancy. RICO dismissal separate from unresolved domestic-terrorism allegations.",
+      "sources": [
+        "https://indypendent.org/wp-content/uploads/2023/05/Indypendent-Issue-279-Opt.pdf",
+        "https://wagingnonviolence.org/2023/09/stop-cop-city-activist-priscilla-grim-rico-shine-light-political-repression/"
+      ]
+    },
+    {
+      "name": "Euvester Simpson",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "OriginalswornaffidavitJuneJohnson namesSimpsonandJune9arrest/WednesdayJune12releasealreadystored. ChargesstatedforothercodefendantsnotautomaticallyassignedtoSimpson.",
+      "sources": [
+        "https://www.crmvet.org/nars/aff/mbp_jj.htm"
+      ]
+    },
+    {
+      "name": "Harold Zepelin",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "PrimaryappealandFBIindicate1955conviction,June23sentencing, butindividualtermnotestablished. Existing1954pretrialsegmentnosentenceappropriate. Age28August1954supports1925/26rangeonly; notexactyear.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/248/201/328247/",
+        "https://vault.fbi.gov/NAACP/NAACP%20Part%2005/at_download/file",
+        "https://oregonnews.uoregon.edu/lccn/sn97071090/1954-08-19/ed-1/seq-13/"
+      ]
+    },
+    {
+      "name": "Jeanette Vizguerra",
+      "source_review_status": "verified_update_applied",
+      "research_note": "AFSC legal-team statement identifies U.S. District Judge Nina Y. Wang, distinct from immigration judge Brea Burgie. Add identified habeas judge; existing December22 actual release corroborated. No criminal sentence for civil detention.",
+      "sources": [
+        "https://afsc.org/newsroom/district-court-rules-detention-human-rights-activist-jeanette-vizguerra-unconstitutional",
+        "https://www.westword.com/news/immigrant-activist-jeanette-vizguerra-colorado-ice-release-40821746/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "Nina Y. Wang"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Paula Jakobi",
+      "source_review_status": "verified_update_applied",
+      "research_note": "TurningPointSuffragistMemorial primarybiographicalproject identifiesPaulaO.Jakobi1870–July12,1960. GermanbirthregisterleadJune20,1870notindependentlyviewed, so birthyearonly. No inferredsentencingday or actualsentence-lengthoverride.",
+      "sources": [
+        "https://suffragistmemorial.org/suffragist-of-the-month/",
+        "https://suffragistmemorial.org/paula-o-jakobi-1870-july-12-1960/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "birthdate": "1870-01-01",
+            "death_date": "1960-07-12 00:00:00",
+            "date_precision": "{\"birthdate\":\"year\",\"death_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Edward A. Pollard",
+      "source_review_status": "verified_update_applied",
+      "research_note": "NPSexplicitMay29,1864FortWarrenadmission,Aug12actualdepartonparole, Decemberrecapture,January1865exchange. Existingyearlongcontinuousintervalfalse. Needtwointervalsparentmutation; noformalchargeinvented. FirstMay29admissionnotarrestonship. SuggestedfirstsegmentMay29-Aug12, secondDecembermonth-Januarymonth. Twointervals1183,secondmonthprecision,parolegapexcluded.",
+      "sources": [
+        "https://www.nps.gov/people/edward-alfred-pollard.htm"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "incarceration_date": "1864-05-29 00:00:00",
+            "release_date": "1865-01-01 00:00:00",
+            "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+            "custody_periods": "[{\"start\":\"1864-05-29\",\"end\":\"1864-08-12\"},{\"start\":\"1864-12\",\"end\":\"1865-01\"}]"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Christian Bufford",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Official DOJ names individual defendant and Assistant U.S. Attorney Mark McIntyre as prosecutor. Null sentence appropriate after dismissed charges.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Luke Harper",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Originalcourtobserver identifiesMay2023magistrateJamesAltman. June2023NPRinterview confirmsphysicalreleaseearlyJune butnotday; existingJune2notnewlyverified.",
+      "sources": [
+        "https://atlpresscollective.com/2023/05/08/judges-uphold-domestic-terrorism-charges-against-activists/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "judge": "James Altman"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alfred Lee Cook",
+      "source_review_status": "verified_update_applied",
+      "research_note": "StateArchivescollectionhistory individuallynamesCook and identifies suspended30days plus100fine. Not30daysactualcustody.",
+      "sources": [
+        "https://finding.mdah.ms.gov/manuscripts/t031",
+        "https://mississippiencyclopedia.org/entries/tougaloo-nine/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Disturbing the peace",
+            "sentence": "30 days, suspended; $100 fine"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Julia Hurlbut",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Archival-based scholarly biography establishes August 31, 1882 birth. Contemporary The Public July 27, 1917 individually names Hurlbut among sixteen convicted of obstructing traffic by Judge Mullowney; July 17 sentencing confirmed. Existing release July19 retained, no inference from sentence.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1008342622",
+        "https://cooperative-individualism.org/the-public-1917-jul-27.pdf",
+        "https://msmagazine.com/2020/07/17/feminist-history-july-17/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "birthdate": "1882-08-31",
+            "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Obstructing traffic",
+            "judge": "Alexander R. Mullowney",
+            "sentenced_date": "1917-07-17 00:00:00",
+            "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Robert Leonard",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett identity searched; no reliableindividualfinerdischargedayorvitals. CurrentMay1917monthretained. ExcludedmodernEverettWashingtonobituaries.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml"
+      ]
+    },
+    {
+      "name": "Michele Centrone",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "NARAoriginalfilesarticle2weeksAngelIslandthenyearon2000bond; ZimmerdissertationNovember1919readmissionbecausebondinterestcost. ExistingMay1918-March1920continuousfalse. Parentneeds split May1918shortdetentionandNovember1919month-March27,1920; exactfirstreleaseunknown.",
+      "sources": [
+        "https://www.archives.gov/publications/prologue/2009/summer/angel.html",
+        "https://www.thetedkarchive.com/library/kenyon-zimmer-the-whole-world-is-our-country"
+      ]
+    },
+    {
+      "name": "Ivan Ferguson",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Contemporary local court reporting confirms January23 bond grant but cannot equate bond grant with release. Existing February15 endpoint not independently improved. No final criminal sentence established; no speculative birthday from age.",
+      "sources": [
+        "https://www.fox5atlanta.com/news/atlanta-riots-arrests-rioters-suspects-bond-protests-cop-city.amp"
+      ]
+    },
+    {
+      "name": "Josephine Johnson",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "LocatedoriginalownarticleArkansasTerrorJune30,1936p12–13. ExistingJune5,1936briefquestioningalreadydocumented; no furthercriminalcharge/sentenceorlongerjailperiodestablished.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/new-masses/1936/0-contents-1936-Jan-Dec-NM.pdf"
+      ]
+    },
+    {
+      "name": "Elana Beiser",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "OwninterviewwithPressFreedomTrackerconfirmsJuly2,2026twentyminutesdetentionandreleaseunprocessed. Noimposedsentence. Currentfieldnarrativecanbeclearedseparatelyunderusercleanupbutnoguessedcharge.",
+      "sources": [
+        "https://pressfreedomtracker.us/all-incidents/producer-detained-after-judge-closes-courtroom-for-grand-jury-indictment/"
+      ]
+    },
+    {
+      "name": "Frank Stewart",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett booking inventory and contemporary massacre history reviewed. Existing November5 arrest corroborated; no exact May release day or sentence after dismissal established. Do not equate Tracy acquittal with individual physical discharge.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf",
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ]
+    },
+    {
+      "name": "Harry Feinburg",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett identity searchedusingFeinburg/Feinbergvariant; no confirmedfinerreleaseorvitals. Do notattachunrelatedMassachusettsdirectorynamesakes.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml"
+      ]
+    },
+    {
+      "name": "Joan Trumpauer Mulholland",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "CivilHumanRightsmuseum explicitly2monthsentenceand200fine; CBSagrees2monthsbut25wordlimitnotquoted. Needoriginaldocketforsentence/finestatus becausefreedomridergrouptermoften4months. Candidate2monthsfrommuseum,parentassess. Parentheldgenerictermproposalpendingindividualdocket.",
+      "sources": [
+        "https://www.civilandhumanrights.org/joan-trumpauer-mulholland/",
+        "https://theride2026.org/freedom-riders/"
+      ]
+    },
+    {
+      "name": "Peter Sterling",
+      "source_review_status": "verified_update_applied",
+      "research_note": "First-person interview explicitly identifies breach-of-peace charge. Cornell contemporary Alumni News July1961 p25 confirms June1 release already at day precision; no duplicate date addition.",
+      "sources": [
+        "https://www.madinamerica.com/2021/03/what-does-our-species-require-for-a-healthy-life-an-interview-with-peter-sterling/",
+        "https://ecommons.cornell.edu/bitstream/1813/27760/1/064_01.pdf"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Breach of the peace"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Phyllis Coard",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Lifelongfriends signedstatement andfamilyfamiliar professors confirmdeathSeptember6,2020; currentdeathblank. UScustodyendpointmustnotbe changed to2000Grenadianrelease. IACHR109/99paragraph23 individuallynamesPhyllisCoard amongsixUSnavalprisoners transferredCPF November5,1983. This endsUScustody only, notGrenadianimprisonment.",
+      "sources": [
+        "https://nowgrenada.com/2020/11/countering-misreporting-about-phyllis-coard/",
+        "https://past.jamaica-gleaner.com/article/news/20200913/remembering-revolutionist-phyllis-coard?qt-article_image_video=0",
+        "https://hrlibrary.umn.edu/cases/us109-99.html"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "death_date": "2020-09-06 00:00:00",
+            "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "release_date": "1983-11-05 00:00:00",
+            "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Arthur Caron",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original1914NewReviewidentifiesseparateApril4policebeating/hospitalization, notexistingMay30Tarrytowncase. Cannotassign6monthsentencesofWhite/Woolman toCaron. NoverifiedimposedsentenceforMaycase.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/newreview/1914/v2n09-sep-1914.pdf"
+      ]
+    },
+    {
+      "name": "Charles Hawkins",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett booking inventory and contemporary massacre history reviewed. Existing November5 arrest corroborated; no exact May release day or sentence after dismissal established. Do not equate Tracy acquittal with individual physical discharge.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf",
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ]
+    },
+    {
+      "name": "Mark Dombowsky",
+      "source_review_status": "verified_update_applied",
+      "research_note": "OriginalDistrictJudgeJordan2004opinionparagraph3 recallsMay2002individualprosecutionUnitedStatesvDombowskyet al02-20470-Cr-Jordan, pleasguiltyornocontest, timeservedplusfines100–500. Individualfineamount andsentencingdaynotassigned. ExistingApril12–15custody unchanged.",
+      "sources": [
+        "https://openjurist.org/314/fsupp2d/1252/united-states-v-greenpeace-inc-2470983"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Boarding a vessel before arrival (18 U.S.C. § 2279)",
+            "sentence": "Time served and a fine",
+            "judge": "Adalberto Jordan",
+            "convicted": "Yes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Carol Barner-Seay",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Survivorsconfirmnoformalcharges; currentnulllegitimate. July15/16-Septembermonthalreadyfilled; noexactindividualendpointfound.",
+      "sources": [
+        "https://crmvet.lib.duke.edu/nars/leesburg.html",
+        "https://storycorps.org/podcast/the-leesburg-stockade-girls/"
+      ]
+    },
+    {
+      "name": "Pietro Giovanni Perruchon",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Biblioteca Franco Serantini original archival dictionary gives December 18, 1885 birth and September 13, 1967 death. Zimmer original names Espionage Act conviction and two-year Leavenworth sentence. Preserve custody endpoints; two-year sentence is not an independently measured duration.",
+      "sources": [
+        "https://www.bfscollezionidigitali.org/entita/14402-perruchon-giovanni-pietro",
+        "https://kenyonzimmer.com/red-scare-deportees/perkus-to-petruccioli/"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoners",
+          "updates": {
+            "birthdate": "1885-12-18",
+            "death_date": "1967-09-13 00:00:00",
+            "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "charges": "Violation of the Espionage Act",
+            "sentence": "Two years"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sami Hamdi",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Reviewedsource-linkedhabeaschronologyandNovember13physicalreturnreport. ExistingOctober26–November13matches. CivilhabeasJudgeJenniferThurstondoesnotestablishimmigrationhearingjudge; no criminalsentence.",
+      "sources": [
+        "https://standingrecord.com/entries/2025/10/26/federal-ideological-exclusion-99e092a9/"
+      ]
+    },
+    {
+      "name": "William Mahoney",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "OriginalMahoneyLiberationJune1961accountreproducedinexamination: arrestedforrefusingmovepoliceorder, butnoformalnamedcharge/sentencetherein. Do notsubstitutegenericbreachpeacewithoutindividualdocket.",
+      "sources": [
+        "https://crdl.usg.edu/people/mahoney_william_1941",
+        "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/9769_s16_qp_72.pdf",
+        "https://www.crmvet.org/tim/timhis61.html"
+      ]
+    },
+    {
+      "name": "Fred Crysler",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett booking inventory and contemporary massacre history reviewed. Existing November5 arrest corroborated; no exact May release day or sentence after dismissal established. Do not equate Tracy acquittal with individual physical discharge.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf",
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ]
+    },
+    {
+      "name": "Joseph John “Joe” Jones",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "LocatedcodefendantJosephineJohnsonoriginalArkansasTerrorarticleJune30,1936. ExistingJune5same-dayquestioningnotchanged; do notmanufacturechargeordurationfromofficialwarning.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/new-masses/1936/0-contents-1936-Jan-Dec-NM.pdf"
+      ]
+    },
+    {
+      "name": "Emily Murphy",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "ContemporarylocalcourtreporterconfirmsactualMay4physicalreleaseafterhearing; April24bondagreementNOTrelease. Existingintervalcorrect,nosentencingdispositionverified.",
+      "sources": [
+        "https://atlpresscollective.com/2023/05/08/judges-uphold-domestic-terrorism-charges-against-activists/"
+      ]
+    },
+    {
+      "name": "Martin Rasnick",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Chicago roundup account identifies Martin Raznick as cloakmaker and visitor Michael Roz. Released without conviction, so null sentence appropriate. No independently verified birthday or statutory charge found.",
+      "sources": [
+        "https://batadora.trentu.ca/_flysystem/fedora/2022-04/The_Anarchist_Periodical_Press_in_the_United_States_An_Intertextual_Study_of_Prison_Blossoms_Free_Society_and_The_Demonstrator.pdf"
+      ]
+    },
+    {
+      "name": "J. A. Kelly",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individual Everett identity searchedwithinitials; unrelatedNorthCarolinaKellyexcluded. No confirmedfinerreleaseorvitals; untrieddefendantnosentencelegitimate.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml"
+      ]
+    },
+    {
+      "name": "Stephen R. Mallory",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "NPSnominationconfirmsMarch11,1866end, whileMarch10wasparoleorder. Existingendpointpreserved. Detentionwithoutprosecution hasno imposedcriminalsentence.",
+      "sources": [
+        "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/70000559_text",
+        "https://arts-culture.dos.fl.gov/media/32357/civilwarheritagetrail.pdf"
+      ]
+    },
+    {
+      "name": "Nikolai Klemiatov",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Original Zimmer INS entry confirms October1920 arrest and February1,1921 deportation already recorded. No criminal conviction or sentence stated; do not invent charges for administrative detention.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/kirson-to-konosevich-bukovetsky/"
+      ]
+    },
+    {
+      "name": "Max D. Singer",
+      "source_review_status": "verified_update_applied",
+      "research_note": "CornellKheelCenter originaltrialtranscriptcollection explicitlynamesMaxSinger andDACharlesA.Perkins. CurrentSeptember19–October8trialcustody alreadyrefined. August7bailsettingisnotactualrelease; earlier1915endpointyearonlyretained.",
+      "sources": [
+        "https://rmc.library.cornell.edu/EAD/htmldocs/KCL06036-011.html"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "prosecutor": "Charles A. Perkins"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leon Cornwall",
+      "source_review_status": "verified_update_applied",
+      "research_note": "Para23quotesUSofficialaccount namingCornwall among6heldaboardUSshipsuntilNovember5,thenCPFcontrol. Custodytransfernotfreedom. NoGrenadiansentenceaddedtoUScase.",
+      "sources": [
+        "https://cidh.oas.org/annualrep/99eng/Merits/UnitedStates10.951.htm"
+      ],
+      "deployed_changes": [
+        {
+          "table": "prisoner_cases",
+          "updates": {
+            "release_date": "1983-11-05 00:00:00",
+            "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Orin Charlotte Parnell",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Local jail-record reporting corroborates July28 arrest and disorderly conduct. Age50 cannot establish exact birthday. Supplied bio says not-guilty plea but original hearing source not independently retrieved, so no new plea field assigned.",
+      "sources": [
+        "https://kvia.com/news/business-technology/2026/07/28/project-jupiter-meeting-draws-strong-reactions-from-dona-ana-county-residents/"
+      ]
+    },
+    {
+      "name": "Dick Keough",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "FamilyobituaryconfirmsJanuary8,2022deathalreadyrecordedandjailministrydistinctfromincarceration.1998–1999caseendpointnotindependentlyrefined.2012Hancockarrestleadnotenoughfornewmultidaycustody.",
+      "sources": [
+        "https://www.legacy.com/us/obituaries/syracuse/name/richard-keough-obituary?id=32188400"
+      ]
+    },
+    {
+      "name": "William Winn",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "Individualrosterentryreviewed. No convictedsentence; nulllegitimate. May8groupreleasecaptionnotindividualdischargeproof. Age-derivedbirthyearalreadyfilled.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://reuther231.lib.wayne.edu/node/11377"
+      ]
+    },
+    {
+      "name": "Zebulon Vance",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "National Archives archival publication and North Carolina Historic Sites confirm May13 arrest and July6 parole/release, already recorded. No judicial sentence or formal charge established.",
+      "sources": [
+        "https://www.archives.gov/files/nhprc/annotation/2000/2000-sep.pdf",
+        "https://historicsites.nc.gov/all-sites/zebulon-b-vance-birthplace/history/zebulon-vance"
+      ]
+    },
+    {
+      "name": "Alice Gram",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "ReviewedDorisStevensJailedforFreedomappendix andexistingNightofTerrorchronology. ThirtydayssentenceversusactualNovember14–28custodyalreadydistinguished. No individuallyverifiedjudge oradditionalexactrelease established.",
+      "sources": [
+        "https://omeka.hsp.org/files/original/123/971/Transcription_HSP_17084.pdf"
+      ]
+    },
+    {
+      "name": "Sarah Newman",
+      "source_review_status": "bounded_review_no_verified_addition",
+      "research_note": "IndividualnamedGreenpeace2019roster reviewed. Noimposedsentenceestablished; statutorymaxnotactualsentence. Existingreleaseintervalleftunchanged.",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php",
+        "https://abc13.com/PhotoGallery/5537918/"
+      ]
+    }
+  ],
+  "review_completed": "2026-10-18",
+  "reviewed_profiles": 100,
+  "updated_profiles": 36,
+  "new_cases": 1,
+  "scope": "Boundedindividualreview,notallarchivesexhausted;noinventedendpoints;no newbios/casenotes."
+}
