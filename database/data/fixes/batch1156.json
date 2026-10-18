@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Howard Hairston",
+      "slug": "howard-hairston",
+      "expected": {
+        "id": "b782144c-1445-43e6-b820-ced1619cf5d1",
+        "prisoner_id": "2c6b82ba-657f-4048-8104-5add9e5ef672",
+        "institution_id": "74427373-b03f-494d-8cdf-4dae51aab4aa",
+        "charges": "Virginia state rape.",
+        "arrest_date": "1949-01-07 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1949-04-20 00:00:00",
+        "incarceration_date": "1949-04-20 00:00:00",
+        "release_date": "1951-02-02 00:00:00",
+        "death_in_custody_date": "1951-02-02 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Hon. Kennon C. Whittle",
+        "sentence": "Death by electrocution",
+        "imprisoned_for_days": 653,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1949-01-09 00:00:00",
+        "incarceration_date": "1949-01-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "source": "https://ufdcimages.uflib.ufl.edu/UF/00/10/09/94/00001/martinsvilleseve00rise.pdf",
+      "research_note": "Eric Rise, The Martinsville Seven and Southern Justice, printed36-40/PDF46-50 documents earlymorningarrests afterJan8,1949 offense; Howard followsJamesLutherininterrogation beforeGrayson5:50am, then transferredwithsix toPatrickCountyjail7:30amSundayJan9. Footnote23 cites HowardstatementJan9. Originalcourt opinion HamptonvCommonwealth1950 confirms offenseJan8 and arrestswithin30hours. Correct impossibleJan7arrest, refinemonth-onlyduplicatearrest toJan9, and primarycontinuouscustodystart toJan9. Duplicatecase remains flagged; not deleted or given additional inferred interval. No bios/notes edited."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Howard Hairston",
+      "slug": "howard-hairston",
+      "expected": {
+        "id": "3b57e9b4-8b43-4ad6-a8a8-d60ff51ea943",
+        "prisoner_id": "2c6b82ba-657f-4048-8104-5add9e5ef672",
+        "institution_id": "74427373-b03f-494d-8cdf-4dae51aab4aa",
+        "charges": "The 1949 rape of Ruby Stroud Floyd in Martinsville, Virginia.",
+        "arrest_date": "1949-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1951-02-02 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 16:03:34",
+        "updated_at": "2026-10-14 00:00:35",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1949-01-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://ufdcimages.uflib.ufl.edu/UF/00/10/09/94/00001/martinsvilleseve00rise.pdf",
+      "research_note": "Eric Rise, The Martinsville Seven and Southern Justice, printed36-40/PDF46-50 documents earlymorningarrests afterJan8,1949 offense; Howard followsJamesLutherininterrogation beforeGrayson5:50am, then transferredwithsix toPatrickCountyjail7:30amSundayJan9. Footnote23 cites HowardstatementJan9. Originalcourt opinion HamptonvCommonwealth1950 confirms offenseJan8 and arrestswithin30hours. Correct impossibleJan7arrest, refinemonth-onlyduplicatearrest toJan9, and primarycontinuouscustodystart toJan9. Duplicatecase remains flagged; not deleted or given additional inferred interval. No bios/notes edited."
+    }
+  ]
+}
