@@ -1,0 +1,3 @@
+# Ward duration correction
+
+ExistingJuly1922toOctober1923datesyield15calendar months. Stale12monthoverridecorrectedto15. Publicprofileverified displays1Year3Months. ReplayAlreadyApplied,B1163OK. Fullrawpreservationpassed; no dates,notes,biographies or otherrecords changed.
