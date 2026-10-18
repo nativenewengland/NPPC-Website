@@ -1,0 +1,132 @@
+{
+  "batch": 1207,
+  "profiles_updated": 2,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1207-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "faa7554b-224b-4aae-aab1-8ae9f36522dc",
+      "name": "Mary Trotochaud",
+      "changes": {
+        "description": [
+          "Mary Trotochaud was sentenced to 14 months in federal prison for SOA Watch sign-alteration on September 29, 1997 and repeat trespass at the U.S. Army School of the Americas at Fort Benning, Georgia on November 16, 1997 — among the longest SOA Watch sentences imposed in the late 1990s. She began her sentence in October 1998.",
+          "Mary Trotochaud was sentenced to 14 months in federal prison for SOA Watch sign-alteration on September 29, 1997 and repeat trespass at the U.S. Army School of the Americas at Fort Benning, Georgia on November 16, 1997 — among the longest SOA Watch sentences imposed in the late 1990s. She entered federal prison on September 28, 1998."
+        ],
+        "updated_at": [
+          "2026-09-25 04:37:44",
+          "2026-10-18 23:52:09"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "2a146237-f622-4127-9617-5aab8b1c5715",
+      "name": "Mary Trotochaud",
+      "changes": {
+        "incarceration_date": [
+          "1997-09-28 00:00:00",
+          "1998-09-28"
+        ],
+        "imprisoned_for_days": [
+          610,
+          245
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:52:09"
+        ],
+        "date_precision": [
+          null,
+          "{\"incarceration_date\":\"day\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "ec89026d-9ef2-449d-9a1e-38a91676bd4d",
+      "name": "Mary Trotochaud",
+      "changes": {
+        "incarceration_date": [
+          "1998-10-01 00:00:00",
+          "1998-09-28"
+        ],
+        "imprisoned_for_days": [
+          243,
+          246
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:52:09"
+        ],
+        "date_precision": [
+          null,
+          "{\"incarceration_date\":\"day\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "fc7b68f4-99ac-477a-8eaf-93e65c81a2b9",
+      "name": "Sr. Marge Eilerman OSF",
+      "changes": {
+        "incarceration_date": [
+          "1997-09-28 00:00:00",
+          "1998-09-28"
+        ],
+        "imprisoned_for_days": [
+          732,
+          367
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:52:09"
+        ],
+        "date_precision": [
+          null,
+          "{\"incarceration_date\":\"day\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "bcb0e662-dd23-44e1-a6c4-3d3cdbdb5396",
+      "name": "Sr. Marge Eilerman OSF",
+      "changes": {
+        "incarceration_date": [
+          "1998-10-01 00:00:00",
+          "1998-09-28"
+        ],
+        "imprisoned_for_days": [
+          365,
+          368
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:52:09"
+        ],
+        "date_precision": [
+          null,
+          "{\"incarceration_date\":\"day\"}"
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "url": "https://politicalprisonercoalition.org/prisoner/mary-trotochaud?custody_audit=1207",
+      "status": 200,
+      "counters": [
+        "8 Months 4 Days"
+      ]
+    },
+    {
+      "url": "https://politicalprisonercoalition.org/prisoner/sr-marge-eilerman-osf?custody_audit=1207",
+      "status": 200,
+      "counters": [
+        "1 Year 3 Days"
+      ]
+    }
+  ]
+}
