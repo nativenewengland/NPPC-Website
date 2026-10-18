@@ -1,0 +1,103 @@
+{
+  "operations": [
+    {
+      "table": "prisoners",
+      "name": "John A. Cummings",
+      "slug": "john-a-cummings",
+      "expected": {
+        "id": "4a2fd427-c29d-4753-b070-e4c67bed96eb",
+        "name": "John A. Cummings",
+        "sort_order": 106768,
+        "photo": null,
+        "description": "John A. Cummings was a Missouri Catholic priest prosecuted for continuing to preach without taking the state's sweeping anti-Confederate \"ironclad\" loyalty oath. Convicted in September 1865, he was fined $500 and committed to jail until the fine and costs were paid. The Missouri Supreme Court affirmed, but the U.S. Supreme Court reversed in January 1867 in Cummings v. Missouri, holding the oath provisions unconstitutional as bills of attainder and ex post facto laws. The record establishes the jail-commitment order, though not how many days he actually spent confined. (Recorded as Father John A. Cummings)",
+        "years_in_prison": null,
+        "state": "Missouri",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "John",
+        "middle_name": "A.",
+        "last_name": "Cummings",
+        "aka": "Father John A. Cummings",
+        "race": "White",
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": "[]",
+        "era": "1800s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-07-19 01:24:03",
+        "updated_at": "2026-09-24 00:34:41",
+        "slug": "john-a-cummings",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "death_date": "1873-06-11 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "source": "https://www.kjfmradio.com/2021/06/10/priest-who-was-part-of-freedom-of-speech-case-died-june-11th/",
+      "research_note": "Local historian Brent Engel explicitly identifies the test-oath litigant and dates death June 11, 1873. Age 33 alone does not determine a single birth year."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John A. Cummings",
+      "slug": "john-a-cummings",
+      "expected": {
+        "id": "344a63f7-b668-4608-84a1-72cce1379908",
+        "prisoner_id": "4a2fd427-c29d-4753-b070-e4c67bed96eb",
+        "institution_id": null,
+        "charges": "Preaching without taking Missouri's \"ironclad\" loyalty oath",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A $500 fine and commitment to jail until the fine and court costs were paid\n\nVerdict as recorded: Yes \u2014 reversed by the Supreme Court (Cummings v. Missouri, January 1867)",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 01:24:03",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1865-09-01 00:00:00",
+        "incarceration_date": "1865-09-01 00:00:00",
+        "sentenced_date": "1865-09-09 00:00:00",
+        "indicted": "September 4, 1865",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "judge": "Thomas Fagg"
+      },
+      "source": [
+        "https://www.catholic.com/encyclopedia/missouri-test-oath",
+        "https://home.nps.gov/jeff/blogs/oath-of-loyalty-book-1868-1871-artifact-of-the-month-for-september-2011.htm",
+        "https://catholiclibertarians.com/2024/08/02/father-cummings-and-the-loyalty-oath/"
+      ],
+      "research_note": "Original 1907-1912 Catholic Encyclopedia dates indictment September 4, sheriff custody September 8, trial and jail commitment September 9. NPS confirms actual jailing. Exact arrest/admission day not established: use September month precision, not the September 3 sermon date. Thomas Fagg identified by independent historical retelling. Release withheld because Encyclopedia reports September 15 bond while a modern account claims imprisonment through the Supreme Court reversal."
+    }
+  ]
+}
