@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Sylvia Boyes",
+      "expected": {
+        "id": "75ac7663-25b8-469e-b540-911e99751e5c",
+        "prisoner_id": "76d92904-d64e-4852-b00f-506d9d1ed6d5",
+        "institution_id": "a934fb6b-7331-48e1-b4b1-d12e06bc8ada",
+        "charges": "Criminal damage — attempted disarmament of U.S. military radar in England",
+        "arrest_date": "2008-08-05 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2008-08-05 00:00:00",
+        "release_date": "2009-01-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "3 months UK prison",
+        "imprisoned_for_days": 160,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-05-10 06:33:14",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2008-12-18",
+        "sentenced_date": "2008-12-18",
+        "date_precision": "{\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "charges": "Criminal damage"
+      },
+      "sources": [
+        "https://sheffield.indymedia.org.uk/en/regions/sheffield/newswire/archive122.html",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr152.pdf"
+      ],
+      "research_note": "December18,2008 Trident Ploughshares press release announces current imprisonment at HMP New Hall after refusal of community punishment. Nuclear Resister152 Feb24,2009 explicitly confirms January12 actual release after less than one month, independently excluding August-to-January continuous custody. August arrest day needs separate verification; left unchanged rather than substitute action date without proof."
+    }
+  ]
+}

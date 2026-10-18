@@ -1,0 +1,39 @@
+{
+  "batch": 1205,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1205-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "fe24b675-0876-4f0e-acb1-3c35c660a1fc",
+      "name": "Chris Lamprecht",
+      "changes": {
+        "description": [
+          "Chris Lamprecht was a software engineer who created Indeed.com Lamprecht was also a noted figure in the hacker community and came to the attention of authorities when he was profiled in the hacker magazine Phrack. In the article Lamprecht espoused a philosophy of noncooperation with authorities to counter the (at the time) common tactic of hackers reporting other hackers to police as a way to eliminate rivals. Lamprecht was arrested for selling stolen telephone circuit boards. After his arrest police secretly recorded phone calls where Lamprecht spoke to a friend who suggested retaliating against the officers who arrested him. Lamprecht shot down the idea but authorities deceptively edited the conversation while showing it to a Judge to appear as if Lamprecht was suggesting the idea. He was sentenced to 5 years in prison.",
+          "Chris Lamprecht was a software engineer who created Indeed.com Lamprecht was also a noted figure in the hacker community and came to the attention of authorities when he was profiled in the hacker magazine Phrack. In the article Lamprecht espoused a philosophy of noncooperation with authorities to counter the (at the time) common tactic of hackers reporting other hackers to police as a way to eliminate rivals. Lamprecht was arrested for selling stolen telephone circuit boards. After his arrest police secretly recorded phone calls where Lamprecht spoke to a friend who suggested retaliating against the officers who arrested him. Lamprecht shot down the idea but authorities deceptively edited the conversation while showing it to a Judge to appear as if Lamprecht was suggesting the idea. He was sentenced to 70 months in prison."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:48:26"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6751804f-aa22-4c26-b4c4-2c56ef89fca9",
+      "name": "Chris Lamprecht",
+      "changes": {
+        "sentence": [
+          "70 months imprisonment. BOP register 61153-080 records release from federal custody on March 3, 2000. This is the BOP custody endpoint; it does not establish the date of any earlier transfer to a halfway house or the end of supervised release.",
+          "70 months imprisonment"
+        ],
+        "updated_at": [
+          "2026-10-16 16:38:08",
+          "2026-10-18 23:48:26"
+        ]
+      }
+    }
+  ]
+}
