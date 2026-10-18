@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "William Potts Jr.",
+      "slug": "william-potts-jr",
+      "expected": {
+        "id": "40075107-4de3-4d2e-94ea-926f31a67515",
+        "prisoner_id": "f945c322-c163-4a29-9d6b-69955eb4776b",
+        "institution_id": null,
+        "charges": "Kidnapping",
+        "arrest_date": "2013-11-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes; kidnapping under 18 U.S.C. \u00a7 1201(a)(3)",
+        "plead": "Guilty (May 1, 2014)",
+        "sentenced_date": "2014-07-17 00:00:00",
+        "incarceration_date": "2013-11-06 00:00:00",
+        "release_date": "2022-03-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1984-03-27 00:00:00",
+        "end_of_exile": "2013-11-06 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Twenty years federal imprisonment imposed July 17, 2014 after May 1 guilty plea to kidnapping; eligible for parole after one third of the sentence. BOP register 01970-104, William Potts, age 69, gives noncustody as of March 4, 2022, not March 3. U.S. custody began November 6, 2013; next-day reporting confirms detention through the first appearance. This is separate from Cuban imprisonment. The previous unsupported arrest-derived total was cleared; the counter now uses the verified custody start. The Norfolk County Jail assignment is unrelated to this Florida federal prosecution and is cleared. Period abroad/exile: March 27, 1984 to November 6, 2013, including Cuban imprisonment; this does not describe 29 years at liberty.",
+        "imprisoned_for_days": 3040,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-18 04:36:28",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\",\"in_exile_since\":\"day\",\"end_of_exile\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_for_days": 10816
+      },
+      "source": "batch1078 verified departure/return sources",
+      "research_note": "Populate derived exile counter from verified departure and return endpoints; no date changes."
+    }
+  ]
+}
