@@ -4,7 +4,7 @@ namespace App\Support;
 
 use Carbon\Carbon;
 
-/** Research bounds and explicitly approximate display durations. */
+/** Research bounds and supported calendar-month displays; never estimated day counters. */
 final class PartialImprisonmentDuration
 {
     /**
@@ -64,7 +64,7 @@ final class PartialImprisonmentDuration
                 }
                 continue;
             }
-            $endField = $case->death_in_custody_date ? 'death_in_custody_date' : 'release_date';
+            $endField = ($case->death_in_custody_date ?? null) ? 'death_in_custody_date' : 'release_date';
             if ($case->{$endField}) {
                 [$firstEnd, $lastEnd] = self::dateBounds($case, $endField);
             } elseif ($stillDetained) {
@@ -93,19 +93,43 @@ final class PartialImprisonmentDuration
     public static function phrase(iterable $cases, bool $stillDetained): ?string
     {
         $cases = is_array($cases) ? $cases : iterator_to_array($cases);
-        // Compare month-only custody spans using calendar month indexes.
-        // Union overlapping spans so multiple cases do not double-count months.
+        // Compare recorded calendar months without inventing a day count.
+        // Every interval must include month precision; exact-only spans keep
+        // the exact formatter, and year/circa endpoints cannot supply months.
         $monthIntervals = [];
         $allMonthCases = count($cases) > 0;
         foreach ($cases as $case) {
-            $endField = $case->death_in_custody_date ? 'death_in_custody_date' : 'release_date';
-            if ($case->custody_periods !== null
-                || $case->imprisoned_for_months > 0
+            if (($case->custody_periods ?? null) !== null) {
+                $periods = CustodyPeriods::normalize($case->custody_periods);
+                if (! $periods) {
+                    $allMonthCases = false;
+                    break;
+                }
+                foreach ($periods as $period) {
+                    if (strlen($period['start']) < 7 || strlen($period['end']) < 7
+                        || (strlen($period['start']) === 10 && strlen($period['end']) === 10)) {
+                        $allMonthCases = false;
+                        break 2;
+                    }
+                    $start = Carbon::parse(substr($period['start'], 0, 7).'-01');
+                    $end = Carbon::parse(substr($period['end'], 0, 7).'-01');
+                    if ($end->greaterThan(Carbon::today())) {
+                        $allMonthCases = false;
+                        break 2;
+                    }
+                    $monthIntervals[] = [$start->year * 12 + $start->month, $end->year * 12 + $end->month];
+                }
+                continue;
+            }
+            $endField = ($case->death_in_custody_date ?? null) ? 'death_in_custody_date' : 'release_date';
+            if ($case->imprisoned_for_months > 0
                 || $case->documented_imprisoned_for_days !== null
                 || ! $case->incarceration_date
-                || $case->datePrecisionFor('incarceration_date') !== 'month'
-                || ($case->{$endField} && $case->datePrecisionFor($endField) !== 'month')
-                || (! $case->{$endField} && ! $stillDetained)) {
+                || ! in_array($case->datePrecisionFor('incarceration_date'), ['day', 'month'], true)
+                || ($case->{$endField} && ! in_array($case->datePrecisionFor($endField), ['day', 'month'], true))
+                || (! $case->{$endField} && ! $stillDetained)
+                || ($case->datePrecisionFor('incarceration_date') !== 'month'
+                    && (! $case->{$endField} || $case->datePrecisionFor($endField) !== 'month'))) {
                 $allMonthCases = false;
                 break;
             }
@@ -113,7 +137,7 @@ final class PartialImprisonmentDuration
             $end = $case->{$endField} ? Carbon::parse($case->{$endField}) : Carbon::today();
             $first = $start->year * 12 + $start->month;
             $last = $end->year * 12 + $end->month;
-            if ($last < $first) {
+            if ($last < $first || $end->greaterThan(Carbon::today())) {
                 $allMonthCases = false;
                 break;
             }
@@ -129,27 +153,39 @@ final class PartialImprisonmentDuration
             }
             return $months === 0 ? '0 months' : ImprisonmentDuration::phrase(null, 0, $months);
         }
-        $hasPartialPeriods = false;
-        foreach ($cases as $case) {
-            $hasPartialPeriods = $hasPartialPeriods || CustodyPeriods::hasPartial($case->custody_periods);
-        }
-        // A single case with month/year endpoints needs the same bounded
-        // display as an explicit list of partial custody periods.
-        $bounds = self::bounds($cases, $stillDetained);
-        if ($bounds !== null) {
-            return 'Estimated '.$bounds['min'].'–'.$bounds['max'].' days';
-        }
-        if ($hasPartialPeriods) {
-            // Other unplaced, source-stated terms may prevent a finite
-            // combined range. Never show only an exact subset as the total.
-            return 'Duration uncertain (partial custody dates)';
-        }
-        $summary = self::estimate($cases, $stillDetained);
+        // Research bounds remain available to audits, never to public counters.
+        return null;
+    }
 
-        return $summary === null ? null : (
-            ImprisonmentDuration::mixedPhrase($summary)
-            ?? ImprisonmentDuration::phrase($summary['start'], $summary['days'], $summary['months'])
-        );
+    /** Do not display a known subset as a complete total with uncertain dates. */
+    public static function shouldSuppressCounter(iterable $cases, bool $stillDetained): bool
+    {
+        $cases = is_array($cases) ? $cases : iterator_to_array($cases);
+        if (self::phrase($cases, $stillDetained) !== null) {
+            return false;
+        }
+        foreach ($cases as $case) {
+            if (CustodyPeriods::hasPartial($case->custody_periods ?? null)) {
+                return true;
+            }
+            if (($case->custody_periods ?? null) !== null
+                || ($case->documented_imprisoned_for_days ?? null) !== null
+                || ($case->imprisoned_for_months ?? 0) > 0
+                || ($case->imprisoned_for_days ?? 0) > 0
+                || ! ($case->incarceration_date ?? null)) {
+                continue;
+            }
+            $endField = ($case->death_in_custody_date ?? null) ? 'death_in_custody_date' : 'release_date';
+            if (! ($case->{$endField} ?? null) && ! $stillDetained) {
+                continue;
+            }
+            if ($case->datePrecisionFor('incarceration_date') !== 'day'
+                || (($case->{$endField} ?? null) && $case->datePrecisionFor($endField) !== 'day')) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /** Partial dates cannot establish an exact display duration. */

@@ -38,7 +38,7 @@ $days = fn ($a, $b) => (new DateTimeImmutable($a))->diff(new DateTimeImmutable($
 $min = $days('1917-09-30', '1918-03-01') + $days('1918-09-30', '1922-05-14');
 $max = $days('1917-09-01', '1918-03-31') + $days('1918-09-01', '1922-05-14');
 $check($bounds === ['min' => $min, 'max' => $max], 'Exclude gap from both uncertainty bounds');
-$check(PartialImprisonmentDuration::phrase([$case($periods)], false) === 'Estimated '.$min.'–'.$max.' days', 'Released profile displays qualified range');
+$check(PartialImprisonmentDuration::phrase([$case($periods)], false) === '4 Years 2 Months', 'Partial periods use calendar months without estimated days');
 $check(PartialImprisonmentDuration::bounds([$case($periods), $case($periods)], false) === $bounds, 'Duplicate intervals not counted twice');
 $years = [['start' => '1917', 'end' => '1918']];
 $check(CustodyPeriods::normalize($years) === $years, 'Accept year precision');
@@ -50,10 +50,19 @@ $check(PartialImprisonmentDuration::phrase([$case($exact)], false) === null, 'Ex
 $mixed = [$case($periods), $case([['start' => '2000-01-01', 'end' => '2000-01-11']])];
 $check(PartialImprisonmentDuration::bounds($mixed, false) === ['min' => $min + 10, 'max' => $max + 10], 'Include exact stays in mixed range');
 $unplaced = (object) ['custody_periods' => null, 'imprisoned_for_days' => null, 'imprisoned_for_months' => 3];
-$check(PartialImprisonmentDuration::phrase([$case($periods), $unplaced], false) === 'Duration uncertain (partial custody dates)', 'Unplaced terms cannot expose an exact subset as total');
+$check(PartialImprisonmentDuration::phrase([$case($periods), $unplaced], false) === null, 'Unquantifiable mixtures have no numeric display');
 $model = new App\Models\PrisonerCase;
 $model->setRawAttributes(['custody_periods' => json_encode($periods)]);
 $check($model->computeImprisonedForDays() === null, 'Actual case model does not persist placeholder day totals');
 $model->setRawAttributes(['custody_periods' => json_encode($exact)]);
 $check($model->computeImprisonedForDays() === 14, 'Actual case model exact behavior preserved');
-echo 'PASS '.$checks.' custody precision checks; Mahler range '.$min.'–'.$max." days\n";
+echo 'PASS '.$checks." custody precision checks; no estimated public duration\n";
+
+$check(PartialImprisonmentDuration::phrase([$case($years)], false) === null, 'Year precision never becomes an estimated day range');
+$check(PartialImprisonmentDuration::shouldSuppressCounter([$case($years)], false), 'Year uncertainty suppresses the counter');
+$check(!PartialImprisonmentDuration::shouldSuppressCounter([$case($periods)], false), 'Supported month calculation remains visible');
+$check(PartialImprisonmentDuration::phrase($mixed, false) === null, 'Mixed exact/partial periods never expose an estimated total');
+$check(PartialImprisonmentDuration::shouldSuppressCounter($mixed, false), 'Do not show the exact subset as the total');
+$check(PartialImprisonmentDuration::shouldSuppressCounter([$case($periods), $unplaced], false), 'Unknown mixture cannot become an exact total');
+$check(!PartialImprisonmentDuration::shouldSuppressCounter([$case($exact)], false), 'Exact period counter remains visible');
+echo "PASS 7 exact-only public counter checks\n";

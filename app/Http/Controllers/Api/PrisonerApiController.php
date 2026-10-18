@@ -63,6 +63,14 @@ class PrisonerApiController extends Controller
             ->each(function (Prisoner $prisoner) use (&$data) {
                 $imprisonment = ImprisonmentDuration::summarize($prisoner->cases);
                 $daysImprisoned = $imprisonment['days'];
+                $partialImprisonment = $prisoner->under_review ? null
+                    : \App\Support\PartialImprisonmentDuration::phrase($prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial));
+                if (\App\Support\PartialImprisonmentDuration::shouldSuppressCounter(
+                    $prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial)
+                )) {
+                    $imprisonment = ['days' => 0, 'start' => null, 'months' => null, 'components' => null];
+                    $daysImprisoned = 0;
+                }
 
                 // Cases may describe overlapping custody or exile periods.
                 $daysInExile = ExileDuration::totalDays($prisoner->cases);
@@ -148,6 +156,7 @@ class PrisonerApiController extends Controller
                         $imprisonStart,
                         $exileStart,
                         $servedMonths,
+                        $partialImprisonment,
                     ),
                     'Minor Case' => (bool) $prisoner->minor_case,
                     // Convenience boolean aliases used by Vue filter system
@@ -162,11 +171,13 @@ class PrisonerApiController extends Controller
         return $data;
     }
 
-    private function calculatePunishment(int $daysImprisoned, int $daysInExile, $imprisonStart = null, $exileStart = null, ?int $servedMonths = null): string
+    private function calculatePunishment(int $daysImprisoned, int $daysInExile, $imprisonStart = null, $exileStart = null, ?int $servedMonths = null, ?string $partialImprisonment = null): string
     {
         $result = '';
 
-        if ($daysImprisoned > 0) {
+        if ($partialImprisonment !== null) {
+            $result = 'Imprisoned For '.strtolower($partialImprisonment);
+        } elseif ($daysImprisoned > 0 || $servedMonths > 0) {
             if ($servedMonths > 0) {
                 // Share the profile formatter without inventing day precision.
                 $result .= 'Imprisoned For '.strtolower(ImprisonmentDuration::phrase($imprisonStart, $daysImprisoned, $servedMonths));

@@ -219,14 +219,14 @@
 
                 $imprisonment = ImprisonmentDuration::summarize($prisoner->cases);
                 $totalDays = $imprisonment['days'];
-                $partialBounds = ($prisoner->under_review || ! $prisoner->in_custody) ? null : \App\Support\PartialImprisonmentDuration::bounds(
-                    $prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial)
-                );
-                if ($partialBounds !== null) {
-                    $totalDays = 0;
-                }
                 $partialImprisonment = $prisoner->under_review ? null
                     : \App\Support\PartialImprisonmentDuration::phrase($prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial));
+                if (\App\Support\PartialImprisonmentDuration::shouldSuppressCounter(
+                    $prisoner->cases, (bool) ($prisoner->in_custody || $prisoner->awaiting_trial)
+                )) {
+                    $imprisonment = ['days' => 0, 'start' => null, 'months' => null, 'components' => null];
+                    $totalDays = 0;
+                }
 
                 // Cases may describe overlapping custody or exile periods.
                 $totalExileDays = ExileDuration::totalDays($prisoner->cases);
