@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-5 profiles updated live through batch1069;5 bounded reviews without additions;90 pending. Next unused batch1070. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+5 profiles updated live through batch1069;6 bounded reviews without additions;89 pending. Next unused batch1070. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -12,7 +12,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - William H. Treseler — pending
 - John Otis Ellis — pending
 - Luis Galaraza — pending
-- Clark H. Getts — pending
+- Clark H. Getts — bounded_review_no_addition
 - Phillip Wallash — pending
 - Curtis Coggins — pending
 - John Katkus — bounded_review_no_addition
@@ -144,3 +144,6 @@ Art Laffin: Further research pending: author/CatholicWorkerpages do not disclose
 Taft Holmes: Lead: firstpersonreleaseddefendanttestimony October1931LaborDefender; readfullsourcebeforeusingreleasebounds orphoto. https://www.marxists.org/history/usa/pubs/labordefender/1931/v06n10-oct-1931-LD.pdf
 
 Milan Resetar: NamesakeCroatianlinguist1860-1942excluded. ContemporaryMarch13,1931report saysJudgeMcConnelldeniedrelease; existingOct18,1931deathknown. Needoriginalarticle/reliableDOBnotnamesakedates. https://www.historyworm.com/gazete/daily_worker/1931-03-13/3
+
+## Clark H. Getts bounded review
+Bounded review: Swarthmore catalog records November14/15,1918 Clark Getts letters, but accessible item pages expose metadata only, no letter scans/transcription. Congressional treatment account gives solitary confinement and mental-ward movement, not actual prison release; do not convert January6,1919 ward transfer into release or punishment subset into total custody. Publicist ClarkHGetts1893 identity remains unbridged; no DOB or portrait assigned. Sources: https://cosandgreatwar.swarthmore.edu/items/show/1647 ; https://cosandgreatwar.swarthmore.edu/items/show/1650 ; https://www.congress.gov/65/crecb/1919/02/05/GPO-CRECB-1919-pt3-v57-10.pdf
