@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-11 profiles updated live through batch1080;13 bounded reviews without additions;76 pending. Next unused batch1081. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+15 profiles updated live through batch1081;13 bounded reviews without additions;72 pending. Next unused batch1082. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -19,7 +19,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Albert Constant Belhomme — pending
 - Joseph J. Gordon — verified_addition_live_batch1070
 - George Frosig — bounded_review_no_addition
-- Jacob Hoopes — pending
+- Jacob Hoopes — updated_live
 - Jeff Keith — bounded_review_no_addition
 - Howard Hairston — pending
 - Joan Hardy — verified_addition_live_batch1066
@@ -38,7 +38,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Hannah Margaret Van De Water Davis — pending
 - Nilak Butler — pending
 - Mary Hamilton — pending
-- Matthew Rupert — pending
+- Matthew Rupert — updated_live
 - David Lock — pending
 - Mariah Bailey — pending
 - Ken Rippetoe — verified_addition_live_batch1067
@@ -47,7 +47,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Fedor Antonchick — pending
 - Carl Jones-El — pending
 - John Mastrondea — pending
-- Stefan Day Rowold — pending
+- Stefan Day Rowold — updated_live
 - Sara Cantor — bounded_review_no_addition
 - Martha Scarborough — pending
 - Brandon Pack — pending
@@ -90,7 +90,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Frank Diarkovsky — pending
 - Paul Redd — pending
 - Albert Lannon — pending
-- Benjamin Hanil Song — pending
+- Benjamin Hanil Song — updated_live
 - Tony J. Adams — bounded_review_no_addition
 - Daniel Andreas San Diego — pending
 - Nazael Montalvo Rodríguez — pending
@@ -177,3 +177,13 @@ Bounded review: downloaded original Official US Bulletin January23,1919, page2. 
 
 ## Batch1080 verified live
 Cameron Arnold, Elizabeth Soto and Ines Soto: filled missing case prosecutors Frank Gatto, Shawn Smith and Matt Capoccia. Source: https://www.justice.gov/usao-ndtx/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice . Full raw preservation readback, dry run, application and idempotent replay passed. Public profile pages returned HTTP200. Existing dates, judges, portraits and biographies preserved.
+
+Batch1081 Matthew Rupert: {'prosecutor': 'Angela M. Munoz; Jordan L. Sing', 'plead': 'Guilty'}. https://www.justice.gov/usao-mn/pr/illinois-man-sentenced-prison-arson-minneapolis-cell-phone-store-during-summer-2020-civil
+
+Batch1081 Benjamin Hanil Song: {'prosecutor': 'Frank Gatto; Shawn Smith; Matt Capoccia'}. https://www.justice.gov/usao-ndtx/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice
+
+Batch1081 Jacob Hoopes: {'date_precision': '{"incarceration_date":"day","sentenced_date":"day"}'}. https://www.justice.gov/usao-or/pr/portland-man-sentenced-federal-prison-aggravated-assault
+
+Batch1081 Stefan Day Rowold: {'prosecutor': 'Jonathan Buckner; Chloe Neely'}. https://www.justice.gov/opa/pr/mississippi-man-sentenced-federal-civil-rights-and-arson-charges-setting-fire-mormon-church
+
+Batch1081: dry/apply/replay and complete raw field preservation passed; four public pages HTTP200. Hoopes July25,2025 initial-arrest report conflicts with existing September20 entry; recorded as unresolved, not replaced. Rowold OPA report confirms February3,2026; district mirror has a 2025 typo. No release dates inferred.
