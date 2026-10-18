@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-7 profiles updated live through batch1075;9 bounded reviews without additions;84 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+7 profiles updated live through batch1075;10 bounded reviews without additions;83 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -28,7 +28,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Nathan Baumann — verified_addition_live_batch1075
 - Elizabeth Soto — pending
 - Frank Guido — pending
-- Milan Resetar — pending
+- Milan Resetar — bounded_review_no_addition
 - Stanley Magruder — pending
 - W. H. Maxwell — pending
 - Julian Pecora Cardenas — pending
@@ -159,3 +159,6 @@ Original January2007 FriendsJournal PDFpage36 checked and fresh live readback co
 
 Batch1075 NathanBaumann: Contemporary July1,2026 KERA report by courtroom reporter, syndicated TPR, identifies actual sentencing that day and JudgeMarkPittman for Baumann. Refine existing July1storedmonthprecision to DAY and fill missing judge;22monthsentence already present. No release inferred from imposed sentence.
 https://www.tpr.org/news/2026-07-01/ninth-prairieland-defendant-sentenced-to-50-years-in-prison-6-who-pleaded-guilty-get-2-9-years
+
+## Milan Resetar conflict review
+Original DailyWorker December14,1927 PDFp2 downloaded/extracted: datelinePittsburghDecember13 says JudgeMcConnell sentenced Resetar thatday. Later1931account saysDecember12anddifferentjudgeinitials. Thus exactsentence dayconflicts; do not replace existingyear-only1927. Bothconfirm judgeMcConnell; fullidentityneedsresolution beforeaddingfulljudge. Inc1929November26versusDecember13conflict remains. LinguistMilanResetar1860-1942excluded. https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-ny/v04-n286-NY-dec-14-1927-DW-LOC.pdf ; https://www.historyworm.com/gazete/daily_worker/1931-03-13/3 Followup appellate search identified CommonwealthvWidovich93PaSuper323(1928),295Pa311(1929); these do not resolve competing exact sentence/admission dates. Bounded review completed without unsupported refinements.
