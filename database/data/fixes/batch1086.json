@@ -1,0 +1,133 @@
+{
+  "batch": 1086,
+  "expected_count": 0,
+  "entries": [],
+  "case_additions": [
+    {
+      "name": "Thomas Burans",
+      "slug": "thomas-burans",
+      "expected_prisoner": {
+        "id": "e4144a36-e480-4efd-9074-404616d6e34f",
+        "name": "Thomas Burans",
+        "sort_order": 101108,
+        "photo": "prisoners/thomas-burans-montana-sedition-20261015.jpg",
+        "description": "Thomas Burans, also recorded as Burns, was a laborer living in Ronan. He was convicted of sedition for urging a draft registrant not to enlist and criticizing the persecution of the Industrial Workers of the World. He entered Deer Lodge on May 25, 1918, and was paroled on June 8, 1919. He was returned for a parole violation on November 15, 1919, and died at Warm Springs in 1926.",
+        "years_in_prison": null,
+        "state": "Montana",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Thomas",
+        "middle_name": null,
+        "last_name": "Burans",
+        "aka": "Thomas Burns",
+        "race": null,
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": "1926-02-20 00:00:00",
+        "age": null,
+        "ideologies": null,
+        "era": "1910s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 0,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-10-15 04:54:16",
+        "updated_at": "2026-10-15 04:54:16",
+        "slug": "thomas-burans",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "expected_cases": [
+        {
+          "id": "18d85a9f-caa0-4aea-ba79-7838c9315d43",
+          "prisoner_id": "e4144a36-e480-4efd-9074-404616d6e34f",
+          "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+          "charges": "Montana state sedition prosecution, Missoula County, case 1130.",
+          "arrest_date": null,
+          "indicted": null,
+          "convicted": "Yes",
+          "plead": null,
+          "sentenced_date": null,
+          "incarceration_date": "1918-05-25 00:00:00",
+          "release_date": null,
+          "death_in_custody_date": null,
+          "in_exile_since": null,
+          "end_of_exile": null,
+          "prosecutor": null,
+          "judge": null,
+          "sentence": "1–2 years. First prison admission May 25, 1918; paroled June 8, 1919; returned for a parole violation November 15, 1919. Later died at Warm Springs on February 20, 1926.",
+          "imprisoned_for_days": null,
+          "in_exile_for_days": null,
+          "created_at": "2026-10-15 04:54:16",
+          "updated_at": "2026-10-15 04:54:16",
+          "date_precision": null,
+          "imprisoned_for_months": null,
+          "documented_imprisoned_for_days": null,
+          "custody_periods": null
+        }
+      ],
+      "case": {
+        "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+        "charges": "Parole-violation return following the Montana sedition conviction, Missoula County case1130.",
+        "incarceration_date": "1919-11-15 00:00:00",
+        "date_precision": {
+          "incarceration_date": "day"
+        },
+        "sentence": "Returned to prison for a parole violation November15,1919, after the first term ended on parole June8,1919. No final release or hospital-transfer date established. Death at Warm Springs February20,1926 is not assumed to be a prison endpoint. Source: https://clcowgill.wordpress.com/photo-gallery/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Burans",
+      "slug": "thomas-burans",
+      "expected": {
+        "id": "18d85a9f-caa0-4aea-ba79-7838c9315d43",
+        "prisoner_id": "e4144a36-e480-4efd-9074-404616d6e34f",
+        "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+        "charges": "Montana state sedition prosecution, Missoula County, case 1130.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1918-05-25 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1–2 years. First prison admission May 25, 1918; paroled June 8, 1919; returned for a parole violation November 15, 1919. Later died at Warm Springs on February 20, 1926.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 04:54:16",
+        "updated_at": "2026-10-15 04:54:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1919-06-08 00:00:00",
+        "sentenced_date": "1918-05-25 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "One to two years imposed May25,1918. First prison term May25,1918–June8,1919, ending on parole. The separate November15,1919 parole-return custody is recorded in its own case, with endpoint unresolved. Sources: https://clcowgill.wordpress.com/photo-gallery/ ; https://clcowgill.wordpress.com/wp-content/uploads/2023/01/a-m.pdf#page=4"
+      },
+      "source": "https://clcowgill.wordpress.com/photo-gallery/",
+      "research_note": "Original intake page4 confirms sentencing/admissionMay25,1918. Project individual profile explicitly identifies first releaseJune8,1919 and returnNovember15,1919. Split episodes; do not use1926hospitaldeath as prison release."
+    }
+  ]
+}
