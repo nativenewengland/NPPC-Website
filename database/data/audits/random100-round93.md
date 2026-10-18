@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-4 profiles updated live through batch1068;3 bounded reviews without additions;93 pending. Next unused batch1069. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+4 profiles updated live through batch1068;5 bounded reviews without additions;91 pending. Next unused batch1069. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -52,10 +52,10 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Martha Scarborough — pending
 - Brandon Pack — pending
 - Joseph Bowen — pending
-- Samuel Sterenstein — pending
+- Samuel Sterenstein — bounded_review_no_addition
 - Anthony Valentino — pending
 - Brian J. Cole Jr. — pending
-- Shawn Collins — pending
+- Shawn Collins — bounded_review_no_addition
 - Shinzaburo Sumida — verified_addition_live_batch1065
 - Terrell Bailey-Corsey — pending
 - Nicola Sacco — pending
@@ -132,3 +132,15 @@ Bob Holstein: SSDI mirrorRobertMHolsteinNov3,1941-Jan5,2003 matches existing dea
 Hannah Margaret Van De Water Davis: Court docket supportsJune2026releaseconditions andscheduledJuly1arraignment beforeDavidSchultz. Scheduledhearingnotproofactualhearing orcustody admission. Clearinghouse429preventsfulldocketread thispass; no release assigned from conditionsorder. https://clearinghouse.net/case/48394/
 
 Joseph J. Gordon: Existingfirstcustody1918-1919record; bio also claimsApril1921-May22,1922secondspan. Needoriginaladmission/releaseregister beforeaddingsecondperiod; no continuous1918-1922span. NamedNARA13122mugshotlead and1919bailreport do not independentlyconfirm1922physicalrelease. https://weneverforget.org/hellraisers-journal-bail-needed-for-fellow-workers-at-leavenworth-invincible-iww-by-floyd-dell-for-the-liberator/
+
+## Further case and identity checks
+
+Shawn Collins: Reviewed primaryThirdCircuitPennycookeMarch18,2026opinion, footnote4 identifies Collinsseparatecase2:20-cr-00228 and confirmsguiltyplea18months alreadyrecorded. JudgeGallagher inappealheader is Pennycooke trialjudge, not newlyassignedtoCollins. ExistingJune2,2020 custody and unresolvedactualrelease preserved; no18montharithmetic. Noverifiedportrait orbirthdaysource found. https://law.justia.com/cases/federal/appellate-courts/ca3/22-2511/22-2511-2026-03-18.html
+
+Samuel Sterenstein: Reviewed completeSwarthmoreWWICOrow: December1919release alreadyrecorded MONTH. July28,1918courtmartial is not independentlysame-day sentencing or initialcustody; February25mustering is induction, not jailentry. Conflicting20year/30yearinitialterms needoriginalcourtfiles; noendpointsderived. Existingportraitpreserved, noverifiedvitalsfound. https://www1.swarthmore.edu/library/peace/conscientiousobjection/WWI.COs.coverpage.htm
+
+Art Laffin: Further research pending: author/CatholicWorkerpages do not discloseDOB. Existing1982splitcustody and1989overnight alreadyfilled;1990actualadmission/releasemissing. Latest2026PentagonJune4hearingaccount maysupportnewproceduraldetail but noindividualfinaloutcomeverified. Noadditionthispass. https://www.ncronline.org/opinion/humanity-and-weapons-cannot-coexist-peace-activist-art-laffin-says ; https://catholicworker.substack.com/p/youre-never-too-old-for-civil-disobedience
+
+Taft Holmes: Lead: firstpersonreleaseddefendanttestimony October1931LaborDefender; readfullsourcebeforeusingreleasebounds orphoto. https://www.marxists.org/history/usa/pubs/labordefender/1931/v06n10-oct-1931-LD.pdf
+
+Milan Resetar: NamesakeCroatianlinguist1860-1942excluded. ContemporaryMarch13,1931report saysJudgeMcConnelldeniedrelease; existingOct18,1931deathknown. Needoriginalarticle/reliableDOBnotnamesakedates. https://www.historyworm.com/gazete/daily_worker/1931-03-13/3
