@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:76 profiles updated live through batch1064;23 bounded reviews without additions;1 pending. Not100 completed.
+Progress:76 profiles updated live through batch1064;24 bounded reviews without additions;0 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -17,7 +17,7 @@ Progress:76 profiles updated live through batch1064;23 bounded reviews without a
 - Christopher Tindal — verified_addition_live_batch1038
 - Abdul Azeez — verified_addition_live_batch1049
 - Rahmanullah Lakanwal — verified_addition_live_batch1041
-- José Humberto Santos — pending
+- José Humberto Santos — bounded_review_no_addition
 - Abdullah Ezzeldin Taha Mohamed Hassan — verified_addition_live_batch1030
 - Wayne Pharr — verified_addition_live_batch1052
 - Rebecca Morgan — verified_addition_live_batch1037
@@ -153,3 +153,9 @@ Evgraf Kovalenko: Read full Kenyon Zimmer archival biography and checked existin
 Abby Rampone: Reviewed first-person April8,2026 Holy Week pilgrimage account: author describes holding HONK FOR PEACE sign at Creech and some group members handcuffed, but does not individually establish imprisonment, birth date or a longer detention. Existing April1 arrest/release and cited-and-released-within-one-hour case retained. No custody start manufactured from group arrest or publication date; existing portrait preserved. https://loveincommunity.substack.com/p/i-am-the-dance-and-i-still-go-on
 
 Edward Stevenson: Reviewed Kentucky Governors-derived biography and near-contemporary History of Methodism in Kentucky. Book explicitly states October3,1797 birth, while Governors/FindAGrave-derived entry says September3,1797; Governors structured death June6 conflicts its cited July6. Existing year1797 and July6 death retained pending reconciliation rather than falsely asserting exact birthday. Lincoln January13,1864 pardon is already recorded; signature alone does not independently prove physical release. No additional verified missing case field or portrait found. https://upload.wikimedia.org/wikipedia/commons/f/fa/The_history_of_Methodism_in_Kentucky_%28IA_00649757.903.emory.edu%29.pdf ; https://fromthepage.com/mountauburncemetery/mount-auburn-cemetery-letterpress-copying-books/article/32210658 ; https://www.raabcollection.com/presidential-autographs/lincoln-pardon-conspiracy
+
+### Final bounded review: José Humberto Santos
+
+Exact-name and Vieques-specific searches did not independently identify this person. Do not conflate with reporters Santos Santiago or Humberto Trias in Maldonado-Norat. Nuclear Resister back-issues page links issues112-135 through static/previous.html, but original archive and guessed121 pages unavailable/403. Local report-0121 is2022JohnLaForge article, not issue121. Existing broad1999-2003/30-90day prose is not individualized proof and remains unresolved. No verified missing field added. Original roster or court identity still needed. https://www.nukeresister.org/back-issues/ ; https://www.nukeresister.org/static/previous.html ; https://law.justia.com/cases/federal/district-courts/FSupp2/122/264/2580371/
+
+Round92 review complete: all100 sampled profiles reviewed;76 received verified live additions/refinements and24 yielded no supported additions within this review. Unresolved identities, inaccessible original sources and factual conflicts remain documented; this does not mean every missing fact has been resolved.
