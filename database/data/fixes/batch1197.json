@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Danny Morrison",
+      "expected": {
+        "id": "8c5d5bee-233f-4c59-a887-db24524137a8",
+        "prisoner_id": "4cb1a7b0-7afc-4e16-adde-b743e9b90d4a",
+        "institution_id": null,
+        "charges": "Illegal-entry and false-statement proceedings at the US-Canada border",
+        "arrest_date": "1982-01-21 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1982-01-21 00:00:00",
+        "release_date": "1982-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested January 21, 1982 and still held January 23. Bail and expulsion followed during January; the official briefing dates deportation to January 29. Month precision preserves the unresolved interval between bail release and removal. Subsequent probation is not counted as imprisonment.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:22:02",
+        "updated_at": "2026-09-11 22:22:02",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1982-01-28",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "sentence": null
+      },
+      "sources": [
+        "https://dai.mun.ca/PDFs/westernstar/WesternStar19820129.pdf#page=2",
+        "https://www.themilitant.com/1982/4605/MIL4605.pdf"
+      ],
+      "research_note": "Canadian Press Toronto dispatch Western Star Jan29,1982 p2 explicitly says actualdeportationThursday afterseven daysjail; completedrelease described after steelworkerpostedpropertybond. ThursdayJan28 corroborated MilitantFeb5. Prefer directcontemporaryeventreport overlaterIrishbriefingJan29. Remove old sentencefield researchnarrative, no newcasenotes."
+    }
+  ]
+}
