@@ -1,0 +1,391 @@
+{
+  "profiles": [
+    {
+      "name": "Dennis A. Mahony",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Dubuque local historical encyclopedia confirms November11,1862 actual release already structured; biography November10 conflicts but biography edits excluded. No formal criminal sentence to add.",
+      "sources": [
+        "https://www.encyclopediadubuque.org/index.php/MAHONY%2C_Dennis"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hillary Hosta",
+      "status": "reviewed_supported_updates",
+      "evidence": "Miami New Times original interview/report explicitly identifies unauthorized boarding under1872sailormongeringlaw, June2002nocontest plea and no additional punishment. Fillnamedchargeandplea; do not copyorganizational2003indictmentor its possiblefine.",
+      "sources": [
+        "https://www.miaminewtimes.com/news/the-greenpeace-effect-6345118/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6c5140a0-2f39-4994-b2bc-da41afd39a8f",
+          "updates": {
+            "charges": "Boarding a vessel before arrival (18 U.S.C. § 2279)",
+            "plead": "No contest"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Louis Zuker",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual search did not locate primary custody evidence beyond existing civil deportation matter. No detention or incarceration dates inferred from deportation order; existing legitimate blank retained.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "L. N. Lagendre",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original NCLB wartime compilation OCR records L.N.Legendre LosAngeles July20,1918 two-year sentence; later reduction projected expirationApril1,1919. Projection is not actual release. Initials insufficient to merge unrelated directory person. No new custody endpoint.",
+      "sources": [
+        "https://archive.org/search?query=War-Time+Prosecutions+and+Mob+Violence"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mike Sturdevant",
+      "status": "reviewed_supported_updates",
+      "evidence": "Contemporaneous AP obituary in Oneida tribal newspaper January20,2005 expressly says MichaelE.Sturdevant diedJan10 andwasburiedNeopit. Addmissingdeathdate.1977court jurisdictionopinion doesnotgiveeight-yearterm; conflicting6/8termsnotresolved.",
+      "sources": [
+        "https://oneida-nsn.gov/wp-content/uploads/2018/08/01-January-20-2005.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "f121e1de-6888-4415-832e-c5de13413c38",
+          "updates": {
+            "death_date": "2005-01-10"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "A.H. Sampley",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Rechecked individual Swarthmore-derived dataset entry: CampCody, Leavenworth, Group2 releasedJanuary27,1919. No imprisonment start or term beyond existing record; unrelated Baptistminister sameinitials excluded.",
+      "sources": [
+        "https://www.swarthmore.edu/library/peace/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Maxim Fedorash",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original INS-based Zimmer individual entry confirms January1920 arrest and February26,1921 deportation, both already present. No criminal sentence or exact January day in source.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/fagotti-to-fengol/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jaywuan Peavy",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Identified NDOhio4:20-mj-6092 and June5,2020complaint from SupremeCourtbrief original filing. Charging date not proven arrest or custody admission. No exact physical-release date found.",
+      "sources": [
+        "https://www.supremecourt.gov/DocketPDF/20/20-7377/170920/20210304141529875_Lorish.Daley.ifp.pet.FINAL.pdf",
+        "https://www.teenvogue.com/story/black-lives-matter-protests-teens-charges"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tony Pruschuk",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Rechecked Swarthmore-derived individual record: Jan5,1919 interview at DisciplinaryBarracks establishes custodybydate but not admission; five-year term already present. Cannot use draftregistration or interview as incarceration start.",
+      "sources": [
+        "https://www.swarthmore.edu/library/peace/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Igal Roodenko",
+      "status": "reviewed_supported_updates",
+      "evidence": "NorthCarolinaSupremeCourt StatevJohnson1949 originalopinion explicitly namesRoodenko andApril13,1947busincidentandarrest. Refine secondcasearrestyear. Noendpointcalculatedfromthirtydayssentence.",
+      "sources": [
+        "https://case-law.vlex.com/vid/state-v-johnson-723-929903647",
+        "https://core-online.org/journey-reconciliation/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "f89cce04-f7ee-4270-a65e-f8c539f8a51b",
+          "updates": {
+            "arrest_date": "1943-11-09"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "529fab97-8921-487d-90e9-3f07b835d2e7",
+          "updates": {
+            "arrest_date": "1947-04-13"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Patrick B. “Paddy” Whalen",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalCongressionalRecord December2,1941p9328transcribesJerseyCitypolicerecord: February6,1938disorderlyperson/dangerousweapons; February17,1938three-monthHudsonCountypenitentiarysentence. Contradictssecondarychargesdroppedclaim. Noactualadmission/releaseinferred; parentreviewconflictbeforedeployment.",
+      "sources": [
+        "https://www.congress.gov/77/crecb/1941/12/02/GPO-CRECB-1941-pt9-5-1.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "dc713353-ebfa-4be1-b06b-6fe1c67f38f0",
+          "updates": {
+            "sentenced_date": "1938-02-17",
+            "sentence": "Three months"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reginald Thomas",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Targeted full-name/SingSing/NewMasses1941 searches returned unrelated names, no independent exact custody dates or named statutory offense. Existing two-to-four-year term not expanded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Stacey Lynn Merkt",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Sojourners1987 firsthand interview and TexasObserver contemporaneous1984report reviewed. Existing1987 endpoints match. Several-days-later bond phrase refers December1984 episode; does not prove firstFebruary1984release. No new precise endpoint.",
+      "sources": [
+        "https://sojo.net/magazine/august-september-1987/innocent-eyes-god",
+        "https://issues.texasobserver.org/pdf/ustxtxb_obs_1984_03_09_issue.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dawn Jeffrey",
+      "status": "reviewed_supported_updates",
+      "evidence": "DOJ December17,2020 expressly announces todays arrests, contradicting December13. Court docket minute277 establishes actual sentencing December6,2022 (judgment enteredDecember12). Time served plus18months supervision and529.30restitution. December12release notyetphysicallyverified so do not silently change endpoint.",
+      "sources": [
+        "https://www.justice.gov/usao-edar/pr/four-defendants-facing-federal-charges-after-fire-bombings-police-vehicles",
+        "https://www.drdocket.com/case/united-states-v-lungaho-ared-2020"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "92b76681-9e74-44d0-afcb-425423e293d5",
+          "updates": {
+            "arrest_date": "2020-12-17",
+            "sentenced_date": "2022-12-06",
+            "sentence": "Time served; 18 months supervised release; $529.30 restitution",
+            "judge": "D. P. Marshall Jr."
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Edward A. Kolbe",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original NCLB/senate source searches corroborate sentence-era case but did not locate actual admission/release. Unrelated modern same-name genealogies excluded. No sentence-based endpoint invention.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Kurt Gustav Wilckens",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Zimmer INS54709/612 confirms November1919arrest/March27,1920deportation; separate military year endingNovember1916 and1917internment escapeDecember24 deserve separate cases, not merged continuous span. Exact birthNovember3 appears derivative biographies, no original vital record verified.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/wilckens-to-yanish/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rodney Alexander",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary CCCO1968 prisoner roster is an in-custody observation, not admission date. Targeted individual search yielded no independently identifiable endpoint or sentence; retained blank.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Boris Sklar",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Primary November6,1953 bail habeas opinion confirms detention and October2hearing but not start; contemporaryMay4,1954Laisve says now eighthmonth, June12paper discusses supervisoryparole. Bounds do not establish exact admission or physical release. No dates inferred from publication or hearing.",
+      "sources": [
+        "https://openjurist.org/117/fsupp/160/united-states-ex-rel-sklar-v-shaughnessy",
+        "https://www.spauda2.org/laisve/archive/1954/1954-05-04-LAISVE.pdf",
+        "https://www.spauda2.org/laisve/archive/1954/1954-06-12-LAISVE.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mike Forcia",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporaneous December7,2020 NativeNewsOnline reports judge accepted100hourscommunityservice stayofimposition, contradicting existingOctober2021sentenceclaim. No custody demonstrated; do not manufacture incarceration. Exact hearing date not established by article publication.",
+      "sources": [
+        "https://nativenewsonline.net/currents/native-organizer-for-columbus-statue-toppling-avoids-prison-sentenced-to-community-service/",
+        "https://www.smithsonianmag.com/history/meet-the-indigenous-activist-who-toppled-minnesotas-christopher-columbus-statue-180979488/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emelyan Belesta",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Zimmer entry documents1919arrest,bail,rearrest,December21deportation but no dates to segment firstepisode and lastadmission. Unknown typhusdeathdate remainsunknown; no continuouscustodyassumption.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/barkovsky-to-bendik/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lonnie Darden",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Targeted December1974/January1975 search produced no new individual physicalrelease evidence. Dismissal and bailset do not establish endpoint; no sentence for dismissedcase.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William P. Elmer",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Major identity concern: current1871-03-02/1956-05-11dates correspond WilliamPriceElmer Republicancongressman. Prisoner prose may instead concernEimer. No original prisoner identity vitalrecord matched, so no additional dates; flag for parent identity review.",
+      "sources": [
+        "https://bioguide.congress.gov/search/bio/E000157"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Thompson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Swarthmore-derived individual record gives African-American,Leavenworth only. No distinct identity dates or term found; broad same-name matches excluded.",
+      "sources": [
+        "https://www.swarthmore.edu/library/peace/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Roy F. Ebert",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Targeted original Hawaii1925Communistsoldier searches found no individualexactarrest/release. Reportedtwo-weeksolitaryis duration without endpoint; no datecalculation from assumed arrest.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Grant Takao Ide",
+      "status": "reviewed_no_safe_update",
+      "evidence": "HeartMountain original biographical research confirms April7,1944arrest,June1944three-yearsentence,parolelaterbutnodate. Fullvitalsalreadyrecorded. May1942PomonaandAugust1942HeartMountaininternment are separate from penalMcNeilcase.",
+      "sources": [
+        "https://www.heartmountain.org/ide-grant-takao/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jane Curtiss",
+      "status": "reviewed_no_safe_update",
+      "evidence": "ContemporaneousNewMassesAugust27,1940 reproduces July26courtproceedings individualJaneCurtiss. That is hearingdate, not admission/release; statutorytreason/criminalsyndicalismalreadyrecorded. No new physicalcustodydate.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/new-masses/1940/v36n10-aug-27-1940-NM.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Muse",
+      "status": "reviewed_no_safe_update",
+      "evidence": "ContemporaneousNYReview eyewitnessreport confirms actualAllenwoodreleaseDecember1968alreadyrecorded. June1970APreportsinabsentiasentencingwhilefugitive, so cannot use conviction or termstartasincarceration. No independentDecember17surrenderprimaryfound yet.",
+      "sources": [
+        "https://www.nybooks.com/articles/1969/09/25/the-ultra-resistance/",
+        "https://newspapers.swco.ttu.edu/bitstreams/e99df195-8911-4175-956c-8ec614d90276/download"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ryan Jackson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "CourageToResist firsthand campaign May2008 confirms April14returnandpretrialconfinement. Laterexpectedrelease notactualproof. Existingyear2008 endpoint remainspartial; noexactdayinferredfrom100dayterm.",
+      "sources": [
+        "https://couragetoresist.org/free-ryan-jackson/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Lesse",
+      "status": "reviewed_supported_updates",
+      "evidence": "Zimmer originalINS-basedentry unambiguously givesone-to-fourteen-yearcriminalsyndicalismsentence. Its May1922release/March4deportation conflict remains unresolved; fillsentenceonly.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/legeze-to-levchuk/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "25805b14-887c-4a6c-9591-1798ac4efc7a",
+          "updates": {
+            "sentence": "One to fourteen years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "J. L. German",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Originalsentence-only WorldWarI record gives500fineandcosts. No physicalcustodyestablished on sentencingdate; possible erroneousincarcerationstartflagged, no newdatesorprisontermadded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Marta Vázquez",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Targeted Vieques/prisonerroster121 searches didnotrecover individualdatedcustody record; generic thirty-to-ninety-dayViequesterms notassignabletoindividual. Local report0121 iswrong modernarticle rather than original2001roster; no change.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Amos Martin Showalter",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Swarthmore-derived individual record givesDecember1891birth,1918custody,January1919release,life reduced20years alreadypresent. PossibleDecember15birth/November1968deathgenealogyrequiresidentitycorroboration; not applied.",
+      "sources": [
+        "https://www.swarthmore.edu/library/peace/",
+        "https://archives.mhsc.ca/index.php/showalter-amos-2"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Young",
+      "status": "reviewed_supported_updates",
+      "evidence": "ContemporaneousTorch January14,1976names GeorgeYoungamongLivernoisfivefacingfirstdegreemurder. Februaryissue distinguishesYoungchargesdroppedbeforetrial, not11monthsservice. Narrowactualchargeonly.",
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n1.pdf",
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n2.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7f9a11b7-5ea4-409d-9d3a-1eea2914b542",
+          "updates": {
+            "charges": "First-degree murder"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "George Edwards",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Targeted NewHavenPanther1970–1971 sources provide releasebounds/telephoneintercept June1971 butnotphysicalreleasedate. MustnotcopyErickaHugginsMay25release toEdwards; no verifiednewendpoint.",
+      "sources": [
+        "https://www.hamptonthink.org/read/category/Social%2BMovement%2BStudies"
+      ],
+      "proposed_updates": []
+    }
+  ]
+}

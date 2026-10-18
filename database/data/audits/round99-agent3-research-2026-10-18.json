@@ -1,0 +1,456 @@
+{
+  "round": 99,
+  "profiles": [
+    {
+      "name": "Tracye Redd",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "ContemporaryHoustonChronicle September14,2019 confirms actualSaturdayrelease andnotguiltyplea. All custodydaysalreadyrecorded. Missing sentencelegitimateifchargesdismissed; no different2015or2017arrestsmergedwithoutverifiedcustody.",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anthony Lovenetsky",
+      "status": "supported_update",
+      "evidence": "Original INS-file research explicitly separates May1919 four-day arrest/release from November1919rearrest. Existing May–December continuous span improperly bridges intervening freedom. Anchor final detention November1919 atmonthprecision; earlier Mayfourdayepisode needsseparatecase tocount.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/lopez-garcia-to-lukashuk/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "561e60ed-2c5e-42dd-ac1d-ea8b85bc25b6",
+          "updates": {
+            "arrest_date": "1919-11-01",
+            "incarceration_date": "1919-11-01"
+          },
+          "precision_merge": {
+            "arrest_date": "month",
+            "incarceration_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ken Butigan",
+      "status": "supported_update",
+      "evidence": "Own2012Livermoreretrospective explicitly says he andothers wereheldtwoweeks inJune1983countyjailtents, prior toarraignments. Recorddocumented14days for thisexistingseparateepisode; nofabricateddischargedateandnogrouponoweeksentenceassumedfor1982.",
+      "sources": [
+        "https://wagingnonviolence.org/2012/03/livermore-thirty-years-on/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "008d0cb4-07d1-4afa-9ed6-be6becfaeee0",
+          "updates": {
+            "documented_imprisoned_for_days": 14
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Alex Shkilnuk",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividualSwarthmorearchivalrowreviewed: June5,1917draftregistration; January5,1919Boardinterview atUSDB;10yearsentence. Registration/intervieware not admissiondates. No release showninarchivalrow; currentJuly1919endpoint has noadditionalcorroboration located. No guessingfromterm.",
+      "sources": [
+        "C:/Users/Maelstorm/Documents/GitHub/NPPC-Website/tmp/historical-duration-sources/swarthmore-wwi-co.csv"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Zully Palacios Rodríguez",
+      "status": "supported_update",
+      "evidence": "Contemporary campaign appeal by PaulGarver specifies DOBMay14,1993; identity corroborated original2017GBHreport age23 and surnameRodriguez. MigrantJustice confirms existingMarch28actualrelease. No sentencebecausecivilimmigrationdetention.",
+      "sources": [
+        "https://talkingunion.wordpress.com/2017/03/19/support-justice-for-migrant-workers/",
+        "https://migrantjustice.net/civicrm/petition/sign?reset=1&sid=10"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "22448276-f0b9-491a-8456-b44094718623",
+          "updates": {
+            "birthdate": "1993-05-14"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Totaro Matsui",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "JCCHoriginalindividualrecordreviewed. ExistingDecember1941arrestandcamptransfers throughCrystalCityDecember1945confirmed. HawaiiarrivalDecember1945doesnotprovideexactphysicalrelease. No exactvitalday/individualcriminalsentence found.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/matsui-totaro"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "C. M. Nelson",
+      "status": "reviewed_unresolved",
+      "evidence": "TargetedidentityandMoundsvillecase searches returnednoindividuallyverifiednewinformation. OriginalpublishedAPPcompilationalreadyunderlies existingSeptember13,1918–April2,1920span. Initialsonly insufficienttoattachCharlesNelsonshipbuilderorothernamesakes.",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "L. Kramer",
+      "status": "supported_update",
+      "evidence": "OriginalJune23,1917CommercialFinancialChronicle dates convictionJune12 andsentencingJune13byJuliusM.Mayer. OriginalJune13wirestory separates2yearconspiracy+$10000fine fromadditional1yearfailuretoregister. SupremeCourt245US478confirmsSelectiveDraftActconspiracy, notgenericEspionage/SeditionAct. ArrestMay31vsJune1sourcesconflict, so no exactarrestproposed. OwnGoldman memoirreportsappealbail, so existingcontinuouscustody needsfurtherverification.",
+      "sources": [
+        "https://fraser.stlouisfed.org/title/commercial-financial-chronicle-1339/june-23-1917-499930/fulltext",
+        "https://newspapers.swco.ttu.edu/bitstreams/82218253-cf17-4372-b001-31b2cf737df0/download",
+        "https://tile.loc.gov/storage-services/service/ll/usrep/usrep245/usrep245478/usrep245478.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "436461f8-4ee0-424b-9c7a-facbdfc27380",
+          "updates": {
+            "charges": "Conspiracy to violate the Selective Service Act; failure to register for the draft",
+            "judge": "Julius M. Mayer",
+            "sentenced_date": "1917-06-13",
+            "sentence": "Two years and a $10,000 fine; an additional year for failure to register"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "George O'Connell",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "NARAclemencyfindingaid listsOConnellamongSacramentoIWWdefendants commutedDecember15,1923; commutationisnotrelease. ExistingDecember22release retained. No newbirthyear or originalarrestdayfound; May30birthday alonecannotpopulateyear.",
+      "sources": [
+        "https://twelvekey.com/wp-content/uploads/2025/06/m2022.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pavel Konon",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "ZimmeroriginalFBI389419researchgivesWilkesBarrearrestwithoutdateandFebruary1,1921deportationalreadystored. No birthyearorportrait. Do notconfusewithAleksandrKononborn1894neighborentry.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/konyakin-to-korostyshevsky/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tomohide Tsukayama",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalJCCHindividualrecordconfirmsJune1942arrest, TuleLakeSeptember1943–November1945, DecemberHawaiireturn. CurrentDecemberreleasecouldbehomecomingratherthanphysicalrelease; noexactparole/releaseproofthereforeunchanged. Administrativeconfinementdoesnotestablishcriminalsentence.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/tsukayama-tomohide"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "S. P. Callahan",
+      "status": "reviewed_unresolved",
+      "evidence": "Individuallyresearcheddistinctinitials+Annapolis+ColonialRestaurant+1960; noindependentbooking/releasedateorvitalinformationfound. December1desegregationagreementisnotindividualrelease. Preserveblankcustodyfields.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Veal",
+      "status": "supported_update",
+      "evidence": "OriginalCORE February4,1964defendantreport specifies nolo contendere plea to both publishinglibel/disturbingpeace; eachcount$500+6months. January24originalreport confirmsJanuary23arrestandactualcountyjailcustody; February26report confirmsFeb21release alreadystored.",
+      "sources": [
+        "https://www.crmvet.org/lets/640204_core_report.pdf",
+        "https://www.crmvet.org/docs/640124_core_cantonstory.pdf",
+        "https://www.crmvet.org/docs/640226_core_cantonreport.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "422eb980-656e-4cb3-a029-c9494b3b56fb",
+          "updates": {
+            "plead": "Nolo contendere",
+            "sentence": "Six months and a $500 fine on each count"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Adán",
+      "status": "reviewed_unresolved",
+      "evidence": "NeworiginalJanuary8,1910SanAntonioLightheadlineexplicitlyreportsAdanreleasedafterseveralmonthsinjail, earlierthanexistingJanuary22report. Fullarticlecontinuationblocked403, so noindividualreleaseexactdayoradmissionfabricated. Thisisstrongarchivalleadforcloserinspection; repeatedarrestepisodesremainunresolved.",
+      "sources": [
+        "https://www.loc.gov/resource/sn86090238/1910-01-08/ed-1/?st=text"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Morgan Lili Rykken",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividualtargetedsearchesforRykkenarson2025sentencingyieldednoindependentnewrelease/admissionproof. Existing10dayjudicialtermisnotactualservice. Do notassignotherdefendantsStacieBeckermanfederalcourtfields tothisstatecase.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Francisco Javier González",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividuallyresearchedViequesnameandvariants; originalNuclearResister121rosterretrievalblocked403; noadditionalidentifyingcustodydatesorportraitverified. Do notattachSpanishdrugcaseorArgentinepoliticianwithsamename.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr121.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Goldberg",
+      "status": "supported_update",
+      "evidence": "Own statement reprinted in June10,1971CongressionalRecord identifies SelectiveServiceAct violation andJune16,1969conviction; custodyJun16,1969–Jan11,1971alreadystored. No individual arrestorvitaldayproved.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1971-pt15/pdf/GPO-CRECB-1971-pt15-1-3.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a888580f-e2c0-48e7-9c91-695734480845",
+          "updates": {
+            "charges": "Violation of the Selective Service Act"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Michael Finney",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "OriginalMarch7,2005BettyReidSoskinpersonalremembrance identifiesMichaelRobertFinney/LangstonWrightandmemorialservicepreviousday. Supportsdeathalready2005, notexactdeathday. NoCubanphysicalreleaseproved; AmericanflightchargesnotUScustody.",
+      "sources": [
+        "https://cbreaux.blogspot.com/2005_03_06_archive.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sukenoshin Nakano",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "JCCHoriginalindividualrecordreviewed confirmsDecember1941arrest,campsequenceAmachethroughOctober1945,NovemberHawaiireturn. Noindividualactualreleaseorvitalday; do notsubstitutehomecomingforterminationofconfinement.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/nakano-sukenoshin"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Fred Bell",
+      "status": "supported_update",
+      "evidence": "BlackPanther August5,1972 original gives July21,1972 resentencing byWilliamSteger. EarlierJuly21,1971conviction isdistinct; no admissioninferredfromsentencing. September1973Call original confirms interruptedcustody and1970release, so do not assume1968–1973continuousspan.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/08%20no%2020%201-16%20aug%205%201972.pdf",
+        "https://www.marxists.org/history/erol/ncm-1/gsb-call.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "85fb6fc4-a1d4-489a-a49b-650daa05aa80",
+          "updates": {
+            "judge": "William Steger",
+            "sentenced_date": "1972-07-21"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wilson W. Sánchez",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividuallyresearchedViequesandnamevariants.2000LajasPIPmayoralcandidatewithmatchingfullnamefoundbutnotindependentcustodyidentification. OriginalNR121rosterblocked; noarrest/release/sentenceorportraitaddedfromgenericViequesgroup.",
+      "sources": [
+        "https://electionspuertorico.org/2000/candidatos/alcaldes.html",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr121.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Grondin",
+      "status": "supported_update",
+      "evidence": "Herreligiouscongregationoriginalobituary andfuneralhomeobituary agreeDOBJan3,1937anddeathNov14,2018. BothidentifySisterMaryGrondinSP/SisterTerrence, Seattle; noNewJersey1983namesakemerge. ExistingBangor1983sentencetendayssuspendeddoesnotestablishactualcustody.",
+      "sources": [
+        "https://sistersofprovidence.net/wp-content/uploads/2019/01/winter_2019-1.pdf",
+        "https://bonneywatson.com/obituary/mary-s-grondin-sp/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "5b485eb7-353b-4955-a498-5bca05e421bb",
+          "updates": {
+            "birthdate": "1937-01-03",
+            "death_date": "2018-11-14"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spas Todorov",
+      "status": "supported_update",
+      "evidence": "Zimmer original INS54325/36G plus Buffalo newspapers research explicitly identifies criminal-anarchy indictment before transfer to immigration. Existingdatesalreadyestablished.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/tataranovich-to-tori/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "579fb951-42b1-4171-8b62-acabedcefb17",
+          "updates": {
+            "charges": "Criminal anarchy"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "James Gray",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividualCampHill1931sharecroppersearches didnotestablishindividualphysicalrelease orcharge; namesakerecordsfromCampHillPennsylvaniaexcluded. Groupreleasecampaigncannotbeconvertedtohisexactendpoint.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Albert L. Dunn",
+      "status": "reviewed_unresolved",
+      "evidence": "Firstpersonco-riderDavidFankhauserexplicitlyidentifiesAlbertLeeDunnalreadyarrestedatJacksonMay28,1961. Confirmsarrestexisting; noindividualphysicalrelease orsentencestatedthere.2005ReverendAlbertLeeDunnobituarypotentialleadbutidentitynotfullyestablishedwith1935bornrider, no vitalupdate.",
+      "sources": [
+        "https://fankhauserblog.wordpress.com/2002/02/page/2/",
+        "https://www.legacy.com/obituaries/name/albert-dunn-obituary?pid=3580332"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bernard Rosenfeld",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalWesternWorkerFebruary15,1932listnamesBernardRosenfeldamongLosAngelesprisoners; noidentifiersconnectingthattoMay15antiwararrest. Noindividualdispositionorendpoint. PolishDrBernardRosenfeldnamesakeexcluded.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/westernworker/1932/v1n04-feb-15-1932.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Miguel Ángel Vilches",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividuallyresearchedViequesnameandvariantswithoutverifiedindividualdatesorportrait;NR121originalrosterretrieval403blocked. SpanishmilitaryofficerandChileanprobatenamesakesexcluded. No genericsentenceassigned.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr121.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Kaveh L. Afrasiabi",
+      "status": "supported_update",
+      "evidence": "DOJ originalJan19,2021release explicitly says arrested yesterday andinitialappearanceJudgeJenniferC.Boal. Correct impossibleJan17custodystart beforeJan18arrest. Originalsworncomplaintnames22USC612/618and18USC371charges. Exactrelease remainsunverified; pardonSep18,2023notphysicalrelease.",
+      "sources": [
+        "https://www.justice.gov/archives/opa/pr/political-scientist-author-charged-acting-unregistered-agent-iranian-government",
+        "https://www.iranwatch.org/sites/default/files/criminal-complaint-against-lotfolah-kaveh-afrasiabi.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "04de6375-9042-42cd-8302-02eef7d77f7f",
+          "updates": {
+            "incarceration_date": "2021-01-18",
+            "judge": "Jennifer C. Boal",
+            "charges": "Acting as an unregistered foreign agent (22 U.S.C. §§ 612, 618(a)(1)); conspiracy (18 U.S.C. § 371)"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pless Thomas",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividualPless/Pleas/PlesThomasHarlansearchesandpublishedHarlanCountytextdiscussionreviewed. JudgeD.C.Jonesroleintheaffidavit/baildisputedoesnotestablishfinalsentencingjudge. Existingone-to-twoyeartermnotreleaseproof. No individualend/vitaldatesverified.",
+      "sources": [
+        "https://iris.unito.it/bitstream/2318/1677600/1/2016_Anni_Trenta_Scarpino_PUB_LEDI.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Novokov",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "ZimmeroriginalINS54709/590andFBI8000-382461entry confirmsNovember1919JamisonMinearrestandDecember21Buforddeportation. No individualexactarrestdayoradditionalvitaldate/photo. Nojudicialsentenceinadministrativedeportationrecord.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/novenad-to-nozevsky/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Grace Thorpe",
+      "status": "supported_update",
+      "evidence": "Her original February25,1971SacramentoBeeclipping inSmithsonianpersonalpapers explicitlynamesMunicipalCourtJudgeSheldonGrossfeldhandlingherJune6,1970trespasscase. No actualreleaseordispositionestablished; scheduledMarch8trialnotoutcome.",
+      "sources": [
+        "https://transcription.si.edu/view/24671/NMAI-085_002_01_028"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3b5487d4-0d38-428f-8dc3-ad96651b048e",
+          "updates": {
+            "judge": "Sheldon Grossfeld",
+            "charges": "Trespassing"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ura V. Aschliman",
+      "status": "supported_update",
+      "evidence": "Original GospelHerald March8,1983 obituary gives DOB1893Oct28, deathFeb5,1983 BryanHospital. Familygenealogy givesFeb4; prefer contemporarychurchobituary but mark deathmonth pendingcertificate. Original1918court-martial record reproduced1976MennoniteLife givesArticle64disobeyinglawfulcommand and5yearhardlabor/dishonorabledischarge sentence.",
+      "sources": [
+        "https://mcusa-archives.org/MennObits/83/mar1983.html",
+        "https://mla.bethelks.edu/ml-archive/pre2000/1976sep.pdf",
+        "https://archboldlibrary.org/sites/default/files/Genealogies/AeschlimanBook.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "9da2352c-b2c1-44b0-8cea-c985c6ce3e9f",
+          "updates": {
+            "birthdate": "1893-10-28",
+            "death_date": "1983-02-01"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "month"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "f854d170-4cd9-4c82-8eb7-17bb309c4575",
+          "updates": {
+            "charges": "Disobeying a lawful command (Article 64 of the Articles of War)",
+            "sentence": "Five years at hard labor; dishonorable discharge and forfeitures"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "T. Dixon",
+      "status": "reviewed_unresolved",
+      "evidence": "IndividualElaineDixonsearchesreturnednoindividuallyverifiednewinformation; initialsinsufficienttoidentifyvitalsorportrait. PreserveunknownreleaseafterpriorremovalofincorrectgroupJanuary1925endpoint; nofive-to-twentyoneyeargroupsentenceassignment.",
+      "sources": [],
+      "proposed_updates": []
+    }
+  ],
+  "review_complete": true,
+  "reviewed_count": 33,
+  "supported_profiles": 12,
+  "research_date": "2026-10-18",
+  "scope": "Individual bounded review with source verification; unresolved entries require additional archives and are not claimed globally exhausted."
+}
