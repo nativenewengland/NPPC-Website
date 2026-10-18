@@ -2,14 +2,14 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-5 profiles updated live through batch1069;6 bounded reviews without additions;89 pending. Next unused batch1070. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+5 profiles updated live through batch1069;7 bounded reviews without additions;88 pending. Next unused batch1070. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
 - Bob Atchison — pending
 - Santiago O'Leary — pending
 - Elbert H. Hostetler — pending
-- William H. Treseler — pending
+- William H. Treseler — bounded_review_no_addition
 - John Otis Ellis — pending
 - Luis Galaraza — pending
 - Clark H. Getts — bounded_review_no_addition
@@ -147,3 +147,6 @@ Milan Resetar: NamesakeCroatianlinguist1860-1942excluded. ContemporaryMarch13,19
 
 ## Clark H. Getts bounded review
 Bounded review: Swarthmore catalog records November14/15,1918 Clark Getts letters, but accessible item pages expose metadata only, no letter scans/transcription. Congressional treatment account gives solitary confinement and mental-ward movement, not actual prison release; do not convert January6,1919 ward transfer into release or punishment subset into total custody. Publicist ClarkHGetts1893 identity remains unbridged; no DOB or portrait assigned. Sources: https://cosandgreatwar.swarthmore.edu/items/show/1647 ; https://cosandgreatwar.swarthmore.edu/items/show/1650 ; https://www.congress.gov/65/crecb/1919/02/05/GPO-CRECB-1919-pt3-v57-10.pdf
+
+## William H. Treseler bounded review
+Bounded review: William R. Douglas, Minnesota History55(7), printed pp291,297,300 corroborates StPaul socialist William Treseler and actual May6,1919 release already stored. January28,1918 civilian sentence reduction and next-day planned FortSnelling transfer are not Leavenworth admission. Do not substitute transfer or another defendant age28 for missing incarceration/DOB. No identified individual portrait found. https://storage.googleapis.com/mnhs-org-support/mn_history_articles/55/v55i07p286-301.pdf
