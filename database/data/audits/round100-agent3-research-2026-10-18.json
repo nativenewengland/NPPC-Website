@@ -1,0 +1,410 @@
+{
+  "round": 100,
+  "profiles": [
+    {
+      "name": "Effie B. Main",
+      "status": "reviewed_unresolved",
+      "evidence": "Alexander Street individual biography confirms Aug15,1918 prison admission and release five days later already recorded. NWP appendix instead gives Aug10 protest, not reliable substitute arrest. No additional named charge or verified portrait found.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1009054750",
+        "https://omeka.hsp.org/files/original/123/971/Transcription_HSP_17084.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Isidoro Gallardo",
+      "status": "reviewed_unresolved",
+      "evidence": "Reviewed Balayan/Calaca identity and searched exact name. Military transferJan12,1901 is not release. Indexed namesakes include later USmilitary and Guatemala victims, identity unsupported. No safe additional endpoint or portrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anthony Victoria",
+      "status": "reviewed_unresolved",
+      "evidence": "CCCO original roster confirms Lompoc Youth Offender Institution; rosters are observation dates, not incarceration or release. Fresh exactname/conscientiousobjector search only yields roster and unrelated journalist. No exact dates or portrait identified.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004009.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bruno Grunzig",
+      "status": "reviewed_unresolved",
+      "evidence": "Swarthmore original letters and Apr30,1920 postcard already support release. August11 travel to CampMeade cannot establish prison admission. No earlier actual custody start found beyond existing month.",
+      "sources": [
+        "https://cosandgreatwar.swarthmore.edu/index.php/items/browse?page=30&sort_dir=d&sort_field=Dublin+Core%2CCreator"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Aaron Smith",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1918/conscientiousobjector and Leavenworth searches yield historical secondary account of15year sentence, but no original judgment inspected. Modern soldier andotherSmith results are namesakes. Existing NCLB observation date is not admission/release; no proposal.",
+      "sources": [
+        "https://prisme1418.blogspot.com/2021/07/les-cours-martiales-americaines-et-la.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ren Metzler",
+      "status": "reviewed_unresolved",
+      "evidence": "Waterloo courtsmartial catalogue identifies file115678; Jan23,1919 officialbulletin Group2 confirms name but order is not actualrelease. Existing Oct4,1918-Jan27,1919 retained. Genealogical Ren1894Sep30/Mar1974 Nappanee lead plausible, but original vital record/obituary not verified and no update proposed.",
+      "sources": [
+        "https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us",
+        "https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf",
+        "https://www.locateancestors.com/metzler-indiana/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jack Schneider",
+      "status": "supported_update",
+      "evidence": "Original United States v Esperdy108FSupp640,Dec10,1952 proves repeated physical custody. Court dates first arrestNov1,1948 (conflicts contemporary unionNov23), rearrestOct25,1950 followed administrative bail, and new detentionOct24,1952 still ongoingDec10. Do not combine those as continuous1948–1952 span. Propose anchor existing case to verified latestOct24,1952 detention and clear false no-confinement sentence. Bio false qualification requires parent decision, no bio proposed under scope. Endpoint unknown.",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/108/640/1417378/",
+        "https://www.marxists.org/subject/jewish/justice-fur.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3254ffe0-e069-464f-955a-e253f40783cd",
+          "updates": {
+            "arrest_date": "1952-10-24 00:00:00",
+            "incarceration_date": "1952-10-24 00:00:00",
+            "sentence": null
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Robert Ellsberg",
+      "status": "reviewed_unresolved",
+      "evidence": "University familyarchive confirms existing1955year only. Publisher author page search did not verify exactbirthday; May25 lead not substantiated. Own1978courtstatement16days alreadyspent does not establish final duration or endpoint; preserve blanks.",
+      "sources": [
+        "https://www.umass.edu/ellsberg/featured-documents/life-legacy/",
+        "https://www.bloomsbury.com/us/author/robert-ellsberg/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Andrey Smal",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname/deportation query returns modern sanctionedBelarusofficial rather than1919YoungstownUnionofRussianWorkers deportee. Existing Nov1919month retained; cannot assign modern birthdate or namesake portrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "José E. Flores Arriaga",
+      "status": "reviewed_unresolved",
+      "evidence": "Original FirstCircuit opinion names JoseE.FloresArriaga among consolidatedVieques defendants arrested differenttimesApril-June2000. Collective interval and generic varying sentences cannot supply hisindividual dates or duration. Exactname searches yield namesakes.",
+      "sources": [
+        "https://caselaw.findlaw.com/court/us-1st-circuit/1004875.html",
+        "https://hallapproved.com/us/cases/ca1/2001/775955/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles W. Perry",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh Vacaville search and participant-interviewreport reaffirm compassionate release and death in1993 but no exact dates; ten-year sentence in article concerns Carmichael, not Perry. No transfer of namesake/coprisoner dates.",
+      "sources": [
+        "https://www.thebody.com/article/out-of-flames-and-fear-how-people-with-hiv-forced-"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Paul Nikolajchyk",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname and spellingvariation search found surname directories, no individual original source extending known Feb1,1921deportation. Deportation endpoint retained; no unsupported start or portrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Annarella Rivera",
+      "status": "supported_update",
+      "evidence": "Original joint criminal order identifies presiding Judge Virginia M. Hernandez Covington, same criminal docket8:23cr25; DOJ confirms30day imposed sentence only. Existing documented30 actualdays is supported only by imposed term, not service; clear actualtime totals pending BOP verification. No admission/release located. Do not reuse Oropesa dates.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/64e2ff00948b233f8a08d802",
+        "https://www.justice.gov/usao-mdfl/pr/florida-man-sentenced-civil-rights-conspiracy-targeting-pregnancy-resource-centers"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "705bd7eb-e10f-4a86-b95a-e0033bbc14c4",
+          "updates": {
+            "judge": "Virginia M. Hernandez Covington",
+            "imprisoned_for_days": null,
+            "documented_imprisoned_for_days": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Wilmer Estrada",
+      "status": "reviewed_unresolved",
+      "evidence": "ExactnameVieques search retrieves modern pastor and unrelatedPuertoRico policewitness, no establishedidentity to rosterprisoner. No dates/portrait attached to namesakes.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John A. Mote",
+      "status": "reviewed_unresolved",
+      "evidence": "Original WashingtonAreaSpark caption corroborates June21,1969 unlawfulentry arrest already recorded. Photograph shows group/arrest scene; no safely identified individual portrait or longercustody evidence.",
+      "sources": [
+        "https://api.flickr.com/photos/washington_area_spark/8584672326/in/album-72157689744625082"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Filippo Salamone",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1920 search yielded Italian namesakes, no prison release proof. Existing Jan5 sentence and July17 commutation not converted to incarceration/release. Actualover5months cannot be made exact total.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tim Brassil",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary ClassStruggle explicitly describes armyreservist refusing callup and goinginto hiding. No established imprisonment, no custody dates or newcase proposed. Modern NYrealestate namesake excluded.",
+      "sources": [
+        "https://www.sherwoodforestzinelibrary.org/_files/ugd/8c0bf9_8044e8d296ad4fa69f8fde153836db25.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Orville Anderson",
+      "status": "supported_update",
+      "evidence": "Stephen Kohn original archival study American Political Prisoners p85 identifies Leavenworth Oct5,1918 to Dec21,1921, with cited FBI FOIPA263824. Current June1923 structured endpoint conflicts with this and existing bio. Correct endpoint to Dec21,1921; retain start. No arrest/vitals located. Remove offense aside from sentence.",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1208f034-7802-4c70-b0f9-ec37627de9fa",
+          "updates": {
+            "release_date": "1921-12-21 00:00:00",
+            "sentence": "Four years imprisonment"
+          },
+          "precision_merge": {
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Karim Njabafudi",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalJacksonvState corroborates Sept25,1972life sentence already recorded. March1980TipofIceberg stilllists Karim imprisoned, conflicting with existing Nov1979release; could reflect stale advocacy text. No reliable later release resolved, do not change to guessed date. Flag for original release record.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/591495e6add7b049345d7562",
+        "https://freedomarchives.org/Documents/Finder/DOC510_scans/COINTELPRO/510.COINTELPRO.TipoftheIceberg.March.1980.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Horhmann",
+      "status": "supported_update",
+      "evidence": "Montana Sedition Project case244 confirms existing admission/release/sentence. No exact arrest or verified vital date located. Source gives age55 at1918 conviction, implying1862/1863 range, not one certain birthyear. Reduce charges to named criminal offense only.",
+      "sources": [
+        "https://clcowgill.wordpress.com/photo-gallery/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "8fd9f816-6968-4adf-9d64-385f20d2a346",
+          "updates": {
+            "charges": "Sedition"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Gavril Romanovich",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname searches overwhelmed by18thcenturypoetGavriilRomanovichDerzhavin; identity differs from Waterbury1920deportee. No supported vitaldata, arrestday or identifiedportrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anna Berenbaum",
+      "status": "supported_update",
+      "evidence": "June15,1926 contemporary Daily Worker explicitly lists ten days and $250 fine. Existing sentence field contains research narrative. Actual10day total already recorded; no invented start/release.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n131-NY-jun-15-1926-DW-LOC.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "afe03345-526e-423a-bd5d-30faaa190984",
+          "updates": {
+            "sentence": "Ten days imprisonment and $250 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Fred J. Muhlke",
+      "status": "supported_update",
+      "evidence": "Samuel Tilden Ansell original Jan11,1918 memorandum in Crowder papers identifies Private Fred J. Muhlke, Medical Corps, Camp Grant: court sentenced him to dishonorable discharge, total forfeiture, fifty years confinement at hard labor. Sentence is not actual time served; no exact admission or release located.",
+      "sources": [
+        "https://missourioverthere.org/explore/collections/crowder-enoch-h-papers/memorandum-for-secretary-of-war-from-samuel-tilden-ansell-january-11-1918/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "21ae58f7-88e9-4b8e-bd65-b99a237bfef5",
+          "updates": {
+            "sentence": "Fifty years confinement at hard labor, dishonorable discharge, and total forfeiture"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Sean Albert Gautschy",
+      "status": "reviewed_unresolved",
+      "evidence": "DOJ-funded terrorismresearch confirms acquittal and alibi, not release date or sentencing. Existing release retained pending directcustody record; indictment/acquittal not treated as endpoints. No exactvitals found.",
+      "sources": [
+        "https://www.ojp.gov/sites/g/files/xyckuh241/files/media/document/214217.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Victor Malis",
+      "status": "supported_update",
+      "evidence": "Original1959 US Attorneys Bulletin names him among July17 indictments and identifies prosecutor Kenneth C. Raub. No custody established; preserve blank incarceration/release and remove narrative from sentence field.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0717.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6f9462da-68e7-40e6-ac48-1fbdf4224211",
+          "updates": {
+            "indicted": "1959-07-17 00:00:00",
+            "prosecutor": "Kenneth C. Raub",
+            "charges": "Contempt of Congress",
+            "sentence": null
+          },
+          "precision_merge": {
+            "indicted": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "George Pesce",
+      "status": "reviewed_unresolved",
+      "evidence": "Newlylocated1941contemporaryNewMasses prisonermemoir identifies GeorgePesce among imprisoned1922railwayshopmenstrikers. No exact imprisonmentdates, crime or vitaldata provided. Existing two case rows may duplicate same imprisonment and need original register44462; no merge or dates guessed.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/new-masses/1941/v39n03-apr-08-1941-NM.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jonathan Montanez",
+      "status": "supported_update",
+      "evidence": "DOJ sentencing announcement dated April5,2021 explicitly reports sentence to two years federal prison followed by three years supervised release. Existing judge/prosecutor already match; no evidence establishes admission date.",
+      "sources": [
+        "https://www.justice.gov/usao-nd/pr/moorhead-man-sentenced-two-years-federal-prison-civil-disorder-during-may-30th-2020-fargo"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
+          "updates": {
+            "sentenced_date": "2021-04-05 00:00:00",
+            "sentence": "Two years imprisonment followed by three years supervised release"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Justin Ward",
+      "status": "reviewed_unresolved",
+      "evidence": "Freshsource matches existing Jan29-Aug25,2026 custody, JamesPetersonjudge and timeservedsentence. No original identified portrait located; avoid modern attorney/businessperson namesakes.",
+      "sources": [
+        "https://www.azfreepress.com/news/12755/michigan-man-sentenced-for-threats-to-law-enforcement"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Vincent Santilli",
+      "status": "reviewed_unresolved",
+      "evidence": "NARA guide names him among Sacramento defendants with Dec15,1923commutation to timealreadyserved; this is not proof release occurred thatday and does not disprove earlierSep1,1923release. No exact admission found. GenealogyVincent1889lead unverifiedidentity.",
+      "sources": [
+        "https://twelvekey.com/wp-content/uploads/2025/06/m2022.pdf",
+        "https://static.lib.ou.edu/microformguides/Proquest_268.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Thompson Callender",
+      "status": "supported_update",
+      "evidence": "MHS Adams Papers scholarly annotation explicitly distinguishes completed nine-month prison term March 3, 1801 from presidential pardon March 16. Current March16 release and 286-day derived total conflate them. Charges/sentence reduced to named offense and punishment; no biography change.",
+      "sources": [
+        "https://www.masshist.org/publications/adams-papers/view/AFC15p78"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "461144fa-1092-49bb-8fb4-d1be04674337",
+          "updates": {
+            "release_date": "1801-03-03 00:00:00",
+            "imprisoned_for_days": null,
+            "charges": "Sedition",
+            "sentence": "Nine months imprisonment and $200 fine"
+          },
+          "precision_merge": {
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anne Walsh",
+      "status": "reviewed_unresolved",
+      "evidence": "Original ThirdCircuit Walsh450F2d231 adjudicationJune22,1971reversescontempt andremands; doesnotgiveactualcustodyadmission/release. SupremeCourt1972also no endpoints. Do not adopt IrishAnneWalsh1972detention, differentperson.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/450/231/266916/",
+        "https://www.supremecourt.gov/pdfs/USReports/USREPORTS-408_PDFA.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Steve Graham",
+      "status": "reviewed_unresolved",
+      "evidence": "Original JanFeb1969CCCO roster confirms Presidio confinement alongsideKeithMather/RandyRowland, not datesofadmission/release. Cannot assume identical Presidio27events or sentence without identity-specific record.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004037.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Elmer Geronimo Pratt",
+      "status": "reviewed_unresolved",
+      "evidence": "Original movementinterviews corroborate1969raidcustody and1971continuedconfinement, but fourexistingcases overlap; cannot safely replace1972sentencebasedstart with1970arrest across separateproceedings/bail. Flag duplicate murdercases0-2 for parent review rather than adding duplicate duration. No fresh custodyendpoint or portrait needed.",
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/DOC32_scans/32.Various.BLM.HumanityFreedomPeace.pdf",
+        "https://planning.lacity.gov/odocument/7db8747f-87fb-4c6f-bb95-5482be050683/SurveyLA_AfricanAmericanHCS_05242019.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "review_complete": true,
+  "reviewed_count": 33,
+  "supported_profiles": 9,
+  "scope": "Individual bounded fresh web review and comparison with partition records; unresolved cases remain research leads, not exhausted archives. No live writes, commits, bios, case notes or affiliations changed.",
+  "final": true
+}

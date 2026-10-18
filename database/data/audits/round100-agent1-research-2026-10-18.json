@@ -1,0 +1,348 @@
+{
+  "profiles": [
+    {
+      "name": "Prisciliano G. Silva",
+      "status": "reviewed_no_safe_update",
+      "evidence": "AGN original-file summary dates apprehension October24,1908, while Bartra reconstruction dates same raid June24–25. Conflict unresolved; existing photo already attached. No exact date selected.",
+      "sources": [
+        "https://bagn.archivos.gob.mx/index.php/legajos/article/download/575/572",
+        "https://www.aacademica.org/armando.bartra/54.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Karl I. Garber",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual exact-name and name-variant searches produced no reliable additional custody source. Inquiry appearance January1919 is not admission or discharge.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Lamar",
+      "status": "reviewed_supported_updates",
+      "evidence": "UnitedPress dispatch October17,1923 Caldwell explicitly says arrived here today to begin serving one-year sentence. PrimaryInreLamar294F688 confirms AntiTrustAct conviction and1923confinement, distinguishing November26habeasordertransferfromfreedom. Enter prison admission October17; no release date refined from nominalterm.",
+      "sources": [
+        "https://newspapers.swco.ttu.edu/bitstreams/b01c9e61-fa7e-4b12-aad1-5735aad94a9d/download",
+        "https://hallapproved.com/nj/cases/federal/district/1924/8848197/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e560ef64-8773-4b0e-8c52-d8df81b5b5ed",
+          "updates": {
+            "incarceration_date": "1923-10-17",
+            "sentence": "One year",
+            "charges": "Conspiracy to restrain foreign commerce in violation of the Sherman Anti-Trust Act"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alice Kimball",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Stevens Appendix lists Lafayette Square participation August10,1918; current arrestAugust15 could conflict. Participation is not alone enough to overwrite existing arrest; original docket needed.",
+      "sources": [
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8",
+        "https://idus.us.es/bitstreams/1e6d12bf-9a2a-4531-8686-86813ad1c6b9/download"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dade Singapuri",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual search did not independently resolve biography December4 vs case December3,2000 arrest discrepancy. Modern Nuclear Resister local report0121 is unrelated and excluded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Devin P. Montgomery",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual current-case follow-up found no reliable sentencing or further custody source. Pending sentence remains legitimately blank.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Albert Hougardy",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Sacramento criminal-syndicalism historical study reviewed; appellate reversal does not establish physical release day. Existing1935 sentencing and1937 reversal retained.",
+      "sources": [
+        "https://www.scielo.org.mx/pdf/secu/n112/2395-8464-secu-112-e1813.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mike Libeszky",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name and variant search found no independently verifiable admission/vitals. Original Zimmer section fetch failed; deportationMay8,1920 already recorded.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/libed-to-lichkevich/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Wesley Purnell",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Civil Rights Digital Library confirms Freedom Rider identity but supplies no new individual detention endpoint. Do not infer group release.",
+      "sources": [
+        "https://crdl.usg.edu/people/purnell_charles_wesley"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Philip Golishko",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Zimmer section retried but timed out; exact-name searches no independent named charge or criminal sentence. Deportation is administrative; blank sentence is appropriate.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/goldman-to-grau-i-jassans/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sorcenty Tolkevetz",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Swarthmore-derived local roster notes five years reduced to two-and-a-half while simplified field says two. Original individual record needs confirmation; no unsupported correction applied.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Thomas Burans",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Cowgill original prison-card collection and Montana record leads reviewed. Warm Springs death1926 is not a demonstrated continuous-custody endpoint for returned1919 segment.",
+      "sources": [
+        "https://clcowgill.wordpress.com/photo-gallery/",
+        "https://clcowgill.wordpress.com/wp-content/uploads/2023/01/a-m.pdf#page=4"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James M. Taylor",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original UPI report published ThursdayDecember23,1965 explicitly says sentenced here Wednesday, establishingDecember22. It gives three years hard labor, forfeitureallpay,dishonorable discharge; no actual admission/release inferred.",
+      "sources": [
+        "https://gateway.okhistory.org/ark%3A/67531/metadc2118546/m1/2/?q=dust+bowl"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "39f2c20b-fa18-40e6-bb82-d496a2316781",
+          "updates": {
+            "sentenced_date": "1965-12-22",
+            "sentence": "Three years at hard labor; forfeiture of all pay; dishonorable discharge"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Robert Simmons",
+      "status": "reviewed_supported_updates",
+      "evidence": "National Park Service explicitly gives ten years hard labor and dishonorable discharge. It identifies arrival only as winter1918, so no artificial day/month admission entered.",
+      "sources": [
+        "https://home.nps.gov/articles/robertsimmonsprisonerconsciencealcatraz.htm"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9f8cd4a9-73be-4b40-b1a1-a23ad65c6934",
+          "updates": {
+            "sentence": "Ten years at hard labor; dishonorable discharge"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "James F. Hitselberger",
+      "status": "reviewed_no_safe_update",
+      "evidence": "FAS case index reviewed. Parent independently found FBI complaint DOBDecember7,1956 and is adding it; no duplicate proposal. Existing custody dates not changed.",
+      "sources": [
+        "https://sgp.fas.org/jud/hitsel/index.html",
+        "https://sgp.fas.org/jud/hitsel/complaint.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George W. Ryan",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Civil War civilian hostage identity preserved. Targeted searches did not supply individual June1865 discharge day; no modern governor data merged.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Baxter",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Own memoir and Congressional Record confirm detention but do not establish precise admission/discharge. Memoir ideological assertions not treated as reliable factual evidence.",
+      "sources": [
+        "https://www.congress.gov/78/crecb/1944/09/08/GPO-CRECB-1944-pt6-10.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Deshawn Reed",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary military reporting and his organization profile describe honorable CO discharge April2005, not imprisonment. Same-name Michigan exoneree explicitly excluded; no new custody case.",
+      "sources": [
+        "https://couragetoresist.org/profiles-in-resistance/",
+        "https://www.stripes.com/news/2007-06-10/dignified-or-dirty-leaving-the-fight-as-a-conscientious-objector-2196995.html1"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Evan Kirk Duke",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original DA indictment release confirms allegation only; does not establish a booking or custody endpoint. No indictment-to-incarceration inference.",
+      "sources": [
+        "https://www.mcda.us/wp-content/uploads/2019/08/PR-19-201-Dial-et-al.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bob Meli",
+      "status": "reviewed_no_safe_update",
+      "evidence": "CCCO roster-only identity reviewed with targeted search; no independently established admission or actual release. Listing date is not custody admission.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rocco D'Alessandro",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual searches returned unrelated Argentina and deceased WWI namesakes; excluded. No verified new US custody endpoint.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Daniel Northrup",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Delaware County historical Anti-Rent source reviewed; pardon date does not identify new earlier admission day. Initial murder vs manslaughter disposition must not be conflated.",
+      "sources": [
+        "https://www.dcha-ny.org/antirent.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mariano Ropo",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Balayan captureJanuary9,1901 and January12 transfer are already represented. Individual variant search yielded unrelated African namesake, excluded. Calaca transfer is not release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ernest Hartzler Miller",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Swarthmore-derived roster contains January9,1919 and December27,1918 discharge notations; existing18-day period cannot safely be replaced without original record resolving scope.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ronald Freeman",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary Workers Vanguard prison coverage located; no verified exact admission/discharge in reviewed material, and group raid dates cannot establish all individual custody.",
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/workersvanguard/1975/0088_05_12_1975.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jonathan Hongru Zou",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original indictment and June12 bond coverage reviewed; existingJune10–12,2026 custody already filled. Pending sentence is legitimately blank.",
+      "sources": [
+        "https://www.justice.gov/usao-edmi/pr/department-justice-indicts-eight-conspirators-who-threatened-university-michigan",
+        "https://michiganadvance.com/2026/06/12/judge-grants-bond-for-four-pro-palestinian-u-m-students-charged-with-vandalism-transmitting-threats/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robert Houchens",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name and Hodari searches did not identify additional original record. Modern Ohio defendant and Robert Lee Houchens federal release listing not merged without matching identity.",
+      "sources": [
+        "https://openjurist.org/490/fsupp/425/houchens-v-cox-8885208"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Melinda Jones-Williams",
+      "status": "reviewed_no_safe_update",
+      "evidence": "StoryCorps Leesburg testimony and Congressional recognitions reviewed; generic nearly-two-month account supplies no individual September discharge day.",
+      "sources": [
+        "https://storycorps.org/podcast/the-leesburg-stockade-girls/",
+        "https://www.congress.gov/116/crec/2019/03/11/CREC-2019-03-11-pt1-PgH2631.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "River Allen",
+      "status": "reviewed_supported_updates",
+      "evidence": "Richmondside original local reportingAugust25,2026 explicitly states four actual pretrial days credited. This supports documented actual custody duration, not nominal30-day sentence currently stayed. No inferred release day.",
+      "sources": [
+        "https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7e2dcefc-5c7f-4621-923d-69ffab3a3b32",
+          "updates": {
+            "documented_imprisoned_for_days": 4
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Tom Canipe",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original April6,1936 Daily Worker confirms he was then serving in Camp512Whittier, but does not date physical admission. December1935bond not continuous custody.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n083-NY-apr-06-1936-DW-Q.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Butler",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Attica litigation and manifesto leads reviewed; inmate26018 is a state-prison number, not BOP; no verified admission or release.",
+      "sources": [
+        "https://www.prisonlegalnews.org/news/2000/jun/15/attica-suit-settled-for-12-million/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jack Ivory Johnson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Conway appeal confirms co-arrest but no independently confirmed Johnson prison admission day or May2010 release day. Judge/charge newspaper leads need own trial record.",
+      "sources": [
+        "https://law.justia.com/cases/maryland/court-of-special-appeals/1972/434-september-term-1971-0.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Steven M. Fitch",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original DOJ sentencing release reviewed; no explicit actual prison admission/release. Sentence date retained without assuming service began same day.",
+      "sources": [
+        "https://www.justice.gov/usao-ne/pr/protester-sentenced-being-possession-molotov-cocktail"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Maggie Pitocco",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original strike bulletinsJuly15,1926 say six-month sentencing last week, insufficient for exact day. July arrest month retained pending docket.",
+      "sources": [
+        "https://www.weisbord.org/BulletinsThree.htm",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n168-NY-jul-29-1926-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "complete": true,
+  "reviewed_count": 34,
+  "supported_profiles": 4,
+  "scope": "Individual bounded research; unresolved fields remain unresolved; no live writes."
+}

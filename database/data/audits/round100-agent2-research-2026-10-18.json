@@ -1,0 +1,444 @@
+{
+  "profiles": [
+    {
+      "name": "Al McBride",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary Daily Worker January 7, 1932 individually identifies Ruskin raid defendant, jail/bail and threatened death penalty. No exact arrest, discharge, or securely identified portrait established beyond existing November 1931 event.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n006-NY-jan-07-1932-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Yoshio Yoshioka",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "JCCH individual record reviewed: existing transfer months are not exact custody boundaries. Captioned group photograph identifies fifth person in fifth row, but no isolated verified original crop prepared; do not deploy uninspected crop. No endpoint refinement established.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/yoshioka-yoshio"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Caroline Drew",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Her own June 16, 1936 Daily Worker report recounts Forrest City arrest/release, but precise custody interval is not established. Separate December 1930 Caroline Drew sentence not attached to this 1936 case.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1936/v13-n144-NY-jun-16-1936-DW-Q.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Yoshiko Matsuda",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "JCCH distinguishes Jerome/Tule Lake transfers from discharge. Return home December 1945 does not establish actual release day. Namesake obituaries excluded; no additional vital dates confirmed.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/matsuda-yoshiko"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Norma Martin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary report and Labor Defender account reviewed. Existing January 4-March 28, 1932 dates already cover known detention; no newly identified individual portrait established.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1932/v09-n062-NY-mar-14-1932-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Kulish",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual name and Buford/Union of Russian Workers variants searched. Modern namesakes dominate; no new reliable individual vital date, release or portrait established. Administrative deportation has no criminal sentence to invent.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joseph Geier",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalgovernmentprosecutionscompilationindividuallygivesGeier15monthsAtlanta and conspiracy toviolateselectiveservice act byurgingrefusaltoregister. PrintedindictmentApril30,1917predatesMay1917lawandmaybetypo, so notenterdate.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERIALSET-07987_00_00-063-0159-0000.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6320d9f7-3c82-4923-b252-9bf8f88a0502",
+          "updates": {
+            "sentence": "15 months",
+            "charges": "Conspiracy to violate the Selective Service Act"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Jose Gabriel Alvarez-Ortiz",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ announcement distinguishes Ortiz cocaine-distribution count from co-defendants narco-terrorism count, identifies prosecutors and actual Houston arrival September 15, 2021. Existing September 2020 custody was Colombian, not US; do not silently replace entire continuous-custody start. No discharge found. Biography jurisdiction is separately wrong (SDNY vs SDTX), flagged without rewriting biography.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/another-extradition-lands-third-eln-member-us-soil-international-cocaine-distribution"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "948b882e-172b-4187-af57-498ba4ca2cd8",
+          "updates": {
+            "charges": "International cocaine distribution",
+            "prosecutor": "Casey N. MacDonald; Anibal Alaniz",
+            "indicted": "2020-02-12"
+          },
+          "precision_merge": {
+            "indicted": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John Shanks",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Fort Delaware/Handy diary context. No individual discharge day or securely identified portrait established; existing June 1865 month retained.",
+      "sources": [
+        "https://dokumen.pub/confederate-prisoners-at-fort-delaware-the-legend-of-mistreatment-reexamined-paperbacknbsped-1476669228-9781476669229.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joseph Bill",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Red Feather appeal identifies Bill and April 25, 1973 arrest. Trial/acquittal history does not establish actual continuous detention endpoint; no additional custody dates proposed.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/541/1275/139002/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Knowles",
+      "status": "verified_fix_ready",
+      "evidence": "Original10Jan1957trialopinionidentifiestrialjudgeRossRizleyandprosecutorsGasch/Hitz; contemporaryFriendsJournalandGuardianconfirm120daysplus500dollarfine. Bailcontinuedpendingappeal, so do notinventactual120daycustody. PreservepretrialHoltzoffaswell.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/5e7dac6e4653d0487778765c",
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1957/HC12-50083.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-02-04-9-16-nat-guardian.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "896e56d0-91ff-4461-9098-a6f8a18a6f57",
+          "updates": {
+            "sentence": "120 days imprisonment; $500 fine",
+            "judge": "Ross Rizley; Alexander Holtzoff (pretrial ruling)"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Andy Rivera",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Vieques-specific searches did not establish endpoint or original portrait. Montgomery County strip-search plaintiff and musician namesakes excluded. Denied bond is a pretrial status, not a sentence; no fabricated sentence duration.",
+      "sources": [
+        "https://www.oocities.org/dublincatholicworker/prisoners.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Julián Montalan",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original 1907 Supreme Court Sakay decision and Philippine historical compilation reviewed with Montalban variant. Surrender, arrest and later conditional pardon remain distinct; no verified individual endpoint refinement.",
+      "sources": [
+        "https://chanrobles.com/cralaw/1907julydecisions.php?id=8"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Fred Katsumi Shimane",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Heart Mountain individual biography reviewed. June 1944 conviction/sentence and July 1946 release already present at supported precision. Federal pardon-list conviction date must not silently become custody admission day.",
+      "sources": [
+        "https://heartmountain.org/draft-resisters-hub/shimane-fred-katsumi/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George L. Glison",
+      "status": "verified_fix_ready",
+      "evidence": "YaleHarryWeinbergerarchiveindividuallyidentifiesNewYorkvGeorgeL.Glison/LloydC.Glison1917disorderlyconducttendingtobreachpeace,sixmonthsentence. This correctsgenericwartimestatuteclassification inchargeswithoutinventingdates.",
+      "sources": [
+        "https://ead-pdfs.library.yale.edu/4820.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9021813b-f17d-4f5c-bfcc-1da898d62b54",
+          "updates": {
+            "charges": "Disorderly conduct tending to a breach of the peace"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Emanuel Swartzendruber",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Mennofolk Great War research and Anabaptist account reviewed. March 4, 1918 draft reporting is not an arrest date. No exact custodial boundary or sufficiently identified obit established.",
+      "sources": [
+        "https://mennofolkmusic.com/songs-of-conscience-and-peace-music-of-the-great-war-era/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Thomas Gilpin",
+      "status": "verified_fix_ready",
+      "evidence": "Emory archival study explicitly dates death during captivity March 2, 1778. Stored March 1 values have month precision. Refine death and death-in-custody, clear erroneous release because he died captive. No portrait of father securely identified; avoid son Thomas Gilpin portraits.",
+      "sources": [
+        "https://law.emory.edu/_includes/documents/sections/faculty-and-scholarship/articles/cloud/2003-Quakers-Slaves-and-the-Founders.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "998e1c0a-43f3-4930-825f-db5dadfbb210",
+          "updates": {
+            "death_in_custody_date": "1778-03-02",
+            "release_date": null
+          },
+          "precision_merge": {
+            "death_in_custody_date": "day"
+          }
+        },
+        {
+          "table": "prisoners",
+          "id": "d63f8791-6369-486b-b9cc-b4b174c808e2",
+          "updates": {
+            "death_date": "1778-03-02"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Luigi Mangione",
+      "status": "verified_fix_ready",
+      "evidence": "Fresh official August 14, 2026 DOJ report confirms federal guilty plea before Judge Garnett; December 18 sentencing remains future and must not be entered as imposed sentence. Existing combined state/federal case needs qualified conviction/plea labels because state matter remains separate. No release or sentence invented.",
+      "sources": [
+        "https://www.justice.gov/usao-sdny/pr/luigi-mangione-pleads-guilty-connection-his-murder-united-healthcare-ceo-brian"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a8d2978b-3169-44b5-a954-a08f8451c4a6",
+          "updates": {
+            "plead": "Guilty (federal stalking counts)",
+            "convicted": "Yes (federal stalking counts)",
+            "judge": "Margaret M. Garnett (federal case)",
+            "prosecutor": "Dominic A. Gentile; Jun Xiang; Alexandra Messiter; Thomas John Wright (federal case)"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Walter Ward",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalScipioJonesSupremeCourtbriefindividuallynamesWardandJohnJeffersonaspleadingguiltyseconddegreemurderaftercoercedtestimony. No individualtermordischargegiven; addactualcharge/pleaonly.",
+      "sources": [
+        "https://crdl.usg.edu/record/aru_unequal_1670",
+        "https://digitalcollections.uark.edu/digital/api/collection/Civilrights/id/1670/download"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4666c051-84b4-4464-a9e0-6963eec30b09",
+          "updates": {
+            "charges": "Second-degree murder",
+            "plead": "Guilty"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Taylor (LDS President)",
+      "status": "verified_fix_ready",
+      "evidence": "Official Church history confirms February 1, 1885 was entry into hiding, not arrest, and July 25, 1887 death in exile, not release from custody. Existing exile endpoints already correct; clear arrest/release fields wrongly representing those events. No incarceration date belongs here.",
+      "sources": [
+        "https://www.churchofjesuschrist.org/study/manual/teachings-john-taylor/the-life-and-ministry-of-john-taylor?lang=eng",
+        "https://www.churchofjesuschrist.org/study/manual/church-history-in-the-fulness-of-times/chapter-thirty-three?lang=eng"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "df102b93-0537-48f8-9e3a-9862a4d01e4d",
+          "updates": {
+            "arrest_date": null,
+            "release_date": null,
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "William A. Dunham",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed bibliographic identification of William Arthur Dunham unpublished first-person narrative at Bentley Historical Library. Leavenworth admission cannot substitute for arrest; no new exact arrest or identified portrait.",
+      "sources": [
+        "https://prisonwarresisters.wordpress.com/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Atsushi Suzuki",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Heart Mountain original case-file material and biography confirm existing April 7 arrest, June 1944 sentence and July 1946 release. No separate actual prison-admission day established, so do not substitute sentence or arrest day automatically.",
+      "sources": [
+        "https://www.heartmountain.org/suzuki-atsushi/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Juan Vilar",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed separate 1911 proceedings and their distinct dates. June habeas order is not proof of actual release; no new endpoint confirmed for either case. Existing sentence reduction must not be used to calculate release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jackson Ingram",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Mainstream November 1951 account identifies Rosa Lee Ingram son and April imprisonment, already month precision. Reported age 26 cannot distinguish 1924/1925 birth year without birthday. No endpoint found.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/masses-mainstream/1951/v04n11-nov-1951-mm.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Claudia Rueda",
+      "status": "verified_fix_ready",
+      "evidence": "ContemporaryAPcourtcoverageidentifiesimmigrationjudgeAnnieS.GarcyandgovernmentattorneyMatthewHanson. ExistingMay18-June9custodyalreadycorrect; no criminalsentence appropriate.",
+      "sources": [
+        "https://www.kpbs.org/news/politics/2017/06/09/sd-immigrant-activist"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a332d8fa-a705-4757-a56c-63d2fec6798a",
+          "updates": {
+            "judge": "Annie S. Garcy",
+            "prosecutor": "Matthew Hanson"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Demetrios G. Corcoran",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual name/variant search did not establish a reliable new portrait or actual release. Existing May 13-August 13 interval appears consistent with sentence arithmetic but is not newly independently verified; flagged rather than expanded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William G. Harrison",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Maryland political-prisoner and exact-name searches produced no securely identified new source improving the existing September 1861-November 1862 interval. Administrative detention does not require criminal sentence.",
+      "sources": [
+        "https://msa.maryland.gov/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gary Garrison",
+      "status": "verified_fix_ready",
+      "evidence": "ContemporaryMilitantSeptember12,1975identifiestrialjudgeWainoJohnson. Actual2Septemberacquittalisnotcustodyrelease; secondpretrialendpointremainsunknown. Addjudge tosecondcaseonly.",
+      "sources": [
+        "https://www.themilitant.com/1975/3933/MIL3933.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "bafdcd59-b55c-4534-9bc4-5162950a584d",
+          "updates": {
+            "judge": "Waino Johnson"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Harry Roth",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Chester sedition defendant individually researched; modern Harry Roth namesakes excluded. No original identified portrait or more precise custodial boundary found than existing years.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Louis Louaillier",
+      "status": "verified_fix_ready",
+      "evidence": "LOC5March1815manuscriptandCongressionalhistoricaltranscriptionexplicitlyidentifyactualarrestnoon5March1815. Existingmonthplaceholdercanberefinedstartonly; no sentencedterm becausemilitarycourtacquittedandJacksonkeptdetained.",
+      "sources": [
+        "https://www.loc.gov/item/maj005311/",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt9/pdf/GPO-CRECB-1964-pt9-7.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e236b3d4-c985-4710-8947-bd1fee89e72e",
+          "updates": {
+            "arrest_date": "1815-03-05",
+            "incarceration_date": "1815-03-05"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "George Morse",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Amnesty Gulf War report reviewed. April 1991 church report says due for release, not confirmed release. Later reprint reports five months served but original source not independently retrieved; leave exact endpoint unresolved rather than convert forecast or sentence into fact.",
+      "sources": [
+        "https://www.amnesty.org/zh-hant/wp-content/uploads/2021/06/pol310011991en.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Alberto Ortiz",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary10March1972reportexplicitlydistinguishesOrtiz10yearsprisonplus5yearsprobationfromco-defendants40/25years. December1973reportidentifiestrialjudgeLawrenceLydickandprosecutorIrvingPrager. ExistingNov1973bailreleasealreadycorrect; BlackPanther1975says1974butcontemporary1973reportprevails. No newendpointguess.",
+      "sources": [
+        "https://www.themilitant.com/1972/3609/MIL3609.pdf",
+        "https://www.themilitant.com/1973/3745/MIL3745.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "f0079bbe-44c1-4459-9463-fe8a449638d6",
+          "updates": {
+            "sentence": "Ten years imprisonment; five years probation",
+            "judge": "Lawrence Lydick",
+            "prosecutor": "Irving Prager"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Caleb A. Brown",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Court-record reporting describes later dismissal of attempted-disarming felony and reduction of misdemeanor to civil forfeiture; no longer custody established than existing May 1 same-day interval. Imitation personal website excluded. No original docket independently retrieved for final-disposition mutation.",
+      "sources": [
+        "https://www.maciverinstitute.com/news/court-records-describe-violence-against-police-at-uw-hamas-encampment"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 12,
+    "live_mutations_by_agent": 0
+  }
+}

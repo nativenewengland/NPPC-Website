@@ -1,0 +1,43 @@
+{
+  "profiles": [
+    {
+      "name": "James F. Hitselberger",
+      "status": "supported_update",
+      "evidence": "FBI Special Agent Marcus Andre Morgan original sworn criminal-complaint affidavit, filed August6,2012, Document1-1 page1 (PDFpage2), explicitly identifies defendant DOB12/7/56. US month/day format: December7,1956. Exact DOB, not inferred from age.",
+      "sources": [
+        "https://sgp.fas.org/jud/hitsel/complaint.pdf",
+        "https://www.justsecurity.org/wp-content/uploads/2022/10/Hitselberger-complaint-Aug-6-2012.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "ac26a8a1-f07b-4528-b296-75ca89c76cff",
+          "updates": {
+            "birthdate": "1956-12-07"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jack Schneider",
+      "status": "supported_factual_correction",
+      "evidence": "Original December10,1952 federal habeas opinion identifies labor organizer Jack Schneider and establishes actual detention, contrary to existing biography assertion of no documented arrest or detention. Preserve identification, replace unsupported negative with established custody facts; no case notes added.",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/108/640/1417378/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
+          "updates": {
+            "description": "Jack Schneider was a leader of the International Fur and Leather Workers Union who was targeted during a federal deportation drive against labor organizers. He was detained in civil immigration proceedings, including after his bail was revoked on October 25, 1950. He was released on administrative bail and was arrested again on October 24, 1952, then held without bail. In December 1952, a federal judge ruled that the decision to rearrest and hold him without bail was an abuse of discretion."
+          },
+          "precision_merge": {}
+        }
+      ]
+    }
+  ]
+}
