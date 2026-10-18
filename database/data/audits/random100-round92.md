@@ -2,13 +2,13 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:75 profiles updated live through batch1063;23 bounded reviews without additions;2 pending. Not100 completed.
+Progress:76 profiles updated live through batch1064;23 bounded reviews without additions;1 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
 - Esmond Adams — bounded_review_no_addition
 - Zachary Evetts — verified_addition_live_batch1030
-- Yaakub Ira Vijandre — pending
+- Yaakub Ira Vijandre — verified_addition_live_batch1064
 - Dwight Parker — bounded_review_no_addition
 - Salem Seleiman — verified_addition_live_batch1045
 - Albert Lowery Grabill — bounded_review_no_addition
