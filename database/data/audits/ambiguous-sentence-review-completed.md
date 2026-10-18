@@ -1,0 +1,5 @@
+# Completed review of 1,140 previously ambiguous sentence fields
+
+All1,140fields read individually. Live verified changes:1,077case fields across 1028profiles;693retained concise sentence text and384became null because no usable individual sentence was established.62fields already contained legitimate sentence details and were retained. One field remains unchanged after review: John Letbig (slug john-letbig), whose source fragment One yea and is incomplete. A similar John Liebig appears in a commutation list, but identity is not sufficiently secure to borrow his sentence or silently drop a potentially missing component.
+
+Source checks resolved16initial exceptions. Original values and each individual decision are in the CSV and batches1140/1141; nothing was added to case notes. Dates, counters, charges, biographies, timestamps and unrelated fields were preserved and verified. The text review is complete; the one damaged-source exception is unresolved. This report concerns this1,140-field subset, not an assertion that every earlier broad narrative flag has now been corrected.

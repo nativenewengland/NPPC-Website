@@ -2,7 +2,9 @@
   "batches_applied_verified": [
     1137,
     1138,
-    1139
+    1139,
+    1140,
+    1141
   ],
   "updated_cases": 2553,
   "profiles": 2508,
@@ -11,7 +13,7 @@
   "distinct_original_texts_inspected": 600,
   "original_cases_covered_by_inspected_texts": 3146,
   "next_group_index": 600,
-  "remaining_previously_ambiguous_cases_beyond_reviewed_groups": 1140,
+  "remaining_previously_ambiguous_cases_beyond_reviewed_groups": 0,
   "full_review_complete": false,
   "notes_added": 0,
   "all_other_fields_preserved": true,
@@ -22,5 +24,17 @@
     105,
     459
   ],
-  "remaining_work": "Review remaining distinct texts, including individualized ambiguous sentences and damaged OCR; do not deploy broad heuristic categories."
+  "remaining_work": "The1140-field individual text review is complete. John Letbig remains a damaged-source exception. Other earlier broad-scan categories are outside this completed subset.",
+  "ambiguous_text_review_complete": true,
+  "ambiguous_fields_reviewed": 1140,
+  "ambiguous_cases_updated": 1077,
+  "ambiguous_cases_retained": 62,
+  "source_verification_unresolved": [
+    {
+      "name": "John Letbig",
+      "slug": "john-letbig",
+      "case_id": "31144b94-efdc-486b-855d-17e01f5513cb",
+      "reason": "Incomplete OCR; no secure original source or identity bridge for the missing remainder."
+    }
+  ]
 }
