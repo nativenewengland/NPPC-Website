@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Mary Carroll Dowell",
+      "slug": "mary-carroll-dowell",
+      "expected": {
+        "id": "25b1ef6e-3e32-481e-b953-1c45daa94071",
+        "prisoner_id": "7d930962-c79a-4a67-8b95-b93137ee0c20",
+        "institution_id": null,
+        "charges": "Arrested for picketing the Wilson White House for woman suffrage.",
+        "arrest_date": "1919-01-20 00:00:00",
+        "indicted": null,
+        "convicted": "Imprisoned in the 1917-1919 National Woman's Party suffrage campaign",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "January 20, 1919: five days.",
+        "imprisoned_for_days": 5,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 17:46:59",
+        "updated_at": "2026-09-17 01:36:45",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 5,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1919-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}"
+      },
+      "source": "https://omeka.hsp.org/files/original/123/971/Transcription_HSP_17084.pdf",
+      "research_note": "Doris Stevens Jailed for Freedom appendix4 original account transcribed by Historical Society of Pennsylvania explicitly records January20,1919 watchfire arrest and five days served in District Jail. Establish custody monthJanuary1919, preserving dayunknown rather than equating arrest and admission. Contemporary original overrides later crowdsourced January27 arrest reference; existing January20arrest retained. January1 stored only as monthprecision placeholder. No release inferred from five days."
+    }
+  ]
+}
