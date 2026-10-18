@@ -1,0 +1,827 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Walsh",
+      "expected": {
+        "id": "032970d6-ef86-408d-aac2-a42bf21c8753",
+        "prisoner_id": "f0edf92b-d9f0-4893-89db-a57213feddd0",
+        "institution_id": null,
+        "charges": "Espionage Act of 1917 and/or the Sedition Act of 1918",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ten years in prison (Espionage/Sedition Act conviction).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:57",
+        "updated_at": "2026-10-14 00:00:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1917-12-01",
+        "release_date": "1922-10-30",
+        "custody_periods": "[{\"start\":\"1917-12\",\"end\":\"1920-01\"},{\"start\":\"1921-04\",\"end\":\"1922-10-30\"}]",
+        "imprisoned_for_months": null,
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html",
+        "https://catalog.archives.gov/id/117703363",
+        "https://weneverforget.org/hellraisers-journal-ben-fletcher-john-walsh-and-walter-nef-iww-class-war-prisoners-freed-by-president-harding/"
+      ],
+      "research_note": "Kohn1994p138 explicitly records actualCookCounty/Leavenworth custodyDecember1917–January1920 andApril1921–October30,1922. Enter two separate partialprecision intervals, preserving bailgap; clear generic12monthtotal. ContemporaryNovember1announcement confirms commutation but is not itself releaseproof; Kohncites prisonrecords."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Joudon M. Ford",
+      "expected": {
+        "id": "06f63413-120f-495a-9eff-9fce653f55fe",
+        "prisoner_id": "364e5b2d-13aa-4400-a31a-84005c38616c",
+        "institution_id": null,
+        "charges": "Attempting to carry a concealed weapon onto an airplane",
+        "arrest_date": "1969-01-24 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-01-24 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial detention; disposition unverified. Ford recalled one month in federal detention at West Street after the January 24, 1969 airport arrest. He acknowledged possessing guns but denied intending a hijacking.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-10 19:47:50",
+        "updated_at": "2026-10-14 00:00:47",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": 1,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "U.S. Commissioner Max Schiffman"
+      },
+      "sources": [
+        "https://www.themilitant.com/1969/3306/MIL3306.pdf",
+        "https://www.ccny.cuny.edu/sites/default/files/2023-06/Paper_reflection_update_June2023.pdf"
+      ],
+      "research_note": "OriginalMilitantFebruary7,1969 reports January24airportarrest and arraignment by USCommissionerMaxSchiffman. CurrentJanuary24alreadyfilled; add judicialofficer, not a guessed endpoint. Separate attemptedmurderdetention hasnoexactdates inreminiscence."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Joshua Sykes",
+      "expected": {
+        "id": "965bf719-810a-4365-8624-2618bdb6a160",
+        "prisoner_id": "c7d7551d-ecd4-47e4-a772-c2dbb435d344",
+        "institution_id": "e33b3e61-3900-4772-bd8b-a0267216b409",
+        "charges": "Espionage Act of 1917 and/or the Sedition Act of 1918",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1921-03-27 00:00:00",
+        "release_date": "1922-06-10 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 440,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:57",
+        "updated_at": "2026-10-15 00:00:22",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Conspiracy to obstruct the draft and violate the Espionage Act"
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/9th-cir/1920/264-f-945.html",
+        "https://www.pentecostaltheology.com/a-shudder-swept-through-them/"
+      ],
+      "research_note": "Original NinthCircuitSykes264F945 identifies conspiracy to obstructdraft andviolateEspionageAct, correcting genericActand/orSeditiontext. Appellateopinion omits exactterm; no speculative sentence. Currentactualadmission1921 preserved despite1919trial."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Justin Christopher Moore",
+      "expected": {
+        "id": "7be6e6a1-5408-4351-9b7f-50d73840ef70",
+        "prisoner_id": "d64fd800-2c79-4fa3-aa2f-bc6ebd3c059f",
+        "institution_id": "c425aa19-b3e0-4146-9dc7-adf468afc65d",
+        "charges": "Possession of unregistered destructive devices (Molotov cocktails)",
+        "arrest_date": "2021-12-09 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2023-09-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Todd Greenberg",
+        "judge": null,
+        "sentence": "40 months",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-10-17 02:04:05",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2023-09-13",
+        "plead": "Guilty",
+        "judge": "Lauren King",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/archives/opa/pr/washington-man-sentenced-bringing-box-molotov-cocktails-protest-march-summer-2020",
+        "https://www.justice.gov/oip/media/1440651/dl?inline=",
+        "https://www.morelaw.com/verdicts/2-22-cr-00013/WA/174205/"
+      ],
+      "research_note": "OriginalDOJOPASeptember13,2023 explicitly sentencedtoday, refiningcurrentSeptembermonth. OriginalDOJreleasedSeptember29,2022report givesguiltypleaSeptember22,2022. JudgeLaurenKing independentlyidentified incontemporarycasecoverage. No actualadmission/releaseinvented."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Emmanuel Quinones",
+      "expected": {
+        "id": "2c060a99-1bca-488c-9ef4-b4dec2c1e641",
+        "prisoner_id": "5f437c27-0228-4484-8b36-23810da6e11c",
+        "institution_id": "f2b4422a-39d2-44b8-a501-2a2799e67766",
+        "charges": "Threatening the President; brandishing a firearm",
+        "arrest_date": "2020-05-30 00:00:00",
+        "indicted": "Indicted in June 2020.",
+        "convicted": "Yes",
+        "plead": "Pleaded guilty to interstate threatening communications on September 11, 2020.",
+        "sentenced_date": "2021-03-09 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Assistant U.S. Attorney Jeff Haag",
+        "judge": "James Wesley Hendrix",
+        "sentence": "46 months federal prison for brandishing a semi-automatic rifle at \"low ready\" at a Lubbock BLM protest on May 30, 2020, refusing police commands, and threatening President Trump and his supporters online.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-10-16 16:13:25",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Interstate threatening communications (18 U.S.C. § 875(c))",
+        "plead": "Guilty",
+        "sentence": "46 months"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-ndtx/pr/man-who-brandished-assault-rifle-black-lives-matter-protest-sentenced-46-months"
+      ],
+      "research_note": "Official DOJ sentencing statement expressly gives guiltyplea to interstate threatening communications. Existing label threateningPresident/brandishing misstates federaloffense; preserve46monthimposedterm but no endpointcalculated. Actual policecustodyMay30mentioned, but continuity unknown."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jacob Hinshaw",
+      "expected": {
+        "id": "100bc606-bda0-4a75-a17d-7d5d9f512ddb",
+        "prisoner_id": "f69469ea-705a-4bd3-9d55-5879ff181be1",
+        "institution_id": "5af602da-f526-4a16-a73b-23e29a5883a5",
+        "charges": "Took part in the East Tennessee bridge-burning uprising of November 1861 against the Confederacy.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Tried by Confederate military authority and sentenced to hang, 1861",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1861-11-01 00:00:00",
+        "release_date": "1861-12-01 00:00:00",
+        "death_in_custody_date": "1861-12-01 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Hanged at Knoxville, Tennessee, in December 1861.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 07:55:15",
+        "updated_at": "2026-10-14 00:00:38",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "death_in_custody_date": "1861-11-30",
+        "release_date": null,
+        "sentence": "Death by hanging",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://tnmap.tn.gov/civilwar/Civil%20War%20Trails%20Installation%20Sites%20with%20descriptions.pdf",
+        "https://classic.tnvacation.com/civil-war/place/2063/hangings-at-the-depot-cwt/",
+        "https://www.teachtnhistory.org/File/A._Taylor_Unit.pdf"
+      ],
+      "research_note": "Tennessee state CivilWarTrails documentation and November30Confederate dispatch establish death by hanging November30,1861 at Greeneville, not DecemberKnoxville. Correct death-in-custody and deathdate, remove releasefield becauseexecution isnotrelease. November1861capture only monthknown; no exactarrestmanufactured. Biography location/date contradiction flagged without rewriting."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lottie E. Taylor",
+      "expected": {
+        "id": "fa486a92-068d-4906-833a-4dc80f2ee943",
+        "prisoner_id": "15c078ba-60b9-4825-9c98-c4eca0aed71b",
+        "institution_id": null,
+        "charges": "Disorderly conduct for refusing segregated bus seating",
+        "arrest_date": "1946-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "Successful appeal in 1948 — Taylor v. Commonwealth, 187 Va. 214",
+        "plead": "Not guilty; waived trial by jury",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "The Virginia Supreme Court of Appeals ruled in her favor in 1948, holding that refusal to change seats under the carrier’s rule did not constitute disorderly conduct.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-04 13:48:11",
+        "updated_at": "2026-10-17 01:23:01",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1946-09-12",
+        "sentence": "$5 fine and costs",
+        "plead": "Not guilty",
+        "judge": "Paul E. Brown",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://law.justia.com/cases/virginia/supreme-court/1948/187-va-214.html",
+        "https://scholarlycommons.law.wlu.edu/va-supreme-court-records-vol187/23/"
+      ],
+      "research_note": "Original VirginiaSupremeCourt opinion places actual forcibleremovalandpolice episodeSeptember12,1946; not-guiltyplea and actual5dollarfine pluscosts. OriginalW&Lcourtarchive identifiesPaulE.Browntrialjudge. No jailbooking or detentiondurationestablished, so no incarcerationcounterinvented."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Rose",
+      "expected": {
+        "id": "90ad1209-4147-44ba-8a5a-de24ebb4e9fc",
+        "prisoner_id": "3848fa8c-58bc-41dd-9cfa-c4e4793acf8c",
+        "institution_id": null,
+        "charges": "Initially criminal syndicalism; changed to assault with intent to do great bodily harm arising from resistance to a farm foreclosure in White Cloud, Michigan.",
+        "arrest_date": "1933-03-15 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted in September 1933; the Michigan Supreme Court reversed the conviction and granted a new trial by October 8, 1934.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1933-03-15 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Pugsley",
+        "sentence": "Six months to five years. Spent fifty-four days in custody and was released on $2,000 bail pending appeal.",
+        "imprisoned_for_days": 54,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 22:50:37",
+        "updated_at": "2026-10-13 17:02:36",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 54,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Assault with intent to do great bodily harm less than murder; going armed with a dangerous weapon",
+        "judge": "Earl C. Pugsley"
+      },
+      "sources": [
+        "https://www.courts.michigan.gov/492d95/siteassets/publications/msc-bound-volumes/201-300/bv_mi268_final.pdf",
+        "https://case-law.vlex.com/vid/people-v-rose-no-886722146"
+      ],
+      "research_note": "Original MichiganSupremeCourt PeoplevRose identifies trialjudgeEarlC.Pugsley and bothactualcounts, including omittedgoingarmedwithdangerousweapon. Actualconviction wasdangerousweaponcount, notassaultcount. No actualdischargeday found;54daysinbiography not enoughwithoutoriginalcustodycontext."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Paul Sweezy",
+      "expected": {
+        "id": "97e2d548-cde0-4305-9faf-5dbc914d6807",
+        "prisoner_id": "eacb7df8-e94f-4d7f-a836-e9a26304e7f1",
+        "institution_id": null,
+        "charges": "Contempt of Congress",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Cited 1954; case on appeal",
+        "plead": null,
+        "sentenced_date": "1954-06-30 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 06:50:18",
+        "updated_at": "2026-10-12 17:31:38",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Contempt of court",
+        "prosecutor": "Louis C. Wyman",
+        "sentence": "Confinement until purged of contempt"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USREPORTS-354/pdf/USREPORTS-354-234.pdf"
+      ],
+      "research_note": "Original Supreme Court opinion identifies state contempt of court and Attorney General Louis C.Wyman, correcting the Congress label. No additional actual jail endpoint inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Anthony Krchmarek",
+      "expected": {
+        "id": "7e0150da-d89b-4d43-9460-467f5c6751bb",
+        "prisoner_id": "4553bf38-6444-4c45-9128-071fefd88f1f",
+        "institution_id": null,
+        "charges": "Smith Act conspiracy to advocate the overthrow of the United States government by force and violence; Cleveland prosecution.",
+        "arrest_date": "1953-11-04 00:00:00",
+        "indicted": "November 9, 1953 superseding indictment.",
+        "convicted": "Convicted in 1956; reversed May 23, 1958, with remand for a new trial.",
+        "plead": null,
+        "sentenced_date": "1956-03-23 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Sumner Canary; Orell Mitchell; Bernard McCusty; William Kenney",
+        "judge": null,
+        "sentence": "Five-year sentence imposed; the Sixth Circuit reversed the judgment in Brandt v. United States. The sentence is not a measure of time actually spent in custody.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-13 05:24:16",
+        "updated_at": "2026-10-17 04:23:56",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "February 10, 1956; reversed May 23, 1958",
+        "sentence": "Five years"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0405.pdf"
+      ],
+      "research_note": "Original DOJ bulletin reports February10,1956 conviction and prosecution staff. Five-year sentence preserved as imposed term only. DOJ list also gives fuller prosecution staff initials already represented by surname in current record, no new judge established."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Dick Gregory",
+      "expected": {
+        "id": "d3889d89-ffd5-5eac-9be4-25dd4b456bed",
+        "prisoner_id": "1ef30c80-e76a-4332-ad20-e7418fb8e265",
+        "institution_id": null,
+        "charges": "Illegal net fishing: later sentence service following the 1966 Nisqually fish-in",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1968-06-01 00:00:00",
+        "release_date": "1968-07-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "90 days",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 00:25:26",
+        "updated_at": "2026-10-15 00:25:26",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1968-06-06",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://historylink.org/File/5462"
+      ],
+      "research_note": "HistoryLink explicitly reports beginning the Thurston County jail sentence June6,1968 and cites SeattleTimes June6 p61. Existing July16 endpoint is release home as trustee, not completion of sentence."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Michele Naar-Obed",
+      "expected": {
+        "id": "3ee92230-1c35-4965-bcdc-2d9ef89a36c6",
+        "prisoner_id": "aaa08338-7c82-4317-9b7a-8d67aedad632",
+        "institution_id": null,
+        "charges": "Trespass / destruction of government property (Plowshares direct action)",
+        "arrest_date": "1995-08-06 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1996-09-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "18 months",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:55",
+        "updated_at": "2026-10-14 05:02:16",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "prosecutor": "Ray Shepard"
+      },
+      "sources": [
+        "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1996/vp960313/03130511.htm"
+      ],
+      "research_note": "Original Virginian-Pilot March13,1996 identifies federal prosecutor RayShepard and reports August7,1995 action, conflicting with current August6. Propose prosecutor; flag action date conflict separately."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Kat Abughazaleh",
+      "expected": {
+        "id": "9a36570e-2516-4bee-9e04-18f4b6d0af1d",
+        "prisoner_id": "87f6b73c-c29c-4257-b224-9b220c32ec43",
+        "institution_id": null,
+        "charges": "Federal obstruction of officers; civil disorder.",
+        "arrest_date": "2025-11-12 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2025-11-12 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; charges dismissed with prejudice.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-25 01:49:27",
+        "updated_at": "2026-07-31 05:44:24",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "April Perry",
+        "sentence": null
+      },
+      "sources": [
+        "https://apnews.com/article/dad855b4398e4115a2e59111ae47b643"
+      ],
+      "research_note": "Original AP May21,2026 report identifies Judge AprilPerry at dismissal. No sentence was imposed; clear explanatory sentence text."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Izhar Muhammad",
+      "expected": {
+        "id": "fdc6475b-8fe8-444c-a895-4b1a39af3cfa",
+        "prisoner_id": "07c815ca-3737-4428-b955-6030ae0e5eae",
+        "institution_id": null,
+        "charges": "18 USC 2237(a)(2)(B) Providing Materially False Information to a Federal LEO During Boarding of a Vessel - January 2024 dhow Yunus interdiction",
+        "arrest_date": "2024-08-06 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2024-08-06 00:00:00",
+        "release_date": "2024-11-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Dismissed",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-10-14 00:00:28",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2024-02-14",
+        "sentence": null,
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://app.midpage.ai/document/united-states-v-pahlawan-1000437983539",
+        "https://www.casemine.com/judgement/us/67ac246d3904d92542acacca/amp"
+      ],
+      "research_note": "Original Pahlawan court findings explicitly name Izhar among the four initial defendants and report that FBI physically arrested all14 mariners February14,2024. Correct August6 formal-arrest date. Earlier military custody is documented but legal/institutional admission date remains separate. February2025 opinion reports Izhar material-witness deposition December2,2024, so criminal dismissal and current November endpoint cannot be equated with final custody release; no replacement endpoint proposed. Clear Dismissed sentence because it is an outcome, not imposed punishment."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Benjamin Lowell Careathers",
+      "expected": {
+        "id": "3338e498-8b16-4dcf-b746-c66f67d92f9a",
+        "prisoner_id": "82041544-78f0-4897-b82e-d79c53e0b62d",
+        "institution_id": null,
+        "charges": "Smith Act conspiracy to advocate the forceful overthrow of the United States government",
+        "arrest_date": "1951-08-17 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted in 1953; conviction overturned and prosecution dropped in 1957",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Five years imposed, but he remained free on bail during appeal and no service of the sentence is established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-18 21:46:07",
+        "updated_at": "2026-09-26 20:24:58",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1953-08-25",
+        "judge": "Rabe F. Marsh Jr.",
+        "sentence": "Five years",
+        "prosecutor": "Edward C. Boyle; Irwin A. Swiss; William G. Hundley; Richard J. Alfriend III",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0103.pdf",
+        "https://www.casemine.com/judgement/us/5914ca62add7b049347fa059"
+      ],
+      "research_note": "Original DOJ bulletin explicitly gives August20,1953 conviction, August25 sentencing, Judge RabeF.MarshJr, five-year term. No actual incarceration inferred from term; original district opinion identifies prosecution staff."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Abdul Majid",
+      "expected": {
+        "id": "2e4723a1-9162-4f34-8894-3e08e09d3216",
+        "prisoner_id": "9d052963-d14a-4a44-a83a-1baabce50392",
+        "institution_id": null,
+        "charges": "Murder",
+        "arrest_date": "1982-01-07 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1982-01-07 00:00:00",
+        "release_date": "2016-04-03 00:00:00",
+        "death_in_custody_date": "2016-04-03 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "33½ years",
+        "imprisoned_for_days": 12505,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-11 17:52:49",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"death_in_custody_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "33⅓ years to life"
+      },
+      "sources": [
+        "https://armthespiritforrevolutionaryresistance.wordpress.com/2017/07/08/interview-with-abdul-majid/",
+        "https://law.justia.com/cases/new-york/appellate-division/1987/133-ad2d-130.html"
+      ],
+      "research_note": "Own first-person interview gives aggregate33and1/3years-to-life on two counts, correcting current33halfyears. Original PeoplevYork confirms attempted-murder sentencing January24,1983, but murder term is later separate proceedings; no single aggregate sentencing date assigned."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Scott Kenji Warren",
+      "expected": {
+        "id": "5d4eaf78-2a5e-4a81-8d13-1bb0eff610e8",
+        "prisoner_id": "2f674ed3-ce48-4f84-96f8-db5035085e97",
+        "institution_id": "e20392a5-9c43-4c2e-92b6-615a64b1beaf",
+        "charges": "Throwing an object at a building by marking the Pentagon with blood",
+        "arrest_date": "2001-04-13",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2001-07-20",
+        "incarceration_date": "2001-07-20",
+        "release_date": "2002-01-20",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "WRI recorded custody from July 20, 2001, through January 20, 2002. A contemporaneous Nuclear Resister report described the imposed sentence as three months, so the published sentence length and WRI date range conflict.",
+        "imprisoned_for_days": 184,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 20:07:05",
+        "updated_at": "2026-09-27 20:07:05",
+        "date_precision": "{\"arrest_date\": \"day\", \"sentenced_date\": \"day\", \"incarceration_date\": \"day\", \"release_date\": \"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 184,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Three months"
+      },
+      "sources": [
+        "https://www.nukeresister.org/static/nr125/125whitehouse.html",
+        "https://wri-irg.org/sites/default/files/public_files/pfp01-en.pdf"
+      ],
+      "research_note": "Original NuclearResister reports three-month sentence, contradicting six-month prospective WRI roster. Propose three-month imposed term only; current actual184days and January20release need additional verification, not recalculation."
+    },
+    {
+      "table": "prisoners",
+      "name": "Jacob Hinshaw",
+      "expected": {
+        "id": "f69469ea-705a-4bd3-9d55-5879ff181be1",
+        "name": "Jacob Hinshaw",
+        "sort_order": 104849,
+        "photo": null,
+        "description": "Jacob Hinshaw was an East Tennessee Unionist who took part in the November 1861 uprising that burned Confederate railroad bridges across the region. Captured and condemned under the War Department's order to hang bridge burners, he was executed at Knoxville, Tennessee, in December 1861.",
+        "years_in_prison": null,
+        "state": "Tennessee",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Jacob",
+        "middle_name": null,
+        "last_name": "Hinshaw",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1840-12-08 00:00:00",
+        "death_date": "1861-11-30 00:00:00",
+        "age": null,
+        "ideologies": null,
+        "era": "1800s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-07-03 07:55:15",
+        "updated_at": "2026-09-24 16:46:04",
+        "slug": "jacob-hinshaw",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "death_date": "1861-11-30 00:00:00"
+      },
+      "sources": [
+        "https://tnmap.tn.gov/civilwar/Civil%20War%20Trails%20Installation%20Sites%20with%20descriptions.pdf",
+        "https://classic.tnvacation.com/civil-war/place/2063/hangings-at-the-depot-cwt/",
+        "https://www.teachtnhistory.org/File/A._Taylor_Unit.pdf"
+      ],
+      "research_note": "Tennessee state CivilWarTrails documentation and November30Confederate dispatch establish death by hanging November30,1861 at Greeneville, not DecemberKnoxville. Correct death-in-custody and deathdate, remove releasefield becauseexecution isnotrelease. November1861capture only monthknown; no exactarrestmanufactured. Biography location/date contradiction flagged without rewriting. Sentencing date withheld: execution day alone is insufficient to establish sentencing day."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Cal Ray Biggins",
+      "expected": {
+        "id": "260101fd-7f92-4e64-85df-9aa688ab0a04",
+        "prisoner_id": "9164592e-cff3-488a-ac6e-b2f7512eede5",
+        "institution_id": "ec4e0a40-6083-4e4c-a61f-018c3dc37bb4",
+        "charges": "Murder — indicted January 1974",
+        "arrest_date": "1974-01-11 00:00:00",
+        "indicted": null,
+        "convicted": "Unknown",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1974-01-11 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-19 20:24:59",
+        "updated_at": "2026-07-29 17:12:22",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Murder (two counts); armed robbery"
+      },
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/23d01444-0012-4437-8eab-08fde15d1052/content"
+      ],
+      "research_note": "Contemporary AP report explicitly names two murder counts and one armed-robbery count, actual jailing pending300000bond. Add missing named count; no release, conviction or sentence inferred from bond."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Charles Pernasilice",
+      "expected": {
+        "id": "6b462499-4be7-48d9-85f6-9ede6ca630ed",
+        "prisoner_id": "12263d1b-9ad1-49c0-beb9-ddf417fc85f9",
+        "institution_id": "138b0801-2907-4f4a-ba3f-042b81842add",
+        "charges": "Attempted second-degree assault.",
+        "arrest_date": "1971-09-13 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1975-04-05 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-24 23:21:38",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": null,
+        "judge": "Gilbert H. King",
+        "prosecutor": "Louis Aidala"
+      },
+      "sources": [
+        "https://www.themilitant.com/1975/3914/MIL3914.pdf",
+        "https://gateway.okhistory.org/ark%3A/67531/metadc1796670/m1/14/ocr/",
+        "https://www.themilitant.com/1975/3909/MIL3909.pdf"
+      ],
+      "research_note": "Original April18 Militant says sentencing forthcoming April30, and May1 AP says postponed one week. Thus storedApril5 sentencing is conviction not sentencing and should clear. Conflicting later secondary two-year versus contemporary three-year term requires reconciliation; propose no sentence amount yet. Original trial reporting identifies judgeGilbertH.King and prosecutorLouisAidala."
+    }
+  ]
+}
