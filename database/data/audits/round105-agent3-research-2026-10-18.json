@@ -1,0 +1,363 @@
+{
+  "round": 105,
+  "profiles": [
+    {
+      "name": "Philip Wigle",
+      "status": "reviewed_unresolved",
+      "evidence": "Original prisoner manuscript confirms the existing December 25, 1794 committal. Pardon date is not independently proof of same-day physical release. No identified contemporary portrait found. Sentence contains custody narrative rather than punishment.",
+      "sources": [
+        "https://historical.ha.com/itm/autographs/military-figures/whiskey-rebellion-important-manuscript-document-listing-the-persons-arrested-in-the-whiskey-rebellion/a/675-30166.s"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Andrew Olive",
+      "status": "supported_correction",
+      "evidence": "SOA Watch roster explicitly says charges deferred, not conviction or prison sentence. No custody endpoint established. Clear unsupported Yes verdict and narrative sentence; preserve charge.",
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "bbc61b2b-ebb0-4765-a3e0-ec7c688f342a",
+          "updates": {
+            "convicted": null,
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Greg Boertje-Obed",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Nuclear Resister issue 142 confirms later missile-silo custody but does not resolve the missing 2004 Offutt admission. Existing 2012 initial detention is already sourced. No sentence-derived start proposed. Several duplicate Y-12 rows remain a separate structural concern.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr142.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Eugene Brunner",
+      "status": "reviewed_unresolved",
+      "evidence": "Caltech archive reproduces contemporary report of six-month contempt sentence and denied appellate bail; does not independently document physical jail admission or discharge. Existing sentencing date and judge preserved.",
+      "sources": [
+        "https://calteches.library.caltech.edu/664/2/Weinbaum.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sitawa Nantambu Jamaa",
+      "status": "reviewed_unresolved",
+      "evidence": "Original accounts distinguish departure from solitary in October 2015 from prison release in 2024. The January 2018 segregation endpoint remains unverified; do not assign 2024 prison release as the segregation endpoint.",
+      "sources": [
+        "https://sitawanantambujamaa.wordpress.com/",
+        "https://sitawanantambujamaa.wordpress.com/category/sitawa-nantambu-jamaa-sn-r-n-dewberry/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dick Keough",
+      "status": "reviewed_unresolved",
+      "evidence": "Family obituary and original Unity Acres newsletter confirm existing vital dates. No newly verified criminal sentence for the December 1998 event found; later ministry accounts are not that disposition.",
+      "sources": [
+        "https://www.legacy.com/us/obituaries/syracuse/name/richard-keough-obituary?id=32188400",
+        "https://unityacres.org/wp-content/uploads/2022/02/2022-02.final_.a.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ricardo Densmore",
+      "status": "reviewed_unresolved",
+      "evidence": "Original June 9, 2020 detention order overturns magistrate release order and requires detention. Therefore earlier release order cannot be used as actual release. Later BOP mirror contains two distinct Ricardo Densmores; no unverified endpoint assigned.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/5ee9026d4653d00b01de9a79",
+        "https://knpr.org/knpr/2022-06-23/man-gets-prison-for-las-vegas-police-suv-fire-amid-2020-protests"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Wiebe",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual searches produced unrelated Henry Wiebe pastor and athlete records, with no identity bridge to the Oklahoma conscientious objector. No vital dates or portrait attached.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Craig",
+      "status": "reviewed_unresolved",
+      "evidence": "Search confirmed existing June 1920 to March 1922 account, but no new original arrest record or individually identified portrait. Actor John Craig is a namesake.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ronald Jordan",
+      "status": "reviewed_unresolved",
+      "evidence": "University archive synthesizes originals documenting eleven months and acquittal; contemporary Torch prints Jordan own letter while detained. Existing duration remains supported; no newly established exact endpoint or portrait.",
+      "sources": [
+        "https://policing.umhistorylabs.lsa.umich.edu/s/crackdowndetroit/page/in-focus-livernois-5",
+        "https://www.marxists.org/history/etol/newspape/torch-us/v3n4.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Manuel Fernandez Rodriguez",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name and Spanish spelling searches produced unrelated official Spanish lists, without a reliable individual US immigration release record. No deportation order treated as physical release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sam Markowich",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual searches returned a Sam Markowich born 1920, inconsistent with this deportee born 1899. Excluded that namesake; no new administrative custody details verified.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Martin Chancey",
+      "status": "supported_correction",
+      "evidence": "Original DOJ bulletin identifies Smith Act conspiracy prosecution and prosecuting team. Original Guardian June 1961 says reversal June 1958 and dismissal August 1959, contradicting current bio dismissal1958. No custody endpoint inferred from disposition.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0405.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1961-06-05-13-34-nat-guardian.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ba2d9716-3504-44c6-8ce0-5cbb01716929",
+          "updates": {
+            "charges": "Conspiracy to violate the Smith Act",
+            "prosecutor": "Sumner Canary; Orell J. Mitchell; Bernard V. McCusty; William S. Kenney",
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Meredith Lowell",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Ohio appellate opinion distinguishes two incidents and civil commitment from criminal sentence. Reversal of consecutive commitment terms does not establish physical release. Missing endpoint remains unresolved; preserve distinction.",
+      "sources": [
+        "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2021/2021-Ohio-3098.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Paul A. Oehme",
+      "status": "supported_correction",
+      "evidence": "Contemporary November 21, 1918 newspaper item identifies Private Paul A. Oehme, Massachusetts teacher, court-martialed at Camp Devens and sentenced to twenty years. No exact sentence day or actual custody endpoint inferred.",
+      "sources": [
+        "https://newspaperarchive.com/grass-range-review-nov-21-1918-p-3/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6c7d12f0-784b-4f01-96fd-fa8774846f95",
+          "updates": {
+            "sentence": "Twenty years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ross Colby",
+      "status": "reviewed_unresolved",
+      "evidence": "Original newspaper court reporter confirms existing June 12, 2019 sentence and almost six months competency detention. No exact admission date established; do not back-calculate from approximate term.",
+      "sources": [
+        "https://www.almanacnews.com/news/2019/06/19/almanac-embarcadero-media-hacker-sentenced/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hollis Watkins",
+      "status": "reviewed_unresolved",
+      "evidence": "Original November 1, 1961 jail letter individually names Watkins in Magnolia detention. It establishes presence on that date, not release or start. No unsupported new endpoint proposed.",
+      "sources": [
+        "https://www.crmvet.org/docs/pr/611101_nsa_pr_ms.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Wheeler",
+      "status": "supported_correction",
+      "evidence": "Original Hampshire Gazette transcription dated February 14, 1787 reports Wheeler committed last Monday evening, corresponding to February 12. Refines existing February month only; not an arrest-date inference. Original death judgment identifies Chief Justice William Cushing. Later secondary May5 release conflicts existing1788 and weekday chronology, so no release change.",
+      "sources": [
+        "https://shaysrebellion.stcc.edu/shaysapp/artifact_trans1245.html?page=&shortName=gazette_14feb87",
+        "https://americancenturies.org/collection/l04-096/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "8a170335-e8d0-4f55-acdd-964dde903a8c",
+          "updates": {
+            "incarceration_date": "1787-02-12 00:00:00",
+            "sentence": "Death",
+            "convicted": "Yes",
+            "judge": "William Cushing"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jacob Schneider",
+      "status": "reviewed_unresolved",
+      "evidence": "Swarthmore original photograph captions identify Jacob Schneider performing in Fort Douglas on January 16, 1920. Presence does not establish admission or release. Later grave record born1912 is an unrelated person.",
+      "sources": [
+        "https://www1.swarthmore.edu/library/peace/Exhibits/dg131eichel/dg131eichel.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ella Winter",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual searches did not establish US physical imprisonment. Political surveillance, professional exclusion and voluntary relocation are not a custody episode; missing fields remain unfilled.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William J. Jantz",
+      "status": "reviewed_unresolved",
+      "evidence": "Searches yielded several incompatible William Jantz memorials and unrelated Leavenworth Leopold Jantz. No individually matched original admission or release record identified.",
+      "sources": [
+        "https://www.archives.gov/kansas-city/finding-aids/leavenworth-penitentiary/inmates-i-j-k.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Milton Chaney",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name and underlying fact searches returned unrelated modern Milton Chaneys. No new original arrest or admission record located for the historical South Carolina defendant; no namesake vital data imported.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Benjamin F. Thompson",
+      "status": "reviewed_unresolved",
+      "evidence": "Search results for Benjamin F. Thompson include unrelated post-office notices and genealogies; none individually establish arrest date or portrait for the Cherokee Nation license prosecution.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Larry Fred Hunter",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual Freedom Rider release-date search yielded no new reliable individual discharge record. Group pardon, appeal and release dates are not assigned without individual corroboration.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Katharine Fisher",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Stevens appendix documents September13,1917 arrest but existing case dates are August1918 episode. Original Suffragist caption confirms Fisher among August1918 prisoners. Flag mixed episodes; do not put September1917 arrest into August1918 interval.",
+      "sources": [
+        "https://chswg.binghamton.edu/WASM-US/crowdsourcing/Stevens_JailedForFreedom_Appendix4.pdf",
+        "https://poets.org/poem/militants-certain-other-women-0/print"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frank Moormans",
+      "status": "reviewed_unresolved",
+      "evidence": "Original CCCO roster identifies Moormans at Seagoville. It gives no individual intake, release, charge or sentence; publication date cannot supply these.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004007.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Isaac Gilberg",
+      "status": "reviewed_unresolved",
+      "evidence": "Kansas Historical Society article identifies a captioned original 1910s Gilberg postcard and reproduces original trial chronology, confirming existing April12,1918 acquittal. No actual release date established. Portrait is a lead requiring original image crop and visual verification.",
+      "sources": [
+        "https://www.kansashistory.gov/publicat/history/2018summer_rosenblum.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Teruo Matsumoto",
+      "status": "supported_correction",
+      "evidence": "Heart Mountain case-file based profile confirms two-year sentence, existing vital dates and arrest. It does not establish actual release or36months served. Current36month total is unsupported and exceeds the stated sentence; clear rather than substitute a guessed actual term.",
+      "sources": [
+        "https://heartmountain.org/draft-resisters-hub/matsumoto-teruo/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "82007de8-4731-4158-8fd9-8a186ee714be",
+          "updates": {
+            "sentence": "Two years",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Tia Pugh",
+      "status": "supported_correction",
+      "evidence": "Original August19,2021 court reporting states sentencing that day by Terry Moorer to time served and $572.63 restitution, explicitly no probation. Current October26 sentence date and supervision are contradicted. No federal prison term or custody endpoint invented; municipal episode remains separate.",
+      "sources": [
+        "https://www.fox10tv.com/2021/08/19/no-jail-time-tia-pugh-mobile-civil-disturbance-federal-judge-rules/",
+        "https://www.govinfo.gov/content/pkg/USCOURTS-ca11-21-13136/pdf/USCOURTS-ca11-21-13136-0.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4f68767d-0879-4d38-ae03-247f55743e92",
+          "updates": {
+            "sentenced_date": "2021-08-19 00:00:00",
+            "sentence": "Time served; $572.63 restitution",
+            "judge": "Terry F. Moorer",
+            "charges": "Civil disorder (18 U.S.C. § 231(a)(3))"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "James M. Hopkins Jr.",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual exact-name searches returned unrelated James Hopkins records; no original individual disposition or release located for the June10,1961 Livingston Park arrest.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Osip Stepanov",
+      "status": "reviewed_unresolved",
+      "evidence": "Estonian archival soldier Osip Stepanov was born1884, unlike this Vitebsk-born1882 Buffalo deportee. No identity bridge; exclude those vital data and preserve administrative blank criminal-charge fields.",
+      "sources": [
+        "https://www.ra.ee/vabadussoda/soldier/view?id=36267"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ismael Cruz",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual name searches returned later Ismael Cruz vital records, inconsistent with this1931 defendant. No original individually identified photograph or extra date found.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jedidiah Poole",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name and SOA roster searches found no independently matching profile; the1983-2012roster does not cover the alleged2014case. Existing2014dates and BOP number require original docket/BOP verification, not assumed confirmed.",
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "review_complete": true,
+  "complete": true,
+  "final": true,
+  "reviewed_count": 33,
+  "supported_profiles": 6
+}

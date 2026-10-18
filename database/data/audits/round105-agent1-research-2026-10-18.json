@@ -1,0 +1,360 @@
+{
+  "profiles": [
+    {
+      "name": "Joeanna Cheatom",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original January 10, 1969 Militant confirms continued imprisonment after the December 27 headquarters raid. Vital dates conflict: Iowa scholarly history gives death May 2, 1984 age 52; grandson gives birth July 18, 1924 and death April 27, 1984 age 59. Hold vitals and release.",
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/themilitant/1969/v33n02-jan-10-1969-mil.pdf",
+        "https://cheatompark.org/joe-anna-e-cheatom",
+        "https://publications.iowa.gov/21668/1/1001Winter.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "86407ad9-aa9d-47cd-8a06-7c1d27bb37ca",
+          "updates": {
+            "incarceration_date": "1968-12-27"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John H. Scott",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Oberlin-Wellington history examined; December 7, 1858 warrant is not proof of execution/arrest. Existing actual jail interval retained; no imposed term established.",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ll/llst/005/005.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Carl Patterson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Western Worker confirms organizer identity, but 1933 material does not establish individual 1939 Madera admission or release. Washington death-row namesake excluded.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/westernworker/1933/v2n11-mar-13-1933.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "J. Robert Jones",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original January 8, 1970 Taylorsville Times predicts January 9 release; prospective date held. PBS establishes conviction but no exact custody dates. Wikipedia vital dates not independently corroborated.",
+      "sources": [
+        "https://newspapers.digitalnc.org/lccn/sn97064600/1970-01-08/ed-1/seq-5.pdf",
+        "https://www.pbs.org/wgbh/americanexperience/films/klansville/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Linda Ventimiglia",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Roy Bourgeois first-person account corroborates collective sentence; existing individual BOP endpoint retained. No confidently identified original portrait found.",
+      "sources": [
+        "https://www.archindy.org/criterion/files/1984/pdfs/19840330.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jason Webb",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Conscientious objector discharge account concerns Army separation, not verified imprisonment. No custody interval invented. Searches returned unrelated musician namesakes.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "N. Pumerantz",
+      "status": "reviewed_no_safe_update",
+      "evidence": "1921 House amnesty hearing table provides fine/sentencing details, not demonstrated custody. Existing September 24 incarceration may be sentencing conflation; no unverified correction proposed pending individual docket.",
+      "sources": [
+        "https://archive.org/details/amnestypardonfor00unit"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Kowalsky",
+      "status": "reviewed_no_safe_update",
+      "evidence": "NCLB/House amnesty tables identify sentence but not actual individual prison entry or release. Modern namesakes excluded.",
+      "sources": [
+        "https://archive.org/details/amnestypardonfor00unit"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Howard B. Brutton Jr.",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary October 3 report gives collective sentences of five to ten years, without individual allocation or admission. Publication date not assigned as sentencing date.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/national/1980/10/04/gunrunning-convictions/0b90f06b-d4b9-4938-948c-ee2a3bb8d65b/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles T. Schenck",
+      "status": "reviewed_no_safe_update",
+      "evidence": "No original identifiable portrait located. Existing six-month sentence versus January 1918–July 1919 interval needs docket verification; appellate date alone cannot establish actual service.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Schenck_v._United_States"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jacob Jackotonsky",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Zimmer INS-based biography examined. Administrative deportation does not establish named criminal charges or an imposed prison sentence. No verified portrait.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ronald Lyons",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Attica News roster lists indictment numbers and potential exposure, not actual admission/release or imposed sentence. Modern namesakes excluded.",
+      "sources": [
+        "https://freedomarchives.org/Documents/Finder/DOC510_scans/Attica/510.Prisons.AtticaNewsVol1No1.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jeremy Mott",
+      "status": "reviewed_supported_updates",
+      "evidence": "Signed first-person Jeremy Mott comment states prison service began January 22, 1968 and parole in 1969. Contemporary Friends Journal January 1969 corroborates Lewisburg imprisonment. Year-only parole retained at year precision.",
+      "sources": [
+        "https://blog.canyoubelieve.me/2012/04/april-4-1968.html",
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1969/HC12-50446.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "0b54d799-286f-4bfe-a9d9-39f3b9ce9f4e",
+          "updates": {
+            "incarceration_date": "1968-01-22",
+            "release_date": "1969-01-01"
+          },
+          "precision_merge": {
+            "incarceration_date": "day",
+            "release_date": "year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elia Matuska",
+      "status": "reviewed_no_safe_update",
+      "evidence": "INS-based deportee research reviewed; March 18, 1921 deportation retained. No supported individual admission, arrest, criminal charge or portrait.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Walter Kohrs",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual California IWW record remains missing endpoint. Search hits for South African safari operator are unrelated; four-year nominal term not converted to release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Victor Puertas",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Support-group February 26 announcement says already free; Spring 2024 prisoner newsletter says released as of February 25. Existing exact February 26 endpoint not proved by publication date; flag contradiction, no invented alternative day.",
+      "sources": [
+        "https://unoffensiveanimal.is/2024/02/26/great-news-victor-is-free/",
+        "https://michiganabolition.org/wp-content/uploads/2024/06/tos-spr24.tx4_.1-1-3959082630-e1717350419970.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Nathan Yagol",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Daily Worker confirms detention; Emory official letter says student rather than instructor. No new biography authorized. AncientFaces vital record not safely linked to this person.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1934/v11-n265-NY-nov-06-1934-DW-LOC.pdf",
+        "https://time.com/archive/6864735/letters-mar-4-1935/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Esiquio Navarro",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Gallup organizer researched with spelling variants; acquittal alone does not establish release, particularly potential subsequent immigration custody. No reliable individual endpoint found.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rufino Echevarría Rivera",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original First Circuit Vieques opinion identifies consolidated defendants but does not allocate an individual admission, release or term safely.",
+      "sources": [
+        "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/00-2146-01A.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lowell Alvin Wakefield",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original August 14, 1931 Daily Worker corroborates arrest reporting. Later mention of jailing does not prove continuous custody. May 1931 reporting does not resolve present case endpoints.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n195-NY-aug-14-1931-DW-LOC.pdf",
+        "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn90052143/1931-05-20/ed-1/seq-1/ocr/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ira Hardy",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original government Espionage prosecutions and jacket-derived research reviewed. Alias Arie Hardy identified; group Green Corn arrests not automatically applied as individual dates.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERIALSET-07987_00_00-063-0159-0000.pdf",
+        "https://stonesfromthecreek.blogspot.com/2017/07/green-corn-rebellion.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Terence Damien Kirby",
+      "status": "reviewed_supported_updates",
+      "evidence": "Ninth Circuit original opinion explicitly names District Judge Charles A. Legge and confirms January 3, 1996 physical release already recorded. Add missing judge to first extradition case only.",
+      "sources": [
+        "https://caselaw.findlaw.com/court/us-9th-circuit/1200191.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a0731feb-5a33-4e74-abb4-9744df05689f",
+          "updates": {
+            "judge": "Charles A. Legge"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "José Buenaventura",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Primary Guam exile roster and Mabini journal identify voyage; boarding January 1901 does not establish initial arrest. No new criminal charge inferred from deportation.",
+      "sources": [
+        "https://www.grandlodge.ph/sites/default/files/cabletow/Cabletow2020-5.pdf",
+        "https://repository.mainlib.upd.edu.ph/omekas/s/rare-periodicals/media/47121"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Phil McDowell",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original interviews document Canadian exile and stop-loss resistance, not verified US imprisonment. No custody case manufactured.",
+      "sources": [
+        "https://www.gq.com/story/phil-mcdowell-army-deserter-wil-hylton",
+        "https://www.washingtonpost.com/archive/style/2008/03/17/beyond-the-border-of-war/6b15e250-232d-48dd-a9eb-0a105d4fec06/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hans Diebel",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Glendale Library archival exhibit identifies Diebel and photos, but after-Pearl-Harbor wording does not safely establish exact arrest or release. Existing photo already present.",
+      "sources": [
+        "https://www.reflectspace.org/bundfuhrer"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Roberto A. Gándara Barnett",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Vieques consolidated appeal gives no safely individualized term or actual entry/release beyond existing fields.",
+      "sources": [
+        "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/00-2146-01A.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hakuai Oda",
+      "status": "reviewed_no_safe_update",
+      "evidence": "JCCH internee biography distinguishes Santa Fe camp transfers/end from eventual return to Hawaii. Neither camp departure nor voyage equated with legal release. Administrative detention requires no invented criminal sentence.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/oda-hakuai"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jim Perkins",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Buddhist Peace Fellowship Turning Wheel Spring 1986 PDF page 4 visually verified: human portrait caption identifies Jim Perkins with his daughters. Local page preview supplied to parent for exact crop. Article confirms pretrial bail and later Danbury service, but not later admission date.",
+      "sources": [
+        "https://objects.lib.uidaho.edu/bpf/turningwheel-spring1986.pdf"
+      ],
+      "proposed_updates": [],
+      "portrait_lead": {
+        "source_pdf": "https://objects.lib.uidaho.edu/bpf/turningwheel-spring1986.pdf",
+        "page_1based": 4,
+        "local_preview": "C:\\Users\\Maelstorm\\Documents\\GitHub\\NPPC-Website\\tmp\\random100-fields-round105\\jim-perkins-photo-page.png",
+        "visually_verified": true,
+        "identification": "caption Jim Perkins and his daughters; adult center"
+      }
+    },
+    {
+      "name": "Terri Johnson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Reported four-day military processing/separation does not establish imprisonment. No custody dates inferred.",
+      "sources": [
+        "https://thecommonills.blogspot.com/2007/08/iraq-snapshot_07.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "L. Manna",
+      "status": "reviewed_no_safe_update",
+      "evidence": "1921 House hearing table gives sentence, not actual endpoint. Existing exactly thirty-day interval may derive nominal term; flag, do not certify actual release without prison record.",
+      "sources": [
+        "https://archive.org/details/amnestypardonfor00unit"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Levin L. Waters",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original Maryland convention material names Levin S. Waters; later local history names Levin Waters. Initial/identity uncertainty prevents attaching unrelated family vital dates or precise Fort Delaware detention.",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/rbc/lcrbmrp/t8031/t8031.pdf",
+        "https://msa.maryland.gov/megafile/msa/speccol/sc3500/sc3520/001300/001396/pdf/times23june1991a.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Geneva Rose Tilbury",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original indictment identifies defendant and racketeering allegation but not actual jail booking or release. Unsigned form plea language not treated as a guilty plea. Anonymous birthdate claims excluded.",
+      "sources": [
+        "https://media.unicornriot.ninja/wp-content/uploads/2023/09/atlanta-rico-indicts-doc-official.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pavel Grib",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Deportee administrative record retained. Modern Ukrainian Pavel Grib imprisonment concerns another person. No criminal charge or portrait safely identified for historical subject.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Michael Smith",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original CCCO roster locates Michael Smith at Sandstone on reporting date, not his admission or release. Generic name prevents confident vital/photo match.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004006.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "complete": true,
+  "reviewed_count": 34,
+  "supported_profiles": 3,
+  "verified_portrait_leads": 1,
+  "limitations": "Bounded individual research; unresolved fields remain unverified, not claims that no further sources exist."
+}

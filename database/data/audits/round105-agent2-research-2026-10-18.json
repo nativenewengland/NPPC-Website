@@ -1,0 +1,378 @@
+{
+  "profiles": [
+    {
+      "name": "Eduardo Rol",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Balayanmilitaryregister transcription and originalidentifiedentry. Missingportraitonly; no individualEduardoRolimagefound, modernArgentinebusinessmannamesakeexcluded.",
+      "sources": [
+        "https://www.batangashistory.date/2024/09/american-held-prisoners-of-war-in.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anna Rasefsky",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalAugust29,1931DailyWorker mentionsAnnaRasefsky andcoalstrikecontext, but no newlyestablishedindividual discharge or sentence. No custodydatesinferredfrompublication.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n208-NY-aug-29-1931-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ernest D. Wells",
+      "status": "verified_fix_ready",
+      "evidence": "Christadelphianhistorianquotescontemporary1918Advocateaccount: sheriffactualarrestJanuary15,1918; chargeddesertion;20yearcourt-martialtermreduced10hardlabor. IdentifiessameErnestD.WellsofKohnasErnestPackieWells, gravestoneAugust4,1891-October18,1918. Addarrest/vitals/deathcustody andcorrectcharge/sentence, removeunsupported12monthsactualterm. February11court-martialnotautomaticallysentencingday.",
+      "sources": [
+        "https://tidings.org/articles/ernest-packie-wells/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "244dd9e9-79a6-449b-8ea7-d62d38dbcaf5",
+          "updates": {
+            "arrest_date": "1918-01-15",
+            "charges": "Desertion",
+            "sentence": "Ten years at hard labor",
+            "death_in_custody_date": "1918-10-18",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "death_in_custody_date": "day"
+          }
+        },
+        {
+          "table": "prisoners",
+          "id": "7bbb60e1-8928-45e1-9262-d3ef10567183",
+          "updates": {
+            "birthdate": "1891-08-04",
+            "death_date": "1918-10-18"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bernard Jillson",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalCCCOJanuary-February1969list namesBernardJillsonCampPendletonBrig; listdate not admissiondate and no individualmilitarycasefound. No new exactdate/portrait.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004037.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Don Hubbard",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Firsthandinterviewrecountswaterfountainjailingbutnot calendardate/duration. Namesakeobituariesexcluded; no longprisontermclaimed.",
+      "sources": [
+        "https://kreolmagazine.com/don-hubbard-a-life-in-struggle-triumph-and-wit/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jane Meyerding",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalFebruary15,1971FriendsJournalindividuallylistsMeyerding12monthNianticsentence, conflicting bio17-22months. Originaltrialreport says trialendedDecember3,1970, conflicts storedDecember2sentencing. Flagbothfororiginaljudgment, no actualcustodyendpointcalculated. CongressionalRecord1972quotesactualMonroeCountytrialcustodybutnotentry/discharge.",
+      "sources": [
+        "https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1971/HC12-50493.pdf",
+        "https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1971/HC12-50492.pdf",
+        "https://congress.gov/92/crecb/1972/02/14/GPO-CRECB-1972-pt3-6-1.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robert T. Smith",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ReviewedRobertT.SmithNewKensingtonidentity/exactsearch. Existing10monthsactualservice not enough toderive release from appealDecember19,1951. No freshindividualdischargeor originalportrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robertiena Freeman-Fletcher",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "NPSspecialhistorystudy cites FreemanFletcherspecific2004oralhistory; no newexactarrestdaybeyondstockadespan. No formalcriminalchargeestablished; legitimateblankretained.",
+      "sources": [
+        "https://www.nps.gov/articles/upload/In-Plain-Sight_-African-Americans-at-Andersonville-National-Historic-Site-A-Special-History-Study-small-file.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles McDew",
+      "status": "verified_fix_ready",
+      "evidence": "TwoindependentcontemporarysourcesincludingoriginalSNCCappealexplicitlyarrestMcDewFebruary17,1962, not18. Correctarrestandactualjailedday; no10yearstatutorymaximumassentence. SeparateMay1962retrialreport gives6months500dollarfine, differentinitialMcCombterm; needsseparatesentencinghistoryratherthanoverwriteinitial.",
+      "sources": [
+        "https://www.crmvet.org/docs/620000_sncc_appeal.pdf",
+        "https://www.marxists.org/history/etol/newspape/themilitant/1962/v26n10-mar-05-1962-mil.pdf",
+        "https://www.crmvet.org/docs/sv/sv6206.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1f58a1bb-7e09-53d0-8a86-2562bb148b19",
+          "updates": {
+            "arrest_date": "1962-02-17",
+            "incarceration_date": "1962-02-17",
+            "imprisoned_for_days": null
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Claude Lightfoot",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1955pressandfederalprosecutororalhistoryconfirmLightfootconviction, but legalmaximum10yearsnot imposedterm. Retrievedsource snippetsdidnotverify exactsentence or actualcustodyinterval; do not inventendpointfromreversal.",
+      "sources": [
+        "https://gahistoricnewspapers.galileo.usg.edu/lccn/sn82015425/1955-11-05/ed-1/seq-5/",
+        "https://www.lb7.uscourts.gov/oralHistories/parsonsJames.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Konstantin Loban",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactLoban/PeterDedkaDutkadeportee searchesdidnotlocatenewindependentindividualrecord. Excludemodernbusinessdirector/surgeonKonstantinLoban; administrative removallegitimateblankcriminalsentence.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "C. E. Berquist",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactC.E.BerquistKansasIWWsearchesyieldedunrelatedfamilybusinessrecords. BiographyKansascriminalsyndicalismcontradictsgenericEspionagecharge; originalKansasjudgmentneededbeforereplacement.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sadashichi Miura",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "JCCHindividualpagecaptionsecurelyidentifiesSadashichiMiurafrontrow2,13thfromleftinSantaFegroup. Identifiedoriginalportraitleadforparentvisualcrop, not genericplaceholder; noimageuploadedbyagent. November1945returndoesnotproveindividualdischarge.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/miura-sadashichi"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Feodor Fedorevich Wren",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactFeodorWren/Molokansearchdidnotyieldneworiginalrecord. BiographyAugust1917arrestcannotjustifyJanuary1asexactstart; existingyearprecisionmustberetained. No portrait from literaryWrennamesake.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tariq MaQbool",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "FirsthandCaptiveVoicesessayandSolitaryWatchdescribeearlierpretrialsegregation, which isdifferentfrom2025journalismretaliationcase. No specific2025start/endestablished, no originalmurdercustodydatescopiedintoretaliationepisode.",
+      "sources": [
+        "https://www.captivevoices.com/tariqswriting/2jx5wior6yuaie3802mf7jezo0q2dv",
+        "https://solitarywatch.org/2021/09/15/seven-days-in-solitary-9-15-21/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Wellman",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact1942NorthCarolinaWellmansearchesdominatedunrelatedfilmdirectorWilliamA.Wellman. Reprieve60daysnotrelease; noindividualoriginalendpoint/photoidentified.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Kaltejika",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactKaltejika/transliterations didnotidentifyfreshdeportationfile ororiginalportrait. AdministrativeBufordremovalnotcriminalsentence; noJanuary19arrivalasnewjailrelease.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Darrian Mitchell Nguyen",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "DOJoriginalcomplaint/sentencingrecords corroborateexistingcase. Missingphotoonly; nosecureindividualportraitfound. ComplaintunredactedpersonalidentifierspageexpresslymarkednotforpublicdisclosurewasnotusedforprofileDOBorcontactdetails.",
+      "sources": [
+        "https://www.justice.gov/usao-mn/pr/anoka-man-sentenced-prison-possession-machine-gun-and-methamphetamine"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ronnie Tallman",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryAssociatedPressreportsadministrativeconscientious-objectorapproval, not court-martialoractualconfinement. No newcaseinventedmerelytofillnocasesgap.",
+      "sources": [
+        "https://www.europapress.es/internacional/noticia-eeuu-indio-navajo-descubre-poderes-sanador-evita-ir-irak-20070127164721.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Steinberg",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalCongressionalRecordciting1951/1955newspapers says freedbailafter4monthsbyDecember1951 andstillfreeappeal1955. StoredJune16,1957endpointmistakesreversalforphysicalrelease, clear itandretainactual4months. July31,1951isindictment, notnecessarilyarrest; do notchangearrestfromreportpublicationdate. Sentencepunishmentonly.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1957-pt8/pdf/GPO-CRECB-1957-pt8-5-2.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "8f35ee1f-7f01-43da-850a-76bb8df06250",
+          "updates": {
+            "release_date": null,
+            "sentence": "Five years in prison and a $10,000 fine",
+            "imprisoned_for_months": 4,
+            "indicted": "July 31, 1951"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Jack Beavert",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalJune1,1928DailyWorkerreleaseitemidentifiedBeavertbutnoactualdaynewlyestablishedorportrait. Releasepublicationdatenotdischargeday; nohealth/commitmentdateinferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1928/1928-ny/v05-n129-NY-jun-01-1928-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bernard Clark",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactBernardClarkwartimespeechsearchesproducedmilitaryofficer/namesakes. NCLB6monthtermnotactualduration, noindividualarrest/admission/dischargesource.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lestra Peterson",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalMississippiSupremeCourtThomasvStateconsolidatedappealexplicitlynamesLestraAlenePetersonandbreachofpeaceconviction. Addnamedcharge; noindividualphysicaldischargefromreversal.",
+      "sources": [
+        "https://law.justia.com/cases/mississippi/supreme-court/1964/42987-0.html",
+        "https://crdl.usg.edu/people/peterson_lestra_alene"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3e739cc2-8d3b-4fc3-bc05-7bd54c8846a3",
+          "updates": {
+            "charges": "Breach of the peace"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ann Suellentrop",
+      "status": "verified_fix_ready",
+      "evidence": "HerownfiledtrialbriefconfirmsMay29,2023bookingEastPatrolthenreleaseandnotguiltyplea. Addmissingpleaonly. April2026cite/releasecasecorrectlyhasnooffsiteincarceration; nofalsecounteradded.",
+      "sources": [
+        "https://peaceworkskc.org/ann-suellentrop-submits-trial-brief/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "d36eb58d-4f0f-423e-ba99-4e69ade556f8",
+          "updates": {
+            "plead": "Not guilty"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Donald Fortenberry",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalJuly20,1959NationalGuardianreportsFortenberry/LyttleOmahaActionarrest. No actualreleaseverified, six-monthsentencecannotcreateendpoint. ExistingJulyincarcismonthprecision, notbeforeexactJuly8arrest.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1959-07-20-11-40-nat-guardian.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ralph DiGia",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ReviewedDiGia1942and1964peacewalksources. Generalthree-year/four-weekaccountsnotexactdischargeproof; separate1961civildefensedetention remainsunresolved. No back-calculateddates.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Armando Garnica",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ReviewedindividualChicagoEastSidereportidentity; missingportraitonly. No identifiedoriginalphoto located byexactnameprotestsearch; do notuseColombianhistorianArmandoMartinezGarnicaimages.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dion Tyrone Diamond",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ReviewedDiamondseparate1961/1962/1964and1960episodes. Existing59days1962and60days1964mustremainseparate; no newexactphysicalreturn or FreedomRideendpoint located. No endpointgeneratedfromterm.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Alfred Weider",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactAlfredWeider1918Espionagesearchdidnotyieldfreshindividualsource. ExistingSeptember30sentencedateplus9monthsdoesnotaloneverifyJune30discharge; flagpossiblearithmeticendpointfororiginalregisterreview.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Manuel Sarabia",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalBarbarousMexicochapterandCochisehistoricaljournalcorroborateArizonaJune30,1907kidnapping/return. HermosilloMexicoprisonisnotUSincarceration; laterCaliforniaarrestseparate. No MexicanjaildayscopiedintoUSinterval.",
+      "sources": [
+        "https://en.wikisource.org/wiki/Barbarous_Mexico/Chapter_15",
+        "https://www.cochisecountyhistoricalsociety.org/journals/cchs-vol-17-no-03-fall-1987.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jane Rogers",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalSupremeCourtRogers340US367transcriptSeptember21,1948explicitlyordersovernightjailandcontinuedmarshalcustody. September23fourmonthsentenceverifiedinoriginaltranscriptandFBIfile. Addactualstart/sentence/judge, no releasetermarithmetic.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USREPORTS-340/pdf/USREPORTS-340-367.pdf",
+        "https://vault.fbi.gov/rosenberg-case/ruth-alscher/Ruth%20Alscher%20Part%2001/at_download/file"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b37f10dc-cb67-4340-9f85-613a1ab56321",
+          "updates": {
+            "incarceration_date": "1948-09-21",
+            "sentenced_date": "1948-09-23",
+            "sentence": "Four months",
+            "judge": "J. Foster Symes",
+            "charges": "Criminal contempt of court"
+          },
+          "precision_merge": {
+            "incarceration_date": "day",
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ben Schapiro",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactBootsBenSchapiroOlympics1932searchesdidnotproducefreshindividualdischargeorportrait. Namesake1930realtyobituaryexcluded. Raisedbailpendingappealnotproofrelease; no270dayarithmetic.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Chip Tallon",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactChipTallonCCCO1970-71searchyieldedmodernconstructionmanbutnoidentitylinktoprisoner. Do notattachcurrentLinkedInportrait/DOBwithoutidentityconfirmation; noindividualcustodyboundaries.",
+      "sources": [],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 6,
+    "complete": true,
+    "live_mutations_by_agent": 0
+  }
+}
