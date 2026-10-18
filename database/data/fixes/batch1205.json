@@ -1,0 +1,95 @@
+{
+  "operations": [
+    {
+      "table": "prisoners",
+      "name": "Chris Lamprecht",
+      "expected": {
+        "id": "fe24b675-0876-4f0e-acb1-3c35c660a1fc",
+        "name": "Chris Lamprecht",
+        "sort_order": 25251,
+        "photo": "prisoners/chris-lamprecht.jpg",
+        "description": "Chris Lamprecht was a software engineer who created Indeed.com Lamprecht was also a noted figure in the hacker community and came to the attention of authorities when he was profiled in the hacker magazine Phrack. In the article Lamprecht espoused a philosophy of noncooperation with authorities to counter the (at the time) common tactic of hackers reporting other hackers to police as a way to eliminate rivals. Lamprecht was arrested for selling stolen telephone circuit boards. After his arrest police secretly recorded phone calls where Lamprecht spoke to a friend who suggested retaliating against the officers who arrested him. Lamprecht shot down the idea but authorities deceptively edited the conversation while showing it to a Judge to appear as if Lamprecht was suggesting the idea. He was sentenced to 5 years in prison.",
+        "years_in_prison": 1995,
+        "state": null,
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Chris",
+        "middle_name": null,
+        "last_name": "Lamprecht",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1973-01-01 00:00:00",
+        "death_date": null,
+        "age": 53,
+        "ideologies": null,
+        "era": "1990s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": "61153-080",
+        "awaiting_trial": 0,
+        "created_at": "2026-04-04 14:50:30",
+        "updated_at": "2026-08-10 23:11:52",
+        "slug": "chris-lamprecht",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Chris Lamprecht was a software engineer who created Indeed.com Lamprecht was also a noted figure in the hacker community and came to the attention of authorities when he was profiled in the hacker magazine Phrack. In the article Lamprecht espoused a philosophy of noncooperation with authorities to counter the (at the time) common tactic of hackers reporting other hackers to police as a way to eliminate rivals. Lamprecht was arrested for selling stolen telephone circuit boards. After his arrest police secretly recorded phone calls where Lamprecht spoke to a friend who suggested retaliating against the officers who arrested him. Lamprecht shot down the idea but authorities deceptively edited the conversation while showing it to a Judge to appear as if Lamprecht was suggesting the idea. He was sentenced to 70 months in prison."
+      },
+      "sources": [
+        "https://www.ussc.gov/sites/default/files/pdf/amendment-process/public-hearings-and-meetings/19960311/19960311_Testimony.pdf"
+      ],
+      "research_note": "Firsthand February 8, 1996 letter submitted to US Sentencing Commission explicitly states 70-month sentence. Correct truncated biography term and remove custody commentary from sentence field without adding case notes. Existing custody dates retained."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Chris Lamprecht",
+      "expected": {
+        "id": "6751804f-aa22-4c26-b4c4-2c56ef89fca9",
+        "prisoner_id": "fe24b675-0876-4f0e-acb1-3c35c660a1fc",
+        "institution_id": "4f255baa-f195-43bd-b46f-e6f7c5df8784",
+        "charges": "Money laundering",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1995-01-01 00:00:00",
+        "incarceration_date": "1995-01-01 00:00:00",
+        "release_date": "2000-03-03 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Sam Sparks",
+        "sentence": "70 months imprisonment. BOP register 61153-080 records release from federal custody on March 3, 2000. This is the BOP custody endpoint; it does not establish the date of any earlier transfer to a halfway house or the end of supervised release.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-16 16:38:08",
+        "date_precision": "{\"sentenced_date\": \"year\", \"release_date\": \"day\", \"incarceration_date\": \"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "70 months imprisonment"
+      },
+      "sources": [
+        "https://www.ussc.gov/sites/default/files/pdf/amendment-process/public-hearings-and-meetings/19960311/19960311_Testimony.pdf"
+      ],
+      "research_note": "Firsthand February 8, 1996 letter submitted to US Sentencing Commission explicitly states 70-month sentence. Correct truncated biography term and remove custody commentary from sentence field without adding case notes. Existing custody dates retained."
+    }
+  ]
+}
