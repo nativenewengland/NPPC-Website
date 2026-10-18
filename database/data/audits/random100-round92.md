@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:68 profiles updated live through batch1056;17 bounded reviews without additions;15 pending. Not100 completed.
+Progress:69 profiles updated live through batch1057;18 bounded reviews without additions;13 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -35,7 +35,7 @@ Progress:68 profiles updated live through batch1056;17 bounded reviews without a
 - Jessica Bowie — verified_addition_live_batch1039
 - Joshua Schulte — verified_addition_live_batch1026
 - Hashem Younis Hashem Hnaihen — verified_addition_live_batch1024
-- Timothy Reed — pending
+- Timothy Reed — verified_addition_live_batch1057
 - Michael Kimble — pending
 - Jesse Van Camp — verified_addition_live_batch1051
 - Wilfredo Vélez Hernández — bounded_review_no_addition
@@ -71,7 +71,7 @@ Progress:68 profiles updated live through batch1056;17 bounded reviews without a
 - Tina Lai — verified_addition_live_batch1042
 - Matthew Hale — verified_addition_live_batch1035
 - Mohammad Sharifullah — verified_addition_live_batch1041
-- Leon Blum — pending
+- Leon Blum — bounded_review_no_addition
 - Ray Edmerson — bounded_review_no_addition
 - Luis Dalhet Hipolito — verified_addition_live_batch1041
 - Brian Simpson — verified_addition_live_batch1054
