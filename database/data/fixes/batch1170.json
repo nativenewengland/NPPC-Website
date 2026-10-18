@@ -1,0 +1,82 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Cyrus Pringle",
+      "slug": "cyrus-pringle",
+      "expected": {
+        "id": "62e1a72c-0422-4d9c-a8dd-459b5ead077e",
+        "prisoner_id": "228f0bd0-d980-494d-bb44-cb1dc6eeb788",
+        "institution_id": null,
+        "charges": "Refusal to bear arms (Quaker conscientious objector drafted into the Union Army, 1863)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1863-07-13 00:00:00",
+        "release_date": "1863-11-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 117,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:53:56",
+        "updated_at": "2026-07-29 17:05:29",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1863-08-25 00:00:00",
+        "release_date": "1863-11-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.gutenberg.org/cache/epub/16088/pg16088-images.html",
+      "research_note": "Pringle Aug26 jointletter confirms camparrival yesterday. Dakin explicitly present in guardhouse Aug31; earliest exact admission unresolved, use August month precision, not Aug31 as invented arrival. Nov6 entry explicitly release for group; Nov7 is departure. July13 draft does not prove custody."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Peter Dakin",
+      "slug": "peter-dakin",
+      "expected": {
+        "id": "5eab909b-bc9c-4e3f-b705-13013ca0f41d",
+        "prisoner_id": "0e40a77e-fa1d-4825-9d1a-59bd08dc1c5e",
+        "institution_id": null,
+        "charges": "Refusal to bear arms (Quaker conscientious objector drafted into the Union Army, 1863)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1863-07-13 00:00:00",
+        "release_date": "1863-11-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 117,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:53:56",
+        "updated_at": "2026-07-29 17:05:30",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1863-08-01 00:00:00",
+        "release_date": "1863-11-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.gutenberg.org/cache/epub/16088/pg16088-images.html",
+      "research_note": "Pringle Aug26 jointletter confirms camparrival yesterday. Dakin explicitly present in guardhouse Aug31; earliest exact admission unresolved, use August month precision, not Aug31 as invented arrival. Nov6 entry explicitly release for group; Nov7 is departure. July13 draft does not prove custody."
+    }
+  ]
+}
