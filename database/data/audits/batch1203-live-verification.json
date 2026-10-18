@@ -1,0 +1,153 @@
+{
+  "batch": 1203,
+  "profiles_updated": 3,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1203-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "802e470a-d9da-4edc-b419-3c126fe5a8d2",
+      "name": "Robert Seth Hayes",
+      "changes": {
+        "sentence": [
+          "25 years",
+          "Twenty-five years to life"
+        ],
+        "updated_at": [
+          "2026-09-18 00:13:35",
+          "2026-10-18 23:39:35"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "c81924ed-c4d2-418a-bd8f-cf0a9c8c9ff8",
+      "name": "Gerd Büntzly",
+      "changes": {
+        "description": [
+          "Gerd Büntzly is a German anti-nuclear activist with the Gewaltfreie Aktion Atomwaffen Abschaffen (GAAA). He has been arrested repeatedly for nonviolent civil disobedience at Büchel Air Base in western Germany, the U.S. Air Force facility that stores approximately 20 B61 nuclear bombs as part of NATO nuclear sharing. He was sentenced to 45 days in German federal prison for an April 30, 2019 trespass action and served his sentence in 2024.",
+          "Gerd Büntzly is a German anti-nuclear activist with Gewaltfreie Aktion Atomwaffen Abschaffen (GAAA). He has repeatedly participated in nonviolent protests at Büchel air base, where U.S. nuclear weapons are stationed under NATO nuclear sharing. On March 4, 2024 he was fined ninety daily rates for trespass during the May 8, 2023 action. He declined to pay the fine and entered prison at Bielefeld-Ummeln on October 14, 2024 to serve a forty-five-day substitute sentence. He was released on November 27, 2024."
+        ],
+        "updated_at": [
+          "2026-09-25 11:30:18",
+          "2026-10-18 23:39:35"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3e13124b-bf91-4dee-b98c-f1aedd5deca0",
+      "name": "Gerd Büntzly",
+      "changes": {
+        "arrest_date": [
+          "2019-04-29 00:00:00",
+          null
+        ],
+        "sentenced_date": [
+          null,
+          "2024-03-04"
+        ],
+        "incarceration_date": [
+          "2019-04-29 00:00:00",
+          "2024-10-14"
+        ],
+        "release_date": [
+          "2024-11-26 00:00:00",
+          "2024-11-27"
+        ],
+        "sentence": [
+          "45 days German federal prison",
+          "Ninety daily-rate fines; forty-five days imprisonment in lieu of payment"
+        ],
+        "imprisoned_for_days": [
+          2038,
+          44
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:13",
+          "2026-10-18 23:39:35"
+        ],
+        "date_precision": [
+          null,
+          "{\"sentenced_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "2a87d75a-d972-4b87-857a-86c3384a7af6",
+      "name": "David Gardner",
+      "changes": {
+        "description": [
+          "David Gardner was a Los Angeles Catholic Worker who participated in the Ash Wednesday March 5, 2003 blockade of the downtown Los Angeles federal building, two weeks before the U.S. invasion of Iraq. Sentenced to 45 days federal custody beginning May 1, 2003.\n\nOn Ash Wednesday, March 5, 2003 — two weeks before the U.S. invasion of Iraq — Los Angeles Catholic Workers blockaded an intersection at the downtown Los Angeles federal building in liturgical antiwar witness. They received 45-day federal sentences.",
+          "David Gardner was a member of the Los Angeles Catholic Worker who was jailed following an antiwar action at the downtown Los Angeles federal building on Ash Wednesday, March 5, 2003. In his interview for Rosalie G. Riegle's Crossing the Line, he described receiving a forty-five-day sentence in Los Angeles County Jail, with community service offered as an alternative. He said that overcrowding led to his early release after eight days. He distinguished this imprisonment from earlier protest arrests that had not resulted in a jail sentence."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:39:35"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "915a8c40-490f-44d2-be43-3cda3735294d",
+      "name": "David Gardner",
+      "changes": {
+        "institution_id": [
+          "9e613ec6-ea72-4e20-8574-097a31b2c238",
+          "bca5d10d-cb6f-4fd0-aaac-e33fb2def448"
+        ],
+        "arrest_date": [
+          "2003-03-04 00:00:00",
+          "2003-03-05"
+        ],
+        "incarceration_date": [
+          "2003-03-04 00:00:00",
+          null
+        ],
+        "release_date": [
+          "2003-06-14 00:00:00",
+          null
+        ],
+        "sentence": [
+          "45 days federal",
+          "Forty-five days in Los Angeles County Jail"
+        ],
+        "imprisoned_for_days": [
+          102,
+          8
+        ],
+        "updated_at": [
+          "2026-08-04 19:34:51",
+          "2026-10-18 23:39:35"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\"}"
+        ],
+        "documented_imprisoned_for_days": [
+          null,
+          8
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "slug": "gerd-buntzly",
+      "http": 200,
+      "counter": "1 Month 13 Days"
+    },
+    {
+      "slug": "david-gardner",
+      "http": 200,
+      "counter": "8 Days"
+    },
+    {
+      "slug": "robert-seth-hayes",
+      "http": 200,
+      "counter": "44 Years 10 Months 7 Days"
+    }
+  ]
+}
