@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:74 profiles updated live through batch1062;21 bounded reviews without additions;5 pending. Not100 completed.
+Progress:75 profiles updated live through batch1063;23 bounded reviews without additions;2 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -36,7 +36,7 @@ Progress:74 profiles updated live through batch1062;21 bounded reviews without a
 - Joshua Schulte — verified_addition_live_batch1026
 - Hashem Younis Hashem Hnaihen — verified_addition_live_batch1024
 - Timothy Reed — verified_addition_live_batch1057
-- Michael Kimble — pending
+- Michael Kimble — verified_addition_live_batch1063
 - Jesse Van Camp — verified_addition_live_batch1051
 - Wilfredo Vélez Hernández — bounded_review_no_addition
 - Alexander Justin White — verified_addition_live_batch1025
@@ -78,7 +78,7 @@ Progress:74 profiles updated live through batch1062;21 bounded reviews without a
 - Cody Balmer — verified_addition_live_batch1029
 - Jamison Wagner — verified_addition_live_batch1031
 - Tamako Matano — verified_addition_live_batch1059
-- Abby Rampone — pending
+- Abby Rampone — bounded_review_no_addition
 - Christian Frazee — verified_addition_live_batch1029
 - Keonne Rodriguez — verified_addition_live_batch1023
 - Nicolas Maduro Moros — verified_addition_live_batch1036
@@ -102,7 +102,7 @@ Progress:74 profiles updated live through batch1062;21 bounded reviews without a
 - Lynette Sharp — verified_addition_live_batch1037
 - Matthew Lee Comiskey — verified_addition_live_batch1031
 - Gilbert Parker — verified_addition_live_batch1052
-- Edward Stevenson — pending
+- Edward Stevenson — bounded_review_no_addition
 - Carter Miles Ledoux — verified_addition_live_batch1040
 
 ### Additional bounded reviews, October 17
@@ -147,3 +147,9 @@ Ray Edmerson: Reviewed contemporary March7,1970 Black Panther account naming Jan
 Sue Leon Africa: Reviewed MOVE-authored25 Years on the MOVE coming-home account, which explicitly places Sue release1992 after12years, already recorded with YEAR precision and144documented months. Contemporary1992 andJuly1993 support rosters still list006325 but may carry stale addresses; they do not establish an actual later release day. May13,1992 belongs to Ramona, December9,1993 to Carlos, January6,1994 to Consuewella. Earlier pregnancy-related release is separate. No exact missing endpoint, DOB or verified new portrait found; existing photo preserved. https://azinelibrary.org/approved/25-years-move-1.pdf ; https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.23.fal.92.pdf ; https://freedomarchives.org/Documents/Finder/DOC510_scans/Pelican_Bay/510.pelican.bay.prison.express.vol2.no2.July1993.pdf
 
 Evgraf Kovalenko: Read full Kenyon Zimmer archival biography and checked existing live values: birth1885, May1919 arrest, December21,1919 Buford deportation and aliases Efgram/Kovaleko/E.Koval already populated. Sources INS54616/176 and FBI OG8000-360780; linked OpenList family exile account supplies no exact birth/death or dated Russian exile. No portrait supplied by this entry. Russian internal exile chronology cannot be assigned to US custody. No verified missing field found. https://kenyonzimmer.com/red-scare-deportees/korotkov-to-kovalenko/
+
+### Bounded reviews accompanying batch1063
+
+Abby Rampone: Reviewed first-person April8,2026 Holy Week pilgrimage account: author describes holding HONK FOR PEACE sign at Creech and some group members handcuffed, but does not individually establish imprisonment, birth date or a longer detention. Existing April1 arrest/release and cited-and-released-within-one-hour case retained. No custody start manufactured from group arrest or publication date; existing portrait preserved. https://loveincommunity.substack.com/p/i-am-the-dance-and-i-still-go-on
+
+Edward Stevenson: Reviewed Kentucky Governors-derived biography and near-contemporary History of Methodism in Kentucky. Book explicitly states October3,1797 birth, while Governors/FindAGrave-derived entry says September3,1797; Governors structured death June6 conflicts its cited July6. Existing year1797 and July6 death retained pending reconciliation rather than falsely asserting exact birthday. Lincoln January13,1864 pardon is already recorded; signature alone does not independently prove physical release. No additional verified missing case field or portrait found. https://upload.wikimedia.org/wikipedia/commons/f/fa/The_history_of_Methodism_in_Kentucky_%28IA_00649757.903.emory.edu%29.pdf ; https://fromthepage.com/mountauburncemetery/mount-auburn-cemetery-letterpress-copying-books/article/32210658 ; https://www.raabcollection.com/presidential-autographs/lincoln-pardon-conspiracy
