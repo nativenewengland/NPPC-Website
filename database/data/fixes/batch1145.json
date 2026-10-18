@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Luis Galaraza",
+      "slug": "luis-galaraza",
+      "expected": {
+        "id": "38578daf-b9a0-456c-bef3-359d30366783",
+        "prisoner_id": "1b4c5b16-e445-41d7-afa5-0ee7274f0382",
+        "institution_id": null,
+        "charges": "Espionage Act (Title I), Section 3.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1918-02-23 00:00:00",
+        "release_date": "1919-02-24 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1 year and 1 day.",
+        "imprisoned_for_days": 366,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 20:46:20",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1918-02-23 00:00:00",
+        "release_date": "1918-12-13 00:00:00",
+        "incarceration_date": null,
+        "imprisoned_for_days": null,
+        "date_precision": "{\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/75/Amnesty_and_pardon_for_political_prisoners_-_hearings_.._%28IA_amnestypardonfor00unit%29.pdf#page=93",
+      "research_note": "Visually verified printed page87/PDFpage93: February23,1918 is date of sentence; out; expiration December13,1918. Prior February24,1919 endpoint exactly adds imposed year-and-day to sentencing and is contradicted by original roster. No actual admission established: move sentence date to its proper field and clear unsupported admission/day total. No notes or biography changes."
+    }
+  ]
+}
