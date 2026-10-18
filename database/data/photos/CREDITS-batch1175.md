@@ -1,0 +1,1 @@
+Giovanni Fruzzetti portrait: Kenyon Zimmer, Red Scare Deportees, named entry; source credit Ancestry family photo. https://kenyonzimmer.com/red-scare-deportees/fraser-to/ Original pixels, no AI alteration.
