@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Roland Freeman",
+      "slug": "roland-freeman",
+      "expected": {
+        "id": "5e9ecdcc-81e0-41b1-93c0-3fd792880161",
+        "prisoner_id": "96d56640-c1c3-4492-a48a-5ff695c8a8e1",
+        "institution_id": null,
+        "charges": "Detention following the December 8, 1969 Los Angeles Panther raids; individual charge counts not verified",
+        "arrest_date": "1969-12-08 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1969-12-01",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Custody documented; exact duration and physical release date unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-10 05:03:01",
+        "updated_at": "2026-10-10 05:03:02",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1969-12-08 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "source": "https://s3.us-west-1.wasabisys.com/luminist/PR/BP_1969_12_13.pdf ; https://www.angelswalkla.org/wp-content/uploads/AWLA_CENTRAL-AVENUE_STANCHIONS-1.pdf",
+      "research_note": "Contemporary Black Panther December13,1969 medical report (Terry Kupers, datedDecember9) names Roland Freeman among arrested wounded held in the jail ward at Los Angeles County General Hospital after December8 raid. Angels Walk Central Avenue historical marker independently names him among those arrested. Refined existing December1969 incarceration month to December8,1969, matching already verified arrest. No continuous custody through Dallas December9,1970 re-arrest or individual final release inferred. Birth-year conflict remains flagged and untouched."
+    }
+  ]
+}
