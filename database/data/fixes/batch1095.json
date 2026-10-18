@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Vane Dart",
+      "slug": "vane-dart",
+      "expected": {
+        "id": "f8658369-9e73-4efb-975c-d67c0621f855",
+        "prisoner_id": "df9f71c8-4d5c-44df-aeac-69e901451069",
+        "institution_id": "f6e65d28-d37d-4539-a2bc-aa086369687d",
+        "charges": "Disobeying orders; refusal of military service (World War I court-martial of a conscientious objector)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at Fort Leavenworth; Alcatraz.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:27:59",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1917-11-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\"}",
+        "sentence": "Held at Fort Leavenworth; Alcatraz.\n\nCourt-martialed for desertion and sentenced in November 1917 to ten years at Alcatraz. This is the imposed sentence; actual custody admission, release and time served remain unverified."
+      },
+      "source": "https://homesteadmuseum.blog/2026/05/10/slacker-or-conscientious-objector-a-booking-card-for-joseph-h-braverman-los-angeles-county-sheriffs-department-10-may-1918/",
+      "research_note": "Homestead Museum historian Paul R. Spitzzeri explicitly describes Vane V. Dart of Santa Ana November1917 ten-year Alcatraz sentence. Contemporary Liberator 1918 also lists Vane V. Dart ten years (location is printed inconsistently); source-stated term is not entered as actual time served. Only sentencing MONTH added, no admission/release inferred. https://mc.dlib.nyu.edu/files/books/lib000003/lib000003_lo.pdf"
+    }
+  ]
+}
