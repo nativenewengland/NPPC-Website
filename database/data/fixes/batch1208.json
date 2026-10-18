@@ -1,0 +1,100 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Seamus Moley",
+      "expected": {
+        "id": "83662021-f207-48b8-933f-52c66ae44a33",
+        "prisoner_id": "f0d63253-b9d3-4495-be9b-82487baf9c71",
+        "institution_id": null,
+        "charges": "Conspiracy to obtain and export a Stinger missile and other weapons.",
+        "arrest_date": "1990-01-12 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1991-06-07 00:00:00",
+        "incarceration_date": "1990-01-12 00:00:00",
+        "release_date": "1996-07-15 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Jose A. Gonzalez; Norman C. Roettger",
+        "sentence": "Fifty-one months; sentences vacated and resentencing ordered.",
+        "imprisoned_for_days": 2376,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-18 18:32:24",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1996-07-17",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+        "https://irp.fas.org/threat/fbi_terror95/terrorin.htm",
+        "https://app.midpage.ai/opinion/608967/united-states-v-kevin-mckinley-seamus-moley-joseph-mccolgan/"
+      ],
+      "research_note": "Irish Department of Foreign Affairs contemporary September1996 briefing explicitly identifies actual release/deportation July17 (not July15). FBI1995 annual report establishes June30 second sentence; 1993 appellate opinion confirms separate 1991 51-month sentence and vacatur. Biography conflated proceedings. Do not compare whole custody period against only the nineteen-month component or manufacture an endpoint from sentence."
+    },
+    {
+      "table": "prisoners",
+      "name": "Seamus Moley",
+      "expected": {
+        "id": "f0d63253-b9d3-4495-be9b-82487baf9c71",
+        "name": "Seamus Moley",
+        "sort_order": 29648,
+        "photo": null,
+        "description": "Seamus Moley was an Irish national swept into a series of U.S. investigations targeting alleged IRA-linked arms procurement operations. The underlying allegations reflected a strategic focus on anti-aircraft capability—weaponry intended to threaten British military aircraft—rather than small-arms shipments alone.\n\nMoley was arrested in January 1990 in the same Stinger-missile undercover operation that ensnared McKinley and others. He later entered a plea agreement in March 1995 on arms-smuggling charges and was sentenced to 19 months in federal prison in June 1995. He was released from custody and deported to Ireland in July 1996.",
+        "years_in_prison": null,
+        "state": "Florida",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Seamus",
+        "middle_name": null,
+        "last_name": "Moley",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": null,
+        "era": "1980s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": "27800-004",
+        "awaiting_trial": 0,
+        "created_at": "2026-04-04 14:50:32",
+        "updated_at": "2026-08-10 23:11:52",
+        "slug": "seamus-moley",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Seamus Moley was an Irish national prosecuted in two U.S. arms-procurement cases connected to the Provisional IRA. Arrested in Florida on January 12, 1990 during an undercover Stinger-missile operation, he was convicted and initially sentenced to 51 months on June 7, 1991; the appeals court subsequently vacated the sentences and ordered resentencing. In a separate Arizona prosecution concerning the purchase of detonators, he pleaded guilty in 1995 and received a 19-month sentence on June 30. He was released from U.S. custody and deported to Ireland on July 17, 1996."
+      },
+      "sources": [
+        "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+        "https://irp.fas.org/threat/fbi_terror95/terrorin.htm",
+        "https://app.midpage.ai/opinion/608967/united-states-v-kevin-mckinley-seamus-moley-joseph-mccolgan/"
+      ],
+      "research_note": "Irish Department of Foreign Affairs contemporary September1996 briefing explicitly identifies actual release/deportation July17 (not July15). FBI1995 annual report establishes June30 second sentence; 1993 appellate opinion confirms separate 1991 51-month sentence and vacatur. Biography conflated proceedings. Do not compare whole custody period against only the nineteen-month component or manufacture an endpoint from sentence."
+    }
+  ]
+}
