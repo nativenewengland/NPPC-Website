@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Ernest McQueen",
+      "slug": "ernest-mcqueen",
+      "expected": {
+        "id": "d4ecc1ca-8546-4994-bed7-b07d1c6fe3f2",
+        "prisoner_id": "993dba81-af32-4ff1-8bfd-5c6963dfd544",
+        "institution_id": "d9eaca3e-829c-40ac-8426-689b9f7d113e",
+        "charges": "Desertion (Vietnam era) - Marine private who walked away from his unit in November 1969 citing fears of Vietnam deployment and the moral weight of learning about the 1968 My Lai massacre.",
+        "arrest_date": "2006-01-12 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2006-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Brief military custody following January 2006 apprehension in Fort Worth, Texas.\n\nVerdict as recorded: No - discharged without disciplinary action, January 2006\n\nCharges as recorded: Desertion (Vietnam era) - Marine private who walked away from his unit in November 1969 citing fears of Vietnam deployment and the moral weight of learning about the 1968 My Lai massacre. Lived under his mothers married surname (per his Social Security card) in Fort Worth, Texas for ~36 years until a former brother-in-law disclosed his whereabouts to Marine investigators.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2006-01-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "source": "https://www.deseret.com/2006/1/27/19934979/vietnam-era-deserter-is-discharged/",
+      "research_note": "Associated Press January27,2006 report confirms Jan16jailhouseinterview following Jan12arrest, and subsequent CampPendleton custody. Filled January2006 incarceration MONTH only; January1 storage placeholder is not actual admissionday. Existing monthrelease retained; Jan25homeflight not equated to physicalrelease. No custody inferred from1969desertion."
+    }
+  ]
+}
