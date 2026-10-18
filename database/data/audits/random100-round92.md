@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:73 profiles updated live through batch1061;19 bounded reviews without additions;8 pending. Not100 completed.
+Progress:73 profiles updated live through batch1061;21 bounded reviews without additions;6 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -29,7 +29,7 @@ Progress:73 profiles updated live through batch1061;19 bounded reviews without a
 - David Michael Ansberry — verified_addition_live_batch1023
 - Forrest Hostetler — bounded_review_no_addition
 - Cliver Antonio Alcala Cordero — verified_addition_live_batch1023
-- Evgraf Kovalenko — pending
+- Evgraf Kovalenko — bounded_review_no_addition
 - William Lonergan Hill — verified_addition_live_batch1024
 - Teruo Konishi — verified_addition_live_batch1060
 - Jessica Bowie — verified_addition_live_batch1039
@@ -98,7 +98,7 @@ Progress:73 profiles updated live through batch1061;19 bounded reviews without a
 - Ida Craddock — bounded_review_no_addition
 - Burt Lorton — verified_addition_live_batch1048
 - William Hockett — bounded_review_no_addition
-- Sue Leon Africa — pending
+- Sue Leon Africa — bounded_review_no_addition
 - Lynette Sharp — verified_addition_live_batch1037
 - Matthew Lee Comiskey — verified_addition_live_batch1031
 - Gilbert Parker — verified_addition_live_batch1052
@@ -141,3 +141,9 @@ Emilia Rodríguez: Reviewed prisoner-status petition explicitly recording six-mo
 Eugene Balthazar: Reviewed contemporary Black Panther March7,1970 pp13/16 accounts distinguishing February9 newspaper/breakfast-program detention from February13 poster arrest. First case dismissal already populated. Second account gives evening arrest and around-midnight release, but not enough to select February13 versus14 actual release; did not invent a full extra day or apply first-case dismissal to second. No individually identified portrait or vital dates found; unrelated physician Eugene Balthazar excluded. https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20mar%207%201970.pdf
 
 Ray Edmerson: Reviewed contemporary March7,1970 Black Panther account naming January7 arrest and police-station fingerprint/release, plus April18 separate harassment incident. Existing arrest and month-only release match. No evidence of overnight/multiday prison custody; did not add a full-day incarceration counter from short station processing. Exact release day and court disposition unverified. Unrelated Hanford resident Ray Edmerson excluded. https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20mar%207%201970.pdf ; https://washingtonareaspark.com/wp-content/uploads/2024/03/04-no-20-1-20-apr-18-1970.pdf
+
+### Additional bounded source reviews
+
+Sue Leon Africa: Reviewed MOVE-authored25 Years on the MOVE coming-home account, which explicitly places Sue release1992 after12years, already recorded with YEAR precision and144documented months. Contemporary1992 andJuly1993 support rosters still list006325 but may carry stale addresses; they do not establish an actual later release day. May13,1992 belongs to Ramona, December9,1993 to Carlos, January6,1994 to Consuewella. Earlier pregnancy-related release is separate. No exact missing endpoint, DOB or verified new portrait found; existing photo preserved. https://azinelibrary.org/approved/25-years-move-1.pdf ; https://www.freedomarchives.org/Documents/Finder/DOC501_scans/Break/501.break.23.fal.92.pdf ; https://freedomarchives.org/Documents/Finder/DOC510_scans/Pelican_Bay/510.pelican.bay.prison.express.vol2.no2.July1993.pdf
+
+Evgraf Kovalenko: Read full Kenyon Zimmer archival biography and checked existing live values: birth1885, May1919 arrest, December21,1919 Buford deportation and aliases Efgram/Kovaleko/E.Koval already populated. Sources INS54616/176 and FBI OG8000-360780; linked OpenList family exile account supplies no exact birth/death or dated Russian exile. No portrait supplied by this entry. Russian internal exile chronology cannot be assigned to US custody. No verified missing field found. https://kenyonzimmer.com/red-scare-deportees/korotkov-to-kovalenko/
