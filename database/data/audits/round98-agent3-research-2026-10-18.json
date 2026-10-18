@@ -1,0 +1,525 @@
+{
+  "round": 98,
+  "profiles": [
+    {
+      "name": "Frederick Harold Berger",
+      "status": "supported_update",
+      "evidence": "Zimmer original INS54407/17 research explicitly identifies public drunkenness as initial arrest charge. Political immigration detention followed; do not invent a judicial sentence.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/berger-to-bernat/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b3c05ee1-5fb9-440e-98ba-44f65deb3398",
+          "updates": {
+            "charges": "Public drunkenness"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Tyler N. McFarland",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Contemporary court-charge reporting confirms September2019 arrest, existing two-day custody and named federal/state charges. No imposed sentence or missing exact endpoint established. Hostile anonymous page with DOB1982 conflicts age27 in original2019 reports; do not use it.",
+      "sources": [
+        "https://www.click2houston.com/news/2019/09/13/these-are-the-greenpeace-activists-who-were-charged-in-fred-hartman-bridge-protest/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pete Breed",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "1917 eyewitness IWW book individually lists Breed, age26, first-degree-murder defendant. Existing Nov5,1916–May1917 interval and birthyear already supported. No individual exact release date or judicial sentence found; do not assign Thomas Tracy acquittal as his release.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Joseph Smyth",
+      "status": "supported_update",
+      "evidence": "OriginalJuly24,1992federaldistrictopinion795FSupp973 namesJudgeBarbaraCaulfieldandprosecutorMarkN.Zanides, actualpassportcharge18USC1542 andextraditionproceedings. No inferenceofcontinuous1992–1996custodybecausebailbreaks.",
+      "sources": [
+        "https://case-law.vlex.com/vid/us-v-smyth-no-889343215"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e4079921-30f6-434e-bf60-0881d030b0bc",
+          "updates": {
+            "charges": "False statement in a passport application (18 U.S.C. § 1542)",
+            "judge": "Barbara A. Caulfield",
+            "prosecutor": "Mark N. Zanides"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Kenneth Martin Shilman",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Original AP interview June27,1961 confirms release SaturdayJune24, already stored; MDAH mugshot establishes June2 arrest and vitalyears1942–1989. No individual missing sentencing day or exact vitaldays established.",
+      "sources": [
+        "https://dailyiowan.lib.uiowa.edu/DI/1961/di1961-06-27.pdf",
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-4-19-1-1-1"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James P. Wilson",
+      "status": "reviewed_unresolved",
+      "evidence": "Original IWW newspapers identify editor James Wilson but exact searches also return distinct JamesP.Thompson. March1910 settlement report says countyprisoners released on sliding scale, so group March4 date is not individual proof. No safe additional case date or vitaldate established.",
+      "sources": [
+        "https://marxists.architexturez.net/history/usa/pubs/industrialworker/iw/v1n17-jul-08-1909-IW.pdf",
+        "https://www.marxists.org/history/usa/unions/iww/1910/0306-iww-spokanefightsettled.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles A. Haynie",
+      "status": "supported_update",
+      "evidence": "EmployerJuly26,2001obituary explicitlydeathJuly20,2001. SixmonthsclaimversusJun8endpointnotresolved; do notinferendfromterm. Custody conflict remains unresolved: employer obituary says several weeks while current bio says full sixmonths; no replacement endpoint inferred.",
+      "sources": [
+        "https://www.buffalo.edu/ubnow/ub-seen.host.html/content/shared/university/news/news-center-releases/2001/07/5298.detail.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "68fd492e-bec7-4d90-aa5f-288e1ba908a9",
+          "updates": {
+            "death_date": "2001-07-20"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Angela Davis",
+      "status": "supported_update",
+      "evidence": "JudgeRichardE.ArnasonownBerkeleyoralhistorydiscussesPeoplevAngelaDavis1972andhisjudicialassignment; nosentencebecauseacquittal. ExistingFebruary23,1972physicalreleaseunchanged.",
+      "sources": [
+        "https://digicoll.lib.berkeley.edu/record/218429/files/arnason_richard.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "23318894-3876-4b6d-b89d-cf56bf5668ea",
+          "updates": {
+            "judge": "Richard E. Arnason"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Janet Johnstone Roy",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Zimmer original INS-files54379/532and532A research confirms existing October1918 arrest, July23,1919 deportation and1972death. Exact arrest day or vitaldays not reported; administrative deportation has no established judicial sentence.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/roberts-to-roy/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Brokaw Fankhauser",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Own FreedomRide recollections reproduced by CORE confirm May28 arrest and July9 release alreadystored. Contemporary testimony describes actual Parchman custody but does not identify individual charge/sentencing detail sufficiently for new fields.",
+      "sources": [
+        "https://www.thecongressofracialequality.org/freedom-rides.html",
+        "https://www.crmvet.org/vet/frankhau.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Theresa Ann Walker",
+      "status": "supported_update",
+      "evidence": "Herownoralhistoryarchivalfindingaid identifiesAnnWalker1928 andwifeWyattTeeWalker. Excludesnumerous1950s-bornnamesakeobituaries.",
+      "sources": [
+        "https://www.thehistorymakers.org/sites/default/files/A2010_055_EAD.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "a4d280e6-9897-40ed-8354-437b12571dba",
+          "updates": {
+            "birthdate": "1928-01-01"
+          },
+          "precision_merge": {
+            "birthdate": "year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvey Hubler",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary Solidarity May26,1917 account explicitly says Hubler was among eight stillheld when written after Tracy acquittal; generic May release month cannot be refined from acquittal. Existing charge and inferredbirthyear alreadypresent; no judicialsentence established.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/solidarity-iww/1917/v8-w385-may-26-1917-solidarity.pdf",
+        "https://archive.iww.org/PDF/history/library/WCSmith/EverettVII.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dahteste",
+      "status": "reviewed_unresolved",
+      "evidence": "Accounts repeat inaccurate eightyearsFortMarion geography; Arizona historical research identifies transfer afteroneyear toMountVernon. No individual exact surrender/start/release or missing vitalday newly established. Do not derive judicial sentence from POW administrative confinement.",
+      "sources": [
+        "https://journals.librarypublishing.arizona.edu/azjis/article/311/galley/305/download/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Reuben Ship",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Reviewed HUAC/deportation chronology; January12,1953deportation alreadystored. No independent exact earlier physical custody start, criminal charge or imposed sentence established; HUACappearance is not incarceration.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Reuben_Ship"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Domenick Sallitto",
+      "status": "supported_update",
+      "evidence": "Contemporary Man May1934 reports April11 midnight arrest followed by a few days imprisonment and release on $1000 bond. Existing month-only start can be refined to April11; endpoint remains April month, no inferred day.",
+      "sources": [
+        "https://files.libcom.org/files/2025-07/Man%20Vol%2002%20No%2005%20%28May%201934%29.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a526aeb7-82f8-4b84-a0dd-1dc8667385da",
+          "updates": {
+            "incarceration_date": "1934-04-11"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Joseph Donato",
+      "status": "supported_update",
+      "evidence": "OriginalJuly29,2005NuclearResister identifiesJuly1sentencingJudgeJeromeB.Simandle. Apply2006prisoncaseonly, notdistinct2004three-nightpretrialsegment.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr137.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e3f9f6fd-6161-4b71-829d-d14265328b91",
+          "updates": {
+            "judge": "Jerome B. Simandle"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Kumaji Furuya",
+      "status": "supported_update",
+      "evidence": "JCCH memoir translator Sheila Chun original Densho research explicitly identifies arrest and initial INS detention in Honolulu December 7, 1941; refine month-only start to exact day. No criminal judicial sentence established.",
+      "sources": [
+        "https://encyclopedia.densho.org/Kumaji_Furuya/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "930a624d-e297-4142-b5b4-b658bfa6af1e",
+          "updates": {
+            "arrest_date": "1941-12-07",
+            "incarceration_date": "1941-12-07"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Enrico Travaglio",
+      "status": "supported_update",
+      "evidence": "OriginalbiographicalresearchcitesItalianCentralStateArchives: bornMonzaSeptember2,1876,diedSanFranciscoJuly1968, arrestedChicagoSeptember7,1901. LaterderivedchronologyclaimsJuly6deathbutdaynotindependentlyconfirmed, retainmonth.",
+      "sources": [
+        "https://www.bfscollezionidigitali.org/entita/14835-travaglio-enrico"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "777a6bdd-c063-4c41-86a1-ab1befb8ea48",
+          "updates": {
+            "birthdate": "1876-09-02",
+            "death_date": "1968-07-01"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "month"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "0d10902e-ef58-4864-9a5f-99d3f74b4774",
+          "updates": {
+            "arrest_date": "1901-09-07",
+            "incarceration_date": "1901-09-07",
+            "imprisoned_for_days": null
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yoshitami Jack Tasaka",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "JCCH individual internee record confirms April1943 arrest, September1944 parole, birth1914; all alreadystored. Source does not name exactday or criminal judicial sentence, so retain legitimate blanks.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/tasaka-yoshitami-jack"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Belle Sheinberg",
+      "status": "reviewed_unresolved",
+      "evidence": "Suffragist biographical research and contemporaneous NWP findingaid reviewed. Existing Nov1917custody/sentence dates already present; birthdate sources conflict July18/Oct12, and no original vitalrecord resolves it. Avoid adding ambiguous exact dates or group charge without individualproof.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1009054711",
+        "https://static.lib.ou.edu/microformguides/Proquest_700.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frederique Robert-Paul",
+      "status": "supported_update",
+      "evidence": "DirectcourtobserveridentifiesJamesAltmanasMay2023magistrate grantingbond; no exactphysicalreleasedayinferred. CurrentMaymonthendpointretained.",
+      "sources": [
+        "https://atlpresscollective.com/2023/05/08/judges-uphold-domestic-terrorism-charges-against-activists/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c56240f2-947f-4ff2-8d30-f9241e71835f",
+          "updates": {
+            "judge": "James Altman"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Virginia Arnold",
+      "status": "supported_update",
+      "evidence": "Ashley Nicole Owens original suffragist biographical research gives February 12, 1880 birth. Turning Point memorial confirms obstructing traffic conviction; three-day June1917 custody already recorded.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1009054700",
+        "https://suffragistmemorial.org/miss-virginia-arnold/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "675582c4-befc-42d4-8c93-d6362b749f2d",
+          "updates": {
+            "birthdate": "1880-02-12"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "1e6cd603-8c67-4d9d-bb25-f36608d17f4e",
+          "updates": {
+            "charges": "Obstructing traffic"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Julia Mechanic",
+      "status": "supported_update",
+      "evidence": "Contemporary1901 Bancroft assassination history prints sworn September10 complaint by LukeP.Colleran naming JuliaMechanic among alleged conspirators to murder PresidentMcKinley. Establishes named charge, not conviction. Exact originalarrest chronology stillneedsresolution; no datechange proposed.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/McKinley%2C_Garfield%2C_Lincoln_-_their_lives-their_deeds-their_deaths%2C_with_a_record_of_notable_assassinations_and_a_history_of_anarchy_%28IA_mckinleygarfield00inbanc%29.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4f5ed082-770f-4c31-af5c-6b014d09c4d7",
+          "updates": {
+            "charges": "Conspiracy to murder President William McKinley"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ivan Nabagez",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Zimmer original INS54709/397 research confirms November1919arrest and December21Buford deportation, birth1894 alreadystored. No exactday or criminalsentence identified.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/nabagez-to-newlander/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Helen Gershonowitz",
+      "status": "supported_update",
+      "evidence": "Daily Worker May15,1931 names Court of Common Pleas Judge Harley in her bail proceeding; contemporary1931 New Jersey court record identifies that judge as William B. Harley. May20 report explicitly confirms actual May19 release, already stored; May16 announced release was rescinded. Charges should contain named offenses only.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n117-NY-may-15-1931-DW-LOC.pdf",
+        "https://dspace.njstatelib.org/bitstreams/9d137c23-acc6-43fd-9b4b-16c6c2a3b355/download",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n121-NY-may-20-1931-DW-LOC.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3a9f92ff-1d6e-4dc0-aa80-f2e92a397941",
+          "updates": {
+            "judge": "William B. Harley",
+            "charges": "First-degree murder; felonious assault; assault with intent to kill"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Evelyn Pierce",
+      "status": "supported_update",
+      "evidence": "Contemporaneous National Federation of Catholic College Students civil-rights report identifies March29,1961 Municipal Judge James Spencer conviction for breach of peace and $100 fine plus 30-day suspended sentence. Existing March28 release is earlier bail, not sentencing; retain existing March29 sentencing.",
+      "sources": [
+        "https://nyheritage.contentdm.oclc.org/digital/api/collection/p15052coll3/id/56/download",
+        "https://vault.fbi.gov/Medgar%20Evers/Medgar%20Evers%20Part%2003"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "30129bf7-4749-44ad-b7e4-67e6d0ae4a21",
+          "updates": {
+            "charges": "Breach of the peace",
+            "judge": "James Spencer",
+            "sentence": "Thirty days suspended and a $100 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Stanislaw Bartesiewics",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Zimmer entry itself conflicts1888birth/1913migration with1899adult homicide/extradition narrative. Do not fix by guessing1868or1909. Existing January1920arrest and Jan20,1921deportation repeated; no moreprecise custody established. INS54861/6 andFBI382016 needed to resolve source inconsistency.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/barkovsky-to-bendik/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "J. J. Black",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "Contemporary eyewitness book lists J.J.Black age27 Massachusetts-born longshoreman separately from CharlesBlack, preserving identity. Existing1916arrest, firstdegreecharge andMay1917release month alreadypresent. No individualexactrelease/sentence found.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Chris Mensalvas",
+      "status": "supported_update",
+      "evidence": "Arleen de Vera original union-archive research, Without Parallel, Amerasia20:2(1994), p7, quotes Mensalvas October29,1950 letter reporting five actual days in detention, preceded by Stockton arrest and SanFrancisco transfer. Refine anomalous Jan1950 year start to October1950 month. October29 is letter date following release; no exact release day inferred. Separate February19,1953 parole-violation arrest ended after six days (note49,p22 citing own KeepingtheRecordStraight and Local37News March1953), not continuous1950–1953 custody.",
+      "sources": [
+        "https://s3.amazonaws.com/arena-attachments/1109455/9bb355341c4ee03dcda14b01b9fea67e.pdf?1499118820="
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "5f2b6857-03ab-44d7-9b8f-ec6f8839a0be",
+          "updates": {
+            "incarceration_date": "1950-10-01",
+            "documented_imprisoned_for_days": 5
+          },
+          "precision_merge": {
+            "incarceration_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Toramatsu Matsumoto",
+      "status": "reviewed_no_supported_addition",
+      "evidence": "JCCH original familycollection record confirms October1942arrest, March1943transfer, SantaFeAugust1943–October1945 and November1945Hawaii return. Existingmonthprecision is retained; Hawaii arrival is not exact physical release. No judicialsentence established.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/matsumoto-toramatsu"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Aurelio Vincente Azuara",
+      "status": "supported_update",
+      "evidence": "Historian Kenyon Zimmer original INS-file research explicitly states twenty years and $10,000 fine in federal IWW trial. Replace narrative masquerading as sentence with actual imposed sentence. No new actual-release inference.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/arndt-to-bagatchuk/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "08d7090d-7933-4be0-9212-37635f06904f",
+          "updates": {
+            "sentence": "Twenty years and a $10,000 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Clennon Washington King Jr.",
+      "status": "supported_update",
+      "evidence": "Martin Luther King June7,1958 original letter to GovernorColeman explicitly names Chancellor Stokes Robertson conducting commitment hearing; Stanford editors identify him as Stokes V. Robertson Jr. No criminal conviction established, sentence field is administrative-custody narrative, retain actual dates.",
+      "sources": [
+        "https://kinginstitute.stanford.edu/king-papers/documents/james-p-coleman-1"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9efa79e0-94a9-40ec-8823-ae19be7c34ab",
+          "updates": {
+            "judge": "Stokes V. Robertson Jr."
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "James W. Wall",
+      "status": "supported_update",
+      "evidence": "OfficialCongressbiographicaldirectory datesdeathJune9,1872; existingyearonlyrefined.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-108hdoc222.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "4ca2403b-2f37-487a-92e4-3717d5fbd4c5",
+          "updates": {
+            "death_date": "1872-06-09"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    }
+  ],
+  "review_complete": true,
+  "reviewed_count": 33,
+  "supported_profiles": 18,
+  "research_date": "2026-10-18",
+  "scope": "Individual bounded source review; unresolved means no verified addition, not exhausted archival possibilities."
+}

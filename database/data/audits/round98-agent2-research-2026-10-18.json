@@ -1,0 +1,485 @@
+{
+  "profiles": [
+    {
+      "name": "Anne Martin",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary ThePublic27July1917 names AnneMartin among16convicted for obstructingtraffic,60days imposed17July byJudgeMullowney. Source does not justify existing17Julyrelease; exact actualdischarge remains flagged, not inferred frompardon.",
+      "sources": [
+        "https://cooperative-individualism.org/the-public-1917-jul-27.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e250bf0e-620b-43c3-b277-75f843e8a473",
+          "updates": {
+            "charges": "Obstructing traffic",
+            "sentenced_date": "1917-07-17",
+            "judge": "Alexander R. Mullowney",
+            "sentence": "60 days"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Conrad Rockenhaus",
+      "status": "verified_fix_ready",
+      "evidence": "Family original public record and contemporaneous raid video identify arrest4September2025 for this revocation episode. Current arrest2019belongs to earlierproceeding, while incarceration already2025. Appeal filing describes sixmonthrevocation sentence; originaljudgmentstillneeded beforeadding sentence.",
+      "sources": [
+        "https://rockenhaus.com/press-kit/",
+        "https://rockenhaus.com/wp-content/uploads/2025/12/SUPPLEMENT-TO-EMERGENCY-MOTION-ROCKENHAUS-2.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6ea91003-32c5-4e28-bfa2-85dd509bfc98",
+          "updates": {
+            "arrest_date": "2025-09-04"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dan Toru Nishikawa",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed individualJCCHentry. Archive supports existingOctober1942-May1944monthcustody,18months reported, March1945releasefromparole distinctfromphysicalrelease. No named criminalcharge or conviction; administrativecustodygap legitimate. No additionalexactdatesfound.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/nishikawa-dan-toru"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Daizo Sumida",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed individualJCCHentry andcampsequence. ExistingDecember1941-December1945monthprecision appropriate; returnvoyage not exactprisonreleaseday. No individualcriminalcharge or judicialsentence established.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/sumida-daizo"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Giobbe Sanchini",
+      "status": "verified_fix_ready",
+      "evidence": "BFS archival biographical dictionary explicitly gives birth 8 October1887 and death Pesaro24December1951. Existing1925death belongs to wife Irma. Earlier canceled warrant and1918rearrest mean current continuous1917-1919 custody needs separate documentary review.",
+      "sources": [
+        "https://www.bfscollezionidigitali.org/entita/14555-sanchini-giobbe"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "92fe4ca4-3ef3-416a-a53f-fd157c4d21c2",
+          "updates": {
+            "birthdate": "1887-10-08",
+            "death_date": "1951-12-24"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mahmoud Khalil",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed releaseday reporting:20June2025physicalrelease confirmed independently ofbondorder, existingdatesalreadycorrect. Civilimmigrationdetentionnotcriminalconviction; missingchargeslegitimate. Noexactbirthdatefound.",
+      "sources": [
+        "https://apnews.com/article/69162d21ab22377b1c1c08cf2c83d6cd",
+        "https://abcnews.com/amp/US/mahmoud-khalil-ordered-released-federal-judge/story?id=123049717"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ivan Dubov",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individualname search returnedBufordlistNovember5arrest but secondarylistalone insufficienttoupgrade existingmonth. Zimmerindividualpage inaccessible throughwebtool. No verified namedcriminalcharge orsentence; preserveadministrativedeportation blanks.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/dixon-to-dyachuk/",
+        "https://www.forumdaily.com/en/sovetskij-kovcheg-kak-100-let-nazad-rossiyan-deportirovali-iz-ssha/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Roy Davis",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individually checked names againstcontemporaryWalkeraccount/UWbookinginventory/Yalefindingaid. ExistingNovember5arrest andMay1917monthendpoint retained. ThomasTracyalone tried; no sentencedterm for thisprisoner, so nullsentencenotmissingfix. ApproximateDOBnotrefined fromage.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charley Tennenbaum",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Firsthandjailinterview confirmsongoingdetentionafterApril28anddeniedbond inMagistrateandSuperiorCourt; first4nightsisolationshouldnotbe mistaken fortotalcustody. ExistingJulymonthendpoint notrefined; no dispositionaljudgmentor exactreleasefound.",
+      "sources": [
+        "https://unicornriot.ninja/2023/their-overreach-is-sowing-the-seeds-of-their-undoing-forest-defender-speaks-from-bartow-county-jail/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Richard Hunsinger",
+      "status": "verified_fix_ready",
+      "evidence": "DOJ explicitly identifies conviction25October2022 and32months imprisonment plus3years supervisedrelease including8months homeconfinement. Defense committee firsthand account confirms November2020arrest in raid; current2019-12-31start is erroneous. ExactNovember5 remains unconfirmed by primary court record, so propose month precision only. Sentence is not actual time served.",
+      "sources": [
+        "https://www.justice.gov/usao-ndga/pr/man-sentenced-two-years-prison-assault-federal-officer-and-destruction-government",
+        "https://atlpresscollective.com/2023/03/06/we-got-us-a-case-study-and-reflections-on-supporting-an-arrestee-from-the-2020-uprisings/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6dd8b285-c751-43cd-afbd-4126d936c81e",
+          "updates": {
+            "arrest_date": "2020-11-01",
+            "incarceration_date": "2020-11-01",
+            "charges": "Assault on a federal officer; destruction of government property",
+            "sentence": "32 months imprisonment; three years supervised release, including eight months home confinement",
+            "plead": "Guilty",
+            "convicted": "Yes"
+          },
+          "precision_merge": {
+            "arrest_date": "month",
+            "incarceration_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harold Ward",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryILWU5December1952reportsacquittal3December; RobesonFreedomDecember1952caption says2December. Contradictoryverdictday andnoindependentactualreleaseday, so retainDecembermonthendpoint. No sentence appropriateafteracquittal.",
+      "sources": [
+        "https://archive.ilwu.org/wp-content/uploads/2015/02/19521205.pdf",
+        "https://mc.dlib.nyu.edu/files/books/tamwag_fdm000024/tamwag_fdm000024_lo.pdf",
+        "https://www.ueunion.org/es/ue-news-feature/2016/ue%E2%80%99s-early-commitment-to-black-lives-matter-fighting-frame-ups-lynching-and-"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gary Lawton",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary12May1975acquittal relates thirdtrial, not physicalcustodyendpoint: firsthanddefensememorial records earlierbailafterfirsttrial1973. ExistingMarch1973endpoint retained. Spring2004memorial onlyestablishes deathbypublication, not exactdeathyear/day. NamesakeIllinoiscommitmentcase excluded.",
+      "sources": [
+        "https://www.themilitant.com/1975/3920/MIL3920.pdf",
+        "https://www.vvaw.org/pdf/v34n1.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Axel Downey",
+      "status": "verified_fix_ready",
+      "evidence": "Original-record specialist identifies prisoner as AcelDowney, bornPorterEarlGoudy; explicitly records actual jailrelease7May1917 and death9October1963 citing10OctoberOttumwaCourierobituary. Birth conflicting1899VA vs1900Iowacertificate/draftcard andApril6vs24, so do not overwrite birth.",
+      "sources": [
+        "https://www.everettmassacre.com/biographies/porter-goudy/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1127ae8e-8288-4010-acf8-56871fa0ddbd",
+          "updates": {
+            "release_date": "1917-05-07"
+          },
+          "precision_merge": {
+            "release_date": "day"
+          }
+        },
+        {
+          "table": "prisoners",
+          "id": "90a41e1b-2efc-43a2-9171-5579b60a241e",
+          "updates": {
+            "death_date": "1963-10-09"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Charles Plunkett",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individualname/authoritysearch supports1892birthyear butnoexactdate; Tarrytown1914protestsource doesnotyield actualrelease refinement. ExcludednamesakeNavyadmiral1864-1931andmodernCDCRprisoner. Existingdisorderlyconductfieldalreadyfilled; noverifiableadditionalfix.",
+      "sources": [
+        "https://www.wikidata.org/wiki/Q133750561",
+        "https://www.theanarchistlibrary.org/library/jessica-moran-hunger-striking-in-america"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Josep Grau i Jassans",
+      "status": "verified_fix_ready",
+      "evidence": "Fundacio Josep Irla historical biography identifies birth Barcelona4June1899 and death MexicoCity19April1967, correcting existing1965death. Biography also documents his later1939Spanish exile; do not equate that with1919USdeportation.",
+      "sources": [
+        "https://memoriaesquerra.cat/biografies/grau-jassans-josep"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "51af33eb-8ba9-4e54-8f00-94afbc2a9d61",
+          "updates": {
+            "birthdate": "1899-06-04",
+            "death_date": "1967-04-19"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Annie Lou Ragans Laster",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "CongressionalRecordandfirsthandLeesburgsurvivorproject identifyher asdeceasedby2015andunchargedchilddetention. NoindividualDOB/DOD orexactcustodyendpoint verified; do not inventcharges orsentences.",
+      "sources": [
+        "https://www.congress.gov/114/crec/2015/03/26/161/51/CREC-2015-03-26.pdf",
+        "https://crmvet.lib.duke.edu/nars/leesburg.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Clemens Pfuetzner",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "SearchedClemens/Clement/Clemencevariants. Contemporary1900arrest withLucyParsons isseparateevent anddoesnotestablish1901casecharge. JaneAddamsarchiveconfirms1901anarchistrepressioncontextbutnoindividualimposedterm. Preserve1901caseblanks.",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ndnp/mnhi/batch_mnhi_nisswa_ver01/data/sn90059523/0020653400A/1900080601/0413.pdf",
+        "https://digital.janeaddams.ramapo.edu/items/browse?advanced%5B0%5D%5Belement_id%5D=7&advanced%5B0%5D%5Bterms%5D=Published+document&advanced%5B0%5D%5Btype%5D=is+exactly&page=30&sort_dir=d&sort_field=Dublin+Core%2CDate"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Terentius Leonov",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "IndividualTerentius/Terentysearch didnotlocate reliableexactcustodydates orvitals. Zimmeroriginalpage inaccessible throughwebtool. RetainNovember1919monthstart andDecember21deportation endpoint; no fabricatedcriminalcharge.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/lebedev-to-lopuk/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William G. Brownlow",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Historicalsources conflict on lateDecember1861jaildischarge versusMarch1862detentionending/Unionlines; currentbio/counter mismatch flagged. LOCdocumentnoteonlysaysreleasedtoUnionlines1862, notexactjaildischarge. No safeendpointchange absentcontemporaneousjournal; no imposedcriminalsentence established.",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/mss/mal/104/1043100/1043100.pdf",
+        "https://facultyshare.liberty.edu/files/40286176/William%20G.%20Brownlow%20the%20Fighting%20Parson.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Samuel Seabury",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individualsearch confirmsRevolutionarydetentionasLoyalist; no judicialcriminalsentence found. Existingexactdatesnotrefined absentprimarydischargerecord. Do notfillnullsentencewithdetentionnarrative.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Samuel_Seabury"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Iris Calderhead Walker",
+      "status": "verified_fix_ready",
+      "evidence": "Smithsonian institutional history individually identifies IrisCalderhead andElizabethStuyvesant among4July1917arrests for obstructingtraffic. Existing exact custody endpoints retained.",
+      "sources": [
+        "https://siarchives.si.edu/blog/suffrage-protest-smithsonian"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c88751cc-a3f9-4585-9016-c549b687dff4",
+          "updates": {
+            "charges": "Obstructing traffic"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Luis Gutiérrez",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryAPMay1dispatch ambiguouslysaysreleasedyesterdaywhileanotherAPMay1versionexplicitlysaysleftprisonTuesdayMay1. ExistingMay1endpointretainedpendingoriginaltimestamps; no imposedtermconfirmed. ArrestApril28alreadyexact.",
+      "sources": [
+        "https://www.seattlepi.com/national/article/detainees-complain-navy-roughed-them-up-1053578.php",
+        "https://www.mail-archive.com/search?f=1&l=ctrl%40listserv.aol.com&o=newest&q=date%3A20010501"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Vera Buch",
+      "status": "verified_fix_ready",
+      "evidence": "ContemporaryDailyWorker3August1929 dispatch explicitly records actual2Augustrelease and charge reduced fromfirstdegree toseconddegreemurder. Existing endpoint alreadycorrect; append seconddegree to charge preservingfirst original. No prison sentence afterdismissal.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1929/1929-ny/v06-n127-NY-aug-03-1929-DW-LOC.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b2335214-81f0-4785-b5a6-1a81c4aba08f",
+          "updates": {
+            "charges": "First-degree murder; reduced to second-degree murder"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Chelcee Price",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ2019release individually names defendant and identifies prosecuting AssistantUnitedStatesAttorneyMarkMcIntyre. Existing arrest/release alreadyexact; null sentence appropriate after dismissal.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1f80701e-869f-4360-b3bf-2acc73bfc263",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Lucretia Collins",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryAPphotoMay28explicitlyidentifiesactualMay27releaseafter500dollarbond, WednesdayMay24arrest. Existingdatesalreadycorrect. OthermoderneducationalguideincorrectlyMay25; retaincontemporarysource. No individualnamedcriminalchargeverified.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042472/1961-05-28/ed-1/seq-1/ocr/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jessica Henderson",
+      "status": "verified_fix_ready",
+      "evidence": "Archival biographical sketch gives JessicaLordCox birth11March1867 and deathNovember1952; sources include BostonGlobe29November1952obituary. Age statements in sketch contain transcription errors, so retain explicitly stated dates, not inferred age.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1008297988"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "075c756c-1d23-41c3-bae1-d0c335889674",
+          "updates": {
+            "birthdate": "1867-03-11",
+            "death_date": "1952-11-01"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adele MacLean",
+      "status": "verified_fix_ready",
+      "evidence": "Firsthand court reporting identifies MagistrateJamesAltman and DeputyAttorneyGeneralJohnFowler in2June2023bondhearing. Bondorderisnotproofphysicalrelease; preserve dates withoutnewinference. No imposedprisonsentence established.",
+      "sources": [
+        "https://unicornriot.ninja/2023/atlanta-solidarity-fund-organizers-granted-bond/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c304fc46-453f-4376-9417-65552dd55477",
+          "updates": {
+            "judge": "James Altman",
+            "prosecutor": "John Fowler"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "E. M. Beck",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individually checked names againstcontemporaryWalkeraccount/UWbookinginventory/Yalefindingaid. ExistingNovember5arrest andMay1917monthendpoint retained. ThomasTracyalone tried; no sentencedterm for thisprisoner, so nullsentencenotmissingfix. ApproximateDOBnotrefined fromage.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Stella Petrosky",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryWorkingWomanAugust1935explicitlyreportsAprilimmigrationarrest,twonightsactualcustodybeforebond,alreadyrepresented. Describedundesirablealien/organizationaffiliationgrounds arecivildeportationgrounds, notcriminalcharges; do notputincharges. Ages32in1933vs35-36in1935giveconflictingbirthyears; noDOBupdate.",
+      "sources": [
+        "https://revolutionsnewsstand.com/2025/04/23/a-dangerous-woman-the-story-of-courageous-stella-petrovsky-by-martha-kieth-from-working-woman-vol-6-no-7-august-1935/",
+        "https://lib-dspace1.ttu.edu/bitstream/handle/20.500.12255/110370/Midland_Reporter_1935_05_22.pdf?isAllowed=y&sequence=1"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Kevin Poulsen",
+      "status": "verified_fix_ready",
+      "evidence": "Original federal docket reproduction records10April1995sentence51months imprisonment and3years supervisedrelease, JudgeManuelL.Real. Separate1996NorthernDistrict20month judgment should not be silently conflated. Existing exact custody endpoints retained.",
+      "sources": [
+        "https://cryptome.wikileaks.org/0005/usa-v-poulsen.htm"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3f8bffe7-38b6-49ad-b572-654af4f66246",
+          "updates": {
+            "sentence": "51 months imprisonment; three years supervised release",
+            "judge": "Manuel L. Real",
+            "plead": "Guilty"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Ross",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individually checked names againstcontemporaryWalkeraccount/UWbookinginventory/Yalefindingaid. ExistingNovember5arrest andMay1917monthendpoint retained. ThomasTracyalone tried; no sentencedterm for thisprisoner, so nullsentencenotmissingfix. ApproximateDOBnotrefined fromage.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Elizabeth Green Kalb",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "RiceUniversityarchivalbiographyconfirms13January1919arrest,severaldaysjail andambulancedischargebutdoesnotdatephysicalrelease. Stevensappendixonlyfive-daysentence. Existing18Januaryendpointappearscalculatedandcontradictsownbiocaution; flagforguardedremoval/research, no invented19January.",
+      "sources": [
+        "https://magazine.rice.edu/fall-2020/suffrage-pioneer",
+        "https://chswg.binghamton.edu/WASM-US/crowdsourcing/Stevens_JailedForFreedom_Appendix4.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Michael Herbert",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ2019release individually names defendant and identifies prosecuting AssistantUnitedStatesAttorneyMarkMcIntyre. Existing arrest/release alreadyexact; null sentence appropriate after dismissal.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ca7dd022-a33a-4eea-a9c4-6379a54ac6fe",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          },
+          "precision_merge": {}
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 13,
+    "live_mutations_by_agent": 0
+  }
+}
