@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:73 profiles updated live through batch1061;21 bounded reviews without additions;6 pending. Not100 completed.
+Progress:74 profiles updated live through batch1062;21 bounded reviews without additions;5 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -62,7 +62,7 @@ Progress:73 profiles updated live through batch1061;21 bounded reviews without a
 - Meagan Morris — verified_addition_live_batch1037
 - Emilia Rodríguez — bounded_review_no_addition
 - David Annarelli — verified_addition_live_batch1028
-- Roland Freeman — pending
+- Roland Freeman — verified_addition_live_batch1062
 - Vance Boelter — verified_addition_live_batch1042
 - Siddique Abdullah Hasan — verified_addition_live_batch1046
 - Shamim Mafi — verified_addition_live_batch1040
