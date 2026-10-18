@@ -97,11 +97,13 @@ final class PartialImprisonmentDuration
         foreach ($cases as $case) {
             $hasPartialPeriods = $hasPartialPeriods || CustodyPeriods::hasPartial($case->custody_periods);
         }
+        // A single case with month/year endpoints needs the same bounded
+        // display as an explicit list of partial custody periods.
+        $bounds = self::bounds($cases, $stillDetained);
+        if ($bounds !== null) {
+            return 'Estimated '.$bounds['min'].'–'.$bounds['max'].' days';
+        }
         if ($hasPartialPeriods) {
-            $bounds = self::bounds($cases, $stillDetained);
-            if ($bounds !== null) {
-                return 'Estimated '.$bounds['min'].'–'.$bounds['max'].' days';
-            }
             // Other unplaced, source-stated terms may prevent a finite
             // combined range. Never show only an exact subset as the total.
             return 'Duration uncertain (partial custody dates)';

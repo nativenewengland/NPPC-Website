@@ -49,4 +49,22 @@ class PartialCustodyDurationTest extends TestCase
 
         $this->assertSame(30, $case->computeImprisonedForDays());
     }
+    public function test_month_only_closed_case_displays_a_range_without_exact_total(): void
+    {
+        $case = new PrisonerCase();
+        $case->setPartialDate('incarceration_date', 1965, 4);
+        $case->setPartialDate('release_date', 1966, 5);
+
+        $this->assertSame('Estimated 366–425 days', \App\Support\PartialImprisonmentDuration::phrase([$case], false));
+        $this->assertNull($case->computeImprisonedForDays());
+    }
+
+    public function test_exact_case_keeps_existing_counter_formatter(): void
+    {
+        $case = new PrisonerCase([
+            'incarceration_date' => '1965-04-12',
+            'release_date' => '1966-05-12',
+        ]);
+        $this->assertNull(\App\Support\PartialImprisonmentDuration::phrase([$case], false));
+    }
 }
