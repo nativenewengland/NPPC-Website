@@ -1,0 +1,112 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Cliff Cornell",
+      "expected": {
+        "id": "5d05b220-d10a-4619-884a-cda1c0fd74c1",
+        "prisoner_id": "d37c4701-5b22-480e-be0a-5203eeeee2d0",
+        "institution_id": "3ddc0ed7-ef23-4170-a83f-6435992b61cc",
+        "charges": "Desertion (UCMJ Article 85)",
+        "arrest_date": "2009-02-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2009-02-03 00:00:00",
+        "release_date": "2010-01-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months in military confinement; bad-conduct discharge",
+        "imprisoned_for_days": 347,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "2009-02-04",
+        "sentenced_date": "2009-04-28",
+        "plead": "Guilty",
+        "institution_id": "feefbdab-bb61-48c3-ae31-e9a025390041",
+        "custody_periods": "[{\"start\":\"2009-02-04\",\"end\":\"2009-02-05\"},{\"start\":\"2009-04-28\",\"end\":\"2010-01-16\"}]",
+        "imprisoned_for_days": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "sentence": "12 months military confinement, reduced by 30 days; bad-conduct discharge"
+      },
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr152.pdf",
+        "https://www.wmtc.ca/2009/02/?m=0",
+        "https://www.wmtc.ca/2009/04/cliff-cornell-jailed-for-having-morals_31.html",
+        "https://nlgmltf.org/downloads/onwatch/Onwatch_xx-4.pdf",
+        "https://denverabc.wordpress.com/2009/12/22/gi-resister-cliff-cornell-granted-30-day-reduction-of-jail-sentence/",
+        "https://www.foxnews.com/story/soldier-released-from-prison-after-serving-desertion-sentence"
+      ],
+      "research_note": "Original NR152 explicitly Feb4 arrest and Feb5 release photographcaption. APFeb26 spokesman: regular Army duties, notjailed aftercharges. CampaignApril28actualimprisonment, temporarycountyjail beforebrig. CounselDecember30dayclemency. APJan18 and firsthandJan17reports actualSaturdayJan16release. Correctgap andCampLejeune, notCharleston. Exactcustodyintervals total264 elapsed days."
+    },
+    {
+      "table": "prisoners",
+      "name": "Cliff Cornell",
+      "expected": {
+        "id": "d37c4701-5b22-480e-be0a-5203eeeee2d0",
+        "name": "Cliff Cornell",
+        "sort_order": 14511,
+        "photo": "prisoners/cliff-cornell-recent2026b.png",
+        "description": "Specialist Cliff Cornell was a U.S. Army soldier with the 3rd Infantry Division at Fort Stewart, Georgia, who refused deployment to Iraq in early 2005 and fled to Canada. After Canadian authorities denied his refugee claim he returned voluntarily to the United States in February 2009. He was court-martialed at Fort Stewart in April 2009, convicted of desertion, and sentenced to one year in military confinement plus a bad-conduct discharge. He served his sentence at the Naval Consolidated Brig at Charleston.",
+        "years_in_prison": null,
+        "state": "South Carolina",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Cliff",
+        "middle_name": null,
+        "last_name": "Cornell",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1980-01-01 00:00:00",
+        "death_date": null,
+        "age": 46,
+        "ideologies": "[\"Anti-War\",\"Conscientious Objection\"]",
+        "era": "2000s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-05-03 20:52:59",
+        "updated_at": "2026-08-10 23:11:52",
+        "slug": "cliff-cornell",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Specialist Cliff Cornell was a U.S. Army soldier with the 3rd Infantry Division at Fort Stewart, Georgia, who refused deployment to Iraq in early 2005 and fled to Canada. After Canadian authorities denied his refugee claim, he returned voluntarily to the United States in February 2009. Border authorities arrested him on February 4 and held him overnight in Whatcom County Jail before releasing him on February 5 to report to his unit. He subsequently performed regular Army duties while awaiting trial. On April 28, 2009, he pleaded guilty to desertion at Fort Stewart, received a one-year confinement sentence and a bad-conduct discharge, and was jailed. His confinement included the brig at Camp Lejeune, North Carolina. His sentence was reduced by 30 days through clemency, and he was released on January 16, 2010."
+      },
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr152.pdf",
+        "https://www.wmtc.ca/2009/02/?m=0",
+        "https://www.wmtc.ca/2009/04/cliff-cornell-jailed-for-having-morals_31.html",
+        "https://nlgmltf.org/downloads/onwatch/Onwatch_xx-4.pdf",
+        "https://denverabc.wordpress.com/2009/12/22/gi-resister-cliff-cornell-granted-30-day-reduction-of-jail-sentence/",
+        "https://www.foxnews.com/story/soldier-released-from-prison-after-serving-desertion-sentence"
+      ],
+      "research_note": "Correct wrongCharlestonbrig and falsecontinuousFeb2009-Jan2010custody. No new case notes."
+    }
+  ]
+}
