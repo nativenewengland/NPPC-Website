@@ -93,6 +93,42 @@ final class PartialImprisonmentDuration
     public static function phrase(iterable $cases, bool $stillDetained): ?string
     {
         $cases = is_array($cases) ? $cases : iterator_to_array($cases);
+        // Compare month-only custody spans using calendar month indexes.
+        // Union overlapping spans so multiple cases do not double-count months.
+        $monthIntervals = [];
+        $allMonthCases = count($cases) > 0;
+        foreach ($cases as $case) {
+            $endField = $case->death_in_custody_date ? 'death_in_custody_date' : 'release_date';
+            if ($case->custody_periods !== null
+                || $case->imprisoned_for_months > 0
+                || $case->documented_imprisoned_for_days !== null
+                || ! $case->incarceration_date
+                || $case->datePrecisionFor('incarceration_date') !== 'month'
+                || ($case->{$endField} && $case->datePrecisionFor($endField) !== 'month')
+                || (! $case->{$endField} && ! $stillDetained)) {
+                $allMonthCases = false;
+                break;
+            }
+            $start = Carbon::parse($case->incarceration_date);
+            $end = $case->{$endField} ? Carbon::parse($case->{$endField}) : Carbon::today();
+            $first = $start->year * 12 + $start->month;
+            $last = $end->year * 12 + $end->month;
+            if ($last < $first) {
+                $allMonthCases = false;
+                break;
+            }
+            $monthIntervals[] = [$first, $last];
+        }
+        if ($allMonthCases) {
+            usort($monthIntervals, fn ($a, $b) => $a[0] <=> $b[0]);
+            $months = 0;
+            $end = null;
+            foreach ($monthIntervals as [$first, $last]) {
+                $months += max(0, $last - max($first, $end ?? $first));
+                $end = max($end ?? $last, $last);
+            }
+            return $months === 0 ? '0 months' : ImprisonmentDuration::phrase(null, 0, $months);
+        }
         $hasPartialPeriods = false;
         foreach ($cases as $case) {
             $hasPartialPeriods = $hasPartialPeriods || CustodyPeriods::hasPartial($case->custody_periods);

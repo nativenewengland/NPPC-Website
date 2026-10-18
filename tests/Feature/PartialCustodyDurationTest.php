@@ -49,13 +49,13 @@ class PartialCustodyDurationTest extends TestCase
 
         $this->assertSame(30, $case->computeImprisonedForDays());
     }
-    public function test_month_only_closed_case_displays_a_range_without_exact_total(): void
+    public function test_month_only_closed_case_displays_calendar_month_difference(): void
     {
         $case = new PrisonerCase();
         $case->setPartialDate('incarceration_date', 1965, 4);
         $case->setPartialDate('release_date', 1966, 5);
 
-        $this->assertSame('Estimated 366–425 days', \App\Support\PartialImprisonmentDuration::phrase([$case], false));
+        $this->assertSame('1 Year 1 Month', \App\Support\PartialImprisonmentDuration::phrase([$case], false));
         $this->assertNull($case->computeImprisonedForDays());
     }
 
@@ -66,5 +66,15 @@ class PartialCustodyDurationTest extends TestCase
             'release_date' => '1966-05-12',
         ]);
         $this->assertNull(\App\Support\PartialImprisonmentDuration::phrase([$case], false));
+    }
+    public function test_overlapping_month_cases_do_not_double_count(): void
+    {
+        $a = new PrisonerCase();
+        $a->setPartialDate('incarceration_date', 1965, 4);
+        $a->setPartialDate('release_date', 1966, 5);
+        $b = new PrisonerCase();
+        $b->setPartialDate('incarceration_date', 1966, 1);
+        $b->setPartialDate('release_date', 1966, 7);
+        $this->assertSame('1 Year 3 Months', \App\Support\PartialImprisonmentDuration::phrase([$a, $b], false));
     }
 }
