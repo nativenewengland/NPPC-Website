@@ -1,0 +1,397 @@
+{
+  "profiles": [
+    {
+      "name": "Johnson Cole",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name and Sheldon Otis/two-marijuana-cigarette searches did not independently identify Cole. Narrative resembles John Sinclair but that is not sufficient identity evidence; no Sinclair dates or portrait transplanted.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emmanuel Quinones",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ sentencing statement expressly gives guiltyplea to interstate threatening communications. Existing label threateningPresident/brandishing misstates federaloffense; preserve46monthimposedterm but no endpointcalculated. Actual policecustodyMay30mentioned, but continuity unknown.",
+      "sources": [
+        "https://www.justice.gov/usao-ndtx/pr/man-who-brandished-assault-rifle-black-lives-matter-protest-sentenced-46-months"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "2c060a99-1bca-488c-9ef4-b4dec2c1e641",
+          "updates": {
+            "charges": "Interstate threatening communications (18 U.S.C. § 875(c))",
+            "plead": "Guilty",
+            "sentence": "46 months"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Louis Truelock",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Hampton civil-rights litigation identifies raid survivor Truelock but does not establish discharge day. Reprint of March21,1970 Panther statement names attempted-murder/aggravated-assault charges and release on bond, but original issue still needed before replacing counts. Separate 1966 narcotics and 1970 traffic cases must not be conflated.",
+      "sources": [
+        "https://openjurist.org/339/fsupp/695/hampton-v-city-of-chicago-cook-county-illinois-1460578",
+        "https://panafricannews.blogspot.com/2006/06/tribute-to-fred-hampton-of-black.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Thomas O'Mara",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Sacramento IWW witness identity and exact-name searches. Retain documented August25,1923 admission/year-only1926 release. No individually verified arrest day, sentencing day or portrait; unrelated Australian politician excluded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mikhail Hladish",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Searched Hladish/Hladysh Youngstown deportee. No independently identified new custody record or original portrait; administrative deportation is not a criminal sentence and February26,1921 sailing cannot establish earlier detention start.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Benjamin F. Randolph",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name conscientious-objector searches did not establish new admission or sentencing date. Excluded unrelated nineteenth-century South Carolina senator. Existing January27,1919 release retained.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Demian Vlasov",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Newark Union of Russian Workers deportee chronology. November8,1919 arrest and January22,1921 deportation do not establish uninterrupted detention; no inferred incarceration start restored. No independent new endpoint or photo.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John T. Neufeld",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Fresh Supreme Court Historical Society journal and quoted court transcript report fifteen years, conflicting with stored25-year term. June26 draft date is not proven imprisonment start; July25 diary arrival needs original. November30 dairy-work parole pass is not discharge. Flag conflicting sentence for original diary/court-martial reconciliation rather than guess.",
+      "sources": [
+        "https://supremecourthistory.org/wp-content/uploads/2025/02/Volume-44-Number-3-2019.pdf",
+        "https://anabaptistwiki.org/mediawiki/index.php/Mennonite_Conscientious_Objectors_of_World_War_1",
+        "https://stcpsarchive.z9.web.core.windows.net/cpsarchive/storybegins/oralhistory.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jacob Hinshaw",
+      "status": "verified_fix_ready",
+      "evidence": "Tennessee state CivilWarTrails documentation and November30Confederate dispatch establish death by hanging November30,1861 at Greeneville, not DecemberKnoxville. Correct death-in-custody and deathdate, remove releasefield becauseexecution isnotrelease. November1861capture only monthknown; no exactarrestmanufactured. Biography location/date contradiction flagged without rewriting. Sentencing date withheld: execution day alone is insufficient to establish sentencing day.",
+      "sources": [
+        "https://tnmap.tn.gov/civilwar/Civil%20War%20Trails%20Installation%20Sites%20with%20descriptions.pdf",
+        "https://classic.tnvacation.com/civil-war/place/2063/hangings-at-the-depot-cwt/",
+        "https://www.teachtnhistory.org/File/A._Taylor_Unit.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "100bc606-bda0-4a75-a17d-7d5d9f512ddb",
+          "updates": {
+            "death_in_custody_date": "1861-11-30",
+            "release_date": null,
+            "sentence": "Death by hanging"
+          },
+          "precision_merge": {
+            "death_in_custody_date": "day"
+          }
+        },
+        {
+          "table": "prisoners",
+          "id": "f69469ea-705a-4bd3-9d55-5879ff181be1",
+          "updates": {
+            "death_date": "1861-11-30"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Henry Stark",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Searched Pennsylvania coal-strike sedition prisoner and distinguished unrelated railway clerk. Existing1931 year-only date cannot be refined from available reporting; no verified release or portrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rick Sieber",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Paupers Plowshares April17,1987 action and Richard/Rick variant. Probation/fine/restitution is not proof of a prison term; no actual jail admission or discharge established.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Luther F. Reynolds",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed conscientious-objector chronology. June20,1918 Board of Inquiry interview is not arrest; retain November12 prison admission. No individually verified discharge; modern Fairfax Reynolds grave not attached without identity proof.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Zayneabideen Rasul Al-Murshidi",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary Richmond reporting confirms prosecution and imposed five jail days but not actual service interval. Do not calculate release from sentence or treat June24 publication as sentencing day. No new verified endpoint.",
+      "sources": [
+        "https://www.allsides.com/news/2024-06-25-1215/general-news-pro-palestine-protesters-sentenced-blocking-i-95-march"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lottie E. Taylor",
+      "status": "verified_fix_ready",
+      "evidence": "Original VirginiaSupremeCourt opinion places actual forcibleremovalandpolice episodeSeptember12,1946; not-guiltyplea and actual5dollarfine pluscosts. OriginalW&Lcourtarchive identifiesPaulE.Browntrialjudge. No jailbooking or detentiondurationestablished, so no incarcerationcounterinvented.",
+      "sources": [
+        "https://law.justia.com/cases/virginia/supreme-court/1948/187-va-214.html",
+        "https://scholarlycommons.law.wlu.edu/va-supreme-court-records-vol187/23/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "fa486a92-068d-4906-833a-4dc80f2ee943",
+          "updates": {
+            "arrest_date": "1946-09-12",
+            "sentence": "$5 fine and costs",
+            "plead": "Not guilty",
+            "judge": "Paul E. Brown"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John Wells",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original CCCO lists John Wells at Presidio1968. Jonathan Wells first-person prison history is plausible but not enough to identify this abbreviated entry; excluded film director and Army investigator namesakes. No dates or portrait imported from unconfirmed identity.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004007.pdf",
+        "https://scienceandculture.com/2024/09/from-puzzles-to-prison-jonathan-wells-in-his-own-words/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jerome H. Smith",
+      "status": "verified_fix_ready",
+      "evidence": "Original CORE1962civilrightsjusticehearing contains Smith firsthand testimony thathe actuallyserved30daysApril1961picketing and21daysDecemberBatonRouge. Addactualdurationoverridesonly tothese two cases; no releasecalculated. Same testimony says80daysJackson, conflicting withstoredMay25-27interval; thatneedsindividualepisode reconciliation beforemutation.",
+      "sources": [
+        "https://www.crmvet.org/docs/6205_core_justice.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "f81dd3fa-a6f9-5a18-b17b-8e6f90cf2567",
+          "updates": {
+            "imprisoned_for_days": 30,
+            "documented_imprisoned_for_days": 30
+          },
+          "precision_merge": {}
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "39f44c14-bc66-5941-8ee6-701001fc26f0",
+          "updates": {
+            "imprisoned_for_days": 21,
+            "documented_imprisoned_for_days": 21
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "James Moore",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Afro Set co-defendant identity against exoneration registry. Registry corroborates individual and trial context but does not establish his prison admission/release or individual sentence length; existing clerk docket distinction retained.",
+      "sources": [
+        "https://exonerationregistry.org/cases/4462"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Milton Stone",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Daily Worker October17/31,1930 and February12,1931 establish arrest, preliminary hearing and later trial but not actual discharge. No release derived from acquittal; Corrigan preliminary magistrate is not necessarily sentencing judge.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v07-n262-NY-oct-31-1930-DW-LOC.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n038-NY-feb-12-1931-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frank Boyd",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Everett Massacre roster and November23,1916 IWW prisoner letter independently confirm individual aged43/Illinois and Snohomish custody. No individual discharge day found; age implies two possible birth years, no exact DOB manufactured.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf",
+        "https://www.sos.wa.gov/sites/default/files/2025-05/SL_IWWProceedings10thConvention.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Cal Ray Biggins",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary AP report explicitly names two murder counts and one armed-robbery count, actual jailing pending300000bond. Add missing named count; no release, conviction or sentence inferred from bond.",
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/23d01444-0012-4437-8eab-08fde15d1052/content"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "260101fd-7f92-4e64-85df-9aa688ab0a04",
+          "updates": {
+            "charges": "Murder (two counts); armed robbery"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Rose",
+      "status": "verified_fix_ready",
+      "evidence": "Original MichiganSupremeCourt PeoplevRose identifies trialjudgeEarlC.Pugsley and bothactualcounts, including omittedgoingarmedwithdangerousweapon. Actualconviction wasdangerousweaponcount, notassaultcount. No actualdischargeday found;54daysinbiography not enoughwithoutoriginalcustodycontext.",
+      "sources": [
+        "https://www.courts.michigan.gov/492d95/siteassets/publications/msc-bound-volumes/201-300/bv_mi268_final.pdf",
+        "https://case-law.vlex.com/vid/people-v-rose-no-886722146"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "90ad1209-4147-44ba-8a5a-de24ebb4e9fc",
+          "updates": {
+            "charges": "Assault with intent to do great bodily harm less than murder; going armed with a dangerous weapon",
+            "judge": "Earl C. Pugsley"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Pedro Aviles Vargas",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed1955 second Nationalist sedition trial identity and autobiography Lolita y yo lead. No individually verified release day or new custody date found; four-year imposed term cannot alone establish actual48months.",
+      "sources": [
+        "https://www.goodreads.com/book/show/25251328-lolita-yo"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Armando Caban Vega",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Gap is portrait only; searches located named1970s Puerto Rican political-surveillance archive but no securely identified individual portrait. Existing May24-July2,2001 dates retained.",
+      "sources": [
+        "https://archipielagohistorico.com/wp-content/uploads/2024/12/5_-_nov_-_79_l_1_-_agosto_-_80_l_vol_37.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Pernasilice",
+      "status": "verified_fix_ready",
+      "evidence": "Original April18 Militant says sentencing forthcoming April30, and May1 AP says postponed one week. Thus storedApril5 sentencing is conviction not sentencing and should clear. Conflicting later secondary two-year versus contemporary three-year term requires reconciliation; propose no sentence amount yet. Original trial reporting identifies judgeGilbertH.King and prosecutorLouisAidala.",
+      "sources": [
+        "https://www.themilitant.com/1975/3914/MIL3914.pdf",
+        "https://gateway.okhistory.org/ark%3A/67531/metadc1796670/m1/14/ocr/",
+        "https://www.themilitant.com/1975/3909/MIL3909.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6b462499-4be7-48d9-85f6-9ede6ca630ed",
+          "updates": {
+            "sentenced_date": null,
+            "judge": "Gilbert H. King",
+            "prosecutor": "Louis Aidala"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Letbig",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Likely OCR corruption of John Leibig but identity not yet securely crossmatched. Wyoming archival history gives Leibig18month sentence commuted1year, conflicting corrupt stored One yea and. Do not attach portrait or change name/custody based on resemblance.",
+      "sources": [
+        "https://wyomingalmanac.com/?p=868",
+        "https://rurallibrarianwv.blogspot.com/2022/09/who-was-inmate-john-leibig-story-of.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Watani Tyehimba",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1987 support bulletin verifies civil-contempt jailingAugust21,1986; existingBOP84463-012endpointOctober7,1987 retained. Gap in separate criminal arrest/sentence is legitimate civil-contempt distinction; do not invent criminal arrest.",
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/DOC37_scans/37.nokkk.win87.pdf",
+        "https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Insurgent/510.insurgent.vol3.no2.Fall1987.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Afanasy Timonatnko",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact and transliteration searches did not independently identify deportee or new custody source. October16,1920 removal endpoint retained; do not turn administrative removal into a criminal sentence.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Francis Fowler",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Doris Stevens appendix and suffragist memorial confirm February1919 Boston detention and eight-day term but no exact arrest/release day. No discharge manufactured by adding sentence length.",
+      "sources": [
+        "https://chswg.binghamton.edu/WASM-US/crowdsourcing/Stevens_JailedForFreedom_Appendix4.pdf",
+        "https://tpsuffragistmemorial.org/state-campaigns/massachusetts/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "G. Williams",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Initial-only Leavenworth identity remains insufficient for safe new arrest date or portrait. Existing1918-1920 custody dates retained; unrelated Congressional Williams references excluded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lawrence “Deacon” McCubbin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Rainbow History Project identifies L.Page Deacon Maccubbin and1973arrest with CadeWare and BillBricker. Existing McCubbin spelling conflicts with primary institutional record. No jail interval given; flagged identity/name spelling and identified right-hand PatsyLynch portrait for separate inspection, no guessed crop.",
+      "sources": [
+        "https://archives.rainbowhistory.org/exhibits/show/pioneers/maccubbin"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ivan J. Busija",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Searched Busija deportee and excluded Croatian military/namesake records. Arrest-to-sailing span is not proven uninterrupted merely because no bail is recorded; flag stored narrative assumption without replacing dates from absent evidence.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Richard Marino",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Army appeal reproduced CongressionalRecord identifies MichaelMarino, not RichardMarino, and affirms8months plus badconduct discharge/forfeiture on lesser Article90 offense. Strong name contradiction requires identity reconciliation before adopting facts. No discharge date inferred from reduced term.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1970-pt20/pdf/GPO-CRECB-1970-pt20-6-1.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Thomas Burney",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1795 manuscript description names Burney among those committedDecember25,1794 but gives no individual bail/discharge date. Excluded1750s frontier blacksmith and modern criminal namesakes; no guessed1795release.",
+      "sources": [
+        "https://www.icollector.com/Whiskey-Rebellion-Important-Manuscript-Doc_i7341960"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 7,
+    "complete": true,
+    "live_mutations_by_agent": 0
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "round": 102,
+  "profiles": [
+    {
+      "name": "Nikolai Mikhaelov",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name search yielded no new custody endpoint. March bail release prevents treating March-December as continuous custody.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Alice Vaughan",
+      "status": "reviewed_unresolved",
+      "evidence": "Original WRI December 2001 roster confirms BOP90296-020 already present. Future January endpoint in that roster is prospective, not independent actual-release verification.",
+      "sources": [
+        "https://wri-irg.org/sites/default/files/public_files/pfp01-en.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Richard J. Spitz",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name 1969 search did not locate an individual contemporary custody endpoint. Fifteen-day sentence does not establish actual service.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Paul Sweezy",
+      "status": "supported_correction",
+      "evidence": "Original Supreme Court opinion identifies state contempt of court and Attorney General Louis C.Wyman, correcting the Congress label. No additional actual jail endpoint inferred.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/USREPORTS-354/pdf/USREPORTS-354-234.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "97e2d548-cde0-4305-9faf-5dbc914d6807",
+          "updates": {
+            "charges": "Contempt of court",
+            "prosecutor": "Louis C. Wyman",
+            "sentence": "Confinement until purged of contempt"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ann Clune",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name Pentagon1982 search yielded no new individualized source; thirty-day sentence is not independent actual time-served evidence.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anthony Krchmarek",
+      "status": "supported_correction",
+      "evidence": "Original DOJ bulletin reports February10,1956 conviction and prosecution staff. Five-year sentence preserved as imposed term only. DOJ list also gives fuller prosecution staff initials already represented by surname in current record, no new judge established.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0405.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7e0150da-d89b-4d43-9460-467f5c6751bb",
+          "updates": {
+            "convicted": "February 10, 1956; reversed May 23, 1958",
+            "sentence": "Five years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Joan Trumpauer Mulholland",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh search located original-interview descriptions of Parchman detention but not a new verified exact endpoint or date of birth.",
+      "sources": [
+        "https://breachofpeace.com/blog/?p=54"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Cecil E. Rust",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name pressmen1977 search did not establish admission or release. Work-release sentence remains distinct from actual service.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dick Gregory",
+      "status": "supported_correction",
+      "evidence": "HistoryLink explicitly reports beginning the Thurston County jail sentence June6,1968 and cites SeattleTimes June6 p61. Existing July16 endpoint is release home as trustee, not completion of sentence.",
+      "sources": [
+        "https://historylink.org/File/5462"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "d3889d89-ffd5-5eac-9be4-25dd4b456bed",
+          "updates": {
+            "incarceration_date": "1968-06-06"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Michele Naar-Obed",
+      "status": "supported_correction",
+      "evidence": "Original Virginian-Pilot March13,1996 identifies federal prosecutor RayShepard and reports August7,1995 action, conflicting with current August6. Propose prosecutor; flag action date conflict separately.",
+      "sources": [
+        "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1996/vp960313/03130511.htm"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3ee92230-1c35-4965-bcdc-2d9ef89a36c6",
+          "updates": {
+            "prosecutor": "Ray Shepard"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Sydney Clifford",
+      "status": "reviewed_unresolved",
+      "evidence": "Original contemporary KPRC roster does not establish individual booking times; do not apply the collective bridge timeline as exact individual custody.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Kat Abughazaleh",
+      "status": "supported_correction",
+      "evidence": "Original AP May21,2026 report identifies Judge AprilPerry at dismissal. No sentence was imposed; clear explanatory sentence text.",
+      "sources": [
+        "https://apnews.com/article/dad855b4398e4115a2e59111ae47b643"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9a36570e-2516-4bee-9e04-18f4b6d0af1d",
+          "updates": {
+            "judge": "April Perry",
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Merrick",
+      "status": "reviewed_unresolved",
+      "evidence": "WorkersMonthly March1926 references Merrick defense but supplies no actual custody dates; appellate bail is not imprisonment.",
+      "sources": [
+        "https://www.marxists.org/history/usa/culture/pubs/wm/1926/v5n05-mar-1926-1B-WM.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Erin Sieber",
+      "status": "reviewed_unresolved",
+      "evidence": "Original NuclearResister reports July20,2001 conviction and six-month term for ErinLeitner-Sieber; GoodFriday was April13, conflicting April14 arrest/start. Need actual admission source before changing custody.",
+      "sources": [
+        "https://www.nukeresister.org/static/nr125/125whitehouse.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "L. Lloyd",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name1918 search did not verify actual release. Existing August25 appears sentence-calculated and requires original case-record review.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Walker",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh name searches mostly return DrMaryEdwardsWalker, a different person. Do not attach her vital dates or portrait to this suffrage picket.",
+      "sources": [
+        "https://home.nps.gov/articles/000/doctor-mary-walker-at-chatham.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Abraham F. Neufeld",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Mennonite prisoner roster dated November27,1918 lists AbrahamF.Neufeld number13920 at Leavenworth. Does not establish admission or actual release; existing one-day actual total lacks corroboration.",
+      "sources": [
+        "https://goshen.hykucommons.org/downloads/7ffe8203-e531-4bef-aa1c-da71c256c15d?locale=en",
+        "https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gabriel Rubio",
+      "status": "reviewed_unresolved",
+      "evidence": "RicardoFloresMagon archive chronology identifies September6,1906 capture, while contemporary Turner account confirms deportation but no exact date. Retain date precision pending original arrest record.",
+      "sources": [
+        "https://archivomagon.net/obras-completas/correspondencia/historia-de-la-correspondencia/",
+        "https://www.pascuayaqui-nsn.gov/wp-content/uploads/PDF/Education/barbarousmexico_jkt.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Hightower",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh Harlan account reports December1935 pardon but no individual release date. Pardon does not establish release.",
+      "sources": [
+        "https://carlestes.com/hellinharlan.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Edward Warren",
+      "status": "reviewed_unresolved",
+      "evidence": "Original MississippiSovereigntyCommission mugshot metadata confirms July16,1961 arrest and1932 birth year already present; no new custody endpoint.",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-6-25-1-1-1"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Izhar Muhammad",
+      "status": "supported_correction_with_unresolved_endpoint",
+      "evidence": "Original Pahlawan court findings explicitly name Izhar among the four initial defendants and report that FBI physically arrested all14 mariners February14,2024. Correct August6 formal-arrest date. Earlier military custody is documented but legal/institutional admission date remains separate. February2025 opinion reports Izhar material-witness deposition December2,2024, so criminal dismissal and current November endpoint cannot be equated with final custody release; no replacement endpoint proposed. Clear Dismissed sentence because it is an outcome, not imposed punishment.",
+      "sources": [
+        "https://app.midpage.ai/document/united-states-v-pahlawan-1000437983539",
+        "https://www.casemine.com/judgement/us/67ac246d3904d92542acacca/amp"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "fdc6475b-8fe8-444c-a895-4b1a39af3cfa",
+          "updates": {
+            "arrest_date": "2024-02-14",
+            "sentence": null
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Daniel Fierro",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name1918 search found namesake genealogy, not individualized EspionageAct custody. Do not treat one-year sentence as proof of October19,1919 release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Julián Gerona",
+      "status": "reviewed_unresolved",
+      "evidence": "Mabini original diary confirms Gerona on Guam July1901. Later family claim he died there conflicts archival history of his work and return; no release or death date inferred.",
+      "sources": [
+        "https://philippinediaryproject.com/1901/07/09/9th-of-july-1901/",
+        "https://humanities.washu.edu/news/americas-st-helena-filipino-exiles-and-us-empire-guam-1901-03"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Deborah Stout",
+      "status": "reviewed_unresolved",
+      "evidence": "Original NinthCircuit opinion confirms February18,1994 contempt hearing; existing start already same. No new actual release found.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F3/21/1113/623084/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Walter Sherwen",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name/alias searches did not yield new individualized detention or vital dates. Deportation date is not proof of custody start.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Benjamin Lowell Careathers",
+      "status": "supported_correction",
+      "evidence": "Original DOJ bulletin explicitly gives August20,1953 conviction, August25 sentencing, Judge RabeF.MarshJr, five-year term. No actual incarceration inferred from term; original district opinion identifies prosecution staff.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0103.pdf",
+        "https://www.casemine.com/judgement/us/5914ca62add7b049347fa059"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3338e498-8b16-4dcf-b746-c66f67d92f9a",
+          "updates": {
+            "sentenced_date": "1953-08-25",
+            "judge": "Rabe F. Marsh Jr.",
+            "sentence": "Five years",
+            "prosecutor": "Edward C. Boyle; Irwin A. Swiss; William G. Hundley; Richard J. Alfriend III"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tom Cornell",
+      "status": "reviewed_unresolved",
+      "evidence": "Original CatholicPeaceFellowship June1968 bulletin says sentence service imminent; co-defendant first-person memoir confirms Cornell surrendered, but no new actual release date established.",
+      "sources": [
+        "https://archives.nd.edu/CPF/CPF_1968-06.pdf",
+        "https://www.fermentmagazine.org/bio/newleft2"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bruce Washington",
+      "status": "reviewed_unresolved",
+      "evidence": "Original BPP November2,1974 newspaper reports Washington killed protecting children; no custody inference from killing or unverified August misdemeanor episode.",
+      "sources": [
+        "https://www.lincoln.edu/_files/langston-hughes-memorial-library/Black%20Panthers%20Newspaper%20Publications/BP11021974.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "J. H. Beyer",
+      "status": "reviewed_unresolved",
+      "evidence": "Existing1874 birth conflicts stated age56in1916; same-initial names need original identity verification. No birth or exile date added from group event.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pedro Erando",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh Guam transport roster reproductions name Erando among11onSolace; no original individual release found. Do not copy other exiles1903return.",
+      "sources": [
+        "https://losindiosbravos.blogspot.com/2010/11/guam-exiles-1901.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Abdul Majid",
+      "status": "supported_correction",
+      "evidence": "Own first-person interview gives aggregate33and1/3years-to-life on two counts, correcting current33halfyears. Original PeoplevYork confirms attempted-murder sentencing January24,1983, but murder term is later separate proceedings; no single aggregate sentencing date assigned.",
+      "sources": [
+        "https://armthespiritforrevolutionaryresistance.wordpress.com/2017/07/08/interview-with-abdul-majid/",
+        "https://law.justia.com/cases/new-york/appellate-division/1987/133-ad2d-130.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "2e4723a1-9162-4f34-8894-3e08e09d3216",
+          "updates": {
+            "sentence": "33⅓ years to life"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Scott Kenji Warren",
+      "status": "supported_correction",
+      "evidence": "Original NuclearResister reports three-month sentence, contradicting six-month prospective WRI roster. Propose three-month imposed term only; current actual184days and January20release need additional verification, not recalculation.",
+      "sources": [
+        "https://www.nukeresister.org/static/nr125/125whitehouse.html",
+        "https://wri-irg.org/sites/default/files/public_files/pfp01-en.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "5d4eaf78-2a5e-4a81-8d13-1bb0eff610e8",
+          "updates": {
+            "sentence": "Three months"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "N. F. Gibson",
+      "status": "reviewed_unresolved",
+      "evidence": "Initial-specific Gastonia searches yielded no individual primary release record. Dismissal of group charges is not proof of physical release date.",
+      "sources": [],
+      "proposed_updates": []
+    }
+  ],
+  "review_complete": true,
+  "reviewed_count": 33,
+  "final": true,
+  "scope": "Individual bounded source review; unresolved findings are not claimed exhausted.",
+  "supported_profiles": 9
+}

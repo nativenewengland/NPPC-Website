@@ -1,0 +1,373 @@
+{
+  "profiles": [
+    {
+      "name": "Mitsuye Endo",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original SupremeCourt decision and NPS establish administrative detention of concededly loyal citizen, not a criminal charge or sentence. Those blanks are legitimate. Bio incorrectly calls decision one day afterKorematsu; NPS says bothDecember18,1944. No biography edit within task.",
+      "sources": [
+        "https://www.nps.gov/people/mitsuye-endo.htm",
+        "https://opencasebook.org/casebooks/7606-asian-americans-and-us-law/resources/6.4-ex-parte-endo-1944/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Spangberg",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh exactname search found no reliably identified portrait or individual named criminal charge. OriginalINS administrative deportation alreadydated; no fabricatedcharge.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Walsh",
+      "status": "reviewed_supported_updates",
+      "evidence": "Kohn1994p138 explicitly records actualCookCounty/Leavenworth custodyDecember1917–January1920 andApril1921–October30,1922. Enter two separate partialprecision intervals, preserving bailgap; clear generic12monthtotal. ContemporaryNovember1announcement confirms commutation but is not itself releaseproof; Kohncites prisonrecords.",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html",
+        "https://catalog.archives.gov/id/117703363",
+        "https://weneverforget.org/hellraisers-journal-ben-fletcher-john-walsh-and-walter-nef-iww-class-war-prisoners-freed-by-president-harding/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "032970d6-ef86-408d-aac2-a42bf21c8753",
+          "updates": {
+            "incarceration_date": "1917-12-01",
+            "release_date": "1922-10-30",
+            "custody_periods": [
+              {
+                "start": "1917-12",
+                "end": "1920-01"
+              },
+              {
+                "start": "1921-04",
+                "end": "1922-10-30"
+              }
+            ],
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {
+            "incarceration_date": "month",
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Max Weiss",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh FBIFlorencePasternakfile says arrestedSeptember9,1955 while existingrecordSeptember19. Not overwritten until contemporary arrestreport resolves conflictingdays. January6,1956observation shows atliberty bythen, not actual release date.",
+      "sources": [
+        "https://vault.fbi.gov/rosenberg-case/florence-pasternak/Florence%20Pasternak%20Part%2001/",
+        "https://www.marxists.org/history/usa/pubs/political-affairs/1955-10-34-10-political-affairs.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Edward Allen",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh visualidentity search returned unrelated Canadianmilitaryman and Dartmouthalumnus; excluded. Monrovia localhistory confirms teenidentity but no individuallyidentifiedportrait located. LocalchangemakerNov17death conflictscurrentNov16; secondarymention not used tooverwrite currentprimarychronology.",
+      "sources": [
+        "https://heysocal.com/2017/10/26/new-book-renaissance-years-opens-eyes-racial-divide-monrovias-formative-years/",
+        "https://ppolinks.com/monrovia/ChangeMakers%20e-book.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "June Croll Gordon",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalMay16,1933Laisvereports arrest,June5DailyWorkerrecentarrest, February1934LaborDefenderreleased. These give bounds, not exact admission/month safely because earlier arrest possible. July1publicspeech doesnotprove she was not ontemporaryrelease. Separate1960deportationorder no custody.",
+      "sources": [
+        "https://www.spauda2.org/laisve/archive/1933/1933-05-16-LAISVE.pdf",
+        "https://revolutionsnewsstand.com/2025/10/29/deportations-go-on-under-the-new-deal-from-the-daily-worker-vol-10-no-134-june-5-1933/",
+        "https://www.marxists.org/history/usa/pubs/labordefender/1934/v10n02-feb-1934-lab-def.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Yaeger",
+      "status": "reviewed_no_safe_update",
+      "evidence": "ExactnameCOsearch found missing-in-actionWWIsoldier, not demonstrated sameperson.1918JAGapproval date is not actual admission. No safely supported new start.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Colin Hunter Weger",
+      "status": "reviewed_no_safe_update",
+      "evidence": "PendingMichigan2026case reviewed; no imposed sentence established. Blankterm is appropriate; otherdefendants sentencenotassigned.",
+      "sources": [
+        "https://michiganadvance.com/2026/06/12/judge-grants-bond-for-four-pro-palestinian-u-m-students-charged-with-vandalism-transmitting-threats/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Julius Soich",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual exact-name search found no freshoriginal record beyond1932ILDroster. Rosterpublication is not admission or discharge, and missing sentence remainsunknown.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Bendik",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalZimmerentry and exact-name follow-up do not identify a new criminal count or actual admission date. Politicalboast alleged in immigrationcase not itself namedcriminalcharge.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ivan Povlycic",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name search yielded no reliableindependent custody or portrait evidence; May8,1920deportationalreadyrecorded, do not infer preceding custody.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joudon M. Ford",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalMilitantFebruary7,1969 reports January24airportarrest and arraignment by USCommissionerMaxSchiffman. CurrentJanuary24alreadyfilled; add judicialofficer, not a guessed endpoint. Separate attemptedmurderdetention hasnoexactdates inreminiscence.",
+      "sources": [
+        "https://www.themilitant.com/1969/3306/MIL3306.pdf",
+        "https://www.ccny.cuny.edu/sites/default/files/2023-06/Paper_reflection_update_June2023.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "06f63413-120f-495a-9eff-9fce653f55fe",
+          "updates": {
+            "judge": "U.S. Commissioner Max Schiffman"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Peter Almeida",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual NewBedford1970follow-up search found no original release or disposition; modern same-name people excluded. Groupraidtimeline not enough to setindividualrelease.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Halonen",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual FortDixCOsearch returned unrelated Finnish namesakes. No safe photo, personalvitals, admission or release beyondCCCOroster.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John D. Mantis",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Kohnp115 reiterates actualadmissionNovember21,1918alreadyrecorded, no releasegiven. IndexOCRalso spellsManus; namesake data not merged withoutmatchingcourtidentifier.",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Toteno",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalNorthwestOrganizerFebruary8,1940 and SocialistAppealFebruary10confirm sixmonthterm but no actualrelease. Nominal term-end not invented.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/northwestorganizer/v5n43-feb-08-1940-nw-org.pdf",
+        "https://www.marxists.org/history/etol/newspape/themilitant/socialist-appeal-1940/v4n06-feb-10-1940.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Parson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Kohnindividualentry confirms over18monthsOmahajails beforedismissal, alreadydescribed. Freshsearch didnot locateidentifiedportrait; unrelatedParsonfamilynames excluded.",
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jean Montrevil",
+      "status": "reviewed_no_safe_update",
+      "evidence": "IACHRoriginal confirmsJanuary3,2018ICEdetention anddeportation; civilimmigrationnotcriminalsentence, legitimateblank. Earlierdrugterm must not beentered as activismcustody.",
+      "sources": [
+        "https://www.oas.org/en/iachr/media_center/PReleases/2018/029.asp",
+        "https://immigrantjustice.org/wp-content/uploads/2025/05/Chance-to-Come-Home_White-Paper_NIJC-April2021.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pietro Marucco",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual originalINSbiographicalentry and Italoamericanahistorylead describe administrative removal and deathatsea; no namedcriminalcount. Comradesallegedmurder not establishedofficialfinding.",
+      "sources": [
+        "https://sites.hofstra.edu/stanislao-pugliese/wp-content/uploads/sites/44/2020/02/Durante_Italoamericana_Intros.pdf",
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Javon Hardy",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalDOJsentencingrelease confirms caseidentity and existingjudge/term; no originalidentifiedportrait found. UnrelatedPatrickJavonHardyTexas2025defendant excluded.",
+      "sources": [
+        "https://www.justice.gov/usao-wdny/pr/rochester-man-who-pleaded-guilty-rioting-going-prison-burning-mobile-office-trailer"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joshua Sykes",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original NinthCircuitSykes264F945 identifies conspiracy to obstructdraft andviolateEspionageAct, correcting genericActand/orSeditiontext. Appellateopinion omits exactterm; no speculative sentence. Currentactualadmission1921 preserved despite1919trial.",
+      "sources": [
+        "https://law.justia.com/cases/federal/9th-cir/1920/264-f-945.html",
+        "https://www.pentecostaltheology.com/a-shudder-swept-through-them/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "965bf719-810a-4365-8624-2618bdb6a160",
+          "updates": {
+            "charges": "Conspiracy to obstruct the draft and violate the Espionage Act"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Marcus Graham",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Zimmer1937–40chronology establishes repeatedbailappeals; cannot treat1937raid to1940contempt as continuous imprisonment. OriginalJanuary14,1938dismissal concerns deportationorder, not establishedrelease. Needindividualjailrecord beforealteringstart/end.",
+      "sources": [
+        "https://files.libcom.org/files/ManandtheInternationalGroup.pdf",
+        "https://www.anarchistfederation.net/kenyon-zimmer-immigrants-against-the-state/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Austin Copeland",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalNationalArchivesindictment explicitlyJuly15,1831offense andSeptemberindictment, not July15arrest. Arrestnotinferred from allegedresidency. Existingconviction/clemency remain.",
+      "sources": [
+        "https://docsteach.org/document/worcester-v-georgia-indictment/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "G. Woods",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Initial-only identity and exactEspionageActsearch didnot find a safelymatched originalportrait or arrest. November27sentencingcannotbeconvertedtoarrestdatemissing.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joe O'Sullivan",
+      "status": "reviewed_no_safe_update",
+      "evidence": "IndividualSanFrancisco1976strike search returned unrelatedIrishrevolutionaryexecuted1922; excluded. Fourdayservedtermalreadydocumented; exactbookingdates notfound.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Paul Crouch",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Freshresearch locates February17,1925arrestandNovember18,1955death in encyclopedia citingGregoryTaylorbiography and Hooverpapers; no directlyreviewedprimary corroboration fordays, so not autoapplied. CurrentFeb1925month and1955yearpreserved.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Paul_Crouch_%28activist%29",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1925/1925-ny/v02b-n087-NYE-apr-23-1925-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Justin Christopher Moore",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalDOJOPASeptember13,2023 explicitly sentencedtoday, refiningcurrentSeptembermonth. OriginalDOJreleasedSeptember29,2022report givesguiltypleaSeptember22,2022. JudgeLaurenKing independentlyidentified incontemporarycasecoverage. No actualadmission/releaseinvented.",
+      "sources": [
+        "https://www.justice.gov/archives/opa/pr/washington-man-sentenced-bringing-box-molotov-cocktails-protest-march-summer-2020",
+        "https://www.justice.gov/oip/media/1440651/dl?inline=",
+        "https://www.morelaw.com/verdicts/2-22-cr-00013/WA/174205/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7be6e6a1-5408-4351-9b7f-50d73840ef70",
+          "updates": {
+            "sentenced_date": "2023-09-13",
+            "plead": "Guilty",
+            "judge": "Lauren King"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John J. Ballam",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Freshencyclopedia givesreleaseaboutApril1,1919; underlyingoriginalrelease notyetreviewed, so noexactdayclaimed.1919DecemberNewOrleansarrest separateproceedingnotassignedto1918case.",
+      "sources": [
+        "https://www.marxists.org/history/usa/unions/iww/1918/0203-ballam-speechforiww.pdf",
+        "https://en.wikipedia.org/wiki/John_J._Ballam"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Larry Medley",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalBlackPantherMay8,1971highpointarticle confirms individualidentityandage16, but not physicalrelease. Arrestandongoingcoverage notendpoint.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/06%20no%2015%201-20%20may%208%201971.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Worth Braxton",
+      "status": "reviewed_no_safe_update",
+      "evidence": "AQAGoriginalcollectionguide and contemporaryFriendsJournal confirm organizeranddraftresisteridentity; no freshexactarrestdate. Same-nameVietnamwarfatalityexcluded.",
+      "sources": [
+        "https://researchworks.oclc.org/archivegrid/archiveComponent/20402069",
+        "https://www.friendsjournal.org/wp-content/uploads/emember/downloads/1984/HC12-50763.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Hayes",
+      "status": "reviewed_no_safe_update",
+      "evidence": "ExactJamesHayesGamboasearchdidnotresolvePanamaIWWidentity; modernMichiganobituariesexcluded. Escape.reportdateJanuary31,1920notexactescape. No new arrestorportrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Ellery Bristol",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original1947pardonproclamation establishesOctober31,1941CONVICTION, alreadypresent; not admissionor arrest. No newlyverifiedcustodydate.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/STATUTE-62/pdf/STATUTE-62-Pg1441.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Miguel Vargas Nieves",
+      "status": "reviewed_no_safe_update",
+      "evidence": "FreshWashingtonStarphotoarchivehistoricalcaption confirms18monthterm and1955trialgroup; no actualprisonadmission/release. PhotoofJulioPintoGandiaisdifferentperson, notusableportrait.",
+      "sources": [
+        "https://www.flickr.com/photos/washington_area_spark/46340853084"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Harold M. Koch",
+      "status": "reviewed_no_safe_update",
+      "evidence": "ContemporaryDecember19,1966newspaperconfirms voluntaryreturnviaSweden andearlierasylum; no arrestorimprisonment demonstrated. Asylum not criminalcustody.",
+      "sources": [
+        "https://newspaperarchive.com/somerset-daily-american-dec-19-1966-p-3/"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "complete": true,
+  "reviewed_count": 34,
+  "supported_profiles": 4,
+  "scope": "Individual bounded research with preserved unresolved dates; parent deploys; no live writes or commits."
+}
