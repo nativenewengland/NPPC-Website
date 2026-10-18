@@ -1,0 +1,79 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jessica Lynn White",
+      "slug": "jessica-lynn-white",
+      "expected": {
+        "id": "0b7d1cdd-edb3-43e4-80e3-3c9ae24434b6",
+        "prisoner_id": "d6e414ec-07c7-402b-82f5-bb57fe6c1d30",
+        "institution_id": null,
+        "charges": "Federal arson charge",
+        "arrest_date": "2020-06-16 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Charges as recorded: Federal arson charge over the May 28, 2020 fire at the Enterprise Rent-A-Car building in St. Paul during the George Floyd uprising",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:00:52",
+        "updated_at": "2026-07-29 17:12:18",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Charges as recorded: Federal arson charge over the May 28, 2020 fire at the Enterprise Rent-A-Car building in St. Paul during the George Floyd uprising\n\nFederal prosecutors dismissed her case in August 2020. The dismissal month does not establish the date of physical release from custody."
+      },
+      "source": "https://www.claimsjournal.com/news/national/2020/10/19/300012.htm",
+      "research_note": "Frederick Melo reporting, October 19, 2020, identifies Jessica Lynn White as Matthew Scott White sister and states her case was dismissed in August. Added missing disposition month to case notes; no imprisonment endpoint inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Haruko Takahashi",
+      "slug": "haruko-takahashi",
+      "expected": {
+        "id": "7c6a1570-5735-4575-892e-39b8c1e41789",
+        "prisoner_id": "7ac91bbd-b393-4a03-84b8-66c77c73e70f",
+        "institution_id": null,
+        "charges": "Administrative US wartime civilian detention; no individual criminal charge established",
+        "arrest_date": "1941-12-14 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1944-07-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Administrative wartime detention after December 14, 1941 arrest, with release in July 1944. Exact release day, imposed judicial term and measured continuous custody duration are not established. Source: https://www.nps.gov/articles/000/haruko-takahashi.htm",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-06 06:57:55",
+        "updated_at": "2026-10-14 00:00:50",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1941-12-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "source": "https://www.nps.gov/articles/000/haruko-takahashi.htm",
+      "research_note": "NPS describes December 14, 1941 arrest in the roundup and ensuing incarceration without counsel until July 1944. Added December 1941 MONTH custody start only; exact facility admission day not separately established. Existing July 1944 MONTH release preserved. No exact-day duration manufactured."
+    }
+  ]
+}
