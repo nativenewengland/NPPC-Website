@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-2 profiles updated live through batch1066;2 bounded reviews without additions;96 pending. Next unused batch1067. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+3 profiles updated live through batch1067;3 bounded reviews without additions;94 pending. Next unused batch1068. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -18,7 +18,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - John Katkus — bounded_review_no_addition
 - Albert Constant Belhomme — pending
 - Joseph J. Gordon — pending
-- George Frosig — pending
+- George Frosig — bounded_review_no_addition
 - Jacob Hoopes — pending
 - Jeff Keith — pending
 - Howard Hairston — pending
@@ -41,7 +41,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Matthew Rupert — pending
 - David Lock — pending
 - Mariah Bailey — pending
-- Ken Rippetoe — pending
+- Ken Rippetoe — verified_addition_live_batch1067
 - Samir Ousman Alsheikh — pending
 - James Eddie Austin — pending
 - Fedor Antonchick — pending
