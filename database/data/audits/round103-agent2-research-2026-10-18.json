@@ -1,0 +1,408 @@
+{
+  "profiles": [
+    {
+      "name": "Jacob D. Mazelin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact name/court-martial115535 searches did not yield individual admission or discharge. Swarthmore record remains source lead; no sentence or portrait invented.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Grace Martin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original indictment independently names GraceMartin but does not establish jail discharge. A bond order is not physical release; no release computed from approximate19days. Existing19-day override described as at least, so exactness remains questionable.",
+      "sources": [
+        "https://saportareport.com/wp-content/uploads/2023/09/public-safety-training-center-RICO-indictment-Copy.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Daniel Teuscher",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Scholarly thesis citing original April23,1918 family letter places Teuscher atCampTravis then and deathNovember1918FortLeavenworth; no new exact admission/death day. Duplicate EspionageAct versus military refusal case apparent; do not merge without individualcourtfile. Twelve-month actualoverride lacks corroboration.",
+      "sources": [
+        "https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/002/NR46799.PDF?is_thesis=1&oclc_number=694678259"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Esther Richman",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name1926 Chicago picket searches did not establish new day or identified portrait. Existing June month dates and documented10days retained; genealogical EstherRichman matches excluded without identity.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Roy Horlacher",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name conscientious-objector/Leavenworth searches found no individual sentencing/admission/release record. March1,1919 prison-list snapshot is not entryday; no dates calculated.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Kenneth Loud Hawk",
+      "status": "verified_fix_ready",
+      "evidence": "Original1983 court opinion names initial actual arrestNovember14,1975, indictmentcounts and government counsel. SupremeCourt confirms defendants free during substantial portions of proceedings; no twelve-year custody manufactured. Add named statutory offenses and trial prosecutors only.",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/564/691/1407675/",
+        "https://www.law.cornell.edu/supremecourt/text/474/302"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "66c0947b-b023-4a9e-8e96-9c351b366507",
+          "updates": {
+            "charges": "Possession of an unregistered destructive device; possession of firearms with obliterated serial numbers",
+            "prosecutor": "Charles H. Turner; Kenneth C. Bauman"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Max Stanford",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Fresh CongressionalRecordFBI report explicitly says releasedMay1968, but June1967Philadelphia case includes intervening bail and AugustNewYork extradition. Cannot append Mayendpoint to June start as continuous custody. Flag release-month lead for split episodes rather than one false counter. Contemporary indictment labels criminalanarchy/arson/weapons differ storedincitement.",
+      "sources": [
+        "https://www.congress.gov/91/crecb/1969/07/08/GPO-CRECB-1969-pt14-3-3.pdf",
+        "https://www.marxists.org/history/erol/periodicals/ic-voice/ic-voice-1-6a.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jacob Heroch",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact JacobHeroch deportee searches found no independent detention start or originalportrait. December23,1920 removal endpoint alone cannot establish continuous custody.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Rosell",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original SovereigntyCommissioncatalog confirms HenryRosell arrestJuly9,1961 and identified policephoto, already present. No actual booking-duration, Parchman transfer or physical discharge proof added.",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-5-99-1-1-1"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Evans",
+      "status": "verified_fix_ready",
+      "evidence": "NPS nomination corroborates1817birth already stored; Smithsonian EvansTibbs family-photo catalog independently gives HenryEvans1817-1886. Add deathyear only; exactday/arrest unresolved.",
+      "sources": [
+        "https://npgallery.nps.gov/GetAsset/9f274675-0bac-4210-b3eb-2c1c55d7d380",
+        "https://collections.si.edu/search/results.htm?q=set_name%3A%22Evans-Tibbs+Collection+%2F+Series+5%3A+Photographs+%2F+5.2%3A+Family+%2F+5.2.2%3A+Evans+Family%22"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "9a06378b-655d-4c2a-8bbc-5b44b25c938d",
+          "updates": {
+            "death_date": "1886-01-01"
+          },
+          "precision_merge": {
+            "death_date": "year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ellie Brett",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary AJC identifies Brett sentencingMarch2022 and five-yearterm/three-yearsupervision. Add sentencing month only, no exactday fabricated and existingBOPrelease retained.",
+      "sources": [
+        "https://www.ajc.com/news/crime/3-men-sentenced-in-burning-of-us-postal-service-vehicles-in-metro-atlanta/C33ZPRISABHZJGEEY7PPESXTEE/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a1d9b46c-4267-4369-8a1b-3f94f0889f2f",
+          "updates": {
+            "sentenced_date": "2022-03-01",
+            "sentence": "Five years in prison; three years of supervised release; $35,000 restitution"
+          },
+          "precision_merge": {
+            "sentenced_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Richard Dominick",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact RichardDominick Danbury searches did not independently identify draft resister beyondCCCO list. Excluded RichardBayardDominick ophthalmologist and modern obituaries; no mistaken dates/photo.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sam Betti",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact SamBetti BulgerBlock1931 searches found no fresh individual jail admission or discharge. Sixty-day sentence cannot establish actual dates or servedtotal; preserve distinction.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dorothy Blitz",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1980 WorkersVanguard lists DorothyBlitz among prosecuted antiKlan survivors; rioting prosecution does not prove individual jailbooking. Separate1982 BlitzvDonovan employment/free-speech suit is not incarceration evidence. No invented term.",
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/workersvanguard/1980/0256_16_05_1980.pdf",
+        "https://law.justia.com/cases/federal/district-courts/FSupp/538/1119/2297147/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ginovanni Brumbelow",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJJuly27,2026 explicitly states July15,2025three-count indictment, guiltydangerousweaponplea and futureOctober19sentencing. Correct namedcharges; no statutorymaximum added as sentence.",
+      "sources": [
+        "https://www.justice.gov/usao-or/pr/gresham-man-pleads-guilty-assaulting-federal-law-enforcement-officer-during-weekend-riot"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c8181cdc-fd19-4137-98f2-1dab18647db8",
+          "updates": {
+            "charges": "Assault on a federal officer; assault on a federal officer with a dangerous weapon; civil disorder",
+            "indicted": "July 15, 2025"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Frank Nash",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalNewLeaderNovember13,1926 reports Nash arrestedApril16,1921Centralia and completedfive-yearWallaWallaterm. Add exactarrest; do not replace prisonadmission with earlierarrest.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/new-leader/1926/v03n44-nov-13-1926-NL.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "144a9c06-3fee-4d9a-bdcc-9925e7e0fded",
+          "updates": {
+            "arrest_date": "1921-04-16"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Christian Yearous",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalGrantCountyHeraldAugust7,1918 places trial previousweek and guiltytwoEspionageActcounts; says only rumoredsuspendedsentence, conflicting laterLeavenworthyear account. No exacttrial/incarceration or endpoint inferred from lastweek.",
+      "sources": [
+        "https://tile.loc.gov/storage-services/service/ndnp/whi/batch_whi_kenyon_ver01/data/sn85033133/00514158915/1918080701/0018.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ed Miller",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Everett roster and exact-name searches, excluding sports/localfamilyEdMiller. Existing May1917release is monthprecision; no exactdischarge day justified. Age48in1916 yields possible1867/1868, no exactbirthdate.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Connie Wilson",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact ConnieWilson1976voter-registration searches yielded no individual finalverdict or jailrecord. Unrelated1958Bakersfieldgraduate obituary excluded; trial alone does not establish imprisonment.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Felix",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalSeptember8,1930 Laisveprisonerlist confirms WilliamFelix three-monthterm and Milwaukeeworkhouse address; no actual admission/release day. Existing1930yearstart kept; no sentence arithmetic.",
+      "sources": [
+        "https://www.spauda2.org/laisve/archive/1930/1930-09-08-LAISVE.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lukian Viktolorovich Zibula",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact/transliteration searches did not establish Zibula new source. Existing statement absenceofbail provescontinuouscustody is not affirmativeproof; flag assumption. No new detentiondate or sentence created.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mutsuo Higuchi",
+      "status": "verified_fix_ready",
+      "evidence": "HeartMountainFoundation individualbiography explicitly verifies existingarrest/vitals and three-yearimposedterm. Replace narrative sentence with punishment and remove36monthactualservedoverride unsupported by source; no release from1947pardon.",
+      "sources": [
+        "https://heartmountain.org/draft-resisters-hub/higuchi-mutsuo/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6fbfa446-19d0-48e5-b500-96f9b28b6ce7",
+          "updates": {
+            "sentence": "Three years",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Mike Pasquale",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Mike/MichaelePasquale Allenwood91102-020 identity. ExistingSeptember10,2002-March7,2003interval already established; no new arrestday independently verified from exactnamesearch. Do not convertNovember18action into bookingwithoutsource.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ray M. Miller",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact RayM.Miller WWIconscientious-objector searches did not find individual custodyrecord. ModernLeavenworthRayD.Miller born1936 excluded; WhiteCloud1950s address not prisondate.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ricardo Romero",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalLibertadJuly1986 confirms actualJune13,1986Saffordrelease alreadystored. No new arrestdate found, and civildetentionorigin versus latercriminalcontempt should remain distinguished.",
+      "sources": [
+        "https://www.freedomarchives.org/Documents/Finder/DOC26_scans/26.LibertadJuly1986.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Taraknath Das",
+      "status": "verified_fix_ready",
+      "evidence": "ColumbiaUniversityfoundationhistory explicitly identifies NeutralityActconspiracy and22monthsentence, corroborated1918originalEugeneDailyGuard. Correct vagueEspionageActlabel and put imposedterm in sentence; clear22monthactualoverride because servedterm not established by sentencing. No release calculated.",
+      "sources": [
+        "https://sai.columbia.edu/content/mary-keatinge-das-lectures",
+        "https://oregonnews.uoregon.edu/lccn/sn96088107/1918-06-12/ed-1/seq-2.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "44ad9b2b-1b96-4754-a2cf-1d0332b1090f",
+          "updates": {
+            "charges": "Conspiracy to violate the Neutrality Act",
+            "sentence": "22 months",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Walter Rozier",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Fresh FBI1974Detroitfile names WalterRozier but is differentgeographiccontext than Oaklandshooting. No safe individualmatch to transplant dates orportrait. Original1974Oaklandreport stillneeded for booking/outcome.",
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/2022/docid-32989574.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hisashi Fukuhara",
+      "status": "verified_fix_ready",
+      "evidence": "AlbuquerqueMuseum individualSantaFeroaster gives October15,1897DOB, spouseMitsueHonokaa identifyingcrossmatch withJCCHbarberprofile. Refinebirthdate only; rosterJune30,1945date is census/snapshot not discharge, and November1945return not proven releasemonth.",
+      "sources": [
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf",
+        "https://incarceration.jcchawaii.org/internees/fukuhara-hisashi-getsugaku"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "27af76be-41fc-43f3-a770-023c401f9bf9",
+          "updates": {
+            "birthdate": "1897-10-15"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Orville Enfield",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Fresh historicalchronology citesLosAngelesHeraldJune12,1918 for20yearsentence conspiracyobstructdraft, but exactarrest/start/end remain unverified. ExcludeOrvilleEnfield bornJune6,1918namesake; storedJune6arrest needsprimaryreconciliation.",
+      "sources": [
+        "https://www.lpthe.jussieu.fr/~roehner/book.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Will O'Rear",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact WillORear wartime searches found modernlawyernamesake only; existingAtlanta1918-1921interval retained, no invented arrest or portrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Elsie Unterman",
+      "status": "verified_fix_ready",
+      "evidence": "AlexanderStreetbiographicalentry and originalDorisStevens identify contempt for applauding, supporting namedchargeforbothcases. No secondrelease manufacturedJanuary29; unresolvedthree-dayversustwo48hterms retained externally.",
+      "sources": [
+        "https://www.documents.alexanderstreet.com/d/1009995321",
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4195afff-9251-4b79-bc53-f839dc11cb35",
+          "updates": {
+            "charges": "Contempt of court"
+          },
+          "precision_merge": {}
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "f53519e0-322d-4518-8fbe-dcc584bfaa3d",
+          "updates": {
+            "charges": "Contempt of court",
+            "sentence": "Forty-eight hours"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Oscar Mileaf",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "FreshnationalSeptember9,1927edition reprints yesterdayrelease but NewYorkSeptember8originalalreadydatesSeptember7. Editionlag not new release. Keep separateWelfareIslandandMineolacases; no back-calculated six-month admission.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-nat/v04-n204-NAT-sep-09-1927-DW-Q.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-ny/v04-n203-NY-sep-08-1927-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Christopher Ruff",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalEastValleyTribunereport says sentencingtwo weeks beforeOctober19,2022; supports Octobermonth only. Add sentencingmonth without treatingpublicationdateasday; no actualcustodyinterval or exactservedtotal inferred.",
+      "sources": [
+        "https://www.police1.com/legal/articles/ariz-guerilla-journalist-jailed-for-police-filming-accessing-restricted-areas-KaHT2GUQGxWWT66X/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "50843f85-11b9-41ac-9cf6-b4a2dabf6e18",
+          "updates": {
+            "sentenced_date": "2022-10-01"
+          },
+          "precision_merge": {
+            "sentenced_date": "month"
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 10,
+    "complete": true,
+    "live_mutations_by_agent": 0
+  }
+}

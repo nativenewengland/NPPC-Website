@@ -1,0 +1,432 @@
+{
+  "round": 103,
+  "profiles": [
+    {
+      "name": "Alejandro Morales",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual Vieques search returned namesake criminal cases and Cuban activist, not reliable additional dates for this NuclearResister roster activist. No namesake BOPnumber attached.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Larry Sales",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh individual Presidio search located journalistic first-person trial coverage but no new Sales physical release. Existing acquittal/appellate dates cannot serve as release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frank Suchaczewski",
+      "status": "reviewed_unresolved",
+      "evidence": "Original NewMasses March8,1938 letter confirms February3 hearing, judgeBenSeibert and prosecutorO.D.Mann already present; no exact January arrest day found. Pretrial bail is not a sentence.",
+      "sources": [
+        "https://marxists.architexturez.net/history/usa/pubs/new-masses/1938/v26n11-mar-08-1938-NM.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sonny Tongue",
+      "status": "supported_correction",
+      "evidence": "Original appellate opinion identifies WrightsonSamuelTongueJr charged failure to submit to induction, convictionaffirmed and AUSA WilliamC.Breckinridge. Sonny=Wrightson identity linked by songcopyright and performance history, not inference from firstnamealone. No sentence or custody endpoint established. OriginalBillboardAugust29,1970 explicitlyidentifies RevWrightsonSamuel(Sonny)Tongue, strengtheningidentitylink.",
+      "sources": [
+        "https://openjurist.org/407/f2d/774/united-states-v-tongue",
+        "https://www.worldradiohistory.com/Archive-All-Music/Billboard/70s/1970/Billboard%201970-08-29.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ac0ad253-161f-4980-bc67-1d69e3eadcf5",
+          "updates": {
+            "charges": "Failure to submit to induction (50 U.S.C. App. § 462)",
+            "prosecutor": "William C. Breckinridge",
+            "convicted": "Yes; affirmed March 4, 1969"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ichiro Genishi",
+      "status": "supported_correction",
+      "evidence": "Indexed USSocialSecurityDeathIndex gives April22,1897 birth and May1978 death for IchiroGenishi of Waipahu; matching uncommonfullname, year and residence to JCCHinternee. Death DAY unknown, monthprecision only.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/genishi-ichiro",
+        "https://www.familysearch.org/id/search/discovery/results/?q.surname=genishi&tab=preview"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ab027a84-9e7b-495c-ac30-edce4f00efbb",
+          "updates": {
+            "sentence": null
+          },
+          "precision_merge": {}
+        },
+        {
+          "table": "prisoners",
+          "id": "a79dbe78-8dff-4e0c-83cb-17e9026db524",
+          "updates": {
+            "birthdate": "1897-04-22",
+            "death_date": "1978-05-01"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Emil Keifer",
+      "status": "reviewed_unresolved",
+      "evidence": "Original ColoradoRecord August2,1918 says sentenced lastweek, eight concurrent two-year counts under EspionageActsection3. This conflicts bio June19,1618 transcription; do not silently change to June19,1918 or infer admission. Existing two-year term corroborated.",
+      "sources": [
+        "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/7b5bc459-c7e5-49d6-8cf5-9aa5b59c3eb4/content"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Violeta Vega Ríos",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary original WOWNews April4,2002 names VioletaVegaRios among four detained, age50, but current case dates are2001. Could be another episode; do not overwrite existing2001 dates without source of40dayterm. No actual endpoint corroborated.",
+      "sources": [
+        "https://puertoricoherald.com/issues/2002/vol6n14/Media1-en.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Otto Nathan",
+      "status": "supported_correction",
+      "evidence": "Contemporaneous UPI reports actual indictment February18. NationalGuardian December2 reports April30 conviction and November22 reversal, identifying judgeCurran. No custody inferred from bond or judgment.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-12-02-10-7-nat-guardian.pdf",
+        "https://oregonnews.uoregon.edu/lccn/sn97071090/1957-02-18/ed-1/seq-1/ocr/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9dab64b5-b5b8-48ca-98a3-2afd1a96e0ab",
+          "updates": {
+            "judge": "Edward M. Curran",
+            "convicted": "April 30, 1957; conviction reversed November 22, 1957",
+            "indicted": "February 18, 1957"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Andrew Gorby",
+      "status": "reviewed_unresolved",
+      "evidence": "Original2008 CCWstaff article and current first-person Quaker essay corroborate conscientious objection and discharge; no arrest or jail documented, so do not invent a case.",
+      "sources": [
+        "https://centeronconscience.org/wp-content/uploads/2010/03/reporter_spring_2008.pdf",
+        "https://www.friendsjournal.org/we-must-sing-our-laments-together/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "A. M. Lawson",
+      "status": "reviewed_unresolved",
+      "evidence": "Exact-name seditious-law search yielded no individual custody record beyond existing NCLB entry. Sentence cannot establish admission/release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Vargo",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual1931coalstrike search returned namesake census/athlete records, no reliable actual custody endpoints. Preserve six-month imposed term without calculating release.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Nellie Main Barnes",
+      "status": "reviewed_unresolved",
+      "evidence": "AlexanderStreet sketch claims30days and November27 release, conflicting Stevens15dayterm and ambiguous individual facility. Crowdsourced sketch alone insufficient to resolve; original cited IndianapolisStar andTraces2012 need review. No new endpoint guessed.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1009054685"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Wyatt T. Walker",
+      "status": "reviewed_unresolved",
+      "evidence": "UniversityRichmond archive reports wifeTheresaWalker held June21-26,1961 and separately mentions RevWalker alsoheld. Does not explicitly give his individual release, so do not copy wife endpoint. Other surviving SCLCaffidavit catalog identifies1962Shreveportcase but no newly verifiedcustodyspan.",
+      "sources": [
+        "https://rarebooks.urlibraries.org/?p=450",
+        "https://crmvet.lib.duke.edu/docs/orgsdocs.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Keith King",
+      "status": "supported_correction",
+      "evidence": "Original July2 account identifies judgePiombo, no-contest plea and four-month sentence June24. May18 account explicitly says Keith got out on bail; current May endpoint describes initial episode while July2 confirms later incarceration. No continuous May-July span inferred.",
+      "sources": [
+        "https://www.marxists.org/history/erol/periodicals/pamoja-venceremos/v01n04-jul-02-1971-PV.pdf",
+        "https://www.marxists.org/history/erol/periodicals/pamoja-venceremos/v01n01-may-18-1971-PV.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "25535434-b547-4796-a328-9053afee9107",
+          "updates": {
+            "judge": "Piombo",
+            "plead": "No contest",
+            "sentence": "Four months"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Samuel Orlov",
+      "status": "reviewed_unresolved",
+      "evidence": "ExactnameBuford search returned unrelated1909-bornphysician and other namesakes; no newindividualvitals or exile endpoint. Preserve1889yearbirth.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jim Albertini",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh1986release search did not locate individualized actual admission/release beyond already-reviewed own interview. Suspended PearlHarbor sentences not imprisonment. Existing90daycontempt actual total preserved; no calculatedendpoints.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mahmoud Khalil",
+      "status": "supported_correction",
+      "evidence": "Counsel original case chronology identifies federal judgeFarbiarz ordering bailJune20. Existing actual endpoint independently confirmed by eyewitness reports. Immigration detention is not a judicial sentence; clear narrative sentence.",
+      "sources": [
+        "https://ccrjustice.org/home/what-we-do/our-cases/khalil-v-trump"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4e640073-fde1-478e-a925-b71e69e919ce",
+          "updates": {
+            "judge": "Michael E. Farbiarz",
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Nikita Safroniev",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname search yielded no new reliable individual dates beyond prior INS-file-derived bio. Deportation does not establish postreturndeath or exileendpoint.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Fr. Lee Young-Chan",
+      "status": "supported_correction",
+      "evidence": "Primary campaign report January2013 documents October26,2012 arrest and actual December26,2012 bail release at Jejuprison, with receiving-party photos. Current September30,2023 date has no supporting source found and conflicts documented episode. IMPORTANT: original October25 report explicitly says October24 arrest, while Januaryretrospective saysOctober26 and Novemberroster usesOct26. Use October2012MONTH precision for start/arrest, exactDecember26 release; do not choose conflicting day.",
+      "sources": [
+        "https://savejejunow.org/tag/human-rights/page/8/",
+        "https://savejejunow.org/tag/state-violence/page/8/",
+        "https://savejejunow.org/tag/state-violence/page/7/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ef730099-69cf-456e-9408-2df4fbfd4778",
+          "updates": {
+            "arrest_date": "2012-10-01",
+            "incarceration_date": "2012-10-01",
+            "release_date": "2012-12-26",
+            "sentence": null
+          },
+          "precision_merge": {
+            "arrest_date": "month",
+            "incarceration_date": "month",
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jesse James Harris",
+      "status": "reviewed_unresolved",
+      "evidence": "Original CRDLauthority confirms JesseJamesHarris24yearoldHowardstudent arrestedJune2,1961, alreadypresent. No individualcourtoutcome or physicalrelease documented; identity overlap withJessieLHarris unresolved, no merge.",
+      "sources": [
+        "https://crdl.usg.edu/people/harris_jesse_j_jesse_james_1937"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John W. Powell",
+      "status": "supported_correction",
+      "evidence": "Original district opinion names judge and prosecution staff and specifies both conspiracy and substantive18USC2388 counts. January30 mistrial does not establish release; no custody dates inferred.",
+      "sources": [
+        "https://www.casemine.com/judgement/us/59149e05add7b04934655cac"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "643cf654-986a-4c03-bdd7-034a4080972b",
+          "updates": {
+            "judge": "Louis E. Goodman",
+            "prosecutor": "Robert H. Schnacke; James B. Schnake",
+            "charges": "Conspiracy and activities affecting armed forces during war (18 U.S.C. § 2388)",
+            "convicted": "No; mistrial January 30, 1959"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Jesse Clark",
+      "status": "supported_correction",
+      "evidence": "Official court clerk matching uniqueOCA575865 gives DOBDecember10,1993. Record also verifies conviction and judge.",
+      "sources": [
+        "https://sci.ccc.nashville.gov/Search/CaseSearchDetails/2238927%5E5407159%5ECJIS/JESSE%5ECLARK%5E12101993%5E575865/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7ab7f7d2-eadf-46e4-93ab-d9a62bab6060",
+          "updates": {
+            "judge": "Steve Dozier",
+            "convicted": "May 8, 2023",
+            "charges": "Aggravated arson; vandalism; disorderly conduct"
+          },
+          "precision_merge": {}
+        },
+        {
+          "table": "prisoners",
+          "id": "c2bfc1a3-74df-4302-87b3-a536e65cae5a",
+          "updates": {
+            "birthdate": "1993-12-10"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dionisio Vélez Avilés",
+      "status": "supported_correction",
+      "evidence": "Original ExecutiveOrder7731 names DionisioVelezAviles specifically in case4456 and appoints MartinTravieso as trialjudge because RobertCooper is governmentwitness. No endpoint inferred.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/FR-1937-10-26/pdf/FR-1937-10-26.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7aec5008-7052-4bfc-979a-0976e0810888",
+          "updates": {
+            "judge": "Martin Travieso"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Laurence Dewees",
+      "status": "reviewed_unresolved",
+      "evidence": "Original TheFriend July31,1919 explicitly reports LaurenceDewees STILLHELD at CampDodge and noFriends remainingLeavenworth. Transfer away fromLeavenworth is not finalrelease. Fresh genealogy DOB1895Oct16/DOD1994Apr24 remainsunmatched to IowaCO; no vitaldates attached.",
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/The_Friend_-_a_religious_and_literary_journal_%28IA_friendreligiousl93smit%29.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Jacob Plenert",
+      "status": "reviewed_unresolved",
+      "evidence": "Mennonitearchivecatalog names JohnJacobPlenert in1945correspondence but doesnotverifyWWICOidentity orcustody. Current documented1day contradicted25yearsentence narrative yet no independentactualtotal; flagunsubstantiated1day privately, no newdates.",
+      "sources": [
+        "https://archives.mhsc.ca/index.php/p-q-miscellaneous"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John H. Frantz",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1918search found nineteenthcenturyUnionArmydoctor namesake; no individualactual custodysource. ExistingMay18,1918 sentencingdate not usedasstart. Charge/sentence narrative canbe stripped without addingfacts, but not custody completion.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "H. F. Kane",
+      "status": "reviewed_unresolved",
+      "evidence": "Initialspecific search found no individualizedchargeoractualduration. Same is an unresolvedcross-reference, not a namedcharge; existing12monthactual conflictsfiveyearimposed but nosourceforcorrection.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Leslie Wachter",
+      "status": "reviewed_unresolved",
+      "evidence": "Original1939 participantFarrellDobbs recollection serializedMilitantMay9,1975 identifies JudgeM.M.Joyce for October2trial ofWachter andothers, plus namedintimidation/conspiracyoffenses. No actualrelease corroborated; eightmonthterm cannotcalculateendpoint.",
+      "sources": [
+        "https://www.themilitant.com/1975/3917/MIL3917.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ivan Malash",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname search produced no new individual INS/custody orvitalrecords. ExistingFebruary1920monthstart andJan22,1921deportation preserved.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Stock",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1918search produced unrelatedWWImilitarylists and vitalrecords, no actualcustodyendpoints; March15sentencing doesnotproveprisonentry.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jesse Dunning",
+      "status": "supported_correction",
+      "evidence": "Scholarly original research and reproduced contemporaneous1917 news explicitly identify July22 arrest, physical jail admission and Minnesota criminal-syndicalism prosecution, not federal Espionage/SeditionActs. Contemporary report identifies JudgeC.M.Stanton. Sentence date pending original newspaper image.",
+      "sources": [
+        "https://lawcat.berkeley.edu/nanna/record/1193268/files/4%20White%2042.1%20%28165-236%29%20Online.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+        "https://weneverforget.org/hellraisers-journal-the-red-princess-carlo-tresca-and-arturo-giovannitti-will-fight-extradition-to-chicago/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6570357f-3334-4122-906b-51e4dabc019e",
+          "updates": {
+            "charges": "Criminal syndicalism",
+            "arrest_date": "1917-07-22",
+            "incarceration_date": "1917-07-22",
+            "judge": "C. M. Stanton"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Paul Beach",
+      "status": "reviewed_unresolved",
+      "evidence": "Original Dartmouth oralhistory and2016owninterview corroborate3.5yearsentence,August1969sentencing andApril1971releasealreadyrecorded; no exactdaysnewlyestablished. Twenty-monthAllenwood portion is not entiretime served.",
+      "sources": [
+        "https://dvp.dartmouth.edu/s/dvp/item/37",
+        "https://1967.dartmouth.org/s/1353/images/gid319/editor_documents/momentout_change_vol_1.pdf?cc=1&gid=319&pgid=61&sessionid=a2fd85c7-d027-42ff-9d88-6100854524b6"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Paul Collins Williams",
+      "status": "reviewed_unresolved",
+      "evidence": "Original CCCONewsNotes1968 independently names PaulCollinsWilliams atMillington, alreadyestablished. Publication dates are notadmission or release; no sentenceinvented.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004006.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "reviewed_count": 33,
+  "review_complete": true,
+  "final": true,
+  "supported_profiles": 10,
+  "scope": "All33 individually reviewed in boundedsourcepass; unresolved is not archivalexhaustion. No livewrites or notes/bios/affiliation mutations."
+}
