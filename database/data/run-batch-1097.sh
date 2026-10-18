@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Batch 1097: nine historical peace-protest custody candidates from retained PDF evidence.
+# Batch 1097: two distinct Jo An Yellow Bird custody episodes from a firsthand account.
 # Includes under-review records in identity preflight; replay preserves existing records.
 # Uses normal curated sort placement; no existing biographies or cases are changed.
 set -uo pipefail
@@ -67,7 +67,7 @@ foreach($e["expected_prisoner"] as $k=>$v){if($k!=="sort_order"&&$profile[$k]!==
 $existing=DB::table("prisoner_cases")->where("prisoner_id",$id)->where("charges",$e["case"]["charges"])->get();
 if(count($existing)>1){throw new RuntimeException("Duplicate case match");}
 if(count($existing)){foreach($e["case"] as $k=>$v){$got=$existing[0]->$k;if($k==="date_precision"){$got=json_decode($got,true);}if($got!==$v){throw new RuntimeException("Existing case differs");}}echo "Preserved existing case: ",$e["name"],"\n";continue;}
-$current=DB::table("prisoner_cases")->where("prisoner_id",$id)->orderBy("id")->get()->map(fn($v)=>(array)$v)->all();$expected=$e["expected_cases"];usort($expected,fn($a,$b)=>strcmp($a["id"],$b["id"]));if($current!==$expected){throw new RuntimeException("Case list changed");}
+$current=DB::table("prisoner_cases")->where("prisoner_id",$id)->orderBy("id")->get()->map(fn($v)=>(array)$v)->all();$plannedCharges=[];foreach($p["case_additions"] as $planned){if($planned["expected_prisoner"]["id"]===$id){$plannedCharges[]=$planned["case"]["charges"];}}$current=array_values(array_filter($current,fn($row)=>!in_array($row["charges"],$plannedCharges,true)));$expected=$e["expected_cases"];usort($expected,fn($a,$b)=>strcmp($a["id"],$b["id"]));if($current!==$expected){throw new RuntimeException("Case list changed");}
 if($dry){echo "Would add historical case: ",$e["name"],"\n";continue;}
 $before=[];foreach(DB::table("prisoner_cases")->orderBy("id")->cursor() as $row){$before[$row->id]=hash("sha256",json_encode($row));}
 $c=PrisonerCase::create($e["case"]+["prisoner_id"=>$id]);
