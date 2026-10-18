@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-0 profiles updated live;100 pending research. Next unused batch1065. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+1 profile updated live through batch1065;1 bounded review without additions;98 pending. Next unused batch1066. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — pending
@@ -15,7 +15,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Clark H. Getts — pending
 - Phillip Wallash — pending
 - Curtis Coggins — pending
-- John Katkus — pending
+- John Katkus — bounded_review_no_addition
 - Albert Constant Belhomme — pending
 - Joseph J. Gordon — pending
 - George Frosig — pending
@@ -56,7 +56,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Anthony Valentino — pending
 - Brian J. Cole Jr. — pending
 - Shawn Collins — pending
-- Shinzaburo Sumida — pending
+- Shinzaburo Sumida — verified_addition_live_batch1065
 - Terrell Bailey-Corsey — pending
 - Nicola Sacco — pending
 - Taft Holmes — pending
