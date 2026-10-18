@@ -1,0 +1,121 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Teri Rainelli",
+      "slug": "teri-rainelli",
+      "expected": {
+        "id": "81ed6ee4-d506-4976-a657-36eec71cb3ac",
+        "prisoner_id": "47a3949e-6f3a-425b-89cf-6fb3c9e9ad3f",
+        "institution_id": "927ba1c4-27e2-47e8-be45-7afebf77b3d5",
+        "charges": "Trespass at the U.S. Army School of the Americas / WHINSEC, Fort Benning, Georgia",
+        "arrest_date": "2008-01-27 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2008-01-27 00:00:00",
+        "release_date": "2008-07-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "6 months",
+        "imprisoned_for_days": 182,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-05-10 06:33:14",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2007-11-18 00:00:00",
+        "sentenced_date": "2008-01-28 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "imprisoned_for_days": null,
+        "sentence": "90 days and a $500 fine",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://ciaron.wordpress.com/2008/04/11/folks-in-prison-for-nonviolent-resistance-to-soa-writeem-a-letter/",
+      "research_note": "PrimarySOAWupdateJan28sentence90days; organizerreportNov18arrest and500fine https://baltimorenonviolencecenter.blogspot.com/2009/02/national-campaign-for-nonviolent.html?m=0 . Correct unsupported6months/Jan27–July27confinement. LastweekApr11spansMar31–Apr6; no admissiondateorprojectedrelease inserted."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Alex Chessman",
+      "slug": "alex-chessman",
+      "expected": {
+        "id": "b72e6293-4a25-4ba9-8d04-bb311296abbb",
+        "prisoner_id": "a3bdef59-ac85-4d1a-af8f-66ae8c583998",
+        "institution_id": "740c1868-3b6b-4da9-813a-3f3a1146d31d",
+        "charges": null,
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held at the West Virginia penitentiary, Moundsville (no. 16282).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 18:28:36",
+        "updated_at": "2026-07-29 17:05:30",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "10 years"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/dailyworker/1928/1928-ny/v05-n193-NY-aug-15-1928-DW-LOC.pdf",
+      "research_note": "OriginalAug15,1928p4 jailvisitinterview sayssentenced10years. No actualduration or endpoints inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Sandra Loranger",
+      "slug": "sandra-loranger",
+      "expected": {
+        "id": "e3d935ce-8bf7-43a2-bdce-6c051d450984",
+        "prisoner_id": "dbe0614d-faec-4079-acc4-cc025ee77036",
+        "institution_id": null,
+        "charges": "Prosecution related to distributing food to homeless people without the required permit",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1989-07-06 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "July6,1989 sentencing; July13 proposed admission, not actual. The legacy August11 endpoint has no identified evidence, and the36day counter depended on unsupported endpoints. The New Jersey institution association is inconsistent with the documented California case and is removed without guessing a replacement jail. StevenArgue's2014retrospective reports20days served; this is retained as an attributed account, not converted into exact endpoints or an independently verified duration override. Direct contemporary and retrospective retrieval failed; indexed text was reviewed. No arrest day or group-photo identity inferred.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-12 19:17:32",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "45 days"
+      },
+      "source": "https://www.latimes.com/archives/la-xpm-1989-07-09-mn-5373-story.html",
+      "research_note": "ContemporaryUPIJuly9,1989 explicitly formal45dayssentenceJuly6; projected30daysdueovercrowding not actualserved. No newcasenotes."
+    }
+  ]
+}
