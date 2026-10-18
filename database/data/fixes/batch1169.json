@@ -1,0 +1,82 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Lindley Macomber",
+      "slug": "lindley-macomber",
+      "expected": {
+        "id": "db6100fe-9a73-4e54-a0de-b37898112227",
+        "prisoner_id": "1fedd722-7271-4af8-b93b-1439cf8bf3f9",
+        "institution_id": null,
+        "charges": "Drafted in 1863 and held under military discipline.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1863-07-01 00:00:00",
+        "release_date": "1863-11-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 07:47:56",
+        "updated_at": "2026-10-14 00:00:38",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1863-08-25 00:00:00",
+        "release_date": "1863-11-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.gutenberg.org/cache/epub/16088/pg16088-images.html",
+      "research_note": "Pringle and Macomber Aug26 letter states reached guarded Brattleboro camp yesterday. July draft not continuous confinement: furlough toAug20 plus4days. Aug24 appearance is not assigned as definite confinement. Nov6 diary explicitly reports released; Nov7 is travel day. Both overlapping rows corrected without deleting records; prior short July detention not included without Macomber-specific dates."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Lindley Macomber",
+      "slug": "lindley-macomber",
+      "expected": {
+        "id": "e5e1aed4-9df1-4daf-bdd8-4d4ec6c96c5b",
+        "prisoner_id": "1fedd722-7271-4af8-b93b-1439cf8bf3f9",
+        "institution_id": null,
+        "charges": "Refusal to bear arms (Quaker conscientious objector drafted into the Union Army, 1863)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1863-07-13 00:00:00",
+        "release_date": "1863-11-07 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 117,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:53:56",
+        "updated_at": "2026-07-29 17:05:30",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1863-08-25 00:00:00",
+        "release_date": "1863-11-06 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.gutenberg.org/cache/epub/16088/pg16088-images.html",
+      "research_note": "Pringle and Macomber Aug26 letter states reached guarded Brattleboro camp yesterday. July draft not continuous confinement: furlough toAug20 plus4days. Aug24 appearance is not assigned as definite confinement. Nov6 diary explicitly reports released; Nov7 is travel day. Both overlapping rows corrected without deleting records; prior short July detention not included without Macomber-specific dates."
+    }
+  ]
+}
