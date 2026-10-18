@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Norman Ramírez Talavera",
+      "slug": "norman-ramirez-talavera",
+      "expected": {
+        "id": "36d901c3-b6fe-4313-86a5-2ee6a8560b66",
+        "prisoner_id": "e9399cfe-2533-4394-9215-4d5fe681bcff",
+        "institution_id": null,
+        "charges": "Initial pretrial detention in WellsFargo-related federal prosecution",
+        "arrest_date": "1985-08-30 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1985-08-30 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "FirstpersonSeptember4,2016account explicitlydescribesAug30,1985arrest andimmediatefederalcustody, September1transport, thenbailafteraboutfourmonths andyearsfreebeforetrial. Exactbailreleasedaynotdocumented; notbackcalculatedfromroundedfourmonths. InitialdetentionseparatefromlaterfiveyearsentenceendingApril26,1994.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-12 19:17:32",
+        "updated_at": "2026-10-12 19:17:32",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1985-12-20 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "https://www.latinamericanstudies.org/puertorico/delatan.htm",
+      "research_note": "La Cronica Grafica 1987 contemporary report, Armando Andre, explicitly gives December 20, 1985 physical release on bail for Norman Ramirez Talavera. His own September 4, 2016 account https://diariovegabajeno.com/2016/09/04/aquel-30-de-agosto/ independently confirms August 30 arrest, immediate custody and bail after about four months. October 1985 newspaper describes bail litigation, not physical release. This endpoint applies only to initial pretrial detention. Later admission after 1989 conviction remains unresolved; April 26, 1994 release on separate case untouched. No case notes or sentence text changed."
+    }
+  ]
+}
