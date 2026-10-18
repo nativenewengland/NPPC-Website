@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Desmond Ellis",
+      "expected": {
+        "id": "61bd556b-5d08-437a-97cc-0a717e566ada",
+        "prisoner_id": "9e25d8ed-23dc-4073-a02e-7f8320aa0f36",
+        "institution_id": null,
+        "charges": "Immigration detention and prosecution for false passport, false statements and conspiracy to bring aliens into the US; later illegal-entry plea",
+        "arrest_date": "1982-02-06 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1982-02-06 00:00:00",
+        "release_date": "1983-03-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held from February 6, 1982 through his deportation in March 1983. A US court confirms continuing confinement in October 1982. His later letter dates his deportation and Irish re-arrest to March 3; month precision is used for the US endpoint because the handover time is unresolved. Later Irish imprisonment is excluded.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:22:02",
+        "updated_at": "2026-10-14 00:00:48",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1983-03-03",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "research_note": "User explicitly instructed March3,1983 as release_date. Documented deportation/arrival and rearrest in Ireland; distinct from freedom from subsequent Irish custody. No case notes added.",
+      "source": "https://republicanarchive.com/wp-content/uploads/2025/11/aprn-03-october-1990.pdf#page=5"
+    }
+  ]
+}
