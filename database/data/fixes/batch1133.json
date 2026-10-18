@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Solomon Harper",
+      "slug": "solomon-harper",
+      "expected": {
+        "id": "5c4da17d-f8ee-4f8a-876d-c36b162f1427",
+        "prisoner_id": "e607b0fd-620c-46dc-83ba-10954d2f8c8e",
+        "institution_id": null,
+        "charges": "Inciting to riot and disorderly conduct",
+        "arrest_date": "1930-04-11 00:00:00",
+        "indicted": null,
+        "convicted": "Jailed, 1930",
+        "plead": null,
+        "sentenced_date": "1930-04-18 00:00:00",
+        "incarceration_date": "1930-04-18 00:00:00",
+        "release_date": "1930-07-17 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months in jail following the anti-lynching speech prosecution.",
+        "imprisoned_for_days": 90,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 21:17:24",
+        "updated_at": "2026-10-18 09:10:27",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1930-07-03 00:00:00"
+      },
+      "source": "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v07-n160-NY-jul-04-1930-DW-LOC.pdf",
+      "research_note": "User explicitly requests July3release following July4DailyWorker page3 report released yesterday fromHartsIsland. Replaces earlier user-directed90day calculated endpoint. Preserve all case notes and unrelated fields; allow model duration recalculation."
+    }
+  ]
+}
