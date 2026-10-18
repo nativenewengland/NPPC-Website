@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-6 profiles updated live through batch1070;8 bounded reviews without additions;86 pending. Next unused batch1071. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+6 profiles updated live through batch1070;9 bounded reviews without additions;85 pending. Next unused batch1071. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -20,7 +20,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Joseph J. Gordon — verified_addition_live_batch1070
 - George Frosig — bounded_review_no_addition
 - Jacob Hoopes — pending
-- Jeff Keith — pending
+- Jeff Keith — bounded_review_no_addition
 - Howard Hairston — pending
 - Joan Hardy — verified_addition_live_batch1066
 - Art Laffin — bounded_review_no_addition
@@ -153,3 +153,6 @@ Bounded review: William R. Douglas, Minnesota History55(7), printed pp291,297,30
 
 ## Art Laffin bounded review
 Bounded review: firsthand movement chronology confirms March6,1990 sixty-day sentence and January7,1991 appeal denial for ArtLaffin; neither establishes actual prison admission/release. Contemporary student-paper report explicitly says free pending sentencing. Existing split1982/83custody and1989overnight detention preserved. February5,1998WhiteHouse arrest report gives later release without date; insufficient for added multi-day custody. No DOB identified; do not copy reporter age22. https://kingsbayplowshares7.org/plowshares-history/ ; https://dspace.sunyconnect.suny.edu/bitstreams/84f698b9-094c-4d31-8862-bf6f1363069e/download ; https://www.archindy.org/criterion/files/1998/pdfs/19980213.pdf
+
+## Jeff Keith existing update verification
+Original January2007 FriendsJournal PDFpage36 checked and fresh live readback confirms April1965 incarceration/May1966 release MONTH already applied by batch970 before this review. No duplicate update counted. Counter absence separately diagnosed: live PartialImprisonmentDuration estimate returns null and exact summary excludes partial dates; do not manufacture exact days to force counter. Missing exact arrest, admission and release days remain unresolved.
