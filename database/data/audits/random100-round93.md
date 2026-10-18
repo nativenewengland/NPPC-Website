@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-7 profiles updated live through batch1075;10 bounded reviews without additions;83 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+7 profiles updated live through batch1075;11 bounded reviews without additions;82 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -48,7 +48,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Carl Jones-El — pending
 - John Mastrondea — pending
 - Stefan Day Rowold — pending
-- Sara Cantor — pending
+- Sara Cantor — bounded_review_no_addition
 - Martha Scarborough — pending
 - Brandon Pack — pending
 - Joseph Bowen — pending
@@ -162,3 +162,6 @@ https://www.tpr.org/news/2026-07-01/ninth-prairieland-defendant-sentenced-to-50-
 
 ## Milan Resetar conflict review
 Original DailyWorker December14,1927 PDFp2 downloaded/extracted: datelinePittsburghDecember13 says JudgeMcConnell sentenced Resetar thatday. Later1931account saysDecember12anddifferentjudgeinitials. Thus exactsentence dayconflicts; do not replace existingyear-only1927. Bothconfirm judgeMcConnell; fullidentityneedsresolution beforeaddingfulljudge. Inc1929November26versusDecember13conflict remains. LinguistMilanResetar1860-1942excluded. https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-ny/v04-n286-NY-dec-14-1927-DW-LOC.pdf ; https://www.historyworm.com/gazete/daily_worker/1931-03-13/3 Followup appellate search identified CommonwealthvWidovich93PaSuper323(1928),295Pa311(1929); these do not resolve competing exact sentence/admission dates. Bounded review completed without unsupported refinements.
+
+## Sara Cantor bounded review
+Bounded review: KQED August21,2026 sentencing report and existingcase describe30days splitjail/workprogram, appealstay and fourpretrialdayscredit. No actual release day established by sources reviewed; do not infer April19 from4days credit or treat stayed sentence as new jail entry. Existing identified AlexaTrevino portrait already attached. ExactDOB not found. https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown ; https://sfstandard.com/2026/04/30/golden-gate-bridge-protester-trial-felonies/
