@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:71 profiles updated live through batch1059;18 bounded reviews without additions;11 pending. Not100 completed.
+Progress:72 profiles updated live through batch1060;18 bounded reviews without additions;10 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -31,7 +31,7 @@ Progress:71 profiles updated live through batch1059;18 bounded reviews without a
 - Cliver Antonio Alcala Cordero — verified_addition_live_batch1023
 - Evgraf Kovalenko — pending
 - William Lonergan Hill — verified_addition_live_batch1024
-- Teruo Konishi — pending
+- Teruo Konishi — verified_addition_live_batch1060
 - Jessica Bowie — verified_addition_live_batch1039
 - Joshua Schulte — verified_addition_live_batch1026
 - Hashem Younis Hashem Hnaihen — verified_addition_live_batch1024
