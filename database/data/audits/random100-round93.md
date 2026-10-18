@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-8 profiles updated live through batch1076;13 bounded reviews without additions;79 pending. Next unused batch1080. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+11 profiles updated live through batch1080;13 bounded reviews without additions;76 pending. Next unused batch1081. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -26,7 +26,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Art Laffin — bounded_review_no_addition
 - Tommye Williams — pending
 - Nathan Baumann — verified_addition_live_batch1075
-- Elizabeth Soto — pending
+- Elizabeth Soto — updated_live
 - Frank Guido — pending
 - Milan Resetar — bounded_review_no_addition
 - Stanley Magruder — pending
@@ -63,7 +63,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Tom Kellog — pending
 - Suzanne Williams — pending
 - Jeffrey Weinhaus — pending
-- Ines Soto — pending
+- Ines Soto — updated_live
 - Nathan Vilas Laatsch — pending
 - Yaurel Guadalupe — pending
 - Fergie Chambers — pending
@@ -77,7 +77,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Willie Peterson — pending
 - Harry I. Doile — pending
 - F. G. Sampson — verified_addition_live_batch1076
-- Cameron Arnold — pending
+- Cameron Arnold — updated_live
 - Andrew Goff — pending
 - Charles Coder — pending
 - Chase Grijalva — pending
@@ -174,3 +174,6 @@ Bounded review: contemporary WRI roster reproduced in Azione Nonviolenta October
 
 ## Tony J. Adams bounded review
 Bounded review: downloaded original Official US Bulletin January23,1919, page2. Tony J. Adams appears in conscientious-objector clemency/discharge list following January4-5 board examinations. This is an order for immediate discharge, not proof of individual actual release that day; publication date is not incarceration or release. No verified DOB, DOD or identified portrait found. Modern namesakes excluded. https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf
+
+## Batch1080 verified live
+Cameron Arnold, Elizabeth Soto and Ines Soto: filled missing case prosecutors Frank Gatto, Shawn Smith and Matt Capoccia. Source: https://www.justice.gov/usao-ndtx/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice . Full raw preservation readback, dry run, application and idempotent replay passed. Public profile pages returned HTTP200. Existing dates, judges, portraits and biographies preserved.
