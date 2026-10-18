@@ -1,0 +1,5 @@
+# Reviewed sentence narrative cleanup
+
+User authorized removing extra sentence narrative, leaving only sentences, adding nothing to notes, and continuing ambiguous-field review. Individually inspected the 200 most common current texts in the original flagged set, selected 171 exact original-text mappings covering 1,836 cases. 1,455 contain no usable individual sentence and become null. Preserve fines, suspended portions, reductions, clemency, reversals, deferrals and credited detention where relevant; do not equate time served, possible maximums or generalized group ranges with individual imposed sentences. Hold uncertain Guam exile and group attribution examples for additional review. No broad heuristic classification is deployed.
+
+The transaction checks case identity and exact old sentence, verifies exact replacements, hashes every other case field, every prisoner profile and every untargeted case, and supports idempotent replay. Timestamps, counters, dates, notes, charges and all unrelated fields remain unchanged. Full original text preserved only in committed payload/audit.
