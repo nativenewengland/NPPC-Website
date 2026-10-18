@@ -1,0 +1,81 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Dessie Woods",
+      "slug": "dessie-woods",
+      "expected": {
+        "id": "75a80ab7-efcc-4006-9a96-5d5fbf7638e2",
+        "prisoner_id": "5e9b84c1-5a6e-41c4-8c61-ee6df1e61e04",
+        "institution_id": "2beb1e05-23ee-447a-bfad-0637f8995c3f",
+        "charges": "Initially indicted for murder and armed robbery following the June 1975 shooting of Ronnie Horne; Woods asserted self-defense.",
+        "arrest_date": "1975-06-01 00:00:00",
+        "indicted": null,
+        "convicted": "Voluntary manslaughter and armed robbery at trial; June 22, 1981 federal decision affirmed manslaughter and reversed armed robbery for insufficient evidence.",
+        "plead": null,
+        "sentenced_date": "1976-02-01 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1981-07-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Phil West",
+        "judge": "James B. O'Connor",
+        "sentence": "Originally concurrent ten-year voluntary-manslaughter and twelve-year armed-robbery terms, not consecutive twenty-two years. Armed-robbery conviction reversed June 22, 1981. Exact original sentencing day and full custody duration remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-18 05:47:32",
+        "updated_at": "2026-10-16 05:08:34",
+        "date_precision": "{\"sentenced_date\":\"month\",\"release_date\":\"day\",\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1975-06-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"month\",\"release_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "source": "https://www.congress.gov/94/crecb/1976/08/05/GPO-CRECB-1976-pt20-5-3.pdf",
+      "research_note": "Contemporary Congressional Record identifies the June 1975 arrest in the Horne prosecution. Contemporary defense publications place the arrest in June but disagree on the day, so record only June 1975 custody. The separate earlier public-intoxication detention is not treated as the start of uninterrupted custody in this case. Exact admission day remains unresolved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Job Shattuck",
+      "slug": "job-shattuck",
+      "expected": {
+        "id": "14be0577-4552-4fa2-8715-ec168bc99c7b",
+        "prisoner_id": "782e4ca1-7142-44ef-b415-5d0e3e7498c6",
+        "institution_id": null,
+        "charges": "Treason — for leading Shays’ Rebellion farmers in the Massachusetts uprising.",
+        "arrest_date": "1786-11-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1787-04-06 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death sentence, pardoned in September 1787; he had been captured and wounded and held in the Boston jail.\n\nVerdict as recorded: Yes — convicted of treason and sentenced to death (1787).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1786-11-01 00:00:00",
+        "sentenced_date": "1787-05-09 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"day\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://shaysrebellion.stcc.edu/shaysapp/person6889.html?shortName=job_shattuck",
+      "research_note": "The STCC archival project documents capture and Boston imprisonment in November 1786, bail release April 6, 1787, and the May 9, 1787 death sentence. Add the supported custody month, without assuming an admission day. Keep the existing April bail endpoint separate from the later sentence and pardon."
+    }
+  ]
+}
