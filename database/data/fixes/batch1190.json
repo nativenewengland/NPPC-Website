@@ -1,0 +1,1111 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "David Lamar",
+      "expected": {
+        "id": "e560ef64-8773-4b0e-8c52-d8df81b5b5ed",
+        "prisoner_id": "5dd49e8c-3af2-4e98-8d37-1e7ccd7625e1",
+        "institution_id": "d5b400fb-3b85-4fd1-a7be-452025b0d546",
+        "charges": "Conspiracy (Labor's National Peace Council munitions strikes)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1924-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "'Wolf of Wall Street' stock manipulator who served as principal U.S. agent of German Naval Intelligence's Franz von Rintelen, taking about half of the $500,000 spent on the front group Labor's National Peace Council to finance strikes at U.S. munitions plants. Tried with von Rintelen in New York; after losing his appeal in 1923 he fled, was apprehended in Mexico eight months later, and served one year at the Essex County Penitentiary before his 1924 release",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-10-14 00:00:29",
+        "date_precision": "{\"release_date\":\"year\"}",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1923-10-17",
+        "sentence": "One year",
+        "charges": "Conspiracy to restrain foreign commerce in violation of the Sherman Anti-Trust Act",
+        "date_precision": "{\"release_date\":\"year\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://newspapers.swco.ttu.edu/bitstreams/b01c9e61-fa7e-4b12-aad1-5735aad94a9d/download",
+        "https://hallapproved.com/nj/cases/federal/district/1924/8848197/"
+      ],
+      "research_note": "UnitedPress dispatch October17,1923 Caldwell explicitly says arrived here today to begin serving one-year sentence. PrimaryInreLamar294F688 confirms AntiTrustAct conviction and1923confinement, distinguishing November26habeasordertransferfromfreedom. Enter prison admission October17; no release date refined from nominalterm."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "James M. Taylor",
+      "expected": {
+        "id": "39f2c20b-fa18-40e6-bb82-d496a2316781",
+        "prisoner_id": "d0b44b42-6230-40c4-8489-d583b6650803",
+        "institution_id": null,
+        "charges": "Disobedience of military orders based on conscientious objection",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "A December1965 UPI report describes an earlier one-month confinement sentence and a later three-year hard-labor sentence for refusing basic-training orders. The December1966 Catholic Worker lists James M. Taylor in the Fort Ord stockade. Exact custody endpoints, release outcome and actual time served remain unknown.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-14 04:21:27",
+        "updated_at": "2026-09-14 04:21:27",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1965-12-22",
+        "sentence": "Three years at hard labor; forfeiture of all pay; dishonorable discharge",
+        "date_precision": "{\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://gateway.okhistory.org/ark%3A/67531/metadc2118546/m1/2/?q=dust+bowl"
+      ],
+      "research_note": "Original UPI report published ThursdayDecember23,1965 explicitly says sentenced here Wednesday, establishingDecember22. It gives three years hard labor, forfeitureallpay,dishonorable discharge; no actual admission/release inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Robert Simmons",
+      "expected": {
+        "id": "9f8cd4a9-73be-4b40-b1a1-a23ad65c6934",
+        "prisoner_id": "8b3d9bd5-3166-4ae3-be4f-1b5b65b407ef",
+        "institution_id": "bdcc6b74-0d10-44d2-84b8-a170fe4a76d9",
+        "charges": "Disobeying orders; refusal of military service",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": "Guilty — court-martial",
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1920-02-27 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 15:28:00",
+        "updated_at": "2026-10-16 22:34:09",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Ten years at hard labor; dishonorable discharge"
+      },
+      "sources": [
+        "https://home.nps.gov/articles/robertsimmonsprisonerconsciencealcatraz.htm"
+      ],
+      "research_note": "National Park Service explicitly gives ten years hard labor and dishonorable discharge. It identifies arrival only as winter1918, so no artificial day/month admission entered."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "River Allen",
+      "expected": {
+        "id": "7e2dcefc-5c7f-4621-923d-69ffab3a3b32",
+        "prisoner_id": "a271210d-db98-49a5-872e-ac93dea4a788",
+        "institution_id": null,
+        "charges": "False imprisonment, obstruction of a thoroughfare, unlawful assembly",
+        "arrest_date": "2024-04-15 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "30 days, split between jail and a work program; six months probation. Jail stayed pending appeal. Four pretrial days credited.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-05 02:27:56",
+        "updated_at": "2026-10-05 02:27:56",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "documented_imprisoned_for_days": 4
+      },
+      "sources": [
+        "https://richmondside.org/2026/08/25/felony-charges-dropped-golden-gate-bridge-protesters/"
+      ],
+      "research_note": "Richmondside original local reportingAugust25,2026 explicitly states four actual pretrial days credited. This supports documented actual custody duration, not nominal30-day sentence currently stayed. No inferred release day."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Joseph Geier",
+      "expected": {
+        "id": "6320d9f7-3c82-4923-b252-9bf8f88a0502",
+        "prisoner_id": "30fc671b-b075-4ce0-ab4b-03bca69475c6",
+        "institution_id": "42f2c2ae-1b84-4d9c-b08c-96667bd0807d",
+        "charges": "Espionage Act of 1917 and/or the Sedition Act of 1918",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:55",
+        "updated_at": "2026-10-14 00:00:30",
+        "date_precision": "[]",
+        "imprisoned_for_months": 12,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "15 months",
+        "charges": "Conspiracy to violate the Selective Service Act"
+      },
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERIALSET-07987_00_00-063-0159-0000.pdf"
+      ],
+      "research_note": "OriginalgovernmentprosecutionscompilationindividuallygivesGeier15monthsAtlanta and conspiracy toviolateselectiveservice act byurgingrefusaltoregister. PrintedindictmentApril30,1917predatesMay1917lawandmaybetypo, so notenterdate."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jose Gabriel Alvarez-Ortiz",
+      "expected": {
+        "id": "948b882e-172b-4187-af57-498ba4ca2cd8",
+        "prisoner_id": "35c387ae-e8ba-491b-af34-349346e4e447",
+        "institution_id": null,
+        "charges": "21 USC 960a narco-terrorism; international cocaine distribution conspiracy",
+        "arrest_date": "2020-09-18 00:00:00",
+        "indicted": null,
+        "convicted": "Data not available",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2020-09-18 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Data not available",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-08-04 06:14:56",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "International cocaine distribution",
+        "prosecutor": "Casey N. MacDonald; Anibal Alaniz",
+        "indicted": "2020-02-12",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"indicted\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/another-extradition-lands-third-eln-member-us-soil-international-cocaine-distribution"
+      ],
+      "research_note": "Official DOJ announcement distinguishes Ortiz cocaine-distribution count from co-defendants narco-terrorism count, identifies prosecutors and actual Houston arrival September 15, 2021. Existing September 2020 custody was Colombian, not US; do not silently replace entire continuous-custody start. No discharge found. Biography jurisdiction is separately wrong (SDNY vs SDTX), flagged without rewriting biography."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mary Knowles",
+      "expected": {
+        "id": "896e56d0-91ff-4461-9098-a6f8a18a6f57",
+        "prisoner_id": "0099c72c-93dc-4ebd-b6a5-af0ab0a68db1",
+        "institution_id": null,
+        "charges": "Contempt of Congress",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Cited; indicted December 1956",
+        "plead": null,
+        "sentenced_date": "1957-01-18 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Oliver Gasch; William Hitz (January 2, 1957 pretrial motion)",
+        "judge": "Alexander Holtzoff (January 2, 1957 pretrial ruling)",
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-16 15:28:25",
+        "updated_at": "2026-10-17 04:13:40",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "120 days imprisonment; $500 fine",
+        "judge": "Ross Rizley; Alexander Holtzoff (pretrial ruling)"
+      },
+      "sources": [
+        "https://www.casemine.com/judgement/us/5e7dac6e4653d0487778765c",
+        "https://friendsjournal.s3.us-east-1.amazonaws.com/friendsjournal/wp-content/uploads/emember/downloads/1957/HC12-50083.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1957-02-04-9-16-nat-guardian.pdf"
+      ],
+      "research_note": "Original10Jan1957trialopinionidentifiestrialjudgeRossRizleyandprosecutorsGasch/Hitz; contemporaryFriendsJournalandGuardianconfirm120daysplus500dollarfine. Bailcontinuedpendingappeal, so do notinventactual120daycustody. PreservepretrialHoltzoffaswell."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "George L. Glison",
+      "expected": {
+        "id": "9021813b-f17d-4f5c-bfcc-1da898d62b54",
+        "prisoner_id": "5001e806-7881-40ad-810a-e33a23ceb121",
+        "institution_id": null,
+        "charges": "Distributing an anti-war pamphlet.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "6 months.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 16:43:53",
+        "updated_at": "2026-07-29 17:05:32",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Disorderly conduct tending to a breach of the peace"
+      },
+      "sources": [
+        "https://ead-pdfs.library.yale.edu/4820.pdf"
+      ],
+      "research_note": "YaleHarryWeinbergerarchiveindividuallyidentifiesNewYorkvGeorgeL.Glison/LloydC.Glison1917disorderlyconducttendingtobreachpeace,sixmonthsentence. This correctsgenericwartimestatuteclassification inchargeswithoutinventingdates."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Gilpin",
+      "expected": {
+        "id": "998e1c0a-43f3-4930-825f-db5dadfbb210",
+        "prisoner_id": "d63f8791-6369-486b-b9cc-b4b174c808e2",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile,\".",
+        "arrest_date": "1777-09-02 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-03-01 00:00:00",
+        "death_in_custody_date": "1778-03-01 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished to Winchester, Virginia; he died there in exile in March 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:48:41",
+        "updated_at": "2026-10-14 00:00:40",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "death_in_custody_date": "1778-03-01",
+        "release_date": null,
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://law.emory.edu/_includes/documents/sections/faculty-and-scholarship/articles/cloud/2003-Quakers-Slaves-and-the-Founders.pdf"
+      ],
+      "research_note": "Emory archival study explicitly dates death during captivity March 2, 1778. Stored March 1 values have month precision. Refine death and death-in-custody, clear erroneous release because he died captive. No portrait of father securely identified; avoid son Thomas Gilpin portraits. Parent review found conflicting March1/2/3 days across references; retain March1778 month precision for death rather than assert day. Death in captivity and false release correction supported."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Luigi Mangione",
+      "expected": {
+        "id": "a8d2978b-3169-44b5-a954-a08f8451c4a6",
+        "prisoner_id": "54e1665f-ad96-4411-883f-7f7049d42ca4",
+        "institution_id": "1dd3e4e7-ce3f-4746-add5-dba1510af6d0",
+        "charges": "New York second-degree murder (state terrorism counts dismissed Sept 2025); federal stalking and firearms counts (death-eligible counts dismissed Jan 2026)",
+        "arrest_date": "2024-12-09 00:00:00",
+        "indicted": null,
+        "convicted": "No — pending trial",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2024-12-09 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 678,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-05 20:46:42",
+        "updated_at": "2026-10-18 00:00:22",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty (federal stalking counts)",
+        "convicted": "Yes (federal stalking counts)",
+        "judge": "Margaret M. Garnett (federal case)",
+        "prosecutor": "Dominic A. Gentile; Jun Xiang; Alexandra Messiter; Thomas John Wright (federal case)"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-sdny/pr/luigi-mangione-pleads-guilty-connection-his-murder-united-healthcare-ceo-brian"
+      ],
+      "research_note": "Fresh official August 14, 2026 DOJ report confirms federal guilty plea before Judge Garnett; December 18 sentencing remains future and must not be entered as imposed sentence. Existing combined state/federal case needs qualified conviction/plea labels because state matter remains separate. No release or sentence invented."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Walter Ward",
+      "expected": {
+        "id": "4666c051-84b4-4464-a9e0-6963eec30b09",
+        "prisoner_id": "62b26a6c-cb7f-46d3-8c04-475072003074",
+        "institution_id": "5cece167-302b-41da-8d23-dbfcfdd379e6",
+        "charges": "Charges arising from the Elaine massacre; one of the Elaine defendants sent to the state penitentiary.",
+        "arrest_date": "1919-10-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1919-11-01 00:00:00",
+        "incarceration_date": "1919-11-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-07 15:25:27",
+        "updated_at": "2026-10-14 01:31:08",
+        "date_precision": "{\"arrest_date\":\"month\",\"sentenced_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Second-degree murder",
+        "plead": "Guilty"
+      },
+      "sources": [
+        "https://crdl.usg.edu/record/aru_unequal_1670",
+        "https://digitalcollections.uark.edu/digital/api/collection/Civilrights/id/1670/download"
+      ],
+      "research_note": "OriginalScipioJonesSupremeCourtbriefindividuallynamesWardandJohnJeffersonaspleadingguiltyseconddegreemurderaftercoercedtestimony. No individualtermordischargegiven; addactualcharge/pleaonly."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Taylor (LDS President)",
+      "expected": {
+        "id": "df102b93-0537-48f8-9e3a-9862a4d01e4d",
+        "prisoner_id": "baa66d3c-a687-4e95-8beb-1423bd3a23a1",
+        "institution_id": null,
+        "charges": "Edmunds Act of 1882 — federal warrants.",
+        "arrest_date": "1885-02-01 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1887-07-25 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1885-02-01 00:00:00",
+        "end_of_exile": "1887-07-25 00:00:00",
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~2.5 years in hiding around Utah, hunted by U.S. deputy marshals; died in seclusion at the Roueche home in Kaysville, UT, July 25, 1887.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": 904,
+        "created_at": "2026-05-10 01:43:46",
+        "updated_at": "2026-10-14 00:00:29",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": null,
+        "release_date": null,
+        "sentence": null
+      },
+      "sources": [
+        "https://www.churchofjesuschrist.org/study/manual/teachings-john-taylor/the-life-and-ministry-of-john-taylor?lang=eng",
+        "https://www.churchofjesuschrist.org/study/manual/church-history-in-the-fulness-of-times/chapter-thirty-three?lang=eng"
+      ],
+      "research_note": "Official Church history confirms February 1, 1885 was entry into hiding, not arrest, and July 25, 1887 death in exile, not release from custody. Existing exile endpoints already correct; clear arrest/release fields wrongly representing those events. No incarceration date belongs here."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Claudia Rueda",
+      "expected": {
+        "id": "a332d8fa-a705-4757-a56c-63d2fec6798a",
+        "prisoner_id": "8a44a67f-da74-4320-bb55-308671e1500f",
+        "institution_id": null,
+        "charges": "Civil immigration detention; First Amendment retaliation alleged in subsequent litigation.",
+        "arrest_date": "2017-05-18 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2017-05-18 00:00:00",
+        "release_date": "2017-06-09 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 22,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-09 01:35:22",
+        "updated_at": "2026-10-09 01:35:22",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Annie S. Garcy",
+        "prosecutor": "Matthew Hanson"
+      },
+      "sources": [
+        "https://www.kpbs.org/news/politics/2017/06/09/sd-immigrant-activist"
+      ],
+      "research_note": "ContemporaryAPcourtcoverageidentifiesimmigrationjudgeAnnieS.GarcyandgovernmentattorneyMatthewHanson. ExistingMay18-June9custodyalreadycorrect; no criminalsentence appropriate."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Gary Garrison",
+      "expected": {
+        "id": "bafdcd59-b55c-4534-9bc4-5162950a584d",
+        "prisoner_id": "e0ed8fc5-2156-499b-9b63-dfd69820d2a1",
+        "institution_id": null,
+        "charges": "Attempted first-degree arson, criminal mischief and conspiracy",
+        "arrest_date": "1974-01-24 00:00:00",
+        "indicted": null,
+        "convicted": "Acquitted of all remaining charges September 2, 1975; conspiracy count dismissed during trial",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1974-01-24 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence. Bond was reduced from $50,000 to $7,500 on January 25, 1974; exact release date after this second arrest has not been found.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-26 19:14:08",
+        "updated_at": "2026-09-26 19:14:08",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Waino Johnson"
+      },
+      "sources": [
+        "https://www.themilitant.com/1975/3933/MIL3933.pdf"
+      ],
+      "research_note": "ContemporaryMilitantSeptember12,1975identifiestrialjudgeWainoJohnson. Actual2Septemberacquittalisnotcustodyrelease; secondpretrialendpointremainsunknown. Addjudge tosecondcaseonly."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Louis Louaillier",
+      "expected": {
+        "id": "e236b3d4-c985-4710-8947-bd1fee89e72e",
+        "prisoner_id": "ada51c8a-aafe-40a8-827a-dd515e120b7f",
+        "institution_id": null,
+        "charges": "Publishing an article against martial law (court-martial, New Orleans, March 1815)",
+        "arrest_date": "1815-03-01 00:00:00",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1815-03-01 00:00:00",
+        "release_date": "1815-03-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:55",
+        "updated_at": "2026-09-12 00:00:20",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1815-03-05",
+        "incarceration_date": "1815-03-05",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/maj005311/",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt9/pdf/GPO-CRECB-1964-pt9-7.pdf"
+      ],
+      "research_note": "LOC5March1815manuscriptandCongressionalhistoricaltranscriptionexplicitlyidentifyactualarrestnoon5March1815. Existingmonthplaceholdercanberefinedstartonly; no sentencedterm becausemilitarycourtacquittedandJacksonkeptdetained."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Alberto Ortiz",
+      "expected": {
+        "id": "f0079bbe-44c1-4459-9463-fe8a449638d6",
+        "prisoner_id": "7a703435-0535-46de-b385-39049100fe6f",
+        "institution_id": null,
+        "charges": "Shooting and robbery of an undercover federal narcotics agent at Estrada Courts, Los Angeles (1971)",
+        "arrest_date": "1971-07-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1971-07-01 00:00:00",
+        "release_date": "1973-11-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Ten years in federal prison\n\nReleased on bail pending appeal in November 1973; the exact release day and subsequent custody remain unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-11 17:13:04",
+        "updated_at": "2026-10-15 21:30:37",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Ten years imprisonment; five years probation",
+        "judge": "Lawrence Lydick",
+        "prosecutor": "Irving Prager"
+      },
+      "sources": [
+        "https://www.themilitant.com/1972/3609/MIL3609.pdf",
+        "https://www.themilitant.com/1973/3745/MIL3745.pdf"
+      ],
+      "research_note": "Contemporary10March1972reportexplicitlydistinguishesOrtiz10yearsprisonplus5yearsprobationfromco-defendants40/25years. December1973reportidentifiestrialjudgeLawrenceLydickandprosecutorIrvingPrager. ExistingNov1973bailreleasealreadycorrect; BlackPanther1975says1974butcontemporary1973reportprevails. No newendpointguess."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jack Schneider",
+      "expected": {
+        "id": "3254ffe0-e069-464f-955a-e253f40783cd",
+        "prisoner_id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
+        "institution_id": null,
+        "charges": null,
+        "arrest_date": "1948-11-23 00:00:00",
+        "indicted": null,
+        "convicted": "No criminal conviction established",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No arrest or confinement established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-18 21:46:07",
+        "updated_at": "2026-10-13 00:49:52",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1952-10-24",
+        "incarceration_date": "1952-10-24",
+        "sentence": null,
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/108/640/1417378/",
+        "https://www.marxists.org/subject/jewish/justice-fur.pdf"
+      ],
+      "research_note": "Original United States v Esperdy108FSupp640,Dec10,1952 proves repeated physical custody. Court dates first arrestNov1,1948 (conflicts contemporary unionNov23), rearrestOct25,1950 followed administrative bail, and new detentionOct24,1952 still ongoingDec10. Do not combine those as continuous1948–1952 span. Propose anchor existing case to verified latestOct24,1952 detention and clear false no-confinement sentence. Bio false qualification requires parent decision, no bio proposed under scope. Endpoint unknown."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Annarella Rivera",
+      "expected": {
+        "id": "705bd7eb-e10f-4a86-b95a-e0033bbc14c4",
+        "prisoner_id": "acd54e21-3c39-48e3-8d0c-fe675fc24576",
+        "institution_id": null,
+        "charges": "Conspiracy against rights / FACE Act violations",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes — pleaded guilty June 14, 2024 to conspiracy against rights",
+        "plead": "Guilty on June 14, 2024",
+        "sentenced_date": "2024-09-12 00:00:00",
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Laura-Kate Bernstein; Courtney Derry",
+        "judge": null,
+        "sentence": "Thirty days in prison followed by sixty days of home detention",
+        "imprisoned_for_days": 30,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:17",
+        "updated_at": "2026-10-16 22:34:09",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 30,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Virginia M. Hernandez Covington",
+        "imprisoned_for_days": null,
+        "documented_imprisoned_for_days": null
+      },
+      "sources": [
+        "https://www.casemine.com/judgement/us/64e2ff00948b233f8a08d802",
+        "https://www.justice.gov/usao-mdfl/pr/florida-man-sentenced-civil-rights-conspiracy-targeting-pregnancy-resource-centers"
+      ],
+      "research_note": "Original joint criminal order identifies presiding Judge Virginia M. Hernandez Covington, same criminal docket8:23cr25; DOJ confirms30day imposed sentence only. Existing documented30 actualdays is supported only by imposed term, not service; clear actualtime totals pending BOP verification. No admission/release located. Do not reuse Oropesa dates."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Orville Anderson",
+      "expected": {
+        "id": "1208f034-7802-4c70-b0f9-ec37627de9fa",
+        "prisoner_id": "817ff2c0-1a44-4126-a424-c3d0d324805d",
+        "institution_id": null,
+        "charges": "Espionage Act of 1917 and/or the Sedition Act of 1918",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1918-10-05 00:00:00",
+        "release_date": "1923-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four years in prison (Espionage/Sedition Act conviction).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-11 15:06:54",
+        "updated_at": "2026-10-14 00:00:29",
+        "date_precision": "{\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1921-12-21",
+        "sentence": "Four years imprisonment",
+        "date_precision": "{\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://dokumen.pub/american-political-prisoners-prosecutions-under-the-espionage-and-sedition-acts-0275944158-9780275944155.html"
+      ],
+      "research_note": "Stephen Kohn original archival study American Political Prisoners p85 identifies Leavenworth Oct5,1918 to Dec21,1921, with cited FBI FOIPA263824. Current June1923 structured endpoint conflicts with this and existing bio. Correct endpoint to Dec21,1921; retain start. No arrest/vitals located. Remove offense aside from sentence."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Charles Horhmann",
+      "expected": {
+        "id": "8fd9f816-6968-4adf-9d64-385f20d2a346",
+        "prisoner_id": "e964d326-1ab5-47fe-9ac4-a994b9fe2cae",
+        "institution_id": "ab4f06b5-92e7-4c57-94d1-4d8f46dbb43f",
+        "charges": "Montana state sedition prosecution, Granite County, case 244.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1918-06-24 00:00:00",
+        "incarceration_date": "1918-06-27 00:00:00",
+        "release_date": "1919-04-13 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "1-2 years",
+        "imprisoned_for_days": 290,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-15 04:54:16",
+        "updated_at": "2026-10-18 18:57:10",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Sedition"
+      },
+      "sources": [
+        "https://clcowgill.wordpress.com/photo-gallery/"
+      ],
+      "research_note": "Montana Sedition Project case244 confirms existing admission/release/sentence. No exact arrest or verified vital date located. Source gives age55 at1918 conviction, implying1862/1863 range, not one certain birthyear. Reduce charges to named criminal offense only."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Anna Berenbaum",
+      "expected": {
+        "id": "afe03345-526e-423a-bd5d-30faaa190984",
+        "prisoner_id": "b8898725-f2d9-4b70-b96a-c609a302545a",
+        "institution_id": null,
+        "charges": "Contempt of court; violating the anti-picketing injunction",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1926-06-01 00:00:00",
+        "release_date": "1926-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Served a ten-day term in Cook County Jail. Named among the thirteen released pickets in the June 23 and June 25, 1926 reports.",
+        "imprisoned_for_days": 10,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:07:33",
+        "updated_at": "2026-09-17 01:45:11",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 10,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Ten days imprisonment and $250 fine"
+      },
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n131-NY-jun-15-1926-DW-LOC.pdf"
+      ],
+      "research_note": "June15,1926 contemporary Daily Worker explicitly lists ten days and $250 fine. Existing sentence field contains research narrative. Actual10day total already recorded; no invented start/release."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Fred J. Muhlke",
+      "expected": {
+        "id": "21ae58f7-88e9-4b8e-bd65-b99a237bfef5",
+        "prisoner_id": "81fc594c-2b10-45b0-bbe8-fde5d0231700",
+        "institution_id": null,
+        "charges": "Disobeying orders; refusal of military service",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-15 05:12:08",
+        "updated_at": "2026-09-29 01:32:31",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "Fifty years confinement at hard labor, dishonorable discharge, and total forfeiture"
+      },
+      "sources": [
+        "https://missourioverthere.org/explore/collections/crowder-enoch-h-papers/memorandum-for-secretary-of-war-from-samuel-tilden-ansell-january-11-1918/"
+      ],
+      "research_note": "Samuel Tilden Ansell original Jan11,1918 memorandum in Crowder papers identifies Private Fred J. Muhlke, Medical Corps, Camp Grant: court sentenced him to dishonorable discharge, total forfeiture, fifty years confinement at hard labor. Sentence is not actual time served; no exact admission or release located."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Victor Malis",
+      "expected": {
+        "id": "6f9462da-68e7-40e6-ac48-1fbdf4224211",
+        "prisoner_id": "a5ee9346-8eaf-4718-b794-9acb1efe8853",
+        "institution_id": null,
+        "charges": "Contempt of Congress for a First Amendment refusal at the 1958 Gary HUAC hearing",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No conviction located; trial postponed indefinitely in 1960",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No arrest or confinement established.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-17 01:59:50",
+        "updated_at": "2026-09-26 20:15:49",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "indicted": "1959-07-17",
+        "prosecutor": "Kenneth C. Raub",
+        "charges": "Contempt of Congress",
+        "sentence": null,
+        "date_precision": "{\"indicted\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0717.pdf"
+      ],
+      "research_note": "Original1959 US Attorneys Bulletin names him among July17 indictments and identifies prosecutor Kenneth C. Raub. No custody established; preserve blank incarceration/release and remove narrative from sentence field."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jonathan Montanez",
+      "expected": {
+        "id": "ad0b31b7-cd1a-4099-8633-ac83bbfdfec5",
+        "prisoner_id": "372950f2-3630-429d-b35e-2142fe0bda72",
+        "institution_id": "bb6c98db-f14f-487e-8cb0-ef89cb05289f",
+        "charges": "Civil disorder",
+        "arrest_date": "2020-09-30 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "2022-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "Assistant United States Attorney Richard Lee",
+        "judge": "Peter D. Welte",
+        "sentence": "24 months",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 01:32:18",
+        "updated_at": "2026-10-16 20:45:18",
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "2021-04-05",
+        "sentence": "Two years imprisonment followed by three years supervised release",
+        "date_precision": "{\"release_date\":\"month\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.justice.gov/usao-nd/pr/moorhead-man-sentenced-two-years-federal-prison-civil-disorder-during-may-30th-2020-fargo"
+      ],
+      "research_note": "DOJ sentencing announcement dated April5,2021 explicitly reports sentence to two years federal prison followed by three years supervised release. Existing judge/prosecutor already match; no evidence establishes admission date."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "James Thompson Callender",
+      "expected": {
+        "id": "461144fa-1092-49bb-8fb4-d1be04674337",
+        "prisoner_id": "79d58f51-ca1b-466b-8f73-edbc13734e87",
+        "institution_id": "fa2f009e-6c63-4a2b-9a6f-4238a8a41520",
+        "charges": "Sedition Act of 1798 — published The Prospect Before Us (1800), a tract attacking John Adams.",
+        "arrest_date": "1800-05-24 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1800-06-03 00:00:00",
+        "incarceration_date": "1800-06-03 00:00:00",
+        "release_date": "1801-03-16 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "9 months federal prison plus $200 fine. Pardoned by President Jefferson on his first day in office (March 4, 1801) along with all remaining Sedition Act prisoners.",
+        "imprisoned_for_days": 286,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 01:43:46",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1801-03-03",
+        "imprisoned_for_days": null,
+        "charges": "Sedition",
+        "sentence": "Nine months imprisonment and $200 fine",
+        "date_precision": "{\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.masshist.org/publications/adams-papers/view/AFC15p78"
+      ],
+      "research_note": "MHS Adams Papers scholarly annotation explicitly distinguishes completed nine-month prison term March 3, 1801 from presidential pardon March 16. Current March16 release and 286-day derived total conflate them. Charges/sentence reduced to named offense and punishment; no biography change."
+    },
+    {
+      "table": "prisoners",
+      "name": "James F. Hitselberger",
+      "expected": {
+        "id": "ac26a8a1-f07b-4528-b296-75ca89c76cff",
+        "name": "James F. Hitselberger",
+        "sort_order": 10141,
+        "photo": null,
+        "description": "James F. Hitselberger is a former Navy contract linguist who worked with the Fifth Fleet in Bahrain. Military investigators accused him in 2012 of taking classified documents from a secure work area; one document was later found in the Hoover Institution archives at Stanford University. Prosecutors initially charged him under the Espionage Act with unauthorized retention of national-defense information. He spent 54 days without bond in the District of Columbia jail before a judge released him on December 19, 2012 to strict home confinement and electronic monitoring. In April 2014 the government replaced the Espionage Act charge with a misdemeanor count of unauthorized removal and retention of classified documents. Hitselberger pleaded guilty and was sentenced on July 17, 2014 to time served and a $250 fine.",
+        "years_in_prison": null,
+        "state": "District of Columbia",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "James",
+        "middle_name": "F.",
+        "last_name": "Hitselberger",
+        "aka": null,
+        "race": null,
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": "[]",
+        "era": "2010s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-09-29 08:30:09",
+        "updated_at": "2026-09-29 08:30:09",
+        "slug": "james-f-hitselberger",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "birthdate": "1956-12-07 00:00:00",
+        "date_precision": "{\"birthdate\":\"day\"}"
+      },
+      "sources": [
+        "https://sgp.fas.org/jud/hitsel/complaint.pdf",
+        "https://www.justsecurity.org/wp-content/uploads/2022/10/Hitselberger-complaint-Aug-6-2012.pdf"
+      ],
+      "research_note": "FBI Special Agent Marcus Andre Morgan original sworn criminal-complaint affidavit, filed August6,2012, Document1-1 page1 (PDFpage2), explicitly identifies defendant DOB12/7/56. US month/day format: December7,1956. Exact DOB, not inferred from age."
+    },
+    {
+      "table": "prisoners",
+      "name": "Jack Schneider",
+      "expected": {
+        "id": "e753f8c4-9fbd-4985-94a3-1e7814c777dd",
+        "name": "Jack Schneider",
+        "sort_order": 55188,
+        "photo": "prisoners/jack-schneider-ilfwu-batch484.png",
+        "description": "Jack Schneider was a leader of the International Fur and Leather Workers Union who was targeted during a federal deportation drive against labor organizers. The reviewed record identifies a civil immigration proceeding but does not document an arrest, detention, criminal conviction, or prison term.",
+        "years_in_prison": null,
+        "state": "New York",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Jack",
+        "middle_name": null,
+        "last_name": "Schneider",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1897-01-01 00:00:00",
+        "death_date": null,
+        "age": null,
+        "ideologies": "[\"Labor Organizing\",\"Communism\"]",
+        "era": "1950s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-06-18 21:46:07",
+        "updated_at": "2026-10-13 00:49:52",
+        "slug": "jack-schneider",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Jack Schneider was a leader of the International Fur and Leather Workers Union who was targeted during a federal deportation drive against labor organizers. He was detained in civil immigration proceedings, including after his bail was revoked on October 25, 1950. He was released on administrative bail and was arrested again on October 24, 1952, then held without bail. In December 1952, a federal judge ruled that the decision to rearrest and hold him without bail was an abuse of discretion."
+      },
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/FSupp/108/640/1417378/"
+      ],
+      "research_note": "Original December10,1952 federal habeas opinion identifies labor organizer Jack Schneider and establishes actual detention, contrary to existing biography assertion of no documented arrest or detention. Preserve identification, replace unsupported negative with established custody facts; no case notes added."
+    }
+  ]
+}
