@@ -19,7 +19,7 @@ use Carbon\Carbon;
  * year is worth doing — it is real information, and far better than an empty
  * field — but presenting it as a flat "1996" asserts a precision the source does
  * not support. Stored as 'circa', the same value renders "c. 1996", which is
- * exactly what is known.
+ * retained in the precision metadata. Birth years display without the prefix.
  *
  * Everywhere except display, 'circa' behaves identically to 'year': month and
  * day are not real, and the JSON API emits a bare year.
@@ -84,7 +84,7 @@ trait HasPartialDates
         $c = $value instanceof Carbon ? $value : Carbon::parse($value);
 
         return match ($this->datePrecisionFor($field)) {
-            'circa' => 'c. '.$c->format('Y'),
+            'circa' => ($field === 'birthdate' ? '' : 'c. ').$c->format('Y'),
             'year' => $c->format('Y'),
             'month' => $c->format('F Y'),
             default => $c->format($dayFormat),
