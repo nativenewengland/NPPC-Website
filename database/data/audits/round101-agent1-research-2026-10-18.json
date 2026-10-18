@@ -1,0 +1,410 @@
+{
+  "profiles": [
+    {
+      "name": "Jabari Devon Davis",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original DOJ sentencing announcement confirms James C. Dever III and prosecutor Daniel W. Smith. ArrestJune4 already recorded; no actual admission/release day supplied.",
+      "sources": [
+        "https://www.justice.gov/usao-ednc/pr/domestic-terrorist-sentenced-attempting-set-fire-raleigh-police-department-vehicle"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "747d223a-45dd-40a7-bff6-54b28d0063d9",
+          "updates": {
+            "judge": "James C. Dever III",
+            "prosecutor": "Daniel W. Smith"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Helmi Soedirdja",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individually searched original identified portrait; no reliable photograph located. Name matches and arms-case references alone do not establish a visual identification.",
+      "sources": [
+        "https://fedrap.com/terror"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jean Catherine Thompson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual Freedom Rider arrest photo and later ride reporting do not establish individual release. Generic group terms not entered as actual custody.",
+      "sources": [
+        "https://crdl.usg.edu/people/thompson_jean_catherine"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Daniel Duffy",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original AlbanyMarch22,1923 front page datelineLosAngelesMarch21 says named DanDuffy and seven others were taken to county jail today after JudgeJohnWShenk sentencing to1–14years for criminalsyndicalism. This directly dates physical custody, not merely a future order. Existing biographyDecember9,1921 conflicts; do not rewrite biography within this task. Generic12servedmonths unsupported by original, clear pending real endpoint.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn96088115/1923-03-22/ed-1/seq-1.pdf",
+        "https://oregonnews.uoregon.edu/lccn/sn96088107/1923-03-16/ed-1/seq-1/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "87b89580-37fc-412b-9431-227dd17f3df8",
+          "updates": {
+            "charges": "Criminal syndicalism",
+            "sentence": "One to fourteen years",
+            "sentenced_date": "1923-03-21",
+            "incarceration_date": "1923-03-21",
+            "judge": "John W. Shenk",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {
+            "sentenced_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Julius Hollis",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name miner search returned modern unrelated financier/genealogy; excluded. Existing MaryRasefske letter establishes imposed term, not physical admission or release. No fresh reliable date.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Nile Cochran",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original April30,1933 newspaper confirms three-year manslaughter sentence and new-trial request, but no actual release. Cannot calculate term-end as release.",
+      "sources": [
+        "https://newspaperarchive.com/cedar-rapids-gazette-apr-30-1933-p-1/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Graham Ball",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual HeathBoeing follow-up search supplied no original individual booking release. Existing approximate30-day nominal sentence cannot become elapsed custody.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Theodore Buessel",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original OregonDailyJournalJuly19,1918 datelineHartfordJuly19 says this afternoon sentenced by FederalJudgeHowe, ten years on each of three counts concurrent. Original appellate opinion confirms1917EspionageAct as amendedMay16,1918. Historian reports commutation toApril1,1920, not actual discharge proof; endpoint leftblank.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042444/1918-07-19/ed-1/seq-16/ocr.txt",
+        "https://hallapproved.com/us/cases/ca2/1919/8827534/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "063b74d7-d624-4841-b8f2-9efe87dde2c7",
+          "updates": {
+            "sentenced_date": "1918-07-19",
+            "judge": "Judge Howe",
+            "sentence": "Ten years on each of three counts, concurrent"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Julian Dumbrouski",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual exact-name conscientious-objector search did not reveal an independent original admission/discharge. January4–5,1919 inquiry date is not admission or discharge.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Issay Volkov",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual name search found no new original charge or court sentence. Administrative deportation requires no invented criminal sentence; existing arrest and Buford sailing already present.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lavrenti Makarevich",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original biographical account already records conflicting1921deportation and1922Connecticut appearance; individual fresh search did not resolve which INS/DOJ report is correct. No additional endpoint or criminal term manufactured.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Samuel Bridges",
+      "status": "reviewed_supported_updates",
+      "evidence": "Contemporary PamojaVenceremosJune1,1971 confirms May16stop and not-guilty plea, no actual release or sentencing. June24 existing sentenced_date requires separate audit, not assumed valid from scheduled proceeding.",
+      "sources": [
+        "https://www.marxists.org/history/erol/periodicals/pamoja-venceremos/v01n02-jun-01-1971-PV.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1708c168-14a0-4e41-a011-020f355cf18f",
+          "updates": {
+            "plead": "Not guilty"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John Volpe",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Participant chronology and contemporary Insurgent article reviewed; no individually identified original portrait found. Already precise sentence interval preserved; group photograph without a naming key unsuitable.",
+      "sources": [
+        "https://ickevald.net/plowshares/plowshares-chronology-1980-2018",
+        "https://www.freedomarchives.org/Documents/Finder/DOC510_scans/Insurgent/510.insurgent.vol2.no3.Winter1986.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jeremy Busby",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Own organization and interview discuss original1999homicide imprisonment, whereas existing case is alleged later administrative retaliation. No dates from original offense assigned to retaliation. Hostile third-party allegations not treated as verified corrections.",
+      "sources": [
+        "https://joinjeremy.org/about-jeremy/",
+        "https://www.cjr.org/first_person/jeremy-busby-texas-prison-journalism.php",
+        "https://www.neverpo.st/posting-from-inside/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Herbert McCutcheon",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh original George1918trial account raises identity problem: E.J.McCosham defendant listed as HerbertMcCutcheon expressly said McCutcheon was another man, not his alias. Existing1921fugitive DOJ report still usesMcCutcheon. Avoid attaching McCosham sentence/vitals without resolving identity.",
+      "sources": [
+        "https://www.sos.wa.gov/sites/default/files/2025-05/SL_GeorgeIWWTrial.pdf",
+        "https://www.marxists.org/history/usa/unions/iww/1921/0423-loebl-haywoodaffair.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Nancy Kachel",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original NuclearResisterMay21,2025 confirms cited and released at scene; no custodial sentence or jail interval to invent. Unrelated NancyTedKachelOklahoma oralhistory excluded.",
+      "sources": [
+        "https://www.nukeresister.org/2025/05/21/eight-people-cited-in-mothers-day-demonstration-at-bangor-trident-nuclear-submarine-base/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mike Karadich",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original WorkersMonthlyMarch1926 conviction roster and Corbishly1927 appeal identify defendant (indictedMikeKrodach), but individual arrest and physical-bail-release day not established. Group portrait caption explicitly excludesKaradich.",
+      "sources": [
+        "https://marxists.architexturez.net/history/usa/culture/pubs/wm/1926/v5n05-mar-1926-1B-WM.pdf",
+        "https://law.counselstack.com/opinion/the-people-v-corbishly-ill-1927",
+        "https://revolutionsnewsstand.com/2023/06/25/the-frame-up-on-the-zeigler-miners-by-thurber-lewis-from-labor-defender-vol-1-no-1-january-1926/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Suzanne Goldberg Savio",
+      "status": "reviewed_no_safe_update",
+      "evidence": "FBI original newspaper clipping confirms45dayterm initially imposed and delayedJuly20,1967, but current record notes later excused term. Do not treat initial reporting as actual45days served or infer release45dayslater.",
+      "sources": [
+        "https://vault.fbi.gov/mario-savio/Mario%20Savio%20Part%2008/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Wilson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual name plus FortLeavenworth1969 search found unrelated namesakes; original CCCO roster presence not start or endpoint. No photo matched safely.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hyman Denowitz",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name search returned unrelated KansasMissouriestate cases and earlier Baltimore tailor. None tied to NewHamptoninmate12714; no custody refinement.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Adam Moleski",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-name search returned modern Canadian officer, excluded. Original1927–28Pittston defendant records require individual court docket before new sentence or endpoint.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Isaac Auman Sant",
+      "status": "reviewed_supported_updates",
+      "evidence": "Fresh district-courtOctober7,2026 order identifies presiding JudgeKatherineM.Menendez. Clearinghouse docket read directly; accessible June17individual custody entries concernNatashaRakotz, notSant, so do not copy dates. Pending sentence legitimatelyblank.",
+      "sources": [
+        "https://www.leagle.com/decision/infdco20261008g93",
+        "https://clearinghouse.net/case/48394/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "4654f82a-d069-40bd-bcdd-3b7de1c8bdcc",
+          "updates": {
+            "judge": "Katherine M. Menendez"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Douglas MacArthur Cotton",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh2024first-person interview says about50days and release a few days beforeAug28,1963WashingtonMarch; August1963 release month is already recorded on correct Greenwood/Parchman case. Noexactday established. Natchez1964 partialyearendpoint not refined without actual release evidence.",
+      "sources": [
+        "https://themississippilink.com/news/douglas-macarthur-cotton-walked-the-walk-kosciusko-native-on-the-front-lines-challenging-voter-suppression-well-before-freedom-summer/",
+        "https://www.crmvet.org/nars/aff/mbp_mc.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Benjamin Kontrowitz",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Individual fresh search did not supply identifiable original portrait or named criminal charge. Administrative deportation cannot be converted into criminal conviction.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anthony Russo",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original InreRusso53FRD564 court procedural history explicitly says contempt order affirmedAugust17,1971 and he was then committed to custody. Refine existingAugustmonth toAugust17day; no release calculated from47days.",
+      "sources": [
+        "https://openjurist.org/53/frd/564/in-re-russo",
+        "https://hallapproved.com/ca/cases/federal/district/1971/8799383/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "17caf981-a882-41f2-bfaa-0515ba35d750",
+          "updates": {
+            "incarceration_date": "1971-08-17"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cristino Perez Mendez",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original DOJUSAttorneysBulletin gives indictmentOctober27,1954, nameddefendant.1960HUACcontempt proceedings distinct. Graveindex1917–1979 uncorroborated identity not applied. No actual custody endpoint established.",
+      "sources": [
+        "https://www.justice.gov/sites/default/files/usao/legacy/2010/10/12/usab0224.pdf",
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt13/pdf/GPO-CRECB-1960-pt13-4-2.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Steven Evans",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exact-nameCO searches returned unrelated later criminal defendants. No safe name linkage, admission, sentence or discharge beyond1971CCCOroster.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Edward F. Doree",
+      "status": "reviewed_supported_updates",
+      "evidence": "ReutherLibrary authority and personalpaperfindingaid identify IWWorganizer/textileunionsecretary1889–1927. Existing1858exactbirth/1915death belong to wrong identity and contradict1918–22incarceration. Replace with authoritative yearprecision. Archivealso reports two temporary prison furloughs tovisitillson, no dates; do not assume uninterrupted custody.",
+      "sources": [
+        "https://archives.wayne.edu/agents/people/7709",
+        "https://archives.wayne.edu/repositories/2/resources/1413"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "d568aa19-43b5-48a7-a3e5-d682b3933133",
+          "updates": {
+            "birthdate": "1889-01-01",
+            "death_date": "1927-01-01"
+          },
+          "precision_merge": {
+            "birthdate": "year",
+            "death_date": "year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Peter Krawchuk",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh individual searches surfaced Canadianhistorian born1911, excluded because this1920Detroitdeportee born1885. No new verified original image/charge/term.",
+      "sources": [
+        "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CR%5CKrawchukPeter.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Khalfani Malik Khaldun",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh federal2024opinion and own writings reviewed; confirm identity LeonardMcQuay and continued imprisonment, not precise admission day on separate1987batterycase. Projected release dates remain excluded.",
+      "sources": [
+        "https://law.justia.com/cases/federal/district-courts/indiana/inndce/3%3A2023cv00436/114883/13/",
+        "https://betweenthebars.org/posts/15534/revolutionary-visions-wide-opened"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Andrew Augustyniak-Duncan",
+      "status": "reviewed_supported_new_case",
+      "evidence": "Original DOJDecember14,2021 confirms separate federal civil-disorder conviction,41months plus3yearsupervision, JudgeArthurJ.Schwab, prosecutorJonathanD.Lusty. Existing case is explicitly STATEarson; do not overwrite with federalterm. Parent should add separate federalcase after checking live noexistingcase. Press-release date only not guaranteed exact sentencingday; no custodydates inferred.",
+      "sources": [
+        "https://www.justice.gov/usao-wdpa/pr/carnegie-man-sentenced-obstructing-pittsburgh-police-during-may-30-2020-pittsburgh"
+      ],
+      "proposed_updates": [],
+      "proposed_new_cases": [
+        {
+          "id": "d70d5393-2b67-58f0-b193-03bcf6cfda65",
+          "prisoner_id": "0f9914df-2b64-4c68-8a6c-9dae9bd41785",
+          "charges": "Obstruction of law enforcement during civil disorder",
+          "convicted": "Yes",
+          "judge": "Arthur J. Schwab",
+          "prosecutor": "Jonathan D. Lusty",
+          "sentence": "41 months imprisonment; three years of supervised release"
+        }
+      ],
+      "deployment_condition": "Parent must check no existing separate federal civil-disorder case on fresh live data before inserting. Do not change existing state-arson case or assign its July14,2025release to federal case. Sentencing announcedDecember14,2021, actual day not expressly today so leftunset."
+    },
+    {
+      "name": "Guillermo Capadocia",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original1932SupremeCourtdecision confirms seditionconviction but no individual term in operative part; January1933DailyWorker merges3months-to1yearterms forCapadocia/Evangelista. Cannot assign aggregate range or exileorder as actualcustody.",
+      "sources": [
+        "https://chanrobles.com/cralaw/1932octoberdecisions.php?id=97",
+        "https://marxists.pages.dev/history/usa/pubs/dailyworker/1933/v010-n018-NY-jan-21-1933-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Veniamin Afanasevich",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Exactnamefreshsearch finds unrelatedRussianbishop. Originaldeportation alreadyrepresented; no identifiedportrait or criminalsentence. Bufordembarkation vs actualhandover should remain distinct.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jocelyne Robledo",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh WBEZFebruary2026 and federalMay2026filing continue to describe failed assaultcase; no sentence toadd aftergrandjurydeclined. ExistingSept27–29custody preserved.",
+      "sources": [
+        "https://www.wbez.org/immigration/2026/02/27/chicago-ice-trump-bovino-marimar-martinez-crime-border-patrol-midway-blitz",
+        "https://cst.brightspotcdn.com/9e/77/205924394d06bfa2059e43dedf19/rabbittintervene.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "complete": true,
+  "reviewed_count": 34,
+  "supported_profiles": 8,
+  "scope": "Individual bounded research; proposed updates only, no live writes or commits."
+}

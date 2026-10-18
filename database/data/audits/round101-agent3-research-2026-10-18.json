@@ -1,0 +1,417 @@
+{
+  "round": 101,
+  "profiles": [
+    {
+      "name": "Israel Simon",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh exactname1934/reformatory searches primarily unrelatedEuropeanbankerandHolocaustvictims. Existing1934needletradeprisoner59983 identity not supplemented; no exact admission/release or authenticatedportrait.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jeff Dowd",
+      "status": "reviewed_unresolved",
+      "evidence": "Seattle archivalphotocaptions establish Apr17,1970arraignment, not actualarrestday; indictmentApr16 corroborated. Currentcase is separate Decembercontemptcustody, so not inserting Aprilconspiracyarrest into it. Originalflyer confirms later temporarybailbutnoexactrelease.",
+      "sources": [
+        "https://crdl.usg.edu/record/wau_protests_71",
+        "https://historylink.org/File/22957"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William J. Swinbourne",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactnameandvariantsearch yielded unrelated18thcenturybarristerandAustralianmilitary; no identitymatchedwartimespeechcase or custodydates beyond existing NCLBsummary. Fourmonthterm not converted to endpoints.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gus Swift",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1917GrassValley search didnotfind individual originaljudgment beyondNCLB. ExistingFeb20,1917sentencedate predates federalwarand sourcecollectionperiod, requiring originalclipping rather than inferredadmission. No portrait or datesverified.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lawrence Gore",
+      "status": "supported_update",
+      "evidence": "Contemporary APJuly24,1959 names JudgeRaymondMallard and six-to-tenyears hardlabor. Existing narrative follows sentence; retain verified later3yearreduction concise. No new exact arrest/release found.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042470/1959-07-24/ed-1/seq-13/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "60f43aba-4bff-4c75-abd1-c8ea7f7770a1",
+          "updates": {
+            "judge": "Raymond Mallard",
+            "charges": "Conspiracy to dynamite Harriet-Henderson mills",
+            "sentence": "Six to ten years at hard labor; reduced by three years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Eugene Cherry",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary interviewedstory explicitly Army droppedcourt-martial and grantedgeneraldischarge,no jailtime. DischargeJuly2007notreleasefromprison. ModernGaryEugeneCherrySVP case excluded as differentperson. Missingcustodyfields legitimate.",
+      "sources": [
+        "https://www.socialistworker.org/2007-2/639/639_05_EugeneCherry.php",
+        "https://www.workers.org/pdf/2007/ww071907.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frank Jellison",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalCCCO NovDec1968,JanFeb1969 andlater rosters show Allenwoodconfinement but not datesofactualadmission/release or individualconviction/term. No namesake genealogyattached.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004009.pdf",
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004037.pdf",
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F1451%2F14511004039.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Leo Ellis",
+      "status": "reviewed_unresolved",
+      "evidence": "Freshresearch exposes interruptedcustody: May1920escape,1926Texasrecapture per UnderIronHeel. June21,1928 contemporaneousreport gives2.5yearStocktonterm, expectedSep19expiry; lawreviewcallsSep29release but itsfootnote is newspaperpublicationdate. Cannot safely make continuous1919-1928span or exactrelease. Retainmonth, obtainoriginalFolsomregister.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1928/1928-ny/v05-n146-NY-jun-21-1928-DW-LOC.pdf",
+        "https://scholarsbank.uoregon.edu/server/api/core/bitstreams/b46e6e32-3fa8-4adb-849b-08b7715ca33e/content",
+        "https://dokumen.pub/under-the-iron-heel-the-wobblies-and-the-capitalist-war-on-radical-workers-9780520382411.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dallas Goldtooth",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalNDNrelease and onsceneNews2Share confirmSep12,2023arrest; no demonstratedprisonbooking/longercustody. Do not turncitationprocessing into full-day prisoninterval. No missingvitals verified.",
+      "sources": [
+        "https://ndncollective.org/indigenous-leaders-and-allies-arrested-at-white-house-rally-in-support-of-clemency-for-native-american-activist-leonard-peltier/",
+        "https://news2share.com/dozens-arrested-in-white-house-rally-for-leonard-peltier-imprisoned-by-feds-for-five-decades/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Graymon Ward",
+      "status": "supported_update",
+      "evidence": "DanBacher contemporaneous March21,2007 report names Graymon among six activists who reported to prisonsthatday. SOAW roster independently supplies existing Apr23release. No backcalculation from one-monthsentence. Clean sentence field.",
+      "sources": [
+        "https://breakallchains.blogspot.com/2007/03/",
+        "https://www.soaw-austin.org/POC1983_2012.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c79f2f1e-36e5-4378-86e3-5d9b183118b4",
+          "updates": {
+            "incarceration_date": "2007-03-21 00:00:00",
+            "sentence": "One month imprisonment",
+            "imprisoned_for_months": null
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chris Hershberger",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalOfficialBulletin Group1 and Waterloo courtmartialfile120928 corroborate identity, notnewprecise arrest/vitals. ExistingOct22,1918-Jan27,1919custodyretained; groupclemencyorderdate notactualrelease.",
+      "sources": [
+        "https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf",
+        "https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Will Drake",
+      "status": "reviewed_unresolved",
+      "evidence": "Aug17,1931originalDailyWorker individually namesWillDrake amongcroppers stilljailed. No exactrelease, namedcriminalcharge or sentencinglocated. Reportdate notstart/end; no fabricatedduration.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1931/v08-n197-NY-aug-17-1931-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Blake Ivey",
+      "status": "reviewed_unresolved",
+      "evidence": "OriginalOct27,2008 telephoneinterview says21yearoldIvey stillactivelyserving atFortGordon whileCOapplicationpending. Hundreddayconfinement inarticle concernsCliftonJackson, notIvey. No newcaseor imprisonmentassigned.",
+      "sources": [
+        "https://znetwork.org/znetarticle/despite-the-threat-of-harsh-punishment-soldier-says-no-to-deployment-in-afghanistan-by-sarah-lazare/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Roman",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh exactnamePentagon2026 search yieldsCongressionalstafferandmilitarynamesakes, no individualfinalcourt outcome for NuclearResister activist. ExistingMar27processing/release retained; no sentencedterm inferredfromsevenhours.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Elizabeth Porter Wyckoff",
+      "status": "supported_update",
+      "evidence": "CRDL originalstatearchive authority gives1915-1994; missingdeathyear canfill1994. Actualnamedcharge breachofpeace already corroborated by individualhabeas proceeding; no precise release. Conflicting sentenceaccounts remain unresolved, not guessed.",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-4-13-1-1-1",
+        "https://www.leagle.com/decision/1961711196fsupp5151595"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "15475aea-c8e5-4189-9620-e46901292f25",
+          "updates": {
+            "death_date": "1994-01-01 00:00:00"
+          },
+          "precision_merge": {
+            "death_date": "year"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "ff887110-a861-43a5-8729-e9fb3b26ec2b",
+          "updates": {
+            "charges": "Breach of the peace"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Leonardo Estrada Ferrer",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname search finds2020WorldCentralKitchen farmerprofilewithimage, but no link establishing sameVieques2003resister. Cannot attachportrait absentidentityconnection. Existing60days not extrapolatedtoadditionaldates.",
+      "sources": [
+        "https://wck.org/es/wp-content/uploads/sites/2/2025/10/26b70e0a-e949-4aa3-8585-b7f9fa231dc7_2020_FPNBooklet.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emil Yanyar",
+      "status": "supported_update",
+      "evidence": "Adolph Germer original Aug8,1918 report to SocialistParty NEC p17 names Providence statecommittee member convicted3counts EspionageLaw, sentenced sixmonths countyjailHowardRI and then serving. Sentence does not establish exact custody endpoints. Charges cleaned to named statutory offense.",
+      "sources": [
+        "https://www.marxists.org/history/usa/parties/spusa/1918/0808-germer-reporttonec.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "cf4c0e99-b96e-4875-9b7a-542e35a184ff",
+          "updates": {
+            "sentence": "Six months imprisonment",
+            "charges": "Espionage Act violation"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Gustavo Dávila Cardona",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname searches chieflyGuatemalanFelixGustavoDavilaCardona civilservant, not verifiedPuertoRicoViequesresister. No originalidentifiedportrait/vitals found, no namesakemerged.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gregorio Correa",
+      "status": "supported_update",
+      "evidence": "Contemporary Oct24,1935 ArtesiaAdvocate says sevenacquitted includingGregorioCorrea were immediatelyremanded tojailin defaultof$2500bond. Thus acquittalisnotrelease. Preserve endpointblank; no sentencedpenalty, clear narrative/bailamount from sentence. Charges remain namedoffenses.",
+      "sources": [
+        "https://lib-dspace1.ttu.edu/bitstream/handle/20.500.12255/333987/Artesia_Advocate_1935_10_24.pdf?isAllowed=y&sequence=1"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "48d4b993-a34e-4008-97d5-98d64b415504",
+          "updates": {
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Melany P. Brieno",
+      "status": "supported_update",
+      "evidence": "Original sheriff release Apr19confirms tentative conspiracy-to-burglary, not filedcomplaint or sentence. FOX6 Apr21 names CourtCommissionerBrianAsmus who handledbond; no final sentence located. Remove pretrialnarrative from sentence, preserve actualcustodydates. Publicbookingphoto lead matchedname/date but originalimage not downloaded.",
+      "sources": [
+        "https://em-flood.danecounty.gov/PressDetail/11857",
+        "https://www.fox6now.com/news/ridglan-farms-activists-charged-after-failed-attempt-rescue-beagles",
+        "https://recentlybooked.com/wi/dane/melany-brieno~3026_621908"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6896be31-6d2f-4911-bfed-01f58256a208",
+          "updates": {
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Mollie Steimer",
+      "status": "supported_update",
+      "evidence": "PaulAvrich original archival research AnarchistPortraits p218 explicitly fifteenyears+$500fine, not $5000. Resolve existing disputedfine/narrative. Existing May1,1920admission conflicts Avrich April1920transfer; transferisnotoriginalstart, flag separately rather than guessedchange. Secondcase insufficientnamedcharge.",
+      "sources": [
+        "https://files.libcom.org/files/AnarchistPortraitsPaulAvrich.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a797253f-9783-4a6e-8e33-7e5d49707419",
+          "updates": {
+            "sentence": "Fifteen years imprisonment and $500 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Irwin St. John Tucker",
+      "status": "reviewed_unresolved",
+      "evidence": "Reviewed1918indictment/1919sentencingandbail distinction. Existing1921appellateoutcomenotprisonrelease alreadyexcluded. Freshsearchproducedperiodnewspaper mentionsnotactualadmission. Prisonstart remainsblank; no continuouscustodyinferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/parties/spusa/1918/0808-germer-reporttonec.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Oswaldo Manuel Merced",
+      "status": "reviewed_unresolved",
+      "evidence": "ExactnameandOswaldo/Merced/Vieques variants return unrelatedPuertoRiconames; noindividuallydatedcustodyrecord beyond originalNR121roster. Do not assign generic30-90dayrange or otherbrigademembersdates.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Aron McKillips",
+      "status": "reviewed_unresolved",
+      "evidence": "Original judgment reproducedindocket confirms existingAug29,2024 concurrent41monthterms+3yearsupervision. No actualrelease/BOPnumberverified; sentence cannot be addedtoarrestforprojectedrelease.",
+      "sources": [
+        "https://www.drdocket.com/case/united-states-v-mckillips-ohnd-2023"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Abraham Bieber",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactnameconscientiousobjectorsearch no independentidentitymatchedsource. NCLBMarch1,1919stillconfined observation cannot supply admission/releaseorindividualterm. Preserveblanks.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jim Ward",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1918searchreturnsMississippiarsonappellant, identitynotmatched existingEspionageActdetainee. No originalportrait/vitalsfound. ExistingNov13,1917-Dec6,1918 retained; do notattachnamesakeconviction.",
+      "sources": [
+        "https://case-law.vlex.com/vid/ward-v-state-20165-898373628"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robert Woods",
+      "status": "reviewed_unresolved",
+      "evidence": "Exactname1923syndicalismsearchreturnsOklahoma1940CommunistleaderRobertWoods, notCaliforniaSacramentoIWWprisoner. ExistingSanQuentin1923-25period retained; no reliablearrestdayorportraitfound.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Howard Moore",
+      "status": "reviewed_unresolved",
+      "evidence": "Original1971Pantherpaperconfirms earlyApril1971FBIarrest andhungjury, MilitantOct8confirms subsequentconviction but collective4-8yearrange. No individualterm or actualprisonadmission/releaseverified; no collectiveendpointassigned.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/black-panther/06%20no%2025%201-20%20jul%2019%201971.pdf",
+        "https://www.marxists.org/history/etol/newspape/themilitant/1971/v35n36-oct-08-1971-mil.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tina Lai",
+      "status": "reviewed_unresolved",
+      "evidence": "Fresh exactacquittalsearch foundnone; Jan2026AP/CNS reportsnotguiltyplea, notacquittal. CurrentstructuredNo-acquitted contradictsbioawaitingtrial, but no laterfinalcourtdocketreview established; flagstatusdiscrepancy forparentwithoutassumingoldnewsprovescurrentpendingstatus. No endpointorsentenceinvented.",
+      "sources": [
+        "https://apnews.com/article/97b2c6df4b923bd8e05ed12771d70827",
+        "https://kfiam640.iheart.com/content/2026-01-05-2-plead-not-guilty-to-federal-charges-alleging-socal-bomb-plot/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Stephen Stanley",
+      "status": "reviewed_unresolved",
+      "evidence": "ExactnameLeavenworth/1918objectorsearch no individualdatedrecord. NARA civilpenitentiaryindexStanleynames do not establish militaryDisciplinaryBarracksidentity. ExistingCampMeadeinterview/travel notprisonstart. Preserveblanks.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Toshitaka Robert Kitajima",
+      "status": "supported_update",
+      "evidence": "Original FukuiMortuary obituary supplies exact June2,1931 birth and matches Ookala birthplace, TuleLake, deathMarch12,2009. Family obituary also contains identified portrait lead. No invented release date.",
+      "sources": [
+        "https://www.fukuimortuary.com/obituaries/robert-kitajima"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "a9fb1209-af42-4514-be17-db769acdfd86",
+          "updates": {
+            "birthdate": "1931-06-02 00:00:00"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Helen Winter",
+      "status": "supported_update",
+      "evidence": "ContemporaryJanuary26,1954 APstory directly identifies presidingJudgeFrankA.Picard. March1and22 NationalGuardian explicitly she remainedfreeon originalbond, so no prisonadmission/release inferred. Clean imposed sentence only.",
+      "sources": [
+        "https://princealbertlibrary.ca/padh/1954/January/Jan%2026%2C1954.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-03-22-6-22-nat-guardian.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "dacb82f6-0d82-416f-aa3b-33c016163716",
+          "updates": {
+            "judge": "Frank A. Picard",
+            "sentence": "Four years imprisonment and $10,000 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Kokichi Nakamura",
+      "status": "supported_update",
+      "evidence": "AlbuquerqueMuseum confinementroster p57 explicitly DOB2/10/1887; matches WailukuMaui name, SawaNakamurafamily, SantaFe. JCCH confirms1887 but daymissing. Roster June30,1945 is censusobservation, NOT release. JCCH groupimage identifies him row5fourth, portraitcrop lead only.",
+      "sources": [
+        "https://www.cabq.gov/artsculture/albuquerque-museum/documents/prisoner-rosters-for-confinement-sites-in-nm.pdf",
+        "https://incarceration.jcchawaii.org/internees/nakamura-kokichi"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "f684cb61-4b4a-4b27-9bac-bc83bc7ae9af",
+          "updates": {
+            "birthdate": "1887-02-10 00:00:00"
+          },
+          "precision_merge": {
+            "birthdate": "day"
+          }
+        }
+      ]
+    }
+  ],
+  "review_complete": true,
+  "reviewed_count": 33,
+  "supported_profiles": 10,
+  "final": true,
+  "scope": "All33 individually compared and fresh targeted searches reviewed. Bounded review; unresolved archives not declared exhausted. No live writes, commits, new bios, notes or affiliations."
+}

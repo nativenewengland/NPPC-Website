@@ -1,0 +1,428 @@
+{
+  "profiles": [
+    {
+      "name": "Charles D. Caines",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Richmond contemporaneous news identifies the five-day imposed term, but no physical discharge record or identified portrait located. Do not calculate June29 release from sentence. Existing actual-days override not independently expanded.",
+      "sources": [
+        "https://www.12onyourside.com/2024/06/25/9-sentenced-jail-after-protesting-i-95/?outputType=amp"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Abraham B. Wimborne",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original Walker book roster individually identifies Abraham, age22, buss-boy bornEngland. No sentence belongs in an untried dismissed case. Tracy acquittal is not Wimborne own acquittal or precise discharge; no new date invented.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Brendan Munro Thompson",
+      "status": "verified_fix_ready",
+      "evidence": "Original DOJ criminal complaint identifies actual Section111(b) charge and AUSA Jonah Ross. Donna Ryu signed complaint, not necessarily trialjudge; label role explicitly. No original identified portrait located and no new custody endpoint needed; existing dates are already exact.",
+      "sources": [
+        "https://www.justice.gov/usao-ndca/media/1416886/dl?inline="
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "fc834c68-7fc9-44a9-8ac9-1449c26a94bc",
+          "updates": {
+            "charges": "Assault on a federal officer with a deadly or dangerous weapon (18 U.S.C. § 111(b))",
+            "prosecutor": "Jonah Ross",
+            "judge": "Donna Ryu (criminal complaint)"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Masako Fujimura",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "JCCH individual archival record confirms existing1915birthyear, April1942 arrest and September1943parole. October1944 is end of parole rather than incarceration. No criminal charge or individually identified portrait established; legitimate administrative blanks retained.",
+      "sources": [
+        "https://incarceration.jcchawaii.org/internees/fujimura-masako"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pamela McBride",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "SOA chronology and exact-name searches reviewed. No identified original portrait located; employment/criminal-record namesakes excluded. Existing long arrest-to-release interval should not be called continuous time served without admission/bail evidence.",
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Marion Steele",
+      "status": "verified_fix_ready",
+      "evidence": "Original March19,1960 King letter and Stanford historical edition individually identify Henry among the February20 arrested eleven, and trialjudge John Rudd. Duke civil-rights veteran history documents actual49days for named Tallahassee Eight. Add actualtime only; no calculated release date.",
+      "sources": [
+        "https://kinginstitute.stanford.edu/king-papers/documents/c-kenzie-steele-0",
+        "https://crmvet.lib.duke.edu/tim/timhis60.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "fb365798-f215-4fb4-90d8-5c650c6fa141",
+          "updates": {
+            "arrest_date": "1960-02-20",
+            "judge": "John Rudd",
+            "imprisoned_for_days": 49,
+            "documented_imprisoned_for_days": 49
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Manuel Reyes",
+      "status": "verified_fix_ready",
+      "evidence": "Original People v Zammora appellate opinion explicitly states Reyes arrested August9,1942 and booked in jail for Selective Service Act, rebooked suspicion murder August10 and arraignedAugust13. Existing August2 is incident date, not his arrest. Same opinion individually confirms missing two assault counts and all defendants not-guilty pleas. Direct booking proves custody start; no sentence-derived admission.",
+      "sources": [
+        "https://caselaw.findlaw.com/court/ca-court-of-appeal/1792239.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c2f81c65-fe50-4aaa-8497-59fab00332c6",
+          "updates": {
+            "arrest_date": "1942-08-09",
+            "incarceration_date": "1942-08-09",
+            "charges": "Murder; two counts of assault with a deadly weapon with intent to commit murder",
+            "plead": "Not guilty"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adolph Wagner",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual WWI CO and Leavenworth searches found namesakes but no reliable additional arrest day or original portrait. Draft reporting and prison admission are distinct; existingJune15,1918admission not duplicated into arrest.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Cynthia Brinkman",
+      "status": "verified_fix_ready",
+      "evidence": "Original SOA Watch January 2004 press statement identifies November 23, 2003 crossing/arrest. Original prisoner solidarity list gives out 10/04, supporting October month only, not existing October1 exactday. SSND newsletter confirms actual six months served. No admission inferred from sentencing. Original newsletter page6 identified portrait offered to parent for inspection.",
+      "sources": [
+        "https://www.scoop.co.nz/stories/WO0401/S00122/americans-on-trial-for-protesting-terror-training.htm",
+        "https://www.geocities.ws/dublincatholicworker/prisoners.html",
+        "https://form.ssndcp.org/file/newsletter/2024-vol-1.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7156e7ac-7794-4fcb-8c8b-583c4838192c",
+          "updates": {
+            "arrest_date": "2003-11-23",
+            "sentence": "Six months"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "release_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Steven Elliott",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual and Stephen/Steven name variants with Allenwood and JudgeRegan searched. No securely matched original admission/discharge or portrait found beyond CCCO custody listings. Do not equate July18sentence with custody start.",
+      "sources": [
+        "https://freedomarchives.org/Documents/Finder/DOC40_scans/40.Movement.January.1968.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Clyde Bellecourt",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "FBI microfilm guide identifies April1973 arraignment and later release onbond, but its file date ranges are not event dates. 1962ordinary-offense custody and1985drugconviction must not be merged into WoundedKnee case. No exact boundary proved from original underlying pages.",
+      "sources": [
+        "https://static.lib.ou.edu/microformguides/LexisNexis_843.pdf",
+        "https://vault.fbi.gov/russell-means%201/Russell%20Means%20Part%2007/at_download/file"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Loren Roberts",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary November14,1919OregonDailyJournal confirms arrested/in jail, and1922Liberatordescribescontinuedconfinement. November13surrender claim remains insufficiently sourced for exact start; existing November11arrest conflicts with later surrender claim. No guessed custody start.",
+      "sources": [
+        "https://oregonnews.uoregon.edu/lccn/sn85042444/1919-11-14/ed-1/seq-1.pdf",
+        "https://www.marxists.info/history/usa/culture/pubs/liberator/1922/07/v5n07-w52-jul-1922-liberator.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Luther Mincy",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1935pamphlet andNewMilitant individually identify Sacramento case and dismissal. Dismissal itself does not prove actual jailrelease on thatday. ExistingWinters1932 andSacramento1934 proceedings kept separate; no endpoint refinement established.",
+      "sources": [
+        "https://dai.mun.ca/PDFs/radical/UnionSmashinginSacramento.pdf",
+        "https://www.themilitant.com/1935/0111/NM0111.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Emil W. Krieger",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact name and FortRiley CO searches did not locate original admission/release or identified portrait. German sculptor and Danish navalofficer namesakes excluded. CornellBriehlfamily papers mention an EmilKrieger but insufficient identity to attach vitaldates.",
+      "sources": [
+        "https://rmc.library.cornell.edu/EAD/pdf_guides/RMM03474.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lloyd Mims",
+      "status": "verified_fix_ready",
+      "evidence": "Original Black Panther December20,1969 pp10-11 individually places Lloyd among December8 captured headquarters defenders and explicitly still held at Los Angeles County Jail. This establishes actual custody, not just an arrest or sentence; no endpoint is established. Avoid unrelated Lloyd Mims convicted for James Carr murder without separate identity proof.",
+      "sources": [
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-12-20-black-panther-vol-4-no-3.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "660e531f-2469-4f16-90b8-4a4ae76a9681",
+          "updates": {
+            "incarceration_date": "1969-12-08"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Joseph DeLaine",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original1955Militant identifies surrenderNov25,1955 toNYfelonycourt, while anotherhistoricaltimeline saysDec2federal surrender; potentially separateevents. WarrantOctober11isnotarrest. No verified jailbooking/release established and exile profile should not acquire incarceration by assumption.",
+      "sources": [
+        "https://www.marxists.org/history/etol/newspape/themilitant/1955/v19n49-dec-05-1955-mil.pdf",
+        "https://storiesofstruggle.com/timeline-briggs-v-elliott-1946-1971",
+        "https://www.govinfo.gov/link/crec/149/H/11484"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Craemen Gethers",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Municipal reparations research andJohnsHopkins original1976defenseposter confirmidentity and8-12yearsentence, but no actualcustodialendpoint or identifiedportrait established. No term-based release calculation.",
+      "sources": [
+        "https://amherstma.gov/Archive/ViewFile/Item/14179",
+        "https://aspace.library.jhu.edu/repositories/3/archival_objects/323334"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Felice Cohen-Joppa",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "NuclearResister/SOAcontext and contemporaneousauthorreporting reviewed. Existing1998probationcase has no jailterm toinvent;2000overnightcase alreadyexact. Other activists imprisonments reported by Cohen-Joppa are not her own custody.",
+      "sources": [
+        "https://www.peacemagazine.org/archive/v20n1p09.htm",
+        "https://www.episcopalarchives.org/e-archives/the_witness/pdf/1995_Watermarked/Witness_19950101.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Louie DeBenedette",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "SOAoriginalchronology individually associates November1994action and April1996trial with4monthsentence. His firsthandVVAWarticle confirms separate1990WhiteHousejailtime but gives no dates; do not merge intoSOAcase. No new preciseadmission.",
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php",
+        "https://www.vvaw.org/veteran/article/?hilite=&id=713"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Maksim Chineyko",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual exact-name/deportee and Zimmer searches attempted; no fresh accessible individual source adding charge/term or identifiedportrait. Immigration deportation is not a criminalsentence. Existingbiography not used to manufacture newdates.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "S. B. Hicok",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "NARAoriginalindex confirms Leavenworth historicalnumber14811, not a modern BOP register number. OneBigUnionMarch1920roster raises possible3.5versus4.5yearsentenceconflict needing fullrowinspection; no blindchange. No actualarrestday or portrait established.",
+      "sources": [
+        "https://www.archives.gov/kansas-city/finding-aids/leavenworth-penitentiary/inmates-h.html",
+        "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v02n03-mar-1920_One%20Big%20Union.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Roger Aarons",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalRichman1961districtopinion andAarons1962appealconfirmexistingrestricted-zone prosecution andsuspendedafter90daysterm. Neither providesactualcompletiondates; convictionaffirmance notdischarge. No originalportraitidentified.",
+      "sources": [
+        "https://www.leagle.com/decision/19611079190fsupp8891898",
+        "https://app.midpage.ai/document/united-states-v-roger-aarons-258827"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Steve Meanovich",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalLaborDefenderJanuary1928andDailyWorkerNovember1928confirmMenardincarceration andDec22birthday, but notbirthyear or discharge. Anticipated entry inJanuary1928publication cannot improveexistingDecember1927monthadmission. SupremeCourtcase variantMeanavich identified.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/labordefender/1928/v03n01-jan-1928-LD.pdf",
+        "https://marxists.incn.su/history/usa/pubs/dailyworker/1928/1928-ny/v05-n279-NY-nov-24-1928-DW-LOC.pdf",
+        "https://law.counselstack.com/opinion/the-people-v-corbishly-ill-1927"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Noboru Kurasaki",
+      "status": "verified_fix_ready",
+      "evidence": "Heart Mountain individual biography confirms three-year imposed sentence but no actual three-year time served. Original WRA case file forecasts conditional release, not proof discharge. Clear unsupported36month actual override. All existing vital dates already match archive; no endpoint invented.",
+      "sources": [
+        "https://www.heartmountain.org/kurasaki-george-noboru/",
+        "https://www.heartmountain.org/wp-content/uploads/2024/03/KurasakiGeorgeNoboru_Evacuee_C.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "d84a9141-f846-4295-891c-949a409d48f2",
+          "updates": {
+            "imprisoned_for_months": null,
+            "sentence": "Three years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Michael Clark",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual DeMauMau searches did not produce securelyidentified originalportrait. Common-name murderdefendants cannot be conflated without identitydocumentation. Existingexactcustodydates left unchanged.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Homer B. Stewart",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary Workers Dreadnought July21,1923 explicitly identifies Homer Stewart/Driscoll/Wukovich criminal-syndicalism trial before Judge Busick, beginning June18. October1924 Daily Worker independently confirms same conviction. Correct generic Espionage/Sedition charge to actual California statute and add trialjudge; no new arrest day proved.",
+      "sources": [
+        "https://files.libcom.org/files/2025-05/WD%20-%20Vol%2010%20No%2018%20-%2021%20July%201923.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1924/v02a-n166-oct-02-1924-DW-LOC.pdf",
+        "https://depts.washington.edu/iww/yearbook1923.shtml"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "f73c4adb-1d43-4ad1-9ffc-b3b2e8b10625",
+          "updates": {
+            "charges": "Criminal syndicalism",
+            "judge": "Charles Busick"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Charlotte Stern",
+      "status": "verified_fix_ready",
+      "evidence": "NYU custodian finding aid based on her oral history explicitly states actual imprisonment June-August1950, contrary to stored Septembermonth endpoint. Refine endpoint to Augustmonth, without guessingday. Surrender is not a prior arrest.",
+      "sources": [
+        "https://findingaids.library.nyu.edu/tamwag/tam_070/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "bd49310e-1051-4023-86b2-eb5633277608",
+          "updates": {
+            "release_date": "1950-08-01"
+          },
+          "precision_merge": {
+            "release_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Maxwell Kotick",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual exact-name and Zimmer searches attempted; no freshaccessibleportrait or criminalcharge. Existingdeportationandadministrativecustody should not be given criminalsentence merelybecauseblank.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sylvia Kleiman",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalAugust4,1926FederatedPressreportindividuallyconfirmsJuly25arrestand25dollarfine. No jailbooking or prolongedcustody demonstrated. Modernnamesakesbirth1920/1926excluded; no newincarcerationdate.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-ny/v03-n173-NY-aug-04-1926-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Alexander Weiss",
+      "status": "verified_fix_ready",
+      "evidence": "CRDL identifies Freedom Rider as same Vienna-born1936 person. Chronicle obituary individually connects Freedom Rides and Angel Island career and explicitly deathOctober17,2014. Add missingdeath, but do not infer jailterm from generic Freedom Riders pattern.",
+      "sources": [
+        "https://crdl.usg.edu/people/weiss_alexander_1936",
+        "https://www.sfgate.com/bayarea/article/Alexander-Weiss-ranger-who-preserved-Angel-5845740.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "11b1fa8a-3b58-4417-bf68-df8f6de9610d",
+          "updates": {
+            "death_date": "2014-10-17"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "José Luis Rodríguez",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Original803F2d318opinion confirmsJune29,1983arrestand suspendedsentence/fiveyearprobation. It gives no physicalpretrialcustodyendpoint; appellategovernmentcounsel not silentlyaddedastrialprosecutor. Actualincarcerationcannotbeinferredfromarrestalone.",
+      "sources": [
+        "https://uniset.ca/other/cs5/803F2d318.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Tubal Padilla Galeano",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalconsolidatedSuedJimenezopinion individuallyidentifiesdefendantandconviction, but not individualjailtermorphysicalcustodyboundaries. Appealdate not release. No identifiersecureportraitlocated.",
+      "sources": [
+        "https://app.midpage.ai/opinion/775955/united-states-v-jalil-gazir-sued-jimenez-united-states-of-america-v-elga"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anton Kotiak",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name andoriginalZimmerdatabase searches attempted; no fresh accessibleindividualportrait or criminalcharge. FirstPalmerRaidsmonth vsstoredNov25arrest warrantsoriginalINSfilechecking; no unsupportedreplacement. DeportationvoyagearrivalnotautomaticallyUSjailrelease.",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 9,
+    "live_mutations_by_agent": 0,
+    "complete": true
+  }
+}
