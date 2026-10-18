@@ -2,10 +2,10 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-2 profiles updated live through batch1066;1 bounded review without additions;97 pending. Next unused batch1067. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+2 profiles updated live through batch1066;2 bounded reviews without additions;96 pending. Next unused batch1067. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
-- John Berry — pending
+- John Berry — bounded_review_no_addition
 - Bob Atchison — pending
 - Santiago O'Leary — pending
 - Elbert H. Hostetler — pending
@@ -120,3 +120,15 @@ Art Laffin: Existing multiplecases distinguish1982splitcustody,1989overnightand1
 Tommye Williams: ExistingDec8,1969 arrest andDecembermonthincarceration; primaryDec13medicalreport says wounded heldinjailward. Following userWaynePharrquestion, require specific admission evidence before equating arrest with incarceration.
 
 John Katkus: Bio recordsMay28,1918 Pittsburgh10day sentence but structuredsentenceddateNULL. NeedoriginalNCLB1919row beforefill; do not calculateincarceration/release fromsentence alone.
+
+## Further source research
+
+John Berry: Bounded review: blacklist exile is distinct from imprisonment. Photo and full vital dates already present. No verified missing month/day exile endpoints found; no arrest, incarceration or release invented for a record stating no criminal prosecution. Existing date disagreements not overwritten. https://www.independent.co.uk/arts-entertainment/obituary-john-berry-1131008.html
+
+Clark H. Getts: Further primary research: CongressionalRecord1919p2779 recounts two2week solitary terms and psychiatric confinement, not actual totalcustody or release. Jan6,1919WarDepartmentletter says no longer in mental ward, not releasedfromprison. WisconsinAlumniMagazinev20 documents transferCampGranttoLeavenworth without exactday. SwarthmoreDG011lettersNov14/15,1918 available for followup. Wyoming1893bornpublicist identity notyetestablished. https://www.congress.gov/65/crecb/1919/02/05/GPO-CRECB-1919-pt3-v57-10.pdf ; https://cosandgreatwar.swarthmore.edu/collections/show/45 ; https://asset.library.wisc.edu/1711.dl/GM66RRKSQN7ZD8E/E/file-59b53.pdf?dl=
+
+Bob Holstein: SSDI mirrorRobertMHolsteinNov3,1941-Jan5,2003 matches existing death and obituaryage61. NeedstrongerDOBidentitysource beforeexactbirthday. LATobituary confirms two months prison but no admissionday; previouslyBOPverifiedJuly29,1996release alreadycase. VisionofHope2020annualreport index identifies portrait with Loretta, but file404; no wrongnamesakeportraitused. https://www.ancientfaces.com/directory/name/robert-holstein ; https://www.latimes.com/archives/la-xpm-2003-jan-07-me-passings7.2-story.html ; https://visionofhope.org/wp-content/uploads/2020/10/VOH-AnnuralReport-2020-web.pdf
+
+Hannah Margaret Van De Water Davis: Court docket supportsJune2026releaseconditions andscheduledJuly1arraignment beforeDavidSchultz. Scheduledhearingnotproofactualhearing orcustody admission. Clearinghouse429preventsfulldocketread thispass; no release assigned from conditionsorder. https://clearinghouse.net/case/48394/
+
+Joseph J. Gordon: Existingfirstcustody1918-1919record; bio also claimsApril1921-May22,1922secondspan. Needoriginaladmission/releaseregister beforeaddingsecondperiod; no continuous1918-1922span. NamedNARA13122mugshotlead and1919bailreport do not independentlyconfirm1922physicalrelease. https://weneverforget.org/hellraisers-journal-bail-needed-for-fellow-workers-at-leavenworth-invincible-iww-by-floyd-dell-for-the-liberator/
