@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Ghassan Elashi",
+      "slug": "ghassan-elashi",
+      "expected": {
+        "id": "66dc0e85-955f-4ec5-89bd-64453fe2d4de",
+        "prisoner_id": "987cafa1-ddae-4a86-b014-f798d963e248",
+        "institution_id": "407ef5c5-50a0-4905-b07b-b390e9698c04",
+        "charges": "Material support Conspiracy",
+        "arrest_date": "2004-07-27 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": "2009-05-27 00:00:00",
+        "incarceration_date": "2009-05-26 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "65 years in federal prison",
+        "imprisoned_for_days": 6354,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-18 00:00:20",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "convicted": "Yes",
+        "judge": "Jorge A. Solis"
+      },
+      "source": "https://www.justice.gov/archives/opa/pr/federal-judge-hands-downs-sentences-holy-land-foundation-case",
+      "research_note": "Original DOJ May27,2009 sentencing announcement confirms federaljury convictionNovember2008, 65-year sentence and sentencingjudge JorgeASolis. Correct false No conviction flag and fill missing judge. Preserve custody date pending reconstruction of overlapping Infocom imprisonment: October13,2006DOJ announcement ordered January16,2007 surrender, not proof of actual arrival; May2009DOJ says already serving80months. No actualadmission guessed from scheduledsurrender or verdictorder. No biography or case notes edited."
+    }
+  ]
+}
