@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Edward Howell",
+      "expected": {
+        "id": "e5722b03-199d-407d-b68d-3ae7a251a538",
+        "prisoner_id": "9b402609-2432-42cc-aead-c1da0e2744ef",
+        "institution_id": null,
+        "charges": "Immigration detention; unlawful-entry and conspiracy proceedings",
+        "arrest_date": "1982-02-06 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1982-02-06 00:00:00",
+        "release_date": "1982-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Held beginning February 6, 1982. Subsequently returned to Canada during 1982. Exact physical release day and final US criminal disposition remain unresolved; Canadian detention is excluded.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-11 22:22:04",
+        "updated_at": "2026-09-11 22:22:04",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1982-02-22",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "research_note": "User explicitly instructed February22,1982 as release_date after being informed contemporary report states planned return on that day, not independently verified actual handover. Recorded as user-directed date; no public case notes added.",
+      "source": "https://www.minicounsel.ca/olrb/1983/m12"
+    }
+  ]
+}
