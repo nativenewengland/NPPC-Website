@@ -1,0 +1,356 @@
+{
+  "profiles": [
+    {
+      "name": "John Peltzer",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact-name1931Galveston seaman/deportation searches found no independently identified custody interval or portrait; do not convert administrative proceedings into criminal charges.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Timofey Furs",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Furs/Buford identity and exact/transliteration searches. DepartureDecember21,1919 versus January19,1920 arrival/removal endpoint distinction needs source; no criminal sentence expected for administrative deportation. No fresh individual source found.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Christopher Lay",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalOklahomaappeal in SupremeCourt appendix says both apprehendedMay24,2004 and takenhospital. StoredMay23incarceration predatescrime/arrest; correct actualcustodydayMay24. Originalappeal confirms lifeWITHOUTparole. StoredAugust26,2025release lacks newverification and is flagged, not assumedinvalid solelyfromlife term.",
+      "sources": [
+        "https://www.supremecourt.gov/DocketPDF/17/17-7685/34149/20180202103018887_Appx%20FINAL.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "07386466-6ba2-4ad5-a607-8dd637ccd763",
+          "updates": {
+            "incarceration_date": "2004-05-24",
+            "sentence": "Life without parole"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elige Green",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact EligeGreen draft/CCCO searches located possibleGary1943-2018obituary but no linkage to1968federalprisoner. Do not import dates or portrait from namesake; custodylistmonths not admission/endpoints.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Bertha Gober",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "SNCCinstitutionalbiography and originalAlbanylesson corroborate existingNovember22-25,1961interval and subsequentDecemberarrest. No individual secondrelease or sentence established; no collectiveDecemberrelease copied.",
+      "sources": [
+        "https://snccdigital.org/people/bertha-gober/",
+        "https://www.crmvet.org/docs/640000_sncc_fskools_albany_lesson.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William P. Mitchell",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Exact WilliamP.Mitchell Alabama civil-contempt searches yielded no proof of actual confinement or individual sentencing. Preserve legitimateblank, do not infer detention from litigation.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Herbert Biberman",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalDecember5,1947newspaper identifies Biberman among ten separatelyindicted. Add indictment date only; this is not physical arrest or prisonadmission.",
+      "sources": [
+        "https://newspapers.swco.ttu.edu/bitstreams/62e51297-ce24-461c-af99-2dbcf1ceacd5/download"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1a4391c0-9608-4dc8-a2cd-7ecdf03c1512",
+          "updates": {
+            "indicted": "December 5, 1947"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Clara Lemlich",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "NewYorkHistoricalSociety individualbiography confirms repeated1909arrests but no individual jail admission/release. Seventeenarrests not seventeenservedterms; exactdate search yielded no safe interval.",
+      "sources": [
+        "https://wams.nyhistory.org/life-story/clara-lemlich/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Cris Pedersen",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactCris/ChrisPedersen1923Sacramento searches did not resolve biography1926 versus storedrelease1925year. Statecriminal-syndicalism versus genericEspionageActcharge contradiction flagged; no alteration without individual original record.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robert W. Rasin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "NPSFortMcHenry record independently identifies RobertW.Rasin registrationOctober26,1861 and December2,1861TRANSFERtoFortLafayette. Separate1863-1865FortDelawareepisode must not overwrite with earlierdates. OfficialRecordsFebruary21,1862releaseORDERis not physicalrelease proof. Flag distinct priorcustody, no sentenceinvented.",
+      "sources": [
+        "https://www.nps.gov/civilwar/search-prisoners-ftmchenry-detail.htm?prisonerId=6573593C-B6BE-449F-AD2D-FC2B819F54B8&prisonerLocation=F",
+        "https://www.civilwar.com/official-record/960-prisoners-of-war/261093-262-series-ii-volume-ii-serial-115-prisoners-of-war.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Wilfredo Toledo",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Wilfredo/FreddieToledo photographer identity. ExactVieques2000searches produced unrelatedeconomist/chessplayer; no verified new release, conviction or originalportrait attached.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "César Andreu Iglesias",
+      "status": "verified_fix_ready",
+      "evidence": "New scholarlyarchivalhistory explicitlydates FBIarrest of CésarAndreuandwifeOctober20,1954; earlierMarcharrestseparate. Refine SmithActcasearrest day only; trial/casecollapse not physical jailrelease.",
+      "sources": [
+        "https://www.jstor.org/stable/10.2307/jj.41379731"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "56ec4dd1-dbc1-47b5-962e-00203b867bff",
+          "updates": {
+            "arrest_date": "1954-10-20"
+          },
+          "precision_merge": {
+            "arrest_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Paul Oznik",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalJanuary29,1927DailyWorker namesOznik amongPassaic defendants but no newly identified individualportrait; gapsphotoonly. No unidentifiedgroupface attached.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1927/1927-ny/v04-n014-NY-jan-29-1927-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Le Roy (Rev.) Epperson",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactLeRoyEppersonconscientiousobjector searches did not resolve June24versusJuly15admission uncertainty. No exactdateor sentence fabricated; flag existingdayprecisionforprimaryfilecheck.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Dubrow",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalDorisStevensappendix expresslygivesMaryDubrowJanuary6,1919arrest and10dayimposedterm. Addsentence only; LibraryofCongresschronology Jan5 differs and no physicaldischarge verified.",
+      "sources": [
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8",
+        "https://depts.washington.edu/moves/images/nwp/detchron.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "300207c8-12f8-4bff-81c9-03c4f827a383",
+          "updates": {
+            "sentence": "Ten days"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "John F. Allen",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalCommonwealthvTruitt1951opinion confirms linked NewKensingtonprosecution but supplies no actual release day. Tenmonthsserved does not justifybackcalculation or appealdayasdischarge. Retain unresolvedendpoint.",
+      "sources": [
+        "https://law.justia.com/cases/pennsylvania/supreme-court/1951/369-pa-72-0.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Armistead Appleton",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "HistoricNewEngland1843-bornGeorgeArmisteadAppletoncorrespondence confirms identity but no new custodyterm or judgment. No judicialsentence expected foradministrativepoliticaldetention; existingblank legitimate.",
+      "sources": [
+        "https://www.historicnewengland.org/explore/collections-access/gusn/306451"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Floyd W. Pearson",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactFloydW.Pearson WWIconscientiousobjector searches found no independentlyidentified new court-martial or custodysource. Do not confuse modernPearsonrecords.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Karl Jones",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalNovember12,1928DailyWorker and archivalWashingtonAreaSpark photoessay confirm Jonesarrest/bailalreadyrecorded. Crowdphoto not individuallyidentifiedJones; no portraitcrop guessed.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1928/1928-ny/v05-n268-NY-nov-12-1928-DW-LOC.pdf",
+        "https://api.flickr.com/photos/washington_area_spark/26402704380/in/album-72157648088861876"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Lester Peay",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalCommonwealthvTruittappeal and namedPeayrelatedcase establish prosecution but no individualjailend. Suspendedretrialterm not additional servedcustody; tenmonthsactual retained without datesarithmetic.",
+      "sources": [
+        "https://law.justia.com/cases/pennsylvania/supreme-court/1951/369-pa-72-0.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jacques Lamaux",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactJacquesLamauxprisoner searches didnot independentlyidentify new arrestsource or portrait. Existing2.5yearsentence1919-1923interval conflictcannotresolve byarithmetic; flagneedoriginalAtlanta register.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Discoe Smith",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginaldeclassifiedCIA/NARAretrospective confirms whereaboutsunknownafter1960untilSovietannouncement1967, not U.S.arrestor prison. No custodystart inserted; legitimateblank.",
+      "sources": [
+        "https://www.archives.gov/files/research/jfk/releases/104-10210-10009.pdf",
+        "https://www.cia.gov/readingroom/document/cia-rdp75-00149r000700290005-2"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Fred Hampton",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalFBI May28memo explicitlydates sentencingMay26,1969; originalPantherJune28 printsHamptonletterdatedMay26awaitingsentence. Add exactsentencingday/two-to-five-yearterm, no automaticactualstart because alreadyconfinedbeforehearing. July10,1968incidentnot necessarilyarrest.",
+      "sources": [
+        "https://jfk.kindex.org/share/pdf/0838dccf0cad2e442c5b0937738de5b1",
+        "https://washingtonareaspark.com/wp-content/uploads/2020/06/1969-06-28-black-panther-vol-3-no-10.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "19f8b4f6-c828-4b9a-bf28-087c59ce2eea",
+          "updates": {
+            "sentenced_date": "1969-05-26",
+            "sentence": "Two to five years"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pedro Antonio Rios",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalNationalGuardianMay1954/February1955reports identifyRios and convictionApril2,1954/stayeddeathsentence. They describe initialcoercivequestioning but no individualarrestdate, hospitaltransferdischargeor laterrelease. ExcludedVenezuelancomposerPedroRiosReyna.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1954-05-10-6-29-nat-guardian.pdf",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1955-02-21-7-18-nat-guardian.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rufino Macuha",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed Philippinesmilitaryregisteridentity; onlymissingphoto. No individuallyidentifiedRufinoMacuhaportraitlocated. Administrativeinsurgentdetention doesnotjustifycriminalsentence.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Timothy Murphy",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ContemporaryAtlantaJanuary20report confirmsMurphyarrestaftertreeoccupation, but no individuallyverifieddischarge. ReferencesotheractivistWilliamsreleasedafterthreehoursmustnotbecopiedtoMurphy.",
+      "sources": [
+        "https://roughdraftatlanta.com/2023/01/20/protester-dead-state-trooper-shot-at-atlanta-training-center-site/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Richard Johnstone",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "WashingtonPost1982interview corroboratesSwedendesertion/general1977discharge, not jailrelease. No arrest/custodyreported, noimprisonmentcounterinvented.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/politics/1982/12/26/us-war-resisters-rootless-in-sweden/0d897ca9-7a76-4742-a241-182a20b70de6/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dewey Martin",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalLaborDefenderApril1930verifiessevenmonthimposedchaingangterm; April1DailyWorkernewspapercoverage doesnotindependentlydateactualprisonentryorrelease. Separate1929detentionnotmergedwith1930term.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/labordefender/1930/v05n04-apr-1930-LD.pdf",
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1930/v06-n333-NY-apr-01-1930-DW-LOC.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Fred Kirkwood",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "OriginalUnionSmashinginSacramentopamphletnamesKirkwoodand1935trial; individualacquittalnot physicalrelease. No exactprisonadmission/dischargefound, no sentenceforacquitteddefendant.",
+      "sources": [
+        "https://dai.mun.ca/PDFs/radical/UnionSmashinginSacramento.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Michael X. Mockus",
+      "status": "verified_fix_ready",
+      "evidence": "OriginalMaineSupremeCourt opinion dateslecturesSeptember6,8,10,1919 andOctober1919indictment. Addindictmentmonthonly; Connecticut1916ten-dayterm isseparateprosecution, andMexicoavoidance meansactualprisonserviceunproved.",
+      "sources": [
+        "https://lldc.mainelegislature.org/Open/SJC/Maine%20Reports/120ME.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Constitutional_free_speech_defined_and_defended_in_an_unfinished_argument_in_a_case_of_blasphemy_%28IA_cu31924029332859%29.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1478f7a1-05aa-4fe0-8808-865d3e1ce513",
+          "updates": {
+            "indicted": "October 1919"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Yuri Kochiyama",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Familychronology confirmsOctober25,1977arrest alreadyrecorded. Secondaryscholarlyaccount citedFujinostatesreleasednextday, promisingOctober26endpointleadbutprimary/sourcepagesnotyetretrieved; no addedcustodydateuntilchecked.",
+      "sources": [
+        "https://www.yurikochiyama.com/timeline"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rodolfo Serrano",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactRodolfoSerranoVieques searcheslocatedSpanishwriter/francoprisonbooknamesake, notidentifiedViequesactivist. No datesorportraittransplanted;2001testimonyyearnotcustodystart.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "George Kopp",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "ExactStMariesKoppsearchlocated1921IdaholaborinjunctionlistingandKohnstatecriminalsyndicalismcontext, but no identifiedindividualcustodyendpoint/portrait. GenericEspionageActlabelmaymisstate stateoffense; requireoriginalindividualjudgmentbeforecorrection.",
+      "sources": [
+        "https://syfert.com/idaho/cases/204-p-671/robinson-v-st-maries-lumber-co"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 6,
+    "complete": true,
+    "live_mutations_by_agent": 0
+  }
+}

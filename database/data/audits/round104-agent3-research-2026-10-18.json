@@ -1,0 +1,399 @@
+{
+  "round": 104,
+  "profiles": [
+    {
+      "name": "Buron Lewis Teale",
+      "status": "reviewed_unresolved",
+      "evidence": "CRDL authority labels the name Buren Lewis Teale while CORE rosters use Buron. June 20, 1961 arrest is already recorded. No independently verified admission or release endpoint found; do not change the name on this conflict.",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-4-83-1-1-1",
+        "https://www.crmvet.org/riders/frnames.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Isidore Begun",
+      "status": "supported_correction",
+      "evidence": "Original FBIreport confirms existing August14,1951 actualbailrelease. No sentence imposed; clear copiedresearchnarrative. OriginalFBI docketdigest says acquittalSeptember23,1952, conflicting currentSeptember30; flag notsilentlychange.",
+      "sources": [
+        "https://vault.fbi.gov/Claudia%20Jones%20/Claudia%20Jones%20Part%2008/at_download/file"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "23a188fe-e5cd-4d3e-a76f-7b10e0bea76d",
+          "updates": {
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Luther Donnell",
+      "status": "supported_correction",
+      "evidence": "IndianaHistoricalBureau annotated originalcourttranscription gives exactindictment,plea,verdict,judges,prosecutors and $50criminalfine. $3000separateciviljudgment notprisonsentence. Current1847incarceration unsupported by thisrecord; no releaseinferred.",
+      "sources": [
+        "https://www.in.gov/history/state-historical-markers/find-a-marker/donnell-v-state-1852/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9ea29846-eb77-44c2-8c26-8c99aca8b232",
+          "updates": {
+            "indicted": "March 23, 1848",
+            "convicted": "March 29, 1849; reversed in 1852",
+            "plead": "Not guilty",
+            "prosecutor": "John S. Scobey; Andrew Davison",
+            "judge": "George Dunn; Samuel Ellis",
+            "charges": "Aiding the escape of a fugitive slave",
+            "sentence": "$50 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Barry Bassin",
+      "status": "reviewed_unresolved",
+      "evidence": "First-person draft-resistance account confirms Bassin was imprisoned by 1965, but does not establish his individual admission or discharge dates. No endpoint inferred from group chronology.",
+      "sources": [
+        "https://www.endwarlistentoearth.com/draft-refusal.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Naoichi Seto",
+      "status": "supported_correction",
+      "evidence": "JCCH documentsadministrativecivilianinternmentwithoutjudicialsentence; clearbiographycopiedtosentence. OriginalStarBulletinconfirmsMay4,1996death.",
+      "sources": [
+        "https://archives.starbulletin.com/1996/05/14/community/obits.html",
+        "https://incarceration.jcchawaii.org/internees/seto-naoichi"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "854bffcd-986b-446f-bc8a-b3ecdc1fd9cb",
+          "updates": {
+            "death_date": "1996-05-04"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "6dda63bd-66a1-43d6-b67e-45da7e918f42",
+          "updates": {
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Benjamín Silva",
+      "status": "reviewed_unresolved",
+      "evidence": "Turner names Benjamin Silva among persecuted Mexican refugees. The chapter does not assign him individual custody dates; Prisciliano Silva is a different named defendant.",
+      "sources": [
+        "https://en.wikisource.org/wiki/Barbarous_Mexico/Chapter_15"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Hobart Crandall",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual search found a genealogical Hobart H. Crandall, but no reliable identity bridge to this conscientious objector. Camp assignment is not prison admission. Existing year-level custody preserved.",
+      "sources": [
+        "https://ancestors.familysearch.org/en/L2HM-7GC/effie-jane-bartley-1868-1956"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Anne Symens-Bucher",
+      "status": "reviewed_unresolved",
+      "evidence": "Original interview identifies the 1984 Lent action and participants but supplies no individual jail admission or discharge date. Existing April 1982 and 1984 episodes remain distinct.",
+      "sources": [
+        "https://sojo.net/magazine/june-1991/tested-desert"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Frank Arthur Nelson",
+      "status": "reviewed_unresolved",
+      "evidence": "CRDL identifies the Freedom Rider and his 1938 birth year. Existing Jackson and New Orleans episodes have no newly verified endpoints. Other same-name vital records were not matched.",
+      "sources": [
+        "https://crdl.usg.edu/people/nelson_frank_arthur_1938"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ralph Padula",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary reporting confirms return to Fort Hood on April 9, 2003, while the Army was still considering charges. Return to base does not establish imprisonment; no custody case proposed.",
+      "sources": [
+        "https://www.mrt.com/news/article/Objecting-soldier-back-at-Fort-Hood-7871159.php"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Siniavski",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual spelling-variant searches produced unrelated Sinyavsky records, not an additional source for this Woodlawn deportee. No verified missing custody or vital date found.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Andres Bayaborda",
+      "status": "reviewed_unresolved",
+      "evidence": "Army register context distinguishes transfer to Manila from release. No independent individual release date or vital record found; February 10 transfer is not an endpoint.",
+      "sources": [
+        "https://www.batangashistory.date/2024/09/american-held-prisoners-of-war-in.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Angel Luis Arzola Velez",
+      "status": "reviewed_unresolved",
+      "evidence": "Archival exhibit identifies Arzola Velez and a four-year sentence from the second May 1955 trial, but no precise admission or actual release. No date inferred from the sentence.",
+      "sources": [
+        "https://www.flickr.com/photos/washington_area_spark/46339321454"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pierce C. Wetter",
+      "status": "supported_correction",
+      "evidence": "Originalgovernmentreport explicitlynamesPierceCWetter,August30,1918sentencefiveyears. Preservefinealreadyrecordedbio; clearunrelatedcollectivebailnarrative. May14,1922termexpirationprospective, notverifiedactualrelease; noendpointchange.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/SERIALSET-07987_00_00-063-0159-0000/pdf/SERIALSET-07987_00_00-063-0159-0000.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7904d1ba-2ad6-4f1e-b7aa-a1c79f2a1077",
+          "updates": {
+            "sentenced_date": "1918-08-30",
+            "charges": "Sedition conspiracy",
+            "sentence": "Five years; $20,000 fine"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Samuel Tilles",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual name searches produced an unrelated Krakow lawyer and modern military records. No reliable identity match or additional custody dates for the conscientious objector.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Vernon Joseph Rossman",
+      "status": "reviewed_unresolved",
+      "evidence": "No fresh source establishes missing prison admission or death date. Existing February 26, 1986 BOP release is preserved. Publication and memorial dates do not establish death.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sinforoso de Leon",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual search found no additional reliable record beyond the Army register. Existing November 27 through December 26, 1900 custody dates preserved; suspected insurgency is not a proved criminal charge.",
+      "sources": [
+        "https://www.batangashistory.date/2024/09/american-held-prisoners-of-war-in.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Laguerre Payen",
+      "status": "reviewed_unresolved",
+      "evidence": "Original July 18, 2025 appellate opinion confirms civil commitment after criminal term reduction, so the reduction is not a release date. No missing physical custody endpoint established.",
+      "sources": [
+        "https://media.ca8.uscourts.gov/opndir/25/07/241166P.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "James Marsicano",
+      "status": "reviewed_unresolved",
+      "evidence": "New civil complaint docket lists underlying dismissal orders. Existing March 5 to March 24, 2023 custody is not changed; later dismissal does not extend custody.",
+      "sources": [
+        "https://dockets.justia.com/docket/north-carolina/ncmdce/1%3A2026cv00207/104194"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Siwatu-Salama Ra",
+      "status": "supported_correction",
+      "evidence": "OriginalWayneCountyprosecutorannouncementidentifiesoffensesandJudgeKnappforretrial; originalcourtcoverageidentifiestrialJudgeThomasHathaway. ExistingcustodyMarch1-Nov14alreadyknown. Sentenceonlytwoyears,noreleasenarrative.",
+      "sources": [
+        "https://www.waynecounty.com/elected/prosecutor/news-updates-week-of-october-20-26-2019.aspx",
+        "https://www.metrotimes.com/news/siwatu-salama-ras-criminal-convictions-reversed-in-court-of-appeals-22443329/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "3708eb5a-e8d7-4586-9c32-7e3d9f7808d9",
+          "updates": {
+            "charges": "Felonious assault; felony firearm",
+            "judge": "Thomas Hathaway; Donald Knapp",
+            "sentence": "Two years"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Eric Robinson",
+      "status": "supported_correction",
+      "evidence": "OriginalSOAWJanuary28,2004releasecorroboratessixmonths+$1000; stripname/age/location/sourcefromsentence. OriginalonlyplacescollectivesentencingJan26-28,notindividualday; preserveJanuarymonthandnoendpoint.",
+      "sources": [
+        "https://www.indybay.org/newsitems/2004/01/28/16690081.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "92fbfdf1-c249-46c0-a06c-39ad04da169b",
+          "updates": {
+            "sentence": "Six months; $1,000 fine"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Tyler John Norman",
+      "status": "reviewed_unresolved",
+      "evidence": "A new June 2026 federal prosecution is distinct from the earlier Georgia RICO case. DOJ names Norman but does not verify individual physical detention or duration. Do not merge those charges into the RICO case; later RICO dismissal is a separate disposition lead.",
+      "sources": [
+        "https://www.justice.gov/usao-ndga/pr/out-state-duo-faces-federal-charges-attacking-cop-city-contractor-and-intimidating",
+        "https://www.walb.com/2025/12/31/racketeering-charges-brought-against-public-safety-training-center-protesters-dismissed/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "D. Paine",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual initial/name and Elaine case searches did not establish an individual custody endpoint. Group sentences and releases cannot be assigned to this person without identification.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Jackson Patton",
+      "status": "supported_correction",
+      "evidence": "DOJoriginalAugust26,2021sentencingreleasegives24monthsentence,36monthsupervision,$2500restitution. Mayguiltypleaiscivil disorder; no incarcerationstartorreleasefromsentence.",
+      "sources": [
+        "https://www.justice.gov/usao-ut/pr/patton-sentenced-24-months-federal-prison-role-may-2020-salt-lake-city-civil-unrest"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1759bdd2-2924-45fd-9fbc-4556ca5e43b9",
+          "updates": {
+            "sentenced_date": "2021-08-26",
+            "charges": "Civil disorder",
+            "sentence": "24 months; 36 months supervised release; $2,500 restitution"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Prudencia Masancay",
+      "status": "reviewed_unresolved",
+      "evidence": "No reliable additional individual source beyond the Army register located. Existing November 27 through December 26, 1900 detention preserved; administrative suspicion is not a named criminal charge.",
+      "sources": [
+        "https://www.batangashistory.date/2024/09/american-held-prisoners-of-war-in.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Salisbury",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary resistance roster identifies Salisbury at Fort Hood but provides no individual admission or release. Publication date cannot be used as a custody endpoint.",
+      "sources": [
+        "https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F178%2F1780845002.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ralph Ramirez",
+      "status": "reviewed_unresolved",
+      "evidence": "Historical scholarly research citing contemporary La Causa reports the Biltmore defendants were acquitted. No exact individual verdict date or custody endpoint established; unrelated later Ralph Ramirez prosecutions excluded.",
+      "sources": [
+        "https://www.umass.edu/legal/Benavides/Spring2005/397G/Readings%20397G%20Spring%202005/7Escobar.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Rebecca M. Garrison",
+      "status": "supported_correction",
+      "evidence": "WidenerLawreference librarian individualbiographicalresearch givesJanuary25,1932death, citingMissourideathcertificateandspecificJan26,1932MiamiDailyRecordHeraldobituary. MatchesJoplinbirth1892June23andaliasMinnieRGarrison; parentmayverifyoriginalcertificateimagebeforedeploy.",
+      "sources": [
+        "https://documents.alexanderstreet.com/d/1009054690"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "e310a37d-895e-4704-8d32-317300d87716",
+          "updates": {
+            "death_date": "1932-01-25"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Nikita Eskimashko",
+      "status": "reviewed_unresolved",
+      "evidence": "Individual searches yielded no new original record resolving January 1920 endpoint versus December 1919 deportation departure. Custody aboard the ship may continue after departure; neither date silently substituted.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Stephen J. Joice",
+      "status": "reviewed_unresolved",
+      "evidence": "No additional reliable individual source located for the editor. Banishment orders do not independently establish actual physical release; existing partial endpoint preserved.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Carl Voss",
+      "status": "reviewed_unresolved",
+      "evidence": "No new individual primary source resolves missing criminal-custody days. Immigration detention and criminal term remain distinct; unrelated Carl Voss vital records excluded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Gregorio Mendoza",
+      "status": "reviewed_unresolved",
+      "evidence": "Army register transfer to Manila is not a release. Individual searches returned unrelated modern namesakes; no missing endpoint or vital date verified.",
+      "sources": [
+        "https://www.batangashistory.date/2024/09/american-held-prisoners-of-war-in.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Byron Vaughn Booth",
+      "status": "reviewed_unresolved",
+      "evidence": "Contemporary report describes May 17, 2001 as expected plea proceedings, not a proved sentencing date. Existing sentencing date needs docket verification. No actual release date found and none inferred from the twelve-year agreement.",
+      "sources": [
+        "https://www.latimes.com/archives/la-xpm-2001-may-17-me-64627-story.html",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-Y4_J89_1-PURL-LPS42543/pdf/GOVPUB-Y4_J89_1-PURL-LPS42543.pdf"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "reviewed_count": 33,
+  "review_complete": true,
+  "final": true,
+  "complete": true,
+  "supported_profiles": 8,
+  "scope": "All 33 individually reviewed; proposed changes require parent source and live-row validation. No live writes performed."
+}

@@ -1,0 +1,479 @@
+{
+  "profiles": [
+    {
+      "name": "John Copeland Rogers",
+      "status": "reviewed_no_safe_update",
+      "evidence": "CRDL archival record confirms June25,1961 Freedom Ride arrest and personal photograph, not prison transfer or discharge. No group sentence copied.",
+      "sources": [
+        "https://crdl.usg.edu/people/rogers_john_copeland_1930"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "David Green",
+      "status": "reviewed_no_safe_update",
+      "evidence": "First-person Dartmouth oral history confirms Rockingham custody and already-recorded26days. No exact release located; unrelated Pennsylvania habeas case excluded.",
+      "sources": [
+        "https://ddhi-repo-stage.dartmouth.edu/transcripts/transcript-interview-david-green",
+        "https://archive.dartmouthalumnimagazine.com/article/1969/10/1/the-undergraduate-chail"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Garrett Ziegler",
+      "status": "reviewed_supported_updates",
+      "evidence": "ATF original June2,2020 announcement describes May29 actual apprehension and continued custody at June2 appearance. This supports custody start May29 independently of sentencing. 2023 order conflicts with DOJ contemporaneous record on plea month and sentencing day, so those exact conflicts held.",
+      "sources": [
+        "https://www.atf.gov/news/press-releases/two-individuals-charged-throwing-molotov-cocktails-dakota-county-government-building",
+        "https://www.casemine.com/judgement/us/64fd466af6fa7f68ca4951fe",
+        "https://www.justice.gov/usao-mn/pr/savage-man-sentenced-more-6-years-prison-arson-dakota-county-government-building"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "8622933d-f22e-45c4-b7a9-9c8badf50cb1",
+          "updates": {
+            "incarceration_date": "2020-05-29",
+            "charges": "Arson; possession of unregistered destructive devices"
+          },
+          "precision_merge": {
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "David Kaplan",
+      "status": "reviewed_no_safe_update",
+      "evidence": "1935 Bridgeport student-strike identity searched separately from philosopher and local family namesakes; no individual original date or portrait located.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Carl Larson",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Earlier original Larson letter-based intervals already separately recorded. Fresh search did not verify final1920immigration admission or continuity; unrelated Iowa larceny prisoner excluded.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Edward Gullion",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original FBI wanted record confirms arrest already recorded. Official DOJ district history explicitly names PeterMills as prosecutor of Gullion and co-defendants; no individual term inferred from collective up-to15year statement.",
+      "sources": [
+        "https://www.fbi.gov/wanted/topten/topten-history/hires_images/FBI-344-EdwardPatrickGullionJr.jpg/view",
+        "https://www.justice.gov/usao/page/file/1038771/dl"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "05d21ec4-82c5-4033-a22a-3d845c1eb94d",
+          "updates": {
+            "prosecutor": "Peter Mills"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Semaj Brown",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Akron protest identity searched; Flint poet and Michigan healthcare namesakes excluded. Individual release not established by mass-arrest pattern.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Elmer Hershberger",
+      "status": "reviewed_no_safe_update",
+      "evidence": "University of Waterloo original archive catalogue identifies court-martial115069; Goshen contemporary Leavenworth roster gives13797. No individual sentence or first custody date verified; Nebraska younger namesake excluded.",
+      "sources": [
+        "https://uwaterloo.ca/mennonite-archives-ontario/catalogs/archives/world-war-i-courts-martial-us",
+        "https://goshen.hykucommons.org/downloads/7ffe8203-e531-4bef-aa1c-da71c256c15d?locale=en"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Stew Albert",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original FBI candidacy file quotes65days total but current separately recorded1969interval64elapsed days must not overwrite earlier1965–66protest case. No new individual early admission or release.",
+      "sources": [
+        "https://judygumbo.com/fbi-files/9231-3.pdf",
+        "https://www.ojp.gov/pdffiles1/Digitization/14935NCJRS.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles F. Fadeley",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Lincoln Lore1984 discusses same named Leesburg civilian in1864hostage group, held OldCapitol thenFortDelaware untilAugust, conflicting currentAug1864–Jun1865. PDF fetch blocked and exact discharge context not fully retrieved; flag for correction, do not silently substitute group date.",
+      "sources": [
+        "https://www.friendsofthelincolncollection.org/wp-content/uploads/2018/11/LL_1984-06.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Steve Loper",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Participant memoir Tree Spiker names Rushmore climberSteveLoper; no individual actual jail endpoint or reliable portrait isolated.",
+      "sources": [
+        "https://www.thetedkarchive.com/library/mike-roselle-josh-mahan-tree-spiker-from-earth-first-to-lowbagging"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mark Anderlik",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Fresh participant interview confirms SilenceOneSilo actual Lompoc imprisonment already recorded. Does not resolve missing1981GoodFridayrelease, and separate events not merged.",
+      "sources": [
+        "https://thepulp.org/montana-nuclear-missiles-almost-midnight/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Edward Palmquist",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Original1941indictment namesPalmquist; MinnesotaHistoricalSociety group image identifies him. Current custody already starts1943; no personal release located and twelve-month nominal sentence not used as endpoint.",
+      "sources": [
+        "https://marxists.architexturez.net/history/etol/newspape/fi/vol02/no07/indictment.htm",
+        "https://www.mnhs.org/mnopedia/search/index/event/smith-act-trial"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Josephine Bell",
+      "status": "reviewed_supported_updates",
+      "evidence": "NARA original indictment and trial participant FloydDell account distinguish Bell: trial judge dismissed her after prosecution case, before hung-jury disposition of others. Current October1918sentenced_date is unsupported: she had no sentence. Clear sentencing date; no prison release inferred.",
+      "sources": [
+        "https://docsteach.org/document/us-v-masses-indictment/",
+        "https://mc.dlib.nyu.edu/files/books/lib000004/lib000004_lo.pdf",
+        "https://tile.loc.gov/storage-services/service/sgp/sgpbatches/batch_dlc_1jacksonswhole_ver01/data/2004540423/print00192513492/1918041501/0015.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b5274f42-c530-4db5-b858-839a48c928ce",
+          "updates": {
+            "sentenced_date": null,
+            "sentence": null
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Claude Frost",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary Panther prosecution and later identified reunion photo investigated. Existing ten-year probation means no imposed prison term; no actual pretrial booking endpoint found.",
+      "sources": [
+        "https://www.workers.org/2022/08/66336/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sidney Resnek",
+      "status": "reviewed_supported_updates",
+      "evidence": "Family funeral obituary conclusively identifies NewHaven communist printer with already-recordedvitals; named original portrait available. Contemporary1956Guardian identifies prosecutor WilliamC.ODonnellIII and localUSA SimonS.Cohen; no longer custody established.",
+      "sources": [
+        "https://www.wellerfuneralhome.com/obituaries/sidney-resnick",
+        "https://cdn.tukioswebsites.com/e4fbd4b4-6b5a-47c2-b4ea-8a9e1db75b22/lg",
+        "https://www.marxists.org/history/usa/pubs/national-guardian/1956-01-09-8-12-nat-guardian.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "756cd67a-f034-4810-ad0a-24f40c992e6b",
+          "updates": {
+            "prosecutor": "William C. O'Donnell III; Simon S. Cohen"
+          },
+          "precision_merge": {}
+        }
+      ],
+      "portrait_lead": {
+        "source": "https://www.wellerfuneralhome.com/obituaries/sidney-resnick",
+        "image_url": "https://cdn.tukioswebsites.com/e4fbd4b4-6b5a-47c2-b4ea-8a9e1db75b22/lg",
+        "identity": "Named family funeral portrait; parent should download and inspect before upload."
+      }
+    },
+    {
+      "name": "Hargit Singh Gill",
+      "status": "reviewed_supported_updates",
+      "evidence": "Original FBI2002–2005report expressly dates Gill probation sentencing June2005, correcting bio implication of2003conviction. Probation is not2years imprisonment; existing2003–2006interval flagged as unsupported, no guessed replacement. Modern Chico graduate namesake not attached without identity linkage.",
+      "sources": [
+        "https://www.fbi.gov/file-repository/stats-services-publications-terrorism-2002-2005-terror02_05.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "359841e2-ae4f-4a40-97c1-c3d2fc77019d",
+          "updates": {
+            "sentenced_date": "2005-06-01"
+          },
+          "precision_merge": {
+            "sentenced_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frank Elliott",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalIWW1922Leavenworthletter establishes Sacramento prisoner. Existing exactDOB1880-02-11/DODJuly1970 match British filmactorFrankElliott, not established as prisoner; likely conflated portrait/vitals. Hold newdata; parent should inspect and clear actor-derived fields. Neither actor nor1917born Seattle namesake accepted.",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/openletterpresident.pdf",
+        "https://www.marxists.org/history/usa/pubs/one-big-union-monthly/v01n09-nov-1919_One%20Big%20Union.pdf",
+        "https://fr.wikipedia.org/wiki/Frank_Elliott"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Loretta Stack",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalStackbail decisions establish JudgeWilliamC.Mathes and WalterS.Binnsgovernmentcounsel. Duplicatecase rows conflict arrestJul25/26. June16,1957release predates YatesJune17decision and requires individual verification; bailorderDec7,1951isnotactualrelease. Addjudgeonly, do not invent endpoint.",
+      "sources": [
+        "https://law.justia.com/cases/federal/appellate-courts/F2/193/875/349375/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/192/56/211059/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "e761132f-ce3f-4b7b-92ca-f0e2b4899481",
+          "updates": {
+            "judge": "William C. Mathes"
+          },
+          "precision_merge": {}
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "55d8c007-936c-4ba3-8e97-c6dce3cf7f1a",
+          "updates": {
+            "judge": "William C. Mathes"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Bill Hartman",
+      "status": "reviewed_supported_updates",
+      "evidence": "ParticipantArtLaffin first-person account confirms individualHartman action/arrest and namedcriminalcharges. ExistingNovember1982sentencingrow lacks charges despite sameprosecution; fill namedcharges only. No actual lateradmission derived from sentencing.",
+      "sources": [
+        "https://paxchristiusa.org/2022/07/04/the-nuclear-threat-remains-the-resistance-continues/",
+        "https://www.cpfphila.com/ARTICLES/2023%20MAY/2023-05-Paschal-CPF-Newsletter.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "0e5786d9-5890-4130-bea2-201ab61e3092",
+          "updates": {
+            "charges": "Criminal mischief; conspiracy; criminal trespass"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Nowain",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Contemporary eyewitnessShastaScout report names PenalCode403; second eyewitness reports same-dayreturnafterbail already reflected inrecord. No longercustody established.",
+      "sources": [
+        "https://shastascout.org/activist-benjamin-nowain-arrested-at-shasta-county-board-meeting/",
+        "https://www.shastaunfiltered.com/post/another-arrest-mars-the-shasta-county-board-of-supervisors-meeting-1-6-26-detailed-report"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Percy H. Peters",
+      "status": "reviewed_no_safe_update",
+      "evidence": "PercyHPeters WWIconscientiousobjector searched separately; no reliable new personal dates/portrait. ModernUKdirectory namesakes rejected.",
+      "sources": [],
+      "proposed_updates": []
+    },
+    {
+      "name": "Henry Leonhardt",
+      "status": "reviewed_no_safe_update",
+      "evidence": "Localhistory quotes churchhistorian about HenryLeonhardtCampWheelerabuse but not actual militaryprisonadmission/discharge; no namesake familyvitalsemployed.",
+      "sources": [
+        "https://www.fairburynews.net/post/a-look-at-wwi-local-history"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Devonte Clark",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalHarriscomplaint confirms already-recorded July4–5custody and dismissal; no identifiedoriginalportrait found, spellingDevante preserved assourcealias ratherthan assumednewperson.",
+      "sources": [
+        "https://signalakron.org/wp-content/uploads/2024/02/2023-06-29-Harris-lawsuit-complaint.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Riley Freeman",
+      "status": "reviewed_supported_updates",
+      "evidence": "DOJoriginalJuly7/8release confirms existingarrest/conditionalrelease and namedcharges. OriginalJuly7Bradyorder identifies StacieF.Beckerman as magistrate; no conviction implied.",
+      "sources": [
+        "https://www.justice.gov/usao-or/pr/four-defendants-charged-assaulting-federal-law-enforcement-officers-other-offenses",
+        "https://www.flashalert.net/images/news/2025-07/6325/182252/COMPLAINT-July_4_Final.pdf",
+        "https://app.midpage.ai/document/united-states-v-freeman-1000444961142"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "21c11abe-7f20-49c2-a274-3141bc881821",
+          "updates": {
+            "judge": "Stacie F. Beckerman"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Fairbanks",
+      "status": "reviewed_supported_updates",
+      "evidence": "CongressionalRecord historicaldocument confirms Fairbanks guilty plea, June1799trial and six-hour/five-dollar sentence; refine sentencingmonth and plea. ExactNovember6arrest andJune8plea inSlack citedsecondary, notoriginal retrieved. No custodytotal or endpoint invented.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-11-1.pdf",
+        "https://en.wikipedia.org/wiki/Benjamin_Fairbanks"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "2264ad28-bb44-45a8-abfc-e0bf9d20f6d3",
+          "updates": {
+            "sentenced_date": "1799-06-01",
+            "plead": "Guilty"
+          },
+          "precision_merge": {
+            "sentenced_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Eleanor Sadlowski",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalDailyWorkerAug10,1926 explicitly reports Sadlowski has physicallyleftCookCounty after60days; corroborates releaseAugustmonthalreadyrecorded. June25reported45daysconflicts final60-dayaccount; sentencecanbe60days asretrospectiveactualreport, no exactrelease inferred.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/dailyworker/1926/1926-nat/v03-n178-NAT-aug-10-1926-DW-RIAZ-op.pdf",
+        "https://www.historyworm.com/gazete/daily_worker/1926-06-25/2"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "dc0e5008-e752-4d79-94d5-699bca6a9c32",
+          "updates": {
+            "sentence": "Sixty days"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Richard Bishop",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalNuclearResister203/204 identifies JudgeGreene, thirtydays29suspendedcredit1day for Holloman case. March2026scene-release does not imply prisonadmission. No longercustodyadded.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/2024/07/NR-203204web.pdf",
+        "https://www.nukeresister.org/2023/04/19/five-anti-drone-warfare-activists-arrested-at-holloman-air-force-base/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "dde25eaa-2464-4ca6-8d6c-3c4d35487d66",
+          "updates": {
+            "judge": "Judge Greene"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Everett Carlson",
+      "status": "reviewed_supported_updates",
+      "evidence": "OriginalFirstCircuitCarlsonopinion documents guiltyverdict and prosecutorPeterMillsconfirmedDOJhistory; no individual actualrelease or imposedterm found. Separate1977stateprisoncase andlater1990scrimes notmerged.",
+      "sources": [
+        "https://openjurist.org/561/f2d/105",
+        "https://www.justice.gov/usao/page/file/1038771/dl"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "c8d37095-ddcd-407a-933e-e9d9bcbba141",
+          "updates": {
+            "prosecutor": "Peter Mills"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Clinton Robert Smith Jr.",
+      "status": "reviewed_no_safe_update",
+      "evidence": "PantherfugitiveClintonRobertSmithJr distinguished from1939bornPennsylvaniaArmy marriageapplicant. No direct linkage to vitalrecords or datedearlierrobberyadmission; no guessedcustody.",
+      "sources": [
+        "https://www.washcolibrary.org/marriages/Washington_County_MD_Marriages_1963_135213-135931.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Joseph Holliday",
+      "status": "reviewed_no_safe_update",
+      "evidence": "WWIHouseofDavidJosephHolliday searched separately frommodernmusician/sports/politicalnamesakes. NARAfederalcivilianindex does not list matchingJoseph, not proofneverjailed in militarydisciplinarybarracks. No safe newdate.",
+      "sources": [
+        "https://www.archives.gov/kansas-city/finding-aids/leavenworth-penitentiary/inmates-h.html"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Shirley Way",
+      "status": "reviewed_supported_updates",
+      "evidence": "PrimaryBaltimoreYearlyMeetingJuly31,2004minute states ShirleyWay arrestedNov23,2003heldovernightMuscogee, sentencedJanuary2004, began actualsentenceJune2004. Prison mailingaddressspecifies DanburyFCI92107-020. RecordJuneadmissionmonth, exactarrest andBOP; do not calculatereleasefrom3months.",
+      "sources": [
+        "https://www.bym-rsf.org/file_download/inline/74a2e0fc-a80c-4e1e-81ce-6f6d11144805",
+        "https://www.indybay.org/newsitems/2004/01/28/16690081.php"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "62753faf-06ba-46a9-89a1-1a7b01355f62",
+          "updates": {
+            "arrest_date": "2003-11-23",
+            "incarceration_date": "2004-06-01",
+            "sentence": "Three months"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "month"
+          }
+        },
+        {
+          "table": "prisoners",
+          "id": "178c06b4-c899-4f85-b086-92e64e26c20e",
+          "updates": {
+            "inmate_number": "92107-020"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Jim Dowling",
+      "status": "reviewed_no_safe_update",
+      "evidence": "OriginalNuclearResister171individualJuly19,2013arrest corroborated; overnightjailpassage concernsotheraction/person and cannotassignDowlingendpoint. Later2017swordcase distinct.",
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/2013/09/NR171web.pdf",
+        "https://www.greenleft.org.au/content/solidarity-ploughshares-peace-activists"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Sam Cutler",
+      "status": "reviewed_no_safe_update",
+      "evidence": "SamCutlerWWICO searched separately frommusicmanager andfictionalnamesakes; no individualarrestdate. Draftregistration isnotarrest, currentcustodypartialdates retained.",
+      "sources": [],
+      "proposed_updates": []
+    }
+  ],
+  "reviewed_count": 34,
+  "supported_profiles": 13,
+  "complete": true
+}
