@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:68 profiles updated live through batch1056;15 bounded reviews without additions;17 pending. Not100 completed.
+Progress:68 profiles updated live through batch1056;17 bounded reviews without additions;15 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -24,7 +24,7 @@ Progress:68 profiles updated live through batch1056;15 bounded reviews without a
 - Casey Goonan — verified_addition_live_batch1025
 - Montez Terriel Lee Jr. — verified_addition_live_batch1024
 - Mumia Abu-Jamal — verified_addition_live_batch1043
-- Eugene Balthazar — pending
+- Eugene Balthazar — bounded_review_no_addition
 - Savanna Batten — verified_addition_live_batch1037
 - David Michael Ansberry — verified_addition_live_batch1023
 - Forrest Hostetler — bounded_review_no_addition
@@ -72,7 +72,7 @@ Progress:68 profiles updated live through batch1056;15 bounded reviews without a
 - Matthew Hale — verified_addition_live_batch1035
 - Mohammad Sharifullah — verified_addition_live_batch1041
 - Leon Blum — pending
-- Ray Edmerson — pending
+- Ray Edmerson — bounded_review_no_addition
 - Luis Dalhet Hipolito — verified_addition_live_batch1041
 - Brian Simpson — verified_addition_live_batch1054
 - Cody Balmer — verified_addition_live_batch1029
@@ -135,3 +135,9 @@ Salvador Tió: Reviewed firsthand congressional testimony describing May19,1979 
 Mildred Martínez: Reviewed contemporary police intelligence archive notice scheduling February4,1980 return to Puerto Rico and prisoner-status petition recording six-month sentence. Arrival home is not a verified physical prison release date; no dates assigned by subtracting six months. May19 arrest already present. Exact birth, admission and release remain unverified. https://archipielagohistorico.com/wp-content/uploads/2024/12/5_-_nov_-_79_l_1_-_agosto_-_80_l_vol_37.pdf ; https://freedomarchives.org/Documents/Finder/DOC33_scans/33.FreePOWPP.UN.PowStatus.Petition.pdf
 
 Emilia Rodríguez: Reviewed prisoner-status petition explicitly recording six-month sentence and transfer to U.S. prison, and contemporary solidarity bulletin naming Emilia among May19,1979 Vieques defendants. Fresh case already stores six-month actual-duration field; neither source establishes exact executed admission/release or individual trial judge. No additions made and no generic group trial date imported. https://freedomarchives.org/Documents/Finder/DOC33_scans/33.FreePOWPP.UN.PowStatus.Petition.pdf ; https://freedomarchives.org/Documents/Finder/DOC41_scans/41.bulletin.JanFeb.1980.pdf
+
+### Richmond Panthers bounded reviews
+
+Eugene Balthazar: Reviewed contemporary Black Panther March7,1970 pp13/16 accounts distinguishing February9 newspaper/breakfast-program detention from February13 poster arrest. First case dismissal already populated. Second account gives evening arrest and around-midnight release, but not enough to select February13 versus14 actual release; did not invent a full extra day or apply first-case dismissal to second. No individually identified portrait or vital dates found; unrelated physician Eugene Balthazar excluded. https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20mar%207%201970.pdf
+
+Ray Edmerson: Reviewed contemporary March7,1970 Black Panther account naming January7 arrest and police-station fingerprint/release, plus April18 separate harassment incident. Existing arrest and month-only release match. No evidence of overnight/multiday prison custody; did not add a full-day incarceration counter from short station processing. Exact release day and court disposition unverified. Unrelated Hanford resident Ray Edmerson excluded. https://www.marxists.org/history/usa/pubs/black-panther/04%20no%2014%201-20%20mar%207%201970.pdf ; https://washingtonareaspark.com/wp-content/uploads/2024/03/04-no-20-1-20-apr-18-1970.pdf
