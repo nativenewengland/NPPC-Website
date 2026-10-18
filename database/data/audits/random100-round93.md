@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-7 profiles updated live through batch1075;11 bounded reviews without additions;82 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+8 profiles updated live through batch1076;11 bounded reviews without additions;81 pending. Next unused batch1077. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -76,7 +76,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Brad Kenneth Spafford — pending
 - Willie Peterson — pending
 - Harry I. Doile — pending
-- F. G. Sampson — pending
+- F. G. Sampson — verified_addition_live_batch1076
 - Cameron Arnold — pending
 - Andrew Goff — pending
 - Charles Coder — pending
@@ -165,3 +165,6 @@ Original DailyWorker December14,1927 PDFp2 downloaded/extracted: datelinePittsbu
 
 ## Sara Cantor bounded review
 Bounded review: KQED August21,2026 sentencing report and existingcase describe30days splitjail/workprogram, appealstay and fourpretrialdayscredit. No actual release day established by sources reviewed; do not infer April19 from4days credit or treat stayed sentence as new jail entry. Existing identified AlexaTrevino portrait already attached. ExactDOB not found. https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown ; https://sfstandard.com/2026/04/30/golden-gate-bridge-protester-trial-felonies/
+
+Batch1076: Church firsthand history PDFp10 explicitly dates bedside announcement of FrederickG.SampsonII death October10,2001. Samechurchhistoryp6-7 identifies prior MtLebanonLouisville pastor; CongressionalRecordOctober15,2001p20 tribute corroborates Detroitpastor/civilrightsleader and children. FrazierMuseum identifies LouisvilleMtLebanon1960-1971. Do not add DOB because1928publishedbiographies conflict1925genealogicalindex; no exactcustodyreleasefound.
+https://tmbcdetroit.org/images/History-of-Tabernacle.pdf#page=10
