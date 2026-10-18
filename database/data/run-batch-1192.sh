@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 $p=json_decode(file_get_contents("database/data/fixes/batch1192.json"),true,512,JSON_THROW_ON_ERROR);
 DB::statement("PRAGMA busy_timeout=15000");
 DB::transaction(function()use($p){
+DB::table("prisoner_cases")->whereRaw("0=1")->update(["updated_at"=>null]);
 $e=$p["expected"];$id=$e["prisoner"]["id"];$new=$p["new_case"];
 if((array)DB::table("prisoners")->where("id",$id)->first()!=$e["prisoner"]){throw new RuntimeException("Profile changed");}
 foreach($e["cases"] as $c){if((array)DB::table("prisoner_cases")->where("id",$c["id"])->first()!=$c){throw new RuntimeException("Existing case changed");}}
