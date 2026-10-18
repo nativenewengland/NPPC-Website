@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-3 profiles updated live through batch1067;3 bounded reviews without additions;94 pending. Next unused batch1068. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+4 profiles updated live through batch1068;3 bounded reviews without additions;93 pending. Next unused batch1069. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -68,7 +68,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Yaurel Guadalupe — pending
 - Fergie Chambers — pending
 - Ghassan Elashi — pending
-- Ernest McQueen — pending
+- Ernest McQueen — verified_addition_live_batch1068
 - Federico Cintrón-Fiallo — pending
 - Benjamin Ortiz — pending
 - Edward William Kale — pending
