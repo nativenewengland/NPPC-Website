@@ -1,0 +1,213 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Mary Trotochaud",
+      "expected": {
+        "id": "2a146237-f622-4127-9617-5aab8b1c5715",
+        "prisoner_id": "faa7554b-224b-4aae-aab1-8ae9f36522dc",
+        "institution_id": "fcf2b875-f3ba-402f-a2f7-87049216fd36",
+        "charges": "Damage to government property",
+        "arrest_date": "1997-09-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-09-28 00:00:00",
+        "release_date": "1999-05-31 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "8 months federal prison",
+        "imprisoned_for_days": 610,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1998-09-28",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_63/42-t-7422575-20061704F-063-006-2016.pdf"
+      ],
+      "research_note": "Contemporary pardon submission in Clinton Presidential Library explicitly identifies actual Federal Prison entry on September28,1998 (PDF45 Eilerman,58 Trotochaud). Synchronize duplicate start dates; eliminate false September1997 year and unsupported October1. Release-day discrepancies and sentence components still need source reconciliation; no endpoint inferred from sentence."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Mary Trotochaud",
+      "expected": {
+        "id": "ec89026d-9ef2-449d-9a1e-38a91676bd4d",
+        "prisoner_id": "faa7554b-224b-4aae-aab1-8ae9f36522dc",
+        "institution_id": "fcf2b875-f3ba-402f-a2f7-87049216fd36",
+        "charges": "Damage to government property",
+        "arrest_date": "1997-09-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1998-10-01 00:00:00",
+        "release_date": "1999-06-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "8 months federal prison",
+        "imprisoned_for_days": 243,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 06:41:15",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1998-09-28",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_63/42-t-7422575-20061704F-063-006-2016.pdf"
+      ],
+      "research_note": "Contemporary pardon submission in Clinton Presidential Library explicitly identifies actual Federal Prison entry on September28,1998 (PDF45 Eilerman,58 Trotochaud). Synchronize duplicate start dates; eliminate false September1997 year and unsupported October1. Release-day discrepancies and sentence components still need source reconciliation; no endpoint inferred from sentence."
+    },
+    {
+      "table": "prisoners",
+      "name": "Mary Trotochaud",
+      "expected": {
+        "id": "faa7554b-224b-4aae-aab1-8ae9f36522dc",
+        "name": "Mary Trotochaud",
+        "sort_order": 24341,
+        "photo": "prisoners/mary-trotochaud-rick-mcdowell-wrmea2004.jpg",
+        "description": "Mary Trotochaud was sentenced to 14 months in federal prison for SOA Watch sign-alteration on September 29, 1997 and repeat trespass at the U.S. Army School of the Americas at Fort Benning, Georgia on November 16, 1997 — among the longest SOA Watch sentences imposed in the late 1990s. She began her sentence in October 1998.",
+        "years_in_prison": null,
+        "state": "Georgia",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Mary",
+        "middle_name": null,
+        "last_name": "Trotochaud",
+        "aka": null,
+        "race": "White",
+        "gender": "Female",
+        "birthdate": "1950-01-01 00:00:00",
+        "death_date": null,
+        "age": 76,
+        "ideologies": "[\"Anti-War\"]",
+        "era": "1990s",
+        "affiliation": "[\"School of the Americas Watch (SOA Watch)\"]",
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": "88102-020",
+        "awaiting_trial": 0,
+        "created_at": "2026-05-03 20:53:00",
+        "updated_at": "2026-09-25 04:37:44",
+        "slug": "mary-trotochaud",
+        "body": "<h2>Birth-year source</h2><ul><li><a href=\"https://www.soaw-austin.org/POC1983_2012.php\">SOA Watch prisoners-of-conscience chronology</a> — identifies Mary Trotochaud as 47 during the September and November 1997 Fort Benning actions, supporting 1950 as her birth year.</li></ul>",
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"year\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Mary Trotochaud was sentenced to 14 months in federal prison for SOA Watch sign-alteration on September 29, 1997 and repeat trespass at the U.S. Army School of the Americas at Fort Benning, Georgia on November 16, 1997 — among the longest SOA Watch sentences imposed in the late 1990s. She entered federal prison on September 28, 1998."
+      },
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_63/42-t-7422575-20061704F-063-006-2016.pdf"
+      ],
+      "research_note": "Align narrative admission date with contemporary archive."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Sr. Marge Eilerman OSF",
+      "expected": {
+        "id": "fc7b68f4-99ac-477a-8eaf-93e65c81a2b9",
+        "prisoner_id": "d1fb1b78-d427-4449-88cb-f3ae526527f4",
+        "institution_id": "1d974540-2cce-46ef-b22a-2dc49df84a53",
+        "charges": "Damage to government property",
+        "arrest_date": "1997-09-28 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1997-09-28 00:00:00",
+        "release_date": "1999-09-30 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months federal prison",
+        "imprisoned_for_days": 732,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1998-09-28",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_63/42-t-7422575-20061704F-063-006-2016.pdf"
+      ],
+      "research_note": "Contemporary pardon submission in Clinton Presidential Library explicitly identifies actual Federal Prison entry on September28,1998 (PDF45 Eilerman,58 Trotochaud). Synchronize duplicate start dates; eliminate false September1997 year and unsupported October1. Release-day discrepancies and sentence components still need source reconciliation; no endpoint inferred from sentence."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Sr. Marge Eilerman OSF",
+      "expected": {
+        "id": "bcb0e662-dd23-44e1-a6c4-3d3cdbdb5396",
+        "prisoner_id": "d1fb1b78-d427-4449-88cb-f3ae526527f4",
+        "institution_id": "1d974540-2cce-46ef-b22a-2dc49df84a53",
+        "charges": "Damage to government property",
+        "arrest_date": "1997-09-29 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1998-10-01 00:00:00",
+        "release_date": "1999-10-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "12 months federal prison",
+        "imprisoned_for_days": 365,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-15 06:41:15",
+        "updated_at": "2026-07-29 17:05:24",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1998-09-28",
+        "date_precision": "{\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/presidential-libraries/clinton/foia/2006/2006-1704-F-Seg-1-PDF/2006-1704-F-Pardons-PDF/Box_63/42-t-7422575-20061704F-063-006-2016.pdf"
+      ],
+      "research_note": "Contemporary pardon submission in Clinton Presidential Library explicitly identifies actual Federal Prison entry on September28,1998 (PDF45 Eilerman,58 Trotochaud). Synchronize duplicate start dates; eliminate false September1997 year and unsupported October1. Release-day discrepancies and sentence components still need source reconciliation; no endpoint inferred from sentence."
+    }
+  ]
+}

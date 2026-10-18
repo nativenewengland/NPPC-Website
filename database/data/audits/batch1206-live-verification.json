@@ -1,0 +1,49 @@
+{
+  "batch": 1206,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1206-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "75ac7663-25b8-469e-b540-911e99751e5c",
+      "name": "Sylvia Boyes",
+      "changes": {
+        "charges": [
+          "Criminal damage — attempted disarmament of U.S. military radar in England",
+          "Criminal damage"
+        ],
+        "sentenced_date": [
+          null,
+          "2008-12-18"
+        ],
+        "incarceration_date": [
+          "2008-08-05 00:00:00",
+          "2008-12-18"
+        ],
+        "imprisoned_for_days": [
+          160,
+          25
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:14",
+          "2026-10-18 23:50:24"
+        ],
+        "date_precision": [
+          "{\"release_date\":\"day\"}",
+          "{\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "url": "https://politicalprisonercoalition.org/prisoner/sylvia-boyes?custody_audit=1206",
+      "status": 200,
+      "counters": [
+        "25 Days"
+      ]
+    }
+  ]
+}
