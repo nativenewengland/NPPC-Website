@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Julia Mechanic",
+      "expected": {
+        "id": "4f5ed082-770f-4c31-af5c-6b014d09c4d7",
+        "prisoner_id": "bfc42c25-f704-4fb0-9bc9-0eddc35c8f50",
+        "institution_id": "da7610d5-9a09-4a64-8831-1d04944454dc",
+        "charges": null,
+        "arrest_date": "1901-09-06 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1901-09-06 00:00:00",
+        "release_date": "1901-09-10 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "No sentence; case dismissed.",
+        "imprisoned_for_days": 4,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-24 17:29:08",
+        "updated_at": "2026-07-29 17:05:33",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Conspiracy to murder President William McKinley"
+      },
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/1/1c/McKinley%2C_Garfield%2C_Lincoln_-_their_lives-their_deeds-their_deaths%2C_with_a_record_of_notable_assassinations_and_a_history_of_anarchy_%28IA_mckinleygarfield00inbanc%29.pdf"
+      ],
+      "research_note": "Contemporary1901 Bancroft assassination history prints sworn September10 complaint by LukeP.Colleran naming JuliaMechanic among alleged conspirators to murder PresidentMcKinley. Establishes named charge, not conviction. Exact originalarrest chronology stillneedsresolution; no datechange proposed."
+    }
+  ]
+}
