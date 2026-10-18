@@ -2,7 +2,7 @@
 
 Selected October17,2026 with seed NPPC-round92-20261017 from live missing-photo/case-field candidates. All100 IDs absent from prior random100-fields-round sample files. This does not mean never researched elsewhere.
 
-Progress:72 profiles updated live through batch1060;18 bounded reviews without additions;10 pending. Not100 completed.
+Progress:73 profiles updated live through batch1061;19 bounded reviews without additions;8 pending. Not100 completed.
 
 - Mildred Martínez — bounded_review_no_addition
 - Shaka Shakur — bounded_review_no_addition
@@ -11,7 +11,7 @@ Progress:72 profiles updated live through batch1060;18 bounded reviews without a
 - Yaakub Ira Vijandre — pending
 - Dwight Parker — bounded_review_no_addition
 - Salem Seleiman — verified_addition_live_batch1045
-- Albert Lowery Grabill — pending
+- Albert Lowery Grabill — bounded_review_no_addition
 - Pablo Paredes — verified_addition_live_batch1036
 - Sid Welsh — verified_addition_live_batch1050
 - Christopher Tindal — verified_addition_live_batch1038
@@ -58,7 +58,7 @@ Progress:72 profiles updated live through batch1060;18 bounded reviews without a
 - Michael Alan Thomas — verified_addition_live_batch1039
 - Martin Gunderson — verified_addition_live_batch1056
 - Ed Poindexter — verified_addition_live_batch1034
-- Troy Desson — pending
+- Troy Desson — verified_addition_live_batch1061
 - Meagan Morris — verified_addition_live_batch1037
 - Emilia Rodríguez — bounded_review_no_addition
 - David Annarelli — verified_addition_live_batch1028
