@@ -1,0 +1,102 @@
+{
+  "operations": [
+    {
+      "table": "prisoners",
+      "name": "Chuck Malone",
+      "slug": "chuck-malone",
+      "expected": {
+        "id": "a1379df6-dcf7-42d2-a7c6-0d095e1453b2",
+        "name": "Chuck Malone",
+        "sort_order": 30118,
+        "photo": "prisoners/chuck-malone.jpg",
+        "description": "Chuck Malone was a San Francisco-based Irish republican activist who became a long-running figure in U.S. investigations and prosecutions related to alleged IRA support. In the early 1970s, he was convicted in federal court for unlawfully exporting firearms from the United States to the United Kingdom, and the sentencing court imposed unusually sweeping probation restrictions aimed at cutting off his association with Irish republican-linked groups and venues.\n\nMalone later faced another major federal prosecution connected to a sting operation alleging plans to supply weapons to the IRA. By the early 1990s he had served additional time in prison, and reporting at the time described him as having been released in 1993. His repeated prosecutions made him one of the most publicly recognized U.S.-based figures in the contentious debate over diaspora involvement in the Northern Ireland conflict.",
+        "years_in_prison": null,
+        "state": "California",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Chuck",
+        "middle_name": null,
+        "last_name": "Malone",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": "[\"Irish Republicanism\"]",
+        "era": "1980s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": "48310-097",
+        "awaiting_trial": 0,
+        "created_at": "2026-04-04 14:50:32",
+        "updated_at": "2026-08-10 23:11:52",
+        "slug": "chuck-malone",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "inmate_number": "04831-097"
+      },
+      "source": [
+        "https://www.bop.gov/inmateloc/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/502/554/370209/",
+        "https://www.upi.com/amp/Archives/1990/01/25/A-lawyer-Thursday-advised-junk-dealer-Robert-Wayne-OFerrell/9021633243600/"
+      ],
+      "research_note": "Official BOP exact full-name query Charles Farrell Malone returned register 04831-097 and actual release June 8, 1992. Existing 48310-097 returns no result. Full legal name corroborated by federal court opinion and contemporary UPI reporting identifying the San Francisco defendant in the 1990 weapons conspiracy. This is the later federal case, not the 1973 suspended sentence. Existing biography gives an approximate 1993 release based on later reporting; primary BOP actual date takes precedence for this field. No admission date inferred."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Chuck Malone",
+      "slug": "chuck-malone",
+      "expected": {
+        "id": "13e1df1e-63d2-4290-a262-8644ac7e1d2d",
+        "prisoner_id": "a1379df6-dcf7-42d2-a7c6-0d095e1453b2",
+        "institution_id": "0099e875-fa60-48ba-930e-a0f9a20479e5",
+        "charges": "Weapons Offenses Conspiracy",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-05-10 06:33:16",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1992-06-08",
+        "date_precision": "{\"release_date\":\"day\"}"
+      },
+      "source": [
+        "https://www.bop.gov/inmateloc/",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/502/554/370209/",
+        "https://www.upi.com/amp/Archives/1990/01/25/A-lawyer-Thursday-advised-junk-dealer-Robert-Wayne-OFerrell/9021633243600/"
+      ],
+      "research_note": "Official BOP exact full-name query Charles Farrell Malone returned register 04831-097 and actual release June 8, 1992. Existing 48310-097 returns no result. Full legal name corroborated by federal court opinion and contemporary UPI reporting identifying the San Francisco defendant in the 1990 weapons conspiracy. This is the later federal case, not the 1973 suspended sentence. Existing biography gives an approximate 1993 release based on later reporting; primary BOP actual date takes precedence for this field. No admission date inferred."
+    }
+  ]
+}
