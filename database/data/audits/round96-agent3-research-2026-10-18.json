@@ -1,0 +1,472 @@
+{
+  "round": 96,
+  "profiles": [
+    {
+      "name": "Shirley Thompson",
+      "prisoner_id": "2a638959-7402-425a-9b3f-d7f9d581167f",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-4-6-1-1-1"
+      ],
+      "finding": "Primary MDAH mugshot confirms June6,1961 arrest and birth/death years1942–1999; no new individualized release proof found. Existing July15 release not independently reverified by mugshot.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Charles Berg",
+      "prisoner_id": "7cd51a87-e97a-4b3c-b8b9-6f2e860f1243",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "finding": "Original1917 EverettMassacre account identifies CharlesBerg22 laborerGermany. Existing November5 arrest andMay1917month release not individually refined. No sentence imposed on untried defendant.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Toby Olditch",
+      "prisoner_id": "794c994f-9427-441d-8ae6-bb0c7471acdf",
+      "status": "supported_update",
+      "sources": [
+        "https://oxford.indymedia.org.uk/2003/06/272699.html"
+      ],
+      "finding": "Own supportgroup June18,2003 pressrelease explicitly arrestMarch18 and remandMarch19. Arrest and continuous detention fromMarch18 supported; proposedJune20 bail hearing is not actual release. July29 subsequent-remand source creates interval issue, not inferred here.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "956827b2-91f1-45c2-aed0-94e3dbcadb47",
+          "updates": {
+            "arrest_date": "2003-03-18",
+            "incarceration_date": "2003-03-18",
+            "charges": "Conspiracy to cause criminal damage; going equipped to cause criminal damage; aggravated trespass"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jack Leonard",
+      "prisoner_id": "2453a1e3-ee96-4f9b-b209-e9c722e1424a",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.historylink.org/File/5326"
+      ],
+      "finding": "Participant JackLeonardMiller interview identified; excluded screenplay author namesake. Current November1916–May1917 retained, no individual discharge day established.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Erasmo Abate",
+      "prisoner_id": "47d500af-9819-47c6-8933-d6ff79fcf2bd",
+      "status": "supported_update",
+      "sources": [
+        "https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?Chiave=52464&RicSez=prodpersone&RicTipoScheda=pp&RicVM=indice&TipoPag=prodpersona"
+      ],
+      "finding": "Italian government archival authority gives August16,1977. Popular book report saysAugust15; official archive preferred but discrepancy preserved in audit.",
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "47d500af-9819-47c6-8933-d6ff79fcf2bd",
+          "updates": {
+            "death_date": "1977-08-16"
+          },
+          "precision_merge": {
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "J. F. Billings",
+      "prisoner_id": "e59c3937-55e9-438d-bc89-851e16559a4b",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://archive.iww.org/PDF/history/library/WCSmith/EverettVII.pdf"
+      ],
+      "finding": "Original Everett trial account mentions Billings testimony; no exact individualized release date or additional vitals established.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Jesus Romo",
+      "prisoner_id": "b30f81a0-1807-4306-81bd-443ddb4e1641",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/roberts-to-roy/"
+      ],
+      "finding": "Original research based INS54616/232 and FBI OG363737 confirms June9–August18,1919 deportation custody bounds already present. No named criminal charge or sentence established.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Tilly Gerish",
+      "prisoner_id": "b00e531e-df48-44da-9af9-4d8d3331cace",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/geray-to-giusto/"
+      ],
+      "finding": "Original entry confirms January1920 arrest and February1,1921 deportation already stored. No arrest day; exact current custody continuity unproven beyond source summary.",
+      "proposed_updates": []
+    },
+    {
+      "name": "John Letcher",
+      "prisoner_id": "9a0b72ef-0816-4054-8aa6-dc0bbda5158e",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://snaccooperative.org/view/911404"
+      ],
+      "finding": "LibraryofVirginia archival description confirms May24 CarrollPrison admission and July10,1865 parole; current May20 custody start includes earlier military arrest. No false shortening to specific prison admission.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Mrs. C. T. Robertson",
+      "prisoner_id": "9b30320b-9a59-4f05-ba26-7875d589f928",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://omeka.hsp.org/files/original/123/971/Transcription_HSP_17084.pdf"
+      ],
+      "finding": "Reviewed suffrage prisoner identity and JailedforFreedom appendix; no exact individual missing sentencingday or full identity confidently established. Existing November1917 dates retained.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Mohsen Mahdawi",
+      "prisoner_id": "9b41caf4-15b8-429f-b0fe-a6a16e053a85",
+      "status": "supported_update",
+      "sources": [
+        "https://assets.aclu.org/live/uploads/2025/04/2025-04-30-full-size-certified.pdf"
+      ],
+      "finding": "Original April30 release-hearing transcript identifies GeoffreyW.Crawford; existing custodydates already correct.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "27743fb5-56f6-4955-b1e4-f306ce905c56",
+          "updates": {
+            "judge": "Geoffrey W. Crawford"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Shavone Torres",
+      "prisoner_id": "396eaf2f-e126-47d1-9a94-c4bdf1fbb889",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php"
+      ],
+      "finding": "Contemporary group physicalrelease SaturdaySeptember14,2019 matches currentSeptember12–14. No individually supported judge/vitals refinement.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Antonio Cesco",
+      "prisoner_id": "b2f5cd32-31b1-4c9c-9542-16137a416a44",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/canle-to-cesco/"
+      ],
+      "finding": "Original INS/CPC research confirms May1918 hospitalized arrest and February7,1920 deportation. No arrestday or criminalsentence supplied.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Chuck Matthei",
+      "prisoner_id": "145a0b01-2071-44f5-a1bb-ebe65d41f1b7",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.voluntownpeacetrust.org/a-peace-of-history-blog/remembering-chuck-matthei-1948-2002"
+      ],
+      "finding": "Firstperson coworker obituary confirms February1948ValentinesDOB already stored. Missing episodes: February1969 draftresistance arrest until unspecified release; March dismissal is not a proven release.1977Seabrook detention and11day fast supported, dates unresolved. Suggested new episodes require parent case workflow. Exact deathOctober1,2002 likely but available current original obituary is image; year2002 supported institutional memorial.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Rumeysa Ozturk",
+      "prisoner_id": "2244b3f3-a1c4-45e4-a11c-59e7a3da081c",
+      "status": "supported_update",
+      "sources": [
+        "https://www.aclu.org/cases/ozturk-v-trump?document=Transfer-Order",
+        "https://assets.aclu.org/live/uploads/2025/04/140.pdf",
+        "https://apnews.com/article/034d97a7e280c68a7d1fb6aa879ce87c"
+      ],
+      "finding": "Primary counsel/court and photograph of actual release establish March25 arrest toMay9 physical release; storedMarch24/May8 one day early.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "79a5567b-7b2f-41e3-b0f9-71d1e8a5c66e",
+          "updates": {
+            "arrest_date": "2025-03-25",
+            "incarceration_date": "2025-03-25",
+            "release_date": "2025-05-09",
+            "judge": "William K. Sessions III"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day",
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Savely Roshkov",
+      "prisoner_id": "ffa610a5-1e69-4a5e-a023-0c25a70447be",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://kenyonzimmer.com/red-scare-deportees/roberts-to-roy/"
+      ],
+      "finding": "Original researcher INS54861/143/FBI OG382709 confirms February12,1920 arrest andJanuary22,1921 deportation already present. No additional exact missing field.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Abegail Langutan Salugsugan",
+      "prisoner_id": "bda91c2a-4f90-44c6-a74a-fc9897357077",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.kunm.org/text/kunm-news-update/2026-07-30/thurs-feds-nixed-energy-grants-to-new-mexico-other-blue-states-more"
+      ],
+      "finding": "Contemporary commissionmeeting arrest reporting reviewed. Existing July28–29,2026 retained. May2024 NMSUarrest lead lacks individualized custody duration and is not inferred from group allegations.",
+      "proposed_updates": []
+    },
+    {
+      "name": "George Armistead Appleton",
+      "prisoner_id": "c6334b91-db8e-4691-997a-ad2039261aa2",
+      "status": "supported_update",
+      "sources": [
+        "https://msa.maryland.gov/megafile/msa/speccol/sc5800/sc5881/000001/000000/000372/pdf/msa_sc_5881_1_372.pdf"
+      ],
+      "finding": "MarylandHistoricalMagazine dates arrest DefendersDaySeptember1861; primaryselfsigned prisonerautograph described by antiquarian givesSeptember7 whereas commemorative account impliesSeptember12. Original officialFortColumbus list receivedSeptember13. Septembermonth supported; exactday unresolved. ExistingNovember27,1862 release not independently named in commandant list reviewed.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b9e6473d-53f0-4d01-b4fb-d12c04c171d4",
+          "updates": {
+            "arrest_date": "1861-09-01",
+            "incarceration_date": "1861-09-01"
+          },
+          "precision_merge": {
+            "arrest_date": "month",
+            "incarceration_date": "month"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Solomon Metz",
+      "prisoner_id": "a84ccfc6-c1c9-4483-85f6-65a77631a290",
+      "status": "supported_update",
+      "sources": [
+        "https://ilgwu.ilr.cornell.edu/announcements/8.html"
+      ],
+      "finding": "CornellKheelCenter original archival research confirms April18,1914 andMay11,1915 arrests, intermediatebail, andSeptember19return. August7 bailsetting not exact physicalrelease. TrialprosecutorCharlesA.Perkins; no newendpoint inferred.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "9c16f4ab-f32b-4d26-b455-e39f36e81cbd",
+          "updates": {
+            "prosecutor": "Charles A. Perkins"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Job Garcia",
+      "prisoner_id": "b603d4de-711b-407e-9365-33e5479acb0a",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.maldef.org/2025/07/maldef-takes-a-step-toward-civil-rights-lawsuit-on-behalf-of-u-s-citizen-detained-by-ice/"
+      ],
+      "finding": "Ownlegalrepresentatives document June19–20,2025 custody and absence of charges, already present. No criminaljudge or sentence invented.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Diane Dorsey-Bowens",
+      "prisoner_id": "b3e9569e-bace-4183-8cba-0dd85c5c9b4e",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://crmvet.lib.duke.edu/info/leesburg.html"
+      ],
+      "finding": "SurvivorShirleyReese identifies Diane and describes two-month Leesburg captivity; no individual exact discharge day established. Keep monthprecision instead of treating roundedgroupduration as exactdays.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Julius Woolf",
+      "prisoner_id": "83b6ba99-e088-4fdd-95b1-7b6d452e7e70",
+      "status": "supported_update",
+      "sources": [
+        "https://ilgwu.ilr.cornell.edu/announcements/8.html"
+      ],
+      "finding": "CornellKheelCenter original archival research confirms May11,1915 detention, intermediatebail, September19return, dismissal before otherdefendants acquittal. August7 bailsetting not provenrelease. TrialprosecutorCharlesA.Perkins.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "a8785baf-5d5b-45bc-aa1f-1b5028ecbe99",
+          "updates": {
+            "prosecutor": "Charles A. Perkins"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Joe Henry Griffith",
+      "prisoner_id": "44a13805-2477-4f21-8fdd-a8fa1bd54f91",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://crdl.usg.edu/people/griffith_joe_henry"
+      ],
+      "finding": "PrimaryMDAH record confirms May30,1961 arrest and age26. ExistingJune8release not furtherrefined. No criminalcharge or sentence inferred merely from FreedomRider group.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Ernest Newell Weber",
+      "prisoner_id": "f745ebbe-ec92-4d74-89d1-6114c42ddc1e",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://merton.bellarmine.edu/files/original/947bed9ce3ed7a7af25c23b7f75f89edfddc1269.pdf"
+      ],
+      "finding": "TerrySullivan firsthand November1961 account supports June6trial and four-and-halfmonths including fine time. Current individualFBIreleaseOctober23already stored. No charge name established from groupcontext.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Marlon Kautz",
+      "prisoner_id": "24924892-3c1c-4a83-9d9c-cb0966524439",
+      "status": "supported_update",
+      "sources": [
+        "https://unicornriot.ninja/2023/atlanta-solidarity-fund-organizers-granted-bond/"
+      ],
+      "finding": "Original court-observer reporting identifies June2,2023 bondhearingJudgeJamesAltman. Existing custody May31–June2 retained. Judicial identification supported independently byFox5 but exactnewendpoint unnecessary.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "b8aa9b08-b684-4bdd-9bc3-8122468821c2",
+          "updates": {
+            "judge": "James Altman"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Ryan Harris",
+      "prisoner_id": "c8dab90c-fe9e-480a-a226-9d9240d98e7f",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.houstonchronicle.com/news/houston-texas/houston/article/Greenpeace-protesters-who-shut-down-Houston-Ship-14440501.php"
+      ],
+      "finding": "Contemporary named demonstratorlist and actual SaturdaySeptember14,2019 release matches currentSeptember12–14. Excluded unrelated Chicagoplaintiff andUtahjudge RyanHarris.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Bobby Seale",
+      "prisoner_id": "8ad5cd65-f384-4f61-ae0c-841810598437",
+      "status": "supported_update",
+      "sources": [
+        "https://washingtonareaspark.com/wp-content/uploads/2020/05/1971-03-27-bpp.pdf",
+        "https://www.themilitant.com/Intercontinental_Press/1971/IP0922.pdf"
+      ],
+      "finding": "Original party newspaper identifies NewHaven trial judge/prosecutor. Contemporary June7 issue reports physical releaseMay27 vs storedMay28; not changing endpoint pending second source.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "2b1f9d65-04fb-4b57-ac6c-2d4960764421",
+          "updates": {
+            "judge": "Harold M. Mulvey",
+            "prosecutor": "Arnold Markle",
+            "charges": "Murder; kidnapping; conspiracy to commit murder and kidnapping"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Jefferson Davis",
+      "prisoner_id": "3e2356b2-a8b5-46c7-8816-a9b2286aae84",
+      "status": "supported_update",
+      "sources": [
+        "https://jeffersondavis.rice.edu/about-jefferson-davis/chronology/imprisonment-1865-67"
+      ],
+      "finding": "RicePapersofJeffersonDavis documentary chronology confirms currentMay10,1865–May13,1867. Indictedtreason is actualcharge; no criminalsentence because nevertried.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "44507660-abc7-4519-8c38-bf9ee7324b1e",
+          "updates": {
+            "charges": "Treason"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Charles Howard",
+      "prisoner_id": "f84533dd-0bd4-4089-bf9c-e84242ec0ad3",
+      "status": "supported_update",
+      "sources": [
+        "https://www.civilwar.com/official-record/960-prisoners-of-war/260643-748-series-ii-volume-i-serial-114-prisoners-of-war.html"
+      ],
+      "finding": "CommandantDimick November27,1862 report says thisdayreleased and namesCharlesHoward. LOCGeorgeWilliamBrown firsthand memoirp108–109 independently confirms actual nextdayrelease afterNovember26order.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "1dfc6cf6-d6ee-405d-9baf-7b380f1160f7",
+          "updates": {
+            "release_date": "1862-11-27"
+          },
+          "precision_merge": {
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elizabeth Leslie",
+      "prisoner_id": "d34324da-0a5a-479b-a7c4-4e0482cb03cd",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://www.flashalert.net/images/news/2025-10/6325/184511/COMPLAINT_-_Leslie_FINAL.pdf"
+      ],
+      "finding": "Official DOJOctober21,2025 release statesOctober18arrest andphysicalreleaseafterOctober20initialappearance, already present. Does notname magistrate; no guessedjudge orbirthyear fromage32.",
+      "proposed_updates": []
+    },
+    {
+      "name": "David Hyun",
+      "prisoner_id": "e9de8597-b713-4b60-97a6-ad8e0ea53d74",
+      "status": "supported_update",
+      "sources": [
+        "https://www.hawaii.edu/uhwo/clear/HonoluluRecord/volume3/v3n41.pdf"
+      ],
+      "finding": "Original May10,1951 HonoluluRecord identifies no-bailJudgeBenHarrison. SupremeCourtApril30releaseorder is distinct from actual releaseMay3already recorded. Additional1953–54detention lead found but start/end needindividualverification.",
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "68bd1ec3-ddb3-4527-a3bf-c9bf0c5631a3",
+          "updates": {
+            "judge": "Ben Harrison"
+          },
+          "precision_merge": {}
+        }
+      ]
+    },
+    {
+      "name": "Charles Haywood",
+      "prisoner_id": "87e547bb-f20b-4a47-99ae-bfb7352599b1",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://archive.lib.msu.edu/DMC/AmRad/everettmassacre.pdf"
+      ],
+      "finding": "Original Everett prisonerroster/context reviewed. Current November5,1916–May1917month preserved; no individual finer endpoint or vitals found.",
+      "proposed_updates": []
+    },
+    {
+      "name": "Willie Mae Smith-Davis",
+      "prisoner_id": "9acf5655-255e-4c33-9b54-4e1196022964",
+      "status": "reviewed_unresolved",
+      "sources": [
+        "https://crmvet.lib.duke.edu/info/leesburg.html"
+      ],
+      "finding": "SurvivorShirleyReese identifiesWillieMaeSmith amongLeesburggirls andtwo-monthconfinement. No exactindividual release day oradditional DOB independently established.",
+      "proposed_updates": []
+    }
+  ],
+  "reviewed_count": 33,
+  "supported_profile_count": 12,
+  "live_mutations_by_agent": false,
+  "completion": "All33 individually reviewed within bounded source research. Unresolved issues and newcaseleads retained in findings; all33alreadyhaveportraits."
+}

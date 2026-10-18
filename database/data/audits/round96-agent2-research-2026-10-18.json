@@ -1,0 +1,503 @@
+{
+  "profiles": [
+    {
+      "name": "H. T.Cheetman",
+      "prisoner_id": "f92a672a-a9e8-4fe0-86db-b1dd11150da9",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual UW Everett booking photograph inventory checked against Yale catalog. Existing age and November 5 arrest reviewed; no exact May release day or criminal sentence established. Yale alternate catalog spelling/age differences require original booking verso before changing identity or birthday.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Catherine Boyle",
+      "prisoner_id": "2aa65740-471a-4f3e-bfd2-ac82e8477c23",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual primary Stevens appendix and January 13 watchfire arrest reconstruction reviewed. Five-day sentence supported; exact release remains unresolved despite stored January 18. No individually named statutory charge established.",
+      "sources": [
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8",
+        "https://www.documents.alexanderstreet.com/d/1008342590"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Randall Robinson",
+      "prisoner_id": "c3c101f1-9834-4b55-9f61-8762e0759840",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary November 22 report places arrest the previous evening, specifically unlawful entry; movement historian records actual release November 22. Existing dates are one day early. No sentence imposed.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/politics/1984/11/22/fauntroy-arrested-in-embassy/dd61f04e-3808-4cf4-8c5d-ec0043b7e7e5/",
+        "https://fpif.org/peoples-sanctions/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "842cd054-abfa-4035-baeb-698cec112f4b",
+          "updates": {
+            "arrest_date": "1984-11-21",
+            "incarceration_date": "1984-11-21",
+            "release_date": "1984-11-22",
+            "charges": "Unlawful entry"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day",
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Graham Evatt",
+      "prisoner_id": "e1e6c299-74db-42cb-aab4-f1f731c5c021",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual January 2023 reporting corroborates arrest, bond and disputed organizer allegation. Dismissal means no sentence field should be manufactured. No stronger actual release day or birthday found.",
+      "sources": [
+        "https://dailydot.com/news/cop-city-atlanta-domestic-terrorism"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Isidore Ashpitz",
+      "prisoner_id": "c8f4bf47-5175-472d-8a4c-461a408e928a",
+      "status": "verified_fix_ready",
+      "evidence": "Cornell Kheel Center reconstruction from complete original trial transcript individually identifies Ashpitz and District Attorney Charles A. Perkins as prosecutor. August 7 bail setting does not prove actual release date, so no endpoint refinement.",
+      "sources": [
+        "https://ilgwu.ilr.cornell.edu/announcements/8.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "ef9c03f2-2d15-4b20-b3a1-3c6a9edf4027",
+          "updates": {
+            "prosecutor": "Charles A. Perkins"
+          }
+        },
+        {
+          "table": "prisoner_cases",
+          "id": "e9e1d03b-5175-4ef2-9941-a2a0218fd5de",
+          "updates": {
+            "prosecutor": "Charles A. Perkins",
+            "convicted": "No — acquitted"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sal Castro",
+      "prisoner_id": "fc8a0ea7-339f-4a41-bfad-d8dc23ad5179",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual historical reconstruction corroborates May 31 indictment and June 2 bail release already stored; source conflicts about arrest day in derivative histories remain. No sentence warranted after overturned indictments.",
+      "sources": [
+        "https://academeblog.org/2018/03/04/east-los-angeles-1968-a-student-walkout-to-commemorate-and-learn-from/",
+        "https://www.chicano.ucla.edu/files/news/Exhibition%20-%20The%201968%20Walkouts%20060118.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Pierce Butler",
+      "prisoner_id": "93dbbad4-3d7f-4c01-ba3e-5ac81052cdfc",
+      "status": "verified_fix_ready",
+      "evidence": "Dickinson chronology and scholarly original-diary-based history date arrest August 19, 1861. Scholarly biographies conflict over precise September release, so preserve month-only endpoint and no sentence invented.",
+      "sources": [
+        "https://hd.housedivided.dickinson.edu/node/36575",
+        "https://blogs.dickinson.edu/hist-mckim/files/2018/10/Dusinberre-Dissenters.pdf"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "f07c9857-5429-4197-9ffd-4a30f9b056a4",
+          "updates": {
+            "arrest_date": "1861-08-19",
+            "incarceration_date": "1861-08-19"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Abe Brook",
+      "prisoner_id": "ead00fe0-78b1-4782-8f12-548fe3e6af10",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary February 1920 Socialist Review individually quotes wife and December 21 deportation. Original arrest month and later re-arrest distinguish custody segments but no finer verified day found; administrative deportation does not establish judicial sentence.",
+      "sources": [
+        "https://www.marxists.org/history/usa/pubs/socialist-review-iss/v08n03-feb-1920_Socialist%20Review.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Margaret McSurely",
+      "prisoner_id": "acfc9400-d2b8-4319-bb29-5e9d7ec8b749",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Facing South interview with both McSurelys confirms about one week pretrial detention, no exact release date. Do not derive August 18 from seven days. Separate contempt sentences reversed and not served cannot be assigned to 1967 sedition case.",
+      "sources": [
+        "https://www.facingsouth.org/1983/09/american-inquisition-part-i-trial-alan-margaret-mcsurely",
+        "https://www.crmvet.org/vet/mcsurley.htm"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Susan Saxe",
+      "prisoner_id": "983113ff-edec-4e7e-87b6-8a35b1b2fc41",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary January 18, 1977 Harvard Crimson reports previous-day guilty plea to two robberies and manslaughter, sentenced by Walter H. McLaughlin to 10–12 years concurrent with previous ten years. Later reports instead give 12–14, so retain sentence conflict unresolved but judge, plea and date are individually supported.",
+      "sources": [
+        "https://www.thecrimson.com/article/1977/1/18/susan-saxe-pleads-guilty-receives-10-12/",
+        "https://www.upi.com/Archives/1981/10/12/Vietnam-era-women-radical-tops-FBI-most-wanted-list/4542371707200/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "645b30a6-0e99-4049-b242-e4c9ae846508",
+          "updates": {
+            "judge": "Walter H. McLaughlin",
+            "plead": "Guilty",
+            "sentenced_date": "1977-01-17"
+          },
+          "precision_merge": {
+            "sentenced_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pelle Pettersson",
+      "prisoner_id": "5145950a-846e-41de-802b-3950f727b7e8",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Direct February 2003 interview states three and a half days in U.S. cell, corroborating brief April 2002 detention; May 2002 Swedish radio only predicts potential sentence, not actual sentence. Sailing celebrity namesake excluded. No projected sentence added.",
+      "sources": [
+        "https://www.sydkusten.es/sk/42/a/343/-miljoaktivister-brutalt-angripna/",
+        "https://www.sverigesradio.se/artikel/73433"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Amy Schechter",
+      "prisoner_id": "e4834008-1d17-441c-90d1-a85c35c3c496",
+      "status": "verified_fix_ready",
+      "evidence": "Grandnephew Dave Schechter reports August 4, 1892 birthday based on family and FBI/Soviet archival research. Death year 1962 corroborated independently but no exact day proposed.",
+      "sources": [
+        "https://forward.com/culture/321372/how-solomon-shechters-daughter-became-the-life-of-her-party/",
+        "https://www.peoplesworld.org/article/a-life-of-the-party-recalls-daily-worker-writer-amy-schechter/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "e4834008-1d17-441c-90d1-a85c35c3c496",
+          "updates": {
+            "birthdate": "1892-08-04",
+            "death_date": "1962-01-01"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "year"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tamura R. Seiji",
+      "prisoner_id": "09e6d12f-9e2f-42dd-be87-917cb64f7e2b",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ individually names defendant and identifies Assistant U.S. Attorney Mark McIntyre as prosecutor. No criminal sentence added to dismissed case.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "42b887ef-8ccd-48eb-bb53-efe65666cd51",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Verna Hollis",
+      "prisoner_id": "7ea00a31-1e0f-4f2e-b859-f091fdfcf0f4",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual funeral-home obituary and firsthand StoryCorps interview corroborate existing exact birth and death. Obituary says 45 days while commemorative accounts say nearly two months; no derived endpoints or unsupported replacement duration.",
+      "sources": [
+        "https://www.legacy.com/us/obituaries/name/verna-hollis-obituary?id=51547351",
+        "https://storycorps.org/podcast/the-leesburg-stockade-girls/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Nelson Rodriguez",
+      "prisoner_id": "019b683f-cadf-4ef6-8127-e58046f289b8",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Contemporary Black Panther individually captioned portrait and pretrial report name shifting judges Karesh, Mana, Lawrence. TV archive describes November 8 interviews after previous-day acquittal but catalog date contradicts description and interviews still at jail, so no exact physical release inferred. No sentence after acquittal.",
+      "sources": [
+        "https://s3.us-west-1.wasabisys.com/luminist/PR/BP_1970_06_27.pdf",
+        "https://batv.quartexcollections.com/Documents/Detail/los-siete-defendents-interviewed/349",
+        "https://www.foundsf.org/LOS_SIETE_DE_LA_RAZA"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Dakota P. Schee",
+      "prisoner_id": "c4e50a97-1016-4570-bc40-f9af5cf78ac8",
+      "status": "verified_fix_ready",
+      "evidence": "Official DOJ individually names defendant and identifies Assistant U.S. Attorney Mark McIntyre as prosecutor. No criminal sentence added to dismissed case.",
+      "sources": [
+        "https://www.justice.gov/usao-sdtx/pr/federal-charges-filed-against-greenpeace-protesters"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "7b7e22e8-f6b4-457d-a793-c41f8833ec36",
+          "updates": {
+            "prosecutor": "Mark McIntyre"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Elizabeth Stuyvesant",
+      "prisoner_id": "7be37ca9-bbb7-4378-9506-0bd62648f388",
+      "status": "verified_fix_ready",
+      "evidence": "Smithsonian Archives individually identifies Stuyvesant and July 4, 1917 obstructing traffic prosecution. Contemporary Stevens appendix supports three-day sentence; no release inferred from sentence.",
+      "sources": [
+        "https://siarchives.si.edu/blog/suffrage-protest-smithsonian",
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "cba97385-9984-4099-9eea-de7d11c8e050",
+          "updates": {
+            "charges": "Obstructing traffic"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Joseph Henry Gumbiner",
+      "prisoner_id": "de202be0-83f7-44f1-841f-c697faf37168",
+      "status": "verified_fix_ready",
+      "evidence": "AJA dictionary gives September 4, 1906 birth; daughter-sourced obituary reports death Wednesday before March 27, 1993, meaning March 24.",
+      "sources": [
+        "https://www.americanjewisharchives.org/wp-content/uploads/g-aja-consice-dictionary.pdf",
+        "https://www.latimes.com/archives/la-xpm-1993-03-27-me-15609-story.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoners",
+          "id": "de202be0-83f7-44f1-841f-c697faf37168",
+          "updates": {
+            "birthdate": "1906-09-04",
+            "death_date": "1993-03-24"
+          },
+          "precision_merge": {
+            "birthdate": "day",
+            "death_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Betsy Graves Reyneau",
+      "prisoner_id": "d72ec80e-53bf-43c6-880a-485cac4700cc",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary Stevens appendix individually places Reyneau among July 14 prisoners. UW archival project identifies obstructing traffic as charge for that specific sixteen-person group; no other charges inferred.",
+      "sources": [
+        "https://www.gutenberg.org/cache/epub/3604/pg3604.html.utf8",
+        "https://depts.washington.edu/moves/NWP_project_ch3.shtml"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "927001cb-1210-4d03-b62c-496f8882035d",
+          "updates": {
+            "charges": "Obstructing traffic"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pat Lyons",
+      "prisoner_id": "0a2b427c-3891-499a-bd91-e2982bc6d850",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual UW Everett booking photograph inventory checked against Yale catalog. Existing age and November 5 arrest reviewed; no exact May release day or criminal sentence established. Yale alternate catalog spelling/age differences require original booking verso before changing identity or birthday.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mary Frances Berry",
+      "prisoner_id": "7c4163a9-ea2f-43fb-acd3-d6290f5ea07d",
+      "status": "verified_fix_ready",
+      "evidence": "Contemporary November 22 report places arrest the previous evening, specifically unlawful entry; movement historian records actual release November 22. Existing dates are one day early. No sentence imposed.",
+      "sources": [
+        "https://www.washingtonpost.com/archive/politics/1984/11/22/fauntroy-arrested-in-embassy/dd61f04e-3808-4cf4-8c5d-ec0043b7e7e5/",
+        "https://fpif.org/peoples-sanctions/"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "eafcf639-2c22-4b6d-bb79-05091ecb4850",
+          "updates": {
+            "arrest_date": "1984-11-21",
+            "incarceration_date": "1984-11-21",
+            "release_date": "1984-11-22",
+            "charges": "Unlawful entry"
+          },
+          "precision_merge": {
+            "arrest_date": "day",
+            "incarceration_date": "day",
+            "release_date": "day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "John Mitchell",
+      "prisoner_id": "3dab988e-9afa-4561-92a1-8906cebef14b",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual UW Everett booking photograph inventory checked against Yale catalog. Existing age and November 5 arrest reviewed; no exact May release day or criminal sentence established. Yale alternate catalog spelling/age differences require original booking verso before changing identity or birthday.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mike Roselle",
+      "prisoner_id": "b7a91aaa-8607-45f8-9430-233d83910d7f",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Reviewed individual memoir-related chronology and existing contemporary newspaper disagreement. Existing record already distinguishes initial bail from later custody. No independent discharge or precise birthday established; avoid recycling forecast June 1 as release.",
+      "sources": [
+        "https://theanarchistlibrary.org/library/martha-f-lee-earth-first-environmental-apocalypse.a4.pdf",
+        "https://progressive.org/magazine/if-compromising-disservice/"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "John Minor Botts",
+      "prisoner_id": "72f1ef07-d556-43d6-8aeb-8be37ce19ff5",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "National Park Service Auburn nomination corroborates existing March 2 arrest and April 29, 1862 release. Administrative detention had no trial or judicial sentence; blank sentence remains appropriate.",
+      "sources": [
+        "https://nara-media.s3.amazonaws.com/electronic-records/rg-079/NPS_VA/08000068.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Meredith Coleman Anding Jr.",
+      "prisoner_id": "ac5eb268-878f-431d-8615-51e34b1bb5c0",
+      "status": "verified_fix_ready",
+      "evidence": "Mississippi Freedom Trail marker names Anding among nine charged with breach of peace, convicted and given 30-day suspended sentences. Family researcher corroborates $100 fine. Preserve actual custody endpoints; suspended sentence is not time served.",
+      "sources": [
+        "https://mississippitoday.org/2017/08/17/freedom-trail-marker-notes-1961-jackson-library-sit-in/",
+        "https://betweenthegateposts.blogspot.com/2012/05/investigating-tougaloo-nine.html"
+      ],
+      "proposed_updates": [
+        {
+          "table": "prisoner_cases",
+          "id": "6796a882-9a5f-4441-8a81-25bd6b6c69d3",
+          "updates": {
+            "charges": "Breach of the peace",
+            "sentence": "Thirty days, suspended, and $100 fine"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Michael Roz",
+      "prisoner_id": "f1468a94-81b0-4ef8-a584-a576e6de6e43",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual Chicago arrest reconstructed from Free Society contemporary account in academic thesis; released without conviction. Existing September endpoint corroborated generally, no finer birthday or named formal charge established.",
+      "sources": [
+        "https://batadora.trentu.ca/_flysystem/fedora/2022-04/The_Anarchist_Periodical_Press_in_the_United_States_An_Intertextual_Study_of_Prison_Blossoms_Free_Society_and_The_Demonstrator.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Ethel Bernstein",
+      "prisoner_id": "85fa1586-0ff3-4669-9d24-43fcb974c272",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Primary deportee letter and scholarly biographical notes corroborate September 30 arrest and December 21, 1919 deportation already recorded. Later ten years in Soviet camp is separate foreign detention and cannot be U.S. sentence.",
+      "sources": [
+        "https://www.katesharpleylibrary.net/nzs8rv"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Laura Ruff-Saunders",
+      "prisoner_id": "a7d80648-d328-4ebc-9d24-37a7d065e25a",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual commemorative biography gives age 13 in 1963 and later Boston employment; no exact birth year independently determined from age alone. Administrative stockade confinement uncharged; do not invent charges.",
+      "sources": [
+        "https://www.docdroid.net/file/download/UTJqQVe/doc-3-pdf.pdf",
+        "https://www.govinfo.gov/content/pkg/CREC-2015-03-26/pdf/CREC-2015-03-26.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Peter Ackerberg",
+      "prisoner_id": "a9c00c0d-09d4-42f7-9749-656ccada798c",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual appellate petition identified, but host returns 403; existing sentence already cites reversed Thomas litigation. Cannot use general Freedom Rider charge without reading individual petition; no guessed endpoint from five days.",
+      "sources": [
+        "https://ldfrecollection.org/archives/archives-search/archives-item/0e2d5339-679e-490a-ac89-c54fd6982365/thomas-v-mississippi-petition-for-writ-of-certiorari"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Mattie Crittenden Reese",
+      "prisoner_id": "23190038-4e58-4ac8-8a6b-789104dc553c",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Congressional Record individually identifies deceased Mattie Crittenden, but no exact death year or day. Existing surname attribution and nearby similarly named obituary not used as identity proof. No charges for uncharged stockade detention.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CREC-2015-03-26/pdf/CREC-2015-03-26.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Alfred Howard",
+      "prisoner_id": "3e9ed30c-575a-43eb-9c84-6876b4a07790",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual UW Everett booking photograph inventory checked against Yale catalog. Existing age and November 5 arrest reviewed; no exact May release day or criminal sentence established. Yale alternate catalog spelling/age differences require original booking verso before changing identity or birthday.",
+      "sources": [
+        "https://depts.washington.edu/iww/faces_of_iww.shtml",
+        "https://ead-pdfs.library.yale.edu/11632.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "William Chaplin",
+      "prisoner_id": "2aae4b64-ecd6-408f-91b0-940cdfdbdf39",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Maryland State Archives original-case research notes identify DC Judge William Cranch and Maryland Chief Judge Dorsey plus Nicholas Brewer. Combined case spans two jurisdictions, so no single judge assigned. Official county marker says December 24 bail release, conflicting with existing December 19 and a secondary source January 1851; original linked December 19/23 newspapers required before replacing endpoint.",
+      "sources": [
+        "https://speccol.msa.maryland.gov/pages/speccol/unit.aspx?item=12&serno=34&speccol=5339&subitem=-1",
+        "https://montgomeryplanning.org/historic/newsletters/Preservationist%20Summer%2006.pdf"
+      ],
+      "proposed_updates": []
+    },
+    {
+      "name": "Robert Miller Baum",
+      "prisoner_id": "245ab797-f8a0-496f-b56c-3ce21948aba1",
+      "status": "reviewed_unresolved_no_change",
+      "evidence": "Individual MDAH/CRDL booking record confirms June 11 arrest, but catalog does not establish specific charge. Existing later conviction text lacks source in supplied record; no generic charge copied without underlying court record.",
+      "sources": [
+        "https://crdl.usg.edu/record/mus_sovcom_2-55-4-59-1-1-1"
+      ],
+      "proposed_updates": []
+    }
+  ],
+  "summary": {
+    "individually_reviewed": 33,
+    "profiles_with_proposed_updates": 12,
+    "live_mutations_by_agent": 0
+  }
+}
