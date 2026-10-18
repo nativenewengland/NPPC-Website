@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Nathan Baumann",
+      "slug": "nathan-baumann",
+      "expected": {
+        "id": "6e934bc1-0dfa-4cf5-b091-409f478e8796",
+        "prisoner_id": "30956339-1ac1-4d4b-a62b-46ca0f44098e",
+        "institution_id": null,
+        "charges": "Providing material support to terrorists (guilty plea)",
+        "arrest_date": "2025-07-04 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "2026-07-01 00:00:00",
+        "incarceration_date": "2025-07-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "22 months\n\nVerdict as recorded: Yes \u2014 pleaded guilty to providing material support to terrorists",
+        "imprisoned_for_days": 471,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-25 17:31:43",
+        "updated_at": "2026-10-18 00:00:22",
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"day\"}",
+        "judge": "Mark T. Pittman"
+      },
+      "source": "https://www.tpr.org/news/2026-07-01/ninth-prairieland-defendant-sentenced-to-50-years-in-prison-6-who-pleaded-guilty-get-2-9-years",
+      "research_note": "Contemporary July1,2026 KERA report by courtroom reporter, syndicated TPR, identifies actual sentencing that day and JudgeMarkPittman for Baumann. Refine existing July1storedmonthprecision to DAY and fill missing judge;22monthsentence already present. No release inferred from imposed sentence."
+    }
+  ]
+}
