@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-8 profiles updated live through batch1076;11 bounded reviews without additions;81 pending. Next unused batch1077. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+8 profiles updated live through batch1076;13 bounded reviews without additions;79 pending. Next unused batch1080. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -13,7 +13,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - John Otis Ellis — pending
 - Luis Galaraza — pending
 - Clark H. Getts — bounded_review_no_addition
-- Phillip Wallash — pending
+- Phillip Wallash — bounded_review_no_addition
 - Curtis Coggins — pending
 - John Katkus — bounded_review_no_addition
 - Albert Constant Belhomme — pending
@@ -91,7 +91,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Paul Redd — pending
 - Albert Lannon — pending
 - Benjamin Hanil Song — pending
-- Tony J. Adams — pending
+- Tony J. Adams — bounded_review_no_addition
 - Daniel Andreas San Diego — pending
 - Nazael Montalvo Rodríguez — pending
 - Harry L. Charles — pending
@@ -168,3 +168,9 @@ Bounded review: KQED August21,2026 sentencing report and existingcase describe30
 
 Batch1076: Church firsthand history PDFp10 explicitly dates bedside announcement of FrederickG.SampsonII death October10,2001. Samechurchhistoryp6-7 identifies prior MtLebanonLouisville pastor; CongressionalRecordOctober15,2001p20 tribute corroborates Detroitpastor/civilrightsleader and children. FrazierMuseum identifies LouisvilleMtLebanon1960-1971. Do not add DOB because1928publishedbiographies conflict1925genealogicalindex; no exactcustodyreleasefound.
 https://tmbcdetroit.org/images/History-of-Tabernacle.pdf#page=10
+
+## Phillip Wallash bounded review
+Bounded review: contemporary WRI roster reproduced in Azione Nonviolenta October-November1967 and CCCO News Notes identify Allenwood custody, but do not establish individual admission/release endpoints. May1969 Washington Free Press appearance lead is not an actual release date. Pennsylvania1956 death-index namesake excluded because he died before this imprisonment. No verified DOB, DOD or identified portrait found. https://www.azionenonviolenta.it/wp-content/uploads/Archivio%20Rivista/1967/N.%2010-11%20Ottobre-Novembre.pdf ; https://vva.vietnam.ttu.edu/images.php?img=%2Fimages%2F215%2F2150709021.pdf
+
+## Tony J. Adams bounded review
+Bounded review: downloaded original Official US Bulletin January23,1919, page2. Tony J. Adams appears in conscientious-objector clemency/discharge list following January4-5 board examinations. This is an order for immediate discharge, not proof of individual actual release that day; publication date is not incarceration or release. No verified DOB, DOD or identified portrait found. Modern namesakes excluded. https://www.worldwar1centennial.org/images/official-bulletin/pdf/19-01/3-519-january-23-1919-ww1-official-bulletin.pdf
