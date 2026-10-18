@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Timothy Reed",
+      "slug": "timothy-reed",
+      "expected": {
+        "id": "ee0b24ac-731f-4061-89b8-8d965a552721",
+        "prisoner_id": "468cc37a-3b5d-4242-a7e2-9efc6d6753fc",
+        "institution_id": "b250b4e4-dd72-4e06-b09a-90aab60df9fc",
+        "charges": "Armed Robbery",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1992-05-05 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Concurrent terms of up to twenty-five years imprisonment.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-05-10 06:33:15",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "plead": "Guilty — Ohio aggravated-robbery and drug-theft proceedings, 1982–1983"
+      },
+      "source": "https://caselaw.findlaw.com/court/nm-supreme-court/1454305.html",
+      "research_note": "Primary New Mexico Supreme Court Reed v. Ortiz (1997), paragraphs2 and78, expressly records guilty pleas to Ohio aggravated robbery/theft charges in1982 and1983. Added missing plea to existing Ohio case only; no exact first admission or sentence day inferred. Distinct 1996 New Mexico thirty-day detention already has exact endpoints and is not merged. Later Supreme Court reversal of extradition ruling does not change quoted Ohio plea history. Biographies and all populated dates preserved."
+    }
+  ]
+}
