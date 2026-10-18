@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "William Hightower",
+      "slug": "william-hightower",
+      "expected": {
+        "id": "55bdb5a0-beb7-4403-9b2b-9618689265c2",
+        "prisoner_id": "a7f80a57-24d9-4114-a14e-de1d67399eea",
+        "institution_id": "28aeb82a-1576-4f96-8f18-9bfcddcde75d",
+        "charges": "Indicted for murder in the Harlan County coal war.",
+        "arrest_date": "1931-05-14 00:00:00",
+        "indicted": null,
+        "convicted": "Convicted of murder and sentenced to life imprisonment.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1931-05-14 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life imprisonment; pardoned by Governor Ruby Laffoon in 1935.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 22:29:28",
+        "updated_at": "2026-10-12 18:07:14",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1932-01-14 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "source": "https://newspapers.swco.ttu.edu/server/api/core/bitstreams/7115a7a2-8072-47cb-a710-603f8503f2f3/content",
+      "research_note": "ContemporaryJanuary14,1932PampaDailyNewsfrontpageAPMountSterlingdateline saysjuryconvictedHightowertodayandfixedsentenceatlife;independentsamedayBigSpringDailyHeraldAPreport saysconvictedandgivenlifeterm. AddsentenceDAYJanuary14,1932. Do notcopyWilliamBJonesrelease or1935pardonyearasindividualreleaseday."
+    }
+  ]
+}
