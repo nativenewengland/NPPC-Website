@@ -2,7 +2,7 @@
 
 Sample:100 existing profiles;55 not present in earlier saved round samples and45 repeat candidates. Seed NPPC-round93-20261017. Live snapshot selected October17,2026 Eastern time.
 
-6 profiles updated live through batch1070;9 bounded reviews without additions;85 pending. Next unused batch1071. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
+7 profiles updated live through batch1075;9 bounded reviews without additions;84 pending. Next unused batch1076. Selection includes open cases and exile records whose missing release/incarceration dates may be appropriate. No dates will be fabricated to fill these fields.
 
 - Joe Leggens — pending
 - John Berry — bounded_review_no_addition
@@ -25,7 +25,7 @@ Sample:100 existing profiles;55 not present in earlier saved round samples and45
 - Joan Hardy — verified_addition_live_batch1066
 - Art Laffin — bounded_review_no_addition
 - Tommye Williams — pending
-- Nathan Baumann — pending
+- Nathan Baumann — verified_addition_live_batch1075
 - Elizabeth Soto — pending
 - Frank Guido — pending
 - Milan Resetar — pending
@@ -156,3 +156,6 @@ Bounded review: firsthand movement chronology confirms March6,1990 sixty-day sen
 
 ## Jeff Keith existing update verification
 Original January2007 FriendsJournal PDFpage36 checked and fresh live readback confirms April1965 incarceration/May1966 release MONTH already applied by batch970 before this review. No duplicate update counted. Counter absence separately diagnosed: live PartialImprisonmentDuration estimate returns null and exact summary excludes partial dates; do not manufacture exact days to force counter. Missing exact arrest, admission and release days remain unresolved.
+
+Batch1075 NathanBaumann: Contemporary July1,2026 KERA report by courtroom reporter, syndicated TPR, identifies actual sentencing that day and JudgeMarkPittman for Baumann. Refine existing July1storedmonthprecision to DAY and fill missing judge;22monthsentence already present. No release inferred from imposed sentence.
+https://www.tpr.org/news/2026-07-01/ninth-prairieland-defendant-sentenced-to-50-years-in-prison-6-who-pleaded-guilty-get-2-9-years
