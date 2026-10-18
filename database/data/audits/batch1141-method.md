@@ -1,0 +1,3 @@
+# Source verification follow-up
+
+Reviewed the17exceptions from the completed1,140-field text review. Resolved16with source checks or clear text normalization; preserve conflicting sentence figures in concise qualified form. John Letbig remains unchanged: source fragment One yea and is incomplete and identifying him with John Liebig in a different list is not sufficiently secure. No guessed missing day, fine or sentence unit. Original text and sources are retained in the audit only; add nothing to notes. Only sentence fields change; all other fields, including dates, counters and charges remain untouched. Jay Fox existing custody dates appear to mix a different1901episode; that issue is documented internally and is outside this sentence-only cleanup.
