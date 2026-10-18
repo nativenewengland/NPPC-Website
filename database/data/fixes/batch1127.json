@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Solomon Harper",
+      "slug": "solomon-harper",
+      "expected": {
+        "id": "5c4da17d-f8ee-4f8a-876d-c36b162f1427",
+        "prisoner_id": "e607b0fd-620c-46dc-83ba-10954d2f8c8e",
+        "institution_id": null,
+        "charges": "Inciting to riot and disorderly conduct after speaking against lynching at a Brotherhood of Sleeping Car Porters meeting.",
+        "arrest_date": "1930-04-01 00:00:00",
+        "indicted": null,
+        "convicted": "Jailed, 1930",
+        "plead": null,
+        "sentenced_date": "1930-04-18 00:00:00",
+        "incarceration_date": "1930-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months in jail following the anti-lynching speech prosecution.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-03 21:17:24",
+        "updated_at": "2026-10-18 08:50:54",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"year\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1930-04-18 00:00:00",
+        "release_date": "1930-07-17 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "source": "Explicit user direction: use sentencing as incarceration and release90days later.",
+      "research_note": "User-directed dates, not independently documented physical admission/release. Calendar addition April18+90days=July17,1930. Earlier discovered July4 DailyWorker release report may conflict; user requests calculated endpoint. Preserve biography and other fields."
+    }
+  ]
+}
