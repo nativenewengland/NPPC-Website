@@ -1,0 +1,41 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Seamus Moley",
+      "slug": "seamus-moley",
+      "expected": {
+        "id": "83662021-f207-48b8-933f-52c66ae44a33",
+        "prisoner_id": "f0d63253-b9d3-4495-be9b-82487baf9c71",
+        "institution_id": null,
+        "charges": "Conspiracy to obtain and export a Stinger missile and other weapons.",
+        "arrest_date": "1990-01-12 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1991-06-07 00:00:00",
+        "incarceration_date": "1990-01-12 00:00:00",
+        "release_date": "1996-07-15 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Fifty-one months; sentences vacated and resentencing ordered.",
+        "imprisoned_for_days": 2376,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-14 00:10:48",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "judge": "Jose A. Gonzalez; Norman C. Roettger"
+      },
+      "source": "https://law.justia.com/cases/federal/appellate-courts/F2/995/1020/66559/",
+      "research_note": "Published appellate opinion identifies Gonzalez as trial judge and Roettger as the judge imposing the June 7, 1991 sentence. No new custody endpoint inferred."
+    }
+  ]
+}
