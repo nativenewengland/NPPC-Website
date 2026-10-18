@@ -1,0 +1,400 @@
+{
+  "batch": 1201,
+  "profiles_updated": 8,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1201-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "8ec5752d-2839-445b-a8fb-97648eaf418a",
+      "name": "Carmen Trotta",
+      "changes": {
+        "arrest_date": [
+          "2018-04-03 00:00:00",
+          "2018-04-05"
+        ],
+        "incarceration_date": [
+          "2018-04-03 00:00:00",
+          "2018-04-05"
+        ],
+        "release_date": [
+          "2021-11-22 00:00:00",
+          "2021-05-27"
+        ],
+        "sentence": [
+          "Fourteen months in federal prison for the Kings Bay Plowshares action.",
+          "Fourteen months in prison"
+        ],
+        "imprisoned_for_days": [
+          1329,
+          213
+        ],
+        "updated_at": [
+          "2026-10-16 20:14:00",
+          "2026-10-18 23:28:55"
+        ],
+        "date_precision": [
+          "{\"sentenced_date\":\"day\"}",
+          "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+        ],
+        "custody_periods": [
+          null,
+          "[{\"start\":\"2018-04-05\",\"end\":\"2018-05-24\"},{\"start\":\"2020-12-14\",\"end\":\"2021-05-27\"}]"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "bb229e51-4458-4138-b5da-2b813a873438",
+      "name": "Stephen Funk",
+      "changes": {
+        "description": [
+          "Lance Corporal Stephen Funk was the first U.S. service member to publicly refuse to participate in the Iraq War. A Marine Corps reservist, he failed to report when his unit was activated in February 2003 and held a press conference in San Francisco announcing his refusal on conscientious-objector grounds. He was court-martialed at Camp Pendleton in September 2003, convicted of unauthorized absence, and sentenced to six months in the brig, hard labor, forfeiture of pay, and a bad-conduct discharge. His public refusal helped catalyze the wider Iraq War resistance movement among U.S. service members.",
+          "Lance Corporal Stephen Funk was the first U.S. service member to publicly refuse to participate in the Iraq War. A Marine Corps reservist, he failed to report when his unit was activated in February 2003 and held a press conference in San Francisco announcing his refusal on conscientious-objector grounds. He was court-martialed in New Orleans in September 2003, convicted of unauthorized absence, and sentenced to six months in the brig, hard labor, forfeiture of pay, and a bad-conduct discharge. His public refusal helped catalyze the wider Iraq War resistance movement among U.S. service members. He was imprisoned at the Camp Lejeune brig in North Carolina and released on February 4, 2004."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3cb5a92c-c3ab-4b9a-9d68-30e0334ff2d4",
+      "name": "Stephen Funk",
+      "changes": {
+        "arrest_date": [
+          "2003-03-31 00:00:00",
+          "2003-04-01"
+        ],
+        "incarceration_date": [
+          "2003-03-31 00:00:00",
+          "2003-09-01"
+        ],
+        "imprisoned_for_days": [
+          310,
+          null
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:28:55"
+        ],
+        "date_precision": [
+          "{\"sentenced_date\":\"day\",\"release_date\":\"day\"}",
+          "{\"sentenced_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"month\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "56905ded-f15d-4a9b-999f-a1904bbc286c",
+      "name": "Brian Terrell",
+      "changes": {
+        "charges": [
+          "Trespass — line-crossing at Whiteman Air Force Base in protest of U.S. drone warfare; multiple subsequent drone-protest arrests",
+          "Trespass on a military installation"
+        ],
+        "arrest_date": [
+          "2012-04-14 00:00:00",
+          "2012-04-15"
+        ],
+        "incarceration_date": [
+          "2012-04-14 00:00:00",
+          "2012-11-30"
+        ],
+        "release_date": [
+          "2013-05-29 00:00:00",
+          "2013-05-24"
+        ],
+        "sentence": [
+          "6 months federal prison for the 2012 Whiteman action; cumulative weeks across many subsequent arrests",
+          "Six months in federal prison"
+        ],
+        "imprisoned_for_days": [
+          410,
+          175
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:28:55"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "a1c8227a-5048-4231-9dd2-acd6d7349651",
+      "name": "Mary Anne Grady-Flores",
+      "changes": {
+        "description": [
+          "Mary Anne Grady-Flores is an Ithaca Catholic Worker, photographer, and one of three Grady sisters (with Clare Grady and Teresa Grady) who have been central to the U.S. anti-drone movement at Hancock Field Air National Guard Base in upstate New York — the home of the 174th Attack Wing, which pilots Reaper drones over Afghanistan. She was sentenced to one year in the Onondaga County Justice Center in 2016 for re-entering the base in violation of an Order of Protection that the base commander had obtained against her, after she refused to sign a guilty plea that would have required her to stop her drone-protest work.\n\nMary Anne Grady Flores is a grandmother and peace activist from Ithaca, New York who was imprisoned for protesting U.S. drone warfare at Hancock Air National Guard Base in DeWitt, New York — a facility that trains drone pilots and coordinates drone surveillance and strikes in Afghanistan. Prosecutors employed an unusual legal tactic against her and roughly 30 other activists: an Order of Protection ordinarily used in domestic violence cases, which named base commander Col. Earl A. Evans as the designated \"victim\" and barred the activists from approaching the base. Grady Flores was the first protester sentenced under this instrument. In July 2014, Judge David Gideon sentenced her to one year in prison — overriding the prosecution's own recommendation against incarceration, citing her role as primary caregiver for her elderly mother. She was released on bond pending appeal. In January 2016, an appellate court upheld her conviction but reduced the sentence to six months, and she was immediately handcuffed in the courtroom and transferred to Jamesville Correctional Facility in East Syracuse. The New York Court of Appeals subsequently ordered her release on $5,000 bail while her appeal continued.",
+          "Mary Anne Grady-Flores is an Ithaca Catholic Worker, photographer, and anti-drone activist. Police arrested her on February 13, 2013 while she photographed a protest at Hancock Field Air National Guard Base near Syracuse, New York. She was convicted of criminal contempt for violating an order of protection issued on behalf of base commander Col. Earl Evans. Judge David Gideon sentenced her to one year in jail and a $1,000 fine on July 10, 2014. She was released on bail on July 17 while she appealed. After the jail term was reduced to six months, she returned to custody on January 19, 2016. She was released again on March 7, 2016 pending further appeal."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "af821443-35c4-4ac9-bb7d-8c6317f4f7ba",
+      "name": "Mary Anne Grady-Flores",
+      "changes": {
+        "charges": [
+          "Criminal contempt of court — re-entering Hancock Field Air National Guard Base in violation of an Order of Protection",
+          "Criminal contempt of court"
+        ],
+        "arrest_date": [
+          "2014-02-11 00:00:00",
+          "2013-02-13"
+        ],
+        "sentenced_date": [
+          null,
+          "2014-07-10"
+        ],
+        "incarceration_date": [
+          "2014-02-11 00:00:00",
+          "2014-07-10"
+        ],
+        "release_date": [
+          "2016-07-18 00:00:00",
+          "2016-03-07"
+        ],
+        "sentence": [
+          "1 year in Onondaga County Justice Center; served 6 months",
+          "One year in jail and a $1,000 fine; jail term reduced on appeal to six months"
+        ],
+        "imprisoned_for_days": [
+          888,
+          55
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-18 23:28:55"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ],
+        "custody_periods": [
+          null,
+          "[{\"start\":\"2014-07-10\",\"end\":\"2014-07-17\"},{\"start\":\"2016-01-19\",\"end\":\"2016-03-07\"}]"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "7d1580b3-7d6d-4c7b-9b8c-6e5ee748f213",
+      "name": "Mary Anne Grady-Flores",
+      "changes": {
+        "charges": [
+          "Violation of an Order of Protection (naming base commander Col.",
+          "Criminal contempt of court"
+        ],
+        "arrest_date": [
+          "2013-01-01 00:00:00",
+          "2013-02-13"
+        ],
+        "sentenced_date": [
+          null,
+          "2014-07-10"
+        ],
+        "incarceration_date": [
+          "2016-01-19 00:00:00",
+          "2014-07-10"
+        ],
+        "release_date": [
+          "2016-07-19 00:00:00",
+          "2016-03-07"
+        ],
+        "sentence": [
+          "Originally 1 year (2014); reduced to 6 months on appeal (2016); released on bail by NY Court of Appeals pending further appeal",
+          "One year in jail and a $1,000 fine; jail term reduced on appeal to six months"
+        ],
+        "imprisoned_for_days": [
+          182,
+          55
+        ],
+        "updated_at": [
+          "2026-07-29 17:12:18",
+          "2026-10-18 23:28:55"
+        ],
+        "date_precision": [
+          "{\"release_date\":\"day\"}",
+          "{\"release_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ],
+        "custody_periods": [
+          null,
+          "[{\"start\":\"2014-07-10\",\"end\":\"2014-07-17\"},{\"start\":\"2016-01-19\",\"end\":\"2016-03-07\"}]"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "c5528b68-b619-43b3-8637-7aa2c72b5484",
+      "name": "Summer Nelson",
+      "changes": {
+        "description": [
+          "Summer Nelson crossed the line at Fort Benning, Georgia during the November 2001 SOA Watch vigil to close the U.S. Army School of the Americas / WHINSEC. Sentenced to 6 months in federal custody.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass.",
+          "Summer Nelson crossed the line at Fort Benning, Georgia during the November 2001 SOA Watch vigil to close the U.S. Army School of the Americas / WHINSEC. Sentenced to three months in federal prison and a $500 fine.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "6575ecc1-0757-4039-a3dc-459fa77318a9",
+      "name": "Summer Nelson",
+      "changes": {
+        "sentence": [
+          "Three months in federal prison and a $500 fine",
+          "Three months in prison and a $500 fine"
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:15",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "00916e4c-2ddd-494d-9c7a-09193d4b76f8",
+      "name": "Judith Kelly",
+      "changes": {
+        "description": [
+          "Judith Kelly crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to 6 months.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass.",
+          "Judith Kelly crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to three months in prison and a $1,000 fine.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass."
+        ],
+        "updated_at": [
+          "2026-10-10 03:22:02",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "7809faf7-6666-4449-91bb-eb20b2b918ca",
+      "name": "Judith Kelly",
+      "changes": {
+        "sentence": [
+          "6 months",
+          "Three months in prison and a $1,000 fine"
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:15",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "4502d336-c8cf-4d1e-9e84-7dd51e18929e",
+      "name": "Laura Slattery",
+      "changes": {
+        "description": [
+          "Laura Slattery crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to 6 months.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass.",
+          "Laura Slattery crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to three months in prison and a $1,000 fine.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "3e5ba66d-d3e1-4e6b-8af1-f08afaf23d28",
+      "name": "Laura Slattery",
+      "changes": {
+        "sentence": [
+          "6 months",
+          "Three months in prison and a $1,000 fine"
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:15",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoners",
+      "id": "dc1a3ddf-7a5f-46ad-909a-23e68d4be492",
+      "name": "Sonja Andreas",
+      "changes": {
+        "description": [
+          "Sonja Andreas crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to 6 months.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass.",
+          "Sonja Andreas crossed the line at Fort Benning, Georgia during an SOA Watch vigil. Sentenced to three months in prison and a $1,000 fine.\n\nEach year on the November anniversary of the assassination of six Jesuits, their housekeeper, and her daughter at the University of Central America in San Salvador in 1989, peace activists gather at the gates of Fort Benning, Georgia, site of the U.S. Army School of the Americas / Western Hemisphere Institute for Security Cooperation (WHINSEC), to commemorate the dead and to call for the school's closure. Hundreds have crossed the line onto the base over four decades of vigils; many have served federal sentences ranging from 30 days to a year for trespass."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "0af88835-4a43-41b5-b0f4-46240285390f",
+      "name": "Sonja Andreas",
+      "changes": {
+        "sentence": [
+          "6 months",
+          "Three months in prison and a $1,000 fine"
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:15",
+          "2026-10-18 23:28:55"
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "slug": "carmen-trotta",
+      "http": 200,
+      "counter": "6 Months 30 Days"
+    },
+    {
+      "slug": "stephen-funk",
+      "http": 200,
+      "counter": "5 Months"
+    },
+    {
+      "slug": "brian-terrell",
+      "http": 200,
+      "counter": "6 Months 6 Days"
+    },
+    {
+      "slug": "mary-anne-grady-flores",
+      "http": 200,
+      "counter": "1 Month 25 Days"
+    },
+    {
+      "slug": "summer-nelson",
+      "http": 200,
+      "counter": "10 Months 19 Days"
+    },
+    {
+      "slug": "judith-kelly",
+      "http": 200,
+      "counter": "8 Months 8 Days"
+    },
+    {
+      "slug": "laura-slattery",
+      "http": 200,
+      "counter": "8 Months 7 Days"
+    },
+    {
+      "slug": "sonja-andreas",
+      "http": 200,
+      "counter": "8 Months 15 Days"
+    }
+  ]
+}
