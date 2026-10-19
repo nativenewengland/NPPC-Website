@@ -1,0 +1,86 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Burk",
+      "expected": {
+        "id": "3fec9f26-a0b9-4daf-9665-27087bfb3ca2",
+        "prisoner_id": "959aceb2-3dbc-46d1-9100-2d4998fa7ede",
+        "institution_id": null,
+        "charges": "Insulting an alderman and threatening a constable",
+        "arrest_date": "1795-11-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two months\u2019 imprisonment; actual time served unresolved",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:52",
+        "updated_at": "2026-09-23 20:18:52",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1795-11-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "sentence": "Two months"
+      },
+      "sources": [
+        "https://erenow.org/modern/gotham-history-of-new-york-city-to-1898/22.php",
+        "https://undpress.nd.edu/9780268105754/the-unstoppable-irish/"
+      ],
+      "research_note": "Gotham describes mid-November1795 arrest followed immediately by Bridewell confinement and twelve days before trial; Notre Dame University Press book excerpt corroborates November arrest, imprisonment sentences and subsequent escape. Add November month start only; do not backcalculate an exact admission, infer escape date, use two-month sentence as time served, or record pretrial12days as total. Sentence field reduced to sentence alone. Biography and notes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Timothy Crady",
+      "expected": {
+        "id": "1b122792-699c-4022-bf99-6d3514413cd7",
+        "prisoner_id": "2b8f0405-89f0-4374-9757-66789801a67b",
+        "institution_id": null,
+        "charges": "Insulting an alderman and threatening a constable",
+        "arrest_date": "1795-11-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Two months\u2019 imprisonment; twenty lashes; actual time served unresolved",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:52",
+        "updated_at": "2026-09-23 20:18:52",
+        "date_precision": "{\"arrest_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1795-11-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "sentence": "Two months; twenty lashes"
+      },
+      "sources": [
+        "https://erenow.org/modern/gotham-history-of-new-york-city-to-1898/22.php",
+        "https://undpress.nd.edu/9780268105754/the-unstoppable-irish/"
+      ],
+      "research_note": "Gotham describes mid-November1795 arrest followed immediately by Bridewell confinement and twelve days before trial; Notre Dame University Press book excerpt corroborates November arrest, imprisonment sentences and subsequent escape. Add November month start only; do not backcalculate an exact admission, infer escape date, use two-month sentence as time served, or record pretrial12days as total. Sentence field reduced to sentence alone. Biography and notes preserved."
+    }
+  ]
+}
