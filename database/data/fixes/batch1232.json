@@ -1,0 +1,48 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Samuel Ely",
+      "expected": {
+        "id": "e02284a1-37b7-4f7b-9395-e35798c4c703",
+        "prisoner_id": "733a1e9b-ee65-468f-8b6f-3af87fd7072d",
+        "institution_id": null,
+        "charges": "Court obstruction and disturbances associated with the 1782 Massachusetts protests",
+        "arrest_date": "1782-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1782-01-01 00:00:00",
+        "incarceration_date": "1782-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Six months; interrupted by a jailbreak, actual time served unresolved",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:51",
+        "updated_at": "2026-09-23 20:18:52",
+        "date_precision": "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1782-04-01 00:00:00",
+        "incarceration_date": "1782-04-01 00:00:00",
+        "release_date": "1782-06-12 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"sentenced_date\":\"year\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://whatelyhistorical.org/wp-content/uploads/2019/05/Temple_history.pdf",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/gazetteerofhamps00gayw/gazetteerofhamps00gayw_bw.pdf",
+        "https://archives.lib.state.ma.us/bitstream/handle/2452/849821/ocn475035615.pdf?isAllowed=y&sequence=1",
+        "https://upload.wikimedia.org/wikipedia/commons/8/88/Massachusetts_soldiers_and_sailors_of_the_revoluntionary_war._A_compilation_from_the_archives_%28IA_cu31924092740079%29.pdf"
+      ],
+      "research_note": "Temple, History of Whately pp.156-157 and Gazetteer of Hampshire County p.101 place arrest, guilty plea and Springfield imprisonment in April1782. Exact admission day not established: month precision only. Massachusetts Soldiers and Sailors official archival compilation, John Morgan Jr militia service entry, states Ely rescued Springfield jail June12,1782, corroborated state-library compilation. Some later retellings say June13; retain official archival date. Existing schema release_date records any custody end including escape. Six-month sentence not treated as actual term. Separate later confinement unresolved. No biography or notes changed."
+    }
+  ]
+}
