@@ -1,0 +1,86 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Henry McCulloch",
+      "expected": {
+        "id": "bfb3b364-e402-4eff-80a2-4af69e18e33b",
+        "prisoner_id": "7a650251-5377-4370-9833-696cd854444a",
+        "institution_id": null,
+        "charges": "High treason",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1787-04-22 00:00:00",
+        "incarceration_date": "1787-02-01 00:00:00",
+        "release_date": "1788-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Convicted of high treason April 22, 1787; sentenced to death, later reprieved and pardoned",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1787-09-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.shaysrebellion.stcc.edu/shaysapp/artifact9188.html?shortName=mcculloch_pardon",
+        "https://www.shaysrebellion.stcc.edu/shaysapp/person228d.html?shortName=henry_mcculloch",
+        "https://paperzz.com/doc/8057760/the-following-excerpt--pages-294-501--has-been"
+      ],
+      "research_note": "Pelham history reproduces September 12, 1787 pardon and explicitly describes both men set at liberty; STCC corroborates release order and subsequent return home. Store September at month precision, not the pardon day as an exact physical release day. Existing February admission remains under review, especially McCulloch whose STCC narrative describes surrender a month after February 3. No biography or case note changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jason Parmenter",
+      "expected": {
+        "id": "39370952-9820-4a45-a694-3456039131d4",
+        "prisoner_id": "f43a20d7-79e9-4d2c-8499-698860c024e0",
+        "institution_id": null,
+        "charges": "High treason",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "1787-04-09 00:00:00",
+        "incarceration_date": "1787-02-01 00:00:00",
+        "release_date": "1788-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Convicted of high treason April 9, 1787; sentenced to death, later reprieved and pardoned",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1787-09-01 00:00:00",
+        "date_precision": "{\"sentenced_date\":\"day\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.shaysrebellion.stcc.edu/shaysapp/artifact9188.html?shortName=mcculloch_pardon",
+        "https://www.shaysrebellion.stcc.edu/shaysapp/person228d.html?shortName=henry_mcculloch",
+        "https://paperzz.com/doc/8057760/the-following-excerpt--pages-294-501--has-been"
+      ],
+      "research_note": "Pelham history reproduces September 12, 1787 pardon and explicitly describes both men set at liberty; STCC corroborates release order and subsequent return home. Store September at month precision, not the pardon day as an exact physical release day. Existing February admission remains under review, especially McCulloch whose STCC narrative describes surrender a month after February 3. No biography or case note changes."
+    }
+  ]
+}
