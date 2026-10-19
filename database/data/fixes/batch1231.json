@@ -1,0 +1,47 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Job Shattuck",
+      "expected": {
+        "id": "14be0577-4552-4fa2-8715-ec168bc99c7b",
+        "prisoner_id": "782e4ca1-7142-44ef-b415-5d0e3e7498c6",
+        "institution_id": null,
+        "charges": "Treason \u2014 for leading Shays\u2019 Rebellion farmers in the Massachusetts uprising.",
+        "arrest_date": "1786-11-01 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1787-05-09 00:00:00",
+        "incarceration_date": "1786-11-01 00:00:00",
+        "release_date": "1787-04-06 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death; pardoned.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-10-18 05:46:48",
+        "date_precision": "{\"arrest_date\":\"month\",\"release_date\":\"day\",\"incarceration_date\":\"month\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1786-11-30 00:00:00",
+        "incarceration_date": "1786-11-30 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"incarceration_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.masshist.org/beehiveblog/2022/05/shays-rebellion-just-cause-or-just-a-nuisance-part-two/",
+        "https://en.wikipedia.org/wiki/Job_Shattuck",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4d/Groton_historical_series._A_collection_of_papers_relating_to_the_history_of_the_town_of_Groton%2C_Massachusetts_%28IA_cu31924092219876%29.pdf",
+        "https://shaysrebellion.stcc.edu/shaysapp/artifactPagef9e2.html?page=back&shortName=executionorder_shattuck8may87"
+      ],
+      "research_note": "November30,1786 capture and physical custody; transported to Boston jail December1. Custody begins at capture, not later jail transfer. Groton Historical Series confirms bail release April6,1787, retained; STCC execution-order exhibit confirms pretrial bail. Do not extend to September pardon. Biography and notes preserved. Later trial custody not asserted continuous."
+    }
+  ]
+}
