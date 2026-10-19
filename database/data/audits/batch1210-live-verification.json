@@ -1,0 +1,66 @@
+{
+  "batch": 1210,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1210-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "4d67115e-6582-48d2-ad56-debdee4cc17e",
+      "name": "D. M. Bennett",
+      "changes": {
+        "description": [
+          "D. M. Bennett was the founder and publisher of Truth Seeker, one of the oldest magazines in America currently being published. Bennet was arrested in 1878 on charges of mailing obscenity after he published a pamphlet written by Angela Heywood which advocated for women being allowed to divorce their husbands. He was convicted of this offense and sentenced to 13 months of hard labor. Despite over 200,000 signing a petition calling on his release he served his entire sentence and died soon after leaving prison.",
+          "D. M. Bennett founded and published The Truth Seeker, a freethought newspaper. Anthony Comstock prosecuted him for mailing Cupid’s Yokes, a pamphlet by Ezra Heywood criticizing marriage and advocating sexual freedom. Bennett was convicted in 1879 and sentenced to thirteen months at hard labor and a $300 fine. His imprisonment at Albany Penitentiary prompted a major campaign for a presidential pardon. He was released on April 29, 1880 and resumed publishing. He died in 1882."
+        ],
+        "updated_at": [
+          "2026-08-14 10:23:23",
+          "2026-10-19 00:01:22"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "46fa9c76-1f0a-42d6-a77b-dcb819d5258a",
+      "name": "D. M. Bennett",
+      "changes": {
+        "sentenced_date": [
+          "1879-03-20 00:00:00",
+          "1879-06-05"
+        ],
+        "incarceration_date": [
+          "1879-03-20 00:00:00",
+          null
+        ],
+        "release_date": [
+          "1880-04-28 00:00:00",
+          "1880-04-29"
+        ],
+        "sentence": [
+          null,
+          "13 months at hard labor; $300 fine"
+        ],
+        "imprisoned_for_days": [
+          405,
+          null
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:17",
+          "2026-10-19 00:01:22"
+        ],
+        "date_precision": [
+          "{\"arrest_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "url": "https://politicalprisonercoalition.org/prisoner/d-m-bennett?custody_audit=1210",
+      "status": 200,
+      "counters": []
+    }
+  ]
+}

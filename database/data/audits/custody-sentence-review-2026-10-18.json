@@ -1,12 +1,12 @@
 {
   "scope": 210,
-  "profiles_changed_live": 28,
+  "profiles_changed_live": 32,
   "status_counts": {
-    "verified_correction_applied": 21,
+    "verified_correction_applied": 24,
     "scan_false_positive": 63,
-    "source_verification_pending": 116,
-    "custody_corrected_further_case_review": 3,
-    "scan_false_positive_further_review": 3,
+    "source_verification_pending": 111,
+    "custody_corrected_further_case_review": 4,
+    "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 4
   },
   "complete": false,
@@ -603,9 +603,37 @@
           "excess_minimum_days": 1799
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Source-backed corrections applied live; details and preservation checks in numbered batch audits.",
+      "live_changes": [
+        {
+          "batch": 1208,
+          "table": "prisoner_cases",
+          "fields": [
+            "release_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+            "https://irp.fas.org/threat/fbi_terror95/terrorin.htm",
+            "https://app.midpage.ai/opinion/608967/united-states-v-kevin-mckinley-seamus-moley-joseph-mccolgan/"
+          ],
+          "research_note": "Irish Department of Foreign Affairs contemporary September1996 briefing explicitly identifies actual release/deportation July17 (not July15). FBI1995 annual report establishes June30 second sentence; 1993 appellate opinion confirms separate 1991 51-month sentence and vacatur. Biography conflated proceedings. Do not compare whole custody period against only the nineteen-month component or manufacture an endpoint from sentence."
+        },
+        {
+          "batch": 1208,
+          "table": "prisoners",
+          "fields": [
+            "description"
+          ],
+          "sources": [
+            "https://cain.ulster.ac.uk/nai/1996/nai_DFA-2021-50-303_1996-09-03.pdf",
+            "https://irp.fas.org/threat/fbi_terror95/terrorin.htm",
+            "https://app.midpage.ai/opinion/608967/united-states-v-kevin-mckinley-seamus-moley-joseph-mccolgan/"
+          ],
+          "research_note": "Irish Department of Foreign Affairs contemporary September1996 briefing explicitly identifies actual release/deportation July17 (not July15). FBI1995 annual report establishes June30 second sentence; 1993 appellate opinion confirms separate 1991 51-month sentence and vacatur. Biography conflated proceedings. Do not compare whole custody period against only the nineteen-month component or manufacture an endpoint from sentence."
+        }
+      ]
     },
     {
       "index": 17,
@@ -1106,9 +1134,41 @@
           "excess_minimum_days": 8
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "custody_corrected_further_case_review",
+      "finding": "Sentence, actual release date and biography corrected; unsupported continuous prison start removed. Actual admission and earlier bail/jail intervals still need verification. Contemporary June5 sentencing conflicts with abbreviated secondary conviction/sentence chronology.",
+      "live_changes": [
+        {
+          "batch": 1210,
+          "table": "prisoner_cases",
+          "fields": [
+            "sentence",
+            "release_date",
+            "sentenced_date",
+            "date_precision",
+            "incarceration_date",
+            "imprisoned_for_days"
+          ],
+          "sources": [
+            "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html",
+            "https://historynet.com/american-biography-d-m-bennett/",
+            "https://www.thefire.org/sites/default/files/2024/06/FIRE%20Petition%20for%20Posthumous%20Pardon%20of%20D.M.%20Bennett%2C%20June%2017%2C%202024.pdf"
+          ],
+          "research_note": "Contemporary June5,1879 Brooklyn newspaper transcription explicitly reports sentencing that morning, distinguishing March conviction from later sentence. Biographer Roderick Bradford explicitly dates actual release April29,1880; former April28 is unsupported. Pardon petition confirms Cupid’s Yokes and Ezra Heywood authorship, thirteen-month hard-labor sentence. Do not repeat false Angela Heywood attribution or claim full sentence actually served. Actual admission and possible earlier jail/bail intervals remain unresolved: inherited March20 prison start deliberately not relabeled as verified. Clear the unsupported March20 admission and derived405-day total because verified later public appearance and sentencing chronology rule out treating that spring-to-release span as continuous custody. Do not substitute sentencing date for admission."
+        },
+        {
+          "batch": 1210,
+          "table": "prisoners",
+          "fields": [
+            "description"
+          ],
+          "sources": [
+            "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html",
+            "https://historynet.com/american-biography-d-m-bennett/",
+            "https://www.thefire.org/sites/default/files/2024/06/FIRE%20Petition%20for%20Posthumous%20Pardon%20of%20D.M.%20Bennett%2C%20June%2017%2C%202024.pdf"
+          ],
+          "research_note": "Contemporary June5,1879 Brooklyn newspaper transcription explicitly reports sentencing that morning, distinguishing March conviction from later sentence. Biographer Roderick Bradford explicitly dates actual release April29,1880; former April28 is unsupported. Pardon petition confirms Cupid’s Yokes and Ezra Heywood authorship, thirteen-month hard-labor sentence. Do not repeat false Angela Heywood attribution or claim full sentence actually served. Actual admission and possible earlier jail/bail intervals remain unresolved: inherited March20 prison start deliberately not relabeled as verified. Clear the unsupported March20 admission and derived405-day total because verified later public appearance and sentencing chronology rule out treating that spring-to-release span as continuous custody. Do not substitute sentencing date for admission."
+        }
+      ]
     },
     {
       "index": 30,
@@ -1143,9 +1203,12 @@
           "excess_minimum_days": 195
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "scan_false_positive_further_review",
+      "finding": "Jefferson actual pardon dated March12,1801 explicitly confirms imprisonment beyond eighteen-month term because unpaid fine. Do not cap custody at nominal term. Duplicate rows and exact physical release after pardon still require reconciliation.",
+      "live_changes": [],
+      "research_sources": [
+        "https://www.presidency.ucsb.edu/documents/pardon-for-david-brown"
+      ]
     },
     {
       "index": 31,
@@ -1238,9 +1301,30 @@
           "excess_minimum_days": 104
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Source-backed corrections applied live; details and preservation checks in numbered batch audits.",
+      "live_changes": [
+        {
+          "batch": 1209,
+          "table": "prisoner_cases",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date",
+            "release_date",
+            "date_precision",
+            "custody_periods"
+          ],
+          "sources": [
+            "https://www.marxists.org/reference/archive/goldman/works/1931/living-my-life/vol-2-chapter-45.html",
+            "https://libcom.org/article/emma-goldman-extended-timeline",
+            "https://newspaperarchive.com/the-pocatello-tribune-feb-02-1918-p-1/",
+            "https://tile.loc.gov/storage-services/service/ndnp/vi/batch_vi_ultramarine_ver01/data/sn83045389/00296020242/1917072901/0520.pdf",
+            "https://oregonnews.uoregon.edu/lccn/sn85042444/1919-09-27/ed-1/seq-2/ocr/"
+          ],
+          "research_note": "Exclude documented bail gaps in1917-1918. Firsthand Goldman autobiography confirms June15 arrest, June25 Berkman bail and immediate July9 sentencing/remand; documentary chronology gives June21 Goldman bail. Richmond July29 newspaper explicitly reports Goldman actually bailed July28 before noon, distinguishing July25 prison-to-Tombs transport from release. Berkman September10 bail immediately followed by murder-warrant arrest, so custody continues until November14 actual release. February2,1918 newspaper confirms both actual surrender, not later prison-arrival dates. Endpoints refer to this criminal sentence; subsequent immigration detention remains for separate review. No time on bail counted."
+        }
+      ]
     },
     {
       "index": 33,
@@ -1309,9 +1393,44 @@
           "excess_minimum_days": 4520
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Source-backed corrections applied live; details and preservation checks in numbered batch audits.",
+      "live_changes": [
+        {
+          "batch": 1209,
+          "table": "prisoner_cases",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "sentenced_date",
+            "release_date",
+            "date_precision",
+            "custody_periods"
+          ],
+          "sources": [
+            "https://www.marxists.org/reference/archive/goldman/works/1931/living-my-life/vol-2-chapter-45.html",
+            "https://libcom.org/article/emma-goldman-extended-timeline",
+            "https://newspaperarchive.com/the-pocatello-tribune-feb-02-1918-p-1/",
+            "https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/40367/HSU-DISSERTATION-2016.pdf?sequence=1",
+            "https://www.gutenberg.org/files/66938/old/66938-h/66938-h.htm"
+          ],
+          "research_note": "Exclude documented bail gaps in1917-1918. Firsthand Goldman autobiography confirms June15 arrest, June25 Berkman bail and immediate July9 sentencing/remand; documentary chronology gives June21 Goldman bail. Richmond July29 newspaper explicitly reports Goldman actually bailed July28 before noon, distinguishing July25 prison-to-Tombs transport from release. Berkman September10 bail immediately followed by murder-warrant arrest, so custody continues until November14 actual release. February2,1918 newspaper confirms both actual surrender, not later prison-arrival dates. Endpoints refer to this criminal sentence; subsequent immigration detention remains for separate review. No time on bail counted."
+        },
+        {
+          "batch": 1209,
+          "table": "prisoner_cases",
+          "fields": [
+            "incarceration_date",
+            "date_precision",
+            "sentence"
+          ],
+          "sources": [
+            "https://usa.anarchistlibraries.net/library/alexander-berkman-prison-memoirs-of-an-anarchist",
+            "https://www.pbs.org/wgbh/americanexperience/features/goldman-henry-clay-frick-1849-1919/?linkId=79293789"
+          ],
+          "research_note": "Own Prison Memoirs describes July23,1892 attack, immediate subdual and arrest. Replace January1 year placeholder with actual custody start; clean sentence field to imposed22-year term, not fourteen years actually served. Existing May18,1906 release retained."
+        }
+      ]
     },
     {
       "index": 34,
