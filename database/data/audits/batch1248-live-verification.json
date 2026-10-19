@@ -1,0 +1,31 @@
+{
+  "profiles": [
+    {
+      "name": "Jonathan Sewall",
+      "slug": "jonathan-sewall",
+      "updates": {
+        "in_exile_since": "1775-01-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\"}"
+      },
+      "live_database_verified": true,
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "Peter Oliver",
+      "slug": "peter-oliver",
+      "updates": {
+        "in_exile_since": "1776-03-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"month\"}"
+      },
+      "live_database_verified": true,
+      "unrelated_fields_preserved": true
+    }
+  ],
+  "idempotent_rerun": true,
+  "qualified_without_changes": {
+    "slug": "thomas-hutchinson",
+    "finding": "June1,1774 departure confirmed by Colonial Society edited correspondence. Originally temporary official travel, later permanent inability to return and1778banishment. Exile start not automatically equated with voluntary trip; no jail interval established.",
+    "source": "https://www.colonialsociety.org/node/2511"
+  },
+  "unresolved": "Exile endpoints remain unverified; no completed counter claimed. API list does not expose case exile date fields."
+}
