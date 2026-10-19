@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Joseph Edwin Schock",
+      "expected": {
+        "id": "9fd1be11-cbb3-43b0-9931-43d9ba40905c",
+        "prisoner_id": "cfcc5bf0-389e-475e-bcbf-492e3bebc09f",
+        "institution_id": null,
+        "charges": "Destruction of federal property",
+        "arrest_date": "1970-05-05 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1970-05-05 00:00:00",
+        "release_date": "1970-06-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": "1970-01-01 00:00:00",
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 37,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-19 04:44:43",
+        "updated_at": "2026-10-19 04:44:43",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"in_exile_since\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1970-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"in_exile_since\":\"month\"}"
+      },
+      "sources": [
+        "https://objects.lib.uidaho.edu/argonaut/pdf/arg-1971-01-12.pdf"
+      ],
+      "research_note": "User explicitly requested July1970 exile start based on contemporary report of disappearance from Albion home in July. Month precision retained; July1 is storage placeholder only, not claimed exact departure day. No biography, custody dates or case notes changed."
+    }
+  ]
+}
