@@ -1,0 +1,84 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jonathan Sewall",
+      "expected": {
+        "id": "bec1a4fd-96c9-4401-a6f0-3e2e5e255425",
+        "prisoner_id": "f040e00b-0406-41cf-b3d4-640f0fa8a792",
+        "institution_id": null,
+        "charges": "Legal banishment as a named Loyalist under the Massachusetts Banishment Act",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banishment and prohibition on return to Massachusetts",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:52",
+        "updated_at": "2026-09-23 20:18:52",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1775-01-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"year\"}"
+      },
+      "sources": [
+        "https://www.biographi.ca/en/bio/sewell_stephen_6F.html",
+        "https://www.patrimoine-culturel.gouv.qc.ca/detail.do?id=8548&methode=consulter&type=pge"
+      ],
+      "research_note": "Canadian biographical and Quebec heritage records explicitly state family fled Cambridge toBoston thenEngland1775. Preserve year precision; later transferEnglandtoCanada is not returnhome and must not be treated as end of exile. No incarceration interval inferred. End of exile unresolved; no death date substituted without separate review. Preserve biographies and notes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Peter Oliver",
+      "expected": {
+        "id": "a5a4107f-183c-47a4-89e6-0657162fa72c",
+        "prisoner_id": "fff3bc62-315b-46b8-b6a7-505b2611235a",
+        "institution_id": null,
+        "charges": "Legal banishment as a named Loyalist under the Massachusetts Banishment Act",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banishment and prohibition on return to Massachusetts",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:52",
+        "updated_at": "2026-09-23 20:18:52",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1776-03-01 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"month\"}"
+      },
+      "sources": [
+        "https://www.colonialsociety.org/node/724",
+        "https://birminghamcathedral.wordpress.com/2019/12/03/memorial-to-peter-oliver-1713-1791/"
+      ],
+      "research_note": "Colonial Society account explicitly identifies March1776 evacuation to Halifax and laterEngland. Cathedral memorial account corroborates family departure March1776. Retain month precision, not generic evacuation day assigned individually. No incarceration interval inferred. End of exile unresolved; no death date substituted without separate review. Preserve biographies and notes."
+    }
+  ]
+}
