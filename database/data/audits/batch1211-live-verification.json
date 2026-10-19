@@ -1,0 +1,82 @@
+{
+  "batch": 1211,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1211-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "4969c7ab-fb78-46ab-b028-337f4c8ead1a",
+      "name": "Louis Vitale",
+      "changes": {
+        "description": [
+          "Father Louis Vitale OFM was an American Franciscan friar, U.S. Air Force veteran (he served as a pilot before entering religious life), and one of the most prolific civil-disobedience peace activists in modern U.S. history — arrested more than 200 times across five decades. He co-founded the Nevada Desert Experience in 1982, the long-running organizing campaign against U.S. nuclear testing at the Nevada Test Site, and Pace e Bene Nonviolence Service in 1989. He served as Pastor of St. Boniface Church in San Francisco's Tenderloin neighborhood from 1992 to 2005, where he ran the largest meal program for unhoused people in the city.\n\nMost of his arrests were short Nevada Test Site trespasses, but he served substantial federal time for two later actions. On November 19, 2006, with Father Steve Kelly SJ, he crossed the line at Fort Huachuca, Arizona — the U.S. Army's interrogation school where post-9/11 'enhanced interrogation' techniques were taught — and attempted to deliver a letter to the commanding general protesting U.S. torture policy. They were convicted of trespass and sentenced to five months federal in May 2007; both were 75 years old at the time. In 2007 he was also sentenced to five months for the annual SOA Watch line-crossing at Fort Benning, Georgia, served at FCI Lompoc. He died on June 21, 2023 at age 91. Convicted in U.S. District Court for the Middle District of Georgia under 18 U.S.C. § 1382 (entering a military reservation) for participating in the School of the Americas Watch (SOA Watch) annual nonviolent civil-disobedience action at Fort Benning, Georgia on September 2002. The action targeted the U.S. Army Western Hemisphere Institute for Security Cooperation (WHINSEC) — formerly the School of the Americas — which had trained Latin American military officers later linked to assassinations, torture, and massacres including Romero, the four U.S. churchwomen, the Jesuits in El Salvador, El Mozote, and Plan Cóndor. Defendants typically received 3 to 6 months in federal custody plus a fine.",
+          "Father Louis Vitale OFM was an American Franciscan friar, U.S. Air Force veteran (he served as a pilot before entering religious life), and one of the most prolific civil-disobedience peace activists in modern U.S. history — arrested more than 200 times across five decades. He co-founded the Nevada Desert Experience in 1982, the long-running organizing campaign against U.S. nuclear testing at the Nevada Test Site, and Pace e Bene Nonviolence Service in 1989. He served as Pastor of St. Boniface Church in San Francisco's Tenderloin neighborhood from 1992 to 2005, where he ran the largest meal program for unhoused people in the city.\n\nOn November 19, 2006, Vitale and Jesuit priest Steve Kelly were arrested while protesting U.S. torture policy at Fort Huachuca, Arizona. They were released after that initial arrest. On October 17, 2007, Magistrate Hector Estrada sentenced each to three months for trespass and two months for failure to obey a police officer, to run consecutively. Both were taken into custody immediately and released on March 14, 2008. Vitale also served separate prison terms for School of the Americas Watch protests. He died on September 6, 2023, aged 91."
+        ],
+        "updated_at": [
+          "2026-10-13 01:17:16",
+          "2026-10-19 00:05:30"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "83ea0fe2-dcda-41ed-8b78-3550ce26f4b7",
+      "name": "Louis Vitale",
+      "changes": {
+        "charges": [
+          "Federal trespass (anti-nuclear civil disobedience).",
+          "Trespass; failure to obey a police officer"
+        ],
+        "arrest_date": [
+          "1982-03-19 00:00:00",
+          "2006-11-19"
+        ],
+        "convicted": [
+          "Mostly dismissed (Federal trespass)",
+          "Yes"
+        ],
+        "sentenced_date": [
+          null,
+          "2007-10-17"
+        ],
+        "incarceration_date": [
+          "1982-03-19 00:00:00",
+          "2007-10-17"
+        ],
+        "release_date": [
+          "2008-04-14 00:00:00",
+          "2008-03-14"
+        ],
+        "judge": [
+          null,
+          "Hector Estrada"
+        ],
+        "sentence": [
+          null,
+          "Five months imprisonment: three months and two months consecutively"
+        ],
+        "imprisoned_for_days": [
+          9523,
+          149
+        ],
+        "updated_at": [
+          "2026-07-29 17:12:17",
+          "2026-10-19 00:05:30"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ]
+      }
+    }
+  ],
+  "public_pages": [
+    {
+      "url": "https://politicalprisonercoalition.org/prisoner/louis-vitale?custody_audit=1211",
+      "status": 200,
+      "counters": []
+    }
+  ]
+}

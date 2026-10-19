@@ -1,10 +1,10 @@
 {
   "scope": 210,
-  "profiles_changed_live": 32,
+  "profiles_changed_live": 33,
   "status_counts": {
-    "verified_correction_applied": 24,
+    "verified_correction_applied": 25,
     "scan_false_positive": 63,
-    "source_verification_pending": 111,
+    "source_verification_pending": 110,
     "custody_corrected_further_case_review": 4,
     "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 4
@@ -1830,9 +1830,46 @@
           "excess_minimum_days": 27
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Source-backed corrections applied live; details and preservation checks in numbered batch audits.",
+      "live_changes": [
+        {
+          "batch": 1211,
+          "table": "prisoner_cases",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentenced_date",
+            "charges",
+            "sentence",
+            "convicted",
+            "judge",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.nukeresister.org/wp-content/uploads/resister/nr146.pdf",
+            "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+            "https://www.nukeresister.org/2023/09/15/fr-louie-vitale-presente/"
+          ],
+          "research_note": "Inherited generic row combined an unrelated1982 arrest with false April2008 endpoint, inventing26continuousyears. Replace this conflation with sourced FortHuachuca prosecution: NR146 Nov14,2007 explicitly reports October17 sentencing and immediate custody; NR148 Apr8,2008 explicitly reports actual March14 release. ArrestNovember19,2006 had approximately2hours custody then release; not continuous until sentence. No1982 imprisonment claimed or newly invented. Preserve four independent SOA rows."
+        },
+        {
+          "batch": 1211,
+          "table": "prisoners",
+          "fields": [
+            "description",
+            "death_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://www.nukeresister.org/wp-content/uploads/resister/nr146.pdf",
+            "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+            "https://www.nukeresister.org/2023/09/15/fr-louie-vitale-presente/"
+          ],
+          "research_note": "Correct biography May2007 sentencing to October17 actual, remove false claim Kelly also75 and unsupported additional2007 SOA sentence. Firsthand campaign obituary confirms September6,2023 death, not June21. No case notes added."
+        }
+      ]
     },
     {
       "index": 43,
