@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "D. M. Bennett",
+      "expected": {
+        "id": "46fa9c76-1f0a-42d6-a77b-dcb819d5258a",
+        "prisoner_id": "4d67115e-6582-48d2-ad56-debdee4cc17e",
+        "institution_id": "b5cf5aef-b0f7-4c7d-8bd4-8b52eb907ba9",
+        "charges": "Obscenity",
+        "arrest_date": "1878-12-10 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "1879-06-05",
+        "incarceration_date": null,
+        "release_date": "1880-04-29",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "13 months at hard labor; $300 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-10-19 00:01:22",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1879-06-05",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+      },
+      "sources": [
+        "https://books.google.com/books?id=IDJGkpNg4-wC&pg=PA187",
+        "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html"
+      ],
+      "research_note": "Roderick Bradford, D.M. Bennett: The Truth Seeker (2006), page187 explicitly states June5,1879 incarceration in Ludlow Street Jail before transfer to Albany Penitentiary. This verifies actual custody, independently of sentencing alone. Google Books indexed passage retained privately. Existing April29,1880 release preserved. No case notes added."
+    }
+  ]
+}
