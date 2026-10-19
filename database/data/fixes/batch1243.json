@@ -1,0 +1,124 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Frederick Heaney",
+      "expected": {
+        "id": "d72687b9-a5e3-46c6-90d7-006f607f5b20",
+        "prisoner_id": "6e4bca05-1ded-4dd8-9414-a93d77247843",
+        "institution_id": "7529c3b7-375d-48ec-b27d-9b3f33bd5411",
+        "charges": "Treason (levying war against the United States).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1800-05-21 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William Rawle (U.S. Attorney)",
+        "judge": "Justice Samuel Chase, with District Judge Richard Peters",
+        "sentence": "Death by hanging; pardoned.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:44",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1800-05-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://sniggle.net/TPL/index5.php?entry=01Feb10",
+        "https://rotunda.upress.virginia.edu/founders/default.xqy?keys=FOEA-print-03-02-02-4356&printable=yes"
+      ],
+      "research_note": "Davis Fries Rebellion ch12 explicitly says special pardons freed Fries, Heany and Getman after May21 proclamation. Contemporary Adams May21 letter directs preparation of individual pardons. Together support May1800 physical release month, not an exact discharge day. Add month endpoint for Fries; remove unsupported day precision for Heaney/Getman. Their individual initial admissions remain unresolved. Do not calculate releases from sentence; preserve biographies and case notes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Getman",
+      "expected": {
+        "id": "ae55071d-7c87-4c7c-87d7-fdefab6f424d",
+        "prisoner_id": "5800517e-c843-418b-950f-79a82ff67be0",
+        "institution_id": "7529c3b7-375d-48ec-b27d-9b3f33bd5411",
+        "charges": "Treason (levying war against the United States).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1800-05-21 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": "William Rawle (U.S. Attorney)",
+        "judge": "Justice Samuel Chase, with District Judge Richard Peters",
+        "sentence": "Death by hanging; pardoned.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:44",
+        "updated_at": "2026-07-29 17:12:19",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1800-05-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://sniggle.net/TPL/index5.php?entry=01Feb10",
+        "https://rotunda.upress.virginia.edu/founders/default.xqy?keys=FOEA-print-03-02-02-4356&printable=yes"
+      ],
+      "research_note": "Davis Fries Rebellion ch12 explicitly says special pardons freed Fries, Heany and Getman after May21 proclamation. Contemporary Adams May21 letter directs preparation of individual pardons. Together support May1800 physical release month, not an exact discharge day. Add month endpoint for Fries; remove unsupported day precision for Heaney/Getman. Their individual initial admissions remain unresolved. Do not calculate releases from sentence; preserve biographies and case notes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Fries",
+      "expected": {
+        "id": "8016f43d-2ac0-4966-ae08-37db38844bcd",
+        "prisoner_id": "ee8d5db8-2ad4-4bc3-9469-44a767b2da80",
+        "institution_id": null,
+        "charges": "Treason against the United States.",
+        "arrest_date": "1799-04-05 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1799-04-05 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Convicted of treason and sentenced to death by hanging; pardoned by President John Adams on May 21, 1800.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-09-26 03:43:52",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1800-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://sniggle.net/TPL/index5.php?entry=01Feb10",
+        "https://rotunda.upress.virginia.edu/founders/default.xqy?keys=FOEA-print-03-02-02-4356&printable=yes"
+      ],
+      "research_note": "Davis Fries Rebellion ch12 explicitly says special pardons freed Fries, Heany and Getman after May21 proclamation. Contemporary Adams May21 letter directs preparation of individual pardons. Together support May1800 physical release month, not an exact discharge day. Add month endpoint for Fries; remove unsupported day precision for Heaney/Getman. Their individual initial admissions remain unresolved. Do not calculate releases from sentence; preserve biographies and case notes."
+    }
+  ]
+}
