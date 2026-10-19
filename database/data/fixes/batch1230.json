@@ -1,0 +1,130 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Phineas Bond",
+      "expected": {
+        "id": "59ab1bea-7eda-4d84-bd58-83a5191d80a6",
+        "prisoner_id": "216767a3-f382-4f87-8bcd-d4b1c7af8c42",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": "1777-09-03",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-10-14 00:00:42",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-03",
+        "release_date": null,
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt",
+        "https://journals.psu.edu/pmhb/article/download/42865/42586"
+      ],
+      "research_note": "Gilpin pp.67-69 Sep3 admission, pp.132-133 explicitly excluded from Sep11 convoy and retained by Nicola in Philadelphia. April1778 Winchester group discharge does not apply; remove unsupported endpoint. Individual end date unresolved. No counter claimed. No biography or case notes changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Pike",
+      "expected": {
+        "id": "eb0c9fb9-ba77-4edc-911f-00def704449d",
+        "prisoner_id": "d0aa5cfe-efa7-48fc-9694-22ac2dc1bb5d",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": "1777-09-03 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-10-14 00:00:42",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-03 00:00:00",
+        "release_date": "1778-02-16 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt",
+        "https://journals.psu.edu/pmhb/article/download/42865/42586"
+      ],
+      "research_note": "Gilpin p.67 Sep3 admission; p.208 Feb16 departure/escape, confirmed missing Feb17. release_date is existing schema end-of-custody field including escapes, not a claim of official release. Corrects erroneous April1778 endpoint. No biography or case notes changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William Drewet Smith",
+      "expected": {
+        "id": "f557407d-8c70-4e69-9ae3-9b7a00457351",
+        "prisoner_id": "4068fd34-27b5-47ce-a602-fcff96a19986",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": "1777-09-02",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-10-14 00:00:42",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-02",
+        "release_date": "1777-12-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt",
+        "https://journals.psu.edu/pmhb/article/download/42865/42586"
+      ],
+      "research_note": "Gilpin p.67 Sep2 admission; p.185 December8 entry records flight, reported Dec12. Gilje, Philadelphians in Exile, PMHB (1979), describes mid-December flight with Dec13 letters. December1777 certain; day remains unresolved, retain month precision instead of April1778 group discharge. No biography or case notes changes."
+    }
+  ]
+}
