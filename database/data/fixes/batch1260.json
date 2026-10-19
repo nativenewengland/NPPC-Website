@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Stephen S. Foster",
+      "expected": {
+        "id": "6f50e484-5b76-4500-9abf-058467e27783",
+        "prisoner_id": "d46845ec-874b-430f-8301-482ca538070c",
+        "institution_id": null,
+        "charges": "Disturbing public worship.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Arrested and jailed repeatedly across New England.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:53:56",
+        "updated_at": "2026-07-29 17:12:21",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1842-05-01 00:00:00",
+        "incarceration_date": "1842-05-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}",
+        "convicted": "Yes",
+        "sentence": "$3 fine and prosecution costs; imprisonment until paid"
+      },
+      "sources": [
+        "https://archive.org/details/actsofantislaver00pillss"
+      ],
+      "research_note": "Pillsbury Acts of the Anti-Slavery Apostles pp266\u2013272 reproduces Stephen S Foster letter dated Amherst Jail May7,1842. He visited Nashua last Saturday, arrested Sunday after Baptist meeting, confined under guards overnight, tried Monday before Israel Hunt, fined three dollars plus costs, refused payment, ordered imprisoned until paid; transferred to jail next day at ten. Add May1842 month precision for custody starting with guarded arrest, not exact day derived from relative weekdays. No release inferred and no total inferred from fine. Existing bio/photo/notes preserved."
+    }
+  ]
+}
