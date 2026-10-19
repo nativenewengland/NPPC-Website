@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Laura Slattery",
+      "expected": {
+        "id": "3e5ba66d-d3e1-4e6b-8af1-f08afaf23d28",
+        "prisoner_id": "4502d336-c8cf-4d1e-9e84-7dd51e18929e",
+        "institution_id": null,
+        "charges": "Trespass at U.S. Army School of the Americas, Fort Benning",
+        "arrest_date": "2002-11-16 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": "2003-02-10 00:00:00",
+        "incarceration_date": "2002-11-16 00:00:00",
+        "release_date": "2003-07-23 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months in prison and a $1,000 fine",
+        "imprisoned_for_days": 249,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:15",
+        "updated_at": "2026-10-18 23:28:55",
+        "date_precision": "{\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2003-07-24",
+        "date_precision": "{\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://sistersofprovidence.net/wp-content/uploads/2017/06/03_fall_c.pdf"
+      ],
+      "research_note": "Contemporary Caritas Fall 2003 page 11 explicitly identifies Laura Slattery walking free alongside Maureen Newman on Thursday July 24, 2003. Corrects July23 endpoint only; actual prison admission remains unresolved. No admission inferred from nominal three-month term. No case notes added."
+    }
+  ]
+}
