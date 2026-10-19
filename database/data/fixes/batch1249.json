@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Miller",
+      "expected": {
+        "id": "9bbf32f0-b5a4-4505-a2e8-3f0220272bb1",
+        "prisoner_id": "34f97700-8feb-4748-b4cf-ee6e75307b1a",
+        "institution_id": "c9875c94-2d8e-426a-a47d-2d9c869104e7",
+        "charges": "Treason and related federal charges",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1794-12-25 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-26 16:24:52",
+        "updated_at": "2026-08-04 06:14:57",
+        "date_precision": "{\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1794-11-13 00:00:00",
+        "incarceration_date": "1794-11-13 00:00:00",
+        "release_date": "1795-05-01 00:00:00",
+        "convicted": "No",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://olivermillerhomestead.org/wp-content/uploads/2015/09/IT-ALL-BEGAN-WITH-A-STILL.pdf"
+      ],
+      "research_note": "WilliamW.Barton, It All Began With a Still, printedp4, ThomasMiller section: Nov13,1794 arrested, marchedPhiladelphia and heldjail untilMay followingyear whenacquitted. Footnotes39 etc document sources. Replace Dec25 Philadelphia commitment proxy with actual earliercustody. Store May1795 release atmonthprecision; no exactday inferred from acquittal. Biography and notes unchanged."
+    }
+  ]
+}
