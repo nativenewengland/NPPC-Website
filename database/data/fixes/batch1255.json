@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Gill Craven",
+      "expected": {
+        "id": "de2538e6-25d8-42dd-b2ee-b0428be650fa",
+        "prisoner_id": "8630cdbe-200b-4fb3-a5a1-1ef4bfdafb5b",
+        "institution_id": null,
+        "charges": "[\"Violating the 1850 Fugitive Slave Law.\"]",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Arrested and prosecuted under the Fugitive Slave Law.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested by the sheriff of Jefferson County, Indiana.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 16:32:28",
+        "updated_at": "2026-09-27 00:18:20",
+        "date_precision": "[]",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Harboring Black people and encouraging Black people to enter Indiana",
+        "convicted": "No",
+        "sentence": null
+      },
+      "sources": [
+        "https://scholarworks.iu.edu/journals/index.php/imh/article/download/6282/6281/18473"
+      ],
+      "research_note": "William C Thompson Eleutherian Institute Indiana Magazine of History June1923 pp111-112 explicitly describes Black-law prosecution and release on own recognizance, cases never pressed to trial. Correct mistaken Fugitive Slave Law attribution in charges, remove arrest narrative from sentence, mark no conviction. Does not establish imprisonment. Biography retained despite conflicting attribution, flagged privately only. No notes additions."
+    }
+  ]
+}
