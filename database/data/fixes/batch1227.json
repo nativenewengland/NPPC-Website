@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Moses Dunbar",
+      "expected": {
+        "id": "3b011659-4eb9-4112-957c-f2cac768a8bd",
+        "prisoner_id": "7a458dd2-92ae-452c-958e-c4d18d1ef2e6",
+        "institution_id": null,
+        "charges": "High treason against the state of Connecticut.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1777-01-25 00:00:00",
+        "incarceration_date": null,
+        "release_date": "1777-03-19 00:00:00",
+        "death_in_custody_date": "1777-03-19 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death. Tried and convicted January 23, 1777, and hanged at Hartford on March 19, 1777. Exact custody start date unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-10-17 03:52:35",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1777-01-01",
+        "incarceration_date": "1777-01-01",
+        "death_in_custody_date": "1777-03-19",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.historydayct.org/wp-content/uploads/2025/09/2025-2026-List-of-CT-Topics-.pdf",
+        "https://www.cga.ct.gov/hco/books/The_CT_Magazine_2ndQtr_1904.pdf"
+      ],
+      "research_note": "Connecticut History Day institutional account explicitly places arrest and Hartford jail commitment January1777. State legislature-hosted1904 account reproduces Dunbar statement, January23 trial and January25 sentence; identifies March19 execution. January1 storage placeholder retains month precision, not claimed exact arrest. March1 brief escape/quick recapture documented; no fabricated day-level duration. Existing March19 endpoint retained and identified death in custody. No biography or notes edits."
+    }
+  ]
+}
