@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Christine Gaunt",
+      "expected": {
+        "id": "81a7a0f4-0b9b-45eb-8746-e4bef64de579",
+        "prisoner_id": "8d814ccc-6eb6-43d2-a0d5-f23bf4978edb",
+        "institution_id": "567fecc5-df1f-4a3b-ab48-74047bf62771",
+        "charges": "Trespass at the U.S. Army School of the Americas / WHINSEC, Fort Benning, Georgia",
+        "arrest_date": "2005-11-18 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Guilty (November 2005 arraignment)",
+        "sentenced_date": null,
+        "incarceration_date": "2005-11-18 00:00:00",
+        "release_date": "2006-05-19 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "G. Mallon Faircloth",
+        "sentence": "6 months",
+        "imprisoned_for_days": 182,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:14",
+        "updated_at": "2026-10-17 04:40:07",
+        "date_precision": "{\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2005-11-01",
+        "incarceration_date": "2005-11-01",
+        "imprisoned_for_months": 6,
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.soaw-austin.org/POC1983_2012.php",
+        "https://znetwork.org/zmagazine/soa-watch-by-gloria-williams/"
+      ],
+      "research_note": "Campaign roster identifies Christine Gaunt age49 of Grinnell, says guilty plea at November arraignment and immediate sentence commencement; confirms actual homecoming May19 after completing six-month sentence. Contemporary reporting places arrest at Sunday concluding November2005 vigil, contradicting stored Friday November18. Preserve November at month precision rather than invent admission day; six months documented actual service, not nominal sentence inference. No biography or notes edits."
+    }
+  ]
+}
