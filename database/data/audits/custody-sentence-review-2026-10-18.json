@@ -2,10 +2,10 @@
   "scope": 210,
   "profiles_changed_live": 35,
   "status_counts": {
-    "verified_correction_applied": 26,
+    "verified_correction_applied": 27,
     "scan_false_positive": 63,
     "source_verification_pending": 108,
-    "custody_corrected_further_case_review": 4,
+    "custody_corrected_further_case_review": 3,
     "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 5
   },
@@ -1134,8 +1134,8 @@
           "excess_minimum_days": 8
         }
       ],
-      "status": "custody_corrected_further_case_review",
-      "finding": "Sentence, actual release date and biography corrected; unsupported continuous prison start removed. Actual admission and earlier bail/jail intervals still need verification. Contemporary June5 sentencing conflicts with abbreviated secondary conviction/sentence chronology.",
+      "status": "verified_correction_applied",
+      "finding": "June5,1879 actual Ludlow Street Jail admission explicitly verified in Bradford biography page187, then April29,1880 release. Counter restored and verified publicly as10months24days. Earlier unsupported March20 start replaced; no sentencing-only inference.",
       "live_changes": [
         {
           "batch": 1210,
@@ -1167,6 +1167,19 @@
             "https://www.thefire.org/sites/default/files/2024/06/FIRE%20Petition%20for%20Posthumous%20Pardon%20of%20D.M.%20Bennett%2C%20June%2017%2C%202024.pdf"
           ],
           "research_note": "Contemporary June5,1879 Brooklyn newspaper transcription explicitly reports sentencing that morning, distinguishing March conviction from later sentence. Biographer Roderick Bradford explicitly dates actual release April29,1880; former April28 is unsupported. Pardon petition confirms Cupid’s Yokes and Ezra Heywood authorship, thirteen-month hard-labor sentence. Do not repeat false Angela Heywood attribution or claim full sentence actually served. Actual admission and possible earlier jail/bail intervals remain unresolved: inherited March20 prison start deliberately not relabeled as verified. Clear the unsupported March20 admission and derived405-day total because verified later public appearance and sentencing chronology rule out treating that spring-to-release span as continuous custody. Do not substitute sentencing date for admission."
+        },
+        {
+          "batch": 1215,
+          "table": "prisoner_cases",
+          "fields": [
+            "incarceration_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://books.google.com/books?id=IDJGkpNg4-wC&pg=PA187",
+            "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html"
+          ],
+          "research_note": "Roderick Bradford, D.M. Bennett: The Truth Seeker (2006), page187 explicitly states June5,1879 incarceration in Ludlow Street Jail before transfer to Albany Penitentiary. This verifies actual custody, independently of sentencing alone. Google Books indexed passage retained privately. Existing April29,1880 release preserved. No case notes added."
         }
       ]
     },

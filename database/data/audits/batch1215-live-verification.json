@@ -1,0 +1,39 @@
+{
+  "batch": 1215,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1215-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "46fa9c76-1f0a-42d6-a77b-dcb819d5258a",
+      "name": "D. M. Bennett",
+      "changes": {
+        "incarceration_date": [
+          null,
+          "1879-06-05"
+        ],
+        "imprisoned_for_days": [
+          null,
+          329
+        ],
+        "updated_at": [
+          "2026-10-19 00:01:22",
+          "2026-10-19 00:42:20"
+        ],
+        "date_precision": [
+          "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+        ]
+      }
+    }
+  ],
+  "public_verification": {
+    "url": "https://politicalprisonercoalition.org/prisoner/d-m-bennett?custody_audit=1215",
+    "http_status": 200,
+    "counter": [
+      "10 Months 24 Days"
+    ]
+  }
+}
