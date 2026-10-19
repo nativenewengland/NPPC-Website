@@ -1,0 +1,37 @@
+{
+  "profiles": [
+    {
+      "name": "Phineas Bond",
+      "slug": "phineas-bond",
+      "counter": "Imprisoned For 0 months",
+      "days": 0,
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "Thomas Coombe",
+      "slug": "thomas-coombe",
+      "counter": "Imprisoned For 8 days",
+      "days": 8,
+      "unrelated_fields_preserved": true
+    }
+  ],
+  "idempotent_rerun": true,
+  "unresolved": "Bond exact day remains uncertain; same-month duration not treated as exact days.",
+  "qualified_without_changes": [
+    {
+      "slug": "daniel-shays",
+      "source": "https://shaysrebellion.stcc.edu/shaysapp/person3a7c.html?shortName=daniel_shays",
+      "finding": "Flight, clemency petition and pardon do not establish a jailed interval; no custody dates fabricated."
+    },
+    {
+      "slug": "eli-parsons",
+      "source": "https://shaysrebellion.stcc.edu/shaysapp/person3a7c.html?shortName=daniel_shays",
+      "finding": "Joint March10,1788 clemency petition with Shays; no actual confinement established by reviewed source."
+    },
+    {
+      "slug": "daniel-leonard",
+      "source": "https://archives.lib.state.ma.us/server/api/core/bitstreams/1fd3625e-a231-4648-9a57-95ed5b8a1a07/content",
+      "finding": "Named banishment law addresses return of departed Loyalists, not proof of a jail term. No incarceration interval established."
+    }
+  ]
+}
