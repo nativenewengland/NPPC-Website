@@ -1,0 +1,52 @@
+{
+  "profiles": [
+    {
+      "name": "Elijah Brown",
+      "slug": "elijah-brown",
+      "counter": "Imprisoned For 7 months 22 days",
+      "updates": {
+        "incarceration_date": "1777-09-05 00:00:00",
+        "release_date": "1778-04-27 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "John Hunt",
+      "slug": "john-hunt",
+      "counter": "Imprisoned For 6 months 27 days",
+      "updates": {
+        "incarceration_date": "1777-09-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1778-03-31 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "Thomas Gilpin",
+      "slug": "thomas-gilpin",
+      "counter": "Imprisoned For 6 months",
+      "updates": {
+        "incarceration_date": "1777-09-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1778-03-02 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "William Smith",
+      "slug": "william-smith",
+      "counter": "Imprisoned For 7 months 25 days",
+      "updates": {
+        "incarceration_date": "1777-09-02 00:00:00",
+        "release_date": "1778-04-27 00:00:00",
+        "arrest_date": "1777-09-02 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "unrelated_fields_preserved": true
+    }
+  ],
+  "idempotent_rerun": true
+}
