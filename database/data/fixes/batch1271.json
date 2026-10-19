@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Larry Hoover",
+      "expected": {
+        "id": "9cebce45-b78b-41ff-bd93-29fae1949311",
+        "prisoner_id": "453bf4a4-ba01-4d13-bf92-87caaff429dc",
+        "institution_id": null,
+        "charges": "Murder",
+        "arrest_date": "1973-09-21 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": " The Illinois Prisoner Review Board identifies September 21, 1973 as Hoover's arrest. March 15 pertains to Andrew Howard; the initial continuous custody date remains unverified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-16 00:37:34",
+        "date_precision": "{\"arrest_date\": \"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentenced_date": "1973-12-10 00:00:00",
+        "judge": "Frank Wilson",
+        "sentence": "150–200 years",
+        "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://prb.illinois.gov/content/dam/soi/en/web/prb/documents/en-banc-minutes/12-15-22%202022%20En%20Banc%20Minutes%28Approved%29.pdf"
+      ],
+      "research_note": "PRB December 15 2022 minutes printed page 6 explicitly dates sentencing December 10 1973, Judge Frank Wilson, 150–200 years. Arrest September 21 already recorded. Continuous custody start remains unverified; do not substitute sentencing for admission."
+    }
+  ]
+}
