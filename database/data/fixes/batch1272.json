@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Alvaro Hernández earlier case",
+      "expected": {
+        "id": "691af94d-9219-4820-ae41-ead5777ba686",
+        "prisoner_id": "0d15149a-8e7c-4ebb-84b2-56d3c58d7b9f",
+        "institution_id": null,
+        "charges": "First-degree murder (Texas; killing of motel clerk Robert Anthony Beard — conviction reversed, released March 1991)",
+        "arrest_date": "1975-08-31 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": "1976-01-01 00:00:00",
+        "incarceration_date": "1976-01-01 00:00:00",
+        "release_date": "1991-03-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life sentence; conviction overturned.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-10-14 00:00:24",
+        "date_precision": "{\"incarceration_date\":\"year\",\"sentenced_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1975-09-01 00:00:00",
+        "release_date": "1991-03-11 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"sentenced_date\":\"year\",\"arrest_date\":\"month\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://libcom.org/article/interview-chicano-anarchist-political-prisoner-xinachtli-alvaro-luna-hernandez",
+        "https://openjurist.org/578/sw2d/731/hernandez-v-state"
+      ],
+      "research_note": "First-person Final Straw interview states March 11 1991 parole. Juan Jose Hernandez court opinion separately identifies Alvaro arrest several days after September 16 1975 murder, supporting September month only and contradicting August 31. Do not transfer the opinion appellant Juan arrest day, reversal or dismissal to Alvaro. Earlier custody start and escape gap remain unresolved; no new total or tracker manufactured."
+    }
+  ]
+}
