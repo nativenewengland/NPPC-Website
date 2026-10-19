@@ -1,0 +1,32 @@
+{
+  "batch": 1214,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1214-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "3e5ba66d-d3e1-4e6b-8af1-f08afaf23d28",
+      "name": "Laura Slattery",
+      "changes": {
+        "release_date": [
+          "2003-07-23 00:00:00",
+          "2003-07-24"
+        ],
+        "imprisoned_for_days": [
+          249,
+          250
+        ],
+        "updated_at": [
+          "2026-10-18 23:28:55",
+          "2026-10-19 00:33:03"
+        ],
+        "date_precision": [
+          "{\"sentenced_date\":\"day\"}",
+          "{\"sentenced_date\":\"day\",\"release_date\":\"day\"}"
+        ]
+      }
+    }
+  ]
+}
