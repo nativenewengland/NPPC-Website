@@ -1,0 +1,42 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Mason",
+      "expected": {
+        "id": "bf3ec6c6-6010-4242-ad38-97a0f543303e",
+        "prisoner_id": "3dbd8268-9153-4da9-bc48-1bbdbf51e17c",
+        "institution_id": "939d3d31-83aa-4164-b8b9-0b1b4111e6b1",
+        "charges": "Smuggling goods to the South",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1863-08-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-01 02:08:42",
+        "updated_at": "2026-07-20 05:27:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1863-08-12 00:00:00"
+      },
+      "sources": [
+        "https://archive.org/details/unitedstatesbond00hand"
+      ],
+      "research_note": "Handy, United States Bonds, August 12, 1863 diary entry, printed pp. 64\u201365: Mason of Accomac left that day, father waiting at Delaware City. Refine August placeholder to documented physical departure. Six months and eight days in various prisons is reported, but no explicit admission date; do not back-calculate an unverified exact start. Preserve biography and notes."
+    }
+  ]
+}
