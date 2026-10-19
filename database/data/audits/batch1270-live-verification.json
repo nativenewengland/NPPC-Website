@@ -1,0 +1,92 @@
+{
+  "batch": 1270,
+  "verified": true,
+  "prisoner_rows_preserved": 201,
+  "all_unrelated_case_fields_preserved": true,
+  "changes": [
+    {
+      "name": "Anson K. Burrill",
+      "fields": {
+        "date_precision": [
+          "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+        ],
+        "release_date": [
+          "1847-01-27 00:00:00",
+          "1846-09-01 00:00:00"
+        ],
+        "arrest_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ],
+        "updated_at": [
+          "2026-10-14 00:00:44",
+          "2026-10-19 20:37:27"
+        ],
+        "incarceration_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ]
+      }
+    },
+    {
+      "name": "Lewis Knapp",
+      "fields": {
+        "date_precision": [
+          "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+        ],
+        "release_date": [
+          "1847-01-27 00:00:00",
+          "1846-09-01 00:00:00"
+        ],
+        "arrest_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ],
+        "updated_at": [
+          "2026-10-14 00:00:44",
+          "2026-10-19 20:37:27"
+        ],
+        "incarceration_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ]
+      }
+    },
+    {
+      "name": "Silas Tompkins",
+      "fields": {
+        "date_precision": [
+          "{\"arrest_date\":\"year\",\"incarceration_date\":\"year\",\"release_date\":\"day\"}",
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+        ],
+        "release_date": [
+          "1847-01-27 00:00:00",
+          "1846-09-01 00:00:00"
+        ],
+        "arrest_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ],
+        "updated_at": [
+          "2026-10-14 00:00:44",
+          "2026-10-19 20:37:27"
+        ],
+        "incarceration_date": [
+          "1845-01-01 00:00:00",
+          "1845-03-15 00:00:00"
+        ]
+      }
+    }
+  ],
+  "idempotent_rerun": true,
+  "public_statuses": [
+    200,
+    200,
+    200
+  ],
+  "rendered_counter": "1 Year 6 Months",
+  "exact_days_not_claimed": true,
+  "unresolved": "Exact September discharge day not found. Existing biographies retain conflicting January1847 pardon wording; no biography rewritten and no case notes added."
+}
