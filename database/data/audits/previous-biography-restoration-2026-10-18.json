@@ -1,0 +1,96 @@
+{
+  "request": "Append previous biographies beneath current versions where replacement was not explicitly requested.",
+  "this_pass_profiles_restored": 13,
+  "prior_pass_profiles_restored": 9,
+  "total_profiles_restored": 22,
+  "complete": false,
+  "remaining_legacy_candidates": [
+    {
+      "batch": 138,
+      "slug": "j-c-robinson",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 138,
+      "slug": "roy-house",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 138,
+      "slug": "edward-r-peters",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 139,
+      "slug": "richard-brazier",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 139,
+      "slug": "myron-sprague",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 139,
+      "slug": "george-oconnell",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 139,
+      "slug": "david-caplan",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 141,
+      "slug": "tom-zima",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 162,
+      "slug": "clayton-van-lydegraf",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 165,
+      "slug": "john-jacobs",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 167,
+      "slug": "mark-rudd",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 180,
+      "slug": "clara-lemlich",
+      "status": "previous_text_not_recovered"
+    },
+    {
+      "batch": 202,
+      "slug": "clennon-king",
+      "status": "no_current_slug_match; do not recreate record"
+    }
+  ],
+  "preserved": "Current biographies and unrelated profile/case fields verified unchanged. No case notes added.",
+  "excluded_explicit_requests": [
+    "User-supplied Solomon Harper biography",
+    "Powers Hapgood supplied replacement",
+    "Holder/Kerkow/Wright/McNair/Tillerson final supplied biographies",
+    "Charlotte ONeal supplied replacement",
+    "Bronner supplied/revised biographies",
+    "Roberto Rivera requested restorations",
+    "Pio del Pilar supplied replacement",
+    "51 requested longer Airtable biographies"
+  ],
+  "other_exclusions": [
+    "New-profile biographies are not replacements.",
+    "Literal factual edits, OCR repairs and opening-sentence standardization are not classified as substantive rewrites."
+  ],
+  "recovery_sources": [
+    "Pre-write snapshots415-419",
+    "Full expected-value guards1190,1200",
+    "Old-row snapshot904",
+    "Read-only May10 database backup for Muste and Glick"
+  ],
+  "limits": "Legacy payloads138-202 mostly store only replacement wording. Existing local later snapshots and surviving server backups do not establish the overwritten version for the remaining candidates. The Airtable source returnedHTTP403. No old text reconstructed or invented."
+}
