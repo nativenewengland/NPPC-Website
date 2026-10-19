@@ -1,11 +1,11 @@
 {
   "scope": 210,
-  "profiles_changed_live": 38,
+  "profiles_changed_live": 39,
   "status_counts": {
     "verified_correction_applied": 30,
     "scan_false_positive": 63,
-    "source_verification_pending": 105,
-    "custody_corrected_further_case_review": 3,
+    "source_verification_pending": 104,
+    "custody_corrected_further_case_review": 4,
     "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 5
   },
@@ -2316,9 +2316,14 @@
           "excess_minimum_days": 1203
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "custody_corrected_further_case_review",
+      "finding": "Corrected arrest November23,2008 and sentencing January26,2009; removed unsupported2005 continuous custody start after contemporary report establishes same-day bail. Actual later admission and stored endpoint remain under review.",
+      "live_changes": [
+        {
+          "batch": 1222,
+          "verified": true
+        }
+      ]
     },
     {
       "index": 52,
