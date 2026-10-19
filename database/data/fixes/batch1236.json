@@ -1,0 +1,85 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Conrad Fahnestock",
+      "expected": {
+        "id": "0abdb37c-d4e7-4cb1-bb14-f93c9895bf2c",
+        "prisoner_id": "239948cf-c89c-42a0-8d64-49f07a05e857",
+        "institution_id": null,
+        "charges": "Sedition Act of 1798 \u2014 indicted October 1799 in the U.S. Circuit Court",
+        "arrest_date": "1799-01-01 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:08:44",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1799-08-24 00:00:00",
+        "indicted": "October 18, 1799",
+        "charges": "Sedition",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://cdn.website-editor.net/020d9c979f77483189db333592c7de7f/files/uploaded/History%2520of%2520Dauphin%2520County%252C%2520Pennsylvania%2520Vol%2520I%25201907.pdf",
+        "https://docsteach.org/document/indictment-for-sedition/"
+      ],
+      "research_note": "History of Dauphin County reproduces Oracle of Dauphin August28,1799: arrest on Saturday morning last, hence August24. National Archives indictment #6 October session dated October18,1799. No prison term inferred from indictment or arrest. Charges field only named offense; no new notes. Biography and case notes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Jedediah Peck",
+      "expected": {
+        "id": "182eb27e-c5df-4647-bc87-4dd56681ff83",
+        "prisoner_id": "6da78880-e250-4d85-9d7f-9a9037a9047d",
+        "institution_id": null,
+        "charges": "Sedition Act prosecution for circulating a petition against the Alien and Sedition Acts",
+        "arrest_date": "1799-01-01 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:51",
+        "updated_at": "2026-09-23 20:18:51",
+        "date_precision": "{\"arrest_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1799-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.mofirst.org/docs/Sedition_Act_cases-2.pdf"
+      ],
+      "research_note": "Gordon T Belt, First Amendment Center history pp.10-11 explicitly September1799 arrest, later continued serving Assembly before scheduled trial; no continuous imprisonment through April1800 inferred. Exact admission/release unresolved. Biography and case notes preserved."
+    }
+  ]
+}
