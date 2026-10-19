@@ -1,0 +1,109 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Louis Vitale",
+      "expected": {
+        "id": "83ea0fe2-dcda-41ed-8b78-3550ce26f4b7",
+        "prisoner_id": "4969c7ab-fb78-46ab-b028-337f4c8ead1a",
+        "institution_id": null,
+        "charges": "Federal trespass (anti-nuclear civil disobedience).",
+        "arrest_date": "1982-03-19 00:00:00",
+        "indicted": null,
+        "convicted": "Mostly dismissed (Federal trespass)",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1982-03-19 00:00:00",
+        "release_date": "2008-04-14 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 9523,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:16",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2006-11-19",
+        "incarceration_date": "2007-10-17",
+        "release_date": "2008-03-14",
+        "sentenced_date": "2007-10-17",
+        "charges": "Trespass; failure to obey a police officer",
+        "sentence": "Five months imprisonment: three months and two months consecutively",
+        "convicted": "Yes",
+        "judge": "Hector Estrada",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr146.pdf",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+        "https://www.nukeresister.org/2023/09/15/fr-louie-vitale-presente/"
+      ],
+      "research_note": "Inherited generic row combined an unrelated1982 arrest with false April2008 endpoint, inventing26continuousyears. Replace this conflation with sourced FortHuachuca prosecution: NR146 Nov14,2007 explicitly reports October17 sentencing and immediate custody; NR148 Apr8,2008 explicitly reports actual March14 release. ArrestNovember19,2006 had approximately2hours custody then release; not continuous until sentence. No1982 imprisonment claimed or newly invented. Preserve four independent SOA rows."
+    },
+    {
+      "table": "prisoners",
+      "name": "Louis Vitale",
+      "expected": {
+        "id": "4969c7ab-fb78-46ab-b028-337f4c8ead1a",
+        "name": "Louis Vitale",
+        "sort_order": 22951,
+        "photo": "prisoners/louis-vitale.jpg",
+        "description": "Father Louis Vitale OFM was an American Franciscan friar, U.S. Air Force veteran (he served as a pilot before entering religious life), and one of the most prolific civil-disobedience peace activists in modern U.S. history — arrested more than 200 times across five decades. He co-founded the Nevada Desert Experience in 1982, the long-running organizing campaign against U.S. nuclear testing at the Nevada Test Site, and Pace e Bene Nonviolence Service in 1989. He served as Pastor of St. Boniface Church in San Francisco's Tenderloin neighborhood from 1992 to 2005, where he ran the largest meal program for unhoused people in the city.\n\nMost of his arrests were short Nevada Test Site trespasses, but he served substantial federal time for two later actions. On November 19, 2006, with Father Steve Kelly SJ, he crossed the line at Fort Huachuca, Arizona — the U.S. Army's interrogation school where post-9/11 'enhanced interrogation' techniques were taught — and attempted to deliver a letter to the commanding general protesting U.S. torture policy. They were convicted of trespass and sentenced to five months federal in May 2007; both were 75 years old at the time. In 2007 he was also sentenced to five months for the annual SOA Watch line-crossing at Fort Benning, Georgia, served at FCI Lompoc. He died on June 21, 2023 at age 91. Convicted in U.S. District Court for the Middle District of Georgia under 18 U.S.C. § 1382 (entering a military reservation) for participating in the School of the Americas Watch (SOA Watch) annual nonviolent civil-disobedience action at Fort Benning, Georgia on September 2002. The action targeted the U.S. Army Western Hemisphere Institute for Security Cooperation (WHINSEC) — formerly the School of the Americas — which had trained Latin American military officers later linked to assassinations, torture, and massacres including Romero, the four U.S. churchwomen, the Jesuits in El Salvador, El Mozote, and Plan Cóndor. Defendants typically received 3 to 6 months in federal custody plus a fine.",
+        "years_in_prison": null,
+        "state": "California",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Louis",
+        "middle_name": null,
+        "last_name": "Vitale",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1932-06-01 00:00:00",
+        "death_date": "2023-09-06 00:00:00",
+        "age": 91,
+        "ideologies": "[\"Anti-Nuclear\",\"Anti-War\"]",
+        "era": "2000s",
+        "affiliation": "[\"Catholic Worker Movement\"]",
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": "25803-048",
+        "awaiting_trial": 0,
+        "created_at": "2026-05-03 08:02:04",
+        "updated_at": "2026-10-13 01:17:16",
+        "slug": "louis-vitale",
+        "body": "<p><strong>Admission dates verified October 13, 2026:</strong> The <a href=\"https://baltimorenonviolencecenter.blogspot.com/2010/01/fr-louie-vitale-in-georgia-jail-6-month.html\">contemporary Nuclear Resister/SOA Watch statement reproduced by Baltimore Nonviolence Center</a> reports January 25, 2010 sentencing and immediate imprisonment. <a href=\"https://media.nukeresister.org/wp-content/uploads/2011/01/NR160.pdf\">Nuclear Resister issue 160, page 3</a>, visually inspected, explicitly lists admission on November 23, 2010 and immediate remand at sentencing; the <a href=\"https://www.nukeresister.org/2010/11/23/soaw-arrestees-arraigned-six-months-in-jail-for-two/\">original contemporary report</a> confirms that sentencing date. The existing July 23, 2010 and May 20, 2011 release dates are corroborated by <a href=\"https://soaw-austin.org/POC1983_2012.php\">SOA Watch Austin's retrospective prisoner records</a>. These are separate episodes, not continuous imprisonment between protests. Earlier legacy aggregate dates and the 2005 episode remain outside these two date corrections and require further reconciliation.</p>",
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"death_date\":\"day\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "Father Louis Vitale OFM was an American Franciscan friar, U.S. Air Force veteran (he served as a pilot before entering religious life), and one of the most prolific civil-disobedience peace activists in modern U.S. history — arrested more than 200 times across five decades. He co-founded the Nevada Desert Experience in 1982, the long-running organizing campaign against U.S. nuclear testing at the Nevada Test Site, and Pace e Bene Nonviolence Service in 1989. He served as Pastor of St. Boniface Church in San Francisco's Tenderloin neighborhood from 1992 to 2005, where he ran the largest meal program for unhoused people in the city.\n\nOn November 19, 2006, Vitale and fellow Jesuit priest Steve Kelly were arrested while protesting U.S. torture policy at Fort Huachuca, Arizona. They were released after that initial arrest. On October 17, 2007, Magistrate Hector Estrada sentenced each to three months for trespass and two months for failure to obey a police officer, to run consecutively. Both were taken into custody immediately and released on March 14, 2008. Vitale also served separate prison terms for School of the Americas Watch protests. He died on September 6, 2023, aged 91.",
+        "death_date": "2023-09-06 00:00:00",
+        "date_precision": "{\"death_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr146.pdf",
+        "https://www.nukeresister.org/wp-content/uploads/resister/nr148.pdf",
+        "https://www.nukeresister.org/2023/09/15/fr-louie-vitale-presente/"
+      ],
+      "research_note": "Correct biography May2007 sentencing to October17 actual, remove false claim Kelly also75 and unsupported additional2007 SOA sentence. Firsthand campaign obituary confirms September6,2023 death, not June21. No case notes added."
+    }
+  ]
+}
