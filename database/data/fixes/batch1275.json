@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Jevon Martinez September custody",
+      "expected": {
+        "id": "52214889-270e-4ad0-a935-bc383ec7c98e",
+        "prisoner_id": "1c2ce45e-4db4-4a85-a366-b21f400974ca",
+        "institution_id": "1dd4eb9b-660b-4a3c-ad0e-9f485524b6c4",
+        "charges": "Criminal damage to property, larceny, tampering with evidence, possession of burglary tools",
+        "arrest_date": "2026-09-02 00:00:00",
+        "indicted": null,
+        "convicted": "No \u2014 charges pending",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2026-09-02 00:00:00",
+        "release_date": "2026-09-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Pretrial detention followed by supervised release",
+        "imprisoned_for_days": 2,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-03 14:14:37",
+        "updated_at": "2026-10-03 14:14:37",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": 2,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2026-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://abqraw.com/post/da-brings-up-past-sex-and-traffic-charges-against-vigilante-flock-camera-guys-pre-trial-hearing-metro-judge-releases-him-but-sandoval-county-courts-keeps-him-jailed/",
+        "https://www.newsradiokkob.com/2026/09/08/63383/"
+      ],
+      "research_note": "September5 report quotes DA communications director confirming continued jail hold in other county despite metro release order. September8 KKOB reports now out. September4 is not actual end of continuous custody. Set month precision September to reconcile overlapping episode without inventing a release day. July episode remains unresolved."
+    }
+  ]
+}
