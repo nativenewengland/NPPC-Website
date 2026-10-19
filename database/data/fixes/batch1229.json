@@ -1,0 +1,171 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Elijah Brown",
+      "expected": {
+        "id": "ae3770f3-c5ae-495c-a1b2-d29ef133a09c",
+        "prisoner_id": "af7e45a7-c53d-4337-add2-79c2f6a66558",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": "1777-09-05 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-10-14 00:00:42",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-05 00:00:00",
+        "release_date": "1778-04-27 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt"
+      ],
+      "research_note": "Gilpin, Exiles in Virginia (1848): p.67 individual Lodge admissions (Smith broker Sep2, Hunt Sep4, Gilpin Sep2, Brown Sep5); pp.209-215 death of Gilpin March2 and Hunt March31,1778; pp.230-232 April27 discharge with Brown and William Smith broker signatories. Death ends detention, not a release; public biographies and case notes untouched."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Hunt",
+      "expected": {
+        "id": "3c8e3148-3a45-4fd1-a1bb-a2591efe568a",
+        "prisoner_id": "8cab8627-a50e-47aa-8ba4-bd8defd2a81b",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile,\".",
+        "arrest_date": "1777-09-04 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-03-01 00:00:00",
+        "death_in_custody_date": "1778-03-01 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished to Winchester, Virginia; he died there in exile in 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:48:41",
+        "updated_at": "2026-10-14 00:00:40",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-04 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1778-03-31 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt"
+      ],
+      "research_note": "Gilpin, Exiles in Virginia (1848): p.67 individual Lodge admissions (Smith broker Sep2, Hunt Sep4, Gilpin Sep2, Brown Sep5); pp.209-215 death of Gilpin March2 and Hunt March31,1778; pp.230-232 April27 discharge with Brown and William Smith broker signatories. Death ends detention, not a release; public biographies and case notes untouched."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Gilpin",
+      "expected": {
+        "id": "998e1c0a-43f3-4930-825f-db5dadfbb210",
+        "prisoner_id": "d63f8791-6369-486b-b9cc-b4b174c808e2",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile,\".",
+        "arrest_date": "1777-09-02 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1778-03-01",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished to Winchester, Virginia; he died there in exile in March 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 14:48:41",
+        "updated_at": "2026-10-18 21:58:07",
+        "date_precision": "{\"incarceration_date\":\"month\",\"death_in_custody_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-02 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": "1778-03-02 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"death_in_custody_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt"
+      ],
+      "research_note": "Gilpin, Exiles in Virginia (1848): p.67 individual Lodge admissions (Smith broker Sep2, Hunt Sep4, Gilpin Sep2, Brown Sep5); pp.209-215 death of Gilpin March2 and Hunt March31,1778; pp.230-232 April27 discharge with Brown and William Smith broker signatories. Death ends detention, not a release; public biographies and case notes untouched."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William Smith",
+      "expected": {
+        "id": "c89a6e84-38b2-426e-bc4f-9288eae7482a",
+        "prisoner_id": "d7b9c39e-c0d5-4a8e-ae4a-0d3a265ebc52",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1778-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-29 21:33:14",
+        "updated_at": "2026-10-14 00:00:42",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-02 00:00:00",
+        "release_date": "1778-04-27 00:00:00",
+        "arrest_date": "1777-09-02 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt"
+      ],
+      "research_note": "Gilpin, Exiles in Virginia (1848): p.67 individual Lodge admissions (Smith broker Sep2, Hunt Sep4, Gilpin Sep2, Brown Sep5); pp.209-215 death of Gilpin March2 and Hunt March31,1778; pp.230-232 April27 discharge with Brown and William Smith broker signatories. Death ends detention, not a release; public biographies and case notes untouched."
+    }
+  ]
+}
