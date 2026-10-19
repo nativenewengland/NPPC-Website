@@ -1,0 +1,124 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Charles Rose",
+      "expected": {
+        "id": "b3c9711f-bbf7-4bf9-8c73-5be7c8cec722",
+        "prisoner_id": "bf8e7e97-6d7e-44e2-9ac4-f33b94478b46",
+        "institution_id": null,
+        "charges": "Crimes committed during Shays\u2019 Rebellion (charges of treason and robbery arising from the uprising).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1787-12-06 00:00:00",
+        "death_in_custody_date": "1787-12-06 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death. Hanged at Lenox, Massachusetts, on December 6, 1787. Custody start date unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-09-26 05:46:41",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Burglary",
+        "release_date": null,
+        "date_precision": "{\"death_in_custody_date\":\"day\"}"
+      },
+      "sources": [
+        "https://wellcomecollection.org/concepts/tr26vh56"
+      ],
+      "research_note": "Contemporary execution sermon title explicitly identifies John Bly and Charles Rose execution December6,1787 for crimes of burglary. Replace unsupported broad treason/robbery wording with named charge; death_in_custody_date retained, remove duplicate misleading release date. Custody admission unresolved; no counter claimed. No biography or case notes changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "John Bly",
+      "expected": {
+        "id": "056173d5-396b-470c-8e78-a9d4e86d54de",
+        "prisoner_id": "66581bab-3ea1-4dcd-b244-b7c91f642ea3",
+        "institution_id": null,
+        "charges": "Crimes committed during Shays\u2019 Rebellion (charges of treason and robbery arising from the uprising).",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1787-12-06 00:00:00",
+        "death_in_custody_date": "1787-12-06 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death. Hanged at Lenox, Massachusetts, on December 6, 1787. Custody start date unresolved.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-09-26 05:46:41",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "charges": "Burglary",
+        "release_date": null,
+        "date_precision": "{\"death_in_custody_date\":\"day\"}"
+      },
+      "sources": [
+        "https://wellcomecollection.org/concepts/tr26vh56"
+      ],
+      "research_note": "Contemporary execution sermon title explicitly identifies John Bly and Charles Rose execution December6,1787 for crimes of burglary. Replace unsupported broad treason/robbery wording with named charge; death_in_custody_date retained, remove duplicate misleading release date. Custody admission unresolved; no counter claimed. No biography or case notes changes."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William Keteltas",
+      "expected": {
+        "id": "c05a3ec8-30c4-4f29-ac99-9d71b1f41f68",
+        "prisoner_id": "fc038a99-93bd-4f4d-aaa3-07a4298d5e86",
+        "institution_id": null,
+        "charges": "Legislative breach of privilege following criticism of officials",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1796-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-23 20:18:51",
+        "updated_at": "2026-09-23 20:18:51",
+        "date_precision": "{\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1796-03-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://erenow.org/modern/gotham-history-of-new-york-city-to-1898/22.php",
+        "https://uplopen.com/books/1725/files/3b25ccc2-abfa-4580-85f7-c5ed8695f41a.pdf"
+      ],
+      "research_note": "Burrows and Wallace, Gotham (OUP), early March1796 Assembly summons followed by imprisonment in Bridewell. Year-only start refined to March; no exact day inferred. Narrative says habeas release a month later but precise endpoint not independently established, so leave release unresolved and do not claim counter. No biography or case notes changes."
+    }
+  ]
+}
