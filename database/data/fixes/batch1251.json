@@ -1,0 +1,124 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "John Crawford",
+      "expected": {
+        "id": "465afa51-6f36-49f8-b76b-15526f872e2a",
+        "prisoner_id": "502cc43e-ec49-4ed9-826c-a2386f7deb31",
+        "institution_id": "6eeba16f-cbbe-450d-a649-991f3b78058a",
+        "charges": "High treason (Whiskey Rebellion)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1794-11-15 00:00:00",
+        "release_date": "1795-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Marched to Philadelphia in chains in late 1794 and held for the 1795 federal treason proceedings; released 1795",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1794-11-13 00:00:00",
+        "incarceration_date": "1794-11-13 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"year\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://archive.org/details/historyinsurrec00findgoog"
+      ],
+      "research_note": "Findley1796 pp200-202 connects November13 seizure with Dunlap taking Colonel Crawford and son and Sedgwick early in morning. Primary account says younger Crawford dismissed at Pittsburgh; existing1795 release and Philadelphia biography require reconciliation. Release untouched: attempted month-only November endpoint would precede exact start in raw storage and was rejected by automatic review. No biography, notes, sentence or unrelated fields changed."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Sedgwick",
+      "expected": {
+        "id": "f4099bb5-d4e9-44f7-a557-07f318b95d35",
+        "prisoner_id": "0d0d25d5-a0a7-4e75-85e5-5ce91d32fe72",
+        "institution_id": "6eeba16f-cbbe-450d-a649-991f3b78058a",
+        "charges": "High treason (Whiskey Rebellion)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1794-11-01 00:00:00",
+        "release_date": "1795-02-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Marched to Philadelphia in chains in late 1794 and held for the 1795 federal treason proceedings; released 1795",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-19 15:09:08",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1794-11-13 00:00:00",
+        "incarceration_date": "1794-11-13 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://archive.org/details/historyinsurrec00findgoog"
+      ],
+      "research_note": "Findley1796 pp200-202 connects November13 seizure with Dunlap taking Colonel Crawford and son and Sedgwick early in morning. Primary account says younger Crawford dismissed at Pittsburgh; existing1795 release and Philadelphia biography require reconciliation. Release untouched: attempted month-only November endpoint would precede exact start in raw storage and was rejected by automatic review. No biography, notes, sentence or unrelated fields changed."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "William Crawford",
+      "expected": {
+        "id": "38115518-ebd8-4277-841d-dd3ca15f33a8",
+        "prisoner_id": "805af32c-0aaa-4825-99c8-896bbc4a96bf",
+        "institution_id": "6eeba16f-cbbe-450d-a649-991f3b78058a",
+        "charges": "High treason (Whiskey Rebellion)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1794-11-01 00:00:00",
+        "release_date": "1795-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-19 15:35:43",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1794-11-13 00:00:00",
+        "incarceration_date": "1794-11-13 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"year\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://archive.org/details/historyinsurrec00findgoog"
+      ],
+      "research_note": "Findley1796 pp200-202 connects November13 seizure with Dunlap taking Colonel Crawford and son and Sedgwick early in morning. Primary account says younger Crawford dismissed at Pittsburgh; existing1795 release and Philadelphia biography require reconciliation. Release untouched: attempted month-only November endpoint would precede exact start in raw storage and was rejected by automatic review. No biography, notes, sentence or unrelated fields changed."
+    }
+  ]
+}
