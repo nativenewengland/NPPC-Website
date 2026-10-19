@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Peter Van Schaack",
+      "expected": {
+        "id": "d5b81463-c4c2-42c9-b0f9-39fca34da0d3",
+        "prisoner_id": "38d63dac-9266-4040-b2cd-6801e36fe29f",
+        "institution_id": null,
+        "charges": "Refusing the oath of allegiance to the revolutionary state of New York.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Banished by order of the commissioners for conspiracies (1778), without criminal trial.",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banishment and seven years of exile in England (1778\u20131785).",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-07-06 10:15:43",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "in_exile_since": "1778-08-01 00:00:00",
+        "end_of_exile": "1785-07-20 00:00:00",
+        "date_precision": "{\"in_exile_since\":\"month\",\"end_of_exile\":\"day\"}"
+      },
+      "sources": [
+        "https://archive.org/download/lifeofpeter00vansrich/lifeofpeter00vansrich_djvu.txt",
+        "https://nysl.nysed.gov/msscfa/sc9829",
+        "https://findingaids.library.columbia.edu/pdf/cul-4079435.pdf"
+      ],
+      "research_note": "Life of Peter Van Schaack p120 documents Aug19,1778 interview with Clinton while en route from home to British-held NewYork after banishment; use August month for forced displacement, not Oct19 sailing to England as first exile. P389 records June10,1785 embarkation and July20 landing at NewYork; physical return endpoint July20, not restoration of citizenship in1784. NYSL and Columbia corroborate1778-1785 exile. No incarceration interval inferred and no biography/notes changed."
+    }
+  ]
+}
