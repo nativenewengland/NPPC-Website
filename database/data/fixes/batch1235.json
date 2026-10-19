@@ -1,0 +1,129 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Abijah Adams",
+      "expected": {
+        "id": "d5cfedcf-bdc4-44dd-9e66-ae109cbb8a36",
+        "prisoner_id": "d64132de-8050-4c7d-9e09-bbb399783542",
+        "institution_id": "9d038c23-471a-48e9-8db4-280a6e72dd2a",
+        "charges": "Contempt of the Massachusetts General Court (seditious libel of the legislature)",
+        "arrest_date": "1799-02-27",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1799-03-01",
+        "release_date": "1799-04-01",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "Francis Dana",
+        "sentence": "Thirty days in jail plus $5 in costs",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-22 02:18:56",
+        "updated_at": "2026-10-18 23:35:13",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1799-04-24",
+        "documented_imprisoned_for_days": 30,
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e0/Journalism_in_the_United_States%2C_from_1690-1872_%28IA_journalisminunit00hudsiala%29.pdf"
+      ],
+      "research_note": "Hudson, Journalism in the United States reproduces Independent Chronicle April25,1799 report: discharged yesterday after thirty days confinement. Exact April24 release and documented30 actual days, not inferred from sentence. March admission remains monthprecision; do not backcalculate day. Biography and notes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Charles Holt",
+      "expected": {
+        "id": "1a97784c-9970-4930-9803-3869876e1ecc",
+        "prisoner_id": "27c99c9e-1593-480d-b7d3-37bb351e7c76",
+        "institution_id": null,
+        "charges": "Sedition Act of 1798",
+        "arrest_date": "1799-09-21 00:00:00",
+        "indicted": "September 17, 1799, Connecticut grand jury (Sedition Act)",
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1800-01-01 00:00:00",
+        "release_date": "1800-04-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Three months and a $200 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:26:02",
+        "updated_at": "2026-10-17 02:49:31",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1800-04-12 00:00:00",
+        "release_date": "1800-07-01 00:00:00",
+        "sentenced_date": "1800-04-12 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.themagazineantiques.com/article/from-the-archives-freedom-in-miniature-mary-ways-coded-portrait-of-charles-holt/",
+        "https://www.mofirst.org/docs/Sedition_Act_cases-2.pdf"
+      ],
+      "research_note": "Brian Ehrlich article explicitly conviction April12,1800 followed immediately by imprisonment; released on or around July14. Record July monthonly, not approximate day. Belt independently April trial, three-month sentence. Existing fine unchanged due source disagreement. Corrects bogus April endpoint. Biography and notes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "David Frothingham",
+      "expected": {
+        "id": "c2f79f5e-eaff-4e27-a84a-6a101a324de3",
+        "prisoner_id": "4f822c04-5b75-4caf-ab5d-273ac68a9ce6",
+        "institution_id": null,
+        "charges": "Seditious libel under New York common law",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1799-01-01 00:00:00",
+        "release_date": "1799-05-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four months in the Bridewell and a $100 fine",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:26:02",
+        "updated_at": "2026-10-14 00:00:26",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1799-11-09 00:00:00",
+        "sentenced_date": "1799-12-03 00:00:00",
+        "incarceration_date": "1799-12-01 00:00:00",
+        "release_date": null,
+        "date_precision": "{\"incarceration_date\":\"month\",\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.mofirst.org/docs/Sedition_Act_cases-2.pdf",
+        "https://www.digitallongisland.org/record/1077?ln=en"
+      ],
+      "research_note": "Belt p.11 Nov9 arrest then bail, Nov21 trial, Dec3 sentence. Monthprecision December postconviction imprisonment; exact admission day not assumed. Remove May1799 endpoint preceding prosecution. Fine/surety may prolong sentence; no release calculated. Death-in-custody biography assertion conflicts library finding that death circumstances unknown; flagged for separate biography review, no rewrite here. Biography and notes preserved."
+    }
+  ]
+}
