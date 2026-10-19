@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "expected": {
+        "id": "d4e73830-7a05-4a91-acce-176be243c5d1",
+        "prisoner_id": "85e871f2-2332-4fb5-8bc0-6ec9e1f7cdc1",
+        "institution_id": "0b521bc6-3acb-42cf-a7d8-3098c9c51877",
+        "charges": null,
+        "arrest_date": "1832-08-27 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1833-06-04 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "~8 months as a U.S. Army prisoner of war.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-25 00:05:44",
+        "updated_at": "2026-10-14 00:00:34",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "research_note": "Street letter Sept3 1832 confirms delivery Aug27 and same-day transfer to ColTaylor at FortCrawford. Drake Great Indian Chief of West chapterVIII dates receipt of liberation order June4 1833 and departure June5. Existing June4 endpoint retained as release date; add verified custody start. Other May30 accounts conflict with near-contemporary chronology and are retained in private audit. No biography or notes changed.",
+      "updates": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "incarceration_date": "1832-08-27 00:00:00"
+      },
+      "name": "Black Hawk",
+      "sources": [
+        "https://www.wcu.edu/library/DigitalCollections/CherokeePhoenix/Vol5/no08/indians-page-1-column-5b.html",
+        "https://www.gutenberg.org/files/18290/18290-h/18290-h.htm"
+      ],
+      "table": "prisoner_cases"
+    }
+  ]
+}
