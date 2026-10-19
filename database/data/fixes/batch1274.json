@@ -1,0 +1,44 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Erin Petra Escobar release month",
+      "expected": {
+        "id": "cd3b6685-9150-4c79-aa86-a54f20f52667",
+        "prisoner_id": "0be2fc90-59ec-4db4-9c4f-b8f12b338a7a",
+        "institution_id": null,
+        "charges": "Federal assault and misdemeanor depredation of government property arising from the July 17, 2025 Los Angeles immigration-enforcement protest.",
+        "arrest_date": "2025-07-17 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2025-07-17 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Released on $5,000 bond; exact release date has not been verified.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-09-27 05:08:37",
+        "updated_at": "2026-09-27 05:08:37",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "2025-07-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.univision.com/shows/primer-impacto/erin-petra-escobar-demanda-al-gobierno-por-10-millones-tras-violento-arresto-en-manifestacion-contra-ice-video",
+        "https://www.justice.gov/usao-cdca/pr/grand-jury-returns-4-count-indictment-charging-two-defendants-assaulting-federal"
+      ],
+      "research_note": "Univision reports86hours confinement following July17 2025 arrest; DOJ August8 confirms already free on bond. Together support July2025 month precision. Do not infer a precise release day or convert86hours into rounded day counter. Storage July1 is not an actual release date."
+    }
+  ]
+}
