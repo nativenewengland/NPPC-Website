@@ -1,10 +1,10 @@
 {
   "scope": 210,
-  "profiles_changed_live": 34,
+  "profiles_changed_live": 35,
   "status_counts": {
-    "verified_correction_applied": 25,
+    "verified_correction_applied": 26,
     "scan_false_positive": 63,
-    "source_verification_pending": 109,
+    "source_verification_pending": 108,
     "custody_corrected_further_case_review": 4,
     "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 5
@@ -1649,9 +1649,44 @@
           "excess_minimum_days": 2
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Source-backed corrections applied live; details and preservation checks in numbered batch audits.",
+      "live_changes": [
+        {
+          "batch": 1213,
+          "table": "prisoner_cases",
+          "fields": [
+            "arrest_date",
+            "incarceration_date",
+            "release_date",
+            "sentenced_date",
+            "charges",
+            "sentence",
+            "date_precision"
+          ],
+          "sources": [
+            "https://newspaper.animalpeopleforum.org/2006/01/02/ghosts-of-911-december-7-haunt-animal-advocacy/",
+            "https://breakallchains.blogspot.com/2007/05/darren-thurston-sentencing-report.html",
+            "https://animalliberationpressoffice.org/NAALPO/snitches/",
+            "https://www.oocities.org/insurrectionary_anarchists/thurston.html"
+          ],
+          "research_note": "Contemporary January2006 AnimalPeople report identifies December7 arrest and continued Tacoma immigration detention. Eyewitness May29,2007 sentencing report establishes conspiracy and Litchfield2001 arson, not CavelWest1997. AnimalLiberationPressOffice retrospective register-derived roster explicitly records August14,2008 actual release; independent October2008 report already describes released and returningCanada, disproving inherited June2010 endpoint. Do not use May21 sentencing-memorandum date as admission or sentence."
+        },
+        {
+          "batch": 1213,
+          "table": "prisoners",
+          "fields": [
+            "description"
+          ],
+          "sources": [
+            "https://newspaper.animalpeopleforum.org/2006/01/02/ghosts-of-911-december-7-haunt-animal-advocacy/",
+            "https://breakallchains.blogspot.com/2007/05/darren-thurston-sentencing-report.html",
+            "https://animalliberationpressoffice.org/NAALPO/snitches/",
+            "https://www.oocities.org/insurrectionary_anarchists/thurston.html"
+          ],
+          "research_note": "Correct biography conflating CavelWest1997 with charged Litchfield2001 arson and incorrectMay24 sentencing. Preserve later paragraphs. No case notes added."
+        }
+      ]
     },
     {
       "index": 40,

@@ -1,0 +1,67 @@
+{
+  "batch": 1213,
+  "profiles_updated": 1,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1213-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoners",
+      "id": "0215b06a-3f82-4206-99ba-2990f3e24d09",
+      "name": "Darren Thurston",
+      "changes": {
+        "description": [
+          "Darren Thurston is a Canadian animal rights and environmental activist with a long history of ALF organizing in Edmonton, Alberta dating back to the early 1990s. He was implicated through Operation Backfire in the August 1997 horse rescue at the Cavel West horse slaughterhouse in Redmond, Oregon, in which more than 100 horses were freed before the facility was burned. He pleaded guilty in 2006 to two charges and cooperated with federal prosecutors. On May 24, 2007, Judge Ann Aiken sentenced him to 37 months (3 years and 1 month) in federal prison.\n\nOperation Backfire was the multi-agency federal investigation that, between 2005 and 2008, prosecuted approximately a dozen members of the small Eugene-area ELF/ALF cell known to investigators as 'The Family,' which had carried out roughly twenty arsons and acts of sabotage in five western states between 1996 and 2001. After the December 2005 arrests, the defendants split into two groups: those who cooperated with the federal government — testifying against their co-defendants in exchange for substantially reduced sentences — and those who did not (Daniel McGowan, Marius Mason, Joyanna Zacher, Nathan Block, Jonathan Paul, Briana Waters, Joseph Dibee, Justin Solondz, Rebecca Rubin, and the late William 'Avalon' Rodgers). This entry is for one of the cooperating defendants. The Earth Liberation Prisoners support network has consistently distinguished between cooperating and non-cooperating defendants, and many in the radical-ecology movement do not consider cooperators political prisoners. They are included here because they served meaningful federal prison time.",
+          "Darren Thurston is a Canadian animal-rights and environmental activist prosecuted in the U.S. Operation Backfire investigation. Arrested in Portland on December 7, 2005, he was initially held on immigration charges in Tacoma and later prosecuted for conspiracy and the October 2001 arson at Bureau of Land Management wild-horse corrals near Litchfield, California. He cooperated with federal prosecutors and pleaded guilty. On May 29, 2007, Judge Ann Aiken sentenced him to 37 months in prison. He was released on August 14, 2008 and returned to Canada.\n\nOperation Backfire was the multi-agency federal investigation that, between 2005 and 2008, prosecuted approximately a dozen members of the small Eugene-area ELF/ALF cell known to investigators as 'The Family,' which had carried out roughly twenty arsons and acts of sabotage in five western states between 1996 and 2001. After the December 2005 arrests, the defendants split into two groups: those who cooperated with the federal government — testifying against their co-defendants in exchange for substantially reduced sentences — and those who did not (Daniel McGowan, Marius Mason, Joyanna Zacher, Nathan Block, Jonathan Paul, Briana Waters, Joseph Dibee, Justin Solondz, Rebecca Rubin, and the late William 'Avalon' Rodgers). This entry is for one of the cooperating defendants. The Earth Liberation Prisoners support network has consistently distinguished between cooperating and non-cooperating defendants, and many in the radical-ecology movement do not consider cooperators political prisoners. They are included here because they served meaningful federal prison time."
+        ],
+        "updated_at": [
+          "2026-08-10 23:11:52",
+          "2026-10-19 00:17:31"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "05ca0b7d-562f-4bf0-b6b6-8e653db6bb8e",
+      "name": "Darren Thurston",
+      "changes": {
+        "charges": [
+          "Conspiracy, arson — Cavel West horse slaughterhouse, August 1997 (Operation Backfire — 2 counts)",
+          "Conspiracy; arson"
+        ],
+        "arrest_date": [
+          "2005-12-06 00:00:00",
+          "2005-12-07"
+        ],
+        "sentenced_date": [
+          "2007-05-29 00:00:00",
+          "2007-05-29"
+        ],
+        "incarceration_date": [
+          "2007-05-21 00:00:00",
+          "2005-12-07"
+        ],
+        "release_date": [
+          "2010-06-23 00:00:00",
+          "2008-08-14"
+        ],
+        "sentence": [
+          "37 months in federal prison",
+          "37 months imprisonment"
+        ],
+        "imprisoned_for_days": [
+          1129,
+          981
+        ],
+        "updated_at": [
+          "2026-07-29 17:05:24",
+          "2026-10-19 00:17:31"
+        ],
+        "date_precision": [
+          "{\"sentenced_date\":\"day\"}",
+          "{\"sentenced_date\":\"day\",\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+        ]
+      }
+    }
+  ]
+}
