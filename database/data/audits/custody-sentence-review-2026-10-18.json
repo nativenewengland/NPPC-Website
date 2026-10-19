@@ -3355,7 +3355,7 @@
         }
       ],
       "status": "sentence_corrected_custody_pending",
-      "finding": "Original roster corrects sentence to three months. Custody dates still require separate verification; sentence was not used to manufacture admission or release.",
+      "finding": "Three-month sentence and actual July24,2003 release verified and applied live. Actual prison admission remains unresolved; no start inferred by subtracting sentence.",
       "live_changes": [
         {
           "batch": 1201,
@@ -3378,6 +3378,18 @@
             "https://soaw-austin.org/POC1983_2012.php"
           ],
           "research_note": "Correct the individually documented imposed sentence; do not infer admission/release from sentence length."
+        },
+        {
+          "batch": 1214,
+          "table": "prisoner_cases",
+          "fields": [
+            "release_date",
+            "date_precision"
+          ],
+          "sources": [
+            "https://sistersofprovidence.net/wp-content/uploads/2017/06/03_fall_c.pdf"
+          ],
+          "research_note": "Contemporary Caritas Fall 2003 page 11 explicitly identifies Laura Slattery walking free alongside Maureen Newman on Thursday July 24, 2003. Corrects July23 endpoint only; actual prison admission remains unresolved. No admission inferred from nominal three-month term. No case notes added."
         }
       ]
     },
