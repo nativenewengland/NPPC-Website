@@ -1,0 +1,50 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Gamaly Hollis",
+      "expected": {
+        "id": "7b625acc-d182-4928-99ed-3e4af6fa3e3a",
+        "prisoner_id": "a49f0834-d73e-4b38-ac4c-f5a953babada",
+        "institution_id": "8d5e96db-dbe8-4dc9-bcb2-5c9819061e83",
+        "charges": "Misdemeanor criminal violation of a stay-away injunction (Florida Statutes \u00a7 784.047)",
+        "arrest_date": "2022-08-14 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "2022-08-14 00:00:00",
+        "release_date": "2024-07-29 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "364 days in the Miami-Dade County jail (the statutory maximum for the misdemeanor); served the full sentence",
+        "imprisoned_for_days": 715,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:13",
+        "updated_at": "2026-07-29 17:12:17",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "2022-08-22",
+        "incarceration_date": null,
+        "release_date": "2024-04-19",
+        "documented_imprisoned_for_days": 364,
+        "sentence": "364 days",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.miamiherald.com/news/local/community/miami-dade/article287852610.html",
+        "https://www.miamiherald.com/news/local/community/miami-dade/article288058730.html",
+        "https://www.local10.com/news/local/2024/04/27/mother-of-man-who-died-in-miami-dade-police-involved-shooting-has-pending-stalking-case/",
+        "https://amp.miamiherald.com/news/local/crime/article315541024.html"
+      ],
+      "research_note": "Contemporary reports confirm April 19, 2024 actual bond release and August 22, 2022 confrontation/arrest. No basis for continuous incarceration from initial arrest; admission unresolved, cleared unsupported start. April 2026 reporting quotes prosecutors confirming actual 364 days served; recorded documented total, not inferred by subtracting sentence from release. Biography and case notes untouched."
+    }
+  ]
+}
