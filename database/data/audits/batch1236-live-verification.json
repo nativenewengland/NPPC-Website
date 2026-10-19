@@ -1,0 +1,44 @@
+{
+  "profiles": [
+    {
+      "name": "Conrad Fahnestock",
+      "slug": "conrad-fahnestock",
+      "updates": {
+        "arrest_date": "1799-08-24 00:00:00",
+        "indicted": "October 18, 1799",
+        "charges": "Sedition",
+        "date_precision": "{\"arrest_date\":\"day\"}"
+      },
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "Jedediah Peck",
+      "slug": "jedediah-peck",
+      "updates": {
+        "arrest_date": "1799-09-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\"}"
+      },
+      "unrelated_fields_preserved": true
+    }
+  ],
+  "idempotent_rerun": true,
+  "new_counters": 0,
+  "reviewed_without_changes": [
+    {
+      "name": "Franklin Bache",
+      "slug": "franklin-bache",
+      "finding": "June26,1798 arrest already present; bail and continued publishing established, no prolonged custody endpoint supplied."
+    },
+    {
+      "name": "John Daly Burk",
+      "slug": "john-daly-burk",
+      "finding": "July1798 arrest/bail established; dismissal or concealment is not continuous custody. No additional verified jail interval."
+    },
+    {
+      "name": "Benjamin Fairbanks",
+      "slug": "benjamin-fairbanks",
+      "finding": "Six-hour sentence not evidence of total detention including pretrial; exact physical custody endpoints remain unresolved."
+    }
+  ],
+  "source_for_nochange": "https://www.mofirst.org/docs/Sedition_Act_cases-2.pdf"
+}
