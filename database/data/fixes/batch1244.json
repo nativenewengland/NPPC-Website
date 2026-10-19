@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Sedgwick",
+      "expected": {
+        "id": "f4099bb5-d4e9-44f7-a557-07f318b95d35",
+        "prisoner_id": "0d0d25d5-a0a7-4e75-85e5-5ce91d32fe72",
+        "institution_id": "6eeba16f-cbbe-450d-a649-991f3b78058a",
+        "charges": "High treason (Whiskey Rebellion)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1794-11-15 00:00:00",
+        "release_date": "1795-02-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Marched to Philadelphia in chains in late 1794 and held for the 1795 federal treason proceedings; released 1795",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-25 13:22:40",
+        "updated_at": "2026-10-14 00:00:43",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1794-11-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://wardepartmentpapers.org/document/48605/",
+        "https://www.seekingmyroots.com/members/files/G001299.pdf",
+        "https://studylib.net/doc/8124840/whiskey-rebellion---georgia-workshop-in-early-american-hi..."
+      ],
+      "research_note": "Hamilton Nov15,1794 letter names Sedgwick already confined, rather than arrested that day. Corbly family history places his arrest in Nov13 roundup. Retain documented November month without assigning an exact admission day until original arrest journal is verified. February1795 bail month remains consistent with scholarly citation to Supreme Court minutes Feb25-27. No biography or notes changed; this is correction of unsupported day precision, not new counter."
+    }
+  ]
+}
