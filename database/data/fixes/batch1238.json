@@ -1,0 +1,89 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Phineas Bond",
+      "expected": {
+        "id": "59ab1bea-7eda-4d84-bd58-83a5191d80a6",
+        "prisoner_id": "216767a3-f382-4f87-8bcd-d4b1c7af8c42",
+        "institution_id": null,
+        "charges": "Banished without trial to Winchester, Virginia (September 1777) as a \"Virginia Exile\".",
+        "arrest_date": "1777-09-03",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-03",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banished about seven months to Winchester, Virginia; released in the spring of 1778.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-10-19 10:44:22",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1777-09-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"arrest_date\":\"day\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt",
+        "https://genpa.org/wp-content/uploads/publications/pennsylvania-genealogical-magazine/PGM_Volume_42_Number_2_pages_145-161.pdf",
+        "https://dokumen.pub/prisoners-of-congress-philadelphias-quakers-in-exile-17771778-9780271096087.html"
+      ],
+      "research_note": "Prisoners of Congress and Pennsylvania Genealogical Magazine identify Bond and Coombe as released on parole before exile. Gilpin pp.132-133 says Bond remained in Nicola custody when convoy left Sept11; dates conflict at day level, but September1777 release on parole supported. Monthprecision only; no April1778 Winchester discharge. No exact duration claimed. Biography and case notes preserved."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Thomas Coombe",
+      "expected": {
+        "id": "a02dbb65-a469-4b04-8241-4d7498902496",
+        "prisoner_id": "912a05eb-d3e3-45c7-9efd-bb1f568af74d",
+        "institution_id": null,
+        "charges": "No formal charges \u2014 detained in the 1777 roundup of suspected Loyalists ('Virginia Exiles')",
+        "arrest_date": "1777-09-02 00:00:00",
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1777-09-01 00:00:00",
+        "release_date": "1777-09-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Arrested and paroled for ill health; not banished to Virginia with the others.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:54",
+        "updated_at": "2026-09-12 00:00:20",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1777-09-02 00:00:00",
+        "release_date": "1777-09-10 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.loc.gov/item/06042550/",
+        "https://tile.loc.gov/storage-services/public/gdcmassbookdig/margaretagardner00gard/margaretagardner00gard.text.txt",
+        "https://genpa.org/wp-content/uploads/publications/pennsylvania-genealogical-magazine/PGM_Volume_42_Number_2_pages_145-161.pdf",
+        "https://dokumen.pub/prisoners-of-congress-philadelphias-quakers-in-exile-17771778-9780271096087.html"
+      ],
+      "research_note": "Gilpin p.67 September2 Lodge admission; pp.127-130 entry September10 explicitly records giving parole. Scholarly Prisoners of Congress and PGM corroborate Coombe released on parole before convoy. September10 parole ends Lodge confinement; not an unconditional acquittal. Eight-day confinement, no exile interval asserted. Biography and case notes preserved."
+    }
+  ]
+}
