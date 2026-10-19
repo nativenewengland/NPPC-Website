@@ -1,0 +1,86 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Patrick Tully",
+      "expected": {
+        "id": "d428fbaa-f789-4feb-986b-de000354ddb8",
+        "prisoner_id": "e881a365-c31e-4adf-8404-98e7380fba95",
+        "institution_id": "4d3babb6-9f0f-4ddc-bef1-f9893ffb4073",
+        "charges": "Tried for murder as an alleged member of the Molly Maguires, in prosecutions led by Reading Railroad president Franklin B.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1878-03-25 00:00:00",
+        "death_in_custody_date": "1878-03-25 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death by hanging",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 10:57:37",
+        "updated_at": "2026-07-29 17:12:22",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1876-11-01 00:00:00",
+        "incarceration_date": "1876-11-01 00:00:00",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://library.bloomu.edu/Archives/SC/MollieMaguires/republican2ndtrial.htm",
+        "https://library.bloomu.edu/Archives/SC/MollieMaguires/thesun2ndtrial.htm"
+      ],
+      "research_note": "Contemporary Columbia County Republican November16 and November23,1876 reports arrests of Tully and McHugh and continued detention in Pottsville jail until trial. February8,1877 retrospective confirms November arrests and guarded detention; exact dates inconsistent, so retain month precision only. November1 is storage placeholder, not asserted day. Existing March25,1878 execution preserved. No biography, photo or notes edits."
+    },
+    {
+      "table": "prisoner_cases",
+      "name": "Peter McHugh",
+      "expected": {
+        "id": "58573f64-8a5d-4f0a-9713-cd2c1a2a087b",
+        "prisoner_id": "b0c4f004-b9e4-4386-95f9-26a67336d73d",
+        "institution_id": "4d3babb6-9f0f-4ddc-bef1-f9893ffb4073",
+        "charges": "Tried for murder as an alleged member of the Molly Maguires, in prosecutions led by Reading Railroad president Franklin B.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1878-03-25 00:00:00",
+        "death_in_custody_date": "1878-03-25 00:00:00",
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Death by hanging",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 10:57:37",
+        "updated_at": "2026-07-29 17:12:22",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1876-11-01 00:00:00",
+        "incarceration_date": "1876-11-01 00:00:00",
+        "date_precision": "{\"death_in_custody_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"month\",\"incarceration_date\":\"month\"}"
+      },
+      "sources": [
+        "https://library.bloomu.edu/Archives/SC/MollieMaguires/republican2ndtrial.htm",
+        "https://library.bloomu.edu/Archives/SC/MollieMaguires/thesun2ndtrial.htm"
+      ],
+      "research_note": "Contemporary Columbia County Republican November16 and November23,1876 reports arrests of Tully and McHugh and continued detention in Pottsville jail until trial. February8,1877 retrospective confirms November arrests and guarded detention; exact dates inconsistent, so retain month precision only. November1 is storage placeholder, not asserted day. Existing March25,1878 execution preserved. No biography, photo or notes edits."
+    }
+  ]
+}
