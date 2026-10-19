@@ -1,10 +1,10 @@
 {
   "scope": 210,
-  "profiles_changed_live": 35,
+  "profiles_changed_live": 38,
   "status_counts": {
-    "verified_correction_applied": 27,
+    "verified_correction_applied": 30,
     "scan_false_positive": 63,
-    "source_verification_pending": 108,
+    "source_verification_pending": 105,
     "custody_corrected_further_case_review": 3,
     "scan_false_positive_further_review": 4,
     "sentence_corrected_custody_pending": 5
@@ -1585,9 +1585,14 @@
           "excess_minimum_days": 168
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Corrected release to October10,2013; public API verified.",
+      "live_changes": [
+        {
+          "batch": 1219,
+          "verified": true
+        }
+      ]
     },
     {
       "index": 38,
@@ -1962,9 +1967,14 @@
           "excess_minimum_days": 351
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Corrected release April19,2024 and arrest August22,2022; removed unsupported continuous-custody start; actual364days recorded and public counter verified.",
+      "live_changes": [
+        {
+          "batch": 1220,
+          "verified": true
+        }
+      ]
     },
     {
       "index": 44,
@@ -2154,9 +2164,14 @@
           "excess_minimum_days": 1
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "verified_correction_applied",
+      "finding": "Confirmed actual six-month service and May19,2006 homecoming; November2005 custody start retained at month precision; public six-month counter verified.",
+      "live_changes": [
+        {
+          "batch": 1221,
+          "verified": true
+        }
+      ]
     },
     {
       "index": 48,
