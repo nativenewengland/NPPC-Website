@@ -1,0 +1,39 @@
+{
+  "profiles": [
+    {
+      "name": "Charles Rose",
+      "slug": "charles-rose",
+      "updates": {
+        "charges": "Burglary",
+        "release_date": null,
+        "date_precision": "{\"death_in_custody_date\":\"day\"}"
+      },
+      "counter": "",
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "John Bly",
+      "slug": "john-bly",
+      "updates": {
+        "charges": "Burglary",
+        "release_date": null,
+        "date_precision": "{\"death_in_custody_date\":\"day\"}"
+      },
+      "counter": "",
+      "unrelated_fields_preserved": true
+    },
+    {
+      "name": "William Keteltas",
+      "slug": "william-keteltas",
+      "updates": {
+        "incarceration_date": "1796-03-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\"}"
+      },
+      "counter": "",
+      "unrelated_fields_preserved": true
+    }
+  ],
+  "idempotent_rerun": true,
+  "new_counters": 0,
+  "unresolved": "Bly and Rose admission, Keteltas discharge still unresolved; no guessed endpoints or durations"
+}
