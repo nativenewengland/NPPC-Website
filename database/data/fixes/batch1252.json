@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Frank T. Grady",
+      "expected": {
+        "id": "cf573ed6-2790-4c9b-9783-4bfa30f190f5",
+        "prisoner_id": "5351c89c-272c-4e16-92f1-f9d6d79a836c",
+        "institution_id": "939d3d31-83aa-4164-b8b9-0b1b4111e6b1",
+        "charges": "No formal charges \u2014 held without trial (refused loyalty oath; released on parole)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": "1864-03-11 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-01 02:08:42",
+        "updated_at": "2026-07-20 05:27:13",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "release_date": "1864-03-01 00:00:00",
+        "date_precision": "{\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://archive.org/details/unitedstatesbond00hand"
+      ],
+      "research_note": "Handy diary March11,1864 (p307): informed of parole to remain Maryland; would leave tonight or tomorrow morning. Exact March11 departure is not established. Retain March month only. Admission remains unknown. Preserve all unrelated fields; do not treat first diary mention as arrest."
+    }
+  ]
+}
