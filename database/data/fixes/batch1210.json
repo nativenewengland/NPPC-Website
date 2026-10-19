@@ -1,0 +1,102 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "D. M. Bennett",
+      "expected": {
+        "id": "46fa9c76-1f0a-42d6-a77b-dcb819d5258a",
+        "prisoner_id": "4d67115e-6582-48d2-ad56-debdee4cc17e",
+        "institution_id": "b5cf5aef-b0f7-4c7d-8bd4-8b52eb907ba9",
+        "charges": "Obscenity",
+        "arrest_date": "1878-12-10 00:00:00",
+        "indicted": null,
+        "convicted": null,
+        "plead": "Not-Guilty",
+        "sentenced_date": "1879-03-20 00:00:00",
+        "incarceration_date": "1879-03-20 00:00:00",
+        "release_date": "1880-04-28 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": 405,
+        "in_exile_for_days": null,
+        "created_at": "2026-05-10 06:33:17",
+        "updated_at": "2026-05-10 06:33:17",
+        "date_precision": "{\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": "13 months at hard labor; $300 fine",
+        "release_date": "1880-04-29",
+        "sentenced_date": "1879-06-05",
+        "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+      },
+      "sources": [
+        "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html",
+        "https://historynet.com/american-biography-d-m-bennett/",
+        "https://www.thefire.org/sites/default/files/2024/06/FIRE%20Petition%20for%20Posthumous%20Pardon%20of%20D.M.%20Bennett%2C%20June%2017%2C%202024.pdf"
+      ],
+      "research_note": "Contemporary June5,1879 Brooklyn newspaper transcription explicitly reports sentencing that morning, distinguishing March conviction from later sentence. Biographer Roderick Bradford explicitly dates actual release April29,1880; former April28 is unsupported. Pardon petition confirms Cupid’s Yokes and Ezra Heywood authorship, thirteen-month hard-labor sentence. Do not repeat false Angela Heywood attribution or claim full sentence actually served. Actual admission and possible earlier jail/bail intervals remain unresolved: inherited March20 prison start deliberately not relabeled as verified."
+    },
+    {
+      "table": "prisoners",
+      "name": "D. M. Bennett",
+      "expected": {
+        "id": "4d67115e-6582-48d2-ad56-debdee4cc17e",
+        "name": "D. M. Bennett",
+        "sort_order": 103879,
+        "photo": "prisoners/d-m-bennett.jpg",
+        "description": "D. M. Bennett was the founder and publisher of Truth Seeker, one of the oldest magazines in America currently being published. Bennet was arrested in 1878 on charges of mailing obscenity after he published a pamphlet written by Angela Heywood which advocated for women being allowed to divorce their husbands. He was convicted of this offense and sentenced to 13 months of hard labor. Despite over 200,000 signing a petition calling on his release he served his entire sentence and died soon after leaving prison.",
+        "years_in_prison": null,
+        "state": "New York",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "D.",
+        "middle_name": "M.",
+        "last_name": "Bennett",
+        "aka": null,
+        "race": "White",
+        "gender": "Male",
+        "birthdate": "1818-12-23 00:00:00",
+        "death_date": "1882-12-06 00:00:00",
+        "age": 63,
+        "ideologies": null,
+        "era": "1800s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 1,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-04-04 14:50:33",
+        "updated_at": "2026-08-14 10:23:23",
+        "slug": "d-m-bennett",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": "{\"birthdate\":\"day\",\"death_date\":\"day\"}",
+        "minor_case": 0
+      },
+      "updates": {
+        "description": "D. M. Bennett founded and published The Truth Seeker, a freethought newspaper. Anthony Comstock prosecuted him for mailing Cupid’s Yokes, a pamphlet by Ezra Heywood criticizing marriage and advocating sexual freedom. Bennett was convicted in 1879 and sentenced to thirteen months at hard labor and a $300 fine. His imprisonment at Albany Penitentiary prompted a major campaign for a presidential pardon. He was released on April 29, 1880 and resumed publishing. He died in 1882."
+      },
+      "sources": [
+        "https://bklyn-genealogy-info.stevemorse.org/Court/1879.Court.html",
+        "https://historynet.com/american-biography-d-m-bennett/",
+        "https://www.thefire.org/sites/default/files/2024/06/FIRE%20Petition%20for%20Posthumous%20Pardon%20of%20D.M.%20Bennett%2C%20June%2017%2C%202024.pdf"
+      ],
+      "research_note": "Contemporary June5,1879 Brooklyn newspaper transcription explicitly reports sentencing that morning, distinguishing March conviction from later sentence. Biographer Roderick Bradford explicitly dates actual release April29,1880; former April28 is unsupported. Pardon petition confirms Cupid’s Yokes and Ezra Heywood authorship, thirteen-month hard-labor sentence. Do not repeat false Angela Heywood attribution or claim full sentence actually served. Actual admission and possible earlier jail/bail intervals remain unresolved: inherited March20 prison start deliberately not relabeled as verified."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "batch": 1209,
+  "profiles_updated": 2,
+  "full_snapshot_comparison_passed": true,
+  "unrelated_fields_preserved": true,
+  "idempotent_replay": "B1209-OK; all already applied",
+  "changes": [
+    {
+      "table": "prisoner_cases",
+      "id": "9aeb8a83-38cc-45da-8c4d-35e264954786",
+      "name": "Emma Goldman",
+      "changes": {
+        "arrest_date": [
+          "1917-06-14 00:00:00",
+          "1917-06-15"
+        ],
+        "sentenced_date": [
+          "1917-07-08 00:00:00",
+          "1917-07-09"
+        ],
+        "incarceration_date": [
+          "1917-06-14 00:00:00",
+          "1917-06-15"
+        ],
+        "release_date": [
+          "1919-09-26 00:00:00",
+          "1919-09-27"
+        ],
+        "imprisoned_for_days": [
+          834,
+          627
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:17",
+          "2026-10-18 23:58:54"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ],
+        "custody_periods": [
+          null,
+          "[{\"start\":\"1917-06-15\",\"end\":\"1917-06-21\"},{\"start\":\"1917-07-09\",\"end\":\"1917-07-28\"},{\"start\":\"1918-02-02\",\"end\":\"1919-09-27\"}]"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "55463321-993b-41bb-bae2-7214f1a77683",
+      "name": "Alexander Berkman",
+      "changes": {
+        "arrest_date": [
+          "1917-06-14 00:00:00",
+          "1917-06-15"
+        ],
+        "sentenced_date": [
+          "1917-07-08 00:00:00",
+          "1917-07-09"
+        ],
+        "incarceration_date": [
+          "1917-06-14 00:00:00",
+          "1917-06-15"
+        ],
+        "release_date": [
+          "1919-09-30 00:00:00",
+          "1919-10-01"
+        ],
+        "imprisoned_for_days": [
+          838,
+          744
+        ],
+        "updated_at": [
+          "2026-05-10 06:33:17",
+          "2026-10-18 23:58:54"
+        ],
+        "date_precision": [
+          null,
+          "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\",\"sentenced_date\":\"day\"}"
+        ],
+        "custody_periods": [
+          null,
+          "[{\"start\":\"1917-06-15\",\"end\":\"1917-06-25\"},{\"start\":\"1917-07-09\",\"end\":\"1917-11-14\"},{\"start\":\"1918-02-02\",\"end\":\"1919-10-01\"}]"
+        ]
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "id": "fc068b68-ffb4-4db7-940c-b6f0b47b7226",
+      "name": "Alexander Berkman",
+      "changes": {
+        "incarceration_date": [
+          "1892-01-01 00:00:00",
+          "1892-07-23"
+        ],
+        "sentence": [
+          "He served nearly fourteen years in prison before his release on May 18, 1906.",
+          "22 years imprisonment"
+        ],
+        "imprisoned_for_days": [
+          null,
+          5046
+        ],
+        "updated_at": [
+          "2026-10-17 07:04:12",
+          "2026-10-18 23:58:54"
+        ],
+        "date_precision": [
+          "{\"incarceration_date\":\"year\",\"release_date\":\"day\",\"arrest_date\":\"day\"}",
+          "{\"incarceration_date\":\"day\",\"release_date\":\"day\",\"arrest_date\":\"day\"}"
+        ]
+      }
+    }
+  ]
+}
