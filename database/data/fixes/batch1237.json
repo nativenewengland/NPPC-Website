@@ -1,0 +1,48 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "David Mathews",
+      "expected": {
+        "id": "614c2827-9d2f-4016-8e54-2924e6307b32",
+        "prisoner_id": "2f6f2cfc-e5d4-4314-90fd-ae011c9b35ea",
+        "institution_id": "2949bd78-8919-4570-b7e3-a693764841c7",
+        "charges": "Conspiracy against the American cause (the alleged \u201cHickey Plot\u201d) \u2014 arrested as the Loyalist Mayor of New York City in 1776.",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "No",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Banishment and estate confiscation",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-06 10:15:43",
+        "updated_at": "2026-07-29 17:05:30",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1776-06-01 00:00:00",
+        "incarceration_date": "1776-06-01 00:00:00",
+        "release_date": "1776-11-01 00:00:00",
+        "date_precision": "{\"arrest_date\":\"month\",\"incarceration_date\":\"month\",\"release_date\":\"month\"}"
+      },
+      "sources": [
+        "https://archive.org/download/litchfieldcenten00litc/litchfieldcenten00litc_djvu.txt",
+        "https://www.revwartalk.com/david-mathews/",
+        "https://www.biographi.ca/en/bio/mathews_david_4F.html",
+        "https://www.jstor.org/stable/jj.7471123"
+      ],
+      "research_note": "Litchfield Centennial Celebration (1876), pp.33-35 reproduces Mathews August12, August20/22 and September26,1776 letters and Trumbull custody order. Custody included residence under keeper and guarded permitted walks, not solely jail. ArrestJune21 in local history vs June22 in modern scholarship: monthJune only. Seymour notice Connecticut Journal Nov27,1776 reproduced by RevWarTalk: escape night after20th; record monthNovember only, no unverified exact day. December2 letter reports arrival NewYork after escape, not discharge. Existing schema release_date denotes end of restraint including escape. Public biography erroneous1777 escape year flagged for later minimal factual correction; no biography rewrite or note additions. Calendar-month duration5, not invented day count."
+    }
+  ]
+}
