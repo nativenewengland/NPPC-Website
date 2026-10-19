@@ -1,13 +1,13 @@
 {
   "scope": 210,
-  "profiles_changed_live": 33,
+  "profiles_changed_live": 34,
   "status_counts": {
     "verified_correction_applied": 25,
     "scan_false_positive": 63,
-    "source_verification_pending": 110,
+    "source_verification_pending": 109,
     "custody_corrected_further_case_review": 4,
     "scan_false_positive_further_review": 4,
-    "sentence_corrected_custody_pending": 4
+    "sentence_corrected_custody_pending": 5
   },
   "complete": false,
   "policy": "Never cap actual custody at nominal sentence or invent a release. No new case notes. False-positive classification addresses scan match only, not an independent audit of every historical fact.",
@@ -1600,9 +1600,32 @@
           "excess_minimum_days": 532
         }
       ],
-      "status": "source_verification_pending",
-      "finding": "Original flag retained for individual source review; no unsupported date changes.",
-      "live_changes": []
+      "status": "sentence_corrected_custody_pending",
+      "finding": "Original appeals opinion verifies final41-month term, May31 initial hearing and August3 resentencing. Biography corrected; pretrial bail, admission and release chronology still requires source verification.",
+      "live_changes": [
+        {
+          "batch": 1212,
+          "table": "prisoners",
+          "fields": [
+            "description"
+          ],
+          "sources": [
+            "https://cases.justia.com/federal/appellate-courts/ca9/07-30334/920080811/0.pdf"
+          ],
+          "research_note": "Original NinthCircuit2008 opinion pp11-16,28 confirms May31 initial46-month sentence, August3 reopened hearing and final41months. Biography incorrectly gave May24 and only unrevised46. Case already held41month fact but with appended chronology; clean field to sentence only. Actual admission, release and pretrial bail chronology remain pending; do not cap inherited custody at41months."
+        },
+        {
+          "batch": 1212,
+          "table": "prisoner_cases",
+          "fields": [
+            "sentence"
+          ],
+          "sources": [
+            "https://cases.justia.com/federal/appellate-courts/ca9/07-30334/920080811/0.pdf"
+          ],
+          "research_note": "Original NinthCircuit2008 opinion pp11-16,28 confirms May31 initial46-month sentence, August3 reopened hearing and final41months. Biography incorrectly gave May24 and only unrevised46. Case already held41month fact but with appended chronology; clean field to sentence only. Actual admission, release and pretrial bail chronology remain pending; do not cap inherited custody at41months."
+        }
+      ]
     },
     {
       "index": 39,
