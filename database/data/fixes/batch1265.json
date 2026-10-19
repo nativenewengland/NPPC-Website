@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "expected": {
+        "id": "e236b3d4-c985-4710-8947-bd1fee89e72e",
+        "prisoner_id": "ada51c8a-aafe-40a8-827a-dd515e120b7f",
+        "institution_id": null,
+        "charges": "Publishing an article against martial law (court-martial, New Orleans, March 1815)",
+        "arrest_date": "1815-03-05",
+        "indicted": null,
+        "convicted": "No — charges dismissed",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1815-03-05",
+        "release_date": "1815-03-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": null,
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-09 14:05:55",
+        "updated_at": "2026-10-18 21:58:07",
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}",
+        "release_date": "1815-03-13 00:00:00"
+      },
+      "name": "Louis Louaillier",
+      "research_note": "Alcee Fortier, A History of Louisiana vol. III p.159, scan PDF page195: March13 official dispatch, pardon proclamation, Louallier was liberated. Distinguishes earlier acquittal and Hall exile. Refine existing March endpoint to March13. Preserve biography and notes.",
+      "sources": [
+        "https://archive.org/download/historyoflouisia03fortuoft/historyoflouisia03fortuoft.pdf"
+      ]
+    }
+  ]
+}
