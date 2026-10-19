@@ -1,0 +1,43 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "Fred Burton surrender month",
+      "expected": {
+        "id": "074e34d8-88ac-4aed-9569-03434d20e6cc",
+        "prisoner_id": "05aa8545-ae84-46e3-b9b1-358899cd90aa",
+        "institution_id": "139c5b77-81a3-46fc-858d-4cb92214f601",
+        "charges": "Murder of Philadelphia police sergeant Frank Von Colln (1970; attributed to the Black Unity Council)",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1970-01-01 00:00:00",
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Life",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-06-26 05:33:34",
+        "updated_at": "2026-10-14 00:00:37",
+        "date_precision": "{\"incarceration_date\":\"year\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "arrest_date": "1970-09-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"year\",\"arrest_date\":\"month\"}"
+      },
+      "sources": [
+        "https://www.abcf.net/wp-content/uploads/2023/01/Fred-Burton-Copy.pdf"
+      ],
+      "research_note": "ABC leaflet says surrendered a month after August 29 1970. Record September 1970 month precision, as clarified to user. September 1 is storage placeholder only; continuous incarceration start remains separately unresolved."
+    }
+  ]
+}
