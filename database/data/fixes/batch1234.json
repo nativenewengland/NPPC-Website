@@ -1,0 +1,46 @@
+{
+  "operations": [
+    {
+      "table": "prisoner_cases",
+      "name": "William Durrell",
+      "expected": {
+        "id": "37d4fcef-3104-4e3b-aa10-68707090b2c4",
+        "prisoner_id": "45f6820a-bc1c-4d36-87d8-a2d159c9b471",
+        "institution_id": null,
+        "charges": "Federal common-law sedition",
+        "arrest_date": "1798-07-17 00:00:00",
+        "indicted": null,
+        "convicted": "Yes",
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": "1800-01-01 00:00:00",
+        "release_date": "1801-01-01 00:00:00",
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": null,
+        "sentence": "Four months and a fine; partial pardon.",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-07-17 16:26:02",
+        "updated_at": "2026-10-14 00:00:26",
+        "date_precision": "{\"incarceration_date\":\"year\",\"release_date\":\"year\",\"arrest_date\":\"day\"}",
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "incarceration_date": "1800-04-01 00:00:00",
+        "release_date": "1800-04-01 00:00:00",
+        "date_precision": "{\"incarceration_date\":\"month\",\"release_date\":\"month\",\"arrest_date\":\"day\"}"
+      },
+      "sources": [
+        "https://www.mofirst.org/docs/Sedition_Act_cases-2.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/Annual_report_of_the_American_Historical_Association_%28IA_annualreporto1912amer%29.pdf",
+        "https://journals.psu.edu/phj/article/download/25621/25390/25460"
+      ],
+      "research_note": "Gordon T Belt, First Amendment Center, Sedition Act history pp.1-2: sentence began one day before Harison letter, April10,1800; April22 partial pardon and release after less than two weeks. AHA report archival citations corroborate April10 letter and April22 clemency correspondence. Set April1800 month precision for both endpoints; exact physical discharge day not inferred from pardon. Removes incorrect1801 endpoint. Pretrial bail July1798 not counted as continuous imprisonment. Same-month difference is0months; no new useful counter or exact total claimed. Biography and notes untouched."
+    }
+  ]
+}
