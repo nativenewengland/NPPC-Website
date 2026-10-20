@@ -1,0 +1,40 @@
+{
+  "expected": {
+    "id": "d1cde946-4a33-419a-9efd-ea428bae6592",
+    "prisoner_id": "fdd01d4f-7ef2-4f3d-a5db-c7c5cc886110",
+    "institution_id": null,
+    "charges": "Assault on a federal officer.",
+    "arrest_date": "2026-01-14 00:00:00",
+    "indicted": null,
+    "convicted": "No — charges dismissed",
+    "plead": null,
+    "sentenced_date": "2026-04-01 00:00:00",
+    "incarceration_date": null,
+    "release_date": null,
+    "death_in_custody_date": null,
+    "in_exile_since": null,
+    "end_of_exile": null,
+    "prosecutor": null,
+    "judge": null,
+    "sentence": "Charges dismissed with prejudice.",
+    "imprisoned_for_days": null,
+    "in_exile_for_days": null,
+    "created_at": "2026-05-25 01:49:27",
+    "updated_at": "2026-07-29 17:12:19",
+    "date_precision": null,
+    "imprisoned_for_months": null,
+    "documented_imprisoned_for_days": null,
+    "custody_periods": null
+  },
+  "updates": {
+    "incarceration_date": "2026-01-14 00:00:00",
+    "sentenced_date": null,
+    "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\"}"
+  },
+  "sources": [
+    "https://minnesotareformer.com/2026/02/05/two-men-charged-with-assaulting-agents-in-ice-shooting-released-by-a-judge-re-detained-by-ice/",
+    "https://habeasdockets.org/dockets/docket/17689/",
+    "https://www.nacdl.org/getattachment/4725e5c8-077e-42a3-8a23-88a1247479bb/8-gov-uscourts-mnd-230474-49-0.pdf"
+  ],
+  "research_note": "January14 actual arrest and continuoushospital/criminalcustody; startadded. April1 recorded as sentencing is wrong: chargesdismissedFeb13, notsentenced. Clear sentencingdate, preserve biography andexistingoutcome. Release remainsnull; Feb3criminalorder followed immediateICEdetention; Feb7habeasorder notactualdischarge proof."
+}
