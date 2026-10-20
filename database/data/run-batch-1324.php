@@ -1,0 +1,5 @@
+<?php
+require '/var/www/NPPC-Website/vendor/autoload.php';$app=require '/var/www/NPPC-Website/bootstrap/app.php';$app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+use Illuminate\Support\Facades\DB;use Illuminate\Support\Facades\Cache;
+$d=json_decode(file_get_contents('/tmp/batch1324.json'),true,512,JSON_THROW_ON_ERROR);
+DB::transaction(function()use($d){$id=$d['before']['prisoners'][0]['id'];$p=(array)DB::table('prisoners')->where('id',$id)->first();if($p!==$d['before']['prisoners'][0])throw new RuntimeException('Profile changed');$ids=array_column($d['inserts'],'id');$old=DB::table('prisoner_cases')->where('prisoner_id',$id)->whereNotIn('id',$ids)->get()->map(fn($x)=>(array)$x)->all();if($old!==$d['before']['cases'])throw new RuntimeException('Cases changed');foreach($d['inserts'] as $c){$r=DB::table('prisoner_cases')->where('id',$c['id'])->first();if($r){if((array)$r!==$c)throw new RuntimeException('Inserted row changed');continue;}DB::table('prisoner_cases')->insert($c);}echo "Rider separate2008 custody start verified\n";});Cache::forget(App\Http\Controllers\Api\PrisonerApiController::cacheKey());echo "B1324-OK\n";
