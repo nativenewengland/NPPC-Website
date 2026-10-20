@@ -1,0 +1,39 @@
+{
+  "expected": {
+    "id": "ece784f8-4a24-4de6-a9b1-89a69d58bbc3",
+    "prisoner_id": "2a8db721-ce06-41e4-b3bd-e8512e085efb",
+    "institution_id": null,
+    "charges": "False imprisonment, obstruction of a thoroughfare, unlawful assembly",
+    "arrest_date": "2024-04-15 00:00:00",
+    "indicted": null,
+    "convicted": "Yes",
+    "plead": null,
+    "sentenced_date": "2026-08-21 00:00:00",
+    "incarceration_date": null,
+    "release_date": null,
+    "death_in_custody_date": null,
+    "in_exile_since": null,
+    "end_of_exile": null,
+    "prosecutor": null,
+    "judge": null,
+    "sentence": "30 days, split between jail and a work program; six months probation. Jail stayed pending appeal. Four pretrial days credited.",
+    "imprisoned_for_days": null,
+    "in_exile_for_days": null,
+    "created_at": "2026-10-05 02:27:56",
+    "updated_at": "2026-10-05 02:27:56",
+    "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\"}",
+    "imprisoned_for_months": null,
+    "documented_imprisoned_for_days": null,
+    "custody_periods": null
+  },
+  "updates": {
+    "incarceration_date": "2024-04-15 00:00:00",
+    "date_precision": "{\"arrest_date\":\"day\",\"sentenced_date\":\"day\",\"incarceration_date\":\"day\"}"
+  },
+  "sources": [
+    "https://www.cbsnews.com/sanfrancisco/news/golden-gate-bridge-protesters-released-after-sf-da-jenkins-asks-for-more-conspiracy-evidence/",
+    "https://www.kqed.org/news/11999854/golden-gate-bridge-protesters-surrender-to-face-controversial-false-imprisonment-charges",
+    "https://www.kqed.org/news/12096244/pro-palestinian-protesters-get-jail-time-for-golden-gate-bridge-shutdown"
+  ],
+  "research_note": "April15 initial arrest involved actual jail custody. Separate August surrender must not be merged into uninterrupted imprisonment. Four days credit not assumed four elapsed days; thirty-day sentence stayed pending appeal, not served. Final custody endpoint remains unresolved."
+}
