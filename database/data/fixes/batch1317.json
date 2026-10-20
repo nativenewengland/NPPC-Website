@@ -1,0 +1,39 @@
+{
+  "expected": {
+    "id": "e1d2eceb-88af-4cfe-a001-59866fcfcac0",
+    "prisoner_id": "e77be7fe-e8b1-4346-b2b9-6716f0e8d8d1",
+    "institution_id": null,
+    "charges": "False imprisonment, obstruction of a thoroughfare, unlawful assembly",
+    "arrest_date": "2024-04-15 00:00:00",
+    "indicted": null,
+    "convicted": "Yes",
+    "plead": null,
+    "sentenced_date": null,
+    "incarceration_date": null,
+    "release_date": null,
+    "death_in_custody_date": null,
+    "in_exile_since": null,
+    "end_of_exile": null,
+    "prosecutor": null,
+    "judge": null,
+    "sentence": "30 days, split between jail and a work program; six months probation. Jail stayed pending appeal. Four pretrial days credited.",
+    "imprisoned_for_days": null,
+    "in_exile_for_days": null,
+    "created_at": "2026-10-05 02:27:56",
+    "updated_at": "2026-10-05 02:27:56",
+    "date_precision": "{\"arrest_date\":\"day\"}",
+    "imprisoned_for_months": null,
+    "documented_imprisoned_for_days": null,
+    "custody_periods": null
+  },
+  "updates": {
+    "incarceration_date": "2024-04-15 00:00:00",
+    "release_date": "2024-04-01 00:00:00",
+    "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"month\"}"
+  },
+  "sources": [
+    "https://abc7news.com/post/26-gaza-war-protesters-released-by-san-francisco-district-attorney-pending-further-investigation/14684493/",
+    "https://www.cbsnews.com/sanfrancisco/news/pro-palestinian-protesters-golden-gate-bridge-gg26-2024-sentencing/"
+  ],
+  "research_note": "Named defendant among26 April15 arrestees, all26 released by April18 report. Exact discharge day not stated; release stored April2024 month precision. April1 is placeholder not actual discharge. Four credited pretrial days not treated as elapsed duration, August2024 surrender separate. No bio or case notes changed."
+}
