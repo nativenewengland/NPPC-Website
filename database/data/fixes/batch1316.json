@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "table": "prisoners",
+      "expected": {
+        "id": "d5e56091-5548-4a7a-aae9-7ba93707a9eb",
+        "name": "Hector Daniel Ramos",
+        "sort_order": 2511,
+        "photo": null,
+        "description": "Hector Daniel Ramos of Alhambra was taken into federal custody in a prosecution arising from the June 8, 2025 protest against immigration enforcement in downtown Los Angeles. Prosecutors alleged that defendants threw rocks and other objects at California Highway Patrol officers beneath the Main Street overpass. An October 29 Justice Department announcement identified Ramos among those in federal custody awaiting initial appearances. The April 20, 2026 court calendar subsequently listed him on bond. The reviewed sources do not establish a conviction or final sentence.",
+        "years_in_prison": null,
+        "state": "California",
+        "address": null,
+        "lat": null,
+        "lng": null,
+        "first_name": "Hector",
+        "middle_name": "Daniel",
+        "last_name": "Ramos",
+        "aka": null,
+        "race": null,
+        "gender": null,
+        "birthdate": null,
+        "death_date": null,
+        "age": null,
+        "ideologies": null,
+        "era": "2020s",
+        "affiliation": null,
+        "in_custody": 0,
+        "released": 0,
+        "in_exile": 0,
+        "currently_in_exile": 0,
+        "website": null,
+        "twitter": null,
+        "facebook": null,
+        "instagram": null,
+        "inmate_number": null,
+        "awaiting_trial": 0,
+        "created_at": "2026-10-05 20:52:46",
+        "updated_at": "2026-10-05 20:52:46",
+        "slug": "hector-daniel-ramos",
+        "body": null,
+        "under_review": 0,
+        "imprisoned_or_exiled": 0,
+        "date_precision": null,
+        "minor_case": 0
+      },
+      "updates": {
+        "released": 1
+      }
+    },
+    {
+      "table": "prisoner_cases",
+      "expected": {
+        "id": "2c7fc691-240d-4717-b01b-0b0ae63ee9ee",
+        "prisoner_id": "d5e56091-5548-4a7a-aae9-7ba93707a9eb",
+        "institution_id": null,
+        "charges": "Obstructing, impeding and interfering with law enforcement during civil disorder (18 U.S.C. \u00a7 231(a)(3)); allegations",
+        "arrest_date": null,
+        "indicted": null,
+        "convicted": null,
+        "plead": null,
+        "sentenced_date": null,
+        "incarceration_date": null,
+        "release_date": null,
+        "death_in_custody_date": null,
+        "in_exile_since": null,
+        "end_of_exile": null,
+        "prosecutor": null,
+        "judge": "John F. Walter",
+        "sentence": "Federal custody confirmed by October 29, 2025; listed on bond for the April 20, 2026 status conference in case 25-731. Exact arrest and release dates and actual detention duration are not established. No conviction or sentence verified in reviewed sources. The five-year statutory maximum stated in the charging announcement is not an imposed sentence. Sources: https://www.justice.gov/usao-cdca/pr/10-arrested-federal-complaints-charging-them-committing-violence-against-officers-and ; https://apps.cacd.uscourts.gov/JpsApi/file/cfad75b1-e443-4c3e-a043-08de9c92672c",
+        "imprisoned_for_days": null,
+        "in_exile_for_days": null,
+        "created_at": "2026-10-05 20:52:46",
+        "updated_at": "2026-10-05 20:52:46",
+        "date_precision": null,
+        "imprisoned_for_months": null,
+        "documented_imprisoned_for_days": null,
+        "custody_periods": null
+      },
+      "updates": {
+        "sentence": null
+      }
+    }
+  ],
+  "sources": [
+    "https://apps.cacd.uscourts.gov/JpsApi/file/cfad75b1-e443-4c3e-a043-08de9c92672c",
+    "https://www.justice.gov/usao-cdca/pr/10-arrested-federal-complaints-charging-them-committing-violence-against-officers-and"
+  ],
+  "research_note": "Official calendar confirms BOND status by April17 2026, October29 announcement confirms custody by then, but exact arrest and discharge unresolved. Set released flag; clear sentence field containing only research commentary under user prior instruction. Do not add case notes or modify bio."
+}
