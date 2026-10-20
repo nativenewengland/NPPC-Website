@@ -1,0 +1,39 @@
+{
+  "expected": {
+    "id": "cd1f57f3-e1e2-42fb-8ee5-dd1d85e8120f",
+    "prisoner_id": "a5465ce0-b279-44b2-bc62-fd63c7fb7219",
+    "institution_id": "fdcf9b33-2c08-4003-a71c-80e37dc59475",
+    "charges": "Federal arson (18 U.S.C. 844) — fire that destroyed ten NYPD vehicles and a trailer, Bushwick, Brooklyn, June 12, 2025",
+    "arrest_date": "2025-07-21 00:00:00",
+    "indicted": null,
+    "convicted": "Yes — guilty plea",
+    "plead": "Guilty on April 8, 2026",
+    "sentenced_date": null,
+    "incarceration_date": null,
+    "release_date": "2025-07-22 00:00:00",
+    "death_in_custody_date": null,
+    "in_exile_since": null,
+    "end_of_exile": null,
+    "prosecutor": "Rebecca M. Urquiola, Assistant U.S. Attorney",
+    "judge": "Seth D. Eichenholtz (guilty-plea proceeding)",
+    "sentence": "Awaiting sentencing on October 30, 2026; statutory range of 5 to 20 years.",
+    "imprisoned_for_days": null,
+    "in_exile_for_days": null,
+    "created_at": "2026-07-22 01:32:18",
+    "updated_at": "2026-10-16 03:42:24",
+    "date_precision": "{\"arrest_date\":\"day\",\"release_date\":\"day\"}",
+    "imprisoned_for_months": null,
+    "documented_imprisoned_for_days": null,
+    "custody_periods": null
+  },
+  "updates": {
+    "incarceration_date": "2025-07-21 00:00:00",
+    "date_precision": "{\"arrest_date\":\"day\",\"incarceration_date\":\"day\",\"release_date\":\"day\"}"
+  },
+  "sources": [
+    "https://www.justice.gov/usao-edny/pr/brooklyn-man-charged-arson-10-nypd-vehicles",
+    "https://jakhisolidarity.noblogs.org/",
+    "https://www.amny.com/news/alleged-brooklyn-arsonist-re-arrested-nypd-07212025/"
+  ],
+  "research_note": "July21 surrender and actual detention confirmed; support committee confirms July22 physical release to house arrest. Federal release followed police custody before final July22 discharge. Add missing start, preserve existing endpoint; home detention not counted as jail. Biography/photo untouched."
+}
